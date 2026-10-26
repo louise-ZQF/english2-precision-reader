@@ -1737,7 +1737,7 @@
                     g.items.forEach(file => {
                         const a = document.createElement('a');
                         a.className = 'material-item';
-                        a.href = MATERIALS_BASE + encodeURIComponent(file.name);
+                        a.href = file.url || (MATERIALS_BASE + encodeURIComponent(file.name));
                         a.download = file.name;
                         a.target = '_blank';
                         a.innerHTML = '<div class="material-item-left">' +

@@ -125,7 +125,7 @@
   }
 
   // ==================== 工具 ====================
-  function normalizeWord(w) { return String(w).toLowerCase().replace(/[^a-z'-]/g, ''); }
+  function normalizeWord(w) { return String(w).toLowerCase().replace(/[^a-z'\s-]/g, '').replace(/\s+/g, ' ').trim(); }
   function escapeHtml(s) {
     if (s == null) return '';
     return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
@@ -162,6 +162,7 @@
     return dictPending;
   }
   function lookupDict(word) {
+    if (window.EnglishPrecision) { var study = window.EnglishPrecision.studyEntry(word); if (study) return study; }
     if (!dictCache) return null;
     var dict = dictCache.dict || {};
     var key = normalizeWord(word);
@@ -310,7 +311,7 @@
       if (!dict && !dictPending) html += '<div class="srs-missing">（这个词暂无释义）</div>';
     } else {
       if (dict && dict.s && dict.s.length) {
-        html += '<div class="srs-senses">' + dict.s.slice(0, 12).map(function (s) {
+        html += '<div class="srs-senses">' + dict.s.slice(0, 3).map(function (s) {
           return '<div class="srs-sense"><span class="srs-sense-pos">' + escapeHtml(posLabel(s.p)) + '</span><span>' + escapeHtml(s.t) + '</span></div>';
         }).join('') + '</div>';
       }

@@ -59,6 +59,7 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="css/precision.css?v=6499c2c237">
 </head>
 <body>
 <script>
@@ -104,6 +105,8 @@
 <nav class="snav">
         <a class="snav-brand" href="/">考研英语二</a>
         <div class="snav-links">
+            <button id="precisionModeBtn" class="precision-mode-btn" type="button" aria-pressed="false">进入精翻</button>
+            <button id="sentenceBookBtn" class="precision-library-btn" type="button">长难句 <span id="sentenceBookCount">0</span></button>
             
             <a class="snav-link active" href="/english/">考研英语二单词本</a>
         </div>
@@ -118,12 +121,9 @@
                 <div class="brand-text">
                     <div class="brand-title-row">
                         <h1>考研英语二真题单词本</h1>
-                        <button id="dblModeBtn" class="dbl-mode" type="button" title="单击单词行为：收藏 / 整句翻译" aria-label="单击行为切换">
-                            <span class="dbl-mode-track"><i class="dbl-mode-knob"></i></span>
-                            <span class="dbl-mode-state">收藏</span>
-                        </button>
+
                     </div>
-                    <span class="brand-sub">点击任意单词即可收藏 · 收藏后即可开始背诵</span>
+                    <span class="brand-sub">普通阅读 · 进入精翻后单击查义，双击收藏</span>
                 </div>
             </div>
             <div class="header-actions">
@@ -195,13 +195,13 @@
                         </div>
                         <div class="tip-text">
                             <ul class="tip-list">
-                                <li><span class="tip-k">单击单词</span><span class="tip-v">收藏 / 取消收藏</span></li>
-                                <li><span class="tip-k">长按 / 悬停</span><span class="tip-v">查看释义</span></li>
+                                <li><span class="tip-k">单击词语</span><span class="tip-v">精翻模式下查看语境义</span></li>
+                                <li><span class="tip-k">双击词语</span><span class="tip-v">收藏单词或整个词组</span></li>
                                 <li><span class="tip-k">右上角</span><span class="tip-v">查看 / 复制单词</span></li>
                                 <li><span class="tip-k">真题详解</span><span class="tip-v">可下载历年详解</span></li>
                                 <li><span class="tip-k">数据管理</span><span class="tip-v">用于更换设备时数据备份与传递</span></li>
                                 <li><span class="tip-k">开始背诵</span><span class="tip-v">SRS 间隔重复背诵单词 · 可提交纠错，修改成合适释义</span></li>
-                                <li><span class="tip-k">整句翻译</span><span class="tip-v">手机通过右上角开关切换至翻译模式，点击单词可查对应句子翻译；电脑划选即可翻译</span></li>
+                                <li><span class="tip-k">整句翻译</span><span class="tip-v">进入精翻后，点句号旁编号或选中后点翻译；右键可收藏任意长度的长难句</span></li>
                             </ul>
                             <button id="friendBtn" class="tip-friend" title="加我微信，交个朋友">交个朋友？👋</button>
                         </div>
@@ -486,11 +486,12 @@
 
     <!-- Local snapshot: upstream telemetry / search-engine submission removed. -->
     <script src="js/srs-engine.js?v=8490033f16"></script>
-    <script src="js/srs-panel.js?v=c8e609233c"></script>
-    <script src="js/correction.js?v=67f24a2f54"></script>
+    <script src="js/srs-panel.js?v=09283b0ad1"></script>
+    <script src="js/correction.js?v=f6ca69154b"></script>
     <script src="js/tts.js?v=fd467c62e1"></script>
     <script src="js/qrcode.min.js?v=170c529753"></script>
-    <script src="js/app.js?v=4e57ffdc02"></script>
+    <script src="js/precision.js?v=2d4a1cd17f"></script>
+    <script src="js/app.js?v=6cd30c29b7"></script>
     <!-- Local snapshot: upstream telemetry / search-engine submission removed. -->
 </body>
 </html>

@@ -145,7 +145,7 @@
     }
 
     function normalizeWord(w) {
-        return w.toLowerCase().replace(/[^a-z'-]/g, '');
+        return String(w).toLowerCase().replace(/[\u2018\u2019]/g, "'").replace(/[^a-z'\s-]/g, '').replace(/\s+/g, ' ').trim();
     }
 
     // 不规则动词过去式/过去分词 → 原形。
@@ -1033,7 +1033,7 @@
 
         if (words.length === 0) {
             el.wordListContainer.innerHTML = '<div class="empty-state">' +
-                (keyword ? '没有匹配「' + escapeHtml(keyword) + '」的单词' : '还没有收藏任何单词<br>点击真题正文中的单词即可收藏') +
+                (keyword ? '没有匹配「' + escapeHtml(keyword) + '」的单词' : '还没有收藏词语<br>进入精翻，双击单词或词组即可收藏') +
                 '</div>';
             return;
         }
@@ -1055,7 +1055,7 @@
                 ? '<span class="word-freq" title="' + escapeHtml(freqTitle) + '">' + count + ' 次</span>'
                 : '';
             return '<div class="word-list-item">' +
-                '<span class="word-text">' + escapeHtml(w.word) + '</span>' +
+                '<div class="word-item-main"><span class="word-text">' + escapeHtml(w.word) + '</span>' + (w.kind === 'phrase' ? '<span class="precision-kind">词组</span>' : '') + (w.meaning ? '<div class="word-item-meaning">' + escapeHtml(w.meaning) + '</div>' : '') + '</div>' +
                 '<div class="word-item-side">' +
                     (examLabel ? '<span class="word-meta">' + escapeHtml(examLabel) + '</span>' : '') +
                     freqHtml +
@@ -1143,7 +1143,8 @@
                 srs: srs,
                 srsLimits: localStorage.getItem(SRS_LIMITS_KEY),
                 dblMode: localStorage.getItem(DBL_MODE_KEY),
-                tts: localStorage.getItem(SRS_TTS_KEY)
+                tts: localStorage.getItem(SRS_TTS_KEY),
+                precision: window.EnglishPrecision ? window.EnglishPrecision.exportData() : null
             }
         };
     }
@@ -1180,8 +1181,9 @@
         }
         const wc = words ? Object.keys(words).length : 0;
         const sc = srs && srs.cards ? Object.keys(srs.cards).length : 0;
+        const sentenceCount = obj.data.precision && Array.isArray(obj.data.precision.sentences) ? obj.data.precision.sentences.length : 0;
         const ok = confirm(
-            '将把备份数据导入到本设备：\n\n· 收藏单词 ' + wc + ' 个\n· 背词进度 ' + sc + ' 张卡片\n· 设置（单击行为 / 每日上限等）\n\n' +
+            '将把备份数据导入到本设备：\n\n· 收藏单词 ' + wc + ' 个\n· 背词进度 ' + sc + ' 张卡片\n· 长难句 ' + sentenceCount + ' 条（备份有此项时导入）\n· 设置（精翻 / 每日上限等）\n\n' +
             '导入会覆盖本设备的当前数据，继续？'
         );
         if (!ok) return false;
@@ -1191,6 +1193,7 @@
             if (typeof obj.data.srsLimits === 'string') localStorage.setItem(SRS_LIMITS_KEY, obj.data.srsLimits);
             if (obj.data.dblMode === 'translate' || obj.data.dblMode === 'collect') localStorage.setItem(DBL_MODE_KEY, obj.data.dblMode);
             if (obj.data.tts === '1' || obj.data.tts === '0') localStorage.setItem(SRS_TTS_KEY, obj.data.tts);
+            if (obj.data.precision && window.EnglishPrecision) window.EnglishPrecision.importData(obj.data.precision);
             if (fromCode) {
                 try {
                     const u = new URL(location.href);
@@ -1349,21 +1352,7 @@
             if (prev && !/[.!?]["'\u201d\u2019)\]]*$/.test(prev)) joined[joined.length - 1] = prev + ' ' + t;
             else joined.push(t);
         }
-        const MAX = 520;
-        const out = [];
-        for (const t of joined) {
-            if (t.length <= MAX) { out.push(t); continue; }
-            let start = 0;
-            const re = /[.!?]["'\u201d\u2019)\]]*\s+(?=["'\u201c(]?[A-Z0-9])/g;
-            let m;
-            while ((m = re.exec(t)) !== null) {
-                const cut = m.index + m[0].length;
-                if (cut - start >= 420) { out.push(t.slice(start, cut).trim()); start = cut; }
-            }
-            if (start < t.length) out.push(t.slice(start).trim());
-        }
-        const res = out.filter(Boolean);
-        return res.length ? res : [text.trim()];
+        return joined.length ? joined : [text.trim()];
     }
 
     function renderChoiceParagraph(text) {
@@ -1423,7 +1412,7 @@
 
         html += '<div class="hint-bar">' +
             '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>' +
-            '点击正文中的任意英文单词即可收藏，再次点击取消收藏' +
+            '进入精翻后：单击查义 · 双击收藏 · 选中后翻译或右键收藏长难句' +
             '</div>';
 
         (exam.sections || []).forEach(section => {
@@ -1465,7 +1454,7 @@
                     if (part.texts) {
                         part.texts.forEach(text => {
                             html += '<h5 class="text-title">' + escapeHtml(text.title || '') + '</h5>';
-                            (text.paragraphs || []).forEach(p => {
+                            passageParagraphs((text.paragraphs || []).join('\n\n')).forEach(p => {
                                 html += '<p class="paragraph">' + renderClickableText(p) + '</p>';
                             });
                             html += renderQuestions(text.questions);
@@ -1504,6 +1493,7 @@
         });
 
         el.examContent.innerHTML = html;
+        if (window.EnglishPrecision) window.EnglishPrecision.onRendered(exam);
     }
 
     // ==================== 真题列表 ====================
@@ -2182,184 +2172,7 @@
         // 侧栏「使用提示」折叠（PC 默认收起，给真题列表让出高度）
         initTipCollapse();
 
-        // 单击 = 收藏/取消收藏（纯 toggle）——**只在收藏模式**
-        el.examContent.addEventListener('click', (e) => {
-            if (suppressClick) {
-                suppressClick = false;
-                return;
-            }
-            const span = e.target.closest('span.word');
-            // 翻译模式：单击 = 句译。这里**绝不能**落到收藏上——否则「点词没弹气泡」
-            // 会被悄悄变成「误收藏」：用户看不到译文，只看到那个词多了个收藏标记。
-            // 能走到这里，说明 touchend 没能处理这次点击（手指漂移越过了下面的 8px 阈值、
-            // 但浏览器判定这是一次点击而非滚动）。用浏览器自己的判定兜底：
-            // 它只在「真的算点击（页面没滚动）」时才补发 click。
-            // 实测（iPhone 13 视口，CDP 触摸）：漂移 14px → click 有、Δscroll=0、气泡 0/5；
-            // 漂移 16px 以上 → click 无、Δscroll>0（真滚动）→ 保持不弹，正确。
-            if (dblMode === 'translate') {
-                if (Date.now() - lastLongPressAt < 700) return; // 长按刚弹出词典气泡，别顶掉
-                // 只认「正文/题干/选项」范围内的点击，别把正文里的按钮点击也当点词
-                const inText = span || (e.target.closest &&
-                    e.target.closest('p.paragraph, p.paragraph-option, p.intro, .question-text, .option, .option-inline, .choice-body'));
-                if (inText && showSentenceBubbleFrom(null, e.clientX, e.clientY)) lastWordTapAt = Date.now();
-                return;
-            }
-            if (span && span.dataset.word) {
-                const word = span.dataset.word;
-                toggleWord(word);
-                if (isBubbleOpen()) showBubble(word, span);
-            }
-        });
-
-        // 长按（触屏）查词：只做手势识别，不再 preventDefault，保留浏览器原生滚动。
-        // 旧实现接管 touchstart 默认行为后，从单词上起手滑动时原生滚动被取消，
-        // 只能靠 window.scrollBy 手动跟随，导致“滑不动/卡顿”；现在交回原生滚动。
-        el.examContent.addEventListener('touchstart', (e) => {
-            const span = e.target.closest('span.word');
-            if (span && span.dataset.word) {
-                const t = e.touches[0];
-                pressStart = { x: t.clientX, y: t.clientY, lastX: t.clientX, lastY: t.clientY, span: span, moved: false, longFired: false };
-                clearTimeout(pressTimer);
-                pressTimer = setTimeout(() => {
-                    if (!span.isConnected || !pressStart || pressStart.moved) return;
-                    pressStart.longFired = true;
-                    lastLongPressAt = Date.now();
-                    if (navigator.vibrate) navigator.vibrate(10);
-                    showBubble(span.dataset.word, span);
-                }, 380);
-                return;
-            }
-            // 翻译模式：题号 / 选项字母 badge / 标点等**非 span.word** 区域也要能点出整句译文。
-            // badge 紧贴正文，手指点偏一点就落在 badge 上，此前 pressStart 为 null →
-            // touchend 直接跳过，表现为「点了题干/选项没反应」。
-            // 收藏模式没有整句概念，保持原样不响应。
-            if (dblMode === 'translate') {
-                const t = e.touches[0];
-                pressStart = { x: t.clientX, y: t.clientY, lastX: t.clientX, lastY: t.clientY, span: null, moved: false, longFired: false };
-            }
-        }, { passive: true });
-        el.examContent.addEventListener('touchmove', (e) => {
-            if (!pressStart) return;
-            const t = e.touches[0];
-            // 记录最后一次触点：touchcancel 后浏览器不再补发 click，兜底时要用这个坐标
-            pressStart.lastX = t.clientX;
-            pressStart.lastY = t.clientY;
-            const dx = t.clientX - pressStart.x;
-            const dy = t.clientY - pressStart.y;
-            if (Math.abs(dx) > 8 || Math.abs(dy) > 8) {
-                clearTimeout(pressTimer);
-                pressStart.moved = true;
-            }
-            // 不做手动滚动：交给浏览器原生滚动，手感与页面其他区域一致
-        }, { passive: true });
-        el.examContent.addEventListener('touchend', (e) => {
-            clearTimeout(pressTimer);
-            const t = e.changedTouches[0];
-            if (pressStart) {
-                let dealt = false;
-                if (!pressStart.moved && !pressStart.longFired) {
-                    const word = pressStart.span ? (pressStart.span.dataset.word || '') : '';
-                    if (dblMode === 'translate') {
-                        // 翻译模式：单击 = 该句翻译弹窗，不碰收藏（长按仍可查词/收藏）
-                        // **只有真的弹了东西才刷新 lastWordTapAt**：点空白时不能刷新，
-                        // 否则下面 900ms 的「别把刚弹出的气泡关掉」兜底会挡住关闭，
-                        // 用户点了空处气泡却不消失。
-                        if (showSentenceBubbleFrom(pressStart, t.clientX, t.clientY)) {
-                            lastWordTapAt = Date.now();
-                        } else {
-                            // 点了空白：气泡已被收掉，同时清掉「刚点过」的时间戳，
-                            // 免得浏览器补发的 click 又被 900ms 兜底挡回去
-                            lastWordTapAt = 0;
-                        }
-                        dealt = true;
-                    } else if (word) {
-                        // 收藏模式（默认）：单击 = 收藏 / 取消收藏
-                        // 记录最近一次单词点击：部分浏览器（微信/夸克）会延迟几百毫秒补发
-                        // mouseup，用 900ms 窗口兜底，防止「无选中即关闭」把刚点开的词气泡关掉
-                        lastWordTapAt = Date.now();
-                        toggleWord(word);
-                        if (isBubbleOpen()) showBubble(word, pressStart.span);
-                        dealt = true;
-                    }
-                }
-                // 翻译模式下这次没能走句译分支（手指漂移越过 8px 阈值 → moved，或长按）
-                // → **不要把浏览器的 click 也吞掉**。浏览器只在「这确实是一次点击、
-                // 页面没有滚动」时才补发 click，正好拿它兜底；吞掉它就会出现
-                // 「点了词、词上有 :hover 反馈，但气泡不弹、也没有任何反应」。
-                // （漂移 14px 实测：click 有、scroll 0、气泡不弹。）
-                if (!(dblMode === 'translate' && !dealt)) {
-                    suppressClick = true;
-                    setTimeout(() => { suppressClick = false; }, 400);
-                }
-            }
-            pressStart = null;
-        }, { passive: true });
-        el.examContent.addEventListener('touchcancel', () => {
-            clearTimeout(pressTimer);
-            // 兜底：浏览器把这次触摸 cancel 掉（手势仲裁/WebView 抢手势/系统手势）之后
-            // **不会再补发 click**，于是 touchend 分支和 click 分支双双落空 →
-            // 翻译模式下表现为「点了单词什么都没弹」。
-            // 只要「没移动、没触发长按」，就把 cancel 当作一次点击处理。
-            // （位移 >8px 的 cancel 是滚动/拖拽，不视为点击。）
-            if (pressStart && !pressStart.longFired && !pressStart.moved) {
-                const px = pressStart.lastX != null ? pressStart.lastX : pressStart.x;
-                const py = pressStart.lastY != null ? pressStart.lastY : pressStart.y;
-                const word = pressStart.span ? (pressStart.span.dataset.word || '') : '';
-                if (dblMode === 'translate') {
-                    // 不吞 click：万一某浏览器真补发了 click，现在 click 分支也走句译
-                    // （重复弹一次 = 幂等），不会误收藏。
-                    if (showSentenceBubbleFrom(pressStart, px, py)) lastWordTapAt = Date.now();
-                } else if (word) {
-                    // 收藏模式：这次被 cancel 的点击**不能静默丢弃**（以前就是这么丢的：
-                    // 点了等于没点，收藏没加上，屏幕上没有任何提示）。
-                    lastWordTapAt = Date.now();
-                    toggleWord(word);
-                    if (isBubbleOpen()) showBubble(word, pressStart.span);
-                    suppressClick = true;
-                    setTimeout(() => { suppressClick = false; }, 400);
-                }
-            }
-            pressStart = null;
-        }, { passive: true });
-
-        // 屏蔽系统长按菜单
-        el.examContent.addEventListener('contextmenu', (e) => {
-            // 触屏长按（button=0）一律拦截，桌面右键（button=2）保留
-            if (e.button !== 2) e.preventDefault();
-        });
-
-        // 桌面悬停查词
-        if (canHover) {
-            el.examContent.addEventListener('mouseover', (e) => {
-                const span = e.target.closest('span.word');
-                if (!span || !span.dataset.word) return;
-                // 划词拖选中/已有选区时绝不弹释义气泡：悬停气泡会盖住选区文字，
-                // 并在落点拦截 mouseup，导致最终选区跳到整篇剩余文本（弹窗内容与高亮对不上）
-                if (e.buttons || hasTextSelection()) {
-                    clearTimeout(hoverTimer);
-                    return;
-                }
-                clearTimeout(hoverTimer);
-                hoverTimer = setTimeout(() => {
-                    if (span.isConnected) showBubble(span.dataset.word, span);
-                }, 180);
-            });
-            el.examContent.addEventListener('mouseout', (e) => {
-                if (!e.target.closest('span.word')) return;
-                clearTimeout(hoverTimer);
-                setTimeout(() => {
-                    if (!keepBubble) closeBubble();
-                }, 90);
-            });
-            el.dictBubble.addEventListener('mouseenter', () => {
-                keepBubble = true;
-                clearTimeout(hoverTimer);
-            });
-            el.dictBubble.addEventListener('mouseleave', () => {
-                keepBubble = false;
-                closeBubble();
-            });
-        }
+        // 阅读区的单击、双击、选区和右键由 precision.js 统一处理。
 
         // 气泡按钮
         el.bubbleMore.addEventListener('click', () => {
@@ -2730,6 +2543,30 @@
             renderActiveExam();
         }
     }
+
+    // Public bridge for the precision-reading UI; legacy learning data is preserved.
+    window.EnglishApp = {
+        state: () => state,
+        normalizeWord,
+        toast: showToast,
+        lookup: async (word) => { await loadDict(); return lookupWord(word); },
+        translate: (text) => lookupSentence(text),
+        selectExam: (id) => { selectExam(id); return window.EnglishPrecision ? window.EnglishPrecision.whenRendered() : Promise.resolve(); },
+        collect: (word, info) => {
+            const key = normalizeWord(word);
+            if (!key) return;
+            const previous = state.words[key];
+            state.words[key] = Object.assign({}, previous || {}, info || {}, {
+                word, addedAt: previous ? previous.addedAt : Date.now(), examId: state.activeExamId
+            });
+            saveWords(); updateWordCount(); renderWordList();
+            document.querySelectorAll('#examContent [data-word]').forEach(span => {
+                span.classList.toggle('collected', !!state.words[normalizeWord(span.dataset.word)]);
+            });
+            showToast(previous ? '已在生词本：' + word : '已收藏：' + word, 'success');
+        },
+        remove: removeWord
+    };
 
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', init);
@@ -3550,17 +3387,6 @@
             return false;
         }
     }
-
-    document.addEventListener('mouseup', (e) => {
-        if (e.target && e.target.closest && e.target.closest('.translate-bubble')) return;
-        // 触屏补发的 mouseup 落在单词上（无选区）：交给 touch 逻辑，不当作桌面划词结束；
-        // 若有非空选区，说明是桌面划词结束（落点常在单词上），必须正常触发句译
-        let hasSelection = false;
-        try { const s = window.getSelection(); hasSelection = !!(s && !s.isCollapsed); } catch (err) { /* ignore */ }
-        if (!hasSelection && e.target && e.target.closest && e.target.closest('span.word')) return;
-        scheduleTranslateBubble();
-    });
-    document.addEventListener('selectionchange', scheduleTranslateBubble);
 
     /* ==================== 自定义选区高亮层 ====================
        浏览器原生选区按字形渲染，空格没有字形所以高亮断档。

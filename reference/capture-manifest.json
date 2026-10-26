@@ -1,0 +1,926 @@
+{
+  "/": {
+    "path": "/index.html",
+    "url": "https://study.aseeker.bio/",
+    "bytes": 48395,
+    "sha256": "549afa091a6c12d12714eccb275f07b59e88bae57f5456700a3179eea9e8b945"
+  },
+  "/english/": {
+    "path": "/english/index.html",
+    "url": "https://study.aseeker.bio/english/",
+    "bytes": 33199,
+    "sha256": "9a48830f7cfee437437086beb6ec90490de0e278b5d3929e55540700a45bd77c"
+  },
+  "/about/": {
+    "path": "/about/index.html",
+    "url": "https://study.aseeker.bio/about/",
+    "bytes": 27311,
+    "sha256": "869d794bda48966a5f67e4c03c6d099dbab02cc74ddfbd50e581de5091462edc"
+  },
+  "/english-materials/manifest.json": {
+    "path": "/english-materials/manifest.json",
+    "url": "https://study.aseeker.bio/english-materials/manifest.json",
+    "bytes": 2742,
+    "sha256": "d56e537a64e755bc5d3b1e4c8623e6b090b2742f8481140be4c168ef28fe1372"
+  },
+  "/english/data/exam_2010_english1.json": {
+    "path": "/english/data/exam_2010_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2010_english1.json",
+    "bytes": 34858,
+    "sha256": "18400c5ab8cee0e22d46fb0c09421284521471ba16dd2a55220228aed8ff5918"
+  },
+  "/english/data/exam_2011_english1.json": {
+    "path": "/english/data/exam_2011_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2011_english1.json",
+    "bytes": 34169,
+    "sha256": "2bc714c9512cb6882a12a8dd4c7dc053d38b75b9934ba5f8532446c2c9791c4f"
+  },
+  "/english/data/exam_2010_english2.json": {
+    "path": "/english/data/exam_2010_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2010_english2.json",
+    "bytes": 33306,
+    "sha256": "ea6e53c1c0529238a2ea85d838b312550fb4c85730729b478d485110b95b2550"
+  },
+  "/english/data/exam_2011_english2.json": {
+    "path": "/english/data/exam_2011_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2011_english2.json",
+    "bytes": 33668,
+    "sha256": "4f26c5fe9f2a8b3dd28f99ba058854f396c64887a013525d199a2f83f339cb46"
+  },
+  "/english/data/exam_2012_english2.json": {
+    "path": "/english/data/exam_2012_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2012_english2.json",
+    "bytes": 33265,
+    "sha256": "49f20d1168c4f1393d01765e6c8d5618aca505412e3c8b7fdedc2cd53948f1dc"
+  },
+  "/english/data/exam_2012_english1.json": {
+    "path": "/english/data/exam_2012_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2012_english1.json",
+    "bytes": 35227,
+    "sha256": "a9d72b21b99444ebd6f1dde6b40353319cea1992e6c2bb3a2cbd67a9567be19e"
+  },
+  "/english/data/exam_2013_english1.json": {
+    "path": "/english/data/exam_2013_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2013_english1.json",
+    "bytes": 34548,
+    "sha256": "ead1ec3cd20c720df2a5bfa322493736a07ff3b6cef8ebb01c8bb83d4e59596e"
+  },
+  "/english/data/exam_2014_english1.json": {
+    "path": "/english/data/exam_2014_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2014_english1.json",
+    "bytes": 35057,
+    "sha256": "d9652ddcca29080c56a6f5e99c9919d6cfe148b46e3c6d3e70e80f0770e0e8d8"
+  },
+  "/english/data/dict.json": {
+    "path": "/english/data/dict.json",
+    "url": "https://study.aseeker.bio/english/data/dict.json",
+    "bytes": 2819796,
+    "sha256": "aa4a4ec41888dfd1c6a576523b22a327be25fe14b4fcad5546c5451ebe698149"
+  },
+  "/english/data/exam_2013_english2.json": {
+    "path": "/english/data/exam_2013_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2013_english2.json",
+    "bytes": 23611,
+    "sha256": "6e2439386b7100fe29bf21f29568cae8ff4004e4cdbbdb433fe860448ac8150e"
+  },
+  "/english/data/exam_2015_english1.json": {
+    "path": "/english/data/exam_2015_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2015_english1.json",
+    "bytes": 35151,
+    "sha256": "9b38a897ad018deae55de7582dd0c74b55390837e824429fc123f07539ae8ecf"
+  },
+  "/english/data/exam_2015_english2.json": {
+    "path": "/english/data/exam_2015_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2015_english2.json",
+    "bytes": 32102,
+    "sha256": "34836533565682c74fef2316c6df3cda80a80b7ffc83fc47615dfb0c17525f42"
+  },
+  "/english/data/exam_2014_english2.json": {
+    "path": "/english/data/exam_2014_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2014_english2.json",
+    "bytes": 25626,
+    "sha256": "bb6dfcb5a1c219b1da8cb393b1277fddebd8d04dda9e6a53c84bf2a172950cca"
+  },
+  "/english/data/exam_2016_english1.json": {
+    "path": "/english/data/exam_2016_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2016_english1.json",
+    "bytes": 33441,
+    "sha256": "eb48cad5e1a42e0727d8b0e15c196132625e60a0bd6dc1a44eb9bcdb318f2603"
+  },
+  "/english/data/exam_2017_english1.json": {
+    "path": "/english/data/exam_2017_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2017_english1.json",
+    "bytes": 34104,
+    "sha256": "2e5c7ce1848a3f4e00740ee043c127575e0de0c389a6980771e64b4e48ee960f"
+  },
+  "/english/data/exam_2018_english1.json": {
+    "path": "/english/data/exam_2018_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2018_english1.json",
+    "bytes": 33622,
+    "sha256": "a8e196d33f2aecb89c48644e83ef7cec51f1c937e2e50afeea9c77b5e42d131c"
+  },
+  "/english/data/exam_2017_english2.json": {
+    "path": "/english/data/exam_2017_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2017_english2.json",
+    "bytes": 33052,
+    "sha256": "30a892cae3be6cf7f95169e1fd7fd33607724d0aca6b8ccf8cdfd19859a5e910"
+  },
+  "/english/data/exam_2016_english2.json": {
+    "path": "/english/data/exam_2016_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2016_english2.json",
+    "bytes": 32459,
+    "sha256": "c6ac4ce59bd8b2c4204bb5ebc72b574e335c1b93e5894a7771d849c50f977d0c"
+  },
+  "/english/data/exam_2018_english2.json": {
+    "path": "/english/data/exam_2018_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2018_english2.json",
+    "bytes": 32106,
+    "sha256": "99be1abc69c7a139c95b83aa75bd3d0528073a8256a9c949c2f7f5531c22c0e6"
+  },
+  "/english/data/exam_2019_english1.json": {
+    "path": "/english/data/exam_2019_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2019_english1.json",
+    "bytes": 33855,
+    "sha256": "8147ab8064a0817f28c94c7446cee31aaa25afd6a43a87d704af473cd9782b8f"
+  },
+  "/english/data/exam_2019_english2.json": {
+    "path": "/english/data/exam_2019_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2019_english2.json",
+    "bytes": 26150,
+    "sha256": "3f6db1448734eee26e309b13a730162d56e7ed7ee854f0a00a25fd77dc09fd94"
+  },
+  "/english/data/exam_2020_english1.json": {
+    "path": "/english/data/exam_2020_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2020_english1.json",
+    "bytes": 31506,
+    "sha256": "91ec24e00bfadee10d2762090415ab8d1e7bd99e9552c71b6d453a9b216c74bd"
+  },
+  "/english/data/exam_2020_english2.json": {
+    "path": "/english/data/exam_2020_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2020_english2.json",
+    "bytes": 31753,
+    "sha256": "7424f0be2ebf9f97f64fbd7b12ffcc0c47e7b791bad81bf3cfed8964459108bc"
+  },
+  "/english/data/exam_2021_english2.json": {
+    "path": "/english/data/exam_2021_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2021_english2.json",
+    "bytes": 32058,
+    "sha256": "60dcb029be01fe765c9cb4e1cb3a618f75685d1b79e341e30682773843cdc2ad"
+  },
+  "/english/data/exam_2022_english2.json": {
+    "path": "/english/data/exam_2022_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2022_english2.json",
+    "bytes": 32523,
+    "sha256": "f264324329590809c58079d31b359c05bc471d8ec44adfebede70efed0a05f2d"
+  },
+  "/english/data/exam_2021_english1.json": {
+    "path": "/english/data/exam_2021_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2021_english1.json",
+    "bytes": 32662,
+    "sha256": "e1df012b400895f815fbb92ddc28b7e3e290bab6eb9e32d2fcb3e22c90b71867"
+  },
+  "/english/data/exam_2022_english1.json": {
+    "path": "/english/data/exam_2022_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2022_english1.json",
+    "bytes": 32137,
+    "sha256": "9056650b036753aaaa91b70b63ea6607f14de9a868d2b88e687d3ba5a02bd73b"
+  },
+  "/english/data/exam_2023_english1.json": {
+    "path": "/english/data/exam_2023_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2023_english1.json",
+    "bytes": 35129,
+    "sha256": "2b900cf83debae53983fc5d7b4dd8a812494a3a49df14e4da94af26e48c4df19"
+  },
+  "/english/data/exam_2023_english2.json": {
+    "path": "/english/data/exam_2023_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2023_english2.json",
+    "bytes": 34835,
+    "sha256": "fa7207b81a0f4f2458ad0ef6f2d212dbd842e1a7756d1a2f69baef3676641b3c"
+  },
+  "/english/data/exam_2025_english1.json": {
+    "path": "/english/data/exam_2025_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2025_english1.json",
+    "bytes": 35035,
+    "sha256": "3f0a01e743d79b999adb777219d884ce3c160f98be6fb7eeed5dd0b3e76e68fb"
+  },
+  "/english/data/exam_2024_english2.json": {
+    "path": "/english/data/exam_2024_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2024_english2.json",
+    "bytes": 33201,
+    "sha256": "73628414a377d26c6a5b65b2c333c8e04f56d1e6f7ed93d4a64d14a3aef1d070"
+  },
+  "/english/data/exam_2024_english1.json": {
+    "path": "/english/data/exam_2024_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2024_english1.json",
+    "bytes": 34755,
+    "sha256": "2e017640f8cf2854b9ff5ff1a23ffe06e2253eaf6066cf3ebd13962573425b7c"
+  },
+  "/english/data/exam_2025_english2.json": {
+    "path": "/english/data/exam_2025_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2025_english2.json",
+    "bytes": 24950,
+    "sha256": "4433cd8b667999447705f8eddda730fdd4fb2e5e1c8fd1c9489fcf10bd5faf59"
+  },
+  "/english/data/exam_2026_english2.json": {
+    "path": "/english/data/exam_2026_english2.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2026_english2.json",
+    "bytes": 25742,
+    "sha256": "114549d788212d97073fa12e9856034972b241181d7185145000b0df1df280df"
+  },
+  "/english/data/exam_2026_english1.json": {
+    "path": "/english/data/exam_2026_english1.json",
+    "url": "https://study.aseeker.bio/english/data/exam_2026_english1.json",
+    "bytes": 34815,
+    "sha256": "3330c31f5a7dbb9c6e75a91bc99255deac3a5e7895697263d8ba97b5dc3e9357"
+  },
+  "/english/data/version.json": {
+    "path": "/english/data/version.json",
+    "url": "https://study.aseeker.bio/english/data/version.json",
+    "bytes": 132,
+    "sha256": "058be24b7964cf5bc8966e1c1490b864ba4448041d725d6d78eb154b49098b0e"
+  },
+  "/english/data/sentence_translations.json": {
+    "path": "/english/data/sentence_translations.json",
+    "url": "https://study.aseeker.bio/english/data/sentence_translations.json",
+    "bytes": 1712865,
+    "sha256": "1f2ebf479e1c0240a9e652dcef02a03d0ad1208f391cdf65c0b01140201bc3c4"
+  },
+  "/english/paper/2011_english1/": {
+    "path": "/english/paper/2011_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2011_english1/",
+    "bytes": 93071,
+    "sha256": "2cb7514dce973c2b9226d0cba2ff0c01670d71f38ca1dc78cf67009f557c02eb"
+  },
+  "/english/paper/2010_english2/": {
+    "path": "/english/paper/2010_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2010_english2/",
+    "bytes": 92864,
+    "sha256": "cdbc1d2e3b79ff8439d64dcc8600e9f4b444838778bb157e8e5a4d305ae68e62"
+  },
+  "/english/paper/2010_english1/": {
+    "path": "/english/paper/2010_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2010_english1/",
+    "bytes": 93005,
+    "sha256": "6e4de883b11ffae0460f73c3df8a8e31b0983133e0845d1b160647c1f2ad826d"
+  },
+  "/english/paper/2011_english2/": {
+    "path": "/english/paper/2011_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2011_english2/",
+    "bytes": 94695,
+    "sha256": "7d64b800d374ef03d3b6fbe523df26285352ba8d149a50a777c08c724371b36c"
+  },
+  "/english/paper/2012_english1/": {
+    "path": "/english/paper/2012_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2012_english1/",
+    "bytes": 95867,
+    "sha256": "ebef08874383030a32dbf018a26fd98e1bc1e0d88d92a4f4dec0829b2acaf7a5"
+  },
+  "/english/paper/2013_english1/": {
+    "path": "/english/paper/2013_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2013_english1/",
+    "bytes": 92327,
+    "sha256": "5d5aaa2aab4b291f3b93173a34217dd69346085437f0d016248b309ddca9780a"
+  },
+  "/english/paper/2012_english2/": {
+    "path": "/english/paper/2012_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2012_english2/",
+    "bytes": 94357,
+    "sha256": "33dcfc80250c7fd101eb53d249a5dc60879295b73650cb009705cd8217caaa7d"
+  },
+  "/english/paper/2014_english2/": {
+    "path": "/english/paper/2014_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2014_english2/",
+    "bytes": 93565,
+    "sha256": "49ee7c1426f3ecba2c1d7f3180889beb27f2b9c929414773a19a6d6d0e6d9a0b"
+  },
+  "/english/paper/2013_english2/": {
+    "path": "/english/paper/2013_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2013_english2/",
+    "bytes": 90413,
+    "sha256": "7f50f69c25b4752ee70e55747569cb997005979d4abac241b2692ca1627bf740"
+  },
+  "/english/paper/2014_english1/": {
+    "path": "/english/paper/2014_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2014_english1/",
+    "bytes": 96247,
+    "sha256": "9a6e87100e1df18046a69011797b97dd1c85a376e40b707cc0384dbf85ca56de"
+  },
+  "/english/paper/2015_english1/": {
+    "path": "/english/paper/2015_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2015_english1/",
+    "bytes": 94490,
+    "sha256": "f562459e8b07593e1a365e9843c4fa547bb9246b19fa245555656fc874d09971"
+  },
+  "/english/paper/2015_english2/": {
+    "path": "/english/paper/2015_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2015_english2/",
+    "bytes": 92694,
+    "sha256": "878c133240d969728f86471b6275834234f637b0efbd31c08494c9b55dbcb2b6"
+  },
+  "/english/paper/2016_english1/": {
+    "path": "/english/paper/2016_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2016_english1/",
+    "bytes": 93055,
+    "sha256": "61123f97fbec7f8c646d779f5cc302cc3934132c765ccd0d52e3d0e47cb8af05"
+  },
+  "/english/paper/2016_english2/": {
+    "path": "/english/paper/2016_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2016_english2/",
+    "bytes": 91955,
+    "sha256": "79a870c8bea5b55b452d4406f9d458ce887c0e11e09d25d888d50308a79191d4"
+  },
+  "/english/paper/2017_english1/": {
+    "path": "/english/paper/2017_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2017_english1/",
+    "bytes": 93060,
+    "sha256": "660f62b107cf78b95fbc860572a806e8fe22cc19deb70e36134b4f4b5f05a593"
+  },
+  "/english/paper/2017_english2/": {
+    "path": "/english/paper/2017_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2017_english2/",
+    "bytes": 91991,
+    "sha256": "1402f8720168af03a93f486af3c7cacdf1b6ad655e45600311afe8ff33521af6"
+  },
+  "/english/paper/2018_english1/": {
+    "path": "/english/paper/2018_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2018_english1/",
+    "bytes": 93435,
+    "sha256": "da515439de3d996b508330edbfe1314b56b3805e0e22241a7839a8f1ebf9d04e"
+  },
+  "/english/paper/2018_english2/": {
+    "path": "/english/paper/2018_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2018_english2/",
+    "bytes": 94167,
+    "sha256": "f1055e2e4de7d118d2d187b2338edc8b32a21ea716f27629863d7936c76a74b7"
+  },
+  "/english/paper/2019_english2/": {
+    "path": "/english/paper/2019_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2019_english2/",
+    "bytes": 95090,
+    "sha256": "391a096a0c0d229f7a0a05ea60cf255715cf2a866e2708e2328ff265d27efd09"
+  },
+  "/english/paper/2019_english1/": {
+    "path": "/english/paper/2019_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2019_english1/",
+    "bytes": 91950,
+    "sha256": "01912e6960a963a9c24066c16ccd8282bf63a5d6f9d2c121e2f0de5c46c39efb"
+  },
+  "/english/paper/2020_english1/": {
+    "path": "/english/paper/2020_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2020_english1/",
+    "bytes": 92775,
+    "sha256": "a1cb79ac6566f9296526c422b6181ce8875621538ef2e679cc8335330fa54c58"
+  },
+  "/english/paper/2020_english2/": {
+    "path": "/english/paper/2020_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2020_english2/",
+    "bytes": 93466,
+    "sha256": "adf7690cd09b9b9e76336c53e6d8c9d5b7d826a2541dccb48acf28f2d99026bb"
+  },
+  "/english/paper/2021_english1/": {
+    "path": "/english/paper/2021_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2021_english1/",
+    "bytes": 93632,
+    "sha256": "093701dcff3c95d44be0d97671547605c897d8b568823795c5d675f9ac3ab86d"
+  },
+  "/english/paper/2021_english2/": {
+    "path": "/english/paper/2021_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2021_english2/",
+    "bytes": 92628,
+    "sha256": "1b634c33e5fd685ff80eea2f87f90e312d4cf1bfe56170930a57e1660f6b1147"
+  },
+  "/english/paper/2022_english1/": {
+    "path": "/english/paper/2022_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2022_english1/",
+    "bytes": 94688,
+    "sha256": "31577c161cb90cfc8a97cfe832dc5d8fc550e1f511219e599d95ee06e864b7a1"
+  },
+  "/english/paper/2023_english2/": {
+    "path": "/english/paper/2023_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2023_english2/",
+    "bytes": 93897,
+    "sha256": "4de0134b39b27bab2247091b0928d1ba8e0483401563b0ff1e460d25c3d996e1"
+  },
+  "/english/paper/2022_english2/": {
+    "path": "/english/paper/2022_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2022_english2/",
+    "bytes": 93727,
+    "sha256": "e04612c775a9c8a79ca72cd436837af5947b9427a74216f7a85cc0ae34014278"
+  },
+  "/english/paper/2023_english1/": {
+    "path": "/english/paper/2023_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2023_english1/",
+    "bytes": 91975,
+    "sha256": "fa48f3a587a3378f7c3e8e09299fdac9d9f6c979fa4554512b0c04cb1d9b62b0"
+  },
+  "/english/paper/2024_english2/": {
+    "path": "/english/paper/2024_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2024_english2/",
+    "bytes": 93292,
+    "sha256": "28154838543a16d9b88812641cc0c87f0a6001c0072514b477737a1708d321c3"
+  },
+  "/english/paper/2024_english1/": {
+    "path": "/english/paper/2024_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2024_english1/",
+    "bytes": 94982,
+    "sha256": "3b5012511f25967506ffe5909d24042b46bf969ba9208c2cb9167b862272a18b"
+  },
+  "/english/paper/2025_english2/": {
+    "path": "/english/paper/2025_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2025_english2/",
+    "bytes": 91663,
+    "sha256": "0a1b64465f21956b9e42b34fd2d839c82c1330f6dfe04ca578c860458c420f2b"
+  },
+  "/english/paper/2025_english1/": {
+    "path": "/english/paper/2025_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2025_english1/",
+    "bytes": 94861,
+    "sha256": "c430000d416b24d451cff9f03997a0037c7cf23d9400e28be77f26a6680f2e19"
+  },
+  "/english/paper/2026_english1/": {
+    "path": "/english/paper/2026_english1/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2026_english1/",
+    "bytes": 93891,
+    "sha256": "070e8bf2be6b3c0f32c1291e3b19b077939c6cc0db7289d5ac77fa52a9d74526"
+  },
+  "/english/words/health/": {
+    "path": "/english/words/health/index.html",
+    "url": "https://study.aseeker.bio/english/words/health/",
+    "bytes": 8692,
+    "sha256": "479b327a4f48948aed01b86769edf758fa0c12a7e6bac85d83206fd0a4fe63fb"
+  },
+  "/english/words/": {
+    "path": "/english/words/index.html",
+    "url": "https://study.aseeker.bio/english/words/",
+    "bytes": 107332,
+    "sha256": "daecc8b494cbc536705a5d2b8dfda8e9750f88b17871332c7e8d74424751aa65"
+  },
+  "/english/paper/2026_english2/": {
+    "path": "/english/paper/2026_english2/index.html",
+    "url": "https://study.aseeker.bio/english/paper/2026_english2/",
+    "bytes": 93918,
+    "sha256": "739702baeeb26901a22d2cb5f3d2148aed27e7be5cb28632df024ce46fff3733"
+  },
+  "/english/words/time/": {
+    "path": "/english/words/time/index.html",
+    "url": "https://study.aseeker.bio/english/words/time/",
+    "bytes": 10642,
+    "sha256": "c03ff7ead1065f8b3dea5f3fc1010380170d77b63fbd3dc428692043f02b8d0c"
+  },
+  "/english/favicon.ico": {
+    "path": "/english/favicon.ico",
+    "url": "https://study.aseeker.bio/english/favicon.ico",
+    "bytes": 7576,
+    "sha256": "909bea99dbf8aa3ecebadea0f4dfd6bce4cf64d99f89ba8feb7db55cd25c711f"
+  },
+  "/english/img/apple-touch-icon-precomposed.png": {
+    "path": "/english/img/apple-touch-icon-precomposed.png",
+    "url": "https://study.aseeker.bio/english/img/apple-touch-icon-precomposed.png",
+    "bytes": 38684,
+    "sha256": "f9630ded7139baceb144673c5738314869fcd7b6c098c1a114a784aad3a4b6de"
+  },
+  "/english/img/apple-touch-icon.png": {
+    "path": "/english/img/apple-touch-icon.png",
+    "url": "https://study.aseeker.bio/english/img/apple-touch-icon.png",
+    "bytes": 38684,
+    "sha256": "f9630ded7139baceb144673c5738314869fcd7b6c098c1a114a784aad3a4b6de"
+  },
+  "/english/css/style.css": {
+    "path": "/english/css/style.css",
+    "url": "https://study.aseeker.bio/english/css/style.css",
+    "bytes": 54452,
+    "sha256": "2cb862585d4c32bced6b79111c6aaacc5d08dfd9041ca0c1b46702099689505e"
+  },
+  "/english/img/sub-logo-64.png": {
+    "path": "/english/img/sub-logo-64.png",
+    "url": "https://study.aseeker.bio/english/img/sub-logo-64.png",
+    "bytes": 7392,
+    "sha256": "8324b7ed08d1da1ce733310a6d3c9c4cf8818bf7bc9daccecf33d3307f0c0524"
+  },
+  "/english/js/app.js": {
+    "path": "/english/js/app.js",
+    "url": "https://study.aseeker.bio/english/js/app.js",
+    "bytes": 172513,
+    "sha256": "fed30b1e3251078d68c94154c8c071f3c6ef3bb31719e4d932203ac9305cef0f"
+  },
+  "/english/img/main-logo-128.png": {
+    "path": "/english/img/main-logo-128.png",
+    "url": "https://study.aseeker.bio/english/img/main-logo-128.png",
+    "bytes": 22531,
+    "sha256": "a347debba11244eef7c1b222b08cc9142de05814b05888e0361c20b8073df9f1"
+  },
+  "/english/js/correction.js": {
+    "path": "/english/js/correction.js",
+    "url": "https://study.aseeker.bio/english/js/correction.js",
+    "bytes": 7868,
+    "sha256": "f92c65a2544157d31cd5e16106d5a7a446f8051c33b179727174a5b94a7a812f"
+  },
+  "/english/img/wechat-qr.jpg": {
+    "path": "/english/img/wechat-qr.jpg",
+    "url": "https://study.aseeker.bio/english/img/wechat-qr.jpg",
+    "bytes": 130289,
+    "sha256": "c9e7c3de4006f385ce9c279eba8c509f90b2d342532c3336aa1da168a75f22b5"
+  },
+  "/english/js/qrcode.min.js": {
+    "path": "/english/js/qrcode.min.js",
+    "url": "https://study.aseeker.bio/english/js/qrcode.min.js",
+    "bytes": 20768,
+    "sha256": "bb2365e4902f4f84852cf4025e6f6a60325a682aeafa43fb63b7fc8f098d1ef2"
+  },
+  "/english/js/srs-engine.js": {
+    "path": "/english/js/srs-engine.js",
+    "url": "https://study.aseeker.bio/english/js/srs-engine.js",
+    "bytes": 81811,
+    "sha256": "9a1ad558ff4d46761a394533639746db049f4e5274175f888e8415fa9b9fc153"
+  },
+  "/english/js/tts.js": {
+    "path": "/english/js/tts.js",
+    "url": "https://study.aseeker.bio/english/js/tts.js",
+    "bytes": 1041,
+    "sha256": "465277b25e3ead57f6489f129b23f181488cc541eb554863d2c4e9e447385d29"
+  },
+  "/english/js/srs-panel.js": {
+    "path": "/english/js/srs-panel.js",
+    "url": "https://study.aseeker.bio/english/js/srs-panel.js",
+    "bytes": 31851,
+    "sha256": "8691cf47314304361cb07f7092b39b533220589f614373b11f841244e86d394f"
+  },
+  "/fonts.css": {
+    "path": "/fonts.css",
+    "url": "https://study.aseeker.bio/fonts.css",
+    "bytes": 52612,
+    "sha256": "ea7b649b57e790b37463c72b7167b9e56f325b5dceaf621537a9169e2014ae62"
+  },
+  "/img/main-logo-128.png": {
+    "path": "/img/main-logo-128.png",
+    "url": "https://study.aseeker.bio/img/main-logo-128.png",
+    "bytes": 22531,
+    "sha256": "a347debba11244eef7c1b222b08cc9142de05814b05888e0361c20b8073df9f1"
+  },
+  "/updates.json": {
+    "path": "/updates.json",
+    "url": "https://study.aseeker.bio/updates.json",
+    "bytes": 1420,
+    "sha256": "db0ca8d8e5a1a87fa8052bb6d70d262f0bc4cf2db0b9fc42ca9174bd9e0375c2"
+  },
+  "/english/js/data/exam_2011_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2011_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2010_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2010_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2010_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2010_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/dict.json": {
+    "url": "https://study.aseeker.bio/english/js/data/dict.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2013_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2013_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2011_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2011_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2012_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2012_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2012_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2012_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2013_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2013_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2014_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2014_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2015_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2015_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2014_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2014_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2015_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2015_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2016_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2016_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2017_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2017_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2016_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2016_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2017_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2017_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2018_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2018_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2018_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2018_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2019_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2019_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2019_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2019_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2020_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2020_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2020_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2020_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2021_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2021_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2021_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2021_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2022_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2022_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2022_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2022_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2023_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2023_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2023_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2023_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2024_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2024_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2024_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2024_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2025_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2025_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2025_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2025_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2026_english1.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2026_english1.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/sentence_translations.json": {
+    "url": "https://study.aseeker.bio/english/js/data/sentence_translations.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/exam_2026_english2.json": {
+    "url": "https://study.aseeker.bio/english/js/data/exam_2026_english2.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/data/version.json": {
+    "url": "https://study.aseeker.bio/english/js/data/version.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/js/mammoth.browser.min.js": {
+    "url": "https://study.aseeker.bio/english/js/js/mammoth.browser.min.js",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english/js/manifest.json": {
+    "url": "https://study.aseeker.bio/english/js/manifest.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "/english-materials/2011%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2011年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2011%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 10202449,
+    "sha256": "409123cf3ae1d8e339d159059a4bcb0e33169a41e15aff487b759404e4fef234"
+  },
+  "/english-materials/2010%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2010年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2010%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 12277344,
+    "sha256": "a6d7a38309ad4fef2aff2f6d31c9ed60c18246523ce110aa4393d7c8df9fb89b"
+  },
+  "/english-materials/2010%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2010年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2010%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 11400163,
+    "sha256": "7fec2f07e56462ac7cac7d863d786ae0ed7df9b87905051d54409dca55cfcaf6"
+  },
+  "/english-materials/2011%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2011年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2011%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 12212066,
+    "sha256": "015af7c402cda3c4e09cf768b96d84b8b55f3deae8f1602b5491a53ea2f71888"
+  },
+  "/english-materials/2012%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2012年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2012%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 11569241,
+    "sha256": "3fd4083e7436726abf77e31da845c137c01b3887de25d02003dce0198077cb75"
+  },
+  "/english-materials/2013%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2013年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2013%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 9541566,
+    "sha256": "8c79588472f051d31ec85cb359e8ea23504f9b9320dff57f20a1ee67a320be01"
+  },
+  "/english-materials/2014%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2014年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2014%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 12085474,
+    "sha256": "a5c5cd62a9ea9df55423e83728953adc6c0be2797a613dc836296c2c7349e5c7"
+  },
+  "/english-materials/2015%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2015年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2015%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 13630317,
+    "sha256": "2b6f6bc5d2d9dc17f726dc0c47916f50269b28b1517573ec2ae2de92476d1788"
+  },
+  "/english-materials/2013%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2013年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2013%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 12272732,
+    "sha256": "335b7e96efa2b4fe93363af6c78b62472460b2642d74e30b1f7bfd6f14301ec6"
+  },
+  "/english-materials/2015%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2015年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2015%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 9519425,
+    "sha256": "09e82a663102f882617e5d187c04ace11b0b83ab6c47e3b6aaafc46ea828411c"
+  },
+  "/english-materials/2012%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2012年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2012%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 12340165,
+    "sha256": "b4c2866caf0b0cc72498deca61d73d0d91e78843ad09e3b38c5fc5294ae22ca4"
+  },
+  "/english-materials/2014%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2014年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2014%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 9306384,
+    "sha256": "949416330a525bc57388cab1d43646022647ccf6fbe23d547eab1c3bfdc88844"
+  },
+  "/english-materials/2016%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2016年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2016%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 13542783,
+    "sha256": "1afb7edf803eb052bf18294bb50875e2354f37980e211c1b2805d405ef63a83a"
+  },
+  "/english-materials/2016%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2016年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2016%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 9543640,
+    "sha256": "2dee518eef93a8aff355e3604fc8c3ab40810f12950115ffde382bb1c3c8bb6f"
+  },
+  "/english-materials/2018%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2018年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2018%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 13699785,
+    "sha256": "5934d0d01e101ea6a5bf3659958c4ec17faf097c4169375e823691a391191760"
+  },
+  "/english-materials/2018%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2018年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2018%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 11027477,
+    "sha256": "dbaca1e456b225f462e6cee6e0105f0debacfcc6ccc7addfa6ea26b83abc790c"
+  },
+  "/english-materials/2017%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2017年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2017%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 10755902,
+    "sha256": "748ab17acbe46429a7bc88d09fabb4cc324e833aa4fbeb9beab67551802816b1"
+  },
+  "/english-materials/2017%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2017年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2017%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 13861935,
+    "sha256": "3881399550ac63b9164c2579315f7346ffd86cf01abb1a95d2f100da81bb19a0"
+  },
+  "/english-materials/2020%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2020年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2020%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 23971571,
+    "sha256": "cd459210e18b4180a7d8b45edcbd2f46174af39822fef42a4b5db4615c240a4d"
+  },
+  "/english-materials/2019%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2019年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2019%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 14631931,
+    "sha256": "979a3ac6bf9050c92511f74be5c7a9dd4079dbea74d7260b21323c7c05393f5f"
+  },
+  "/english-materials/2020%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2020年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2020%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 12328438,
+    "sha256": "0b2225add7d48dd2f932349c83cb9a9c81cb99cb740056e28ac7832bc594c8ea"
+  },
+  "/english-materials/2021%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2021年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2021%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 12342212,
+    "sha256": "1b8796add90bd967a2bc41fc17bb846fb8f6075d79a2cfda27b5324316a5204f"
+  },
+  "/english-materials/2022%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2022年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2022%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 16357077,
+    "sha256": "4a6c7ed0037c0ad21a55f38cb2b41dacf7cb52e9d5ae991d9e8e65456c2c0579"
+  },
+  "/english-materials/2019%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2019年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2019%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 10513951,
+    "sha256": "ca6033c8f77b20fedb749fbf05ca82fe14eb0c40fa74b59c593df5c76887767a"
+  },
+  "/english-materials/2021%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2021年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2021%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 12437180,
+    "sha256": "a118b5b8514c278d7ccef466e9bae569b09a85b9d35e3bba6e609c104c144ebf"
+  },
+  "/english-materials/2022%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2022年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2022%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 14689659,
+    "sha256": "03e6ce241e43c4c4437d90eade16323e33b817fa2242f158c69ef833d9d62ce3"
+  },
+  "/english-materials/2023%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2023年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2023%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 8443112,
+    "sha256": "0c43422ebefd275e99e3251e8ae88e5d8001473860dab91cecc040b8ef8258e3"
+  },
+  "/english-materials/2024%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2024年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2024%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 3062507,
+    "sha256": "0e57448f004e85eaad8249646f896c9b8da666d1bb55d772b744410dc614bf79"
+  },
+  "/english-materials/2024%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2024年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2024%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 1316730,
+    "sha256": "2bc0d166b6636e8458dc2cb1764f1192045b3723c6c182b207e16c845064902b"
+  },
+  "/english-materials/2023%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2023年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2023%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 8377125,
+    "sha256": "4ccf9ef097129c56652bee2770b97411ffb18504186f6466259bd476fe819882"
+  },
+  "/english-materials/2026%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2026年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2026%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 594766,
+    "sha256": "87d9c61afd8b075467416e5defacf8f57e00aa5b20b7a1f13ca8e7e26a3fb834"
+  },
+  "/english-materials/2025%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2025年考研英一真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2025%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 3717754,
+    "sha256": "3f3b820b664366f29718a123cb2afb90308fc0455963d92e16c085d79685366f"
+  },
+  "/english-materials/2026%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2026年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2026%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 586071,
+    "sha256": "443b05d8bca3ad264bade7b862b67a0ca37dd51b0e4ddb86a95ec6f97962d893"
+  },
+  "/english-materials/2025%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf": {
+    "path": "/english-materials/2025年考研英二真题详解.pdf",
+    "url": "https://study.aseeker.bio/english-materials/2025%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E4%BA%8C%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf",
+    "bytes": 3423630,
+    "sha256": "78bc58bab6c43cfa016dd7389c340c57aeaccc8353ce0640ba3e4949b79e64e8"
+  }
+}

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="考研英语二真题单词本：2010-2026 考研英语二真题全文与逐句翻译、高频词汇表（音标+释义+考研标签）。点击任意单词即可收藏，支持导出背单词。">
+    <link rel="canonical" href="https://study.aseeker.bio/english/">
+    <meta property="og:title" content="考研英语二真题单词本 - 单词收藏夹">
+    <meta property="og:description" content="2010-2026 考研英语二真题全文+逐句翻译+高频词汇表，点击单词即可收藏导出。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://study.aseeker.bio/english/">
+    <title>考研英语二真题 - 单词收藏夹</title>
+    <link rel="icon" type="image/png" href="img/main-logo-128.png?v=9b6a009bf3">
+    <!-- Apple 图标显式声明：否则 Safari（固定标签页/阅读列表/分享）会去探
+         /english/apple-touch-icon(-precomposed).png，那两个路径不存在 → 404（RUM 里那 68 次） -->
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png?v=a867e22c54">
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png?v=a867e22c54">
+    <link rel="shortcut icon" href="favicon.ico?v=368eabdd5c">
+    <link rel="stylesheet" href="css/style.css?v=2fdafde535">
+    <style>
+        /* 「交个朋友」弹窗关键样式：内联兜底，杜绝外部 CSS 错配导致白面板/巨型 × */
+        #friendModal .friend-panel {
+            width: auto;
+            background: transparent;
+            box-shadow: none;
+            border-radius: 0;
+            overflow: visible;
+        }
+        #friendModal .friend-qr {
+            display: block;
+            width: min(264px, 62vw);
+            height: auto;
+            border-radius: 16px;
+        }
+        #friendModal .friend-close {
+            position: absolute;
+            top: -14px;
+            right: -14px;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            border: 1px solid #d7e2dd;
+            background: #fff;
+            color: #33454f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+            z-index: 2;
+        }
+        #friendModal .friend-close svg {
+            width: 16px;
+            height: 16px;
+        }
+        @media (max-width: 960px) {
+            #friendModal .friend-close {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<script>
+/* SRS 背诵入口 · 内联兜底：不依赖 app.js 是否加载成功。
+   捕获阶段委托 + 失败红色横幅 —— 点击「开始背诵」必然有结果。 */
+(function () {
+    'use strict';
+    function showBanner(msg) {
+        try {
+            var b = document.getElementById('srs-debug-banner');
+            if (!b) {
+                b = document.createElement('div');
+                b.id = 'srs-debug-banner';
+                b.style.cssText = 'position:fixed;left:0;right:0;bottom:0;z-index:2147483647;' +
+                    'background:#8b1a1a;color:#fff;padding:10px 14px;font-size:13px;line-height:1.5;' +
+                    'box-shadow:0 -4px 16px rgba(0,0,0,.25);font-family:-apple-system,Segoe UI,Roboto,sans-serif;';
+                document.body.appendChild(b);
+            }
+            b.textContent = '【SRS 诊断】' + msg;
+        } catch (e) { /* 横幅失败也就算了 */ }
+    }
+    /* —— 「开始背诵」真正入口：捕获阶段委托，点击 → SrsPanel.open()；
+         250ms 去重防双击重开；异常走红色横幅（不再依赖 app.js 绑定）—— */
+    document.addEventListener('click', function (e) {
+        var t = e.target;
+        if (!t || !t.closest) return;
+        if (!t.closest('#srsStartBtn')) return;
+        var now = Date.now();
+        if (window.__srsLastOpen && now - window.__srsLastOpen < 250) return; // 防重复触发
+        window.__srsLastOpen = now;
+        try {
+            if (typeof window.SrsPanel === 'undefined') {
+                showBanner('背诵面板脚本未执行（js/srs-panel.js 未加载或报错）。请强刷 Ctrl+Shift+R；仍出现请把本页地址栏和 Console 红字截图发我。');
+                return;
+            }
+            window.SrsPanel.open();
+        } catch (err) {
+            showBanner('背诵面板打开失败：' + (err && err.message ? err.message : String(err)) + '（请截图发我）');
+        }
+    }, true);
+})();
+</script>
+<nav class="snav">
+        <a class="snav-brand" href="/">考研英语二</a>
+        <div class="snav-links">
+            
+            <a class="snav-link active" href="/english/">考研英语二单词本</a>
+        </div>
+    </nav>
+    <!-- 顶部导航栏 -->
+    <header class="app-header">
+        <div class="header-inner">
+            <div class="brand">
+                <div class="brand-logo">
+                    <img class="brand-logo-img" src="img/sub-logo-64.png?v=414ff2a64e" alt="考研英语二真题单词本">
+                </div>
+                <div class="brand-text">
+                    <div class="brand-title-row">
+                        <h1>考研英语二真题单词本</h1>
+                        <button id="dblModeBtn" class="dbl-mode" type="button" title="单击单词行为：收藏 / 整句翻译" aria-label="单击行为切换">
+                            <span class="dbl-mode-track"><i class="dbl-mode-knob"></i></span>
+                            <span class="dbl-mode-state">收藏</span>
+                        </button>
+                    </div>
+                    <span class="brand-sub">点击任意单词即可收藏 · 收藏后即可开始背诵</span>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button id="backupManageBtn" class="btn btn-ghost" title="换设备时：数据备份 / 导入">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                    </svg>
+                    <span>数据</span>
+                </button>
+                <button id="srsStartBtn" class="btn btn-primary" title="用 SRS 间隔重复背诵收藏的单词">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                    </svg>
+                    <span>背诵</span>
+                </button>
+                <button id="copyBtn" class="btn btn-ghost" title="一键复制收藏的单词（一行一个）">                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    <span>复制</span>
+                </button>
+                <button id="materialsBtn" class="btn btn-ghost" title="下载英语二真题详解资料">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                        <polyline points="10 9 9 9 8 9"></polyline>
+                    </svg>
+                    <span>详解</span>
+                </button>
+                <button id="wordListBtn" class="btn btn-icon" title="查看我的单词本">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    <span id="wordCount" class="word-count-badge">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主体内容 -->
+    <main class="app-main">
+        <!-- 左侧：真题年份选择 -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h3 class="sidebar-title">真题列表</h3>
+                <ul id="examList" class="exam-list">
+                    <!-- 动态生成 -->
+                </ul>
+            </div>
+            <div class="sidebar-section sidebar-tip" id="tipSection">
+                <button type="button" id="tipToggle" class="tip-toggle" aria-expanded="false"
+                        aria-controls="tipBody" title="展开使用提示">
+                    <span class="tip-toggle-label">使用提示</span>
+                    <span class="tip-toggle-arrow" aria-hidden="true"></span>
+                </button>
+                <div class="tip-body" id="tipBody">
+                    <div class="tip-card">
+                        <div class="tip-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                            </svg>
+                        </div>
+                        <div class="tip-text">
+                            <ul class="tip-list">
+                                <li><span class="tip-k">单击单词</span><span class="tip-v">收藏 / 取消收藏</span></li>
+                                <li><span class="tip-k">长按 / 悬停</span><span class="tip-v">查看释义</span></li>
+                                <li><span class="tip-k">右上角</span><span class="tip-v">查看 / 复制单词</span></li>
+                                <li><span class="tip-k">真题详解</span><span class="tip-v">可下载历年详解</span></li>
+                                <li><span class="tip-k">数据管理</span><span class="tip-v">用于更换设备时数据备份与传递</span></li>
+                                <li><span class="tip-k">开始背诵</span><span class="tip-v">SRS 间隔重复背诵单词 · 可提交纠错，修改成合适释义</span></li>
+                                <li><span class="tip-k">整句翻译</span><span class="tip-v">手机通过右上角开关切换至翻译模式，点击单词可查对应句子翻译；电脑划选即可翻译</span></li>
+                            </ul>
+                            <button id="friendBtn" class="tip-friend" title="加我微信，交个朋友">交个朋友？👋</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- 右侧：真题内容 -->
+        <section class="content">
+            <div id="examContent" class="exam-content">
+                <!-- 动态生成 -->
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>正在加载真题…</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- seo-pages:start -->
+<div class="seo-static-links">
+<h2>历年真题（全文 + 逐句翻译 + 高频词汇表）</h2>
+<ul class="seo-static-list">
+<li><a href="/english/paper/2010_english2/">2010 年 英语（二）真题</a></li>
+
+<li><a href="/english/paper/2011_english2/">2011 年 英语（二）真题</a></li>
+
+<li><a href="/english/paper/2012_english2/">2012 年 英语（二）真题</a></li>
+
+<li><a href="/english/paper/2013_english2/">2013 年 英语（二）真题</a></li>
+
+<li><a href="/english/paper/2014_english2/">2014 年 英语（二）真题</a></li>
+
+<li><a href="/english/paper/2015_english2/">2015 年 英语（二）真题</a></li>
+
+<li><a href="/english/paper/2016_english2/">2016 年 英语（二）真题</a></li>
+
+<li><a href="/english/paper/2017_english2/">2017 年 英语（二）真题</a></li>
+
+<li><a href="/english/paper/2018_english2/">2018 年 英语（二）真题</a></li>
+
+<li><a href="/english/paper/2019_english2/">2019 年 英语（二）真题</a></li>
+
+<li><a href="/english/paper/2020_english2/">2020 年 英语（二）真题</a></li>
+
+<li><a href="/english/paper/2021_english2/">2021 年 英语（二）真题</a></li>
+
+<li><a href="/english/paper/2022_english2/">2022 年 英语（二）真题</a></li>
+
+<li><a href="/english/paper/2023_english2/">2023 年 英语（二）真题</a></li>
+
+<li><a href="/english/paper/2024_english2/">2024 年 英语（二）真题</a></li>
+
+<li><a href="/english/paper/2025_english2/">2025 年 英语（二）真题</a></li>
+
+<li><a href="/english/paper/2026_english2/">2026 年 英语（二）真题</a></li>
+<li><a href="/english/words/">考研英语高频词汇表（4358 词条页）</a></li>
+</ul>
+</div><!-- seo-pages:end -->
+
+    <!-- 单词释义气泡 -->
+    <div id="dictBubble" class="dict-bubble" role="tooltip">
+        <div class="dict-bubble-head">
+            <div class="dict-bubble-left">
+                <div class="dict-word-row">
+                    <span id="bubbleWord" class="dict-bubble-word"></span>
+                </div>
+                <div id="bubblePhonetic" class="dict-phonetic"></div>
+            </div>
+            <div class="dict-bubble-actions">
+                <button id="bubbleSpeak" class="dict-icon-btn" title="发音" aria-label="发音">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
+                </button>
+                <button id="bubbleStar" class="dict-icon-btn dict-star" title="收藏/取消收藏" aria-label="收藏">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                </button>
+                <button id="bubbleCorrect" class="dict-icon-btn" title="纠错" aria-label="纠错">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19.5 8.5l-4-4L4 16v4z"></path><path d="M13.5 6.5l4 4"></path></svg>
+                </button>
+            </div>
+        </div>
+        <div id="bubbleSenses" class="dict-bubble-senses"></div>
+        <button id="bubbleMore" class="dict-bubble-more">查看全部义项</button>
+    </div>
+
+    <!-- 完整释义面板 -->
+    <div id="dictBackdrop" class="dict-backdrop"></div>
+    <div id="dictPanel" class="dict-panel" role="dialog" aria-modal="true" aria-label="单词释义">
+        <div class="dict-handle" id="dictHandle"></div>
+        <div class="dict-head">
+            <div class="dict-head-left">
+                <div class="dict-word-row">
+                    <span id="dictWord" class="dict-word"></span>
+                </div>
+                <div id="dictPhonetic" class="dict-phonetic"></div>
+            </div>
+            <div class="dict-head-actions">
+                <button id="dictSpeak" class="dict-icon-btn" title="发音" aria-label="发音">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
+                </button>
+                <button id="dictStar" class="dict-icon-btn dict-star" title="收藏/取消收藏" aria-label="收藏">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                </button>
+                <button id="dictCorrect" class="dict-icon-btn" title="纠错" aria-label="纠错">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19.5 8.5l-4-4L4 16v4z"></path><path d="M13.5 6.5l4 4"></path></svg>
+                </button>
+                <button id="dictClose" class="dict-icon-btn dict-close" title="关闭" aria-label="关闭">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+            </div>
+        </div>
+        <div id="dictMeta" class="dict-meta"></div>
+        <div id="dictSenses" class="dict-senses"></div>
+        <div id="dictFooter" class="dict-footer"></div>
+    </div>
+
+    <!-- 单词本抽屉 -->
+    <div id="wordListDrawer" class="drawer">
+        <div class="drawer-mask"></div>
+        <div class="drawer-panel">
+            <div class="drawer-header">
+                <h2>我的单词本</h2>
+                <button class="drawer-close" id="drawerClose">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="drawer-toolbar">
+                <input type="text" id="wordSearch" class="search-input" placeholder="搜索单词…">
+                <button id="sortToggleBtn" class="btn btn-sort" title="切换排序方式">按时间</button>
+                <button id="clearAllBtn" class="btn btn-text-danger">清空</button>
+            </div>
+            <div id="wordListContainer" class="drawer-body">
+                <!-- 动态生成 -->
+            </div>
+            <div class="drawer-footer">
+                <div class="drawer-stats">
+                    <span id="drawerWordCount">0 个单词</span>
+                    <span id="drawerFreqTotal" class="drawer-freq-total"></span>
+                </div>
+                <div class="drawer-actions">
+                    <button id="copyBtn2" class="btn btn-ghost" title="复制为文本（一行一个）">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                        <span>复制为文本（一行一个）</span>
+                    </button>
+                    <button id="exportBtn2" class="btn btn-primary">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        <span>导出为文本（一行一个）</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 数据管理弹窗：换设备时备份/导入 -->
+    <div id="backupModal" class="modal">
+        <div class="modal-mask"></div>
+        <div class="modal-panel backup-panel">
+            <div class="modal-header">
+                <h2>数据管理</h2>
+                <button class="modal-close" id="backupClose" aria-label="关闭">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="backup-desc"><span class="backup-note">导入会覆盖本设备当前数据。</span></p>
+                <div class="backup-actions">
+                    <button id="backupExportBtn" class="btn btn-ghost" title="下载备份文件（JSON）">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        <span>导出数据</span>
+                    </button>
+                    <button id="backupImportBtn" class="btn btn-ghost" title="从备份文件导入到本设备">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="17 8 12 3 7 8"></polyline>
+                            <line x1="12" y1="3" x2="12" y2="15"></line>
+                        </svg>
+                        <span>导入数据</span>
+                    </button>
+                    <input type="file" id="backupFileInput" accept=".json,application/json" style="display:none">
+                </div>
+                <button id="scanShareBtn" class="btn btn-ghost scan-share-btn" title="生成二维码，手机扫码即导入（无需传文件）">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="7" height="7" rx="1"></rect>
+                        <rect x="14" y="3" width="7" height="7" rx="1"></rect>
+                        <rect x="3" y="14" width="7" height="7" rx="1"></rect>
+                        <path d="M14 14h3v3h-3zM20 14h1M14 20h1M18 18h3v3h-3z"></path>
+                    </svg>
+                    <span>扫码传递（手机扫一扫即导入）</span>
+                </button>
+                <div id="scanResult" class="scan-result" style="display:none">
+                    <div id="scanQr" class="scan-qr"></div>
+                    <p class="scan-hint">扫描二维码，数据会自动导入设备。<b>24 小时内有效、扫过即焚</b>，仅供一次使用。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 真题详解下载弹窗 -->
+    <div id="materialsModal" class="modal">
+        <div class="modal-mask"></div>
+        <div class="modal-panel materials-panel">
+            <div class="modal-header">
+                <h2>真题详解资料</h2>
+                <button class="modal-close" id="materialsClose" aria-label="关闭">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="materials-desc">考研英语二历年真题详解，PDF 格式，供学习参考。</p>
+                <div class="materials-list" id="materialsList">
+                    <!-- 动态生成 -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast 提示 -->
+
+    <!-- 交个朋友（微信二维码）弹窗：极简，只有图片 + 右上角 ×，点遮罩/Esc 也关闭 -->
+    <div id="friendModal" class="modal">
+        <div class="modal-mask"></div>
+        <div class="modal-panel friend-panel">
+            <!-- 二维码 130 KB，只在「交个朋友」弹窗里显示：HTML 里不放 src，
+                 打开弹窗时由 openFriendModal() 从 data-src 赋值下载
+                 （弹窗是 visibility:hidden、仍在视口里有盒子，所以 loading="lazy" 拦不住它） -->
+            <img class="friend-qr" data-src="img/wechat-qr.jpg?v=6cc83455cf" alt="微信二维码" title="微信扫码添加好友" decoding="async">
+            <button class="friend-close" id="friendClose" aria-label="关闭">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+
+    <footer class="site-footer">
+        考研英语二真题单词本 ·
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">黑ICP备2026008951号-1</a>
+    </footer>
+
+    <!-- 反馈入口 -->
+    <button id="feedbackBtn" class="feedback-fab" title="使用反馈" aria-label="使用反馈">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+    </button>
+    <div id="feedbackModal" class="feedback-modal">
+        <div class="feedback-card">
+            <div class="feedback-head">
+                <h3>使用反馈</h3>
+                <button id="feedbackClose" class="dict-icon-btn" title="关闭" aria-label="关闭">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+            </div>
+            <p class="feedback-note">反馈内容仅用于改进，不会公开。</p>
+            <textarea id="feedbackText" maxlength="1000" placeholder="说说你的建议、遇到的问题…"></textarea>
+            <div class="feedback-count"><span id="feedbackCount">0</span>/1000</div>
+            <button id="feedbackSubmit" class="feedback-submit">提交反馈</button>
+        </div>
+    </div>
+
+    <!-- Local snapshot: upstream telemetry / search-engine submission removed. -->
+    <script src="js/srs-engine.js?v=8490033f16"></script>
+    <script src="js/srs-panel.js?v=c8e609233c"></script>
+    <script src="js/correction.js?v=67f24a2f54"></script>
+    <script src="js/tts.js?v=fd467c62e1"></script>
+    <script src="js/qrcode.min.js?v=170c529753"></script>
+    <script src="js/app.js?v=4e57ffdc02"></script>
+    <!-- Local snapshot: upstream telemetry / search-engine submission removed. -->
+</body>
+</html>

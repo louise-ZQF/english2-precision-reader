@@ -163,6 +163,21 @@
             }).join(' ');
         });
         applyMode();
+        markSavedSentences();
+    }
+
+    function trackHeaderHeight() {
+        const nav = $('.snav'), header = $('.app-header');
+        if (!nav || !header) return;
+        const measure = () => {
+            const navHeight = Math.ceil(nav.getBoundingClientRect().height);
+            const totalHeight = navHeight + Math.ceil(header.getBoundingClientRect().height);
+            document.documentElement.style.setProperty('--precision-nav-height', navHeight + 'px');
+            document.documentElement.style.setProperty('--reading-header-height', totalHeight + 'px');
+        };
+        measure();
+        const observer = new ResizeObserver(measure);
+        observer.observe(nav); observer.observe(header);
     }
 
     function applyMode() {
@@ -263,19 +278,28 @@
     function hideSelection() { if (selectionBar) selectionBar.style.display = 'none'; if (contextMenu) contextMenu.style.display = 'none'; }
     function hideFloating() { clearTimeout(clickTimer); hidePopover(); hideSelection(); selected = null; }
 
-    function selectionFromRecords(list, text) { return { text: text.trim(), context: list.map(r => r.en).join(' '), segments: list.map(r => ({ en: r.en, zh: r.zh, tokens: r.tokens, groups: r.groups, core: r.core })), source: list[0] && list[0].source, sourceIds: list.map(r => r.id) }; }
+    function selectionFromRecords(list, text) { return { text: text.trim(), context: list.map(r => r.en).join(' '), segments: list.map(r => ({ en: r.en, zh: r.zh, tokens: r.tokens, groups: r.groups, core: r.core })), source: list[0] && list[0].source, sourceIds: list.map(r => r.id), ranges: list.map(r => ({ en: r.en, a: 0, b: r.en.length, source: r.source })) }; }
     function captureSelection() {
         const selection = window.getSelection(); const root = $('#examContent');
         if (!selection || selection.isCollapsed || !selection.rangeCount || !root.contains(selection.anchorNode) || !root.contains(selection.focusNode)) return null;
         const range = selection.getRangeAt(0);
-        const fragment = range.cloneContents();
-        $$('.sentence-no,.question-num,.option-letter,.choice-letter', fragment).forEach(x => x.remove());
-        const text = norm(fragment.textContent);
-        if (!/[A-Za-z]/.test(text) || !/\s/.test(text)) return null;
-        const list = [];
-        $$('.precision-sentence', root).forEach(el => { if (range.intersectsNode(el)) { const r = records.get(el.dataset.sentenceId); if (r) list.push(r); } });
+        const list = [], ranges = [];
+        $$('.precision-sentence', root).forEach(el => {
+            const body = $('.sentence-body', el), record = records.get(el.dataset.sentenceId);
+            if (!body || !record || !range.intersectsNode(body)) return;
+            const bounds = document.createRange(); bounds.selectNodeContents(body);
+            const clipped = range.cloneRange();
+            if (clipped.compareBoundaryPoints(Range.START_TO_START, bounds) < 0) clipped.setStart(bounds.startContainer, bounds.startOffset);
+            if (clipped.compareBoundaryPoints(Range.END_TO_END, bounds) > 0) clipped.setEnd(bounds.endContainer, bounds.endOffset);
+            const prefix = document.createRange(); prefix.selectNodeContents(body); prefix.setEnd(clipped.startContainer, clipped.startOffset);
+            const a = prefix.toString().length, b = a + clipped.toString().length;
+            if (b <= a) return;
+            list.push(record); ranges.push({ en: record.en, a, b, source: record.source });
+        });
         if (!list.length) return null;
-        return { ...selectionFromRecords(list, text), rect: range.getBoundingClientRect() };
+        const text = norm(ranges.map(r => r.en.slice(r.a, r.b)).join(' '));
+        if (!/[A-Za-z]/.test(text) || !/\s/.test(text)) return null;
+        return { ...selectionFromRecords(list, text), ranges, rect: range.getBoundingClientRect() };
     }
     function showSelectionToolbar(payload, rightClick) {
         selected = payload; hidePopover();
@@ -372,13 +396,83 @@
         const text = payload.text.trim(); if (!text) return;
         const id = hash((payload.source && payload.source.exam || '') + '|' + text);
         if (saved.some(s => s.id === id)) { toast('这条长难句已经收藏'); return; }
-        const item = { id, text, context: payload.context, segments: payload.segments, source: payload.source, createdAt: Date.now(), draft: '', reference: '', reviews: 0, nextReviewAt: 0, level: 0 };
+        const item = { id, text, context: payload.context, segments: payload.segments, source: payload.source, ranges: payload.ranges, createdAt: Date.now(), draft: '', reference: '', reviews: 0, nextReviewAt: 0, level: 0 };
         const next = [item, ...saved];
         if (!write(KEYS.sentences, next)) return;
         saved = next; updateBookCount(); toast('已收藏到长难句');
         Promise.all(item.segments.map(fillTranslation)).then(() => { write(KEYS.sentences, saved); });
     }
-    function updateBookCount() { const count = $('#sentenceBookCount'); if (count) count.textContent = saved.length; }
+    // Older collections stored the selected text and complete context, without offsets.
+    function savedRanges(item) {
+        if (Array.isArray(item.ranges)) return item.ranges;
+        const segments = item.segments || [];
+        const context = segments.map(s => norm(s.en)).join(' '), text = norm(item.text);
+        if (!text) return [];
+        let start = context.indexOf(text), end = start + text.length;
+        if (start < 0) {
+            const positions = [], chars = [];
+            for (let i = 0; i < context.length; i++) if (!/\s/.test(context[i])) { positions.push(i); chars.push(context[i]); }
+            const compact = text.replace(/\s/g, ''), match = chars.join('').indexOf(compact);
+            if (match < 0) return [];
+            start = positions[match]; end = positions[match + compact.length - 1] + 1;
+        }
+        let offset = 0;
+        return segments.flatMap(segment => {
+            const en = norm(segment.en), a = Math.max(0, start - offset), b = Math.min(en.length, end - offset);
+            offset += en.length + 1;
+            return b > a ? [{ en, a, b }] : [];
+        });
+    }
+    function markSavedSentences() {
+        const root = $('#examContent'); if (!root || !currentExam) return;
+        $$('.precision-saved-text', root).forEach(mark => { const parent = mark.parentNode; mark.replaceWith(...mark.childNodes); parent.normalize(); });
+        const byText = new Map(), highlights = new Map();
+        for (const record of records.values()) {
+            const key = norm(record.en);
+            if (!byText.has(key)) byText.set(key, []);
+            byText.get(key).push(record);
+        }
+        for (const item of saved) {
+            if (item.source && item.source.exam !== currentExam.exam_id) continue;
+            for (const range of savedRanges(item)) {
+                if (!Number.isInteger(range.a) || !Number.isInteger(range.b)) continue;
+                const source = range.source || item.source;
+                for (const record of byText.get(norm(range.en)) || []) {
+                    if (source && (source.exam && source.exam !== record.source.exam || source.article && source.article !== record.source.article)) continue;
+                    if (range.source && (range.source.block !== record.source.block || range.source.sentence !== record.source.sentence)) continue;
+                    const a = Math.max(0, range.a), b = Math.min(record.en.length, range.b);
+                    if (b <= a) continue;
+                    if (!highlights.has(record.id)) highlights.set(record.id, []);
+                    highlights.get(record.id).push({ a, b });
+                }
+            }
+        }
+        for (const [id, ranges] of highlights) {
+            const body = $('[data-sentence-id="' + id + '"] .sentence-body', root); if (!body) continue;
+            const merged = [];
+            for (const range of ranges.sort((a, b) => a.a - b.a)) {
+                const last = merged[merged.length - 1];
+                if (last && range.a <= last.b) last.b = Math.max(last.b, range.b); else merged.push({ ...range });
+            }
+            const walker = document.createTreeWalker(body, NodeFilter.SHOW_TEXT), nodes = [];
+            while (walker.nextNode()) nodes.push(walker.currentNode);
+            let offset = 0;
+            for (const node of nodes) {
+                const value = node.textContent, start = offset; offset += value.length;
+                const overlaps = merged.filter(r => r.a < offset && r.b > start);
+                if (!overlaps.length) continue;
+                const fragment = document.createDocumentFragment(); let cursor = 0;
+                for (const range of overlaps) {
+                    const a = Math.max(0, range.a - start), b = Math.min(value.length, range.b - start);
+                    fragment.appendChild(document.createTextNode(value.slice(cursor, a)));
+                    const mark = document.createElement('mark'); mark.className = 'precision-saved-text'; mark.title = '已收藏到长难句'; mark.textContent = value.slice(a, b); fragment.appendChild(mark);
+                    cursor = b;
+                }
+                fragment.appendChild(document.createTextNode(value.slice(cursor))); node.replaceWith(fragment);
+            }
+        }
+    }
+    function updateBookCount() { const count = $('#sentenceBookCount'); if (count) count.textContent = saved.length; markSavedSentences(); }
     function persistItem(item, change) { const next = saved.map(s => s.id === item.id ? { ...s, ...change } : s); if (write(KEYS.sentences, next)) { saved = next; Object.assign(item, change); } }
     function openLibrary() {
         hideFloating(); closeAnalysis();
@@ -459,6 +553,7 @@
 
     function init() {
         const root = $('#examContent'); if (!root) return;
+        trackHeaderHeight();
         $('#precisionModeBtn').onclick = () => { enabled = !enabled; write(KEYS.mode, enabled); applyMode(); };
         $('#sentenceBookBtn').onclick = openLibrary;
         root.addEventListener('click', event => {

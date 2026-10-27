@@ -1,5 +1,11 @@
 /* Desktop precision reading. Original reading palette is retained. */
-:root { --pr-green:#205b4a; --pr-ink:#20372e; --pr-muted:#65766e; --pr-line:#dce5df; --pr-soft:#edf4ef; }
+:root { --pr-green:#205b4a; --pr-ink:#20372e; --pr-muted:#65766e; --pr-line:#dce5df; --pr-soft:#edf4ef; --precision-nav-height:58px; --reading-header-height:136px; }
+/* Clip horizontal overflow without creating an ancestor scroll container for sticky controls. */
+html { overflow-x:clip; overflow-y:visible; scroll-padding-top:calc(var(--reading-header-height) + 16px); }
+body { height:auto; min-height:100%; overflow:visible; }
+.snav { position:sticky; top:0; z-index:110; }
+.app-header { top:var(--precision-nav-height); }
+.sidebar { top:calc(var(--reading-header-height) + 16px); min-height:calc(100vh - var(--reading-header-height) - 40px); max-height:calc(100vh - var(--reading-header-height) - 40px); }
 .snav-links { display:flex; align-items:center; gap:10px; }
 .precision-mode-btn,.precision-library-btn { font:600 13px/1.3 inherit; font-family:inherit; border:1px solid var(--pr-line); border-radius:9px; padding:9px 15px; cursor:pointer; background:#fff; color:var(--pr-green); white-space:nowrap; }
 .precision-mode-btn[aria-pressed=true] { background:var(--pr-green); color:#fff; border-color:var(--pr-green); }
@@ -22,6 +28,7 @@ body:not(.precision-enabled) #examContent .word:hover { background:transparent; 
 .precision-enabled .precision-phrase:hover { background:#e8f1e8; text-decoration-color:#2b664d; }
 .precision-enabled .precision-word:focus-visible,.sentence-no:focus-visible { outline:2px solid #247b5c; outline-offset:3px; }
 .precision-located { background:#fff0bc; border-radius:5px; }
+#examContent .precision-saved-text { color:var(--danger); background:var(--danger-soft); border-radius:2px; text-decoration:underline; text-decoration-color:#c0392b66; text-underline-offset:4px; box-decoration-break:clone; -webkit-box-decoration-break:clone; }
 .precision-popover,.precision-selection-bar,.precision-context-menu { position:fixed; z-index:2147483200; display:none; color:var(--pr-ink); background:#fff; border:1px solid #dbe4dc; border-radius:13px; box-shadow:0 14px 45px #12332025; font:14px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif; }
 .precision-popover { width:400px; max-width:calc(100vw - 24px); max-height:65vh; overflow:auto; padding:19px 20px 15px; }
 .precision-pop-head { display:flex; justify-content:space-between; align-items:flex-start; gap:15px; }

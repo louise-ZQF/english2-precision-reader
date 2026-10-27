@@ -20,6 +20,7 @@ body { height:auto; min-height:100%; overflow:visible; }
 .precision-enabled .sentence-no:hover { background:var(--pr-green); color:#fff; border-color:var(--pr-green); }
 .precision-compact .sentence-no { display:none; }
 .precision-word { transition:background .12s; }
+.precision-compound { white-space:nowrap; }
 body:not(.precision-enabled) #examContent .word { cursor:text; }
 body:not(.precision-enabled) #examContent .word:hover { background:transparent; color:inherit; box-shadow:none; }
 .precision-enabled #examContent .precision-word { cursor:pointer; border-radius:3px; }

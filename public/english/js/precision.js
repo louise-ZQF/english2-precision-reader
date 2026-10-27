@@ -6,7 +6,7 @@
     const $$ = (s, root = document) => Array.from(root.querySelectorAll(s));
     const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
     const norm = s => String(s || '').replace(/[\u2018\u2019]/g, "'").replace(/\s+/g, ' ').trim();
-    const wordKey = s => norm(s).toLowerCase().replace(/[^a-z'\s-]/g, '').trim();
+    const wordKey = s => norm(s).toLowerCase().replace(/[\u2010\u2011]/g, '-').replace(/[^a-z'\s-]/g, '').trim();
     function read(key, fallback) { try { const v = JSON.parse(localStorage.getItem(key)); return v == null ? fallback : v; } catch (_) { return fallback; } }
     function write(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch (_) { toast('保存失败，请先导出数据腾出空间', 'error'); return false; } }
     function toast(s, type) { if (window.EnglishApp) window.EnglishApp.toast(s, type || 'success'); }
@@ -34,6 +34,7 @@
     let previousFocus = null;
     let lookupSequence = 0;
     const dataCache = new Map();
+    const translationCache = new Map();
     const lexiconReady = fetch('data/precision/lexicon.json?v=1').then(r => { if (!r.ok) throw new Error(); return r.json(); }).then(data => {
         lexicon = data;
         phrasePatterns = Object.keys(data.phrases).map(key => ({ key, parts: key.split(' ') })).sort((a, b) => b.parts.length - a.parts.length);
@@ -91,12 +92,14 @@
     }
 
     function sentenceHtml(sentence, id, number) {
-        const phrases = phraseMatches(sentence);
+        // Reading and lookup follow written words, not the parser's subword tokens.
+        const words = Array.from(sentence.en.matchAll(/[A-Za-z]+(?:['\u2018\u2019][A-Za-z]+)*(?:[-\u2010\u2011][A-Za-z]+(?:['\u2018\u2019][A-Za-z]+)*)*/g), m => ({ a: m.index, b: m.index + m[0].length, key: m[0], kind: 'word' }));
+        const phrases = phraseMatches(sentence).filter(p => !words.some(w => (p.a > w.a && p.a < w.b) || (p.b > w.a && p.b < w.b) || (p.a === w.a && p.b === w.b && /[-\u2010\u2011]/.test(w.key))));
         const items = [];
         for (const p of phrases) items.push({ a: p.a, b: p.b, key: p.key, kind: 'phrase', meaning: p.meaning });
-        for (const t of sentence.tokens) {
-            if (!/[A-Za-z]/.test(t.w) || phrases.some(p => t.a >= p.a && t.b <= p.b)) continue;
-            items.push({ a: t.a, b: t.b, key: t.w, kind: 'word', token: t });
+        for (const word of words) {
+            if (phrases.some(p => word.a >= p.a && word.b <= p.b)) continue;
+            items.push(word);
         }
         items.sort((a, b) => a.a - b.a);
         let text = '', cursor = 0;
@@ -104,7 +107,7 @@
             if (item.a < cursor) continue;
             text += esc(sentence.en.slice(cursor, item.a));
             const isSaved = window.EnglishApp && !!window.EnglishApp.state().words[wordKey(item.key)];
-            text += '<span class="word precision-word' + (item.kind === 'phrase' ? ' precision-phrase' : '') + (isSaved ? ' collected' : '') + '" data-word="' + esc(item.key) + '" data-kind="' + item.kind + '" data-start="' + item.a + '" data-end="' + item.b + '"' + (enabled ? ' tabindex="0" role="button" aria-label="查看' + esc(item.key) + '的语境义"' : '') + '>' + esc(sentence.en.slice(item.a, item.b)) + '</span>';
+            text += '<span class="word precision-word' + (item.kind === 'phrase' ? ' precision-phrase' : /[-\u2010\u2011]/.test(item.key) ? ' precision-compound' : '') + (isSaved ? ' collected' : '') + '" data-word="' + esc(item.key) + '" data-kind="' + item.kind + '" data-start="' + item.a + '" data-end="' + item.b + '"' + (enabled ? ' tabindex="0" role="button" aria-label="查看' + esc(item.key) + '的语境义"' : '') + '>' + esc(sentence.en.slice(item.a, item.b)) + '</span>';
             cursor = item.b;
         }
         text += esc(sentence.en.slice(cursor));
@@ -214,13 +217,27 @@
         const word = element.dataset.word, start = Number(element.dataset.start);
         const token = record.tokens.find(t => t.a === start) || record.tokens.find(t => t.a <= start && t.b > start);
         const isPhrase = element.dataset.kind === 'phrase';
+        const wholeWord = !isPhrase && (/[-\u2010\u2011]/.test(word) || token && Number(element.dataset.end) > token.b && wordKey(word) !== wordKey(token.w));
         const phrase = isPhrase ? phraseSense(wordKey(word), record) : null;
         const overrideKey = contextKey(record, start, word);
         const override = overrides[overrideKey];
-        return { word, kind: isPhrase ? 'phrase' : 'word', record, token, key: overrideKey, lemma: isPhrase ? wordKey(word) : (token && token.l) || wordKey(word), meaning: override || (phrase ? phrase.meaning : token && token.m) || '', quality: override ? 'manual' : phrase ? phrase.quality : token && token.q || 'missing', element };
+        const lemma = isPhrase || wholeWord ? wordKey(word) : (token && token.l) || wordKey(word);
+        const entry = wholeWord && lexicon.words[lemma];
+        const wholeMeaning = entry && entry.common && entry.common[0] && entry.common[0].m || '';
+        return { word, kind: isPhrase ? 'phrase' : 'word', wholeWord, record, token, key: overrideKey, lemma, meaning: override || (phrase ? phrase.meaning : wholeWord ? wholeMeaning : token && token.m) || '', quality: override ? 'manual' : phrase ? phrase.quality : wholeWord ? wholeMeaning ? 'candidate' : 'missing' : token && token.q || 'missing', element };
     }
 
-    function meaningLabel(info) { return info.quality === 'candidate' ? '本句候选义 · 待确认' : info.quality === 'missing' ? '本句语境义 · 待补充' : info.quality === 'phrase' ? '本句词组义' : '本句语境义'; }
+    async function completeWholeWord(info) {
+        if (!info.wholeWord || info.meaning) return;
+        try {
+            const entry = await window.EnglishApp.lookup(info.word);
+            if (entry && !entry._partial && entry.s && entry.s.length) { info.meaning = entry.s[0].t; info.quality = 'candidate'; return; }
+            const payload = { text: info.word, segments: [] };
+            const zh = await fillSelectionTranslation(payload);
+            if (zh) { info.meaning = zh; info.quality = 'machine'; }
+        } catch (_) {}
+    }
+    function meaningLabel(info) { return info.quality === 'machine' ? '完整词译义 · 在线翻译' : info.quality === 'candidate' ? '本句候选义 · 待确认' : info.quality === 'missing' ? '本句语境义 · 待补充' : info.quality === 'phrase' ? '本句词组义' : '本句语境义'; }
     function position(box, anchor) {
         const r = anchor && anchor.getBoundingClientRect ? anchor.getBoundingClientRect() : anchor;
         if (!r) return;
@@ -237,11 +254,13 @@
         if (!enabled) return;
         const info = wordInfo(element); if (!info) return;
         const request = ++lookupSequence;
+        await completeWholeWord(info);
+        if (request !== lookupSequence) return;
         let common = lexicon.words[info.lemma];
         if (!info.meaning && !common && window.EnglishApp) {
             const entry = await window.EnglishApp.lookup(info.word);
             if (request !== lookupSequence) return;
-            const senses = (entry && entry.s || []).filter(s => /^(n|v|vt|vi|a|adj|ad|adv|prep|conj|pron)$/.test(s.p));
+            const senses = (entry && (!info.wholeWord || !entry._partial) && entry.s || []).filter(s => /^(n|v|vt|vi|a|adj|ad|adv|prep|conj|pron)$/.test(s.p));
             common = { ph: entry && entry.ph || '', common: senses.slice(0, 2).map(s => ({ m: s.t.split(/[,，;；]/).slice(0, 2).join('；'), p: s.p, count: 0 })) };
         }
         const box = ensurePopover();
@@ -272,13 +291,40 @@
     }
     function collectInfo(info) {
         if (!info) return;
-        window.EnglishApp.collect(info.word, { kind: info.kind, lemma: info.lemma, meaning: info.meaning, meaningQuality: info.quality, sentence: info.record.en, translation: info.record.zh, source: info.record.source });
+        const details = () => ({ kind: info.kind, lemma: info.lemma, meaning: info.meaning, meaningQuality: info.quality, sentence: info.record.en, translation: info.record.zh, source: info.record.source });
+        window.EnglishApp.collect(info.word, details());
+        if (info.wholeWord && !info.meaning) completeWholeWord(info).then(() => {
+            const savedWord = window.EnglishApp.state().words[wordKey(info.word)];
+            if (info.meaning && savedWord && !savedWord.meaning && savedWord.sentence === info.record.en) window.EnglishApp.collect(info.word, details(), { silent: true });
+        });
     }
     function hidePopover() { lookupSequence++; if (popover) popover.style.display = 'none'; }
     function hideSelection() { if (selectionBar) selectionBar.style.display = 'none'; if (contextMenu) contextMenu.style.display = 'none'; }
     function hideFloating() { clearTimeout(clickTimer); hidePopover(); hideSelection(); selected = null; }
 
     function selectionFromRecords(list, text) { return { text: text.trim(), context: list.map(r => r.en).join(' '), segments: list.map(r => ({ en: r.en, zh: r.zh, tokens: r.tokens, groups: r.groups, core: r.core })), source: list[0] && list[0].source, sourceIds: list.map(r => r.id), ranges: list.map(r => ({ en: r.en, a: 0, b: r.en.length, source: r.source })) }; }
+    function selectionSegments(payload) {
+        const segments = payload.segments || [];
+        const ranges = savedRanges(payload);
+        const clipped = ranges.flatMap(range => {
+            const segment = segments.find(s => norm(s.en) === norm(range.en));
+            if (!segment || !Number.isInteger(range.a) || !Number.isInteger(range.b)) return [];
+            let a = Math.max(0, range.a), b = Math.min(segment.en.length, range.b);
+            while (a < b && /\s/.test(segment.en[a])) a++;
+            while (b > a && /\s/.test(segment.en[b - 1])) b--;
+            if (b <= a) return [];
+            if (a === 0 && b === segment.en.length) return [segment];
+            const en = segment.en.slice(a, b);
+            const tokens = (segment.tokens || []).filter(t => t.a < b && t.b > a).map(t => ({ ...t, a: Math.max(a, t.a) - a, b: Math.min(b, t.b) - a, w: segment.en.slice(Math.max(a, t.a), Math.min(b, t.b)) }));
+            const ids = new Set(tokens.map(t => t.g));
+            const hasWord = word => word && tokens.some(t => t.w === word);
+            const groups = (segment.groups || []).filter(g => ids.has(g.id)).map(g => ({ ...g, label: hasWord(g.head) ? g.label : '选区片段', head: hasWord(g.head) ? g.head : '', attach: hasWord(g.attach) ? g.attach : '', parent: ids.has(g.parent) ? g.parent : null }));
+            const core = (segment.core || []).filter(c => en.includes(c.text));
+            return [{ en, zh: '', tokens, groups, core }];
+        });
+        // Unmatched old imports still translate only their saved selection.
+        return clipped.length && norm(clipped.map(s => s.en).join(' ')) === norm(payload.text) ? clipped : [{ en: norm(payload.text), zh: '', tokens: [], groups: [], core: [] }];
+    }
     function captureSelection() {
         const selection = window.getSelection(); const root = $('#examContent');
         if (!selection || selection.isCollapsed || !selection.rangeCount || !root.contains(selection.anchorNode) || !root.contains(selection.focusNode)) return null;
@@ -325,7 +371,7 @@
         const value = norm(payload.text);
         if (value.split(/\s+/).length > 12 || /[.!?;]/.test(value)) { toast('这段内容较长，请收藏到长难句', 'warn'); return; }
         const known = lexicon.phrases[wordKey(value)] || '';
-        window.EnglishApp.collect(value, { kind: 'phrase', lemma: wordKey(value), meaning: known, meaningQuality: known ? 'phrase' : 'missing', sentence: payload.context, translation: payload.segments.map(s => s.zh).filter(Boolean).join(' '), source: payload.source });
+        window.EnglishApp.collect(value, { kind: 'phrase', lemma: wordKey(value), meaning: known, meaningQuality: known ? 'phrase' : 'missing', sentence: payload.context, translation: payload.selectionTranslation && payload.selectionTranslation.en === value ? payload.selectionTranslation.zh : '', source: payload.source });
     }
 
     const circled = id => id <= 20 ? String.fromCodePoint(0x2460 + id - 1) : '(' + id + ')';
@@ -347,8 +393,8 @@
         }
         result += esc(segment.en.slice(cursor));
         const core = (segment.core || []).map(c => '<span><small>' + esc(c.role) + '</small>' + esc(c.text) + '</span>').join('<b class="grammar-arrow">→</b>');
-        const links = segment.groups.filter(g => g.id !== 1).map(g => '<li><span class="grammar-label grammar-color-' + ((g.id - 1) % 6) + '">' + circled(g.id) + ' ' + esc(g.label) + '</span><span>以 <b>' + esc(g.head) + '</b> 为中心，连接 ' + circled(g.parent || 1) + ' 中的 <b>' + esc(g.attach) + '</b></span></li>').join('');
-        return '<div class="grammar-core">' + core + '</div><div class="grammar-text">' + result + '</div>' + (links ? '<ul class="grammar-links">' + links + '</ul>' : '') + '<p class="precision-note">同号、同色属于同一结构；“续”表示越过插入部分后接回原结构。句法为自动分析，可结合译文校对。</p>';
+        const links = segment.groups.filter(g => g.id !== 1 && g.head && g.attach && g.parent).map(g => '<li><span class="grammar-label grammar-color-' + ((g.id - 1) % 6) + '">' + circled(g.id) + ' ' + esc(g.label) + '</span><span>以 <b>' + esc(g.head) + '</b> 为中心，连接 ' + circled(g.parent) + ' 中的 <b>' + esc(g.attach) + '</b></span></li>').join('');
+        return (core ? '<div class="grammar-core">' + core + '</div>' : '') + '<div class="grammar-text">' + result + '</div>' + (links ? '<ul class="grammar-links">' + links + '</ul>' : '') + '<p class="precision-note">同号、同色属于同一结构；“续”表示越过插入部分后接回原结构。句法为自动分析，可结合译文校对。</p>';
     }
 
     function makeOverlay(className, title) {
@@ -372,10 +418,55 @@
         if (!$('.precision-overlay.is-open')) document.body.classList.remove('precision-modal-open');
         if (previousFocus && previousFocus.isConnected) previousFocus.focus({ preventScroll: true });
     }
-    async function fillTranslation(segment) {
-        if (segment.zh) return segment.zh;
-        try { const result = await window.EnglishApp.translate(segment.en); segment.zh = result && result.zh || ''; } catch (_) {}
-        return segment.zh;
+    async function fetchTranslation(url) {
+        const controller = new AbortController(), timer = setTimeout(() => controller.abort(), 12000);
+        try {
+            const response = await fetch(url, { signal: controller.signal, credentials: 'omit', referrerPolicy: 'no-referrer' });
+            if (!response.ok) throw new Error('Translation unavailable');
+            return await response.json();
+        } finally { clearTimeout(timer); }
+    }
+    async function translateExactText(text) {
+        const local = await window.EnglishApp.translate(text);
+        if (local && local.mode === 'exact' && local.zh) return local.zh;
+        // MyMemory limits each query to 500 UTF-8 bytes. Every query contains
+        // only the selected text; no containing sentence is substituted.
+        const chunks = [], encoder = new TextEncoder(); let rest = text;
+        while (encoder.encode(rest).length > 450) {
+            let end = Math.min(450, rest.length);
+            while (encoder.encode(rest.slice(0, end)).length > 450) end--;
+            const space = rest.lastIndexOf(' ', end); if (space > 0) end = space;
+            chunks.push(rest.slice(0, end)); rest = rest.slice(end).trim();
+        }
+        if (rest) chunks.push(rest);
+        const translations = [];
+        try {
+            for (const chunk of chunks) {
+                const data = await fetchTranslation('https://api.mymemory.translated.net/get?' + new URLSearchParams({ q: chunk, langpair: 'en|zh-CN' }));
+                const zh = data.responseData && data.responseData.translatedText;
+                if (Number(data.responseStatus) !== 200 || data.quotaFinished || !zh) throw new Error('Translation unavailable');
+                const decoded = document.createElement('textarea'); decoded.innerHTML = zh;
+                translations.push(decoded.value);
+            }
+            return translations.join('');
+        } catch (_) {
+            const data = await fetchTranslation('https://translate.googleapis.com/translate_a/single?' + new URLSearchParams({ client: 'gtx', sl: 'en', tl: 'zh-CN', dt: 't', q: text }));
+            const zh = Array.isArray(data[0]) ? data[0].map(part => part && part[0] || '').join('') : '';
+            if (!zh) throw new Error('Translation unavailable');
+            return zh;
+        }
+    }
+    async function fillSelectionTranslation(payload) {
+        const text = norm(payload.text);
+        if (payload.selectionTranslation && payload.selectionTranslation.en === text && payload.selectionTranslation.zh) return payload.selectionTranslation.zh;
+        const segments = selectionSegments(payload);
+        let zh = segments.every(s => s.zh) ? segments.map(s => s.zh).join('\n\n') : '';
+        if (!zh) {
+            if (!translationCache.has(text)) translationCache.set(text, translateExactText(text).catch(() => { translationCache.delete(text); return ''; }));
+            zh = await translationCache.get(text);
+        }
+        if (zh) payload.selectionTranslation = { en: text, zh };
+        return zh;
     }
     function sourceLabel(source) { return source ? source.year + ' 英语二 · ' + source.article + (source.paragraph ? ' · 第' + source.paragraph + '段' : '') + ' 第' + source.sentence + '句' : '自选长难句'; }
     function closeAnalysis() { if (analysis) closeOverlay(analysis); }
@@ -383,24 +474,28 @@
         hideFloating();
         if (!analysis) analysis = makeOverlay('precision-analysis', '句子精翻');
         const body = $('.precision-modal-body', analysis);
+        const segments = selectionSegments(payload);
         body.innerHTML = '<p class="precision-source">' + esc(sourceLabel(payload.source)) + '</p>' +
             '<div class="precision-selected"><label>你选中的内容</label><p>' + esc(payload.text) + '</p></div>' +
-            '<div class="precision-analysis-actions"><button id="saveAnalyzedSentence" class="precision-primary">收藏到长难句</button><span>译文和结构按选区所在的完整句子展示</span></div>' +
-            payload.segments.map((s, i) => '<section class="precision-analysis-segment"><h3>' + (payload.segments.length > 1 ? '第 ' + (i + 1) + ' 句 · ' : '') + '整句译文</h3><p class="precision-original">' + esc(s.en) + '</p><p class="precision-translation" data-translation="' + i + '">' + esc(s.zh || '正在匹配本地译文…') + '</p><h3>主干与修饰关系</h3>' + structureHtml(s) + '</section>').join('');
+            '<div class="precision-analysis-actions"><button id="saveAnalyzedSentence" class="precision-primary">收藏到长难句</button></div>' +
+            '<section class="precision-analysis-segment"><h3>选区译文</h3><p class="precision-translation" data-selection-translation>正在翻译所选内容…</p><h3>选区结构</h3>' + segments.map(structureHtml).join('') + '</section>';
         $('#saveAnalyzedSentence', body).onclick = () => saveSentence(payload);
+        const translation = $('[data-selection-translation]', body);
         showOverlay(analysis);
-        await Promise.all(payload.segments.map(async (s, i) => { await fillTranslation(s); const p = $('[data-translation="' + i + '"]', body); if (p) p.textContent = s.zh || '本地句库暂未收录这句译文，可在长难句本中补充参考译文。'; }));
+        const zh = await fillSelectionTranslation(payload);
+        if (translation.isConnected) translation.textContent = zh || '所选内容暂时无法翻译，请稍后重试。';
+        const item = saved.find(s => s.id === hash((payload.source && payload.source.exam || '') + '|' + payload.text.trim()));
+        if (item && payload.selectionTranslation) persistItem(item, { selectionTranslation: payload.selectionTranslation });
     }
 
     function saveSentence(payload) {
         const text = payload.text.trim(); if (!text) return;
         const id = hash((payload.source && payload.source.exam || '') + '|' + text);
         if (saved.some(s => s.id === id)) { toast('这条长难句已经收藏'); return; }
-        const item = { id, text, context: payload.context, segments: payload.segments, source: payload.source, ranges: payload.ranges, createdAt: Date.now(), draft: '', reference: '', reviews: 0, nextReviewAt: 0, level: 0 };
+        const item = { id, text, context: payload.context, segments: payload.segments, source: payload.source, ranges: payload.ranges, selectionTranslation: payload.selectionTranslation, createdAt: Date.now(), draft: '', reference: '', reviews: 0, nextReviewAt: 0, level: 0 };
         const next = [item, ...saved];
         if (!write(KEYS.sentences, next)) return;
         saved = next; updateBookCount(); toast('已收藏到长难句');
-        Promise.all(item.segments.map(fillTranslation)).then(() => { write(KEYS.sentences, saved); });
     }
     // Older collections stored the selected text and complete context, without offsets.
     function savedRanges(item) {
@@ -518,11 +613,13 @@
         const body = $('.precision-modal-body', practice);
         const item = saved.find(s => s.id === practiceQueue[practiceIndex]);
         if (!item) { body.innerHTML = '<div class="precision-practice-done"><h3>这组长难句练完了</h3><p>译文草稿和复习进度已保存在本机。</p><button id="backToSentenceBook" class="precision-primary">回到长难句本</button></div>'; $('#backToSentenceBook', body).onclick = () => { closeOverlay(practice); openLibrary(); }; return; }
+        const segments = selectionSegments(item);
+        const translation = item.selectionTranslation && item.selectionTranslation.en === norm(item.text) ? item.selectionTranslation.zh : '';
         body.innerHTML = '<div class="sentence-practice-progress"><span>第 ' + (practiceIndex + 1) + ' / ' + practiceQueue.length + ' 条</span><span>先自己翻译，再对照结构</span></div><p class="precision-source">' + esc(sourceLabel(item.source)) + '</p><p class="practice-prompt">' + esc(item.text) + '</p><label class="practice-draft-label">我的译文<textarea id="sentenceDraft" rows="5" placeholder="在这里写下你的翻译或分析，草稿会自动保存…">' + esc(item.draft || '') + '</textarea></label>' +
-            (practiceRevealed ? '<div class="practice-answer"><h3>参考译文</h3>' + (item.reference ? '<p class="precision-translation">' + esc(item.reference) + '</p>' : item.segments.map(s => '<p class="precision-translation">' + esc(s.zh || '这句尚无参考译文，可在下方自行补充。') + '</p>').join('')) + '<p class="precision-note">参考译文与结构覆盖选区所在完整句；练习题面保留你的原始选区。</p><details><summary>补充或修改参考译文</summary><textarea id="sentenceReference" rows="3">' + esc(item.reference || '') + '</textarea><button id="saveSentenceReference">保存参考译文</button></details>' + item.segments.map(s => '<h3>结构对照</h3>' + structureHtml(s)).join('') + '</div><div class="practice-ratings"><button data-rating="again">还没理解 · 再练</button><button data-rating="hard">基本理解 · 明天复习</button><button data-rating="good" class="precision-primary">理解了 · 延后复习</button></div>' : '<button id="revealSentenceAnswer" class="precision-primary practice-reveal">对照译文与结构</button>');
+            (practiceRevealed ? '<div class="practice-answer"><h3>参考译文</h3><p class="precision-translation">' + esc(item.reference || translation || '所选内容暂时无法翻译，可在下方补充参考译文。') + '</p><details><summary>补充或修改参考译文</summary><textarea id="sentenceReference" rows="3">' + esc(item.reference || '') + '</textarea><button id="saveSentenceReference">保存参考译文</button></details>' + segments.map(s => '<h3>选区结构</h3>' + structureHtml(s)).join('') + '</div><div class="practice-ratings"><button data-rating="again">还没理解 · 再练</button><button data-rating="hard">基本理解 · 明天复习</button><button data-rating="good" class="precision-primary">理解了 · 延后复习</button></div>' : '<button id="revealSentenceAnswer" class="precision-primary practice-reveal">对照译文与结构</button>');
         $('#sentenceDraft', body).oninput = e => persistItem(item, { draft: e.target.value });
         const reveal = $('#revealSentenceAnswer', body);
-        if (reveal) reveal.onclick = async () => { await Promise.all(item.segments.map(fillTranslation)); write(KEYS.sentences, saved); practiceRevealed = true; renderPractice(); };
+        if (reveal) reveal.onclick = async () => { reveal.disabled = true; reveal.textContent = '正在翻译所选内容…'; await fillSelectionTranslation(item); if (item.selectionTranslation) persistItem(item, { selectionTranslation: item.selectionTranslation }); practiceRevealed = true; renderPractice(); };
         const saveReference = $('#saveSentenceReference', body);
         if (saveReference) saveReference.onclick = () => { persistItem(item, { reference: $('#sentenceReference', body).value.trim() }); toast('参考译文已保存'); renderPractice(); };
         $$('[data-rating]', body).forEach(b => b.onclick = () => {
@@ -538,7 +635,7 @@
         const key = wordKey(word); const item = window.EnglishApp && window.EnglishApp.state().words[key];
         const entry = lexicon.words[item && item.lemma || key]; const phrase = lexicon.phrases[key];
         const meanings = [];
-        if (item && item.meaning) meanings.push({ p: item.meaningQuality === 'candidate' ? '候选' : item.kind === 'phrase' ? '词组' : '本句', t: item.meaning });
+        if (item && item.meaning) meanings.push({ p: item.meaningQuality === 'candidate' ? '候选' : item.meaningQuality === 'machine' ? '整词' : item.kind === 'phrase' ? '词组' : '本句', t: item.meaning });
         else if (phrase) meanings.push({ p: '词组', t: phrase });
         if (entry) for (const s of entry.common) if (!meanings.some(m => m.t === s.m)) meanings.push({ p: s.p, t: s.m });
         return meanings.length ? { ph: entry && entry.ph || '', s: meanings.slice(0, 3) } : null;

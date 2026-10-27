@@ -145,7 +145,7 @@
     }
 
     function normalizeWord(w) {
-        return String(w).toLowerCase().replace(/[\u2018\u2019]/g, "'").replace(/[^a-z'\s-]/g, '').replace(/\s+/g, ' ').trim();
+        return String(w).toLowerCase().replace(/[\u2018\u2019]/g, "'").replace(/[\u2010\u2011]/g, '-').replace(/[^a-z'\s-]/g, '').replace(/\s+/g, ' ').trim();
     }
 
     // 不规则动词过去式/过去分词 → 原形。
@@ -2550,9 +2550,9 @@
         normalizeWord,
         toast: showToast,
         lookup: async (word) => { await loadDict(); return lookupWord(word); },
-        translate: (text) => lookupSentence(text),
+        translate: (text) => lookupSentence(text, true),
         selectExam: (id) => { selectExam(id); return window.EnglishPrecision ? window.EnglishPrecision.whenRendered() : Promise.resolve(); },
-        collect: (word, info) => {
+        collect: (word, info, options = {}) => {
             const key = normalizeWord(word);
             if (!key) return;
             const previous = state.words[key];
@@ -2563,7 +2563,7 @@
             document.querySelectorAll('#examContent [data-word]').forEach(span => {
                 span.classList.toggle('collected', !!state.words[normalizeWord(span.dataset.word)]);
             });
-            showToast(previous ? '已在生词本：' + word : '已收藏：' + word, 'success');
+            if (!options.silent) showToast(previous ? '已在生词本：' + word : '已收藏：' + word, 'success');
         },
         remove: removeWord
     };
@@ -2672,7 +2672,7 @@
         return sentenceBankPromise;
     }
 
-    async function lookupSentence(text) {
+    async function lookupSentence(text, exactOnly = false) {
         const norm = normalizeSentence(text);
         if (!norm || !/[a-z]/.test(norm)) return null;
         try {
@@ -2682,6 +2682,7 @@
             if (sentenceBank[h]) {
                 return { en: sentenceBank[h].en, zh: sentenceBank[h].zh, mode: 'exact' };
             }
+            if (exactOnly) return null;
             // 选中跨了多句：逐句匹配
             const clean = String(text || '').replace(/\s+/g, ' ').trim();
             const parts = splitSentencesManual(clean).filter((s) => s.length > 6);

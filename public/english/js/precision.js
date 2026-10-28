@@ -7,6 +7,8 @@
     const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
     const norm = s => String(s || '').replace(/[\u2018\u2019]/g, "'").replace(/\s+/g, ' ').trim();
     const wordKey = s => norm(s).toLowerCase().replace(/[\u2010\u2011]/g, '-').replace(/[^a-z'\s-]/g, '').trim();
+    const wordData = window.EnglishWordForms || { words: {}, index: {} };
+    const posName = pos => ({ n: '名词', v: '动词', vt: '动词', vi: '动词', a: '形容词', adj: '形容词', adv: '副词', ad: '副词', prep: '介词', conj: '连词', pron: '代词' }[pos] || pos || '');
     const LOCAL_PHRASES = {
         'spin off': '接连产生；衍生出；分拆出来', 'spin out': '延长；使持续；分拆出来',
         'brush off': '不理会；轻轻刷掉', 'shrug off': '不把……放在心上；摆脱',
@@ -51,7 +53,7 @@
         increasingly: '日益；越来越', loud: '激烈的；引人注意的', debate: '争论；讨论', balance: '平衡',
         prompt: '引发；促使', argument: '争论；讨论', title: '书名', buzzword: '流行语；热门用语',
         unplug: '下线；从工作中抽身', offline: '离线的；不处理工作消息的', bandwidth: '精力和时间余量',
-        capacity: '可投入的精力；承受能力', boundary: '界限；边界', devote: '投入；致力于', long: '长时间地；很久',
+        capacity: '可投入的精力；承受能力', boundary: '界限；工作与家庭生活之间的分界', devote: '投入；致力于', long: '长时间地；很久',
         irony: '讽刺之处；矛盾之处', manager: '管理者', regular: '普通的', willingly: '愿意地；心甘情愿地',
         absorb: '接受；吸纳（这些说法）', linguist: '语言学家', nonsense: '无意义的套话；胡话',
         workplace: '工作场所', fundamentally: '从根本上说', indifferent: '漠不关心的', relate: '理解自己与……的关系',
@@ -327,6 +329,36 @@
         if (token && lemma === 'that' && token.d === 'mark') return { meaning: '从句引导词，连接后面的内容；通常不单独译出', quality: 'grammar' };
         return null;
     }
+    function wordEntry(lemma) { return lexicon.words[lemma] || wordData.words[lemma]; }
+    function resolveLemma(word, token) {
+        const key = wordKey(word), original = token && token.l || key;
+        if (original !== key && original !== wordKey(token && token.w)) return original;
+        const candidates = wordData.index[key] || [];
+        const pos = token && token.p;
+        const matching = candidates.filter(item => !pos || item.p === pos || pos === 'adj' && item.p === 'a' || /^(vt|vi)$/.test(pos) && item.p === 'v');
+        if (matching.some(item => item.lemma === original && item.label === '原形')) return original;
+        return matching.length ? matching[0].lemma : original;
+    }
+    function wordMorphology(info) {
+        const phrase = info.kind === 'phrase', parts = info.lemma.split(' '), head = phrase ? parts[0] : info.lemma;
+        const family = wordData.words[head];
+        const surface = wordKey(info.element && info.element.textContent || info.word);
+        const writtenHead = phrase ? surface.split(' ')[0] : surface;
+        const matches = (wordData.index[writtenHead] || []).filter(item => item.lemma === head && (!info.token || !info.token.p || item.p === info.token.p));
+        const labels = writtenHead === head ? [] : [...new Set(matches.map(item => item.label).filter(label => label !== '原形'))];
+        const tail = phrase ? parts.slice(1).join(' ') : '';
+        const forms = family && (!phrase || family.pos.includes('v')) ? family.forms.filter(item => !phrase || ['第三人称单数', '过去式', '过去分词', '现在分词／动名词', '现在式'].includes(item.label)).map(item => ({ label: item.label, words: item.words.map(word => tail ? word + ' ' + tail : word) })) : [];
+        return { lemma: info.lemma, labels, forms };
+    }
+    function morphologyHtml(info) {
+        const morphology = wordMorphology(info);
+        const label = info.kind === 'phrase' ? '词组原形' : info.lemma.includes("'") && !wordData.words[info.lemma] ? '当前词形' : '原形';
+        return '<div class="precision-lemma"><span>' + label + '</span><b>' + esc(morphology.lemma) + '</b>' + (morphology.labels.length ? '<small>当前为' + esc(morphology.labels.join('／')) + '</small>' : '') + '</div>';
+    }
+    function formsHtml(info) {
+        const morphology = wordMorphology(info);
+        return '<section class="precision-word-forms"><label>相关词形</label>' + (morphology.forms.length ? '<dl>' + morphology.forms.map(item => '<div><dt>' + esc(item.label) + '</dt><dd>' + esc(item.words.join(' / ')) + '</dd></div>').join('') + '</dl>' : '<p class="precision-note">暂无其他已收录的词形</p>') + '</section>';
+    }
     function wordInfo(element) {
         const record = records.get(element.closest('.precision-sentence').dataset.sentenceId);
         if (!record) return null;
@@ -335,11 +367,11 @@
         const isPhrase = element.dataset.kind === 'phrase';
         const wholeWord = !isPhrase && (/[-\u2010\u2011]/.test(word) || token && Number(element.dataset.end) > token.b && wordKey(word) !== wordKey(token.w));
         const phrase = isPhrase ? phraseSense(wordKey(word), record) : null;
-        const context = !isPhrase && !wholeWord ? contextSense(word, record, token) : null;
         const overrideKey = contextKey(record, start, word);
         const override = overrides[overrideKey];
-        const lemma = isPhrase || wholeWord ? wordKey(word) : (token && token.l) || wordKey(word);
-        const entry = wholeWord && lexicon.words[lemma];
+        const lemma = isPhrase || wholeWord ? wordKey(word) : resolveLemma(word, token);
+        const context = !isPhrase && !wholeWord ? contextSense(word, record, { ...token, l: lemma }) : null;
+        const entry = wholeWord && wordEntry(lemma);
         const reviewedWhole = COMPOUND_MEANINGS[wordKey(word)];
         const wholeMeaning = reviewedWhole || entry && entry.common && entry.common[0] && entry.common[0].m || '';
         return { word, kind: isPhrase ? 'phrase' : 'word', wholeWord, record, token, key: overrideKey, lemma, meaning: override || (phrase ? phrase.meaning : context ? context.meaning : wholeWord ? wholeMeaning : token && token.m) || '', quality: override ? 'manual' : phrase ? phrase.quality : context ? context.quality : wholeWord ? reviewedWhole ? 'compound' : wholeMeaning ? 'candidate' : 'missing' : token && token.q || 'missing', element };
@@ -373,13 +405,13 @@
         if (!enabled) return;
         const info = wordInfo(element); if (!info) return;
         const request = ++lookupSequence;
-        let common = lexicon.words[info.lemma];
+        let common = wordEntry(info.lemma);
         if (!info.meaning && common && common.common && common.common[0]) { info.meaning = common.common[0].m; info.quality = 'candidate'; }
         renderWordPopover(info, common, !info.meaning);
         if (info.meaning) return;
         await completeWholeWord(info);
         if (request !== lookupSequence) return;
-        if (!info.meaning && !info.wholeWord && !common && window.EnglishApp) {
+        if (!info.meaning && !info.wholeWord && (!common || !common.common || !common.common.length) && window.EnglishApp) {
             let entry = null;
             try { entry = await window.EnglishApp.lookup(info.word); } catch (_) {}
             if (request !== lookupSequence) return;
@@ -392,11 +424,13 @@
     function renderWordPopover(info, common, loading) {
         const element = info.element;
         const box = ensurePopover();
-        const others = (common && common.common || []).filter(s => s.m !== info.meaning).slice(0, 2);
+        const alternatives = info.lemma === 'boundary' ? [{ p: 'n', m: '边界；疆界（国家、地区等之间的分界）', count: 0 }, { p: 'n', m: '界限；限度（知识、能力等的范围）', count: 0 }] : common && common.common || [];
+        const others = alternatives.filter(s => s.m !== info.meaning).slice(0, 3);
         box.innerHTML = '<div class="precision-pop-head"><div><strong>' + esc(info.word) + '</strong><span>' + (info.kind === 'phrase' ? '词组' : esc(common && common.ph || '')) + '</span></div><button data-action="close" class="precision-icon-close" aria-label="关闭释义">×</button></div>' +
+            morphologyHtml(info) +
             '<div class="precision-current" aria-live="polite"><label>' + meaningLabel(info) + '</label><p>' + esc(info.meaning || (loading ? '正在查询完整词语的中文释义…' : '暂未取得中文释义，可重试或手动补充。')) + '</p></div>' +
-            (others.length ? '<div class="precision-common"><label>英语二其他用法</label>' + others.map(s => '<p>' + esc(s.m) + (s.count ? '<small>英语二语境匹配 ' + s.count + ' 句</small>' : '<small>常用义参考</small>') + '</p>').join('') + '</div>' : '') +
-            '<div class="precision-example"><p>' + esc(info.record.en) + '</p><p class="precision-zh">' + esc(info.record.zh || '点「整句翻译与结构」查看句库匹配结果') + '</p></div>' +
+            (others.length ? '<div class="precision-common"><label>其他常见义</label>' + others.map(s => '<p><span class="precision-sense-pos">' + esc(posName(s.p)) + '</span>' + esc(s.m) + (s.count ? '<small>英语二语境匹配 ' + s.count + ' 句</small>' : '') + '</p>').join('') + '</div>' : '') +
+            formsHtml(info) +
             '<div class="precision-pop-actions"><button data-action="collect">收藏' + (info.kind === 'phrase' ? '整个词组' : '单词') + '</button><button data-action="sentence">整句翻译与结构</button><button data-action="edit">改本句释义</button>' + (!info.meaning && !loading ? '<button data-action="retry">重试查词</button>' : '') + '</div>';
         box.onclick = async event => {
             const button = event.target.closest('[data-action]'); if (!button) return;
@@ -800,7 +834,7 @@
 
     function studyEntry(word) {
         const key = wordKey(word); const item = window.EnglishApp && window.EnglishApp.state().words[key];
-        const entry = lexicon.words[item && item.lemma || key]; const phrase = lexicon.phrases[key];
+        const entry = wordEntry(item && item.lemma || key); const phrase = lexicon.phrases[key];
         const meanings = [];
         const reviewed = item && item.source && contextSense(word, { en: item.sentence || '', source: item.source }, { l: item.lemma || key });
         if (item && item.meaningQuality === 'manual' && item.meaning) meanings.push({ p: '本文', t: item.meaning });

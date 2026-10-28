@@ -15,6 +15,8 @@
 
 2015 年 Text 3 的 17 句译文已逐句按上下文重译，修正时间比较方向、比喻义、中文语序和遗漏信息；相关片段也有对应译文，维护在 public/english/js/reviewed-translations.js。精翻、原文例句和长难句练习优先采用该表，并覆盖相同选区先前缓存的机译；用户自己填写的参考译文保持原样。只在英文选区完全匹配时使用校正表，不扩展到选区外的句子；未校正内容仍标为参考译文。
 
+单词弹窗不再自动展示整句原文和译文，改为原形、本文义、其他常见义及相关词形。例如 boundaries 显示原形 boundary、当前为名词复数，并列出 boundaries；动词和形容词可显示已收录的过去式、过去分词、现在分词、第三人称单数、比较级和最高级，动词词组也支持相应形式。词形由现有英语二真题的标注结果及确认的常用不规则变化编译，运行 .venv/bin/python scripts/build_word_forms.py 可更新 public/english/js/word-forms.js；未收录的词形不会按拼写硬造。
+
 新增功能主要在 public/english/js/precision.js 与 public/english/css/precision.css；分析资料在 public/english/data/precision。修改脚本后运行 python3 scripts/refresh_versions.py 可更新资源版本，不会覆盖功能。请勿再运行初次还原用的 scripts/prepare.py，它会覆盖 app.js 的定制修改。
 
 

@@ -1,4 +1,10 @@
 /* Desktop article progress and private study notes. */
+.header-inner { flex-wrap:wrap; }
+.header-actions { flex-shrink:0; }
+.reading-jumps { display:flex; flex:1; align-items:center; justify-content:center; gap:7px; min-width:max-content; }
+.reading-jumps a { display:inline-flex; align-items:center; justify-content:center; min-height:36px; padding:6px 11px; border:1px solid #cddbd0; border-radius:7px; background:#f4f8f2; color:var(--primary); font:600 12px/1.4 -apple-system,'Segoe UI',sans-serif; text-decoration:none; white-space:nowrap; }
+.reading-jumps a:hover { color:#fff; background:var(--primary); border-color:var(--primary); }
+.reading-jumps a:focus-visible { outline:2px solid #28855e; outline-offset:3px; }
 .study-article { margin-bottom:30px; padding-bottom:22px; border-bottom:1px solid var(--border); scroll-margin-top:16px; }
 .study-article-heading { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; margin:23px 0 20px; padding:9px 12px; background:#f6f8f3; border-left:3px solid #d5dfd3; border-radius:0 8px 8px 0; }
 .study-article-heading>.part-title,.study-article-heading>.text-title,.study-article-name { margin:0; font-size:17px; }

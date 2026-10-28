@@ -12,10 +12,10 @@ body { height:auto; min-height:100%; overflow:visible; }
 .precision-library-btn span { display:inline-block; font-size:11px; padding:1px 5px; margin-left:5px; color:var(--pr-green); background:var(--pr-soft); border-radius:4px; }
 .precision-enabled .hint-bar { color:var(--pr-green); background:#edf5ef; padding:12px 15px; border-radius:8px; margin-bottom:22px; font-size:13px; line-height:1.7; }
 .precision-sentence { position:relative; }
-.precision-paragraph .precision-sentence { display:block; padding-left:31px; margin-bottom:13px; }
-.precision-paragraph { margin-bottom:28px!important; }
+.precision-paragraph .precision-sentence { display:inline; padding:0; margin:0; }
 .sentence-no { position:absolute; top:5px; left:0; min-width:21px; height:21px; padding:0; border:1px solid #cddad0; border-radius:50%; color:#62806c; background:#f2f6f1; font:500 11px/19px system-ui,sans-serif; cursor:pointer; user-select:none; }
 .sentence-no::before { content:attr(data-no); }
+.precision-paragraph .sentence-no { position:static; display:inline-flex; align-items:center; justify-content:center; min-width:16px; width:16px; height:16px; margin:0 5px 0 1px; vertical-align:1px; font:500 10px/1 system-ui,sans-serif; }
 .sentence-no:disabled { cursor:default; opacity:.6; }
 .precision-enabled .sentence-no:hover { background:var(--pr-green); color:#fff; border-color:var(--pr-green); }
 .precision-compact .sentence-no { display:none; }

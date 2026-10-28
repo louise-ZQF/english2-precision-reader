@@ -95,7 +95,11 @@
             button.setAttribute('aria-label', '第' + num + '题 · ' + button.textContent);
         }
     }
-    function onRendered(exam) { currentExam = exam; refreshControls(); }
+    function onRendered(exam) {
+        currentExam = exam; refreshControls();
+        const nav = $('#readingJumps');
+        if (nav) nav.innerHTML = articleList().filter(article => article.examId === exam.exam_id && /^text[1-4]$/.test(article.kind)).map(article => '<a href="#study-article-' + article.key + '" title="跳转到本卷 ' + esc(article.label) + '">' + esc(article.label) + '</a>').join('');
+    }
 
     function ensureOverlay() {
         if (overlay) return;
@@ -250,6 +254,13 @@
     }
     function init() {
         const button = $('#studyRecordsBtn'); if (button) button.onclick = openDashboard;
+        const jumps = $('#readingJumps');
+        if (jumps) jumps.addEventListener('click', event => {
+            const link = event.target.closest('a[href^="#study-article-"]'); if (!link) return;
+            const article = document.getElementById(link.getAttribute('href').slice(1)); if (!article) return;
+            event.preventDefault();
+            article.scrollIntoView({ block: 'start', behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+        });
         const root = $('#examContent'); if (!root) return;
         root.addEventListener('click', event => {
             const button = event.target.closest('[data-study-open],[data-study-question-open]');

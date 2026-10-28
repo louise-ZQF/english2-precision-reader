@@ -11,6 +11,8 @@
 
 语境义结合本句词性、已有中文译文和明确词汇规则筛选，无法可靠确定时标成“候选义”，可点“改本句释义”校正。句法资料使用 [spaCy 依存分析](https://spacy.io/usage/linguistic-features#dependency-parse) 离线生成，复杂结构仍可能有误；未匹配到的译文会明确提示。日常运行不需要安装 NLP 包或配置 AI API。
 
+查词弹窗会先显示，再查询缺失释义，不会因在线接口等待而毫无反馈。常见复合词（含 right-brained、cavity-preventing）已有随脚本提供的中文释义；完整固定搭配表也在 JSON 词库加载前可用，识别支持 spinning/spun 等词形及部分可分离动词短语。2015 年 Text 3 的职场用语另有逐语境校正，如 spinning off examples（接连举出例子）、vision（愿景）、bandwidth（时间和精力余量）。界面将核对过的本文义、语法作用、完整词义及未核对的参考义明确区分；这些修订也用于对应生词本释义。其他文章的自动匹配仍需结合上下文核对，不能视为已经逐词校勘。
+
 新增功能主要在 public/english/js/precision.js 与 public/english/css/precision.css；分析资料在 public/english/data/precision。修改脚本后运行 python3 scripts/refresh_versions.py 可更新资源版本，不会覆盖功能。请勿再运行初次还原用的 scripts/prepare.py，它会覆盖 app.js 的定制修改。
 
 

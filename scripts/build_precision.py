@@ -237,4 +237,5 @@ for lemma,entry in DICT.items():
             if len(common)==2:break
     if common:lexicon[lemma]={'ph':entry.get('ph',''),'common':common}
 (OUT/'lexicon.json').write_text(json.dumps({'phrases':PHRASES,'words':lexicon,'engine':'spaCy en_core_web_sm 3.8.0','note':'语境义基于本句词性、译文匹配及明确词汇规则；候选义单独标注。次数为英语二语境匹配次数，非人工义项统计。'},ensure_ascii=False,separators=(',',':')))
+(DATA.parent/'js/precision-phrases.js').write_text('/* Generated from scripts/precision_lexicon.py; available before JSON loading. */\nwindow.EnglishPhraseBank = '+json.dumps(PHRASES,ensure_ascii=False,separators=(',',':'))+';\n')
 print('DONE',len(lexicon),'words;',len(PHRASES),'phrases',flush=True)

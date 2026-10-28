@@ -1144,7 +1144,8 @@
                 srsLimits: localStorage.getItem(SRS_LIMITS_KEY),
                 dblMode: localStorage.getItem(DBL_MODE_KEY),
                 tts: localStorage.getItem(SRS_TTS_KEY),
-                precision: window.EnglishPrecision ? window.EnglishPrecision.exportData() : null
+                precision: window.EnglishPrecision ? window.EnglishPrecision.exportData() : null,
+                study: window.EnglishStudy ? window.EnglishStudy.exportData() : null
             }
         };
     }
@@ -1175,15 +1176,18 @@
         }
         const words = obj.data.words && typeof obj.data.words === 'object' ? obj.data.words : null;
         const srs = obj.data.srs && typeof obj.data.srs === 'object' ? obj.data.srs : null;
-        if (!words && !srs) {
+        const study = obj.data.study && typeof obj.data.study === 'object' ? obj.data.study : null;
+        if (!words && !srs && !study) {
             showToast('备份里没有可导入的数据', 'error');
             return false;
         }
         const wc = words ? Object.keys(words).length : 0;
         const sc = srs && srs.cards ? Object.keys(srs.cards).length : 0;
         const sentenceCount = obj.data.precision && Array.isArray(obj.data.precision.sentences) ? obj.data.precision.sentences.length : 0;
+        const completedCount = study ? Object.values(study.articles || {}).filter(a => a && a.completedAt).length : 0;
+        const mistakeCount = study ? Object.keys(study.mistakes || {}).length : 0;
         const ok = confirm(
-            '将把备份数据导入到本设备：\n\n· 收藏单词 ' + wc + ' 个\n· 背词进度 ' + sc + ' 张卡片\n· 长难句 ' + sentenceCount + ' 条（备份有此项时导入）\n· 设置（精翻 / 每日上限等）\n\n' +
+            '将把备份数据导入到本设备：\n\n· 收藏单词 ' + wc + ' 个\n· 背词进度 ' + sc + ' 张卡片\n· 长难句 ' + sentenceCount + ' 条（备份有此项时导入）\n· 已翻译文章 ' + completedCount + ' 篇、错题 ' + mistakeCount + ' 题及笔记（备份有此项时导入）\n· 设置（精翻 / 每日上限等）\n\n' +
             '导入会覆盖本设备的当前数据，继续？'
         );
         if (!ok) return false;
@@ -1194,6 +1198,7 @@
             if (obj.data.dblMode === 'translate' || obj.data.dblMode === 'collect') localStorage.setItem(DBL_MODE_KEY, obj.data.dblMode);
             if (obj.data.tts === '1' || obj.data.tts === '0') localStorage.setItem(SRS_TTS_KEY, obj.data.tts);
             if (obj.data.precision && window.EnglishPrecision) window.EnglishPrecision.importData(obj.data.precision);
+            if (study && window.EnglishStudy) window.EnglishStudy.importData(study);
             if (fromCode) {
                 try {
                     const u = new URL(location.href);
@@ -1390,7 +1395,7 @@
     function renderQuestions(questions) {
         let html = '';
         (questions || []).forEach(q => {
-            html += '<div class="question-block">';
+            html += '<div class="question-block" data-study-question="' + escapeHtml(q.q_num) + '">';
             html += '<div class="question-text"><span class="question-num">' + escapeHtml(q.q_num) + '.</span>' +
                 renderClickableText(q.question) + '</div>';
             if (q.options) {
@@ -1399,6 +1404,10 @@
             html += '</div>';
         });
         return html;
+    }
+
+    function studyArticleStart(key, label, heading) {
+        return '<section class="study-article" id="study-article-' + key + '" data-study-article="' + key + '" data-study-label="' + escapeHtml(label) + '"><div class="study-article-heading">' + heading + '<div class="study-article-controls"></div></div>';
     }
 
     function renderExam(exam) {
@@ -1415,7 +1424,7 @@
             '进入精翻后：单击查义 · 双击收藏 · 选中后翻译或右键收藏长难句' +
             '</div>';
 
-        (exam.sections || []).forEach(section => {
+        (exam.sections || []).forEach((section, sectionIndex) => {
             html += '<div class="section-block">';
             html += '<h3 class="section-title">' + escapeHtml(section.title || '') + '</h3>';
 
@@ -1424,6 +1433,8 @@
             }
 
             if (section.passage) {
+                const label = section.cloze_options ? '完形填空' : /Translation|翻译/i.test(section.title || '') ? '翻译' : section.title || '文章';
+                html += studyArticleStart('s' + sectionIndex + '-passage', label, '<h4 class="study-article-name">' + escapeHtml(label) + '</h4>');
                 passageParagraphs(section.passage).forEach(p => {
                     html += '<p class="paragraph">' + renderClickableText(p) + '</p>';
                 });
@@ -1435,29 +1446,33 @@
                 html += '<div class="cloze-grid">';
                 Object.keys(section.cloze_options).forEach(num => {
                     const opts = section.cloze_options[num];
-                    html += '<div class="cloze-item">' +
+                    html += '<div class="cloze-item" data-study-question="' + escapeHtml(num) + '">' +
                         '<span class="cloze-q-num">' + escapeHtml(num) + '.</span>' +
                         '<span class="cloze-opts">' + renderOptionsInline(opts) + '</span>' +
                         '</div>';
                 });
                 html += '</div></div>';
             }
+            if (section.passage) html += '</section>';
 
             if (section.parts) {
-                section.parts.forEach(part => {
-                    html += '<h4 class="part-title">' + escapeHtml(part.title || '') + '</h4>';
+                section.parts.forEach((part, partIndex) => {
+                    const articlePart = !part.texts && ((part.paragraphs && /Part\s*B/i.test(part.title || '')) || (part.passage && /Part\s*C/i.test(part.title || '')));
+                    const heading = '<h4 class="part-title">' + escapeHtml(part.title || '') + '</h4>';
+                    html += articlePart ? studyArticleStart('s' + sectionIndex + '-p' + partIndex, '阅读 ' + (part.title || ''), heading) : heading;
 
                     if (part.directions) {
                         html += '<div class="directions">' + renderClickableText(part.directions) + '</div>';
                     }
 
                     if (part.texts) {
-                        part.texts.forEach(text => {
-                            html += '<h5 class="text-title">' + escapeHtml(text.title || '') + '</h5>';
+                        part.texts.forEach((text, textIndex) => {
+                            html += studyArticleStart('s' + sectionIndex + '-p' + partIndex + '-t' + textIndex, text.title || ('Text ' + (textIndex + 1)), '<h5 class="text-title">' + escapeHtml(text.title || '') + '</h5>');
                             passageParagraphs((text.paragraphs || []).join('\n\n')).forEach(p => {
                                 html += '<p class="paragraph">' + renderClickableText(p) + '</p>';
                             });
                             html += renderQuestions(text.questions);
+                            html += '</section>';
                         });
                     }
 
@@ -1486,6 +1501,7 @@
                             html += '<p class="paragraph">' + renderClickableText(p) + '</p>';
                         });
                     }
+                    if (articlePart) html += '</section>';
                 });
             }
 
@@ -1493,6 +1509,7 @@
         });
 
         el.examContent.innerHTML = html;
+        if (window.EnglishStudy) window.EnglishStudy.onRendered(exam);
         if (window.EnglishPrecision) window.EnglishPrecision.onRendered(exam);
     }
 

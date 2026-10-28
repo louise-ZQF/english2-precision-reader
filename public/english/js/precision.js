@@ -698,6 +698,7 @@
         });
         document.addEventListener('keydown', event => {
             if (event.key !== 'Escape') return;
+            if ($('.study-overlay.is-open')) return;
             const overlays = $$('.precision-overlay.is-open');
             if (overlays.length) { event.stopImmediatePropagation(); closeOverlay(overlays[overlays.length - 1]); }
             else hideFloating();

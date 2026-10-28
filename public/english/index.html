@@ -60,6 +60,7 @@
         }
     </style>
     <link rel="stylesheet" href="css/precision.css?v=59a469b147">
+    <link rel="stylesheet" href="css/study.css?v=0a40359f96">
 </head>
 <body>
 <script>
@@ -107,6 +108,7 @@
         <div class="snav-links">
             <button id="precisionModeBtn" class="precision-mode-btn" type="button" aria-pressed="false">进入精翻</button>
             <button id="sentenceBookBtn" class="precision-library-btn" type="button">长难句 <span id="sentenceBookCount">0</span></button>
+            <button id="studyRecordsBtn" class="precision-library-btn" type="button">学习记录</button>
             
             <a class="snav-link active" href="/english/">考研英语二单词本</a>
         </div>
@@ -380,7 +382,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <p class="backup-desc"><span class="backup-note">导入会覆盖本设备当前数据。</span></p>
+                <p class="backup-desc">备份包含单词、长难句、翻译完成情况、错题和笔记。<span class="backup-note">导入会覆盖本设备当前数据。</span></p>
                 <div class="backup-actions">
                     <button id="backupExportBtn" class="btn btn-ghost" title="下载备份文件（JSON）">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -490,8 +492,9 @@
     <script src="js/correction.js?v=f6ca69154b"></script>
     <script src="js/tts.js?v=fd467c62e1"></script>
     <script src="js/qrcode.min.js?v=170c529753"></script>
-    <script src="js/precision.js?v=9d56044497"></script>
-    <script src="js/app.js?v=a4d90a84e6"></script>
+    <script src="js/precision.js?v=04fd9c95e1"></script>
+    <script src="js/study.js?v=f5ca47bae3"></script>
+    <script src="js/app.js?v=c242c11453"></script>
     <!-- Local snapshot: upstream telemetry / search-engine submission removed. -->
 </body>
 </html>

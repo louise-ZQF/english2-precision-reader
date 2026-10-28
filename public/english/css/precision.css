@@ -70,6 +70,8 @@ body:not(.precision-enabled) #examContent .word:hover { background:transparent; 
 .precision-primary { border:1px solid var(--pr-green)!important; background:var(--pr-green)!important; color:#fff!important; border-radius:8px; padding:10px 16px; font:600 13px/1.4 inherit; font-family:inherit; cursor:pointer; }
 .precision-primary:hover { filter:brightness(1.08); }
 .precision-primary:disabled { opacity:.45; cursor:default; }
+.precision-sentence-saved:disabled { cursor:default; color:var(--pr-green); background:var(--pr-soft); }
+.precision-primary.precision-sentence-saved:disabled { opacity:1; color:var(--pr-green)!important; background:var(--pr-soft)!important; border-color:#c6d9c8!important; }
 .precision-analysis-segment { border-top:1px solid #e4ebe1; margin-top:24px; padding-top:1px; }
 .precision-original { font:16px/1.85 Georgia,serif; color:#3a4c3e; margin:10px 0; }
 .precision-translation { color:#325b44; font-size:15px; line-height:1.9; background:#f1f6ee; padding:13px 16px; border-radius:7px; margin:10px 0; }

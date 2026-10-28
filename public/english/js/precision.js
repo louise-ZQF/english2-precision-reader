@@ -485,6 +485,7 @@
             document.body.appendChild(box); if (rightClick) contextMenu = box; else selectionBar = box;
         }
         box.innerHTML = '<button data-action="translate">翻译与结构</button><button data-action="save">收藏到长难句</button><button data-action="phrase">收藏为词组</button>';
+        bindSentenceSaveButton($('[data-action="save"]', box), payload);
         box.onmousedown = e => e.preventDefault();
         box.onclick = e => {
             const b = e.target.closest('button'); if (!b || !selected) return;
@@ -617,6 +618,20 @@
     }
     function sourceLabel(source) { return source ? source.year + ' 英语二 · ' + source.article + (source.paragraph ? ' · 第' + source.paragraph + '段' : '') + ' 第' + source.sentence + '句' : '自选长难句'; }
     function closeAnalysis() { if (analysis) closeOverlay(analysis); }
+    function sentenceSaveId(payload) { return hash((payload.source && payload.source.exam || '') + '|' + payload.text.trim()); }
+    function syncSentenceSaveButtons() {
+        const ids = new Set(saved.map(item => item.id));
+        $$('[data-save-sentence-id]').forEach(button => {
+            const collected = ids.has(button.dataset.saveSentenceId);
+            button.textContent = collected ? '已收录长难句' : '收藏到长难句';
+            button.disabled = collected;
+            button.classList.toggle('precision-sentence-saved', collected);
+        });
+    }
+    function bindSentenceSaveButton(button, payload) {
+        button.dataset.saveSentenceId = sentenceSaveId(payload);
+        syncSentenceSaveButtons();
+    }
     async function openAnalysis(payload) {
         hideFloating();
         if (!analysis) analysis = makeOverlay('precision-analysis', '句子精翻');
@@ -627,6 +642,7 @@
             '<div class="precision-analysis-actions"><button id="saveAnalyzedSentence" class="precision-primary">收藏到长难句</button></div>' +
             '<section class="precision-analysis-segment"><h3 data-translation-label>选区译文</h3><p class="precision-translation" data-selection-translation>正在翻译所选内容…</p><h3>选区结构</h3>' + segments.map(structureHtml).join('') + '</section>';
         $('#saveAnalyzedSentence', body).onclick = () => saveSentence(payload);
+        bindSentenceSaveButton($('#saveAnalyzedSentence', body), payload);
         const translation = $('[data-selection-translation]', body);
         const translationLabel = $('[data-translation-label]', body);
         showOverlay(analysis);
@@ -635,14 +651,14 @@
             translation.textContent = zh || '所选内容暂时无法翻译，请稍后重试。';
             translationLabel.textContent = payload.selectionTranslation && payload.selectionTranslation.kind === 'reviewed' ? '选区译文 · 已按上下文校正' : '选区译文 · 参考译文，未核对';
         }
-        const item = saved.find(s => s.id === hash((payload.source && payload.source.exam || '') + '|' + payload.text.trim()));
+        const item = saved.find(s => s.id === sentenceSaveId(payload));
         if (item && payload.selectionTranslation) persistItem(item, { selectionTranslation: payload.selectionTranslation });
     }
 
     function saveSentence(payload) {
         const text = payload.text.trim(); if (!text) return;
-        const id = hash((payload.source && payload.source.exam || '') + '|' + text);
-        if (saved.some(s => s.id === id)) { toast('这条长难句已经收藏'); return; }
+        const id = sentenceSaveId(payload);
+        if (saved.some(s => s.id === id)) { syncSentenceSaveButtons(); toast('这条长难句已经收录'); return; }
         const item = { id, text, context: payload.context, segments: payload.segments, source: payload.source, ranges: payload.ranges, selectionTranslation: payload.selectionTranslation, createdAt: Date.now(), draft: '', reference: '', reviews: 0, nextReviewAt: 0, level: 0 };
         const next = [item, ...saved];
         if (!write(KEYS.sentences, next)) return;
@@ -718,7 +734,7 @@
             }
         }
     }
-    function updateBookCount() { const count = $('#sentenceBookCount'); if (count) count.textContent = saved.length; markSavedSentences(); }
+    function updateBookCount() { const count = $('#sentenceBookCount'); if (count) count.textContent = saved.length; syncSentenceSaveButtons(); markSavedSentences(); }
     function persistItem(item, change) { const next = saved.map(s => s.id === item.id ? { ...s, ...change } : s); if (write(KEYS.sentences, next)) { saved = next; Object.assign(item, change); } }
     function openLibrary() {
         hideFloating(); closeAnalysis();

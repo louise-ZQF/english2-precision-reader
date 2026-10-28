@@ -15,7 +15,8 @@
         'big deal': '重要的事；大事', 'office speak': '职场套话；企业话语',
         'buy into': '认同；接受（某种说法或观念）', 'have it all': '事业与家庭等方面兼得',
         'mommy wars': '职业母亲与全职妈妈之间的争论', 'lean in': '积极参与；迎难而上；向前倾身',
-        'in its own right': '本身；凭其自身', 'infuse with': '赋予……；使充满……'
+        'in its own right': '本身；凭其自身', 'infuse with': '赋予……；使充满……',
+        'personal fulfillment': '自我实现所带来的满足感与成就感'
     };
     const COMPOUND_MEANINGS = {
         'right-brained': '偏重直觉和感性思维的；右脑型的', 'left-brained': '偏重逻辑和分析思维的；左脑型的',
@@ -52,10 +53,35 @@
         unplug: '下线；从工作中抽身', offline: '离线的；不处理工作消息的', bandwidth: '精力和时间余量',
         capacity: '可投入的精力；承受能力', boundary: '界限；边界', devote: '投入；致力于', long: '长时间地；很久',
         irony: '讽刺之处；矛盾之处', manager: '管理者', regular: '普通的', willingly: '愿意地；心甘情愿地',
-        absorb: '接受；不知不觉地吸纳', linguist: '语言学家', nonsense: '无意义的套话；胡话',
+        absorb: '接受；吸纳（这些说法）', linguist: '语言学家', nonsense: '无意义的套话；胡话',
         workplace: '工作场所', fundamentally: '从根本上说', indifferent: '漠不关心的', relate: '理解自己与……的关系',
         define: '塑造；决定（一个人的身份认同）'
     };
+    const reviewed = window.EnglishReviewedTranslations || { articles: [] };
+    const reviewedIndex = new Map();
+    const translationKey = value => norm(value).replace(/[\u201c\u201d]/g, '"').replace(/[\u2010\u2011\u2013\u2014]/g, '-').replace(/\s+([,.!?;:])/g, '$1').replace(/^[\s"']+|[\s"'.!?;:,]+$/g, '').toLowerCase();
+    const articleKey = value => norm(value).split('/').pop().replace(/\s+/g, '').toLowerCase();
+    for (const article of reviewed.articles || []) {
+        const register = (item, fragment) => {
+            const key = translationKey(item.en);
+            if (!reviewedIndex.has(key)) reviewedIndex.set(key, []);
+            reviewedIndex.get(key).push({ ...item, exam: article.exam, article: article.article, fragment });
+        };
+        for (const item of article.sentences || []) register(item, false);
+        for (const item of article.fragments || []) register(item, true);
+        const paragraphs = new Map();
+        for (const item of article.sentences || []) {
+            if (!paragraphs.has(item.paragraph)) paragraphs.set(item.paragraph, []);
+            paragraphs.get(item.paragraph).push(item);
+        }
+        for (const items of paragraphs.values()) register({ en: items.map(item => item.en).join(' '), zh: items.map(item => item.zh).join('') }, false);
+    }
+    function reviewedText(value, source) {
+        return (reviewedIndex.get(translationKey(value)) || []).find(item =>
+            (!source || !source.exam || item.exam === source.exam) &&
+            (!source || !source.article || articleKey(source.article) === articleKey(item.article)) &&
+            (!item.fragment || source && source.exam && source.article));
+    }
     const phrasePatternsFor = phrases => Object.keys(phrases).map(key => ({ key, parts: key.split(' ') })).sort((a, b) => b.parts.length - a.parts.length);
     function read(key, fallback) { try { const v = JSON.parse(localStorage.getItem(key)); return v == null ? fallback : v; } catch (_) { return fallback; } }
     function write(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch (_) { toast('保存失败，请先导出数据腾出空间', 'error'); return false; } }
@@ -228,7 +254,9 @@
             node.dataset.blockKey = raw;
             node.innerHTML = prefix + sentences.map((sentence, i) => {
                 const id = exam.exam_id + '-' + blockIndex + '-' + i;
-                records.set(id, { id, ...sentence, source: { exam: exam.exam_id, year: exam.year, article: [section, article].filter(Boolean).join(' / '), paragraph, sentence: i + 1, block: raw } });
+                const source = { exam: exam.exam_id, year: exam.year, article: [section, article].filter(Boolean).join(' / '), paragraph, sentence: i + 1, block: raw };
+                const correction = reviewedText(sentence.en, source);
+                records.set(id, { id, ...sentence, zh: correction ? correction.zh : sentence.zh, source });
                 return sentenceHtml(sentence, id, i + 1);
             }).join(' ');
         });
@@ -269,6 +297,8 @@
     function contextKey(record, start, word) { return hash(record.source.exam + '|' + record.en + '|' + start + '|' + wordKey(word)); }
     function phraseSense(key, record) {
         const meaning = lexicon.phrases[key] || '';
+        const correction = reviewedText(key, record.source);
+        if (correction) return { meaning: correction.zh, quality: 'context' };
         if (key === 'spin off' && /examples?\b/i.test(record.en)) return { meaning: '接连举出（例子）', quality: 'context' };
         if (key === 'lean in' && /Sheryl|Sandberg/i.test(record.en)) return { meaning: '《向前一步》（书名）', quality: 'context' };
         if (key === 'relate to' && /office speak|defines who you are/i.test(record.en)) return { meaning: '理解自己与……的关系', quality: 'context' };
@@ -321,7 +351,7 @@
         try { entry = await window.EnglishApp.lookup(info.word); } catch (_) {}
         if (entry && !entry._partial && entry.s && entry.s.length) { info.meaning = entry.s[0].t; info.quality = 'candidate'; return; }
         try {
-            const payload = { text: info.word, segments: [] };
+            const payload = { text: info.word, segments: [], source: info.record.source };
             const zh = await fillSelectionTranslation(payload);
             if (zh && /[\u3400-\u9fff]/.test(zh)) { info.meaning = zh; info.quality = 'machine'; }
         } catch (_) {}
@@ -531,6 +561,8 @@
         } finally { clearTimeout(timer); }
     }
     async function translateExactText(text) {
+        const correction = reviewedText(text);
+        if (correction) return correction.zh;
         let local = null;
         try { local = await window.EnglishApp.translate(text); } catch (_) {}
         if (local && local.mode === 'exact' && local.zh) return local.zh;
@@ -563,14 +595,24 @@
     }
     async function fillSelectionTranslation(payload) {
         const text = norm(payload.text);
-        if (payload.selectionTranslation && payload.selectionTranslation.en === text && payload.selectionTranslation.zh) return payload.selectionTranslation.zh;
+        let correction = reviewedText(text, payload.source);
         const segments = selectionSegments(payload);
+        if (!correction) {
+            const corrected = segments.map(segment => reviewedText(segment.en, payload.source));
+            if (corrected.length && corrected.every(Boolean) && norm(segments.map(segment => segment.en).join(' ')) === text) correction = { zh: corrected.map(item => item.zh).join('\n\n') };
+        }
+        // Checked text supersedes earlier machine output, including saved selections.
+        if (correction) {
+            payload.selectionTranslation = { en: text, zh: correction.zh, kind: 'reviewed', revision: reviewed.revision };
+            return correction.zh;
+        }
+        if (payload.selectionTranslation && payload.selectionTranslation.en === text && payload.selectionTranslation.zh) return payload.selectionTranslation.zh;
         let zh = segments.every(s => s.zh) ? segments.map(s => s.zh).join('\n\n') : '';
         if (!zh) {
             if (!translationCache.has(text)) translationCache.set(text, translateExactText(text).catch(() => { translationCache.delete(text); return ''; }));
             zh = await translationCache.get(text);
         }
-        if (zh) payload.selectionTranslation = { en: text, zh };
+        if (zh) payload.selectionTranslation = { en: text, zh, kind: 'reference' };
         return zh;
     }
     function sourceLabel(source) { return source ? source.year + ' 英语二 · ' + source.article + (source.paragraph ? ' · 第' + source.paragraph + '段' : '') + ' 第' + source.sentence + '句' : '自选长难句'; }
@@ -583,12 +625,16 @@
         body.innerHTML = '<p class="precision-source">' + esc(sourceLabel(payload.source)) + '</p>' +
             '<div class="precision-selected"><label>你选中的内容</label><p>' + esc(payload.text) + '</p></div>' +
             '<div class="precision-analysis-actions"><button id="saveAnalyzedSentence" class="precision-primary">收藏到长难句</button></div>' +
-            '<section class="precision-analysis-segment"><h3>选区译文</h3><p class="precision-translation" data-selection-translation>正在翻译所选内容…</p><h3>选区结构</h3>' + segments.map(structureHtml).join('') + '</section>';
+            '<section class="precision-analysis-segment"><h3 data-translation-label>选区译文</h3><p class="precision-translation" data-selection-translation>正在翻译所选内容…</p><h3>选区结构</h3>' + segments.map(structureHtml).join('') + '</section>';
         $('#saveAnalyzedSentence', body).onclick = () => saveSentence(payload);
         const translation = $('[data-selection-translation]', body);
+        const translationLabel = $('[data-translation-label]', body);
         showOverlay(analysis);
         const zh = await fillSelectionTranslation(payload);
-        if (translation.isConnected) translation.textContent = zh || '所选内容暂时无法翻译，请稍后重试。';
+        if (translation.isConnected) {
+            translation.textContent = zh || '所选内容暂时无法翻译，请稍后重试。';
+            translationLabel.textContent = payload.selectionTranslation && payload.selectionTranslation.kind === 'reviewed' ? '选区译文 · 已按上下文校正' : '选区译文 · 参考译文，未核对';
+        }
         const item = saved.find(s => s.id === hash((payload.source && payload.source.exam || '') + '|' + payload.text.trim()));
         if (item && payload.selectionTranslation) persistItem(item, { selectionTranslation: payload.selectionTranslation });
     }

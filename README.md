@@ -17,6 +17,8 @@
 
 单词弹窗不再自动展示整句原文和译文，改为原形、本文义、其他常见义及相关词形。例如 boundaries 显示原形 boundary、当前为名词复数，并列出 boundaries；动词和形容词可显示已收录的过去式、过去分词、现在分词、第三人称单数、比较级和最高级，动词词组也支持相应形式。词形由现有英语二真题的标注结果及确认的常用不规则变化编译，运行 .venv/bin/python scripts/build_word_forms.py 可更新 public/english/js/word-forms.js；未收录的词形不会按拼写硬造。
 
+单词语境义已增加独立的常用义表和按原文具体位置生效的搭配校正，结合本句词性、语法关系和整句译文取义，避免直接套词典首义。明确搭配、译文匹配、普通常用义与待核对参考义分别标注；同一句里同一词的不同用法分别处理。新版义项同步用于查词、生词本列表和背词，用户自己的校正优先。词义数据维护在 public/english/js/context-senses.js，核对范围与词典来源见 reference/context-sense-review.md。运行 python3 scripts/build_precision_browser.py 更新本地文件模式的精翻资料，使直接打开 index.html 时也能读取分句、词性和译文；其他功能仍推荐使用启动脚本或在线版。
+
 新增功能主要在 public/english/js/precision.js 与 public/english/css/precision.css；分析资料在 public/english/data/precision。修改脚本后运行 python3 scripts/refresh_versions.py 可更新资源版本，不会覆盖功能。请勿再运行初次还原用的 scripts/prepare.py，它会覆盖 app.js 的定制修改。
 
 

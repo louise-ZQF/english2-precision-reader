@@ -8,6 +8,7 @@
     const norm = s => String(s || '').replace(/[\u2018\u2019]/g, "'").replace(/\s+/g, ' ').trim();
     const wordKey = s => norm(s).toLowerCase().replace(/[\u2010\u2011]/g, '-').replace(/[^a-z'\s-]/g, '').trim();
     const wordData = window.EnglishWordForms || { words: {}, index: {} };
+    const contextSenses = window.EnglishContextSenses;
     const posName = pos => ({ n: '名词', v: '动词', vt: '动词', vi: '动词', a: '形容词', adj: '形容词', adv: '副词', ad: '副词', prep: '介词', conj: '连词', pron: '代词' }[pos] || pos || '');
     const LOCAL_PHRASES = {
         'spin off': '接连产生；衍生出；分拆出来', 'spin out': '延长；使持续；分拆出来',
@@ -113,10 +114,26 @@
     let lookupSequence = 0;
     const dataCache = new Map();
     const translationCache = new Map();
-    const lexiconReady = fetch('data/precision/lexicon.json?v=1').then(r => { if (!r.ok) throw new Error(); return r.json(); }).then(data => {
+    const localFile = window.location && window.location.protocol === 'file:';
+    const lexiconReady = localFile ? Promise.resolve() : fetch('data/precision/lexicon.json?v=1').then(r => { if (!r.ok) throw new Error(); return r.json(); }).then(data => {
         lexicon = { ...data, phrases: { ...data.phrases, ...LOCAL_PHRASES } };
         phrasePatterns = phrasePatternsFor(lexicon.phrases);
-    }).catch(() => { toast(window.location && window.location.protocol === 'file:' ? '本地文件模式无法完整读取词库，请通过启动脚本或网页版进入' : '精翻词库加载失败，请刷新重试', 'error'); });
+    }).catch(() => { toast('扩展词库暂未加载，使用内置词库', 'warn'); });
+
+    async function browserPrecisionData(examId) {
+        if (!window.EnglishPrecisionBrowser || !window.EnglishPrecisionBrowser[examId]) {
+            await new Promise((resolve, reject) => {
+                const script = document.createElement('script');
+                script.src = 'data/precision-browser/' + encodeURIComponent(examId) + '.js?v=' + (contextSenses && contextSenses.revision || '1');
+                script.onload = resolve;
+                script.onerror = reject;
+                document.head.appendChild(script);
+            });
+        }
+        const data = window.EnglishPrecisionBrowser && window.EnglishPrecisionBrowser[examId];
+        if (!data) throw new Error('Missing exam context');
+        return { blocks: Object.fromEntries(Object.entries(data.blocks).map(([text, refs]) => [text, refs.map(([id, a, b]) => ({ ...data.sentences[id], a, b }))])) };
+    }
 
     function fallbackSentences(text) {
         const segmenter = new Intl.Segmenter('en', { granularity: 'sentence' });
@@ -217,8 +234,14 @@
             await lexiconReady;
             let data = dataCache.get(exam.exam_id);
             if (!data) {
-                try { const r = await fetch('data/precision/' + encodeURIComponent(exam.exam_id) + '.json?v=1'); if (!r.ok) throw new Error(); data = await r.json(); dataCache.set(exam.exam_id, data); }
-                catch (_) { data = { blocks: {} }; toast('句法资料暂未加载，仍可阅读和收藏', 'warn'); }
+                try {
+                    if (localFile) data = await browserPrecisionData(exam.exam_id);
+                    else {
+                        try { const r = await fetch('data/precision/' + encodeURIComponent(exam.exam_id) + '.json?v=1'); if (!r.ok) throw new Error(); data = await r.json(); }
+                        catch (_) { data = await browserPrecisionData(exam.exam_id); }
+                    }
+                    dataCache.set(exam.exam_id, data);
+                } catch (_) { data = { blocks: {} }; toast('句法资料暂未加载，仍可阅读和收藏', 'warn'); }
             }
             if (sequence !== renderSequence) return;
             enhance(exam, data);
@@ -297,16 +320,21 @@
 
     function hash(s) { let h = 2166136261; for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 16777619); return (h >>> 0).toString(36); }
     function contextKey(record, start, word) { return hash(record.source.exam + '|' + record.en + '|' + start + '|' + wordKey(word)); }
-    function phraseSense(key, record) {
+    function phraseSense(key, record, start) {
         const meaning = lexicon.phrases[key] || '';
         const correction = reviewedText(key, record.source);
         if (correction) return { meaning: correction.zh, quality: 'context' };
+        const phraseToken = Number.isFinite(start) ? { a: start, b: start + key.length, p: '' } : null;
+        const contextual = contextSenses && contextSenses.lookup(key, record, phraseToken, key.split(' ')[0]);
+        if (contextual && contextual.quality === 'context') return contextual;
         if (key === 'spin off' && /examples?\b/i.test(record.en)) return { meaning: '接连举出（例子）', quality: 'context' };
         if (key === 'lean in' && /Sheryl|Sandberg/i.test(record.en)) return { meaning: '《向前一步》（书名）', quality: 'context' };
         if (key === 'relate to' && /office speak|defines who you are/i.test(record.en)) return { meaning: '理解自己与……的关系', quality: 'context' };
         if (key === 'infuse with' && /infuse work with meaning/i.test(record.en)) return { meaning: '赋予（工作）以（意义）', quality: 'context' };
-        if (key === 'account for' && /\d|percent|quarter|third|half/.test(record.en)) return { meaning:'占……比例', quality:'phrase' };
-        if (key === 'take up' && /time|space|room/.test(record.en)) return { meaning:'占用（时间或空间）', quality:'phrase' };
+        if (key === 'account for' && /(?:考虑|计入)/.test(record.zh) && !/(?:占|解释)/.test(record.zh)) return { meaning: '考虑到；把……纳入考虑', quality: 'translation' };
+        if (key === 'account for' && /占/.test(record.zh) && !/(?:考虑|解释)/.test(record.zh)) return { meaning: '占……比例', quality: 'translation' };
+        if (key === 'account for' && /解释/.test(record.zh) && !/(?:考虑|占)/.test(record.zh)) return { meaning: '解释……的原因', quality: 'translation' };
+        if (key === 'take up' && /占(?:用|据)/.test(record.zh)) return { meaning:'占用（时间或空间）', quality:'translation' };
         const parts = meaning.split('；');
         const matched = parts.filter(p => {
             const main = p.replace(/（.*?）|的$|地$/g,'').replace(/……/g,'').trim();
@@ -322,6 +350,8 @@
             const meaning = OFFICE_SENSES[wordKey(word)] || OFFICE_SENSES[lemma] || (token && Array.from(wordForms(token), form => OFFICE_SENSES[form]).find(Boolean));
             if (meaning) return { meaning, quality: 'context' };
         }
+        const contextual = contextSenses && contextSenses.lookup(word, record, token, lemma);
+        if (contextual) return contextual;
         if (/^(the|a|an)$/.test(wordKey(word))) return { meaning: wordKey(word) === 'the' ? '定冠词，表示特指；通常不单独译出' : '不定冠词，表示一个或一类；通常不单独译出', quality: 'grammar' };
         if (token && lemma === 'to' && token.d === 'aux') return { meaning: '不定式标记，在此不单独译为“到／向”', quality: 'grammar' };
         if (token && token.d === 'auxpass') return { meaning: '助动词，在此构成被动语态；不单独译出', quality: 'grammar' };
@@ -366,11 +396,11 @@
         const token = record.tokens.find(t => t.a === start) || record.tokens.find(t => t.a <= start && t.b > start);
         const isPhrase = element.dataset.kind === 'phrase';
         const wholeWord = !isPhrase && (/[-\u2010\u2011]/.test(word) || token && Number(element.dataset.end) > token.b && wordKey(word) !== wordKey(token.w));
-        const phrase = isPhrase ? phraseSense(wordKey(word), record) : null;
+        const phrase = isPhrase ? phraseSense(wordKey(word), record, start) : null;
         const overrideKey = contextKey(record, start, word);
         const override = overrides[overrideKey];
         const lemma = isPhrase || wholeWord ? wordKey(word) : resolveLemma(word, token);
-        const context = !isPhrase && !wholeWord ? contextSense(word, record, { ...token, l: lemma }) : null;
+        const context = !isPhrase ? contextSense(word, record, { ...token, l: lemma }) : null;
         const entry = wholeWord && wordEntry(lemma);
         const reviewedWhole = COMPOUND_MEANINGS[wordKey(word)];
         const wholeMeaning = reviewedWhole || entry && entry.common && entry.common[0] && entry.common[0].m || '';
@@ -388,7 +418,7 @@
             if (zh && /[\u3400-\u9fff]/.test(zh)) { info.meaning = zh; info.quality = 'machine'; }
         } catch (_) {}
     }
-    function meaningLabel(info) { return info.quality === 'context' ? '本文义 · 已按本句核对' : info.quality === 'manual' ? '本文义 · 你的校正' : info.quality === 'grammar' ? '本句语法作用' : info.quality === 'compound' ? '完整复合词义' : info.quality === 'machine' ? '完整词译义 · 在线翻译参考' : info.quality === 'missing' ? '中文释义' : info.quality === 'phrase' ? '词组义 · 结合上下文参考' : '参考义 · 本句用法待核对'; }
+    function meaningLabel(info) { return info.quality === 'context' ? '本文义 · 已按本句核对' : info.quality === 'translation' ? '本文义 · 结合本句译文匹配' : info.quality === 'lexical' ? '常用义 · 按本句词性筛选' : info.quality === 'manual' ? '本文义 · 你的校正' : info.quality === 'grammar' ? '本句语法作用' : info.quality === 'compound' ? '完整复合词义' : info.quality === 'machine' ? '完整词译义 · 在线翻译参考' : info.quality === 'missing' ? '中文释义' : info.quality === 'phrase' ? '词组义 · 结合上下文参考' : '参考义 · 本句用法待核对'; }
     function position(box, anchor) {
         const r = anchor && anchor.getBoundingClientRect ? anchor.getBoundingClientRect() : anchor;
         if (!r) return;
@@ -424,7 +454,8 @@
     function renderWordPopover(info, common, loading) {
         const element = info.element;
         const box = ensurePopover();
-        const alternatives = info.lemma === 'boundary' ? [{ p: 'n', m: '边界；疆界（国家、地区等之间的分界）', count: 0 }, { p: 'n', m: '界限；限度（知识、能力等的范围）', count: 0 }] : common && common.common || [];
+        const curated = contextSenses && contextSenses.common(info.lemma) || [];
+        const alternatives = curated.length ? curated : common && common.common || [];
         const others = alternatives.filter(s => s.m !== info.meaning).slice(0, 3);
         box.innerHTML = '<div class="precision-pop-head"><div><strong>' + esc(info.word) + '</strong><span>' + (info.kind === 'phrase' ? '词组' : esc(common && common.ph || '')) + '</span></div><button data-action="close" class="precision-icon-close" aria-label="关闭释义">×</button></div>' +
             morphologyHtml(info) +
@@ -447,7 +478,10 @@
                     const value = $('#contextMeaningInput', box).value.trim(); if (!value) return;
                     const next = { ...overrides, [info.key]: value };
                     if (!write(KEYS.overrides, next)) return;
-                    overrides = next; toast('已保存这处语境义'); showWord(element);
+                    overrides = next;
+                    const collected = window.EnglishApp.state().words[wordKey(info.word)];
+                    if (collected && collected.sentence === info.record.en) window.EnglishApp.collect(info.word, { meaning: value, meaningQuality: 'manual' }, { silent: true });
+                    toast('已保存这处语境义'); showWord(element);
                 };
             }
         };
@@ -455,7 +489,7 @@
     }
     function collectInfo(info) {
         if (!info) return;
-        const details = () => ({ kind: info.kind, lemma: info.lemma, meaning: info.meaning, meaningQuality: info.quality, sentence: info.record.en, translation: info.record.zh, source: info.record.source });
+        const details = () => ({ kind: info.kind, lemma: info.lemma, meaning: info.meaning, meaningQuality: info.quality, sentence: info.record.en, translation: info.record.zh, source: info.record.source, contextToken: info.token ? { ...info.token, a: Number(info.element.dataset.start), b: Number(info.element.dataset.end) } : null });
         window.EnglishApp.collect(info.word, details());
         if (info.wholeWord && !info.meaning) completeWholeWord(info).then(() => {
             const savedWord = window.EnglishApp.state().words[wordKey(info.word)];
@@ -836,13 +870,16 @@
         const key = wordKey(word); const item = window.EnglishApp && window.EnglishApp.state().words[key];
         const entry = wordEntry(item && item.lemma || key); const phrase = lexicon.phrases[key];
         const meanings = [];
-        const reviewed = item && item.source && contextSense(word, { en: item.sentence || '', source: item.source }, { l: item.lemma || key });
+        const correction = item && reviewedText(item.sentence || '', item.source);
+        const record = item && { en: item.sentence || '', zh: correction ? correction.zh : item.translation || '', source: item.source };
+        const reviewed = item && item.source && (item.kind === 'phrase' ? phraseSense(item.lemma || key, record, item.contextToken && item.contextToken.a) : contextSense(word, record, { ...item.contextToken, l: item.lemma || key }));
         if (item && item.meaningQuality === 'manual' && item.meaning) meanings.push({ p: '本文', t: item.meaning });
-        else if (reviewed) meanings.push({ p: reviewed.quality === 'grammar' ? '语法' : '本文', t: reviewed.meaning });
+        else if (reviewed && reviewed.meaning) meanings.push({ p: reviewed.quality === 'grammar' ? '语法' : reviewed.quality === 'lexical' ? '常用' : reviewed.quality === 'candidate' ? '参考' : '本文', t: reviewed.meaning });
         else if (COMPOUND_MEANINGS[key]) meanings.push({ p: '整词', t: COMPOUND_MEANINGS[key] });
         else if (item && item.meaning) meanings.push({ p: item.meaningQuality === 'context' ? '本文' : item.meaningQuality === 'grammar' ? '语法' : item.kind === 'phrase' ? '词组' : '参考', t: item.meaning });
         else if (phrase) meanings.push({ p: '词组', t: phrase });
-        if (entry) for (const s of entry.common) if (!meanings.some(m => m.t === s.m)) meanings.push({ p: s.p, t: s.m });
+        const curated = contextSenses && contextSenses.common(item && item.lemma || key) || [];
+        for (const s of curated.length ? curated : entry && entry.common || []) if (!meanings.some(m => m.t === s.m)) meanings.push({ p: s.p, t: s.m });
         return meanings.length ? { ph: entry && entry.ph || '', s: meanings.slice(0, 3) } : null;
     }
     function exportData() { return { version: 1, sentences: saved, overrides, mode: enabled }; }

@@ -1054,8 +1054,10 @@
             const freqHtml = count > 0
                 ? '<span class="word-freq" title="' + escapeHtml(freqTitle) + '">' + count + ' 次</span>'
                 : '';
+            const study = window.EnglishPrecision && window.EnglishPrecision.studyEntry(w.word);
+            const meaning = study && study.s && study.s[0] ? study.s[0].t : w.meaning;
             return '<div class="word-list-item">' +
-                '<div class="word-item-main"><span class="word-text">' + escapeHtml(w.word) + '</span>' + (w.kind === 'phrase' ? '<span class="precision-kind">词组</span>' : '') + (w.meaning ? '<div class="word-item-meaning">' + escapeHtml(w.meaning) + '</div>' : '') + '</div>' +
+                '<div class="word-item-main"><span class="word-text">' + escapeHtml(w.word) + '</span>' + (w.kind === 'phrase' ? '<span class="precision-kind">词组</span>' : '') + (meaning ? '<div class="word-item-meaning">' + escapeHtml(meaning) + '</div>' : '') + '</div>' +
                 '<div class="word-item-side">' +
                     (examLabel ? '<span class="word-meta">' + escapeHtml(examLabel) + '</span>' : '') +
                     freqHtml +

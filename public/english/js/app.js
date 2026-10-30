@@ -1344,13 +1344,8 @@
         return String(s == null ? '' : s).replace(MID_MARK_RE, (m, br, bare, dot) => ((br || !dot) ? ' ' : '. ')).trim();
     }
 
-    /** 完形 / Part C 正文分段。
-     *
-     *  数据里的 `\n\n` 不可靠：165 处里 9 处落在句子中间（源文本硬换行），而有的整篇
-     *  只有 2 段（2010 英一 1537 字符 → 两堵 684/851 的墙；用户反馈 #59「为啥没分段落」）。
-     *  规则：① 落在句子中间的换行并回上一段（判据：上一段没以句末标点收尾）；
-     *        ② 过长的段落再按**真句末标点**切开——切点只在句号之后，绝不切进句子
-     *           （句库是按句存的，切进句子就会查不到）。 */
+    /** 保留题库自然段，只合并确实截在句中的硬换行。
+     *  句末标点与闭引号之间可有空格，不能据此误合并两个完整段落。 */
     function passageParagraphs(raw) {
         const text = String(raw == null ? '' : raw);
         const joined = [];
@@ -1358,7 +1353,7 @@
             const t = chunk.replace(/\s+/g, ' ').trim();
             if (!t) continue;
             const prev = joined[joined.length - 1];
-            if (prev && !/[.!?]["'\u201d\u2019)\]]*$/.test(prev)) joined[joined.length - 1] = prev + ' ' + t;
+            if (prev && !/[.!?](?:\s*["'\u201d\u2019)\]])*$/.test(prev)) joined[joined.length - 1] = prev + ' ' + t;
             else joined.push(t);
         }
         return joined.length ? joined : [text.trim()];

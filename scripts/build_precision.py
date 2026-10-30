@@ -184,7 +184,7 @@ def repair_paragraphs(paragraphs):
     out = []
     for p in paragraphs:
         p=clean(p)
-        if out and not re.search(r'[.!?]["\u201d\u2019\)\]]*$',out[-1]):
+        if out and not re.search(r"""[.!?](?:\s*["'\u201d\u2019)\]])*$""",out[-1]):
             out[-1] += ' '+p
         else:out.append(p)
     return out

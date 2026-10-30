@@ -15,3 +15,5 @@
 原文、收藏列表和 SRS 背词调用同一词义引擎，旧的自动释义只在展示时更新，不删除或重建收藏。用户自填的本文义继续优先，个人笔记、错题、热力图完成记录与复习间隔保持独立。内置试卷打包成经典脚本，使直接打开本地 index.html 也能取得修正后的正文，并替换旧的内置题库缓存；自导入的其他试卷保留。
 
 数据维护：scripts/lexical_overrides.json 保存独立词典补充，scripts/lexical_missing.json 保存缺词与确认过的词形，public/english/data/meaning-review/review_*.json 保存精确语境义、重译及文章导读。运行 python3 scripts/build_lexical_data.py，生成 lexical-data.js、exams-data.js、reviewed-meanings.js 及 reference/lexical-build.json。原始 CSV 放在忽略目录 reference/upstream，不向仓库提交完整上游文件。
+
+段落对照还修正了旧规则把“句号＋空格＋闭引号”误判为句子未结束的问题；原文保留题库自然段，只合并截在句中的硬换行。119 份导读的正文段落与这套显示规则一致，避免导读段号偏移。现有句库已包含对应段落，无需重做全部年份的句法资料。

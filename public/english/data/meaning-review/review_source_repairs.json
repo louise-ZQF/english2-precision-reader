@@ -1,0 +1,896 @@
+{
+  "version": 1,
+  "years": [
+    2025
+  ],
+  "sourceNote": "2025英语二原卷第13页（本地PDF第14页）目视核对；本文仅修复翻译节转录错误，并重新按英文上下文写句译与词义。",
+  "sentences": [
+    {
+      "exam": "2025_english2",
+      "en": "You know the moment – the conversation slows, then there's a pause.",
+      "zh": "你一定熟悉这样的时刻：交谈渐渐慢下来，随后出现了一阵停顿。",
+      "words": [
+        {
+          "a": 4,
+          "b": 8,
+          "word": "know",
+          "lemma": "know",
+          "meaning": "熟悉；知道",
+          "pos": "v"
+        },
+        {
+          "a": 13,
+          "b": 19,
+          "word": "moment",
+          "lemma": "moment",
+          "meaning": "时刻；此处指交谈冷场的时刻",
+          "pos": "n"
+        },
+        {
+          "a": 26,
+          "b": 38,
+          "word": "conversation",
+          "lemma": "conversation",
+          "meaning": "交谈；对话",
+          "pos": "n"
+        },
+        {
+          "a": 39,
+          "b": 44,
+          "word": "slows",
+          "lemma": "slow",
+          "meaning": "放慢；交谈逐渐少下来",
+          "pos": "v"
+        },
+        {
+          "a": 46,
+          "b": 50,
+          "word": "then",
+          "lemma": "then",
+          "meaning": "接着；随后",
+          "pos": "adv"
+        },
+        {
+          "a": 51,
+          "b": 58,
+          "word": "there's",
+          "lemma": "there be",
+          "meaning": "有；出现（there is的缩写）",
+          "pos": "v"
+        },
+        {
+          "a": 61,
+          "b": 66,
+          "word": "pause",
+          "lemma": "pause",
+          "meaning": "停顿；暂停说话的片刻",
+          "pos": "n"
+        }
+      ],
+      "phrases": [
+        {
+          "a": 22,
+          "b": 44,
+          "lemma": "the conversation slows",
+          "meaning": "谈话渐渐放缓；说话逐渐少下来"
+        }
+      ]
+    },
+    {
+      "exam": "2025_english2",
+      "en": "It's awkward, and so awkward that some people will panic and say anything.",
+      "zh": "这很尴尬，有些人尴尬得慌了神，便随便找些话来说。",
+      "words": [
+        {
+          "a": 0,
+          "b": 4,
+          "word": "It's",
+          "lemma": "it is",
+          "meaning": "这是；这种情形是（it is的缩写）",
+          "pos": "v"
+        },
+        {
+          "a": 5,
+          "b": 12,
+          "word": "awkward",
+          "lemma": "awkward",
+          "meaning": "令人尴尬的；让人不自在的",
+          "pos": "a"
+        },
+        {
+          "a": 21,
+          "b": 28,
+          "word": "awkward",
+          "lemma": "awkward",
+          "meaning": "令人尴尬的；让人不自在的",
+          "pos": "a"
+        },
+        {
+          "a": 46,
+          "b": 50,
+          "word": "will",
+          "lemma": "will",
+          "meaning": "会（情态助动词）",
+          "pos": "v"
+        },
+        {
+          "a": 51,
+          "b": 56,
+          "word": "panic",
+          "lemma": "panic",
+          "meaning": "慌张；惊慌失措",
+          "pos": "v"
+        },
+        {
+          "a": 61,
+          "b": 64,
+          "word": "say",
+          "lemma": "say",
+          "meaning": "说；开口找话说",
+          "pos": "v"
+        }
+      ],
+      "phrases": [
+        {
+          "a": 18,
+          "b": 33,
+          "lemma": "so awkward that",
+          "meaning": "尴尬到……；尴尬得以至于……"
+        },
+        {
+          "a": 61,
+          "b": 73,
+          "lemma": "say anything",
+          "meaning": "随便说些什么；找话填补沉默"
+        }
+      ]
+    },
+    {
+      "exam": "2025_english2",
+      "en": "Do we all find such silences so stressful?",
+      "zh": "这样的沉默会让我们所有人都感到如此紧张吗？",
+      "words": [
+        {
+          "a": 0,
+          "b": 2,
+          "word": "Do",
+          "lemma": "do",
+          "meaning": "疑问助动词；在此不单独译为“做”",
+          "pos": "v"
+        },
+        {
+          "a": 10,
+          "b": 14,
+          "word": "find",
+          "lemma": "find",
+          "meaning": "感到；觉得",
+          "pos": "v"
+        },
+        {
+          "a": 20,
+          "b": 28,
+          "word": "silences",
+          "lemma": "silence",
+          "meaning": "沉默；交谈中的冷场",
+          "pos": "n"
+        },
+        {
+          "a": 32,
+          "b": 41,
+          "word": "stressful",
+          "lemma": "stressful",
+          "meaning": "让人紧张焦虑的；造成心理压力的",
+          "pos": "a"
+        }
+      ],
+      "phrases": []
+    },
+    {
+      "exam": "2025_english2",
+      "en": "Researchers analysed the frequency and impact of gaps greater than 2 seconds during conversations, including an overview of previous studies which indicate that the fear of awkward silences can be so extreme that people avoid talking to strangers, even though doing so is likely to be an enjoyable experience.",
+      "zh": "研究人员分析了交谈中超过两秒的停顿出现的频率及其影响，并回顾了以往的相关研究。这些研究表明，人们对尴尬冷场的恐惧可能强烈到让他们不愿与陌生人交谈，尽管这样的交谈很可能会是一次愉快的体验。",
+      "words": [
+        {
+          "a": 0,
+          "b": 11,
+          "word": "Researchers",
+          "lemma": "researcher",
+          "meaning": "研究人员",
+          "pos": "n"
+        },
+        {
+          "a": 12,
+          "b": 20,
+          "word": "analysed",
+          "lemma": "analyse",
+          "meaning": "分析；研究",
+          "pos": "v"
+        },
+        {
+          "a": 25,
+          "b": 34,
+          "word": "frequency",
+          "lemma": "frequency",
+          "meaning": "出现频率；发生的次数",
+          "pos": "n"
+        },
+        {
+          "a": 39,
+          "b": 45,
+          "word": "impact",
+          "lemma": "impact",
+          "meaning": "影响",
+          "pos": "n"
+        },
+        {
+          "a": 49,
+          "b": 53,
+          "word": "gaps",
+          "lemma": "gap",
+          "meaning": "交谈中的停顿；无话可说的间隙",
+          "pos": "n"
+        },
+        {
+          "a": 54,
+          "b": 61,
+          "word": "greater",
+          "lemma": "great",
+          "meaning": "更长的；超过（greater than）",
+          "pos": "a"
+        },
+        {
+          "a": 69,
+          "b": 76,
+          "word": "seconds",
+          "lemma": "second",
+          "meaning": "秒",
+          "pos": "n"
+        },
+        {
+          "a": 84,
+          "b": 97,
+          "word": "conversations",
+          "lemma": "conversation",
+          "meaning": "交谈；对话",
+          "pos": "n"
+        },
+        {
+          "a": 99,
+          "b": 108,
+          "word": "including",
+          "lemma": "including",
+          "meaning": "包括……在内（引入研究中的回顾部分）",
+          "pos": "prep"
+        },
+        {
+          "a": 112,
+          "b": 120,
+          "word": "overview",
+          "lemma": "overview",
+          "meaning": "概述；对已有研究的回顾",
+          "pos": "n"
+        },
+        {
+          "a": 124,
+          "b": 132,
+          "word": "previous",
+          "lemma": "previous",
+          "meaning": "以往的；先前的",
+          "pos": "a"
+        },
+        {
+          "a": 133,
+          "b": 140,
+          "word": "studies",
+          "lemma": "study",
+          "meaning": "研究",
+          "pos": "n"
+        },
+        {
+          "a": 147,
+          "b": 155,
+          "word": "indicate",
+          "lemma": "indicate",
+          "meaning": "表明；显示",
+          "pos": "v"
+        },
+        {
+          "a": 165,
+          "b": 169,
+          "word": "fear",
+          "lemma": "fear",
+          "meaning": "害怕；恐惧",
+          "pos": "n"
+        },
+        {
+          "a": 173,
+          "b": 180,
+          "word": "awkward",
+          "lemma": "awkward",
+          "meaning": "令人尴尬的；让人不自在的",
+          "pos": "a"
+        },
+        {
+          "a": 181,
+          "b": 189,
+          "word": "silences",
+          "lemma": "silence",
+          "meaning": "沉默；交谈中的冷场",
+          "pos": "n"
+        },
+        {
+          "a": 190,
+          "b": 193,
+          "word": "can",
+          "lemma": "can",
+          "meaning": "可能会；能够（情态助动词）",
+          "pos": "v"
+        },
+        {
+          "a": 200,
+          "b": 207,
+          "word": "extreme",
+          "lemma": "extreme",
+          "meaning": "极其强烈的；程度很严重的",
+          "pos": "a"
+        },
+        {
+          "a": 220,
+          "b": 225,
+          "word": "avoid",
+          "lemma": "avoid",
+          "meaning": "避免；不愿去做",
+          "pos": "v"
+        },
+        {
+          "a": 226,
+          "b": 233,
+          "word": "talking",
+          "lemma": "talk",
+          "meaning": "与人交谈",
+          "pos": "v"
+        },
+        {
+          "a": 237,
+          "b": 246,
+          "word": "strangers",
+          "lemma": "stranger",
+          "meaning": "陌生人",
+          "pos": "n"
+        },
+        {
+          "a": 272,
+          "b": 278,
+          "word": "likely",
+          "lemma": "likely",
+          "meaning": "很可能的",
+          "pos": "a"
+        },
+        {
+          "a": 288,
+          "b": 297,
+          "word": "enjoyable",
+          "lemma": "enjoyable",
+          "meaning": "令人愉快的",
+          "pos": "a"
+        },
+        {
+          "a": 298,
+          "b": 308,
+          "word": "experience",
+          "lemma": "experience",
+          "meaning": "经历；体验",
+          "pos": "n"
+        }
+      ],
+      "phrases": [
+        {
+          "a": 54,
+          "b": 76,
+          "lemma": "greater than 2 seconds",
+          "meaning": "超过两秒"
+        },
+        {
+          "a": 109,
+          "b": 140,
+          "lemma": "an overview of previous studies",
+          "meaning": "对以往研究的回顾概述"
+        },
+        {
+          "a": 197,
+          "b": 212,
+          "lemma": "so extreme that",
+          "meaning": "强烈到……；严重得以至于……"
+        },
+        {
+          "a": 226,
+          "b": 246,
+          "lemma": "talking to strangers",
+          "meaning": "与陌生人交谈"
+        },
+        {
+          "a": 248,
+          "b": 259,
+          "lemma": "even though",
+          "meaning": "尽管；即使"
+        },
+        {
+          "a": 260,
+          "b": 268,
+          "lemma": "doing so",
+          "meaning": "这样做；此处指与陌生人交谈"
+        }
+      ]
+    },
+    {
+      "exam": "2025_english2",
+      "en": "During conversations with short gaps, people feel more connected to their conversation partners.",
+      "zh": "交谈中的停顿较短时，人们会觉得自己与交谈对象更加亲近。",
+      "words": [
+        {
+          "a": 7,
+          "b": 20,
+          "word": "conversations",
+          "lemma": "conversation",
+          "meaning": "交谈；对话",
+          "pos": "n"
+        },
+        {
+          "a": 26,
+          "b": 31,
+          "word": "short",
+          "lemma": "short",
+          "meaning": "短暂的；持续时间短的",
+          "pos": "a"
+        },
+        {
+          "a": 32,
+          "b": 36,
+          "word": "gaps",
+          "lemma": "gap",
+          "meaning": "交谈中的停顿；无话可说的间隙",
+          "pos": "n"
+        },
+        {
+          "a": 45,
+          "b": 49,
+          "word": "feel",
+          "lemma": "feel",
+          "meaning": "感觉；觉得",
+          "pos": "v"
+        },
+        {
+          "a": 55,
+          "b": 64,
+          "word": "connected",
+          "lemma": "connected",
+          "meaning": "有情感联结的；感到亲近的",
+          "pos": "a"
+        },
+        {
+          "a": 74,
+          "b": 86,
+          "word": "conversation",
+          "lemma": "conversation",
+          "meaning": "交谈；对话",
+          "pos": "n"
+        },
+        {
+          "a": 87,
+          "b": 95,
+          "word": "partners",
+          "lemma": "partner",
+          "meaning": "交谈对象",
+          "pos": "n"
+        }
+      ],
+      "phrases": [
+        {
+          "a": 45,
+          "b": 67,
+          "lemma": "feel more connected to",
+          "meaning": "感到与……更加亲近"
+        },
+        {
+          "a": 74,
+          "b": 95,
+          "lemma": "conversation partners",
+          "meaning": "交谈对象"
+        }
+      ]
+    },
+    {
+      "exam": "2025_english2",
+      "en": "But such feelings of connection markedly dip when entering a long gap.",
+      "zh": "但当交谈中出现较长的停顿时，这种亲近感就会明显减弱。",
+      "words": [
+        {
+          "a": 9,
+          "b": 17,
+          "word": "feelings",
+          "lemma": "feeling",
+          "meaning": "感觉；感受",
+          "pos": "n"
+        },
+        {
+          "a": 21,
+          "b": 31,
+          "word": "connection",
+          "lemma": "connection",
+          "meaning": "情感联结；彼此的亲近感",
+          "pos": "n"
+        },
+        {
+          "a": 32,
+          "b": 40,
+          "word": "markedly",
+          "lemma": "markedly",
+          "meaning": "明显地；显著地",
+          "pos": "adv"
+        },
+        {
+          "a": 41,
+          "b": 44,
+          "word": "dip",
+          "lemma": "dip",
+          "meaning": "下降；减弱",
+          "pos": "v"
+        },
+        {
+          "a": 50,
+          "b": 58,
+          "word": "entering",
+          "lemma": "enter",
+          "meaning": "进入；开始经历（较长的停顿）",
+          "pos": "v"
+        },
+        {
+          "a": 61,
+          "b": 65,
+          "word": "long",
+          "lemma": "long",
+          "meaning": "持续时间长的",
+          "pos": "a"
+        },
+        {
+          "a": 66,
+          "b": 69,
+          "word": "gap",
+          "lemma": "gap",
+          "meaning": "交谈中的停顿；无话可说的间隙",
+          "pos": "n"
+        }
+      ],
+      "phrases": [
+        {
+          "a": 9,
+          "b": 31,
+          "lemma": "feelings of connection",
+          "meaning": "彼此的亲近感；情感联结感"
+        },
+        {
+          "a": 50,
+          "b": 69,
+          "lemma": "entering a long gap",
+          "meaning": "交谈进入较长时间的停顿"
+        }
+      ]
+    },
+    {
+      "exam": "2025_english2",
+      "en": "Long gaps between strangers are likely to be followed by a change in topic.",
+      "zh": "陌生人之间长时间的沉默之后，往往会换一个话题。",
+      "words": [
+        {
+          "a": 0,
+          "b": 4,
+          "word": "Long",
+          "lemma": "long",
+          "meaning": "持续时间长的",
+          "pos": "a"
+        },
+        {
+          "a": 5,
+          "b": 9,
+          "word": "gaps",
+          "lemma": "gap",
+          "meaning": "交谈中的停顿；无话可说的间隙",
+          "pos": "n"
+        },
+        {
+          "a": 18,
+          "b": 27,
+          "word": "strangers",
+          "lemma": "stranger",
+          "meaning": "陌生人",
+          "pos": "n"
+        },
+        {
+          "a": 32,
+          "b": 38,
+          "word": "likely",
+          "lemma": "likely",
+          "meaning": "很可能的",
+          "pos": "a"
+        },
+        {
+          "a": 45,
+          "b": 53,
+          "word": "followed",
+          "lemma": "follow",
+          "meaning": "随后出现；接续发生（be followed by）",
+          "pos": "v"
+        },
+        {
+          "a": 59,
+          "b": 65,
+          "word": "change",
+          "lemma": "change",
+          "meaning": "变更；转换",
+          "pos": "n"
+        },
+        {
+          "a": 69,
+          "b": 74,
+          "word": "topic",
+          "lemma": "topic",
+          "meaning": "话题",
+          "pos": "n"
+        }
+      ],
+      "phrases": [
+        {
+          "a": 42,
+          "b": 56,
+          "lemma": "be followed by",
+          "meaning": "随后发生……；后面接着出现……"
+        },
+        {
+          "a": 57,
+          "b": 74,
+          "lemma": "a change in topic",
+          "meaning": "话题转换；换一个话题"
+        }
+      ]
+    },
+    {
+      "exam": "2025_english2",
+      "en": "But the opposite seems to be true for conversations between friends.",
+      "zh": "但朋友之间的交谈似乎恰恰相反。",
+      "words": [
+        {
+          "a": 8,
+          "b": 16,
+          "word": "opposite",
+          "lemma": "opposite",
+          "meaning": "相反的情况",
+          "pos": "n"
+        },
+        {
+          "a": 17,
+          "b": 22,
+          "word": "seems",
+          "lemma": "seem",
+          "meaning": "似乎；看来",
+          "pos": "v"
+        },
+        {
+          "a": 29,
+          "b": 33,
+          "word": "true",
+          "lemma": "true",
+          "meaning": "成立的；符合实际的",
+          "pos": "a"
+        },
+        {
+          "a": 38,
+          "b": 51,
+          "word": "conversations",
+          "lemma": "conversation",
+          "meaning": "交谈；对话",
+          "pos": "n"
+        },
+        {
+          "a": 60,
+          "b": 67,
+          "word": "friends",
+          "lemma": "friend",
+          "meaning": "朋友",
+          "pos": "n"
+        }
+      ],
+      "phrases": [
+        {
+          "a": 4,
+          "b": 16,
+          "lemma": "the opposite",
+          "meaning": "相反的情况"
+        },
+        {
+          "a": 17,
+          "b": 33,
+          "lemma": "seems to be true",
+          "meaning": "似乎确实如此；似乎是成立的"
+        }
+      ]
+    },
+    {
+      "exam": "2025_english2",
+      "en": "Long gaps there saw increased connection.",
+      "zh": "在朋友的交谈中，较长的停顿反而伴随着更强的亲近感。",
+      "words": [
+        {
+          "a": 0,
+          "b": 4,
+          "word": "Long",
+          "lemma": "long",
+          "meaning": "持续时间长的",
+          "pos": "a"
+        },
+        {
+          "a": 5,
+          "b": 9,
+          "word": "gaps",
+          "lemma": "gap",
+          "meaning": "交谈中的停顿；无话可说的间隙",
+          "pos": "n"
+        },
+        {
+          "a": 10,
+          "b": 15,
+          "word": "there",
+          "lemma": "there",
+          "meaning": "在朋友之间的交谈中（指前一句的情况）",
+          "pos": "adv"
+        },
+        {
+          "a": 16,
+          "b": 19,
+          "word": "saw",
+          "lemma": "see",
+          "meaning": "伴随着；出现了（某种变化）",
+          "pos": "v"
+        },
+        {
+          "a": 20,
+          "b": 29,
+          "word": "increased",
+          "lemma": "increase",
+          "meaning": "增强；增加",
+          "pos": "v"
+        },
+        {
+          "a": 30,
+          "b": 40,
+          "word": "connection",
+          "lemma": "connection",
+          "meaning": "情感联结；彼此的亲近感",
+          "pos": "n"
+        }
+      ],
+      "phrases": [
+        {
+          "a": 16,
+          "b": 40,
+          "lemma": "saw increased connection",
+          "meaning": "反而伴随着更强的亲近感"
+        }
+      ]
+    },
+    {
+      "exam": "2025_english2",
+      "en": "Between friends, longer gaps seem to provide natural moments for reflection and expression.",
+      "zh": "在朋友之间，较长的停顿似乎会自然地给人留出思考和表达的时机。",
+      "words": [
+        {
+          "a": 8,
+          "b": 15,
+          "word": "friends",
+          "lemma": "friend",
+          "meaning": "朋友",
+          "pos": "n"
+        },
+        {
+          "a": 17,
+          "b": 23,
+          "word": "longer",
+          "lemma": "long",
+          "meaning": "持续时间长的",
+          "pos": "a"
+        },
+        {
+          "a": 24,
+          "b": 28,
+          "word": "gaps",
+          "lemma": "gap",
+          "meaning": "交谈中的停顿；无话可说的间隙",
+          "pos": "n"
+        },
+        {
+          "a": 29,
+          "b": 33,
+          "word": "seem",
+          "lemma": "seem",
+          "meaning": "似乎；看来",
+          "pos": "v"
+        },
+        {
+          "a": 37,
+          "b": 44,
+          "word": "provide",
+          "lemma": "provide",
+          "meaning": "提供；留出",
+          "pos": "v"
+        },
+        {
+          "a": 45,
+          "b": 52,
+          "word": "natural",
+          "lemma": "natural",
+          "meaning": "自然而然的；自然出现的",
+          "pos": "a"
+        },
+        {
+          "a": 53,
+          "b": 60,
+          "word": "moments",
+          "lemma": "moment",
+          "meaning": "时刻；此处指交谈冷场的时刻",
+          "pos": "n"
+        },
+        {
+          "a": 65,
+          "b": 75,
+          "word": "reflection",
+          "lemma": "reflection",
+          "meaning": "思考；反思",
+          "pos": "n"
+        },
+        {
+          "a": 80,
+          "b": 90,
+          "word": "expression",
+          "lemma": "expression",
+          "meaning": "表达想法或感受",
+          "pos": "n"
+        }
+      ],
+      "phrases": [
+        {
+          "a": 53,
+          "b": 90,
+          "lemma": "moments for reflection and expression",
+          "meaning": "供人思考与表达的时机"
+        }
+      ]
+    },
+    {
+      "exam": "2026_english2",
+      "en": "It gains Microsoft broad rights to the data inputted or outputted by any user – rights to use this data in any way it sees fit; it can even share it with third parties.",
+      "zh": "它使微软获得广泛的权利，可以使用任何用户输入或输出的数据——微软可以按自己认为合适的任何方式使用这些数据，甚至可以将其分享给第三方。",
+      "words": [
+        {
+          "a": 3,
+          "b": 8,
+          "word": "gains",
+          "lemma": "gain",
+          "meaning": "为……取得；使……获得",
+          "pos": "v",
+          "explanation": "gain somebody something：使某人获得某物。这里是使微软获得数据使用权。",
+          "sources": [
+            "https://www.oxfordlearnersdictionaries.com/us/definition/english/gain_1"
+          ]
+        }
+      ],
+      "phrases": []
+    },
+    {
+      "exam": "2024_english2",
+      "en": "While productive tree planting can deliver real financial benefits to rural economies and contribute to the UK's net-zero strategy, the focus of government support continues to be on food production and the rewilding and planting of native woodland solely for biodiversity.",
+      "zh": "尽管以生产木材为目的的植树造林能给乡村经济带来实实在在的收益，并推动英国实现净零排放目标，政府的扶持重点却仍是粮食生产，以及单纯为了保护生物多样性而开展的本土林地生态恢复和种植。",
+      "words": [],
+      "phrases": []
+    }
+  ],
+  "articles": []
+}

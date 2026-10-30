@@ -10,6 +10,7 @@ import json
 import re
 from pathlib import Path
 import spacy
+import argparse
 from precision_lexicon import PHRASES, COMMON, RULES
 from precision_syntax_overrides import apply_reviewed_syntax
 
@@ -25,6 +26,9 @@ CLAUSES = {'relcl':'定语从句','advcl':'状语从句','ccomp':'宾语／内�
 COUNTS = collections.defaultdict(collections.Counter)
 EVIDENCE = collections.defaultdict(dict)
 SEEN_MEANINGS = set()
+parser = argparse.ArgumentParser()
+parser.add_argument('--exam', help='Rebuild only this exam, without changing the shared lexicon')
+args = parser.parse_args()
 
 
 def clean(s):
@@ -188,6 +192,8 @@ def repair_paragraphs(paragraphs):
 
 all_data = []
 for file in sorted(DATA.glob('exam_*_english2.json')):
+    if args.exam and file.stem != 'exam_' + args.exam:
+        continue
     exam = json.loads(file.read_text())
     blocks = set(strings(exam))
     def add_passages(obj):
@@ -215,6 +221,9 @@ for file in sorted(DATA.glob('exam_*_english2.json')):
     (OUT/(exam['exam_id']+'.json')).write_text(json.dumps(output,ensure_ascii=False,separators=(',',':')))
     all_data.append(output)
     print(exam['exam_id'],len(lookup),'blocks',sum(len(x) for x in lookup.values()),'sentences',flush=True)
+
+if args.exam:
+    raise SystemExit(0)
 
 lexicon = {}
 for lemma,entry in DICT.items():

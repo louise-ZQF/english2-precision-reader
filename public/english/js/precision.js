@@ -8,58 +8,9 @@
     const norm = s => String(s || '').replace(/[\u2018\u2019]/g, "'").replace(/\s+/g, ' ').trim();
     const wordKey = s => norm(s).toLowerCase().replace(/[\u2010\u2011]/g, '-').replace(/[^a-z'\s-]/g, '').trim();
     const wordData = window.EnglishWordForms || { words: {}, index: {} };
-    const contextSenses = window.EnglishContextSenses;
-    const posName = pos => ({ n: '名词', v: '动词', vt: '动词', vi: '动词', a: '形容词', adj: '形容词', adv: '副词', ad: '副词', prep: '介词', conj: '连词', pron: '代词' }[pos] || pos || '');
-    const LOCAL_PHRASES = {
-        'spin off': '接连产生；衍生出；分拆出来', 'spin out': '延长；使持续；分拆出来',
-        'brush off': '不理会；轻轻刷掉', 'shrug off': '不把……放在心上；摆脱',
-        'lingua franca': '通用语言；共同使用的语言', 'corporate america': '美国企业界',
-        'parachute back to': '（假设）突然回到……', 'fortune 500': '《财富》500强企业',
-        'big deal': '重要的事；大事', 'office speak': '职场套话；企业话语',
-        'buy into': '认同；接受（某种说法或观念）', 'have it all': '事业与家庭等方面兼得',
-        'mommy wars': '职业母亲与全职妈妈之间的争论', 'lean in': '积极参与；迎难而上；向前倾身',
-        'in its own right': '本身；凭其自身', 'infuse with': '赋予……；使充满……',
-        'personal fulfillment': '自我实现所带来的满足感与成就感'
-    };
-    const COMPOUND_MEANINGS = {
-        'right-brained': '偏重直觉和感性思维的；右脑型的', 'left-brained': '偏重逻辑和分析思维的；左脑型的',
-        'cavity-preventing': '预防龋齿的；防蛀的', 'part-time': '兼职的；非全日制的', 'full-time': '全职的；全日制的',
-        'high-speed': '高速的', 'long-term': '长期的', 'short-term': '短期的', 'fast-food': '快餐的',
-        'first-generation': '第一代的', 'middle-class': '中产阶级的', 'self-esteem': '自尊；自我评价',
-        'decision-making': '决策；决策过程', 'so-called': '所谓的', 'self-sufficiency': '自给自足',
-        'work-life': '工作与生活的', 'to-do': '待办的', 'win-win': '双赢的', 'single-use': '一次性的',
-        'high-school': '高中的', 'hard-wired': '根深蒂固的；与生俱来的', 'self-enhancing': '自我提升的；抬高自我评价的',
-        'mind-set': '心态；思维方式', 'well-being': '幸福；身心健康', 'plant-based': '以植物为基础的；植物性的',
-        'well-informed': '消息灵通的', 'home-grown': '本土的；自己培育的', 'start-up': '初创企业', 'start-ups': '初创企业',
-        'climate-friendly': '有利于气候保护的；低碳环保的', 'top-tier': '顶尖的；第一流的', 'self-driving': '自动驾驶的',
-        'buy-in': '认同；支持', 'two-thirds': '三分之二', 'cost-effective': '成本效益高的；划算的', 'well-known': '著名的',
-        'self-confidence': '自信', 'team-oriented': '以团队为导向的', 'male-dominated': '由男性主导的',
-        'non-profit': '非营利的', 'life-hack': '提高生活效率的小窍门'
-    };
-    // Reviewed senses for the article about corporate vocabulary (2015, Text 3).
-    // Restrict these to the passage; question options may use a different sense.
-    const OFFICE_SENSES = {
-        traditional: '传统的', office: '办公室；办公场所', corporate: '企业的；公司的', emotional: '情感化的；诉诸情感的',
-        professor: '教授', example: '例子；例证', parachute: '（假设）突然置身于；突然回到', frequent: '频繁的',
-        term: '用语；措辞', journey: '历程；共同奋斗的过程', mission: '使命', passion: '热情；对工作的投入',
-        goal: '目标', strategy: '策略；战略', objective: '目标', energy: '活力；干劲', era: '时代；时期',
-        vocabulary: '一整套用语；词汇', coincidence: '巧合', sport: '体育；体育文化', explicitly: '明确地；清楚地',
-        conscious: '有意识的；自觉的', idea: '观念；想法', coach: '教练（比喻带领团队的管理者）',
-        ceo: '首席执行官', win: '取得成功；赢得竞争', intend: '旨在；意在', infuse: '赋予；注入',
-        meaning: '意义；价值感', as: '正如', increase: '增强；提高', allegiance: '忠诚；忠诚度', firm: '公司；企业',
-        importation: '引入；借用（其他领域的术语）', terminology: '术语；专门用语', historically: '以往；在历史上',
-        associate: '与……联系在一起', organization: '组织；机构', religious: '宗教的', vision: '愿景；对未来的共同设想',
-        value: '价值观', purpose: '宗旨；使命感', focus: '关注；重视', personal: '个人的', fulfillment: '成就感；自我实现',
-        employee: '员工', motivated: '有工作动力的；积极投入的', motivate: '激励；使有动力', amid: '在……之中',
-        increasingly: '日益；越来越', loud: '激烈的；引人注意的', debate: '争论；讨论', balance: '平衡',
-        prompt: '引发；促使', argument: '争论；讨论', title: '书名', buzzword: '流行语；热门用语',
-        unplug: '下线；从工作中抽身', offline: '离线的；不处理工作消息的', bandwidth: '精力和时间余量',
-        capacity: '可投入的精力；承受能力', boundary: '界限；工作与家庭生活之间的分界', devote: '投入；致力于', long: '长时间地；很久',
-        irony: '讽刺之处；矛盾之处', manager: '管理者', regular: '普通的', willingly: '愿意地；心甘情愿地',
-        absorb: '接受；吸纳（这些说法）', linguist: '语言学家', nonsense: '无意义的套话；胡话',
-        workplace: '工作场所', fundamentally: '从根本上说', indifferent: '漠不关心的', relate: '理解自己与……的关系',
-        define: '塑造；决定（一个人的身份认同）'
-    };
+    const meanings = window.EnglishMeanings;
+    const lexicalData = window.EnglishLexicalData || { words: {}, phrases: {} };
+    const posName = pos => ({ n: '名词', v: '动词', vt: '动词', vi: '动词', a: '形容词', adj: '形容词', adv: '副词', ad: '副词', prep: '介词', conj: '连词', pron: '代词', aux: '助动词', art: '冠词', num: '数词', inf: '不定式标记', interj: '感叹词', phrase: '词组' }[pos] || pos || '');
     const reviewed = window.EnglishReviewedTranslations || { articles: [] };
     const reviewedIndex = new Map();
     const translationKey = value => norm(value).replace(/[\u201c\u201d]/g, '"').replace(/[\u2010\u2011\u2013\u2014]/g, '-').replace(/\s+([,.!?;:])/g, '$1').replace(/^[\s"']+|[\s"'.!?;:,]+$/g, '').toLowerCase();
@@ -79,10 +30,16 @@
         }
         for (const items of paragraphs.values()) register({ en: items.map(item => item.en).join(' '), zh: items.map(item => item.zh).join('') }, false);
     }
+    for (const item of window.EnglishMeaningReviews && window.EnglishMeaningReviews.sentences || []) {
+        if (!item.zh) continue;
+        const key = translationKey(item.en);
+        if (!reviewedIndex.has(key)) reviewedIndex.set(key, []);
+        reviewedIndex.get(key).unshift({ en: item.en, zh: item.zh, exam: item.exam, article: item.article || '', fragment: false });
+    }
     function reviewedText(value, source) {
         return (reviewedIndex.get(translationKey(value)) || []).find(item =>
             (!source || !source.exam || item.exam === source.exam) &&
-            (!source || !source.article || articleKey(source.article) === articleKey(item.article)) &&
+            (!source || !source.article || !item.article || articleKey(source.article) === articleKey(item.article)) &&
             (!item.fragment || source && source.exam && source.article));
     }
     const phrasePatternsFor = phrases => Object.keys(phrases).map(key => ({ key, parts: key.split(' ') })).sort((a, b) => b.parts.length - a.parts.length);
@@ -93,7 +50,7 @@
     let saved = read(KEYS.sentences, []);
     if (!Array.isArray(saved)) saved = [];
     let overrides = read(KEYS.overrides, {});
-    let lexicon = { phrases: { ...window.EnglishPhraseBank, ...LOCAL_PHRASES }, words: {} };
+    const lexicon = { phrases: lexicalData.phrases, words: lexicalData.words };
     let phrasePatterns = phrasePatternsFor(lexicon.phrases);
     let currentExam = null;
     let records = new Map();
@@ -115,16 +72,13 @@
     const dataCache = new Map();
     const translationCache = new Map();
     const localFile = window.location && window.location.protocol === 'file:';
-    const lexiconReady = localFile ? Promise.resolve() : fetch('data/precision/lexicon.json?v=1').then(r => { if (!r.ok) throw new Error(); return r.json(); }).then(data => {
-        lexicon = { ...data, phrases: { ...data.phrases, ...LOCAL_PHRASES } };
-        phrasePatterns = phrasePatternsFor(lexicon.phrases);
-    }).catch(() => { toast('扩展词库暂未加载，使用内置词库', 'warn'); });
+    const lexiconReady = Promise.resolve();
 
     async function browserPrecisionData(examId) {
         if (!window.EnglishPrecisionBrowser || !window.EnglishPrecisionBrowser[examId]) {
             await new Promise((resolve, reject) => {
                 const script = document.createElement('script');
-                script.src = 'data/precision-browser/' + encodeURIComponent(examId) + '.js?v=' + (contextSenses && contextSenses.revision || '1');
+                script.src = 'data/precision-browser/' + encodeURIComponent(examId) + '.js?v=' + (meanings && meanings.revision || '1');
                 script.onload = resolve;
                 script.onerror = reject;
                 document.head.appendChild(script);
@@ -147,25 +101,18 @@
 
     const formCache = new Map();
     function wordForms(token) {
-        const raw = norm(token.w).toLowerCase(), cacheKey = raw + '|' + token.l;
+        const raw = norm(token.w).toLowerCase(), cacheKey = raw + '|' + token.l + '|' + token.p;
         if (formCache.has(cacheKey)) return formCache.get(cacheKey);
-        const forms = new Set([raw, wordKey(raw), token.l]);
-        const irregular = { spun: 'spin', took: 'take', taken: 'take', gave: 'give', given: 'give', got: 'get', gotten: 'get', went: 'go', gone: 'go', came: 'come', made: 'make', kept: 'keep', brought: 'bring', ran: 'run', wrote: 'write', written: 'write', held: 'hold', thought: 'think', bought: 'buy', was: 'be', were: 'be', is: 'be', are: 'be', am: 'be', been: 'be', being: 'be', has: 'have', had: 'have', did: 'do', done: 'do' };
-        if (irregular[raw]) forms.add(irregular[raw]);
-        if (/ies$/.test(raw)) forms.add(raw.slice(0, -3) + 'y');
-        if (/ied$/.test(raw)) forms.add(raw.slice(0, -3) + 'y');
-        if (/s$/.test(raw)) forms.add(raw.slice(0, -1));
-        if (/es$/.test(raw)) forms.add(raw.slice(0, -2));
-        for (const suffix of ['ing', 'ed']) if (raw.endsWith(suffix)) {
-            const base = raw.slice(0, -suffix.length); forms.add(base); forms.add(base + 'e');
-            if (/([a-z])\1$/.test(base)) forms.add(base.slice(0, -1));
-        }
+        const forms = new Set([raw, wordKey(raw)]);
+        if (meanings) forms.add(meanings.lemmaFor(raw, token));
         formCache.set(cacheKey, forms); return forms;
     }
+
     function phraseMatches(sentence) {
         const tokens = sentence.tokens.filter(t => /[A-Za-z0-9]/.test(t.w));
-        const matches = [];
-        const used = new Set();
+        const explicit = meanings ? meanings.phrases({ ...sentence, source: { exam: currentExam && currentExam.exam_id } }) : [];
+        const matches = explicit.filter((item, i, all) => !all.some((other, j) => j < i && item.a < other.b && item.b > other.a));
+        const used = new Set(tokens.flatMap((token, i) => matches.some(item => token.a < item.b && token.b > item.a) ? [i] : []));
         const equal = (token, part) => token && wordForms(token).has(part);
         for (let i = 0; i < tokens.length; i++) {
             if (used.has(i)) continue;
@@ -205,7 +152,7 @@
 
     function sentenceHtml(sentence, id, number) {
         // Reading and lookup follow written words, not the parser's subword tokens.
-        const words = Array.from(sentence.en.matchAll(/[A-Za-z]+(?:['\u2018\u2019][A-Za-z]+)*(?:["\u201d]?[-\u2010\u2011][A-Za-z]+(?:['\u2018\u2019][A-Za-z]+)*)*/g), m => ({ a: m.index, b: m.index + m[0].length, key: m[0], kind: 'word' }));
+        const words = meanings.writtenWords(sentence.en);
         const phrases = phraseMatches(sentence).filter(p => !words.some(w => (p.a > w.a && p.a < w.b) || (p.b > w.a && p.b < w.b) || (p.a === w.a && p.b === w.b && /[-\u2010\u2011]/.test(w.key))));
         const items = [];
         for (const p of phrases) items.push({ a: p.a, b: p.b, key: p.key, kind: 'phrase', meaning: p.meaning });
@@ -237,7 +184,7 @@
                 try {
                     if (localFile) data = await browserPrecisionData(exam.exam_id);
                     else {
-                        try { const r = await fetch('data/precision/' + encodeURIComponent(exam.exam_id) + '.json?v=1'); if (!r.ok) throw new Error(); data = await r.json(); }
+                        try { const r = await fetch('data/precision/' + encodeURIComponent(exam.exam_id) + '.json?v=' + meanings.revision); if (!r.ok) throw new Error(); data = await r.json(); }
                         catch (_) { data = await browserPrecisionData(exam.exam_id); }
                     }
                     dataCache.set(exam.exam_id, data);
@@ -320,55 +267,11 @@
 
     function hash(s) { let h = 2166136261; for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 16777619); return (h >>> 0).toString(36); }
     function contextKey(record, start, word) { return hash(record.source.exam + '|' + record.en + '|' + start + '|' + wordKey(word)); }
-    function phraseSense(key, record, start) {
-        const meaning = lexicon.phrases[key] || '';
-        const correction = reviewedText(key, record.source);
-        if (correction) return { meaning: correction.zh, quality: 'context' };
-        const phraseToken = Number.isFinite(start) ? { a: start, b: start + key.length, p: '' } : null;
-        const contextual = contextSenses && contextSenses.lookup(key, record, phraseToken, key.split(' ')[0]);
-        if (contextual && contextual.quality === 'context') return contextual;
-        if (key === 'spin off' && /examples?\b/i.test(record.en)) return { meaning: '接连举出（例子）', quality: 'context' };
-        if (key === 'lean in' && /Sheryl|Sandberg/i.test(record.en)) return { meaning: '《向前一步》（书名）', quality: 'context' };
-        if (key === 'relate to' && /office speak|defines who you are/i.test(record.en)) return { meaning: '理解自己与……的关系', quality: 'context' };
-        if (key === 'infuse with' && /infuse work with meaning/i.test(record.en)) return { meaning: '赋予（工作）以（意义）', quality: 'context' };
-        if (key === 'account for' && /(?:考虑|计入)/.test(record.zh) && !/(?:占|解释)/.test(record.zh)) return { meaning: '考虑到；把……纳入考虑', quality: 'translation' };
-        if (key === 'account for' && /占/.test(record.zh) && !/(?:考虑|解释)/.test(record.zh)) return { meaning: '占……比例', quality: 'translation' };
-        if (key === 'account for' && /解释/.test(record.zh) && !/(?:考虑|占)/.test(record.zh)) return { meaning: '解释……的原因', quality: 'translation' };
-        if (key === 'take up' && /占(?:用|据)/.test(record.zh)) return { meaning:'占用（时间或空间）', quality:'translation' };
-        const parts = meaning.split('；');
-        const matched = parts.filter(p => {
-            const main = p.replace(/（.*?）|的$|地$/g,'').replace(/……/g,'').trim();
-            return main.length > 1 && record.zh.includes(main);
-        });
-        return { meaning:matched.length ? matched.join('；') : meaning, quality:matched.length || parts.length===1 ? 'phrase' : 'candidate' };
+    function phraseSense(key, record, start, end) {
+        const found = meanings.lookup({ word: key, kind: 'phrase', record, start, end });
+        return { meaning: found.meaning, quality: found.quality, lemma: found.lemma };
     }
-    function contextSense(word, record, token) {
-        const lemma = token && token.l || wordKey(word);
-        if (record.source.exam === '2015_english2' && /Text\s*3\b/i.test(record.source.article) && record.source.paragraph > 0) {
-            if ((lemma === 'get' || token && wordForms(token).has('get')) && /get(?:ten)? much more|gotten much more/i.test(record.en)) return { meaning: '变得', quality: 'context' };
-            if ((lemma === 'get' || token && wordForms(token).has('get')) && /get people to/i.test(record.en)) return { meaning: '使；让', quality: 'context' };
-            const meaning = OFFICE_SENSES[wordKey(word)] || OFFICE_SENSES[lemma] || (token && Array.from(wordForms(token), form => OFFICE_SENSES[form]).find(Boolean));
-            if (meaning) return { meaning, quality: 'context' };
-        }
-        const contextual = contextSenses && contextSenses.lookup(word, record, token, lemma);
-        if (contextual) return contextual;
-        if (/^(the|a|an)$/.test(wordKey(word))) return { meaning: wordKey(word) === 'the' ? '定冠词，表示特指；通常不单独译出' : '不定冠词，表示一个或一类；通常不单独译出', quality: 'grammar' };
-        if (token && lemma === 'to' && token.d === 'aux') return { meaning: '不定式标记，在此不单独译为“到／向”', quality: 'grammar' };
-        if (token && token.d === 'auxpass') return { meaning: '助动词，在此构成被动语态；不单独译出', quality: 'grammar' };
-        if (token && token.d === 'aux' && /^(have|be|do)$/.test(lemma)) return { meaning: lemma === 'have' ? '助动词，在此构成完成时；不单独译出' : lemma === 'be' ? '助动词，在此构成进行时；不单独译出' : '助动词，用于否定、疑问或强调；不单独译出', quality: 'grammar' };
-        if (token && lemma === 'that' && token.d === 'mark') return { meaning: '从句引导词，连接后面的内容；通常不单独译出', quality: 'grammar' };
-        return null;
-    }
-    function wordEntry(lemma) { return lexicon.words[lemma] || wordData.words[lemma]; }
-    function resolveLemma(word, token) {
-        const key = wordKey(word), original = token && token.l || key;
-        if (original !== key && original !== wordKey(token && token.w)) return original;
-        const candidates = wordData.index[key] || [];
-        const pos = token && token.p;
-        const matching = candidates.filter(item => !pos || item.p === pos || pos === 'adj' && item.p === 'a' || /^(vt|vi)$/.test(pos) && item.p === 'v');
-        if (matching.some(item => item.lemma === original && item.label === '原形')) return original;
-        return matching.length ? matching[0].lemma : original;
-    }
+    function wordEntry(lemma) { return meanings.entry(lemma); }
     function wordMorphology(info) {
         const phrase = info.kind === 'phrase', parts = info.lemma.split(' '), head = phrase ? parts[0] : info.lemma;
         const family = wordData.words[head];
@@ -392,33 +295,18 @@
     function wordInfo(element) {
         const record = records.get(element.closest('.precision-sentence').dataset.sentenceId);
         if (!record) return null;
-        const word = element.dataset.word, start = Number(element.dataset.start);
+        const word = element.dataset.word, start = Number(element.dataset.start), end = Number(element.dataset.end);
         const token = record.tokens.find(t => t.a === start) || record.tokens.find(t => t.a <= start && t.b > start);
-        const isPhrase = element.dataset.kind === 'phrase';
-        const wholeWord = !isPhrase && (/[-\u2010\u2011]/.test(word) || token && Number(element.dataset.end) > token.b && wordKey(word) !== wordKey(token.w));
-        const phrase = isPhrase ? phraseSense(wordKey(word), record, start) : null;
-        const overrideKey = contextKey(record, start, word);
-        const override = overrides[overrideKey];
-        const lemma = isPhrase || wholeWord ? wordKey(word) : resolveLemma(word, token);
-        const context = !isPhrase ? contextSense(word, record, { ...token, l: lemma }) : null;
-        const entry = wholeWord && wordEntry(lemma);
-        const reviewedWhole = COMPOUND_MEANINGS[wordKey(word)];
-        const wholeMeaning = reviewedWhole || entry && entry.common && entry.common[0] && entry.common[0].m || '';
-        return { word, kind: isPhrase ? 'phrase' : 'word', wholeWord, record, token, key: overrideKey, lemma, meaning: override || (phrase ? phrase.meaning : context ? context.meaning : wholeWord ? wholeMeaning : token && token.m) || '', quality: override ? 'manual' : phrase ? phrase.quality : context ? context.quality : wholeWord ? reviewedWhole ? 'compound' : wholeMeaning ? 'candidate' : 'missing' : token && token.q || 'missing', element };
+        const kind = element.dataset.kind === 'phrase' ? 'phrase' : 'word';
+        const found = meanings.lookup({ word, record, token, kind, start, end });
+        const overrideKey = contextKey(record, start, word), override = overrides[overrideKey];
+        return { ...found, record, token: found.token, key: overrideKey, element,
+            meaning: override || found.meaning, quality: override ? 'manual' : found.quality };
     }
-
-    async function completeWholeWord(info) {
-        if (!info.wholeWord || info.meaning) return;
-        let entry = null;
-        try { entry = await window.EnglishApp.lookup(info.word); } catch (_) {}
-        if (entry && !entry._partial && entry.s && entry.s.length) { info.meaning = entry.s[0].t; info.quality = 'candidate'; return; }
-        try {
-            const payload = { text: info.word, segments: [], source: info.record.source };
-            const zh = await fillSelectionTranslation(payload);
-            if (zh && /[\u3400-\u9fff]/.test(zh)) { info.meaning = zh; info.quality = 'machine'; }
-        } catch (_) {}
+    function meaningLabel(info) {
+        return { reviewed: '本文义', manual: '本文义 · 你的校正', grammar: '本句语法作用',
+            dictionary: '词典释义 · 按本句词性', phrase: '词组释义', name: '名称释义', missing: '中文释义' }[info.quality] || '词典释义';
     }
-    function meaningLabel(info) { return info.quality === 'context' ? '本文义 · 已按本句核对' : info.quality === 'translation' ? '本文义 · 结合本句译文匹配' : info.quality === 'lexical' ? '常用义 · 按本句词性筛选' : info.quality === 'manual' ? '本文义 · 你的校正' : info.quality === 'grammar' ? '本句语法作用' : info.quality === 'compound' ? '完整复合词义' : info.quality === 'machine' ? '完整词译义 · 在线翻译参考' : info.quality === 'missing' ? '中文释义' : info.quality === 'phrase' ? '词组义 · 结合上下文参考' : '参考义 · 本句用法待核对'; }
     function position(box, anchor) {
         const r = anchor && anchor.getBoundingClientRect ? anchor.getBoundingClientRect() : anchor;
         if (!r) return;
@@ -431,38 +319,25 @@
         if (popover) return popover;
         popover = document.createElement('section'); popover.className = 'precision-popover'; popover.setAttribute('role', 'dialog'); popover.setAttribute('aria-label', '词语释义'); document.body.appendChild(popover); return popover;
     }
-    async function showWord(element) {
+    function showWord(element) {
         if (!enabled) return;
         const info = wordInfo(element); if (!info) return;
-        const request = ++lookupSequence;
-        let common = wordEntry(info.lemma);
-        if (!info.meaning && common && common.common && common.common[0]) { info.meaning = common.common[0].m; info.quality = 'candidate'; }
-        renderWordPopover(info, common, !info.meaning);
-        if (info.meaning) return;
-        await completeWholeWord(info);
-        if (request !== lookupSequence) return;
-        if (!info.meaning && !info.wholeWord && (!common || !common.common || !common.common.length) && window.EnglishApp) {
-            let entry = null;
-            try { entry = await window.EnglishApp.lookup(info.word); } catch (_) {}
-            if (request !== lookupSequence) return;
-            const senses = (entry && entry.s || []).filter(s => /^(n|v|vt|vi|a|adj|ad|adv|prep|conj|pron)$/.test(s.p));
-            common = { ph: entry && entry.ph || '', common: senses.slice(0, 2).map(s => ({ m: s.t.split(/[,，;；]/).slice(0, 2).join('；'), p: s.p, count: 0 })) };
-            if (common.common[0]) { info.meaning = common.common[0].m; info.quality = 'candidate'; }
-        }
-        renderWordPopover(info, common, false);
+        lookupSequence++;
+        renderWordPopover(info, { ...wordEntry(info.lemma), common: info.common, ph: info.ph }, false);
     }
     function renderWordPopover(info, common, loading) {
         const element = info.element;
         const box = ensurePopover();
-        const curated = contextSenses && contextSenses.common(info.lemma) || [];
-        const alternatives = curated.length ? curated : common && common.common || [];
+        const alternatives = common && common.common || [];
         const others = alternatives.filter(s => s.m !== info.meaning).slice(0, 3);
         box.innerHTML = '<div class="precision-pop-head"><div><strong>' + esc(info.word) + '</strong><span>' + (info.kind === 'phrase' ? '词组' : esc(common && common.ph || '')) + '</span></div><button data-action="close" class="precision-icon-close" aria-label="关闭释义">×</button></div>' +
             morphologyHtml(info) +
-            '<div class="precision-current" aria-live="polite"><label>' + meaningLabel(info) + '</label><p>' + esc(info.meaning || (loading ? '正在查询完整词语的中文释义…' : '暂未取得中文释义，可重试或手动补充。')) + '</p></div>' +
-            (others.length ? '<div class="precision-common"><label>其他常见义</label>' + others.map(s => '<p><span class="precision-sense-pos">' + esc(posName(s.p)) + '</span>' + esc(s.m) + (s.count ? '<small>英语二语境匹配 ' + s.count + ' 句</small>' : '') + '</p>').join('') + '</div>' : '') +
+            '<div class="precision-current" aria-live="polite"><label>' + meaningLabel(info) + '</label><p>' + esc(info.meaning || '这个词暂未收录，可查看词典或补充本句释义。') + '</p></div>' +
+            (info.explanation ? '<p class="precision-word-explanation">' + esc(info.explanation) + '</p>' : '') +
+            (others.length ? '<div class="precision-common"><label>其他常见义</label>' + others.map(s => '<p><span class="precision-sense-pos">' + esc(posName(s.p)) + '</span>' + esc(s.m) + '</p>').join('') + '</div>' : '') +
             formsHtml(info) +
-            '<div class="precision-pop-actions"><button data-action="collect">收藏' + (info.kind === 'phrase' ? '整个词组' : '单词') + '</button><button data-action="sentence">整句翻译与结构</button><button data-action="edit">改本句释义</button>' + (!info.meaning && !loading ? '<button data-action="retry">重试查词</button>' : '') + '</div>';
+            '<div class="precision-pop-actions"><button data-action="collect">收藏' + (info.kind === 'phrase' ? '整个词组' : '单词') + '</button><button data-action="sentence">整句翻译与结构</button><button data-action="edit">改本句释义</button></div>' +
+            '<div class="precision-dictionary-links"><a href="https://dict.youdao.com/result?word=' + encodeURIComponent(info.lemma) + '&amp;lang=en" target="_blank" rel="noreferrer">有道核对</a><a href="https://dictionary.cambridge.org/dictionary/english-chinese-simplified/' + encodeURIComponent(info.lemma.replace(/ /g, '-')) + '" target="_blank" rel="noreferrer">剑桥核对</a></div>';
         box.onclick = async event => {
             const button = event.target.closest('[data-action]'); if (!button) return;
             if (button.dataset.action === 'close') hidePopover();
@@ -491,10 +366,7 @@
         if (!info) return;
         const details = () => ({ kind: info.kind, lemma: info.lemma, meaning: info.meaning, meaningQuality: info.quality, sentence: info.record.en, translation: info.record.zh, source: info.record.source, contextToken: info.token ? { ...info.token, a: Number(info.element.dataset.start), b: Number(info.element.dataset.end) } : null });
         window.EnglishApp.collect(info.word, details());
-        if (info.wholeWord && !info.meaning) completeWholeWord(info).then(() => {
-            const savedWord = window.EnglishApp.state().words[wordKey(info.word)];
-            if (info.meaning && savedWord && !savedWord.meaning && savedWord.sentence === info.record.en) window.EnglishApp.collect(info.word, details(), { silent: true });
-        });
+
     }
     function hidePopover() { lookupSequence++; if (popover) popover.style.display = 'none'; }
     function hideSelection() { if (selectionBar) selectionBar.style.display = 'none'; if (contextMenu) contextMenu.style.display = 'none'; }
@@ -867,20 +739,17 @@
     }
 
     function studyEntry(word) {
-        const key = wordKey(word); const item = window.EnglishApp && window.EnglishApp.state().words[key];
-        const entry = wordEntry(item && item.lemma || key); const phrase = lexicon.phrases[key];
-        const meanings = [];
-        const correction = item && reviewedText(item.sentence || '', item.source);
-        const record = item && { en: item.sentence || '', zh: correction ? correction.zh : item.translation || '', source: item.source };
-        const reviewed = item && item.source && (item.kind === 'phrase' ? phraseSense(item.lemma || key, record, item.contextToken && item.contextToken.a) : contextSense(word, record, { ...item.contextToken, l: item.lemma || key }));
-        if (item && item.meaningQuality === 'manual' && item.meaning) meanings.push({ p: '本文', t: item.meaning });
-        else if (reviewed && reviewed.meaning) meanings.push({ p: reviewed.quality === 'grammar' ? '语法' : reviewed.quality === 'lexical' ? '常用' : reviewed.quality === 'candidate' ? '参考' : '本文', t: reviewed.meaning });
-        else if (COMPOUND_MEANINGS[key]) meanings.push({ p: '整词', t: COMPOUND_MEANINGS[key] });
-        else if (item && item.meaning) meanings.push({ p: item.meaningQuality === 'context' ? '本文' : item.meaningQuality === 'grammar' ? '语法' : item.kind === 'phrase' ? '词组' : '参考', t: item.meaning });
-        else if (phrase) meanings.push({ p: '词组', t: phrase });
-        const curated = contextSenses && contextSenses.common(item && item.lemma || key) || [];
-        for (const s of curated.length ? curated : entry && entry.common || []) if (!meanings.some(m => m.t === s.m)) meanings.push({ p: s.p, t: s.m });
-        return meanings.length ? { ph: entry && entry.ph || '', s: meanings.slice(0, 3) } : null;
+        const key = wordKey(word), item = window.EnglishApp && window.EnglishApp.state().words[key];
+        const corrected = item && reviewedText(item.sentence || '', item.source);
+        const record = { en: item && item.sentence || '', zh: corrected ? corrected.zh : item && item.translation || '', tokens: [], source: item && item.source || {} };
+        const found = meanings.lookup({ word: item && item.word || word, kind: item && item.kind || 'word', record, token: item && item.contextToken });
+        const values = [];
+        const customKey = item && item.contextToken && Number.isFinite(item.contextToken.a) ? contextKey(record, item.contextToken.a, item.word || word) : '';
+        const custom = customKey && overrides[customKey] || item && item.meaningQuality === 'manual' && item.meaning;
+        if (custom) values.push({ p: '本文', t: custom });
+        else if (found.meaning) values.push({ p: found.quality === 'reviewed' ? '本文' : found.quality === 'grammar' ? '语法' : found.quality === 'name' ? '名称' : '词典', t: found.meaning });
+        for (const sense of found.common) if (!values.some(value => value.t === sense.m)) values.push({ p: sense.p, t: sense.m });
+        return values.length ? { ph: found.ph, s: values.slice(0, 3) } : null;
     }
     function exportData() { return { version: 1, sentences: saved, overrides, mode: enabled }; }
     function importData(data) {

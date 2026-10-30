@@ -14,6 +14,27 @@
 .study-complete-check input { width:17px; height:17px; accent-color:var(--primary); cursor:pointer; }
 .study-note-button,.study-question-button { border:1px solid #d4dfd5; background:#fff; border-radius:6px; color:#496a51; padding:6px 10px; font:12px/1.5 -apple-system,'PingFang SC',sans-serif; cursor:pointer; }
 .study-note-button:hover,.study-question-button:hover { background:#eaf3ec; border-color:#aac2b0; }
+.study-guide-button { border:1px solid #b8cfbd; background:#eaf3e9; border-radius:6px; color:#24573d; min-height:36px; padding:6px 11px; font:600 12px/1.5 -apple-system,'PingFang SC',sans-serif; cursor:pointer; white-space:nowrap; }
+.study-guide-button:hover { background:#daeada; border-color:#7da888; }
+.study-guide-toolbar { display:flex; justify-content:space-between; align-items:center; gap:16px; margin-bottom:20px; color:#63796a; font-size:13px; }
+.study-guide-summary { padding:21px 24px; border:1px solid #d6e3d4; background:#f0f6ed; border-radius:10px; }
+.study-guide-summary>span { color:#647f6b; font-size:12px; }
+.study-guide-summary h3 { margin:6px 0 9px; font-size:20px; line-height:1.5; color:#254e37; }
+.study-guide-summary p,.study-guide-logic p,.study-guide-paragraphs p,.study-guide-pitfalls p { line-height:1.95; margin:8px 0; }
+.study-guide-logic { margin:24px 0; }
+.study-guide-paragraphs>article { position:relative; margin:0 0 16px; border-left:3px solid #bbd0b7; padding:2px 0 9px 18px; }
+.study-guide-paragraphs h4 { margin:0; color:#46644c; font-size:13px; }
+.study-guide-paragraphs details { color:#687d6c; font-size:12px; }
+.study-guide-paragraphs summary { cursor:pointer; padding:4px 0; }
+.study-guide-paragraphs details p { border:1px solid #e2e8df; border-radius:7px; padding:12px 16px; background:#fafbf8; color:#38523e; font:17px/1.9 Georgia,'Times New Roman',serif; }
+.study-guide-pitfalls { border-top:1px solid #e0e8dc; margin-top:25px; padding-top:9px; }
+.study-guide-pitfalls article { padding:9px 0; border-bottom:1px solid #edf0ea; }
+.study-guide-pitfalls h4 { margin:0; color:#245b3b; font:600 17px/1.6 Georgia,serif; }
+.study-guide-pitfalls strong { color:#385f43; font-weight:600; }
+.study-guide-source-note { margin-top:22px; padding:12px 17px; border:1px solid #e5dfc8; border-radius:8px; background:#faf8ed; color:#6d674c; font-size:12px; }
+.study-guide-source-note h3 { margin:0 0 6px; font-size:13px; color:#6d674c; }
+.study-guide-source-note p { margin:0; line-height:1.8; }
+.study-guide-footer { display:flex; gap:10px; margin-top:24px; }
 .study-question-button { display:inline-flex; align-items:center; min-height:28px; margin-top:10px; font-size:11px; padding:3px 9px; }
 .study-question-button.has-mistake { color:#925213; border-color:#dfc29a; background:#fff6e8; }
 .study-question-button.is-resolved { color:var(--primary); background:var(--primary-soft); }

@@ -74,7 +74,7 @@
             block.classList.toggle('study-complete', !!record.completedAt);
             if (!controls) continue;
             if (controls.dataset.articleId !== id) {
-                controls.innerHTML = '<label class="study-complete-check"><input type="checkbox" data-study-complete="' + esc(id) + '" aria-label="' + esc(currentExam.year + ' ' + block.dataset.studyLabel + ' 已翻译') + '"><span>已翻译</span></label><button type="button" class="study-note-button" data-study-open="' + esc(id) + '"></button>';
+                controls.innerHTML = '<button type="button" class="study-guide-button" data-study-guide="' + esc(id) + '">读懂文章</button><label class="study-complete-check"><input type="checkbox" data-study-complete="' + esc(id) + '" aria-label="' + esc(currentExam.year + ' ' + block.dataset.studyLabel + ' 已翻译') + '"><span>已翻译</span></label><button type="button" class="study-note-button" data-study-open="' + esc(id) + '"></button>';
                 controls.dataset.articleId = id;
             }
             const checkbox = $('[data-study-complete]', controls); checkbox.checked = !!record.completedAt;
@@ -109,6 +109,7 @@
         overlay.addEventListener('click', event => {
             if (event.target === overlay || event.target.closest('[data-study-close]')) { close(); return; }
             const button = event.target.closest('button'); if (!button) return;
+            if (button.dataset.studyGuide) openGuide(button.dataset.studyGuide);
             if (button.dataset.studyView) { dashboardMode = button.dataset.studyView; renderDashboard(); }
             if (button.dataset.studyOpen) openArticle(button.dataset.studyOpen, button.dataset.question);
             if (button.dataset.studySource) goToSource(button.dataset.studySource, button.dataset.question);
@@ -159,6 +160,23 @@
     }
     function title(value) { $('#studyModalTitle', overlay).textContent = value; }
     function openDashboard() { ensureOverlay(); data = readData(); renderDashboard(); show(); }
+    function openGuide(id) {
+        const article = findArticle(id), guide = window.EnglishMeanings && window.EnglishMeanings.guide(id);
+        if (!article || !guide) { notify('这篇文章的导读暂未载入，请刷新页面', 'warn'); return; }
+        ensureOverlay(); editorArticle = null;
+        title(article.year + ' · ' + article.label + ' · 读懂文章');
+        const paragraphs = guide.paragraphs || [], pitfalls = guide.pitfalls || [];
+        const plain = value => Array.isArray(value) ? value.join('；') : typeof value === 'string' ? value : '';
+        $('.study-modal-body', overlay).innerHTML = '<div class="study-guide-toolbar"><span>先抓主旨，再看各段怎样支持它</span><button type="button" data-study-source="' + esc(id) + '">回到原文</button></div>' +
+            '<section class="study-guide-summary"><span>这篇在讲什么</span><h3>' + esc(guide.title || article.label) + '</h3><p>' + esc(guide.summary) + '</p></section>' +
+            '<section class="study-guide-logic"><h3>文章怎么展开</h3><p>' + esc(plain(guide.logic)) + '</p></section>' +
+            '<section class="study-guide-paragraphs"><h3>逐段理解</h3>' + paragraphs.map((paragraph, index) => '<article><h4>第 ' + esc(paragraph.index || index + 1) + ' 段</h4><p>' + esc(paragraph.point) + '</p>' + (paragraph.text ? '<details><summary>对照这一段原文</summary><p lang="en">' + esc(paragraph.text) + '</p></details>' : '') + '</article>').join('') + '</section>' +
+            (pitfalls.length ? '<section class="study-guide-pitfalls"><h3>容易理解错的地方</h3>' + pitfalls.map(item => '<article><h4 lang="en">' + esc(item.expression) + '</h4><p><strong>' + esc(item.meaning) + '</strong>' + (item.explanation ? '。' + esc(item.explanation) : '') + '</p></article>').join('') + '</section>' : '') +
+            (guide.notes && guide.notes.length ? '<aside class="study-guide-source-note"><h3>阅读提示</h3><p>' + esc(plain(guide.notes)) + '</p></aside>' : '') +
+            '<div class="study-guide-footer"><button type="button" data-study-open="' + esc(id) + '">写下自己的理解</button><button type="button" data-study-source="' + esc(id) + '">回到原文继续读</button></div>';
+        $('.study-modal-body', overlay).scrollTop = 0;
+        show();
+    }
     function renderDashboard() {
         editorArticle = null; title('翻译进度与错题笔记');
         const articles = articleList(), completed = articles.filter(article => articleRecord(article.id).completedAt).length;
@@ -263,6 +281,8 @@
         });
         const root = $('#examContent'); if (!root) return;
         root.addEventListener('click', event => {
+            const guide = event.target.closest('[data-study-guide]');
+            if (guide) { openGuide(guide.dataset.studyGuide); return; }
             const button = event.target.closest('[data-study-open],[data-study-question-open]');
             if (button) openArticle(button.dataset.studyOpen || button.dataset.studyQuestionOpen, button.dataset.question);
         });
@@ -278,6 +298,6 @@
             if (overlay && overlay.classList.contains('is-open') && !editorArticle) renderDashboard();
         });
     }
-    window.EnglishStudy = { onRendered, exportData, importData, openDashboard };
+    window.EnglishStudy = { onRendered, exportData, importData, openDashboard, openGuide };
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();

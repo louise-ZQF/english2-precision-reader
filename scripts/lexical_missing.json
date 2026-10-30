@@ -1,0 +1,1816 @@
+{
+  "words": {
+    "app": [
+      {
+        "p": "n",
+        "m": "应用程序；应用软件"
+      }
+    ],
+    "online": [
+      {
+        "p": "a",
+        "m": "在线的；通过互联网进行的"
+      },
+      {
+        "p": "adv",
+        "m": "在网上；通过互联网"
+      }
+    ],
+    "funding": [
+      {
+        "p": "n",
+        "m": "资金；经费；资助"
+      }
+    ],
+    "being": [
+      {
+        "p": "n",
+        "m": "生物；有生命的存在；人"
+      }
+    ],
+    "mcafee": [
+      {
+        "p": "n",
+        "m": "麦卡菲（文中人物姓氏）"
+      }
+    ],
+    "sharing": [
+      {
+        "p": "n",
+        "m": "分享；共享"
+      }
+    ],
+    "cigarette-style": [
+      {
+        "p": "a",
+        "m": "香烟式的；采用香烟警示方式的"
+      }
+    ],
+    "patenting": [
+      {
+        "p": "n",
+        "m": "申请或授予专利的行为"
+      }
+    ],
+    "globalization": [
+      {
+        "p": "n",
+        "m": "全球化"
+      }
+    ],
+    "landscape-oriented": [
+      {
+        "p": "a",
+        "m": "以自然景观为中心或导向的"
+      }
+    ],
+    "attractiveness": [
+      {
+        "p": "n",
+        "m": "吸引力；魅力"
+      }
+    ],
+    "year-old": [
+      {
+        "p": "a",
+        "m": "……岁的（与前面的年龄数字合用）"
+      }
+    ],
+    "pricing": [
+      {
+        "p": "n",
+        "m": "定价；收费安排"
+      }
+    ],
+    "reskilling": [
+      {
+        "p": "n",
+        "m": "为适应新岗位需求而进行的技能再培训"
+      }
+    ],
+    "reskill": [
+      {
+        "p": "v",
+        "m": "重新培训技能；学习适应新岗位的技能"
+      }
+    ],
+    "rfi": [
+      {
+        "p": "n",
+        "m": "意大利铁路网基础设施管理机构（名称缩写）"
+      }
+    ],
+    "versus": [
+      {
+        "p": "prep",
+        "m": "对；与……相对；诉（用于法律案件名称）"
+      }
+    ],
+    "buying": [
+      {
+        "p": "n",
+        "m": "购买；采购活动"
+      }
+    ],
+    "lecturing": [
+      {
+        "p": "n",
+        "m": "讲授；说教"
+      }
+    ],
+    "trading": [
+      {
+        "p": "n",
+        "m": "贸易；交易"
+      }
+    ],
+    "self-enhancer": [
+      {
+        "p": "n",
+        "m": "倾向美化自我、抬高自我评价的人"
+      }
+    ],
+    "multibillion-pound": [
+      {
+        "p": "a",
+        "m": "数十亿英镑的"
+      }
+    ],
+    "one-hour": [
+      {
+        "p": "a",
+        "m": "一小时的"
+      }
+    ],
+    "co-worker": [
+      {
+        "p": "n",
+        "m": "同事；一起工作的人"
+      }
+    ],
+    "blurring": [
+      {
+        "p": "n",
+        "m": "界限变得模糊；模糊化"
+      }
+    ],
+    "longer-term": [
+      {
+        "p": "a",
+        "m": "更长期的；更长远的"
+      }
+    ],
+    "risk-taking": [
+      {
+        "p": "n",
+        "m": "冒险；承担风险的行为"
+      }
+    ],
+    "high-schooler": [
+      {
+        "p": "n",
+        "m": "高中生"
+      }
+    ],
+    "time-management": [
+      {
+        "p": "n",
+        "m": "时间管理"
+      }
+    ],
+    "work-related": [
+      {
+        "p": "a",
+        "m": "与工作有关的"
+      }
+    ],
+    "good-paying": [
+      {
+        "p": "a",
+        "m": "报酬丰厚的；收入不错的"
+      }
+    ],
+    "affordable": [
+      {
+        "p": "a",
+        "m": "负担得起的；价格可承受的"
+      }
+    ],
+    "km": [
+      {
+        "p": "n",
+        "m": "千米；公里（kilometre 的缩写）"
+      }
+    ],
+    "magnifying": [
+      {
+        "p": "a",
+        "m": "放大的（常用于 magnifying glass，放大镜）"
+      }
+    ],
+    "mother-child": [
+      {
+        "p": "a",
+        "m": "母亲与孩子之间的；母婴的"
+      }
+    ],
+    "food-testing": [
+      {
+        "p": "a",
+        "m": "食物测试的；饮食实验的"
+      }
+    ],
+    "emissions-permit": [
+      {
+        "p": "n",
+        "m": "排放许可权；排放配额凭证"
+      }
+    ],
+    "rethinking": [
+      {
+        "p": "n",
+        "m": "重新思考；重新审视"
+      }
+    ],
+    "globalized": [
+      {
+        "p": "a",
+        "m": "全球化的；在全球范围开展活动的"
+      }
+    ],
+    "crop-growing": [
+      {
+        "p": "n",
+        "m": "农作物种植"
+      }
+    ],
+    "e-mail": [
+      {
+        "p": "n",
+        "m": "电子邮件"
+      },
+      {
+        "p": "v",
+        "m": "发送电子邮件"
+      }
+    ],
+    "builder": [
+      {
+        "p": "n",
+        "m": "建筑商；房屋建造者"
+      }
+    ],
+    "privatization": [
+      {
+        "p": "n",
+        "m": "私有化；转交私营部门经营"
+      }
+    ],
+    "ai": [
+      {
+        "p": "n",
+        "m": "人工智能（artificial intelligence 的缩写）"
+      }
+    ],
+    "jet-fuel": [
+      {
+        "p": "n",
+        "m": "喷气式飞机燃料；航空燃油"
+      }
+    ],
+    "flumist": [
+      {
+        "p": "n",
+        "m": "FluMist（鼻喷式流感疫苗的品牌名）"
+      }
+    ],
+    "reschedule": [
+      {
+        "p": "v",
+        "m": "重新安排时间；调整日程"
+      }
+    ],
+    "break-up": [
+      {
+        "p": "n",
+        "m": "关系破裂；分手；解体"
+      }
+    ],
+    "buyer": [
+      {
+        "p": "n",
+        "m": "购买者；买方"
+      }
+    ],
+    "v-formation": [
+      {
+        "p": "n",
+        "m": "V 字形队列；V 字形编队"
+      }
+    ],
+    "carbon-dioxide": [
+      {
+        "p": "n",
+        "m": "二氧化碳"
+      }
+    ],
+    "nitrogen-oxide": [
+      {
+        "p": "n",
+        "m": "氮氧化物"
+      }
+    ],
+    "sustainability-oriented": [
+      {
+        "p": "a",
+        "m": "以可持续发展为导向的"
+      }
+    ],
+    "popularize": [
+      {
+        "p": "v",
+        "m": "推广；使广为人知或使用"
+      }
+    ],
+    "quasi-automatic": [
+      {
+        "p": "a",
+        "m": "半自动的；近乎自动执行的"
+      }
+    ],
+    "free-market": [
+      {
+        "p": "a",
+        "m": "自由市场的；主张自由市场的"
+      }
+    ],
+    "fast-food-free": [
+      {
+        "p": "a",
+        "m": "禁设快餐店的；没有快餐的"
+      }
+    ],
+    "oecd": [
+      {
+        "p": "n",
+        "m": "经济合作与发展组织（名称缩写）"
+      }
+    ],
+    "cinema": [
+      {
+        "p": "n",
+        "m": "电影院；电影"
+      }
+    ],
+    "high-calorie": [
+      {
+        "p": "a",
+        "m": "高热量的"
+      }
+    ],
+    "eu": [
+      {
+        "p": "n",
+        "m": "欧洲联盟；欧盟（European Union 的缩写）"
+      }
+    ],
+    "mispredict": [
+      {
+        "p": "v",
+        "m": "预测错误；作出不准确的预料"
+      }
+    ],
+    "internet": [
+      {
+        "p": "n",
+        "m": "互联网；因特网"
+      }
+    ],
+    "stress-free": [
+      {
+        "p": "a",
+        "m": "没有压力的；让人轻松的"
+      }
+    ],
+    "conceited": [
+      {
+        "p": "a",
+        "m": "自负的；自以为是的"
+      }
+    ],
+    "anti-immigrant": [
+      {
+        "p": "a",
+        "m": "反对移民的；排外的"
+      }
+    ],
+    "context": [
+      {
+        "p": "n",
+        "m": "上下文；具体环境与背景"
+      }
+    ],
+    "sequencing": [
+      {
+        "p": "n",
+        "m": "确定排列顺序；（基因）测序"
+      }
+    ],
+    "virtus": [
+      {
+        "p": "n",
+        "m": "德性；品德（拉丁语，文中由 virtue 解释）"
+      }
+    ],
+    "dirt-snow-and-mud": [
+      {
+        "p": "a",
+        "m": "在尘土、积雪和泥泞中作战的"
+      }
+    ],
+    "uniqueness": [
+      {
+        "p": "n",
+        "m": "独特性；独一无二"
+      }
+    ],
+    "two-year-old": [
+      {
+        "p": "n",
+        "m": "两岁的孩子"
+      }
+    ],
+    "stepping": [
+      {
+        "p": "n",
+        "m": "迈步；跨步（stepping stone 比喻过渡阶段或垫脚石）"
+      }
+    ],
+    "ever-tinier": [
+      {
+        "p": "a",
+        "m": "越来越细小的"
+      }
+    ],
+    "health-care": [
+      {
+        "p": "n",
+        "m": "医疗保健；卫生服务"
+      }
+    ],
+    "gender-equality": [
+      {
+        "p": "n",
+        "m": "性别平等"
+      }
+    ],
+    "corporate-governance": [
+      {
+        "p": "n",
+        "m": "公司治理与监督制度"
+      }
+    ],
+    "fish-seller": [
+      {
+        "p": "n",
+        "m": "卖鱼者；鱼贩"
+      }
+    ],
+    "hacker": [
+      {
+        "p": "n",
+        "m": "黑客；未经授权侵入计算机系统的人"
+      }
+    ],
+    "blog": [
+      {
+        "p": "n",
+        "m": "博客；网络日志"
+      },
+      {
+        "p": "v",
+        "m": "写博客；发布网络日志"
+      }
+    ],
+    "three-course": [
+      {
+        "p": "a",
+        "m": "包含三道菜的"
+      }
+    ],
+    "overwhelm": [
+      {
+        "p": "v",
+        "m": "压倒；使不知所措；使难以应付"
+      }
+    ],
+    "self-enhance": [
+      {
+        "p": "v",
+        "m": "美化自身形象；抬高自我评价"
+      }
+    ],
+    "doctor": [
+      {
+        "p": "n",
+        "m": "医生；博士"
+      },
+      {
+        "p": "v",
+        "m": "篡改；修饰（照片、文件等）"
+      }
+    ],
+    "yellow-tinted": [
+      {
+        "p": "a",
+        "m": "带黄色调的；染成淡黄色的"
+      }
+    ],
+    "wisconsin-madison": [
+      {
+        "p": "n",
+        "m": "威斯康星—麦迪逊（文中大学校名的一部分）"
+      }
+    ],
+    "self-enhancement": [
+      {
+        "p": "n",
+        "m": "自我美化；对自身的正面评价提升"
+      }
+    ],
+    "intuitively": [
+      {
+        "p": "adv",
+        "m": "凭直觉地；不经刻意分析地"
+      }
+    ],
+    "teasing": [
+      {
+        "p": "n",
+        "m": "取笑；戏弄"
+      }
+    ],
+    "tease": [
+      {
+        "p": "v",
+        "m": "取笑；逗弄；仔细梳理（与 out 连用）"
+      }
+    ],
+    "tin-roofed": [
+      {
+        "p": "a",
+        "m": "以金属薄板盖屋顶的"
+      }
+    ],
+    "broadband": [
+      {
+        "p": "n",
+        "m": "宽带网络"
+      }
+    ],
+    "modify": [
+      {
+        "p": "v",
+        "m": "修改；调整"
+      }
+    ],
+    "self-rating": [
+      {
+        "p": "n",
+        "m": "自我评价；自评"
+      }
+    ],
+    "overlook": [
+      {
+        "p": "v",
+        "m": "忽视；未注意到；俯瞰"
+      }
+    ],
+    "sandberg": [
+      {
+        "p": "n",
+        "m": "桑德伯格（文中人物姓氏）"
+      }
+    ],
+    "motivating": [
+      {
+        "p": "a",
+        "m": "能激发动力的；使人有积极性的"
+      }
+    ],
+    "part-timer": [
+      {
+        "p": "n",
+        "m": "兼职工作者；非全日制工作人员"
+      }
+    ],
+    "misapply": [
+      {
+        "p": "v",
+        "m": "误用；错误地应用"
+      }
+    ],
+    "recruiting": [
+      {
+        "p": "n",
+        "m": "招聘；招募"
+      }
+    ],
+    "wellbeing": [
+      {
+        "p": "n",
+        "m": "身心健康；幸福感"
+      }
+    ],
+    "well-being": [
+      {
+        "p": "n",
+        "m": "身心健康；幸福感"
+      }
+    ],
+    "different-sized": [
+      {
+        "p": "a",
+        "m": "大小不同的"
+      }
+    ],
+    "harm-doer": [
+      {
+        "p": "n",
+        "m": "造成伤害的人"
+      }
+    ],
+    "mellon": [
+      {
+        "p": "n",
+        "m": "梅隆（Carnegie Mellon 大学校名的一部分）"
+      }
+    ],
+    "cross-generation": [
+      {
+        "p": "a",
+        "m": "跨越代际的；不同年龄群体共有的"
+      }
+    ],
+    "e-reader": [
+      {
+        "p": "n",
+        "m": "电子阅读器"
+      }
+    ],
+    "computer-science": [
+      {
+        "p": "n",
+        "m": "计算机科学"
+      }
+    ],
+    "less-experienced": [
+      {
+        "p": "a",
+        "m": "经验较少的；不太熟练的"
+      }
+    ],
+    "brain-scan": [
+      {
+        "p": "n",
+        "m": "脑部扫描；脑成像检查"
+      }
+    ],
+    "pre-marital": [
+      {
+        "p": "a",
+        "m": "婚前的"
+      }
+    ],
+    "monitoring": [
+      {
+        "p": "n",
+        "m": "监测；跟踪检查"
+      }
+    ],
+    "give-in": [
+      {
+        "p": "n",
+        "m": "让步；妥协"
+      }
+    ],
+    "mental-health": [
+      {
+        "p": "n",
+        "m": "心理健康；精神健康"
+      }
+    ],
+    "poorly-educated": [
+      {
+        "p": "a",
+        "m": "受教育程度较低的"
+      }
+    ],
+    "community-college": [
+      {
+        "p": "n",
+        "m": "社区学院（美国的一类高等教育机构）"
+      }
+    ],
+    "work-placement": [
+      {
+        "p": "n",
+        "m": "岗位实习；工作安置"
+      }
+    ],
+    "family-owned": [
+      {
+        "p": "a",
+        "m": "家族拥有或经营的"
+      }
+    ],
+    "fashion-related": [
+      {
+        "p": "a",
+        "m": "与时尚或时装有关的"
+      }
+    ],
+    "made-in-mexico": [
+      {
+        "p": "a",
+        "m": "在墨西哥制造的"
+      }
+    ],
+    "high-skilled": [
+      {
+        "p": "a",
+        "m": "拥有高技能的；需要高技能的"
+      }
+    ],
+    "mid-skill": [
+      {
+        "p": "a",
+        "m": "中等技能水平的"
+      }
+    ],
+    "record-high": [
+      {
+        "p": "a",
+        "m": "创纪录的高水平的"
+      }
+    ],
+    "first-timer": [
+      {
+        "p": "n",
+        "m": "第一次参加或尝试的人"
+      }
+    ],
+    "wildfire-free": [
+      {
+        "p": "a",
+        "m": "没有野火的；不受野火影响的"
+      }
+    ],
+    "fire-prone": [
+      {
+        "p": "a",
+        "m": "容易发生火灾的"
+      }
+    ],
+    "high-skill": [
+      {
+        "p": "a",
+        "m": "需要高技能的"
+      }
+    ],
+    "wake-up": [
+      {
+        "p": "a",
+        "m": "唤醒的；起警示作用的"
+      }
+    ],
+    "well-structured": [
+      {
+        "p": "a",
+        "m": "结构清晰的；安排严密的"
+      }
+    ],
+    "middle-skill": [
+      {
+        "p": "a",
+        "m": "中等技能水平的；需要中等技能的"
+      }
+    ],
+    "overvaluing": [
+      {
+        "p": "n",
+        "m": "高估；过分看重"
+      }
+    ],
+    "overvalue": [
+      {
+        "p": "v",
+        "m": "高估；过分看重"
+      }
+    ],
+    "tree-fruit": [
+      {
+        "p": "n",
+        "m": "果树结的水果；树上水果"
+      }
+    ],
+    "self-observation": [
+      {
+        "p": "n",
+        "m": "自我观察；对自身行为感受的记录"
+      }
+    ],
+    "low-sympathy": [
+      {
+        "p": "a",
+        "m": "同情心较弱的；较少体察他人处境的"
+      }
+    ],
+    "carbon-carrying": [
+      {
+        "p": "a",
+        "m": "承载或储存碳的"
+      }
+    ],
+    "biofuel": [
+      {
+        "p": "n",
+        "m": "生物燃料"
+      }
+    ],
+    "recycling": [
+      {
+        "p": "n",
+        "m": "回收再利用"
+      }
+    ],
+    "much-argued": [
+      {
+        "p": "a",
+        "m": "有许多争论的；被反复讨论的"
+      }
+    ],
+    "older-generation": [
+      {
+        "p": "a",
+        "m": "上一代的；较年长一代的"
+      }
+    ],
+    "context-independent": [
+      {
+        "p": "a",
+        "m": "独立于具体语境的；不受环境影响的"
+      }
+    ],
+    "carbon-absorbing": [
+      {
+        "p": "a",
+        "m": "吸收二氧化碳的"
+      }
+    ],
+    "triumph": [
+      {
+        "p": "v",
+        "m": "获胜；取得成功"
+      }
+    ],
+    "rule-following": [
+      {
+        "p": "a",
+        "m": "遵守规则的"
+      }
+    ],
+    "overpay": [
+      {
+        "p": "v",
+        "m": "付给过高报酬；支付过多款项"
+      }
+    ],
+    "ultra-low": [
+      {
+        "p": "a",
+        "m": "极低的；超低的"
+      }
+    ],
+    "commonly-accepted": [
+      {
+        "p": "a",
+        "m": "广泛接受的；普遍认同的"
+      }
+    ],
+    "attuned": [
+      {
+        "p": "a",
+        "m": "能敏锐察觉并回应的（常与 to 连用）"
+      }
+    ],
+    "highest-earning": [
+      {
+        "p": "a",
+        "m": "收入最高的"
+      }
+    ],
+    "say": [
+      {
+        "p": "v",
+        "m": "说；表示"
+      }
+    ],
+    "para": [
+      {
+        "p": "n",
+        "m": "段落（paragraph 的缩写）"
+      }
+    ],
+    "city-level": [
+      {
+        "p": "a",
+        "m": "城市层面的；市一级的"
+      }
+    ],
+    "well-researched": [
+      {
+        "p": "a",
+        "m": "经过充分研究的"
+      }
+    ],
+    "end-of-quarter": [
+      {
+        "p": "a",
+        "m": "季度末的"
+      }
+    ],
+    "chicago-area": [
+      {
+        "p": "a",
+        "m": "芝加哥地区的"
+      }
+    ],
+    "instructor-student": [
+      {
+        "p": "a",
+        "m": "教师与学生之间的"
+      }
+    ],
+    "two-hour": [
+      {
+        "p": "a",
+        "m": "两小时的"
+      }
+    ],
+    "target-setting": [
+      {
+        "p": "n",
+        "m": "目标设定"
+      }
+    ],
+    "reprice": [
+      {
+        "p": "v",
+        "m": "重新定价"
+      }
+    ],
+    "car-buying": [
+      {
+        "p": "n",
+        "m": "购买汽车；购车"
+      }
+    ],
+    "first-quarter": [
+      {
+        "p": "a",
+        "m": "第一季度的"
+      }
+    ],
+    "five-minute": [
+      {
+        "p": "a",
+        "m": "五分钟的"
+      }
+    ],
+    "end-of-semester": [
+      {
+        "p": "a",
+        "m": "学期末的"
+      }
+    ],
+    "processing": [
+      {
+        "p": "n",
+        "m": "信息处理；认知加工"
+      }
+    ],
+    "fire-and-hire": [
+      {
+        "p": "a",
+        "m": "解雇原员工再招聘新员工的"
+      }
+    ],
+    "factory-style": [
+      {
+        "p": "a",
+        "m": "工厂式的；工业化集中生产的"
+      }
+    ],
+    "self-report": [
+      {
+        "p": "n",
+        "m": "自我报告；当事人对自身情况的陈述"
+      }
+    ],
+    "dpt": [
+      {
+        "p": "n",
+        "m": "物理治疗学博士（专业学位缩写）"
+      }
+    ],
+    "catch-all": [
+      {
+        "p": "a",
+        "m": "涵盖范围广的；包罗多种情况的"
+      }
+    ],
+    "fastest-growing": [
+      {
+        "p": "a",
+        "m": "增长最快的"
+      }
+    ],
+    "sustainable-egg": [
+      {
+        "p": "a",
+        "m": "可持续生产鸡蛋的；采用可持续养殖方式的"
+      }
+    ],
+    "meal-card": [
+      {
+        "p": "n",
+        "m": "餐卡；食堂消费卡"
+      }
+    ],
+    "animal-friendly": [
+      {
+        "p": "a",
+        "m": "善待动物的；注重动物福利的"
+      }
+    ],
+    "baltimore-based": [
+      {
+        "p": "a",
+        "m": "位于巴尔的摩的；总部设在巴尔的摩的"
+      }
+    ],
+    "financial-planning": [
+      {
+        "p": "n",
+        "m": "财务规划；理财计划"
+      }
+    ],
+    "sign-up": [
+      {
+        "p": "n",
+        "m": "注册；报名"
+      }
+    ],
+    "unrepeatable": [
+      {
+        "p": "a",
+        "m": "不能重复的；无法重现的"
+      }
+    ],
+    "higher-quality": [
+      {
+        "p": "a",
+        "m": "质量更高的"
+      }
+    ],
+    "prp": [
+      {
+        "p": "n",
+        "m": "PRP（文中建筑设计机构名称）"
+      }
+    ],
+    "cm": [
+      {
+        "p": "n",
+        "m": "厘米（centimetre 的缩写）"
+      }
+    ],
+    "plateau": [
+      {
+        "p": "n",
+        "m": "高原；稳定阶段"
+      },
+      {
+        "p": "v",
+        "m": "达到稳定水平；停止明显增长"
+      }
+    ],
+    "housebuilding": [
+      {
+        "p": "n",
+        "m": "房屋建造；住宅建设"
+      }
+    ],
+    "commercialization": [
+      {
+        "p": "n",
+        "m": "商业化"
+      }
+    ],
+    "web-surfing": [
+      {
+        "p": "n",
+        "m": "网上浏览；上网冲浪"
+      }
+    ],
+    "overstress": [
+      {
+        "p": "v",
+        "m": "过分强调；使承受过大压力"
+      }
+    ],
+    "risk-sensitive": [
+      {
+        "p": "a",
+        "m": "对风险敏感的"
+      }
+    ],
+    "thermal-efficient": [
+      {
+        "p": "a",
+        "m": "热效率高的；保温节能的"
+      }
+    ],
+    "overheating": [
+      {
+        "p": "n",
+        "m": "过热；温度过高"
+      }
+    ],
+    "double-glazed": [
+      {
+        "p": "a",
+        "m": "装有双层玻璃的"
+      }
+    ],
+    "ever-more": [
+      {
+        "p": "adv",
+        "m": "越来越；愈发"
+      }
+    ],
+    "simmer": [
+      {
+        "p": "v",
+        "m": "用小火煨；（愤怒、不满等）逐渐积聚"
+      }
+    ],
+    "life-changer": [
+      {
+        "p": "n",
+        "m": "能重大改变生活的事情或经历"
+      }
+    ],
+    "second-largest": [
+      {
+        "p": "a",
+        "m": "规模第二大的"
+      }
+    ],
+    "tracking": [
+      {
+        "p": "n",
+        "m": "跟踪；追踪记录；监测"
+      }
+    ],
+    "cross-sector": [
+      {
+        "p": "a",
+        "m": "跨部门的；跨行业的"
+      }
+    ],
+    "advice-seeker": [
+      {
+        "p": "n",
+        "m": "寻求建议的人"
+      }
+    ],
+    "late-morning": [
+      {
+        "p": "a",
+        "m": "上午较晚时段的；接近中午的"
+      }
+    ],
+    "unspoken": [
+      {
+        "p": "a",
+        "m": "未明说的；心照不宣的"
+      }
+    ],
+    "increase": [
+      {
+        "p": "v",
+        "m": "增加；提高"
+      },
+      {
+        "p": "n",
+        "m": "增加；增量"
+      }
+    ],
+    "help-seeker": [
+      {
+        "p": "n",
+        "m": "寻求帮助的人"
+      }
+    ],
+    "help-giver": [
+      {
+        "p": "n",
+        "m": "提供帮助的人"
+      }
+    ],
+    "coercive": [
+      {
+        "p": "a",
+        "m": "带有强迫性质的；有逼迫意味的"
+      }
+    ],
+    "mapping": [
+      {
+        "p": "n",
+        "m": "绘制地图；制作分布图或图谱"
+      }
+    ],
+    "ever-higher": [
+      {
+        "p": "a",
+        "m": "越来越高的"
+      }
+    ],
+    "cross-government": [
+      {
+        "p": "a",
+        "m": "跨政府部门的；政府各部门共同的"
+      }
+    ],
+    "ipad": [
+      {
+        "p": "n",
+        "m": "iPad（苹果公司的平板电脑）"
+      }
+    ],
+    "hospital-centric": [
+      {
+        "p": "a",
+        "m": "以医院为中心的"
+      }
+    ],
+    "alert-issuing": [
+      {
+        "p": "a",
+        "m": "发布预警的"
+      }
+    ],
+    "heat-stricken": [
+      {
+        "p": "a",
+        "m": "遭受高温侵袭的"
+      }
+    ],
+    "input": [
+      {
+        "p": "v",
+        "m": "输入（数据或信息）"
+      },
+      {
+        "p": "n",
+        "m": "输入的信息；投入"
+      }
+    ],
+    "fifa-standard": [
+      {
+        "p": "a",
+        "m": "符合国际足联标准的"
+      }
+    ],
+    "fest": [
+      {
+        "p": "n",
+        "m": "节庆活动；庆典（festival 的简略说法）"
+      }
+    ],
+    "utilise": [
+      {
+        "p": "v",
+        "m": "利用；使用"
+      }
+    ],
+    "ai-produced": [
+      {
+        "p": "a",
+        "m": "由人工智能生成的"
+      }
+    ],
+    "genome": [
+      {
+        "p": "n",
+        "m": "基因组；一个生物体的全套遗传信息"
+      }
+    ],
+    "genetic-resources": [
+      {
+        "p": "n",
+        "m": "遗传资源"
+      }
+    ],
+    "non-timber": [
+      {
+        "p": "a",
+        "m": "非木材的"
+      }
+    ],
+    "h1n1": [
+      {
+        "p": "n",
+        "m": "H1N1（流感病毒亚型的名称）"
+      }
+    ],
+    "h-2a": [
+      {
+        "p": "n",
+        "m": "H-2A（美国临时农业劳工签证类别）"
+      }
+    ],
+    "h-2b": [
+      {
+        "p": "n",
+        "m": "H-2B（美国临时非农业劳工签证类别）"
+      }
+    ],
+    "co2": [
+      {
+        "p": "n",
+        "m": "二氧化碳（化学式）"
+      }
+    ],
+    "r&d": [
+      {
+        "p": "n",
+        "m": "研究与开发；研发（research and development 的缩写）"
+      }
+    ],
+    "l.a.": [
+      {
+        "p": "n",
+        "m": "洛杉矶（Los Angeles 的缩写）"
+      }
+    ],
+    "regs": [
+      {
+        "p": "n",
+        "m": "规章；规定（regulations 的口语缩写）"
+      }
+    ],
+    "g.i.": [
+      {
+        "p": "n",
+        "m": "美国大兵；G.I. Joe 在文中指玩具士兵品牌"
+      }
+    ],
+    "change4life": [
+      {
+        "p": "n",
+        "m": "英国“改变生活”健康生活倡议的名称"
+      }
+    ],
+    "a350": [
+      {
+        "p": "n",
+        "m": "空客 A350 型客机"
+      }
+    ],
+    "mid-20th": [
+      {
+        "p": "a",
+        "m": "二十世纪中期的（与 century 连用）"
+      }
+    ],
+    "mid-1980s": [
+      {
+        "p": "n",
+        "m": "二十世纪八十年代中期"
+      }
+    ],
+    "mid-1970s": [
+      {
+        "p": "n",
+        "m": "二十世纪七十年代中期"
+      }
+    ],
+    "21st-century": [
+      {
+        "p": "a",
+        "m": "二十一世纪的"
+      }
+    ],
+    "landscape-orientated": [
+      {
+        "p": "a",
+        "m": "以景观为主要表现方向的"
+      }
+    ],
+    "re-price": [
+      {
+        "p": "v",
+        "m": "重新定价"
+      }
+    ],
+    "francisco-based": [
+      {
+        "p": "a",
+        "m": "设在旧金山的（与前面的 San 构成完整地名）"
+      }
+    ],
+    "medium-to": [
+      {
+        "p": "a",
+        "m": "中期的（与后面的 long-term 合起来表示“中长期的”）"
+      }
+    ],
+    "p6": [
+      {
+        "p": "n",
+        "m": "第六段（Paragraph 6 的缩写）"
+      }
+    ],
+    "rewild": [
+      {
+        "p": "v",
+        "m": "恢复野生生态；使土地重新接近自然状态"
+      }
+    ]
+  },
+  "aliases": {
+    "apps": {
+      "lemma": "app",
+      "p": "n",
+      "label": "复数"
+    },
+    "beings": {
+      "lemma": "being",
+      "p": "n",
+      "label": "复数"
+    },
+    "co-workers": {
+      "lemma": "co-worker",
+      "p": "n",
+      "label": "复数"
+    },
+    "high-schoolers": {
+      "lemma": "high-schooler",
+      "p": "n",
+      "label": "复数"
+    },
+    "builders": {
+      "lemma": "builder",
+      "p": "n",
+      "label": "复数"
+    },
+    "buyers": {
+      "lemma": "buyer",
+      "p": "n",
+      "label": "复数"
+    },
+    "popularized": {
+      "lemma": "popularize",
+      "p": "v",
+      "label": "过去式／过去分词"
+    },
+    "cinemas": {
+      "lemma": "cinema",
+      "p": "n",
+      "label": "复数"
+    },
+    "mispredicted": {
+      "lemma": "mispredict",
+      "p": "v",
+      "label": "过去式／过去分词"
+    },
+    "contexts": {
+      "lemma": "context",
+      "p": "n",
+      "label": "复数"
+    },
+    "two-year-olds": {
+      "lemma": "two-year-old",
+      "p": "n",
+      "label": "复数"
+    },
+    "fish-sellers": {
+      "lemma": "fish-seller",
+      "p": "n",
+      "label": "复数"
+    },
+    "blogging": {
+      "lemma": "blog",
+      "p": "v",
+      "label": "现在分词／动名词"
+    },
+    "overwhelmed": {
+      "lemma": "overwhelm",
+      "p": "v",
+      "label": "过去式／过去分词"
+    },
+    "self-enhanced": {
+      "lemma": "self-enhance",
+      "p": "v",
+      "label": "过去式／过去分词"
+    },
+    "doctored": {
+      "lemma": "doctor",
+      "p": "v",
+      "label": "过去式／过去分词"
+    },
+    "modifies": {
+      "lemma": "modify",
+      "p": "v",
+      "label": "第三人称单数"
+    },
+    "self-ratings": {
+      "lemma": "self-rating",
+      "p": "n",
+      "label": "复数"
+    },
+    "overlooked": {
+      "lemma": "overlook",
+      "p": "v",
+      "label": "过去式／过去分词"
+    },
+    "part-timers": {
+      "lemma": "part-timer",
+      "p": "n",
+      "label": "复数"
+    },
+    "misapplied": {
+      "lemma": "misapply",
+      "p": "v",
+      "label": "过去式／过去分词"
+    },
+    "harm-doers": {
+      "lemma": "harm-doer",
+      "p": "n",
+      "label": "复数"
+    },
+    "e-readers": {
+      "lemma": "e-reader",
+      "p": "n",
+      "label": "复数"
+    },
+    "first-timers": {
+      "lemma": "first-timer",
+      "p": "n",
+      "label": "复数"
+    },
+    "self-observations": {
+      "lemma": "self-observation",
+      "p": "n",
+      "label": "复数"
+    },
+    "biofuels": {
+      "lemma": "biofuel",
+      "p": "n",
+      "label": "复数"
+    },
+    "triumphing": {
+      "lemma": "triumph",
+      "p": "v",
+      "label": "现在分词／动名词"
+    },
+    "overpaid": {
+      "lemma": "overpay",
+      "p": "v",
+      "label": "过去式／过去分词"
+    },
+    "says": {
+      "lemma": "say",
+      "p": "v",
+      "label": "第三人称单数"
+    },
+    "re-priced": {
+      "lemma": "re-price",
+      "p": "v",
+      "label": "过去式／过去分词"
+    },
+    "self-reports": {
+      "lemma": "self-report",
+      "p": "n",
+      "label": "复数"
+    },
+    "sign-ups": {
+      "lemma": "sign-up",
+      "p": "n",
+      "label": "复数"
+    },
+    "plateaued": {
+      "lemma": "plateau",
+      "p": "v",
+      "label": "过去式／过去分词"
+    },
+    "simmering": {
+      "lemma": "simmer",
+      "p": "v",
+      "label": "现在分词／动名词"
+    },
+    "advice-seekers": {
+      "lemma": "advice-seeker",
+      "p": "n",
+      "label": "复数"
+    },
+    "increased": {
+      "lemma": "increase",
+      "p": "v",
+      "label": "过去式／过去分词"
+    },
+    "ipads": {
+      "lemma": "ipad",
+      "p": "n",
+      "label": "复数"
+    },
+    "inputted": {
+      "lemma": "input",
+      "p": "v",
+      "label": "过去式／过去分词"
+    },
+    "utilised": {
+      "lemma": "utilise",
+      "p": "v",
+      "label": "过去式／过去分词"
+    },
+    "genomes": {
+      "lemma": "genome",
+      "p": "n",
+      "label": "复数"
+    },
+    "ai's": {
+      "lemma": "ai",
+      "p": "n",
+      "label": "所有格"
+    },
+    "eu's": {
+      "lemma": "eu",
+      "p": "n",
+      "label": "所有格"
+    },
+    "self-enhancer's": {
+      "lemma": "self-enhancer",
+      "p": "n",
+      "label": "所有格"
+    },
+    "sandberg's": {
+      "lemma": "sandberg",
+      "p": "n",
+      "label": "所有格"
+    },
+    "mellon's": {
+      "lemma": "mellon",
+      "p": "n",
+      "label": "所有格"
+    },
+    "landscape-orientated": {
+      "lemma": "landscape-oriented",
+      "p": "a",
+      "label": "同义拼写"
+    },
+    "vs": {
+      "lemma": "versus",
+      "p": "prep",
+      "label": "缩写"
+    },
+    "v": {
+      "lemma": "versus",
+      "p": "prep",
+      "label": "法律案件名称中的缩写"
+    },
+    "funding": {
+      "lemma": "funding",
+      "p": "n",
+      "label": "原形"
+    },
+    "sharing": {
+      "lemma": "sharing",
+      "p": "n",
+      "label": "原形"
+    },
+    "patenting": {
+      "lemma": "patenting",
+      "p": "n",
+      "label": "原形"
+    },
+    "pricing": {
+      "lemma": "pricing",
+      "p": "n",
+      "label": "原形"
+    },
+    "reskilling": {
+      "lemma": "reskilling",
+      "p": "n",
+      "label": "原形"
+    },
+    "buying": {
+      "lemma": "buying",
+      "p": "n",
+      "label": "原形"
+    },
+    "lecturing": {
+      "lemma": "lecturing",
+      "p": "n",
+      "label": "原形"
+    },
+    "trading": {
+      "lemma": "trading",
+      "p": "n",
+      "label": "原形"
+    },
+    "blurring": {
+      "lemma": "blurring",
+      "p": "n",
+      "label": "原形"
+    },
+    "rethinking": {
+      "lemma": "rethinking",
+      "p": "n",
+      "label": "原形"
+    },
+    "crop-growing": {
+      "lemma": "crop-growing",
+      "p": "n",
+      "label": "原形"
+    },
+    "monitoring": {
+      "lemma": "monitoring",
+      "p": "n",
+      "label": "原形"
+    },
+    "overvaluing": {
+      "lemma": "overvaluing",
+      "p": "n",
+      "label": "原形"
+    },
+    "recycling": {
+      "lemma": "recycling",
+      "p": "n",
+      "label": "原形"
+    },
+    "processing": {
+      "lemma": "processing",
+      "p": "n",
+      "label": "原形"
+    },
+    "housebuilding": {
+      "lemma": "housebuilding",
+      "p": "n",
+      "label": "原形"
+    },
+    "overheating": {
+      "lemma": "overheating",
+      "p": "n",
+      "label": "原形"
+    },
+    "tracking": {
+      "lemma": "tracking",
+      "p": "n",
+      "label": "原形"
+    },
+    "mapping": {
+      "lemma": "mapping",
+      "p": "n",
+      "label": "原形"
+    },
+    "wellbeing": {
+      "lemma": "wellbeing",
+      "p": "n",
+      "label": "原形"
+    },
+    "conceited": {
+      "lemma": "conceited",
+      "p": "a",
+      "label": "原形"
+    },
+    "motivating": {
+      "lemma": "motivating",
+      "p": "a",
+      "label": "原形"
+    },
+    "recruiting": {
+      "lemma": "recruiting",
+      "p": "n",
+      "label": "原形"
+    },
+    "rewilding": {
+      "lemma": "rewild",
+      "p": "v",
+      "label": "现在分词／动名词"
+    }
+  }
+}

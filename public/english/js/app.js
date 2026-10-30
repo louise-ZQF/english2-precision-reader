@@ -392,6 +392,7 @@
     const canHover = window.matchMedia && window.matchMedia('(hover: hover)').matches;
 
     function loadDict() {
+        if (window.EnglishMeanings) return Promise.resolve(null);
         if (dictCache) return Promise.resolve(dictCache);
         if (dictPending) return dictPending;
         dictPending = loadDataVersions().then(() => fetch(dictUrl()))
@@ -411,6 +412,7 @@
     }
 
     function lookupWord(word) {
+        if (window.EnglishMeanings) return window.EnglishMeanings.dictionaryLookup(word);
         if (!dictCache) return null;
         const key = normalizeWord(word);
         const repair = (e) => prepareEntry(key, e);
@@ -2477,6 +2479,18 @@
             }
             if (state.exams[0]) selectExam(state.exams[0].exam_id);
         };
+
+        // The classic-script bundle also works from file:// and replaces stale
+        // built-in paper text without touching vocabulary, notes or SRS state.
+        if (Array.isArray(window.EnglishBuiltinExams) && window.EnglishBuiltinExams.length) {
+            const bundled = window.EnglishBuiltinExams.map(exam => ({ ...exam, builtin: true }));
+            const ids = new Set(bundled.map(exam => exam.exam_id));
+            state.exams = bundled.concat(state.exams.filter(exam => !ids.has(exam.exam_id)));
+            state.exams.sort(sortExamsByYearDesc);
+            saveExams(); saveExamsStamp(window.EnglishBuiltinRevision || examsStamp);
+            buildFrequencyIndex(); renderExamList(); applyDeepLinkExam(); renderActiveExam();
+            return;
+        }
 
         // —— ① 真题按内容戳复用 ——
         // 以前每次打开都无条件重下 34 套（1.05 MB），哪怕服务器上的真题一个字都没改。

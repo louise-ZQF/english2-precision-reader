@@ -152,6 +152,7 @@
 
   // ==================== 词库 ====================
   function loadDict() {
+    if (window.EnglishMeanings) return Promise.resolve(null);
     if (dictCache) return Promise.resolve(dictCache);
     if (dictPending) return dictPending;
     dictPending = resolveDictUrl()
@@ -163,6 +164,7 @@
   }
   function lookupDict(word) {
     if (window.EnglishPrecision) { var study = window.EnglishPrecision.studyEntry(word); if (study) return study; }
+    if (window.EnglishMeanings) return window.EnglishMeanings.dictionaryLookup(word);
     if (!dictCache) return null;
     var dict = dictCache.dict || {};
     var key = normalizeWord(word);

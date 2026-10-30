@@ -1,0 +1,17 @@
+# 免费离线词义重构（2026-10-30）
+
+基础词典选择 [skywind3000/ECDICT](https://github.com/skywind3000/ECDICT)，其仓库公开提供 CSV、词形 exchange 字段与 MIT 许可，许可原文随项目和发布目录保存。所用 ecdict.csv 的 SHA-256 为 d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc；构建时记录同一校验值，以免将不同版本当成同一来源。未使用收费词典 API，也未把来源许可不清的商业词典抓取包导入网站。
+
+参考站 [WordCram 2015 英语二](https://wordcram.com.cn/tests/kaoyan2/2015) 已读取原文并实际查看 fulfillment 的查词弹窗：提供“履行／完成”与“满足感／成就感”等简明备选义。它用于对照阅读和查词的呈现方式；本项目未批量复制其词条或解释，语境修订与导读均依据本地英文原文独立编写。在此句 personal fulfillment 指自我实现带来的满足感与成就感，应将此义放在原文对应位置优先显示，而非从词典首义直接套用。
+
+上下文修订的键是“试卷 ID＋完整原句＋英文字符起止位置”，不使用单词拼写作为全局语境义。同一词在不同句子或同一句不同位置可有不同解释。构建器检查每条原句必须出现在当前句库中，并验证单词拼写与区间完全一致；不成立时停止构建。单独的短选项不强行赋予某篇正文的本文义。
+
+优先次序是用户自己的释义、精确位置的独立修订、助动词和从句引导词等语法作用、按词性筛选的词典义。未核准的位置不再根据整句中文的某个子串猜词义，也不将单词在线机译作为本文义。未收录词保留明确提示与主动核对入口，专名、缩写和语法词有专门处理。词形优先依据词典记录和已确认的别名，不随意去掉词尾造原形。
+
+本轮覆盖 2010—2026 年共 119 篇完形、Text 1—4、Part B 和翻译文章，编写 119 份导读；具体修订为 4,155 处单词、1,138 处词组。这是已定位的修订数量，不等于所有单词都经过人工词义审定，也不是“真题考查频率”的统计。其他常见义来自清理后的词典；不会把尚未统计的常见义称为真题高频义。机器句法划分与未重译句子的参考译文仍有局限。
+
+2025 年 Text 1、Text 2、Text 4 及翻译部分对照本地扫描卷纠正了缺段、重复段、数字与识别错字，并补写对应的自然中文译文；2024 年 Text 2 的 rewinding 对照原卷确认为 rewilding，已同步题文、句库与语境解释。2026 年 It gains Microsoft broad rights 保留原文；gain 可以使用“人＋事物”的双宾语结构，意为“使某人获得某物”，可核对 [Oxford gain](https://www.oxfordlearnersdictionaries.com/us/definition/english/gain_1)，不将其擅自改成 gives。
+
+原文、收藏列表和 SRS 背词调用同一词义引擎，旧的自动释义只在展示时更新，不删除或重建收藏。用户自填的本文义继续优先，个人笔记、错题、热力图完成记录与复习间隔保持独立。内置试卷打包成经典脚本，使直接打开本地 index.html 也能取得修正后的正文，并替换旧的内置题库缓存；自导入的其他试卷保留。
+
+数据维护：scripts/lexical_overrides.json 保存独立词典补充，scripts/lexical_missing.json 保存缺词与确认过的词形，public/english/data/meaning-review/review_*.json 保存精确语境义、重译及文章导读。运行 python3 scripts/build_lexical_data.py，生成 lexical-data.js、exams-data.js、reviewed-meanings.js 及 reference/lexical-build.json。原始 CSV 放在忽略目录 reference/upstream，不向仓库提交完整上游文件。

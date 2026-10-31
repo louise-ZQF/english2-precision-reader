@@ -114,14 +114,15 @@
     function lookup(input) {
         const word = input.word || '', record = input.record || { en: '', tokens: [] }, kind = input.kind || 'word';
         const token = locate(word, record, input.token, input.start, input.end);
-        const fixed = correction(word, record, token, kind);
+        const reading = window.EnglishReading;
+        const fixed = reading && reading.scope(record) ? reading.lookup(record, token.a, token.b, kind) : correction(word, record, token, kind);
         let lemma = kind === 'phrase' ? phraseLemma(fixed && fixed.lemma || word) : lemmaFor(word, token, fixed);
         const correctedToken = { ...token, l: lemma, p: fixed && fixed.pos || token.p };
         const base = entry(lemma);
         const phraseDefinition = data.phrases[lemma] || '';
         const common = base && base.common.length ? base.common : kind === 'phrase' ? phraseDefinition.split('；').filter(Boolean).map(m => ({ p: 'phrase', m })) : [];
         const result = { word, lemma, kind, token: correctedToken, common, ph: base && base.ph || '', meaning: '', quality: 'missing', explanation: '' };
-        if (fixed) return { ...result, meaning: fixed.meaning, quality: 'reviewed', explanation: fixed.explanation || '' };
+        if (fixed) return { ...result, meaning: fixed.meaning, quality: fixed.quality === 'manual' ? 'manual' : 'reviewed', explanation: fixed.explanation || '' };
         const abbreviation = word.replace(/\./g, '').replace(/['’]s$/, '');
         if (acronyms[abbreviation]) return { ...result, lemma: abbreviation, common: [], ph: '', meaning: acronyms[abbreviation], quality: 'name' };
         const shortForms = { 'e.g.': '例如（for example）', 'i.e.': '也就是；换句话说（that is）', 'etc.': '等等（and so on）', 'vs.': '与……相对；对比' };
@@ -143,6 +144,7 @@
         return result;
     }
     function phrases(record) {
+        if (window.EnglishReading && window.EnglishReading.scope(record)) return window.EnglishReading.phrases(record).map(item => ({ a: item.a, b: item.b, key: phraseLemma(item.lemma || item.word), meaning: item.meaning, reviewed: true }));
         const sentence = reviewedSentence(record);
         return sentence ? sentence.phrases.map(item => ({ a: item.a, b: item.b, key: phraseLemma(item.lemma || sentence.en.slice(item.a, item.b)), meaning: item.meaning, reviewed: true })) : [];
     }

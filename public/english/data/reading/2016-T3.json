@@ -1,0 +1,292 @@
+{
+  "version": 1,
+  "id": "2016-T3",
+  "exam": "2016_english2",
+  "year": 2016,
+  "text": 3,
+  "articleKey": "s1-p0-t2",
+  "source": {
+    "status": "pending",
+    "textSHA256": "f05242d88ad0f9e5139817dad723310f252fe3702f888b938b61b87d713949d4",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2016-T3-P1",
+      "en": "That everyone's too busy these days is a cliché. But one specific complaint is made especially mournfully: There's never any time to read.",
+      "sentences": [
+        {
+          "id": "2016-T3-P1-S1",
+          "a": 0,
+          "b": 48,
+          "en": "That everyone's too busy these days is a cliché.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P1-S2",
+          "a": 49,
+          "b": 138,
+          "en": "But one specific complaint is made especially mournfully: There's never any time to read.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2016-T3-P2",
+      "en": "What makes the problem thornier is that the usual time-management techniques don't seem sufficient. The web's full of articles offering tips on making time to read: “Give up TV” or “Carry a book with you at all times.” But in my experience, using such methods to free up the odd 30 minutes doesn't work. Sit down to read and the flywheel of work-related thoughts keeps spinning – or else you're so exhausted that a challenging book's the last thing you need. The modern mind, Tim Parks, a novelist and critic, writes, “is overwhelmingly inclined toward communication... It is not simply that one is interrupted; it is that one is actually inclined to interruption.” Deep reading requires not just time, but a special kind of time which can't be obtained merely by becoming more efficient.",
+      "sentences": [
+        {
+          "id": "2016-T3-P2-S1",
+          "a": 0,
+          "b": 99,
+          "en": "What makes the problem thornier is that the usual time-management techniques don't seem sufficient.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P2-S2",
+          "a": 100,
+          "b": 218,
+          "en": "The web's full of articles offering tips on making time to read: “Give up TV” or “Carry a book with you at all times.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P2-S3",
+          "a": 219,
+          "b": 303,
+          "en": "But in my experience, using such methods to free up the odd 30 minutes doesn't work.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P2-S4",
+          "a": 304,
+          "b": 458,
+          "en": "Sit down to read and the flywheel of work-related thoughts keeps spinning – or else you're so exhausted that a challenging book's the last thing you need.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P2-S5",
+          "a": 459,
+          "b": 569,
+          "en": "The modern mind, Tim Parks, a novelist and critic, writes, “is overwhelmingly inclined toward communication...",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P2-S6",
+          "a": 570,
+          "b": 665,
+          "en": "It is not simply that one is interrupted; it is that one is actually inclined to interruption.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P2-S7",
+          "a": 666,
+          "b": 788,
+          "en": "Deep reading requires not just time, but a special kind of time which can't be obtained merely by becoming more efficient.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2016-T3-P3",
+      "en": "In fact, “becoming more efficient” is part of the problem. Thinking of time as a resource to be maximised means you approach it instrumentally, judging any given moment as well spent only in so far as it advances progress toward some goal. Immersive reading, by contrast, depends on being willing to risk inefficiency, goallessness, even time-wasting. Try to slot it in as a to-do list item and you'll manage only goal-focused reading – useful, sometimes, but not the most fulfilling kind. “The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.” No mind-set could be worse for losing yourself in a book.",
+      "sentences": [
+        {
+          "id": "2016-T3-P3-S1",
+          "a": 0,
+          "b": 58,
+          "en": "In fact, “becoming more efficient” is part of the problem.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P3-S2",
+          "a": 59,
+          "b": 239,
+          "en": "Thinking of time as a resource to be maximised means you approach it instrumentally, judging any given moment as well spent only in so far as it advances progress toward some goal.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P3-S3",
+          "a": 240,
+          "b": 351,
+          "en": "Immersive reading, by contrast, depends on being willing to risk inefficiency, goallessness, even time-wasting.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P3-S4",
+          "a": 352,
+          "b": 489,
+          "en": "Try to slot it in as a to-do list item and you'll manage only goal-focused reading – useful, sometimes, but not the most fulfilling kind.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P3-S5",
+          "a": 490,
+          "b": 800,
+          "en": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P3-S6",
+          "a": 801,
+          "b": 858,
+          "en": "No mind-set could be worse for losing yourself in a book.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2016-T3-P4",
+      "en": "So what does work? Perhaps surprisingly, scheduling regular times for reading. You'd think this might fuel the efficiency mind-set, but in fact, Eberle notes, such ritualistic behaviour helps us “step outside time's flow” into “soul time.” You could limit distractions by reading only physical books, or on single-purpose e-readers. “Carry a book with you at all times” can actually work, too – providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down. On a really good day, it no longer feels as if you're “making time to read,” but just reading, and making time for everything else.",
+      "sentences": [
+        {
+          "id": "2016-T3-P4-S1",
+          "a": 0,
+          "b": 18,
+          "en": "So what does work?",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P4-S2",
+          "a": 19,
+          "b": 78,
+          "en": "Perhaps surprisingly, scheduling regular times for reading.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P4-S3",
+          "a": 79,
+          "b": 239,
+          "en": "You'd think this might fuel the efficiency mind-set, but in fact, Eberle notes, such ritualistic behaviour helps us “step outside time's flow” into “soul time.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P4-S4",
+          "a": 240,
+          "b": 332,
+          "en": "You could limit distractions by reading only physical books, or on single-purpose e-readers.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P4-S5",
+          "a": 333,
+          "b": 559,
+          "en": "“Carry a book with you at all times” can actually work, too – providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2016-T3-P4-S6",
+          "a": 560,
+          "b": 691,
+          "en": "On a really good day, it no longer feels as if you're “making time to read,” but just reading, and making time for everything else.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

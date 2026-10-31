@@ -1,0 +1,406 @@
+{
+  "version": 1,
+  "id": "2011-T2",
+  "exam": "2011_english2",
+  "year": 2011,
+  "text": 2,
+  "articleKey": "s1-p0-t1",
+  "source": {
+    "status": "pending",
+    "textSHA256": "82ed4f2964fd9bbbd5b04afc3e81b18853a1b8189d4b64aa7bfc846f2940f249",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2011-T2-P1",
+      "en": "Whatever happened to the death of newspapers? A year ago the end seemed near. The recession threatened to remove the advertising and readers that had not already fled to the internet. Newspapers like the San Francisco Chronicle were chronicling their own doom. America's Federal Trade Commission launched a round of talks about how to save newspapers. Should they become charitable corporations? Should the state subsidize them? It will hold another meeting soon. But the discussions now seem out of date.",
+      "sentences": [
+        {
+          "id": "2011-T2-P1-S1",
+          "a": 0,
+          "b": 45,
+          "en": "Whatever happened to the death of newspapers?",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P1-S2",
+          "a": 46,
+          "b": 77,
+          "en": "A year ago the end seemed near.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P1-S3",
+          "a": 78,
+          "b": 183,
+          "en": "The recession threatened to remove the advertising and readers that had not already fled to the internet.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P1-S4",
+          "a": 184,
+          "b": 260,
+          "en": "Newspapers like the San Francisco Chronicle were chronicling their own doom.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P1-S5",
+          "a": 261,
+          "b": 351,
+          "en": "America's Federal Trade Commission launched a round of talks about how to save newspapers.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P1-S6",
+          "a": 352,
+          "b": 395,
+          "en": "Should they become charitable corporations?",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P1-S7",
+          "a": 396,
+          "b": 428,
+          "en": "Should the state subsidize them?",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P1-S8",
+          "a": 429,
+          "b": 463,
+          "en": "It will hold another meeting soon.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P1-S9",
+          "a": 464,
+          "b": 505,
+          "en": "But the discussions now seem out of date.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2011-T2-P2",
+      "en": "In much of the world there is little sign of crisis. German and Brazilian papers have shrugged off the recession. Even American newspapers, which inhabit the most troubled corner of the global industry, have not only survived but often returned to profit. Not the 20% profit margins that were routine a few years ago, but profit all the same.",
+      "sentences": [
+        {
+          "id": "2011-T2-P2-S1",
+          "a": 0,
+          "b": 52,
+          "en": "In much of the world there is little sign of crisis.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P2-S2",
+          "a": 53,
+          "b": 113,
+          "en": "German and Brazilian papers have shrugged off the recession.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P2-S3",
+          "a": 114,
+          "b": 255,
+          "en": "Even American newspapers, which inhabit the most troubled corner of the global industry, have not only survived but often returned to profit.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P2-S4",
+          "a": 256,
+          "b": 342,
+          "en": "Not the 20% profit margins that were routine a few years ago, but profit all the same.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2011-T2-P3",
+      "en": "It has not been much fun. Many papers stayed afloat by pushing journalists overboard. The American Society of News Editors reckons that 13,500 newsroom jobs have gone since 2007. Readers are paying more for slimmer products. Some papers even had the nerve to refuse delivery to distant suburbs. Yet these desperate measures have proved the right ones and, sadly for many journalists, they can be pushed further.",
+      "sentences": [
+        {
+          "id": "2011-T2-P3-S1",
+          "a": 0,
+          "b": 25,
+          "en": "It has not been much fun.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P3-S2",
+          "a": 26,
+          "b": 85,
+          "en": "Many papers stayed afloat by pushing journalists overboard.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P3-S3",
+          "a": 86,
+          "b": 178,
+          "en": "The American Society of News Editors reckons that 13,500 newsroom jobs have gone since 2007.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P3-S4",
+          "a": 179,
+          "b": 224,
+          "en": "Readers are paying more for slimmer products.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P3-S5",
+          "a": 225,
+          "b": 294,
+          "en": "Some papers even had the nerve to refuse delivery to distant suburbs.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P3-S6",
+          "a": 295,
+          "b": 411,
+          "en": "Yet these desperate measures have proved the right ones and, sadly for many journalists, they can be pushed further.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2011-T2-P4",
+      "en": "Newspapers are becoming more balanced businesses, with a healthier mix of revenues from readers and advertisers. American papers have long been highly unusual in their reliance on ads. Fully 87% of their revenues came from advertising in 2008, according to the Organization for Economic Cooperation & Development (OECD). In Japan the proportion is 35%. Not surprisingly, Japanese newspapers are much more stable.",
+      "sentences": [
+        {
+          "id": "2011-T2-P4-S1",
+          "a": 0,
+          "b": 112,
+          "en": "Newspapers are becoming more balanced businesses, with a healthier mix of revenues from readers and advertisers.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P4-S2",
+          "a": 113,
+          "b": 184,
+          "en": "American papers have long been highly unusual in their reliance on ads.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P4-S3",
+          "a": 185,
+          "b": 320,
+          "en": "Fully 87% of their revenues came from advertising in 2008, according to the Organization for Economic Cooperation & Development (OECD).",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P4-S4",
+          "a": 321,
+          "b": 352,
+          "en": "In Japan the proportion is 35%.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P4-S5",
+          "a": 353,
+          "b": 412,
+          "en": "Not surprisingly, Japanese newspapers are much more stable.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2011-T2-P5",
+      "en": "The whirlwind that swept through newsrooms harmed everybody, but much of the damage has been concentrated in areas where newspapers are least distinctive. Car and film reviewers have gone. So have science and general business reporters. Foreign bureaus have been savagely cut off. Newspapers are less complete as a result. But completeness is no longer a virtue in the newspaper business.",
+      "sentences": [
+        {
+          "id": "2011-T2-P5-S1",
+          "a": 0,
+          "b": 154,
+          "en": "The whirlwind that swept through newsrooms harmed everybody, but much of the damage has been concentrated in areas where newspapers are least distinctive.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P5-S2",
+          "a": 155,
+          "b": 188,
+          "en": "Car and film reviewers have gone.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P5-S3",
+          "a": 189,
+          "b": 236,
+          "en": "So have science and general business reporters.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P5-S4",
+          "a": 237,
+          "b": 280,
+          "en": "Foreign bureaus have been savagely cut off.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P5-S5",
+          "a": 281,
+          "b": 322,
+          "en": "Newspapers are less complete as a result.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2011-T2-P5-S6",
+          "a": 323,
+          "b": 388,
+          "en": "But completeness is no longer a virtue in the newspaper business.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

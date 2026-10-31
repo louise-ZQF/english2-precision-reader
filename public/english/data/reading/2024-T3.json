@@ -1,0 +1,238 @@
+{
+  "version": 1,
+  "id": "2024-T3",
+  "exam": "2024_english2",
+  "year": 2024,
+  "text": 3,
+  "articleKey": "s1-p0-t2",
+  "source": {
+    "status": "pending",
+    "textSHA256": "36697351ec07cb1bab0fb128be287a9d6466203268621b808bccb8f107668095",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2024-T3-P1",
+      "en": "One big challenge in keeping unsafe aging drivers off the road is convincing them that it is time to turn over the key. It is a complete life-changer when someone stops—or is forced to stop—driving, said former risk manager Anne M. Menke.",
+      "sentences": [
+        {
+          "id": "2024-T3-P1-S1",
+          "a": 0,
+          "b": 119,
+          "en": "One big challenge in keeping unsafe aging drivers off the road is convincing them that it is time to turn over the key.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T3-P1-S2",
+          "a": 120,
+          "b": 238,
+          "en": "It is a complete life-changer when someone stops—or is forced to stop—driving, said former risk manager Anne M. Menke.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2024-T3-P2",
+      "en": "The American Medical Association advises physicians that in situation where clear evidence of substantial driving impairment implies a strong threat to patient and public safety, and where the physician's advice to discontinue driving privileges is ignored, it is desirable and ethical to notify the Department of Motor Vehicles, Menke wrote. “Some states require physicians to report, others allow but do not mandate reports, while a few consider a report breach of confidentiality. There could be liability and penalties if a physician does not act in accordance with state laws on reporting and confidentiality ” she counseled.",
+      "sentences": [
+        {
+          "id": "2024-T3-P2-S1",
+          "a": 0,
+          "b": 342,
+          "en": "The American Medical Association advises physicians that in situation where clear evidence of substantial driving impairment implies a strong threat to patient and public safety, and where the physician's advice to discontinue driving privileges is ignored, it is desirable and ethical to notify the Department of Motor Vehicles, Menke wrote.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T3-P2-S2",
+          "a": 343,
+          "b": 483,
+          "en": "“Some states require physicians to report, others allow but do not mandate reports, while a few consider a report breach of confidentiality.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T3-P2-S3",
+          "a": 484,
+          "b": 630,
+          "en": "There could be liability and penalties if a physician does not act in accordance with state laws on reporting and confidentiality ” she counseled.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2024-T3-P3",
+      "en": "Part of the problem in keeping older drivers safe is that the difficulties are addressed piecemeal by different professions with different focuses, including gerontologists, highway administration officials, automotive engineers and others, said gerontologist Elizabeth Dugan. “There's not a National Institute of Older Driver Studies,” she said. “We need better evidence on what makes drivers unsafe” and what can help, said Dugan.",
+      "sentences": [
+        {
+          "id": "2024-T3-P3-S1",
+          "a": 0,
+          "b": 276,
+          "en": "Part of the problem in keeping older drivers safe is that the difficulties are addressed piecemeal by different professions with different focuses, including gerontologists, highway administration officials, automotive engineers and others, said gerontologist Elizabeth Dugan.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T3-P3-S2",
+          "a": 277,
+          "b": 346,
+          "en": "“There's not a National Institute of Older Driver Studies,” she said.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T3-P3-S3",
+          "a": 347,
+          "b": 432,
+          "en": "“We need better evidence on what makes drivers unsafe” and what can help, said Dugan.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2024-T3-P4",
+      "en": "One thing that does seem to work is requiring drivers to report in person for license renewal. Mandatory in-person renewal was associated with a 31 percent reduction in fatal crashes involving drivers 85 or older, according to one study. Passing vision tests also produced a similar decline in fatal crashes for those drivers, although there appeared to be no benefit from combining the two.",
+      "sentences": [
+        {
+          "id": "2024-T3-P4-S1",
+          "a": 0,
+          "b": 94,
+          "en": "One thing that does seem to work is requiring drivers to report in person for license renewal.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T3-P4-S2",
+          "a": 95,
+          "b": 237,
+          "en": "Mandatory in-person renewal was associated with a 31 percent reduction in fatal crashes involving drivers 85 or older, according to one study.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T3-P4-S3",
+          "a": 238,
+          "b": 391,
+          "en": "Passing vision tests also produced a similar decline in fatal crashes for those drivers, although there appeared to be no benefit from combining the two.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2024-T3-P5",
+      "en": "Many old drivers don't see eye doctors or can't afford to. Primary care providers have their hands full and may not be able to follow through with patients who have trouble driving because they can't turn their heads or remember where they are going—or have gotten shorter and haven't changed their seat settings sufficiently to reach car pedals easily, As long as there are other cars on the roads, self-driving cars won't solve the problems of crashes, said Dugan. Avoiding dangers posed by all those human drivers would require to many algorithms, she said. But we need to do more to improve safety, said Dugan. “If we're going to have 100-year lives, we need cars that a 90-year-old can drive comfortably.”",
+      "sentences": [
+        {
+          "id": "2024-T3-P5-S1",
+          "a": 0,
+          "b": 58,
+          "en": "Many old drivers don't see eye doctors or can't afford to.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T3-P5-S2",
+          "a": 59,
+          "b": 466,
+          "en": "Primary care providers have their hands full and may not be able to follow through with patients who have trouble driving because they can't turn their heads or remember where they are going—or have gotten shorter and haven't changed their seat settings sufficiently to reach car pedals easily, As long as there are other cars on the roads, self-driving cars won't solve the problems of crashes, said Dugan.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T3-P5-S3",
+          "a": 467,
+          "b": 560,
+          "en": "Avoiding dangers posed by all those human drivers would require to many algorithms, she said.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T3-P5-S4",
+          "a": 561,
+          "b": 614,
+          "en": "But we need to do more to improve safety, said Dugan.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T3-P5-S5",
+          "a": 615,
+          "b": 710,
+          "en": "“If we're going to have 100-year lives, we need cars that a 90-year-old can drive comfortably.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

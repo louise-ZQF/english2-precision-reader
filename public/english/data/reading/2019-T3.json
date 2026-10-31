@@ -1,0 +1,382 @@
+{
+  "version": 1,
+  "id": "2019-T3",
+  "exam": "2019_english2",
+  "year": 2019,
+  "text": 3,
+  "articleKey": "s1-p0-t2",
+  "source": {
+    "status": "pending",
+    "textSHA256": "cf58eab0ca39db4c4d2fd8e713d2c7c77b80c6e1efae5609e7dce5e4c1eea631",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2019-T3-P1",
+      "en": "American farmers have been complaining of labor shortages for several years. The complaints are unlikely to stop without an overhaul of immigration rules for farm workers.",
+      "sentences": [
+        {
+          "id": "2019-T3-P1-S1",
+          "a": 0,
+          "b": 76,
+          "en": "American farmers have been complaining of labor shortages for several years.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P1-S2",
+          "a": 77,
+          "b": 171,
+          "en": "The complaints are unlikely to stop without an overhaul of immigration rules for farm workers.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T3-P2",
+      "en": "Congress has obstructed efforts to create a more straightforward visa for agricultural workers that would let foreign workers stay longer in the U.S. and change jobs within the industry. If this doesn't change, American businesses, communities, and consumers will be the losers.",
+      "sentences": [
+        {
+          "id": "2019-T3-P2-S1",
+          "a": 0,
+          "b": 186,
+          "en": "Congress has obstructed efforts to create a more straightforward visa for agricultural workers that would let foreign workers stay longer in the U.S. and change jobs within the industry.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P2-S2",
+          "a": 187,
+          "b": 278,
+          "en": "If this doesn't change, American businesses, communities, and consumers will be the losers.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T3-P3",
+      "en": "Perhaps half of U.S. farm laborers are undocumented immigrants. As fewer such workers enter the country, the characteristics of the agricultural workforce are changing. Today's farm laborers, while still predominantly born in Mexico, are more likely to be settled rather than migrating and more likely to be married than single. They're also aging. At the start of this century, about one-third of crop workers were over the age of 35. Now more than half are. And picking crops is hard on older bodies. One oft-debated cure for this labor shortage remains as implausible as it's been all along: Native U.S. workers won't be returning to the farm.",
+      "sentences": [
+        {
+          "id": "2019-T3-P3-S1",
+          "a": 0,
+          "b": 63,
+          "en": "Perhaps half of U.S. farm laborers are undocumented immigrants.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P3-S2",
+          "a": 64,
+          "b": 168,
+          "en": "As fewer such workers enter the country, the characteristics of the agricultural workforce are changing.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P3-S3",
+          "a": 169,
+          "b": 328,
+          "en": "Today's farm laborers, while still predominantly born in Mexico, are more likely to be settled rather than migrating and more likely to be married than single.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P3-S4",
+          "a": 329,
+          "b": 348,
+          "en": "They're also aging.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P3-S5",
+          "a": 349,
+          "b": 435,
+          "en": "At the start of this century, about one-third of crop workers were over the age of 35.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P3-S6",
+          "a": 436,
+          "b": 459,
+          "en": "Now more than half are.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P3-S7",
+          "a": 460,
+          "b": 502,
+          "en": "And picking crops is hard on older bodies.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P3-S8",
+          "a": 503,
+          "b": 646,
+          "en": "One oft-debated cure for this labor shortage remains as implausible as it's been all along: Native U.S. workers won't be returning to the farm.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T3-P4",
+      "en": "Mechanization isn't the answer, either – not yet, at least. Production of corn, cotton, rice, soybeans, and wheat has been largely mechanized, but many high-value, labor-intensive crops, such as strawberries, need labor. Even dairy farms, where robots do a small share of milking, have a long way to go before they're automated.",
+      "sentences": [
+        {
+          "id": "2019-T3-P4-S1",
+          "a": 0,
+          "b": 59,
+          "en": "Mechanization isn't the answer, either – not yet, at least.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P4-S2",
+          "a": 60,
+          "b": 220,
+          "en": "Production of corn, cotton, rice, soybeans, and wheat has been largely mechanized, but many high-value, labor-intensive crops, such as strawberries, need labor.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P4-S3",
+          "a": 221,
+          "b": 328,
+          "en": "Even dairy farms, where robots do a small share of milking, have a long way to go before they're automated.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T3-P5",
+      "en": "As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce. Starting around 2012, requests for the visas rose sharply; from 2011 to 2016 the number of visas issued more than doubled. The H-2A visa has no numerical cap, unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year. Even so, employers complain they aren't given all the workers they need. The process is cumbersome, expensive, and unreliable. One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late. The shortage is compounded by federal immigration raids, which remove some workers and drive others underground.",
+      "sentences": [
+        {
+          "id": "2019-T3-P5-S1",
+          "a": 0,
+          "b": 132,
+          "en": "As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P5-S2",
+          "a": 133,
+          "b": 255,
+          "en": "Starting around 2012, requests for the visas rose sharply; from 2011 to 2016 the number of visas issued more than doubled.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P5-S3",
+          "a": 256,
+          "b": 373,
+          "en": "The H-2A visa has no numerical cap, unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P5-S4",
+          "a": 374,
+          "b": 446,
+          "en": "Even so, employers complain they aren't given all the workers they need.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P5-S5",
+          "a": 447,
+          "b": 500,
+          "en": "The process is cumbersome, expensive, and unreliable.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P5-S6",
+          "a": 501,
+          "b": 605,
+          "en": "One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P5-S7",
+          "a": 606,
+          "b": 718,
+          "en": "The shortage is compounded by federal immigration raids, which remove some workers and drive others underground.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T3-P6",
+      "en": "In a 2012 survey, 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor. Some western farmers have responded by moving operations to Mexico. From 1998 to 2000, 14.5 percent of the fruit Americans consumed was imported. Little more than a decade later, the share of imports was 25.8 percent.",
+      "sentences": [
+        {
+          "id": "2019-T3-P6-S1",
+          "a": 0,
+          "b": 131,
+          "en": "In a 2012 survey, 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P6-S2",
+          "a": 132,
+          "b": 199,
+          "en": "Some western farmers have responded by moving operations to Mexico.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P6-S3",
+          "a": 200,
+          "b": 277,
+          "en": "From 1998 to 2000, 14.5 percent of the fruit Americans consumed was imported.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T3-P6-S4",
+          "a": 278,
+          "b": 349,
+          "en": "Little more than a decade later, the share of imports was 25.8 percent.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T3-P7",
+      "en": "In effect, the U.S. can import food or it can import the workers who pick it.",
+      "sentences": [
+        {
+          "id": "2019-T3-P7-S1",
+          "a": 0,
+          "b": 77,
+          "en": "In effect, the U.S. can import food or it can import the workers who pick it.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

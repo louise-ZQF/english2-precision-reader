@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "id": "2010-T4",
+  "exam": "2010_english2",
+  "year": 2010,
+  "text": 4,
+  "articleKey": "s1-p0-t3",
+  "source": {
+    "status": "pending",
+    "textSHA256": "de6e31ef974bd43e728f58fdd64442001b6e3fc2507fbf145e419cadb7767350",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2010-T4-P1",
+      "en": "Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law. The jury is also said to be the best surviving example of direct rather than representative democracy. In a direct democracy, citizens take turns governing themselves, rather than electing representatives to govern for them.",
+      "sentences": [
+        {
+          "id": "2010-T4-P1-S1",
+          "a": 0,
+          "b": 597,
+          "en": "Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T4-P1-S2",
+          "a": 598,
+          "b": 700,
+          "en": "The jury is also said to be the best surviving example of direct rather than representative democracy.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T4-P1-S3",
+          "a": 701,
+          "b": 822,
+          "en": "In a direct democracy, citizens take turns governing themselves, rather than electing representatives to govern for them.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2010-T4-P2",
+      "en": "But as recently as in 1968, jury selection procedures conflicted with these democratic ideals. In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character. Although the Supreme Court of the United States had prohibited intentional racial discrimination in jury selection as early as the 1880 case of Strauder v. West Virginia, the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
+      "sentences": [
+        {
+          "id": "2010-T4-P2-S1",
+          "a": 0,
+          "b": 94,
+          "en": "But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T4-P2-S2",
+          "a": 95,
+          "b": 225,
+          "en": "In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T4-P2-S3",
+          "a": 226,
+          "b": 533,
+          "en": "Although the Supreme Court of the United States had prohibited intentional racial discrimination in jury selection as early as the 1880 case of Strauder v. West Virginia, the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2010-T4-P3",
+      "en": "The system also failed to regularly include women on juries until the mid-20th century. Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty. Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list. This practice was justified by the claim that women were needed at home, and it kept juries unrepresentative of women through the 1960s.",
+      "sentences": [
+        {
+          "id": "2010-T4-P3-S1",
+          "a": 0,
+          "b": 87,
+          "en": "The system also failed to regularly include women on juries until the mid-20th century.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T4-P3-S2",
+          "a": 88,
+          "b": 236,
+          "en": "Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T4-P3-S3",
+          "a": 237,
+          "b": 381,
+          "en": "Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T4-P3-S4",
+          "a": 382,
+          "b": 518,
+          "en": "This practice was justified by the claim that women were needed at home, and it kept juries unrepresentative of women through the 1960s.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2010-T4-P4",
+      "en": "In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury. This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community. In the landmark 1975 decision Taylor v. Louisiana, the Supreme Court extended the requirement that juries be representative of all parts of the community to the state level. The Taylor decision also declared sex discrimination in jury selection to be unconstitutional and ordered states to use the same procedures for selecting male and female jurors.",
+      "sentences": [
+        {
+          "id": "2010-T4-P4-S1",
+          "a": 0,
+          "b": 143,
+          "en": "In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T4-P4-S2",
+          "a": 144,
+          "b": 303,
+          "en": "This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T4-P4-S3",
+          "a": 304,
+          "b": 477,
+          "en": "In the landmark 1975 decision Taylor v. Louisiana, the Supreme Court extended the requirement that juries be representative of all parts of the community to the state level.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T4-P4-S4",
+          "a": 478,
+          "b": 655,
+          "en": "The Taylor decision also declared sex discrimination in jury selection to be unconstitutional and ordered states to use the same procedures for selecting male and female jurors.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

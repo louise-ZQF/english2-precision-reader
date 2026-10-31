@@ -1,0 +1,292 @@
+{
+  "version": 1,
+  "id": "2024-T1",
+  "exam": "2024_english2",
+  "year": 2024,
+  "text": 1,
+  "articleKey": "s1-p0-t0",
+  "source": {
+    "status": "pending",
+    "textSHA256": "325f758a40baf8892f0321051deae38bc45c0b9e22478b9d4819eef10a9c8a6c",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2024-T1-P1",
+      "en": "Anger over AI's role in exacerbating inequality could endanger the technology's future. In her new book Cogs and Monsters: What Economics Is, and What It Should Be, Diane Coyle, an economist at Cambridge University, argues that the digital economy requires new ways of thinking about progress. “Whatever we mean by the economy growing, by things getting better, the gains will have to be more evenly shared than in the recent past,” she writes. “An economy of tech millionaires or billionaires and gig workers, with middle-income jobs undercut by automation, will not be politically sustainable.”",
+      "sentences": [
+        {
+          "id": "2024-T1-P1-S1",
+          "a": 0,
+          "b": 87,
+          "en": "Anger over AI's role in exacerbating inequality could endanger the technology's future.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T1-P1-S2",
+          "a": 88,
+          "b": 293,
+          "en": "In her new book Cogs and Monsters: What Economics Is, and What It Should Be, Diane Coyle, an economist at Cambridge University, argues that the digital economy requires new ways of thinking about progress.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T1-P1-S3",
+          "a": 294,
+          "b": 444,
+          "en": "“Whatever we mean by the economy growing, by things getting better, the gains will have to be more evenly shared than in the recent past,” she writes.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T1-P1-S4",
+          "a": 445,
+          "b": 596,
+          "en": "“An economy of tech millionaires or billionaires and gig workers, with middle-income jobs undercut by automation, will not be politically sustainable.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2024-T1-P2",
+      "en": "Improving living standards and increasing prosperity for more people will require greater use of digital technologies to boost productivity in various sectors, including health care and construction, says Coyle. But people can't be expected to embrace the changes if they're not seeing the benefits—if they're just seeing good jobs being destroyed.",
+      "sentences": [
+        {
+          "id": "2024-T1-P2-S1",
+          "a": 0,
+          "b": 211,
+          "en": "Improving living standards and increasing prosperity for more people will require greater use of digital technologies to boost productivity in various sectors, including health care and construction, says Coyle.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T1-P2-S2",
+          "a": 212,
+          "b": 348,
+          "en": "But people can't be expected to embrace the changes if they're not seeing the benefits—if they're just seeing good jobs being destroyed.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2024-T1-P3",
+      "en": "In a recent interview with MIT Technology Review, Coyle said she fears that tech's inequality problem could be a roadblock to deploying AI. “We're talking about disruption,” she says. “These are transformative technologies that change the ways we spend our time every day, that change business models that succeed.” To make such “tremendous changes,” she adds, you need social buy-in.",
+      "sentences": [
+        {
+          "id": "2024-T1-P3-S1",
+          "a": 0,
+          "b": 139,
+          "en": "In a recent interview with MIT Technology Review, Coyle said she fears that tech's inequality problem could be a roadblock to deploying AI.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T1-P3-S2",
+          "a": 140,
+          "b": 183,
+          "en": "“We're talking about disruption,” she says.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T1-P3-S3",
+          "a": 184,
+          "b": 315,
+          "en": "“These are transformative technologies that change the ways we spend our time every day, that change business models that succeed.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T1-P3-S4",
+          "a": 316,
+          "b": 384,
+          "en": "To make such “tremendous changes,” she adds, you need social buy-in.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2024-T1-P4",
+      "en": "Instead, says Coyle, resentment is simmering among many as the benefits are perceived to go to elites in a handful of prosperous cities.",
+      "sentences": [
+        {
+          "id": "2024-T1-P4-S1",
+          "a": 0,
+          "b": 136,
+          "en": "Instead, says Coyle, resentment is simmering among many as the benefits are perceived to go to elites in a handful of prosperous cities.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2024-T1-P5",
+      "en": "According to the Brookings Institution, a short list of eight American cities that included San Francisco, San Jose, Boston, and Seattle had roughly 38% of all tech jobs by 2019. New AI technologies are particularly concentrated: Brookings's Mark Muro and Sifan Liu estimate that just 15 cities account for two-thirds of the AI assets and capabilities in the United States (San Francisco and San Jose alone account for about one-quarter).",
+      "sentences": [
+        {
+          "id": "2024-T1-P5-S1",
+          "a": 0,
+          "b": 178,
+          "en": "According to the Brookings Institution, a short list of eight American cities that included San Francisco, San Jose, Boston, and Seattle had roughly 38% of all tech jobs by 2019.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T1-P5-S2",
+          "a": 179,
+          "b": 438,
+          "en": "New AI technologies are particularly concentrated: Brookings's Mark Muro and Sifan Liu estimate that just 15 cities account for two-thirds of the AI assets and capabilities in the United States (San Francisco and San Jose alone account for about one-quarter).",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2024-T1-P6",
+      "en": "The dominance of a few cities in the invention and commercialization of AI means that geographical disparities in wealth will continue to soar. Not only will this foster political and social unrest, but it could, as Coyle suggests, hold back the sorts of AI technologies needed for regional economies to grow.",
+      "sentences": [
+        {
+          "id": "2024-T1-P6-S1",
+          "a": 0,
+          "b": 143,
+          "en": "The dominance of a few cities in the invention and commercialization of AI means that geographical disparities in wealth will continue to soar.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T1-P6-S2",
+          "a": 144,
+          "b": 309,
+          "en": "Not only will this foster political and social unrest, but it could, as Coyle suggests, hold back the sorts of AI technologies needed for regional economies to grow.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2024-T1-P7",
+      "en": "Part of the solution could lie in somehow loosening the stranglehold that Big Tech has on defining the AI agenda. That will likely take increased federal funding for research independent of the tech giants. Muro and others have suggested hefty federal funding to help create US regional innovation centers, for example.",
+      "sentences": [
+        {
+          "id": "2024-T1-P7-S1",
+          "a": 0,
+          "b": 113,
+          "en": "Part of the solution could lie in somehow loosening the stranglehold that Big Tech has on defining the AI agenda.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T1-P7-S2",
+          "a": 114,
+          "b": 206,
+          "en": "That will likely take increased federal funding for research independent of the tech giants.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2024-T1-P7-S3",
+          "a": 207,
+          "b": 319,
+          "en": "Muro and others have suggested hefty federal funding to help create US regional innovation centers, for example.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2024-T1-P8",
+      "en": "A more immediate response is to broaden our digital imaginations to conceive of AI technologies that don't simply replace jobs but expand opportunities in the sectors that different parts of the country care most about, like health care, education, and manufacturing.",
+      "sentences": [
+        {
+          "id": "2024-T1-P8-S1",
+          "a": 0,
+          "b": 267,
+          "en": "A more immediate response is to broaden our digital imaginations to conceive of AI technologies that don't simply replace jobs but expand opportunities in the sectors that different parts of the country care most about, like health care, education, and manufacturing.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

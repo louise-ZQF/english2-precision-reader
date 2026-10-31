@@ -152,7 +152,7 @@
 
   // ==================== 词库 ====================
   function loadDict() {
-    if (window.EnglishMeanings) return Promise.resolve(null);
+    if (window.EnglishMeanings) return window.EnglishReading ? window.EnglishReading.prepareWords(Object.values(loadWords())) : Promise.resolve(null);
     if (dictCache) return Promise.resolve(dictCache);
     if (dictPending) return dictPending;
     dictPending = resolveDictUrl()

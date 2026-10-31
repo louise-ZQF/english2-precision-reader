@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "id": "2014-T3",
+  "exam": "2014_english2",
+  "year": 2014,
+  "text": 3,
+  "articleKey": "s1-p0-t2",
+  "source": {
+    "status": "pending",
+    "textSHA256": "fef3f751a848e151e4db170ca7aa064ff80927f7f0ee7d12710d18f308bde990",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2014-T3-P1",
+      "en": "The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. And yet, it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle. Certain jobs have gone away for good, outmoded by machines. Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.",
+      "sentences": [
+        {
+          "id": "2014-T3-P1-S1",
+          "a": 0,
+          "b": 182,
+          "en": "The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T3-P1-S2",
+          "a": 183,
+          "b": 302,
+          "en": "And yet, it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T3-P1-S3",
+          "a": 303,
+          "b": 362,
+          "en": "Certain jobs have gone away for good, outmoded by machines.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T3-P1-S4",
+          "a": 363,
+          "b": 533,
+          "en": "Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2014-T3-P2",
+      "en": "When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened. This argument has attracted a lot of attention, via the success of the book Race Against the Machine, by Erik Brynjolfsson and Andrew McAfee, who both hail from MIT's Center for Digital Business.",
+      "sentences": [
+        {
+          "id": "2014-T3-P2-S1",
+          "a": 0,
+          "b": 160,
+          "en": "When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T3-P2-S2",
+          "a": 161,
+          "b": 356,
+          "en": "This argument has attracted a lot of attention, via the success of the book Race Against the Machine, by Erik Brynjolfsson and Andrew McAfee, who both hail from MIT's Center for Digital Business.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2014-T3-P3",
+      "en": "This is a powerful argument, and a scary one. And yet, John Hagel, author of The Power of Pull and other books, says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.",
+      "sentences": [
+        {
+          "id": "2014-T3-P3-S1",
+          "a": 0,
+          "b": 45,
+          "en": "This is a powerful argument, and a scary one.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T3-P3-S2",
+          "a": 46,
+          "b": 223,
+          "en": "And yet, John Hagel, author of The Power of Pull and other books, says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2014-T3-P4",
+      "en": "Hagel says we have designed jobs in the U.S. that tend to be “tightly scripted” and “highly standardized” ones that leave no room for “individual initiative or creativity”. In short, these are the types of jobs that machines can perform much better at than human beings. That is how we have put a giant target sign on the backs of American workers, Hagel says.",
+      "sentences": [
+        {
+          "id": "2014-T3-P4-S1",
+          "a": 0,
+          "b": 172,
+          "en": "Hagel says we have designed jobs in the U.S. that tend to be “tightly scripted” and “highly standardized” ones that leave no room for “individual initiative or creativity”.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T3-P4-S2",
+          "a": 173,
+          "b": 270,
+          "en": "In short, these are the types of jobs that machines can perform much better at than human beings.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T3-P4-S3",
+          "a": 271,
+          "b": 360,
+          "en": "That is how we have put a giant target sign on the backs of American workers, Hagel says.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2014-T3-P5",
+      "en": "It's time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says. In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to unexpected events”. That is not something machines are good at. They are designed to perform very predictable activities.",
+      "sentences": [
+        {
+          "id": "2014-T3-P5-S1",
+          "a": 0,
+          "b": 138,
+          "en": "It's time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T3-P5-S2",
+          "a": 139,
+          "b": 308,
+          "en": "In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to unexpected events”.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T3-P5-S3",
+          "a": 309,
+          "b": 352,
+          "en": "That is not something machines are good at.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T3-P5-S4",
+          "a": 353,
+          "b": 410,
+          "en": "They are designed to perform very predictable activities.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2014-T3-P6",
+      "en": "As Hagel notes, Brynjolfsson and McAfee indeed touched on this point in their book. We need to reframe race against the machine as race with the machine. In other words, we need to look at the ways in which machines can augment human labor rather than replace it. So then the problem is not really about technology, but rather, “how do we innovate our institutions and our work practices?”",
+      "sentences": [
+        {
+          "id": "2014-T3-P6-S1",
+          "a": 0,
+          "b": 83,
+          "en": "As Hagel notes, Brynjolfsson and McAfee indeed touched on this point in their book.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T3-P6-S2",
+          "a": 84,
+          "b": 153,
+          "en": "We need to reframe race against the machine as race with the machine.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T3-P6-S3",
+          "a": 154,
+          "b": 263,
+          "en": "In other words, we need to look at the ways in which machines can augment human labor rather than replace it.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T3-P6-S4",
+          "a": 264,
+          "b": 389,
+          "en": "So then the problem is not really about technology, but rather, “how do we innovate our institutions and our work practices?”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

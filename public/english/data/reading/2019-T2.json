@@ -1,0 +1,310 @@
+{
+  "version": 1,
+  "id": "2019-T2",
+  "exam": "2019_english2",
+  "year": 2019,
+  "text": 2,
+  "articleKey": "s1-p0-t1",
+  "source": {
+    "status": "pending",
+    "textSHA256": "9b7b9600e9df43320a8af2efdfd781bbc19b95358eefef989d35c6c794b5aac4",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2019-T2-P1",
+      "en": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change. Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so. The climate change we are hastening could one day leave us with forests that emit more carbon than they absorb.",
+      "sentences": [
+        {
+          "id": "2019-T2-P1-S1",
+          "a": 0,
+          "b": 98,
+          "en": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T2-P1-S2",
+          "a": 99,
+          "b": 234,
+          "en": "Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T2-P1-S3",
+          "a": 235,
+          "b": 346,
+          "en": "The climate change we are hastening could one day leave us with forests that emit more carbon than they absorb.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T2-P2",
+      "en": "Thankfully, there is a way out of this trap – but it involves striking a subtle balance. Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now. California is leading the way, as it does on so many climate efforts, in figuring out the details.",
+      "sentences": [
+        {
+          "id": "2019-T2-P2-S1",
+          "a": 0,
+          "b": 88,
+          "en": "Thankfully, there is a way out of this trap – but it involves striking a subtle balance.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T2-P2-S2",
+          "a": 89,
+          "b": 219,
+          "en": "Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T2-P2-S3",
+          "a": 220,
+          "b": 318,
+          "en": "California is leading the way, as it does on so many climate efforts, in figuring out the details.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T2-P3",
+      "en": "The state's proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest. This temporarily lowers carbon-carrying capacity. But the remaining trees draw a greater share of the available moisture, so they grow and thrive, restoring the forest's capacity to pull carbon from the air. Healthy trees are also better able to fend off insects. The landscape is rendered less easily burnable. Even in the event of a fire, fewer trees are consumed.",
+      "sentences": [
+        {
+          "id": "2019-T2-P3-S1",
+          "a": 0,
+          "b": 126,
+          "en": "The state's proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T2-P3-S2",
+          "a": 127,
+          "b": 176,
+          "en": "This temporarily lowers carbon-carrying capacity.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T2-P3-S3",
+          "a": 177,
+          "b": 334,
+          "en": "But the remaining trees draw a greater share of the available moisture, so they grow and thrive, restoring the forest's capacity to pull carbon from the air.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T2-P3-S4",
+          "a": 335,
+          "b": 390,
+          "en": "Healthy trees are also better able to fend off insects.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T2-P3-S5",
+          "a": 391,
+          "b": 438,
+          "en": "The landscape is rendered less easily burnable.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T2-P3-S6",
+          "a": 439,
+          "b": 493,
+          "en": "Even in the event of a fire, fewer trees are consumed.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T2-P4",
+      "en": "The need for such planning is increasingly urgent. Already, since 2010, drought and insects have killed over 100 million trees in California, most of them in 2016 alone, and wildfires have burned hundreds of thousands of acres.",
+      "sentences": [
+        {
+          "id": "2019-T2-P4-S1",
+          "a": 0,
+          "b": 50,
+          "en": "The need for such planning is increasingly urgent.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T2-P4-S2",
+          "a": 51,
+          "b": 227,
+          "en": "Already, since 2010, drought and insects have killed over 100 million trees in California, most of them in 2016 alone, and wildfires have burned hundreds of thousands of acres.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T2-P5",
+      "en": "California plans to treat 35, 000 acres of forest a year by 2020, and 60,000 by 2030 – financed from the proceeds of the state's emissions-permit auctions. That's only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
+      "sentences": [
+        {
+          "id": "2019-T2-P5-S1",
+          "a": 0,
+          "b": 155,
+          "en": "California plans to treat 35, 000 acres of forest a year by 2020, and 60,000 by 2030 – financed from the proceeds of the state's emissions-permit auctions.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T2-P5-S2",
+          "a": 156,
+          "b": 334,
+          "en": "That's only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T2-P6",
+      "en": "The strategy also aims to ensure that carbon in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel in vehicles that would otherwise run on fossil fuels. New research on transportation biofuels is already under way.",
+      "sentences": [
+        {
+          "id": "2019-T2-P6-S1",
+          "a": 0,
+          "b": 205,
+          "en": "The strategy also aims to ensure that carbon in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel in vehicles that would otherwise run on fossil fuels.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T2-P6-S2",
+          "a": 206,
+          "b": 267,
+          "en": "New research on transportation biofuels is already under way.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T2-P7",
+      "en": "State governments are well accustomed to managing forests, but traditionally they've focused on wildlife, watersheds and opportunities for recreation. Only recently have they come to see the vital part forests will have to play in storing carbon. California's plan, which is expected to be finalized by the governor next year, should serve as a model.",
+      "sentences": [
+        {
+          "id": "2019-T2-P7-S1",
+          "a": 0,
+          "b": 150,
+          "en": "State governments are well accustomed to managing forests, but traditionally they've focused on wildlife, watersheds and opportunities for recreation.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T2-P7-S2",
+          "a": 151,
+          "b": 246,
+          "en": "Only recently have they come to see the vital part forests will have to play in storing carbon.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T2-P7-S3",
+          "a": 247,
+          "b": 351,
+          "en": "California's plan, which is expected to be finalized by the governor next year, should serve as a model.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

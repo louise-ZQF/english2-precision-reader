@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "id": "2019-T1",
+  "exam": "2019_english2",
+  "year": 2019,
+  "text": 1,
+  "articleKey": "s1-p0-t0",
+  "source": {
+    "status": "pending",
+    "textSHA256": "62bafabc469528281591abae16944ba175017aaa9e550abe2828ecb7cac8b6a1",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2019-T1-P1",
+      "en": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child's growing grasp of social and moral norms. Children aren't born knowing how to say “I'm sorry”; rather, they learn over time that such statements appease parents and friends – and their own consciences. This is why researchers generally regard so-called moral guilt, in the right amount, to be a good thing.",
+      "sentences": [
+        {
+          "id": "2019-T1-P1-S1",
+          "a": 0,
+          "b": 166,
+          "en": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child's growing grasp of social and moral norms.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P1-S2",
+          "a": 167,
+          "b": 326,
+          "en": "Children aren't born knowing how to say “I'm sorry”; rather, they learn over time that such statements appease parents and friends – and their own consciences.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P1-S3",
+          "a": 327,
+          "b": 431,
+          "en": "This is why researchers generally regard so-called moral guilt, in the right amount, to be a good thing.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T1-P2",
+      "en": "In the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable – it's the emotional equivalent of wearing a jacket weighted with stones. Yet this understanding is outdated. “There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren't binary – feelings that may be advantageous in one context may be harmful in another. Jealousy and anger, for example, may have evolved to alert us to important inequalities. Too much happiness can be destructive.",
+      "sentences": [
+        {
+          "id": "2019-T1-P2-S1",
+          "a": 0,
+          "b": 66,
+          "en": "In the popular imagination, of course, guilt still gets a bad rap.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P2-S2",
+          "a": 67,
+          "b": 167,
+          "en": "It is deeply uncomfortable – it's the emotional equivalent of wearing a jacket weighted with stones.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P2-S3",
+          "a": 168,
+          "b": 203,
+          "en": "Yet this understanding is outdated.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P2-S4",
+          "a": 204,
+          "b": 543,
+          "en": "“There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren't binary – feelings that may be advantageous in one context may be harmful in another.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P2-S5",
+          "a": 544,
+          "b": 632,
+          "en": "Jealousy and anger, for example, may have evolved to alert us to important inequalities.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P2-S6",
+          "a": 633,
+          "b": 671,
+          "en": "Too much happiness can be destructive.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T1-P3",
+      "en": "And guilt, by prompting us to think more deeply about our goodness, can encourage humans to make up for errors and fix relationships. Guilt, in other words, can help hold a cooperative species together. It is a kind of social glue.",
+      "sentences": [
+        {
+          "id": "2019-T1-P3-S1",
+          "a": 0,
+          "b": 133,
+          "en": "And guilt, by prompting us to think more deeply about our goodness, can encourage humans to make up for errors and fix relationships.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P3-S2",
+          "a": 134,
+          "b": 202,
+          "en": "Guilt, in other words, can help hold a cooperative species together.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P3-S3",
+          "a": 203,
+          "b": 231,
+          "en": "It is a kind of social glue.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T1-P4",
+      "en": "Viewed in this light, guilt is an opportunity. Work by Tina Malti, a psychology professor at the University of Toronto, suggests that guilt may compensate for an emotional deficiency. In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing. Some kids who are low in sympathy may make up for that shortfall by experiencing more guilt, which can rein in their nastier impulses. And vice versa: High sympathy can substitute for low guilt.",
+      "sentences": [
+        {
+          "id": "2019-T1-P4-S1",
+          "a": 0,
+          "b": 46,
+          "en": "Viewed in this light, guilt is an opportunity.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P4-S2",
+          "a": 47,
+          "b": 183,
+          "en": "Work by Tina Malti, a psychology professor at the University of Toronto, suggests that guilt may compensate for an emotional deficiency.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P4-S3",
+          "a": 184,
+          "b": 320,
+          "en": "In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P4-S4",
+          "a": 321,
+          "b": 455,
+          "en": "Some kids who are low in sympathy may make up for that shortfall by experiencing more guilt, which can rein in their nastier impulses.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P4-S5",
+          "a": 456,
+          "b": 515,
+          "en": "And vice versa: High sympathy can substitute for low guilt.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T1-P5",
+      "en": "In a 2014 study, for example, Malti looked at 244 children. Using caregiver assessments and the children's self-observations, she rated each child's overall sympathy level and his or her tendency to feel negative emotions after moral transgressions. Then the kids were handed chocolate coins, and given a chance to share them with an anonymous child. For the low-sympathy kids, how much they shared appeared to turn on how inclined they were to feel guilty. The guilt-prone ones shared more, even though they hadn't magically become more sympathetic to the other child's deprivation.",
+      "sentences": [
+        {
+          "id": "2019-T1-P5-S1",
+          "a": 0,
+          "b": 59,
+          "en": "In a 2014 study, for example, Malti looked at 244 children.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P5-S2",
+          "a": 60,
+          "b": 249,
+          "en": "Using caregiver assessments and the children's self-observations, she rated each child's overall sympathy level and his or her tendency to feel negative emotions after moral transgressions.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P5-S3",
+          "a": 250,
+          "b": 350,
+          "en": "Then the kids were handed chocolate coins, and given a chance to share them with an anonymous child.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P5-S4",
+          "a": 351,
+          "b": 457,
+          "en": "For the low-sympathy kids, how much they shared appeared to turn on how inclined they were to feel guilty.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P5-S5",
+          "a": 458,
+          "b": 583,
+          "en": "The guilt-prone ones shared more, even though they hadn't magically become more sympathetic to the other child's deprivation.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T1-P6",
+      "en": "“That's good news, ” Malti says. “We can be prosocial because we caused harm and we feel regret.”",
+      "sentences": [
+        {
+          "id": "2019-T1-P6-S1",
+          "a": 0,
+          "b": 32,
+          "en": "“That's good news, ” Malti says.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T1-P6-S2",
+          "a": 33,
+          "b": 97,
+          "en": "“We can be prosocial because we caused harm and we feel regret.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

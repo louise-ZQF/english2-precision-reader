@@ -1,0 +1,274 @@
+{
+  "version": 1,
+  "id": "2014-T2",
+  "exam": "2014_english2",
+  "year": 2014,
+  "text": 2,
+  "articleKey": "s1-p0-t1",
+  "source": {
+    "status": "pending",
+    "textSHA256": "02fa4cd9a1f09b0ccef3637df6d63e835d0076988616774de79074507514e2d3",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2014-T2-P1",
+      "en": "An article in Scientific American has pointed out that empirical research says that, actually, you think you're more beautiful than you are. We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this. Social psychologists have amassed oceans of research into what they call the “above average effect”, or “illusory superiority”, and shown that, for example, 70% of us rate ourselves as above average in leadership, 93% in driving and 85% at getting on well with others – all obviously statistical impossibilities.",
+      "sentences": [
+        {
+          "id": "2014-T2-P1-S1",
+          "a": 0,
+          "b": 140,
+          "en": "An article in Scientific American has pointed out that empirical research says that, actually, you think you're more beautiful than you are.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T2-P1-S2",
+          "a": 141,
+          "b": 275,
+          "en": "We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T2-P1-S3",
+          "a": 276,
+          "b": 588,
+          "en": "Social psychologists have amassed oceans of research into what they call the “above average effect”, or “illusory superiority”, and shown that, for example, 70% of us rate ourselves as above average in leadership, 93% in driving and 85% at getting on well with others – all obviously statistical impossibilities.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2014-T2-P2",
+      "en": "We rose-tint our memories and put ourselves into self-affirming situations. We become defensive when criticised, and apply negative stereotypes to others to boost our own esteem. We stalk around thinking we're hot stuff.",
+      "sentences": [
+        {
+          "id": "2014-T2-P2-S1",
+          "a": 0,
+          "b": 75,
+          "en": "We rose-tint our memories and put ourselves into self-affirming situations.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T2-P2-S2",
+          "a": 76,
+          "b": 178,
+          "en": "We become defensive when criticised, and apply negative stereotypes to others to boost our own esteem.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T2-P2-S3",
+          "a": 179,
+          "b": 220,
+          "en": "We stalk around thinking we're hot stuff.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2014-T2-P3",
+      "en": "Psychologist and behavioural scientist Nicholas Epley oversaw a key study into self-enhancement and attractiveness. Rather than have people simply rate their beauty compared with others, he asked them to identify an original photograph of themselves from a lineup including versions that had been altered to appear more and less attractive. Visual recognition, reads the study, is “an automatic psychological process, occurring rapidly and intuitively with little or no apparent conscious deliberation”. If the subjects quickly chose a falsely flattering image – which most did – they genuinely believed it was really how they looked.",
+      "sentences": [
+        {
+          "id": "2014-T2-P3-S1",
+          "a": 0,
+          "b": 115,
+          "en": "Psychologist and behavioural scientist Nicholas Epley oversaw a key study into self-enhancement and attractiveness.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T2-P3-S2",
+          "a": 116,
+          "b": 340,
+          "en": "Rather than have people simply rate their beauty compared with others, he asked them to identify an original photograph of themselves from a lineup including versions that had been altered to appear more and less attractive.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T2-P3-S3",
+          "a": 341,
+          "b": 503,
+          "en": "Visual recognition, reads the study, is “an automatic psychological process, occurring rapidly and intuitively with little or no apparent conscious deliberation”.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T2-P3-S4",
+          "a": 504,
+          "b": 634,
+          "en": "If the subjects quickly chose a falsely flattering image – which most did – they genuinely believed it was really how they looked.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2014-T2-P4",
+      "en": "Epley found no significant gender difference in responses. Nor was there any evidence that those who self-enhanced the most (that is, the participants who thought the most positively doctored pictures were real) were doing so to make up for profound insecurities. In fact, those who thought that the images higher up the attractiveness scale were real directly corresponded with those who showed other markers for having higher self-esteem. “I don't think the findings that we have are any evidence of personal delusion,” says Epley. “It's a reflection simply of people generally thinking well of themselves.” If you are depressed, you won't be self-enhancing.",
+      "sentences": [
+        {
+          "id": "2014-T2-P4-S1",
+          "a": 0,
+          "b": 58,
+          "en": "Epley found no significant gender difference in responses.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T2-P4-S2",
+          "a": 59,
+          "b": 263,
+          "en": "Nor was there any evidence that those who self-enhanced the most (that is, the participants who thought the most positively doctored pictures were real) were doing so to make up for profound insecurities.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T2-P4-S3",
+          "a": 264,
+          "b": 440,
+          "en": "In fact, those who thought that the images higher up the attractiveness scale were real directly corresponded with those who showed other markers for having higher self-esteem.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T2-P4-S4",
+          "a": 441,
+          "b": 533,
+          "en": "“I don't think the findings that we have are any evidence of personal delusion,” says Epley.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T2-P4-S5",
+          "a": 534,
+          "b": 609,
+          "en": "“It's a reflection simply of people generally thinking well of themselves.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T2-P4-S6",
+          "a": 610,
+          "b": 660,
+          "en": "If you are depressed, you won't be self-enhancing.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2014-T2-P5",
+      "en": "Knowing the results of Epley's study, it makes sense that many people hate photographs of themselves viscerally – on one level, they don't even recognise the person in the picture as themselves. Facebook, therefore, is a self-enhancer's paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, intellect and lifestyles. It's not that people's profiles are dishonest, says Catalina Toma of Wisconsin-Madison University, “but they portray an idealised version of themselves.”",
+      "sentences": [
+        {
+          "id": "2014-T2-P5-S1",
+          "a": 0,
+          "b": 194,
+          "en": "Knowing the results of Epley's study, it makes sense that many people hate photographs of themselves viscerally – on one level, they don't even recognise the person in the picture as themselves.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T2-P5-S2",
+          "a": 195,
+          "b": 367,
+          "en": "Facebook, therefore, is a self-enhancer's paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, intellect and lifestyles.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T2-P5-S3",
+          "a": 368,
+          "b": 521,
+          "en": "It's not that people's profiles are dishonest, says Catalina Toma of Wisconsin-Madison University, “but they portray an idealised version of themselves.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

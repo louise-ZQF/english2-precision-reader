@@ -110,7 +110,7 @@
 
     function phraseMatches(sentence) {
         const tokens = sentence.tokens.filter(t => /[A-Za-z0-9]/.test(t.w));
-        const explicit = meanings ? meanings.phrases({ ...sentence, source: { exam: currentExam && currentExam.exam_id } }) : [];
+        const explicit = meanings ? meanings.phrases({ ...sentence, source: { ...sentence.source, exam: currentExam && currentExam.exam_id } }) : [];
         const matches = explicit.filter((item, i, all) => !all.some((other, j) => j < i && item.a < other.b && item.b > other.a));
         const used = new Set(tokens.flatMap((token, i) => matches.some(item => token.a < item.b && token.b > item.a) ? [i] : []));
         const equal = (token, part) => token && wordForms(token).has(part);
@@ -170,7 +170,7 @@
             cursor = item.b;
         }
         text += esc(sentence.en.slice(cursor));
-        return '<span class="precision-sentence" data-sentence-id="' + id + '"><button class="sentence-no" type="button" data-no="' + number + '" aria-label="翻译和分析第' + number + '句"' + (enabled ? '' : ' disabled') + '></button><span class="sentence-body">' + text + '</span></span>';
+        return '<span class="precision-sentence" data-sentence-id="' + id + '"' + (sentence.readingId ? ' data-reading-id="' + sentence.readingId + '"' : '') + '><button class="sentence-no" type="button" data-no="' + number + '"' + (sentence.readingId ? ' title="' + sentence.readingId + '"' : '') + ' aria-label="' + (sentence.readingId ? '精翻 ' + sentence.readingId : '翻译第' + number + '句') + '"' + (enabled ? '' : ' disabled') + '></button><span class="sentence-body">' + text + '</span></span>';
     }
 
     async function onRendered(exam) {
@@ -179,6 +179,7 @@
         hideFloating();
         renderJob = (async () => {
             await lexiconReady;
+            if (window.EnglishReading) await window.EnglishReading.ready(exam.exam_id);
             let data = dataCache.get(exam.exam_id);
             if (!data) {
                 try {
@@ -220,20 +221,27 @@
             const paragraph = isParagraph ? (paragraphCounts.get(articleKey) || 0) + 1 : 0;
             if (isParagraph) paragraphCounts.set(articleKey, paragraph);
             let sentences = data.blocks[raw] || fallbackSentences(raw);
+            const articleNode = node.closest('[data-study-article]');
+            const readingParagraph = node.matches('p.paragraph') && window.EnglishReading && window.EnglishReading.paragraph(exam.exam_id, articleNode && articleNode.dataset.studyArticle, raw);
+            if (readingParagraph) {
+                node.id = readingParagraph.id;
+                sentences = readingParagraph.sentences.map(item => ({ ...(sentences.find(s => s.en === item.en) || fallbackSentences(item.en)[0]), a: item.a, b: item.b, en: item.en, readingId: item.id }));
+            }
             const prefix = Array.from(node.children).filter(x => x.matches('.question-num,.option-letter,.choice-letter')).map(x => x.outerHTML).join('');
             node.classList.toggle('precision-paragraph', isParagraph);
             node.classList.toggle('precision-compact', !isParagraph);
             node.dataset.blockKey = raw;
             node.innerHTML = prefix + sentences.map((sentence, i) => {
                 const id = exam.exam_id + '-' + blockIndex + '-' + i;
-                const source = { exam: exam.exam_id, year: exam.year, article: [section, article].filter(Boolean).join(' / '), paragraph, sentence: i + 1, block: raw };
+                const source = { exam: exam.exam_id, year: exam.year, article: [section, article].filter(Boolean).join(' / '), paragraph, sentence: i + 1, block: raw, ...(sentence.readingId ? { readingId: sentence.readingId, readingArticleId: articleNode.dataset.readingArticle } : {}) };
                 const correction = reviewedText(sentence.en, source);
                 records.set(id, { id, ...sentence, zh: correction ? correction.zh : sentence.zh, source });
-                return sentenceHtml(sentence, id, i + 1);
+                return sentenceHtml({ ...sentence, source }, id, i + 1);
             }).join(' ');
         });
         applyMode();
         markSavedSentences();
+        if (window.EnglishReading) window.EnglishReading.decorate();
     }
 
     function trackHeaderHeight() {
@@ -254,7 +262,7 @@
         document.body.classList.toggle('precision-enabled', enabled);
         const button = $('#precisionModeBtn');
         if (button) { button.textContent = enabled ? '精翻中 · 退出' : '进入精翻'; button.setAttribute('aria-pressed', String(enabled)); }
-        const hint = enabled ? '精翻中：单击查义 · 双击收藏词语 · 点句子编号翻译和拆解 · 划选后右键收藏长难句' : '普通阅读：点击右上角「进入精翻」开启查词、词组学习和长难句收藏';
+        const hint = enabled ? '精翻中：单击查义 · 双击收藏词语 · 点句子编号查看分块精翻 · 划选后右键收藏长难句' : '普通阅读：点击右上角「进入精翻」开启查词、词组学习和长难句收藏';
         const sub = $('.brand-sub'); if (sub) sub.textContent = enabled ? '精翻模式 · 单击查义，双击收藏词语' : '普通阅读 · 进入精翻后单击查义，双击收藏';
         const bar = $('#examContent .hint-bar'); if (bar) bar.textContent = hint;
         $$('.sentence-no').forEach(b => { b.disabled = !enabled; });
@@ -299,7 +307,7 @@
         const token = record.tokens.find(t => t.a === start) || record.tokens.find(t => t.a <= start && t.b > start);
         const kind = element.dataset.kind === 'phrase' ? 'phrase' : 'word';
         const found = meanings.lookup({ word, record, token, kind, start, end });
-        const overrideKey = contextKey(record, start, word), override = overrides[overrideKey];
+        const overrideKey = contextKey(record, start, word), override = found.quality === 'manual' ? found.meaning : overrides[overrideKey];
         return { ...found, record, token: found.token, key: overrideKey, element,
             meaning: override || found.meaning, quality: override ? 'manual' : found.quality };
     }
@@ -336,7 +344,7 @@
             (info.explanation ? '<p class="precision-word-explanation">' + esc(info.explanation) + '</p>' : '') +
             (others.length ? '<div class="precision-common"><label>其他常见义</label>' + others.map(s => '<p><span class="precision-sense-pos">' + esc(posName(s.p)) + '</span>' + esc(s.m) + '</p>').join('') + '</div>' : '') +
             formsHtml(info) +
-            '<div class="precision-pop-actions"><button data-action="collect">收藏' + (info.kind === 'phrase' ? '整个词组' : '单词') + '</button><button data-action="sentence">整句翻译与结构</button><button data-action="edit">改本句释义</button></div>' +
+            '<div class="precision-pop-actions"><button data-action="collect">收藏' + (info.kind === 'phrase' ? '整个词组' : '单词') + '</button><button data-action="sentence">句子精翻</button><button data-action="edit">改本句释义</button></div>' +
             '<div class="precision-dictionary-links"><a href="https://dict.youdao.com/result?word=' + encodeURIComponent(info.lemma) + '&amp;lang=en" target="_blank" rel="noreferrer">有道核对</a><a href="https://dictionary.cambridge.org/dictionary/english-chinese-simplified/' + encodeURIComponent(info.lemma.replace(/ /g, '-')) + '" target="_blank" rel="noreferrer">剑桥核对</a></div>';
         box.onclick = async event => {
             const button = event.target.closest('[data-action]'); if (!button) return;
@@ -354,6 +362,7 @@
                     const next = { ...overrides, [info.key]: value };
                     if (!write(KEYS.overrides, next)) return;
                     overrides = next;
+                    if (window.EnglishReading) window.EnglishReading.setWord(info.record, Number(element.dataset.start), Number(element.dataset.end), { lemma: info.lemma, meaning: value, kind: info.kind });
                     const collected = window.EnglishApp.state().words[wordKey(info.word)];
                     if (collected && collected.sentence === info.record.en) window.EnglishApp.collect(info.word, { meaning: value, meaningQuality: 'manual' }, { silent: true });
                     toast('已保存这处语境义'); showWord(element);
@@ -364,7 +373,8 @@
     }
     function collectInfo(info) {
         if (!info) return;
-        const details = () => ({ kind: info.kind, lemma: info.lemma, meaning: info.meaning, meaningQuality: info.quality, sentence: info.record.en, translation: info.record.zh, source: info.record.source, contextToken: info.token ? { ...info.token, a: Number(info.element.dataset.start), b: Number(info.element.dataset.end) } : null });
+        const reading = window.EnglishReading && window.EnglishReading.current(window.EnglishReading.match(info.record));
+        const details = () => ({ kind: info.kind, lemma: info.lemma, meaning: info.meaning, meaningQuality: info.quality, sentence: info.record.en, translation: reading && reading.status === 'reviewed' ? reading.translation : info.record.zh, source: info.record.source, contextToken: info.token ? { ...info.token, a: Number(info.element.dataset.start), b: Number(info.element.dataset.end) } : null });
         window.EnglishApp.collect(info.word, details());
 
     }
@@ -424,7 +434,7 @@
             box = document.createElement('div'); box.className = rightClick ? 'precision-context-menu' : 'precision-selection-bar'; box.setAttribute('role', rightClick ? 'menu' : 'toolbar');
             document.body.appendChild(box); if (rightClick) contextMenu = box; else selectionBar = box;
         }
-        box.innerHTML = '<button data-action="translate">翻译与结构</button><button data-action="save">收藏到长难句</button><button data-action="phrase">收藏为词组</button>';
+        box.innerHTML = '<button data-action="translate">翻译选区</button><button data-action="save">收藏到长难句</button><button data-action="phrase">收藏为词组</button>';
         bindSentenceSaveButton($('[data-action="save"]', box), payload);
         box.onmousedown = e => e.preventDefault();
         box.onclick = e => {
@@ -536,6 +546,16 @@
     }
     async function fillSelectionTranslation(payload) {
         const text = norm(payload.text);
+        if (window.EnglishReading && window.EnglishReading.scope({ source: payload.source })) {
+            if (payload.selectionTranslation && payload.selectionTranslation.kind === 'manual' && payload.selectionTranslation.en === text) return payload.selectionTranslation.zh;
+            await window.EnglishReading.ready(payload.source.exam);
+            const item = window.EnglishReading.current(window.EnglishReading.match({ en: text, source: payload.source }));
+            if (item && (item.manualTranslation || item.status === 'reviewed' && item.article.source.status === 'verified')) {
+                payload.selectionTranslation = { en: text, zh: item.translation, kind: item.manualTranslation ? 'manual' : 'reviewed', readingId: item.id };
+                return item.translation;
+            }
+            return '';
+        }
         let correction = reviewedText(text, payload.source);
         const segments = selectionSegments(payload);
         if (!correction) {
@@ -576,23 +596,38 @@
         hideFloating();
         if (!analysis) analysis = makeOverlay('precision-analysis', '句子精翻');
         const body = $('.precision-modal-body', analysis);
-        const segments = selectionSegments(payload);
-        body.innerHTML = '<p class="precision-source">' + esc(sourceLabel(payload.source)) + '</p>' +
+        const reading = window.EnglishReading;
+        const original = reading && reading.match({ en: payload.text, source: payload.source });
+        const item = original && reading.current(original);
+        const complete = item && item.status === 'reviewed' && item.article.source.status === 'verified';
+        const translation = item && (complete || item.manualTranslation) ? item.translation : '';
+        const editor = item ? '<details class="reading-editor"><summary>纠正本句翻译</summary><form id="readingCorrectionForm">' +
+            (complete ? item.chunks.map((chunk, i) => '<label><span lang="en">' + esc(chunk.en) + '</span><textarea data-chunk="' + i + '" rows="2">' + esc(chunk.zh) + '</textarea></label>').join('') : '') +
+            '<label for="readingReorderInput">语序调整<textarea id="readingReorderInput" rows="2">' + esc(item.reorder || '') + '</textarea></label>' +
+            '<label for="readingTranslationInput">完整翻译<textarea id="readingTranslationInput" rows="4">' + esc(translation) + '</textarea></label><button class="precision-primary" type="submit">保存本句校正</button><p class="precision-note">保存到当前浏览器，随完整备份和纠错文件一起导出。</p></form></details>' : '';
+        body.innerHTML = '<p class="precision-source">' + esc(item ? item.id + ' · ' + (item.article.source.status === 'verified' ? '原文已核对' : '原文待核对') : sourceLabel(payload.source)) + '</p>' +
             '<div class="precision-selected"><label>你选中的内容</label><p>' + esc(payload.text) + '</p></div>' +
-            '<div class="precision-analysis-actions"><button id="saveAnalyzedSentence" class="precision-primary">收藏到长难句</button></div>' +
-            '<section class="precision-analysis-segment"><h3 data-translation-label>选区译文</h3><p class="precision-translation" data-selection-translation>正在翻译所选内容…</p><h3>选区结构</h3>' + segments.map(structureHtml).join('') + '</section>';
+            (item && item.sourceNote ? '<p class="reading-source-note">' + esc(item.sourceNote) + '</p>' : '') +
+            '<div class="precision-analysis-actions"><button id="saveAnalyzedSentence" class="precision-primary">收藏到长难句</button><button type="button" id="exportReadingCorrections">导出纠错记录</button></div>' +
+            '<section class="reading-translation-section"><h3>分块对照</h3>' + (complete ? '<table class="reading-chunks"><thead><tr><th>英文</th><th>中文</th></tr></thead><tbody>' + item.chunks.map(chunk => '<tr><td lang="en">' + esc(chunk.en) + '</td><td>' + esc(chunk.zh) + '</td></tr>').join('') + '</tbody></table>' : '<p class="reading-pending">尚未整理</p>') + '</section>' +
+            '<section class="reading-translation-section"><h3>语序调整</h3><p>' + esc(item && (complete || item.custom) && item.reorder || '尚未整理') + '</p></section>' +
+            '<section class="reading-translation-section"><h3>完整翻译</h3><p class="precision-translation">' + esc(translation || '尚未整理') + '</p></section>' + editor +
+            (!item ? '<p class="precision-note">这段选区尚未单独整理；保留实际选区，不自动扩展到整句，也不填入机译。</p>' : '');
+        if (translation) payload.selectionTranslation = { en: norm(payload.text), zh: translation, kind: item.manualTranslation ? 'manual' : 'reviewed', readingId: item.id };
         $('#saveAnalyzedSentence', body).onclick = () => saveSentence(payload);
         bindSentenceSaveButton($('#saveAnalyzedSentence', body), payload);
-        const translation = $('[data-selection-translation]', body);
-        const translationLabel = $('[data-translation-label]', body);
+        $('#exportReadingCorrections', body).onclick = () => reading && reading.downloadCorrections();
+        const form = $('#readingCorrectionForm', body);
+        if (form) form.onsubmit = event => {
+            event.preventDefault();
+            const patch = { translation: $('#readingTranslationInput', form).value.trim(), reorder: $('#readingReorderInput', form).value.trim() };
+            if (complete) patch.chunks = item.chunks.map((chunk, i) => ({ a: chunk.a, b: chunk.b, zh: $('[data-chunk="' + i + '"]', form).value.trim() }));
+            if (!patch.translation || complete && patch.chunks.some(chunk => !chunk.zh)) { toast('请填写完整译文和每块中文', 'warn'); return; }
+            if (reading.setEdit(original, patch)) { toast('已保存本句校正'); openAnalysis(payload); }
+        };
         showOverlay(analysis);
-        const zh = await fillSelectionTranslation(payload);
-        if (translation.isConnected) {
-            translation.textContent = zh || '所选内容暂时无法翻译，请稍后重试。';
-            translationLabel.textContent = payload.selectionTranslation && payload.selectionTranslation.kind === 'reviewed' ? '选区译文 · 已按上下文校正' : '选区译文 · 参考译文，未核对';
-        }
-        const item = saved.find(s => s.id === sentenceSaveId(payload));
-        if (item && payload.selectionTranslation) persistItem(item, { selectionTranslation: payload.selectionTranslation });
+        const savedItem = saved.find(s => s.id === sentenceSaveId(payload));
+        if (savedItem && payload.selectionTranslation) persistItem(savedItem, { selectionTranslation: payload.selectionTranslation });
     }
 
     function saveSentence(payload) {
@@ -745,7 +780,7 @@
         const found = meanings.lookup({ word: item && item.word || word, kind: item && item.kind || 'word', record, token: item && item.contextToken });
         const values = [];
         const customKey = item && item.contextToken && Number.isFinite(item.contextToken.a) ? contextKey(record, item.contextToken.a, item.word || word) : '';
-        const custom = customKey && overrides[customKey] || item && item.meaningQuality === 'manual' && item.meaning;
+        const custom = found.quality === 'manual' ? found.meaning : customKey && overrides[customKey] || item && item.meaningQuality === 'manual' && item.meaning;
         if (custom) values.push({ p: '本文', t: custom });
         else if (found.meaning) values.push({ p: found.quality === 'reviewed' ? '本文' : found.quality === 'grammar' ? '语法' : found.quality === 'name' ? '名称' : '词典', t: found.meaning });
         for (const sense of found.common) if (!values.some(value => value.t === sense.m)) values.push({ p: sense.p, t: sense.m });

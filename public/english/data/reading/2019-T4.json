@@ -1,0 +1,304 @@
+{
+  "version": 1,
+  "id": "2019-T4",
+  "exam": "2019_english2",
+  "year": 2019,
+  "text": 4,
+  "articleKey": "s1-p0-t3",
+  "source": {
+    "status": "pending",
+    "textSHA256": "46b87827713df55cacbd98d00c3f53f2b522859d51f04204e3430d856ac4cd89",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2019-T4-P1",
+      "en": "Arnold Schwarzenegger, Dia Mirza and Adrian Grenier have a message for you: It's easy to beat plastic. They're part of a bunch of celebrities starring in a new video for World Environment Day – encouraging you, the consumer, to swap out your single-use plastic staples like straws and cutlery to combat the plastics crisis.",
+      "sentences": [
+        {
+          "id": "2019-T4-P1-S1",
+          "a": 0,
+          "b": 102,
+          "en": "Arnold Schwarzenegger, Dia Mirza and Adrian Grenier have a message for you: It's easy to beat plastic.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T4-P1-S2",
+          "a": 103,
+          "b": 323,
+          "en": "They're part of a bunch of celebrities starring in a new video for World Environment Day – encouraging you, the consumer, to swap out your single-use plastic staples like straws and cutlery to combat the plastics crisis.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T4-P2",
+      "en": "The key messages that have been put together for World Environment Day do include a call for governments to enact legislation to curb single-use plastics. But the overarching message is directed at individuals.",
+      "sentences": [
+        {
+          "id": "2019-T4-P2-S1",
+          "a": 0,
+          "b": 154,
+          "en": "The key messages that have been put together for World Environment Day do include a call for governments to enact legislation to curb single-use plastics.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T4-P2-S2",
+          "a": 155,
+          "b": 210,
+          "en": "But the overarching message is directed at individuals.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T4-P3",
+      "en": "My concern with leaving it up to the individual, however, is our limited sense of what needs to be achieved. On their own, taking our own bags to the grocery store or quitting plastic straws, for example, will accomplish little and require very little of us. They could even be detrimental, satisfying a need to have “done our bit” without ever progressing onto bigger, bolder, more effective actions – a kind of “moral licensing” that allays our concerns and stops us doing more and asking more of those in charge.",
+      "sentences": [
+        {
+          "id": "2019-T4-P3-S1",
+          "a": 0,
+          "b": 108,
+          "en": "My concern with leaving it up to the individual, however, is our limited sense of what needs to be achieved.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T4-P3-S2",
+          "a": 109,
+          "b": 258,
+          "en": "On their own, taking our own bags to the grocery store or quitting plastic straws, for example, will accomplish little and require very little of us.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T4-P3-S3",
+          "a": 259,
+          "b": 515,
+          "en": "They could even be detrimental, satisfying a need to have “done our bit” without ever progressing onto bigger, bolder, more effective actions – a kind of “moral licensing” that allays our concerns and stops us doing more and asking more of those in charge.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T4-P4",
+      "en": "While the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we're ignoring the balance of power that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change.",
+      "sentences": [
+        {
+          "id": "2019-T4-P4-S1",
+          "a": 0,
+          "b": 326,
+          "en": "While the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we're ignoring the balance of power that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T4-P5",
+      "en": "It's important to acknowledge that the environment isn't everyone's priority – or even most people's. We shouldn't expect it to be. In her latest book, Why Good People Do Bad Environmental Things, Wellesley College professor Elizabeth R. DeSombre argues that the best way to collectively change the behavior of large numbers of people is for the change to be structural.",
+      "sentences": [
+        {
+          "id": "2019-T4-P5-S1",
+          "a": 0,
+          "b": 101,
+          "en": "It's important to acknowledge that the environment isn't everyone's priority – or even most people's.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T4-P5-S2",
+          "a": 102,
+          "b": 131,
+          "en": "We shouldn't expect it to be.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T4-P5-S3",
+          "a": 132,
+          "b": 370,
+          "en": "In her latest book, Why Good People Do Bad Environmental Things, Wellesley College professor Elizabeth R. DeSombre argues that the best way to collectively change the behavior of large numbers of people is for the change to be structural.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T4-P6",
+      "en": "This might mean implementing policy such as a plastic tax that adds a cost to environmentally problematic action, or banning single-use plastics altogether. India has just announced it will “eliminate all single-use plastic in the country by 2022.” There are also incentive-based ways of making better environmental choices easier, such as ensuring recycling is at least as easy as trash disposal.",
+      "sentences": [
+        {
+          "id": "2019-T4-P6-S1",
+          "a": 0,
+          "b": 156,
+          "en": "This might mean implementing policy such as a plastic tax that adds a cost to environmentally problematic action, or banning single-use plastics altogether.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T4-P6-S2",
+          "a": 157,
+          "b": 248,
+          "en": "India has just announced it will “eliminate all single-use plastic in the country by 2022.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T4-P6-S3",
+          "a": 249,
+          "b": 397,
+          "en": "There are also incentive-based ways of making better environmental choices easier, such as ensuring recycling is at least as easy as trash disposal.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T4-P7",
+      "en": "DeSombre isn't saying people should stop caring about the environment. It's just that individual actions are too slow, she says, for that to be the only, or even primary, approach to changing widespread behavior.",
+      "sentences": [
+        {
+          "id": "2019-T4-P7-S1",
+          "a": 0,
+          "b": 70,
+          "en": "DeSombre isn't saying people should stop caring about the environment.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T4-P7-S2",
+          "a": 71,
+          "b": 212,
+          "en": "It's just that individual actions are too slow, she says, for that to be the only, or even primary, approach to changing widespread behavior.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2019-T4-P8",
+      "en": "None of this is about writing off the individual. It's just about putting things into perspective. We don't have time to wait. We need progressive policies that shape collective action (and rein in polluting businesses), alongside engaged citizens pushing for change.",
+      "sentences": [
+        {
+          "id": "2019-T4-P8-S1",
+          "a": 0,
+          "b": 49,
+          "en": "None of this is about writing off the individual.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T4-P8-S2",
+          "a": 50,
+          "b": 98,
+          "en": "It's just about putting things into perspective.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T4-P8-S3",
+          "a": 99,
+          "b": 126,
+          "en": "We don't have time to wait.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2019-T4-P8-S4",
+          "a": 127,
+          "b": 267,
+          "en": "We need progressive policies that shape collective action (and rein in polluting businesses), alongside engaged citizens pushing for change.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

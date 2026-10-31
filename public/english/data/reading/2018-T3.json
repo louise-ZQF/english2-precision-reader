@@ -1,0 +1,256 @@
+{
+  "version": 1,
+  "id": "2018-T3",
+  "exam": "2018_english2",
+  "year": 2018,
+  "text": 3,
+  "articleKey": "s1-p0-t2",
+  "source": {
+    "status": "pending",
+    "textSHA256": "eccd331a2af9b0cc275d9a2c38542c685a1107d499230c4304cca152f73bfe52",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2018-T3-P1",
+      "en": "The power and ambition of the giants of the digital economy is astonishing- Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for ＄ 13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, which doesn't have any physical product at all. What WhatsApp offered Facebook was an intricate and finely detailed web of its users' friendships and social lives.",
+      "sentences": [
+        {
+          "id": "2018-T3-P1-S1",
+          "a": 0,
+          "b": 313,
+          "en": "The power and ambition of the giants of the digital economy is astonishing- Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for ＄ 13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, which doesn't have any physical product at all.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2018-T3-P1-S2",
+          "a": 314,
+          "b": 429,
+          "en": "What WhatsApp offered Facebook was an intricate and finely detailed web of its users' friendships and social lives.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2018-T3-P2",
+      "en": "Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through. Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be. What political journalist, what party whip, would not want to know the makeup of the WhatsApp groups in which Theresa May's enemies are currently plotting? It may be that the value of Whole Foods to Amazon is not so much the 460 shops it owns, but the records of which customers have purchased what.",
+      "sentences": [
+        {
+          "id": "2018-T3-P2-S1",
+          "a": 0,
+          "b": 173,
+          "en": "Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2018-T3-P2-S2",
+          "a": 174,
+          "b": 308,
+          "en": "Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2018-T3-P2-S3",
+          "a": 309,
+          "b": 464,
+          "en": "What political journalist, what party whip, would not want to know the makeup of the WhatsApp groups in which Theresa May's enemies are currently plotting?",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2018-T3-P2-S4",
+          "a": 465,
+          "b": 608,
+          "en": "It may be that the value of Whole Foods to Amazon is not so much the 460 shops it owns, but the records of which customers have purchased what.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2018-T3-P3",
+      "en": "Competition law appears to be the only way to address these imbalances of power. But it is clumsy. For one thing, it is very slow compared to the pace of change within the digital economy. By the time a problem has been addressed and remedied it may have vanished in the marketplace, to be replaced by new abuses of power. But there is a deeper conceptual problem, too. Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don't pay for them. The users of their services are not their customers. That would be the people who buy advertising from them – and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies.",
+      "sentences": [
+        {
+          "id": "2018-T3-P3-S1",
+          "a": 0,
+          "b": 80,
+          "en": "Competition law appears to be the only way to address these imbalances of power.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2018-T3-P3-S2",
+          "a": 81,
+          "b": 98,
+          "en": "But it is clumsy.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2018-T3-P3-S3",
+          "a": 99,
+          "b": 188,
+          "en": "For one thing, it is very slow compared to the pace of change within the digital economy.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2018-T3-P3-S4",
+          "a": 189,
+          "b": 322,
+          "en": "By the time a problem has been addressed and remedied it may have vanished in the marketplace, to be replaced by new abuses of power.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2018-T3-P3-S5",
+          "a": 323,
+          "b": 369,
+          "en": "But there is a deeper conceptual problem, too.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2018-T3-P3-S6",
+          "a": 370,
+          "b": 534,
+          "en": "Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don't pay for them.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2018-T3-P3-S7",
+          "a": 535,
+          "b": 587,
+          "en": "The users of their services are not their customers.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2018-T3-P3-S8",
+          "a": 588,
+          "b": 790,
+          "en": "That would be the people who buy advertising from them – and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2018-T3-P4",
+      "en": "The product they're selling is data, and we, the users, convert our lives to data for the benefit of the digital giants. Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield. Ants keep predatory insects away from where their aphids feed; Gmail keeps the spammers out of our inboxes. It doesn't feel like a human or democratic relationship, even if both sides benefit.",
+      "sentences": [
+        {
+          "id": "2018-T3-P4-S1",
+          "a": 0,
+          "b": 120,
+          "en": "The product they're selling is data, and we, the users, convert our lives to data for the benefit of the digital giants.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2018-T3-P4-S2",
+          "a": 121,
+          "b": 274,
+          "en": "Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2018-T3-P4-S3",
+          "a": 275,
+          "b": 382,
+          "en": "Ants keep predatory insects away from where their aphids feed; Gmail keeps the spammers out of our inboxes.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2018-T3-P4-S4",
+          "a": 383,
+          "b": 467,
+          "en": "It doesn't feel like a human or democratic relationship, even if both sides benefit.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "id": "2026-T4",
+  "exam": "2026_english2",
+  "year": 2026,
+  "text": 4,
+  "articleKey": "s1-p0-t3",
+  "source": {
+    "status": "pending",
+    "textSHA256": "3caeba8a61cc7e185aaa57883c3792c6ab5c68fb54d3724ba2691baab16a765e",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2026-T4-P1",
+      "en": "In 2023, Chicago lost one of its most beloved street festivals. The Silver Room Block Party, staged by Hyde Park community leader Eric Williams, announced it would not return in 2024. What began as a small neighborhood gathering blossomed into a massive cultural event welcoming tens of thousands of people each year over nearly two decades before abruptly shutting down.",
+      "sentences": [
+        {
+          "id": "2026-T4-P1-S1",
+          "a": 0,
+          "b": 63,
+          "en": "In 2023, Chicago lost one of its most beloved street festivals.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2026-T4-P1-S2",
+          "a": 64,
+          "b": 183,
+          "en": "The Silver Room Block Party, staged by Hyde Park community leader Eric Williams, announced it would not return in 2024.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2026-T4-P1-S3",
+          "a": 184,
+          "b": 371,
+          "en": "What began as a small neighborhood gathering blossomed into a massive cultural event welcoming tens of thousands of people each year over nearly two decades before abruptly shutting down.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2026-T4-P2",
+      "en": "Williams pointed to rising production costs and declining attendee donations as primary reasons the Silver Room Block Party could not continue, highlighting a reality that all street festival organizers face right now. The cost of producing a street festival in Chicago has skyrocketed. Security, entertainment, portable restrooms, insurance and even basics such as fencing and staffing have all become significantly more expensive. At the same time, donations at festival gates have dropped dramatically.",
+      "sentences": [
+        {
+          "id": "2026-T4-P2-S1",
+          "a": 0,
+          "b": 218,
+          "en": "Williams pointed to rising production costs and declining attendee donations as primary reasons the Silver Room Block Party could not continue, highlighting a reality that all street festival organizers face right now.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2026-T4-P2-S2",
+          "a": 219,
+          "b": 286,
+          "en": "The cost of producing a street festival in Chicago has skyrocketed.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2026-T4-P2-S3",
+          "a": 287,
+          "b": 432,
+          "en": "Security, entertainment, portable restrooms, insurance and even basics such as fencing and staffing have all become significantly more expensive.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2026-T4-P2-S4",
+          "a": 433,
+          "b": 505,
+          "en": "At the same time, donations at festival gates have dropped dramatically.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2026-T4-P3",
+      "en": "Chicago's summer festivals are about more than just entertainment; they are economic engines that directly benefit the neighborhoods they're in and the city of Chicago as a whole. Street festivals drive foot traffic to local businesses and foster the kind of cultural vibrancy that makes our city special.",
+      "sentences": [
+        {
+          "id": "2026-T4-P3-S1",
+          "a": 0,
+          "b": 179,
+          "en": "Chicago's summer festivals are about more than just entertainment; they are economic engines that directly benefit the neighborhoods they're in and the city of Chicago as a whole.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2026-T4-P3-S2",
+          "a": 180,
+          "b": 305,
+          "en": "Street festivals drive foot traffic to local businesses and foster the kind of cultural vibrancy that makes our city special.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2026-T4-P4",
+      "en": "We often hear people ask why we solicit donations at our entry points, especially when the city's largest festivals like the Chicago Jazz Festival do not request donations. The fact is, unlike those large, city-produced music festivals, your neighborhood street festivals receive no city funding and rely on a combination of sponsorships, vendor fees and gate donations to cover their costs.",
+      "sentences": [
+        {
+          "id": "2026-T4-P4-S1",
+          "a": 0,
+          "b": 172,
+          "en": "We often hear people ask why we solicit donations at our entry points, especially when the city's largest festivals like the Chicago Jazz Festival do not request donations.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2026-T4-P4-S2",
+          "a": 173,
+          "b": 391,
+          "en": "The fact is, unlike those large, city-produced music festivals, your neighborhood street festivals receive no city funding and rely on a combination of sponsorships, vendor fees and gate donations to cover their costs.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2026-T4-P5",
+      "en": "Wicker Park Fest has long been one of Chicago's most anticipated summer festivals, drawing upward of 70,000 attendees for a full weekend of live indie music, local art, small business vendors and, most importantly, community connection. In 2024, Wicker Park Fest saw record-breaking attendance. Despite the turnout, gate donations reached their lowest point in our history. This year, we've been forced to scale back the footprint of the fest. We are eliminating a stage, booking fewer performers and making additional cuts to reduce our costs, all while striving to keep the festival as vibrant as ever, as supportive of local artists and businesses, and as true to Wicker Park's unique spirit and reputation as festgoers have come to expect.",
+      "sentences": [
+        {
+          "id": "2026-T4-P5-S1",
+          "a": 0,
+          "b": 236,
+          "en": "Wicker Park Fest has long been one of Chicago's most anticipated summer festivals, drawing upward of 70,000 attendees for a full weekend of live indie music, local art, small business vendors and, most importantly, community connection.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2026-T4-P5-S2",
+          "a": 237,
+          "b": 294,
+          "en": "In 2024, Wicker Park Fest saw record-breaking attendance.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2026-T4-P5-S3",
+          "a": 295,
+          "b": 373,
+          "en": "Despite the turnout, gate donations reached their lowest point in our history.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2026-T4-P5-S4",
+          "a": 374,
+          "b": 443,
+          "en": "This year, we've been forced to scale back the footprint of the fest.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2026-T4-P5-S5",
+          "a": 444,
+          "b": 743,
+          "en": "We are eliminating a stage, booking fewer performers and making additional cuts to reduce our costs, all while striving to keep the festival as vibrant as ever, as supportive of local artists and businesses, and as true to Wicker Park's unique spirit and reputation as festgoers have come to expect.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2026-T4-P6",
+      "en": "This summer, as you enjoy your favorite neighborhood street festival, I hope you'll remember that they exist because of community support. A thriving summer festival season doesn't happen by accident; It happens when we all chip in.",
+      "sentences": [
+        {
+          "id": "2026-T4-P6-S1",
+          "a": 0,
+          "b": 138,
+          "en": "This summer, as you enjoy your favorite neighborhood street festival, I hope you'll remember that they exist because of community support.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2026-T4-P6-S2",
+          "a": 139,
+          "b": 232,
+          "en": "A thriving summer festival season doesn't happen by accident; It happens when we all chip in.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

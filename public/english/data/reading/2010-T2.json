@@ -1,0 +1,274 @@
+{
+  "version": 1,
+  "id": "2010-T2",
+  "exam": "2010_english2",
+  "year": 2010,
+  "text": 2,
+  "articleKey": "s1-p0-t1",
+  "source": {
+    "status": "pending",
+    "textSHA256": "bc07ddcbdf32067112cb02b399d439e899992a82a4d3f9f2ebe2e4e061584adb",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2010-T2-P1",
+      "en": "I was addressing a small gathering in a suburban Virginia living room – a women's group that had invited men to join them. Throughout the evening, one man had been particularly talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch. Toward the end of the evening, I commented that women frequently complain that their husbands don't talk to them. This man quickly nodded in agreement. He gestured toward his wife and said, “She's the talker in our family.” The room burst into laughter; the man looked puzzled and hurt. “It's true,” he explained. “When I come home from work I have nothing to say. If she didn't keep the conversation going, we'd spend the whole evening in silence.”",
+      "sentences": [
+        {
+          "id": "2010-T2-P1-S1",
+          "a": 0,
+          "b": 122,
+          "en": "I was addressing a small gathering in a suburban Virginia living room – a women's group that had invited men to join them.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T2-P1-S2",
+          "a": 123,
+          "b": 281,
+          "en": "Throughout the evening, one man had been particularly talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T2-P1-S3",
+          "a": 282,
+          "b": 395,
+          "en": "Toward the end of the evening, I commented that women frequently complain that their husbands don't talk to them.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T2-P1-S4",
+          "a": 396,
+          "b": 433,
+          "en": "This man quickly nodded in agreement.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T2-P1-S5",
+          "a": 434,
+          "b": 505,
+          "en": "He gestured toward his wife and said, “She's the talker in our family.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T2-P1-S6",
+          "a": 506,
+          "b": 568,
+          "en": "The room burst into laughter; the man looked puzzled and hurt.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T2-P1-S7",
+          "a": 569,
+          "b": 595,
+          "en": "“It's true,” he explained.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T2-P1-S8",
+          "a": 596,
+          "b": 646,
+          "en": "“When I come home from work I have nothing to say.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T2-P1-S9",
+          "a": 647,
+          "b": 731,
+          "en": "If she didn't keep the conversation going, we'd spend the whole evening in silence.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2010-T2-P2",
+      "en": "This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home. And this pattern is wreaking havoc with marriage.",
+      "sentences": [
+        {
+          "id": "2010-T2-P2-S1",
+          "a": 0,
+          "b": 143,
+          "en": "This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T2-P2-S2",
+          "a": 144,
+          "b": 193,
+          "en": "And this pattern is wreaking havoc with marriage.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2010-T2-P3",
+      "en": "The pattern was observed by political scientist Andrew Hacker in the late 1970s. Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed – but only a few of the men – gave lack of communication as the reason for their divorces. Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year – a virtual epidemic of failed conversation.",
+      "sentences": [
+        {
+          "id": "2010-T2-P3-S1",
+          "a": 0,
+          "b": 80,
+          "en": "The pattern was observed by political scientist Andrew Hacker in the late 1970s.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T2-P3-S2",
+          "a": 81,
+          "b": 285,
+          "en": "Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed – but only a few of the men – gave lack of communication as the reason for their divorces.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T2-P3-S3",
+          "a": 286,
+          "b": 449,
+          "en": "Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year – a virtual epidemic of failed conversation.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2010-T2-P4",
+      "en": "In my own research, complaints from women about their husbands most often focused not on tangible inequities such as having given up the chance for a career to accompany a husband to his, or doing far more than their share of daily life-support work like cleaning, cooking and social arrangements. Instead, they focused on communication: “He doesn't listen to me.” “He doesn't talk to me.” I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, conversational partners, but few husbands share this expectation of their wives.",
+      "sentences": [
+        {
+          "id": "2010-T2-P4-S1",
+          "a": 0,
+          "b": 297,
+          "en": "In my own research, complaints from women about their husbands most often focused not on tangible inequities such as having given up the chance for a career to accompany a husband to his, or doing far more than their share of daily life-support work like cleaning, cooking and social arrangements.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T2-P4-S2",
+          "a": 298,
+          "b": 364,
+          "en": "Instead, they focused on communication: “He doesn't listen to me.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T2-P4-S3",
+          "a": 365,
+          "b": 389,
+          "en": "“He doesn't talk to me.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2010-T2-P4-S4",
+          "a": 390,
+          "b": 575,
+          "en": "I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, conversational partners, but few husbands share this expectation of their wives.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2010-T2-P5",
+      "en": "In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.",
+      "sentences": [
+        {
+          "id": "2010-T2-P5-S1",
+          "a": 0,
+          "b": 238,
+          "en": "In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

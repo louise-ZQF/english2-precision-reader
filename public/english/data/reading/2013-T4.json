@@ -1,0 +1,274 @@
+{
+  "version": 1,
+  "id": "2013-T4",
+  "exam": "2013_english2",
+  "year": 2013,
+  "text": 4,
+  "articleKey": "s1-p0-t3",
+  "source": {
+    "status": "pending",
+    "textSHA256": "79a5daabcd2267cf320dda9ee8cea70957e936251db617a87eedf2dadd682a24",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2013-T4-P1",
+      "en": "Europe is not a gender-equality heaven. In particular, the corporate workplace will never be completely family-friendly until women are part of senior management decisions, and Europe's top corporate-governance positions remain overwhelmingly male. Indeed, women hold only 14 per cent of positions on European corporate boards.",
+      "sentences": [
+        {
+          "id": "2013-T4-P1-S1",
+          "a": 0,
+          "b": 39,
+          "en": "Europe is not a gender-equality heaven.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2013-T4-P1-S2",
+          "a": 40,
+          "b": 248,
+          "en": "In particular, the corporate workplace will never be completely family-friendly until women are part of senior management decisions, and Europe's top corporate-governance positions remain overwhelmingly male.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2013-T4-P1-S3",
+          "a": 249,
+          "b": 327,
+          "en": "Indeed, women hold only 14 per cent of positions on European corporate boards.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2013-T4-P2",
+      "en": "The European Union is now considering legislation to compel corporate boards to maintain a certain proportion of women – up to 60 per cent. This proposed mandate was born of frustration. Last year, European Commission Vice President Viviane Reding issued a call to voluntary action. Reding invited corporations to sign up for gender balance goals of 40 per cent female board membership. But her appeal was considered a failure: only 24 companies took it up.",
+      "sentences": [
+        {
+          "id": "2013-T4-P2-S1",
+          "a": 0,
+          "b": 139,
+          "en": "The European Union is now considering legislation to compel corporate boards to maintain a certain proportion of women – up to 60 per cent.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2013-T4-P2-S2",
+          "a": 140,
+          "b": 186,
+          "en": "This proposed mandate was born of frustration.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2013-T4-P2-S3",
+          "a": 187,
+          "b": 282,
+          "en": "Last year, European Commission Vice President Viviane Reding issued a call to voluntary action.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2013-T4-P2-S4",
+          "a": 283,
+          "b": 386,
+          "en": "Reding invited corporations to sign up for gender balance goals of 40 per cent female board membership.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2013-T4-P2-S5",
+          "a": 387,
+          "b": 457,
+          "en": "But her appeal was considered a failure: only 24 companies took it up.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2013-T4-P3",
+      "en": "Do we need quotas to ensure that women can continue to climb the corporate ladder fairly as they balance work and family?",
+      "sentences": [
+        {
+          "id": "2013-T4-P3-S1",
+          "a": 0,
+          "b": 121,
+          "en": "Do we need quotas to ensure that women can continue to climb the corporate ladder fairly as they balance work and family?",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2013-T4-P4",
+      "en": "“Personally, I don't like quotas,” Reding said recently. “But I like what the quotas do.” Quotas get action: they “open the way to equality and they break through the glass ceiling,” according to Reding, a result seen in France and other countries with legally binding provisions on placing women in top business positions.",
+      "sentences": [
+        {
+          "id": "2013-T4-P4-S1",
+          "a": 0,
+          "b": 56,
+          "en": "“Personally, I don't like quotas,” Reding said recently.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2013-T4-P4-S2",
+          "a": 57,
+          "b": 89,
+          "en": "“But I like what the quotas do.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2013-T4-P4-S3",
+          "a": 90,
+          "b": 323,
+          "en": "Quotas get action: they “open the way to equality and they break through the glass ceiling,” according to Reding, a result seen in France and other countries with legally binding provisions on placing women in top business positions.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2013-T4-P5",
+      "en": "I understand Reding's reluctance – and her frustration. I don't like quotas either; they run counter to my belief in meritocracy, governance by the capable. But, when one considers the obstacles to achieving the meritocratic ideal, it does look as if a fairer world must be temporarily ordered.",
+      "sentences": [
+        {
+          "id": "2013-T4-P5-S1",
+          "a": 0,
+          "b": 55,
+          "en": "I understand Reding's reluctance – and her frustration.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2013-T4-P5-S2",
+          "a": 56,
+          "b": 156,
+          "en": "I don't like quotas either; they run counter to my belief in meritocracy, governance by the capable.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2013-T4-P5-S3",
+          "a": 157,
+          "b": 294,
+          "en": "But, when one considers the obstacles to achieving the meritocratic ideal, it does look as if a fairer world must be temporarily ordered.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2013-T4-P6",
+      "en": "After all, four decades of evidence has now shown that corporations in Europe as well as the US are evading the meritocratic hiring and promotion of women to top positions – no matter how much “soft pressure” is put upon them. When women do break through to the summit of corporate power – as, for example, Sheryl Sandberg recently did at Facebook – they attract massive attention precisely because they remain the exception to the rule.",
+      "sentences": [
+        {
+          "id": "2013-T4-P6-S1",
+          "a": 0,
+          "b": 226,
+          "en": "After all, four decades of evidence has now shown that corporations in Europe as well as the US are evading the meritocratic hiring and promotion of women to top positions – no matter how much “soft pressure” is put upon them.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2013-T4-P6-S2",
+          "a": 227,
+          "b": 437,
+          "en": "When women do break through to the summit of corporate power – as, for example, Sheryl Sandberg recently did at Facebook – they attract massive attention precisely because they remain the exception to the rule.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2013-T4-P7",
+      "en": "If appropriate public policies were in place to help all women – whether CEOs or their children's caregivers – and all families, Sandberg would be no more newsworthy than any other highly capable person living in a more just society.",
+      "sentences": [
+        {
+          "id": "2013-T4-P7-S1",
+          "a": 0,
+          "b": 233,
+          "en": "If appropriate public policies were in place to help all women – whether CEOs or their children's caregivers – and all families, Sandberg would be no more newsworthy than any other highly capable person living in a more just society.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1176 @@
+{
+  "version": 1,
+  "id": "2012-T1",
+  "exam": "2012_english2",
+  "year": 2012,
+  "text": 1,
+  "articleKey": "s1-p0-t0",
+  "source": {
+    "status": "verified",
+    "textSHA256": "d3c90fc229b2773d97aee85319c64c037636f6d4a99f87f8fb6bcec974e195fe",
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2012年考研英语二真题.pdf",
+        "page": 4,
+        "sha256": "233a38091892d7efaf3f011d1b2e09676557cfc8fa72bafeb128687e7904d476"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇对照本地试卷正文与渲染页，保留印刷原文，仅统一空白和弯撇号。"
+  },
+  "paragraphs": [
+    {
+      "id": "2012-T1-P1",
+      "en": "Homework has never been terribly popular with students and even many parents, but in recent years it has been particularly scorned. School districts across the country, most recently Los Angeles Unified, are revising their thinking on this educational ritual. Unfortunately, L.A. Unified has produced an inflexible policy which mandates that with the exception of some advanced courses, homework may no longer count for more than 10% of a student's academic grade.",
+      "sentences": [
+        {
+          "id": "2012-T1-P1-S1",
+          "a": 0,
+          "b": 131,
+          "en": "Homework has never been terribly popular with students and even many parents, but in recent years it has been particularly scorned.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 78,
+              "en": "Homework has never been terribly popular with students and even many parents, ",
+              "zh": "学生、甚至许多家长向来都不怎么喜欢家庭作业"
+            },
+            {
+              "a": 78,
+              "b": 131,
+              "en": "but in recent years it has been particularly scorned.",
+              "zh": "但近年来，它尤其受到鄙视"
+            }
+          ],
+          "reorder": "按原顺序译；has never 译成“向来不”，but 后保留转折。",
+          "translation": "学生、甚至许多家长向来都不怎么喜欢家庭作业，而近年来，人们对它尤其不屑。",
+          "words": [
+            {
+              "a": 24,
+              "b": 32,
+              "word": "terribly",
+              "lemma": "terribly",
+              "meaning": "非常；极其",
+              "pos": "adv"
+            },
+            {
+              "a": 123,
+              "b": 130,
+              "word": "scorned",
+              "lemma": "scorn",
+              "meaning": "鄙视；强烈反对",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        },
+        {
+          "id": "2012-T1-P1-S2",
+          "a": 132,
+          "b": 259,
+          "en": "School districts across the country, most recently Los Angeles Unified, are revising their thinking on this educational ritual.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 37,
+              "en": "School districts across the country, ",
+              "zh": "全国各地的学区"
+            },
+            {
+              "a": 37,
+              "b": 72,
+              "en": "most recently Los Angeles Unified, ",
+              "zh": "最近加入其中的是洛杉矶联合学区"
+            },
+            {
+              "a": 72,
+              "b": 127,
+              "en": "are revising their thinking on this educational ritual.",
+              "zh": "正在重新思考布置家庭作业这一教育惯例"
+            }
+          ],
+          "reorder": "把中间的洛杉矶学区作为补充说明，放在句末或括号中。",
+          "translation": "全国各地的学区正在重新思考布置家庭作业这一教育惯例，最近加入其中的是洛杉矶联合学区。",
+          "words": [
+            {
+              "a": 7,
+              "b": 16,
+              "word": "districts",
+              "lemma": "district",
+              "meaning": "学区",
+              "pos": "n"
+            },
+            {
+              "a": 120,
+              "b": 126,
+              "word": "ritual",
+              "lemma": "ritual",
+              "meaning": "例行做法；惯例",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        },
+        {
+          "id": "2012-T1-P1-S3",
+          "a": 260,
+          "b": 464,
+          "en": "Unfortunately, L.A. Unified has produced an inflexible policy which mandates that with the exception of some advanced courses, homework may no longer count for more than 10% of a student's academic grade.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 15,
+              "en": "Unfortunately, ",
+              "zh": "遗憾的是"
+            },
+            {
+              "a": 15,
+              "b": 62,
+              "en": "L.A. Unified has produced an inflexible policy ",
+              "zh": "洛杉矶联合学区制定了一项僵化的政策"
+            },
+            {
+              "a": 62,
+              "b": 82,
+              "en": "which mandates that ",
+              "zh": "这项政策规定"
+            },
+            {
+              "a": 82,
+              "b": 127,
+              "en": "with the exception of some advanced courses, ",
+              "zh": "除少数高级课程外"
+            },
+            {
+              "a": 127,
+              "b": 204,
+              "en": "homework may no longer count for more than 10% of a student's academic grade.",
+              "zh": "家庭作业在学生总评成绩中的占比不得再超过10%"
+            }
+          ],
+          "reorder": "先译“政策规定”，把例外条件放在规定内容前；10% 修饰成绩占比。",
+          "translation": "遗憾的是，洛杉矶联合学区制定了一项僵化的政策，规定除少数高级课程外，家庭作业在学生总评成绩中的占比不得超过10%。",
+          "words": [
+            {
+              "a": 44,
+              "b": 54,
+              "word": "inflexible",
+              "lemma": "inflexible",
+              "meaning": "僵化的；缺乏弹性的",
+              "pos": "a"
+            },
+            {
+              "a": 68,
+              "b": 76,
+              "word": "mandates",
+              "lemma": "mandate",
+              "meaning": "强制规定",
+              "pos": "v"
+            },
+            {
+              "a": 109,
+              "b": 117,
+              "word": "advanced",
+              "lemma": "advanced",
+              "meaning": "高阶的；程度较深的",
+              "pos": "a"
+            },
+            {
+              "a": 118,
+              "b": 125,
+              "word": "courses",
+              "lemma": "course",
+              "meaning": "课程",
+              "pos": "n"
+            },
+            {
+              "a": 150,
+              "b": 155,
+              "word": "count",
+              "lemma": "count",
+              "meaning": "在评分中计入；占比",
+              "pos": "v"
+            },
+            {
+              "a": 198,
+              "b": 203,
+              "word": "grade",
+              "lemma": "grade",
+              "meaning": "成绩；分数",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 82,
+              "b": 103,
+              "lemma": "with the exception of",
+              "meaning": "除了……以外",
+              "word": "with the exception of"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2012-T1-P2",
+      "en": "This rule is meant to address the difficulty that students from impoverished or chaotic homes might have in completing their homework. But the policy is unclear and contradictory. Certainly, no homework should be assigned that students cannot complete on their own or that they cannot do without expensive equipment. But if the district is essentially giving a pass to students who do not do their homework because of complicated family lives, it is going riskily close to the implication that standards need to be lowered for poor children.",
+      "sentences": [
+        {
+          "id": "2012-T1-P2-S1",
+          "a": 0,
+          "b": 134,
+          "en": "This rule is meant to address the difficulty that students from impoverished or chaotic homes might have in completing their homework.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 45,
+              "en": "This rule is meant to address the difficulty ",
+              "zh": "这条规定旨在解决一种困难"
+            },
+            {
+              "a": 45,
+              "b": 94,
+              "en": "that students from impoverished or chaotic homes ",
+              "zh": "即来自贫困或家庭生活混乱的学生"
+            },
+            {
+              "a": 94,
+              "b": 134,
+              "en": "might have in completing their homework.",
+              "zh": "在完成家庭作业时可能遇到的困难"
+            }
+          ],
+          "reorder": "把后面两块合成“这些学生完成作业时可能遇到的困难”，接在“解决”后。",
+          "translation": "这条规定旨在解决来自贫困或生活混乱家庭的学生完成家庭作业时可能遇到的困难。",
+          "words": [
+            {
+              "a": 22,
+              "b": 29,
+              "word": "address",
+              "lemma": "address",
+              "meaning": "设法解决；应对",
+              "pos": "v"
+            },
+            {
+              "a": 64,
+              "b": 76,
+              "word": "impoverished",
+              "lemma": "impoverished",
+              "meaning": "贫困的",
+              "pos": "a"
+            },
+            {
+              "a": 80,
+              "b": 87,
+              "word": "chaotic",
+              "lemma": "chaotic",
+              "meaning": "混乱的；缺乏秩序的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        },
+        {
+          "id": "2012-T1-P2-S2",
+          "a": 135,
+          "b": 179,
+          "en": "But the policy is unclear and contradictory.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 44,
+              "en": "But the policy is unclear and contradictory.",
+              "zh": "但这项政策既不清楚，又自相矛盾"
+            }
+          ],
+          "reorder": "按原顺序译即可。",
+          "translation": "但这项政策既不清楚，又自相矛盾。",
+          "words": [
+            {
+              "a": 30,
+              "b": 43,
+              "word": "contradictory",
+              "lemma": "contradictory",
+              "meaning": "自相矛盾的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        },
+        {
+          "id": "2012-T1-P2-S3",
+          "a": 180,
+          "b": 316,
+          "en": "Certainly, no homework should be assigned that students cannot complete on their own or that they cannot do without expensive equipment.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 11,
+              "en": "Certainly, ",
+              "zh": "当然"
+            },
+            {
+              "a": 11,
+              "b": 42,
+              "en": "no homework should be assigned ",
+              "zh": "不应布置这样的家庭作业"
+            },
+            {
+              "a": 42,
+              "b": 85,
+              "en": "that students cannot complete on their own ",
+              "zh": "学生无法独立完成的作业"
+            },
+            {
+              "a": 85,
+              "b": 136,
+              "en": "or that they cannot do without expensive equipment.",
+              "zh": "或不借助昂贵设备就做不了的作业"
+            }
+          ],
+          "reorder": "把后面两个 that 修饰语放在“作业”前，两个 cannot 都不能漏译。",
+          "translation": "当然，不应布置学生无法独立完成，或必须借助昂贵设备才能完成的家庭作业。",
+          "words": [
+            {
+              "a": 33,
+              "b": 41,
+              "word": "assigned",
+              "lemma": "assign",
+              "meaning": "布置（作业）",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 72,
+              "b": 84,
+              "lemma": "on their own",
+              "meaning": "独立地；靠自己",
+              "word": "on their own"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        },
+        {
+          "id": "2012-T1-P2-S4",
+          "a": 317,
+          "b": 541,
+          "en": "But if the district is essentially giving a pass to students who do not do their homework because of complicated family lives, it is going riskily close to the implication that standards need to be lowered for poor children.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 61,
+              "en": "But if the district is essentially giving a pass to students ",
+              "zh": "但如果学区实际上是在放过某些学生"
+            },
+            {
+              "a": 61,
+              "b": 127,
+              "en": "who do not do their homework because of complicated family lives, ",
+              "zh": "他们因为家庭生活复杂而不做作业"
+            },
+            {
+              "a": 127,
+              "b": 172,
+              "en": "it is going riskily close to the implication ",
+              "zh": "这就危险地接近于暗示"
+            },
+            {
+              "a": 172,
+              "b": 224,
+              "en": "that standards need to be lowered for poor children.",
+              "zh": "应该为贫困儿童降低要求"
+            }
+          ],
+          "reorder": "把 who 后的原因和行为放在“学生”前；it 指学区这样做，不是学生。",
+          "translation": "但如果学区实际上是在放过那些因家庭情况复杂而不做作业的学生，这就危险地接近于暗示：应该为贫困儿童降低要求。",
+          "words": [
+            {
+              "a": 11,
+              "b": 19,
+              "word": "district",
+              "lemma": "district",
+              "meaning": "学区",
+              "pos": "n"
+            },
+            {
+              "a": 44,
+              "b": 48,
+              "word": "pass",
+              "lemma": "pass",
+              "meaning": "免于追究；放过",
+              "pos": "n"
+            },
+            {
+              "a": 160,
+              "b": 171,
+              "word": "implication",
+              "lemma": "implication",
+              "meaning": "隐含意思；可能后果",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 35,
+              "b": 51,
+              "lemma": "giving a pass to",
+              "meaning": "不追究；免除……的责任",
+              "word": "giving a pass to"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2012-T1-P3",
+      "en": "District administrators say that homework will still be a part of schooling; teachers are allowed to assign as much of it as they want. But with homework counting for no more than 10% of their grades, students can easily skip half their homework and see very little difference on their report cards. Some students might do well on state tests without completing their homework, but what about the students who performed well on the tests and did their homework? It is quite possible that the homework helped. Yet rather than empowering teachers to find what works best for their students, the policy imposes a flat, across-the-board rule.",
+      "sentences": [
+        {
+          "id": "2012-T1-P3-S1",
+          "a": 0,
+          "b": 135,
+          "en": "District administrators say that homework will still be a part of schooling; teachers are allowed to assign as much of it as they want.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 33,
+              "en": "District administrators say that ",
+              "zh": "学区管理人员说"
+            },
+            {
+              "a": 33,
+              "b": 77,
+              "en": "homework will still be a part of schooling; ",
+              "zh": "家庭作业仍是学校教育的一部分"
+            },
+            {
+              "a": 77,
+              "b": 135,
+              "en": "teachers are allowed to assign as much of it as they want.",
+              "zh": "教师想布置多少作业，仍然可以布置多少"
+            }
+          ],
+          "reorder": "按两层意思顺译；it 指家庭作业。",
+          "translation": "学区管理人员说，家庭作业仍是学校教育的一部分，教师仍可以按自己的意愿布置作业量。",
+          "words": [
+            {
+              "a": 0,
+              "b": 8,
+              "word": "District",
+              "lemma": "district",
+              "meaning": "学区",
+              "pos": "n"
+            },
+            {
+              "a": 9,
+              "b": 23,
+              "word": "administrators",
+              "lemma": "administrator",
+              "meaning": "行政管理者",
+              "pos": "n"
+            },
+            {
+              "a": 66,
+              "b": 75,
+              "word": "schooling",
+              "lemma": "schooling",
+              "meaning": "学校教育",
+              "pos": "n"
+            },
+            {
+              "a": 101,
+              "b": 107,
+              "word": "assign",
+              "lemma": "assign",
+              "meaning": "布置（作业）",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        },
+        {
+          "id": "2012-T1-P3-S2",
+          "a": 136,
+          "b": 299,
+          "en": "But with homework counting for no more than 10% of their grades, students can easily skip half their homework and see very little difference on their report cards.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 65,
+              "en": "But with homework counting for no more than 10% of their grades, ",
+              "zh": "但作业在成绩中的占比不超过10%"
+            },
+            {
+              "a": 65,
+              "b": 110,
+              "en": "students can easily skip half their homework ",
+              "zh": "学生即使轻易地少做一半作业"
+            },
+            {
+              "a": 110,
+              "b": 163,
+              "en": "and see very little difference on their report cards.",
+              "zh": "成绩单上的分数也几乎不会有变化"
+            }
+          ],
+          "reorder": "先译 with 引出的条件，再译学生的行为和成绩变化。",
+          "translation": "但作业在总成绩中的占比不超过10%，学生即使少做一半作业，成绩单上的分数也几乎不会有变化。",
+          "words": [
+            {
+              "a": 57,
+              "b": 63,
+              "word": "grades",
+              "lemma": "grade",
+              "meaning": "成绩；分数",
+              "pos": "n"
+            },
+            {
+              "a": 85,
+              "b": 89,
+              "word": "skip",
+              "lemma": "skip",
+              "meaning": "不做；跳过",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 150,
+              "b": 162,
+              "lemma": "report cards",
+              "meaning": "成绩单",
+              "word": "report cards"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        },
+        {
+          "id": "2012-T1-P3-S3",
+          "a": 300,
+          "b": 461,
+          "en": "Some students might do well on state tests without completing their homework, but what about the students who performed well on the tests and did their homework?",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 78,
+              "en": "Some students might do well on state tests without completing their homework, ",
+              "zh": "有些学生可能不做完作业，也能在州统考中考好"
+            },
+            {
+              "a": 78,
+              "b": 106,
+              "en": "but what about the students ",
+              "zh": "但那些学生又该怎么解释"
+            },
+            {
+              "a": 106,
+              "b": 161,
+              "en": "who performed well on the tests and did their homework?",
+              "zh": "他们既在考试中表现出色，也完成了家庭作业"
+            }
+          ],
+          "reorder": "把 who 后的两个行为放到第二处“学生”前，保留 but 的反问。",
+          "translation": "有些学生可能不完成作业也能在州统考中考好，但那些既考得好、又完成了家庭作业的学生，又该怎么解释呢？",
+          "words": [],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        },
+        {
+          "id": "2012-T1-P3-S4",
+          "a": 462,
+          "b": 508,
+          "en": "It is quite possible that the homework helped.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 21,
+              "en": "It is quite possible ",
+              "zh": "很有可能"
+            },
+            {
+              "a": 21,
+              "b": 46,
+              "en": "that the homework helped.",
+              "zh": "正是家庭作业起了帮助作用"
+            }
+          ],
+          "reorder": "先译“很有可能”，再译具体可能性。",
+          "translation": "很有可能，家庭作业确实帮助了他们。",
+          "words": [],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        },
+        {
+          "id": "2012-T1-P3-S5",
+          "a": 509,
+          "b": 638,
+          "en": "Yet rather than empowering teachers to find what works best for their students, the policy imposes a flat, across-the-board rule.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 36,
+              "en": "Yet rather than empowering teachers ",
+              "zh": "然而，政策没有授权教师"
+            },
+            {
+              "a": 36,
+              "b": 80,
+              "en": "to find what works best for their students, ",
+              "zh": "去寻找最适合自己学生的方法"
+            },
+            {
+              "a": 80,
+              "b": 129,
+              "en": "the policy imposes a flat, across-the-board rule.",
+              "zh": "反而强加了一条统一、毫无区别的规则"
+            }
+          ],
+          "reorder": "先译 rather than 的“没有让教师做什么”，再译政策实际做了什么。",
+          "translation": "然而，这项政策没有让教师自主寻找最适合学生的方法，反而强加了一条一刀切的统一规则。",
+          "words": [
+            {
+              "a": 16,
+              "b": 26,
+              "word": "empowering",
+              "lemma": "empower",
+              "meaning": "赋予自主权；让……有能力",
+              "pos": "v"
+            },
+            {
+              "a": 101,
+              "b": 105,
+              "word": "flat",
+              "lemma": "flat",
+              "meaning": "统一而无差别的；一刀切的",
+              "pos": "a"
+            },
+            {
+              "a": 107,
+              "b": 123,
+              "word": "across-the-board",
+              "lemma": "across-the-board",
+              "meaning": "一刀切的；统一适用的",
+              "pos": "a"
+            },
+            {
+              "a": 118,
+              "b": 123,
+              "word": "board",
+              "lemma": "board",
+              "meaning": "委员会；教育管理机构",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 107,
+              "b": 123,
+              "lemma": "across-the-board",
+              "meaning": "一刀切的；统一适用的",
+              "word": "across-the-board"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2012-T1-P4",
+      "en": "At the same time, the policy addresses none of the truly thorny questions about homework. If the district finds homework to be unimportant to its students' academic achievement, it should move to reduce or eliminate the assignments, not make them count for almost nothing. Conversely, if homework matters, it should account for a significant portion of the grade. Meanwhile, this policy does nothing to ensure that the homework students receive is meaningful or appropriate to their age and the subject, or that teachers are not assigning more than they are willing to review and correct.",
+      "sentences": [
+        {
+          "id": "2012-T1-P4-S1",
+          "a": 0,
+          "b": 89,
+          "en": "At the same time, the policy addresses none of the truly thorny questions about homework.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 18,
+              "en": "At the same time, ",
+              "zh": "与此同时"
+            },
+            {
+              "a": 18,
+              "b": 89,
+              "en": "the policy addresses none of the truly thorny questions about homework.",
+              "zh": "这项政策没有解决任何真正棘手的作业问题"
+            }
+          ],
+          "reorder": "none 要译成“一个也没有”，不能只译成“很少”。",
+          "translation": "与此同时，这项政策对家庭作业那些真正棘手的问题，一个也没有解决。",
+          "words": [
+            {
+              "a": 29,
+              "b": 38,
+              "word": "addresses",
+              "lemma": "address",
+              "meaning": "设法解决；应对",
+              "pos": "v"
+            },
+            {
+              "a": 57,
+              "b": 63,
+              "word": "thorny",
+              "lemma": "thorny",
+              "meaning": "棘手的；难以解决的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        },
+        {
+          "id": "2012-T1-P4-S2",
+          "a": 90,
+          "b": 272,
+          "en": "If the district finds homework to be unimportant to its students' academic achievement, it should move to reduce or eliminate the assignments, not make them count for almost nothing.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 88,
+              "en": "If the district finds homework to be unimportant to its students' academic achievement, ",
+              "zh": "如果学区认为家庭作业对学生的学业成绩不重要"
+            },
+            {
+              "a": 88,
+              "b": 143,
+              "en": "it should move to reduce or eliminate the assignments, ",
+              "zh": "就应该采取措施，减少或取消作业"
+            },
+            {
+              "a": 143,
+              "b": 182,
+              "en": "not make them count for almost nothing.",
+              "zh": "而不是让作业在成绩中几乎不占分"
+            }
+          ],
+          "reorder": "先译 if 条件，再译“应该……而不是……”；them 指作业。",
+          "translation": "如果学区认为家庭作业对学生的学业成绩不重要，就应该减少或取消作业，而不是让作业在成绩中几乎不占分。",
+          "words": [
+            {
+              "a": 7,
+              "b": 15,
+              "word": "district",
+              "lemma": "district",
+              "meaning": "学区",
+              "pos": "n"
+            },
+            {
+              "a": 98,
+              "b": 102,
+              "word": "move",
+              "lemma": "move",
+              "meaning": "着手采取行动",
+              "pos": "v"
+            },
+            {
+              "a": 116,
+              "b": 125,
+              "word": "eliminate",
+              "lemma": "eliminate",
+              "meaning": "取消；去除",
+              "pos": "v"
+            },
+            {
+              "a": 157,
+              "b": 162,
+              "word": "count",
+              "lemma": "count",
+              "meaning": "在评分中计入；占比",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        },
+        {
+          "id": "2012-T1-P4-S3",
+          "a": 273,
+          "b": 363,
+          "en": "Conversely, if homework matters, it should account for a significant portion of the grade.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 12,
+              "en": "Conversely, ",
+              "zh": "反过来说"
+            },
+            {
+              "a": 12,
+              "b": 33,
+              "en": "if homework matters, ",
+              "zh": "如果家庭作业确实重要"
+            },
+            {
+              "a": 33,
+              "b": 90,
+              "en": "it should account for a significant portion of the grade.",
+              "zh": "它就应该在总成绩中占相当大的比重"
+            }
+          ],
+          "reorder": "按原顺序译；account for 在此表示占比。",
+          "translation": "反过来说，如果家庭作业确实重要，它就应该在总成绩中占相当大的比重。",
+          "words": [
+            {
+              "a": 24,
+              "b": 31,
+              "word": "matters",
+              "lemma": "matter",
+              "meaning": "重要；有实际作用",
+              "pos": "n"
+            },
+            {
+              "a": 69,
+              "b": 76,
+              "word": "portion",
+              "lemma": "portion",
+              "meaning": "部分；比重",
+              "pos": "n"
+            },
+            {
+              "a": 84,
+              "b": 89,
+              "word": "grade",
+              "lemma": "grade",
+              "meaning": "成绩；分数",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 43,
+              "b": 54,
+              "lemma": "account for",
+              "meaning": "在此表示占……比例",
+              "word": "account for"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        },
+        {
+          "id": "2012-T1-P4-S4",
+          "a": 364,
+          "b": 588,
+          "en": "Meanwhile, this policy does nothing to ensure that the homework students receive is meaningful or appropriate to their age and the subject, or that teachers are not assigning more than they are willing to review and correct.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 36,
+              "en": "Meanwhile, this policy does nothing ",
+              "zh": "同时，这项政策完全没有采取保障措施"
+            },
+            {
+              "a": 36,
+              "b": 95,
+              "en": "to ensure that the homework students receive is meaningful ",
+              "zh": "确保学生收到的作业有意义"
+            },
+            {
+              "a": 95,
+              "b": 140,
+              "en": "or appropriate to their age and the subject, ",
+              "zh": "或适合他们的年龄和所学科目"
+            },
+            {
+              "a": 140,
+              "b": 224,
+              "en": "or that teachers are not assigning more than they are willing to review and correct.",
+              "zh": "也没有确保教师布置的作业量不超过自己愿意检查批改的量"
+            }
+          ],
+          "reorder": "does nothing to ensure 管后面各项；把第二个 or that 译成“也没有确保”，保留量的比较。",
+          "translation": "同时，这项政策既没有确保学生的作业有意义、适合其年龄和所学科目，也没有确保教师布置的作业不超过自己愿意检查批改的量。",
+          "words": [
+            {
+              "a": 98,
+              "b": 109,
+              "word": "appropriate",
+              "lemma": "appropriate",
+              "meaning": "适当的；适合的",
+              "pos": "a"
+            },
+            {
+              "a": 131,
+              "b": 138,
+              "word": "subject",
+              "lemma": "subject",
+              "meaning": "学科；科目",
+              "pos": "n"
+            },
+            {
+              "a": 165,
+              "b": 174,
+              "word": "assigning",
+              "lemma": "assign",
+              "meaning": "布置（作业）",
+              "pos": "v"
+            },
+            {
+              "a": 205,
+              "b": 211,
+              "word": "review",
+              "lemma": "review",
+              "meaning": "审阅；批改",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2012-T1-P5",
+      "en": "The homework rules should be put on hold while the school board, which is responsible for setting educational policy, looks into the matter and conducts public hearings. It is not too late for L.A. Unified to do homework right.",
+      "sentences": [
+        {
+          "id": "2012-T1-P5-S1",
+          "a": 0,
+          "b": 169,
+          "en": "The homework rules should be put on hold while the school board, which is responsible for setting educational policy, looks into the matter and conducts public hearings.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 41,
+              "en": "The homework rules should be put on hold ",
+              "zh": "这些家庭作业规定应当暂缓实施"
+            },
+            {
+              "a": 41,
+              "b": 65,
+              "en": "while the school board, ",
+              "zh": "在此期间，学校董事会"
+            },
+            {
+              "a": 65,
+              "b": 118,
+              "en": "which is responsible for setting educational policy, ",
+              "zh": "它负责制定教育政策"
+            },
+            {
+              "a": 118,
+              "b": 169,
+              "en": "looks into the matter and conducts public hearings.",
+              "zh": "应调查这一问题，并举行公开听证会"
+            }
+          ],
+          "reorder": "把 which 的职责说明放在“学校董事会”前；while 表示暂缓期间要开展的调查。",
+          "translation": "这些家庭作业规定应当暂缓实施，由负责制定教育政策的学校董事会调查这一问题，并举行公开听证会。",
+          "words": [
+            {
+              "a": 58,
+              "b": 63,
+              "word": "board",
+              "lemma": "board",
+              "meaning": "委员会；教育管理机构",
+              "pos": "n"
+            },
+            {
+              "a": 133,
+              "b": 139,
+              "word": "matter",
+              "lemma": "matter",
+              "meaning": "重要；有实际作用",
+              "pos": "n"
+            },
+            {
+              "a": 160,
+              "b": 168,
+              "word": "hearings",
+              "lemma": "hearing",
+              "meaning": "听证会",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 29,
+              "b": 40,
+              "lemma": "put on hold",
+              "meaning": "暂停实施；暂缓",
+              "word": "put on hold"
+            },
+            {
+              "a": 118,
+              "b": 128,
+              "lemma": "looks into",
+              "meaning": "调查；研究清楚",
+              "word": "looks into"
+            },
+            {
+              "a": 153,
+              "b": 168,
+              "lemma": "public hearings",
+              "meaning": "公开听证会",
+              "word": "public hearings"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        },
+        {
+          "id": "2012-T1-P5-S2",
+          "a": 170,
+          "b": 227,
+          "en": "It is not too late for L.A. Unified to do homework right.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 19,
+              "en": "It is not too late ",
+              "zh": "现在还不算太晚"
+            },
+            {
+              "a": 19,
+              "b": 57,
+              "en": "for L.A. Unified to do homework right.",
+              "zh": "洛杉矶联合学区仍来得及把家庭作业这件事处理好"
+            }
+          ],
+          "reorder": "把“洛杉矶联合学区”放到前面作主语，not too late 译成“还来得及”。",
+          "translation": "洛杉矶联合学区现在还来得及把家庭作业这件事处理好。",
+          "words": [],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        }
+      ]
+    }
+  ]
+}

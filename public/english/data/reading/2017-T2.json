@@ -1,0 +1,220 @@
+{
+  "version": 1,
+  "id": "2017-T2",
+  "exam": "2017_english2",
+  "year": 2017,
+  "text": 2,
+  "articleKey": "s1-p0-t1",
+  "source": {
+    "status": "pending",
+    "textSHA256": "666cce99c33749e647b3a336b83288c292fece52f361a2080f7704fb401d2535",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2017-T2-P1",
+      "en": "With so much focus on children's use of screens, it's easy for parents to forget about their own screen use. “Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement. It makes it hard to disengage, and leads to a lot of bleed-over into the family routine.”",
+      "sentences": [
+        {
+          "id": "2017-T2-P1-S1",
+          "a": 0,
+          "b": 108,
+          "en": "With so much focus on children's use of screens, it's easy for parents to forget about their own screen use.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2017-T2-P1-S2",
+          "a": 109,
+          "b": 262,
+          "en": "“Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2017-T2-P1-S3",
+          "a": 263,
+          "b": 352,
+          "en": "It makes it hard to disengage, and leads to a lot of bleed-over into the family routine.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2017-T2-P2",
+      "en": "Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother-child pairs a food-testing exercise. She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children. During a separate observation, she saw that phones became a source of tension in the family. Parents would be looking at their emails while the children would be making excited bids for their attention.",
+      "sentences": [
+        {
+          "id": "2017-T2-P2-S1",
+          "a": 0,
+          "b": 123,
+          "en": "Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother-child pairs a food-testing exercise.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2017-T2-P2-S2",
+          "a": 124,
+          "b": 282,
+          "en": "She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2017-T2-P2-S3",
+          "a": 283,
+          "b": 375,
+          "en": "During a separate observation, she saw that phones became a source of tension in the family.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2017-T2-P2-S4",
+          "a": 376,
+          "b": 485,
+          "en": "Parents would be looking at their emails while the children would be making excited bids for their attention.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2017-T2-P3",
+      "en": "Infants are wired to look at parents' faces to try to understand their world, and if those faces are blank and unresponsive – as they often are when absorbed in a device – it can be extremely disconcerting for the children. Radesky cites the “still face experiment” devised by developmental psychologist Ed Tronick in the 1970s. In it, a mother is asked to interact with her child in a normal way before putting on a blank expression and not giving them any visual social feedback: The child becomes increasingly distressed as she tries to capture her mother's attention. “Parents don't have to be exquisitely present at all times, but there needs to be a balance and parents need to be responsive and sensitive to a child's verbal or nonverbal expressions of an emotional need,” says Radesky.",
+      "sentences": [
+        {
+          "id": "2017-T2-P3-S1",
+          "a": 0,
+          "b": 223,
+          "en": "Infants are wired to look at parents' faces to try to understand their world, and if those faces are blank and unresponsive – as they often are when absorbed in a device – it can be extremely disconcerting for the children.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2017-T2-P3-S2",
+          "a": 224,
+          "b": 328,
+          "en": "Radesky cites the “still face experiment” devised by developmental psychologist Ed Tronick in the 1970s.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2017-T2-P3-S3",
+          "a": 329,
+          "b": 571,
+          "en": "In it, a mother is asked to interact with her child in a normal way before putting on a blank expression and not giving them any visual social feedback: The child becomes increasingly distressed as she tries to capture her mother's attention.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2017-T2-P3-S4",
+          "a": 572,
+          "b": 793,
+          "en": "“Parents don't have to be exquisitely present at all times, but there needs to be a balance and parents need to be responsive and sensitive to a child's verbal or nonverbal expressions of an emotional need,” says Radesky.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2017-T2-P4",
+      "en": "On the other hand, Tronick himself is concerned that the worries about kids' use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It's based on a somewhat fantasised, very white, very upper-middle-class ideology that says if you're failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn't learning from the screen doesn't mean there's no value to it – particularly if it gives parents time to have a shower, do housework or simply have a break from their child. Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier, which lets them be more available to their child the rest of the time.",
+      "sentences": [
+        {
+          "id": "2017-T2-P4-S1",
+          "a": 0,
+          "b": 382,
+          "en": "On the other hand, Tronick himself is concerned that the worries about kids' use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It's based on a somewhat fantasised, very white, very upper-middle-class ideology that says if you're failing to expose your child to 30,000 words you are neglecting them.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2017-T2-P4-S2",
+          "a": 383,
+          "b": 604,
+          "en": "Tronick believes that just because a child isn't learning from the screen doesn't mean there's no value to it – particularly if it gives parents time to have a shower, do housework or simply have a break from their child.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2017-T2-P4-S3",
+          "a": 605,
+          "b": 717,
+          "en": "Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2017-T2-P4-S4",
+          "a": 718,
+          "b": 821,
+          "en": "This can make them feel happier, which lets them be more available to their child the rest of the time.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

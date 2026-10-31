@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "id": "2022-T4",
+  "exam": "2022_english2",
+  "year": 2022,
+  "text": 4,
+  "articleKey": "s1-p0-t3",
+  "source": {
+    "status": "pending",
+    "textSHA256": "870ef852765f9cd72ef03b80dad9a2e3e58f00c76c6b487efbd585d610b2719b",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2022-T4-P1",
+      "en": "Although ethics classes are common around the world, scientists are unsure if their lessons can actually change behavior; evidence either way is weak, relying on contrived laboratory tests or sometimes unreliable self-reports. But a new study published in Cognition found that, in at least one real-world situation, a single ethics lesson may have had lasting effects.",
+      "sentences": [
+        {
+          "id": "2022-T4-P1-S1",
+          "a": 0,
+          "b": 226,
+          "en": "Although ethics classes are common around the world, scientists are unsure if their lessons can actually change behavior; evidence either way is weak, relying on contrived laboratory tests or sometimes unreliable self-reports.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2022-T4-P1-S2",
+          "a": 227,
+          "b": 368,
+          "en": "But a new study published in Cognition found that, in at least one real-world situation, a single ethics lesson may have had lasting effects.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2022-T4-P2",
+      "en": "The researchers investigated one class session's impact on eating meat. They chose this particular behavior for three reasons, according to study co-author Eric Schwitzgebel, a philosopher at the University of California, Riverside: students' attitudes on the topic are variable and unstable, behavior is easily measurable, and ethics literature largely agrees that eating less meat is good because it reduces environmental harm and animal suffering. Half of the students in four large philosophy classes read an article on the ethics of factory-farmed meat, optionally watched an 11-minute video on the topic and joined a 50-minute discussion. The other half focused on charitable giving instead. Then, unknown to the students, the researchers studied their anonymized meal-card purchases for that semester—nearly 14,000 receipts for almost 500 students.",
+      "sentences": [
+        {
+          "id": "2022-T4-P2-S1",
+          "a": 0,
+          "b": 71,
+          "en": "The researchers investigated one class session's impact on eating meat.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2022-T4-P2-S2",
+          "a": 72,
+          "b": 450,
+          "en": "They chose this particular behavior for three reasons, according to study co-author Eric Schwitzgebel, a philosopher at the University of California, Riverside: students' attitudes on the topic are variable and unstable, behavior is easily measurable, and ethics literature largely agrees that eating less meat is good because it reduces environmental harm and animal suffering.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2022-T4-P2-S3",
+          "a": 451,
+          "b": 644,
+          "en": "Half of the students in four large philosophy classes read an article on the ethics of factory-farmed meat, optionally watched an 11-minute video on the topic and joined a 50-minute discussion.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2022-T4-P2-S4",
+          "a": 645,
+          "b": 697,
+          "en": "The other half focused on charitable giving instead.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2022-T4-P2-S5",
+          "a": 698,
+          "b": 855,
+          "en": "Then, unknown to the students, the researchers studied their anonymized meal-card purchases for that semester—nearly 14,000 receipts for almost 500 students.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2022-T4-P3",
+      "en": "Schwitzgebel predicted the intervention would have no effect; he had previously found that ethics professors do not differ from other professors on a range of behaviors, including voting rates, blood donation and returning library books. But among student subjects who discussed meat ethics, meal purchases containing meat decreased from 52 to 45 percent—and this effect held steady for the study's duration of several weeks. Purchases from the other group remained at 52 percent.",
+      "sentences": [
+        {
+          "id": "2022-T4-P3-S1",
+          "a": 0,
+          "b": 237,
+          "en": "Schwitzgebel predicted the intervention would have no effect; he had previously found that ethics professors do not differ from other professors on a range of behaviors, including voting rates, blood donation and returning library books.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2022-T4-P3-S2",
+          "a": 238,
+          "b": 425,
+          "en": "But among student subjects who discussed meat ethics, meal purchases containing meat decreased from 52 to 45 percent—and this effect held steady for the study's duration of several weeks.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2022-T4-P3-S3",
+          "a": 426,
+          "b": 480,
+          "en": "Purchases from the other group remained at 52 percent.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2022-T4-P4",
+      "en": "“That's actually a pretty large effect for a pretty small intervention,” Schwitzgebel says. Psychologist Nina Strohminger at the University of Pennsylvania, who was not involved in the study, says she wants the effect to be real but cannot rule out some unknown confounding variable. And if real, she notes, it might be reversible by another nudge: “Easy come, easy go.”",
+      "sentences": [
+        {
+          "id": "2022-T4-P4-S1",
+          "a": 0,
+          "b": 91,
+          "en": "“That's actually a pretty large effect for a pretty small intervention,” Schwitzgebel says.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2022-T4-P4-S2",
+          "a": 92,
+          "b": 283,
+          "en": "Psychologist Nina Strohminger at the University of Pennsylvania, who was not involved in the study, says she wants the effect to be real but cannot rule out some unknown confounding variable.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2022-T4-P4-S3",
+          "a": 284,
+          "b": 370,
+          "en": "And if real, she notes, it might be reversible by another nudge: “Easy come, easy go.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2022-T4-P5",
+      "en": "Schwitzgebel suspects the greatest impact came from social influence- classmates or teaching assistants leading the discussions may have shared their own vegetarianism, showing it as achievable or more common. Second, the video may have had an emotional impact. Least rousing, he thinks, was rational argument, although his co-authors say reason might play a bigger role. Now the researchers are probing the specific effects of teaching style, teaching assistants' eating habits and students' video exposure. Meanwhile, Schwitzgebel—who had predicted no effect—will be eating his words.",
+      "sentences": [
+        {
+          "id": "2022-T4-P5-S1",
+          "a": 0,
+          "b": 209,
+          "en": "Schwitzgebel suspects the greatest impact came from social influence- classmates or teaching assistants leading the discussions may have shared their own vegetarianism, showing it as achievable or more common.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2022-T4-P5-S2",
+          "a": 210,
+          "b": 261,
+          "en": "Second, the video may have had an emotional impact.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2022-T4-P5-S3",
+          "a": 262,
+          "b": 371,
+          "en": "Least rousing, he thinks, was rational argument, although his co-authors say reason might play a bigger role.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2022-T4-P5-S4",
+          "a": 372,
+          "b": 508,
+          "en": "Now the researchers are probing the specific effects of teaching style, teaching assistants' eating habits and students' video exposure.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2022-T4-P5-S5",
+          "a": 509,
+          "b": 586,
+          "en": "Meanwhile, Schwitzgebel—who had predicted no effect—will be eating his words.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

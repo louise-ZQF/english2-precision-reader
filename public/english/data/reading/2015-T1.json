@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "id": "2015-T1",
+  "exam": "2015_english2",
+  "year": 2015,
+  "text": 1,
+  "articleKey": "s1-p0-t0",
+  "source": {
+    "status": "pending",
+    "textSHA256": "510bffd293fc9eade80316311a20ab29e761fe9572238d2161de493ac0f619e4",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2015-T1-P1",
+      "en": "A new study suggests that contrary to most surveys, people are actually more stressed at home than at work. Researchers measured people's cortisol, which is a stress marker, while they were at work and while they were at home and found it higher at what is supposed to be a place of refuge.",
+      "sentences": [
+        {
+          "id": "2015-T1-P1-S1",
+          "a": 0,
+          "b": 107,
+          "en": "A new study suggests that contrary to most surveys, people are actually more stressed at home than at work.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P1-S2",
+          "a": 108,
+          "b": 290,
+          "en": "Researchers measured people's cortisol, which is a stress marker, while they were at work and while they were at home and found it higher at what is supposed to be a place of refuge.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2015-T1-P2",
+      "en": "“Further contradicting conventional wisdom, we found that women as well as men have lower levels of stress at work than at home,” writes one of the researchers, Sarah Damaske. In fact women even say they feel better at work, she notes. “It is men, not women, who report being happier at home than at work.” Another surprise is that the findings hold true for both those with children and without, but more so for nonparents. This is why people who work outside the home have better health.",
+      "sentences": [
+        {
+          "id": "2015-T1-P2-S1",
+          "a": 0,
+          "b": 175,
+          "en": "“Further contradicting conventional wisdom, we found that women as well as men have lower levels of stress at work than at home,” writes one of the researchers, Sarah Damaske.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P2-S2",
+          "a": 176,
+          "b": 235,
+          "en": "In fact women even say they feel better at work, she notes.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P2-S3",
+          "a": 236,
+          "b": 306,
+          "en": "“It is men, not women, who report being happier at home than at work.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P2-S4",
+          "a": 307,
+          "b": 424,
+          "en": "Another surprise is that the findings hold true for both those with children and without, but more so for nonparents.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P2-S5",
+          "a": 425,
+          "b": 489,
+          "en": "This is why people who work outside the home have better health.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2015-T1-P3",
+      "en": "What the study doesn't measure is whether people are still doing work when they're at home, whether it is household work or work brought home from the office. For many men, the end of the workday is a time to kick back. For women who stay home, they never get to leave the office. And for women who work outside the home, they often are playing catch-up-with-household tasks. With the blurring of roles, and the fact that the home front lags well behind the workplace in making adjustments for working women, it's not surprising that women are more stressed at home.",
+      "sentences": [
+        {
+          "id": "2015-T1-P3-S1",
+          "a": 0,
+          "b": 158,
+          "en": "What the study doesn't measure is whether people are still doing work when they're at home, whether it is household work or work brought home from the office.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P3-S2",
+          "a": 159,
+          "b": 219,
+          "en": "For many men, the end of the workday is a time to kick back.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P3-S3",
+          "a": 220,
+          "b": 280,
+          "en": "For women who stay home, they never get to leave the office.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P3-S4",
+          "a": 281,
+          "b": 375,
+          "en": "And for women who work outside the home, they often are playing catch-up-with-household tasks.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P3-S5",
+          "a": 376,
+          "b": 566,
+          "en": "With the blurring of roles, and the fact that the home front lags well behind the workplace in making adjustments for working women, it's not surprising that women are more stressed at home.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2015-T1-P4",
+      "en": "But it's not just a gender thing. At work, people pretty much know what they're supposed to be doing: working, making money, doing the tasks they have to do in order to draw an income. The bargain is very pure: Employee puts in hours of physical or mental labor and employee draws out life-sustaining moola.",
+      "sentences": [
+        {
+          "id": "2015-T1-P4-S1",
+          "a": 0,
+          "b": 33,
+          "en": "But it's not just a gender thing.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P4-S2",
+          "a": 34,
+          "b": 184,
+          "en": "At work, people pretty much know what they're supposed to be doing: working, making money, doing the tasks they have to do in order to draw an income.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P4-S3",
+          "a": 185,
+          "b": 307,
+          "en": "The bargain is very pure: Employee puts in hours of physical or mental labor and employee draws out life-sustaining moola.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2015-T1-P5",
+      "en": "On the home front, however, people have no such clarity. Rare is the household in which the division of labor is so clinically and methodically laid out. There are a lot of tasks to be done, there are inadequate rewards for most of them. Your home colleagues – your family – have no clear rewards for their labor; they need to be talked into it, or if they're teenagers, threatened with complete removal of all electronic devices. Plus, they're your family. You cannot fire your family. You never really get to go home from home.",
+      "sentences": [
+        {
+          "id": "2015-T1-P5-S1",
+          "a": 0,
+          "b": 56,
+          "en": "On the home front, however, people have no such clarity.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P5-S2",
+          "a": 57,
+          "b": 153,
+          "en": "Rare is the household in which the division of labor is so clinically and methodically laid out.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P5-S3",
+          "a": 154,
+          "b": 237,
+          "en": "There are a lot of tasks to be done, there are inadequate rewards for most of them.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P5-S4",
+          "a": 238,
+          "b": 430,
+          "en": "Your home colleagues – your family – have no clear rewards for their labor; they need to be talked into it, or if they're teenagers, threatened with complete removal of all electronic devices.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P5-S5",
+          "a": 431,
+          "b": 457,
+          "en": "Plus, they're your family.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P5-S6",
+          "a": 458,
+          "b": 486,
+          "en": "You cannot fire your family.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P5-S7",
+          "a": 487,
+          "b": 529,
+          "en": "You never really get to go home from home.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2015-T1-P6",
+      "en": "So it's not surprising that people are more stressed at home. Not only are the tasks apparently infinite, the co-workers are much harder to motivate.",
+      "sentences": [
+        {
+          "id": "2015-T1-P6-S1",
+          "a": 0,
+          "b": 61,
+          "en": "So it's not surprising that people are more stressed at home.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T1-P6-S2",
+          "a": 62,
+          "b": 149,
+          "en": "Not only are the tasks apparently infinite, the co-workers are much harder to motivate.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

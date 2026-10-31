@@ -1,0 +1,328 @@
+{
+  "version": 1,
+  "id": "2014-T4",
+  "exam": "2014_english2",
+  "year": 2014,
+  "text": 4,
+  "articleKey": "s1-p0-t3",
+  "source": {
+    "status": "pending",
+    "textSHA256": "25cfa31c260b14bfdeff461a33012ad13ff359066571310f9f34ad56d6a96282",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2014-T4-P1",
+      "en": "When the government talks about infrastructure contributing to the economy the focus is usually on roads, railways, broadband and energy. Housing is seldom mentioned.",
+      "sentences": [
+        {
+          "id": "2014-T4-P1-S1",
+          "a": 0,
+          "b": 137,
+          "en": "When the government talks about infrastructure contributing to the economy the focus is usually on roads, railways, broadband and energy.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T4-P1-S2",
+          "a": 138,
+          "b": 166,
+          "en": "Housing is seldom mentioned.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2014-T4-P2",
+      "en": "Why is that? To some extent the housing sector must shoulder the blame. We have not been good at communicating the real value that housing can contribute to economic growth. Then there is the scale of the typical housing project. It is hard to shove for attention among multibillion-pound infrastructure projects, so it is inevitable that the attention is focused elsewhere. But perhaps the most significant reason is that the issue has always been so politically charged.",
+      "sentences": [
+        {
+          "id": "2014-T4-P2-S1",
+          "a": 0,
+          "b": 12,
+          "en": "Why is that?",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T4-P2-S2",
+          "a": 13,
+          "b": 71,
+          "en": "To some extent the housing sector must shoulder the blame.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T4-P2-S3",
+          "a": 72,
+          "b": 173,
+          "en": "We have not been good at communicating the real value that housing can contribute to economic growth.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T4-P2-S4",
+          "a": 174,
+          "b": 229,
+          "en": "Then there is the scale of the typical housing project.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T4-P2-S5",
+          "a": 230,
+          "b": 374,
+          "en": "It is hard to shove for attention among multibillion-pound infrastructure projects, so it is inevitable that the attention is focused elsewhere.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T4-P2-S6",
+          "a": 375,
+          "b": 472,
+          "en": "But perhaps the most significant reason is that the issue has always been so politically charged.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2014-T4-P3",
+      "en": "Nevertheless, the affordable housing situation is desperate. Waiting lists increase all the time and we are simply not building enough new homes.",
+      "sentences": [
+        {
+          "id": "2014-T4-P3-S1",
+          "a": 0,
+          "b": 60,
+          "en": "Nevertheless, the affordable housing situation is desperate.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T4-P3-S2",
+          "a": 61,
+          "b": 145,
+          "en": "Waiting lists increase all the time and we are simply not building enough new homes.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2014-T4-P4",
+      "en": "The comprehensive spending review offers an opportunity for the government to help rectify this. It needs to put historical prejudices to one side and take some steps to address our urgent housing need.",
+      "sentences": [
+        {
+          "id": "2014-T4-P4-S1",
+          "a": 0,
+          "b": 96,
+          "en": "The comprehensive spending review offers an opportunity for the government to help rectify this.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T4-P4-S2",
+          "a": 97,
+          "b": 202,
+          "en": "It needs to put historical prejudices to one side and take some steps to address our urgent housing need.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2014-T4-P5",
+      "en": "There are some indications that it is preparing to do just that. The communities minister, Don Foster, has hinted that George Osborne, Chancellor of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt. Evidence shows that 60,000 extra new homes could be built over the next five years if the cap were lifted, increasing GDP by 0.6%.",
+      "sentences": [
+        {
+          "id": "2014-T4-P5-S1",
+          "a": 0,
+          "b": 64,
+          "en": "There are some indications that it is preparing to do just that.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T4-P5-S2",
+          "a": 65,
+          "b": 295,
+          "en": "The communities minister, Don Foster, has hinted that George Osborne, Chancellor of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T4-P5-S3",
+          "a": 296,
+          "b": 426,
+          "en": "Evidence shows that 60,000 extra new homes could be built over the next five years if the cap were lifted, increasing GDP by 0.6%.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2014-T4-P6",
+      "en": "Ministers should also look at creating greater certainty in the rental environment, which would have a significant impact on the ability of registered providers to fund new developments from revenues.",
+      "sentences": [
+        {
+          "id": "2014-T4-P6-S1",
+          "a": 0,
+          "b": 200,
+          "en": "Ministers should also look at creating greater certainty in the rental environment, which would have a significant impact on the ability of registered providers to fund new developments from revenues.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2014-T4-P7",
+      "en": "But it is not just down to the government. While these measures would be welcome in the short term, we must face up to the fact that the existing £ 4.5bn programme of grants to fund new affordable housing, set to expire in 2015, is unlikely to be extended beyond then. The Labour party has recently announced that it will retain a large part of the coalition's spending plans if it returns to power. The housing sector needs to accept that we are very unlikely to ever return to the era of large-scale public grants. We need to adjust to this changing climate.",
+      "sentences": [
+        {
+          "id": "2014-T4-P7-S1",
+          "a": 0,
+          "b": 42,
+          "en": "But it is not just down to the government.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T4-P7-S2",
+          "a": 43,
+          "b": 268,
+          "en": "While these measures would be welcome in the short term, we must face up to the fact that the existing £ 4.5bn programme of grants to fund new affordable housing, set to expire in 2015, is unlikely to be extended beyond then.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T4-P7-S3",
+          "a": 269,
+          "b": 399,
+          "en": "The Labour party has recently announced that it will retain a large part of the coalition's spending plans if it returns to power.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T4-P7-S4",
+          "a": 400,
+          "b": 516,
+          "en": "The housing sector needs to accept that we are very unlikely to ever return to the era of large-scale public grants.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2014-T4-P7-S5",
+          "a": 517,
+          "b": 560,
+          "en": "We need to adjust to this changing climate.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2014-T4-P8",
+      "en": "While the government's commitment to long-term funding may have changed, the very pressing need for more affordable housing is real and is not going away.",
+      "sentences": [
+        {
+          "id": "2014-T4-P8-S1",
+          "a": 0,
+          "b": 154,
+          "en": "While the government's commitment to long-term funding may have changed, the very pressing need for more affordable housing is real and is not going away.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

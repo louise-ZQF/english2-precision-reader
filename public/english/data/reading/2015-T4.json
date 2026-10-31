@@ -1,0 +1,334 @@
+{
+  "version": 1,
+  "id": "2015-T4",
+  "exam": "2015_english2",
+  "year": 2015,
+  "text": 4,
+  "articleKey": "s1-p0-t3",
+  "source": {
+    "status": "pending",
+    "textSHA256": "8ad6e99a874887aaee182268fc7c14d403533ad1260e4794aa4e0312c62226d8",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2015-T4-P1",
+      "en": "Many people talked of the 288,000 new jobs the Labor Department reported for June, along with the drop in the unemployment rate to 6.1 percent, as good news. And they were right. For now it appears the economy is creating jobs at a decent pace. We still have a long way to go to get back to full employment, but at least we are now finally moving forward at a faster pace.",
+      "sentences": [
+        {
+          "id": "2015-T4-P1-S1",
+          "a": 0,
+          "b": 157,
+          "en": "Many people talked of the 288,000 new jobs the Labor Department reported for June, along with the drop in the unemployment rate to 6.1 percent, as good news.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T4-P1-S2",
+          "a": 158,
+          "b": 178,
+          "en": "And they were right.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T4-P1-S3",
+          "a": 179,
+          "b": 244,
+          "en": "For now it appears the economy is creating jobs at a decent pace.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T4-P1-S4",
+          "a": 245,
+          "b": 372,
+          "en": "We still have a long way to go to get back to full employment, but at least we are now finally moving forward at a faster pace.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2015-T4-P2",
+      "en": "However, there is another important part of the jobs picture that was largely overlooked. There was a big jump in the number of people who report voluntarily working part-time. This figure is now 830,000（4.4 percent）above its year ago level.",
+      "sentences": [
+        {
+          "id": "2015-T4-P2-S1",
+          "a": 0,
+          "b": 89,
+          "en": "However, there is another important part of the jobs picture that was largely overlooked.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T4-P2-S2",
+          "a": 90,
+          "b": 176,
+          "en": "There was a big jump in the number of people who report voluntarily working part-time.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T4-P2-S3",
+          "a": 177,
+          "b": 241,
+          "en": "This figure is now 830,000（4.4 percent）above its year ago level.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2015-T4-P3",
+      "en": "Before explaining the connection to the Obamacare, it is worth making an important distinction. Many people who work part-time jobs actually want full-time jobs. They take part-time work because this is all they can get. An increase in involuntary part-time work is evidence of weakness in the labor market and it means that many people will be having a very hard time making ends meet.",
+      "sentences": [
+        {
+          "id": "2015-T4-P3-S1",
+          "a": 0,
+          "b": 95,
+          "en": "Before explaining the connection to the Obamacare, it is worth making an important distinction.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T4-P3-S2",
+          "a": 96,
+          "b": 161,
+          "en": "Many people who work part-time jobs actually want full-time jobs.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T4-P3-S3",
+          "a": 162,
+          "b": 220,
+          "en": "They take part-time work because this is all they can get.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T4-P3-S4",
+          "a": 221,
+          "b": 386,
+          "en": "An increase in involuntary part-time work is evidence of weakness in the labor market and it means that many people will be having a very hard time making ends meet.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2015-T4-P4",
+      "en": "There was an increase in involuntary part-time in June, but the general direction has been down. Involuntary part-time employment is still far higher than before the recession, but it is down by 640,000 (7.9 percent) from its year ago level.",
+      "sentences": [
+        {
+          "id": "2015-T4-P4-S1",
+          "a": 0,
+          "b": 96,
+          "en": "There was an increase in involuntary part-time in June, but the general direction has been down.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T4-P4-S2",
+          "a": 97,
+          "b": 241,
+          "en": "Involuntary part-time employment is still far higher than before the recession, but it is down by 640,000 (7.9 percent) from its year ago level.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2015-T4-P5",
+      "en": "We know the difference between voluntary and involuntary part-time employment because people tell us. The survey used by the Labor Department asks people if they worked less than 35 hours in the reference week. If the answer is “yes,” they are classified as working part-time. The survey then asks whether they worked less than 35 hours in that week because they wanted to work less than full time or because they had no choice. They are only classified as voluntary part-time workers if they tell the survey taker they chose to work less than 35 hours a week.",
+      "sentences": [
+        {
+          "id": "2015-T4-P5-S1",
+          "a": 0,
+          "b": 101,
+          "en": "We know the difference between voluntary and involuntary part-time employment because people tell us.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T4-P5-S2",
+          "a": 102,
+          "b": 210,
+          "en": "The survey used by the Labor Department asks people if they worked less than 35 hours in the reference week.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T4-P5-S3",
+          "a": 211,
+          "b": 276,
+          "en": "If the answer is “yes,” they are classified as working part-time.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T4-P5-S4",
+          "a": 277,
+          "b": 428,
+          "en": "The survey then asks whether they worked less than 35 hours in that week because they wanted to work less than full time or because they had no choice.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T4-P5-S5",
+          "a": 429,
+          "b": 560,
+          "en": "They are only classified as voluntary part-time workers if they tell the survey taker they chose to work less than 35 hours a week.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2015-T4-P6",
+      "en": "The issue of voluntary part-time relates to Obamacare because one of the main purposes was to allow people to get insurance outside of employment. For many people, especially those with serious health conditions or family members with serious health conditions, before Obamacare the only way to get insurance was through a job that provided health insurance.",
+      "sentences": [
+        {
+          "id": "2015-T4-P6-S1",
+          "a": 0,
+          "b": 146,
+          "en": "The issue of voluntary part-time relates to Obamacare because one of the main purposes was to allow people to get insurance outside of employment.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T4-P6-S2",
+          "a": 147,
+          "b": 358,
+          "en": "For many people, especially those with serious health conditions or family members with serious health conditions, before Obamacare the only way to get insurance was through a job that provided health insurance.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2015-T4-P7",
+      "en": "However, Obamacare has allowed more than 12 million people to either get insurance through Medicaid or the exchanges. These are people who may previously have felt the need to get a full-time job that provided insurance in order to cover themselves and their families. With Obamacare there is no longer a link between employment and insurance.",
+      "sentences": [
+        {
+          "id": "2015-T4-P7-S1",
+          "a": 0,
+          "b": 117,
+          "en": "However, Obamacare has allowed more than 12 million people to either get insurance through Medicaid or the exchanges.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T4-P7-S2",
+          "a": 118,
+          "b": 268,
+          "en": "These are people who may previously have felt the need to get a full-time job that provided insurance in order to cover themselves and their families.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2015-T4-P7-S3",
+          "a": 269,
+          "b": 343,
+          "en": "With Obamacare there is no longer a link between employment and insurance.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

@@ -1008,6 +1008,7 @@
     function openDrawer() {
         el.wordListDrawer.classList.add('open');
         renderWordList();
+        if (window.EnglishReading) window.EnglishReading.prepareWords(Object.values(state.words)).then(() => { if (el.wordListDrawer.classList.contains('open')) renderWordList(); });
         setTimeout(() => el.wordSearch.focus(), 100);
     }
 
@@ -1149,7 +1150,8 @@
                 dblMode: localStorage.getItem(DBL_MODE_KEY),
                 tts: localStorage.getItem(SRS_TTS_KEY),
                 precision: window.EnglishPrecision ? window.EnglishPrecision.exportData() : null,
-                study: window.EnglishStudy ? window.EnglishStudy.exportData() : null
+                study: window.EnglishStudy ? window.EnglishStudy.exportData() : null,
+                reading: window.EnglishReading ? window.EnglishReading.exportData() : null
             }
         };
     }
@@ -1174,6 +1176,10 @@
 
     /** 校验并写入备份对象；确认后重载。fromCode：导入成功后清理 URL 参数 */
     async function applyBackupData(obj, fromCode) {
+        if (obj && obj.app === 'english2-reading-corrections' && window.EnglishReading) {
+            try { const count = await window.EnglishReading.importData(obj); showToast('已合并 ' + count + ' 句阅读纠错，收藏与复习记录保留', 'success'); if (state.activeExamId) renderExam(state.exams.find(e => e.exam_id === state.activeExamId)); return true; }
+            catch (e) { showToast(e.message, 'error'); return false; }
+        }
         if (!obj || obj.app !== BACKUP_APP || obj.kind !== 'backup' || !obj.data || typeof obj.data !== 'object') {
             showToast('这不是英语站的备份数据', 'error');
             return false;
@@ -1196,6 +1202,7 @@
         );
         if (!ok) return false;
         try {
+            if (obj.data.reading && window.EnglishReading) await window.EnglishReading.importData(obj.data.reading);
             if (words) localStorage.setItem(STORAGE_KEY_WORDS, JSON.stringify(words));
             if (srs) localStorage.setItem(SRS_KEY, JSON.stringify(srs));
             if (typeof obj.data.srsLimits === 'string') localStorage.setItem(SRS_LIMITS_KEY, obj.data.srsLimits);
@@ -1405,8 +1412,8 @@
         return html;
     }
 
-    function studyArticleStart(key, label, heading) {
-        return '<section class="study-article" id="study-article-' + key + '" data-study-article="' + key + '" data-study-label="' + escapeHtml(label) + '"><div class="study-article-heading">' + heading + '<div class="study-article-controls"></div></div>';
+    function studyArticleStart(key, label, heading, readingId) {
+        return '<section class="study-article" id="study-article-' + key + '" data-study-article="' + key + '" data-study-label="' + escapeHtml(label) + '"' + (readingId ? ' data-reading-article="' + escapeHtml(readingId) + '"' : '') + '><div class="study-article-heading">' + heading + '<div class="study-article-controls"></div></div>';
     }
 
     function renderExam(exam) {
@@ -1466,7 +1473,7 @@
 
                     if (part.texts) {
                         part.texts.forEach((text, textIndex) => {
-                            html += studyArticleStart('s' + sectionIndex + '-p' + partIndex + '-t' + textIndex, text.title || ('Text ' + (textIndex + 1)), '<h5 class="text-title">' + escapeHtml(text.title || '') + '</h5>');
+                            html += studyArticleStart('s' + sectionIndex + '-p' + partIndex + '-t' + textIndex, text.title || ('Text ' + (textIndex + 1)), '<h5 class="text-title">' + escapeHtml(text.title || '') + '</h5>', exam.year + '-T' + (textIndex + 1));
                             passageParagraphs((text.paragraphs || []).join('\n\n')).forEach(p => {
                                 html += '<p class="paragraph">' + renderClickableText(p) + '</p>';
                             });

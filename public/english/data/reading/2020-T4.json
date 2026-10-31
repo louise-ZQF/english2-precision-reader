@@ -1,0 +1,256 @@
+{
+  "version": 1,
+  "id": "2020-T4",
+  "exam": "2020_english2",
+  "year": 2020,
+  "text": 4,
+  "articleKey": "s1-p0-t3",
+  "source": {
+    "status": "pending",
+    "textSHA256": "ec29894ce7298e626aeef6d95ade04e041c33dc784eea4f6d20d4ce61f1e6308",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2020-T4-P1",
+      "en": "Now that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born after 1995, give or take a year—the attention has been rising steadily in recent weeks. Gen Zs are about to hit the streets looking for work in a labor market that's tighter than it's been in decades. And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, according to a survey conducted by the National Association of Colleges and Employers. Everybody wants to know how the people who will soon inhabit those empty office cubicles will differ from those who came before them.",
+      "sentences": [
+        {
+          "id": "2020-T4-P1-S1",
+          "a": 0,
+          "b": 223,
+          "en": "Now that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born after 1995, give or take a year—the attention has been rising steadily in recent weeks.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2020-T4-P1-S2",
+          "a": 224,
+          "b": 336,
+          "en": "Gen Zs are about to hit the streets looking for work in a labor market that's tighter than it's been in decades.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2020-T4-P1-S3",
+          "a": 337,
+          "b": 538,
+          "en": "And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, according to a survey conducted by the National Association of Colleges and Employers.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2020-T4-P1-S4",
+          "a": 539,
+          "b": 672,
+          "en": "Everybody wants to know how the people who will soon inhabit those empty office cubicles will differ from those who came before them.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2020-T4-P2",
+      "en": "If “entitled” is the most common adjective, fairly or not, applied to millennials (those born between 1981 and 1995), the catchwords for Generation Z are practical and cautious. According to the career counselors and experts who study them, Generation Zs are clear-eyed, economic pragmatists. Despite graduating into the best economy in the past 50 years, Gen Zs know what an economic train wreck looks like. They were impressionable kids during the crash of 2008, when many of their parents lost their jobs or their life savings or both. They aren't interested in taking any chances. The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency, especially for those who have college debt. College loan balances in the U.S. now stand at a record $1.5 trillion, according to the Federal Reserve.",
+      "sentences": [
+        {
+          "id": "2020-T4-P2-S1",
+          "a": 0,
+          "b": 177,
+          "en": "If “entitled” is the most common adjective, fairly or not, applied to millennials (those born between 1981 and 1995), the catchwords for Generation Z are practical and cautious.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2020-T4-P2-S2",
+          "a": 178,
+          "b": 292,
+          "en": "According to the career counselors and experts who study them, Generation Zs are clear-eyed, economic pragmatists.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2020-T4-P2-S3",
+          "a": 293,
+          "b": 408,
+          "en": "Despite graduating into the best economy in the past 50 years, Gen Zs know what an economic train wreck looks like.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2020-T4-P2-S4",
+          "a": 409,
+          "b": 538,
+          "en": "They were impressionable kids during the crash of 2008, when many of their parents lost their jobs or their life savings or both.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2020-T4-P2-S5",
+          "a": 539,
+          "b": 584,
+          "en": "They aren't interested in taking any chances.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2020-T4-P2-S6",
+          "a": 585,
+          "b": 740,
+          "en": "The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency, especially for those who have college debt.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2020-T4-P2-S7",
+          "a": 741,
+          "b": 845,
+          "en": "College loan balances in the U.S. now stand at a record $1.5 trillion, according to the Federal Reserve.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2020-T4-P3",
+      "en": "One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind. In a 2019 survey of University of Georgia students, meanwhile, the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development and training, and then inspiring purpose). Job security or stability was the second most important career goal(work-life balance was number one), followed by a sense of being dedicated to a cause or to feel good about serving the greater good.",
+      "sentences": [
+        {
+          "id": "2020-T4-P3-S1",
+          "a": 0,
+          "b": 117,
+          "en": "One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2020-T4-P3-S2",
+          "a": 118,
+          "b": 374,
+          "en": "In a 2019 survey of University of Georgia students, meanwhile, the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development and training, and then inspiring purpose).",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2020-T4-P3-S3",
+          "a": 375,
+          "b": 575,
+          "en": "Job security or stability was the second most important career goal(work-life balance was number one), followed by a sense of being dedicated to a cause or to feel good about serving the greater good.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2020-T4-P4",
+      "en": "That's a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya Michelsen, Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth. “Generation Zs are looking for more certainty and stability, because of the rise of the gig economy. They have troubles seeing a financial future and they are quite risk averse.”",
+      "sentences": [
+        {
+          "id": "2020-T4-P4-S1",
+          "a": 0,
+          "b": 49,
+          "en": "That's a big change from the previous generation.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2020-T4-P4-S2",
+          "a": 50,
+          "b": 301,
+          "en": "“Millennials wanted more flexibility in their lives,” notes Tanya Michelsen, Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2020-T4-P4-S3",
+          "a": 302,
+          "b": 402,
+          "en": "“Generation Zs are looking for more certainty and stability, because of the rise of the gig economy.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2020-T4-P4-S4",
+          "a": 403,
+          "b": 480,
+          "en": "They have troubles seeing a financial future and they are quite risk averse.”",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

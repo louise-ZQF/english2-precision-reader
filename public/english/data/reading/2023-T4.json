@@ -1,0 +1,334 @@
+{
+  "version": 1,
+  "id": "2023-T4",
+  "exam": "2023_english2",
+  "year": 2023,
+  "text": 4,
+  "articleKey": "s1-p0-t3",
+  "source": {
+    "status": "pending",
+    "textSHA256": "8aeb2b49342acf6c148d5bcacf37f9ab42fef4b256c75bba7daaa18b20384c04",
+    "evidence": [],
+    "notes": []
+  },
+  "paragraphs": [
+    {
+      "id": "2023-T4-P1",
+      "en": "Teenagers are paradoxical. That's a mild and detached way of saying something that parents often express with considerably stronger language. But the paradox is scientific as well as personal. In adolescence, helpless and dependent children who have relied on grown-ups for just about everything become independent people who can take care of themselves and help each other. At the same time, once cheerful and compliant children become rebellious teenage risk-takers.",
+      "sentences": [
+        {
+          "id": "2023-T4-P1-S1",
+          "a": 0,
+          "b": 26,
+          "en": "Teenagers are paradoxical.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2023-T4-P1-S2",
+          "a": 27,
+          "b": 141,
+          "en": "That's a mild and detached way of saying something that parents often express with considerably stronger language.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2023-T4-P1-S3",
+          "a": 142,
+          "b": 192,
+          "en": "But the paradox is scientific as well as personal.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2023-T4-P1-S4",
+          "a": 193,
+          "b": 374,
+          "en": "In adolescence, helpless and dependent children who have relied on grown-ups for just about everything become independent people who can take care of themselves and help each other.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2023-T4-P1-S5",
+          "a": 375,
+          "b": 468,
+          "en": "At the same time, once cheerful and compliant children become rebellious teenage risk-takers.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2023-T4-P2",
+      "en": "A new study published in the journal Child Development by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of teenagers go hand in hand. The study is part of a new wave of thinking about adolescence. For a long time, scientists and policy makers concentrated on the idea that teenagers were a problem needed to be solved. The new work emphasizes that adolescence is a time of opportunity as well as risk.",
+      "sentences": [
+        {
+          "id": "2023-T4-P2-S1",
+          "a": 0,
+          "b": 191,
+          "en": "A new study published in the journal Child Development by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of teenagers go hand in hand.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2023-T4-P2-S2",
+          "a": 192,
+          "b": 254,
+          "en": "The study is part of a new wave of thinking about adolescence.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2023-T4-P2-S3",
+          "a": 255,
+          "b": 376,
+          "en": "For a long time, scientists and policy makers concentrated on the idea that teenagers were a problem needed to be solved.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2023-T4-P2-S4",
+          "a": 377,
+          "b": 459,
+          "en": "The new work emphasizes that adolescence is a time of opportunity as well as risk.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2023-T4-P3",
+      "en": "The researchers studied \"prosocial\" and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old. The participants filled out questions about how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend or rebellious and negative, like getting drunk or staying out late.",
+      "sentences": [
+        {
+          "id": "2023-T4-P3-S1",
+          "a": 0,
+          "b": 134,
+          "en": "The researchers studied \"prosocial\" and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2023-T4-P3-S2",
+          "a": 135,
+          "b": 361,
+          "en": "The participants filled out questions about how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend or rebellious and negative, like getting drunk or staying out late.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2023-T4-P4",
+      "en": "Other studies have shown that rebellious behavior increased as you become a teenager and then fades away as you grow older. But the new study shows that, interestingly, the same pattern holds for prosocial behavior. Teenagers were more likely than younger children or adults to report that they did things like unselfishly help a friend.",
+      "sentences": [
+        {
+          "id": "2023-T4-P4-S1",
+          "a": 0,
+          "b": 123,
+          "en": "Other studies have shown that rebellious behavior increased as you become a teenager and then fades away as you grow older.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2023-T4-P4-S2",
+          "a": 124,
+          "b": 215,
+          "en": "But the new study shows that, interestingly, the same pattern holds for prosocial behavior.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2023-T4-P4-S3",
+          "a": 216,
+          "b": 337,
+          "en": "Teenagers were more likely than younger children or adults to report that they did things like unselfishly help a friend.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2023-T4-P5",
+      "en": "Most significantly, there was a positive correlation between prosociality and rebelliousness. The teenagers who were more rebellious were also more likely to help others. The good and bad sides of adolescence seem to develop together.",
+      "sentences": [
+        {
+          "id": "2023-T4-P5-S1",
+          "a": 0,
+          "b": 93,
+          "en": "Most significantly, there was a positive correlation between prosociality and rebelliousness.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2023-T4-P5-S2",
+          "a": 94,
+          "b": 170,
+          "en": "The teenagers who were more rebellious were also more likely to help others.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2023-T4-P5-S3",
+          "a": 171,
+          "b": 234,
+          "en": "The good and bad sides of adolescence seem to develop together.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2023-T4-P6",
+      "en": "Is there some common factor that underlies these apparently contradictory developments? One idea is that teenager behavior is related to what researchers call” reward sensitivity.\" Decision-making always involves balancing rewards and risks, benefits and costs “Reward sensitivity” 'measures how much reward it takes to outweigh risk.",
+      "sentences": [
+        {
+          "id": "2023-T4-P6-S1",
+          "a": 0,
+          "b": 87,
+          "en": "Is there some common factor that underlies these apparently contradictory developments?",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2023-T4-P6-S2",
+          "a": 88,
+          "b": 180,
+          "en": "One idea is that teenager behavior is related to what researchers call” reward sensitivity.\"",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2023-T4-P6-S3",
+          "a": 181,
+          "b": 334,
+          "en": "Decision-making always involves balancing rewards and risks, benefits and costs “Reward sensitivity” 'measures how much reward it takes to outweigh risk.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    },
+    {
+      "id": "2023-T4-P7",
+      "en": "Teenagers are particularly sensitive to social rewards-winning the game, impressing a new friend, getting that boy to notice you. Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age. Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn't seem to outweigh the effort of getting up off the couch.",
+      "sentences": [
+        {
+          "id": "2023-T4-P7-S1",
+          "a": 0,
+          "b": 129,
+          "en": "Teenagers are particularly sensitive to social rewards-winning the game, impressing a new friend, getting that boy to notice you.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2023-T4-P7-S2",
+          "a": 130,
+          "b": 251,
+          "en": "Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        },
+        {
+          "id": "2023-T4-P7-S3",
+          "a": 252,
+          "b": 416,
+          "en": "Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn't seem to outweigh the effort of getting up off the couch.",
+          "status": "pending",
+          "chunks": [],
+          "reorder": "",
+          "translation": "",
+          "words": [],
+          "phrases": []
+        }
+      ]
+    }
+  ]
+}

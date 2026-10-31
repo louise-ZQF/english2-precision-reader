@@ -225,7 +225,12 @@
             const readingParagraph = node.matches('p.paragraph') && window.EnglishReading && window.EnglishReading.paragraph(exam.exam_id, articleNode && articleNode.dataset.studyArticle, raw);
             if (readingParagraph) {
                 node.id = readingParagraph.id;
-                sentences = readingParagraph.sentences.map(item => ({ ...(sentences.find(s => s.en === item.en) || fallbackSentences(item.en)[0]), a: item.a, b: item.b, en: item.en, readingId: item.id }));
+                sentences = readingParagraph.sentences.map(item => {
+                    const parsed = sentences.find(s => s.en === item.en);
+                    // An audited sentence may join fragments the old segmenter split.
+                    const fallback = parsed ? null : { tokens: fallbackSentences(item.en).flatMap(part => part.tokens.map(token => ({ ...token, a: token.a + part.a, b: token.b + part.a }))), groups: [], core: [], zh: '' };
+                    return { ...(parsed || fallback), a: item.a, b: item.b, en: item.en, readingId: item.id };
+                });
             }
             const prefix = Array.from(node.children).filter(x => x.matches('.question-num,.option-letter,.choice-letter')).map(x => x.outerHTML).join('');
             node.classList.toggle('precision-paragraph', isParagraph);

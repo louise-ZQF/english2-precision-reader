@@ -6,10 +6,21 @@
   "text": 4,
   "articleKey": "s1-p0-t3",
   "source": {
-    "status": "pending",
-    "textSHA256": "d0d6ba4db2482a67b87980ba7e8b655a747ede1daf808e44db8581a5970e3f21",
-    "evidence": [],
-    "notes": []
+    "status": "verified",
+    "textSHA256": "d1f590cd353eb19dab91b95a9077d048ae44ad11562bdd7e196ead13409c97d7",
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2024年考研英语二真题.pdf",
+        "page": 10,
+        "sha256": "682ee3bcf3ae4d92fe147854408dcde67dc566a6c2887bfb4403cd368be7eaa9"
+      }
+    ],
+    "notes": [
+      "对照原卷确认正文，纠正sensitivity fertility的录入错误为sensitive fertility；法律内容按原文历史时点翻译。"
+    ],
+    "checkedAt": "2026-10-31",
+    "method": "逐段对照用户提供的原卷；保留原卷有效英文，修复旧题库的漏句、多句及录入错误后逐句编辑中文。"
   },
   "paragraphs": [
     {
@@ -21,36 +32,179 @@
           "a": 0,
           "b": 117,
           "en": "If you look at the apps on your phone, chances are you have at least one related to your health—and probably several.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 39,
+              "en": "If you look at the apps on your phone, ",
+              "zh": "如果看看手机上的应用，"
+            },
+            {
+              "a": 39,
+              "b": 73,
+              "en": "chances are you have at least one ",
+              "zh": "你很可能至少有一个，"
+            },
+            {
+              "a": 73,
+              "b": 96,
+              "en": "related to your health—",
+              "zh": "与健康有关，"
+            },
+            {
+              "a": 96,
+              "b": 117,
+              "en": "and probably several.",
+              "zh": "而且可能不止一个。"
+            }
+          ],
+          "reorder": "将 related 的修饰放到应用前；chances are 为很可能，不译成机会。",
+          "translation": "看看手机上的应用，你很可能至少装了一个健康类应用，甚至可能有好几个。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 39,
+              "b": 50,
+              "word": "chances are",
+              "lemma": "chances are",
+              "meaning": "很可能"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2024-T4-P1-S2",
           "a": 118,
           "b": 325,
           "en": "Whether it is a mental health app, a fitness tracker, a connected health device or something else, many of us are taking advantage of this technology to keep better track of our health in some shape or form.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 99,
+              "en": "Whether it is a mental health app, a fitness tracker, a connected health device or something else, ",
+              "zh": "无论是心理健康应用、健身追踪器、联网健康设备还是别的东西，"
+            },
+            {
+              "a": 99,
+              "b": 150,
+              "en": "many of us are taking advantage of this technology ",
+              "zh": "我们许多人都在利用这种技术，"
+            },
+            {
+              "a": 150,
+              "b": 185,
+              "en": "to keep better track of our health ",
+              "zh": "更好地追踪自己的健康状况，"
+            },
+            {
+              "a": 185,
+              "b": 207,
+              "en": "in some shape or form.",
+              "zh": "通过某种方式。"
+            }
+          ],
+          "reorder": "whether 列出的设备是让步范围；to keep 是使用目的；末尾形容方式，不是身体形状。",
+          "translation": "无论用的是心理健康应用、健身追踪器、联网健康设备，还是其他工具，我们许多人都在以某种方式利用这些技术，更好地追踪自己的健康状况。",
+          "words": [
+            {
+              "a": 45,
+              "b": 52,
+              "word": "tracker",
+              "lemma": "tracker",
+              "meaning": "追踪记录工具",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 37,
+              "b": 52,
+              "lemma": "fitness tracker",
+              "meaning": "健身追踪设备",
+              "word": "fitness tracker"
+            },
+            {
+              "a": 153,
+              "b": 173,
+              "word": "keep better track of",
+              "lemma": "keep track of",
+              "meaning": "更好地持续了解；追踪"
+            },
+            {
+              "a": 185,
+              "b": 206,
+              "word": "in some shape or form",
+              "lemma": "in some shape or form",
+              "meaning": "以某种方式或形式"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2024-T4-P1-S3",
           "a": 326,
           "b": 511,
           "en": "Recent research from the Organization for the Review of Care and Health Applications found that 350,000 health apps were available on the market, 90,000 of which launched in 2020 alone.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 85,
+              "en": "Recent research from the Organization for the Review of Care and Health Applications ",
+              "zh": "医疗与健康应用评审组织近期的一项研究，"
+            },
+            {
+              "a": 85,
+              "b": 96,
+              "en": "found that ",
+              "zh": "发现，"
+            },
+            {
+              "a": 96,
+              "b": 146,
+              "en": "350,000 health apps were available on the market, ",
+              "zh": "市面上已有35万个健康类应用，"
+            },
+            {
+              "a": 146,
+              "b": 185,
+              "en": "90,000 of which launched in 2020 alone.",
+              "zh": "其中仅2020年就推出了9万个。"
+            }
+          ],
+          "reorder": "which 指前面的应用总数；alone 限定仅2020年，不是只有这些应用可用。",
+          "translation": "医疗与健康应用评审组织近期研究发现，市面上已有35万个健康类应用，其中仅2020年就推出了9万个。",
+          "words": [
+            {
+              "a": 162,
+              "b": 170,
+              "word": "launched",
+              "lemma": "launch",
+              "meaning": "推出；上线"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -63,90 +217,484 @@
           "a": 0,
           "b": 150,
           "en": "While these apps have a great deal to offer, it is not always clear how the personal information we input is collected, safeguarded and shared online.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 45,
+              "en": "While these apps have a great deal to offer, ",
+              "zh": "尽管这些应用能提供很多帮助，"
+            },
+            {
+              "a": 45,
+              "b": 68,
+              "en": "it is not always clear ",
+              "zh": "却不总是清楚，"
+            },
+            {
+              "a": 68,
+              "b": 106,
+              "en": "how the personal information we input ",
+              "zh": "我们输入的个人信息是如何，"
+            },
+            {
+              "a": 106,
+              "b": 150,
+              "en": "is collected, safeguarded and shared online.",
+              "zh": "在线上被收集、保护和分享的。"
+            }
+          ],
+          "reorder": "将 how 的疑问内容放到“不总是清楚”前后均可；not always 是并非总能弄清，不是从不清楚。",
+          "translation": "尽管这些应用能提供很多帮助，我们输入的个人信息在线上如何被收集、保护和分享，却并不总是清楚。",
+          "words": [
+            {
+              "a": 100,
+              "b": 105,
+              "word": "input",
+              "lemma": "input",
+              "meaning": "输入（信息）",
+              "pos": "v"
+            },
+            {
+              "a": 120,
+              "b": 131,
+              "word": "safeguarded",
+              "lemma": "safeguard",
+              "meaning": "保护；保障安全"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2024-T4-P2-S2",
           "a": 151,
           "b": 367,
           "en": "Existing health privacy law, such as the Health Insurance Portability and Accountability Act, is primarily focused on the way hospitals, doctors ' offices, clinics and insurance companies store health records online.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 29,
+              "en": "Existing health privacy law, ",
+              "zh": "现有的健康隐私法律，"
+            },
+            {
+              "a": 29,
+              "b": 94,
+              "en": "such as the Health Insurance Portability and Accountability Act, ",
+              "zh": "例如《健康保险流通与责任法案》，"
+            },
+            {
+              "a": 94,
+              "b": 126,
+              "en": "is primarily focused on the way ",
+              "zh": "主要关注相关存储方式，"
+            },
+            {
+              "a": 126,
+              "b": 216,
+              "en": "hospitals, doctors ' offices, clinics and insurance companies store health records online.",
+              "zh": "即医院、医生诊所、门诊机构和保险公司如何在线保存健康记录。"
+            }
+          ],
+          "reorder": "such as 插入举例；the way 后是关注的具体内容，不能误成所有健康应用均受相同保护。",
+          "translation": "现有的健康隐私法律，例如《健康保险流通与责任法案》，主要关注医院、医生诊所、门诊机构和保险公司如何在线保存健康记录。",
+          "words": [
+            {
+              "a": 201,
+              "b": 208,
+              "word": "records",
+              "lemma": "record",
+              "meaning": "健康档案；记录",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 41,
+              "b": 92,
+              "lemma": "Health Insurance Portability and Accountability Act",
+              "meaning": "HIPAA，美国一部涉及健康信息保护的法律",
+              "word": "Health Insurance Portability and Accountability Act"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2024-T4-P2-S3",
           "a": 368,
           "b": 506,
           "en": "The health information these apps and health data tracking wearables are collecting typically does not receive the same legal protections.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 23,
+              "en": "The health information ",
+              "zh": "这些健康信息，"
+            },
+            {
+              "a": 23,
+              "b": 84,
+              "en": "these apps and health data tracking wearables are collecting ",
+              "zh": "由上述应用和健康数据追踪可穿戴设备收集，"
+            },
+            {
+              "a": 84,
+              "b": 138,
+              "en": "typically does not receive the same legal protections.",
+              "zh": "通常得不到同等的法律保护。"
+            }
+          ],
+          "reorder": "将省略关系词的收集者从句放到健康信息前；does not 为主干否定。",
+          "translation": "这些应用和健康数据追踪可穿戴设备收集的健康信息，通常得不到同等的法律保护。",
+          "words": [
+            {
+              "a": 59,
+              "b": 68,
+              "word": "wearables",
+              "lemma": "wearable",
+              "meaning": "可穿戴设备"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
     {
       "id": "2024-T4-P3",
-      "en": "Without additional protections in place, companies may share (and potentially monetize) personal health information in a way consumers may not have authorized or anticipated. In 2021, Flo Health faced a Federal Trade Commission（FTC） investigation. The FTC alleged in a complaint that \"despite express privacy claims, the company took control of users' sensitivity fertility data and shared it with third parties.” Flo Health and the FTC settled the matter with a Consent Order requiring the company to get app users' express affirmative consent before sharing their health information as well as to instruct the third parties to delete the data they had obtained.",
+      "en": "Without additional protections in place, companies may share (and potentially monetize) personal health information in a way consumers may not have authorized or anticipated. In 2021, Flo Health faced a Federal Trade Commission（FTC） investigation. The FTC alleged in a complaint that \"despite express privacy claims, the company took control of users' sensitive fertility data and shared it with third parties.” Flo Health and the FTC settled the matter with a Consent Order requiring the company to get app users' express affirmative consent before sharing their health information as well as to instruct the third parties to delete the data they had obtained.",
       "sentences": [
         {
           "id": "2024-T4-P3-S1",
           "a": 0,
           "b": 174,
           "en": "Without additional protections in place, companies may share (and potentially monetize) personal health information in a way consumers may not have authorized or anticipated.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 41,
+              "en": "Without additional protections in place, ",
+              "zh": "如果没有额外保护措施，"
+            },
+            {
+              "a": 41,
+              "b": 88,
+              "en": "companies may share (and potentially monetize) ",
+              "zh": "企业可能分享（甚至借此变现），"
+            },
+            {
+              "a": 88,
+              "b": 116,
+              "en": "personal health information ",
+              "zh": "个人健康信息，"
+            },
+            {
+              "a": 116,
+              "b": 125,
+              "en": "in a way ",
+              "zh": "以某种方式，"
+            },
+            {
+              "a": 125,
+              "b": 174,
+              "en": "consumers may not have authorized or anticipated.",
+              "zh": "消费者可能既未授权、也未预料到的方式。"
+            }
+          ],
+          "reorder": "将 in a way 的修饰接到分享前；括号变现为可能，不是每次分享都已获利。",
+          "translation": "如果没有额外保护措施，企业可能以消费者未授权或未预料到的方式分享个人健康信息，甚至将其变现。",
+          "words": [
+            {
+              "a": 162,
+              "b": 173,
+              "word": "anticipated",
+              "lemma": "anticipate",
+              "meaning": "预料到",
+              "pos": "v"
+            },
+            {
+              "a": 78,
+              "b": 86,
+              "word": "monetize",
+              "lemma": "monetize",
+              "meaning": "变现；从……获利"
+            },
+            {
+              "a": 148,
+              "b": 158,
+              "word": "authorized",
+              "lemma": "authorize",
+              "meaning": "授权；许可"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 31,
+              "b": 39,
+              "lemma": "in place",
+              "meaning": "已建立并生效的",
+              "word": "in place"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2024-T4-P3-S2",
           "a": 175,
           "b": 247,
           "en": "In 2021, Flo Health faced a Federal Trade Commission（FTC） investigation.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 20,
+              "en": "In 2021, Flo Health ",
+              "zh": "2021年，Flo Health公司，"
+            },
+            {
+              "a": 20,
+              "b": 72,
+              "en": "faced a Federal Trade Commission（FTC） investigation.",
+              "zh": "受到美国联邦贸易委员会（FTC）的调查。"
+            }
+          ],
+          "reorder": "将调查机构与调查合成宾语，faced 为遭遇调查而非已判有罪。",
+          "translation": "2021年，Flo Health公司受到美国联邦贸易委员会的调查。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2024-T4-P3-S3",
           "a": 248,
-          "b": 413,
-          "en": "The FTC alleged in a complaint that \"despite express privacy claims, the company took control of users' sensitivity fertility data and shared it with third parties.”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "b": 411,
+          "en": "The FTC alleged in a complaint that \"despite express privacy claims, the company took control of users' sensitive fertility data and shared it with third parties.”",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 31,
+              "en": "The FTC alleged in a complaint ",
+              "zh": "联邦贸易委员会在一份投诉书中指控，"
+            },
+            {
+              "a": 31,
+              "b": 69,
+              "en": "that \"despite express privacy claims, ",
+              "zh": "“尽管作出了明确的隐私保护声明，"
+            },
+            {
+              "a": 69,
+              "b": 129,
+              "en": "the company took control of users' sensitive fertility data ",
+              "zh": "该公司还是掌控了用户敏感的生育数据，"
+            },
+            {
+              "a": 129,
+              "b": 163,
+              "en": "and shared it with third parties.”",
+              "zh": "并与第三方分享”。"
+            }
+          ],
+          "reorder": "that 后为指控内容，保留 alleged 的证据地位；express 在此是明确的，不是快速的。",
+          "translation": "联邦贸易委员会在投诉书中指控：“尽管作出了明确的隐私保护声明，该公司仍掌控用户敏感的生育数据，并将其分享给第三方。”",
+          "words": [
+            {
+              "a": 45,
+              "b": 52,
+              "word": "express",
+              "lemma": "express",
+              "meaning": "明确表示的"
+            },
+            {
+              "a": 114,
+              "b": 123,
+              "word": "fertility",
+              "lemma": "fertility",
+              "meaning": "生育；生殖健康"
+            },
+            {
+              "a": 8,
+              "b": 15,
+              "word": "alleged",
+              "lemma": "allege",
+              "meaning": "指控；声称"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2024-T4-P3-S4",
-          "a": 414,
-          "b": 663,
+          "a": 412,
+          "b": 661,
           "en": "Flo Health and the FTC settled the matter with a Consent Order requiring the company to get app users' express affirmative consent before sharing their health information as well as to instruct the third parties to delete the data they had obtained.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 42,
+              "en": "Flo Health and the FTC settled the matter ",
+              "zh": "Flo Health与联邦贸易委员会通过命令解决了此事，"
+            },
+            {
+              "a": 42,
+              "b": 63,
+              "en": "with a Consent Order ",
+              "zh": "即一项同意令，"
+            },
+            {
+              "a": 63,
+              "b": 131,
+              "en": "requiring the company to get app users' express affirmative consent ",
+              "zh": "要求公司取得应用用户明确、肯定的同意，"
+            },
+            {
+              "a": 131,
+              "b": 171,
+              "en": "before sharing their health information ",
+              "zh": "在分享其健康信息之前，"
+            },
+            {
+              "a": 171,
+              "b": 212,
+              "en": "as well as to instruct the third parties ",
+              "zh": "并要求公司指示第三方，"
+            },
+            {
+              "a": 212,
+              "b": 231,
+              "en": "to delete the data ",
+              "zh": "删除那些数据，"
+            },
+            {
+              "a": 231,
+              "b": 249,
+              "en": "they had obtained.",
+              "zh": "它们之前取得的数据。"
+            }
+          ],
+          "reorder": "先交代以同意令解决；requiring 两项要求并列；before 提前限定分享前必须征得同意；they 指第三方。",
+          "translation": "Flo Health与联邦贸易委员会通过一项同意令解决了此事，要求公司在分享健康信息前取得应用用户明确、肯定的同意，并指示第三方删除此前取得的数据。",
+          "words": [
+            {
+              "a": 23,
+              "b": 30,
+              "word": "settled",
+              "lemma": "settle",
+              "meaning": "达成和解；解决争议",
+              "pos": "v"
+            },
+            {
+              "a": 49,
+              "b": 56,
+              "word": "Consent",
+              "lemma": "consent",
+              "meaning": "同意；许可",
+              "pos": "n"
+            },
+            {
+              "a": 103,
+              "b": 110,
+              "word": "express",
+              "lemma": "express",
+              "meaning": "明确的；明示的",
+              "pos": "v"
+            },
+            {
+              "a": 111,
+              "b": 122,
+              "word": "affirmative",
+              "lemma": "affirmative",
+              "meaning": "肯定的；明确表示同意的",
+              "pos": "a"
+            },
+            {
+              "a": 123,
+              "b": 130,
+              "word": "consent",
+              "lemma": "consent",
+              "meaning": "同意；许可",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 103,
+              "b": 130,
+              "lemma": "express affirmative consent",
+              "meaning": "明确、肯定的同意",
+              "word": "express affirmative consent"
+            },
+            {
+              "a": 198,
+              "b": 211,
+              "lemma": "third party",
+              "meaning": "第三方",
+              "word": "third parties"
+            },
+            {
+              "a": 49,
+              "b": 62,
+              "word": "Consent Order",
+              "lemma": "consent order",
+              "meaning": "同意令；经当事方同意作出的执行命令"
+            },
+            {
+              "a": 111,
+              "b": 130,
+              "word": "affirmative consent",
+              "lemma": "affirmative consent",
+              "meaning": "明确作出的同意"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -159,24 +707,193 @@
           "a": 0,
           "b": 234,
           "en": "Section 5 of the FTC Act empowers the FTC to initiate enforcement action against unfair or deceptive acts, meaning the FTC can only act after the fact if a company's privacy practices are misleading or cause unjustified consumer harm.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 42,
+              "en": "Section 5 of the FTC Act empowers the FTC ",
+              "zh": "《联邦贸易委员会法》第5条授权该委员会，"
+            },
+            {
+              "a": 42,
+              "b": 73,
+              "en": "to initiate enforcement action ",
+              "zh": "启动执法行动，"
+            },
+            {
+              "a": 73,
+              "b": 107,
+              "en": "against unfair or deceptive acts, ",
+              "zh": "针对不公平或欺骗行为，"
+            },
+            {
+              "a": 107,
+              "b": 136,
+              "en": "meaning the FTC can only act ",
+              "zh": "这意味着委员会只能采取行动，"
+            },
+            {
+              "a": 136,
+              "b": 151,
+              "en": "after the fact ",
+              "zh": "在事后，"
+            },
+            {
+              "a": 151,
+              "b": 234,
+              "en": "if a company's privacy practices are misleading or cause unjustified consumer harm.",
+              "zh": "如果企业的隐私做法具有误导性或给消费者造成不合理损害。"
+            }
+          ],
+          "reorder": "先说授权对象与行为；meaning 引出限制；把 if 条件放到“只能事后行动”前。",
+          "translation": "《联邦贸易委员会法》第5条授权该委员会针对不公平或欺骗行为启动执法行动；这意味着，如果企业的隐私做法具有误导性或给消费者造成不合理损害，委员会也只能事后采取行动。",
+          "words": [
+            {
+              "a": 45,
+              "b": 53,
+              "word": "initiate",
+              "lemma": "initiate",
+              "meaning": "发起；启动",
+              "pos": "v"
+            },
+            {
+              "a": 54,
+              "b": 65,
+              "word": "enforcement",
+              "lemma": "enforcement",
+              "meaning": "执法；强制实施",
+              "pos": "n"
+            },
+            {
+              "a": 91,
+              "b": 100,
+              "word": "deceptive",
+              "lemma": "deceptive",
+              "meaning": "欺骗性的",
+              "pos": "a"
+            },
+            {
+              "a": 208,
+              "b": 219,
+              "word": "unjustified",
+              "lemma": "unjustified",
+              "meaning": "没有正当理由的",
+              "pos": "a"
+            },
+            {
+              "a": 25,
+              "b": 33,
+              "word": "empowers",
+              "lemma": "empower",
+              "meaning": "授权；赋予权力"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 136,
+              "b": 150,
+              "word": "after the fact",
+              "lemma": "after the fact",
+              "meaning": "事后"
+            },
+            {
+              "a": 54,
+              "b": 72,
+              "word": "enforcement action",
+              "lemma": "enforcement action",
+              "meaning": "执法行动"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2024-T4-P4-S2",
           "a": 235,
           "b": 496,
           "en": "While the FTC is doing what it can to ensure apps are keeping their promises to consumers around the handling of their sensitive health information, the rate at which these health apps are hitting the market demonstrates just how immense of a challenge this is.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 35,
+              "en": "While the FTC is doing what it can ",
+              "zh": "尽管联邦贸易委员会正尽其所能，"
+            },
+            {
+              "a": 35,
+              "b": 90,
+              "en": "to ensure apps are keeping their promises to consumers ",
+              "zh": "确保应用履行对消费者的承诺，"
+            },
+            {
+              "a": 90,
+              "b": 149,
+              "en": "around the handling of their sensitive health information, ",
+              "zh": "关于敏感健康信息的处理，"
+            },
+            {
+              "a": 149,
+              "b": 208,
+              "en": "the rate at which these health apps are hitting the market ",
+              "zh": "这些健康应用进入市场的速度，"
+            },
+            {
+              "a": 208,
+              "b": 261,
+              "en": "demonstrates just how immense of a challenge this is.",
+              "zh": "显示出这项挑战有多么巨大。"
+            }
+          ],
+          "reorder": "While 让步前半句；主干是 the rate...demonstrates，at which 修饰 rate，将其合为“应用上市速度”。",
+          "translation": "尽管联邦贸易委员会正尽其所能，确保应用兑现对消费者关于敏感健康信息处理的承诺，但这些应用涌入市场的速度，足以显示这项挑战有多么巨大。",
+          "words": [
+            {
+              "a": 101,
+              "b": 109,
+              "word": "handling",
+              "lemma": "handling",
+              "meaning": "处理；管理",
+              "pos": "n"
+            },
+            {
+              "a": 119,
+              "b": 128,
+              "word": "sensitive",
+              "lemma": "sensitive",
+              "meaning": "敏感的；需要保护的",
+              "pos": "a"
+            },
+            {
+              "a": 230,
+              "b": 237,
+              "word": "immense",
+              "lemma": "immense",
+              "meaning": "巨大的"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 189,
+              "b": 207,
+              "word": "hitting the market",
+              "lemma": "hit the market",
+              "meaning": "上市；进入市场"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -189,48 +906,214 @@
           "a": 0,
           "b": 146,
           "en": "As to the prospects for federal legislation, commentators suggest that comprehensive federal privacy legislation seems unlikely in the short term.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 45,
+              "en": "As to the prospects for federal legislation, ",
+              "zh": "至于联邦立法的前景，"
+            },
+            {
+              "a": 45,
+              "b": 66,
+              "en": "commentators suggest ",
+              "zh": "评论人士认为，"
+            },
+            {
+              "a": 66,
+              "b": 128,
+              "en": "that comprehensive federal privacy legislation seems unlikely ",
+              "zh": "全面的联邦隐私立法似乎不太可能出台，"
+            },
+            {
+              "a": 128,
+              "b": 146,
+              "en": "in the short term.",
+              "zh": "在短期内。"
+            }
+          ],
+          "reorder": "时间移到出台前；seems unlikely 是判断可能性，不是永久不会。",
+          "translation": "至于联邦立法的前景，评论人士认为，短期内似乎不太可能出台全面的联邦隐私立法。",
+          "words": [
+            {
+              "a": 71,
+              "b": 84,
+              "word": "comprehensive",
+              "lemma": "comprehensive",
+              "meaning": "全面的；综合性的"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2024-T4-P5-S2",
           "a": 147,
           "b": 257,
           "en": "States have begun implementing their own solutions to shore up protections for consumer-generated health data.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 51,
+              "en": "States have begun implementing their own solutions ",
+              "zh": "各州已开始实施自己的解决方案，"
+            },
+            {
+              "a": 51,
+              "b": 75,
+              "en": "to shore up protections ",
+              "zh": "以加强保护，"
+            },
+            {
+              "a": 75,
+              "b": 110,
+              "en": "for consumer-generated health data.",
+              "zh": "针对消费者自行产生的健康数据。"
+            }
+          ],
+          "reorder": "将 for 的保护对象移到保护前，to 为目的。",
+          "translation": "各州已开始实施自己的解决方案，加强对消费者自行产生的健康数据的保护。",
+          "words": [
+            {
+              "a": 54,
+              "b": 59,
+              "word": "shore",
+              "lemma": "shore",
+              "meaning": "加强；巩固",
+              "pos": "v"
+            },
+            {
+              "a": 79,
+              "b": 97,
+              "word": "consumer-generated",
+              "lemma": "consumer-generated",
+              "meaning": "消费者自行产生的"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 54,
+              "b": 62,
+              "word": "shore up",
+              "lemma": "shore up",
+              "meaning": "加强；巩固"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2024-T4-P5-S3",
           "a": 258,
           "b": 369,
           "en": "California has been at the forefront of state privacy efforts with the California Consumer Privacy Act of 2018.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 37,
+              "en": "California has been at the forefront ",
+              "zh": "加利福尼亚州一直走在前列，"
+            },
+            {
+              "a": 37,
+              "b": 62,
+              "en": "of state privacy efforts ",
+              "zh": "在州一级隐私保护行动中，"
+            },
+            {
+              "a": 62,
+              "b": 111,
+              "en": "with the California Consumer Privacy Act of 2018.",
+              "zh": "凭借2018年《加利福尼亚州消费者隐私法》。"
+            }
+          ],
+          "reorder": "把州级范围提前；with 引出体现领先的法律。",
+          "translation": "加利福尼亚州凭借2018年《加利福尼亚州消费者隐私法》，一直走在州级隐私保护行动的前列。",
+          "words": [
+            {
+              "a": 27,
+              "b": 36,
+              "word": "forefront",
+              "lemma": "forefront",
+              "meaning": "前沿；领先位置",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 71,
+              "b": 102,
+              "lemma": "California Consumer Privacy Act",
+              "meaning": "《加州消费者隐私法》",
+              "word": "California Consumer Privacy Act"
+            },
+            {
+              "a": 20,
+              "b": 36,
+              "word": "at the forefront",
+              "lemma": "at the forefront",
+              "meaning": "处于前列"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2024-T4-P5-S4",
           "a": 370,
           "b": 465,
           "en": "Virginia ， Colorado and Utah have also recently passed state consumer data privacy legislation.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 29,
+              "en": "Virginia ， Colorado and Utah ",
+              "zh": "弗吉尼亚州、科罗拉多州和犹他州，"
+            },
+            {
+              "a": 29,
+              "b": 55,
+              "en": "have also recently passed ",
+              "zh": "最近也已通过，"
+            },
+            {
+              "a": 55,
+              "b": 95,
+              "en": "state consumer data privacy legislation.",
+              "zh": "州级消费者数据隐私法律。"
+            }
+          ],
+          "reorder": "按州名—时间—动作—法律顺序译，also 表示其他州跟进。",
+          "translation": "弗吉尼亚州、科罗拉多州和犹他州最近也已通过州级消费者数据隐私法律。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     }

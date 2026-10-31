@@ -6,10 +6,19 @@
   "text": 3,
   "articleKey": "s1-p0-t2",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "cf58eab0ca39db4c4d2fd8e713d2c7c77b80c6e1efae5609e7dce5e4c1eea631",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2019年考研英语二真题.pdf",
+        "page": 8,
+        "sha256": "817934cbd6801be0ddfa2d58de6e452655ed4cb2e4c01d0e8d05c6d0fc0b4dcd"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇对照本地试卷完整正文与PDF渲染页，逐项核对提取层形似字、下划线漏字和标点差异；保留原英文与固定编号。"
   },
   "paragraphs": [
     {
@@ -21,24 +30,87 @@
           "a": 0,
           "b": 76,
           "en": "American farmers have been complaining of labor shortages for several years.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 58,
+              "en": "American farmers have been complaining of labor shortages ",
+              "zh": "美国农场主一直抱怨劳动力短缺"
+            },
+            {
+              "a": 58,
+              "b": 76,
+              "en": "for several years.",
+              "zh": "已经抱怨了好几年"
+            }
+          ],
+          "reorder": "先译持续抱怨的内容，再译持续时长。",
+          "translation": "美国农场主已经连续好几年抱怨劳动力短缺。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 42,
+              "b": 57,
+              "lemma": "labor shortages",
+              "meaning": "劳动力短缺",
+              "word": "labor shortages"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P1-S2",
           "a": 77,
           "b": 171,
           "en": "The complaints are unlikely to stop without an overhaul of immigration rules for farm workers.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 36,
+              "en": "The complaints are unlikely to stop ",
+              "zh": "这些抱怨不太可能停止"
+            },
+            {
+              "a": 36,
+              "b": 56,
+              "en": "without an overhaul ",
+              "zh": "除非进行彻底改革"
+            },
+            {
+              "a": 56,
+              "b": 94,
+              "en": "of immigration rules for farm workers.",
+              "zh": "改革针对农业劳工的移民规定"
+            }
+          ],
+          "reorder": "将 without 引出的缺失条件译为“如果不……就不太可能……”，两个否定都保留。",
+          "translation": "如果不彻底改革针对农业劳工的移民规定，这些抱怨就不太可能停止。",
+          "words": [
+            {
+              "a": 47,
+              "b": 55,
+              "lemma": "overhaul",
+              "meaning": "全面修订；彻底改革",
+              "word": "overhaul",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -51,24 +123,99 @@
           "a": 0,
           "b": 186,
           "en": "Congress has obstructed efforts to create a more straightforward visa for agricultural workers that would let foreign workers stay longer in the U.S. and change jobs within the industry.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 32,
+              "en": "Congress has obstructed efforts ",
+              "zh": "国会阻挠了相关改革努力"
+            },
+            {
+              "a": 32,
+              "b": 95,
+              "en": "to create a more straightforward visa for agricultural workers ",
+              "zh": "这些努力旨在为农业劳工建立一种更简便的签证制度"
+            },
+            {
+              "a": 95,
+              "b": 150,
+              "en": "that would let foreign workers stay longer in the U.S. ",
+              "zh": "使外国劳工能够在美国停留更长时间"
+            },
+            {
+              "a": 150,
+              "b": 186,
+              "en": "and change jobs within the industry.",
+              "zh": "并在农业内部更换工作"
+            }
+          ],
+          "reorder": "先译国会阻挠，再把 to create 的改革内容展开；that 指签证，最后两项都是该签证所允许的行为。",
+          "translation": "国会阻挠了为农业劳工建立一种更简便签证制度的努力；这种签证本可让外国劳工在美国停留更长时间，并在农业内部更换工作。",
+          "words": [
+            {
+              "a": 13,
+              "b": 23,
+              "lemma": "obstruct",
+              "meaning": "阻挠；阻碍",
+              "word": "obstructed",
+              "pos": "v"
+            },
+            {
+              "a": 49,
+              "b": 64,
+              "lemma": "straightforward",
+              "meaning": "简便明确的",
+              "word": "straightforward",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P2-S2",
           "a": 187,
           "b": 278,
           "en": "If this doesn't change, American businesses, communities, and consumers will be the losers.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 24,
+              "en": "If this doesn't change, ",
+              "zh": "如果这种情况不改变"
+            },
+            {
+              "a": 24,
+              "b": 72,
+              "en": "American businesses, communities, and consumers ",
+              "zh": "美国企业、社区和消费者"
+            },
+            {
+              "a": 72,
+              "b": 91,
+              "en": "will be the losers.",
+              "zh": "都将成为受损的一方"
+            }
+          ],
+          "reorder": "先译条件，再译三类承受后果的群体；this 指移民制度改革受阻的状况。",
+          "translation": "如果这种情况不改变，美国企业、社区和消费者都将成为受损的一方。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -81,96 +228,337 @@
           "a": 0,
           "b": 63,
           "en": "Perhaps half of U.S. farm laborers are undocumented immigrants.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 35,
+              "en": "Perhaps half of U.S. farm laborers ",
+              "zh": "美国农业劳工中，或许有一半"
+            },
+            {
+              "a": 35,
+              "b": 63,
+              "en": "are undocumented immigrants.",
+              "zh": "是没有合法身份的移民"
+            }
+          ],
+          "reorder": "顺译，Perhaps 保留估计而非确定比例。",
+          "translation": "美国农业劳工中，或许有一半是没有合法身份的移民。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 39,
+              "b": 62,
+              "lemma": "undocumented immigrants",
+              "meaning": "没有合法移民身份或所需证件的移民",
+              "word": "undocumented immigrants"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P3-S2",
           "a": 64,
           "b": 168,
           "en": "As fewer such workers enter the country, the characteristics of the agricultural workforce are changing.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 41,
+              "en": "As fewer such workers enter the country, ",
+              "zh": "随着进入美国的此类劳工减少"
+            },
+            {
+              "a": 41,
+              "b": 104,
+              "en": "the characteristics of the agricultural workforce are changing.",
+              "zh": "农业劳动力的特征正在改变"
+            }
+          ],
+          "reorder": "先译背景趋势，再译结果；such workers 指上文没有合法身份的移民劳工。",
+          "translation": "随着进入美国的此类劳工减少，农业劳动力的特征正在改变。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P3-S3",
           "a": 169,
           "b": 328,
           "en": "Today's farm laborers, while still predominantly born in Mexico, are more likely to be settled rather than migrating and more likely to be married than single.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 23,
+              "en": "Today's farm laborers, ",
+              "zh": "如今的农业劳工"
+            },
+            {
+              "a": 23,
+              "b": 65,
+              "en": "while still predominantly born in Mexico, ",
+              "zh": "虽然仍大多出生在墨西哥"
+            },
+            {
+              "a": 65,
+              "b": 117,
+              "en": "are more likely to be settled rather than migrating ",
+              "zh": "但更多是定居者，而非四处流动的人"
+            },
+            {
+              "a": 117,
+              "b": 159,
+              "en": "and more likely to be married than single.",
+              "zh": "也更多是已婚者，而非单身者"
+            }
+          ],
+          "reorder": "先交代主体与让步，再译两组相对比例的比较；more likely 不指每个人都已定居或结婚。",
+          "translation": "如今的农业劳工虽然仍大多出生在墨西哥，但更可能已经定居而非四处流动，也更可能已经结婚而非单身。",
+          "words": [
+            {
+              "a": 35,
+              "b": 48,
+              "lemma": "predominantly",
+              "meaning": "主要地；大部分地",
+              "word": "predominantly",
+              "pos": "adv"
+            },
+            {
+              "a": 87,
+              "b": 94,
+              "lemma": "settle",
+              "meaning": "定居下来的",
+              "word": "settled",
+              "pos": "v"
+            },
+            {
+              "a": 107,
+              "b": 116,
+              "lemma": "migrate",
+              "meaning": "流动作业；迁移",
+              "word": "migrating",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P3-S4",
           "a": 329,
           "b": 348,
           "en": "They're also aging.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 19,
+              "en": "They're also aging.",
+              "zh": "他们的年龄也在增长"
+            }
+          ],
+          "reorder": "顺译，They 指农业劳工群体。",
+          "translation": "他们的年龄也在增长。",
+          "words": [
+            {
+              "a": 13,
+              "b": 18,
+              "lemma": "age",
+              "meaning": "年龄不断增大；老龄化",
+              "word": "aging",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P3-S5",
           "a": 349,
           "b": 435,
           "en": "At the start of this century, about one-third of crop workers were over the age of 35.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 30,
+              "en": "At the start of this century, ",
+              "zh": "本世纪初"
+            },
+            {
+              "a": 30,
+              "b": 62,
+              "en": "about one-third of crop workers ",
+              "zh": "大约三分之一的农作物劳工"
+            },
+            {
+              "a": 62,
+              "b": 86,
+              "en": "were over the age of 35.",
+              "zh": "年龄超过三十五岁"
+            }
+          ],
+          "reorder": "先译时间，再译人数比例与年龄门槛。",
+          "translation": "本世纪初，大约三分之一的农作物劳工年龄超过三十五岁。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P3-S6",
           "a": 436,
           "b": 459,
           "en": "Now more than half are.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 23,
+              "en": "Now more than half are.",
+              "zh": "如今，超过一半的劳工已超过三十五岁"
+            }
+          ],
+          "reorder": "补出 are 后省略的 over the age of 35，避免只译为“是这样”。",
+          "translation": "如今，超过一半的劳工已超过三十五岁。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P3-S7",
           "a": 460,
           "b": 502,
           "en": "And picking crops is hard on older bodies.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 42,
+              "en": "And picking crops is hard on older bodies.",
+              "zh": "而采收农作物对年长者的身体是很大的负担"
+            }
+          ],
+          "reorder": "将 older bodies 按中文译为年长者的身体；hard on 表示负担重。",
+          "translation": "而采收农作物对年长者的身体是很大的负担。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 21,
+              "b": 28,
+              "lemma": "hard on",
+              "meaning": "给……造成很大负担",
+              "word": "hard on"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P3-S8",
           "a": 503,
           "b": 646,
           "en": "One oft-debated cure for this labor shortage remains as implausible as it's been all along: Native U.S. workers won't be returning to the farm.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 45,
+              "en": "One oft-debated cure for this labor shortage ",
+              "zh": "针对这种劳动力短缺，有一种常被讨论的解决办法"
+            },
+            {
+              "a": 45,
+              "b": 92,
+              "en": "remains as implausible as it's been all along: ",
+              "zh": "它仍然和过去一样不切实际"
+            },
+            {
+              "a": 92,
+              "b": 143,
+              "en": "Native U.S. workers won't be returning to the farm.",
+              "zh": "美国本土劳工不会重返农场"
+            }
+          ],
+          "reorder": "先提示方案，再保留 as...as 表示一直不现实；冒号后的否定说明为何本土劳工不能作为方案。",
+          "translation": "针对这种劳动力短缺，一种常被讨论的解决办法仍然和过去一样不切实际：美国本土劳工不会重返农场。",
+          "words": [
+            {
+              "a": 16,
+              "b": 20,
+              "lemma": "cure",
+              "meaning": "解决办法",
+              "word": "cure",
+              "pos": "n"
+            },
+            {
+              "a": 56,
+              "b": 67,
+              "lemma": "implausible",
+              "meaning": "不现实的；难以成立的",
+              "word": "implausible",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 92,
+              "b": 111,
+              "lemma": "native u.s. workers",
+              "meaning": "美国本土劳动者",
+              "word": "Native U.S. workers"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -183,36 +571,163 @@
           "a": 0,
           "b": 59,
           "en": "Mechanization isn't the answer, either – not yet, at least.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 41,
+              "en": "Mechanization isn't the answer, either – ",
+              "zh": "机械化也不是解决办法"
+            },
+            {
+              "a": 41,
+              "b": 59,
+              "en": "not yet, at least.",
+              "zh": "至少眼下还不是"
+            }
+          ],
+          "reorder": "保留 either 与前段方案失败的衔接，not yet 将否定限定为目前。",
+          "translation": "机械化也不是解决办法——至少眼下还不是。",
+          "words": [
+            {
+              "a": 0,
+              "b": 13,
+              "lemma": "mechanization",
+              "meaning": "机械化",
+              "word": "Mechanization",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P4-S2",
           "a": 60,
           "b": 220,
           "en": "Production of corn, cotton, rice, soybeans, and wheat has been largely mechanized, but many high-value, labor-intensive crops, such as strawberries, need labor.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 54,
+              "en": "Production of corn, cotton, rice, soybeans, and wheat ",
+              "zh": "玉米、棉花、水稻、大豆和小麦的生产"
+            },
+            {
+              "a": 54,
+              "b": 83,
+              "en": "has been largely mechanized, ",
+              "zh": "已经大体实现机械化"
+            },
+            {
+              "a": 83,
+              "b": 127,
+              "en": "but many high-value, labor-intensive crops, ",
+              "zh": "但许多高价值、劳动密集型的作物"
+            },
+            {
+              "a": 127,
+              "b": 149,
+              "en": "such as strawberries, ",
+              "zh": "例如草莓"
+            },
+            {
+              "a": 149,
+              "b": 160,
+              "en": "need labor.",
+              "zh": "仍然需要人工"
+            }
+          ],
+          "reorder": "先译已机械化的作物，再译仍依赖人工的一类，such as 的例子放在类别之后。",
+          "translation": "玉米、棉花、水稻、大豆和小麦的生产已经大体实现机械化，但许多高价值、劳动密集型的作物，例如草莓，仍然需要人工。",
+          "words": [
+            {
+              "a": 104,
+              "b": 119,
+              "lemma": "labor-intensive",
+              "meaning": "劳动密集型的；需要大量人工的",
+              "word": "labor-intensive",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P4-S3",
           "a": 221,
           "b": 328,
           "en": "Even dairy farms, where robots do a small share of milking, have a long way to go before they're automated.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 60,
+              "en": "Even dairy farms, where robots do a small share of milking, ",
+              "zh": "即使在已用机器人承担少量挤奶工作的奶牛场"
+            },
+            {
+              "a": 60,
+              "b": 82,
+              "en": "have a long way to go ",
+              "zh": "也仍有很长的路要走"
+            },
+            {
+              "a": 82,
+              "b": 107,
+              "en": "before they're automated.",
+              "zh": "才能实现自动化"
+            }
+          ],
+          "reorder": "把 where 的机器人应用情况前置限定奶牛场，before 译为距离全面自动化尚有多远。",
+          "translation": "即使在已用机器人承担少量挤奶工作的奶牛场，距离实现自动化也仍有很长的路要走。",
+          "words": [
+            {
+              "a": 51,
+              "b": 58,
+              "lemma": "milk",
+              "meaning": "挤奶；乳汁采集",
+              "word": "milking",
+              "pos": "n"
+            },
+            {
+              "a": 97,
+              "b": 106,
+              "lemma": "automate",
+              "meaning": "实现自动化的",
+              "word": "automated",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 5,
+              "b": 16,
+              "lemma": "dairy farms",
+              "meaning": "奶牛场",
+              "word": "dairy farms"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -225,84 +740,348 @@
           "a": 0,
           "b": 132,
           "en": "As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 13,
+              "en": "As a result, ",
+              "zh": "因此"
+            },
+            {
+              "a": 13,
+              "b": 78,
+              "en": "farms have grown increasingly reliant on temporary guest workers ",
+              "zh": "农场越来越依赖临时外来劳工"
+            },
+            {
+              "a": 78,
+              "b": 98,
+              "en": "using the H-2A visa ",
+              "zh": "这些人使用H-2A签证"
+            },
+            {
+              "a": 98,
+              "b": 132,
+              "en": "to fill the gaps in the workforce.",
+              "zh": "以填补劳动力缺口"
+            }
+          ],
+          "reorder": "先译因果承接，再把 using 的签证条件前置修饰外来劳工，to fill 是依赖他们的目的。",
+          "translation": "因此，农场越来越依赖持H-2A签证的临时外来劳工，来填补劳动力缺口。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 64,
+              "b": 77,
+              "lemma": "guest workers",
+              "meaning": "按工作许可临时入境的外国劳动者",
+              "word": "guest workers"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P5-S2",
           "a": 133,
           "b": 255,
           "en": "Starting around 2012, requests for the visas rose sharply; from 2011 to 2016 the number of visas issued more than doubled.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 22,
+              "en": "Starting around 2012, ",
+              "zh": "大约从二〇一二年起"
+            },
+            {
+              "a": 22,
+              "b": 59,
+              "en": "requests for the visas rose sharply; ",
+              "zh": "这类签证的申请量急剧增加"
+            },
+            {
+              "a": 59,
+              "b": 77,
+              "en": "from 2011 to 2016 ",
+              "zh": "从二〇一一年到二〇一六年"
+            },
+            {
+              "a": 77,
+              "b": 122,
+              "en": "the number of visas issued more than doubled.",
+              "zh": "签发数量增加了一倍多"
+            }
+          ],
+          "reorder": "分号前后分别译申请量与签发量；more than doubled 是增至两倍多，即增加一倍多。",
+          "translation": "大约从二〇一二年起，这类签证的申请量急剧增加；从二〇一一年到二〇一六年，签发数量增加了一倍多。",
+          "words": [
+            {
+              "a": 97,
+              "b": 103,
+              "word": "issued",
+              "lemma": "issue",
+              "meaning": "签发（签证）",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P5-S3",
           "a": 256,
           "b": 373,
           "en": "The H-2A visa has no numerical cap, unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 36,
+              "en": "The H-2A visa has no numerical cap, ",
+              "zh": "H-2A签证没有数量上限"
+            },
+            {
+              "a": 36,
+              "b": 83,
+              "en": "unlike the H-2B visa for nonagricultural work, ",
+              "zh": "这不同于非农业工作使用的H-2B签证"
+            },
+            {
+              "a": 83,
+              "b": 117,
+              "en": "which is limited to 66,000 a year.",
+              "zh": "后者每年限额为六万六千份"
+            }
+          ],
+          "reorder": "先译无上限的一类，再译对照签证及其限额；which 指H-2B签证。",
+          "translation": "H-2A签证没有数量上限，而非农业工作使用的H-2B签证每年限额为六万六千份。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 21,
+              "b": 34,
+              "lemma": "numerical cap",
+              "meaning": "数量上限",
+              "word": "numerical cap"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P5-S4",
           "a": 374,
           "b": 446,
           "en": "Even so, employers complain they aren't given all the workers they need.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 9,
+              "en": "Even so, ",
+              "zh": "即便如此"
+            },
+            {
+              "a": 9,
+              "b": 28,
+              "en": "employers complain ",
+              "zh": "雇主仍抱怨"
+            },
+            {
+              "a": 28,
+              "b": 72,
+              "en": "they aren't given all the workers they need.",
+              "zh": "无法获得足够数量的所需劳工"
+            }
+          ],
+          "reorder": "先译让步，再将 aren't given all 译为未能满足全部用工需求，而不是一个劳工都没有。",
+          "translation": "即便如此，雇主仍抱怨无法获得足够数量的所需劳工。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P5-S5",
           "a": 447,
           "b": 500,
           "en": "The process is cumbersome, expensive, and unreliable.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 53,
+              "en": "The process is cumbersome, expensive, and unreliable.",
+              "zh": "这一办理过程繁琐、昂贵，而且不可靠"
+            }
+          ],
+          "reorder": "顺译三个评价，The process 承接H-2A用工和签证办理过程。",
+          "translation": "这一办理过程繁琐、昂贵，而且不可靠。",
+          "words": [
+            {
+              "a": 15,
+              "b": 25,
+              "lemma": "cumbersome",
+              "meaning": "繁琐不便的",
+              "word": "cumbersome",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P5-S6",
           "a": 501,
           "b": 605,
           "en": "One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 22,
+              "en": "One survey found that ",
+              "zh": "一项调查发现"
+            },
+            {
+              "a": 22,
+              "b": 42,
+              "en": "bureaucratic delays ",
+              "zh": "行政程序拖延"
+            },
+            {
+              "a": 42,
+              "b": 70,
+              "en": "led the average H-2A worker ",
+              "zh": "导致H-2A劳工平均"
+            },
+            {
+              "a": 70,
+              "b": 104,
+              "en": "to arrive on the job 22 days late.",
+              "zh": "推迟二十二天到岗"
+            }
+          ],
+          "reorder": "先译调查结论来源，再译延误原因与平均后果；average 指平均延迟天数。",
+          "translation": "一项调查发现，行政程序拖延导致H-2A劳工平均推迟二十二天到岗。",
+          "words": [
+            {
+              "a": 22,
+              "b": 34,
+              "lemma": "bureaucratic",
+              "meaning": "行政官僚程序造成的",
+              "word": "bureaucratic",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P5-S7",
           "a": 606,
           "b": 718,
           "en": "The shortage is compounded by federal immigration raids, which remove some workers and drive others underground.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 57,
+              "en": "The shortage is compounded by federal immigration raids, ",
+              "zh": "联邦移民突袭执法行动加剧了劳动力短缺"
+            },
+            {
+              "a": 57,
+              "b": 83,
+              "en": "which remove some workers ",
+              "zh": "这些行动遣走了一些劳工"
+            },
+            {
+              "a": 83,
+              "b": 112,
+              "en": "and drive others underground.",
+              "zh": "又迫使其他劳工转入隐蔽状态"
+            }
+          ],
+          "reorder": "把被动的加剧改成主动因果，which 分句解释两种影响；underground 不直译为地下场所。",
+          "translation": "联邦移民突袭执法行动加剧了劳动力短缺：这些行动遣走了一些劳工，又迫使其他劳工转入隐蔽状态。",
+          "words": [
+            {
+              "a": 16,
+              "b": 26,
+              "lemma": "compound",
+              "meaning": "使更加严重；加剧",
+              "word": "compounded",
+              "pos": "v"
+            },
+            {
+              "a": 50,
+              "b": 55,
+              "lemma": "raid",
+              "meaning": "突袭执法行动",
+              "word": "raids",
+              "pos": "n"
+            },
+            {
+              "a": 63,
+              "b": 69,
+              "lemma": "remove",
+              "meaning": "遣走；驱离",
+              "word": "remove",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 87,
+              "b": 111,
+              "lemma": "drive others underground",
+              "meaning": "迫使其他人转入隐蔽状态",
+              "word": "drive others underground"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -315,48 +1094,189 @@
           "a": 0,
           "b": 131,
           "en": "In a 2012 survey, 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 18,
+              "en": "In a 2012 survey, ",
+              "zh": "在二〇一二年的一项调查中"
+            },
+            {
+              "a": 18,
+              "b": 51,
+              "en": "71 percent of tree-fruit growers ",
+              "zh": "百分之七十一的果树种植者"
+            },
+            {
+              "a": 51,
+              "b": 101,
+              "en": "and almost 80 percent of raisin and berry growers ",
+              "zh": "以及近百分之八十的制干葡萄和浆果种植者"
+            },
+            {
+              "a": 101,
+              "b": 131,
+              "en": "said they were short of labor.",
+              "zh": "表示缺少劳工"
+            }
+          ],
+          "reorder": "先译调查时间，再区分两组作物与比例；raisin growers 指种植用于制葡萄干的葡萄的人。",
+          "translation": "在二〇一二年的一项调查中，百分之七十一的果树种植者，以及近百分之八十的制干葡萄和浆果种植者，表示缺少劳工。",
+          "words": [
+            {
+              "a": 43,
+              "b": 50,
+              "lemma": "grower",
+              "meaning": "种植者；农业生产者",
+              "word": "growers",
+              "pos": "n"
+            },
+            {
+              "a": 76,
+              "b": 82,
+              "lemma": "raisin",
+              "meaning": "葡萄干（此处指用于制葡萄干的葡萄）",
+              "word": "raisin",
+              "pos": "n"
+            },
+            {
+              "a": 93,
+              "b": 100,
+              "lemma": "grower",
+              "meaning": "种植者；农业生产者",
+              "word": "growers",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P6-S2",
           "a": 132,
           "b": 199,
           "en": "Some western farmers have responded by moving operations to Mexico.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 36,
+              "en": "Some western farmers have responded ",
+              "zh": "一些美国西部农场主采取了应对措施"
+            },
+            {
+              "a": 36,
+              "b": 67,
+              "en": "by moving operations to Mexico.",
+              "zh": "把生产经营活动转移到墨西哥"
+            }
+          ],
+          "reorder": "将 by 的应对方式直接接到“应对”的内容，operations 不是手术。",
+          "translation": "一些美国西部农场主的应对方式，是把生产经营活动转移到墨西哥。",
+          "words": [
+            {
+              "a": 46,
+              "b": 56,
+              "lemma": "operation",
+              "meaning": "生产经营活动",
+              "word": "operations",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P6-S3",
           "a": 200,
           "b": 277,
           "en": "From 1998 to 2000, 14.5 percent of the fruit Americans consumed was imported.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 19,
+              "en": "From 1998 to 2000, ",
+              "zh": "一九九八年至二〇〇〇年间"
+            },
+            {
+              "a": 19,
+              "b": 64,
+              "en": "14.5 percent of the fruit Americans consumed ",
+              "zh": "美国人消费的水果中，有百分之十四点五"
+            },
+            {
+              "a": 64,
+              "b": 77,
+              "en": "was imported.",
+              "zh": "来自进口"
+            }
+          ],
+          "reorder": "先译时间，再将省略关系词的 Americans consumed 前置限定水果。",
+          "translation": "一九九八年至二〇〇〇年间，美国人消费的水果中，有百分之十四点五来自进口。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T3-P6-S4",
           "a": 278,
           "b": 349,
           "en": "Little more than a decade later, the share of imports was 25.8 percent.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 33,
+              "en": "Little more than a decade later, ",
+              "zh": "仅仅十多年后"
+            },
+            {
+              "a": 33,
+              "b": 71,
+              "en": "the share of imports was 25.8 percent.",
+              "zh": "进口水果所占比例就已达到百分之二十五点八"
+            }
+          ],
+          "reorder": "先译短时间跨度，再补明 share 指水果进口占消费的比例。",
+          "translation": "仅仅十多年后，进口水果所占比例就已达到百分之二十五点八。",
+          "words": [
+            {
+              "a": 37,
+              "b": 42,
+              "lemma": "share",
+              "meaning": "所占比例",
+              "word": "share",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -369,12 +1289,38 @@
           "a": 0,
           "b": 77,
           "en": "In effect, the U.S. can import food or it can import the workers who pick it.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 11,
+              "en": "In effect, ",
+              "zh": "实际上"
+            },
+            {
+              "a": 11,
+              "b": 36,
+              "en": "the U.S. can import food ",
+              "zh": "美国要么进口食物"
+            },
+            {
+              "a": 36,
+              "b": 77,
+              "en": "or it can import the workers who pick it.",
+              "zh": "要么引进采收这些食物的劳工"
+            }
+          ],
+          "reorder": "把 or 两种路径译为要么……要么……；who 的工作内容前置限定劳工。",
+          "translation": "实际上，美国要么进口食物，要么引进采收这些食物的劳工。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     }

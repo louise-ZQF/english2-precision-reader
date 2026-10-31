@@ -6,10 +6,21 @@
   "text": 4,
   "articleKey": "s1-p0-t3",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "8ad6e99a874887aaee182268fc7c14d403533ad1260e4794aa4e0312c62226d8",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2015年考研英语二真题.pdf",
+        "page": 10,
+        "sha256": "f8fcfd0536f1f538fc37c8eaceb823b89da6b0a4b400cf1a0353b226ecd2b2ea"
+      }
+    ],
+    "notes": [
+      "已对照原卷核对全文；按原文所处历史背景解释医保制度，不作为现行政策说明；区分自愿与非自愿兼职及同比增减。"
+    ],
+    "checkedAt": "2026-10-31",
+    "method": "逐段对照用户提供的原卷；保留原卷有效英文，修复旧题库的漏句、多句及录入错误后逐句编辑中文。"
   },
   "paragraphs": [
     {
@@ -21,48 +32,206 @@
           "a": 0,
           "b": 157,
           "en": "Many people talked of the 288,000 new jobs the Labor Department reported for June, along with the drop in the unemployment rate to 6.1 percent, as good news.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 43,
+              "en": "Many people talked of the 288,000 new jobs ",
+              "zh": "很多人谈到新增28.8万个岗位，"
+            },
+            {
+              "a": 43,
+              "b": 83,
+              "en": "the Labor Department reported for June, ",
+              "zh": "这是劳工部公布的6月数据，"
+            },
+            {
+              "a": 83,
+              "b": 144,
+              "en": "along with the drop in the unemployment rate to 6.1 percent, ",
+              "zh": "以及失业率降至6.1%，"
+            },
+            {
+              "a": 144,
+              "b": 157,
+              "en": "as good news.",
+              "zh": "认为这些都是好消息。"
+            }
+          ],
+          "reorder": "talked of...as 的长宾语先列出两项数据，再说“视为好消息”；reported 修饰新增岗位。",
+          "translation": "很多人把劳工部公布的6月新增28.8万个就业岗位，以及失业率降至6.1%，视为好消息。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 110,
+              "b": 127,
+              "word": "unemployment rate",
+              "lemma": "unemployment rate",
+              "meaning": "失业率"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2015-T4-P1-S2",
           "a": 158,
           "b": 178,
           "en": "And they were right.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 9,
+              "en": "And they ",
+              "zh": "而他们，"
+            },
+            {
+              "a": 9,
+              "b": 20,
+              "en": "were right.",
+              "zh": "确实说对了。"
+            }
+          ],
+          "reorder": "they 指把就业数据视为好消息的人。",
+          "translation": "他们确实说对了。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2015-T4-P1-S3",
           "a": 179,
           "b": 244,
           "en": "For now it appears the economy is creating jobs at a decent pace.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 19,
+              "en": "For now it appears ",
+              "zh": "因为目前看来，"
+            },
+            {
+              "a": 19,
+              "b": 48,
+              "en": "the economy is creating jobs ",
+              "zh": "经济正在创造就业岗位，"
+            },
+            {
+              "a": 48,
+              "b": 65,
+              "en": "at a decent pace.",
+              "zh": "速度还不错。"
+            }
+          ],
+          "reorder": "For 表原因，不是为谁；at 的速度修饰创造岗位。",
+          "translation": "因为目前看来，经济正以还不错的速度创造就业岗位。",
+          "words": [
+            {
+              "a": 60,
+              "b": 64,
+              "word": "pace",
+              "lemma": "pace",
+              "meaning": "速度；进展节奏",
+              "pos": "n"
+            },
+            {
+              "a": 0,
+              "b": 3,
+              "word": "For",
+              "lemma": "for",
+              "meaning": "因为（连接对前句的解释）"
+            },
+            {
+              "a": 53,
+              "b": 59,
+              "word": "decent",
+              "lemma": "decent",
+              "meaning": "相当不错的；尚可的"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2015-T4-P1-S4",
           "a": 245,
           "b": 372,
           "en": "We still have a long way to go to get back to full employment, but at least we are now finally moving forward at a faster pace.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 31,
+              "en": "We still have a long way to go ",
+              "zh": "我们还有很长的路要走，"
+            },
+            {
+              "a": 31,
+              "b": 63,
+              "en": "to get back to full employment, ",
+              "zh": "才能恢复充分就业，"
+            },
+            {
+              "a": 63,
+              "b": 110,
+              "en": "but at least we are now finally moving forward ",
+              "zh": "但至少如今终于在前进，"
+            },
+            {
+              "a": 110,
+              "b": 127,
+              "en": "at a faster pace.",
+              "zh": "而且速度更快了。"
+            }
+          ],
+          "reorder": "to get back 为走长路要达到的目标；but 保留仍远却有进步的判断。",
+          "translation": "要恢复充分就业，我们还有很长的路要走，但至少现在终于正以更快的速度向前迈进。",
+          "words": [
+            {
+              "a": 122,
+              "b": 126,
+              "word": "pace",
+              "lemma": "pace",
+              "meaning": "速度；进展节奏",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 46,
+              "b": 61,
+              "word": "full employment",
+              "lemma": "full employment",
+              "meaning": "充分就业（并非失业率绝对为零）"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -75,36 +244,155 @@
           "a": 0,
           "b": 89,
           "en": "However, there is another important part of the jobs picture that was largely overlooked.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 18,
+              "en": "However, there is ",
+              "zh": "然而，还有，"
+            },
+            {
+              "a": 18,
+              "b": 61,
+              "en": "another important part of the jobs picture ",
+              "zh": "就业状况的另一个重要方面，"
+            },
+            {
+              "a": 61,
+              "b": 89,
+              "en": "that was largely overlooked.",
+              "zh": "在很大程度上被忽视了。"
+            }
+          ],
+          "reorder": "that 的被忽视修饰放到方面前后均可；jobs picture 指整体就业状况。",
+          "translation": "然而，就业状况的另一个重要方面，在很大程度上被忽视了。",
+          "words": [
+            {
+              "a": 53,
+              "b": 60,
+              "word": "picture",
+              "lemma": "picture",
+              "meaning": "总体状况；形势"
+            },
+            {
+              "a": 78,
+              "b": 88,
+              "word": "overlooked",
+              "lemma": "overlook",
+              "meaning": "忽视；遗漏"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2015-T4-P2-S2",
           "a": 90,
           "b": 176,
           "en": "There was a big jump in the number of people who report voluntarily working part-time.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 21,
+              "en": "There was a big jump ",
+              "zh": "出现了大幅增长，"
+            },
+            {
+              "a": 21,
+              "b": 45,
+              "en": "in the number of people ",
+              "zh": "在人群数量上，"
+            },
+            {
+              "a": 45,
+              "b": 86,
+              "en": "who report voluntarily working part-time.",
+              "zh": "那些自述自愿做兼职工作的人。"
+            }
+          ],
+          "reorder": "将 who 的修饰放到人群前，再合成“人数大幅增长”；report 是在调查中自述。",
+          "translation": "自述自愿从事兼职工作的人数大幅增长。",
+          "words": [
+            {
+              "a": 56,
+              "b": 67,
+              "word": "voluntarily",
+              "lemma": "voluntarily",
+              "meaning": "自愿地"
+            },
+            {
+              "a": 76,
+              "b": 85,
+              "word": "part-time",
+              "lemma": "part-time",
+              "meaning": "非全日制的；兼职的"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 76,
+              "b": 85,
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "word": "part-time"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2015-T4-P2-S3",
           "a": 177,
           "b": 241,
           "en": "This figure is now 830,000（4.4 percent）above its year ago level.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 19,
+              "en": "This figure is now ",
+              "zh": "这一数字如今，"
+            },
+            {
+              "a": 19,
+              "b": 64,
+              "en": "830,000（4.4 percent）above its year ago level.",
+              "zh": "比一年前增加了83万人（4.4%）。"
+            }
+          ],
+          "reorder": "above 是增加量，不是当前总人数；保持4.4%的同比增幅。",
+          "translation": "这一人数如今比一年前增加了83万，增幅为4.4%。",
+          "words": [
+            {
+              "a": 5,
+              "b": 11,
+              "word": "figure",
+              "lemma": "figure",
+              "meaning": "数字；人数",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -117,48 +405,276 @@
           "a": 0,
           "b": 95,
           "en": "Before explaining the connection to the Obamacare, it is worth making an important distinction.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 51,
+              "en": "Before explaining the connection to the Obamacare, ",
+              "zh": "在解释这与奥巴马医改的联系之前，"
+            },
+            {
+              "a": 51,
+              "b": 63,
+              "en": "it is worth ",
+              "zh": "有必要，"
+            },
+            {
+              "a": 63,
+              "b": 95,
+              "en": "making an important distinction.",
+              "zh": "先作一个重要区分。"
+            }
+          ],
+          "reorder": "before 背景先说，it is worth 的真正内容为 making；Obamacare 是当时医改法案的简称。",
+          "translation": "在解释这与奥巴马医改的联系之前，有必要先作一个重要区分。",
+          "words": [
+            {
+              "a": 83,
+              "b": 94,
+              "word": "distinction",
+              "lemma": "distinction",
+              "meaning": "区分"
+            },
+            {
+              "a": 40,
+              "b": 49,
+              "word": "Obamacare",
+              "lemma": "Obamacare",
+              "meaning": "奥巴马医改；美国《平价医疗法案》的通称"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2015-T4-P3-S2",
           "a": 96,
           "b": 161,
           "en": "Many people who work part-time jobs actually want full-time jobs.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 36,
+              "en": "Many people who work part-time jobs ",
+              "zh": "很多从事兼职工作的人，"
+            },
+            {
+              "a": 36,
+              "b": 50,
+              "en": "actually want ",
+              "zh": "实际上想要，"
+            },
+            {
+              "a": 50,
+              "b": 65,
+              "en": "full-time jobs.",
+              "zh": "全职工作。"
+            }
+          ],
+          "reorder": "who 修饰工作者；actually 强调实际愿望与现状不同。",
+          "translation": "很多从事兼职工作的人，实际上想要全职工作。",
+          "words": [
+            {
+              "a": 21,
+              "b": 30,
+              "word": "part-time",
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "pos": "a"
+            },
+            {
+              "a": 50,
+              "b": 59,
+              "word": "full-time",
+              "lemma": "full-time",
+              "meaning": "全职的；全日制的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 21,
+              "b": 30,
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "word": "part-time"
+            },
+            {
+              "a": 50,
+              "b": 59,
+              "lemma": "full-time",
+              "meaning": "全职的；全日制的",
+              "word": "full-time"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2015-T4-P3-S3",
           "a": 162,
           "b": 220,
           "en": "They take part-time work because this is all they can get.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 25,
+              "en": "They take part-time work ",
+              "zh": "他们接受兼职工作，"
+            },
+            {
+              "a": 25,
+              "b": 41,
+              "en": "because this is ",
+              "zh": "是因为这就是，"
+            },
+            {
+              "a": 41,
+              "b": 58,
+              "en": "all they can get.",
+              "zh": "他们能找到的全部工作机会。"
+            }
+          ],
+          "reorder": "all 后省略关系词，译“只能找到”；不是他们不愿全职。",
+          "translation": "他们之所以做兼职，是因为只能找到这样的工作。",
+          "words": [
+            {
+              "a": 10,
+              "b": 19,
+              "word": "part-time",
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 10,
+              "b": 19,
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "word": "part-time"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2015-T4-P3-S4",
           "a": 221,
           "b": 386,
           "en": "An increase in involuntary part-time work is evidence of weakness in the labor market and it means that many people will be having a very hard time making ends meet.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 42,
+              "en": "An increase in involuntary part-time work ",
+              "zh": "非自愿兼职工作增加，"
+            },
+            {
+              "a": 42,
+              "b": 86,
+              "en": "is evidence of weakness in the labor market ",
+              "zh": "是劳动力市场疲软的证据，"
+            },
+            {
+              "a": 86,
+              "b": 148,
+              "en": "and it means that many people will be having a very hard time ",
+              "zh": "也意味着很多人会非常艰难，"
+            },
+            {
+              "a": 148,
+              "b": 165,
+              "en": "making ends meet.",
+              "zh": "在维持生计方面。"
+            }
+          ],
+          "reorder": "将证据关系先译；making ends meet 接在困难后，避免把兼职增加全说成好消息。",
+          "translation": "非自愿兼职工作增加，是劳动力市场疲软的表现，也意味着很多人将很难维持生计。",
+          "words": [
+            {
+              "a": 27,
+              "b": 36,
+              "word": "part-time",
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "pos": "a"
+            },
+            {
+              "a": 45,
+              "b": 53,
+              "word": "evidence",
+              "lemma": "evidence",
+              "meaning": "迹象；证据",
+              "pos": "n"
+            },
+            {
+              "a": 57,
+              "b": 65,
+              "word": "weakness",
+              "lemma": "weakness",
+              "meaning": "疲软；状况不佳",
+              "pos": "n"
+            },
+            {
+              "a": 15,
+              "b": 26,
+              "word": "involuntary",
+              "lemma": "involuntary",
+              "meaning": "非自愿的；被迫的"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 15,
+              "b": 41,
+              "lemma": "involuntary part-time work",
+              "meaning": "想做全职却只能做兼职的工作",
+              "word": "involuntary part-time work"
+            },
+            {
+              "a": 27,
+              "b": 36,
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "word": "part-time"
+            },
+            {
+              "a": 148,
+              "b": 164,
+              "word": "making ends meet",
+              "lemma": "make ends meet",
+              "meaning": "使收支相抵；维持生计"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -171,24 +687,147 @@
           "a": 0,
           "b": 96,
           "en": "There was an increase in involuntary part-time in June, but the general direction has been down.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 47,
+              "en": "There was an increase in involuntary part-time ",
+              "zh": "非自愿兼职工作人数有所增加，"
+            },
+            {
+              "a": 47,
+              "b": 56,
+              "en": "in June, ",
+              "zh": "在6月，"
+            },
+            {
+              "a": 56,
+              "b": 96,
+              "en": "but the general direction has been down.",
+              "zh": "但总体趋势一直是下降的。"
+            }
+          ],
+          "reorder": "将6月放前；but 区分单月变化和总体走势。",
+          "translation": "6月非自愿兼职工作人数有所增加，但总体趋势一直是下降的。",
+          "words": [
+            {
+              "a": 25,
+              "b": 36,
+              "word": "involuntary",
+              "lemma": "involuntary",
+              "meaning": "非自愿的；被迫的",
+              "pos": "a"
+            },
+            {
+              "a": 37,
+              "b": 46,
+              "word": "part-time",
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "pos": "a"
+            },
+            {
+              "a": 72,
+              "b": 81,
+              "word": "direction",
+              "lemma": "direction",
+              "meaning": "总体走势",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 37,
+              "b": 46,
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "word": "part-time"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2015-T4-P4-S2",
           "a": 97,
           "b": 241,
           "en": "Involuntary part-time employment is still far higher than before the recession, but it is down by 640,000 (7.9 percent) from its year ago level.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 53,
+              "en": "Involuntary part-time employment is still far higher ",
+              "zh": "非自愿兼职就业人数仍高得多，"
+            },
+            {
+              "a": 53,
+              "b": 80,
+              "en": "than before the recession, ",
+              "zh": "比经济衰退前，"
+            },
+            {
+              "a": 80,
+              "b": 120,
+              "en": "but it is down by 640,000 (7.9 percent) ",
+              "zh": "但已减少64万人（7.9%），"
+            },
+            {
+              "a": 120,
+              "b": 144,
+              "en": "from its year ago level.",
+              "zh": "相比一年前的水平。"
+            }
+          ],
+          "reorder": "far higher 的比较为衰退前，down by 的比较为一年前，不能混用参照点。",
+          "translation": "非自愿兼职就业人数仍远高于经济衰退前，但已比一年前减少64万人，降幅为7.9%。",
+          "words": [
+            {
+              "a": 0,
+              "b": 11,
+              "word": "Involuntary",
+              "lemma": "involuntary",
+              "meaning": "非自愿的；被迫的",
+              "pos": "a"
+            },
+            {
+              "a": 12,
+              "b": 21,
+              "word": "part-time",
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "pos": "a"
+            },
+            {
+              "a": 69,
+              "b": 78,
+              "word": "recession",
+              "lemma": "recession",
+              "meaning": "经济衰退"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 12,
+              "b": 21,
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "word": "part-time"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -201,60 +840,320 @@
           "a": 0,
           "b": 101,
           "en": "We know the difference between voluntary and involuntary part-time employment because people tell us.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 78,
+              "en": "We know the difference between voluntary and involuntary part-time employment ",
+              "zh": "我们能区分自愿和非自愿兼职就业，"
+            },
+            {
+              "a": 78,
+              "b": 93,
+              "en": "because people ",
+              "zh": "是因为人们，"
+            },
+            {
+              "a": 93,
+              "b": 101,
+              "en": "tell us.",
+              "zh": "会告诉我们。"
+            }
+          ],
+          "reorder": "because 表调查分类依据；不是研究人员凭岗位时长推断动机。",
+          "translation": "我们之所以能区分自愿和非自愿兼职就业，是因为受访者会告诉我们。",
+          "words": [
+            {
+              "a": 45,
+              "b": 56,
+              "word": "involuntary",
+              "lemma": "involuntary",
+              "meaning": "非自愿的；被迫的",
+              "pos": "a"
+            },
+            {
+              "a": 57,
+              "b": 66,
+              "word": "part-time",
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 57,
+              "b": 66,
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "word": "part-time"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2015-T4-P5-S2",
           "a": 102,
           "b": 210,
           "en": "The survey used by the Labor Department asks people if they worked less than 35 hours in the reference week.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 11,
+              "en": "The survey ",
+              "zh": "这项调查，"
+            },
+            {
+              "a": 11,
+              "b": 40,
+              "en": "used by the Labor Department ",
+              "zh": "由劳工部采用，"
+            },
+            {
+              "a": 40,
+              "b": 52,
+              "en": "asks people ",
+              "zh": "询问受访者，"
+            },
+            {
+              "a": 52,
+              "b": 86,
+              "en": "if they worked less than 35 hours ",
+              "zh": "工作时间是否少于35小时，"
+            },
+            {
+              "a": 86,
+              "b": 108,
+              "en": "in the reference week.",
+              "zh": "在调查所针对的那一周。"
+            }
+          ],
+          "reorder": "used by 的修饰放到调查前；if 是是否；reference week 为统计参照周。",
+          "translation": "劳工部采用的调查会询问受访者，在统计参照周内是否工作不足35小时。",
+          "words": [
+            {
+              "a": 93,
+              "b": 102,
+              "word": "reference",
+              "lemma": "reference",
+              "meaning": "供统计参照的",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 93,
+              "b": 107,
+              "word": "reference week",
+              "lemma": "reference week",
+              "meaning": "统计参照周；调查所针对的一周"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2015-T4-P5-S3",
           "a": 211,
           "b": 276,
           "en": "If the answer is “yes,” they are classified as working part-time.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 24,
+              "en": "If the answer is “yes,” ",
+              "zh": "如果答案是“是”，"
+            },
+            {
+              "a": 24,
+              "b": 44,
+              "en": "they are classified ",
+              "zh": "就将他们归类，"
+            },
+            {
+              "a": 44,
+              "b": 65,
+              "en": "as working part-time.",
+              "zh": "为兼职工作者。"
+            }
+          ],
+          "reorder": "as 的类别接到归类后，if 仍是工作时长这一条件。",
+          "translation": "如果答案是“是”，就将其归为兼职工作者。",
+          "words": [
+            {
+              "a": 55,
+              "b": 64,
+              "word": "part-time",
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "pos": "a"
+            },
+            {
+              "a": 33,
+              "b": 43,
+              "word": "classified",
+              "lemma": "classify",
+              "meaning": "分类；归类"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 55,
+              "b": 64,
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "word": "part-time"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2015-T4-P5-S4",
           "a": 277,
           "b": 428,
           "en": "The survey then asks whether they worked less than 35 hours in that week because they wanted to work less than full time or because they had no choice.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 21,
+              "en": "The survey then asks ",
+              "zh": "调查接着询问，"
+            },
+            {
+              "a": 21,
+              "b": 73,
+              "en": "whether they worked less than 35 hours in that week ",
+              "zh": "那周工作不足35小时，"
+            },
+            {
+              "a": 73,
+              "b": 121,
+              "en": "because they wanted to work less than full time ",
+              "zh": "是因为他们想少于全职时长工作，"
+            },
+            {
+              "a": 121,
+              "b": 151,
+              "en": "or because they had no choice.",
+              "zh": "还是因为别无选择。"
+            }
+          ],
+          "reorder": "whether...or 为两种原因的选择，前者自愿后者被迫；不把35小时重复理解成两个标准。",
+          "translation": "调查接着询问，他们那周工作不足35小时，是自己想少于全职时长工作，还是别无选择。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2015-T4-P5-S5",
           "a": 429,
           "b": 560,
           "en": "They are only classified as voluntary part-time workers if they tell the survey taker they chose to work less than 35 hours a week.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 56,
+              "en": "They are only classified as voluntary part-time workers ",
+              "zh": "只有这样才被归为自愿兼职工作者，"
+            },
+            {
+              "a": 56,
+              "b": 86,
+              "en": "if they tell the survey taker ",
+              "zh": "如果他们告诉调查员，"
+            },
+            {
+              "a": 86,
+              "b": 105,
+              "en": "they chose to work ",
+              "zh": "自己选择，"
+            },
+            {
+              "a": 105,
+              "b": 131,
+              "en": "less than 35 hours a week.",
+              "zh": "每周工作不足35小时。"
+            }
+          ],
+          "reorder": "only...if 的必要条件移到前面，突出必须明确自述是主动选择。",
+          "translation": "只有受访者告诉调查员，自己主动选择每周工作不足35小时，才会被归为自愿兼职工作者。",
+          "words": [
+            {
+              "a": 14,
+              "b": 24,
+              "word": "classified",
+              "lemma": "classify",
+              "meaning": "归类；划分",
+              "pos": "v"
+            },
+            {
+              "a": 38,
+              "b": 47,
+              "word": "part-time",
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "pos": "a"
+            },
+            {
+              "a": 80,
+              "b": 85,
+              "word": "taker",
+              "lemma": "taker",
+              "meaning": "调查执行者；访问员",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 38,
+              "b": 47,
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "word": "part-time"
+            },
+            {
+              "a": 73,
+              "b": 85,
+              "word": "survey taker",
+              "lemma": "survey taker",
+              "meaning": "调查员"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -267,24 +1166,194 @@
           "a": 0,
           "b": 146,
           "en": "The issue of voluntary part-time relates to Obamacare because one of the main purposes was to allow people to get insurance outside of employment.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 54,
+              "en": "The issue of voluntary part-time relates to Obamacare ",
+              "zh": "自愿兼职问题与奥巴马医改有关，"
+            },
+            {
+              "a": 54,
+              "b": 87,
+              "en": "because one of the main purposes ",
+              "zh": "因为医改的一个主要目的，"
+            },
+            {
+              "a": 87,
+              "b": 124,
+              "en": "was to allow people to get insurance ",
+              "zh": "是让人们能够获得医疗保险，"
+            },
+            {
+              "a": 124,
+              "b": 146,
+              "en": "outside of employment.",
+              "zh": "不必依赖工作。"
+            }
+          ],
+          "reorder": "one of 只指其中一个目标；outside of employment 是脱离雇佣关系也可投保，不是工作场所外买保险。",
+          "translation": "自愿兼职问题与奥巴马医改有关，因为医改的一个主要目的，就是让人们不必依赖工作也能获得医疗保险。",
+          "words": [
+            {
+              "a": 4,
+              "b": 9,
+              "word": "issue",
+              "lemma": "issue",
+              "meaning": "议题；所讨论的问题",
+              "pos": "n"
+            },
+            {
+              "a": 23,
+              "b": 32,
+              "word": "part-time",
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "pos": "a"
+            },
+            {
+              "a": 114,
+              "b": 123,
+              "word": "insurance",
+              "lemma": "insurance",
+              "meaning": "医疗保险（本文语境）"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 23,
+              "b": 32,
+              "lemma": "part-time",
+              "meaning": "兼职的；非全日制的",
+              "word": "part-time"
+            },
+            {
+              "a": 124,
+              "b": 145,
+              "lemma": "outside of employment",
+              "meaning": "不依附于工作关系的",
+              "word": "outside of employment"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2015-T4-P6-S2",
           "a": 147,
           "b": 358,
           "en": "For many people, especially those with serious health conditions or family members with serious health conditions, before Obamacare the only way to get insurance was through a job that provided health insurance.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 17,
+              "en": "For many people, ",
+              "zh": "对许多人来说，"
+            },
+            {
+              "a": 17,
+              "b": 115,
+              "en": "especially those with serious health conditions or family members with serious health conditions, ",
+              "zh": "尤其是自己或家人有严重健康问题的人，"
+            },
+            {
+              "a": 115,
+              "b": 132,
+              "en": "before Obamacare ",
+              "zh": "在奥巴马医改之前，"
+            },
+            {
+              "a": 132,
+              "b": 162,
+              "en": "the only way to get insurance ",
+              "zh": "获得保险的唯一办法，"
+            },
+            {
+              "a": 162,
+              "b": 180,
+              "en": "was through a job ",
+              "zh": "是通过一份工作，"
+            },
+            {
+              "a": 180,
+              "b": 211,
+              "en": "that provided health insurance.",
+              "zh": "那份工作会提供医疗保险。"
+            }
+          ],
+          "reorder": "把改革前时间提前；especially 插入说明特定群体；that 的定语放到工作前。",
+          "translation": "在奥巴马医改之前，对许多人，尤其是自己或家人有严重健康问题的人来说，获得医疗保险的唯一办法，就是找到一份提供医保的工作。",
+          "words": [
+            {
+              "a": 54,
+              "b": 64,
+              "word": "conditions",
+              "lemma": "condition",
+              "meaning": "疾病；健康状况",
+              "pos": "n"
+            },
+            {
+              "a": 103,
+              "b": 113,
+              "word": "conditions",
+              "lemma": "condition",
+              "meaning": "疾病；健康状况",
+              "pos": "n"
+            },
+            {
+              "a": 152,
+              "b": 161,
+              "word": "insurance",
+              "lemma": "insurance",
+              "meaning": "医疗保险",
+              "pos": "n"
+            },
+            {
+              "a": 201,
+              "b": 210,
+              "word": "insurance",
+              "lemma": "insurance",
+              "meaning": "医疗保险",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 194,
+              "b": 210,
+              "lemma": "health insurance",
+              "meaning": "医疗保险",
+              "word": "health insurance"
+            },
+            {
+              "a": 47,
+              "b": 64,
+              "word": "health conditions",
+              "lemma": "health condition",
+              "meaning": "健康问题；疾病状况"
+            },
+            {
+              "a": 96,
+              "b": 113,
+              "word": "health conditions",
+              "lemma": "health condition",
+              "meaning": "健康问题；疾病状况"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -297,36 +1366,203 @@
           "a": 0,
           "b": 117,
           "en": "However, Obamacare has allowed more than 12 million people to either get insurance through Medicaid or the exchanges.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 31,
+              "en": "However, Obamacare has allowed ",
+              "zh": "然而，奥巴马医改已经使，"
+            },
+            {
+              "a": 31,
+              "b": 59,
+              "en": "more than 12 million people ",
+              "zh": "超过1200万人，"
+            },
+            {
+              "a": 59,
+              "b": 83,
+              "en": "to either get insurance ",
+              "zh": "能够获得保险，"
+            },
+            {
+              "a": 83,
+              "b": 117,
+              "en": "through Medicaid or the exchanges.",
+              "zh": "通过医疗补助计划或医保交易平台。"
+            }
+          ],
+          "reorder": "把 through 的两种投保渠道放到获得保险前；either...or 为二选一渠道。",
+          "translation": "然而，奥巴马医改已让超过1200万人能通过医疗补助计划或医保交易平台获得保险。",
+          "words": [
+            {
+              "a": 73,
+              "b": 82,
+              "word": "insurance",
+              "lemma": "insurance",
+              "meaning": "医疗保险",
+              "pos": "n"
+            },
+            {
+              "a": 91,
+              "b": 99,
+              "word": "Medicaid",
+              "lemma": "Medicaid",
+              "meaning": "医疗补助计划（面向符合条件的低收入等人群）"
+            },
+            {
+              "a": 107,
+              "b": 116,
+              "word": "exchanges",
+              "lemma": "exchange",
+              "meaning": "医保交易平台"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2015-T4-P7-S2",
           "a": 118,
           "b": 268,
           "en": "These are people who may previously have felt the need to get a full-time job that provided insurance in order to cover themselves and their families.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 17,
+              "en": "These are people ",
+              "zh": "这些人，"
+            },
+            {
+              "a": 17,
+              "b": 55,
+              "en": "who may previously have felt the need ",
+              "zh": "以前可能觉得有必要，"
+            },
+            {
+              "a": 55,
+              "b": 78,
+              "en": "to get a full-time job ",
+              "zh": "找一份全职工作，"
+            },
+            {
+              "a": 78,
+              "b": 102,
+              "en": "that provided insurance ",
+              "zh": "一份提供保险的工作，"
+            },
+            {
+              "a": 102,
+              "b": 150,
+              "en": "in order to cover themselves and their families.",
+              "zh": "以保障自己和家人。"
+            }
+          ],
+          "reorder": "将 who 的相对从句化为完整陈述；that 放到工作前；cover 指保险保障不是遮盖。",
+          "translation": "这些人以前可能觉得，必须找一份提供医保的全职工作，才能让自己和家人得到保险保障。",
+          "words": [
+            {
+              "a": 64,
+              "b": 73,
+              "word": "full-time",
+              "lemma": "full-time",
+              "meaning": "全职的；全日制的",
+              "pos": "a"
+            },
+            {
+              "a": 92,
+              "b": 101,
+              "word": "insurance",
+              "lemma": "insurance",
+              "meaning": "医疗保险",
+              "pos": "n"
+            },
+            {
+              "a": 114,
+              "b": 119,
+              "word": "cover",
+              "lemma": "cover",
+              "meaning": "为……提供保险保障"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 64,
+              "b": 73,
+              "lemma": "full-time",
+              "meaning": "全职的；全日制的",
+              "word": "full-time"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2015-T4-P7-S3",
           "a": 269,
           "b": 343,
           "en": "With Obamacare there is no longer a link between employment and insurance.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 15,
+              "en": "With Obamacare ",
+              "zh": "有了奥巴马医改，"
+            },
+            {
+              "a": 15,
+              "b": 34,
+              "en": "there is no longer ",
+              "zh": "就不再存在，"
+            },
+            {
+              "a": 34,
+              "b": 74,
+              "en": "a link between employment and insurance.",
+              "zh": "就业与保险之间的绑定。"
+            }
+          ],
+          "reorder": "With 说明改革背景；按原文当时的结论翻译，不扩成对所有现实保险制度的永久断言。",
+          "translation": "按文中的说法，有了奥巴马医改，就业与保险不再绑定。",
+          "words": [
+            {
+              "a": 64,
+              "b": 73,
+              "word": "insurance",
+              "lemma": "insurance",
+              "meaning": "医疗保险",
+              "pos": "n"
+            },
+            {
+              "a": 36,
+              "b": 40,
+              "word": "link",
+              "lemma": "link",
+              "meaning": "联系；绑定关系"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     }

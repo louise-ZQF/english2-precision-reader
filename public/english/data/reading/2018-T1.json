@@ -6,10 +6,19 @@
   "text": 1,
   "articleKey": "s1-p0-t0",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "5197229ee84bed69177592185129ef0dd0c23d6f1f14e60e72f46990473b72d2",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2018年考研英语二真题.pdf",
+        "page": 4,
+        "sha256": "1ef8f8d43a882358d66377033a824fe5c64ee474ff3b7756c824df710140e62f"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇对照本地试卷完整正文与PDF渲染页，逐项核对提取层形似字、下划线漏字和标点差异；保留原英文与固定编号。"
   },
   "paragraphs": [
     {
@@ -21,12 +30,53 @@
           "a": 0,
           "b": 126,
           "en": "It is curious that Stephen Koziatek feels almost as though he has to justify his efforts to give his students a better future.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 19,
+              "en": "It is curious that ",
+              "zh": "令人奇怪的是"
+            },
+            {
+              "a": 19,
+              "b": 59,
+              "en": "Stephen Koziatek feels almost as though ",
+              "zh": "斯蒂芬·科齐亚特克几乎觉得"
+            },
+            {
+              "a": 59,
+              "b": 89,
+              "en": "he has to justify his efforts ",
+              "zh": "自己不得不为所作的努力辩解"
+            },
+            {
+              "a": 89,
+              "b": 126,
+              "en": "to give his students a better future.",
+              "zh": "这些努力是为了让学生拥有更好的未来"
+            }
+          ],
+          "reorder": "先译评价，再译科齐亚特克的感受；把 to give... 的目的接到“努力”之前。",
+          "translation": "令人奇怪的是，斯蒂芬·科齐亚特克几乎觉得，自己为让学生拥有更好未来所作的努力，竟还需要辩解。",
+          "words": [
+            {
+              "a": 69,
+              "b": 76,
+              "word": "justify",
+              "lemma": "justify",
+              "meaning": "为……说明正当理由；证明……合理",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -39,36 +89,153 @@
           "a": 0,
           "b": 45,
           "en": "Mr. Koziatek is part of something pioneering.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 45,
+              "en": "Mr. Koziatek is part of something pioneering.",
+              "zh": "科齐亚特克先生正在参与一项具有开创性的实践"
+            }
+          ],
+          "reorder": "将 is part of 译为参与其中，不将人直接译为“一部分”。",
+          "translation": "科齐亚特克先生正在参与一项具有开创性的实践。",
+          "words": [
+            {
+              "a": 34,
+              "b": 44,
+              "lemma": "pioneer",
+              "meaning": "具有开创性的；创新实践的",
+              "word": "pioneering",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T1-P2-S2",
           "a": 46,
           "b": 187,
           "en": "He is a teacher at a New Hampshire high school where learning is not something of books and tests and mechanical memorization, but practical.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 47,
+              "en": "He is a teacher at a New Hampshire high school ",
+              "zh": "他是新罕布什尔州一所高中的教师"
+            },
+            {
+              "a": 47,
+              "b": 127,
+              "en": "where learning is not something of books and tests and mechanical memorization, ",
+              "zh": "在这里，学习并不意味着书本、考试和死记硬背"
+            },
+            {
+              "a": 127,
+              "b": 141,
+              "en": "but practical.",
+              "zh": "而是注重实践"
+            }
+          ],
+          "reorder": "把 where 后的学校特点另译分句，not...but 的对照是书本式学习与实践。",
+          "translation": "他是新罕布什尔州一所高中的教师。在这里，学习并不意味着书本、考试和死记硬背，而是注重实践。",
+          "words": [
+            {
+              "a": 102,
+              "b": 112,
+              "lemma": "mechanical",
+              "meaning": "机械式的；不加理解的",
+              "word": "mechanical",
+              "pos": "a"
+            },
+            {
+              "a": 131,
+              "b": 140,
+              "lemma": "practical",
+              "meaning": "注重实践与动手的",
+              "word": "practical",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 102,
+              "b": 125,
+              "lemma": "mechanical memorization",
+              "meaning": "机械记忆；死记硬背",
+              "word": "mechanical memorization"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T1-P2-S3",
           "a": 188,
           "b": 350,
           "en": "When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 35,
+              "en": "When did it become accepted wisdom ",
+              "zh": "这种观念何时成了公认的道理"
+            },
+            {
+              "a": 35,
+              "b": 112,
+              "en": "that students should be able to name the 13th president of the United States ",
+              "zh": "学生应该能说出美国第十三任总统的名字"
+            },
+            {
+              "a": 112,
+              "b": 162,
+              "en": "but be utterly overwhelmed by a broken bike chain?",
+              "zh": "却可以面对断掉的自行车链条束手无策"
+            }
+          ],
+          "reorder": "将 that 从句的荒谬对照放在前面也可，最后保留“何时成为公认道理”的反问。",
+          "translation": "学生应该能说出美国第十三任总统的名字，却可以面对断掉的自行车链条束手无策，这种观念何时成了公认的道理？",
+          "words": [
+            {
+              "a": 127,
+              "b": 138,
+              "lemma": "overwhelm",
+              "meaning": "无从应对的；不知所措的",
+              "word": "overwhelmed",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 19,
+              "b": 34,
+              "lemma": "accepted wisdom",
+              "meaning": "被普遍接受的看法",
+              "word": "accepted wisdom"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -81,36 +248,142 @@
           "a": 0,
           "b": 62,
           "en": "As Koziatek knows, there is learning in just about everything.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 19,
+              "en": "As Koziatek knows, ",
+              "zh": "正如科齐亚特克所知道的"
+            },
+            {
+              "a": 19,
+              "b": 62,
+              "en": "there is learning in just about everything.",
+              "zh": "几乎任何事物都能让人学到东西"
+            }
+          ],
+          "reorder": "先译 As 的引述，再把 there is learning 译成中文动作。",
+          "translation": "正如科齐亚特克所知道的，几乎任何事物都能让人学到东西。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T1-P3-S2",
           "a": 63,
           "b": 200,
           "en": "Nothing is necessarily gained by forcing students to learn geometry at a graffitied desk stuck with generations of discarded chewing gum.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 30,
+              "en": "Nothing is necessarily gained ",
+              "zh": "未必能获得什么益处"
+            },
+            {
+              "a": 30,
+              "b": 68,
+              "en": "by forcing students to learn geometry ",
+              "zh": "强迫学生学习几何"
+            },
+            {
+              "a": 68,
+              "b": 89,
+              "en": "at a graffitied desk ",
+              "zh": "坐在满是涂鸦的课桌前"
+            },
+            {
+              "a": 89,
+              "b": 137,
+              "en": "stuck with generations of discarded chewing gum.",
+              "zh": "桌上还粘着一届届学生丢弃的口香糖"
+            }
+          ],
+          "reorder": "将 by 引出的做法先译，再落到“未必有收获”；stuck with 修饰课桌，generations 指一届届学生。",
+          "translation": "强迫学生坐在满是涂鸦、还粘着一届届学生丢弃的口香糖的课桌前学习几何，未必能带来什么益处。",
+          "words": [
+            {
+              "a": 73,
+              "b": 83,
+              "lemma": "graffitied",
+              "meaning": "被涂鸦的",
+              "word": "graffitied",
+              "pos": "v"
+            },
+            {
+              "a": 115,
+              "b": 124,
+              "lemma": "discard",
+              "meaning": "被丢弃的",
+              "word": "discarded",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T1-P3-S3",
           "a": 201,
           "b": 254,
           "en": "They can also learn geometry by assembling a bicycle.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 29,
+              "en": "They can also learn geometry ",
+              "zh": "他们也能学习几何"
+            },
+            {
+              "a": 29,
+              "b": 53,
+              "en": "by assembling a bicycle.",
+              "zh": "通过组装一辆自行车"
+            }
+          ],
+          "reorder": "把 by 的学习方式移到“学习几何”前。",
+          "translation": "他们也能通过组装一辆自行车来学习几何。",
+          "words": [
+            {
+              "a": 20,
+              "b": 28,
+              "lemma": "geometry",
+              "meaning": "几何学",
+              "word": "geometry",
+              "pos": "n"
+            },
+            {
+              "a": 32,
+              "b": 42,
+              "lemma": "assemble",
+              "meaning": "组装",
+              "word": "assembling",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -123,36 +396,143 @@
           "a": 0,
           "b": 50,
           "en": "But he's also found a kind of insidious prejudice.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 50,
+              "en": "But he's also found a kind of insidious prejudice.",
+              "zh": "但他也发现了一种隐蔽而有害的偏见"
+            }
+          ],
+          "reorder": "顺译；insidious 强调不易察觉却有害。",
+          "translation": "但他也发现了一种隐蔽而有害的偏见。",
+          "words": [
+            {
+              "a": 30,
+              "b": 39,
+              "lemma": "insidious",
+              "meaning": "隐蔽而有害的；不易察觉的",
+              "word": "insidious",
+              "pos": "a"
+            },
+            {
+              "a": 40,
+              "b": 49,
+              "lemma": "prejudice",
+              "meaning": "偏见",
+              "word": "prejudice",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T1-P4-S2",
           "a": 51,
           "b": 115,
           "en": "Working with your hands is seen as almost a mark of inferiority.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 24,
+              "en": "Working with your hands ",
+              "zh": "动手劳动"
+            },
+            {
+              "a": 24,
+              "b": 64,
+              "en": "is seen as almost a mark of inferiority.",
+              "zh": "几乎被看成低人一等的标志"
+            }
+          ],
+          "reorder": "将动名词主语先译，is seen as 译为被视为。",
+          "translation": "动手劳动几乎被看成低人一等的标志。",
+          "words": [
+            {
+              "a": 52,
+              "b": 63,
+              "lemma": "inferiority",
+              "meaning": "低人一等；较差的地位",
+              "word": "inferiority",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T1-P4-S3",
           "a": 116,
           "b": 246,
           "en": "Schools in the family of vocational education “have that stereotype...that it's for kids who can't make it academically,” he says.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 46,
+              "en": "Schools in the family of vocational education ",
+              "zh": "职业教育体系中的学校"
+            },
+            {
+              "a": 46,
+              "b": 70,
+              "en": "“have that stereotype...",
+              "zh": "背负着这样一种刻板印象"
+            },
+            {
+              "a": 70,
+              "b": 122,
+              "en": "that it's for kids who can't make it academically,” ",
+              "zh": "它们是为那些无法在学业上取得成功的孩子开办的"
+            },
+            {
+              "a": 122,
+              "b": 130,
+              "en": "he says.",
+              "zh": "他说"
+            }
+          ],
+          "reorder": "把说话人前置；that 后面解释 stereotype 的具体内容，who 的限定放到孩子前。",
+          "translation": "他说，职业教育体系中的学校“背负着这样一种刻板印象……它们是为那些无法在学业上取得成功的孩子开办的”。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 25,
+              "b": 45,
+              "lemma": "vocational education",
+              "meaning": "职业教育",
+              "word": "vocational education"
+            },
+            {
+              "a": 99,
+              "b": 119,
+              "lemma": "make it academically",
+              "meaning": "在学业上取得成功",
+              "word": "make it academically"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -165,60 +545,203 @@
           "a": 0,
           "b": 72,
           "en": "On one hand, that viewpoint is a logical product of America's evolution.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 13,
+              "en": "On one hand, ",
+              "zh": "一方面"
+            },
+            {
+              "a": 13,
+              "b": 72,
+              "en": "that viewpoint is a logical product of America's evolution.",
+              "zh": "这种观点是美国发展历程中合乎逻辑的产物"
+            }
+          ],
+          "reorder": "顺译，that viewpoint 指低看职业教育和动手劳动的观念。",
+          "translation": "一方面，这种观点是美国发展历程中合乎逻辑的产物。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T1-P5-S2",
           "a": 73,
           "b": 131,
           "en": "Manufacturing is not the economic engine that it once was.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 41,
+              "en": "Manufacturing is not the economic engine ",
+              "zh": "制造业不再是经济引擎"
+            },
+            {
+              "a": 41,
+              "b": 58,
+              "en": "that it once was.",
+              "zh": "不再像过去那样"
+            }
+          ],
+          "reorder": "将 that it once was 译为过去与现在的对比，不把 not 的范围扩大成制造业完全没有经济作用。",
+          "translation": "制造业已不像过去那样充当经济引擎。",
+          "words": [
+            {
+              "a": 0,
+              "b": 13,
+              "lemma": "manufacturing",
+              "meaning": "制造业；工业制造",
+              "word": "Manufacturing",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 25,
+              "b": 40,
+              "lemma": "economic engine",
+              "meaning": "经济发展的驱动力",
+              "word": "economic engine"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T1-P5-S3",
           "a": 132,
           "b": 230,
           "en": "The job security that the US economy once offered to high school graduates has largely evaporated.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 17,
+              "en": "The job security ",
+              "zh": "就业保障"
+            },
+            {
+              "a": 17,
+              "b": 75,
+              "en": "that the US economy once offered to high school graduates ",
+              "zh": "美国经济曾为高中毕业生提供的保障"
+            },
+            {
+              "a": 75,
+              "b": 98,
+              "en": "has largely evaporated.",
+              "zh": "如今已大多消失"
+            }
+          ],
+          "reorder": "把 that 从句提前修饰就业保障，largely 保留“大多”的程度限制。",
+          "translation": "美国经济曾为高中毕业生提供的就业保障，如今已大多消失。",
+          "words": [
+            {
+              "a": 87,
+              "b": 97,
+              "lemma": "evaporate",
+              "meaning": "消失；不复存在",
+              "word": "evaporated",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 4,
+              "b": 16,
+              "lemma": "job security",
+              "meaning": "就业保障；工作稳定性",
+              "word": "job security"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T1-P5-S4",
           "a": 231,
           "b": 267,
           "en": "More education is the new principle.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 36,
+              "en": "More education is the new principle.",
+              "zh": "接受更多教育成了新的信条"
+            }
+          ],
+          "reorder": "顺译，More education 指受教育程度提高。",
+          "translation": "接受更多教育成了新的信条。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T1-P5-S5",
           "a": 268,
           "b": 313,
           "en": "We want more for our kids, and rightfully so.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 27,
+              "en": "We want more for our kids, ",
+              "zh": "我们希望孩子拥有更多"
+            },
+            {
+              "a": 27,
+              "b": 45,
+              "en": "and rightfully so.",
+              "zh": "这种愿望理所应当"
+            }
+          ],
+          "reorder": "补出 so 所回指的愿望，保持对家长期待的肯定。",
+          "translation": "我们希望孩子拥有更多，这种愿望理所应当。",
+          "words": [
+            {
+              "a": 31,
+              "b": 41,
+              "word": "rightfully",
+              "lemma": "rightfully",
+              "meaning": "合理地；理所应当地",
+              "pos": "adv"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -231,48 +754,191 @@
           "a": 0,
           "b": 180,
           "en": "But the headlong push into bachelor's degrees for all – and the subtle devaluing of anything less – misses an important point: That's not the only thing the American economy needs.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 56,
+              "en": "But the headlong push into bachelor's degrees for all – ",
+              "zh": "但是，一味推动人人攻读学士学位"
+            },
+            {
+              "a": 56,
+              "b": 100,
+              "en": "and the subtle devaluing of anything less – ",
+              "zh": "并在不知不觉中贬低所有较低学历的价值"
+            },
+            {
+              "a": 100,
+              "b": 127,
+              "en": "misses an important point: ",
+              "zh": "却忽略了一个重要问题"
+            },
+            {
+              "a": 127,
+              "b": 180,
+              "en": "That's not the only thing the American economy needs.",
+              "zh": "美国经济需要的并不只有学士学位"
+            }
+          ],
+          "reorder": "先译并列的两种倾向，再译它们遗漏的事实；anything less 是低于学士层次的教育。",
+          "translation": "但是，一味推动人人攻读学士学位，并在不知不觉中贬低所有较低学历的价值，却忽略了一个重要问题：美国经济需要的并不只有学士学位。",
+          "words": [
+            {
+              "a": 8,
+              "b": 16,
+              "lemma": "headlong",
+              "meaning": "盲目急进的；不加审慎考虑的",
+              "word": "headlong",
+              "pos": "a"
+            },
+            {
+              "a": 71,
+              "b": 80,
+              "lemma": "devalue",
+              "meaning": "贬低其价值",
+              "word": "devaluing",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T1-P6-S2",
           "a": 181,
           "b": 223,
           "en": "Yes, a bachelor's degree opens more doors.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 42,
+              "en": "Yes, a bachelor's degree opens more doors.",
+              "zh": "的确，学士学位会带来更多机会"
+            }
+          ],
+          "reorder": "doors 按比喻义译为机会，Yes 承认对方论点。",
+          "translation": "的确，学士学位会带来更多机会。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 25,
+              "b": 41,
+              "lemma": "opens more doors",
+              "meaning": "带来更多机会",
+              "word": "opens more doors"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T1-P6-S3",
           "a": 224,
           "b": 349,
           "en": "But even now, 54 percent of the jobs in the country are middle-skill jobs, such as construction and high-skill manufacturing.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 14,
+              "en": "But even now, ",
+              "zh": "但即使在今天"
+            },
+            {
+              "a": 14,
+              "b": 75,
+              "en": "54 percent of the jobs in the country are middle-skill jobs, ",
+              "zh": "全国百分之五十四的岗位仍属于中等技能岗位"
+            },
+            {
+              "a": 75,
+              "b": 125,
+              "en": "such as construction and high-skill manufacturing.",
+              "zh": "例如建筑和高技能制造业的工作"
+            }
+          ],
+          "reorder": "先译时间与占比，再译例子；high-skill 是原文对制造业的限定，保留其与中等技能岗位分类的并列。",
+          "translation": "但即使在今天，全国百分之五十四的岗位仍属于中等技能岗位，例如建筑和高技能制造业的工作。",
+          "words": [
+            {
+              "a": 56,
+              "b": 68,
+              "lemma": "middle-skill",
+              "meaning": "需要中等技能的",
+              "word": "middle-skill",
+              "pos": "a"
+            },
+            {
+              "a": 111,
+              "b": 124,
+              "lemma": "manufacturing",
+              "meaning": "制造业；工业制造",
+              "word": "manufacturing",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T1-P6-S4",
           "a": 350,
           "b": 404,
           "en": "But only 44 percent of workers are adequately trained.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 31,
+              "en": "But only 44 percent of workers ",
+              "zh": "但只有百分之四十四的劳动者"
+            },
+            {
+              "a": 31,
+              "b": 54,
+              "en": "are adequately trained.",
+              "zh": "受过足够的培训"
+            }
+          ],
+          "reorder": "顺译，only 限定劳动者比例。",
+          "translation": "但只有百分之四十四的劳动者受过足够的培训。",
+          "words": [
+            {
+              "a": 35,
+              "b": 45,
+              "lemma": "adequately",
+              "meaning": "充分地；达到要求地",
+              "word": "adequately",
+              "pos": "adv"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -285,36 +951,155 @@
           "a": 0,
           "b": 214,
           "en": "In other words, at a time when the working class has turned the country on its political head, frustrated that the opportunity that once defined America is vanishing, one obvious solution is staring us in the face.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 16,
+              "en": "In other words, ",
+              "zh": "换句话说"
+            },
+            {
+              "a": 16,
+              "b": 95,
+              "en": "at a time when the working class has turned the country on its political head, ",
+              "zh": "当工人阶级已颠覆全国政治格局之时"
+            },
+            {
+              "a": 95,
+              "b": 167,
+              "en": "frustrated that the opportunity that once defined America is vanishing, ",
+              "zh": "他们因曾经界定美国特色的机会正在消失而感到失望"
+            },
+            {
+              "a": 167,
+              "b": 214,
+              "en": "one obvious solution is staring us in the face.",
+              "zh": "一个显而易见的解决办法就摆在眼前"
+            }
+          ],
+          "reorder": "先译当下背景，将 frustrated 的原因接到工人阶级之后；最后回到主句的解决办法。",
+          "translation": "换句话说，工人阶级因曾经界定美国特色的机会正在消失而感到失望，并已颠覆全国政治格局；就在此时，一个显而易见的解决办法正摆在我们面前。",
+          "words": [
+            {
+              "a": 95,
+              "b": 105,
+              "word": "frustrated",
+              "lemma": "frustrated",
+              "meaning": "沮丧的；失望受挫的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 53,
+              "b": 93,
+              "lemma": "turned the country on its political head",
+              "meaning": "使国家政治格局发生颠覆性变化",
+              "word": "turned the country on its political head"
+            },
+            {
+              "a": 191,
+              "b": 213,
+              "lemma": "staring us in the face",
+              "meaning": "显而易见；就在眼前",
+              "word": "staring us in the face"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T1-P7-S2",
           "a": 215,
           "b": 321,
           "en": "There is a gap in working-class jobs, but the workers who need those jobs most aren't equipped to do them.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 38,
+              "en": "There is a gap in working-class jobs, ",
+              "zh": "蓝领岗位存在空缺"
+            },
+            {
+              "a": 38,
+              "b": 79,
+              "en": "but the workers who need those jobs most ",
+              "zh": "但最需要这些工作的人"
+            },
+            {
+              "a": 79,
+              "b": 106,
+              "en": "aren't equipped to do them.",
+              "zh": "却不具备胜任它们所需的技能"
+            }
+          ],
+          "reorder": "把 who 的限定前置到劳动者前；them 回指这些空缺岗位。",
+          "translation": "蓝领岗位存在空缺，但最需要这些工作的人，却不具备胜任它们所需的技能。",
+          "words": [
+            {
+              "a": 86,
+              "b": 94,
+              "lemma": "equip",
+              "meaning": "具备所需技能的；有准备的",
+              "word": "equipped",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T1-P7-S3",
           "a": 322,
           "b": 404,
           "en": "Koziatek's Manchester School of Technology High School is trying to fill that gap.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 65,
+              "en": "Koziatek's Manchester School of Technology High School is trying ",
+              "zh": "科齐亚特克所在的曼彻斯特技术高中正在尝试"
+            },
+            {
+              "a": 65,
+              "b": 82,
+              "en": "to fill that gap.",
+              "zh": "弥合这一缺口"
+            }
+          ],
+          "reorder": "用“所在的”说明学校与人物关系，that gap 指岗位需求与劳动者技能之间的缺口。",
+          "translation": "科齐亚特克所在的曼彻斯特技术高中，正在尝试弥合这一缺口。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 68,
+              "b": 81,
+              "lemma": "fill that gap",
+              "meaning": "弥补岗位技能与劳动者能力之间的缺口",
+              "word": "fill that gap"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -327,24 +1112,83 @@
           "a": 0,
           "b": 36,
           "en": "Koziatek's school is a wake-up call.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 36,
+              "en": "Koziatek's school is a wake-up call.",
+              "zh": "科齐亚特克的学校给人们敲响了警钟"
+            }
+          ],
+          "reorder": "wake-up call 按提醒警醒之义译出。",
+          "translation": "科齐亚特克的学校给人们敲响了警钟。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 23,
+              "b": 35,
+              "lemma": "wake-up call",
+              "meaning": "警醒；提醒",
+              "word": "wake-up call"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T1-P8-S2",
           "a": 37,
           "b": 130,
           "en": "When education becomes one-size-fits-all, it risks overlooking a nation's diversity of gifts.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 42,
+              "en": "When education becomes one-size-fits-all, ",
+              "zh": "当教育变成一刀切的模式"
+            },
+            {
+              "a": 42,
+              "b": 93,
+              "en": "it risks overlooking a nation's diversity of gifts.",
+              "zh": "就有可能忽视一个国家民众天赋的多样性"
+            }
+          ],
+          "reorder": "先译 when 条件，it 指教育；gifts 译为天赋。",
+          "translation": "当教育变成一刀切的模式，就有可能忽视一个国家民众天赋的多样性。",
+          "words": [
+            {
+              "a": 23,
+              "b": 40,
+              "lemma": "one-size-fits-all",
+              "meaning": "一刀切的；不分个体差异的",
+              "word": "one-size-fits-all",
+              "pos": "a"
+            },
+            {
+              "a": 87,
+              "b": 92,
+              "lemma": "gift",
+              "meaning": "天赋；才能",
+              "word": "gifts",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     }

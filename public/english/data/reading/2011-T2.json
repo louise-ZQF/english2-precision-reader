@@ -6,10 +6,19 @@
   "text": 2,
   "articleKey": "s1-p0-t1",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "82ed4f2964fd9bbbd5b04afc3e81b18853a1b8189d4b64aa7bfc846f2940f249",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2011年考研英语二真题.pdf",
+        "page": 6,
+        "sha256": "35e8d551fed065a210369c969844df4a90987d4bdcbcb03691a750c41ba44dfb"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇对照本地原卷提取正文，核查字形及标点差异；逐句核对句块、语序和译文。"
   },
   "paragraphs": [
     {
@@ -21,108 +30,293 @@
           "a": 0,
           "b": 45,
           "en": "Whatever happened to the death of newspapers?",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 45,
+              "en": "Whatever happened to the death of newspapers?",
+              "zh": "说好的报纸消亡，怎么没了下文？"
+            }
+          ],
+          "reorder": "无需调整语序，Whatever happened to 带有反问语气。",
+          "translation": "说好的报纸消亡，怎么没了下文？",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P1-S2",
           "a": 46,
           "b": 77,
           "en": "A year ago the end seemed near.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 31,
+              "en": "A year ago the end seemed near.",
+              "zh": "一年前，报纸的末日似乎近在眼前"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "一年前，报纸的末日似乎近在眼前。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P1-S3",
           "a": 78,
           "b": 183,
           "en": "The recession threatened to remove the advertising and readers that had not already fled to the internet.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 63,
+              "en": "The recession threatened to remove the advertising and readers ",
+              "zh": "经济衰退威胁着报纸，要夺走广告和读者"
+            },
+            {
+              "a": 63,
+              "b": 105,
+              "en": "that had not already fled to the internet.",
+              "zh": "这些广告和读者此前尚未转向互联网"
+            }
+          ],
+          "reorder": "把 that 定语放到“广告和读者”前。",
+          "translation": "经济衰退威胁着报纸，要夺走那些尚未转向互联网的广告和读者。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P1-S4",
           "a": 184,
           "b": 260,
           "en": "Newspapers like the San Francisco Chronicle were chronicling their own doom.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 44,
+              "en": "Newspapers like the San Francisco Chronicle ",
+              "zh": "像《旧金山纪事报》这样的报纸"
+            },
+            {
+              "a": 44,
+              "b": 76,
+              "en": "were chronicling their own doom.",
+              "zh": "正在记录自身的灭亡"
+            }
+          ],
+          "reorder": "无需调整语序，Chronicle 是报纸名称。",
+          "translation": "像《旧金山纪事报》这样的报纸正在记录自身的灭亡。",
+          "words": [
+            {
+              "a": 49,
+              "b": 60,
+              "word": "chronicling",
+              "lemma": "chronicle",
+              "meaning": "记录；报道",
+              "pos": "v"
+            },
+            {
+              "a": 71,
+              "b": 75,
+              "word": "doom",
+              "lemma": "doom",
+              "meaning": "毁灭；衰亡",
+              "pos": "n"
+            },
+            {
+              "a": 34,
+              "b": 43,
+              "word": "Chronicle",
+              "lemma": "Chronicle",
+              "meaning": "《纪事报》（报纸名称的一部分）"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P1-S5",
           "a": 261,
           "b": 351,
           "en": "America's Federal Trade Commission launched a round of talks about how to save newspapers.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 61,
+              "en": "America's Federal Trade Commission launched a round of talks ",
+              "zh": "美国联邦贸易委员会发起了一轮讨论"
+            },
+            {
+              "a": 61,
+              "b": 90,
+              "en": "about how to save newspapers.",
+              "zh": "讨论怎样拯救报纸"
+            }
+          ],
+          "reorder": "把 about 内容作讨论主题。",
+          "translation": "美国联邦贸易委员会发起了一轮关于如何拯救报纸的讨论。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P1-S6",
           "a": 352,
           "b": 395,
           "en": "Should they become charitable corporations?",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 43,
+              "en": "Should they become charitable corporations?",
+              "zh": "报社应该成为慈善性公司吗？"
+            }
+          ],
+          "reorder": "无需调整语序，they 指报社。",
+          "translation": "报社应该成为慈善性公司吗？",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P1-S7",
           "a": 396,
           "b": 428,
           "en": "Should the state subsidize them?",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 32,
+              "en": "Should the state subsidize them?",
+              "zh": "政府应该补贴报社吗？"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "政府应该补贴报社吗？",
+          "words": [
+            {
+              "a": 11,
+              "b": 16,
+              "word": "state",
+              "lemma": "state",
+              "meaning": "国家；政府",
+              "pos": "n"
+            },
+            {
+              "a": 17,
+              "b": 26,
+              "word": "subsidize",
+              "lemma": "subsidize",
+              "meaning": "给予财政补贴",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P1-S8",
           "a": 429,
           "b": 463,
           "en": "It will hold another meeting soon.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 34,
+              "en": "It will hold another meeting soon.",
+              "zh": "委员会不久还会召开一次会议"
+            }
+          ],
+          "reorder": "无需调整语序，It 指联邦贸易委员会。",
+          "translation": "委员会不久还会召开一次会议。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P1-S9",
           "a": 464,
           "b": 505,
           "en": "But the discussions now seem out of date.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 41,
+              "en": "But the discussions now seem out of date.",
+              "zh": "但这些讨论如今似乎已经过时"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "但这些讨论如今似乎已经过时。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -135,48 +329,216 @@
           "a": 0,
           "b": 52,
           "en": "In much of the world there is little sign of crisis.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 52,
+              "en": "In much of the world there is little sign of crisis.",
+              "zh": "世界大部分地区几乎看不到危机迹象"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "世界大部分地区几乎看不到危机迹象。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P2-S2",
           "a": 53,
           "b": 113,
           "en": "German and Brazilian papers have shrugged off the recession.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 60,
+              "en": "German and Brazilian papers have shrugged off the recession.",
+              "zh": "德国和巴西的报纸已经摆脱了经济衰退的冲击"
+            }
+          ],
+          "reorder": "无需调整语序，shrug off 表示摆脱冲击。",
+          "translation": "德国和巴西的报纸已经摆脱了经济衰退的冲击。",
+          "words": [
+            {
+              "a": 21,
+              "b": 27,
+              "word": "papers",
+              "lemma": "paper",
+              "meaning": "报纸；报社",
+              "pos": "n"
+            },
+            {
+              "a": 33,
+              "b": 41,
+              "word": "shrugged",
+              "lemma": "shrug",
+              "meaning": "摆脱；不受……影响（shrug off）",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 33,
+              "b": 45,
+              "lemma": "shrugged off",
+              "meaning": "摆脱了……的冲击",
+              "word": "shrugged off"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P2-S3",
           "a": 114,
           "b": 255,
           "en": "Even American newspapers, which inhabit the most troubled corner of the global industry, have not only survived but often returned to profit.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 26,
+              "en": "Even American newspapers, ",
+              "zh": "就连美国报纸"
+            },
+            {
+              "a": 26,
+              "b": 89,
+              "en": "which inhabit the most troubled corner of the global industry, ",
+              "zh": "它们身处全球报业困境最深的一隅"
+            },
+            {
+              "a": 89,
+              "b": 112,
+              "en": "have not only survived ",
+              "zh": "不仅生存下来"
+            },
+            {
+              "a": 112,
+              "b": 141,
+              "en": "but often returned to profit.",
+              "zh": "而且很多已恢复盈利"
+            }
+          ],
+          "reorder": "把 which 说明放到“美国报纸”前，或另作补充。",
+          "translation": "就连身处全球报业困境最深一隅的美国报纸，也不仅生存下来，而且很多已恢复盈利。",
+          "words": [
+            {
+              "a": 32,
+              "b": 39,
+              "word": "inhabit",
+              "lemma": "inhabit",
+              "meaning": "处于；身处",
+              "pos": "v"
+            },
+            {
+              "a": 58,
+              "b": 64,
+              "word": "corner",
+              "lemma": "corner",
+              "meaning": "领域中的一部分；处境",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 122,
+              "b": 140,
+              "lemma": "returned to profit",
+              "meaning": "恢复盈利",
+              "word": "returned to profit"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P2-S4",
           "a": 256,
           "b": 342,
           "en": "Not the 20% profit margins that were routine a few years ago, but profit all the same.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 27,
+              "en": "Not the 20% profit margins ",
+              "zh": "虽说已不是20%的利润率"
+            },
+            {
+              "a": 27,
+              "b": 62,
+              "en": "that were routine a few years ago, ",
+              "zh": "几年前这种水平还很常见"
+            },
+            {
+              "a": 62,
+              "b": 86,
+              "en": "but profit all the same.",
+              "zh": "但毕竟仍在盈利"
+            }
+          ],
+          "reorder": "把 that 定语放到“20%的利润率”前，补出省略的“虽说”。",
+          "translation": "虽说已达不到几年前司空见惯的20%利润率，但毕竟仍在盈利。",
+          "words": [
+            {
+              "a": 19,
+              "b": 26,
+              "word": "margins",
+              "lemma": "margin",
+              "meaning": "利润率",
+              "pos": "n"
+            },
+            {
+              "a": 37,
+              "b": 44,
+              "word": "routine",
+              "lemma": "routine",
+              "meaning": "以往常见的；惯常的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 12,
+              "b": 26,
+              "lemma": "profit margins",
+              "meaning": "利润率",
+              "word": "profit margins"
+            },
+            {
+              "a": 73,
+              "b": 85,
+              "lemma": "all the same",
+              "meaning": "尽管如此；毕竟仍然",
+              "word": "all the same"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -189,72 +551,292 @@
           "a": 0,
           "b": 25,
           "en": "It has not been much fun.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 25,
+              "en": "It has not been much fun.",
+              "zh": "这个过程可并不愉快"
+            }
+          ],
+          "reorder": "无需调整语序，It 指报业求生过程。",
+          "translation": "这个过程可并不愉快。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P3-S2",
           "a": 26,
           "b": 85,
           "en": "Many papers stayed afloat by pushing journalists overboard.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 26,
+              "en": "Many papers stayed afloat ",
+              "zh": "许多报纸得以维持经营"
+            },
+            {
+              "a": 26,
+              "b": 59,
+              "en": "by pushing journalists overboard.",
+              "zh": "靠的是把记者推下船，也就是裁员"
+            }
+          ],
+          "reorder": "把 by 手段放在“维持经营”前，保留求生比喻。",
+          "translation": "许多报纸靠把记者“推下船”、也就是裁员，才维持经营。",
+          "words": [
+            {
+              "a": 5,
+              "b": 11,
+              "word": "papers",
+              "lemma": "paper",
+              "meaning": "报纸；报社",
+              "pos": "n"
+            },
+            {
+              "a": 19,
+              "b": 25,
+              "word": "afloat",
+              "lemma": "afloat",
+              "meaning": "维持经营的；没有破产的",
+              "pos": "adv"
+            },
+            {
+              "a": 49,
+              "b": 58,
+              "word": "overboard",
+              "lemma": "overboard",
+              "meaning": "船外；此处比喻裁掉员工",
+              "pos": "adv"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 12,
+              "b": 25,
+              "lemma": "stayed afloat",
+              "meaning": "勉强维持经营；存活下来",
+              "word": "stayed afloat"
+            },
+            {
+              "a": 29,
+              "b": 58,
+              "lemma": "pushing journalists overboard",
+              "meaning": "裁减记者以求自保（比喻）",
+              "word": "pushing journalists overboard"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P3-S3",
           "a": 86,
           "b": 178,
           "en": "The American Society of News Editors reckons that 13,500 newsroom jobs have gone since 2007.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 45,
+              "en": "The American Society of News Editors reckons ",
+              "zh": "美国新闻编辑协会估计"
+            },
+            {
+              "a": 45,
+              "b": 81,
+              "en": "that 13,500 newsroom jobs have gone ",
+              "zh": "已有13500个新闻编辑部岗位消失"
+            },
+            {
+              "a": 81,
+              "b": 92,
+              "en": "since 2007.",
+              "zh": "自2007年以来"
+            }
+          ],
+          "reorder": "把 since 时间放到岗位减少前。",
+          "translation": "美国新闻编辑协会估计，自2007年以来已有13500个新闻编辑部岗位消失。",
+          "words": [
+            {
+              "a": 57,
+              "b": 65,
+              "word": "newsroom",
+              "lemma": "newsroom",
+              "meaning": "新闻编辑部",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P3-S4",
           "a": 179,
           "b": 224,
           "en": "Readers are paying more for slimmer products.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 45,
+              "en": "Readers are paying more for slimmer products.",
+              "zh": "读者花更多的钱，买到的报纸却更薄"
+            }
+          ],
+          "reorder": "无需调整语序，for 表示付费购买的对象。",
+          "translation": "读者花更多的钱，买到的报纸却更薄。",
+          "words": [
+            {
+              "a": 28,
+              "b": 35,
+              "word": "slimmer",
+              "lemma": "slim",
+              "meaning": "版面更少的；更薄的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P3-S5",
           "a": 225,
           "b": 294,
           "en": "Some papers even had the nerve to refuse delivery to distant suburbs.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 31,
+              "en": "Some papers even had the nerve ",
+              "zh": "有些报纸甚至有胆量"
+            },
+            {
+              "a": 31,
+              "b": 69,
+              "en": "to refuse delivery to distant suburbs.",
+              "zh": "拒绝向偏远郊区投递"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "有些报纸甚至敢于拒绝向偏远郊区投递。",
+          "words": [
+            {
+              "a": 5,
+              "b": 11,
+              "word": "papers",
+              "lemma": "paper",
+              "meaning": "报纸；报社",
+              "pos": "n"
+            },
+            {
+              "a": 25,
+              "b": 30,
+              "word": "nerve",
+              "lemma": "nerve",
+              "meaning": "胆量；勇气",
+              "pos": "n"
+            },
+            {
+              "a": 41,
+              "b": 49,
+              "word": "delivery",
+              "lemma": "delivery",
+              "meaning": "报纸投递；配送",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 17,
+              "b": 33,
+              "lemma": "had the nerve to",
+              "meaning": "竟敢；有胆量去",
+              "word": "had the nerve to"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P3-S6",
           "a": 295,
           "b": 411,
           "en": "Yet these desperate measures have proved the right ones and, sadly for many journalists, they can be pushed further.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 56,
+              "en": "Yet these desperate measures have proved the right ones ",
+              "zh": "然而，这些迫于困境的措施已被证明是正确的"
+            },
+            {
+              "a": 56,
+              "b": 89,
+              "en": "and, sadly for many journalists, ",
+              "zh": "而且，令许多记者难过的是"
+            },
+            {
+              "a": 89,
+              "b": 116,
+              "en": "they can be pushed further.",
+              "zh": "这些措施还可以进一步推行"
+            }
+          ],
+          "reorder": "保留插入评价，they 指这些措施。",
+          "translation": "然而，这些迫于困境的措施已被证明是正确的，而且，令许多记者难过的是，这些措施还可以进一步推行。",
+          "words": [
+            {
+              "a": 10,
+              "b": 19,
+              "word": "desperate",
+              "lemma": "desperate",
+              "meaning": "困境中不得不采取的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -267,60 +849,200 @@
           "a": 0,
           "b": 112,
           "en": "Newspapers are becoming more balanced businesses, with a healthier mix of revenues from readers and advertisers.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 50,
+              "en": "Newspapers are becoming more balanced businesses, ",
+              "zh": "报纸正成为结构更均衡的企业"
+            },
+            {
+              "a": 50,
+              "b": 112,
+              "en": "with a healthier mix of revenues from readers and advertisers.",
+              "zh": "读者收入和广告收入的搭配更加健康"
+            }
+          ],
+          "reorder": "无需调整语序，with 补充解释均衡体现在哪里。",
+          "translation": "报纸正成为结构更均衡的企业，来自读者和广告商的收入搭配更加健康。",
+          "words": [
+            {
+              "a": 29,
+              "b": 37,
+              "word": "balanced",
+              "lemma": "balanced",
+              "meaning": "结构均衡的",
+              "pos": "a"
+            },
+            {
+              "a": 74,
+              "b": 82,
+              "word": "revenues",
+              "lemma": "revenue",
+              "meaning": "收入；营业收入",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P4-S2",
           "a": 113,
           "b": 184,
           "en": "American papers have long been highly unusual in their reliance on ads.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 46,
+              "en": "American papers have long been highly unusual ",
+              "zh": "美国报纸长期以来一直极为特殊"
+            },
+            {
+              "a": 46,
+              "b": 71,
+              "en": "in their reliance on ads.",
+              "zh": "体现在对广告的依赖上"
+            }
+          ],
+          "reorder": "把 in 方面提前为“在依赖广告方面”。",
+          "translation": "美国报纸在依赖广告方面长期以来都极为特殊。",
+          "words": [
+            {
+              "a": 9,
+              "b": 15,
+              "word": "papers",
+              "lemma": "paper",
+              "meaning": "报纸；报社",
+              "pos": "n"
+            },
+            {
+              "a": 55,
+              "b": 63,
+              "word": "reliance",
+              "lemma": "reliance",
+              "meaning": "依赖",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P4-S3",
           "a": 185,
           "b": 320,
           "en": "Fully 87% of their revenues came from advertising in 2008, according to the Organization for Economic Cooperation & Development (OECD).",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 59,
+              "en": "Fully 87% of their revenues came from advertising in 2008, ",
+              "zh": "2008年，其收入中整整87%来自广告"
+            },
+            {
+              "a": 59,
+              "b": 135,
+              "en": "according to the Organization for Economic Cooperation & Development (OECD).",
+              "zh": "据经济合作与发展组织的数据"
+            }
+          ],
+          "reorder": "把 according to 来源前置。",
+          "translation": "据经济合作与发展组织（OECD）的数据，2008年美国报纸收入中整整87%来自广告。",
+          "words": [
+            {
+              "a": 19,
+              "b": 27,
+              "word": "revenues",
+              "lemma": "revenue",
+              "meaning": "收入；营业收入",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P4-S4",
           "a": 321,
           "b": 352,
           "en": "In Japan the proportion is 35%.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 31,
+              "en": "In Japan the proportion is 35%.",
+              "zh": "在日本，这一比例为35%"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "在日本，这一比例为35%。",
+          "words": [
+            {
+              "a": 13,
+              "b": 23,
+              "word": "proportion",
+              "lemma": "proportion",
+              "meaning": "占比；比例",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P4-S5",
           "a": 353,
           "b": 412,
           "en": "Not surprisingly, Japanese newspapers are much more stable.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 59,
+              "en": "Not surprisingly, Japanese newspapers are much more stable.",
+              "zh": "不出所料，日本报纸要稳定得多"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "不出所料，日本报纸要稳定得多。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -333,72 +1055,248 @@
           "a": 0,
           "b": 154,
           "en": "The whirlwind that swept through newsrooms harmed everybody, but much of the damage has been concentrated in areas where newspapers are least distinctive.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 14,
+              "en": "The whirlwind ",
+              "zh": "这场风暴"
+            },
+            {
+              "a": 14,
+              "b": 43,
+              "en": "that swept through newsrooms ",
+              "zh": "席卷了新闻编辑部"
+            },
+            {
+              "a": 43,
+              "b": 61,
+              "en": "harmed everybody, ",
+              "zh": "所有人都受到伤害"
+            },
+            {
+              "a": 61,
+              "b": 115,
+              "en": "but much of the damage has been concentrated in areas ",
+              "zh": "但大部分损害集中在某些领域"
+            },
+            {
+              "a": 115,
+              "b": 154,
+              "en": "where newspapers are least distinctive.",
+              "zh": "也就是报纸最缺少特色的领域"
+            }
+          ],
+          "reorder": "把 that 放到“风暴”前，把 where 放到“领域”前。",
+          "translation": "席卷新闻编辑部的这场风暴伤害了所有人，但大部分损害集中在报纸最缺少特色的领域。",
+          "words": [
+            {
+              "a": 4,
+              "b": 13,
+              "word": "whirlwind",
+              "lemma": "whirlwind",
+              "meaning": "剧烈冲击（比喻）",
+              "pos": "n"
+            },
+            {
+              "a": 33,
+              "b": 42,
+              "word": "newsrooms",
+              "lemma": "newsroom",
+              "meaning": "新闻编辑部",
+              "pos": "n"
+            },
+            {
+              "a": 142,
+              "b": 153,
+              "word": "distinctive",
+              "lemma": "distinctive",
+              "meaning": "独特的；有差异化价值的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P5-S2",
           "a": 155,
           "b": 188,
           "en": "Car and film reviewers have gone.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 33,
+              "en": "Car and film reviewers have gone.",
+              "zh": "汽车和电影评论员已被裁掉"
+            }
+          ],
+          "reorder": "无需调整语序，have gone 在此指岗位裁撤。",
+          "translation": "汽车和电影评论员已被裁掉。",
+          "words": [
+            {
+              "a": 13,
+              "b": 22,
+              "word": "reviewers",
+              "lemma": "reviewer",
+              "meaning": "评论员；评介者",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P5-S3",
           "a": 189,
           "b": 236,
           "en": "So have science and general business reporters.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 47,
+              "en": "So have science and general business reporters.",
+              "zh": "科学记者和综合商业记者也是如此"
+            }
+          ],
+          "reorder": "把倒装 So have 直接译为“也是如此”。",
+          "translation": "科学记者和综合商业记者也是如此。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P5-S4",
           "a": 237,
           "b": 280,
           "en": "Foreign bureaus have been savagely cut off.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 43,
+              "en": "Foreign bureaus have been savagely cut off.",
+              "zh": "驻外分社已遭到大幅裁撤"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "驻外分社已遭到大幅裁撤。",
+          "words": [
+            {
+              "a": 26,
+              "b": 34,
+              "word": "savagely",
+              "lemma": "savagely",
+              "meaning": "大幅度地；猛烈地",
+              "pos": "adv"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 15,
+              "lemma": "foreign bureaus",
+              "meaning": "驻外分社；海外记者站",
+              "word": "Foreign bureaus"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P5-S5",
           "a": 281,
           "b": 322,
           "en": "Newspapers are less complete as a result.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 41,
+              "en": "Newspapers are less complete as a result.",
+              "zh": "报纸的内容因此不再那么全面"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "报纸的内容因此不再那么全面。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 29,
+              "b": 40,
+              "lemma": "as a result",
+              "meaning": "因此；结果",
+              "word": "as a result"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2011-T2-P5-S6",
           "a": 323,
           "b": 388,
           "en": "But completeness is no longer a virtue in the newspaper business.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 65,
+              "en": "But completeness is no longer a virtue in the newspaper business.",
+              "zh": "但在报业，面面俱到已不再是一项优点"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "但在报业，面面俱到已不再是一项优点。",
+          "words": [
+            {
+              "a": 32,
+              "b": 38,
+              "word": "virtue",
+              "lemma": "virtue",
+              "meaning": "优点；值得追求的特性",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     }

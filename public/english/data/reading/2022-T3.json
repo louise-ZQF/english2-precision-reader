@@ -6,10 +6,21 @@
   "text": 3,
   "articleKey": "s1-p0-t2",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "db7048a9277cc9abbce17fffc62a9902881b48234f609a48fe8605f2420e55f3",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2022年考研英语二真题.pdf",
+        "page": 8,
+        "sha256": "6905f827ee76eb3d4165c7aaeb09af9387c60addbd5af8e959d5e8a9ddcfa7f8"
+      }
+    ],
+    "notes": [
+      "已对照原卷确认全文；原文末尾引号配对不完整属于原卷排版，未据此增删内容。"
+    ],
+    "checkedAt": "2026-10-31",
+    "method": "逐段对照用户提供的原卷；保留原卷有效英文，修复旧题库的漏句、多句及录入错误后逐句编辑中文。"
   },
   "paragraphs": [
     {
@@ -21,48 +32,227 @@
           "a": 0,
           "b": 74,
           "en": "We have all encountered them, in both our personal and professional lives.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 30,
+              "en": "We have all encountered them, ",
+              "zh": "我们都遇到过这种情况，"
+            },
+            {
+              "a": 30,
+              "b": 74,
+              "en": "in both our personal and professional lives.",
+              "zh": "无论在个人生活还是工作中。"
+            }
+          ],
+          "reorder": "将 in both 的范围提前；them 回指下文要解释的暗黑模式。",
+          "translation": "无论在个人生活还是工作中，我们都遇到过这种情况。",
+          "words": [
+            {
+              "a": 12,
+              "b": 23,
+              "word": "encountered",
+              "lemma": "encounter",
+              "meaning": "遇到；遭遇"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T3-P1-S2",
           "a": 75,
           "b": 230,
           "en": "Think about the times you felt tricked or frustrated by a membership or subscription that had a seamless sign-up process but was later difficult to cancel.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 22,
+              "en": "Think about the times ",
+              "zh": "想想那些时候，"
+            },
+            {
+              "a": 22,
+              "b": 53,
+              "en": "you felt tricked or frustrated ",
+              "zh": "你感到受骗或心烦，"
+            },
+            {
+              "a": 53,
+              "b": 85,
+              "en": "by a membership or subscription ",
+              "zh": "因为某项会员服务或订阅，"
+            },
+            {
+              "a": 85,
+              "b": 121,
+              "en": "that had a seamless sign-up process ",
+              "zh": "开通时一路顺畅，"
+            },
+            {
+              "a": 121,
+              "b": 155,
+              "en": "but was later difficult to cancel.",
+              "zh": "后来却很难取消。"
+            }
+          ],
+          "reorder": "先点明会员服务，再用“开通顺畅、取消困难”说明受骗的原因；that 修饰服务或订阅。",
+          "translation": "想想看，你是否曾因某项会员服务或订阅而感到受骗、心烦：开通时一路顺畅，取消时却困难重重。",
+          "words": [
+            {
+              "a": 31,
+              "b": 38,
+              "word": "tricked",
+              "lemma": "trick",
+              "meaning": "欺骗；诱导",
+              "pos": "v"
+            },
+            {
+              "a": 96,
+              "b": 104,
+              "word": "seamless",
+              "lemma": "seamless",
+              "meaning": "顺畅无阻的"
+            },
+            {
+              "a": 72,
+              "b": 84,
+              "word": "subscription",
+              "lemma": "subscription",
+              "meaning": "订阅服务"
+            },
+            {
+              "a": 105,
+              "b": 112,
+              "word": "sign-up",
+              "lemma": "sign-up",
+              "meaning": "注册；开通"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 105,
+              "b": 120,
+              "lemma": "sign-up process",
+              "meaning": "注册流程",
+              "word": "sign-up process"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T3-P1-S3",
           "a": 231,
           "b": 369,
           "en": "Something that should be simple and transparent can be complicated, intentionally or unintentionally, in ways that impair consumer choice.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 48,
+              "en": "Something that should be simple and transparent ",
+              "zh": "本应简单透明的事情，"
+            },
+            {
+              "a": 48,
+              "b": 68,
+              "en": "can be complicated, ",
+              "zh": "却可能被弄得复杂，"
+            },
+            {
+              "a": 68,
+              "b": 102,
+              "en": "intentionally or unintentionally, ",
+              "zh": "不管是有意还是无意，"
+            },
+            {
+              "a": 102,
+              "b": 138,
+              "en": "in ways that impair consumer choice.",
+              "zh": "以致妨碍消费者作出选择。"
+            }
+          ],
+          "reorder": "先把 that should be 放到“事情”前；后两块交代是否故意及带来的后果。",
+          "translation": "本应简单透明的事情，却可能有意或无意地被弄得复杂，从而妨碍消费者作出选择。",
+          "words": [
+            {
+              "a": 115,
+              "b": 121,
+              "word": "impair",
+              "lemma": "impair",
+              "meaning": "损害；妨碍"
+            },
+            {
+              "a": 36,
+              "b": 47,
+              "word": "transparent",
+              "lemma": "transparent",
+              "meaning": "透明的；容易了解的"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T3-P1-S4",
           "a": 370,
           "b": 406,
           "en": "These are examples of dark patterns.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 19,
+              "en": "These are examples ",
+              "zh": "这些都是，"
+            },
+            {
+              "a": 19,
+              "b": 36,
+              "en": "of dark patterns.",
+              "zh": "暗黑模式的例子。"
+            }
+          ],
+          "reorder": "of dark patterns 放到“例子”前。",
+          "translation": "这些都是暗黑模式的例子。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 22,
+              "b": 35,
+              "word": "dark patterns",
+              "lemma": "dark pattern",
+              "meaning": "暗黑模式；诱导或误导用户的界面设计"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -75,24 +265,189 @@
           "a": 0,
           "b": 196,
           "en": "First coined in 2010 by user experience expert Harry Brignull, “ dark patterns” is a catch-all term for practices that manipulate user interfaces to influence the decision-making ability of users.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 63,
+              "en": "First coined in 2010 by user experience expert Harry Brignull, ",
+              "zh": "这个词最早由用户体验专家哈里·布里格纳尔于2010年提出，"
+            },
+            {
+              "a": 63,
+              "b": 100,
+              "en": "“ dark patterns” is a catch-all term ",
+              "zh": "“暗黑模式”是一个统称，"
+            },
+            {
+              "a": 100,
+              "b": 114,
+              "en": "for practices ",
+              "zh": "指那些做法，"
+            },
+            {
+              "a": 114,
+              "b": 146,
+              "en": "that manipulate user interfaces ",
+              "zh": "通过操控用户界面，"
+            },
+            {
+              "a": 146,
+              "b": 196,
+              "en": "to influence the decision-making ability of users.",
+              "zh": "影响用户作决定的能力。"
+            }
+          ],
+          "reorder": "开头过去分词说明术语来源；将 for practices 的解释接成“泛指……”；to influence 表目的。",
+          "translation": "“暗黑模式”一词最早由用户体验专家哈里·布里格纳尔于2010年提出，泛指通过操控用户界面来影响用户决策能力的做法。",
+          "words": [
+            {
+              "a": 104,
+              "b": 113,
+              "word": "practices",
+              "lemma": "practice",
+              "meaning": "做法；设计手法",
+              "pos": "n"
+            },
+            {
+              "a": 135,
+              "b": 145,
+              "word": "interfaces",
+              "lemma": "interface",
+              "meaning": "界面",
+              "pos": "n"
+            },
+            {
+              "a": 6,
+              "b": 12,
+              "word": "coined",
+              "lemma": "coin",
+              "meaning": "创造（新词）"
+            },
+            {
+              "a": 119,
+              "b": 129,
+              "word": "manipulate",
+              "lemma": "manipulate",
+              "meaning": "操控；刻意摆布"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 65,
+              "b": 78,
+              "lemma": "dark pattern",
+              "meaning": "操纵用户选择的界面设计",
+              "word": "dark patterns"
+            },
+            {
+              "a": 85,
+              "b": 99,
+              "word": "catch-all term",
+              "lemma": "catch-all term",
+              "meaning": "概括多种情况的统称"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T3-P2-S2",
           "a": 197,
           "b": 426,
           "en": "Brignull identifies 12 types of common dark patterns, ranging from misdirection and hidden costs to “roach motel,” where a user experience seems easy and intuitive at the start, but turns difficult when the user tries to get out.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 54,
+              "en": "Brignull identifies 12 types of common dark patterns, ",
+              "zh": "布里格纳尔列出了12类常见的暗黑模式，"
+            },
+            {
+              "a": 54,
+              "b": 97,
+              "en": "ranging from misdirection and hidden costs ",
+              "zh": "从误导和隐藏费用，"
+            },
+            {
+              "a": 97,
+              "b": 115,
+              "en": "to “roach motel,” ",
+              "zh": "到“蟑螂旅馆”式设计，"
+            },
+            {
+              "a": 115,
+              "b": 178,
+              "en": "where a user experience seems easy and intuitive at the start, ",
+              "zh": "这种设计一开始让用户觉得简单直观，"
+            },
+            {
+              "a": 178,
+              "b": 198,
+              "en": "but turns difficult ",
+              "zh": "却变得困难，"
+            },
+            {
+              "a": 198,
+              "b": 229,
+              "en": "when the user tries to get out.",
+              "zh": "当用户想退出时。"
+            }
+          ],
+          "reorder": "先列出 ranging from...to 的范围；where 解释最后一种设计；when 的退出条件移到“变得困难”前。",
+          "translation": "布里格纳尔列出了12类常见的暗黑模式，从误导、隐藏费用，到“蟑螂旅馆”式设计：进入时简单直观，想退出时却困难重重。",
+          "words": [
+            {
+              "a": 67,
+              "b": 79,
+              "word": "misdirection",
+              "lemma": "misdirection",
+              "meaning": "误导"
+            },
+            {
+              "a": 154,
+              "b": 163,
+              "word": "intuitive",
+              "lemma": "intuitive",
+              "meaning": "直观易用的"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 39,
+              "b": 52,
+              "lemma": "dark pattern",
+              "meaning": "操纵用户选择的界面设计",
+              "word": "dark patterns"
+            },
+            {
+              "a": 84,
+              "b": 96,
+              "word": "hidden costs",
+              "lemma": "hidden cost",
+              "meaning": "隐藏费用"
+            },
+            {
+              "a": 101,
+              "b": 112,
+              "word": "roach motel",
+              "lemma": "roach motel",
+              "meaning": "易进难出的“蟑螂旅馆”式设计"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -105,36 +460,175 @@
           "a": 0,
           "b": 131,
           "en": "In a 2019 study of 53,000 product pages and 11,000 websites, researchers found that about one in 10 employs these design practices.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 61,
+              "en": "In a 2019 study of 53,000 product pages and 11,000 websites, ",
+              "zh": "在2019年一项针对5.3万个产品页面和1.1万个网站的研究中，"
+            },
+            {
+              "a": 61,
+              "b": 79,
+              "en": "researchers found ",
+              "zh": "研究人员发现，"
+            },
+            {
+              "a": 79,
+              "b": 131,
+              "en": "that about one in 10 employs these design practices.",
+              "zh": "约十分之一采用了这些设计手法。"
+            }
+          ],
+          "reorder": "时间与研究范围保持在前；that 后是研究结果，one in 10 为十分之一。",
+          "translation": "2019年，研究人员调查了5.3万个产品页面和1.1万个网站，发现约十分之一采用了这些设计手法。",
+          "words": [
+            {
+              "a": 121,
+              "b": 130,
+              "word": "practices",
+              "lemma": "practice",
+              "meaning": "做法；设计手法",
+              "pos": "n"
+            },
+            {
+              "a": 100,
+              "b": 107,
+              "word": "employs",
+              "lemma": "employ",
+              "meaning": "采用；使用"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T3-P3-S2",
           "a": 132,
           "b": 215,
           "en": "Though widely prevalent, the concept of dark patterns is still not well understood.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 25,
+              "en": "Though widely prevalent, ",
+              "zh": "虽然十分普遍，"
+            },
+            {
+              "a": 25,
+              "b": 54,
+              "en": "the concept of dark patterns ",
+              "zh": "暗黑模式这一概念，"
+            },
+            {
+              "a": 54,
+              "b": 83,
+              "en": "is still not well understood.",
+              "zh": "仍未得到充分理解。"
+            }
+          ],
+          "reorder": "补出让步从句省略的主语“暗黑模式”；不把 not well understood 译为完全无人理解。",
+          "translation": "尽管暗黑模式十分普遍，人们对这一概念仍缺乏充分理解。",
+          "words": [
+            {
+              "a": 14,
+              "b": 23,
+              "word": "prevalent",
+              "lemma": "prevalent",
+              "meaning": "普遍存在的；盛行的"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 40,
+              "b": 53,
+              "lemma": "dark pattern",
+              "meaning": "操纵用户选择的界面设计",
+              "word": "dark patterns"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T3-P3-S3",
           "a": 216,
           "b": 326,
           "en": "Business and nonprofit leaders should be aware of dark patterns and try to avoid the gray areas they engender.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 31,
+              "en": "Business and nonprofit leaders ",
+              "zh": "企业和非营利组织的负责人，"
+            },
+            {
+              "a": 31,
+              "b": 64,
+              "en": "should be aware of dark patterns ",
+              "zh": "应了解暗黑模式，"
+            },
+            {
+              "a": 64,
+              "b": 96,
+              "en": "and try to avoid the gray areas ",
+              "zh": "并尽量避开灰色地带，"
+            },
+            {
+              "a": 96,
+              "b": 110,
+              "en": "they engender.",
+              "zh": "即暗黑模式所造成的灰色地带。"
+            }
+          ],
+          "reorder": "把 they engender 的修饰移到“灰色地带”前；they 指暗黑模式。",
+          "translation": "企业和非营利组织的负责人应了解暗黑模式，并尽量避开由此产生的灰色地带。",
+          "words": [
+            {
+              "a": 101,
+              "b": 109,
+              "word": "engender",
+              "lemma": "engender",
+              "meaning": "造成；引发"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 50,
+              "b": 63,
+              "lemma": "dark pattern",
+              "meaning": "操纵用户选择的界面设计",
+              "word": "dark patterns"
+            },
+            {
+              "a": 85,
+              "b": 95,
+              "word": "gray areas",
+              "lemma": "gray area",
+              "meaning": "难以明确判定是否合规的灰色地带"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -147,36 +641,225 @@
           "a": 0,
           "b": 71,
           "en": "Where is the line between ethical, persuasive design and dark patterns?",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 18,
+              "en": "Where is the line ",
+              "zh": "界限在哪里，"
+            },
+            {
+              "a": 18,
+              "b": 53,
+              "en": "between ethical, persuasive design ",
+              "zh": "一边是合乎伦理、具有说服力的设计，"
+            },
+            {
+              "a": 53,
+              "b": 71,
+              "en": "and dark patterns?",
+              "zh": "另一边是暗黑模式？"
+            }
+          ],
+          "reorder": "将 between 两端先说清，再问二者的界限；persuasive 不等同欺骗。",
+          "translation": "合乎伦理、具有说服力的设计与暗黑模式之间，界限究竟在哪里？",
+          "words": [
+            {
+              "a": 13,
+              "b": 17,
+              "word": "line",
+              "lemma": "line",
+              "meaning": "界限；分界",
+              "pos": "n"
+            },
+            {
+              "a": 35,
+              "b": 45,
+              "word": "persuasive",
+              "lemma": "persuasive",
+              "meaning": "有说服力的；劝导性的"
+            },
+            {
+              "a": 26,
+              "b": 33,
+              "word": "ethical",
+              "lemma": "ethical",
+              "meaning": "合乎伦理的"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 57,
+              "b": 70,
+              "lemma": "dark pattern",
+              "meaning": "操纵用户选择的界面设计",
+              "word": "dark patterns"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T3-P4-S2",
           "a": 72,
           "b": 424,
           "en": "Businesses should engage in conversations with IT, compliance, risk, and legal teams to review their privacy policy, and include in the discussion the customer/user experience designers and coders responsible for the company's user interface, as well as the marketers and advertisers responsible for sign-ups, checkout baskets, pricing, and promotions.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 42,
+              "en": "Businesses should engage in conversations ",
+              "zh": "企业应当开展沟通，"
+            },
+            {
+              "a": 42,
+              "b": 85,
+              "en": "with IT, compliance, risk, and legal teams ",
+              "zh": "与信息技术、合规、风险和法律团队，"
+            },
+            {
+              "a": 85,
+              "b": 117,
+              "en": "to review their privacy policy, ",
+              "zh": "审查本企业的隐私政策，"
+            },
+            {
+              "a": 117,
+              "b": 197,
+              "en": "and include in the discussion the customer/user experience designers and coders ",
+              "zh": "并让客户／用户体验设计师和程序员参与讨论，"
+            },
+            {
+              "a": 197,
+              "b": 243,
+              "en": "responsible for the company's user interface, ",
+              "zh": "他们负责公司的用户界面，"
+            },
+            {
+              "a": 243,
+              "b": 284,
+              "en": "as well as the marketers and advertisers ",
+              "zh": "还要让营销和广告人员参与，"
+            },
+            {
+              "a": 284,
+              "b": 352,
+              "en": "responsible for sign-ups, checkout baskets, pricing, and promotions.",
+              "zh": "他们负责注册、结账购物篮、定价和促销。"
+            }
+          ],
+          "reorder": "把 with 团队放到“沟通”前；include 后的长宾语分别按“职责＋人员”理解，两个 responsible for 各有对应对象。",
+          "translation": "企业应与信息技术、合规、风险和法律团队沟通，审查隐私政策；还应让负责公司用户界面的客户／用户体验设计师、程序员，以及负责注册、结账购物篮、定价和促销的营销与广告人员参与讨论。",
+          "words": [
+            {
+              "a": 232,
+              "b": 241,
+              "word": "interface",
+              "lemma": "interface",
+              "meaning": "界面",
+              "pos": "n"
+            },
+            {
+              "a": 341,
+              "b": 351,
+              "word": "promotions",
+              "lemma": "promotion",
+              "meaning": "促销",
+              "pos": "n"
+            },
+            {
+              "a": 51,
+              "b": 61,
+              "word": "compliance",
+              "lemma": "compliance",
+              "meaning": "合规；遵守规定"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 18,
+              "b": 27,
+              "word": "engage in",
+              "lemma": "engage in",
+              "meaning": "参与；开展"
+            },
+            {
+              "a": 310,
+              "b": 326,
+              "word": "checkout baskets",
+              "lemma": "checkout basket",
+              "meaning": "结账购物篮；结算购物车"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T3-P4-S3",
           "a": 425,
           "b": 508,
           "en": "Any or all these teams can play a role in creating or avoiding “digital deception.”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 23,
+              "en": "Any or all these teams ",
+              "zh": "上述任何一个或所有团队，"
+            },
+            {
+              "a": 23,
+              "b": 39,
+              "en": "can play a role ",
+              "zh": "都可能发挥作用，"
+            },
+            {
+              "a": 39,
+              "b": 83,
+              "en": "in creating or avoiding “digital deception.”",
+              "zh": "造成或避免“数字欺骗”。"
+            }
+          ],
+          "reorder": "将 in creating or avoiding 接到“发挥作用”后；or 两端一个造成、一个防止。",
+          "translation": "上述任何一个团队，乃至所有团队，都可能在造成或避免“数字欺骗”方面发挥作用。",
+          "words": [
+            {
+              "a": 34,
+              "b": 38,
+              "word": "role",
+              "lemma": "role",
+              "meaning": "作用",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 64,
+              "b": 81,
+              "word": "digital deception",
+              "lemma": "digital deception",
+              "meaning": "数字欺骗；通过数字界面误导用户"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -189,36 +872,230 @@
           "a": 0,
           "b": 125,
           "en": "Lawmakers and regulators are slowly starting to address the ambiguity around dark patterns, most recently at the state level.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 25,
+              "en": "Lawmakers and regulators ",
+              "zh": "立法者和监管机构，"
+            },
+            {
+              "a": 25,
+              "b": 92,
+              "en": "are slowly starting to address the ambiguity around dark patterns, ",
+              "zh": "正在逐步着手处理暗黑模式周围的模糊地带，"
+            },
+            {
+              "a": 92,
+              "b": 125,
+              "en": "most recently at the state level.",
+              "zh": "最近的行动发生在州一级。"
+            }
+          ],
+          "reorder": "address 的宾语是 ambiguity，而非直接解决所有暗黑模式；最后短语补充行动层级。",
+          "translation": "立法者和监管机构正逐步着手厘清暗黑模式的模糊地带，最近的行动发生在州一级。",
+          "words": [
+            {
+              "a": 113,
+              "b": 118,
+              "word": "state",
+              "lemma": "state",
+              "meaning": "州；州一级的",
+              "pos": "n"
+            },
+            {
+              "a": 48,
+              "b": 55,
+              "word": "address",
+              "lemma": "address",
+              "meaning": "着手处理；应对"
+            },
+            {
+              "a": 60,
+              "b": 69,
+              "word": "ambiguity",
+              "lemma": "ambiguity",
+              "meaning": "含糊；界限不清"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 77,
+              "b": 90,
+              "lemma": "dark pattern",
+              "meaning": "操纵用户选择的界面设计",
+              "word": "dark patterns"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T3-P5-S2",
           "a": 126,
           "b": 377,
           "en": "In March, the California Attorney General announced the approval of additional regulations under the California Consumer Privacy Act (CCPA) that “ensure that consumers will not be confused or misled when seeking to exercise their data privacy rights.”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 42,
+              "en": "In March, the California Attorney General ",
+              "zh": "今年3月，加利福尼亚州总检察长，"
+            },
+            {
+              "a": 42,
+              "b": 91,
+              "en": "announced the approval of additional regulations ",
+              "zh": "宣布批准补充规定，"
+            },
+            {
+              "a": 91,
+              "b": 140,
+              "en": "under the California Consumer Privacy Act (CCPA) ",
+              "zh": "依据《加利福尼亚州消费者隐私法》（CCPA），"
+            },
+            {
+              "a": 140,
+              "b": 199,
+              "en": "that “ensure that consumers will not be confused or misled ",
+              "zh": "这些规定“确保消费者不会感到困惑或受到误导，"
+            },
+            {
+              "a": 199,
+              "b": 251,
+              "en": "when seeking to exercise their data privacy rights.”",
+              "zh": "在寻求行使数据隐私权时”。"
+            }
+          ],
+          "reorder": "把 under 的法律依据放到“补充规定”前；that 修饰规定；when 放到“不会困惑或被误导”前。",
+          "translation": "今年3月，加利福尼亚州总检察长宣布，依据《加利福尼亚州消费者隐私法》批准补充规定，“确保消费者在寻求行使数据隐私权时不会感到困惑或受到误导”。",
+          "words": [
+            {
+              "a": 56,
+              "b": 64,
+              "word": "approval",
+              "lemma": "approval",
+              "meaning": "批准",
+              "pos": "n"
+            },
+            {
+              "a": 215,
+              "b": 223,
+              "word": "exercise",
+              "lemma": "exercise",
+              "meaning": "行使（权利）"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 25,
+              "b": 41,
+              "word": "Attorney General",
+              "lemma": "Attorney General",
+              "meaning": "州总检察长"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T3-P5-S3",
           "a": 378,
           "b": 607,
           "en": "The regulations aim to ban dark patterns—this means prohibiting companies from using confusing language or unnecessary steps such as forcing them to click through multiple screens or listen to reasons why they shouldn't opt out.”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 40,
+              "en": "The regulations aim to ban dark patterns",
+              "zh": "这些规定旨在禁止暗黑模式，"
+            },
+            {
+              "a": 40,
+              "b": 74,
+              "en": "—this means prohibiting companies ",
+              "zh": "这意味着禁止企业，"
+            },
+            {
+              "a": 74,
+              "b": 125,
+              "en": "from using confusing language or unnecessary steps ",
+              "zh": "使用令人困惑的措辞或不必要的步骤，"
+            },
+            {
+              "a": 125,
+              "b": 180,
+              "en": "such as forcing them to click through multiple screens ",
+              "zh": "例如强迫消费者逐一点击多个页面，"
+            },
+            {
+              "a": 180,
+              "b": 201,
+              "en": "or listen to reasons ",
+              "zh": "或听取理由，"
+            },
+            {
+              "a": 201,
+              "b": 229,
+              "en": "why they shouldn't opt out.”",
+              "zh": "解释为什么他们不该选择退出。”"
+            }
+          ],
+          "reorder": "破折号后解释禁令；them 指消费者；why 修饰 reasons，不是作者劝人不要退出。",
+          "translation": "这些规定旨在禁止暗黑模式，也就是禁止企业使用令人困惑的措辞或设置不必要的步骤，例如强迫消费者逐一点击多个页面，或听取劝他们不要退出的理由。",
+          "words": [
+            {
+              "a": 23,
+              "b": 26,
+              "word": "ban",
+              "lemma": "ban",
+              "meaning": "禁止",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 27,
+              "b": 40,
+              "lemma": "dark pattern",
+              "meaning": "操纵用户选择的界面设计",
+              "word": "dark patterns"
+            },
+            {
+              "a": 220,
+              "b": 227,
+              "word": "opt out",
+              "lemma": "opt out",
+              "meaning": "选择退出；拒绝参与"
+            },
+            {
+              "a": 149,
+              "b": 162,
+              "word": "click through",
+              "lemma": "click through",
+              "meaning": "逐一点击浏览"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -231,24 +1108,157 @@
           "a": 0,
           "b": 139,
           "en": "As more states consider promulgating additional regulations, there is a need for greater accountability from within the business community.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 61,
+              "en": "As more states consider promulgating additional regulations, ",
+              "zh": "随着更多州考虑颁布补充规定，"
+            },
+            {
+              "a": 61,
+              "b": 104,
+              "en": "there is a need for greater accountability ",
+              "zh": "有必要加强问责，"
+            },
+            {
+              "a": 104,
+              "b": 139,
+              "en": "from within the business community.",
+              "zh": "从商界自身内部做起。"
+            }
+          ],
+          "reorder": "As 为背景，from within 指问责应来自企业界内部。",
+          "translation": "随着更多州考虑颁布补充规定，商界自身也需要加强内部问责。",
+          "words": [
+            {
+              "a": 8,
+              "b": 14,
+              "word": "states",
+              "lemma": "state",
+              "meaning": "州；州一级的",
+              "pos": "n"
+            },
+            {
+              "a": 129,
+              "b": 138,
+              "word": "community",
+              "lemma": "community",
+              "meaning": "群体；界别",
+              "pos": "n"
+            },
+            {
+              "a": 24,
+              "b": 36,
+              "word": "promulgating",
+              "lemma": "promulgate",
+              "meaning": "颁布；公布实施"
+            },
+            {
+              "a": 89,
+              "b": 103,
+              "word": "accountability",
+              "lemma": "accountability",
+              "meaning": "承担责任；问责"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T3-P6-S2",
           "a": 140,
           "b": 340,
           "en": "Dark patterns also can be addressed on a self-regulatory basis, but only if organizations hold themselves accountable, not just to legal requirements but also to industry best practices and standards.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 36,
+              "en": "Dark patterns also can be addressed ",
+              "zh": "暗黑模式也可以得到处理，"
+            },
+            {
+              "a": 36,
+              "b": 64,
+              "en": "on a self-regulatory basis, ",
+              "zh": "通过行业自律，"
+            },
+            {
+              "a": 64,
+              "b": 119,
+              "en": "but only if organizations hold themselves accountable, ",
+              "zh": "但前提是组织切实对自己的行为负责，"
+            },
+            {
+              "a": 119,
+              "b": 150,
+              "en": "not just to legal requirements ",
+              "zh": "不仅对法律要求负责，"
+            },
+            {
+              "a": 150,
+              "b": 200,
+              "en": "but also to industry best practices and standards.",
+              "zh": "也遵守行业最佳实践和标准。"
+            }
+          ],
+          "reorder": "把 on 的方式移到“处理”前；only if 为必要前提，not just...but also 并列两类责任标准。",
+          "translation": "暗黑模式也可以通过行业自律来处理，但前提是组织切实对自身行为负责，不仅遵守法律要求，也遵循行业最佳实践和标准。",
+          "words": [
+            {
+              "a": 176,
+              "b": 185,
+              "word": "practices",
+              "lemma": "practice",
+              "meaning": "做法；设计手法",
+              "pos": "n"
+            },
+            {
+              "a": 41,
+              "b": 56,
+              "word": "self-regulatory",
+              "lemma": "self-regulatory",
+              "meaning": "自律的；自行约束的"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 13,
+              "lemma": "dark pattern",
+              "meaning": "操纵用户选择的界面设计",
+              "word": "Dark patterns"
+            },
+            {
+              "a": 171,
+              "b": 185,
+              "lemma": "best practice",
+              "meaning": "行业公认的良好做法",
+              "word": "best practices"
+            },
+            {
+              "a": 90,
+              "b": 117,
+              "word": "hold themselves accountable",
+              "lemma": "hold oneself accountable",
+              "meaning": "对自身行为负责"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     }

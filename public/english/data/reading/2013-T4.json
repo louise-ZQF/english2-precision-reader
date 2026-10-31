@@ -6,10 +6,19 @@
   "text": 4,
   "articleKey": "s1-p0-t3",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "79a5daabcd2267cf320dda9ee8cea70957e936251db617a87eedf2dadd682a24",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2013年考研英语二真题.pdf",
+        "page": 10,
+        "sha256": "b837b50e8442475932957f3b05a9a1f0286112122b716b633b6c962c84977f32"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇对照本地原卷提取正文，核查字形及标点差异；逐句核对句块、语序和译文。"
   },
   "paragraphs": [
     {
@@ -21,36 +30,147 @@
           "a": 0,
           "b": 39,
           "en": "Europe is not a gender-equality heaven.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 39,
+              "en": "Europe is not a gender-equality heaven.",
+              "zh": "欧洲并非性别平等的天堂"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "欧洲并非性别平等的天堂。",
+          "words": [
+            {
+              "a": 16,
+              "b": 31,
+              "word": "gender-equality",
+              "lemma": "gender-equality",
+              "meaning": "性别平等的",
+              "pos": "a"
+            },
+            {
+              "a": 32,
+              "b": 38,
+              "word": "heaven",
+              "lemma": "heaven",
+              "meaning": "理想之地；乐园（比喻）",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T4-P1-S2",
           "a": 40,
           "b": 248,
           "en": "In particular, the corporate workplace will never be completely family-friendly until women are part of senior management decisions, and Europe's top corporate-governance positions remain overwhelmingly male.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 15,
+              "en": "In particular, ",
+              "zh": "尤其是"
+            },
+            {
+              "a": 15,
+              "b": 80,
+              "en": "the corporate workplace will never be completely family-friendly ",
+              "zh": "企业职场绝不会完全有利于兼顾家庭"
+            },
+            {
+              "a": 80,
+              "b": 133,
+              "en": "until women are part of senior management decisions, ",
+              "zh": "除非女性参与高层管理决策"
+            },
+            {
+              "a": 133,
+              "b": 208,
+              "en": "and Europe's top corporate-governance positions remain overwhelmingly male.",
+              "zh": "而欧洲公司治理的最高层职位仍绝大多数由男性占据"
+            }
+          ],
+          "reorder": "把 until 条件提前为“除非……否则……”，and 另说当前管理层状况。",
+          "translation": "尤其是，除非女性参与高层管理决策，否则企业职场绝不会完全有利于兼顾家庭，而欧洲公司治理的最高层职位仍绝大多数由男性占据。",
+          "words": [
+            {
+              "a": 64,
+              "b": 79,
+              "word": "family-friendly",
+              "lemma": "family-friendly",
+              "meaning": "有利于兼顾家庭的",
+              "pos": "a"
+            },
+            {
+              "a": 150,
+              "b": 170,
+              "word": "corporate-governance",
+              "lemma": "corporate-governance",
+              "meaning": "公司治理方面的",
+              "pos": "a"
+            },
+            {
+              "a": 160,
+              "b": 170,
+              "word": "governance",
+              "lemma": "governance",
+              "meaning": "公司治理",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T4-P1-S3",
           "a": 249,
           "b": 327,
           "en": "Indeed, women hold only 14 per cent of positions on European corporate boards.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 78,
+              "en": "Indeed, women hold only 14 per cent of positions on European corporate boards.",
+              "zh": "的确，女性仅占欧洲企业董事会席位的14%"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "的确，女性仅占欧洲企业董事会席位的14%。",
+          "words": [
+            {
+              "a": 71,
+              "b": 77,
+              "word": "boards",
+              "lemma": "board",
+              "meaning": "董事会",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -63,60 +183,265 @@
           "a": 0,
           "b": 139,
           "en": "The European Union is now considering legislation to compel corporate boards to maintain a certain proportion of women – up to 60 per cent.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 50,
+              "en": "The European Union is now considering legislation ",
+              "zh": "欧盟如今正考虑立法"
+            },
+            {
+              "a": 50,
+              "b": 77,
+              "en": "to compel corporate boards ",
+              "zh": "强制要求企业董事会"
+            },
+            {
+              "a": 77,
+              "b": 119,
+              "en": "to maintain a certain proportion of women ",
+              "zh": "保持一定比例的女性成员"
+            },
+            {
+              "a": 119,
+              "b": 139,
+              "en": "– up to 60 per cent.",
+              "zh": "比例最高达60%"
+            }
+          ],
+          "reorder": "无需调整语序，up to 保留原文规定的上限。",
+          "translation": "欧盟如今正考虑立法，强制要求企业董事会保持一定比例、最高达60%的女性成员。",
+          "words": [
+            {
+              "a": 38,
+              "b": 49,
+              "word": "legislation",
+              "lemma": "legislation",
+              "meaning": "立法；拟议法律",
+              "pos": "n"
+            },
+            {
+              "a": 53,
+              "b": 59,
+              "word": "compel",
+              "lemma": "compel",
+              "meaning": "强制要求",
+              "pos": "v"
+            },
+            {
+              "a": 70,
+              "b": 76,
+              "word": "boards",
+              "lemma": "board",
+              "meaning": "董事会",
+              "pos": "n"
+            },
+            {
+              "a": 99,
+              "b": 109,
+              "word": "proportion",
+              "lemma": "proportion",
+              "meaning": "比例",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T4-P2-S2",
           "a": 140,
           "b": 186,
           "en": "This proposed mandate was born of frustration.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 46,
+              "en": "This proposed mandate was born of frustration.",
+              "zh": "这项拟议的强制规定源自挫败感"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "这项拟议的强制规定源自挫败感。",
+          "words": [
+            {
+              "a": 14,
+              "b": 21,
+              "word": "mandate",
+              "lemma": "mandate",
+              "meaning": "强制规定",
+              "pos": "n"
+            },
+            {
+              "a": 34,
+              "b": 45,
+              "word": "frustration",
+              "lemma": "frustration",
+              "meaning": "失望；挫折感",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T4-P2-S3",
           "a": 187,
           "b": 282,
           "en": "Last year, European Commission Vice President Viviane Reding issued a call to voluntary action.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 61,
+              "en": "Last year, European Commission Vice President Viviane Reding ",
+              "zh": "去年，欧盟委员会副主席薇薇安·雷丁"
+            },
+            {
+              "a": 61,
+              "b": 95,
+              "en": "issued a call to voluntary action.",
+              "zh": "呼吁企业自愿行动"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "去年，欧盟委员会副主席薇薇安·雷丁呼吁企业自愿行动。",
+          "words": [
+            {
+              "a": 61,
+              "b": 67,
+              "word": "issued",
+              "lemma": "issue",
+              "meaning": "发出；提出（号召）",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T4-P2-S4",
           "a": 283,
           "b": 386,
           "en": "Reding invited corporations to sign up for gender balance goals of 40 per cent female board membership.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 28,
+              "en": "Reding invited corporations ",
+              "zh": "雷丁邀请企业"
+            },
+            {
+              "a": 28,
+              "b": 64,
+              "en": "to sign up for gender balance goals ",
+              "zh": "承诺实现性别平衡目标"
+            },
+            {
+              "a": 64,
+              "b": 103,
+              "en": "of 40 per cent female board membership.",
+              "zh": "即女性占董事会成员的40%"
+            }
+          ],
+          "reorder": "末尾 of 说明目标的具体比例。",
+          "translation": "雷丁邀请企业承诺实现女性占董事会成员40%的性别平衡目标。",
+          "words": [
+            {
+              "a": 86,
+              "b": 91,
+              "word": "board",
+              "lemma": "board",
+              "meaning": "董事会",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 31,
+              "b": 42,
+              "lemma": "sign up for",
+              "meaning": "承诺参加；同意遵守",
+              "word": "sign up for"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T4-P2-S5",
           "a": 387,
           "b": 457,
           "en": "But her appeal was considered a failure: only 24 companies took it up.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 41,
+              "en": "But her appeal was considered a failure: ",
+              "zh": "但她的呼吁被认为失败了"
+            },
+            {
+              "a": 41,
+              "b": 70,
+              "en": "only 24 companies took it up.",
+              "zh": "只有24家公司响应"
+            }
+          ],
+          "reorder": "无需调整语序，冒号后解释失败。",
+          "translation": "但她的呼吁被认为失败了：只有24家公司响应。",
+          "words": [
+            {
+              "a": 8,
+              "b": 14,
+              "word": "appeal",
+              "lemma": "appeal",
+              "meaning": "呼吁；倡议",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 59,
+              "b": 69,
+              "lemma": "took it up",
+              "meaning": "响应并采取行动",
+              "word": "took it up"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -129,12 +454,61 @@
           "a": 0,
           "b": 121,
           "en": "Do we need quotas to ensure that women can continue to climb the corporate ladder fairly as they balance work and family?",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 18,
+              "en": "Do we need quotas ",
+              "zh": "我们需要配额制度吗"
+            },
+            {
+              "a": 18,
+              "b": 28,
+              "en": "to ensure ",
+              "zh": "以确保"
+            },
+            {
+              "a": 28,
+              "b": 89,
+              "en": "that women can continue to climb the corporate ladder fairly ",
+              "zh": "女性能够继续公平地在企业中晋升"
+            },
+            {
+              "a": 89,
+              "b": 121,
+              "en": "as they balance work and family?",
+              "zh": "在兼顾工作与家庭时"
+            }
+          ],
+          "reorder": "把目的和条件放到“需要配额吗”前，构成自然疑问句。",
+          "translation": "为了确保女性在兼顾工作与家庭时仍能公平地在企业中晋升，我们需要配额制度吗？",
+          "words": [
+            {
+              "a": 11,
+              "b": 17,
+              "word": "quotas",
+              "lemma": "quota",
+              "meaning": "配额；规定的名额比例",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 65,
+              "b": 81,
+              "lemma": "corporate ladder",
+              "meaning": "企业晋升阶梯",
+              "word": "corporate ladder"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -147,36 +521,172 @@
           "a": 0,
           "b": 56,
           "en": "“Personally, I don't like quotas,” Reding said recently.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 35,
+              "en": "“Personally, I don't like quotas,” ",
+              "zh": "“就个人而言，我不喜欢配额，”"
+            },
+            {
+              "a": 35,
+              "b": 56,
+              "en": "Reding said recently.",
+              "zh": "雷丁最近说"
+            }
+          ],
+          "reorder": "把说话人提前。",
+          "translation": "雷丁最近说：“就个人而言，我不喜欢配额。”",
+          "words": [
+            {
+              "a": 26,
+              "b": 32,
+              "word": "quotas",
+              "lemma": "quota",
+              "meaning": "配额；规定的名额比例",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T4-P4-S2",
           "a": 57,
           "b": 89,
           "en": "“But I like what the quotas do.”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 32,
+              "en": "“But I like what the quotas do.”",
+              "zh": "“但我喜欢配额带来的效果。”"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "“但我喜欢配额带来的效果。”",
+          "words": [
+            {
+              "a": 21,
+              "b": 27,
+              "word": "quotas",
+              "lemma": "quota",
+              "meaning": "配额；规定的名额比例",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T4-P4-S3",
           "a": 90,
           "b": 323,
           "en": "Quotas get action: they “open the way to equality and they break through the glass ceiling,” according to Reding, a result seen in France and other countries with legally binding provisions on placing women in top business positions.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 19,
+              "en": "Quotas get action: ",
+              "zh": "配额能促成行动"
+            },
+            {
+              "a": 19,
+              "b": 93,
+              "en": "they “open the way to equality and they break through the glass ceiling,” ",
+              "zh": "它们“开辟通往平等的道路，并打破玻璃天花板”"
+            },
+            {
+              "a": 93,
+              "b": 114,
+              "en": "according to Reding, ",
+              "zh": "雷丁如此表示"
+            },
+            {
+              "a": 114,
+              "b": 158,
+              "en": "a result seen in France and other countries ",
+              "zh": "这一结果已在法国及其他国家出现"
+            },
+            {
+              "a": 158,
+              "b": 190,
+              "en": "with legally binding provisions ",
+              "zh": "这些国家有法律约束力的规定"
+            },
+            {
+              "a": 190,
+              "b": 233,
+              "en": "on placing women in top business positions.",
+              "zh": "规定女性进入企业最高职位"
+            }
+          ],
+          "reorder": "把 according to 提前，with 及 on 定语合并为其他国家的特点。",
+          "translation": "雷丁说，配额能促成行动，“开辟通往平等的道路，并打破玻璃天花板”；这一效果已经出现在法国等以法律约束力规定女性进入企业高层的国家。",
+          "words": [
+            {
+              "a": 0,
+              "b": 6,
+              "word": "Quotas",
+              "lemma": "quota",
+              "meaning": "配额；规定的名额比例",
+              "pos": "n"
+            },
+            {
+              "a": 171,
+              "b": 178,
+              "word": "binding",
+              "lemma": "bind",
+              "meaning": "有约束力的",
+              "pos": "v"
+            },
+            {
+              "a": 179,
+              "b": 189,
+              "word": "provisions",
+              "lemma": "provision",
+              "meaning": "法律条款；规定",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 77,
+              "b": 90,
+              "lemma": "glass ceiling",
+              "meaning": "阻挡女性晋升高层的无形障碍",
+              "word": "glass ceiling"
+            },
+            {
+              "a": 163,
+              "b": 178,
+              "lemma": "legally binding",
+              "meaning": "具有法律约束力的",
+              "word": "legally binding"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -189,36 +699,180 @@
           "a": 0,
           "b": 55,
           "en": "I understand Reding's reluctance – and her frustration.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 33,
+              "en": "I understand Reding's reluctance ",
+              "zh": "我理解雷丁的不情愿"
+            },
+            {
+              "a": 33,
+              "b": 55,
+              "en": "– and her frustration.",
+              "zh": "也理解她的挫败感"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "我理解雷丁的不情愿，也理解她的挫败感。",
+          "words": [
+            {
+              "a": 22,
+              "b": 32,
+              "word": "reluctance",
+              "lemma": "reluctance",
+              "meaning": "不情愿；顾虑",
+              "pos": "n"
+            },
+            {
+              "a": 43,
+              "b": 54,
+              "word": "frustration",
+              "lemma": "frustration",
+              "meaning": "失望；挫折感",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T4-P5-S2",
           "a": 56,
           "b": 156,
           "en": "I don't like quotas either; they run counter to my belief in meritocracy, governance by the capable.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 28,
+              "en": "I don't like quotas either; ",
+              "zh": "我也不喜欢配额"
+            },
+            {
+              "a": 28,
+              "b": 74,
+              "en": "they run counter to my belief in meritocracy, ",
+              "zh": "它有违我信奉的任人唯贤原则"
+            },
+            {
+              "a": 74,
+              "b": 100,
+              "en": "governance by the capable.",
+              "zh": "也就是由有能力的人来治理"
+            }
+          ],
+          "reorder": "将末尾同位语保留为 meritocracy 的解释。",
+          "translation": "我也不喜欢配额，它有违我信奉的任人唯贤原则，也就是由有能力的人来治理。",
+          "words": [
+            {
+              "a": 13,
+              "b": 19,
+              "word": "quotas",
+              "lemma": "quota",
+              "meaning": "配额；规定的名额比例",
+              "pos": "n"
+            },
+            {
+              "a": 61,
+              "b": 72,
+              "word": "meritocracy",
+              "lemma": "meritocracy",
+              "meaning": "按能力与业绩选拔的制度",
+              "pos": "n"
+            },
+            {
+              "a": 92,
+              "b": 99,
+              "word": "capable",
+              "lemma": "capable",
+              "meaning": "有能力的；胜任的",
+              "pos": "a"
+            },
+            {
+              "a": 74,
+              "b": 84,
+              "word": "governance",
+              "lemma": "governance",
+              "meaning": "治理；管理"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 33,
+              "b": 47,
+              "lemma": "run counter to",
+              "meaning": "与……相违背",
+              "word": "run counter to"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T4-P5-S3",
           "a": 157,
           "b": 294,
           "en": "But, when one considers the obstacles to achieving the meritocratic ideal, it does look as if a fairer world must be temporarily ordered.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 5,
+              "en": "But, ",
+              "zh": "但"
+            },
+            {
+              "a": 5,
+              "b": 75,
+              "en": "when one considers the obstacles to achieving the meritocratic ideal, ",
+              "zh": "当人们考虑实现任人唯贤理想的障碍时"
+            },
+            {
+              "a": 75,
+              "b": 88,
+              "en": "it does look ",
+              "zh": "确实看起来"
+            },
+            {
+              "a": 88,
+              "b": 137,
+              "en": "as if a fairer world must be temporarily ordered.",
+              "zh": "似乎必须暂时靠强制规定促成更公平的世界"
+            }
+          ],
+          "reorder": "把 when 背景提前，ordered 结合本文配额制度译出强制规定。",
+          "translation": "但考虑到实现任人唯贤理想的种种障碍，似乎确实有必要暂时靠强制规定促成一个更公平的世界。",
+          "words": [
+            {
+              "a": 129,
+              "b": 136,
+              "word": "ordered",
+              "lemma": "order",
+              "meaning": "以规定强制促成；安排",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -231,24 +885,154 @@
           "a": 0,
           "b": 226,
           "en": "After all, four decades of evidence has now shown that corporations in Europe as well as the US are evading the meritocratic hiring and promotion of women to top positions – no matter how much “soft pressure” is put upon them.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 50,
+              "en": "After all, four decades of evidence has now shown ",
+              "zh": "毕竟，四十年的证据已经表明"
+            },
+            {
+              "a": 50,
+              "b": 96,
+              "en": "that corporations in Europe as well as the US ",
+              "zh": "欧洲和美国的企业"
+            },
+            {
+              "a": 96,
+              "b": 172,
+              "en": "are evading the meritocratic hiring and promotion of women to top positions ",
+              "zh": "一直回避按照能力聘用女性、把她们提拔到高层"
+            },
+            {
+              "a": 172,
+              "b": 226,
+              "en": "– no matter how much “soft pressure” is put upon them.",
+              "zh": "无论对它们施加多少“软性压力”"
+            }
+          ],
+          "reorder": "把 no matter 让步放在企业行为前，保留四十年的证据范围。",
+          "translation": "毕竟，四十年的证据已经表明，无论施加多少“软性压力”，欧洲和美国的企业都在回避按照能力聘用女性、把她们提拔到高层。",
+          "words": [
+            {
+              "a": 100,
+              "b": 107,
+              "word": "evading",
+              "lemma": "evade",
+              "meaning": "回避；逃避落实",
+              "pos": "v"
+            },
+            {
+              "a": 125,
+              "b": 131,
+              "word": "hiring",
+              "lemma": "hiring",
+              "meaning": "招聘录用",
+              "pos": "n"
+            },
+            {
+              "a": 136,
+              "b": 145,
+              "word": "promotion",
+              "lemma": "promotion",
+              "meaning": "晋升；提拔",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 194,
+              "b": 207,
+              "lemma": "soft pressure",
+              "meaning": "非强制性的舆论或倡议压力",
+              "word": "soft pressure"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T4-P6-S2",
           "a": 227,
           "b": 437,
           "en": "When women do break through to the summit of corporate power – as, for example, Sheryl Sandberg recently did at Facebook – they attract massive attention precisely because they remain the exception to the rule.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 61,
+              "en": "When women do break through to the summit of corporate power ",
+              "zh": "当女性确实突破障碍登上企业权力顶峰时"
+            },
+            {
+              "a": 61,
+              "b": 121,
+              "en": "– as, for example, Sheryl Sandberg recently did at Facebook ",
+              "zh": "比如谢丽尔·桑德伯格最近在脸书取得的成就"
+            },
+            {
+              "a": 121,
+              "b": 154,
+              "en": "– they attract massive attention ",
+              "zh": "她们会吸引巨大关注"
+            },
+            {
+              "a": 154,
+              "b": 210,
+              "en": "precisely because they remain the exception to the rule.",
+              "zh": "恰恰因为她们仍是少数例外"
+            }
+          ],
+          "reorder": "把插入例子放在突破情景后；because 解释受到关注而非成功的原因。",
+          "translation": "当女性确实突破障碍登上企业权力顶峰时，例如谢丽尔·桑德伯格最近在脸书取得的成就，她们会吸引巨大关注，恰恰因为她们仍是少数例外。",
+          "words": [
+            {
+              "a": 35,
+              "b": 41,
+              "word": "summit",
+              "lemma": "summit",
+              "meaning": "顶层；最高职位（比喻）",
+              "pos": "n"
+            },
+            {
+              "a": 188,
+              "b": 197,
+              "word": "exception",
+              "lemma": "exception",
+              "meaning": "例外；少见情况",
+              "pos": "n"
+            },
+            {
+              "a": 205,
+              "b": 209,
+              "word": "rule",
+              "lemma": "rule",
+              "meaning": "常态；普遍规律",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 188,
+              "b": 209,
+              "lemma": "exception to the rule",
+              "meaning": "常态中的少数例外",
+              "word": "exception to the rule"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -261,12 +1045,103 @@
           "a": 0,
           "b": 233,
           "en": "If appropriate public policies were in place to help all women – whether CEOs or their children's caregivers – and all families, Sandberg would be no more newsworthy than any other highly capable person living in a more just society.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 45,
+              "en": "If appropriate public policies were in place ",
+              "zh": "如果已有适当公共政策"
+            },
+            {
+              "a": 45,
+              "b": 63,
+              "en": "to help all women ",
+              "zh": "帮助所有女性"
+            },
+            {
+              "a": 63,
+              "b": 109,
+              "en": "– whether CEOs or their children's caregivers ",
+              "zh": "无论是首席执行官，还是照看孩子的女性"
+            },
+            {
+              "a": 109,
+              "b": 129,
+              "en": "– and all families, ",
+              "zh": "以及所有家庭"
+            },
+            {
+              "a": 129,
+              "b": 166,
+              "en": "Sandberg would be no more newsworthy ",
+              "zh": "桑德伯格就不会更有新闻价值"
+            },
+            {
+              "a": 166,
+              "b": 203,
+              "en": "than any other highly capable person ",
+              "zh": "与任何其他能力出众的人相比"
+            },
+            {
+              "a": 203,
+              "b": 233,
+              "en": "living in a more just society.",
+              "zh": "生活在更加公正社会中的人"
+            }
+          ],
+          "reorder": "把 whether 插入范围接在所有女性后，living 修饰“其他能力出众的人”，保留虚拟条件。",
+          "translation": "如果已有适当公共政策帮助所有女性及所有家庭——无论女性是首席执行官还是孩子的照料者——桑德伯格就不会比一个更加公正社会中的其他能力出众的人更有新闻价值。",
+          "words": [
+            {
+              "a": 98,
+              "b": 108,
+              "word": "caregivers",
+              "lemma": "caregiver",
+              "meaning": "照料者；照护儿童的人",
+              "pos": "n"
+            },
+            {
+              "a": 155,
+              "b": 165,
+              "word": "newsworthy",
+              "lemma": "newsworthy",
+              "meaning": "具有新闻价值的；值得报道的",
+              "pos": "a"
+            },
+            {
+              "a": 188,
+              "b": 195,
+              "word": "capable",
+              "lemma": "capable",
+              "meaning": "有能力的；胜任的",
+              "pos": "a"
+            },
+            {
+              "a": 220,
+              "b": 224,
+              "word": "just",
+              "lemma": "just",
+              "meaning": "公平公正的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 36,
+              "b": 44,
+              "lemma": "in place",
+              "meaning": "已经建立并有效运作的",
+              "word": "in place"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     }

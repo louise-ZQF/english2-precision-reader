@@ -6,10 +6,19 @@
   "text": 1,
   "articleKey": "s1-p0-t0",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "197705f548490a4c036e371be586b2afbebbe925b67cd28638e4badf208c40bb",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2021年考研英语二真题.pdf",
+        "page": 4,
+        "sha256": "dfadb189b791a7acdb709f18f3a29f3d74e59541e07cdbd4706f65f48e695fd2"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇核对本地原卷正文抽取，逐句审读英文与中文；保留原卷文字及标点，仅沿用空白规范。"
   },
   "paragraphs": [
     {
@@ -21,36 +30,180 @@
           "a": 0,
           "b": 167,
           "en": "“Reskilling” is something that sounds like a buzzword but is actually a requirement if we plan to have a future where a lot of would-be workers do not get left behind.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 54,
+              "en": "“Reskilling” is something that sounds like a buzzword ",
+              "zh": "“重新培训技能”听起来像个流行词"
+            },
+            {
+              "a": 54,
+              "b": 84,
+              "en": "but is actually a requirement ",
+              "zh": "但实际上是一项必要措施"
+            },
+            {
+              "a": 84,
+              "b": 112,
+              "en": "if we plan to have a future ",
+              "zh": "如果我们希望将来"
+            },
+            {
+              "a": 112,
+              "b": 167,
+              "en": "where a lot of would-be workers do not get left behind.",
+              "zh": "许多求职者不至于被落下"
+            }
+          ],
+          "reorder": "将 if 条件放在“必要措施”的判断前；where 从句说明希望怎样的未来。",
+          "translation": "“重新培训技能”听起来像个流行词，但如果我们希望将来许多求职者不至于被时代落下，它实际上就是一项必要措施。",
+          "words": [
+            {
+              "a": 1,
+              "b": 11,
+              "lemma": "reskill",
+              "meaning": "面向新岗位需求的技能再培训",
+              "word": "Reskilling",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 127,
+              "b": 143,
+              "lemma": "would-be workers",
+              "meaning": "希望就业或即将进入劳动力市场的人",
+              "word": "would-be workers"
+            },
+            {
+              "a": 155,
+              "b": 166,
+              "lemma": "leave behind",
+              "meaning": "被发展淘汰；无法跟上需求",
+              "word": "left behind"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T1-P1-S2",
           "a": 168,
           "b": 299,
           "en": "We know we are moving into a period where the jobs in demand will change rapidly, as will the requirements of the jobs that remain.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 36,
+              "en": "We know we are moving into a period ",
+              "zh": "我们知道，自己正在进入一个时期"
+            },
+            {
+              "a": 36,
+              "b": 82,
+              "en": "where the jobs in demand will change rapidly, ",
+              "zh": "在这个时期，市场需要的工作会迅速变化"
+            },
+            {
+              "a": 82,
+              "b": 131,
+              "en": "as will the requirements of the jobs that remain.",
+              "zh": "那些继续存在的工作，其任职要求也会迅速变化"
+            }
+          ],
+          "reorder": "将 that remain 放到第二处“工作”前，说明是继续存在的岗位。",
+          "translation": "我们知道，自己正在进入一个时期，市场需要的工作会迅速变化，继续存在的工作，其任职要求也会迅速变化。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 51,
+              "b": 60,
+              "lemma": "in demand",
+              "meaning": "有市场需求的",
+              "word": "in demand"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T1-P1-S3",
           "a": 300,
-          "b": 457,
-          "en": "Research by the World Economic Forum finds that on average 42 per cent of the“core skills”within job roles will change by 2022.That is a very short timeline.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "b": 427,
+          "en": "Research by the World Economic Forum finds that on average 42 per cent of the“core skills”within job roles will change by 2022.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 43,
+              "en": "Research by the World Economic Forum finds ",
+              "zh": "世界经济论坛的研究发现"
+            },
+            {
+              "a": 43,
+              "b": 127,
+              "en": "that on average 42 per cent of the“core skills”within job roles will change by 2022.",
+              "zh": "到2022年，各岗位平均42%的“核心技能”将发生变化"
+            }
+          ],
+          "reorder": "将 by 2022 的时间期限提到变化内容前。",
+          "translation": "世界经济论坛的研究发现，到2022年，各岗位平均42%的“核心技能”将发生变化。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 78,
+              "b": 89,
+              "word": "core skills",
+              "lemma": "core skill",
+              "meaning": "岗位核心技能"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
+        },
+        {
+          "id": "2021-T1-P1-S4",
+          "a": 427,
+          "b": 457,
+          "en": "That is a very short timeline.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 30,
+              "en": "That is a very short timeline.",
+              "zh": "留给我们的时间非常短"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "留给我们的时间非常短。",
+          "words": [],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -63,84 +216,347 @@
           "a": 0,
           "b": 62,
           "en": "The question of who should pay for reskilling is a thorny one.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 46,
+              "en": "The question of who should pay for reskilling ",
+              "zh": "谁来支付重新培训技能的费用"
+            },
+            {
+              "a": 46,
+              "b": 62,
+              "en": "is a thorny one.",
+              "zh": "是个棘手的问题"
+            }
+          ],
+          "reorder": "把 of who should pay… 的问题内容提到“是个棘手的问题”前。",
+          "translation": "谁来支付重新培训技能的费用，是个棘手的问题。",
+          "words": [
+            {
+              "a": 35,
+              "b": 45,
+              "lemma": "reskill",
+              "meaning": "面向新岗位需求的技能再培训",
+              "word": "reskilling",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T1-P2-S2",
           "a": 63,
           "b": 217,
           "en": "For individual companies, the temptation is always to let go of workers whose skills are no longer in demand and replace them with those whose skills are.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 26,
+              "en": "For individual companies, ",
+              "zh": "对于单个公司来说"
+            },
+            {
+              "a": 26,
+              "b": 72,
+              "en": "the temptation is always to let go of workers ",
+              "zh": "总有一种诱惑，就是解雇员工"
+            },
+            {
+              "a": 72,
+              "b": 109,
+              "en": "whose skills are no longer in demand ",
+              "zh": "这些员工的技能已经不再符合需求"
+            },
+            {
+              "a": 109,
+              "b": 154,
+              "en": "and replace them with those whose skills are.",
+              "zh": "再换成技能符合需求的人"
+            }
+          ],
+          "reorder": "将 whose skills 从句前置修饰“员工”。",
+          "translation": "对于单个公司来说，总有一种诱惑，就是解雇技能已经不再符合需求的员工，换成技能符合需求的人。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 54,
+              "b": 63,
+              "lemma": "let go of",
+              "meaning": "解雇；放走（员工）",
+              "word": "let go of"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T1-P2-S3",
           "a": 218,
           "b": 246,
           "en": "That does not always happen.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 28,
+              "en": "That does not always happen.",
+              "zh": "事情并不总是如此"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "但企业并不总会这么做。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T1-P2-S4",
           "a": 247,
           "b": 393,
           "en": "AT&T is often given as the gold standard of a company who decided to do a massive reskilling program rather than go with a fire-and-hire strategy.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 54,
+              "en": "AT&T is often given as the gold standard of a company ",
+              "zh": "美国电话电报公司常被奉为典范"
+            },
+            {
+              "a": 54,
+              "b": 101,
+              "en": "who decided to do a massive reskilling program ",
+              "zh": "这家公司决定实施大规模技能再培训计划"
+            },
+            {
+              "a": 101,
+              "b": 146,
+              "en": "rather than go with a fire-and-hire strategy.",
+              "zh": "而不是采取“解雇再招聘”的策略"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "美国电话电报公司常被奉为典范，因为它决定实施大规模技能再培训计划，而不是采取“解雇再招聘”的策略。",
+          "words": [
+            {
+              "a": 82,
+              "b": 92,
+              "lemma": "reskill",
+              "meaning": "面向新岗位需求的技能再培训",
+              "word": "reskilling",
+              "pos": "n"
+            },
+            {
+              "a": 123,
+              "b": 136,
+              "lemma": "fire-and-hire",
+              "meaning": "解雇旧员工再招聘新员工的",
+              "word": "fire-and-hire",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 27,
+              "b": 40,
+              "lemma": "gold standard",
+              "meaning": "公认的优秀范例",
+              "word": "gold standard"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T1-P2-S5",
           "a": 394,
           "b": 481,
           "en": "Other companies including Amazon and Disney had also pledged to create their own plans.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 44,
+              "en": "Other companies including Amazon and Disney ",
+              "zh": "包括亚马逊和迪士尼在内的其他公司"
+            },
+            {
+              "a": 44,
+              "b": 87,
+              "en": "had also pledged to create their own plans.",
+              "zh": "也承诺制定自己的培训计划"
+            }
+          ],
+          "reorder": "将 including Amazon and Disney 放在“其他公司”前。",
+          "translation": "包括亚马逊和迪士尼在内的其他公司，也承诺制定自己的培训计划。",
+          "words": [
+            {
+              "a": 53,
+              "b": 60,
+              "word": "pledged",
+              "lemma": "pledge",
+              "meaning": "承诺",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T1-P2-S6",
           "a": 482,
           "b": 589,
           "en": "When the skills mismatch is in the broader economy though, the focus usually turns to government to handle.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 59,
+              "en": "When the skills mismatch is in the broader economy though, ",
+              "zh": "不过，当技能错配出现在更广泛的经济领域时"
+            },
+            {
+              "a": 59,
+              "b": 97,
+              "en": "the focus usually turns to government ",
+              "zh": "人们通常就会转向政府"
+            },
+            {
+              "a": 97,
+              "b": 107,
+              "en": "to handle.",
+              "zh": "希望由政府来处理"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "不过，当技能错配出现在更广泛的经济领域时，人们通常会转而指望政府来处理。",
+          "words": [
+            {
+              "a": 16,
+              "b": 24,
+              "lemma": "mismatch",
+              "meaning": "不匹配；供需错位",
+              "word": "mismatch",
+              "pos": "n"
+            },
+            {
+              "a": 100,
+              "b": 106,
+              "lemma": "handle",
+              "meaning": "处理；应对",
+              "word": "handle",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 9,
+              "b": 24,
+              "lemma": "skills mismatch",
+              "meaning": "现有技能与岗位需求不匹配",
+              "word": "skills mismatch"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T1-P2-S7",
           "a": 590,
           "b": 803,
           "en": "Efforts in Canada and elsewhere have been arguably languid at best, and have given us a situation where we frequently hear of employers begging for workers, even at times and in regions where unemployment is high.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 68,
+              "en": "Efforts in Canada and elsewhere have been arguably languid at best, ",
+              "zh": "可以说，加拿大等地的努力充其量也很迟缓"
+            },
+            {
+              "a": 68,
+              "b": 98,
+              "en": "and have given us a situation ",
+              "zh": "由此出现了这样一种局面"
+            },
+            {
+              "a": 98,
+              "b": 157,
+              "en": "where we frequently hear of employers begging for workers, ",
+              "zh": "我们经常听到雇主苦求工人"
+            },
+            {
+              "a": 157,
+              "b": 213,
+              "en": "even at times and in regions where unemployment is high.",
+              "zh": "即使是在失业率很高的时期和地区"
+            }
+          ],
+          "reorder": "将 even at times and in regions 的让步条件移到“雇主苦求工人”前。",
+          "translation": "可以说，加拿大等地在这方面的努力充其量也很迟缓，以致我们经常听说，即使在失业率很高的时期和地区，雇主仍在苦求工人。",
+          "words": [
+            {
+              "a": 51,
+              "b": 58,
+              "lemma": "languid",
+              "meaning": "迟缓无力的；缺乏力度的",
+              "word": "languid",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 59,
+              "b": 66,
+              "lemma": "at best",
+              "meaning": "充其量；即便往好处评价",
+              "word": "at best"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -153,48 +569,181 @@
           "a": 0,
           "b": 52,
           "en": "With the pandemic, unemployment is very high indeed.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 19,
+              "en": "With the pandemic, ",
+              "zh": "随着疫情暴发"
+            },
+            {
+              "a": 19,
+              "b": 52,
+              "en": "unemployment is very high indeed.",
+              "zh": "失业率确实非常高"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "随着疫情暴发，失业率确实非常高。",
+          "words": [
+            {
+              "a": 9,
+              "b": 17,
+              "word": "pandemic",
+              "lemma": "pandemic",
+              "meaning": "大流行病；此处指新冠疫情",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T1-P3-S2",
           "a": 53,
           "b": 227,
           "en": "In February, at 3.5 per cent and 5.5 per cent respectively, unemployment rates in Canada and the United States were at generational lows and worker shortages were everywhere.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 60,
+              "en": "In February, at 3.5 per cent and 5.5 per cent respectively, ",
+              "zh": "2月份，两国失业率分别为3.5%和5.5%"
+            },
+            {
+              "a": 60,
+              "b": 137,
+              "en": "unemployment rates in Canada and the United States were at generational lows ",
+              "zh": "加拿大和美国的失业率处于一代人以来的低点"
+            },
+            {
+              "a": 137,
+              "b": 174,
+              "en": "and worker shortages were everywhere.",
+              "zh": "各地都缺少工人"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "2月份，加拿大和美国的失业率分别为3.5%和5.5%，处于一代人以来的低点，各地都缺少工人。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 119,
+              "b": 136,
+              "lemma": "generational lows",
+              "meaning": "几十年来、约一代人时间内的低点",
+              "word": "generational lows"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T1-P3-S3",
           "a": 228,
           "b": 373,
           "en": "As of May, those rates had spiked up to 13.3 per cent and 13.7 per cent, and although many worker shortages had disappeared, not all had done so.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 73,
+              "en": "As of May, those rates had spiked up to 13.3 per cent and 13.7 per cent, ",
+              "zh": "截至5月，这两个失业率已分别骤升至13.3%和13.7%"
+            },
+            {
+              "a": 73,
+              "b": 125,
+              "en": "and although many worker shortages had disappeared, ",
+              "zh": "虽然许多用工短缺的情况已消失"
+            },
+            {
+              "a": 125,
+              "b": 145,
+              "en": "not all had done so.",
+              "zh": "但并没有全部消失"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "截至5月，两国失业率已分别骤升至13.3%和13.7%；虽然许多用工短缺的情况已经消失，却并非全部如此。",
+          "words": [
+            {
+              "a": 27,
+              "b": 33,
+              "lemma": "spike",
+              "meaning": "急剧上升",
+              "word": "spiked",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T1-P3-S4",
           "a": 374,
           "b": 528,
           "en": "In the medical field, to take an obvious example, the pandemic meant that there were still clear shortages of doctors, nurses and other medical personnel.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 50,
+              "en": "In the medical field, to take an obvious example, ",
+              "zh": "拿医疗领域这个明显的例子来说"
+            },
+            {
+              "a": 50,
+              "b": 69,
+              "en": "the pandemic meant ",
+              "zh": "疫情意味着"
+            },
+            {
+              "a": 69,
+              "b": 154,
+              "en": "that there were still clear shortages of doctors, nurses and other medical personnel.",
+              "zh": "医生、护士和其他医务人员仍然明显短缺"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "拿医疗领域这个明显的例子来说，疫情意味着医生、护士和其他医务人员仍然明显短缺。",
+          "words": [
+            {
+              "a": 144,
+              "b": 153,
+              "lemma": "personnel",
+              "meaning": "专业人员；工作人员",
+              "word": "personnel",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -207,48 +756,215 @@
           "a": 0,
           "b": 131,
           "en": "Of course, it is not like you can take an unemployed waiter and train him to be a doctor in a few weeks, no matter who pays for it.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 26,
+              "en": "Of course, it is not like ",
+              "zh": "当然，不能说"
+            },
+            {
+              "a": 26,
+              "b": 60,
+              "en": "you can take an unemployed waiter ",
+              "zh": "可以找来一个失业的服务员"
+            },
+            {
+              "a": 60,
+              "b": 105,
+              "en": "and train him to be a doctor in a few weeks, ",
+              "zh": "在几周内就把他培训成医生"
+            },
+            {
+              "a": 105,
+              "b": 131,
+              "en": "no matter who pays for it.",
+              "zh": "不论由谁出钱都不行"
+            }
+          ],
+          "reorder": "将 no matter who pays for it 的让步条件提到主句前。",
+          "translation": "当然，不论由谁出钱，都不可能找来一个失业的服务员，在几周内就把他培训成医生。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 0,
+              "b": 9,
+              "lemma": "of course",
+              "meaning": "当然",
+              "word": "Of course"
+            },
+            {
+              "a": 105,
+              "b": 114,
+              "lemma": "no matter",
+              "meaning": "无论；不管",
+              "word": "no matter"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T1-P4-S2",
           "a": 132,
           "b": 253,
           "en": "But even if you cannot close that gap, maybe you can close others, and doing so would be to the benefit of all concerned.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 39,
+              "en": "But even if you cannot close that gap, ",
+              "zh": "但即使无法弥合这一缺口"
+            },
+            {
+              "a": 39,
+              "b": 67,
+              "en": "maybe you can close others, ",
+              "zh": "也许仍能弥合其他缺口"
+            },
+            {
+              "a": 67,
+              "b": 121,
+              "en": "and doing so would be to the benefit of all concerned.",
+              "zh": "这样做将有利于所有相关的人"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "但即使无法弥合这一缺口，也许仍能弥合其他缺口，而这将让所有相关的人受益。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 107,
+              "b": 120,
+              "lemma": "all concerned",
+              "meaning": "所有相关的人；各有关方面",
+              "word": "all concerned"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T1-P4-S3",
           "a": 254,
           "b": 480,
           "en": "That seems to be the case in Sweden: When forced to furlough 90 per cent of their cabin staff, Scandinavian Airlines decided to start up a short retraining program that reskilled the laid-off workers to support hospital staff.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 37,
+              "en": "That seems to be the case in Sweden: ",
+              "zh": "瑞典似乎就是这样"
+            },
+            {
+              "a": 37,
+              "b": 95,
+              "en": "When forced to furlough 90 per cent of their cabin staff, ",
+              "zh": "被迫让90%的乘务员暂时停职后"
+            },
+            {
+              "a": 95,
+              "b": 164,
+              "en": "Scandinavian Airlines decided to start up a short retraining program ",
+              "zh": "北欧航空公司决定启动一个短期再培训项目"
+            },
+            {
+              "a": 164,
+              "b": 226,
+              "en": "that reskilled the laid-off workers to support hospital staff.",
+              "zh": "重新培训这些暂时失去工作的员工，让他们协助医院人员"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "瑞典似乎就是这样：北欧航空公司被迫让90%的乘务员暂时停职后，决定启动短期再培训项目，让这些员工转而协助医院人员。",
+          "words": [
+            {
+              "a": 52,
+              "b": 60,
+              "lemma": "furlough",
+              "meaning": "安排暂时停职或无薪休假",
+              "word": "furlough",
+              "pos": "v"
+            },
+            {
+              "a": 169,
+              "b": 178,
+              "lemma": "reskill",
+              "meaning": "重新培训技能",
+              "word": "reskilled",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 82,
+              "b": 93,
+              "lemma": "cabin staff",
+              "meaning": "空乘人员",
+              "word": "cabin staff"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T1-P4-S4",
           "a": 481,
           "b": 574,
           "en": "The effort was a collective one and involved other companies as well as a Swedish university.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 32,
+              "en": "The effort was a collective one ",
+              "zh": "这是一项共同努力"
+            },
+            {
+              "a": 32,
+              "b": 93,
+              "en": "and involved other companies as well as a Swedish university.",
+              "zh": "还有其他公司和一所瑞典大学参与"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "这是一项共同努力，还有其他公司和一所瑞典大学参与。",
+          "words": [
+            {
+              "a": 17,
+              "b": 27,
+              "lemma": "collective",
+              "meaning": "多方共同参与的",
+              "word": "collective",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     }

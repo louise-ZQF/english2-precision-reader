@@ -6,10 +6,19 @@
   "text": 3,
   "articleKey": "s1-p0-t2",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "fef3f751a848e151e4db170ca7aa064ff80927f7f0ee7d12710d18f308bde990",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2014年考研英语二真题.pdf",
+        "page": 8,
+        "sha256": "5de7f701b759d30bc79c2de0f9c7a4ec38172371c1b8c915809f5b18c11c20ad"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇对照本地原卷提取正文，核查字形及标点差异；逐句核对句块、语序和译文。"
   },
   "paragraphs": [
     {
@@ -21,48 +30,266 @@
           "a": 0,
           "b": 182,
           "en": "The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 83,
+              "en": "The concept of man versus machine is at least as old as the industrial revolution, ",
+              "zh": "人与机器相竞争的观念至少与工业革命一样古老"
+            },
+            {
+              "a": 83,
+              "b": 133,
+              "en": "but this phenomenon tends to be most acutely felt ",
+              "zh": "但人们对这种现象的感受往往最强烈"
+            },
+            {
+              "a": 133,
+              "b": 182,
+              "en": "during economic downturns and fragile recoveries.",
+              "zh": "在经济衰退和复苏脆弱的时期"
+            }
+          ],
+          "reorder": "把 during 时期放到“感受最强烈”前，man versus machine 要译出竞争关系。",
+          "translation": "人与机器相竞争的观念至少与工业革命一样古老，但在经济衰退、复苏脆弱的时期，人们往往最强烈地感受到这种现象。",
+          "words": [
+            {
+              "a": 19,
+              "b": 25,
+              "word": "versus",
+              "lemma": "versus",
+              "meaning": "与……相对；与……竞争",
+              "pos": "prep"
+            },
+            {
+              "a": 120,
+              "b": 127,
+              "word": "acutely",
+              "lemma": "acutely",
+              "meaning": "强烈地；鲜明地",
+              "pos": "adv"
+            },
+            {
+              "a": 163,
+              "b": 170,
+              "word": "fragile",
+              "lemma": "fragile",
+              "meaning": "脆弱的；不稳固的",
+              "pos": "a"
+            },
+            {
+              "a": 171,
+              "b": 181,
+              "word": "recoveries",
+              "lemma": "recovery",
+              "meaning": "经济复苏",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2014-T3-P1-S2",
           "a": 183,
           "b": 302,
           "en": "And yet, it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 9,
+              "en": "And yet, ",
+              "zh": "然而"
+            },
+            {
+              "a": 9,
+              "b": 31,
+              "en": "it would be a mistake ",
+              "zh": "这样想会是一个错误"
+            },
+            {
+              "a": 31,
+              "b": 40,
+              "en": "to think ",
+              "zh": "如果以为"
+            },
+            {
+              "a": 40,
+              "b": 119,
+              "en": "we are right now simply experiencing the painful side of a boom and bust cycle.",
+              "zh": "我们现在不过是在经历繁荣与萧条周期中痛苦的一面"
+            }
+          ],
+          "reorder": "把 to think 内容提前作中文条件，再接判断“就错了”。",
+          "translation": "然而，如果以为我们现在不过是在经历繁荣与萧条周期中痛苦的一面，那就错了。",
+          "words": [
+            {
+              "a": 108,
+              "b": 112,
+              "word": "bust",
+              "lemma": "bust",
+              "meaning": "萧条；繁荣后的崩落",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 99,
+              "b": 118,
+              "lemma": "boom and bust cycle",
+              "meaning": "繁荣与萧条交替的周期",
+              "word": "boom and bust cycle"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2014-T3-P1-S3",
           "a": 303,
           "b": 362,
           "en": "Certain jobs have gone away for good, outmoded by machines.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 38,
+              "en": "Certain jobs have gone away for good, ",
+              "zh": "某些工作岗位已经永久消失"
+            },
+            {
+              "a": 38,
+              "b": 59,
+              "en": "outmoded by machines.",
+              "zh": "被机器淘汰了"
+            }
+          ],
+          "reorder": "无需调整语序，后块解释岗位消失的原因。",
+          "translation": "某些工作岗位被机器淘汰，已经永久消失。",
+          "words": [
+            {
+              "a": 38,
+              "b": 46,
+              "word": "outmoded",
+              "lemma": "outmode",
+              "meaning": "使过时；取代",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 28,
+              "b": 36,
+              "lemma": "for good",
+              "meaning": "永久地",
+              "word": "for good"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2014-T3-P1-S4",
           "a": 363,
           "b": 533,
           "en": "Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 75,
+              "en": "Since technology has such an insatiable appetite for eating up human jobs, ",
+              "zh": "由于技术吞噬人类工作岗位的胃口永无止境"
+            },
+            {
+              "a": 75,
+              "b": 132,
+              "en": "this phenomenon will continue to restructure our economy ",
+              "zh": "这种现象将继续重塑我们的经济"
+            },
+            {
+              "a": 132,
+              "b": 140,
+              "en": "in ways ",
+              "zh": "以某些方式"
+            },
+            {
+              "a": 140,
+              "b": 170,
+              "en": "we cannot immediately foresee.",
+              "zh": "我们还无法立即预见的方式"
+            }
+          ],
+          "reorder": "把末尾 we cannot 定语并入“方式”，放到“重塑”前。",
+          "translation": "由于技术吞噬人类工作岗位的胃口永无止境，这种现象将继续以我们尚无法立即预见的方式重塑经济。",
+          "words": [
+            {
+              "a": 29,
+              "b": 39,
+              "word": "insatiable",
+              "lemma": "insatiable",
+              "meaning": "永不满足的",
+              "pos": "a"
+            },
+            {
+              "a": 40,
+              "b": 48,
+              "word": "appetite",
+              "lemma": "appetite",
+              "meaning": "不断扩大的需求或吞噬欲望（比喻）",
+              "pos": "n"
+            },
+            {
+              "a": 108,
+              "b": 119,
+              "word": "restructure",
+              "lemma": "restructure",
+              "meaning": "重组；改变结构",
+              "pos": "v"
+            },
+            {
+              "a": 162,
+              "b": 169,
+              "word": "foresee",
+              "lemma": "foresee",
+              "meaning": "预见",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 53,
+              "b": 62,
+              "lemma": "eating up",
+              "meaning": "吞噬；大规模替代",
+              "word": "eating up"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -75,24 +302,130 @@
           "a": 0,
           "b": 160,
           "en": "When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 76,
+              "en": "When there is rapid improvement in the price and performance of technology, ",
+              "zh": "当技术在成本和性能上迅速改善时"
+            },
+            {
+              "a": 76,
+              "b": 86,
+              "en": "jobs that ",
+              "zh": "有些工作岗位"
+            },
+            {
+              "a": 86,
+              "b": 133,
+              "en": "were once thought to be immune from automation ",
+              "zh": "一度被认为不会受自动化冲击的岗位"
+            },
+            {
+              "a": 133,
+              "b": 160,
+              "en": "suddenly become threatened.",
+              "zh": "会突然受到威胁"
+            }
+          ],
+          "reorder": "把 that 定语放到“工作岗位”前，price 改善不能译成涨价。",
+          "translation": "当技术在成本和性能上迅速改善时，一度被认为不会受自动化冲击的工作岗位，会突然受到威胁。",
+          "words": [
+            {
+              "a": 49,
+              "b": 60,
+              "word": "performance",
+              "lemma": "performance",
+              "meaning": "性能",
+              "pos": "n"
+            },
+            {
+              "a": 110,
+              "b": 116,
+              "word": "immune",
+              "lemma": "immune",
+              "meaning": "不受……影响的；免于……的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2014-T3-P2-S2",
           "a": 161,
           "b": 356,
           "en": "This argument has attracted a lot of attention, via the success of the book Race Against the Machine, by Erik Brynjolfsson and Andrew McAfee, who both hail from MIT's Center for Digital Business.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 48,
+              "en": "This argument has attracted a lot of attention, ",
+              "zh": "这一论点受到广泛关注"
+            },
+            {
+              "a": 48,
+              "b": 102,
+              "en": "via the success of the book Race Against the Machine, ",
+              "zh": "借助《与机器赛跑》一书的成功"
+            },
+            {
+              "a": 102,
+              "b": 142,
+              "en": "by Erik Brynjolfsson and Andrew McAfee, ",
+              "zh": "该书由埃里克·布林约尔松和安德鲁·麦卡菲撰写"
+            },
+            {
+              "a": 142,
+              "b": 195,
+              "en": "who both hail from MIT's Center for Digital Business.",
+              "zh": "两人都来自麻省理工学院数字商业中心"
+            }
+          ],
+          "reorder": "把 via 原因放到关注前，作者身份可另作补充。",
+          "translation": "这一论点随着埃里克·布林约尔松和安德鲁·麦卡菲所著《与机器赛跑》的成功而广受关注，两人都来自麻省理工学院数字商业中心。",
+          "words": [
+            {
+              "a": 5,
+              "b": 13,
+              "word": "argument",
+              "lemma": "argument",
+              "meaning": "论点；解释",
+              "pos": "n"
+            },
+            {
+              "a": 151,
+              "b": 155,
+              "word": "hail",
+              "lemma": "hail",
+              "meaning": "来自；出身于（hail from）",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 151,
+              "b": 160,
+              "lemma": "hail from",
+              "meaning": "来自；出身于",
+              "word": "hail from"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -105,24 +438,108 @@
           "a": 0,
           "b": 45,
           "en": "This is a powerful argument, and a scary one.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 29,
+              "en": "This is a powerful argument, ",
+              "zh": "这是一个有说服力的论点"
+            },
+            {
+              "a": 29,
+              "b": 45,
+              "en": "and a scary one.",
+              "zh": "也是一个令人害怕的论点"
+            }
+          ],
+          "reorder": "无需调整语序，one 回指论点。",
+          "translation": "这是一个有说服力、也令人害怕的论点。",
+          "words": [
+            {
+              "a": 19,
+              "b": 27,
+              "word": "argument",
+              "lemma": "argument",
+              "meaning": "论点；解释",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2014-T3-P3-S2",
           "a": 46,
           "b": 223,
           "en": "And yet, John Hagel, author of The Power of Pull and other books, says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 21,
+              "en": "And yet, John Hagel, ",
+              "zh": "然而，约翰·哈格尔"
+            },
+            {
+              "a": 21,
+              "b": 66,
+              "en": "author of The Power of Pull and other books, ",
+              "zh": "《拉动的力量》等书的作者"
+            },
+            {
+              "a": 66,
+              "b": 95,
+              "en": "says Brynjolfsson and McAfee ",
+              "zh": "说布林约尔松和麦卡菲"
+            },
+            {
+              "a": 95,
+              "b": 111,
+              "en": "miss the reason ",
+              "zh": "忽略了原因"
+            },
+            {
+              "a": 111,
+              "b": 177,
+              "en": "why these jobs are so vulnerable to technology in the first place.",
+              "zh": "这些岗位从根本上为何如此容易被技术取代"
+            }
+          ],
+          "reorder": "把作者身份放到人名前，why 从句并入“原因”。",
+          "translation": "然而，《拉动的力量》等书的作者约翰·哈格尔说，布林约尔松和麦卡菲忽略了这些岗位从根本上为何如此容易被技术取代。",
+          "words": [
+            {
+              "a": 133,
+              "b": 143,
+              "word": "vulnerable",
+              "lemma": "vulnerable",
+              "meaning": "容易被取代的；缺乏抵抗能力的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 158,
+              "b": 176,
+              "lemma": "in the first place",
+              "meaning": "首先；从根本上说",
+              "word": "in the first place"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -135,36 +552,182 @@
           "a": 0,
           "b": 172,
           "en": "Hagel says we have designed jobs in the U.S. that tend to be “tightly scripted” and “highly standardized” ones that leave no room for “individual initiative or creativity”.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 11,
+              "en": "Hagel says ",
+              "zh": "哈格尔说"
+            },
+            {
+              "a": 11,
+              "b": 45,
+              "en": "we have designed jobs in the U.S. ",
+              "zh": "我们在美国设计出的工作"
+            },
+            {
+              "a": 45,
+              "b": 80,
+              "en": "that tend to be “tightly scripted” ",
+              "zh": "往往“严格按预定程序进行”"
+            },
+            {
+              "a": 80,
+              "b": 111,
+              "en": "and “highly standardized” ones ",
+              "zh": "并且“高度标准化”"
+            },
+            {
+              "a": 111,
+              "b": 172,
+              "en": "that leave no room for “individual initiative or creativity”.",
+              "zh": "不给“个人主动性或创造力”留下空间"
+            }
+          ],
+          "reorder": "把第一个 that 的特点接在岗位后，第二个 that 解释这种设计的后果。",
+          "translation": "哈格尔说，我们在美国设计出的工作往往“严格按预定程序进行”“高度标准化”，不给“个人主动性或创造力”留下空间。",
+          "words": [
+            {
+              "a": 70,
+              "b": 78,
+              "word": "scripted",
+              "lemma": "scripted",
+              "meaning": "按固定步骤预先规定的",
+              "pos": "a"
+            },
+            {
+              "a": 92,
+              "b": 104,
+              "word": "standardized",
+              "lemma": "standardize",
+              "meaning": "标准化的",
+              "pos": "v"
+            },
+            {
+              "a": 146,
+              "b": 156,
+              "word": "initiative",
+              "lemma": "initiative",
+              "meaning": "主动性；自主行动",
+              "pos": "n"
+            },
+            {
+              "a": 160,
+              "b": 170,
+              "word": "creativity",
+              "lemma": "creativity",
+              "meaning": "创造力",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 116,
+              "b": 133,
+              "lemma": "leave no room for",
+              "meaning": "不给……留下空间",
+              "word": "leave no room for"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2014-T3-P4-S2",
           "a": 173,
           "b": 270,
           "en": "In short, these are the types of jobs that machines can perform much better at than human beings.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 38,
+              "en": "In short, these are the types of jobs ",
+              "zh": "简而言之，这类工作"
+            },
+            {
+              "a": 38,
+              "b": 79,
+              "en": "that machines can perform much better at ",
+              "zh": "机器能干得好得多"
+            },
+            {
+              "a": 79,
+              "b": 97,
+              "en": "than human beings.",
+              "zh": "与人类相比"
+            }
+          ],
+          "reorder": "把比较对象放到“干得好得多”前。",
+          "translation": "简而言之，这类工作正是机器比人类干得好得多的工作。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2014-T3-P4-S3",
           "a": 271,
           "b": 360,
           "en": "That is how we have put a giant target sign on the backs of American workers, Hagel says.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 12,
+              "en": "That is how ",
+              "zh": "事情就是这样"
+            },
+            {
+              "a": 12,
+              "b": 44,
+              "en": "we have put a giant target sign ",
+              "zh": "我们贴上了一个巨大的靶标"
+            },
+            {
+              "a": 44,
+              "b": 78,
+              "en": "on the backs of American workers, ",
+              "zh": "在美国工人的背上"
+            },
+            {
+              "a": 78,
+              "b": 89,
+              "en": "Hagel says.",
+              "zh": "哈格尔说"
+            }
+          ],
+          "reorder": "把 Hagel says 前置，how 译为“就这样”，on 地点紧接贴靶标。",
+          "translation": "哈格尔说，我们就这样在美国工人的背上贴上了一个巨大的靶标。",
+          "words": [
+            {
+              "a": 32,
+              "b": 38,
+              "word": "target",
+              "lemma": "target",
+              "meaning": "攻击目标；被替代的靶子（比喻）",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -177,48 +740,226 @@
           "a": 0,
           "b": 138,
           "en": "It's time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 34,
+              "en": "It's time to reinvent the formula ",
+              "zh": "是时候重新设计工作模式了"
+            },
+            {
+              "a": 34,
+              "b": 61,
+              "en": "for how work is conducted, ",
+              "zh": "即工作如何开展的模式"
+            },
+            {
+              "a": 61,
+              "b": 127,
+              "en": "since we are still relying on a very 20th century notion of work, ",
+              "zh": "因为我们仍依赖典型的20世纪工作观念"
+            },
+            {
+              "a": 127,
+              "b": 138,
+              "en": "Hagel says.",
+              "zh": "哈格尔说"
+            }
+          ],
+          "reorder": "把说话人前置，for how 并入“工作开展方式”。",
+          "translation": "哈格尔说，是时候重新设计工作的开展方式了，因为我们仍依赖典型的20世纪工作观念。",
+          "words": [
+            {
+              "a": 13,
+              "b": 21,
+              "word": "reinvent",
+              "lemma": "reinvent",
+              "meaning": "重新设计；彻底改造",
+              "pos": "v"
+            },
+            {
+              "a": 26,
+              "b": 33,
+              "word": "formula",
+              "lemma": "formula",
+              "meaning": "运作方式；固定模式",
+              "pos": "n"
+            },
+            {
+              "a": 50,
+              "b": 59,
+              "word": "conducted",
+              "lemma": "conduct",
+              "meaning": "开展；组织实施",
+              "pos": "v"
+            },
+            {
+              "a": 111,
+              "b": 117,
+              "word": "notion",
+              "lemma": "notion",
+              "meaning": "观念",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2014-T3-P5-S2",
           "a": 139,
           "b": 308,
           "en": "In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to unexpected events”.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 33,
+              "en": "In our rapidly changing economy, ",
+              "zh": "在快速变化的经济中"
+            },
+            {
+              "a": 33,
+              "b": 80,
+              "en": "we more than ever need people in the workplace ",
+              "zh": "职场比以往任何时候都更需要这样的人"
+            },
+            {
+              "a": 80,
+              "b": 104,
+              "en": "who can take initiative ",
+              "zh": "能够主动行动"
+            },
+            {
+              "a": 104,
+              "b": 135,
+              "en": "and exercise their imagination ",
+              "zh": "并发挥想象力"
+            },
+            {
+              "a": 135,
+              "b": 169,
+              "en": "“to respond to unexpected events”.",
+              "zh": "“以应对意外事件”"
+            }
+          ],
+          "reorder": "把 who 后两项能力合成“这样的人”的具体解释。",
+          "translation": "在快速变化的经济中，职场比以往任何时候都更需要能够主动行动、发挥想象力“应对意外事件”的人。",
+          "words": [
+            {
+              "a": 93,
+              "b": 103,
+              "word": "initiative",
+              "lemma": "initiative",
+              "meaning": "主动性；自主行动",
+              "pos": "n"
+            },
+            {
+              "a": 108,
+              "b": 116,
+              "word": "exercise",
+              "lemma": "exercise",
+              "meaning": "发挥；运用",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 88,
+              "b": 103,
+              "lemma": "take initiative",
+              "meaning": "主动行动",
+              "word": "take initiative"
+            },
+            {
+              "a": 108,
+              "b": 134,
+              "lemma": "exercise their imagination",
+              "meaning": "发挥想象力",
+              "word": "exercise their imagination"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2014-T3-P5-S3",
           "a": 309,
           "b": 352,
           "en": "That is not something machines are good at.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 43,
+              "en": "That is not something machines are good at.",
+              "zh": "这并不是机器擅长的事情"
+            }
+          ],
+          "reorder": "无需调整语序，That 指主动应对意外事件。",
+          "translation": "这并不是机器擅长的事情。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2014-T3-P5-S4",
           "a": 353,
           "b": 410,
           "en": "They are designed to perform very predictable activities.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 18,
+              "en": "They are designed ",
+              "zh": "机器被设计成"
+            },
+            {
+              "a": 18,
+              "b": 57,
+              "en": "to perform very predictable activities.",
+              "zh": "执行高度可预测的活动"
+            }
+          ],
+          "reorder": "无需调整语序，They 指机器。",
+          "translation": "机器被设计成执行高度可预测的活动。",
+          "words": [
+            {
+              "a": 34,
+              "b": 45,
+              "word": "predictable",
+              "lemma": "predictable",
+              "meaning": "可预见且重复的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -231,48 +972,228 @@
           "a": 0,
           "b": 83,
           "en": "As Hagel notes, Brynjolfsson and McAfee indeed touched on this point in their book.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 16,
+              "en": "As Hagel notes, ",
+              "zh": "正如哈格尔指出的"
+            },
+            {
+              "a": 16,
+              "b": 40,
+              "en": "Brynjolfsson and McAfee ",
+              "zh": "布林约尔松和麦卡菲"
+            },
+            {
+              "a": 40,
+              "b": 83,
+              "en": "indeed touched on this point in their book.",
+              "zh": "的确在书中谈到了这一点"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "正如哈格尔指出的，布林约尔松和麦卡菲的确在书中谈到了这一点。",
+          "words": [
+            {
+              "a": 9,
+              "b": 14,
+              "word": "notes",
+              "lemma": "note",
+              "meaning": "指出",
+              "pos": "n"
+            },
+            {
+              "a": 47,
+              "b": 54,
+              "word": "touched",
+              "lemma": "touch",
+              "meaning": "涉及；谈到（touch on）",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 47,
+              "b": 57,
+              "lemma": "touched on",
+              "meaning": "涉及；谈到",
+              "word": "touched on"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2014-T3-P6-S2",
           "a": 84,
           "b": 153,
           "en": "We need to reframe race against the machine as race with the machine.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 44,
+              "en": "We need to reframe race against the machine ",
+              "zh": "我们需要重新界定“与机器赛跑”"
+            },
+            {
+              "a": 44,
+              "b": 69,
+              "en": "as race with the machine.",
+              "zh": "把它改为“与机器携手前进”"
+            }
+          ],
+          "reorder": "reframe A as B 按“把A重新界定为B”译，with 强调协作。",
+          "translation": "我们需要把“与机器赛跑”重新界定为“与机器携手前进”。",
+          "words": [
+            {
+              "a": 11,
+              "b": 18,
+              "word": "reframe",
+              "lemma": "reframe",
+              "meaning": "重新界定；换一个角度理解",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 47,
+              "b": 68,
+              "lemma": "race with the machine",
+              "meaning": "与机器协作前进",
+              "word": "race with the machine"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2014-T3-P6-S3",
           "a": 154,
           "b": 263,
           "en": "In other words, we need to look at the ways in which machines can augment human labor rather than replace it.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 16,
+              "en": "In other words, ",
+              "zh": "换句话说"
+            },
+            {
+              "a": 16,
+              "b": 44,
+              "en": "we need to look at the ways ",
+              "zh": "我们需要研究那些方式"
+            },
+            {
+              "a": 44,
+              "b": 86,
+              "en": "in which machines can augment human labor ",
+              "zh": "机器能够增强人类劳动的方式"
+            },
+            {
+              "a": 86,
+              "b": 109,
+              "en": "rather than replace it.",
+              "zh": "而不是取代人类劳动"
+            }
+          ],
+          "reorder": "把 in which 内容并入“方式”，或直接译成如何增强。",
+          "translation": "换句话说，我们需要研究机器如何增强人类劳动，而非取代它。",
+          "words": [
+            {
+              "a": 66,
+              "b": 73,
+              "word": "augment",
+              "lemma": "augment",
+              "meaning": "增强；补充提高",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2014-T3-P6-S4",
           "a": 264,
           "b": 389,
           "en": "So then the problem is not really about technology, but rather, “how do we innovate our institutions and our work practices?”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 52,
+              "en": "So then the problem is not really about technology, ",
+              "zh": "因此，问题其实并不在于技术"
+            },
+            {
+              "a": 52,
+              "b": 64,
+              "en": "but rather, ",
+              "zh": "而是在于"
+            },
+            {
+              "a": 64,
+              "b": 125,
+              "en": "“how do we innovate our institutions and our work practices?”",
+              "zh": "“我们怎样革新制度和工作方式？”"
+            }
+          ],
+          "reorder": "保留 not…but rather 对照，问题引语作为后半句内容。",
+          "translation": "因此，问题其实并不在于技术，而在于“我们怎样革新制度和工作方式？”",
+          "words": [
+            {
+              "a": 88,
+              "b": 100,
+              "word": "institutions",
+              "lemma": "institution",
+              "meaning": "制度；组织规则",
+              "pos": "n"
+            },
+            {
+              "a": 114,
+              "b": 123,
+              "word": "practices",
+              "lemma": "practice",
+              "meaning": "工作做法；惯例",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 109,
+              "b": 123,
+              "lemma": "work practices",
+              "meaning": "工作方式；工作惯例",
+              "word": "work practices"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     }

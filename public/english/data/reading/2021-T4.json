@@ -6,10 +6,19 @@
   "text": 4,
   "articleKey": "s1-p0-t3",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "d5734139909644fe24544802b3d2dad171c0cd48e7d47bf18e6d9e0e142660d5",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2021年考研英语二真题.pdf",
+        "page": 10,
+        "sha256": "dfadb189b791a7acdb709f18f3a29f3d74e59541e07cdbd4706f65f48e695fd2"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇核对本地原卷正文抽取，逐句审读英文与中文；保留原卷文字及标点，仅沿用空白规范。"
   },
   "paragraphs": [
     {
@@ -21,60 +30,312 @@
           "a": 0,
           "b": 210,
           "en": "We're fairly good at judging people based on first impressions, thin slices of experience ranging from a glimpse of a photo to five-minute interaction, and deliberation can be not only extraneous but intrusive.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 64,
+              "en": "We're fairly good at judging people based on first impressions, ",
+              "zh": "我们很擅长凭第一印象判断他人"
+            },
+            {
+              "a": 64,
+              "b": 90,
+              "en": "thin slices of experience ",
+              "zh": "这些印象来自短暂的经验片段"
+            },
+            {
+              "a": 90,
+              "b": 152,
+              "en": "ranging from a glimpse of a photo to five-minute interaction, ",
+              "zh": "从匆匆看一眼照片，到五分钟的互动"
+            },
+            {
+              "a": 152,
+              "b": 210,
+              "en": "and deliberation can be not only extraneous but intrusive.",
+              "zh": "而深思熟虑可能不仅多余，还会干扰判断"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "我们很擅长凭第一印象判断他人，这些印象来自短暂的经验片段，比如匆匆看一眼照片或进行五分钟互动；反复思考反而可能既多余，又干扰判断。",
+          "words": [
+            {
+              "a": 156,
+              "b": 168,
+              "lemma": "deliberation",
+              "meaning": "刻意推敲；反复思考",
+              "word": "deliberation",
+              "pos": "n"
+            },
+            {
+              "a": 185,
+              "b": 195,
+              "lemma": "extraneous",
+              "meaning": "多余的；无必要的",
+              "word": "extraneous",
+              "pos": "a"
+            },
+            {
+              "a": 200,
+              "b": 209,
+              "lemma": "intrusive",
+              "meaning": "会造成干扰的",
+              "word": "intrusive",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 45,
+              "b": 62,
+              "lemma": "first impressions",
+              "meaning": "第一印象",
+              "word": "first impressions"
+            },
+            {
+              "a": 64,
+              "b": 75,
+              "lemma": "thin slices",
+              "meaning": "短暂而零碎的经验片段",
+              "word": "thin slices"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T4-P1-S2",
           "a": 211,
           "b": 423,
           "en": "In one study of the ability she called“thin slicing,” the late psychologist Nalini Ambady asked participants to watch silent 10-second video clips of professors and to rate the instructor's overall effectiveness.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 54,
+              "en": "In one study of the ability she called“thin slicing,” ",
+              "zh": "在一项研究她称作“薄片判断”的能力的研究中"
+            },
+            {
+              "a": 54,
+              "b": 109,
+              "en": "the late psychologist Nalini Ambady asked participants ",
+              "zh": "已故心理学家纳利尼·安巴迪要求参与者"
+            },
+            {
+              "a": 109,
+              "b": 161,
+              "en": "to watch silent 10-second video clips of professors ",
+              "zh": "观看教授的10秒无声视频片段"
+            },
+            {
+              "a": 161,
+              "b": 212,
+              "en": "and to rate the instructor's overall effectiveness.",
+              "zh": "并评价其整体教学效果"
+            }
+          ],
+          "reorder": "先交代安巴迪的身份，再说明她研究的能力及实验要求。",
+          "translation": "已故心理学家纳利尼·安巴迪把这种能力称为“薄片判断”，在一项相关研究中，她要求参与者观看教授的10秒无声视频片段，并评价其整体教学效果。",
+          "words": [
+            {
+              "a": 58,
+              "b": 62,
+              "lemma": "late",
+              "meaning": "已故的",
+              "word": "late",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T4-P1-S3",
           "a": 424,
           "b": 497,
           "en": "Their ratings correlated strongly with students' end-of-semester ratings.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 14,
+              "en": "Their ratings ",
+              "zh": "参与者的评分"
+            },
+            {
+              "a": 14,
+              "b": 73,
+              "en": "correlated strongly with students' end-of-semester ratings.",
+              "zh": "与学生学期末给出的评分高度相关"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "参与者的评分与学生学期末给出的评分高度相关。",
+          "words": [
+            {
+              "a": 6,
+              "b": 13,
+              "lemma": "rating",
+              "meaning": "评价；评分",
+              "word": "ratings",
+              "pos": "n"
+            },
+            {
+              "a": 65,
+              "b": 72,
+              "lemma": "rating",
+              "meaning": "评价；评分",
+              "word": "ratings",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T4-P1-S4",
           "a": 498,
           "b": 636,
           "en": "Another set of participants had to count backward from 1,000 by nines as they watched the clips, occupying their conscious working memory.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 28,
+              "en": "Another set of participants ",
+              "zh": "另一组参与者在观看视频时"
+            },
+            {
+              "a": 28,
+              "b": 97,
+              "en": "had to count backward from 1,000 by nines as they watched the clips, ",
+              "zh": "必须从1000开始，每次减9倒数"
+            },
+            {
+              "a": 97,
+              "b": 138,
+              "en": "occupying their conscious working memory.",
+              "zh": "以此占用有意识的工作记忆"
+            }
+          ],
+          "reorder": "将 as they watched 的同步情境并入句首。",
+          "translation": "另一组参与者在观看视频时，必须从1000开始每次减9倒数，以此占用他们有意识的工作记忆。",
+          "words": [
+            {
+              "a": 64,
+              "b": 69,
+              "lemma": "nine",
+              "meaning": "九这个数；此处指每次减九",
+              "word": "nines",
+              "pos": "n"
+            },
+            {
+              "a": 113,
+              "b": 122,
+              "lemma": "conscious",
+              "meaning": "有意识调动的",
+              "word": "conscious",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 123,
+              "b": 137,
+              "lemma": "working memory",
+              "meaning": "工作记忆；暂时保存和处理信息的认知能力",
+              "word": "working memory"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T4-P1-S5",
           "a": 637,
           "b": 734,
           "en": "Their ratings were just as accurate, demonstrating the intuitive nature of the social processing.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 37,
+              "en": "Their ratings were just as accurate, ",
+              "zh": "他们的评分同样准确"
+            },
+            {
+              "a": 37,
+              "b": 51,
+              "en": "demonstrating ",
+              "zh": "这表明这种社会信息处理"
+            },
+            {
+              "a": 51,
+              "b": 97,
+              "en": "the intuitive nature of the social processing.",
+              "zh": "具有直觉性质"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "他们的评分同样准确，表明这种社会信息处理具有直觉性质。",
+          "words": [
+            {
+              "a": 6,
+              "b": 13,
+              "lemma": "rating",
+              "meaning": "评价；评分",
+              "word": "ratings",
+              "pos": "n"
+            },
+            {
+              "a": 86,
+              "b": 96,
+              "lemma": "process",
+              "meaning": "认知加工；处理信息",
+              "word": "processing",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 79,
+              "b": 96,
+              "lemma": "social processing",
+              "meaning": "对社交信息的加工理解",
+              "word": "social processing"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -87,48 +348,188 @@
           "a": 0,
           "b": 120,
           "en": "Critically, another group was asked to spend a minute writing down reasons for their judgment, before giving the rating.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 36,
+              "en": "Critically, another group was asked ",
+              "zh": "关键的是，另一组参与者被要求"
+            },
+            {
+              "a": 36,
+              "b": 95,
+              "en": "to spend a minute writing down reasons for their judgment, ",
+              "zh": "花一分钟写下作出判断的理由"
+            },
+            {
+              "a": 95,
+              "b": 120,
+              "en": "before giving the rating.",
+              "zh": "然后再评分"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "关键的是，另一组参与者被要求先花一分钟写下判断理由，然后再评分。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T4-P2-S2",
           "a": 121,
           "b": 151,
           "en": "Accuracy dropped dramatically.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 30,
+              "en": "Accuracy dropped dramatically.",
+              "zh": "准确性大幅下降"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "结果，判断的准确性大幅下降。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T4-P2-S3",
           "a": 152,
           "b": 357,
           "en": "Ambady suspected that deliberation focused them on vivid but misleading cues, such as certain gestures or utterances, rather than letting the complex interplay of subtle signals form a holistic impression.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 78,
+              "en": "Ambady suspected that deliberation focused them on vivid but misleading cues, ",
+              "zh": "安巴迪怀疑，反复思考使他们只关注鲜明却误导人的线索"
+            },
+            {
+              "a": 78,
+              "b": 118,
+              "en": "such as certain gestures or utterances, ",
+              "zh": "例如某些手势或话语"
+            },
+            {
+              "a": 118,
+              "b": 178,
+              "en": "rather than letting the complex interplay of subtle signals ",
+              "zh": "而不是让各种细微信号的复杂相互作用"
+            },
+            {
+              "a": 178,
+              "b": 205,
+              "en": "form a holistic impression.",
+              "zh": "形成整体印象"
+            }
+          ],
+          "reorder": "把 such as certain gestures or utterances 的例子放到“线索”前，用“等”连接。",
+          "translation": "安巴迪怀疑，反复思考让他们把注意力放在某些手势或话语等鲜明却误导人的线索上，而没有让各种细微信号相互作用，形成整体印象。",
+          "words": [
+            {
+              "a": 72,
+              "b": 76,
+              "lemma": "cue",
+              "meaning": "线索；信号",
+              "word": "cues",
+              "pos": "n"
+            },
+            {
+              "a": 106,
+              "b": 116,
+              "lemma": "utterance",
+              "meaning": "话语；说出的内容",
+              "word": "utterances",
+              "pos": "n"
+            },
+            {
+              "a": 150,
+              "b": 159,
+              "lemma": "interplay",
+              "meaning": "相互作用",
+              "word": "interplay",
+              "pos": "n"
+            },
+            {
+              "a": 185,
+              "b": 193,
+              "lemma": "holistic",
+              "meaning": "整体性的",
+              "word": "holistic",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T4-P2-S4",
           "a": 358,
           "b": 518,
           "en": "She found similar interference when participants watched 15-second clips of pairs of people and judged whether they were strangers, friends, or dating partners.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 31,
+              "en": "She found similar interference ",
+              "zh": "她发现了类似的干扰"
+            },
+            {
+              "a": 31,
+              "b": 92,
+              "en": "when participants watched 15-second clips of pairs of people ",
+              "zh": "当参与者观看两个人的15秒视频片段"
+            },
+            {
+              "a": 92,
+              "b": 160,
+              "en": "and judged whether they were strangers, friends, or dating partners.",
+              "zh": "并判断他们是陌生人、朋友还是情侣时"
+            }
+          ],
+          "reorder": "将 when 引导的实验条件提到“发现类似干扰”前。",
+          "translation": "当参与者观看两个人的15秒视频片段，并判断他们是陌生人、朋友还是情侣时，她也发现了类似的干扰。",
+          "words": [
+            {
+              "a": 18,
+              "b": 30,
+              "lemma": "interference",
+              "meaning": "干扰",
+              "word": "interference",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -141,48 +542,173 @@
           "a": 0,
           "b": 122,
           "en": "Other research shows we're better at detecting deception from thin slices when we rely on intuition instead of reflection.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 74,
+              "en": "Other research shows we're better at detecting deception from thin slices ",
+              "zh": "其他研究表明，我们更善于通过短暂片段识别欺骗"
+            },
+            {
+              "a": 74,
+              "b": 122,
+              "en": "when we rely on intuition instead of reflection.",
+              "zh": "当我们依赖直觉而不是反思时"
+            }
+          ],
+          "reorder": "将 when 的条件提到“更善于识别”前。",
+          "translation": "其他研究表明，依赖直觉而不是反复思考时，我们更善于通过短暂片段识别欺骗。",
+          "words": [
+            {
+              "a": 47,
+              "b": 56,
+              "lemma": "deception",
+              "meaning": "欺骗行为",
+              "word": "deception",
+              "pos": "n"
+            },
+            {
+              "a": 111,
+              "b": 121,
+              "lemma": "reflection",
+              "meaning": "有意识反复思考",
+              "word": "reflection",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T4-P3-S2",
           "a": 123,
           "b": 310,
           "en": "“It's as if you're driving a stick shift,” says Judith Hall, a psychologist at Northeastern University, “and if you start thinking about it too much, you can't remember what you're doing.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 43,
+              "en": "“It's as if you're driving a stick shift,” ",
+              "zh": "“这就像开手动挡汽车，”"
+            },
+            {
+              "a": 43,
+              "b": 105,
+              "en": "says Judith Hall, a psychologist at Northeastern University, “",
+              "zh": "美国东北大学心理学家朱迪思·霍尔说"
+            },
+            {
+              "a": 105,
+              "b": 150,
+              "en": "and if you start thinking about it too much, ",
+              "zh": "“如果你开始想得太多"
+            },
+            {
+              "a": 150,
+              "b": 187,
+              "en": "you can't remember what you're doing.",
+              "zh": "就会忘记自己正在做什么"
+            }
+          ],
+          "reorder": "将说话人及身份移到引语前。",
+          "translation": "美国东北大学心理学家朱迪思·霍尔说：“这就像开手动挡汽车，如果你想得太多，就会忘记自己正在做什么。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 29,
+              "b": 40,
+              "lemma": "stick shift",
+              "meaning": "手动挡汽车",
+              "word": "stick shift"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T4-P3-S3",
           "a": 311,
           "b": 357,
           "en": "But if you go on automatic pilot, you're fine.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 34,
+              "en": "But if you go on automatic pilot, ",
+              "zh": "但如果进入自动操作的状态"
+            },
+            {
+              "a": 34,
+              "b": 46,
+              "en": "you're fine.",
+              "zh": "你就能应付自如"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "但如果凭熟练习惯自动操作，你就能应付自如。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 14,
+              "b": 32,
+              "lemma": "on automatic pilot",
+              "meaning": "凭熟练习惯自动反应（比喻）",
+              "word": "on automatic pilot"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T4-P3-S4",
           "a": 358,
           "b": 396,
           "en": "Much of our social life is like that.”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 24,
+              "en": "Much of our social life ",
+              "zh": "我们的社交生活很大一部分"
+            },
+            {
+              "a": 24,
+              "b": 38,
+              "en": "is like that.”",
+              "zh": "也是这样。”"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "我们的社交生活很大一部分也是这样。”",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -195,36 +721,157 @@
           "a": 0,
           "b": 64,
           "en": "Thinking too much can also harm our ability to form preferences.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 18,
+              "en": "Thinking too much ",
+              "zh": "想得太多"
+            },
+            {
+              "a": 18,
+              "b": 64,
+              "en": "can also harm our ability to form preferences.",
+              "zh": "也会损害我们形成喜好的能力"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "想得太多，也会损害我们形成喜好的能力。",
+          "words": [
+            {
+              "a": 52,
+              "b": 63,
+              "lemma": "preference",
+              "meaning": "个人偏好",
+              "word": "preferences",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T4-P4-S2",
           "a": 65,
           "b": 227,
           "en": "College students' ratings of strawberry jams and college courses aligned better with experts' opinions when the students weren't asked to analyze their rationale.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 65,
+              "en": "College students' ratings of strawberry jams and college courses ",
+              "zh": "大学生对草莓果酱和大学课程的评价"
+            },
+            {
+              "a": 65,
+              "b": 103,
+              "en": "aligned better with experts' opinions ",
+              "zh": "与专家意见更加一致"
+            },
+            {
+              "a": 103,
+              "b": 162,
+              "en": "when the students weren't asked to analyze their rationale.",
+              "zh": "当学生没有被要求分析自己评价的理由时"
+            }
+          ],
+          "reorder": "将 when 从句前置，先交代没有分析理由的条件。",
+          "translation": "当大学生没有被要求分析自己的评价理由时，他们对草莓果酱和大学课程的评价，反而与专家意见更加一致。",
+          "words": [
+            {
+              "a": 40,
+              "b": 44,
+              "lemma": "jam",
+              "meaning": "果酱",
+              "word": "jams",
+              "pos": "n"
+            },
+            {
+              "a": 65,
+              "b": 72,
+              "lemma": "align",
+              "meaning": "一致；相符合",
+              "word": "aligned",
+              "pos": "v"
+            },
+            {
+              "a": 152,
+              "b": 161,
+              "lemma": "rationale",
+              "meaning": "判断依据；理由",
+              "word": "rationale",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T4-P4-S3",
           "a": 228,
           "b": 475,
           "en": "And people made car-buying decisions that were both objectively better and more personally satisfying when asked to focus on their feelings rather than on details, but only if the decision was complex—when they had a lot of information to process.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 102,
+              "en": "And people made car-buying decisions that were both objectively better and more personally satisfying ",
+              "zh": "而人们作出的购车决定，在客观上更好，自己也更满意"
+            },
+            {
+              "a": 102,
+              "b": 164,
+              "en": "when asked to focus on their feelings rather than on details, ",
+              "zh": "当他们被要求关注感受而非细节时"
+            },
+            {
+              "a": 164,
+              "b": 201,
+              "en": "but only if the decision was complex—",
+              "zh": "但只有在决定很复杂的情况下才如此"
+            },
+            {
+              "a": 201,
+              "b": 247,
+              "en": "when they had a lot of information to process.",
+              "zh": "也就是需要处理大量信息时"
+            }
+          ],
+          "reorder": "将 when asked 的条件移到购车结果前；保留 only 对适用情况的限制。",
+          "translation": "而当人们被要求关注感受而非细节时，作出的购车决定在客观上更好，自己也更满意，但这只出现在决定很复杂、需要处理大量信息的情况下。",
+          "words": [
+            {
+              "a": 91,
+              "b": 101,
+              "lemma": "satisfying",
+              "meaning": "令人满意的",
+              "word": "satisfying",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -237,60 +884,244 @@
           "a": 0,
           "b": 71,
           "en": "Intuition's special powers are unleashed only in certain circumstances.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 27,
+              "en": "Intuition's special powers ",
+              "zh": "直觉的特殊能力"
+            },
+            {
+              "a": 27,
+              "b": 71,
+              "en": "are unleashed only in certain circumstances.",
+              "zh": "只有在特定情况下才能发挥出来"
+            }
+          ],
+          "reorder": "将 only in certain circumstances 放到“才能发挥出来”前，保留适用条件的限制。",
+          "translation": "直觉的特殊能力只有在特定情况下才能发挥出来。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T4-P5-S2",
           "a": 72,
           "b": 320,
           "en": "In one study, participants completed a battery of eight tasks, including four that tapped reflective thinking (discerning rules, comprehending vocabulary) and four that tapped intuition and creativity (generating new products or figures of speech).",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 63,
+              "en": "In one study, participants completed a battery of eight tasks, ",
+              "zh": "在一项研究中，参与者完成了八项任务"
+            },
+            {
+              "a": 63,
+              "b": 155,
+              "en": "including four that tapped reflective thinking (discerning rules, comprehending vocabulary) ",
+              "zh": "其中四项考查反思性思维，如识别规则、理解词汇"
+            },
+            {
+              "a": 155,
+              "b": 248,
+              "en": "and four that tapped intuition and creativity (generating new products or figures of speech).",
+              "zh": "另外四项考查直觉和创造力，如构想新产品或修辞表达"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "在一项研究中，参与者完成了八项任务，其中四项考查反思性思维，比如识别规则、理解词汇；另外四项考查直觉和创造力，比如构想新产品或修辞表达。",
+          "words": [
+            {
+              "a": 39,
+              "b": 46,
+              "lemma": "battery",
+              "meaning": "一组；一系列",
+              "word": "battery",
+              "pos": "n"
+            },
+            {
+              "a": 83,
+              "b": 89,
+              "lemma": "tap",
+              "meaning": "调用；运用（某种思维能力）",
+              "word": "tapped",
+              "pos": "v"
+            },
+            {
+              "a": 169,
+              "b": 175,
+              "lemma": "tap",
+              "meaning": "调用；运用（某种思维能力）",
+              "word": "tapped",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 90,
+              "b": 109,
+              "lemma": "reflective thinking",
+              "meaning": "需要有意识推理分析的思考",
+              "word": "reflective thinking"
+            },
+            {
+              "a": 229,
+              "b": 246,
+              "lemma": "figures of speech",
+              "meaning": "修辞手法",
+              "word": "figures of speech"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T4-P5-S3",
           "a": 321,
           "b": 422,
           "en": "Then they rated the degree to which they had used intuition (“gut feelings,” “ hunches,” “my heart”).",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 16,
+              "en": "Then they rated ",
+              "zh": "然后他们评估"
+            },
+            {
+              "a": 16,
+              "b": 62,
+              "en": "the degree to which they had used intuition (“",
+              "zh": "自己使用直觉的程度"
+            },
+            {
+              "a": 62,
+              "b": 101,
+              "en": "gut feelings,” “ hunches,” “my heart”).",
+              "zh": "直觉被描述为“本能感受”“预感”“内心的声音”"
+            }
+          ],
+          "reorder": "将 to which they had used intuition 译为“自己运用直觉的”，放到“程度”前。",
+          "translation": "随后，他们评估自己运用直觉的程度，这里的直觉是指“本能感受”“预感”或“内心的声音”。",
+          "words": [
+            {
+              "a": 62,
+              "b": 65,
+              "lemma": "gut",
+              "meaning": "直觉；本能感觉",
+              "word": "gut",
+              "pos": "n"
+            },
+            {
+              "a": 79,
+              "b": 86,
+              "lemma": "hunch",
+              "meaning": "直觉；预感",
+              "word": "hunches",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T4-P5-S4",
           "a": 423,
           "b": 529,
           "en": "Use of their gut hurt their performance on the first four tasks, as expected, and helped them on the rest.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 65,
+              "en": "Use of their gut hurt their performance on the first four tasks, ",
+              "zh": "凭直觉行事损害了他们在前四项任务中的表现"
+            },
+            {
+              "a": 65,
+              "b": 78,
+              "en": "as expected, ",
+              "zh": "这与预期相符"
+            },
+            {
+              "a": 78,
+              "b": 106,
+              "en": "and helped them on the rest.",
+              "zh": "但有助于他们完成其余任务"
+            }
+          ],
+          "reorder": "将 as expected 的插入评语提到句首。",
+          "translation": "正如预期的那样，凭直觉行事会损害他们在前四项任务中的表现，却有助于完成其余任务。",
+          "words": [
+            {
+              "a": 13,
+              "b": 16,
+              "lemma": "gut",
+              "meaning": "直觉；本能感觉",
+              "word": "gut",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T4-P5-S5",
           "a": 530,
           "b": 575,
           "en": "Sometimes the heart is smarter than the head.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 10,
+              "en": "Sometimes ",
+              "zh": "有时候"
+            },
+            {
+              "a": 10,
+              "b": 45,
+              "en": "the heart is smarter than the head.",
+              "zh": "内心的直觉比理性的头脑更聪明"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "有时候，内心的直觉比理性的头脑更聪明。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     }

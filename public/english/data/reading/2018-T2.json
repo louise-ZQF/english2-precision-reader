@@ -6,10 +6,19 @@
   "text": 2,
   "articleKey": "s1-p0-t1",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "2d1dc6394ddcba7abe5a29581dfd2c1db3d01f27c43f359c57823ff0a5ba1511",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2018年考研英语二真题.pdf",
+        "page": 6,
+        "sha256": "1ef8f8d43a882358d66377033a824fe5c64ee474ff3b7756c824df710140e62f"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇对照本地试卷完整正文与PDF渲染页，逐项核对提取层形似字、下划线漏字和标点差异；保留原英文与固定编号。"
   },
   "paragraphs": [
     {
@@ -21,24 +30,129 @@
           "a": 0,
           "b": 193,
           "en": "While fossil fuels – coal, oil, gas – still generate roughly 85 percent of the world's energy supply, it's clearer than ever that the future belongs to renewable sources such as wind and solar.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 38,
+              "en": "While fossil fuels – coal, oil, gas – ",
+              "zh": "虽然化石燃料，也就是煤炭、石油和天然气"
+            },
+            {
+              "a": 38,
+              "b": 102,
+              "en": "still generate roughly 85 percent of the world's energy supply, ",
+              "zh": "仍供应着全球约百分之八十五的能源"
+            },
+            {
+              "a": 102,
+              "b": 125,
+              "en": "it's clearer than ever ",
+              "zh": "但有一点比以往任何时候都更清楚"
+            },
+            {
+              "a": 125,
+              "b": 193,
+              "en": "that the future belongs to renewable sources such as wind and solar.",
+              "zh": "未来属于风能、太阳能等可再生能源"
+            }
+          ],
+          "reorder": "先译 while 的让步；把 that 后的实际判断接在“更清楚”后，such as 的例子前置修饰能源。",
+          "translation": "虽然煤炭、石油、天然气等化石燃料仍供应着全球约百分之八十五的能源，但有一点比以往任何时候都更清楚：未来属于风能、太阳能等可再生能源。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 6,
+              "b": 18,
+              "word": "fossil fuels",
+              "lemma": "fossil fuels",
+              "meaning": "化石燃料"
+            },
+            {
+              "a": 152,
+              "b": 169,
+              "word": "renewable sources",
+              "lemma": "renewable sources",
+              "meaning": "可再生能源"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T2-P1-S2",
           "a": 194,
           "b": 329,
           "en": "The move to renewables is picking up momentum around the world: They now account for more than half of new power sources going on line.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 64,
+              "en": "The move to renewables is picking up momentum around the world: ",
+              "zh": "全球向可再生能源转型的势头正在增强"
+            },
+            {
+              "a": 64,
+              "b": 100,
+              "en": "They now account for more than half ",
+              "zh": "它们如今已占一半以上"
+            },
+            {
+              "a": 100,
+              "b": 135,
+              "en": "of new power sources going on line.",
+              "zh": "在新投入运行的电源中所占的比例"
+            }
+          ],
+          "reorder": "先译转型趋势，再将 going on line 前置修饰新增电源；They 指可再生能源。",
+          "translation": "全球向可再生能源转型的势头正在增强：如今，新投入运行的电源有一半以上来自可再生能源。",
+          "words": [
+            {
+              "a": 12,
+              "b": 22,
+              "lemma": "renewables",
+              "meaning": "可再生能源",
+              "word": "renewables",
+              "pos": "n"
+            },
+            {
+              "a": 113,
+              "b": 120,
+              "lemma": "source",
+              "meaning": "能源来源；发电设施",
+              "word": "sources",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 26,
+              "b": 45,
+              "lemma": "pick up momentum",
+              "meaning": "发展势头加快；增长动力增强",
+              "word": "picking up momentum"
+            },
+            {
+              "a": 127,
+              "b": 134,
+              "lemma": "on line",
+              "meaning": "投入运行；投入使用",
+              "word": "on line"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -51,36 +165,179 @@
           "a": 0,
           "b": 108,
           "en": "Some growth stems from a commitment by governments and farsighted businesses to fund cleaner energy sources.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 12,
+              "en": "Some growth ",
+              "zh": "部分增长"
+            },
+            {
+              "a": 12,
+              "b": 36,
+              "en": "stems from a commitment ",
+              "zh": "源于一项承诺"
+            },
+            {
+              "a": 36,
+              "b": 77,
+              "en": "by governments and farsighted businesses ",
+              "zh": "由政府和有远见的企业作出的承诺"
+            },
+            {
+              "a": 77,
+              "b": 108,
+              "en": "to fund cleaner energy sources.",
+              "zh": "即为更清洁的能源提供资金"
+            }
+          ],
+          "reorder": "把承诺的作出者与内容合并到“承诺”前后，再译增长来源。",
+          "translation": "部分增长源于政府和有远见的企业为更清洁的能源提供资金的承诺。",
+          "words": [
+            {
+              "a": 55,
+              "b": 65,
+              "lemma": "farsighted",
+              "meaning": "有远见的",
+              "word": "farsighted",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 12,
+              "b": 22,
+              "word": "stems from",
+              "lemma": "stems from",
+              "meaning": "源于；起因于"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T2-P2-S2",
           "a": 109,
           "b": 208,
           "en": "But increasingly the story is about the plummeting prices of renewables, especially wind and solar.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 17,
+              "en": "But increasingly ",
+              "zh": "但越来越重要的原因"
+            },
+            {
+              "a": 17,
+              "b": 73,
+              "en": "the story is about the plummeting prices of renewables, ",
+              "zh": "是可再生能源价格的暴跌"
+            },
+            {
+              "a": 73,
+              "b": 99,
+              "en": "especially wind and solar.",
+              "zh": "尤其是风能和太阳能"
+            }
+          ],
+          "reorder": "the story 承接上文增长原因，按“关键原因”译出，不直译成故事。",
+          "translation": "但越来越重要的原因是可再生能源价格的暴跌，尤其是风能和太阳能。",
+          "words": [
+            {
+              "a": 40,
+              "b": 50,
+              "lemma": "plummet",
+              "meaning": "急剧下降的",
+              "word": "plummeting",
+              "pos": "v"
+            },
+            {
+              "a": 61,
+              "b": 71,
+              "lemma": "renewables",
+              "meaning": "可再生能源",
+              "word": "renewables",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T2-P2-S3",
           "a": 209,
           "b": 336,
           "en": "The cost of solar panels has dropped by 80 percent and the cost of wind turbines by close to one-third in the past eight years.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 51,
+              "en": "The cost of solar panels has dropped by 80 percent ",
+              "zh": "太阳能电池板成本已下降百分之八十"
+            },
+            {
+              "a": 51,
+              "b": 103,
+              "en": "and the cost of wind turbines by close to one-third ",
+              "zh": "风力涡轮机成本已下降近三分之一"
+            },
+            {
+              "a": 103,
+              "b": 127,
+              "en": "in the past eight years.",
+              "zh": "这是过去八年间的变化"
+            }
+          ],
+          "reorder": "将句末时间范围前置；第二个 cost 后省略的 has dropped 在中文补出，两项 by 均表示降幅。",
+          "translation": "过去八年间，太阳能电池板成本已下降百分之八十，风力涡轮机成本已下降近三分之一。",
+          "words": [
+            {
+              "a": 18,
+              "b": 24,
+              "lemma": "panel",
+              "meaning": "太阳能板",
+              "word": "panels",
+              "pos": "n"
+            },
+            {
+              "a": 72,
+              "b": 80,
+              "lemma": "turbine",
+              "meaning": "涡轮机；风力发电机",
+              "word": "turbines",
+              "pos": "n"
+            },
+            {
+              "a": 93,
+              "b": 102,
+              "lemma": "one-third",
+              "meaning": "三分之一",
+              "word": "one-third",
+              "pos": "num"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -93,48 +350,181 @@
           "a": 0,
           "b": 81,
           "en": "In many parts of the world renewable energy is already a principal energy source.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 27,
+              "en": "In many parts of the world ",
+              "zh": "在世界许多地区"
+            },
+            {
+              "a": 27,
+              "b": 81,
+              "en": "renewable energy is already a principal energy source.",
+              "zh": "可再生能源已成为主要能源来源"
+            }
+          ],
+          "reorder": "先译地点范围，再译能源地位。",
+          "translation": "在世界许多地区，可再生能源已成为主要能源来源。",
+          "words": [
+            {
+              "a": 57,
+              "b": 66,
+              "lemma": "principal",
+              "meaning": "主要的",
+              "word": "principal",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T2-P3-S2",
           "a": 82,
           "b": 178,
           "en": "In Scotland, for example, wind turbines provide enough electricity to power 95 percent of homes.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 26,
+              "en": "In Scotland, for example, ",
+              "zh": "例如，在苏格兰"
+            },
+            {
+              "a": 26,
+              "b": 67,
+              "en": "wind turbines provide enough electricity ",
+              "zh": "风力涡轮机提供的电力已经足够"
+            },
+            {
+              "a": 67,
+              "b": 96,
+              "en": "to power 95 percent of homes.",
+              "zh": "为百分之九十五的家庭供电"
+            }
+          ],
+          "reorder": "to power 说明电力足够满足的用途，接在“足以”后。",
+          "translation": "例如，在苏格兰，风力涡轮机提供的电力已足以供应百分之九十五的家庭用电。",
+          "words": [
+            {
+              "a": 70,
+              "b": 75,
+              "lemma": "power",
+              "meaning": "为……供电",
+              "word": "power",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T2-P3-S3",
           "a": 179,
           "b": 301,
           "en": "While the rest of the world takes the lead, notably China and Europe, the United States is also seeing a remarkable shift.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 44,
+              "en": "While the rest of the world takes the lead, ",
+              "zh": "虽然世界其他地区领先一步"
+            },
+            {
+              "a": 44,
+              "b": 70,
+              "en": "notably China and Europe, ",
+              "zh": "尤其是中国和欧洲"
+            },
+            {
+              "a": 70,
+              "b": 122,
+              "en": "the United States is also seeing a remarkable shift.",
+              "zh": "美国也正在发生显著转变"
+            }
+          ],
+          "reorder": "先译 while 的对照让步，把 notably 的例子紧跟领先地区，主句译美国的变化。",
+          "translation": "虽然世界其他地区，尤其是中国和欧洲领先一步，美国也正在发生显著转变。",
+          "words": [
+            {
+              "a": 44,
+              "b": 51,
+              "lemma": "notably",
+              "meaning": "特别是；尤其",
+              "word": "notably",
+              "pos": "adv"
+            },
+            {
+              "a": 116,
+              "b": 121,
+              "lemma": "shift",
+              "meaning": "转变",
+              "word": "shift",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T2-P3-S4",
           "a": 302,
           "b": 472,
           "en": "In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 30,
+              "en": "In March, for the first time, ",
+              "zh": "三月份，首次出现这样的情况"
+            },
+            {
+              "a": 30,
+              "b": 120,
+              "en": "wind and solar power accounted for more than 10 percent of the power generated in the US, ",
+              "zh": "风能和太阳能发电量占美国总发电量的百分之十以上"
+            },
+            {
+              "a": 120,
+              "b": 170,
+              "en": "reported the US Energy Information Administration.",
+              "zh": "美国能源信息署报告称"
+            }
+          ],
+          "reorder": "把报告来源前置，将首次和三月份一起限定占比突破。",
+          "translation": "美国能源信息署报告称，三月份，风能和太阳能发电量首次占到美国总发电量的百分之十以上。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -147,36 +537,169 @@
           "a": 0,
           "b": 95,
           "en": "President Trump has underlined fossil fuels – especially coal – as the path to economic growth.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 46,
+              "en": "President Trump has underlined fossil fuels – ",
+              "zh": "特朗普总统着重强调化石燃料"
+            },
+            {
+              "a": 46,
+              "b": 64,
+              "en": "especially coal – ",
+              "zh": "尤其是煤炭"
+            },
+            {
+              "a": 64,
+              "b": 95,
+              "en": "as the path to economic growth.",
+              "zh": "是实现经济增长的途径"
+            }
+          ],
+          "reorder": "保留破折号的强调内容，as 说明化石燃料被赋予的作用。",
+          "translation": "特朗普总统着重强调，化石燃料——尤其是煤炭——是实现经济增长的途径。",
+          "words": [
+            {
+              "a": 20,
+              "b": 30,
+              "lemma": "underline",
+              "meaning": "着重强调",
+              "word": "underlined",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T2-P4-S2",
           "a": 96,
           "b": 179,
           "en": "In a recent speech in Iowa, he dismissed wind power as an unreliable energy source.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 28,
+              "en": "In a recent speech in Iowa, ",
+              "zh": "在最近一次爱荷华州的演讲中"
+            },
+            {
+              "a": 28,
+              "b": 83,
+              "en": "he dismissed wind power as an unreliable energy source.",
+              "zh": "他否定了风能，称其为不可靠的能源"
+            }
+          ],
+          "reorder": "先译演讲情境，dismissed...as 译为以不可靠为由否定。",
+          "translation": "在最近一次爱荷华州的演讲中，他否定了风能，称其为不可靠的能源。",
+          "words": [
+            {
+              "a": 31,
+              "b": 40,
+              "lemma": "dismiss",
+              "meaning": "不屑地否定；不予重视",
+              "word": "dismissed",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T2-P4-S3",
           "a": 180,
           "b": 453,
           "en": "But that message did not play well with many in Iowa, where wind turbines dot the fields and provide 36 percent of the state's electricity generation – and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 54,
+              "en": "But that message did not play well with many in Iowa, ",
+              "zh": "但爱荷华州的许多人并不买账"
+            },
+            {
+              "a": 54,
+              "b": 89,
+              "en": "where wind turbines dot the fields ",
+              "zh": "那里田野间遍布风力涡轮机"
+            },
+            {
+              "a": 89,
+              "b": 152,
+              "en": "and provide 36 percent of the state's electricity generation – ",
+              "zh": "风力发电占该州总发电量的百分之三十六"
+            },
+            {
+              "a": 152,
+              "b": 189,
+              "en": "and where tech giants like Microsoft ",
+              "zh": "而且，微软等科技巨头"
+            },
+            {
+              "a": 189,
+              "b": 245,
+              "en": "are being attracted by the availability of clean energy ",
+              "zh": "正被这里可获得的清洁能源吸引"
+            },
+            {
+              "a": 245,
+              "b": 273,
+              "en": "to power their data centers.",
+              "zh": "这些能源可为其数据中心供电"
+            }
+          ],
+          "reorder": "把两个 where 从句拆成解释当地反应的分句；to power 指清洁能源的用途，不擅加建设数据中心的时间。",
+          "translation": "但爱荷华州的许多人并不买账。那里田野间遍布风力涡轮机，风力发电占全州总发电量的百分之三十六；而且，当地可为数据中心供电的清洁能源，正在吸引微软等科技巨头。",
+          "words": [
+            {
+              "a": 74,
+              "b": 77,
+              "lemma": "dot",
+              "meaning": "点缀于；遍布",
+              "word": "dot",
+              "pos": "v"
+            },
+            {
+              "a": 216,
+              "b": 228,
+              "lemma": "availability",
+              "meaning": "可获取性；供应充足的条件",
+              "word": "availability",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 25,
+              "b": 39,
+              "lemma": "play well with",
+              "meaning": "受到……欢迎；被……接受",
+              "word": "play well with"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -189,24 +712,108 @@
           "a": 0,
           "b": 124,
           "en": "The question “what happens when the wind doesn't blow or the sun doesn't shine?” has provided a quick put-down for skeptics.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 81,
+              "en": "The question “what happens when the wind doesn't blow or the sun doesn't shine?” ",
+              "zh": "当风不吹、太阳不照时，怎么办"
+            },
+            {
+              "a": 81,
+              "b": 111,
+              "en": "has provided a quick put-down ",
+              "zh": "这个问题成了一句现成的反驳之辞"
+            },
+            {
+              "a": 111,
+              "b": 124,
+              "en": "for skeptics.",
+              "zh": "供怀疑者使用"
+            }
+          ],
+          "reorder": "把嵌在主语中的问句先独立呈现，再译它对怀疑者的用途。",
+          "translation": "“当风不吹、太阳不照时，怎么办？”这个问题成了怀疑者一句现成的反驳之辞。",
+          "words": [
+            {
+              "a": 102,
+              "b": 110,
+              "lemma": "put-down",
+              "meaning": "用来贬低或反驳的话",
+              "word": "put-down",
+              "pos": "n"
+            },
+            {
+              "a": 115,
+              "b": 123,
+              "lemma": "skeptic",
+              "meaning": "怀疑者",
+              "word": "skeptics",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T2-P5-S2",
           "a": 125,
           "b": 249,
           "en": "But a boost in the storage capacity of batteries is making their ability to keep power flowing around the clock more likely.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 49,
+              "en": "But a boost in the storage capacity of batteries ",
+              "zh": "但电池储电容量的提升"
+            },
+            {
+              "a": 49,
+              "b": 112,
+              "en": "is making their ability to keep power flowing around the clock ",
+              "zh": "使其保持昼夜不间断供电的能力"
+            },
+            {
+              "a": 112,
+              "b": 124,
+              "en": "more likely.",
+              "zh": "变得更有可能实现"
+            }
+          ],
+          "reorder": "先译储能进步，再译全天供电的可能性；中文将抽象 ability 改成“实现全天供电”。",
+          "translation": "但电池储电容量的提升，使昼夜不间断供电变得更有可能。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 19,
+              "b": 35,
+              "lemma": "storage capacity",
+              "meaning": "储电容量",
+              "word": "storage capacity"
+            },
+            {
+              "a": 95,
+              "b": 111,
+              "lemma": "around the clock",
+              "meaning": "全天候；昼夜不停地",
+              "word": "around the clock"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -219,24 +826,89 @@
           "a": 0,
           "b": 118,
           "en": "The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 56,
+              "en": "The advance is driven in part by vehicle manufacturers, ",
+              "zh": "这一进步部分由汽车制造商推动"
+            },
+            {
+              "a": 56,
+              "b": 118,
+              "en": "who are placing big bets on battery-powered electric vehicles.",
+              "zh": "它们正在电池驱动的电动汽车上投入重金、寄予厚望"
+            }
+          ],
+          "reorder": "将 who 的关系从句拆成汽车厂商的具体行为；in part 保留部分因素限制。",
+          "translation": "这一进步部分由汽车制造商推动，它们正在电池驱动的电动汽车上投入重金、寄予厚望。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 64,
+              "b": 83,
+              "lemma": "place big bets on",
+              "meaning": "大举投资并寄望于……",
+              "word": "placing big bets on"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T2-P6-S2",
           "a": 119,
           "b": 248,
           "en": "Although electric cars are still a rarity on roads now, this massive investment could change the picture rapidly in coming years.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 56,
+              "en": "Although electric cars are still a rarity on roads now, ",
+              "zh": "虽然如今道路上的电动汽车仍很少见"
+            },
+            {
+              "a": 56,
+              "b": 129,
+              "en": "this massive investment could change the picture rapidly in coming years.",
+              "zh": "但这笔巨额投资可能在未来几年迅速改变局面"
+            }
+          ],
+          "reorder": "先译 although 的让步，再将迅速和未来几年前置到改变之前。",
+          "translation": "虽然如今道路上的电动汽车仍很少见，但这笔巨额投资可能在未来几年迅速改变局面。",
+          "words": [
+            {
+              "a": 35,
+              "b": 41,
+              "lemma": "rarity",
+              "meaning": "少见的事物",
+              "word": "rarity",
+              "pos": "n"
+            },
+            {
+              "a": 97,
+              "b": 104,
+              "lemma": "picture",
+              "meaning": "整体局面；状况",
+              "word": "picture",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -249,36 +921,157 @@
           "a": 0,
           "b": 75,
           "en": "While there's a long way to go, the trend lines for renewables are spiking.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 32,
+              "en": "While there's a long way to go, ",
+              "zh": "虽然前路依然漫长"
+            },
+            {
+              "a": 32,
+              "b": 75,
+              "en": "the trend lines for renewables are spiking.",
+              "zh": "可再生能源的发展趋势线却正在急剧上扬"
+            }
+          ],
+          "reorder": "先译让步，spiking 按发展趋势迅速上扬译出。",
+          "translation": "虽然前路依然漫长，可再生能源的发展趋势线却正在急剧上扬。",
+          "words": [
+            {
+              "a": 52,
+              "b": 62,
+              "lemma": "renewables",
+              "meaning": "可再生能源",
+              "word": "renewables",
+              "pos": "n"
+            },
+            {
+              "a": 67,
+              "b": 74,
+              "lemma": "spike",
+              "meaning": "急剧上升",
+              "word": "spiking",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T2-P7-S2",
           "a": 76,
           "b": 216,
           "en": "The pace of change in energy sources appears to be speeding up – perhaps just in time to have a meaningful effect in slowing climate change.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 65,
+              "en": "The pace of change in energy sources appears to be speeding up – ",
+              "zh": "能源来源转变的步伐似乎正在加快"
+            },
+            {
+              "a": 65,
+              "b": 86,
+              "en": "perhaps just in time ",
+              "zh": "或许恰好来得及"
+            },
+            {
+              "a": 86,
+              "b": 140,
+              "en": "to have a meaningful effect in slowing climate change.",
+              "zh": "对减缓气候变化产生实质影响"
+            }
+          ],
+          "reorder": "先译变化加速，再把 just in time 和目的结合为“来得及产生影响”。",
+          "translation": "能源来源转变的步伐似乎正在加快，或许恰好来得及对减缓气候变化产生实质影响。",
+          "words": [
+            {
+              "a": 4,
+              "b": 8,
+              "lemma": "pace",
+              "meaning": "速度；进程",
+              "word": "pace",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2018-T2-P7-S3",
           "a": 217,
           "b": 348,
           "en": "What Washington does – or doesn't do – to promote alternative energy may mean less and less at a time of a global shift in thought.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 39,
+              "en": "What Washington does – or doesn't do – ",
+              "zh": "美国联邦政府做些什么，或不做些什么"
+            },
+            {
+              "a": 39,
+              "b": 69,
+              "en": "to promote alternative energy ",
+              "zh": "来推动替代能源发展"
+            },
+            {
+              "a": 69,
+              "b": 92,
+              "en": "may mean less and less ",
+              "zh": "其影响可能越来越小"
+            },
+            {
+              "a": 92,
+              "b": 131,
+              "en": "at a time of a global shift in thought.",
+              "zh": "在全球观念发生转变的时候"
+            }
+          ],
+          "reorder": "把句末全球背景移到句首，What 从句整体作为主语；Washington 指联邦政府。",
+          "translation": "在全球观念发生转变之际，美国联邦政府在推动替代能源方面做些什么，或不做些什么，其影响可能越来越小。",
+          "words": [
+            {
+              "a": 5,
+              "b": 15,
+              "lemma": "washington",
+              "meaning": "美国联邦政府（借首都代称）",
+              "word": "Washington",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 50,
+              "b": 68,
+              "lemma": "alternative energy",
+              "meaning": "替代能源",
+              "word": "alternative energy"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     }

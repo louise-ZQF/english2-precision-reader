@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-31",
+  "articles": 68,
+  "sentences": 1282,
+  "reviewedSentences": 1282,
+  "verifiedArticles": 68,
+  "chunks": 4273,
+  "wordOccurrences": 2298,
+  "phraseOccurrences": 745,
+  "sourceAudit": "reading-source-audit.md",
+  "note": "所有阅读句子均已整理；词义条目仅覆盖定位记录，其他位置明确使用词典参考。2026来源为公开整理卷。"
+}

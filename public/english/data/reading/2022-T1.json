@@ -6,10 +6,21 @@
   "text": 1,
   "articleKey": "s1-p0-t0",
   "source": {
-    "status": "pending",
-    "textSHA256": "b780b02f4d3629f258d8d0b96c041a38bdd20ac16fba96fb6594260b5aaeca22",
-    "evidence": [],
-    "notes": []
+    "status": "verified",
+    "textSHA256": "684c953a79c6aedfce93e17219624f4e9a537232f081615dd0c35976c4039ce3",
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2022年考研英语二真题.pdf",
+        "page": 4,
+        "sha256": "6905f827ee76eb3d4165c7aaeb09af9387c60addbd5af8e959d5e8a9ddcfa7f8"
+      }
+    ],
+    "notes": [
+      "按原卷删去旧题库第3段额外的生产商背景短语；金额排版空格不影响原意。"
+    ],
+    "checkedAt": "2026-10-31",
+    "method": "逐段对照用户提供的原卷；保留原卷有效英文，修复旧题库的漏句、多句及录入错误后逐句编辑中文。"
   },
   "paragraphs": [
     {
@@ -21,48 +32,214 @@
           "a": 0,
           "b": 99,
           "en": "On a recent sunny day, 13,000 chickens roam over Larry Brown's 40 windswept acres in Shiner, Texas.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 23,
+              "en": "On a recent sunny day, ",
+              "zh": "最近一个晴天，"
+            },
+            {
+              "a": 23,
+              "b": 44,
+              "en": "13,000 chickens roam ",
+              "zh": "一万三千只鸡四处活动，"
+            },
+            {
+              "a": 44,
+              "b": 99,
+              "en": "over Larry Brown's 40 windswept acres in Shiner, Texas.",
+              "zh": "在得克萨斯州沙伊纳镇拉里·布朗那片占地40英亩、常受风吹的农场上。"
+            }
+          ],
+          "reorder": "把 over 引出的活动地点移到“鸡四处活动”前；windswept 修饰 acres。",
+          "translation": "最近一个晴天，在得克萨斯州沙伊纳镇，拉里·布朗那片占地40英亩、常受风吹的农场上，一万三千只鸡在四处活动。",
+          "words": [
+            {
+              "a": 39,
+              "b": 43,
+              "word": "roam",
+              "lemma": "roam",
+              "meaning": "自由走动；四处觅食"
+            },
+            {
+              "a": 76,
+              "b": 81,
+              "word": "acres",
+              "lemma": "acre",
+              "meaning": "英亩（面积单位）"
+            },
+            {
+              "a": 66,
+              "b": 75,
+              "word": "windswept",
+              "lemma": "windswept",
+              "meaning": "常受风吹的"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T1-P1-S2",
           "a": 100,
           "b": 139,
           "en": "Some rest in the shade of a parked car.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 10,
+              "en": "Some rest ",
+              "zh": "有些鸡休息，"
+            },
+            {
+              "a": 10,
+              "b": 39,
+              "en": "in the shade of a parked car.",
+              "zh": "在一辆停着的汽车的阴凉处。"
+            }
+          ],
+          "reorder": "把 in the shade 的地点放到“休息”前，Some 指前句的鸡。",
+          "translation": "有些鸡在一辆停着的汽车的阴凉处休息。",
+          "words": [
+            {
+              "a": 17,
+              "b": 22,
+              "word": "shade",
+              "lemma": "shade",
+              "meaning": "阴凉处；背阴处"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T1-P1-S3",
           "a": 140,
           "b": 173,
           "en": "Others drink water with the cows.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 19,
+              "en": "Others drink water ",
+              "zh": "另一些鸡喝水，"
+            },
+            {
+              "a": 19,
+              "b": 33,
+              "en": "with the cows.",
+              "zh": "和牛在一起。"
+            }
+          ],
+          "reorder": "with the cows 表示和牛一起，不是用牛来喝水。",
+          "translation": "另一些鸡则和牛一起喝水。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T1-P1-S4",
           "a": 174,
           "b": 321,
           "en": "This all seems random, but it's by design, part of what the $ 6.1 billion U.S. egg industry bets will be its next big thing: climate-friendly eggs.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 23,
+              "en": "This all seems random, ",
+              "zh": "这一切似乎很随意，"
+            },
+            {
+              "a": 23,
+              "b": 43,
+              "en": "but it's by design, ",
+              "zh": "其实是有意安排的，"
+            },
+            {
+              "a": 43,
+              "b": 125,
+              "en": "part of what the $ 6.1 billion U.S. egg industry bets will be its next big thing: ",
+              "zh": "也是美国规模达61亿美元的鸡蛋行业所押注的下一个热门产品计划的一部分："
+            },
+            {
+              "a": 125,
+              "b": 147,
+              "en": "climate-friendly eggs.",
+              "zh": "气候友好型鸡蛋。"
+            }
+          ],
+          "reorder": "先译 by design 的转折，再将 what...will be 合成“行业押注的下一个热门产品”；冒号后点明产品。",
+          "translation": "这一切看似随意，实则是有意安排，也是美国规模达61亿美元的鸡蛋行业打造下一个热门产品——气候友好型鸡蛋——的计划的一部分。",
+          "words": [
+            {
+              "a": 125,
+              "b": 141,
+              "word": "climate-friendly",
+              "lemma": "climate-friendly",
+              "meaning": "有利于气候保护的",
+              "pos": "a"
+            },
+            {
+              "a": 15,
+              "b": 21,
+              "word": "random",
+              "lemma": "random",
+              "meaning": "随意的；看似没有安排的"
+            },
+            {
+              "a": 92,
+              "b": 96,
+              "word": "bets",
+              "lemma": "bet",
+              "meaning": "押注；寄希望于"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 32,
+              "b": 41,
+              "word": "by design",
+              "lemma": "by design",
+              "meaning": "有意地；经过刻意安排"
+            },
+            {
+              "a": 109,
+              "b": 123,
+              "word": "next big thing",
+              "lemma": "next big thing",
+              "meaning": "下一个热门事物；下一个风口"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -75,66 +252,355 @@
           "a": 0,
           "b": 283,
           "en": "These eggs, which are making their debut now on shelves for as much as $ 8 a dozen, are still labeled organic and animal-friendly, but they're also from birds that live on farms using regenerative agriculture—special techniques to cultivate rich soils that can trap greenhouse gases.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 12,
+              "en": "These eggs, ",
+              "zh": "这些鸡蛋，"
+            },
+            {
+              "a": 12,
+              "b": 84,
+              "en": "which are making their debut now on shelves for as much as $ 8 a dozen, ",
+              "zh": "现在刚以每打高达8美元的价格上架，"
+            },
+            {
+              "a": 84,
+              "b": 131,
+              "en": "are still labeled organic and animal-friendly, ",
+              "zh": "仍贴有有机和善待动物的标签，"
+            },
+            {
+              "a": 131,
+              "b": 178,
+              "en": "but they're also from birds that live on farms ",
+              "zh": "但它们还来自生活在农场里的鸡，"
+            },
+            {
+              "a": 178,
+              "b": 209,
+              "en": "using regenerative agriculture—",
+              "zh": "采用的是再生农业，"
+            },
+            {
+              "a": 209,
+              "b": 252,
+              "en": "special techniques to cultivate rich soils ",
+              "zh": "即培育肥沃土壤的特殊技术，"
+            },
+            {
+              "a": 252,
+              "b": 283,
+              "en": "that can trap greenhouse gases.",
+              "zh": "这些土壤能够吸存温室气体。"
+            }
+          ],
+          "reorder": "which 插入语先交代上架价格；using 修饰 farms；破折号后解释再生农业；最后 that 修饰 soils。",
+          "translation": "这些刚刚上市、每打售价高达8美元的鸡蛋，仍贴着有机和善待动物的标签；不过，产蛋鸡还生活在采用再生农业的农场里。这种农业运用特殊技术培育肥沃的土壤，使其能够吸存温室气体。",
+          "words": [
+            {
+              "a": 48,
+              "b": 55,
+              "word": "shelves",
+              "lemma": "shelf",
+              "meaning": "货架",
+              "pos": "n"
+            },
+            {
+              "a": 102,
+              "b": 109,
+              "word": "organic",
+              "lemma": "organic",
+              "meaning": "有机的",
+              "pos": "a"
+            },
+            {
+              "a": 184,
+              "b": 196,
+              "word": "regenerative",
+              "lemma": "regenerative",
+              "meaning": "再生农业的；恢复土壤生态的",
+              "pos": "a"
+            },
+            {
+              "a": 231,
+              "b": 240,
+              "word": "cultivate",
+              "lemma": "cultivate",
+              "meaning": "培育；改良（土壤）",
+              "pos": "v"
+            },
+            {
+              "a": 35,
+              "b": 40,
+              "word": "debut",
+              "lemma": "debut",
+              "meaning": "首次上市；首次亮相"
+            },
+            {
+              "a": 261,
+              "b": 265,
+              "word": "trap",
+              "lemma": "trap",
+              "meaning": "吸存；截留（温室气体）"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 22,
+              "b": 40,
+              "lemma": "make one's debut",
+              "meaning": "首次上市",
+              "word": "making their debut"
+            },
+            {
+              "a": 75,
+              "b": 82,
+              "word": "a dozen",
+              "lemma": "a dozen",
+              "meaning": "一打；十二个"
+            },
+            {
+              "a": 184,
+              "b": 208,
+              "word": "regenerative agriculture",
+              "lemma": "regenerative agriculture",
+              "meaning": "再生农业（改善土壤、恢复生态的耕作方式）"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T1-P2-S2",
           "a": 284,
           "b": 347,
           "en": "Such eggs could be marketed as helping to fight climate change.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 28,
+              "en": "Such eggs could be marketed ",
+              "zh": "这类鸡蛋可以在营销时被宣传为，"
+            },
+            {
+              "a": 28,
+              "b": 63,
+              "en": "as helping to fight climate change.",
+              "zh": "有助于应对气候变化。"
+            }
+          ],
+          "reorder": "将被动 marketed as 改为中文主动的“宣传为”。",
+          "translation": "这类鸡蛋可以打着“有助于应对气候变化”的卖点来销售。",
+          "words": [
+            {
+              "a": 19,
+              "b": 27,
+              "word": "marketed",
+              "lemma": "market",
+              "meaning": "推销；宣传销售"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
     {
       "id": "2022-T1-P3",
-      "en": "“I'm excited about our progress,” says Brown, who harvests eggs for Denver- based Nest Fresh Eggs and is adding more cover crops that draw worms and crickets for the chickens to eat. The birds' waste then fertilizes fields. Such improvements “allow our hens to forage for higher-quality natural feed that will be good for the land, the hens, and the eggs that we supply to our customers.”",
+      "en": "“I'm excited about our progress,” says Brown, who is adding more cover crops that draw worms and crickets for the chickens to eat. The birds' waste then fertilizes fields. Such improvements “allow our hens to forage for higher-quality natural feed that will be good for the land, the hens, and the eggs that we supply to our customers.”",
       "sentences": [
         {
           "id": "2022-T1-P3-S1",
           "a": 0,
-          "b": 182,
-          "en": "“I'm excited about our progress,” says Brown, who harvests eggs for Denver- based Nest Fresh Eggs and is adding more cover crops that draw worms and crickets for the chickens to eat.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "b": 130,
+          "en": "“I'm excited about our progress,” says Brown, who is adding more cover crops that draw worms and crickets for the chickens to eat.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 34,
+              "en": "“I'm excited about our progress,” ",
+              "zh": "“我对我们的进展感到兴奋，”"
+            },
+            {
+              "a": 34,
+              "b": 46,
+              "en": "says Brown, ",
+              "zh": "布朗说，"
+            },
+            {
+              "a": 46,
+              "b": 77,
+              "en": "who is adding more cover crops ",
+              "zh": "他正在增种覆盖作物，"
+            },
+            {
+              "a": 77,
+              "b": 106,
+              "en": "that draw worms and crickets ",
+              "zh": "以吸引蠕虫和蟋蟀，"
+            },
+            {
+              "a": 106,
+              "b": 130,
+              "en": "for the chickens to eat.",
+              "zh": "供鸡啄食。"
+            }
+          ],
+          "reorder": "先交代布朗说话；who 另起分句说明他的做法；that 修饰覆盖作物；for 表示供鸡吃。",
+          "translation": "布朗说：“我对我们的进展感到兴奋。”他正在增种覆盖作物，吸引蠕虫和蟋蟀，供鸡啄食。",
+          "words": [
+            {
+              "a": 82,
+              "b": 86,
+              "word": "draw",
+              "lemma": "draw",
+              "meaning": "吸引；招来"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 65,
+              "b": 76,
+              "word": "cover crops",
+              "lemma": "cover crop",
+              "meaning": "覆盖作物（保护、改善土壤的作物）"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T1-P3-S2",
-          "a": 183,
-          "b": 223,
+          "a": 131,
+          "b": 171,
           "en": "The birds' waste then fertilizes fields.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 17,
+              "en": "The birds' waste ",
+              "zh": "这些鸡的粪便，"
+            },
+            {
+              "a": 17,
+              "b": 40,
+              "en": "then fertilizes fields.",
+              "zh": "接着为农田增添肥力。"
+            }
+          ],
+          "reorder": "按主语—动作顺序翻译，then 承接前一句的觅食过程。",
+          "translation": "鸡的粪便接着又给农田施肥。",
+          "words": [
+            {
+              "a": 11,
+              "b": 16,
+              "word": "waste",
+              "lemma": "waste",
+              "meaning": "粪便；排泄物"
+            },
+            {
+              "a": 22,
+              "b": 32,
+              "word": "fertilizes",
+              "lemma": "fertilize",
+              "meaning": "为……施肥"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T1-P3-S3",
-          "a": 224,
-          "b": 388,
+          "a": 172,
+          "b": 336,
           "en": "Such improvements “allow our hens to forage for higher-quality natural feed that will be good for the land, the hens, and the eggs that we supply to our customers.”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 18,
+              "en": "Such improvements ",
+              "zh": "这些改进，"
+            },
+            {
+              "a": 18,
+              "b": 44,
+              "en": "“allow our hens to forage ",
+              "zh": "“让我们的母鸡能够自行觅食，"
+            },
+            {
+              "a": 44,
+              "b": 76,
+              "en": "for higher-quality natural feed ",
+              "zh": "找到品质更好的天然饲料，"
+            },
+            {
+              "a": 76,
+              "b": 131,
+              "en": "that will be good for the land, the hens, and the eggs ",
+              "zh": "这会有益于土地、母鸡以及鸡蛋，"
+            },
+            {
+              "a": 131,
+              "b": 164,
+              "en": "that we supply to our customers.”",
+              "zh": "也就是我们供应给顾客的鸡蛋。”"
+            }
+          ],
+          "reorder": "把 that we supply 的修饰放到“鸡蛋”前；前一个 that 指优质天然饲料带来的好处。",
+          "translation": "这些改进“让我们的母鸡能够觅得品质更好的天然饲料，这对土地、母鸡以及我们供应给顾客的鸡蛋都有好处”。",
+          "words": [
+            {
+              "a": 37,
+              "b": 43,
+              "word": "forage",
+              "lemma": "forage",
+              "meaning": "觅食；寻找食物"
+            },
+            {
+              "a": 71,
+              "b": 75,
+              "word": "feed",
+              "lemma": "feed",
+              "meaning": "饲料"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -147,48 +613,307 @@
           "a": 0,
           "b": 136,
           "en": "The egg industry's push is the first major test of whether animal products from regenerative farms can become the next premium offering.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 24,
+              "en": "The egg industry's push ",
+              "zh": "鸡蛋行业的这次推动，"
+            },
+            {
+              "a": 24,
+              "b": 48,
+              "en": "is the first major test ",
+              "zh": "是第一次重要检验，"
+            },
+            {
+              "a": 48,
+              "b": 99,
+              "en": "of whether animal products from regenerative farms ",
+              "zh": "检验来自再生农业农场的动物产品，"
+            },
+            {
+              "a": 99,
+              "b": 136,
+              "en": "can become the next premium offering.",
+              "zh": "能否成为下一个高端商品。"
+            }
+          ],
+          "reorder": "把 of whether 的内容译成“检验……能否……”，from 短语放到“动物产品”前。",
+          "translation": "鸡蛋行业此次发力，将首次真正检验：再生农业农场出产的动物产品，能否成为新的高端商品。",
+          "words": [
+            {
+              "a": 80,
+              "b": 92,
+              "word": "regenerative",
+              "lemma": "regenerative",
+              "meaning": "再生农业的；恢复土壤生态的",
+              "pos": "a"
+            },
+            {
+              "a": 119,
+              "b": 126,
+              "word": "premium",
+              "lemma": "premium",
+              "meaning": "高端的；价格较高的",
+              "pos": "n"
+            },
+            {
+              "a": 127,
+              "b": 135,
+              "word": "offering",
+              "lemma": "offering",
+              "meaning": "推向市场的产品",
+              "pos": "n"
+            },
+            {
+              "a": 19,
+              "b": 23,
+              "word": "push",
+              "lemma": "push",
+              "meaning": "推动；大力推广"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 119,
+              "b": 135,
+              "word": "premium offering",
+              "lemma": "premium offering",
+              "meaning": "高端商品；高价优质产品"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T1-P4-S2",
           "a": 137,
           "b": 274,
           "en": "In barely more than a decade, organic eggs went from being dismissed as a niche product in natural foods stores to being sold at Walmart.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 30,
+              "en": "In barely more than a decade, ",
+              "zh": "仅仅十多年间，"
+            },
+            {
+              "a": 30,
+              "b": 48,
+              "en": "organic eggs went ",
+              "zh": "有机鸡蛋发生了转变，"
+            },
+            {
+              "a": 48,
+              "b": 112,
+              "en": "from being dismissed as a niche product in natural foods stores ",
+              "zh": "从被看作天然食品商店里的小众产品，"
+            },
+            {
+              "a": 112,
+              "b": 137,
+              "en": "to being sold at Walmart.",
+              "zh": "到在沃尔玛销售。"
+            }
+          ],
+          "reorder": "把 from...to... 保留为“从……到……”；being dismissed 译“被视为、被轻看为”。",
+          "translation": "仅仅十多年间，有机鸡蛋就从天然食品商店里不被看好的小众产品，变成了沃尔玛也销售的商品。",
+          "words": [
+            {
+              "a": 30,
+              "b": 37,
+              "word": "organic",
+              "lemma": "organic",
+              "meaning": "有机的",
+              "pos": "a"
+            },
+            {
+              "a": 74,
+              "b": 79,
+              "word": "niche",
+              "lemma": "niche",
+              "meaning": "小众的；针对特定消费者的",
+              "pos": "n"
+            },
+            {
+              "a": 59,
+              "b": 68,
+              "word": "dismissed",
+              "lemma": "dismiss",
+              "meaning": "不予重视；认为不值得看好"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 74,
+              "b": 87,
+              "word": "niche product",
+              "lemma": "niche product",
+              "meaning": "小众产品"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T1-P4-S3",
           "a": 275,
           "b": 412,
           "en": "More recently there were similar doubts about probiotics and plant-based meats, but both have exploded into major supermarket categories.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 14,
+              "en": "More recently ",
+              "zh": "更近些时候，"
+            },
+            {
+              "a": 14,
+              "b": 80,
+              "en": "there were similar doubts about probiotics and plant-based meats, ",
+              "zh": "人们对益生菌和植物肉也有过类似怀疑，"
+            },
+            {
+              "a": 80,
+              "b": 137,
+              "en": "but both have exploded into major supermarket categories.",
+              "zh": "但这两者都迅速发展成了超市中的重要商品类别。"
+            }
+          ],
+          "reorder": "先译时间和怀疑，再保留 but 转折；both 指益生菌和植物肉。",
+          "translation": "更近些时候，人们对益生菌和植物肉也有过类似怀疑，但二者都迅速发展成了超市中的重要商品类别。",
+          "words": [
+            {
+              "a": 61,
+              "b": 72,
+              "word": "plant-based",
+              "lemma": "plant-based",
+              "meaning": "植物性的；以植物为原料的",
+              "pos": "a"
+            },
+            {
+              "a": 126,
+              "b": 136,
+              "word": "categories",
+              "lemma": "category",
+              "meaning": "商品类别",
+              "pos": "n"
+            },
+            {
+              "a": 94,
+              "b": 102,
+              "word": "exploded",
+              "lemma": "explode",
+              "meaning": "迅速增长；迅速发展"
+            },
+            {
+              "a": 46,
+              "b": 56,
+              "word": "probiotics",
+              "lemma": "probiotic",
+              "meaning": "益生菌"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 61,
+              "b": 78,
+              "word": "plant-based meats",
+              "lemma": "plant-based meat",
+              "meaning": "植物肉"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T1-P4-S4",
           "a": 413,
           "b": 532,
           "en": "If the sustainable-egg rollout is successful, it could open the floodgates for regenerative beef, broccoli, and beyond.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 46,
+              "en": "If the sustainable-egg rollout is successful, ",
+              "zh": "如果可持续鸡蛋的推广取得成功，"
+            },
+            {
+              "a": 46,
+              "b": 75,
+              "en": "it could open the floodgates ",
+              "zh": "就可能打开大规模发展的闸门，"
+            },
+            {
+              "a": 75,
+              "b": 119,
+              "en": "for regenerative beef, broccoli, and beyond.",
+              "zh": "使再生农业生产的牛肉、西蓝花及更多产品涌入市场。"
+            }
+          ],
+          "reorder": "it 指可持续鸡蛋推广成功这件事；for 后列出随后可能推广的产品。",
+          "translation": "如果可持续鸡蛋推广成功，再生农业生产的牛肉、西蓝花及更多产品就可能随之大量进入市场。",
+          "words": [
+            {
+              "a": 79,
+              "b": 91,
+              "word": "regenerative",
+              "lemma": "regenerative",
+              "meaning": "再生农业的；恢复土壤生态的",
+              "pos": "a"
+            },
+            {
+              "a": 112,
+              "b": 118,
+              "word": "beyond",
+              "lemma": "beyond",
+              "meaning": "以及其他更多产品",
+              "pos": "prep"
+            },
+            {
+              "a": 23,
+              "b": 30,
+              "word": "rollout",
+              "lemma": "rollout",
+              "meaning": "推出；推广上市"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 55,
+              "b": 74,
+              "word": "open the floodgates",
+              "lemma": "open the floodgates",
+              "meaning": "打开闸门；引发大规模涌入"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -201,24 +926,128 @@
           "a": 0,
           "b": 202,
           "en": "Regenerative products could be a hard sell, because the concept is tough to define quickly, says Julie Stanton, associate professor of agricultural economics at Pennsylvania State University Brandywine.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 44,
+              "en": "Regenerative products could be a hard sell, ",
+              "zh": "再生农业产品可能不好卖，"
+            },
+            {
+              "a": 44,
+              "b": 92,
+              "en": "because the concept is tough to define quickly, ",
+              "zh": "因为这个概念很难三言两语解释清楚，"
+            },
+            {
+              "a": 92,
+              "b": 112,
+              "en": "says Julie Stanton, ",
+              "zh": "朱莉·斯坦顿说，"
+            },
+            {
+              "a": 112,
+              "b": 202,
+              "en": "associate professor of agricultural economics at Pennsylvania State University Brandywine.",
+              "zh": "她是宾夕法尼亚州立大学布兰迪万校区的农业经济学副教授。"
+            }
+          ],
+          "reorder": "将句尾说话人和职务放到引语前；because 保留为原因。",
+          "translation": "宾夕法尼亚州立大学布兰迪万校区农业经济学副教授朱莉·斯坦顿说，再生农业产品可能不好卖，因为这个概念很难三言两语解释清楚。",
+          "words": [
+            {
+              "a": 0,
+              "b": 12,
+              "word": "Regenerative",
+              "lemma": "regenerative",
+              "meaning": "再生农业的；恢复土壤生态的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 161,
+              "b": 201,
+              "lemma": "Pennsylvania State University Brandywine",
+              "meaning": "宾夕法尼亚州立大学布兰迪万分校",
+              "word": "Pennsylvania State University Brandywine"
+            },
+            {
+              "a": 31,
+              "b": 42,
+              "word": "a hard sell",
+              "lemma": "a hard sell",
+              "meaning": "难以推销的东西；难以让人接受的主张"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T1-P5-S2",
           "a": 203,
           "b": 335,
           "en": "Such farming also brings minimal, if any, improvement to the food products (though some producers say their eggs have more protein).",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 25,
+              "en": "Such farming also brings ",
+              "zh": "这种耕作方式带来的改善，"
+            },
+            {
+              "a": 25,
+              "b": 54,
+              "en": "minimal, if any, improvement ",
+              "zh": "即便有也很有限，"
+            },
+            {
+              "a": 54,
+              "b": 75,
+              "en": "to the food products ",
+              "zh": "针对食品本身而言，"
+            },
+            {
+              "a": 75,
+              "b": 132,
+              "en": "(though some producers say their eggs have more protein).",
+              "zh": "（尽管有些生产商说他们的鸡蛋含有更多蛋白质）。"
+            }
+          ],
+          "reorder": "把 if any 译成让步的“即便有”；括号保留为补充，不把“有改善”说成确定事实。",
+          "translation": "这种耕作方式对食品本身即便有改善，也微乎其微（尽管有些生产商说他们的鸡蛋含有更多蛋白质）。",
+          "words": [
+            {
+              "a": 25,
+              "b": 32,
+              "word": "minimal",
+              "lemma": "minimal",
+              "meaning": "极少的；微乎其微的"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 34,
+              "b": 40,
+              "word": "if any",
+              "lemma": "if any",
+              "meaning": "即使有的话（暗示可能没有）"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -231,48 +1060,293 @@
           "a": 0,
           "b": 164,
           "en": "The industry is betting that the same consumers paying more for premium attributes such as free-range, non-GMO, and pasture-raised eggs will embrace sustainability.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 24,
+              "en": "The industry is betting ",
+              "zh": "该行业押注，"
+            },
+            {
+              "a": 24,
+              "b": 48,
+              "en": "that the same consumers ",
+              "zh": "同一批消费者，"
+            },
+            {
+              "a": 48,
+              "b": 136,
+              "en": "paying more for premium attributes such as free-range, non-GMO, and pasture-raised eggs ",
+              "zh": "即愿为散养、非转基因和牧场放养等优质特点多花钱的人，"
+            },
+            {
+              "a": 136,
+              "b": 164,
+              "en": "will embrace sustainability.",
+              "zh": "也会接受可持续性这一卖点。"
+            }
+          ],
+          "reorder": "paying more 修饰 consumers，先说明是哪批消费者，再接 will embrace。",
+          "translation": "该行业认为，那些愿意为散养、非转基因、牧场放养等优质特点多花钱购买鸡蛋的消费者，也会接受可持续性这一卖点。",
+          "words": [
+            {
+              "a": 16,
+              "b": 23,
+              "word": "betting",
+              "lemma": "bet",
+              "meaning": "认为……有前景；押注于",
+              "pos": "v"
+            },
+            {
+              "a": 64,
+              "b": 71,
+              "word": "premium",
+              "lemma": "premium",
+              "meaning": "高端的；价格较高的",
+              "pos": "n"
+            },
+            {
+              "a": 149,
+              "b": 163,
+              "word": "sustainability",
+              "lemma": "sustainability",
+              "meaning": "可持续性",
+              "pos": "n"
+            },
+            {
+              "a": 91,
+              "b": 101,
+              "word": "free-range",
+              "lemma": "free-range",
+              "meaning": "散养的"
+            },
+            {
+              "a": 103,
+              "b": 110,
+              "word": "non-GMO",
+              "lemma": "non-GMO",
+              "meaning": "非转基因的"
+            },
+            {
+              "a": 116,
+              "b": 130,
+              "word": "pasture-raised",
+              "lemma": "pasture-raised",
+              "meaning": "牧场放养的"
+            },
+            {
+              "a": 141,
+              "b": 148,
+              "word": "embrace",
+              "lemma": "embrace",
+              "meaning": "欣然接受；支持"
+            },
+            {
+              "a": 72,
+              "b": 82,
+              "word": "attributes",
+              "lemma": "attribute",
+              "meaning": "产品特点；属性"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T1-P6-S2",
           "a": 165,
           "b": 376,
           "en": "Surveys show that younger generations are more concerned about climate change, and some of the success of plant-based meat can be chalked up to shoppers wanting to signal their desire to protect the environment.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 13,
+              "en": "Surveys show ",
+              "zh": "调查显示，"
+            },
+            {
+              "a": 13,
+              "b": 79,
+              "en": "that younger generations are more concerned about climate change, ",
+              "zh": "年轻一代更关心气候变化，"
+            },
+            {
+              "a": 79,
+              "b": 141,
+              "en": "and some of the success of plant-based meat can be chalked up ",
+              "zh": "而植物肉的部分成功可以归因于，"
+            },
+            {
+              "a": 141,
+              "b": 153,
+              "en": "to shoppers ",
+              "zh": "购买者，"
+            },
+            {
+              "a": 153,
+              "b": 211,
+              "en": "wanting to signal their desire to protect the environment.",
+              "zh": "希望借此表明自己保护环境的意愿。"
+            }
+          ],
+          "reorder": "that 后先译年轻人的关注；将 wanting 的修饰放到 shoppers 前，再译 chalked up to 的归因关系。",
+          "translation": "调查显示，年轻一代更关心气候变化；植物肉的部分成功，也可以归因于购买者希望借消费表明自己保护环境的意愿。",
+          "words": [
+            {
+              "a": 106,
+              "b": 117,
+              "word": "plant-based",
+              "lemma": "plant-based",
+              "meaning": "植物性的；以植物为原料的",
+              "pos": "a"
+            },
+            {
+              "a": 164,
+              "b": 170,
+              "word": "signal",
+              "lemma": "signal",
+              "meaning": "表明；传递信号"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 130,
+              "b": 143,
+              "lemma": "chalk up to",
+              "meaning": "归因于",
+              "word": "chalked up to"
+            },
+            {
+              "a": 127,
+              "b": 143,
+              "word": "be chalked up to",
+              "lemma": "be chalked up to",
+              "meaning": "被归因于"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T1-P6-S3",
           "a": 377,
           "b": 474,
           "en": "Young adults “ really care about the planet,” says John Brunnquell, president of Egg Innovations.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 46,
+              "en": "Young adults “ really care about the planet,” ",
+              "zh": "年轻人“真的很在乎这个星球”，"
+            },
+            {
+              "a": 46,
+              "b": 68,
+              "en": "says John Brunnquell, ",
+              "zh": "约翰·布伦奎尔说，"
+            },
+            {
+              "a": 68,
+              "b": 97,
+              "en": "president of Egg Innovations.",
+              "zh": "他是Egg Innovations公司的总裁。"
+            }
+          ],
+          "reorder": "把句尾说话人及职务放到引语前。",
+          "translation": "Egg Innovations公司总裁约翰·布伦奎尔说，年轻人“真的很在乎这个星球”。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T1-P6-S4",
           "a": 475,
           "b": 582,
           "en": "“ They are absolutely altering the food chain beyond what I think even they understand what they're doing.”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 46,
+              "en": "“ They are absolutely altering the food chain ",
+              "zh": "“他们确实正在改变食品供应链，"
+            },
+            {
+              "a": 46,
+              "b": 66,
+              "en": "beyond what I think ",
+              "zh": "其程度甚至超过了我认为，"
+            },
+            {
+              "a": 66,
+              "b": 107,
+              "en": "even they understand what they're doing.”",
+              "zh": "他们自己对自身行为的理解。”"
+            }
+          ],
+          "reorder": "beyond 引出改变程度；I think 为插入判断，中文放进“在我看来”；不要把 food chain 译成动物捕食关系。",
+          "translation": "“他们确实正在改变食品供应链；在我看来，这种改变的程度甚至超出了他们自己的认识。”",
+          "words": [
+            {
+              "a": 40,
+              "b": 45,
+              "word": "chain",
+              "lemma": "chain",
+              "meaning": "产业链；食物生产供应链",
+              "pos": "n"
+            },
+            {
+              "a": 46,
+              "b": 52,
+              "word": "beyond",
+              "lemma": "beyond",
+              "meaning": "超出；超过",
+              "pos": "prep"
+            },
+            {
+              "a": 22,
+              "b": 30,
+              "word": "altering",
+              "lemma": "alter",
+              "meaning": "改变"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 35,
+              "b": 45,
+              "word": "food chain",
+              "lemma": "food chain",
+              "meaning": "食品供应链（本文指食品生产与消费链条）"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     }

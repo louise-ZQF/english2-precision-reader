@@ -6,10 +6,19 @@
   "text": 4,
   "articleKey": "s1-p0-t3",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "ec29894ce7298e626aeef6d95ade04e041c33dc784eea4f6d20d4ce61f1e6308",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2020年考研英语二真题.pdf",
+        "page": 10,
+        "sha256": "226bdb2bcac0604eda6f62a16062ce2dffe5bfeff86aae77be3eb0aa7d8d0ba5"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇核对本地原卷正文抽取，逐句审读英文与中文；保留原卷文字及标点，仅沿用空白规范。"
   },
   "paragraphs": [
     {
@@ -21,48 +30,187 @@
           "a": 0,
           "b": 223,
           "en": "Now that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born after 1995, give or take a year—the attention has been rising steadily in recent weeks.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 68,
+              "en": "Now that members of Generation Z are graduating college this spring—",
+              "zh": "随着Z世代成员今年春天即将大学毕业"
+            },
+            {
+              "a": 68,
+              "b": 168,
+              "en": "the most commonly-accepted definition says this generation was born after 1995, give or take a year—",
+              "zh": "按最普遍的定义，这一代出生于1995年之后，上下相差一年左右"
+            },
+            {
+              "a": 168,
+              "b": 223,
+              "en": "the attention has been rising steadily in recent weeks.",
+              "zh": "近几周，对他们的关注持续增加"
+            }
+          ],
+          "reorder": "把破折号中的定义作为补充说明移到主句后。",
+          "translation": "随着Z世代成员今年春天即将大学毕业，近几周人们对他们的关注持续增加；按最普遍的定义，Z世代是指大约1995年之后出生的人，界限前后可差一年左右。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 148,
+              "b": 160,
+              "lemma": "give or take",
+              "meaning": "上下相差；大约前后浮动",
+              "word": "give or take"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T4-P1-S2",
           "a": 224,
           "b": 336,
           "en": "Gen Zs are about to hit the streets looking for work in a labor market that's tighter than it's been in decades.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 53,
+              "en": "Gen Zs are about to hit the streets looking for work ",
+              "zh": "Z世代即将走出校门找工作"
+            },
+            {
+              "a": 53,
+              "b": 112,
+              "en": "in a labor market that's tighter than it's been in decades.",
+              "zh": "进入一个比几十年来任何时候都更缺人的劳动力市场"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "Z世代即将走出校门找工作，而劳动力市场正处于几十年来最紧缺人手的时期。",
+          "words": [
+            {
+              "a": 78,
+              "b": 85,
+              "lemma": "tight",
+              "meaning": "劳动力供应更紧张、雇主更难招人的",
+              "word": "tighter",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 20,
+              "b": 35,
+              "lemma": "hit the streets",
+              "meaning": "开始外出求职；进入求职市场",
+              "word": "hit the streets"
+            },
+            {
+              "a": 58,
+              "b": 70,
+              "lemma": "labor market",
+              "meaning": "劳动力市场",
+              "word": "labor market"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T4-P1-S3",
           "a": 337,
           "b": 538,
           "en": "And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, according to a survey conducted by the National Association of Colleges and Employers.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 37,
+              "en": "And employers are planning on hiring ",
+              "zh": "而雇主计划今年在美国招收的新毕业生"
+            },
+            {
+              "a": 37,
+              "b": 115,
+              "en": "about 17 percent more new graduates for jobs in the U.S. this year than last, ",
+              "zh": "比去年多约17%"
+            },
+            {
+              "a": 115,
+              "b": 201,
+              "en": "according to a survey conducted by the National Association of Colleges and Employers.",
+              "zh": "全国大学与雇主协会开展的一项调查显示"
+            }
+          ],
+          "reorder": "将 according to 所引调查来源提到句首。",
+          "translation": "全国大学与雇主协会的一项调查显示，今年雇主计划在美国招收的新毕业生比去年多约17%。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T4-P1-S4",
           "a": 539,
           "b": 672,
           "en": "Everybody wants to know how the people who will soon inhabit those empty office cubicles will differ from those who came before them.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 24,
+              "en": "Everybody wants to know ",
+              "zh": "人人都想知道"
+            },
+            {
+              "a": 24,
+              "b": 89,
+              "en": "how the people who will soon inhabit those empty office cubicles ",
+              "zh": "那些即将坐进空置办公隔间的新人"
+            },
+            {
+              "a": 89,
+              "b": 133,
+              "en": "will differ from those who came before them.",
+              "zh": "与前辈有什么不同"
+            }
+          ],
+          "reorder": "将 who will soon inhabit… 放到“新人”前，再译他们与前辈的差别。",
+          "translation": "人人都想知道，那些即将坐进空置办公隔间的新人，与前辈有什么不同。",
+          "words": [
+            {
+              "a": 80,
+              "b": 88,
+              "lemma": "cubicle",
+              "meaning": "办公隔间",
+              "word": "cubicles",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -75,84 +223,355 @@
           "a": 0,
           "b": 177,
           "en": "If “entitled” is the most common adjective, fairly or not, applied to millennials (those born between 1981 and 1995), the catchwords for Generation Z are practical and cautious.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 44,
+              "en": "If “entitled” is the most common adjective, ",
+              "zh": "如果说，“自认为理应受到优待”是最常被用于千禧一代的形容词"
+            },
+            {
+              "a": 44,
+              "b": 118,
+              "en": "fairly or not, applied to millennials (those born between 1981 and 1995), ",
+              "zh": "不论这种评价是否公允"
+            },
+            {
+              "a": 118,
+              "b": 177,
+              "en": "the catchwords for Generation Z are practical and cautious.",
+              "zh": "那么，Z世代的关键词就是务实和谨慎"
+            }
+          ],
+          "reorder": "将 fairly or not 提到评价前作限定；括号中的出生年份保留为补充说明。",
+          "translation": "如果说，无论是否公允，“自认为理应受到优待”是形容千禧一代（1981至1995年出生）最常用的词，那么形容Z世代的关键词就是务实和谨慎。",
+          "words": [
+            {
+              "a": 4,
+              "b": 12,
+              "lemma": "entitle",
+              "meaning": "自认为理应享有优待的",
+              "word": "entitled",
+              "pos": "v"
+            },
+            {
+              "a": 70,
+              "b": 81,
+              "lemma": "millennial",
+              "meaning": "千禧一代（本篇指1981—1995年间出生的人）",
+              "word": "millennials",
+              "pos": "n"
+            },
+            {
+              "a": 122,
+              "b": 132,
+              "lemma": "catchword",
+              "meaning": "概括性标签；常用关键词",
+              "word": "catchwords",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T4-P2-S2",
           "a": 178,
           "b": 292,
           "en": "According to the career counselors and experts who study them, Generation Zs are clear-eyed, economic pragmatists.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 63,
+              "en": "According to the career counselors and experts who study them, ",
+              "zh": "据研究他们的职业顾问和专家说"
+            },
+            {
+              "a": 63,
+              "b": 93,
+              "en": "Generation Zs are clear-eyed, ",
+              "zh": "Z世代头脑清醒"
+            },
+            {
+              "a": 93,
+              "b": 114,
+              "en": "economic pragmatists.",
+              "zh": "在经济问题上讲求实际"
+            }
+          ],
+          "reorder": "把 who study them 前置，说明这些顾问和专家研究的是Z世代。",
+          "translation": "据研究他们的职业顾问和专家说，Z世代头脑清醒，在经济问题上十分务实。",
+          "words": [
+            {
+              "a": 81,
+              "b": 91,
+              "lemma": "clear-eyed",
+              "meaning": "清醒务实的",
+              "word": "clear-eyed",
+              "pos": "a"
+            },
+            {
+              "a": 102,
+              "b": 113,
+              "lemma": "pragmatist",
+              "meaning": "务实主义者",
+              "word": "pragmatists",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T4-P2-S3",
           "a": 293,
           "b": 408,
           "en": "Despite graduating into the best economy in the past 50 years, Gen Zs know what an economic train wreck looks like.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 63,
+              "en": "Despite graduating into the best economy in the past 50 years, ",
+              "zh": "尽管毕业时正逢过去50年最好的经济形势"
+            },
+            {
+              "a": 63,
+              "b": 75,
+              "en": "Gen Zs know ",
+              "zh": "Z世代仍知道"
+            },
+            {
+              "a": 75,
+              "b": 115,
+              "en": "what an economic train wreck looks like.",
+              "zh": "经济崩溃是什么样子"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "尽管毕业时正逢过去50年最好的经济形势，Z世代仍知道经济崩溃是什么样子。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 83,
+              "b": 103,
+              "lemma": "economic train wreck",
+              "meaning": "严重的经济崩溃（比喻）",
+              "word": "economic train wreck"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T4-P2-S4",
           "a": 409,
           "b": 538,
           "en": "They were impressionable kids during the crash of 2008, when many of their parents lost their jobs or their life savings or both.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 56,
+              "en": "They were impressionable kids during the crash of 2008, ",
+              "zh": "2008年经济崩溃时，他们正处在容易受影响的童年"
+            },
+            {
+              "a": 56,
+              "b": 121,
+              "en": "when many of their parents lost their jobs or their life savings ",
+              "zh": "当时，他们许多人的父母失去了工作或毕生积蓄"
+            },
+            {
+              "a": 121,
+              "b": 129,
+              "en": "or both.",
+              "zh": "或者两者都失去了"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "2008年经济崩溃时，他们正处在容易受影响的童年，那时许多人的父母丢了工作、失去毕生积蓄，或者两者尽失。",
+          "words": [
+            {
+              "a": 10,
+              "b": 24,
+              "lemma": "impressionable",
+              "meaning": "容易受经历影响的",
+              "word": "impressionable",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 108,
+              "b": 120,
+              "lemma": "life savings",
+              "meaning": "毕生积蓄",
+              "word": "life savings"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T4-P2-S5",
           "a": 539,
           "b": 584,
           "en": "They aren't interested in taking any chances.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 26,
+              "en": "They aren't interested in ",
+              "zh": "他们不愿意"
+            },
+            {
+              "a": 26,
+              "b": 45,
+              "en": "taking any chances.",
+              "zh": "冒任何风险"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "他们不愿意冒任何风险。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T4-P2-S6",
           "a": 585,
           "b": 740,
           "en": "The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency, especially for those who have college debt.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 46,
+              "en": "The booming economy seems to have done little ",
+              "zh": "经济繁荣似乎并没有多大作用"
+            },
+            {
+              "a": 46,
+              "b": 112,
+              "en": "to assuage this underlying generational sense of anxious urgency, ",
+              "zh": "去缓解这一代人内心深处焦虑而急迫的感觉"
+            },
+            {
+              "a": 112,
+              "b": 155,
+              "en": "especially for those who have college debt.",
+              "zh": "对背负大学贷款的人尤其如此"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "经济繁荣似乎并未怎么缓解这一代人内心深处的焦虑和紧迫感，对背负大学贷款的人尤其如此。",
+          "words": [
+            {
+              "a": 4,
+              "b": 11,
+              "lemma": "booming",
+              "meaning": "迅速增长、繁荣的",
+              "word": "booming",
+              "pos": "a"
+            },
+            {
+              "a": 49,
+              "b": 56,
+              "lemma": "assuage",
+              "meaning": "缓解；减轻",
+              "word": "assuage",
+              "pos": "v"
+            },
+            {
+              "a": 62,
+              "b": 72,
+              "lemma": "underlie",
+              "meaning": "深层的；潜在的",
+              "word": "underlying",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T4-P2-S7",
           "a": 741,
           "b": 845,
           "en": "College loan balances in the U.S. now stand at a record $1.5 trillion, according to the Federal Reserve.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 71,
+              "en": "College loan balances in the U.S. now stand at a record $1.5 trillion, ",
+              "zh": "美国大学贷款未偿余额如今达到创纪录的1.5万亿美元"
+            },
+            {
+              "a": 71,
+              "b": 104,
+              "en": "according to the Federal Reserve.",
+              "zh": "美联储数据显示"
+            }
+          ],
+          "reorder": "将 according to 所引的数据来源提到句首。",
+          "translation": "美联储数据显示，美国大学贷款未偿余额如今达到创纪录的1.5万亿美元。",
+          "words": [
+            {
+              "a": 13,
+              "b": 21,
+              "lemma": "balance",
+              "meaning": "未偿还的贷款余额",
+              "word": "balances",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -165,36 +584,169 @@
           "a": 0,
           "b": 117,
           "en": "One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 32,
+              "en": "One survey from Accenture found ",
+              "zh": "埃森哲的一项调查发现"
+            },
+            {
+              "a": 32,
+              "b": 80,
+              "en": "that 88 percent of graduating seniors this year ",
+              "zh": "今年毕业的大学四年级学生中，88%"
+            },
+            {
+              "a": 80,
+              "b": 117,
+              "en": "chose their major with a job in mind.",
+              "zh": "选择专业时考虑了今后找工作"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "埃森哲的一项调查发现，今年毕业的大学四年级学生中，88%选择专业时考虑了今后找工作。",
+          "words": [
+            {
+              "a": 62,
+              "b": 69,
+              "lemma": "senior",
+              "meaning": "毕业班学生",
+              "word": "seniors",
+              "pos": "n"
+            },
+            {
+              "a": 92,
+              "b": 97,
+              "lemma": "major",
+              "meaning": "大学专业",
+              "word": "major",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T4-P3-S2",
           "a": 118,
           "b": 374,
           "en": "In a 2019 survey of University of Georgia students, meanwhile, the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development and training, and then inspiring purpose).",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 63,
+              "en": "In a 2019 survey of University of Georgia students, meanwhile, ",
+              "zh": "与此同时，在2019年对佐治亚大学学生的调查中"
+            },
+            {
+              "a": 63,
+              "b": 133,
+              "en": "the career office found the most desirable trait in a future employer ",
+              "zh": "就业办公室发现，学生最希望未来雇主具备的特点"
+            },
+            {
+              "a": 133,
+              "b": 177,
+              "en": "was the ability to offer secure employment (",
+              "zh": "是能够提供稳定工作"
+            },
+            {
+              "a": 177,
+              "b": 256,
+              "en": "followed by professional development and training, and then inspiring purpose).",
+              "zh": "其次是职业发展与培训机会，然后是能激励人的事业目标"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "与此同时，佐治亚大学就业办公室在2019年对本校学生的调查中发现，学生最希望未来雇主能提供稳定的工作，其次是职业发展与培训机会，再次是能激励人的事业目标。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 158,
+              "b": 175,
+              "lemma": "secure employment",
+              "meaning": "稳定有保障的工作",
+              "word": "secure employment"
+            },
+            {
+              "a": 237,
+              "b": 254,
+              "lemma": "inspiring purpose",
+              "meaning": "能激发动力的工作意义或目标",
+              "word": "inspiring purpose"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T4-P3-S3",
           "a": 375,
           "b": 575,
           "en": "Job security or stability was the second most important career goal(work-life balance was number one), followed by a sense of being dedicated to a cause or to feel good about serving the greater good.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 68,
+              "en": "Job security or stability was the second most important career goal(",
+              "zh": "工作保障或稳定性是第二重要的职业目标"
+            },
+            {
+              "a": 68,
+              "b": 103,
+              "en": "work-life balance was number one), ",
+              "zh": "排在第一的是工作与生活的平衡"
+            },
+            {
+              "a": 103,
+              "b": 200,
+              "en": "followed by a sense of being dedicated to a cause or to feel good about serving the greater good.",
+              "zh": "再往后是投身某项事业的使命感，或为更广泛的公共利益服务的满足感"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "工作保障或稳定性是第二重要的职业目标，第一是工作与生活的平衡；其后则是投身某项事业的使命感，或为公共利益服务的满足感。",
+          "words": [
+            {
+              "a": 147,
+              "b": 152,
+              "lemma": "cause",
+              "meaning": "事业；值得投入的共同目标",
+              "word": "cause",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 175,
+              "b": 199,
+              "lemma": "serving the greater good",
+              "meaning": "服务公共利益；为更广泛的群体作贡献",
+              "word": "serving the greater good"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -207,48 +759,182 @@
           "a": 0,
           "b": 49,
           "en": "That's a big change from the previous generation.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 7,
+              "en": "That's ",
+              "zh": "这与上一代相比"
+            },
+            {
+              "a": 7,
+              "b": 49,
+              "en": "a big change from the previous generation.",
+              "zh": "是个很大的变化"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "这与上一代相比是个很大的变化。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T4-P4-S2",
           "a": 50,
           "b": 301,
           "en": "“Millennials wanted more flexibility in their lives,” notes Tanya Michelsen, Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 54,
+              "en": "“Millennials wanted more flexibility in their lives,” ",
+              "zh": "“千禧一代希望自己的生活有更大的灵活性，”"
+            },
+            {
+              "a": 54,
+              "b": 111,
+              "en": "notes Tanya Michelsen, Associate Director of YouthSight, ",
+              "zh": "坦娅·米歇尔森指出，她是YouthSight的副总监"
+            },
+            {
+              "a": 111,
+              "b": 191,
+              "en": "a UK-based brand manager that conducts regular 60-day surveys of British youth, ",
+              "zh": "这家英国品牌管理机构定期对英国年轻人开展以60天为周期的调查"
+            },
+            {
+              "a": 191,
+              "b": 251,
+              "en": "in findings that might just as well apply to American youth.",
+              "zh": "这些发现可能同样适用于美国年轻人"
+            }
+          ],
+          "reorder": "先介绍机构和说话人，再放引语；将最后对研究适用性的说明单独接在后面。",
+          "translation": "英国品牌管理机构YouthSight定期对英国年轻人开展以60天为周期的调查，其副总监坦娅·米歇尔森指出：“千禧一代希望自己的生活有更大的灵活性。”这些发现可能同样适用于美国年轻人。",
+          "words": [
+            {
+              "a": 1,
+              "b": 12,
+              "lemma": "millennial",
+              "meaning": "千禧一代（本篇指1981—1995年间出生的人）",
+              "word": "Millennials",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T4-P4-S3",
           "a": 302,
           "b": 402,
           "en": "“Generation Zs are looking for more certainty and stability, because of the rise of the gig economy.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 61,
+              "en": "“Generation Zs are looking for more certainty and stability, ",
+              "zh": "“Z世代希望有更多确定性和稳定性"
+            },
+            {
+              "a": 61,
+              "b": 100,
+              "en": "because of the rise of the gig economy.",
+              "zh": "因为零工经济正在兴起"
+            }
+          ],
+          "reorder": "将 because of 的原因提到句首。",
+          "translation": "“由于零工经济兴起，Z世代希望有更多确定性和稳定性。",
+          "words": [
+            {
+              "a": 36,
+              "b": 45,
+              "lemma": "certainty",
+              "meaning": "确定性；可预期性",
+              "word": "certainty",
+              "pos": "n"
+            },
+            {
+              "a": 50,
+              "b": 59,
+              "lemma": "stability",
+              "meaning": "稳定性",
+              "word": "stability",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 88,
+              "b": 99,
+              "lemma": "gig economy",
+              "meaning": "零工经济；以短期灵活工作为主的就业形式",
+              "word": "gig economy"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T4-P4-S4",
           "a": 403,
           "b": 480,
           "en": "They have troubles seeing a financial future and they are quite risk averse.”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 45,
+              "en": "They have troubles seeing a financial future ",
+              "zh": "他们难以看清自己的财务前景"
+            },
+            {
+              "a": 45,
+              "b": 77,
+              "en": "and they are quite risk averse.”",
+              "zh": "而且非常不愿意冒风险。”"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "他们难以看清自己的财务前景，而且非常不愿意冒风险。”",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 64,
+              "b": 75,
+              "lemma": "risk averse",
+              "meaning": "倾向于规避风险的",
+              "word": "risk averse"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     }

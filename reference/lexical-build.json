@@ -3,9 +3,9 @@
   "writtenForms": 27311,
   "entriesWithMeanings": 18942,
   "reviewedArticles": 119,
-  "reviewedSentences": 2254,
-  "correctedWords": 4155,
-  "reviewedPhrases": 1138,
+  "reviewedSentences": 2209,
+  "correctedWords": 4052,
+  "reviewedPhrases": 1101,
   "ecdictSHA256": "d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc",
-  "reviewRevision": "68c6a4cc5de7"
+  "reviewRevision": "afb39819cb72"
 }

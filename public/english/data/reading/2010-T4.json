@@ -6,10 +6,19 @@
   "text": 4,
   "articleKey": "s1-p0-t3",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "de6e31ef974bd43e728f58fdd64442001b6e3fc2507fbf145e419cadb7767350",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2010年考研英语二真题.pdf",
+        "page": 10,
+        "sha256": "762ba542926d2f09196d279faf33c497aef2da009fec54ce452bfb6196fb25cd"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇对照本地原卷提取正文，核查字形及标点差异；逐句核对句块、语序和译文。"
   },
   "paragraphs": [
     {
@@ -21,36 +30,375 @@
           "a": 0,
           "b": 597,
           "en": "Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 93,
+              "en": "Many Americans regard the jury system as a concrete expression of crucial democratic values, ",
+              "zh": "许多美国人把陪审团制度视为重要民主价值观的具体体现"
+            },
+            {
+              "a": 93,
+              "b": 118,
+              "en": "including the principles ",
+              "zh": "包括以下原则"
+            },
+            {
+              "a": 118,
+              "b": 136,
+              "en": "that all citizens ",
+              "zh": "所有公民"
+            },
+            {
+              "a": 136,
+              "b": 188,
+              "en": "who meet minimal qualifications of age and literacy ",
+              "zh": "只要达到年龄和读写能力的最低要求"
+            },
+            {
+              "a": 188,
+              "b": 230,
+              "en": "are equally competent to serve on juries; ",
+              "zh": "就同样有能力担任陪审员"
+            },
+            {
+              "a": 230,
+              "b": 324,
+              "en": "that jurors should be selected randomly from a representative cross section of the community; ",
+              "zh": "陪审员应从社区有代表性的各群体中随机选出"
+            },
+            {
+              "a": 324,
+              "b": 386,
+              "en": "that no citizen should be denied the right to serve on a jury ",
+              "zh": "不应剥夺任何公民担任陪审员的权利"
+            },
+            {
+              "a": 386,
+              "b": 441,
+              "en": "on account of race, religion, sex, or national origin; ",
+              "zh": "不能因为种族、宗教、性别或原籍而剥夺"
+            },
+            {
+              "a": 441,
+              "b": 495,
+              "en": "that defendants are entitled to trial by their peers; ",
+              "zh": "被告有权接受同等身份者的审判"
+            },
+            {
+              "a": 495,
+              "b": 562,
+              "en": "and that verdicts should represent the conscience of the community ",
+              "zh": "裁决应体现社区的良知"
+            },
+            {
+              "a": 562,
+              "b": 597,
+              "en": "and not just the letter of the law.",
+              "zh": "而不只是法律的字面条文"
+            }
+          ],
+          "reorder": "按五个 that 原则分开译；who 的资格条件放在“公民”后，on account 原因放到“剥夺权利”前。",
+          "translation": "许多美国人把陪审团制度视为重要民主价值观的具体体现，其中的原则包括：凡达到年龄和读写能力最低要求的公民，都同样有能力担任陪审员；陪审员应从社区中有代表性的各个群体随机选出；不得因种族、宗教、性别或原籍剥夺任何公民担任陪审员的权利；被告有权接受同等身份者的审判；裁决应体现社区的良知，而不只是法律条文的字面含义。",
+          "words": [
+            {
+              "a": 43,
+              "b": 51,
+              "word": "concrete",
+              "lemma": "concrete",
+              "meaning": "具体的；有形体现的",
+              "pos": "a"
+            },
+            {
+              "a": 52,
+              "b": 62,
+              "word": "expression",
+              "lemma": "expression",
+              "meaning": "体现；表现形式",
+              "pos": "n"
+            },
+            {
+              "a": 85,
+              "b": 91,
+              "word": "values",
+              "lemma": "value",
+              "meaning": "价值观；原则",
+              "pos": "n"
+            },
+            {
+              "a": 179,
+              "b": 187,
+              "word": "literacy",
+              "lemma": "literacy",
+              "meaning": "读写能力",
+              "pos": "n"
+            },
+            {
+              "a": 200,
+              "b": 209,
+              "word": "competent",
+              "lemma": "competent",
+              "meaning": "有能力的；胜任的",
+              "pos": "a"
+            },
+            {
+              "a": 277,
+              "b": 291,
+              "word": "representative",
+              "lemma": "representative",
+              "meaning": "有代表性的",
+              "pos": "a"
+            },
+            {
+              "a": 350,
+              "b": 356,
+              "word": "denied",
+              "lemma": "deny",
+              "meaning": "剥夺；拒绝给予",
+              "pos": "v"
+            },
+            {
+              "a": 446,
+              "b": 456,
+              "word": "defendants",
+              "lemma": "defendant",
+              "meaning": "被告",
+              "pos": "n"
+            },
+            {
+              "a": 461,
+              "b": 469,
+              "word": "entitled",
+              "lemma": "entitle",
+              "meaning": "给予……权利",
+              "pos": "v"
+            },
+            {
+              "a": 473,
+              "b": 478,
+              "word": "trial",
+              "lemma": "trial",
+              "meaning": "审判",
+              "pos": "n"
+            },
+            {
+              "a": 488,
+              "b": 493,
+              "word": "peers",
+              "lemma": "peer",
+              "meaning": "同等身份的普通公民；同侪",
+              "pos": "n"
+            },
+            {
+              "a": 504,
+              "b": 512,
+              "word": "verdicts",
+              "lemma": "verdict",
+              "meaning": "裁决",
+              "pos": "n"
+            },
+            {
+              "a": 534,
+              "b": 544,
+              "word": "conscience",
+              "lemma": "conscience",
+              "meaning": "良知；是非判断",
+              "pos": "n"
+            },
+            {
+              "a": 579,
+              "b": 585,
+              "word": "letter",
+              "lemma": "letter",
+              "meaning": "条文的字面含义",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 213,
+              "b": 228,
+              "lemma": "serve on juries",
+              "meaning": "担任陪审员",
+              "word": "serve on juries"
+            },
+            {
+              "a": 292,
+              "b": 305,
+              "lemma": "cross section",
+              "meaning": "具有代表性的各个群体",
+              "word": "cross section"
+            },
+            {
+              "a": 386,
+              "b": 399,
+              "lemma": "on account of",
+              "meaning": "由于；因为",
+              "word": "on account of"
+            },
+            {
+              "a": 457,
+              "b": 472,
+              "lemma": "are entitled to",
+              "meaning": "依法享有……的权利",
+              "word": "are entitled to"
+            },
+            {
+              "a": 575,
+              "b": 596,
+              "lemma": "the letter of the law",
+              "meaning": "法律条文的字面含义",
+              "word": "the letter of the law"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2010-T4-P1-S2",
           "a": 598,
           "b": 700,
           "en": "The jury is also said to be the best surviving example of direct rather than representative democracy.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 55,
+              "en": "The jury is also said to be the best surviving example ",
+              "zh": "陪审团也被认为是现存的最佳范例"
+            },
+            {
+              "a": 55,
+              "b": 65,
+              "en": "of direct ",
+              "zh": "体现直接民主"
+            },
+            {
+              "a": 65,
+              "b": 102,
+              "en": "rather than representative democracy.",
+              "zh": "而非代议制民主"
+            }
+          ],
+          "reorder": "把 of 后的民主类型放到“范例”前。",
+          "translation": "陪审团也被认为是现存直接民主、而非代议制民主的最佳范例。",
+          "words": [
+            {
+              "a": 37,
+              "b": 46,
+              "word": "surviving",
+              "lemma": "survive",
+              "meaning": "留存下来的",
+              "pos": "v"
+            },
+            {
+              "a": 58,
+              "b": 64,
+              "word": "direct",
+              "lemma": "direct",
+              "meaning": "直接的",
+              "pos": "a"
+            },
+            {
+              "a": 77,
+              "b": 91,
+              "word": "representative",
+              "lemma": "representative",
+              "meaning": "代议制的"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 77,
+              "b": 101,
+              "lemma": "representative democracy",
+              "meaning": "代议制民主",
+              "word": "representative democracy"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2010-T4-P1-S3",
           "a": 701,
           "b": 822,
           "en": "In a direct democracy, citizens take turns governing themselves, rather than electing representatives to govern for them.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 23,
+              "en": "In a direct democracy, ",
+              "zh": "在直接民主制度中"
+            },
+            {
+              "a": 23,
+              "b": 65,
+              "en": "citizens take turns governing themselves, ",
+              "zh": "公民轮流治理自己的公共事务"
+            },
+            {
+              "a": 65,
+              "b": 121,
+              "en": "rather than electing representatives to govern for them.",
+              "zh": "而不是选举代表代为治理"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "在直接民主制度中，公民轮流治理自己的公共事务，而不是选举代表代为治理。",
+          "words": [
+            {
+              "a": 5,
+              "b": 11,
+              "word": "direct",
+              "lemma": "direct",
+              "meaning": "直接的",
+              "pos": "a"
+            },
+            {
+              "a": 43,
+              "b": 52,
+              "word": "governing",
+              "lemma": "govern",
+              "meaning": "治理；管理公共事务",
+              "pos": "v"
+            },
+            {
+              "a": 105,
+              "b": 111,
+              "word": "govern",
+              "lemma": "govern",
+              "meaning": "治理；管理公共事务",
+              "pos": "v"
+            },
+            {
+              "a": 86,
+              "b": 101,
+              "word": "representatives",
+              "lemma": "representative",
+              "meaning": "代表"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -63,36 +411,205 @@
           "a": 0,
           "b": 94,
           "en": "But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 28,
+              "en": "But as recently as in 1968, ",
+              "zh": "但直到1968年这么近的时候"
+            },
+            {
+              "a": 28,
+              "b": 94,
+              "en": "jury selection procedures conflicted with these democratic ideals.",
+              "zh": "陪审员选拔程序还与这些民主理想相冲突"
+            }
+          ],
+          "reorder": "无需调整语序，as recently as 强调时间之近。",
+          "translation": "但直到1968年，陪审员选拔程序还与这些民主理想相冲突。",
+          "words": [
+            {
+              "a": 43,
+              "b": 53,
+              "word": "procedures",
+              "lemma": "procedure",
+              "meaning": "程序；选拔办法",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2010-T4-P2-S2",
           "a": 95,
           "b": 225,
           "en": "In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 29,
+              "en": "In some states, for example, ",
+              "zh": "例如，在一些州"
+            },
+            {
+              "a": 29,
+              "b": 62,
+              "en": "jury duty was limited to persons ",
+              "zh": "担任陪审员仅限于某些人"
+            },
+            {
+              "a": 62,
+              "b": 130,
+              "en": "of supposedly superior intelligence, education, and moral character.",
+              "zh": "即那些被认为智力、教育程度和道德品行高人一等的人"
+            }
+          ],
+          "reorder": "把 of 修饰语放到“人”前，supposedly 保留作者质疑。",
+          "translation": "例如，在一些州，只有那些据称智力、教育程度和道德品行高人一等的人才可以担任陪审员。",
+          "words": [
+            {
+              "a": 8,
+              "b": 14,
+              "word": "states",
+              "lemma": "state",
+              "meaning": "州；州级的",
+              "pos": "n"
+            },
+            {
+              "a": 65,
+              "b": 75,
+              "word": "supposedly",
+              "lemma": "supposedly",
+              "meaning": "据称；所谓地",
+              "pos": "adv"
+            },
+            {
+              "a": 76,
+              "b": 84,
+              "word": "superior",
+              "lemma": "superior",
+              "meaning": "优于一般人的；优越的",
+              "pos": "a"
+            },
+            {
+              "a": 120,
+              "b": 129,
+              "word": "character",
+              "lemma": "character",
+              "meaning": "品行；道德品质",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2010-T4-P2-S3",
           "a": 226,
           "b": 533,
           "en": "Although the Supreme Court of the United States had prohibited intentional racial discrimination in jury selection as early as the 1880 case of Strauder v. West Virginia, the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 115,
+              "en": "Although the Supreme Court of the United States had prohibited intentional racial discrimination in jury selection ",
+              "zh": "尽管美国最高法院已经禁止在陪审员选拔中实施蓄意种族歧视"
+            },
+            {
+              "a": 115,
+              "b": 171,
+              "en": "as early as the 1880 case of Strauder v. West Virginia, ",
+              "zh": "时间早至1880年的斯特劳德诉西弗吉尼亚州案"
+            },
+            {
+              "a": 171,
+              "b": 235,
+              "en": "the practice of selecting so-called elite or blue-ribbon juries ",
+              "zh": "挑选所谓精英或蓝带陪审团的做法"
+            },
+            {
+              "a": 235,
+              "b": 307,
+              "en": "provided a convenient way around this and other antidiscrimination laws.",
+              "zh": "仍提供了规避这项及其他反歧视法律的便利途径"
+            }
+          ],
+          "reorder": "把 as early 时间放在禁止之前；主句的 selecting 修饰语放到“做法”前。",
+          "translation": "尽管美国最高法院早在1880年斯特劳德诉西弗吉尼亚州案中，就已禁止在陪审员选拔中实施蓄意种族歧视，但挑选所谓精英或蓝带陪审团的做法，仍为规避这项及其他反歧视法律提供了便利途径。",
+          "words": [
+            {
+              "a": 63,
+              "b": 74,
+              "word": "intentional",
+              "lemma": "intentional",
+              "meaning": "故意的；有意的",
+              "pos": "a"
+            },
+            {
+              "a": 175,
+              "b": 183,
+              "word": "practice",
+              "lemma": "practice",
+              "meaning": "做法；惯例",
+              "pos": "n"
+            },
+            {
+              "a": 197,
+              "b": 206,
+              "word": "so-called",
+              "lemma": "so-called",
+              "meaning": "所谓的",
+              "pos": "a"
+            },
+            {
+              "a": 207,
+              "b": 212,
+              "word": "elite",
+              "lemma": "elite",
+              "meaning": "精英；所谓优秀者",
+              "pos": "a"
+            },
+            {
+              "a": 216,
+              "b": 227,
+              "word": "blue-ribbon",
+              "lemma": "blue-ribbon",
+              "meaning": "所谓精英组成的；精挑细选的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 216,
+              "b": 234,
+              "lemma": "blue-ribbon juries",
+              "meaning": "精英陪审团",
+              "word": "blue-ribbon juries"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -105,48 +622,230 @@
           "a": 0,
           "b": 87,
           "en": "The system also failed to regularly include women on juries until the mid-20th century.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 60,
+              "en": "The system also failed to regularly include women on juries ",
+              "zh": "这套制度也一直未能常规地吸收女性进入陪审团"
+            },
+            {
+              "a": 60,
+              "b": 87,
+              "en": "until the mid-20th century.",
+              "zh": "直到20世纪中叶"
+            }
+          ],
+          "reorder": "把 until 放到句首，failed…until 可转成“直到……才”。",
+          "translation": "这套制度直到20世纪中叶才开始常规地吸收女性进入陪审团。",
+          "words": [
+            {
+              "a": 26,
+              "b": 35,
+              "word": "regularly",
+              "lemma": "regularly",
+              "meaning": "常规地；一贯地",
+              "pos": "adv"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2010-T4-P3-S2",
           "a": 88,
           "b": 236,
           "en": "Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 61,
+              "en": "Although women first served on state juries in Utah in 1898, ",
+              "zh": "尽管女性1898年就在犹他州首次担任州陪审员"
+            },
+            {
+              "a": 61,
+              "b": 88,
+              "en": "it was not until the 1940s ",
+              "zh": "但直到20世纪40年代"
+            },
+            {
+              "a": 88,
+              "b": 148,
+              "en": "that a majority of states made women eligible for jury duty.",
+              "zh": "大多数州才赋予女性担任陪审员的资格"
+            }
+          ],
+          "reorder": "保留“虽然……但直到……才”的先后对比。",
+          "translation": "尽管女性早在1898年就在犹他州首次担任州陪审员，但直到20世纪40年代，大多数州才赋予女性担任陪审员的资格。",
+          "words": [
+            {
+              "a": 31,
+              "b": 36,
+              "word": "state",
+              "lemma": "state",
+              "meaning": "州；州级的",
+              "pos": "n"
+            },
+            {
+              "a": 107,
+              "b": 113,
+              "word": "states",
+              "lemma": "state",
+              "meaning": "州；州级的",
+              "pos": "n"
+            },
+            {
+              "a": 125,
+              "b": 133,
+              "word": "eligible",
+              "lemma": "eligible",
+              "meaning": "有资格的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2010-T4-P3-S3",
           "a": 237,
           "b": 381,
           "en": "Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 69,
+              "en": "Even then several states automatically exempted women from jury duty ",
+              "zh": "即使到了那时，一些州仍自动免除女性的陪审义务"
+            },
+            {
+              "a": 69,
+              "b": 144,
+              "en": "unless they personally asked to have their names included on the jury list.",
+              "zh": "除非她们亲自要求把姓名列入陪审员名单"
+            }
+          ],
+          "reorder": "无需调整语序，unless 保留例外条件。",
+          "translation": "即使到了那时，一些州仍自动免除女性的陪审义务，除非她们亲自要求把姓名列入陪审员名单。",
+          "words": [
+            {
+              "a": 18,
+              "b": 24,
+              "word": "states",
+              "lemma": "state",
+              "meaning": "州；州级的",
+              "pos": "n"
+            },
+            {
+              "a": 39,
+              "b": 47,
+              "word": "exempted",
+              "lemma": "exempt",
+              "meaning": "免除（义务）",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2010-T4-P3-S4",
           "a": 382,
           "b": 518,
           "en": "This practice was justified by the claim that women were needed at home, and it kept juries unrepresentative of women through the 1960s.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 28,
+              "en": "This practice was justified ",
+              "zh": "这种做法被辩称是合理的"
+            },
+            {
+              "a": 28,
+              "b": 73,
+              "en": "by the claim that women were needed at home, ",
+              "zh": "理由是家庭需要女性留在家中"
+            },
+            {
+              "a": 73,
+              "b": 118,
+              "en": "and it kept juries unrepresentative of women ",
+              "zh": "而它使陪审团缺乏女性代表"
+            },
+            {
+              "a": 118,
+              "b": 136,
+              "en": "through the 1960s.",
+              "zh": "这种情况贯穿整个20世纪60年代"
+            }
+          ],
+          "reorder": "把 by 后的理由提前与“辩称”结合，through 表示持续整个年代。",
+          "translation": "人们以家庭需要女性留在家中为由，声称这种做法合理，它使陪审团缺乏女性代表的状况持续了整个20世纪60年代。",
+          "words": [
+            {
+              "a": 5,
+              "b": 13,
+              "word": "practice",
+              "lemma": "practice",
+              "meaning": "做法；惯例",
+              "pos": "n"
+            },
+            {
+              "a": 18,
+              "b": 27,
+              "word": "justified",
+              "lemma": "justify",
+              "meaning": "为……辩护；证明正当",
+              "pos": "v"
+            },
+            {
+              "a": 35,
+              "b": 40,
+              "word": "claim",
+              "lemma": "claim",
+              "meaning": "说法；主张",
+              "pos": "n"
+            },
+            {
+              "a": 92,
+              "b": 108,
+              "word": "unrepresentative",
+              "lemma": "unrepresentative",
+              "meaning": "缺乏代表性的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -159,48 +858,311 @@
           "a": 0,
           "b": 143,
           "en": "In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 86,
+              "en": "In 1968, the Congress of the United States passed the Jury Selection and Service Act, ",
+              "zh": "1968年，美国国会通过《陪审员选拔与服务法》"
+            },
+            {
+              "a": 86,
+              "b": 143,
+              "en": "ushering in a new era of democratic reforms for the jury.",
+              "zh": "开启了陪审团民主改革的新时代"
+            }
+          ],
+          "reorder": "无需调整语序，ushering 说明该立法的结果。",
+          "translation": "1968年，美国国会通过《陪审员选拔与服务法》，开启了陪审团民主改革的新时代。",
+          "words": [
+            {
+              "a": 43,
+              "b": 49,
+              "word": "passed",
+              "lemma": "pass",
+              "meaning": "通过（法律）",
+              "pos": "v"
+            },
+            {
+              "a": 81,
+              "b": 84,
+              "word": "Act",
+              "lemma": "act",
+              "meaning": "法案；法律",
+              "pos": "n"
+            },
+            {
+              "a": 86,
+              "b": 94,
+              "word": "ushering",
+              "lemma": "usher",
+              "meaning": "开启；引入（usher in）",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 86,
+              "b": 97,
+              "lemma": "ushering in",
+              "meaning": "开创；开启",
+              "word": "ushering in"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2010-T4-P4-S2",
           "a": 144,
           "b": 303,
           "en": "This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 71,
+              "en": "This law abolished special educational requirements for federal jurors ",
+              "zh": "这部法律取消了对联邦陪审员的特殊教育要求"
+            },
+            {
+              "a": 71,
+              "b": 89,
+              "en": "and required them ",
+              "zh": "并规定他们"
+            },
+            {
+              "a": 89,
+              "b": 114,
+              "en": "to be selected at random ",
+              "zh": "必须随机选出"
+            },
+            {
+              "a": 114,
+              "b": 159,
+              "en": "from a cross section of the entire community.",
+              "zh": "从整个社区中有代表性的各个群体之中"
+            }
+          ],
+          "reorder": "把 from 来源放在“随机选出”前，并将被动语态改为主动规定。",
+          "translation": "这部法律取消了对联邦陪审员的特殊教育要求，并规定必须从整个社区中有代表性的各个群体随机选拔联邦陪审员。",
+          "words": [
+            {
+              "a": 9,
+              "b": 18,
+              "word": "abolished",
+              "lemma": "abolish",
+              "meaning": "废除",
+              "pos": "v"
+            },
+            {
+              "a": 56,
+              "b": 63,
+              "word": "federal",
+              "lemma": "federal",
+              "meaning": "联邦的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 104,
+              "b": 113,
+              "lemma": "at random",
+              "meaning": "随机地",
+              "word": "at random"
+            },
+            {
+              "a": 121,
+              "b": 134,
+              "lemma": "cross section",
+              "meaning": "具有代表性的各个群体",
+              "word": "cross section"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2010-T4-P4-S3",
           "a": 304,
           "b": 477,
           "en": "In the landmark 1975 decision Taylor v. Louisiana, the Supreme Court extended the requirement that juries be representative of all parts of the community to the state level.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 51,
+              "en": "In the landmark 1975 decision Taylor v. Louisiana, ",
+              "zh": "在1975年具有里程碑意义的泰勒诉路易斯安那州案判决中"
+            },
+            {
+              "a": 51,
+              "b": 94,
+              "en": "the Supreme Court extended the requirement ",
+              "zh": "最高法院扩大了这一要求的适用范围"
+            },
+            {
+              "a": 94,
+              "b": 154,
+              "en": "that juries be representative of all parts of the community ",
+              "zh": "即陪审团应代表社区各个群体"
+            },
+            {
+              "a": 154,
+              "b": 173,
+              "en": "to the state level.",
+              "zh": "扩大到州一级"
+            }
+          ],
+          "reorder": "把 that 内容并入“要求”，to the state level 接到“扩大适用范围”后。",
+          "translation": "在1975年具有里程碑意义的泰勒诉路易斯安那州案判决中，最高法院将陪审团应代表社区各个群体的要求，扩大适用到州一级。",
+          "words": [
+            {
+              "a": 7,
+              "b": 15,
+              "word": "landmark",
+              "lemma": "landmark",
+              "meaning": "具有里程碑意义的",
+              "pos": "a"
+            },
+            {
+              "a": 21,
+              "b": 29,
+              "word": "decision",
+              "lemma": "decision",
+              "meaning": "法院判决",
+              "pos": "n"
+            },
+            {
+              "a": 69,
+              "b": 77,
+              "word": "extended",
+              "lemma": "extend",
+              "meaning": "扩大适用范围；扩展",
+              "pos": "v"
+            },
+            {
+              "a": 109,
+              "b": 123,
+              "word": "representative",
+              "lemma": "representative",
+              "meaning": "有代表性的",
+              "pos": "a"
+            },
+            {
+              "a": 161,
+              "b": 166,
+              "word": "state",
+              "lemma": "state",
+              "meaning": "州；州级的",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 161,
+              "b": 172,
+              "lemma": "state level",
+              "meaning": "州一级",
+              "word": "state level"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2010-T4-P4-S4",
           "a": 478,
           "b": 655,
           "en": "The Taylor decision also declared sex discrimination in jury selection to be unconstitutional and ordered states to use the same procedures for selecting male and female jurors.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 71,
+              "en": "The Taylor decision also declared sex discrimination in jury selection ",
+              "zh": "泰勒案判决还宣布，陪审员选拔中的性别歧视"
+            },
+            {
+              "a": 71,
+              "b": 94,
+              "en": "to be unconstitutional ",
+              "zh": "属于违宪行为"
+            },
+            {
+              "a": 94,
+              "b": 113,
+              "en": "and ordered states ",
+              "zh": "并命令各州"
+            },
+            {
+              "a": 113,
+              "b": 177,
+              "en": "to use the same procedures for selecting male and female jurors.",
+              "zh": "以相同程序选拔男性和女性陪审员"
+            }
+          ],
+          "reorder": "按原顺序译，declared 与 ordered 并列。",
+          "translation": "泰勒案判决还宣布，陪审员选拔中的性别歧视属于违宪行为，并命令各州以相同程序选拔男性和女性陪审员。",
+          "words": [
+            {
+              "a": 11,
+              "b": 19,
+              "word": "decision",
+              "lemma": "decision",
+              "meaning": "法院判决",
+              "pos": "n"
+            },
+            {
+              "a": 77,
+              "b": 93,
+              "word": "unconstitutional",
+              "lemma": "unconstitutional",
+              "meaning": "违反宪法的",
+              "pos": "a"
+            },
+            {
+              "a": 106,
+              "b": 112,
+              "word": "states",
+              "lemma": "state",
+              "meaning": "州；州级的",
+              "pos": "n"
+            },
+            {
+              "a": 129,
+              "b": 139,
+              "word": "procedures",
+              "lemma": "procedure",
+              "meaning": "程序；选拔办法",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     }

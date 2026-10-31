@@ -852,34 +852,6 @@
     },
     {
       "exam": "2022_english2",
-      "en": "“I'm excited about our progress,” says Brown, who harvests eggs for Denver- based Nest Fresh Eggs and is adding more cover crops that draw worms and crickets for the chickens to eat.",
-      "words": [
-        {
-          "a": 134,
-          "b": 138,
-          "word": "draw",
-          "lemma": "draw",
-          "meaning": "吸引（昆虫）",
-          "pos": "v"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 82,
-          "b": 97,
-          "lemma": "Nest Fresh Eggs",
-          "meaning": "Nest Fresh Eggs鸡蛋公司"
-        },
-        {
-          "a": 117,
-          "b": 128,
-          "lemma": "cover crops",
-          "meaning": "覆盖作物"
-        }
-      ]
-    },
-    {
-      "exam": "2022_english2",
       "en": "The birds' waste then fertilizes fields.",
       "words": [
         {
@@ -1135,36 +1107,6 @@
           "meaning": "维持收支平衡；勉强维持生活"
         }
       ]
-    },
-    {
-      "exam": "2022_english2",
-      "en": "workforce, and boomers are expected to live longer than previous generations.",
-      "words": [
-        {
-          "a": 0,
-          "b": 9,
-          "word": "workforce",
-          "lemma": "workforce",
-          "meaning": "劳动力；就业人群",
-          "pos": "n"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2022_english2",
-      "en": "About 20% of people 65 and older were in the workforce in February, up from an all-time low of 10% in January 1985, according to money manager United Income.",
-      "words": [
-        {
-          "a": 45,
-          "b": 54,
-          "word": "workforce",
-          "lemma": "workforce",
-          "meaning": "劳动力；就业人群",
-          "pos": "n"
-        }
-      ],
-      "phrases": []
     },
     {
       "exam": "2022_english2",
@@ -1510,42 +1452,6 @@
     },
     {
       "exam": "2022_english2",
-      "en": "About 72% of “unretiree” respondents said that they would return to work once retired to keep mentally fit while 59% said it would be tied to making ends meet.",
-      "words": [
-        {
-          "a": 25,
-          "b": 36,
-          "word": "respondents",
-          "lemma": "respondent",
-          "meaning": "调查受访者",
-          "pos": "n"
-        },
-        {
-          "a": 103,
-          "b": 106,
-          "word": "fit",
-          "lemma": "fit",
-          "meaning": "思维敏捷、状态良好的",
-          "pos": "a"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 94,
-          "b": 106,
-          "lemma": "mentally fit",
-          "meaning": "保持思维敏捷和良好心理状态"
-        },
-        {
-          "a": 142,
-          "b": 158,
-          "lemma": "make ends meet",
-          "meaning": "维持收支平衡；勉强维持生活"
-        }
-      ]
-    },
-    {
-      "exam": "2022_english2",
       "en": "over half of the retirees are physically fit for work.",
       "words": [
         {
@@ -1576,80 +1482,6 @@
     },
     {
       "exam": "2022_english2",
-      "en": "The share of the population 65 and older was 16% in 2018, up 32% from the prior year, according to the US.",
-      "words": [
-        {
-          "a": 4,
-          "b": 9,
-          "word": "share",
-          "lemma": "share",
-          "meaning": "所占比例",
-          "pos": "n"
-        },
-        {
-          "a": 74,
-          "b": 79,
-          "word": "prior",
-          "lemma": "prior",
-          "meaning": "此前的",
-          "pos": "a"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2022_english2",
-      "en": "Older Americans are also the fastest-growing segment of the US.",
-      "words": [
-        {
-          "a": 45,
-          "b": 52,
-          "word": "segment",
-          "lemma": "segment",
-          "meaning": "群体；组成部分",
-          "pos": "n"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2022_english2",
-      "en": "Because of longer life spans, Americans are also boosting their savings to preserve their nest eggs, the TD Ameritrade study showed, which surveyed 2000 adults between 40 to 79.",
-      "words": [
-        {
-          "a": 49,
-          "b": 57,
-          "word": "boosting",
-          "lemma": "boost",
-          "meaning": "增加；提高",
-          "pos": "v"
-        },
-        {
-          "a": 75,
-          "b": 83,
-          "word": "preserve",
-          "lemma": "preserve",
-          "meaning": "保住；保存",
-          "pos": "v"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 18,
-          "b": 28,
-          "lemma": "life span",
-          "meaning": "寿命"
-        },
-        {
-          "a": 90,
-          "b": 99,
-          "lemma": "nest egg",
-          "meaning": "养老积蓄；备用储蓄"
-        }
-      ]
-    },
-    {
-      "exam": "2022_english2",
       "en": "“The most challenging moments in life are getting married, starting a family and ultimately retiring,” Weiss said.",
       "words": [
         {
@@ -1667,19 +1499,6 @@
           "b": 76,
           "lemma": "start a family",
           "meaning": "生儿育女；组建家庭"
-        }
-      ]
-    },
-    {
-      "exam": "2022_english2",
-      "en": "Six in 10 “unretirees” are increasing their savings in anticipation of a longer life, according to the survey.",
-      "words": [],
-      "phrases": [
-        {
-          "a": 52,
-          "b": 70,
-          "lemma": "in anticipation of",
-          "meaning": "为预期到来的……作准备"
         }
       ]
     },
@@ -3854,65 +3673,6 @@
     },
     {
       "exam": "2023_english2",
-      "en": "In the quest for the perfect lawns, homeowners across the country are taking a shortcut -- and it is the environment that is paying the price.",
-      "words": [
-        {
-          "a": 7,
-          "b": 12,
-          "word": "quest",
-          "lemma": "quest",
-          "meaning": "追求；寻求",
-          "pos": "n"
-        },
-        {
-          "a": 79,
-          "b": 87,
-          "word": "shortcut",
-          "lemma": "shortcut",
-          "meaning": "省事的捷径",
-          "pos": "n"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 70,
-          "b": 87,
-          "lemma": "take a shortcut",
-          "meaning": "走省事的捷径"
-        },
-        {
-          "a": 125,
-          "b": 141,
-          "lemma": "pay the price",
-          "meaning": "付出代价"
-        }
-      ]
-    },
-    {
-      "exam": "2023_english2",
-      "en": "About eight million square meters of plastic grass is sold each year but opposition has now spread to the highest gardening circles.",
-      "words": [
-        {
-          "a": 73,
-          "b": 83,
-          "word": "opposition",
-          "lemma": "opposition",
-          "meaning": "反对声音；抵制",
-          "pos": "n"
-        },
-        {
-          "a": 124,
-          "b": 131,
-          "word": "circles",
-          "lemma": "circle",
-          "meaning": "圈子；专业群体",
-          "pos": "n"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2023_english2",
       "en": "is a hot topic in gardening circles",
       "words": [
         {
@@ -3925,36 +3685,6 @@
         }
       ],
       "phrases": []
-    },
-    {
-      "exam": "2023_english2",
-      "en": "Ed Horne of the RHS said: we launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic.",
-      "words": [
-        {
-          "a": 29,
-          "b": 37,
-          "word": "launched",
-          "lemma": "launch",
-          "meaning": "推出；启动（策略）",
-          "pos": "v"
-        },
-        {
-          "a": 120,
-          "b": 125,
-          "word": "ethos",
-          "lemma": "ethos",
-          "meaning": "理念；价值取向",
-          "pos": "n"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 103,
-          "b": 115,
-          "lemma": "in line with",
-          "meaning": "符合；与……一致"
-        }
-      ]
     },
     {
       "exam": "2023_english2",
@@ -3996,119 +3726,6 @@
     },
     {
       "exam": "2023_english2",
-      "en": "It added:\"We prefer to help people and organizations make the right choice rather than legislating on such matters, However the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage, while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.\"",
-      "words": [
-        {
-          "a": 87,
-          "b": 98,
-          "word": "legislating",
-          "lemma": "legislate",
-          "meaning": "立法规定；用法律干预",
-          "pos": "v"
-        },
-        {
-          "a": 190,
-          "b": 200,
-          "word": "safeguards",
-          "lemma": "safeguard",
-          "meaning": "保护规定；保障措施",
-          "pos": "n"
-        },
-        {
-          "a": 221,
-          "b": 233,
-          "word": "biodiversity",
-          "lemma": "biodiversity",
-          "meaning": "生物多样性",
-          "pos": "n"
-        },
-        {
-          "a": 257,
-          "b": 265,
-          "word": "drainage",
-          "lemma": "drainage",
-          "meaning": "排水",
-          "pos": "n"
-        },
-        {
-          "a": 307,
-          "b": 319,
-          "word": "biodiversity",
-          "lemma": "biodiversity",
-          "meaning": "生物多样性",
-          "pos": "n"
-        },
-        {
-          "a": 320,
-          "b": 324,
-          "word": "duty",
-          "lemma": "duty",
-          "meaning": "法定责任；义务",
-          "pos": "n"
-        },
-        {
-          "a": 358,
-          "b": 369,
-          "word": "authorities",
-          "lemma": "authority",
-          "meaning": "政府部门；公共管理机构",
-          "pos": "n"
-        },
-        {
-          "a": 394,
-          "b": 406,
-          "word": "alternatives",
-          "lemma": "alternative",
-          "meaning": "替代选择",
-          "pos": "n"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 157,
-          "b": 168,
-          "lemma": "comply with",
-          "meaning": "遵守"
-        },
-        {
-          "a": 201,
-          "b": 209,
-          "lemma": "in place",
-          "meaning": "已经存在并生效的"
-        },
-        {
-          "a": 351,
-          "b": 369,
-          "lemma": "public authority",
-          "meaning": "政府部门；公共管理机构"
-        }
-      ]
-    },
-    {
-      "exam": "2023_english2",
-      "en": "We recommend using real grass because of its environment benefits, which include supporting wildlife, alleviating flooding and cooling the environment.",
-      "words": [
-        {
-          "a": 102,
-          "b": 113,
-          "word": "alleviating",
-          "lemma": "alleviate",
-          "meaning": "缓解",
-          "pos": "v"
-        },
-        {
-          "a": 114,
-          "b": 122,
-          "word": "flooding",
-          "lemma": "flooding",
-          "meaning": "洪涝；积水",
-          "pos": "n"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2023_english2",
       "en": "A Twitter account, which claims to “cut through the greenwash” of artificial grass, already has more than 20,000 followers.",
       "words": [
         {
@@ -4136,29 +3753,6 @@
           "meaning": "揭开环保宣传包装"
         }
       ]
-    },
-    {
-      "exam": "2023_english2",
-      "en": "In response to another petition last year about banning fake lawns, which gathered 30,000 signatures, the government responded that it has \"no plans to ban the use of artificial grass.",
-      "words": [
-        {
-          "a": 23,
-          "b": 31,
-          "word": "petition",
-          "lemma": "petition",
-          "meaning": "请愿书；请愿",
-          "pos": "n"
-        },
-        {
-          "a": 90,
-          "b": 100,
-          "word": "signatures",
-          "lemma": "signature",
-          "meaning": "签名",
-          "pos": "n"
-        }
-      ],
-      "phrases": []
     },
     {
       "exam": "2023_english2",
@@ -4207,28 +3801,6 @@
     },
     {
       "exam": "2023_english2",
-      "en": "However, supporters of fake grass point out that there's also an environmental impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.",
-      "words": [
-        {
-          "a": 117,
-          "b": 123,
-          "word": "mowing",
-          "lemma": "mow",
-          "meaning": "修剪（草坪）",
-          "pos": "v"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 34,
-          "b": 43,
-          "lemma": "point out",
-          "meaning": "指出"
-        }
-      ]
-    },
-    {
-      "exam": "2023_english2",
       "en": "The industry also points out that real grass requires considerable amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.",
       "words": [
         {
@@ -4264,29 +3836,6 @@
           "meaning": "除草剂"
         }
       ]
-    },
-    {
-      "exam": "2023_english2",
-      "en": "The industry also claims that people who lay fake grass spend on average of £500 trees or shrubs for their garden, which provides habitat for insects.",
-      "words": [
-        {
-          "a": 41,
-          "b": 44,
-          "word": "lay",
-          "lemma": "lay",
-          "meaning": "铺设",
-          "pos": "v"
-        },
-        {
-          "a": 130,
-          "b": 137,
-          "word": "habitat",
-          "lemma": "habitat",
-          "meaning": "栖息地",
-          "pos": "n"
-        }
-      ],
-      "phrases": []
     },
     {
       "exam": "2023_english2",
@@ -4584,21 +4133,6 @@
     },
     {
       "exam": "2023_english2",
-      "en": "An economic survey of 700 U.S. taxpayers found that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact.",
-      "words": [
-        {
-          "a": 164,
-          "b": 170,
-          "word": "intact",
-          "lemma": "intact",
-          "meaning": "完整保留的；未受损的",
-          "pos": "a"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2023_english2",
       "en": "Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.",
       "words": [
         {
@@ -4657,74 +4191,6 @@
     },
     {
       "exam": "2023_english2",
-      "en": "The parks also help keep America's past alive, working with thousands of local jurisdictions around the country to protect historical sites and to bring the stories of these places to life.",
-      "words": [
-        {
-          "a": 79,
-          "b": 92,
-          "word": "jurisdictions",
-          "lemma": "jurisdiction",
-          "meaning": "具有管辖权的地方行政单位",
-          "pos": "n"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 147,
-          "b": 188,
-          "lemma": "bring the stories of these places to life",
-          "meaning": "生动呈现这些地方的历史故事"
-        }
-      ]
-    },
-    {
-      "exam": "2023_english2",
-      "en": "Congress allocates only 3 billion a year to the national park system — an amount that has been flat since 2001 ( in inflation-adusted dollars) with the exception of a onetime boost in 2009.",
-      "words": [
-        {
-          "a": 9,
-          "b": 18,
-          "word": "allocates",
-          "lemma": "allocate",
-          "meaning": "拨给；分配（资金）",
-          "pos": "v"
-        },
-        {
-          "a": 95,
-          "b": 99,
-          "word": "flat",
-          "lemma": "flat",
-          "meaning": "基本不变的；没有实际增长的",
-          "pos": "a"
-        },
-        {
-          "a": 116,
-          "b": 133,
-          "word": "inflation-adusted",
-          "lemma": "inflation-adusted",
-          "meaning": "经通货膨胀调整的",
-          "pos": "a"
-        },
-        {
-          "a": 175,
-          "b": 180,
-          "word": "boost",
-          "lemma": "boost",
-          "meaning": "一次性增加的投入",
-          "pos": "n"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 143,
-          "b": 164,
-          "lemma": "with the exception of",
-          "meaning": "除……之外"
-        }
-      ]
-    },
-    {
-      "exam": "2023_english2",
       "en": "boost visits to parks",
       "words": [
         {
@@ -4733,21 +4199,6 @@
           "word": "boost",
           "lemma": "boost",
           "meaning": "一次性增加的投入",
-          "pos": "v"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2023_english2",
-      "en": "Meanwhile, the number of annual visitors has increased more than 50% since 1980, and now stands at 330 million visitors per year.",
-      "words": [
-        {
-          "a": 89,
-          "b": 95,
-          "word": "stands",
-          "lemma": "stand",
-          "meaning": "达到（某个数量）",
           "pos": "v"
         }
       ],
@@ -5461,28 +4912,6 @@
     },
     {
       "exam": "2023_english2",
-      "en": "Other studies have shown that rebellious behavior increased as you become a teenager and then fades away as you grow older.",
-      "words": [
-        {
-          "a": 30,
-          "b": 40,
-          "word": "rebellious",
-          "lemma": "rebellious",
-          "meaning": "叛逆的",
-          "pos": "a"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 94,
-          "b": 104,
-          "lemma": "fade away",
-          "meaning": "逐渐减弱；消退"
-        }
-      ]
-    },
-    {
-      "exam": "2023_english2",
       "en": "The researchers studied \"prosocial\" and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old.",
       "words": [
         {
@@ -5508,37 +4937,6 @@
           "lemma": "trait",
           "meaning": "行为或性格特征",
           "pos": "n"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2023_english2",
-      "en": "The participants filled out questions about how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend or rebellious and negative, like getting drunk or staying out late.",
-      "words": [
-        {
-          "a": 80,
-          "b": 90,
-          "word": "altruistic",
-          "lemma": "altruistic",
-          "meaning": "利他的；无私的",
-          "pos": "a"
-        },
-        {
-          "a": 132,
-          "b": 141,
-          "word": "interests",
-          "lemma": "interest",
-          "meaning": "自身利益",
-          "pos": "n"
-        },
-        {
-          "a": 162,
-          "b": 172,
-          "word": "rebellious",
-          "lemma": "rebellious",
-          "meaning": "叛逆的",
-          "pos": "a"
         }
       ],
       "phrases": []
@@ -5670,128 +5068,6 @@
         }
       ],
       "phrases": []
-    },
-    {
-      "exam": "2023_english2",
-      "en": "One idea is that teenager behavior is related to what researchers call” reward sensitivity.\"",
-      "words": [
-        {
-          "a": 72,
-          "b": 78,
-          "word": "reward",
-          "lemma": "reward",
-          "meaning": "回报；奖励",
-          "pos": "n"
-        },
-        {
-          "a": 79,
-          "b": 90,
-          "word": "sensitivity",
-          "lemma": "sensitivity",
-          "meaning": "对奖励的敏感程度",
-          "pos": "n"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 72,
-          "b": 90,
-          "lemma": "reward sensitivity",
-          "meaning": "奖励敏感度"
-        }
-      ]
-    },
-    {
-      "exam": "2023_english2",
-      "en": "Decision-making always involves balancing rewards and risks, benefits and costs “Reward sensitivity” 'measures how much reward it takes to outweigh risk.",
-      "words": [
-        {
-          "a": 32,
-          "b": 41,
-          "word": "balancing",
-          "lemma": "balance",
-          "meaning": "权衡",
-          "pos": "v"
-        },
-        {
-          "a": 42,
-          "b": 49,
-          "word": "rewards",
-          "lemma": "reward",
-          "meaning": "回报；奖励",
-          "pos": "n"
-        },
-        {
-          "a": 74,
-          "b": 79,
-          "word": "costs",
-          "lemma": "cost",
-          "meaning": "付出；代价",
-          "pos": "n"
-        },
-        {
-          "a": 81,
-          "b": 87,
-          "word": "Reward",
-          "lemma": "reward",
-          "meaning": "回报；奖励",
-          "pos": "v"
-        },
-        {
-          "a": 88,
-          "b": 99,
-          "word": "sensitivity",
-          "lemma": "sensitivity",
-          "meaning": "对奖励的敏感程度",
-          "pos": "n"
-        },
-        {
-          "a": 120,
-          "b": 126,
-          "word": "reward",
-          "lemma": "reward",
-          "meaning": "回报；奖励",
-          "pos": "n"
-        },
-        {
-          "a": 139,
-          "b": 147,
-          "word": "outweigh",
-          "lemma": "outweigh",
-          "meaning": "比……更重要；超过",
-          "pos": "v"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 81,
-          "b": 99,
-          "lemma": "reward sensitivity",
-          "meaning": "奖励敏感度"
-        }
-      ]
-    },
-    {
-      "exam": "2023_english2",
-      "en": "Teenagers are particularly sensitive to social rewards-winning the game, impressing a new friend, getting that boy to notice you.",
-      "words": [
-        {
-          "a": 47,
-          "b": 54,
-          "word": "rewards",
-          "lemma": "reward",
-          "meaning": "回报；奖励",
-          "pos": "n"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 40,
-          "b": 54,
-          "lemma": "social reward",
-          "meaning": "社交方面的回报与认可"
-        }
-      ]
     },
     {
       "exam": "2023_english2",
@@ -7112,68 +6388,6 @@
     },
     {
       "exam": "2024_english2",
-      "en": "Anger over AI's role in exacerbating inequality could endanger the technology's future.",
-      "words": [
-        {
-          "a": 24,
-          "b": 36,
-          "word": "exacerbating",
-          "lemma": "exacerbate",
-          "meaning": "加剧；使更严重",
-          "pos": "v"
-        },
-        {
-          "a": 37,
-          "b": 47,
-          "word": "inequality",
-          "lemma": "inequality",
-          "meaning": "不平等；分配不均",
-          "pos": "n"
-        },
-        {
-          "a": 54,
-          "b": 62,
-          "word": "endanger",
-          "lemma": "endanger",
-          "meaning": "危及",
-          "pos": "v"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2024_english2",
-      "en": "In a recent interview with MIT Technology Review, Coyle said she fears that tech's inequality problem could be a roadblock to deploying AI.",
-      "words": [
-        {
-          "a": 83,
-          "b": 93,
-          "word": "inequality",
-          "lemma": "inequality",
-          "meaning": "不平等；分配不均",
-          "pos": "n"
-        },
-        {
-          "a": 113,
-          "b": 122,
-          "word": "roadblock",
-          "lemma": "roadblock",
-          "meaning": "障碍",
-          "pos": "n"
-        },
-        {
-          "a": 126,
-          "b": 135,
-          "word": "deploying",
-          "lemma": "deploy",
-          "meaning": "部署；投入应用",
-          "pos": "v"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2024_english2",
       "en": "“Whatever we mean by the economy growing, by things getting better, the gains will have to be more evenly shared than in the recent past,” she writes.",
       "words": [
         {
@@ -7445,42 +6659,6 @@
     },
     {
       "exam": "2024_english2",
-      "en": "New AI technologies are particularly concentrated: Brookings's Mark Muro and Sifan Liu estimate that just 15 cities account for two-thirds of the AI assets and capabilities in the United States (San Francisco and San Jose alone account for about one-quarter).",
-      "words": [
-        {
-          "a": 149,
-          "b": 155,
-          "word": "assets",
-          "lemma": "asset",
-          "meaning": "资产；资源",
-          "pos": "n"
-        },
-        {
-          "a": 160,
-          "b": 172,
-          "word": "capabilities",
-          "lemma": "capability",
-          "meaning": "技术能力",
-          "pos": "n"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 116,
-          "b": 127,
-          "lemma": "account for",
-          "meaning": "占……比例"
-        },
-        {
-          "a": 228,
-          "b": 239,
-          "lemma": "account for",
-          "meaning": "占……比例"
-        }
-      ]
-    },
-    {
-      "exam": "2024_english2",
       "en": "the increasing significance of USAI assets",
       "words": [
         {
@@ -7609,21 +6787,6 @@
     },
     {
       "exam": "2024_english2",
-      "en": "Muro and others have suggested hefty federal funding to help create US regional innovation centers, for example.",
-      "words": [
-        {
-          "a": 31,
-          "b": 36,
-          "word": "hefty",
-          "lemma": "hefty",
-          "meaning": "数额可观的",
-          "pos": "a"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2024_english2",
       "en": "That will likely take increased federal funding for research independent of the tech giants.",
       "words": [],
       "phrases": [
@@ -7722,59 +6885,6 @@
           "b": 140,
           "lemma": "go far enough",
           "meaning": "达到足够程度"
-        }
-      ]
-    },
-    {
-      "exam": "2024_english2",
-      "en": "While around three quarters of Scottish homes are built from Scottish timber, the use of home-grown wood in England is only around 25 percent.",
-      "words": [
-        {
-          "a": 70,
-          "b": 76,
-          "word": "timber",
-          "lemma": "timber",
-          "meaning": "建筑等用途的木材",
-          "pos": "n"
-        },
-        {
-          "a": 89,
-          "b": 99,
-          "word": "home-grown",
-          "lemma": "home-grown",
-          "meaning": "本土生产的",
-          "pos": "a"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2024_english2",
-      "en": "Currently only 20 percent of the UK's wood requirement is home-grown while it remains the second-largest net importer of timber in the world.",
-      "words": [
-        {
-          "a": 58,
-          "b": 68,
-          "word": "home-grown",
-          "lemma": "home-grown",
-          "meaning": "本土生产的",
-          "pos": "a"
-        },
-        {
-          "a": 121,
-          "b": 127,
-          "word": "timber",
-          "lemma": "timber",
-          "meaning": "建筑等用途的木材",
-          "pos": "n"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 105,
-          "b": 117,
-          "lemma": "net importer",
-          "meaning": "净进口国"
         }
       ]
     },
@@ -8016,51 +7126,6 @@
     },
     {
       "exam": "2024_english2",
-      "en": "Goodall add： “ While food production and biodiversity are clearly of critical importance, we need our land to also provide secure supplies of wood for construction, manufacturing and contribute to net zero.",
-      "words": [
-        {
-          "a": 69,
-          "b": 77,
-          "word": "critical",
-          "lemma": "critical",
-          "meaning": "至关重要的",
-          "pos": "a"
-        },
-        {
-          "a": 123,
-          "b": 129,
-          "word": "secure",
-          "lemma": "secure",
-          "meaning": "稳定可靠的；有保障的",
-          "pos": "a"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2024_english2",
-      "en": "“While the UK government has stated its ambition for more tree planting, there has been little action on the ground.\"",
-      "words": [
-        {
-          "a": 40,
-          "b": 48,
-          "word": "ambition",
-          "lemma": "ambition",
-          "meaning": "目标；愿望",
-          "pos": "n"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 102,
-          "b": 115,
-          "lemma": "on the ground",
-          "meaning": "在实际落实层面"
-        }
-      ]
-    },
-    {
-      "exam": "2024_english2",
       "en": "Confor is now calling for much greater impetus behind those aspirations to ensure we have enough wood to meet increasing demand.\"",
       "words": [
         {
@@ -8126,199 +7191,6 @@
         }
       ],
       "phrases": []
-    },
-    {
-      "exam": "2024_english2",
-      "en": "One big challenge in keeping unsafe aging drivers off the road is convincing them that it is time to turn over the key.",
-      "words": [
-        {
-          "a": 36,
-          "b": 41,
-          "word": "aging",
-          "lemma": "age",
-          "meaning": "上了年纪的；逐渐年老的",
-          "pos": "v"
-        },
-        {
-          "a": 66,
-          "b": 76,
-          "word": "convincing",
-          "lemma": "convince",
-          "meaning": "说服",
-          "pos": "v"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 101,
-          "b": 118,
-          "lemma": "turn over the key",
-          "meaning": "交出车钥匙；停止驾驶"
-        }
-      ]
-    },
-    {
-      "exam": "2024_english2",
-      "en": "It is a complete life-changer when someone stops—or is forced to stop—driving, said former risk manager Anne M. Menke.",
-      "words": [
-        {
-          "a": 17,
-          "b": 29,
-          "word": "life-changer",
-          "lemma": "life-changer",
-          "meaning": "大幅改变生活的事情",
-          "pos": "a"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2024_english2",
-      "en": "The American Medical Association advises physicians that in situation where clear evidence of substantial driving impairment implies a strong threat to patient and public safety, and where the physician's advice to discontinue driving privileges is ignored, it is desirable and ethical to notify the Department of Motor Vehicles, Menke wrote.",
-      "words": [
-        {
-          "a": 41,
-          "b": 51,
-          "word": "physicians",
-          "lemma": "physician",
-          "meaning": "医生",
-          "pos": "n"
-        },
-        {
-          "a": 94,
-          "b": 105,
-          "word": "substantial",
-          "lemma": "substantial",
-          "meaning": "显著的；严重的",
-          "pos": "a"
-        },
-        {
-          "a": 114,
-          "b": 124,
-          "word": "impairment",
-          "lemma": "impairment",
-          "meaning": "能力受损",
-          "pos": "n"
-        },
-        {
-          "a": 193,
-          "b": 202,
-          "word": "physician",
-          "lemma": "physician",
-          "meaning": "医生",
-          "pos": "n"
-        },
-        {
-          "a": 235,
-          "b": 245,
-          "word": "privileges",
-          "lemma": "privilege",
-          "meaning": "驾驶许可；驾驶资格",
-          "pos": "n"
-        },
-        {
-          "a": 289,
-          "b": 295,
-          "word": "notify",
-          "lemma": "notify",
-          "meaning": "通知；报告",
-          "pos": "v"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2024_english2",
-      "en": "“Some states require physicians to report, others allow but do not mandate reports, while a few consider a report breach of confidentiality.",
-      "words": [
-        {
-          "a": 21,
-          "b": 31,
-          "word": "physicians",
-          "lemma": "physician",
-          "meaning": "医生",
-          "pos": "n"
-        },
-        {
-          "a": 67,
-          "b": 74,
-          "word": "mandate",
-          "lemma": "mandate",
-          "meaning": "强制要求",
-          "pos": "v"
-        },
-        {
-          "a": 114,
-          "b": 120,
-          "word": "breach",
-          "lemma": "breach",
-          "meaning": "违反；破坏（保密义务）",
-          "pos": "n"
-        },
-        {
-          "a": 124,
-          "b": 139,
-          "word": "confidentiality",
-          "lemma": "confidentiality",
-          "meaning": "保密义务",
-          "pos": "n"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2024_english2",
-      "en": "There could be liability and penalties if a physician does not act in accordance with state laws on reporting and confidentiality ” she counseled.",
-      "words": [
-        {
-          "a": 15,
-          "b": 24,
-          "word": "liability",
-          "lemma": "liability",
-          "meaning": "应承担的法律责任",
-          "pos": "n"
-        },
-        {
-          "a": 29,
-          "b": 38,
-          "word": "penalties",
-          "lemma": "penalty",
-          "meaning": "处罚",
-          "pos": "n"
-        },
-        {
-          "a": 44,
-          "b": 53,
-          "word": "physician",
-          "lemma": "physician",
-          "meaning": "医生",
-          "pos": "n"
-        },
-        {
-          "a": 114,
-          "b": 129,
-          "word": "confidentiality",
-          "lemma": "confidentiality",
-          "meaning": "保密义务",
-          "pos": "n"
-        },
-        {
-          "a": 136,
-          "b": 145,
-          "word": "counseled",
-          "lemma": "counsel",
-          "meaning": "提醒；建议",
-          "pos": "v"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 67,
-          "b": 85,
-          "lemma": "in accordance with",
-          "meaning": "依照；符合"
-        }
-      ]
     },
     {
       "exam": "2024_english2",
@@ -8397,29 +7269,6 @@
     },
     {
       "exam": "2024_english2",
-      "en": "Mandatory in-person renewal was associated with a 31 percent reduction in fatal crashes involving drivers 85 or older, according to one study.",
-      "words": [
-        {
-          "a": 20,
-          "b": 27,
-          "word": "renewal",
-          "lemma": "renewal",
-          "meaning": "换证；续期",
-          "pos": "n"
-        },
-        {
-          "a": 74,
-          "b": 79,
-          "word": "fatal",
-          "lemma": "fatal",
-          "meaning": "致命的",
-          "pos": "a"
-        }
-      ],
-      "phrases": []
-    },
-    {
-      "exam": "2024_english2",
       "en": "Passing vision tests also produced a similar decline in fatal crashes for those drivers, although there appeared to be no benefit from combining the two.",
       "words": [
         {
@@ -8447,121 +7296,6 @@
           "meaning": "视力检查"
         }
       ]
-    },
-    {
-      "exam": "2024_english2",
-      "en": "Primary care providers have their hands full and may not be able to follow through with patients who have trouble driving because they can't turn their heads or remember where they are going—or have gotten shorter and haven't changed their seat settings sufficiently to reach car pedals easily,",
-      "words": [
-        {
-          "a": 0,
-          "b": 7,
-          "word": "Primary",
-          "lemma": "primary",
-          "meaning": "基层的；初级医疗的",
-          "pos": "a"
-        },
-        {
-          "a": 280,
-          "b": 286,
-          "word": "pedals",
-          "lemma": "pedal",
-          "meaning": "车踏板",
-          "pos": "n"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 0,
-          "b": 12,
-          "lemma": "Primary care",
-          "meaning": "基层医疗"
-        },
-        {
-          "a": 23,
-          "b": 44,
-          "lemma": "have their hands full",
-          "meaning": "已经忙得不可开交"
-        },
-        {
-          "a": 68,
-          "b": 87,
-          "lemma": "follow through with",
-          "meaning": "持续跟进并完成"
-        }
-      ]
-    },
-    {
-      "exam": "2024_english2",
-      "en": "Primary care providers have their hands full and may not be able to follow through with patients who have trouble driving because they can't turn their heads or remember where they are going—or have gotten shorter and haven't changed their seat settings sufficiently to reach car pedals easily, As long as there are other cars on the roads, self-driving cars won't solve the problems of crashes, said Dugan.",
-      "words": [
-        {
-          "a": 0,
-          "b": 7,
-          "word": "Primary",
-          "lemma": "primary",
-          "meaning": "基层的；初级医疗的",
-          "pos": "a"
-        },
-        {
-          "a": 280,
-          "b": 286,
-          "word": "pedals",
-          "lemma": "pedal",
-          "meaning": "车踏板",
-          "pos": "n"
-        },
-        {
-          "a": 341,
-          "b": 353,
-          "word": "self-driving",
-          "lemma": "self-driving",
-          "meaning": "自动驾驶的",
-          "pos": "a"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 0,
-          "b": 12,
-          "lemma": "Primary care",
-          "meaning": "基层医疗"
-        },
-        {
-          "a": 23,
-          "b": 44,
-          "lemma": "have their hands full",
-          "meaning": "已经忙得不可开交"
-        },
-        {
-          "a": 68,
-          "b": 87,
-          "lemma": "follow through with",
-          "meaning": "持续跟进并完成"
-        }
-      ]
-    },
-    {
-      "exam": "2024_english2",
-      "en": "Avoiding dangers posed by all those human drivers would require to many algorithms, she said.",
-      "words": [
-        {
-          "a": 17,
-          "b": 22,
-          "word": "posed",
-          "lemma": "pose",
-          "meaning": "造成；带来（危险）",
-          "pos": "v"
-        },
-        {
-          "a": 72,
-          "b": 82,
-          "word": "algorithms",
-          "lemma": "algorithm",
-          "meaning": "算法",
-          "pos": "n"
-        }
-      ],
-      "phrases": []
     },
     {
       "exam": "2024_english2",
@@ -8722,58 +7456,6 @@
           "b": 39,
           "lemma": "in place",
           "meaning": "已建立并生效的"
-        }
-      ]
-    },
-    {
-      "exam": "2024_english2",
-      "en": "The FTC alleged in a complaint that \"despite express privacy claims, the company took control of users' sensitivity fertility data and shared it with third parties.”",
-      "words": [
-        {
-          "a": 8,
-          "b": 15,
-          "word": "alleged",
-          "lemma": "allege",
-          "meaning": "指称；指控",
-          "pos": "v"
-        },
-        {
-          "a": 21,
-          "b": 30,
-          "word": "complaint",
-          "lemma": "complaint",
-          "meaning": "正式投诉；指控文件",
-          "pos": "n"
-        },
-        {
-          "a": 45,
-          "b": 52,
-          "word": "express",
-          "lemma": "express",
-          "meaning": "明确的；明示的",
-          "pos": "a"
-        },
-        {
-          "a": 116,
-          "b": 125,
-          "word": "fertility",
-          "lemma": "fertility",
-          "meaning": "生育；生殖健康",
-          "pos": "n"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 45,
-          "b": 67,
-          "lemma": "express privacy claims",
-          "meaning": "明示的隐私保护承诺"
-        },
-        {
-          "a": 150,
-          "b": 163,
-          "lemma": "third party",
-          "meaning": "第三方"
         }
       ]
     },
@@ -11297,36 +9979,6 @@
     },
     {
       "exam": "2025_english2",
-      "en": "In general, a HAP spells out when and how officials should issue heat warnings and alert hospitals and other institutions.",
-      "words": [
-        {
-          "a": 59,
-          "b": 64,
-          "word": "issue",
-          "lemma": "issue",
-          "meaning": "发布（预警）",
-          "pos": "v"
-        },
-        {
-          "a": 83,
-          "b": 88,
-          "word": "alert",
-          "lemma": "alert",
-          "meaning": "提醒；发出警报",
-          "pos": "a"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 18,
-          "b": 28,
-          "lemma": "spell out",
-          "meaning": "明确说明；详细规定"
-        }
-      ]
-    },
-    {
-      "exam": "2025_english2",
       "en": "lack localized alert-issuing criteria",
       "words": [
         {
@@ -11781,42 +10433,6 @@
         }
       ],
       "phrases": []
-    },
-    {
-      "exam": "2025_english2",
-      "en": "For example, neighborhoods with a large elderly population or informal dwellings might be poorer with heat could get special warnings or be bolstered with cooling centers.",
-      "words": [
-        {
-          "a": 71,
-          "b": 80,
-          "word": "dwellings",
-          "lemma": "dwelling",
-          "meaning": "住宅；居住处",
-          "pos": "n"
-        },
-        {
-          "a": 140,
-          "b": 149,
-          "word": "bolstered",
-          "lemma": "bolster",
-          "meaning": "加强；提供支持",
-          "pos": "v"
-        }
-      ],
-      "phrases": [
-        {
-          "a": 62,
-          "b": 80,
-          "lemma": "informal dwelling",
-          "meaning": "非正规住房；简易居所"
-        },
-        {
-          "a": 155,
-          "b": 170,
-          "lemma": "cooling center",
-          "meaning": "避暑降温中心"
-        }
-      ]
     },
     {
       "exam": "2025_english2",

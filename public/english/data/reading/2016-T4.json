@@ -6,10 +6,19 @@
   "text": 4,
   "articleKey": "s1-p0-t3",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "94038c437c160749d5329ca3ba30cf5ced9ec288c5979153dbe784ba907e0b08",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2016年考研英语二真题.pdf",
+        "page": 10,
+        "sha256": "ba222df975d03a7f5c681c646673e3379de0dda7b89b7fe913b184132d545acf"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇对照本地试卷完整正文与PDF渲染页，逐项核对提取层形似字、下划线漏字和标点差异；保留原英文与固定编号。"
   },
   "paragraphs": [
     {
@@ -21,12 +30,47 @@
           "a": 0,
           "b": 169,
           "en": "Against a backdrop of drastic changes in economy and population structure, younger Americans are drawing a new 21st-century road map to success, a latest poll has found.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 75,
+              "en": "Against a backdrop of drastic changes in economy and population structure, ",
+              "zh": "在经济与人口结构发生剧变的背景下"
+            },
+            {
+              "a": 75,
+              "b": 145,
+              "en": "younger Americans are drawing a new 21st-century road map to success, ",
+              "zh": "年轻的美国人正在绘制一份通向成功的二十一世纪新路线图"
+            },
+            {
+              "a": 145,
+              "b": 169,
+              "en": "a latest poll has found.",
+              "zh": "一项最新民调发现"
+            }
+          ],
+          "reorder": "把句末的调查来源前置，再译背景和年轻人的新成功路线，younger 不能漏译。",
+          "translation": "一项最新民调发现，在经济与人口结构发生剧变的背景下，年轻的美国人正在绘制一份二十一世纪通向成功的新路线图。",
+          "words": [
+            {
+              "a": 10,
+              "b": 18,
+              "word": "backdrop",
+              "lemma": "backdrop",
+              "meaning": "背景",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -39,24 +83,140 @@
           "a": 0,
           "b": 206,
           "en": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 27,
+              "en": "Across generational lines, ",
+              "zh": "无论属于哪一代"
+            },
+            {
+              "a": 27,
+              "b": 117,
+              "en": "Americans continue to prize many of the same traditional milestones of a successful life, ",
+              "zh": "美国人仍然珍视成功人生中许多相同的传统里程碑"
+            },
+            {
+              "a": 117,
+              "b": 161,
+              "en": "including getting married, having children, ",
+              "zh": "包括结婚、生子"
+            },
+            {
+              "a": 161,
+              "b": 176,
+              "en": "owning a home, ",
+              "zh": "拥有自己的住房"
+            },
+            {
+              "a": 176,
+              "b": 206,
+              "en": "and retiring in their sixties.",
+              "zh": "以及在六十多岁时退休"
+            }
+          ],
+          "reorder": "先译跨代范围；including 后四项并列，in their sixties 指六十至六十九岁这一年龄段。",
+          "translation": "无论属于哪一代，美国人仍然珍视成功人生中许多相同的传统里程碑，包括结婚、生子、拥有自己的住房，以及在六十多岁时退休。",
+          "words": [
+            {
+              "a": 20,
+              "b": 25,
+              "lemma": "line",
+              "meaning": "代际界限；不同年龄群体",
+              "word": "lines",
+              "pos": "n"
+            },
+            {
+              "a": 49,
+              "b": 54,
+              "lemma": "prize",
+              "meaning": "珍视；重视",
+              "word": "prize",
+              "pos": "v"
+            },
+            {
+              "a": 84,
+              "b": 94,
+              "lemma": "milestone",
+              "meaning": "重要人生阶段；里程碑",
+              "word": "milestones",
+              "pos": "n"
+            },
+            {
+              "a": 198,
+              "b": 205,
+              "lemma": "sixty",
+              "meaning": "六十多岁；六十至六十九岁这一年龄段",
+              "word": "sixties",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2016-T4-P2-S2",
           "a": 207,
           "b": 356,
           "en": "But while young and old mostly agree on what constitutes the finish line of a fulfilling life, they offer strikingly different paths for reaching it.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 95,
+              "en": "But while young and old mostly agree on what constitutes the finish line of a fulfilling life, ",
+              "zh": "但是，虽然年轻人和老年人大体认同什么才算圆满人生的终点"
+            },
+            {
+              "a": 95,
+              "b": 149,
+              "en": "they offer strikingly different paths for reaching it.",
+              "zh": "他们提出的达成路径却截然不同"
+            }
+          ],
+          "reorder": "while 的让步内容先译，what 从句放在“认同”后，it 指前述人生终点。",
+          "translation": "但是，虽然年轻人和老年人大体认同什么才算圆满人生的终点，他们提出的达成路径却截然不同。",
+          "words": [
+            {
+              "a": 31,
+              "b": 36,
+              "lemma": "agree",
+              "meaning": "意见一致；同意",
+              "word": "agree",
+              "pos": "v"
+            },
+            {
+              "a": 45,
+              "b": 56,
+              "lemma": "constitute",
+              "meaning": "构成",
+              "word": "constitutes",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 61,
+              "b": 72,
+              "lemma": "finish line",
+              "meaning": "终点；衡量人生圆满的目标",
+              "word": "finish line"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -69,12 +229,124 @@
           "a": 0,
           "b": 484,
           "en": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 51,
+              "en": "Young people who are still getting started in life ",
+              "zh": "人生刚刚起步的年轻人"
+            },
+            {
+              "a": 51,
+              "b": 86,
+              "en": "were more likely than older adults ",
+              "zh": "比年长者更有可能持以下看法"
+            },
+            {
+              "a": 86,
+              "b": 136,
+              "en": "to prioritize personal fulfillment in their work, ",
+              "zh": "在工作中优先追求个人满足感"
+            },
+            {
+              "a": 136,
+              "b": 212,
+              "en": "to believe they will advance their careers most by regularly changing jobs, ",
+              "zh": "认为经常跳槽最能推动职业发展"
+            },
+            {
+              "a": 212,
+              "b": 286,
+              "en": "to favor communities with more public services and a faster pace of life, ",
+              "zh": "偏爱公共服务更多、生活节奏更快的社区"
+            },
+            {
+              "a": 286,
+              "b": 380,
+              "en": "to agree that couples should be financially secure before getting married or having children, ",
+              "zh": "同意夫妻在结婚或生育前应有稳定的经济保障"
+            },
+            {
+              "a": 380,
+              "b": 467,
+              "en": "and to maintain that children are best served by two parents working outside the home, ",
+              "zh": "并主张父母双方都外出工作对孩子最有利"
+            },
+            {
+              "a": 467,
+              "b": 484,
+              "en": "the survey found.",
+              "zh": "调查发现"
+            }
+          ],
+          "reorder": "把调查来源前置；more likely than 后五个 to 并列，都受“比年长者更倾向于”支配，不能把双方外出工作译成在家工作。",
+          "translation": "调查发现，人生刚刚起步的年轻人比年长者更倾向于在工作中优先追求个人满足感，认为经常跳槽最能推动职业发展，偏爱公共服务更多、生活节奏更快的社区，同意夫妻在结婚或生育前应有稳定的经济保障，并主张父母双方都外出工作对孩子最有利。",
+          "words": [
+            {
+              "a": 89,
+              "b": 99,
+              "lemma": "prioritize",
+              "meaning": "优先看重",
+              "word": "prioritize",
+              "pos": "v"
+            },
+            {
+              "a": 157,
+              "b": 164,
+              "lemma": "advance",
+              "meaning": "促进；推进（事业）",
+              "word": "advance",
+              "pos": "v"
+            },
+            {
+              "a": 289,
+              "b": 294,
+              "lemma": "agree",
+              "meaning": "意见一致；同意",
+              "word": "agree",
+              "pos": "v"
+            },
+            {
+              "a": 330,
+              "b": 336,
+              "lemma": "secure",
+              "meaning": "稳定的；有经济保障的",
+              "word": "secure",
+              "pos": "a"
+            },
+            {
+              "a": 387,
+              "b": 395,
+              "lemma": "maintain",
+              "meaning": "认为；主张",
+              "word": "maintain",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 100,
+              "b": 120,
+              "lemma": "personal fulfillment",
+              "meaning": "自我实现带来的满足感",
+              "word": "personal fulfillment"
+            },
+            {
+              "a": 414,
+              "b": 425,
+              "lemma": "best served",
+              "meaning": "最能从中受益的；最有利的",
+              "word": "best served"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -87,12 +359,103 @@
           "a": 0,
           "b": 324,
           "en": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 37,
+              "en": "From career to community and family, ",
+              "zh": "从职业到社区和家庭"
+            },
+            {
+              "a": 37,
+              "b": 66,
+              "en": "these contrasts suggest that ",
+              "zh": "这些差异表明"
+            },
+            {
+              "a": 66,
+              "b": 115,
+              "en": "in the aftermath of the searing Great Recession, ",
+              "zh": "在那场造成深重创伤的大衰退之后"
+            },
+            {
+              "a": 115,
+              "b": 147,
+              "en": "those just starting out in life ",
+              "zh": "那些人生刚刚起步的人"
+            },
+            {
+              "a": 147,
+              "b": 188,
+              "en": "are defining priorities and expectations ",
+              "zh": "正在界定自己的优先事项与期望"
+            },
+            {
+              "a": 188,
+              "b": 266,
+              "en": "that will increasingly spread through virtually all aspects of American life, ",
+              "zh": "这些观念将日益扩散到美国生活几乎所有方面"
+            },
+            {
+              "a": 266,
+              "b": 324,
+              "en": "from consumer preferences to housing patterns to politics.",
+              "zh": "从消费偏好到居住模式，再到政治"
+            }
+          ],
+          "reorder": "把 that will... 的关系从句拆成独立分句，明确扩散的是优先事项与期望；两组 from 表示不同层次的范围。",
+          "translation": "从职业到社区和家庭，这些差异表明，在那场造成深重创伤的大衰退之后，那些人生刚刚起步的人正在界定自己的优先事项与期望，而这些观念将日益扩散到美国生活几乎所有方面，从消费偏好到居住模式，再到政治。",
+          "words": [
+            {
+              "a": 73,
+              "b": 82,
+              "lemma": "aftermath",
+              "meaning": "（重大事件过后的）影响时期",
+              "word": "aftermath",
+              "pos": "n"
+            },
+            {
+              "a": 90,
+              "b": 97,
+              "lemma": "searing",
+              "meaning": "令人痛苦的；造成深重创伤的",
+              "word": "searing",
+              "pos": "a"
+            },
+            {
+              "a": 160,
+              "b": 170,
+              "lemma": "priority",
+              "meaning": "优先事项；最看重的目标",
+              "word": "priorities",
+              "pos": "n"
+            },
+            {
+              "a": 315,
+              "b": 323,
+              "lemma": "politics",
+              "meaning": "政治；政治事务",
+              "word": "politics",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 295,
+              "b": 311,
+              "lemma": "housing patterns",
+              "meaning": "居住模式",
+              "word": "housing patterns"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -105,24 +468,176 @@
           "a": 0,
           "b": 193,
           "en": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 41,
+              "en": "Young and old converge on one key point: ",
+              "zh": "年轻人与老年人在一个关键问题上意见一致"
+            },
+            {
+              "a": 41,
+              "b": 98,
+              "en": "Overwhelming majorities of both groups said they believe ",
+              "zh": "两个群体的绝大多数人都表示，他们认为"
+            },
+            {
+              "a": 98,
+              "b": 157,
+              "en": "it is harder for young people today to get started in life ",
+              "zh": "当今年轻人在人生起步时面临的困难更大"
+            },
+            {
+              "a": 157,
+              "b": 193,
+              "en": "than it was for earlier generations.",
+              "zh": "与前几代人相比"
+            }
+          ],
+          "reorder": "先译一致结论，再译冒号后的内容；将 than 的比较对象放到“更难”前，both 指两个年龄群体。",
+          "translation": "年轻人与老年人在一个关键问题上意见一致：两个群体中的绝大多数人都认为，与前几代人相比，当今年轻人要开始独立生活更为困难。",
+          "words": [
+            {
+              "a": 14,
+              "b": 22,
+              "lemma": "converge",
+              "meaning": "趋于一致；达成一致看法",
+              "word": "converge",
+              "pos": "v"
+            },
+            {
+              "a": 41,
+              "b": 53,
+              "lemma": "overwhelming",
+              "meaning": "压倒性的；绝大部分的",
+              "word": "Overwhelming",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2016-T4-P5-S2",
           "a": 194,
           "b": 568,
           "en": "While younger people are somewhat more optimistic than their elders about the prospects for those starting out today, big majorities in both groups believe those “just getting started in life” face a tougher climb than earlier generations in reaching such signpost achievements as securing a good-paying job, starting a family, managing debt, and finding affordable housing.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 68,
+              "en": "While younger people are somewhat more optimistic than their elders ",
+              "zh": "尽管年轻人比长辈略为乐观"
+            },
+            {
+              "a": 68,
+              "b": 118,
+              "en": "about the prospects for those starting out today, ",
+              "zh": "是在看待当今人生刚起步者的前景时"
+            },
+            {
+              "a": 118,
+              "b": 156,
+              "en": "big majorities in both groups believe ",
+              "zh": "但两个群体中的大多数人都认为"
+            },
+            {
+              "a": 156,
+              "b": 193,
+              "en": "those “just getting started in life” ",
+              "zh": "这些人生刚起步的人"
+            },
+            {
+              "a": 193,
+              "b": 239,
+              "en": "face a tougher climb than earlier generations ",
+              "zh": "与前几代人相比，需要经历更加艰难的攀登"
+            },
+            {
+              "a": 239,
+              "b": 281,
+              "en": "in reaching such signpost achievements as ",
+              "zh": "才能达到这些标志性成就"
+            },
+            {
+              "a": 281,
+              "b": 309,
+              "en": "securing a good-paying job, ",
+              "zh": "获得一份收入不错的工作"
+            },
+            {
+              "a": 309,
+              "b": 343,
+              "en": "starting a family, managing debt, ",
+              "zh": "组建家庭、妥善处理债务"
+            },
+            {
+              "a": 343,
+              "b": 374,
+              "en": "and finding affordable housing.",
+              "zh": "以及找到负担得起的住房"
+            }
+          ],
+          "reorder": "先译 while 的让步比较，再译双方共同判断；将 in reaching 的目标接到“更艰难”后，as 引出的例子逐项列明。",
+          "translation": "尽管年轻人对当今人生刚起步者的前景比长辈略为乐观，但两个群体中的大多数人都认为，与前几代人相比，这些“人生刚起步”的人要获得收入不错的工作、组建家庭、妥善处理债务和找到负担得起的住房等标志性成就，需要经历更加艰难的奋斗。",
+          "words": [
+            {
+              "a": 78,
+              "b": 87,
+              "lemma": "prospect",
+              "meaning": "发展前景",
+              "word": "prospects",
+              "pos": "n"
+            },
+            {
+              "a": 208,
+              "b": 213,
+              "lemma": "climb",
+              "meaning": "艰难奋斗的过程",
+              "word": "climb",
+              "pos": "n"
+            },
+            {
+              "a": 281,
+              "b": 289,
+              "lemma": "secure",
+              "meaning": "获得",
+              "word": "securing",
+              "pos": "v"
+            },
+            {
+              "a": 292,
+              "b": 303,
+              "lemma": "good-paying",
+              "meaning": "报酬丰厚的；收入不错的",
+              "word": "good-paying",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 256,
+              "b": 277,
+              "lemma": "signpost achievements",
+              "meaning": "标志性的人生目标或成就",
+              "word": "signpost achievements"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -135,72 +650,290 @@
           "a": 0,
           "b": 49,
           "en": "Pete Schneider considers the climb tougher today.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 25,
+              "en": "Pete Schneider considers ",
+              "zh": "皮特·施奈德认为"
+            },
+            {
+              "a": 25,
+              "b": 49,
+              "en": "the climb tougher today.",
+              "zh": "如今这段奋斗历程更为艰难"
+            }
+          ],
+          "reorder": "considers 后的宾语补足语直接译为完整判断；climb 承接人生起步的奋斗比喻。",
+          "translation": "皮特·施奈德认为，如今这段奋斗历程更为艰难。",
+          "words": [
+            {
+              "a": 35,
+              "b": 42,
+              "lemma": "tough",
+              "meaning": "更艰难的；难度更大的",
+              "word": "tougher",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2016-T4-P6-S2",
           "a": 50,
           "b": 179,
           "en": "Schneider, a 27-year-old auto technician from the Chicago suburbs, says he struggled to find a job after graduating from college.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 11,
+              "en": "Schneider, ",
+              "zh": "施奈德"
+            },
+            {
+              "a": 11,
+              "b": 67,
+              "en": "a 27-year-old auto technician from the Chicago suburbs, ",
+              "zh": "是一位来自芝加哥郊区的二十七岁汽车技师"
+            },
+            {
+              "a": 67,
+              "b": 72,
+              "en": "says ",
+              "zh": "他说"
+            },
+            {
+              "a": 72,
+              "b": 129,
+              "en": "he struggled to find a job after graduating from college.",
+              "zh": "自己大学毕业后曾艰难地寻找工作"
+            }
+          ],
+          "reorder": "将同位语独立说明身份，再译 says 的内容；after 的时间条件置于找工作前。",
+          "translation": "施奈德是一位来自芝加哥郊区的二十七岁汽车技师，他说自己大学毕业后曾艰难地寻找工作。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2016-T4-P6-S3",
           "a": 180,
           "b": 349,
           "en": "Even now that he is working steadily, he said, “I can't afford to pay my monthly mortgage payments on my own, so I have to rent rooms out to people to make that happen.”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 47,
+              "en": "Even now that he is working steadily, he said, ",
+              "zh": "他说，即使现在工作稳定了"
+            },
+            {
+              "a": 47,
+              "b": 110,
+              "en": "“I can't afford to pay my monthly mortgage payments on my own, ",
+              "zh": "我也无力独自偿还每月的房贷"
+            },
+            {
+              "a": 110,
+              "b": 138,
+              "en": "so I have to rent rooms out ",
+              "zh": "所以我得把房间出租"
+            },
+            {
+              "a": 138,
+              "b": 169,
+              "en": "to people to make that happen.”",
+              "zh": "租给别人，以便付得起房贷"
+            }
+          ],
+          "reorder": "把插入的 he said 提到引语前；make that happen 回指按月偿还房贷，补明指代。",
+          "translation": "他说，即使现在工作稳定了，“我也无力独自偿还每月的房贷，所以必须把房间租给别人，才能付得起房贷。”",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 81,
+              "b": 98,
+              "lemma": "mortgage payments",
+              "meaning": "住房贷款的还款",
+              "word": "mortgage payments"
+            },
+            {
+              "a": 99,
+              "b": 108,
+              "lemma": "on my own",
+              "meaning": "独自；仅靠自己的收入",
+              "word": "on my own"
+            },
+            {
+              "a": 123,
+              "b": 137,
+              "lemma": "rent rooms out",
+              "meaning": "将房间出租",
+              "word": "rent rooms out"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2016-T4-P6-S4",
           "a": 350,
           "b": 506,
           "en": "Looking back, he is struck that his parents could provide a comfortable life for their children even though neither had completed college when he was young.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 14,
+              "en": "Looking back, ",
+              "zh": "回想起来"
+            },
+            {
+              "a": 14,
+              "b": 32,
+              "en": "he is struck that ",
+              "zh": "令他感到惊讶的是"
+            },
+            {
+              "a": 32,
+              "b": 96,
+              "en": "his parents could provide a comfortable life for their children ",
+              "zh": "父母竟能为孩子们提供富足安稳的生活"
+            },
+            {
+              "a": 96,
+              "b": 156,
+              "en": "even though neither had completed college when he was young.",
+              "zh": "尽管在他年幼时，父母双方都还没有完成大学学业"
+            }
+          ],
+          "reorder": "把 even though 的让步条件前置或后置均可；neither 表示父母两人都没有，when he was young 限定当时的学历状况。",
+          "translation": "回想起来，令他惊讶的是，在他年幼时，尽管父母双方都没有完成大学学业，他们仍能为孩子们提供富足安稳的生活。",
+          "words": [
+            {
+              "a": 20,
+              "b": 26,
+              "lemma": "strike",
+              "meaning": "感到惊讶；突然强烈地意识到",
+              "word": "struck",
+              "pos": "v"
+            },
+            {
+              "a": 60,
+              "b": 71,
+              "lemma": "comfortable",
+              "meaning": "富足安稳的",
+              "word": "comfortable",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2016-T4-P6-S5",
           "a": 507,
           "b": 616,
           "en": "“I still grew up in an upper middle-class home with parents who didn't have college degrees,” Schneider said.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 47,
+              "en": "“I still grew up in an upper middle-class home ",
+              "zh": "我仍然是在一个中上阶层家庭长大的"
+            },
+            {
+              "a": 47,
+              "b": 94,
+              "en": "with parents who didn't have college degrees,” ",
+              "zh": "尽管父母没有大学学位"
+            },
+            {
+              "a": 94,
+              "b": 109,
+              "en": "Schneider said.",
+              "zh": "施奈德说"
+            }
+          ],
+          "reorder": "把 who 的学历信息从修饰父母改成让步说明，仍保留前文“没有学历却能生活宽裕”的关系。",
+          "translation": "施奈德说：“父母虽然没有大学学位，我仍然是在一个中上阶层家庭长大的。”",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2016-T4-P6-S6",
           "a": 617,
           "b": 668,
           "en": "“I don't think people are capable of that anymore.”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 15,
+              "en": "“I don't think ",
+              "zh": "我不认为"
+            },
+            {
+              "a": 15,
+              "b": 51,
+              "en": "people are capable of that anymore.”",
+              "zh": "人们如今还有能力做到那样"
+            }
+          ],
+          "reorder": "把英语否定转移到实际判断中，that 指无大学学历仍让孩子过上中上阶层生活。",
+          "translation": "“我认为，如今人们已经没有能力做到那样了。”",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 26,
+              "b": 41,
+              "word": "capable of that",
+              "lemma": "capable of that",
+              "meaning": "有能力做到前述无大学学历也能养育富足家庭之事"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     }

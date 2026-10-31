@@ -6,10 +6,19 @@
   "text": 3,
   "articleKey": "s1-p0-t2",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "aa5c48250ea7e7f4040bb7b3698bd4fc28d18b49f7ef5ac3652a376c21f02438",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2013年考研英语二真题.pdf",
+        "page": 8,
+        "sha256": "b837b50e8442475932957f3b05a9a1f0286112122b716b633b6c962c84977f32"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇对照本地原卷提取正文，核查字形及标点差异；逐句核对句块、语序和译文。"
   },
   "paragraphs": [
     {
@@ -21,12 +30,96 @@
           "a": 0,
           "b": 224,
           "en": "Scientists have found that although we are prone to snap overreactions, if we take a moment and think about how we are likely to react, we can reduce or even eliminate the negative effects of our quick, hard-wired responses.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 22,
+              "en": "Scientists have found ",
+              "zh": "科学家发现"
+            },
+            {
+              "a": 22,
+              "b": 72,
+              "en": "that although we are prone to snap overreactions, ",
+              "zh": "尽管我们容易仓促地反应过度"
+            },
+            {
+              "a": 72,
+              "b": 92,
+              "en": "if we take a moment ",
+              "zh": "但如果花一点时间"
+            },
+            {
+              "a": 92,
+              "b": 136,
+              "en": "and think about how we are likely to react, ",
+              "zh": "想想自己可能会怎样反应"
+            },
+            {
+              "a": 136,
+              "b": 189,
+              "en": "we can reduce or even eliminate the negative effects ",
+              "zh": "我们就能减少甚至消除负面影响"
+            },
+            {
+              "a": 189,
+              "b": 224,
+              "en": "of our quick, hard-wired responses.",
+              "zh": "这些影响来自迅速而根深蒂固的反应"
+            }
+          ],
+          "reorder": "保留“尽管……但如果……就……”的关系，把 of 来源放在“负面影响”前。",
+          "translation": "科学家发现，尽管我们容易仓促地反应过度，但只要花点时间想想自己可能会怎样反应，就能减少甚至消除迅速而根深蒂固的反应带来的负面影响。",
+          "words": [
+            {
+              "a": 43,
+              "b": 48,
+              "word": "prone",
+              "lemma": "prone",
+              "meaning": "容易发生……的；有……倾向的",
+              "pos": "a"
+            },
+            {
+              "a": 52,
+              "b": 56,
+              "word": "snap",
+              "lemma": "snap",
+              "meaning": "迅速而仓促的",
+              "pos": "v"
+            },
+            {
+              "a": 203,
+              "b": 213,
+              "word": "hard-wired",
+              "lemma": "hard-wired",
+              "meaning": "根深蒂固、近乎本能的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 43,
+              "b": 51,
+              "lemma": "prone to",
+              "meaning": "容易……；有……倾向",
+              "word": "prone to"
+            },
+            {
+              "a": 203,
+              "b": 213,
+              "lemma": "hard-wired",
+              "meaning": "近乎本能的；根深蒂固的",
+              "word": "hard-wired"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -39,48 +132,227 @@
           "a": 0,
           "b": 180,
           "en": "Snap decisions can be important defense mechanisms; if we are judging whether someone is dangerous, our brains and bodies are hard-wired to react very quickly, within milliseconds.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 52,
+              "en": "Snap decisions can be important defense mechanisms; ",
+              "zh": "即时判断可能是重要的防御机制"
+            },
+            {
+              "a": 52,
+              "b": 100,
+              "en": "if we are judging whether someone is dangerous, ",
+              "zh": "如果我们在判断一个人是否危险"
+            },
+            {
+              "a": 100,
+              "b": 160,
+              "en": "our brains and bodies are hard-wired to react very quickly, ",
+              "zh": "我们的大脑和身体本来就会非常迅速地反应"
+            },
+            {
+              "a": 160,
+              "b": 180,
+              "en": "within milliseconds.",
+              "zh": "在几毫秒之内作出反应"
+            }
+          ],
+          "reorder": "无需大幅调整语序，分号后用条件与结果解释防御机制。",
+          "translation": "即时判断可能是重要的防御机制：当我们判断某人是否危险时，大脑和身体本来就会在几毫秒内作出极快反应。",
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "Snap",
+              "lemma": "snap",
+              "meaning": "迅速而仓促的",
+              "pos": "a"
+            },
+            {
+              "a": 40,
+              "b": 50,
+              "word": "mechanisms",
+              "lemma": "mechanism",
+              "meaning": "机制；反应系统",
+              "pos": "n"
+            },
+            {
+              "a": 126,
+              "b": 136,
+              "word": "hard-wired",
+              "lemma": "hard-wired",
+              "meaning": "根深蒂固、近乎本能的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 14,
+              "lemma": "snap decisions",
+              "meaning": "即时而仓促的判断",
+              "word": "Snap decisions"
+            },
+            {
+              "a": 126,
+              "b": 136,
+              "lemma": "hard-wired",
+              "meaning": "近乎本能的；根深蒂固的",
+              "word": "hard-wired"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T3-P2-S2",
           "a": 181,
           "b": 227,
           "en": "But we need more time to assess other factors.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 46,
+              "en": "But we need more time to assess other factors.",
+              "zh": "但评估其他因素需要更多时间"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "但评估其他因素需要更多时间。",
+          "words": [
+            {
+              "a": 25,
+              "b": 31,
+              "word": "assess",
+              "lemma": "assess",
+              "meaning": "评估；判断",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T3-P2-S3",
           "a": 228,
           "b": 333,
           "en": "To accurately tell whether someone is sociable, studies show, we need at least a minute, preferably five.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 48,
+              "en": "To accurately tell whether someone is sociable, ",
+              "zh": "要准确判断某人是否合群"
+            },
+            {
+              "a": 48,
+              "b": 62,
+              "en": "studies show, ",
+              "zh": "研究表明"
+            },
+            {
+              "a": 62,
+              "b": 89,
+              "en": "we need at least a minute, ",
+              "zh": "我们至少需要一分钟"
+            },
+            {
+              "a": 89,
+              "b": 105,
+              "en": "preferably five.",
+              "zh": "最好五分钟"
+            }
+          ],
+          "reorder": "把 studies show 提前，引出判断所需时间。",
+          "translation": "研究表明，要准确判断某人是否合群，我们至少需要一分钟，最好五分钟。",
+          "words": [
+            {
+              "a": 38,
+              "b": 46,
+              "word": "sociable",
+              "lemma": "sociable",
+              "meaning": "善于交际的；友好的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T3-P2-S4",
           "a": 334,
           "b": 429,
           "en": "It takes a while to judge complex aspects of personality, like neuroticism or open -mindedness.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 17,
+              "en": "It takes a while ",
+              "zh": "这需要一点时间"
+            },
+            {
+              "a": 17,
+              "b": 58,
+              "en": "to judge complex aspects of personality, ",
+              "zh": "判断性格的复杂方面"
+            },
+            {
+              "a": 58,
+              "b": 95,
+              "en": "like neuroticism or open -mindedness.",
+              "zh": "比如神经质倾向或思想开放程度"
+            }
+          ],
+          "reorder": "将 to judge 内容提前作中文主语。",
+          "translation": "判断性格的复杂方面，比如神经质倾向或思想开放程度，需要一点时间。",
+          "words": [
+            {
+              "a": 63,
+              "b": 74,
+              "word": "neuroticism",
+              "lemma": "neuroticism",
+              "meaning": "神经质倾向；情绪不稳定倾向",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 78,
+              "b": 94,
+              "word": "open -mindedness",
+              "lemma": "open-mindedness",
+              "meaning": "思想开放；愿意接受不同观点（原卷在连字符前有空格）"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -93,36 +365,246 @@
           "a": 0,
           "b": 92,
           "en": "But snap decisions in reaction to rapid stimuli aren't exclusive to the interpersonal realm.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 19,
+              "en": "But snap decisions ",
+              "zh": "但即时判断"
+            },
+            {
+              "a": 19,
+              "b": 48,
+              "en": "in reaction to rapid stimuli ",
+              "zh": "是对迅速刺激的反应"
+            },
+            {
+              "a": 48,
+              "b": 92,
+              "en": "aren't exclusive to the interpersonal realm.",
+              "zh": "并不限于人际交往领域"
+            }
+          ],
+          "reorder": "把 in reaction 修饰放到“即时判断”前。",
+          "translation": "但对迅速刺激作出的即时判断，并不限于人际交往领域。",
+          "words": [
+            {
+              "a": 4,
+              "b": 8,
+              "word": "snap",
+              "lemma": "snap",
+              "meaning": "迅速而仓促的",
+              "pos": "v"
+            },
+            {
+              "a": 40,
+              "b": 47,
+              "word": "stimuli",
+              "lemma": "stimulus",
+              "meaning": "刺激物；诱发反应的信号",
+              "pos": "n"
+            },
+            {
+              "a": 55,
+              "b": 64,
+              "word": "exclusive",
+              "lemma": "exclusive",
+              "meaning": "仅限于……的",
+              "pos": "a"
+            },
+            {
+              "a": 86,
+              "b": 91,
+              "word": "realm",
+              "lemma": "realm",
+              "meaning": "领域",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 4,
+              "b": 18,
+              "lemma": "snap decisions",
+              "meaning": "即时而仓促的判断",
+              "word": "snap decisions"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T3-P3-S2",
           "a": 93,
           "b": 286,
           "en": "Psychologists at the University of Toronto found that viewing a fast-food logo for just a few milliseconds primes us to read 20 percent faster, even though reading has little to do with eating.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 49,
+              "en": "Psychologists at the University of Toronto found ",
+              "zh": "多伦多大学的心理学家发现"
+            },
+            {
+              "a": 49,
+              "b": 107,
+              "en": "that viewing a fast-food logo for just a few milliseconds ",
+              "zh": "只看几毫秒的快餐标志"
+            },
+            {
+              "a": 107,
+              "b": 144,
+              "en": "primes us to read 20 percent faster, ",
+              "zh": "就会使我们的阅读速度提高20%"
+            },
+            {
+              "a": 144,
+              "b": 193,
+              "en": "even though reading has little to do with eating.",
+              "zh": "尽管阅读与吃东西几乎无关"
+            }
+          ],
+          "reorder": "把 viewing 短语译成条件性情景，even though 保留让步。",
+          "translation": "多伦多大学的心理学家发现，只看几毫秒的快餐标志，就会使我们的阅读速度提高20%，尽管阅读与吃东西几乎无关。",
+          "words": [
+            {
+              "a": 64,
+              "b": 73,
+              "word": "fast-food",
+              "lemma": "fast-food",
+              "meaning": "快餐的",
+              "pos": "a"
+            },
+            {
+              "a": 74,
+              "b": 78,
+              "word": "logo",
+              "lemma": "logo",
+              "meaning": "品牌标志",
+              "pos": "n"
+            },
+            {
+              "a": 107,
+              "b": 113,
+              "word": "primes",
+              "lemma": "prime",
+              "meaning": "使预先进入某种反应状态；诱发"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 164,
+              "b": 185,
+              "lemma": "has little to do with",
+              "meaning": "与……没有多大关系",
+              "word": "has little to do with"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T3-P3-S3",
           "a": 287,
           "b": 495,
           "en": "We unconsciously associate fast food with speed and impatience and carry those impulses into whatever else we're doing, Subjects exposed to fast-food flashes also tend to think a musical piece lasts too long.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 63,
+              "en": "We unconsciously associate fast food with speed and impatience ",
+              "zh": "我们无意识地把快餐与速度、不耐烦联系起来"
+            },
+            {
+              "a": 63,
+              "b": 88,
+              "en": "and carry those impulses ",
+              "zh": "并携带这些冲动"
+            },
+            {
+              "a": 88,
+              "b": 120,
+              "en": "into whatever else we're doing, ",
+              "zh": "进入自己正在做的其他任何事情中"
+            },
+            {
+              "a": 120,
+              "b": 158,
+              "en": "Subjects exposed to fast-food flashes ",
+              "zh": "接触过快餐闪现图像的受试者"
+            },
+            {
+              "a": 158,
+              "b": 208,
+              "en": "also tend to think a musical piece lasts too long.",
+              "zh": "也往往觉得一首乐曲太长"
+            }
+          ],
+          "reorder": "前半句先译联想再译扩散，Subjects 后另起中文分句；原卷此处用逗号连接。",
+          "translation": "我们无意识地把快餐与速度和不耐烦联系起来，并把这些冲动带入正在做的其他事情中；接触过快餐闪现图像的受试者，也往往觉得一首乐曲太长。",
+          "words": [
+            {
+              "a": 79,
+              "b": 87,
+              "word": "impulses",
+              "lemma": "impulse",
+              "meaning": "冲动；自发反应倾向",
+              "pos": "n"
+            },
+            {
+              "a": 120,
+              "b": 128,
+              "word": "Subjects",
+              "lemma": "subject",
+              "meaning": "受试者；实验参与者",
+              "pos": "n"
+            },
+            {
+              "a": 140,
+              "b": 149,
+              "word": "fast-food",
+              "lemma": "fast-food",
+              "meaning": "快餐的",
+              "pos": "a"
+            },
+            {
+              "a": 150,
+              "b": 157,
+              "word": "flashes",
+              "lemma": "flash",
+              "meaning": "短暂闪现的图像",
+              "pos": "n"
+            },
+            {
+              "a": 187,
+              "b": 192,
+              "word": "piece",
+              "lemma": "piece",
+              "meaning": "一首音乐作品",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -135,36 +617,178 @@
           "a": 0,
           "b": 35,
           "en": "Yet we can reverse such influences.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 35,
+              "en": "Yet we can reverse such influences.",
+              "zh": "然而，我们可以扭转这些影响"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "然而，我们可以扭转这些影响。",
+          "words": [
+            {
+              "a": 11,
+              "b": 18,
+              "word": "reverse",
+              "lemma": "reverse",
+              "meaning": "扭转；纠正",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T3-P4-S2",
           "a": 36,
           "b": 248,
           "en": "If we know we will overreact to consumer products or housing options when we see a happy face (one reason good sales representatives and real estate agents are always smiling), we can take a moment before buying.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 11,
+              "en": "If we know ",
+              "zh": "如果我们知道"
+            },
+            {
+              "a": 11,
+              "b": 69,
+              "en": "we will overreact to consumer products or housing options ",
+              "zh": "自己会对消费品或住房选项反应过度"
+            },
+            {
+              "a": 69,
+              "b": 94,
+              "en": "when we see a happy face ",
+              "zh": "当看到一张笑脸时"
+            },
+            {
+              "a": 94,
+              "b": 177,
+              "en": "(one reason good sales representatives and real estate agents are always smiling), ",
+              "zh": "这正是优秀销售代表和房地产经纪人总面带微笑的原因之一"
+            },
+            {
+              "a": 177,
+              "b": 212,
+              "en": "we can take a moment before buying.",
+              "zh": "那么购买前就可以停一下"
+            }
+          ],
+          "reorder": "把 when 放到“反应过度”前，括号说明不并入条件主干。",
+          "translation": "如果知道自己看到笑脸时会对消费品或住房选项反应过度，我们就可以在购买前停一下；这也是优秀销售代表和房地产经纪人总面带微笑的原因之一。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 137,
+              "b": 155,
+              "lemma": "real estate agents",
+              "meaning": "房地产经纪人",
+              "word": "real estate agents"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T3-P4-S3",
           "a": 249,
           "b": 411,
           "en": "If we know female job screeners are more likely to reject attractive female applicants, we can help screeners understand their biases – or hire outside screeners.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 11,
+              "en": "If we know ",
+              "zh": "如果我们知道"
+            },
+            {
+              "a": 11,
+              "b": 88,
+              "en": "female job screeners are more likely to reject attractive female applicants, ",
+              "zh": "女性招聘筛选者更可能拒绝漂亮的女性应聘者"
+            },
+            {
+              "a": 88,
+              "b": 134,
+              "en": "we can help screeners understand their biases ",
+              "zh": "就可以帮助筛选者认识自己的偏见"
+            },
+            {
+              "a": 134,
+              "b": 162,
+              "en": "– or hire outside screeners.",
+              "zh": "或者聘请外部筛选人员"
+            }
+          ],
+          "reorder": "按原顺序译，female 分别修饰筛选者和应聘者。",
+          "translation": "如果知道女性招聘筛选者更可能拒绝漂亮的女性应聘者，我们就可以帮助筛选者认识自己的偏见，或者聘请外部筛选人员。",
+          "words": [
+            {
+              "a": 22,
+              "b": 31,
+              "word": "screeners",
+              "lemma": "screener",
+              "meaning": "招聘筛选者",
+              "pos": "n"
+            },
+            {
+              "a": 76,
+              "b": 86,
+              "word": "applicants",
+              "lemma": "applicant",
+              "meaning": "申请人；应聘者",
+              "pos": "n"
+            },
+            {
+              "a": 100,
+              "b": 109,
+              "word": "screeners",
+              "lemma": "screener",
+              "meaning": "招聘筛选者",
+              "pos": "n"
+            },
+            {
+              "a": 127,
+              "b": 133,
+              "word": "biases",
+              "lemma": "bias",
+              "meaning": "偏见；认知偏差",
+              "pos": "n"
+            },
+            {
+              "a": 152,
+              "b": 161,
+              "word": "screeners",
+              "lemma": "screener",
+              "meaning": "招聘筛选者",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -177,24 +801,179 @@
           "a": 0,
           "b": 169,
           "en": "John Gottman, the marriage expert, explains that we quickly “thin slice” information reliably only after we ground such snap reactions in “thick sliced” long-term study.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 14,
+              "en": "John Gottman, ",
+              "zh": "约翰·戈特曼"
+            },
+            {
+              "a": 14,
+              "b": 35,
+              "en": "the marriage expert, ",
+              "zh": "婚姻专家"
+            },
+            {
+              "a": 35,
+              "b": 49,
+              "en": "explains that ",
+              "zh": "解释说"
+            },
+            {
+              "a": 49,
+              "b": 94,
+              "en": "we quickly “thin slice” information reliably ",
+              "zh": "我们快速从少量信息中可靠地作判断"
+            },
+            {
+              "a": 94,
+              "b": 135,
+              "en": "only after we ground such snap reactions ",
+              "zh": "只有先把这些即时反应建立在一个基础上"
+            },
+            {
+              "a": 135,
+              "b": 169,
+              "en": "in “thick sliced” long-term study.",
+              "zh": "即长期深入的研究之上"
+            }
+          ],
+          "reorder": "把 only after 条件提前，身份放在人名前；thin/thick 对照少量瞬时信息与长期深入研究。",
+          "translation": "婚姻专家约翰·戈特曼解释说，只有先把即时反应建立在长期深入研究的基础上，我们才能可靠地凭少量信息快速作出判断。",
+          "words": [
+            {
+              "a": 66,
+              "b": 71,
+              "word": "slice",
+              "lemma": "slice",
+              "meaning": "抽取少量信息进行判断（比喻）",
+              "pos": "n"
+            },
+            {
+              "a": 108,
+              "b": 114,
+              "word": "ground",
+              "lemma": "ground",
+              "meaning": "使建立在……的基础上",
+              "pos": "v"
+            },
+            {
+              "a": 120,
+              "b": 124,
+              "word": "snap",
+              "lemma": "snap",
+              "meaning": "迅速而仓促的",
+              "pos": "a"
+            },
+            {
+              "a": 153,
+              "b": 162,
+              "word": "long-term",
+              "lemma": "long-term",
+              "meaning": "长期的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 61,
+              "b": 71,
+              "lemma": "thin slice",
+              "meaning": "依靠少量即时信息快速判断",
+              "word": "thin slice"
+            },
+            {
+              "a": 139,
+              "b": 151,
+              "lemma": "thick sliced",
+              "meaning": "长期深入地观察分析",
+              "word": "thick sliced"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T3-P5-S2",
           "a": 170,
           "b": 341,
           "en": "When Dr. Gottman really wants to assess whether a couple will stay together, he invites them to his island retreat for a much longer evaluation: two days, not two seconds.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 40,
+              "en": "When Dr. Gottman really wants to assess ",
+              "zh": "当戈特曼博士确实想评估"
+            },
+            {
+              "a": 40,
+              "b": 77,
+              "en": "whether a couple will stay together, ",
+              "zh": "一对夫妻是否会继续在一起"
+            },
+            {
+              "a": 77,
+              "b": 115,
+              "en": "he invites them to his island retreat ",
+              "zh": "他会邀请他们去自己的岛上度假居所"
+            },
+            {
+              "a": 115,
+              "b": 145,
+              "en": "for a much longer evaluation: ",
+              "zh": "进行长得多的评估"
+            },
+            {
+              "a": 145,
+              "b": 171,
+              "en": "two days, not two seconds.",
+              "zh": "用两天，而非两秒钟"
+            }
+          ],
+          "reorder": "按条件在前、做法在后的顺序译，冒号后说明更长的时长。",
+          "translation": "当戈特曼博士确实想评估一对夫妻是否会继续在一起时，他会邀请他们去自己的岛上度假居所，进行更长时间的评估：两天，而非两秒钟。",
+          "words": [
+            {
+              "a": 33,
+              "b": 39,
+              "word": "assess",
+              "lemma": "assess",
+              "meaning": "评估；判断",
+              "pos": "v"
+            },
+            {
+              "a": 107,
+              "b": 114,
+              "word": "retreat",
+              "lemma": "retreat",
+              "meaning": "僻静休息处；度假居所",
+              "pos": "n"
+            },
+            {
+              "a": 133,
+              "b": 143,
+              "word": "evaluation",
+              "lemma": "evaluation",
+              "meaning": "评估",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     },
@@ -207,48 +986,257 @@
           "a": 0,
           "b": 169,
           "en": "Our ability to mute our hard-wired reactions by pausing is what differentiates us from animals: dogs can think about the future only intermittently or for a few minutes.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 12,
+              "en": "Our ability ",
+              "zh": "我们的能力"
+            },
+            {
+              "a": 12,
+              "b": 45,
+              "en": "to mute our hard-wired reactions ",
+              "zh": "抑制根深蒂固的反应的能力"
+            },
+            {
+              "a": 45,
+              "b": 56,
+              "en": "by pausing ",
+              "zh": "通过停顿来做到"
+            },
+            {
+              "a": 56,
+              "b": 96,
+              "en": "is what differentiates us from animals: ",
+              "zh": "正是让我们有别于动物的东西"
+            },
+            {
+              "a": 96,
+              "b": 128,
+              "en": "dogs can think about the future ",
+              "zh": "狗能够思考未来"
+            },
+            {
+              "a": 128,
+              "b": 169,
+              "en": "only intermittently or for a few minutes.",
+              "zh": "但只能时断时续，或持续短短几分钟"
+            }
+          ],
+          "reorder": "把 to mute 和 by pausing 合并为“通过停顿抑制本能反应的能力”，再译区别。",
+          "translation": "我们通过停顿来抑制根深蒂固反应的能力，使我们有别于动物：狗只能时断时续地、或持续短短几分钟思考未来。",
+          "words": [
+            {
+              "a": 15,
+              "b": 19,
+              "word": "mute",
+              "lemma": "mute",
+              "meaning": "减弱；抑制",
+              "pos": "v"
+            },
+            {
+              "a": 24,
+              "b": 34,
+              "word": "hard-wired",
+              "lemma": "hard-wired",
+              "meaning": "根深蒂固、近乎本能的",
+              "pos": "a"
+            },
+            {
+              "a": 64,
+              "b": 78,
+              "word": "differentiates",
+              "lemma": "differentiate",
+              "meaning": "使有别于",
+              "pos": "v"
+            },
+            {
+              "a": 133,
+              "b": 147,
+              "word": "intermittently",
+              "lemma": "intermittently",
+              "meaning": "断断续续地；间歇地",
+              "pos": "adv"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 24,
+              "b": 34,
+              "lemma": "hard-wired",
+              "meaning": "近乎本能的；根深蒂固的",
+              "word": "hard-wired"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T3-P6-S2",
           "a": 170,
           "b": 260,
           "en": "But historically we have spent about 12 percent of our days contemplating the longer term.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 60,
+              "en": "But historically we have spent about 12 percent of our days ",
+              "zh": "但长久以来，我们每天约花12%的时间"
+            },
+            {
+              "a": 60,
+              "b": 90,
+              "en": "contemplating the longer term.",
+              "zh": "思考更长远的未来"
+            }
+          ],
+          "reorder": "无需调整语序，longer term 指较长远的未来。",
+          "translation": "但长久以来，我们每天约花12%的时间思考更长远的未来。",
+          "words": [
+            {
+              "a": 60,
+              "b": 73,
+              "word": "contemplating",
+              "lemma": "contemplate",
+              "meaning": "认真考虑；思考",
+              "pos": "v"
+            },
+            {
+              "a": 85,
+              "b": 89,
+              "word": "term",
+              "lemma": "term",
+              "meaning": "较长期限；长远未来",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T3-P6-S3",
           "a": 261,
           "b": 341,
           "en": "Although technology might change the way we react, it hasn't changed our nature.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 51,
+              "en": "Although technology might change the way we react, ",
+              "zh": "尽管技术可能改变我们的反应方式"
+            },
+            {
+              "a": 51,
+              "b": 80,
+              "en": "it hasn't changed our nature.",
+              "zh": "它并未改变我们的天性"
+            }
+          ],
+          "reorder": "无需调整语序。",
+          "translation": "尽管技术可能改变我们的反应方式，它并未改变我们的天性。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         },
         {
           "id": "2013-T3-P6-S4",
           "a": 342,
           "b": 439,
           "en": "We still have the imaginative capacity to rise above temptation and reverse the high-speed trend.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 39,
+              "en": "We still have the imaginative capacity ",
+              "zh": "我们仍有想象的能力"
+            },
+            {
+              "a": 39,
+              "b": 64,
+              "en": "to rise above temptation ",
+              "zh": "能克服诱惑"
+            },
+            {
+              "a": 64,
+              "b": 97,
+              "en": "and reverse the high-speed trend.",
+              "zh": "并扭转一味求快的趋势"
+            }
+          ],
+          "reorder": "无需调整语序，两个不定式说明能力的用途。",
+          "translation": "我们仍有想象的能力，可以克服诱惑，扭转一味求快的趋势。",
+          "words": [
+            {
+              "a": 30,
+              "b": 38,
+              "word": "capacity",
+              "lemma": "capacity",
+              "meaning": "能力",
+              "pos": "n"
+            },
+            {
+              "a": 53,
+              "b": 63,
+              "word": "temptation",
+              "lemma": "temptation",
+              "meaning": "诱惑",
+              "pos": "n"
+            },
+            {
+              "a": 68,
+              "b": 75,
+              "word": "reverse",
+              "lemma": "reverse",
+              "meaning": "扭转；纠正",
+              "pos": "v"
+            },
+            {
+              "a": 80,
+              "b": 90,
+              "word": "high-speed",
+              "lemma": "high-speed",
+              "meaning": "快速的；高速的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 42,
+              "b": 52,
+              "lemma": "rise above",
+              "meaning": "超越；克服",
+              "word": "rise above"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句英文及译文",
+            "连续句块覆盖",
+            "本句语序",
+            "已列词义及字符位置"
+          ]
         }
       ]
     }

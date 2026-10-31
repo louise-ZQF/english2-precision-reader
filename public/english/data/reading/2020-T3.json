@@ -6,10 +6,19 @@
   "text": 3,
   "articleKey": "s1-p0-t2",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "7867a88e7c56bdd8c1cb641904c13a3b47ac6cc2f3aae53f65c57f47ff917236",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2020年考研英语二真题.pdf",
+        "page": 8,
+        "sha256": "226bdb2bcac0604eda6f62a16062ce2dffe5bfeff86aae77be3eb0aa7d8d0ba5"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇核对本地原卷正文抽取，逐句审读英文与中文；保留原卷文字及标点，仅沿用空白规范。"
   },
   "paragraphs": [
     {
@@ -21,24 +30,126 @@
           "a": 0,
           "b": 127,
           "en": "Madrid was hailed as a public health beacon last November when it rolled out ambitious restrictions on the most polluting cars.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 58,
+              "en": "Madrid was hailed as a public health beacon last November ",
+              "zh": "去年11月，马德里被誉为公共卫生的典范"
+            },
+            {
+              "a": 58,
+              "b": 100,
+              "en": "when it rolled out ambitious restrictions ",
+              "zh": "当时该市推出力度很大的限制措施"
+            },
+            {
+              "a": 100,
+              "b": 127,
+              "en": "on the most polluting cars.",
+              "zh": "针对污染最严重的汽车"
+            }
+          ],
+          "reorder": "先译 when 从句中的措施，再译受到赞誉的结果。",
+          "translation": "去年11月，马德里对污染最严重的汽车实施了力度很大的限制，因此被誉为公共卫生的典范。",
+          "words": [
+            {
+              "a": 11,
+              "b": 17,
+              "lemma": "hail",
+              "meaning": "被称赞为；被视为典范",
+              "word": "hailed",
+              "pos": "v"
+            },
+            {
+              "a": 37,
+              "b": 43,
+              "lemma": "beacon",
+              "meaning": "典范；指引方向的标志（比喻）",
+              "word": "beacon",
+              "pos": "n"
+            },
+            {
+              "a": 112,
+              "b": 121,
+              "lemma": "pollute",
+              "meaning": "造成污染的",
+              "word": "polluting",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 66,
+              "b": 76,
+              "lemma": "roll out",
+              "meaning": "推出；实施",
+              "word": "rolled out"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T3-P1-S2",
           "a": 128,
           "b": 286,
           "en": "Seven months and one election day later, a new conservative city council suspended enforcement of the clean air zone, a first step toward its possible demise.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 41,
+              "en": "Seven months and one election day later, ",
+              "zh": "七个月、一次选举之后"
+            },
+            {
+              "a": 41,
+              "b": 118,
+              "en": "a new conservative city council suspended enforcement of the clean air zone, ",
+              "zh": "新上任的保守派市议会暂停执行清洁空气区规定"
+            },
+            {
+              "a": 118,
+              "b": 158,
+              "en": "a first step toward its possible demise.",
+              "zh": "这可能是走向取消该区域的第一步"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "七个月、一次选举之后，新上任的保守派市议会暂停执行清洁空气区规定，这可能是走向取消该区域的第一步。",
+          "words": [
+            {
+              "a": 73,
+              "b": 82,
+              "lemma": "suspend",
+              "meaning": "暂停",
+              "word": "suspended",
+              "pos": "v"
+            },
+            {
+              "a": 151,
+              "b": 157,
+              "lemma": "demise",
+              "meaning": "终止；被废除",
+              "word": "demise",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -51,36 +162,144 @@
           "a": 0,
           "b": 146,
           "en": "Mayor José Luis Martinez-Almeida made opposition to the zone a centrepiece of his election campaign, despite its success in improving air quality.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 33,
+              "en": "Mayor José Luis Martinez-Almeida ",
+              "zh": "市长何塞·路易斯·马丁内斯-阿尔梅达"
+            },
+            {
+              "a": 33,
+              "b": 101,
+              "en": "made opposition to the zone a centrepiece of his election campaign, ",
+              "zh": "把反对设立该区域作为竞选的核心议题"
+            },
+            {
+              "a": 101,
+              "b": 146,
+              "en": "despite its success in improving air quality.",
+              "zh": "尽管它在改善空气质量方面取得了成效"
+            }
+          ],
+          "reorder": "将 despite 引导的让步背景提到句首。",
+          "translation": "尽管清洁空气区成功改善了空气质量，市长何塞·路易斯·马丁内斯-阿尔梅达仍把反对该区域作为竞选的核心议题。",
+          "words": [
+            {
+              "a": 63,
+              "b": 74,
+              "lemma": "centrepiece",
+              "meaning": "核心议题；重点主张",
+              "word": "centrepiece",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T3-P2-S2",
           "a": 147,
           "b": 241,
           "en": "A judge has now overruled the city's decision to stop levying fines, ordering them reinstated.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 69,
+              "en": "A judge has now overruled the city's decision to stop levying fines, ",
+              "zh": "如今，一名法官已推翻该市停止罚款的决定"
+            },
+            {
+              "a": 69,
+              "b": 94,
+              "en": "ordering them reinstated.",
+              "zh": "并命令恢复罚款"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "如今，一名法官已推翻该市停止罚款的决定，并命令恢复罚款。",
+          "words": [
+            {
+              "a": 16,
+              "b": 25,
+              "lemma": "overrule",
+              "meaning": "推翻（先前决定）",
+              "word": "overruled",
+              "pos": "v"
+            },
+            {
+              "a": 83,
+              "b": 93,
+              "lemma": "reinstate",
+              "meaning": "恢复实施的",
+              "word": "reinstated",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 54,
+              "b": 67,
+              "lemma": "levy fines",
+              "meaning": "征收罚款",
+              "word": "levying fines"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T3-P2-S3",
           "a": 242,
           "b": 314,
           "en": "But with legal battles ahead, the zone's future looks uncertain at best.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 30,
+              "en": "But with legal battles ahead, ",
+              "zh": "但前面还有法律争执"
+            },
+            {
+              "a": 30,
+              "b": 72,
+              "en": "the zone's future looks uncertain at best.",
+              "zh": "清洁空气区的未来充其量只能说尚不确定"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "但接下来还有法律争执，清洁空气区的前景充其量只能说尚不确定。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 64,
+              "b": 71,
+              "lemma": "at best",
+              "meaning": "即便往好处看；充其量",
+              "word": "at best"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -93,24 +312,122 @@
           "a": 0,
           "b": 153,
           "en": "Among other weaknesses, the measures cities must employ when left to tackle dirty air on their own are politically contentious, and therefore vulnerable.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 24,
+              "en": "Among other weaknesses, ",
+              "zh": "除其他缺点外"
+            },
+            {
+              "a": 24,
+              "b": 99,
+              "en": "the measures cities must employ when left to tackle dirty air on their own ",
+              "zh": "城市在独自应对空气污染时不得不采用的措施"
+            },
+            {
+              "a": 99,
+              "b": 128,
+              "en": "are politically contentious, ",
+              "zh": "在政治上争议很大"
+            },
+            {
+              "a": 128,
+              "b": 153,
+              "en": "and therefore vulnerable.",
+              "zh": "因此很容易被推翻"
+            }
+          ],
+          "reorder": "把 cities must employ 和 when left… 合成“城市独自应对空气污染时不得不采用的”，放在“措施”前。",
+          "translation": "除其他缺点外，城市独自应对空气污染时不得不采用的措施，在政治上争议很大，因此很容易被推翻。",
+          "words": [
+            {
+              "a": 115,
+              "b": 126,
+              "lemma": "contentious",
+              "meaning": "引起争议的",
+              "word": "contentious",
+              "pos": "a"
+            },
+            {
+              "a": 142,
+              "b": 152,
+              "lemma": "vulnerable",
+              "meaning": "容易因政治变化被推翻的；脆弱的",
+              "word": "vulnerable",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T3-P3-S2",
           "a": 154,
           "b": 381,
           "en": "That's because they inevitably put the costs of cleaning the air on to individual drivers—who must pay fees or buy better vehicles—rather than on to the car manufacturers whose cheating is the real cause of our toxic pollution.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 90,
+              "en": "That's because they inevitably put the costs of cleaning the air on to individual drivers—",
+              "zh": "这是因为，这些措施不可避免地把净化空气的成本转嫁给个人车主"
+            },
+            {
+              "a": 90,
+              "b": 131,
+              "en": "who must pay fees or buy better vehicles—",
+              "zh": "他们必须缴费或购买更环保的车"
+            },
+            {
+              "a": 131,
+              "b": 171,
+              "en": "rather than on to the car manufacturers ",
+              "zh": "而不是让汽车制造商承担"
+            },
+            {
+              "a": 171,
+              "b": 227,
+              "en": "whose cheating is the real cause of our toxic pollution.",
+              "zh": "其实制造商的作弊才是有毒污染的真正根源"
+            }
+          ],
+          "reorder": "把 who must pay… 合入车主承担成本的方式；将 whose cheating 另接一句说明制造商责任。",
+          "translation": "这是因为，这些措施不可避免地让个人车主通过缴费或购买更环保的车来承担净化空气的成本，而没有让汽车制造商承担；制造商的作弊才是有毒污染的真正根源。",
+          "words": [
+            {
+              "a": 177,
+              "b": 185,
+              "lemma": "cheating",
+              "meaning": "违规欺骗行为",
+              "word": "cheating",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 71,
+              "b": 89,
+              "lemma": "individual drivers",
+              "meaning": "每一位驾驶者",
+              "word": "individual drivers"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -123,36 +440,142 @@
           "a": 0,
           "b": 64,
           "en": "It's not hard to imagine a similar reversal happening in London.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 25,
+              "en": "It's not hard to imagine ",
+              "zh": "不难想象"
+            },
+            {
+              "a": 25,
+              "b": 64,
+              "en": "a similar reversal happening in London.",
+              "zh": "类似的政策逆转也可能发生在伦敦"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "不难想象，伦敦也可能发生类似的政策逆转。",
+          "words": [
+            {
+              "a": 35,
+              "b": 43,
+              "lemma": "reversal",
+              "meaning": "政策逆转；撤回原先措施",
+              "word": "reversal",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T3-P4-S2",
           "a": 65,
           "b": 164,
           "en": "The new ultra-low emission zone (Ulez) is likely to be a big issue in next year's mayoral election.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 39,
+              "en": "The new ultra-low emission zone (Ulez) ",
+              "zh": "新设立的超低排放区（Ulez）"
+            },
+            {
+              "a": 39,
+              "b": 99,
+              "en": "is likely to be a big issue in next year's mayoral election.",
+              "zh": "很可能成为明年市长选举的重大议题"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "新设立的超低排放区很可能成为明年市长选举的重大议题。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 8,
+              "b": 31,
+              "lemma": "ultra-low emission zone",
+              "meaning": "超低排放区",
+              "word": "ultra-low emission zone"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T3-P4-S3",
           "a": 165,
           "b": 369,
           "en": "And if Sadiq khan wins and extends it to the North and South Circular roads in 2021 as he intends, it is sure to spark intense opposition from the far larger number of motorists who will then be affected.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 23,
+              "en": "And if Sadiq khan wins ",
+              "zh": "而如果萨迪克·汗获胜"
+            },
+            {
+              "a": 23,
+              "b": 99,
+              "en": "and extends it to the North and South Circular roads in 2021 as he intends, ",
+              "zh": "并按计划在2021年把该区扩展到南北环城路"
+            },
+            {
+              "a": 99,
+              "b": 138,
+              "en": "it is sure to spark intense opposition ",
+              "zh": "就必然引发强烈反对"
+            },
+            {
+              "a": 138,
+              "b": 204,
+              "en": "from the far larger number of motorists who will then be affected.",
+              "zh": "来自届时会受影响、人数多得多的车主"
+            }
+          ],
+          "reorder": "先译后置的车主数量及受影响情况，再译他们的反对。",
+          "translation": "而如果萨迪克·汗获胜，并按计划在2021年把该区扩展到南北环城路，届时会受影响的车主人数将大大增加，必然会引发他们的强烈反对。",
+          "words": [
+            {
+              "a": 113,
+              "b": 118,
+              "lemma": "spark",
+              "meaning": "引起；激起",
+              "word": "spark",
+              "pos": "v"
+            },
+            {
+              "a": 168,
+              "b": 177,
+              "lemma": "motorist",
+              "meaning": "驾车者",
+              "word": "motorists",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -165,60 +588,199 @@
           "a": 0,
           "b": 57,
           "en": "It's not that measures such as London's Ulez are useless.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 14,
+              "en": "It's not that ",
+              "zh": "并不是说"
+            },
+            {
+              "a": 14,
+              "b": 57,
+              "en": "measures such as London's Ulez are useless.",
+              "zh": "伦敦超低排放区这样的措施没有用"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "这并不是说伦敦超低排放区这样的措施没有用。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T3-P5-S2",
           "a": 58,
           "b": 70,
           "en": "Far from it.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 12,
+              "en": "Far from it.",
+              "zh": "事实远非如此"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "事实远非如此。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T3-P5-S3",
           "a": 71,
           "b": 198,
           "en": "Local officials are using the levers that are available to them to safeguard residents' health in the face of a serious threat.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 64,
+              "en": "Local officials are using the levers that are available to them ",
+              "zh": "地方官员正在动用手头可用的手段"
+            },
+            {
+              "a": 64,
+              "b": 95,
+              "en": "to safeguard residents' health ",
+              "zh": "来保护居民健康"
+            },
+            {
+              "a": 95,
+              "b": 127,
+              "en": "in the face of a serious threat.",
+              "zh": "应对严重威胁"
+            }
+          ],
+          "reorder": "将 in the face of 的处境放在句首。",
+          "translation": "面对严重威胁，地方官员正在动用现有手段来保护居民健康。",
+          "words": [
+            {
+              "a": 30,
+              "b": 36,
+              "lemma": "lever",
+              "meaning": "可使用的政策手段",
+              "word": "levers",
+              "pos": "n"
+            },
+            {
+              "a": 67,
+              "b": 76,
+              "lemma": "safeguard",
+              "meaning": "保护；保障",
+              "word": "safeguard",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T3-P5-S4",
           "a": 199,
           "b": 395,
           "en": "The zones do deliver some improvements to air quality, and the science tells us that means real health benefits—fewer heart attacks, strokes and premature births, less cancer, dementia and asthma.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 55,
+              "en": "The zones do deliver some improvements to air quality, ",
+              "zh": "这些区域确实改善了一些空气质量"
+            },
+            {
+              "a": 55,
+              "b": 112,
+              "en": "and the science tells us that means real health benefits—",
+              "zh": "而科学告诉我们，这意味着切实的健康益处"
+            },
+            {
+              "a": 112,
+              "b": 163,
+              "en": "fewer heart attacks, strokes and premature births, ",
+              "zh": "心脏病发作、中风和早产减少"
+            },
+            {
+              "a": 163,
+              "b": 196,
+              "en": "less cancer, dementia and asthma.",
+              "zh": "癌症、痴呆和哮喘也减少"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "这些区域确实在一定程度上改善了空气质量，而科学告诉我们，这会带来切实的健康益处：心脏病发作、中风、早产以及癌症、痴呆和哮喘都会减少。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 145,
+              "b": 161,
+              "lemma": "premature births",
+              "meaning": "早产",
+              "word": "premature births"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T3-P5-S5",
           "a": 396,
           "b": 418,
           "en": "Fewer untimely deaths.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 22,
+              "en": "Fewer untimely deaths.",
+              "zh": "过早死亡的人也会减少"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "过早死亡的人也会减少。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 6,
+              "b": 21,
+              "lemma": "untimely deaths",
+              "meaning": "过早死亡",
+              "word": "untimely deaths"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -231,24 +793,87 @@
           "a": 0,
           "b": 107,
           "en": "But mayors and councilors can only do so much about a problem that is far bigger than any one city or town.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 46,
+              "en": "But mayors and councilors can only do so much ",
+              "zh": "但市长和市议员能做的终究有限"
+            },
+            {
+              "a": 46,
+              "b": 107,
+              "en": "about a problem that is far bigger than any one city or town.",
+              "zh": "因为这一问题远远超出任何一座城市或城镇"
+            }
+          ],
+          "reorder": "先译 about 后说明的问题规模，再译地方官员的能力限度。",
+          "translation": "但这一问题的规模远远超出任何一座城市或城镇，市长和市议员能做的终究有限。",
+          "words": [
+            {
+              "a": 15,
+              "b": 25,
+              "lemma": "councilor",
+              "meaning": "市议员；地方议会成员",
+              "word": "councilors",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 26,
+              "b": 45,
+              "lemma": "can only do so much",
+              "meaning": "所能做的事情有限",
+              "word": "can only do so much"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T3-P6-S2",
           "a": 108,
           "b": 209,
           "en": "They are acting because national governments—Britain's and others across Europe—have failed to do so.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 45,
+              "en": "They are acting because national governments—",
+              "zh": "他们之所以采取行动，是因为各国政府"
+            },
+            {
+              "a": 45,
+              "b": 80,
+              "en": "Britain's and others across Europe—",
+              "zh": "包括英国及欧洲其他国家的政府"
+            },
+            {
+              "a": 80,
+              "b": 101,
+              "en": "have failed to do so.",
+              "zh": "没有采取行动"
+            }
+          ],
+          "reorder": "将破折号中的 Britain's and others across Europe 并入“政府”前，明确各国范围。",
+          "translation": "他们之所以采取行动，是因为英国及欧洲其他国家的政府都没有采取应有的行动。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -261,36 +886,164 @@
           "a": 0,
           "b": 277,
           "en": "Restrictions that keep highly polluting cars out of certain areas—city centres, “school streets”, even individual roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles into compliance.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 66,
+              "en": "Restrictions that keep highly polluting cars out of certain areas—",
+              "zh": "禁止高污染汽车进入某些区域的限制措施"
+            },
+            {
+              "a": 66,
+              "b": 120,
+              "en": "city centres, “school streets”, even individual roads—",
+              "zh": "这些区域包括市中心、“学校周边街道”，甚至个别道路"
+            },
+            {
+              "a": 120,
+              "b": 169,
+              "en": "are a response to the absence of a larger effort ",
+              "zh": "是对更大范围行动缺位的应对"
+            },
+            {
+              "a": 169,
+              "b": 210,
+              "en": "to properly enforce existing regulations ",
+              "zh": "本应切实执行现有规定"
+            },
+            {
+              "a": 210,
+              "b": 277,
+              "en": "and require auto companies to bring their vehicles into compliance.",
+              "zh": "并要求车企让车辆达到规定标准"
+            }
+          ],
+          "reorder": "将 to enforce 和 require 所说明的行动内容并入“缺少更大范围的行动”，再接地方应对措施。",
+          "translation": "禁止高污染汽车进入市中心、“学校周边街道”乃至个别道路，是因为缺少更大范围的行动来切实执行现有规定、要求车企让车辆达标而采取的应对措施。",
+          "words": [
+            {
+              "a": 30,
+              "b": 39,
+              "lemma": "pollute",
+              "meaning": "造成污染的",
+              "word": "polluting",
+              "pos": "a"
+            },
+            {
+              "a": 181,
+              "b": 188,
+              "lemma": "enforce",
+              "meaning": "执行；实施（法规）",
+              "word": "enforce",
+              "pos": "v"
+            },
+            {
+              "a": 266,
+              "b": 276,
+              "lemma": "compliance",
+              "meaning": "符合规定；达到法定标准",
+              "word": "compliance",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T3-P7-S2",
           "a": 278,
           "b": 346,
           "en": "Wales has introduced special low speed limits to minimise pollution.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 46,
+              "en": "Wales has introduced special low speed limits ",
+              "zh": "威尔士实行了特别的低速限速措施"
+            },
+            {
+              "a": 46,
+              "b": 68,
+              "en": "to minimise pollution.",
+              "zh": "以尽可能减少污染"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "威尔士实行了特别的低速限速措施，以尽可能减少污染。",
+          "words": [
+            {
+              "a": 39,
+              "b": 45,
+              "lemma": "limit",
+              "meaning": "限速标准",
+              "word": "limits",
+              "pos": "n"
+            },
+            {
+              "a": 49,
+              "b": 57,
+              "lemma": "minimise",
+              "meaning": "把……降至最低；尽量减少",
+              "word": "minimise",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2020-T3-P7-S3",
           "a": 347,
           "b": 420,
           "en": "We're doing everything but insist that manufacturers clean up their cars.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 23,
+              "en": "We're doing everything ",
+              "zh": "我们什么办法都在用"
+            },
+            {
+              "a": 23,
+              "b": 73,
+              "en": "but insist that manufacturers clean up their cars.",
+              "zh": "唯独没有坚持要求制造商减少汽车污染"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "我们什么办法都在用，却唯独没有坚持要求制造商减少汽车排放污染。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 12,
+              "b": 26,
+              "lemma": "everything but",
+              "meaning": "做了各式各样的事，却唯独不……",
+              "word": "everything but"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     }

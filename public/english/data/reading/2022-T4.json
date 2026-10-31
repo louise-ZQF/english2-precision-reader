@@ -6,10 +6,21 @@
   "text": 4,
   "articleKey": "s1-p0-t3",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "870ef852765f9cd72ef03b80dad9a2e3e58f00c76c6b487efbd585d610b2719b",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2022年考研英语二真题.pdf",
+        "page": 10,
+        "sha256": "6905f827ee76eb3d4165c7aaeb09af9387c60addbd5af8e959d5e8a9ddcfa7f8"
+      }
+    ],
+    "notes": [
+      "对照原卷确认分组、样本量、52%降至45%及因果解释局限；不将观察结果写成普遍定论。"
+    ],
+    "checkedAt": "2026-10-31",
+    "method": "逐段对照用户提供的原卷；保留原卷有效英文，修复旧题库的漏句、多句及录入错误后逐句编辑中文。"
   },
   "paragraphs": [
     {
@@ -21,24 +32,126 @@
           "a": 0,
           "b": 226,
           "en": "Although ethics classes are common around the world, scientists are unsure if their lessons can actually change behavior; evidence either way is weak, relying on contrived laboratory tests or sometimes unreliable self-reports.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 53,
+              "en": "Although ethics classes are common around the world, ",
+              "zh": "尽管伦理课在世界各地都很常见，"
+            },
+            {
+              "a": 53,
+              "b": 75,
+              "en": "scientists are unsure ",
+              "zh": "科学家仍不确定，"
+            },
+            {
+              "a": 75,
+              "b": 122,
+              "en": "if their lessons can actually change behavior; ",
+              "zh": "这些课程能否真正改变行为；"
+            },
+            {
+              "a": 122,
+              "b": 151,
+              "en": "evidence either way is weak, ",
+              "zh": "支持任一结论的证据都不充分，"
+            },
+            {
+              "a": 151,
+              "b": 226,
+              "en": "relying on contrived laboratory tests or sometimes unreliable self-reports.",
+              "zh": "因为证据依赖人为设计的实验室测试或有时并不可靠的自我报告。"
+            }
+          ],
+          "reorder": "if 引出“是否”而非条件；分号后解释不确定的原因，either way 同时涵盖有效和无效两种结论。",
+          "translation": "尽管伦理课在世界各地都很常见，科学家仍不确定它们能否真正改变行为；支持有效或无效的证据都不充分，因为这些证据依赖人为设计的实验室测试，或有时并不可靠的自我报告。",
+          "words": [
+            {
+              "a": 9,
+              "b": 15,
+              "word": "ethics",
+              "lemma": "ethics",
+              "meaning": "伦理；道德规范"
+            },
+            {
+              "a": 162,
+              "b": 171,
+              "word": "contrived",
+              "lemma": "contrived",
+              "meaning": "人为设计的；不够自然真实的"
+            },
+            {
+              "a": 213,
+              "b": 225,
+              "word": "self-reports",
+              "lemma": "self-report",
+              "meaning": "自我报告"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T4-P1-S2",
           "a": 227,
           "b": 368,
           "en": "But a new study published in Cognition found that, in at least one real-world situation, a single ethics lesson may have had lasting effects.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 51,
+              "en": "But a new study published in Cognition found that, ",
+              "zh": "但一项发表于《认知》的新研究发现，"
+            },
+            {
+              "a": 51,
+              "b": 89,
+              "en": "in at least one real-world situation, ",
+              "zh": "至少在一种现实情境中，"
+            },
+            {
+              "a": 89,
+              "b": 141,
+              "en": "a single ethics lesson may have had lasting effects.",
+              "zh": "仅一堂伦理课就可能产生持续影响。"
+            }
+          ],
+          "reorder": "把期刊及新研究合在主语中；in at least 限定结论的适用范围，may 仍表示可能。",
+          "translation": "但一项发表于《认知》的新研究发现，至少在一种现实情境中，仅一堂伦理课就可能产生持续影响。",
+          "words": [
+            {
+              "a": 98,
+              "b": 104,
+              "word": "ethics",
+              "lemma": "ethic",
+              "meaning": "伦理；道德问题",
+              "pos": "n"
+            },
+            {
+              "a": 125,
+              "b": 132,
+              "word": "lasting",
+              "lemma": "lasting",
+              "meaning": "持久的；持续的"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -51,60 +164,373 @@
           "a": 0,
           "b": 71,
           "en": "The researchers investigated one class session's impact on eating meat.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 29,
+              "en": "The researchers investigated ",
+              "zh": "研究人员考察了，"
+            },
+            {
+              "a": 29,
+              "b": 56,
+              "en": "one class session's impact ",
+              "zh": "一堂课的影响，"
+            },
+            {
+              "a": 56,
+              "b": 71,
+              "en": "on eating meat.",
+              "zh": "针对吃肉这一行为。"
+            }
+          ],
+          "reorder": "把 on 的行为对象接到“影响”前，session 是一堂课而非整个学期。",
+          "translation": "研究人员考察了一堂课对吃肉行为的影响。",
+          "words": [
+            {
+              "a": 39,
+              "b": 46,
+              "word": "session",
+              "lemma": "session",
+              "meaning": "一次课程；一次教学活动",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T4-P2-S2",
           "a": 72,
           "b": 450,
           "en": "They chose this particular behavior for three reasons, according to study co-author Eric Schwitzgebel, a philosopher at the University of California, Riverside: students' attitudes on the topic are variable and unstable, behavior is easily measurable, and ethics literature largely agrees that eating less meat is good because it reduces environmental harm and animal suffering.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 36,
+              "en": "They chose this particular behavior ",
+              "zh": "他们选择这一特定行为，"
+            },
+            {
+              "a": 36,
+              "b": 55,
+              "en": "for three reasons, ",
+              "zh": "基于三个理由，"
+            },
+            {
+              "a": 55,
+              "b": 103,
+              "en": "according to study co-author Eric Schwitzgebel, ",
+              "zh": "据研究合著者埃里克·施维茨格贝尔解释，"
+            },
+            {
+              "a": 103,
+              "b": 161,
+              "en": "a philosopher at the University of California, Riverside: ",
+              "zh": "他是加州大学河滨分校的哲学家："
+            },
+            {
+              "a": 161,
+              "b": 221,
+              "en": "students' attitudes on the topic are variable and unstable, ",
+              "zh": "学生对此的态度多变且不稳定，"
+            },
+            {
+              "a": 221,
+              "b": 252,
+              "en": "behavior is easily measurable, ",
+              "zh": "行为容易测量，"
+            },
+            {
+              "a": 252,
+              "b": 319,
+              "en": "and ethics literature largely agrees that eating less meat is good ",
+              "zh": "而且伦理学文献普遍认为少吃肉是好事，"
+            },
+            {
+              "a": 319,
+              "b": 378,
+              "en": "because it reduces environmental harm and animal suffering.",
+              "zh": "因为这样能减少环境损害和动物痛苦。"
+            }
+          ],
+          "reorder": "将 according to 的人物与身份放到句首；冒号后并列三个理由，because 只解释第三项少吃肉为何有益。",
+          "translation": "研究合著者、加州大学河滨分校哲学家埃里克·施维茨格贝尔解释说，他们选择吃肉这一行为有三个理由：学生的相关态度多变且不稳定，行为容易测量，而且伦理学文献普遍认为少吃肉能减少环境损害和动物痛苦，因此是有益的。",
+          "words": [
+            {
+              "a": 46,
+              "b": 53,
+              "word": "reasons",
+              "lemma": "reason",
+              "meaning": "原因；理由",
+              "pos": "n"
+            },
+            {
+              "a": 198,
+              "b": 206,
+              "word": "variable",
+              "lemma": "variable",
+              "meaning": "不稳定的；因人或情境而变的",
+              "pos": "a"
+            },
+            {
+              "a": 211,
+              "b": 219,
+              "word": "unstable",
+              "lemma": "unstable",
+              "meaning": "不稳定的",
+              "pos": "a"
+            },
+            {
+              "a": 256,
+              "b": 262,
+              "word": "ethics",
+              "lemma": "ethic",
+              "meaning": "伦理；道德问题",
+              "pos": "n"
+            },
+            {
+              "a": 368,
+              "b": 377,
+              "word": "suffering",
+              "lemma": "suffering",
+              "meaning": "痛苦",
+              "pos": "n"
+            },
+            {
+              "a": 263,
+              "b": 273,
+              "word": "literature",
+              "lemma": "literature",
+              "meaning": "某学科的研究文献"
+            },
+            {
+              "a": 240,
+              "b": 250,
+              "word": "measurable",
+              "lemma": "measurable",
+              "meaning": "可测量的"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T4-P2-S3",
           "a": 451,
           "b": 644,
           "en": "Half of the students in four large philosophy classes read an article on the ethics of factory-farmed meat, optionally watched an 11-minute video on the topic and joined a 50-minute discussion.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 54,
+              "en": "Half of the students in four large philosophy classes ",
+              "zh": "四个哲学大班中一半的学生，"
+            },
+            {
+              "a": 54,
+              "b": 108,
+              "en": "read an article on the ethics of factory-farmed meat, ",
+              "zh": "阅读了一篇讨论工厂化养殖肉类伦理问题的文章，"
+            },
+            {
+              "a": 108,
+              "b": 159,
+              "en": "optionally watched an 11-minute video on the topic ",
+              "zh": "自行选择是否观看一段11分钟的相关视频，"
+            },
+            {
+              "a": 159,
+              "b": 193,
+              "en": "and joined a 50-minute discussion.",
+              "zh": "并参加了50分钟的讨论。"
+            }
+          ],
+          "reorder": "按三个并列活动顺序译；optionally 仅修饰观看视频，不表示所有活动都可选。",
+          "translation": "四个哲学大班中一半的学生阅读了一篇讨论工厂化养殖肉类伦理问题的文章，自行选择是否观看11分钟的相关视频，并参加了50分钟的讨论。",
+          "words": [
+            {
+              "a": 77,
+              "b": 83,
+              "word": "ethics",
+              "lemma": "ethic",
+              "meaning": "伦理；道德问题",
+              "pos": "n"
+            },
+            {
+              "a": 87,
+              "b": 101,
+              "word": "factory-farmed",
+              "lemma": "factory-farmed",
+              "meaning": "工厂化养殖的"
+            },
+            {
+              "a": 108,
+              "b": 118,
+              "word": "optionally",
+              "lemma": "optionally",
+              "meaning": "可自行选择地"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T4-P2-S4",
           "a": 645,
           "b": 697,
           "en": "The other half focused on charitable giving instead.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 15,
+              "en": "The other half ",
+              "zh": "另一半学生，"
+            },
+            {
+              "a": 15,
+              "b": 44,
+              "en": "focused on charitable giving ",
+              "zh": "关注慈善捐赠，"
+            },
+            {
+              "a": 44,
+              "b": 52,
+              "en": "instead.",
+              "zh": "而不是肉类伦理问题。"
+            }
+          ],
+          "reorder": "instead 补明与前一组的主题对照。",
+          "translation": "另一半学生讨论的则是慈善捐赠。",
+          "words": [
+            {
+              "a": 26,
+              "b": 36,
+              "word": "charitable",
+              "lemma": "charitable",
+              "meaning": "慈善的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 26,
+              "b": 43,
+              "word": "charitable giving",
+              "lemma": "charitable giving",
+              "meaning": "慈善捐赠"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T4-P2-S5",
           "a": 698,
           "b": 855,
           "en": "Then, unknown to the students, the researchers studied their anonymized meal-card purchases for that semester—nearly 14,000 receipts for almost 500 students.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 6,
+              "en": "Then, ",
+              "zh": "随后，"
+            },
+            {
+              "a": 6,
+              "b": 31,
+              "en": "unknown to the students, ",
+              "zh": "在学生不知情的情况下，"
+            },
+            {
+              "a": 31,
+              "b": 92,
+              "en": "the researchers studied their anonymized meal-card purchases ",
+              "zh": "研究人员分析了他们匿名化的餐卡消费记录，"
+            },
+            {
+              "a": 92,
+              "b": 110,
+              "en": "for that semester—",
+              "zh": "该学期的记录，"
+            },
+            {
+              "a": 110,
+              "b": 157,
+              "en": "nearly 14,000 receipts for almost 500 students.",
+              "zh": "涉及近500名学生的近1.4万张消费凭据。"
+            }
+          ],
+          "reorder": "把 unknown 的插入条件和学期时间提到分析前；破折号后补充样本规模。",
+          "translation": "随后，在学生不知情的情况下，研究人员分析了他们该学期匿名化的餐卡消费记录，涉及近500名学生的近1.4万张消费凭据。",
+          "words": [
+            {
+              "a": 101,
+              "b": 109,
+              "word": "semester",
+              "lemma": "semester",
+              "meaning": "学期",
+              "pos": "n"
+            },
+            {
+              "a": 61,
+              "b": 71,
+              "word": "anonymized",
+              "lemma": "anonymize",
+              "meaning": "作匿名化处理的"
+            },
+            {
+              "a": 124,
+              "b": 132,
+              "word": "receipts",
+              "lemma": "receipt",
+              "meaning": "消费凭据；收据"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 72,
+              "b": 91,
+              "lemma": "meal-card purchases",
+              "meaning": "餐卡消费记录",
+              "word": "meal-card purchases"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -117,36 +543,201 @@
           "a": 0,
           "b": 237,
           "en": "Schwitzgebel predicted the intervention would have no effect; he had previously found that ethics professors do not differ from other professors on a range of behaviors, including voting rates, blood donation and returning library books.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 23,
+              "en": "Schwitzgebel predicted ",
+              "zh": "施维茨格贝尔原先预测，"
+            },
+            {
+              "a": 23,
+              "b": 62,
+              "en": "the intervention would have no effect; ",
+              "zh": "这次干预不会有效；"
+            },
+            {
+              "a": 62,
+              "b": 86,
+              "en": "he had previously found ",
+              "zh": "他此前发现，"
+            },
+            {
+              "a": 86,
+              "b": 170,
+              "en": "that ethics professors do not differ from other professors on a range of behaviors, ",
+              "zh": "伦理学教授与其他教授在多种行为上并无差异，"
+            },
+            {
+              "a": 170,
+              "b": 237,
+              "en": "including voting rates, blood donation and returning library books.",
+              "zh": "包括投票率、献血以及归还图书馆书籍。"
+            }
+          ],
+          "reorder": "分号前为预测，后为此前依据；no effect 和 do not differ 两处否定都要保留。",
+          "translation": "施维茨格贝尔原先预测这次干预不会有效；他此前发现，伦理学教授与其他教授在投票率、献血、归还图书馆书籍等多种行为上并无差异。",
+          "words": [
+            {
+              "a": 91,
+              "b": 97,
+              "word": "ethics",
+              "lemma": "ethic",
+              "meaning": "伦理；道德问题",
+              "pos": "n"
+            },
+            {
+              "a": 27,
+              "b": 39,
+              "word": "intervention",
+              "lemma": "intervention",
+              "meaning": "干预措施"
+            },
+            {
+              "a": 116,
+              "b": 122,
+              "word": "differ",
+              "lemma": "differ",
+              "meaning": "有差异"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T4-P3-S2",
           "a": 238,
           "b": 425,
           "en": "But among student subjects who discussed meat ethics, meal purchases containing meat decreased from 52 to 45 percent—and this effect held steady for the study's duration of several weeks.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 54,
+              "en": "But among student subjects who discussed meat ethics, ",
+              "zh": "然而，在讨论了肉类伦理问题的学生受试者中，"
+            },
+            {
+              "a": 54,
+              "b": 85,
+              "en": "meal purchases containing meat ",
+              "zh": "含肉餐食的购买比例，"
+            },
+            {
+              "a": 85,
+              "b": 117,
+              "en": "decreased from 52 to 45 percent—",
+              "zh": "从52%降到了45%，"
+            },
+            {
+              "a": 117,
+              "b": 145,
+              "en": "and this effect held steady ",
+              "zh": "而且这一效果保持稳定，"
+            },
+            {
+              "a": 145,
+              "b": 187,
+              "en": "for the study's duration of several weeks.",
+              "zh": "贯穿研究持续的几周时间。"
+            }
+          ],
+          "reorder": "将 containing meat 放到“餐食”前；from...to 是比例变化，不是人数；破折号后说明持续时间。",
+          "translation": "然而，讨论了肉类伦理问题的学生受试者购买含肉餐食的比例从52%降至45%，而且这一效果在持续数周的研究期间保持稳定。",
+          "words": [
+            {
+              "a": 46,
+              "b": 52,
+              "word": "ethics",
+              "lemma": "ethic",
+              "meaning": "伦理；道德问题",
+              "pos": "n"
+            },
+            {
+              "a": 138,
+              "b": 144,
+              "word": "steady",
+              "lemma": "steady",
+              "meaning": "稳定的；持续不变的",
+              "pos": "a"
+            },
+            {
+              "a": 161,
+              "b": 169,
+              "word": "duration",
+              "lemma": "duration",
+              "meaning": "持续时间",
+              "pos": "n"
+            },
+            {
+              "a": 18,
+              "b": 26,
+              "word": "subjects",
+              "lemma": "subject",
+              "meaning": "受试者；研究对象"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 133,
+              "b": 144,
+              "word": "held steady",
+              "lemma": "hold steady",
+              "meaning": "保持稳定"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T4-P3-S3",
           "a": 426,
           "b": 480,
           "en": "Purchases from the other group remained at 52 percent.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 31,
+              "en": "Purchases from the other group ",
+              "zh": "另一组的购买比例，"
+            },
+            {
+              "a": 31,
+              "b": 43,
+              "en": "remained at ",
+              "zh": "仍保持在，"
+            },
+            {
+              "a": 43,
+              "b": 54,
+              "en": "52 percent.",
+              "zh": "52%。"
+            }
+          ],
+          "reorder": "Purchases 沿用前句“含肉餐食购买比例”，不是所有餐食购买量。",
+          "translation": "另一组购买含肉餐食的比例仍为52%。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -159,36 +750,196 @@
           "a": 0,
           "b": 91,
           "en": "“That's actually a pretty large effect for a pretty small intervention,” Schwitzgebel says.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 39,
+              "en": "“That's actually a pretty large effect ",
+              "zh": "“这实际上是相当大的效果，"
+            },
+            {
+              "a": 39,
+              "b": 73,
+              "en": "for a pretty small intervention,” ",
+              "zh": "对于一次很小的干预而言，”"
+            },
+            {
+              "a": 73,
+              "b": 91,
+              "en": "Schwitzgebel says.",
+              "zh": "施维茨格贝尔说。"
+            }
+          ],
+          "reorder": "把 for 的比较基准放到句首，突出小干预与大效果的反差。",
+          "translation": "施维茨格贝尔说：“对于这样一次很小的干预来说，这个效果实际上相当大。”",
+          "words": [
+            {
+              "a": 58,
+              "b": 70,
+              "word": "intervention",
+              "lemma": "intervention",
+              "meaning": "教学干预",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T4-P4-S2",
           "a": 92,
           "b": 283,
           "en": "Psychologist Nina Strohminger at the University of Pennsylvania, who was not involved in the study, says she wants the effect to be real but cannot rule out some unknown confounding variable.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 65,
+              "en": "Psychologist Nina Strohminger at the University of Pennsylvania, ",
+              "zh": "宾夕法尼亚大学心理学家妮娜·施特罗明格，"
+            },
+            {
+              "a": 65,
+              "b": 100,
+              "en": "who was not involved in the study, ",
+              "zh": "没有参与这项研究，"
+            },
+            {
+              "a": 100,
+              "b": 137,
+              "en": "says she wants the effect to be real ",
+              "zh": "她说自己希望这种效果是真的，"
+            },
+            {
+              "a": 137,
+              "b": 157,
+              "en": "but cannot rule out ",
+              "zh": "但无法排除，"
+            },
+            {
+              "a": 157,
+              "b": 191,
+              "en": "some unknown confounding variable.",
+              "zh": "某种未知的混杂变量。"
+            }
+          ],
+          "reorder": "将 who 身份说明放到人物名前；but 后表达研究局限，不能说已经证实有混杂。",
+          "translation": "未参与这项研究的宾夕法尼亚大学心理学家妮娜·施特罗明格说，她希望这种效果是真的，但无法排除某种未知混杂变量的影响。",
+          "words": [
+            {
+              "a": 170,
+              "b": 181,
+              "word": "confounding",
+              "lemma": "confound",
+              "meaning": "起混杂作用的；干扰因果判断的",
+              "pos": "v"
+            },
+            {
+              "a": 182,
+              "b": 190,
+              "word": "variable",
+              "lemma": "variable",
+              "meaning": "变量；影响因素",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 148,
+              "b": 156,
+              "word": "rule out",
+              "lemma": "rule out",
+              "meaning": "排除（某种可能性）"
+            },
+            {
+              "a": 170,
+              "b": 190,
+              "word": "confounding variable",
+              "lemma": "confounding variable",
+              "meaning": "混杂变量；可能干扰因果判断的其他因素"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T4-P4-S3",
           "a": 284,
           "b": 370,
           "en": "And if real, she notes, it might be reversible by another nudge: “Easy come, easy go.”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 13,
+              "en": "And if real, ",
+              "zh": "而且，即使效果真实，"
+            },
+            {
+              "a": 13,
+              "b": 24,
+              "en": "she notes, ",
+              "zh": "她指出，"
+            },
+            {
+              "a": 24,
+              "b": 65,
+              "en": "it might be reversible by another nudge: ",
+              "zh": "也可能被另一次轻推式干预逆转："
+            },
+            {
+              "a": 65,
+              "b": 86,
+              "en": "“Easy come, easy go.”",
+              "zh": "“来得容易，去得也快。”"
+            }
+          ],
+          "reorder": "先把 she notes 放在句首；if real 保留假设；another nudge 是另一种行为引导。",
+          "translation": "她还指出，即使这种效果真实，也可能被另一次轻推式干预逆转：“来得容易，去得也快。”",
+          "words": [
+            {
+              "a": 58,
+              "b": 63,
+              "word": "nudge",
+              "lemma": "nudge",
+              "meaning": "轻推式干预；温和的行为引导"
+            },
+            {
+              "a": 36,
+              "b": 46,
+              "word": "reversible",
+              "lemma": "reversible",
+              "meaning": "可逆转的"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 66,
+              "b": 84,
+              "lemma": "Easy come, easy go",
+              "meaning": "来得容易，去得也快",
+              "word": "Easy come, easy go"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -201,60 +952,306 @@
           "a": 0,
           "b": 209,
           "en": "Schwitzgebel suspects the greatest impact came from social influence- classmates or teaching assistants leading the discussions may have shared their own vegetarianism, showing it as achievable or more common.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 22,
+              "en": "Schwitzgebel suspects ",
+              "zh": "施维茨格贝尔推测，"
+            },
+            {
+              "a": 22,
+              "b": 70,
+              "en": "the greatest impact came from social influence- ",
+              "zh": "最大的影响来自社会影响力——"
+            },
+            {
+              "a": 70,
+              "b": 104,
+              "en": "classmates or teaching assistants ",
+              "zh": "同学或助教，"
+            },
+            {
+              "a": 104,
+              "b": 128,
+              "en": "leading the discussions ",
+              "zh": "也就是主持讨论的人，"
+            },
+            {
+              "a": 128,
+              "b": 169,
+              "en": "may have shared their own vegetarianism, ",
+              "zh": "可能分享了自己吃素的做法，"
+            },
+            {
+              "a": 169,
+              "b": 209,
+              "en": "showing it as achievable or more common.",
+              "zh": "让学生觉得吃素做得到，或其实更普遍。"
+            }
+          ],
+          "reorder": "leading 修饰同学或助教；破折号后解释社会影响如何发生；showing it 中 it 指吃素。",
+          "translation": "施维茨格贝尔推测，影响最大的可能是社会影响力：主持讨论的同学或助教可能分享了自己吃素的做法，让学生觉得吃素做得到，或其实比想象中普遍。",
+          "words": [
+            {
+              "a": 154,
+              "b": 167,
+              "word": "vegetarianism",
+              "lemma": "vegetarianism",
+              "meaning": "素食主义；吃素的做法"
+            },
+            {
+              "a": 183,
+              "b": 193,
+              "word": "achievable",
+              "lemma": "achievable",
+              "meaning": "可以做到的"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 52,
+              "b": 68,
+              "lemma": "social influence",
+              "meaning": "社会影响",
+              "word": "social influence"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T4-P5-S2",
           "a": 210,
           "b": 261,
           "en": "Second, the video may have had an emotional impact.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 8,
+              "en": "Second, ",
+              "zh": "其次，"
+            },
+            {
+              "a": 8,
+              "b": 18,
+              "en": "the video ",
+              "zh": "那段视频，"
+            },
+            {
+              "a": 18,
+              "b": 51,
+              "en": "may have had an emotional impact.",
+              "zh": "可能产生了情感上的影响。"
+            }
+          ],
+          "reorder": "保留 secondly 的次序和 may 的不确定语气。",
+          "translation": "其次，那段视频可能产生了情感上的影响。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T4-P5-S3",
           "a": 262,
           "b": 371,
           "en": "Least rousing, he thinks, was rational argument, although his co-authors say reason might play a bigger role.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 15,
+              "en": "Least rousing, ",
+              "zh": "最不容易打动人的，"
+            },
+            {
+              "a": 15,
+              "b": 26,
+              "en": "he thinks, ",
+              "zh": "他认为，"
+            },
+            {
+              "a": 26,
+              "b": 49,
+              "en": "was rational argument, ",
+              "zh": "是理性论证，"
+            },
+            {
+              "a": 49,
+              "b": 109,
+              "en": "although his co-authors say reason might play a bigger role.",
+              "zh": "尽管他的合著者认为理性可能发挥了更大作用。"
+            }
+          ],
+          "reorder": "倒装还原为“他认为理性论证最不易打动人”；although 保留团队内部不同判断。",
+          "translation": "他认为，理性论证最不容易打动人，不过他的合著者认为，理性可能发挥了更大作用。",
+          "words": [
+            {
+              "a": 30,
+              "b": 38,
+              "word": "rational",
+              "lemma": "rational",
+              "meaning": "基于理性推理的",
+              "pos": "a"
+            },
+            {
+              "a": 39,
+              "b": 47,
+              "word": "argument",
+              "lemma": "argument",
+              "meaning": "论证；说理",
+              "pos": "n"
+            },
+            {
+              "a": 77,
+              "b": 83,
+              "word": "reason",
+              "lemma": "reason",
+              "meaning": "理性；推理",
+              "pos": "n"
+            },
+            {
+              "a": 6,
+              "b": 13,
+              "word": "rousing",
+              "lemma": "rousing",
+              "meaning": "能激起情绪或行动的"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 30,
+              "b": 47,
+              "word": "rational argument",
+              "lemma": "rational argument",
+              "meaning": "理性论证"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T4-P5-S4",
           "a": 372,
           "b": 508,
           "en": "Now the researchers are probing the specific effects of teaching style, teaching assistants' eating habits and students' video exposure.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 20,
+              "en": "Now the researchers ",
+              "zh": "现在研究人员，"
+            },
+            {
+              "a": 20,
+              "b": 32,
+              "en": "are probing ",
+              "zh": "正在进一步探究，"
+            },
+            {
+              "a": 32,
+              "b": 107,
+              "en": "the specific effects of teaching style, teaching assistants' eating habits ",
+              "zh": "教学风格、助教饮食习惯的具体影响，"
+            },
+            {
+              "a": 107,
+              "b": 136,
+              "en": "and students' video exposure.",
+              "zh": "以及学生观看视频的影响。"
+            }
+          ],
+          "reorder": "把 of 后三个并列因素合在“具体影响”前，exposure 指是否接触视频。",
+          "translation": "现在，研究人员正在进一步探究教学风格、助教饮食习惯以及学生观看视频的具体影响。",
+          "words": [
+            {
+              "a": 24,
+              "b": 31,
+              "word": "probing",
+              "lemma": "probe",
+              "meaning": "深入探究"
+            },
+            {
+              "a": 127,
+              "b": 135,
+              "word": "exposure",
+              "lemma": "exposure",
+              "meaning": "接触；观看（相关视频）"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2022-T4-P5-S5",
           "a": 509,
           "b": 586,
           "en": "Meanwhile, Schwitzgebel—who had predicted no effect—will be eating his words.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 24,
+              "en": "Meanwhile, Schwitzgebel—",
+              "zh": "与此同时，施维茨格贝尔——"
+            },
+            {
+              "a": 24,
+              "b": 52,
+              "en": "who had predicted no effect—",
+              "zh": "这位原先预测干预无效的人——"
+            },
+            {
+              "a": 52,
+              "b": 77,
+              "en": "will be eating his words.",
+              "zh": "要收回自己先前的话了。"
+            }
+          ],
+          "reorder": "插入语交代前后反差；eat his words 是承认原先说错，不是吃东西。",
+          "translation": "与此同时，原先预测干预无效的施维茨格贝尔，要收回自己先前的话了。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 60,
+              "b": 76,
+              "word": "eating his words",
+              "lemma": "eat one's words",
+              "meaning": "收回自己说过的话；承认先前判断有误"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     }

@@ -6,10 +6,19 @@
   "text": 2,
   "articleKey": "s1-p0-t1",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "9b7b9600e9df43320a8af2efdfd781bbc19b95358eefef989d35c6c794b5aac4",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2019年考研英语二真题.pdf",
+        "page": 6,
+        "sha256": "817934cbd6801be0ddfa2d58de6e452655ed4cb2e4c01d0e8d05c6d0fc0b4dcd"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇对照本地试卷完整正文与PDF渲染页，逐项核对提取层形似字、下划线漏字和标点差异；保留原英文与固定编号。"
   },
   "paragraphs": [
     {
@@ -21,36 +30,154 @@
           "a": 0,
           "b": 98,
           "en": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 29,
+              "en": "Forests give us shade, quiet ",
+              "zh": "森林给予我们荫凉和宁静"
+            },
+            {
+              "a": 29,
+              "b": 62,
+              "en": "and one of the harder challenges ",
+              "zh": "也给我们带来一个较为艰巨的挑战"
+            },
+            {
+              "a": 62,
+              "b": 98,
+              "en": "in the fight against climate change.",
+              "zh": "在应对气候变化的斗争中"
+            }
+          ],
+          "reorder": "前两个并列名词译为益处，第三项单独展开为挑战；in the fight 限定挑战所属领域。",
+          "translation": "森林给予我们荫凉和宁静，也给我们带来应对气候变化斗争中一个较为艰巨的挑战。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T2-P1-S2",
           "a": 99,
           "b": 234,
           "en": "Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 93,
+              "en": "Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, ",
+              "zh": "正当人类指望森林吸收我们排放的大量二氧化碳时"
+            },
+            {
+              "a": 93,
+              "b": 126,
+              "en": "we are threatening their ability ",
+              "zh": "我们却正在威胁它们的能力"
+            },
+            {
+              "a": 126,
+              "b": 135,
+              "en": "to do so.",
+              "zh": "威胁它们完成这一任务的能力"
+            }
+          ],
+          "reorder": "先译依赖森林吸碳的背景，再译人类行为的矛盾后果，do so 指吸收二氧化碳。",
+          "translation": "正当人类指望森林吸收我们排放的大量二氧化碳时，我们却正在损害它们完成这一任务的能力。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 38,
+              "b": 45,
+              "lemma": "soak up",
+              "meaning": "吸收",
+              "word": "soak up"
+            },
+            {
+              "a": 18,
+              "b": 26,
+              "word": "count on",
+              "lemma": "count on",
+              "meaning": "指望；依赖"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T2-P1-S3",
           "a": 235,
           "b": 346,
           "en": "The climate change we are hastening could one day leave us with forests that emit more carbon than they absorb.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 36,
+              "en": "The climate change we are hastening ",
+              "zh": "我们正在加速的气候变化"
+            },
+            {
+              "a": 36,
+              "b": 72,
+              "en": "could one day leave us with forests ",
+              "zh": "有朝一日可能让我们面对这样的森林"
+            },
+            {
+              "a": 72,
+              "b": 111,
+              "en": "that emit more carbon than they absorb.",
+              "zh": "它们排放的碳比吸收的还多"
+            }
+          ],
+          "reorder": "把省略关系词的 we are hastening 前置限定气候变化，that 从句展开为森林的具体状态。",
+          "translation": "我们正在加速的气候变化，有朝一日可能让我们面对排碳量大于吸碳量的森林。",
+          "words": [
+            {
+              "a": 26,
+              "b": 35,
+              "lemma": "hasten",
+              "meaning": "加速；促使更快发生",
+              "word": "hastening",
+              "pos": "v"
+            },
+            {
+              "a": 77,
+              "b": 81,
+              "lemma": "emit",
+              "meaning": "排放",
+              "word": "emit",
+              "pos": "v"
+            },
+            {
+              "a": 104,
+              "b": 110,
+              "lemma": "absorb",
+              "meaning": "吸收",
+              "word": "absorb",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -63,36 +190,160 @@
           "a": 0,
           "b": 88,
           "en": "Thankfully, there is a way out of this trap – but it involves striking a subtle balance.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 12,
+              "en": "Thankfully, ",
+              "zh": "幸运的是"
+            },
+            {
+              "a": 12,
+              "b": 46,
+              "en": "there is a way out of this trap – ",
+              "zh": "有办法摆脱这一困境"
+            },
+            {
+              "a": 46,
+              "b": 88,
+              "en": "but it involves striking a subtle balance.",
+              "zh": "但这涉及取得一种微妙的平衡"
+            }
+          ],
+          "reorder": "先译存在出路，再译所需平衡；this trap 承接森林反而排碳的困境。",
+          "translation": "幸运的是，有办法摆脱这一困境，但这涉及取得一种微妙的平衡。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 62,
+              "b": 87,
+              "lemma": "strike a subtle balance",
+              "meaning": "在短期与长期目标间取得微妙平衡",
+              "word": "striking a subtle balance"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T2-P2-S2",
           "a": 89,
           "b": 219,
           "en": "Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 52,
+              "en": "Helping forests flourish as valuable “carbon sinks” ",
+              "zh": "帮助森林作为宝贵的碳汇繁茂生长"
+            },
+            {
+              "a": 52,
+              "b": 73,
+              "en": "long into the future ",
+              "zh": "使其在未来很长时期内持续发挥作用"
+            },
+            {
+              "a": 73,
+              "b": 85,
+              "en": "may require ",
+              "zh": "可能需要"
+            },
+            {
+              "a": 85,
+              "b": 130,
+              "en": "reducing their capacity to absorb carbon now.",
+              "zh": "现在先降低它们的吸碳能力"
+            }
+          ],
+          "reorder": "把 long into the future 的长期目标与 now 的短期代价对照译出，不漏掉看似反常的降低能力。",
+          "translation": "要帮助森林在未来很长时期内繁茂生长，持续发挥宝贵的“碳汇”作用，可能需要现在先降低它们的吸碳能力。",
+          "words": [
+            {
+              "a": 100,
+              "b": 108,
+              "lemma": "capacity",
+              "meaning": "吸收碳的能力",
+              "word": "capacity",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 38,
+              "b": 50,
+              "lemma": "carbon sinks",
+              "meaning": "碳汇；吸收并储存二氧化碳的系统",
+              "word": "carbon sinks"
+            },
+            {
+              "a": 52,
+              "b": 72,
+              "lemma": "long into the future",
+              "meaning": "在未来很长时期内",
+              "word": "long into the future"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T2-P2-S3",
           "a": 220,
           "b": 318,
           "en": "California is leading the way, as it does on so many climate efforts, in figuring out the details.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 31,
+              "en": "California is leading the way, ",
+              "zh": "加利福尼亚州正走在前列"
+            },
+            {
+              "a": 31,
+              "b": 70,
+              "en": "as it does on so many climate efforts, ",
+              "zh": "正如它在许多气候行动中一贯所做的那样"
+            },
+            {
+              "a": 70,
+              "b": 98,
+              "en": "in figuring out the details.",
+              "zh": "它在探索具体做法方面处于领先地位"
+            }
+          ],
+          "reorder": "将 in figuring out 的领先领域接到“走在前列”前后，as 的比较另作插入说明。",
+          "translation": "加利福尼亚州在探索具体做法方面正走在前列，正如它在许多气候行动中一贯所做的那样。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 73,
+              "b": 97,
+              "word": "figuring out the details",
+              "lemma": "figuring out the details",
+              "meaning": "探索并弄清具体做法"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -105,72 +356,266 @@
           "a": 0,
           "b": 126,
           "en": "The state's proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 40,
+              "en": "The state's proposed Forest Carbon Plan ",
+              "zh": "该州拟议中的森林碳计划"
+            },
+            {
+              "a": 40,
+              "b": 63,
+              "en": "aims to double efforts ",
+              "zh": "旨在加倍努力"
+            },
+            {
+              "a": 63,
+              "b": 87,
+              "en": "to thin out young trees ",
+              "zh": "疏伐幼树"
+            },
+            {
+              "a": 87,
+              "b": 126,
+              "en": "and clear brush in parts of the forest.",
+              "zh": "并清除部分林地中的灌木丛"
+            }
+          ],
+          "reorder": "先译计划和目标，再将 in parts of the forest 前置限定两项清理工作。",
+          "translation": "该州拟议中的森林碳计划旨在加倍努力，对部分林地疏伐幼树、清除灌木丛。",
+          "words": [
+            {
+              "a": 97,
+              "b": 102,
+              "lemma": "brush",
+              "meaning": "灌木丛；杂木",
+              "word": "brush",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 66,
+              "b": 74,
+              "lemma": "thin out",
+              "meaning": "疏伐；减少树木密度",
+              "word": "thin out"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T2-P3-S2",
           "a": 127,
           "b": 176,
           "en": "This temporarily lowers carbon-carrying capacity.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 49,
+              "en": "This temporarily lowers carbon-carrying capacity.",
+              "zh": "这会暂时降低森林的碳承载能力"
+            }
+          ],
+          "reorder": "顺译，This 指疏伐和清理；temporarily 保留暂时性的限制。",
+          "translation": "这会暂时降低森林的碳承载能力。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 24,
+              "b": 48,
+              "lemma": "carbon-carrying capacity",
+              "meaning": "森林可吸收与储存碳的能力",
+              "word": "carbon-carrying capacity"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T2-P3-S3",
           "a": 177,
           "b": 334,
           "en": "But the remaining trees draw a greater share of the available moisture, so they grow and thrive, restoring the forest's capacity to pull carbon from the air.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 72,
+              "en": "But the remaining trees draw a greater share of the available moisture, ",
+              "zh": "但留下的树木能吸收到更大份额的可用水分"
+            },
+            {
+              "a": 72,
+              "b": 97,
+              "en": "so they grow and thrive, ",
+              "zh": "因此能生长并茁壮起来"
+            },
+            {
+              "a": 97,
+              "b": 129,
+              "en": "restoring the forest's capacity ",
+              "zh": "从而恢复森林的能力"
+            },
+            {
+              "a": 129,
+              "b": 157,
+              "en": "to pull carbon from the air.",
+              "zh": "恢复其从空气中吸收碳的能力"
+            }
+          ],
+          "reorder": "按水分增加、生长改善、恢复吸碳的因果顺序译，restoring 是前述过程带来的结果。",
+          "translation": "但留下的树木能吸收到更大份额的可用水分，因此能茁壮生长，进而恢复森林从空气中吸收碳的能力。",
+          "words": [
+            {
+              "a": 24,
+              "b": 28,
+              "lemma": "draw",
+              "meaning": "吸收；获取（水分）",
+              "word": "draw",
+              "pos": "v"
+            },
+            {
+              "a": 62,
+              "b": 70,
+              "lemma": "moisture",
+              "meaning": "水分",
+              "word": "moisture",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T2-P3-S4",
           "a": 335,
           "b": 390,
           "en": "Healthy trees are also better able to fend off insects.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 55,
+              "en": "Healthy trees are also better able to fend off insects.",
+              "zh": "健康的树木也更能抵御害虫"
+            }
+          ],
+          "reorder": "顺译，better 保留能力提高的比较。",
+          "translation": "健康的树木也更能抵御害虫。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 38,
+              "b": 46,
+              "lemma": "fend off",
+              "meaning": "抵御",
+              "word": "fend off"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T2-P3-S5",
           "a": 391,
           "b": 438,
           "en": "The landscape is rendered less easily burnable.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 47,
+              "en": "The landscape is rendered less easily burnable.",
+              "zh": "这片林地也因此变得不那么容易燃烧"
+            }
+          ],
+          "reorder": "将被动 rendered 改为结果表达“因此变得”；landscape 在此指林地环境。",
+          "translation": "这片林地也因此变得不那么容易燃烧。",
+          "words": [
+            {
+              "a": 17,
+              "b": 25,
+              "lemma": "render",
+              "meaning": "使成为某种状态",
+              "word": "rendered",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T2-P3-S6",
           "a": 439,
           "b": 493,
           "en": "Even in the event of a fire, fewer trees are consumed.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 29,
+              "en": "Even in the event of a fire, ",
+              "zh": "即使发生火灾"
+            },
+            {
+              "a": 29,
+              "b": 54,
+              "en": "fewer trees are consumed.",
+              "zh": "被烧毁的树木也会更少"
+            }
+          ],
+          "reorder": "先译让步场景，再译更少的损失；consumed 为被火吞噬。",
+          "translation": "即使发生火灾，被烧毁的树木也会更少。",
+          "words": [
+            {
+              "a": 45,
+              "b": 53,
+              "lemma": "consume",
+              "meaning": "烧毁；被火吞噬",
+              "word": "consumed",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -183,24 +628,70 @@
           "a": 0,
           "b": 50,
           "en": "The need for such planning is increasingly urgent.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 50,
+              "en": "The need for such planning is increasingly urgent.",
+              "zh": "制定此类规划的需要正日益迫切"
+            }
+          ],
+          "reorder": "顺译，such planning 指上文的森林碳管理规划。",
+          "translation": "制定此类规划的需要正日益迫切。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T2-P4-S2",
           "a": 51,
           "b": 227,
           "en": "Already, since 2010, drought and insects have killed over 100 million trees in California, most of them in 2016 alone, and wildfires have burned hundreds of thousands of acres.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 21,
+              "en": "Already, since 2010, ",
+              "zh": "自二〇一〇年以来，截至目前"
+            },
+            {
+              "a": 21,
+              "b": 91,
+              "en": "drought and insects have killed over 100 million trees in California, ",
+              "zh": "干旱和害虫已导致加州一亿多棵树木死亡"
+            },
+            {
+              "a": 91,
+              "b": 119,
+              "en": "most of them in 2016 alone, ",
+              "zh": "其中大多数仅在二〇一六年一年就已死亡"
+            },
+            {
+              "a": 119,
+              "b": 176,
+              "en": "and wildfires have burned hundreds of thousands of acres.",
+              "zh": "野火还烧毁了数十万英亩土地"
+            }
+          ],
+          "reorder": "先译起始时间，再译树木死亡及其集中年份，最后译野火烧毁面积；most of them 指死树而非火灾。",
+          "translation": "自二〇一〇年以来，干旱和害虫已导致加州一亿多棵树木死亡，其中大多数仅在二〇一六年一年就已死亡；野火还烧毁了数十万英亩土地。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -213,24 +704,124 @@
           "a": 0,
           "b": 155,
           "en": "California plans to treat 35, 000 acres of forest a year by 2020, and 60,000 by 2030 – financed from the proceeds of the state's emissions-permit auctions.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 66,
+              "en": "California plans to treat 35, 000 acres of forest a year by 2020, ",
+              "zh": "加州计划到二〇二〇年实现每年治理三万五千英亩林地"
+            },
+            {
+              "a": 66,
+              "b": 87,
+              "en": "and 60,000 by 2030 – ",
+              "zh": "到二〇三〇年达到每年六万英亩"
+            },
+            {
+              "a": 87,
+              "b": 155,
+              "en": "financed from the proceeds of the state's emissions-permit auctions.",
+              "zh": "资金来自该州排放许可权拍卖所得"
+            }
+          ],
+          "reorder": "先译两个年份对应的年度治理目标，第二处省略的每年治理在中文补出，financed 后说明资金来源。",
+          "translation": "加州计划到二〇二〇年实现每年治理三万五千英亩林地，到二〇三〇年增至每年六万英亩，资金来自该州排放许可权拍卖所得。",
+          "words": [
+            {
+              "a": 20,
+              "b": 25,
+              "lemma": "treat",
+              "meaning": "治理；进行林地管理",
+              "word": "treat",
+              "pos": "v"
+            },
+            {
+              "a": 105,
+              "b": 113,
+              "lemma": "proceeds",
+              "meaning": "收益；所得款项",
+              "word": "proceeds",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 129,
+              "b": 154,
+              "lemma": "emissions-permit auctions",
+              "meaning": "排放许可权拍卖",
+              "word": "emissions-permit auctions"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T2-P5-S2",
           "a": 156,
           "b": 334,
           "en": "That's only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 67,
+              "en": "That's only a small share of the total acreage that could benefit, ",
+              "zh": "这仅占可能从中受益的林地总面积的一小部分"
+            },
+            {
+              "a": 67,
+              "b": 102,
+              "en": "about half a million acres in all, ",
+              "zh": "可受益的总面积约为五十万英亩"
+            },
+            {
+              "a": 102,
+              "b": 122,
+              "en": "so it will be vital ",
+              "zh": "因此至关重要的是"
+            },
+            {
+              "a": 122,
+              "b": 178,
+              "en": "to prioritize areas at greatest risk of fire or drought.",
+              "zh": "优先治理火灾或干旱风险最大的地区"
+            }
+          ],
+          "reorder": "将 about half a million acres 作为总面积的补充说明，再译 so 的推论；That 指前述年度治理面积。",
+          "translation": "可能从中受益的林地总面积约为五十万英亩，上述治理面积只占一小部分，因此优先治理火灾或干旱风险最大的地区至关重要。",
+          "words": [
+            {
+              "a": 39,
+              "b": 46,
+              "lemma": "acreage",
+              "meaning": "土地面积",
+              "word": "acreage",
+              "pos": "n"
+            },
+            {
+              "a": 125,
+              "b": 135,
+              "lemma": "prioritize",
+              "meaning": "优先处理",
+              "word": "prioritize",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -243,24 +834,138 @@
           "a": 0,
           "b": 205,
           "en": "The strategy also aims to ensure that carbon in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel in vehicles that would otherwise run on fossil fuels.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 38,
+              "en": "The strategy also aims to ensure that ",
+              "zh": "这一策略还旨在确保"
+            },
+            {
+              "a": 38,
+              "b": 88,
+              "en": "carbon in woody material removed from the forests ",
+              "zh": "从森林中移除的木质材料所含的碳"
+            },
+            {
+              "a": 88,
+              "b": 131,
+              "en": "is locked away in the form of solid lumber ",
+              "zh": "以实木木材的形式封存"
+            },
+            {
+              "a": 131,
+              "b": 164,
+              "en": "or burned as biofuel in vehicles ",
+              "zh": "或者作为生物燃料在车辆中燃烧"
+            },
+            {
+              "a": 164,
+              "b": 205,
+              "en": "that would otherwise run on fossil fuels.",
+              "zh": "这些车辆原本会使用化石燃料"
+            }
+          ],
+          "reorder": "先译目标，再将 removed... 前置限定木质材料；or 并列两种处理方式，otherwise 说明生物燃料替代的原有能源。",
+          "translation": "这一策略还旨在确保，从森林中移除的木质材料所含的碳，要么以实木木材的形式封存，要么作为生物燃料，在原本会使用化石燃料的车辆中燃烧。",
+          "words": [
+            {
+              "a": 48,
+              "b": 53,
+              "lemma": "woody",
+              "meaning": "木质的",
+              "word": "woody",
+              "pos": "a"
+            },
+            {
+              "a": 124,
+              "b": 130,
+              "lemma": "lumber",
+              "meaning": "木材；成材",
+              "word": "lumber",
+              "pos": "n"
+            },
+            {
+              "a": 144,
+              "b": 151,
+              "lemma": "biofuel",
+              "meaning": "生物燃料",
+              "word": "biofuel",
+              "pos": "n"
+            },
+            {
+              "a": 175,
+              "b": 184,
+              "lemma": "otherwise",
+              "meaning": "若不如此；此处指若不使用生物燃料",
+              "word": "otherwise",
+              "pos": "adv"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 48,
+              "b": 62,
+              "lemma": "woody material",
+              "meaning": "木质材料",
+              "word": "woody material"
+            },
+            {
+              "a": 91,
+              "b": 102,
+              "lemma": "lock away",
+              "meaning": "长期封存；避免释放回大气",
+              "word": "locked away"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T2-P6-S2",
           "a": 206,
           "b": 267,
           "en": "New research on transportation biofuels is already under way.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 40,
+              "en": "New research on transportation biofuels ",
+              "zh": "关于运输用生物燃料的新研究"
+            },
+            {
+              "a": 40,
+              "b": 61,
+              "en": "is already under way.",
+              "zh": "已经开展"
+            }
+          ],
+          "reorder": "先译研究对象，再译已在开展的状态。",
+          "translation": "关于运输用生物燃料的新研究已经开展。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 51,
+              "b": 60,
+              "lemma": "under way",
+              "meaning": "正在开展",
+              "word": "under way"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -273,36 +978,162 @@
           "a": 0,
           "b": 150,
           "en": "State governments are well accustomed to managing forests, but traditionally they've focused on wildlife, watersheds and opportunities for recreation.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 59,
+              "en": "State governments are well accustomed to managing forests, ",
+              "zh": "各州政府早已熟悉森林管理"
+            },
+            {
+              "a": 59,
+              "b": 96,
+              "en": "but traditionally they've focused on ",
+              "zh": "但传统上，它们关注的是"
+            },
+            {
+              "a": 96,
+              "b": 106,
+              "en": "wildlife, ",
+              "zh": "野生动物"
+            },
+            {
+              "a": 106,
+              "b": 150,
+              "en": "watersheds and opportunities for recreation.",
+              "zh": "流域以及休闲活动的机会"
+            }
+          ],
+          "reorder": "按已有经验和传统重点的对照顺译，they 指各州政府。",
+          "translation": "各州政府早已熟悉森林管理，但传统上，它们关注的是野生动物、流域以及休闲活动的机会。",
+          "words": [
+            {
+              "a": 41,
+              "b": 49,
+              "lemma": "manage",
+              "meaning": "管理；治理",
+              "word": "managing",
+              "pos": "v"
+            },
+            {
+              "a": 106,
+              "b": 116,
+              "lemma": "watershed",
+              "meaning": "流域；集水区",
+              "word": "watersheds",
+              "pos": "n"
+            },
+            {
+              "a": 139,
+              "b": 149,
+              "lemma": "recreation",
+              "meaning": "休闲娱乐",
+              "word": "recreation",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T2-P7-S2",
           "a": 151,
           "b": 246,
           "en": "Only recently have they come to see the vital part forests will have to play in storing carbon.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 36,
+              "en": "Only recently have they come to see ",
+              "zh": "直到最近，它们才认识到"
+            },
+            {
+              "a": 36,
+              "b": 51,
+              "en": "the vital part ",
+              "zh": "森林必须发挥的关键作用"
+            },
+            {
+              "a": 51,
+              "b": 95,
+              "en": "forests will have to play in storing carbon.",
+              "zh": "即在储存碳方面的作用"
+            }
+          ],
+          "reorder": "将 Only recently 引出的倒装还原为“直到最近才”；forests... 的关系从句前置修饰作用。",
+          "translation": "直到最近，它们才认识到森林在储存碳方面必须发挥的关键作用。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T2-P7-S3",
           "a": 247,
           "b": 351,
           "en": "California's plan, which is expected to be finalized by the governor next year, should serve as a model.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 19,
+              "en": "California's plan, ",
+              "zh": "加州的这项计划"
+            },
+            {
+              "a": 19,
+              "b": 80,
+              "en": "which is expected to be finalized by the governor next year, ",
+              "zh": "预计将在明年由州长最终确定"
+            },
+            {
+              "a": 80,
+              "b": 104,
+              "en": "should serve as a model.",
+              "zh": "应当成为可供借鉴的范例"
+            }
+          ],
+          "reorder": "把 which 的补充说明插入计划与最终评价之间，“明年”保留原文报道的时间参照。",
+          "translation": "加州的这项计划预计将在明年由州长最终确定，应当成为可供借鉴的范例。",
+          "words": [
+            {
+              "a": 43,
+              "b": 52,
+              "lemma": "finalize",
+              "meaning": "最终确定；定稿",
+              "word": "finalized",
+              "pos": "v"
+            },
+            {
+              "a": 98,
+              "b": 103,
+              "lemma": "model",
+              "meaning": "示范；可供借鉴的范例",
+              "word": "model",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     }

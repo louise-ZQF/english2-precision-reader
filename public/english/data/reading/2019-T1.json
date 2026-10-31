@@ -6,10 +6,19 @@
   "text": 1,
   "articleKey": "s1-p0-t0",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "62bafabc469528281591abae16944ba175017aaa9e550abe2828ecb7cac8b6a1",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2019年考研英语二真题.pdf",
+        "page": 4,
+        "sha256": "817934cbd6801be0ddfa2d58de6e452655ed4cb2e4c01d0e8d05c6d0fc0b4dcd"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇对照本地试卷完整正文与PDF渲染页，逐项核对提取层形似字、下划线漏字和标点差异；保留原英文与固定编号。"
   },
   "paragraphs": [
     {
@@ -21,36 +30,168 @@
           "a": 0,
           "b": 166,
           "en": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child's growing grasp of social and moral norms.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 66,
+              "en": "Unlike so-called basic emotions such as sadness, fear, and anger, ",
+              "zh": "不同于悲伤、恐惧和愤怒等所谓的基本情绪"
+            },
+            {
+              "a": 66,
+              "b": 96,
+              "en": "guilt emerges a little later, ",
+              "zh": "内疚出现得稍晚一些"
+            },
+            {
+              "a": 96,
+              "b": 166,
+              "en": "in conjunction with a child's growing grasp of social and moral norms.",
+              "zh": "它伴随儿童对社会与道德规范理解的逐渐加深而产生"
+            }
+          ],
+          "reorder": "先译与基本情绪的对照，再译内疚的出现时间与认知发展背景。",
+          "translation": "不同于悲伤、恐惧和愤怒等所谓的基本情绪，内疚出现得稍晚一些，伴随儿童对社会与道德规范理解的逐渐加深而产生。",
+          "words": [
+            {
+              "a": 134,
+              "b": 139,
+              "lemma": "grasp",
+              "meaning": "理解；掌握",
+              "word": "grasp",
+              "pos": "n"
+            },
+            {
+              "a": 160,
+              "b": 165,
+              "lemma": "norm",
+              "meaning": "行为规范",
+              "word": "norms",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 96,
+              "b": 115,
+              "word": "in conjunction with",
+              "lemma": "in conjunction with",
+              "meaning": "伴随着；与……同时发生"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P1-S2",
           "a": 167,
           "b": 326,
           "en": "Children aren't born knowing how to say “I'm sorry”; rather, they learn over time that such statements appease parents and friends – and their own consciences.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 53,
+              "en": "Children aren't born knowing how to say “I'm sorry”; ",
+              "zh": "孩子并非天生就知道如何说对不起"
+            },
+            {
+              "a": 53,
+              "b": 82,
+              "en": "rather, they learn over time ",
+              "zh": "而是在成长中逐渐学会"
+            },
+            {
+              "a": 82,
+              "b": 133,
+              "en": "that such statements appease parents and friends – ",
+              "zh": "这样的表达能安抚父母与朋友"
+            },
+            {
+              "a": 133,
+              "b": 159,
+              "en": "and their own consciences.",
+              "zh": "也能让自己良心安宁"
+            }
+          ],
+          "reorder": "先译否定，再译 rather 引出的学习过程；their own 指孩子自身而不是父母朋友。",
+          "translation": "孩子并非天生就知道如何说“对不起”，而是在成长中逐渐学会：这样的表达能安抚父母与朋友，也能让自己良心安宁。",
+          "words": [
+            {
+              "a": 103,
+              "b": 110,
+              "lemma": "appease",
+              "meaning": "安抚；使安心",
+              "word": "appease",
+              "pos": "v"
+            },
+            {
+              "a": 147,
+              "b": 158,
+              "lemma": "conscience",
+              "meaning": "良心；道德自觉",
+              "word": "consciences",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P1-S3",
           "a": 327,
           "b": 431,
           "en": "This is why researchers generally regard so-called moral guilt, in the right amount, to be a good thing.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 41,
+              "en": "This is why researchers generally regard ",
+              "zh": "这就是研究人员通常这样认为的原因"
+            },
+            {
+              "a": 41,
+              "b": 64,
+              "en": "so-called moral guilt, ",
+              "zh": "所谓的道德内疚"
+            },
+            {
+              "a": 64,
+              "b": 85,
+              "en": "in the right amount, ",
+              "zh": "只要程度适当"
+            },
+            {
+              "a": 85,
+              "b": 104,
+              "en": "to be a good thing.",
+              "zh": "就是件好事"
+            }
+          ],
+          "reorder": "把 in the right amount 紧接内疚作为限定，不将其遗漏为无条件肯定。",
+          "translation": "这就是为什么研究人员通常认为，程度适当的所谓道德内疚是一件好事。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -63,72 +204,315 @@
           "a": 0,
           "b": 66,
           "en": "In the popular imagination, of course, guilt still gets a bad rap.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 28,
+              "en": "In the popular imagination, ",
+              "zh": "在大众观念中"
+            },
+            {
+              "a": 28,
+              "b": 39,
+              "en": "of course, ",
+              "zh": "当然"
+            },
+            {
+              "a": 39,
+              "b": 66,
+              "en": "guilt still gets a bad rap.",
+              "zh": "内疚仍然名声不佳"
+            }
+          ],
+          "reorder": "把插入的 of course 前置，保留大众看法与研究认识的区分。",
+          "translation": "当然，在大众观念中，内疚仍然名声不佳。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 51,
+              "b": 65,
+              "lemma": "get a bad rap",
+              "meaning": "背负坏名声；受到负面评价",
+              "word": "gets a bad rap"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P2-S2",
           "a": 67,
           "b": 167,
           "en": "It is deeply uncomfortable – it's the emotional equivalent of wearing a jacket weighted with stones.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 29,
+              "en": "It is deeply uncomfortable – ",
+              "zh": "它令人极为难受"
+            },
+            {
+              "a": 29,
+              "b": 59,
+              "en": "it's the emotional equivalent ",
+              "zh": "在情绪感受上，它相当于"
+            },
+            {
+              "a": 59,
+              "b": 100,
+              "en": "of wearing a jacket weighted with stones.",
+              "zh": "穿着一件缀满石头的外套"
+            }
+          ],
+          "reorder": "按不适感与比喻顺译，weighted with stones 先限定外套再译穿着。",
+          "translation": "它令人极为难受——在情绪感受上，就像穿着一件缀满石头的外套。",
+          "words": [
+            {
+              "a": 79,
+              "b": 87,
+              "lemma": "weight",
+              "meaning": "加了重物的",
+              "word": "weighted",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P2-S3",
           "a": 168,
           "b": 203,
           "en": "Yet this understanding is outdated.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 35,
+              "en": "Yet this understanding is outdated.",
+              "zh": "然而，这种认识已经过时了"
+            }
+          ],
+          "reorder": "顺译，this understanding 指把内疚一概看成坏事的观念。",
+          "translation": "然而，这种认识已经过时了。",
+          "words": [
+            {
+              "a": 26,
+              "b": 34,
+              "lemma": "outdated",
+              "meaning": "过时的",
+              "word": "outdated",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P2-S4",
           "a": 204,
           "b": 543,
           "en": "“There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren't binary – feelings that may be advantageous in one context may be harmful in another.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 50,
+              "en": "“There has been a kind of revival or a rethinking ",
+              "zh": "人们重新开始关注或思考"
+            },
+            {
+              "a": 50,
+              "b": 102,
+              "en": "about what guilt is and what role guilt can serve,” ",
+              "zh": "内疚是什么，以及它能发挥什么作用"
+            },
+            {
+              "a": 102,
+              "b": 122,
+              "en": "says Amrisha Vaish, ",
+              "zh": "阿姆里莎·瓦伊什说"
+            },
+            {
+              "a": 122,
+              "b": 177,
+              "en": "a psychology researcher at the University of Virginia, ",
+              "zh": "她是弗吉尼亚大学心理学研究人员"
+            },
+            {
+              "a": 177,
+              "b": 189,
+              "en": "adding that ",
+              "zh": "她补充说"
+            },
+            {
+              "a": 189,
+              "b": 234,
+              "en": "this revival is part of a larger recognition ",
+              "zh": "这种重新关注，是一种更广泛认识的一部分"
+            },
+            {
+              "a": 234,
+              "b": 264,
+              "en": "that emotions aren't binary – ",
+              "zh": "即情绪不能简单地分成好坏两类"
+            },
+            {
+              "a": 264,
+              "b": 313,
+              "en": "feelings that may be advantageous in one context ",
+              "zh": "某种情绪在一种情境中可能有益"
+            },
+            {
+              "a": 313,
+              "b": 339,
+              "en": "may be harmful in another.",
+              "zh": "换到另一种情境却可能有害"
+            }
+          ],
+          "reorder": "先交代说话人及身份，接引语；将 adding that 另起分句，破折号后解释为什么情绪不能简单二分。",
+          "translation": "弗吉尼亚大学心理学研究人员阿姆里莎·瓦伊什说：“人们重新开始关注或思考，内疚是什么，以及它能发挥什么作用。”她补充说，这种重新关注属于一种更广泛认识的一部分，即情绪不能简单地分成好坏两类——某种情绪在一种情境中可能有益，换到另一种情境却可能有害。",
+          "words": [
+            {
+              "a": 26,
+              "b": 33,
+              "lemma": "revival",
+              "meaning": "重新关注；重新审视",
+              "word": "revival",
+              "pos": "n"
+            },
+            {
+              "a": 39,
+              "b": 49,
+              "lemma": "rethink",
+              "meaning": "重新思考；重新审视",
+              "word": "rethinking",
+              "pos": "n"
+            },
+            {
+              "a": 194,
+              "b": 201,
+              "lemma": "revival",
+              "meaning": "重新关注；重新审视",
+              "word": "revival",
+              "pos": "n"
+            },
+            {
+              "a": 255,
+              "b": 261,
+              "lemma": "binary",
+              "meaning": "简单二分为好或坏的",
+              "word": "binary",
+              "pos": "a"
+            },
+            {
+              "a": 285,
+              "b": 297,
+              "word": "advantageous",
+              "lemma": "advantageous",
+              "meaning": "有利的；有益的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P2-S5",
           "a": 544,
           "b": 632,
           "en": "Jealousy and anger, for example, may have evolved to alert us to important inequalities.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 33,
+              "en": "Jealousy and anger, for example, ",
+              "zh": "例如，嫉妒和愤怒"
+            },
+            {
+              "a": 33,
+              "b": 50,
+              "en": "may have evolved ",
+              "zh": "可能是在进化中形成的"
+            },
+            {
+              "a": 50,
+              "b": 88,
+              "en": "to alert us to important inequalities.",
+              "zh": "作用是提醒我们注意严重的不平等"
+            }
+          ],
+          "reorder": "把 for example 前置，to alert 译为情绪可能具有的进化作用，保留 may 的推测。",
+          "translation": "例如，嫉妒和愤怒可能是在进化中形成的，用来提醒我们注意严重的不平等。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 53,
+              "b": 64,
+              "word": "alert us to",
+              "lemma": "alert us to",
+              "meaning": "提醒我们注意"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P2-S6",
           "a": 633,
           "b": 671,
           "en": "Too much happiness can be destructive.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 38,
+              "en": "Too much happiness can be destructive.",
+              "zh": "过度的快乐可能具有破坏性"
+            }
+          ],
+          "reorder": "顺译，too much 是过量而非一般的快乐。",
+          "translation": "过度的快乐可能具有破坏性。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -141,36 +525,126 @@
           "a": 0,
           "b": 133,
           "en": "And guilt, by prompting us to think more deeply about our goodness, can encourage humans to make up for errors and fix relationships.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 11,
+              "en": "And guilt, ",
+              "zh": "而内疚"
+            },
+            {
+              "a": 11,
+              "b": 68,
+              "en": "by prompting us to think more deeply about our goodness, ",
+              "zh": "通过促使我们更深入地反思自身的善良品行"
+            },
+            {
+              "a": 68,
+              "b": 111,
+              "en": "can encourage humans to make up for errors ",
+              "zh": "能鼓励人们弥补错误"
+            },
+            {
+              "a": 111,
+              "b": 133,
+              "en": "and fix relationships.",
+              "zh": "并修复关系"
+            }
+          ],
+          "reorder": "把 by 的作用机制放在内疚与主要作用之间；goodness 指自身道德品质。",
+          "translation": "而内疚通过促使我们更深入地反思自身的善良品行，能鼓励人们弥补错误、修复关系。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 92,
+              "b": 103,
+              "lemma": "make up for",
+              "meaning": "弥补",
+              "word": "make up for"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P3-S2",
           "a": 134,
           "b": 202,
           "en": "Guilt, in other words, can help hold a cooperative species together.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 23,
+              "en": "Guilt, in other words, ",
+              "zh": "换句话说，内疚"
+            },
+            {
+              "a": 23,
+              "b": 68,
+              "en": "can help hold a cooperative species together.",
+              "zh": "有助于让一个依靠合作的物种保持团结"
+            }
+          ],
+          "reorder": "把 in other words 提前，hold...together 按维系团结译出。",
+          "translation": "换句话说，内疚有助于让一个依靠合作的物种保持团结。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 32,
+              "b": 67,
+              "lemma": "hold a cooperative species together",
+              "meaning": "维系群体中的合作关系",
+              "word": "hold a cooperative species together"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P3-S3",
           "a": 203,
           "b": 231,
           "en": "It is a kind of social glue.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 28,
+              "en": "It is a kind of social glue.",
+              "zh": "它是一种社会黏合剂"
+            }
+          ],
+          "reorder": "顺译比喻，It 指内疚。",
+          "translation": "它是一种社会黏合剂。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 16,
+              "b": 27,
+              "lemma": "social glue",
+              "meaning": "维系社会关系的黏合剂（比喻）",
+              "word": "social glue"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -183,60 +657,294 @@
           "a": 0,
           "b": 46,
           "en": "Viewed in this light, guilt is an opportunity.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 22,
+              "en": "Viewed in this light, ",
+              "zh": "从这个角度来看"
+            },
+            {
+              "a": 22,
+              "b": 46,
+              "en": "guilt is an opportunity.",
+              "zh": "内疚是一种机会"
+            }
+          ],
+          "reorder": "先译视角，再译对内疚的新判断。",
+          "translation": "从这个角度来看，内疚是一种机会。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P4-S2",
           "a": 47,
           "b": 183,
           "en": "Work by Tina Malti, a psychology professor at the University of Toronto, suggests that guilt may compensate for an emotional deficiency.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 20,
+              "en": "Work by Tina Malti, ",
+              "zh": "蒂娜·马尔蒂的研究"
+            },
+            {
+              "a": 20,
+              "b": 73,
+              "en": "a psychology professor at the University of Toronto, ",
+              "zh": "她是多伦多大学心理学教授"
+            },
+            {
+              "a": 73,
+              "b": 87,
+              "en": "suggests that ",
+              "zh": "研究提示"
+            },
+            {
+              "a": 87,
+              "b": 136,
+              "en": "guilt may compensate for an emotional deficiency.",
+              "zh": "内疚可能弥补某种情感上的不足"
+            }
+          ],
+          "reorder": "把研究者的同位身份提前限定人名，再译研究发现；may 保留可能性。",
+          "translation": "多伦多大学心理学教授蒂娜·马尔蒂的研究提示，内疚可能弥补某种情感上的不足。",
+          "words": [
+            {
+              "a": 125,
+              "b": 135,
+              "lemma": "deficiency",
+              "meaning": "不足；缺失",
+              "word": "deficiency",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 97,
+              "b": 111,
+              "word": "compensate for",
+              "lemma": "compensate for",
+              "meaning": "弥补；补偿"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P4-S3",
           "a": 184,
           "b": 320,
           "en": "In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 24,
+              "en": "In a number of studies, ",
+              "zh": "在多项研究中"
+            },
+            {
+              "a": 24,
+              "b": 57,
+              "en": "Malti and others have shown that ",
+              "zh": "马尔蒂等人表明"
+            },
+            {
+              "a": 57,
+              "b": 76,
+              "en": "guilt and sympathy ",
+              "zh": "内疚和同情心"
+            },
+            {
+              "a": 76,
+              "b": 136,
+              "en": "may represent different pathways to cooperation and sharing.",
+              "zh": "可能是实现合作与分享的不同途径"
+            }
+          ],
+          "reorder": "先译证据来源，再译两种情感与合作行为的关系，different 强调途径不同。",
+          "translation": "马尔蒂等人在多项研究中表明，内疚和同情心可能是实现合作与分享的不同途径。",
+          "words": [
+            {
+              "a": 67,
+              "b": 75,
+              "lemma": "sympathy",
+              "meaning": "同情；对他人感受与处境的体察",
+              "word": "sympathy",
+              "pos": "n"
+            },
+            {
+              "a": 100,
+              "b": 108,
+              "lemma": "pathway",
+              "meaning": "实现某事的途径",
+              "word": "pathways",
+              "pos": "n"
+            },
+            {
+              "a": 128,
+              "b": 135,
+              "lemma": "share",
+              "meaning": "分享；把东西分给他人",
+              "word": "sharing",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P4-S4",
           "a": 321,
           "b": 455,
           "en": "Some kids who are low in sympathy may make up for that shortfall by experiencing more guilt, which can rein in their nastier impulses.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 34,
+              "en": "Some kids who are low in sympathy ",
+              "zh": "一些同情心较弱的孩子"
+            },
+            {
+              "a": 34,
+              "b": 65,
+              "en": "may make up for that shortfall ",
+              "zh": "可能弥补这种欠缺"
+            },
+            {
+              "a": 65,
+              "b": 93,
+              "en": "by experiencing more guilt, ",
+              "zh": "办法是产生更多内疚"
+            },
+            {
+              "a": 93,
+              "b": 134,
+              "en": "which can rein in their nastier impulses.",
+              "zh": "而内疚能约束他们更恶劣的冲动"
+            }
+          ],
+          "reorder": "把 by 的办法接到弥补之前或之后，which 回指更多内疚而不是孩子。",
+          "translation": "一些同情心较弱的孩子，可能通过产生更多内疚来弥补这种欠缺，而内疚能约束他们更恶劣的冲动。",
+          "words": [
+            {
+              "a": 25,
+              "b": 33,
+              "lemma": "sympathy",
+              "meaning": "同情；对他人感受与处境的体察",
+              "word": "sympathy",
+              "pos": "n"
+            },
+            {
+              "a": 55,
+              "b": 64,
+              "lemma": "shortfall",
+              "meaning": "欠缺；不足",
+              "word": "shortfall",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 103,
+              "b": 110,
+              "lemma": "rein in",
+              "meaning": "抑制；约束",
+              "word": "rein in"
+            },
+            {
+              "a": 117,
+              "b": 133,
+              "lemma": "nastier impulses",
+              "meaning": "更恶劣的冲动",
+              "word": "nastier impulses"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P4-S5",
           "a": 456,
           "b": 515,
           "en": "And vice versa: High sympathy can substitute for low guilt.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 16,
+              "en": "And vice versa: ",
+              "zh": "反过来也一样"
+            },
+            {
+              "a": 16,
+              "b": 59,
+              "en": "High sympathy can substitute for low guilt.",
+              "zh": "较强的同情心能弥补内疚感较弱的不足"
+            }
+          ],
+          "reorder": "冒号后解释反向补偿，substitute for 在此按弥补不足译。",
+          "translation": "反过来也一样：较强的同情心能弥补内疚感较弱的不足。",
+          "words": [
+            {
+              "a": 21,
+              "b": 29,
+              "lemma": "sympathy",
+              "meaning": "同情；对他人感受与处境的体察",
+              "word": "sympathy",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 4,
+              "b": 14,
+              "lemma": "vice versa",
+              "meaning": "反过来也一样",
+              "word": "vice versa"
+            },
+            {
+              "a": 34,
+              "b": 48,
+              "lemma": "substitute for",
+              "meaning": "替代；弥补",
+              "word": "substitute for"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -249,60 +957,290 @@
           "a": 0,
           "b": 59,
           "en": "In a 2014 study, for example, Malti looked at 244 children.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 30,
+              "en": "In a 2014 study, for example, ",
+              "zh": "例如，在二〇一四年的一项研究中"
+            },
+            {
+              "a": 30,
+              "b": 59,
+              "en": "Malti looked at 244 children.",
+              "zh": "马尔蒂研究了二百四十四名儿童"
+            }
+          ],
+          "reorder": "先译研究时间，再译样本人数。",
+          "translation": "例如，在二〇一四年的一项研究中，马尔蒂研究了二百四十四名儿童。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P5-S2",
           "a": 60,
           "b": 249,
           "en": "Using caregiver assessments and the children's self-observations, she rated each child's overall sympathy level and his or her tendency to feel negative emotions after moral transgressions.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 66,
+              "en": "Using caregiver assessments and the children's self-observations, ",
+              "zh": "根据照料者的评价和孩子们的自我观察"
+            },
+            {
+              "a": 66,
+              "b": 112,
+              "en": "she rated each child's overall sympathy level ",
+              "zh": "她评定了每个孩子总体的同情心水平"
+            },
+            {
+              "a": 112,
+              "b": 162,
+              "en": "and his or her tendency to feel negative emotions ",
+              "zh": "以及产生负面情绪的倾向"
+            },
+            {
+              "a": 162,
+              "b": 189,
+              "en": "after moral transgressions.",
+              "zh": "即在违反道德规范之后是否容易产生这些情绪"
+            }
+          ],
+          "reorder": "先译评估依据，再把 after 的道德越轨情境前置限定第二个评估对象。",
+          "translation": "根据照料者的评价和孩子们的自我观察，她评定了每个孩子总体的同情心水平，以及他们在违反道德规范后产生负面情绪的倾向。",
+          "words": [
+            {
+              "a": 6,
+              "b": 15,
+              "lemma": "caregiver",
+              "meaning": "照顾孩子的人",
+              "word": "caregiver",
+              "pos": "n"
+            },
+            {
+              "a": 16,
+              "b": 27,
+              "lemma": "assessment",
+              "meaning": "评价；评估",
+              "word": "assessments",
+              "pos": "n"
+            },
+            {
+              "a": 70,
+              "b": 75,
+              "lemma": "rate",
+              "meaning": "评定；给……评分",
+              "word": "rated",
+              "pos": "v"
+            },
+            {
+              "a": 97,
+              "b": 105,
+              "lemma": "sympathy",
+              "meaning": "同情；对他人感受与处境的体察",
+              "word": "sympathy",
+              "pos": "n"
+            },
+            {
+              "a": 127,
+              "b": 135,
+              "lemma": "tendency",
+              "meaning": "倾向",
+              "word": "tendency",
+              "pos": "n"
+            },
+            {
+              "a": 174,
+              "b": 188,
+              "lemma": "transgression",
+              "meaning": "违背道德规范的行为",
+              "word": "transgressions",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P5-S3",
           "a": 250,
           "b": 350,
           "en": "Then the kids were handed chocolate coins, and given a chance to share them with an anonymous child.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 43,
+              "en": "Then the kids were handed chocolate coins, ",
+              "zh": "然后，研究者给孩子们发放硬币形巧克力"
+            },
+            {
+              "a": 43,
+              "b": 62,
+              "en": "and given a chance ",
+              "zh": "并给他们一个机会"
+            },
+            {
+              "a": 62,
+              "b": 100,
+              "en": "to share them with an anonymous child.",
+              "zh": "与一名身份未透露的孩子分享这些巧克力"
+            }
+          ],
+          "reorder": "将被动句译为研究者的动作，them 指巧克力，anonymous 指另一位孩子的身份未透露。",
+          "translation": "然后，研究者给孩子们发放硬币形巧克力，并给他们机会与一名身份未透露的孩子分享。",
+          "words": [
+            {
+              "a": 84,
+              "b": 93,
+              "word": "anonymous",
+              "lemma": "anonymous",
+              "meaning": "匿名的；身份未透露的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P5-S4",
           "a": 351,
           "b": 457,
           "en": "For the low-sympathy kids, how much they shared appeared to turn on how inclined they were to feel guilty.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 27,
+              "en": "For the low-sympathy kids, ",
+              "zh": "对同情心较弱的孩子而言"
+            },
+            {
+              "a": 27,
+              "b": 68,
+              "en": "how much they shared appeared to turn on ",
+              "zh": "他们分享多少，似乎取决于"
+            },
+            {
+              "a": 68,
+              "b": 106,
+              "en": "how inclined they were to feel guilty.",
+              "zh": "他们有多容易感到内疚"
+            }
+          ],
+          "reorder": "先译限定群体，再译两项程度之间的关系；turn on 不是打开，而是取决于。",
+          "translation": "对同情心较弱的孩子而言，他们分享多少，似乎取决于他们有多容易感到内疚。",
+          "words": [
+            {
+              "a": 12,
+              "b": 20,
+              "lemma": "sympathy",
+              "meaning": "同情；对他人感受与处境的体察",
+              "word": "sympathy",
+              "pos": "n"
+            },
+            {
+              "a": 72,
+              "b": 80,
+              "lemma": "inclined",
+              "meaning": "有……倾向的",
+              "word": "inclined",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 60,
+              "b": 67,
+              "lemma": "turn on",
+              "meaning": "取决于",
+              "word": "turn on"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P5-S5",
           "a": 458,
           "b": 583,
           "en": "The guilt-prone ones shared more, even though they hadn't magically become more sympathetic to the other child's deprivation.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 34,
+              "en": "The guilt-prone ones shared more, ",
+              "zh": "容易内疚的孩子分享得更多"
+            },
+            {
+              "a": 34,
+              "b": 92,
+              "en": "even though they hadn't magically become more sympathetic ",
+              "zh": "即使他们并没有神奇地变得更有同情心"
+            },
+            {
+              "a": 92,
+              "b": 125,
+              "en": "to the other child's deprivation.",
+              "zh": "并未更同情另一个孩子的匮乏处境"
+            }
+          ],
+          "reorder": "先译分享结果，再译 even though 的让步；deprivation 指另一个孩子没得到巧克力的处境。",
+          "translation": "容易内疚的孩子分享得更多，即使他们并没有神奇地变得更同情另一个孩子没得到巧克力的处境。",
+          "words": [
+            {
+              "a": 4,
+              "b": 15,
+              "lemma": "guilt-prone",
+              "meaning": "容易产生内疚的",
+              "word": "guilt-prone",
+              "pos": "a"
+            },
+            {
+              "a": 113,
+              "b": 124,
+              "lemma": "deprivation",
+              "meaning": "匮乏；未能获得好东西的处境",
+              "word": "deprivation",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -315,24 +1253,87 @@
           "a": 0,
           "b": 32,
           "en": "“That's good news, ” Malti says.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 21,
+              "en": "“That's good news, ” ",
+              "zh": "这是个好消息"
+            },
+            {
+              "a": 21,
+              "b": 32,
+              "en": "Malti says.",
+              "zh": "马尔蒂说"
+            }
+          ],
+          "reorder": "把说话人前置即可，保留引语。",
+          "translation": "马尔蒂说：“这是个好消息。”",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2019-T1-P6-S2",
           "a": 33,
           "b": 97,
           "en": "“We can be prosocial because we caused harm and we feel regret.”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 21,
+              "en": "“We can be prosocial ",
+              "zh": "我们可以表现出有利于他人和群体的行为"
+            },
+            {
+              "a": 21,
+              "b": 44,
+              "en": "because we caused harm ",
+              "zh": "因为我们造成了伤害"
+            },
+            {
+              "a": 44,
+              "b": 64,
+              "en": "and we feel regret.”",
+              "zh": "并为此感到懊悔"
+            }
+          ],
+          "reorder": "先译因果关系或顺译均可；prosocial 译明亲社会行为的含义，we 是三处动作的共同主体。",
+          "translation": "“我们可以因为自己造成了伤害并为此感到懊悔，而表现出有利于他人和群体的行为。”",
+          "words": [
+            {
+              "a": 11,
+              "b": 20,
+              "lemma": "prosocial",
+              "meaning": "有利于他人与群体的；亲社会的",
+              "word": "prosocial",
+              "pos": "a"
+            },
+            {
+              "a": 56,
+              "b": 62,
+              "lemma": "regret",
+              "meaning": "懊悔；后悔",
+              "word": "regret",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     }

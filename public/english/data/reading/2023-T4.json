@@ -6,10 +6,21 @@
   "text": 4,
   "articleKey": "s1-p0-t3",
   "source": {
-    "status": "pending",
-    "textSHA256": "8aeb2b49342acf6c148d5bcacf37f9ab42fef4b256c75bba7daaa18b20384c04",
-    "evidence": [],
-    "notes": []
+    "status": "verified",
+    "textSHA256": "2d6d422fc2bc385c4a0d8fda3c40a5e766a842f5d66eab461542057db9847198",
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2023年考研英语二真题.pdf",
+        "page": 10,
+        "sha256": "5b462cc9b9d2cdd20e0deed393eecec0237010a5fd5f72166c207e9ccd3df1b7"
+      }
+    ],
+    "notes": [
+      "按原卷修复questionnaires、that needed、increases及costs后漏句号；不将相关关系解释为因果。"
+    ],
+    "checkedAt": "2026-10-31",
+    "method": "逐段对照用户提供的原卷；保留原卷有效英文，修复旧题库的漏句、多句及录入错误后逐句编辑中文。"
   },
   "paragraphs": [
     {
@@ -21,186 +32,815 @@
           "a": 0,
           "b": 26,
           "en": "Teenagers are paradoxical.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 26,
+              "en": "Teenagers are paradoxical.",
+              "zh": "青少年身上充满矛盾。"
+            }
+          ],
+          "reorder": "按主谓顺序翻译，paradoxical 概括下文独立与叛逆并存。",
+          "translation": "青少年身上充满矛盾。",
+          "words": [
+            {
+              "a": 14,
+              "b": 25,
+              "word": "paradoxical",
+              "lemma": "paradoxical",
+              "meaning": "看似矛盾的；充满矛盾的"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2023-T4-P1-S2",
           "a": 27,
           "b": 141,
           "en": "That's a mild and detached way of saying something that parents often express with considerably stronger language.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 31,
+              "en": "That's a mild and detached way ",
+              "zh": "这是一种温和而超然的说法，"
+            },
+            {
+              "a": 31,
+              "b": 51,
+              "en": "of saying something ",
+              "zh": "用来描述某种情况，"
+            },
+            {
+              "a": 51,
+              "b": 78,
+              "en": "that parents often express ",
+              "zh": "父母常常也会描述它，"
+            },
+            {
+              "a": 78,
+              "b": 114,
+              "en": "with considerably stronger language.",
+              "zh": "却用激烈得多的措辞。"
+            }
+          ],
+          "reorder": "that 修饰 something；先译“同一情况”，再比较作者与父母的措辞。",
+          "translation": "这是对某种情况一种温和而超然的说法，而父母谈起同样的情况，措辞往往激烈得多。",
+          "words": [
+            {
+              "a": 9,
+              "b": 13,
+              "word": "mild",
+              "lemma": "mild",
+              "meaning": "温和的；不激烈的",
+              "pos": "a"
+            },
+            {
+              "a": 18,
+              "b": 26,
+              "word": "detached",
+              "lemma": "detached",
+              "meaning": "客观超然的；不带强烈感情的"
+            },
+            {
+              "a": 83,
+              "b": 95,
+              "word": "considerably",
+              "lemma": "considerably",
+              "meaning": "相当大程度地"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2023-T4-P1-S3",
           "a": 142,
           "b": 192,
           "en": "But the paradox is scientific as well as personal.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 30,
+              "en": "But the paradox is scientific ",
+              "zh": "但这种矛盾也有科学依据，"
+            },
+            {
+              "a": 30,
+              "b": 50,
+              "en": "as well as personal.",
+              "zh": "并不只是个人感受。"
+            }
+          ],
+          "reorder": "as well as 同时肯定两者，中文用“既……也……”或“不只是……也……”衔接。",
+          "translation": "但这种矛盾不仅是个人感受，也有科学依据。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2023-T4-P1-S4",
           "a": 193,
           "b": 374,
           "en": "In adolescence, helpless and dependent children who have relied on grown-ups for just about everything become independent people who can take care of themselves and help each other.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 48,
+              "en": "In adolescence, helpless and dependent children ",
+              "zh": "青春期里，那些无助、依赖他人的孩子，"
+            },
+            {
+              "a": 48,
+              "b": 103,
+              "en": "who have relied on grown-ups for just about everything ",
+              "zh": "过去几乎事事依靠成年人，"
+            },
+            {
+              "a": 103,
+              "b": 129,
+              "en": "become independent people ",
+              "zh": "开始成为独立的人，"
+            },
+            {
+              "a": 129,
+              "b": 181,
+              "en": "who can take care of themselves and help each other.",
+              "zh": "能够照顾自己、互相帮助。"
+            }
+          ],
+          "reorder": "将第一个 who 的过去依赖放到孩子前；第二个 who 解释成长后的能力，保留前后变化。",
+          "translation": "进入青春期后，那些过去几乎事事依赖成年人、无助而缺乏独立性的孩子，逐渐成为能够照顾自己、互相帮助的独立个体。",
+          "words": [
+            {
+              "a": 3,
+              "b": 14,
+              "word": "adolescence",
+              "lemma": "adolescence",
+              "meaning": "青春期",
+              "pos": "n"
+            },
+            {
+              "a": 67,
+              "b": 76,
+              "word": "grown-ups",
+              "lemma": "grown-up",
+              "meaning": "成年人"
+            },
+            {
+              "a": 29,
+              "b": 38,
+              "word": "dependent",
+              "lemma": "dependent",
+              "meaning": "依赖他人的"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 137,
+              "b": 149,
+              "lemma": "take care of",
+              "meaning": "照顾",
+              "word": "take care of"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2023-T4-P1-S5",
           "a": 375,
           "b": 468,
           "en": "At the same time, once cheerful and compliant children become rebellious teenage risk-takers.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 18,
+              "en": "At the same time, ",
+              "zh": "与此同时，"
+            },
+            {
+              "a": 18,
+              "b": 55,
+              "en": "once cheerful and compliant children ",
+              "zh": "那些曾经开朗听话的孩子，"
+            },
+            {
+              "a": 55,
+              "b": 93,
+              "en": "become rebellious teenage risk-takers.",
+              "zh": "又成了叛逆、爱冒险的青少年。"
+            }
+          ],
+          "reorder": "once 表示曾经，放到孩子的修饰中；与前句正面成长同时出现。",
+          "translation": "与此同时，那些曾经开朗听话的孩子，又成了叛逆、爱冒险的青少年。",
+          "words": [
+            {
+              "a": 36,
+              "b": 45,
+              "word": "compliant",
+              "lemma": "compliant",
+              "meaning": "顺从的；听话的"
+            },
+            {
+              "a": 62,
+              "b": 72,
+              "word": "rebellious",
+              "lemma": "rebellious",
+              "meaning": "叛逆的"
+            },
+            {
+              "a": 81,
+              "b": 92,
+              "word": "risk-takers",
+              "lemma": "risk-taker",
+              "meaning": "爱冒险的人"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
     {
       "id": "2023-T4-P2",
-      "en": "A new study published in the journal Child Development by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of teenagers go hand in hand. The study is part of a new wave of thinking about adolescence. For a long time, scientists and policy makers concentrated on the idea that teenagers were a problem needed to be solved. The new work emphasizes that adolescence is a time of opportunity as well as risk.",
+      "en": "A new study published in the journal Child Development by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of teenagers go hand in hand. The study is part of a new wave of thinking about adolescence. For a long time, scientists and policy makers concentrated on the idea that teenagers were a problem that needed to be solved. The new work emphasizes that adolescence is a time of opportunity as well as risk.",
       "sentences": [
         {
           "id": "2023-T4-P2-S1",
           "a": 0,
           "b": 191,
           "en": "A new study published in the journal Child Development by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of teenagers go hand in hand.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 55,
+              "en": "A new study published in the journal Child Development ",
+              "zh": "一项发表于《儿童发展》的新研究，"
+            },
+            {
+              "a": 55,
+              "b": 116,
+              "en": "by Eveline Crone of the University of Leiden and colleagues, ",
+              "zh": "由莱顿大学的埃弗琳·克罗内及同事开展，"
+            },
+            {
+              "a": 116,
+              "b": 175,
+              "en": "suggests that the positive and negative sides of teenagers ",
+              "zh": "指出青少年的积极面和消极面，"
+            },
+            {
+              "a": 175,
+              "b": 191,
+              "en": "go hand in hand.",
+              "zh": "是相伴而行的。"
+            }
+          ],
+          "reorder": "将研究作者与发表刊物整合到主语前；go hand in hand 不表示因果。",
+          "translation": "莱顿大学的埃弗琳·克罗内及同事在《儿童发展》发表的一项新研究指出，青少年的积极面和消极面是相伴而行的。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 175,
+              "b": 190,
+              "word": "go hand in hand",
+              "lemma": "go hand in hand",
+              "meaning": "相伴而行；密切并存"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2023-T4-P2-S2",
           "a": 192,
           "b": 254,
           "en": "The study is part of a new wave of thinking about adolescence.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 18,
+              "en": "The study is part ",
+              "zh": "这项研究属于，"
+            },
+            {
+              "a": 18,
+              "b": 32,
+              "en": "of a new wave ",
+              "zh": "一股新思潮，"
+            },
+            {
+              "a": 32,
+              "b": 62,
+              "en": "of thinking about adolescence.",
+              "zh": "关于如何看待青春期。"
+            }
+          ],
+          "reorder": "将关于青春期的修饰放到思潮前；wave 为思想趋势。",
+          "translation": "这项研究属于一股重新看待青春期的新思潮。",
+          "words": [
+            {
+              "a": 50,
+              "b": 61,
+              "word": "adolescence",
+              "lemma": "adolescence",
+              "meaning": "青春期",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2023-T4-P2-S3",
           "a": 255,
-          "b": 376,
-          "en": "For a long time, scientists and policy makers concentrated on the idea that teenagers were a problem needed to be solved.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "b": 381,
+          "en": "For a long time, scientists and policy makers concentrated on the idea that teenagers were a problem that needed to be solved.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 17,
+              "en": "For a long time, ",
+              "zh": "长期以来，"
+            },
+            {
+              "a": 17,
+              "b": 59,
+              "en": "scientists and policy makers concentrated ",
+              "zh": "科学家和政策制定者一直着眼于，"
+            },
+            {
+              "a": 59,
+              "b": 71,
+              "en": "on the idea ",
+              "zh": "这样一种想法，"
+            },
+            {
+              "a": 71,
+              "b": 101,
+              "en": "that teenagers were a problem ",
+              "zh": "即青少年是一个问题，"
+            },
+            {
+              "a": 101,
+              "b": 126,
+              "en": "that needed to be solved.",
+              "zh": "一个需要解决的问题。"
+            }
+          ],
+          "reorder": "两个 that 分别解释 idea 和修饰 problem；将“需要解决”放到“问题”前。",
+          "translation": "长期以来，科学家和政策制定者一直把青少年视为一个需要解决的问题。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 46,
+              "b": 61,
+              "word": "concentrated on",
+              "lemma": "concentrate on",
+              "meaning": "集中关注；着眼于"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2023-T4-P2-S4",
-          "a": 377,
-          "b": 459,
+          "a": 382,
+          "b": 464,
           "en": "The new work emphasizes that adolescence is a time of opportunity as well as risk.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 24,
+              "en": "The new work emphasizes ",
+              "zh": "这项新研究强调，"
+            },
+            {
+              "a": 24,
+              "b": 66,
+              "en": "that adolescence is a time of opportunity ",
+              "zh": "青春期是充满机遇的时期，"
+            },
+            {
+              "a": 66,
+              "b": 82,
+              "en": "as well as risk.",
+              "zh": "同时也充满风险。"
+            }
+          ],
+          "reorder": "as well as 不取消风险，而是补充过去忽视的机遇。",
+          "translation": "这项新研究强调，青春期既充满风险，也充满机遇。",
+          "words": [
+            {
+              "a": 29,
+              "b": 40,
+              "word": "adolescence",
+              "lemma": "adolescence",
+              "meaning": "青春期",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
     {
       "id": "2023-T4-P3",
-      "en": "The researchers studied \"prosocial\" and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old. The participants filled out questions about how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend or rebellious and negative, like getting drunk or staying out late.",
+      "en": "The researchers studied \"prosocial\" and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old. The participants filled out questionnaires about how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend, or rebellious and negative, like getting drunk or staying out late.",
       "sentences": [
         {
           "id": "2023-T4-P3-S1",
           "a": 0,
           "b": 134,
           "en": "The researchers studied \"prosocial\" and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 58,
+              "en": "The researchers studied \"prosocial\" and rebellious traits ",
+              "zh": "研究人员考察了“亲社会”与叛逆特征，"
+            },
+            {
+              "a": 58,
+              "b": 102,
+              "en": "in more than 200 children and young adults, ",
+              "zh": "对象是200多名儿童及年轻成年人，"
+            },
+            {
+              "a": 102,
+              "b": 134,
+              "en": "ranging from 11 to 28 years old.",
+              "zh": "年龄从11岁到28岁。"
+            }
+          ],
+          "reorder": "把研究对象及年龄放在考察前；prosocial 与 rebellious 为两类特征。",
+          "translation": "研究人员以200多名11至28岁的儿童和年轻成年人为对象，考察他们的“亲社会”与叛逆特征。",
+          "words": [
+            {
+              "a": 40,
+              "b": 50,
+              "word": "rebellious",
+              "lemma": "rebellious",
+              "meaning": "叛逆的",
+              "pos": "a"
+            },
+            {
+              "a": 25,
+              "b": 34,
+              "word": "prosocial",
+              "lemma": "prosocial",
+              "meaning": "亲社会的；有益于他人的"
+            },
+            {
+              "a": 51,
+              "b": 57,
+              "word": "traits",
+              "lemma": "trait",
+              "meaning": "特征；特质"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2023-T4-P3-S2",
           "a": 135,
-          "b": 361,
-          "en": "The participants filled out questions about how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend or rebellious and negative, like getting drunk or staying out late.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "b": 367,
+          "en": "The participants filled out questionnaires about how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend, or rebellious and negative, like getting drunk or staying out late.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 43,
+              "en": "The participants filled out questionnaires ",
+              "zh": "参与者填写了问卷，"
+            },
+            {
+              "a": 43,
+              "b": 75,
+              "en": "about how often they did things ",
+              "zh": "说明自己做这些事情的频率，"
+            },
+            {
+              "a": 75,
+              "b": 110,
+              "en": "that were altruistic and positive, ",
+              "zh": "利他而积极的事情，"
+            },
+            {
+              "a": 110,
+              "b": 165,
+              "en": "like sacrificing their own interests to help a friend, ",
+              "zh": "比如牺牲自己的利益帮助朋友，"
+            },
+            {
+              "a": 165,
+              "b": 193,
+              "en": "or rebellious and negative, ",
+              "zh": "或叛逆而消极的事情，"
+            },
+            {
+              "a": 193,
+              "b": 232,
+              "en": "like getting drunk or staying out late.",
+              "zh": "比如喝醉或夜不归宿。"
+            }
+          ],
+          "reorder": "先说填写内容是频率，再并列正面和负面行为及各自例子；不是所有人都经常做。",
+          "translation": "参与者填写问卷，报告自己做各类事情的频率：既包括牺牲自身利益帮助朋友等利他而积极的行为，也包括喝醉、很晚不回家等叛逆而消极的行为。",
+          "words": [
+            {
+              "a": 85,
+              "b": 95,
+              "word": "altruistic",
+              "lemma": "altruistic",
+              "meaning": "利他的；为他人着想的"
+            },
+            {
+              "a": 28,
+              "b": 42,
+              "word": "questionnaires",
+              "lemma": "questionnaire",
+              "meaning": "问卷"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 215,
+              "b": 231,
+              "word": "staying out late",
+              "lemma": "stay out late",
+              "meaning": "很晚仍不回家"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
     {
       "id": "2023-T4-P4",
-      "en": "Other studies have shown that rebellious behavior increased as you become a teenager and then fades away as you grow older. But the new study shows that, interestingly, the same pattern holds for prosocial behavior. Teenagers were more likely than younger children or adults to report that they did things like unselfishly help a friend.",
+      "en": "Other studies have shown that rebellious behavior increases as you become a teenager and then fades away as you grow older. But the new study shows that, interestingly, the same pattern holds for prosocial behavior. Teenagers were more likely than younger children or adults to report that they did things like unselfishly help a friend.",
       "sentences": [
         {
           "id": "2023-T4-P4-S1",
           "a": 0,
           "b": 123,
-          "en": "Other studies have shown that rebellious behavior increased as you become a teenager and then fades away as you grow older.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "en": "Other studies have shown that rebellious behavior increases as you become a teenager and then fades away as you grow older.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 25,
+              "en": "Other studies have shown ",
+              "zh": "其他研究显示，"
+            },
+            {
+              "a": 25,
+              "b": 60,
+              "en": "that rebellious behavior increases ",
+              "zh": "叛逆行为会增加，"
+            },
+            {
+              "a": 60,
+              "b": 85,
+              "en": "as you become a teenager ",
+              "zh": "当你进入青春期时，"
+            },
+            {
+              "a": 85,
+              "b": 105,
+              "en": "and then fades away ",
+              "zh": "随后又逐渐减少，"
+            },
+            {
+              "a": 105,
+              "b": 123,
+              "en": "as you grow older.",
+              "zh": "随着年龄继续增长。"
+            }
+          ],
+          "reorder": "两个 as 时间条件分别放在对应变化前，形成进入青春期上升、后来下降的曲线。",
+          "translation": "其他研究显示，进入青春期时，叛逆行为会增加；随着年龄继续增长，这些行为又逐渐减少。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 94,
+              "b": 104,
+              "word": "fades away",
+              "lemma": "fade away",
+              "meaning": "逐渐减少；逐渐消退"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2023-T4-P4-S2",
           "a": 124,
           "b": 215,
           "en": "But the new study shows that, interestingly, the same pattern holds for prosocial behavior.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 30,
+              "en": "But the new study shows that, ",
+              "zh": "但新研究表明，"
+            },
+            {
+              "a": 30,
+              "b": 45,
+              "en": "interestingly, ",
+              "zh": "有趣的是，"
+            },
+            {
+              "a": 45,
+              "b": 62,
+              "en": "the same pattern ",
+              "zh": "同样的变化模式，"
+            },
+            {
+              "a": 62,
+              "b": 91,
+              "en": "holds for prosocial behavior.",
+              "zh": "也适用于亲社会行为。"
+            }
+          ],
+          "reorder": "interestingly 为插入评价；the same pattern 指前句先升后降的模式。",
+          "translation": "但有趣的是，新研究表明，亲社会行为也呈现同样的变化模式。",
+          "words": [
+            {
+              "a": 54,
+              "b": 61,
+              "word": "pattern",
+              "lemma": "pattern",
+              "meaning": "变化规律；模式",
+              "pos": "n"
+            },
+            {
+              "a": 62,
+              "b": 67,
+              "word": "holds",
+              "lemma": "hold",
+              "meaning": "同样适用；成立",
+              "pos": "v"
+            },
+            {
+              "a": 72,
+              "b": 81,
+              "word": "prosocial",
+              "lemma": "prosocial",
+              "meaning": "亲社会的；有助于他人的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 62,
+              "b": 71,
+              "word": "holds for",
+              "lemma": "hold for",
+              "meaning": "适用于"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2023-T4-P4-S3",
           "a": 216,
           "b": 337,
           "en": "Teenagers were more likely than younger children or adults to report that they did things like unselfishly help a friend.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 27,
+              "en": "Teenagers were more likely ",
+              "zh": "青少年更可能，"
+            },
+            {
+              "a": 27,
+              "b": 59,
+              "en": "than younger children or adults ",
+              "zh": "比年幼儿童或成年人而言，"
+            },
+            {
+              "a": 59,
+              "b": 69,
+              "en": "to report ",
+              "zh": "在问卷中报告，"
+            },
+            {
+              "a": 69,
+              "b": 90,
+              "en": "that they did things ",
+              "zh": "自己做了某些事情，"
+            },
+            {
+              "a": 90,
+              "b": 121,
+              "en": "like unselfishly help a friend.",
+              "zh": "比如无私地帮助朋友。"
+            }
+          ],
+          "reorder": "比较对象放到句首；更可能报告不等于每个青少年都更乐于助人。",
+          "translation": "与年幼儿童或成年人相比，青少年更可能报告自己做过无私帮助朋友之类的事。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
@@ -213,120 +853,562 @@
           "a": 0,
           "b": 93,
           "en": "Most significantly, there was a positive correlation between prosociality and rebelliousness.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 20,
+              "en": "Most significantly, ",
+              "zh": "最重要的是，"
+            },
+            {
+              "a": 20,
+              "b": 53,
+              "en": "there was a positive correlation ",
+              "zh": "存在正相关，"
+            },
+            {
+              "a": 53,
+              "b": 93,
+              "en": "between prosociality and rebelliousness.",
+              "zh": "在亲社会性和叛逆性之间。"
+            }
+          ],
+          "reorder": "将相关的两个特质放到“正相关”前；相关不译成彼此导致。",
+          "translation": "最重要的是，亲社会性与叛逆性之间存在正相关。",
+          "words": [
+            {
+              "a": 41,
+              "b": 52,
+              "word": "correlation",
+              "lemma": "correlation",
+              "meaning": "相关关系",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 32,
+              "b": 52,
+              "word": "positive correlation",
+              "lemma": "positive correlation",
+              "meaning": "正相关"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2023-T4-P5-S2",
           "a": 94,
           "b": 170,
           "en": "The teenagers who were more rebellious were also more likely to help others.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 14,
+              "en": "The teenagers ",
+              "zh": "那些青少年，"
+            },
+            {
+              "a": 14,
+              "b": 39,
+              "en": "who were more rebellious ",
+              "zh": "表现得越叛逆，"
+            },
+            {
+              "a": 39,
+              "b": 76,
+              "en": "were also more likely to help others.",
+              "zh": "也越有可能帮助他人。"
+            }
+          ],
+          "reorder": "将 who 的修饰与 more likely 的比较对应为“越……越……”。",
+          "translation": "越叛逆的青少年，也越有可能帮助他人。",
+          "words": [
+            {
+              "a": 28,
+              "b": 38,
+              "word": "rebellious",
+              "lemma": "rebellious",
+              "meaning": "叛逆的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2023-T4-P5-S3",
           "a": 171,
           "b": 234,
           "en": "The good and bad sides of adolescence seem to develop together.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 38,
+              "en": "The good and bad sides of adolescence ",
+              "zh": "青春期的好坏两面，"
+            },
+            {
+              "a": 38,
+              "b": 63,
+              "en": "seem to develop together.",
+              "zh": "似乎在共同发展。"
+            }
+          ],
+          "reorder": "together 并入谓语，保留 seem 的谨慎语气。",
+          "translation": "青春期的好坏两面，似乎在共同发展。",
+          "words": [
+            {
+              "a": 26,
+              "b": 37,
+              "word": "adolescence",
+              "lemma": "adolescence",
+              "meaning": "青春期",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
     {
       "id": "2023-T4-P6",
-      "en": "Is there some common factor that underlies these apparently contradictory developments? One idea is that teenager behavior is related to what researchers call” reward sensitivity.\" Decision-making always involves balancing rewards and risks, benefits and costs “Reward sensitivity” 'measures how much reward it takes to outweigh risk.",
+      "en": "Is there some common factor that underlies these apparently contradictory developments? One idea is that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.",
       "sentences": [
         {
           "id": "2023-T4-P6-S1",
           "a": 0,
           "b": 87,
           "en": "Is there some common factor that underlies these apparently contradictory developments?",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 28,
+              "en": "Is there some common factor ",
+              "zh": "是否存在某种共同因素，"
+            },
+            {
+              "a": 28,
+              "b": 87,
+              "en": "that underlies these apparently contradictory developments?",
+              "zh": "这些看似矛盾的发展变化背后的因素？"
+            }
+          ],
+          "reorder": "将 that 的修饰转成“这些变化背后是否存在……”，underlies 指深层基础。",
+          "translation": "这些看似矛盾的发展变化背后，是否存在某种共同因素？",
+          "words": [
+            {
+              "a": 60,
+              "b": 73,
+              "word": "contradictory",
+              "lemma": "contradictory",
+              "meaning": "看似相互矛盾的",
+              "pos": "a"
+            },
+            {
+              "a": 33,
+              "b": 42,
+              "word": "underlies",
+              "lemma": "underlie",
+              "meaning": "构成……的基础；是……的深层因素"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2023-T4-P6-S2",
           "a": 88,
-          "b": 180,
-          "en": "One idea is that teenager behavior is related to what researchers call” reward sensitivity.\"",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "b": 179,
+          "en": "One idea is that teenage behavior is related to what researchers call “reward sensitivity.”",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 12,
+              "en": "One idea is ",
+              "zh": "一种看法是，"
+            },
+            {
+              "a": 12,
+              "b": 45,
+              "en": "that teenage behavior is related ",
+              "zh": "青少年行为与某种因素有关，"
+            },
+            {
+              "a": 45,
+              "b": 91,
+              "en": "to what researchers call “reward sensitivity.”",
+              "zh": "研究人员称其为“奖励敏感性”。"
+            }
+          ],
+          "reorder": "what...call 合起来作 related to 的宾语，译“研究人员所称的……”。",
+          "translation": "一种看法认为，青少年行为与研究人员所称的“奖励敏感性”有关。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 71,
+              "b": 89,
+              "word": "reward sensitivity",
+              "lemma": "reward sensitivity",
+              "meaning": "奖励敏感性；对获得回报的敏感程度"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2023-T4-P6-S3",
-          "a": 181,
-          "b": 334,
-          "en": "Decision-making always involves balancing rewards and risks, benefits and costs “Reward sensitivity” 'measures how much reward it takes to outweigh risk.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "a": 180,
+          "b": 260,
+          "en": "Decision-making always involves balancing rewards and risks, benefits and costs.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 32,
+              "en": "Decision-making always involves ",
+              "zh": "作决定始终涉及，"
+            },
+            {
+              "a": 32,
+              "b": 61,
+              "en": "balancing rewards and risks, ",
+              "zh": "权衡回报与风险，"
+            },
+            {
+              "a": 61,
+              "b": 80,
+              "en": "benefits and costs.",
+              "zh": "以及收益与代价。"
+            }
+          ],
+          "reorder": "两个并列宾语对称译出，costs 包括努力或损失，不仅金钱。",
+          "translation": "作决定始终涉及权衡回报与风险、收益与代价。",
+          "words": [
+            {
+              "a": 32,
+              "b": 41,
+              "word": "balancing",
+              "lemma": "balance",
+              "meaning": "权衡"
+            },
+            {
+              "a": 74,
+              "b": 79,
+              "word": "costs",
+              "lemma": "cost",
+              "meaning": "代价"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
+        },
+        {
+          "id": "2023-T4-P6-S4",
+          "a": 261,
+          "b": 333,
+          "en": "“Reward sensitivity” measures how much reward it takes to outweigh risk.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 30,
+              "en": "“Reward sensitivity” measures ",
+              "zh": "“奖励敏感性”衡量的是，"
+            },
+            {
+              "a": 30,
+              "b": 55,
+              "en": "how much reward it takes ",
+              "zh": "需要多少回报，"
+            },
+            {
+              "a": 55,
+              "b": 72,
+              "en": "to outweigh risk.",
+              "zh": "才能让回报超过风险。"
+            }
+          ],
+          "reorder": "how much 引出衡量尺度；it takes 表示所需程度，不译成耗费奖励。",
+          "translation": "“奖励敏感性”衡量的是，需要多大的回报才能让人觉得收益超过风险。",
+          "words": [
+            {
+              "a": 58,
+              "b": 66,
+              "word": "outweigh",
+              "lemma": "outweigh",
+              "meaning": "超过；重于"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     },
     {
       "id": "2023-T4-P7",
-      "en": "Teenagers are particularly sensitive to social rewards-winning the game, impressing a new friend, getting that boy to notice you. Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age. Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn't seem to outweigh the effort of getting up off the couch.",
+      "en": "Teenagers are particularly sensitive to social rewards—winning the game, impressing a new friend, getting that boy to notice you. Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age. Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn't seem to outweigh the effort of getting up off the couch.",
       "sentences": [
         {
           "id": "2023-T4-P7-S1",
           "a": 0,
           "b": 129,
-          "en": "Teenagers are particularly sensitive to social rewards-winning the game, impressing a new friend, getting that boy to notice you.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "en": "Teenagers are particularly sensitive to social rewards—winning the game, impressing a new friend, getting that boy to notice you.",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 37,
+              "en": "Teenagers are particularly sensitive ",
+              "zh": "青少年尤其敏感，"
+            },
+            {
+              "a": 37,
+              "b": 55,
+              "en": "to social rewards—",
+              "zh": "对于社交回报，"
+            },
+            {
+              "a": 55,
+              "b": 73,
+              "en": "winning the game, ",
+              "zh": "例如赢得比赛、"
+            },
+            {
+              "a": 73,
+              "b": 98,
+              "en": "impressing a new friend, ",
+              "zh": "给新朋友留下深刻印象、"
+            },
+            {
+              "a": 98,
+              "b": 129,
+              "en": "getting that boy to notice you.",
+              "zh": "让那个男生注意到自己。"
+            }
+          ],
+          "reorder": "把 to 的对象接在敏感后，破折号后三项具体举例。",
+          "translation": "青少年对社交回报尤其敏感，例如赢得比赛、给新朋友留下深刻印象，或让某个男生注意到自己。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 40,
+              "b": 54,
+              "word": "social rewards",
+              "lemma": "social reward",
+              "meaning": "社交回报；从社交中获得的认可或满足"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2023-T4-P7-S2",
           "a": 130,
           "b": 251,
           "en": "Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 20,
+              "en": "Reward sensitivity, ",
+              "zh": "奖励敏感性，"
+            },
+            {
+              "a": 20,
+              "b": 61,
+              "en": "like prosocial behavior and risk-taking, ",
+              "zh": "与亲社会行为和冒险行为一样，"
+            },
+            {
+              "a": 61,
+              "b": 91,
+              "en": "seems to go up in adolescence ",
+              "zh": "似乎在青春期上升，"
+            },
+            {
+              "a": 91,
+              "b": 121,
+              "en": "and then down again as we age.",
+              "zh": "随后随着年龄增长又下降。"
+            }
+          ],
+          "reorder": "like 的插入比较先交代；go up/down 指敏感程度变化，不是空间位置。",
+          "translation": "与亲社会行为和冒险行为一样，奖励敏感性似乎会在青春期上升，随后随着年龄增长而下降。",
+          "words": [
+            {
+              "a": 0,
+              "b": 6,
+              "word": "Reward",
+              "lemma": "reward",
+              "meaning": "回报；奖励",
+              "pos": "v"
+            },
+            {
+              "a": 7,
+              "b": 18,
+              "word": "sensitivity",
+              "lemma": "sensitivity",
+              "meaning": "对奖励的敏感程度",
+              "pos": "n"
+            },
+            {
+              "a": 25,
+              "b": 34,
+              "word": "prosocial",
+              "lemma": "prosocial",
+              "meaning": "亲社会的；有助于他人的",
+              "pos": "a"
+            },
+            {
+              "a": 79,
+              "b": 90,
+              "word": "adolescence",
+              "lemma": "adolescence",
+              "meaning": "青春期",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 18,
+              "lemma": "reward sensitivity",
+              "meaning": "奖励敏感度",
+              "word": "Reward sensitivity"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         },
         {
           "id": "2023-T4-P7-S3",
           "a": 252,
           "b": 416,
           "en": "Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn't seem to outweigh the effort of getting up off the couch.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 9,
+              "en": "Somehow, ",
+              "zh": "不知为何，"
+            },
+            {
+              "a": 9,
+              "b": 26,
+              "en": "when you hit 30, ",
+              "zh": "到了30岁，"
+            },
+            {
+              "a": 26,
+              "b": 37,
+              "en": "the chance ",
+              "zh": "那种可能性，"
+            },
+            {
+              "a": 37,
+              "b": 95,
+              "en": "that something exciting and new will happen at that party ",
+              "zh": "即在聚会上碰到新鲜刺激事情的可能性，"
+            },
+            {
+              "a": 95,
+              "b": 125,
+              "en": "just doesn't seem to outweigh ",
+              "zh": "似乎就不值得，"
+            },
+            {
+              "a": 125,
+              "b": 164,
+              "en": "the effort of getting up off the couch.",
+              "zh": "付出从沙发上起身的力气。"
+            }
+          ],
+          "reorder": "将 that 内容放到 chance 前；把收益与努力的比较译为“似乎不值得费劲”，保持否定。",
+          "translation": "不知为何，到了30岁，即使聚会上可能发生新鲜刺激的事，似乎也不足以让人觉得值得费劲从沙发上起身。",
+          "words": [
+            {
+              "a": 18,
+              "b": 21,
+              "word": "hit",
+              "lemma": "hit",
+              "meaning": "达到（某个年龄）"
+            },
+            {
+              "a": 116,
+              "b": 124,
+              "word": "outweigh",
+              "lemma": "outweigh",
+              "meaning": "胜过；足以抵偿"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文完整",
+            "否定与比较",
+            "指代",
+            "固定搭配"
+          ]
         }
       ]
     }

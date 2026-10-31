@@ -6,10 +6,25 @@
   "text": 1,
   "articleKey": "s1-p0-t0",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "caef5ea3ecb2c6177381316725d345504ed2e212346b1eea0e2a141d697650fa",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "public-paper",
+        "file": "english2-2026-juying-paper.pdf",
+        "url": "https://m.juyingonline.com/upload/202512/22/202512221526106084.pdf",
+        "pages": [
+          5,
+          6
+        ],
+        "sha256": "12caa6867036c58ff5724f5080d54869dfe4a25daf2af6abe547c6f6e395b74b"
+      }
+    ],
+    "notes": [
+      "公开整理版PDF非官方扫描；Text2有重复句及information拼写问题，Text3有跨行分段/Head大写问题；未把这些排版错误重新写回正文。"
+    ],
+    "checkedAt": "2026-10-31",
+    "method": "实际读取聚英公开试卷PDF正文与本地现稿逐篇核对；PDF存在重复行和少量排版错字，沿用现稿已修复内容并记录局限。"
   },
   "paragraphs": [
     {
@@ -21,24 +36,107 @@
           "a": 0,
           "b": 198,
           "en": "Ask people about public libraries and a certain image springs to mind: dusty, old-fashioned, the sort of place you enjoyed as a child but, rather like a British seaside town, would you go there now?",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 71,
+              "en": "Ask people about public libraries and a certain image springs to mind: ",
+              "zh": "问起公共图书馆，人们脑海里就会浮现某种形象"
+            },
+            {
+              "a": 71,
+              "b": 93,
+              "en": "dusty, old-fashioned, ",
+              "zh": "落满灰尘、老气横秋"
+            },
+            {
+              "a": 93,
+              "b": 134,
+              "en": "the sort of place you enjoyed as a child ",
+              "zh": "那是小时候很喜欢的地方"
+            },
+            {
+              "a": 134,
+              "b": 175,
+              "en": "but, rather like a British seaside town, ",
+              "zh": "但就像英国的海滨小镇一样"
+            },
+            {
+              "a": 175,
+              "b": 198,
+              "en": "would you go there now?",
+              "zh": "你现在还会去吗"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "一提起公共图书馆，人们脑海里就会浮现这样的形象：落满灰尘、老气横秋，小时候很喜欢，但就像英国的海滨小镇一样，你现在还会去吗？",
+          "words": [
+            {
+              "a": 54,
+              "b": 61,
+              "word": "springs",
+              "lemma": "spring",
+              "meaning": "突然浮现",
+              "pos": "n"
+            },
+            {
+              "a": 78,
+              "b": 91,
+              "word": "old-fashioned",
+              "lemma": "old-fashioned",
+              "meaning": "陈旧的；老式的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 54,
+              "b": 69,
+              "lemma": "spring to mind",
+              "meaning": "马上浮现在脑海",
+              "word": "springs to mind"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T1-P1-S2",
           "a": 199,
           "b": 234,
           "en": "And anyway-aren't they all closing?",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 11,
+              "en": "And anyway-",
+              "zh": "再说了"
+            },
+            {
+              "a": 11,
+              "b": 35,
+              "en": "aren't they all closing?",
+              "zh": "它们不都在关门吗"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "再说了，它们不都在关门吗？",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -51,24 +149,128 @@
           "a": 0,
           "b": 180,
           "en": "The reality is startlingly different, as I discovered when the culture department commissioned me to conduct an independent review of English public libraries, published yesterday.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 38,
+              "en": "The reality is startlingly different, ",
+              "zh": "现实却截然不同，令人吃惊"
+            },
+            {
+              "a": 38,
+              "b": 54,
+              "en": "as I discovered ",
+              "zh": "正如我所发现的那样"
+            },
+            {
+              "a": 54,
+              "b": 98,
+              "en": "when the culture department commissioned me ",
+              "zh": "当文化部门委托我"
+            },
+            {
+              "a": 98,
+              "b": 160,
+              "en": "to conduct an independent review of English public libraries, ",
+              "zh": "对英格兰公共图书馆开展独立调查时"
+            },
+            {
+              "a": 160,
+              "b": 180,
+              "en": "published yesterday.",
+              "zh": "报告于昨天发布"
+            }
+          ],
+          "reorder": "先译 as 从句交代调查背景；published yesterday 修饰调查报告，并非图书馆。",
+          "translation": "文化部门委托我对英格兰公共图书馆进行独立调查，报告于昨日发布；调查过程中我发现，现实截然不同，令人吃惊。",
+          "words": [
+            {
+              "a": 82,
+              "b": 94,
+              "word": "commissioned",
+              "lemma": "commission",
+              "meaning": "委托进行",
+              "pos": "v"
+            },
+            {
+              "a": 124,
+              "b": 130,
+              "word": "review",
+              "lemma": "review",
+              "meaning": "调研；评估报告",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T1-P2-S2",
           "a": 181,
           "b": 348,
           "en": "As I visited libraries up and down the country, I was surprised to learn there are more than twice the number of libraries (2,892) as there are branches of McDonald's.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 48,
+              "en": "As I visited libraries up and down the country, ",
+              "zh": "当我走访全国各地图书馆时"
+            },
+            {
+              "a": 48,
+              "b": 73,
+              "en": "I was surprised to learn ",
+              "zh": "我惊讶地得知"
+            },
+            {
+              "a": 73,
+              "b": 131,
+              "en": "there are more than twice the number of libraries (2,892) ",
+              "zh": "图书馆有2892家，数量是两倍多"
+            },
+            {
+              "a": 131,
+              "b": 167,
+              "en": "as there are branches of McDonald's.",
+              "zh": "相较于麦当劳的门店数量而言"
+            }
+          ],
+          "reorder": "先给图书馆数量，再补充比较对象麦当劳门店，保留“超过两倍”。",
+          "translation": "我走访全国各地图书馆时，惊讶地发现，图书馆有2892家，是麦当劳门店数量的两倍多。",
+          "words": [
+            {
+              "a": 144,
+              "b": 152,
+              "word": "branches",
+              "lemma": "branch",
+              "meaning": "门店；分店",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 23,
+              "b": 46,
+              "lemma": "up and down the country",
+              "meaning": "全国各地",
+              "word": "up and down the country"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -81,12 +283,84 @@
           "a": 0,
           "b": 237,
           "en": "Enter any one of them and you will find a hive of activity, while books are, and should always be, at the heart of any library, a multitude of other services are offered: employment advice, language classes or digital access and support.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 60,
+              "en": "Enter any one of them and you will find a hive of activity, ",
+              "zh": "走进其中任何一家，你都会看到一派繁忙景象"
+            },
+            {
+              "a": 60,
+              "b": 128,
+              "en": "while books are, and should always be, at the heart of any library, ",
+              "zh": "虽然图书现在是、也永远应该是图书馆的核心"
+            },
+            {
+              "a": 128,
+              "b": 171,
+              "en": "a multitude of other services are offered: ",
+              "zh": "但图书馆还提供许多其他服务"
+            },
+            {
+              "a": 171,
+              "b": 237,
+              "en": "employment advice, language classes or digital access and support.",
+              "zh": "例如就业咨询、语言课程，以及数字设备和网络的使用与支持"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "走进任何一家图书馆，你都会看到一派繁忙景象；图书现在是、也永远应该是图书馆的核心，但这里还提供就业咨询、语言课程、数字资源使用及相关支持等许多其他服务。",
+          "words": [
+            {
+              "a": 42,
+              "b": 46,
+              "word": "hive",
+              "lemma": "hive",
+              "meaning": "忙碌活跃的场所",
+              "pos": "n"
+            },
+            {
+              "a": 130,
+              "b": 139,
+              "word": "multitude",
+              "lemma": "multitude",
+              "meaning": "众多；大量",
+              "pos": "n"
+            },
+            {
+              "a": 218,
+              "b": 224,
+              "word": "access",
+              "lemma": "access",
+              "meaning": "使用数字资源或设备的机会",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 40,
+              "b": 58,
+              "lemma": "a hive of activity",
+              "meaning": "充满活跃活动的地方",
+              "word": "a hive of activity"
+            },
+            {
+              "a": 99,
+              "b": 114,
+              "lemma": "at the heart of",
+              "meaning": "是……的核心",
+              "word": "at the heart of"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -99,24 +373,140 @@
           "a": 0,
           "b": 118,
           "en": "There are libraries with business and intellectual property centres, which can help business owners and entrepreneurs.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 69,
+              "en": "There are libraries with business and intellectual property centres, ",
+              "zh": "有些图书馆设有商业和知识产权中心"
+            },
+            {
+              "a": 69,
+              "b": 118,
+              "en": "which can help business owners and entrepreneurs.",
+              "zh": "可以帮助企业主和创业者"
+            }
+          ],
+          "reorder": "将 with business and intellectual property centres 合入“设有…中心”，再译这些中心的作用。",
+          "translation": "有些图书馆设有商业和知识产权中心，可以帮助企业主和创业者。",
+          "words": [
+            {
+              "a": 38,
+              "b": 50,
+              "word": "intellectual",
+              "lemma": "intellectual",
+              "meaning": "知识和创意成果方面的",
+              "pos": "a"
+            },
+            {
+              "a": 104,
+              "b": 117,
+              "word": "entrepreneurs",
+              "lemma": "entrepreneur",
+              "meaning": "创业者",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 38,
+              "b": 59,
+              "lemma": "intellectual property",
+              "meaning": "知识产权",
+              "word": "intellectual property"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T1-P4-S2",
           "a": 119,
           "b": 291,
           "en": "Many have nurses on site to carry out basic health checks, with a link to the GP's surgery, there are libraries where young people can borrow a Fifa-standard football free.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 59,
+              "en": "Many have nurses on site to carry out basic health checks, ",
+              "zh": "许多图书馆有护士在现场进行基础健康检查"
+            },
+            {
+              "a": 59,
+              "b": 92,
+              "en": "with a link to the GP's surgery, ",
+              "zh": "并与全科医生诊所联动"
+            },
+            {
+              "a": 92,
+              "b": 112,
+              "en": "there are libraries ",
+              "zh": "还有一些图书馆"
+            },
+            {
+              "a": 112,
+              "b": 172,
+              "en": "where young people can borrow a Fifa-standard football free.",
+              "zh": "年轻人可以在那里免费借到符合国际足联标准的足球"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "许多图书馆有护士在现场进行基础健康检查，并与全科医生诊所联动；还有些图书馆可以让年轻人免费借到符合国际足联标准的足球。",
+          "words": [
+            {
+              "a": 83,
+              "b": 90,
+              "word": "surgery",
+              "lemma": "surgery",
+              "meaning": "全科医生诊所",
+              "pos": "n"
+            },
+            {
+              "a": 144,
+              "b": 157,
+              "word": "Fifa-standard",
+              "lemma": "Fifa-standard",
+              "meaning": "符合国际足联标准的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 17,
+              "b": 24,
+              "lemma": "on site",
+              "meaning": "在现场；在馆内",
+              "word": "on site"
+            },
+            {
+              "a": 28,
+              "b": 37,
+              "lemma": "carry out",
+              "meaning": "进行；实施",
+              "word": "carry out"
+            },
+            {
+              "a": 78,
+              "b": 90,
+              "lemma": "GP’s surgery",
+              "meaning": "全科医生诊所",
+              "word": "GP's surgery"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -129,60 +519,239 @@
           "a": 0,
           "b": 65,
           "en": "In return for all of this, you'll be asked for precisely nothing.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 27,
+              "en": "In return for all of this, ",
+              "zh": "享受这一切服务"
+            },
+            {
+              "a": 27,
+              "b": 65,
+              "en": "you'll be asked for precisely nothing.",
+              "zh": "你完全不需要付出任何回报"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "享受这一切服务，你完全不需要付出任何回报。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 0,
+              "b": 13,
+              "lemma": "In return for",
+              "meaning": "作为……的交换或回报",
+              "word": "In return for"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T1-P5-S2",
           "a": 66,
           "b": 240,
           "en": "There will be no charge and you will never be asked to justify or explain yourself, you will simply be welcomed in, offered help if you need it, and left alone if you do not.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 28,
+              "en": "There will be no charge and ",
+              "zh": "这里不收费，也绝不会要求你为自己的到来说明理由"
+            },
+            {
+              "a": 28,
+              "b": 116,
+              "en": "you will never be asked to justify or explain yourself, you will simply be welcomed in, ",
+              "zh": "你只会受到欢迎"
+            },
+            {
+              "a": 116,
+              "b": 145,
+              "en": "offered help if you need it, ",
+              "zh": "有需要时获得帮助"
+            },
+            {
+              "a": 145,
+              "b": 174,
+              "en": "and left alone if you do not.",
+              "zh": "不需要时，就让你自在地待着"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "这里不收费，也绝不会要求你解释来这里的理由；你只会受到欢迎，有需要时得到帮助，不需要时则可以自在地待着。",
+          "words": [
+            {
+              "a": 17,
+              "b": 23,
+              "word": "charge",
+              "lemma": "charge",
+              "meaning": "收费；费用",
+              "pos": "n"
+            },
+            {
+              "a": 55,
+              "b": 62,
+              "word": "justify",
+              "lemma": "justify",
+              "meaning": "说明自己的理由或资格",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 14,
+              "b": 23,
+              "lemma": "no charge",
+              "meaning": "不收费；免费",
+              "word": "no charge"
+            },
+            {
+              "a": 149,
+              "b": 159,
+              "lemma": "leave alone",
+              "meaning": "不被打扰",
+              "word": "left alone"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T1-P5-S3",
           "a": 241,
           "b": 313,
           "en": "There is no other institution, public or private, that can say the same.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 50,
+              "en": "There is no other institution, public or private, ",
+              "zh": "没有其他机构，无论公立还是私立"
+            },
+            {
+              "a": 50,
+              "b": 72,
+              "en": "that can say the same.",
+              "zh": "能做到同样的事"
+            }
+          ],
+          "reorder": "将 public or private 的范围提到“没有其他机构”前。",
+          "translation": "无论公立还是私立，都没有其他机构能做到同样的事。",
+          "words": [
+            {
+              "a": 18,
+              "b": 29,
+              "word": "institution",
+              "lemma": "institution",
+              "meaning": "机构",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T1-P5-S4",
           "a": 314,
           "b": 380,
           "en": "Yet still our libraries are often overlooked and underappreciated.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 45,
+              "en": "Yet still our libraries are often overlooked ",
+              "zh": "然而，我们的图书馆仍常被忽视"
+            },
+            {
+              "a": 45,
+              "b": 66,
+              "en": "and underappreciated.",
+              "zh": "其价值也没有得到应有的认可"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "然而，我们的图书馆仍常被忽视，其价值也没有得到应有的认可。",
+          "words": [
+            {
+              "a": 49,
+              "b": 65,
+              "word": "underappreciated",
+              "lemma": "underappreciated",
+              "meaning": "未得到充分重视的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T1-P5-S5",
           "a": 381,
           "b": 504,
           "en": "There is an overall decline in visits and many are struggling as local authorities come under continued financial pressure.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 62,
+              "en": "There is an overall decline in visits and many are struggling ",
+              "zh": "总体到访量在下降，许多图书馆经营艰难"
+            },
+            {
+              "a": 62,
+              "b": 123,
+              "en": "as local authorities come under continued financial pressure.",
+              "zh": "因为地方政府持续面临财政压力"
+            }
+          ],
+          "reorder": "将 as 所述财政压力前置，交代图书馆困难的背景。",
+          "translation": "随着地方政府持续面临财政压力，图书馆总体到访量在下降，许多图书馆经营艰难。",
+          "words": [
+            {
+              "a": 71,
+              "b": 82,
+              "word": "authorities",
+              "lemma": "authority",
+              "meaning": "地方政府部门",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -195,48 +764,204 @@
           "a": 0,
           "b": 64,
           "en": "The number of libraries that have closed since 2010 is disputed.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 52,
+              "en": "The number of libraries that have closed since 2010 ",
+              "zh": "自2010年以来关闭的图书馆数量"
+            },
+            {
+              "a": 52,
+              "b": 64,
+              "en": "is disputed.",
+              "zh": "存在争议"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "自2010年以来究竟关闭了多少家图书馆，仍有争议。",
+          "words": [
+            {
+              "a": 55,
+              "b": 63,
+              "word": "disputed",
+              "lemma": "dispute",
+              "meaning": "受到争议；存在不同说法",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T1-P6-S2",
           "a": 65,
           "b": 247,
           "en": "An annual survey by the Chartered Institute of Public Finance and Accountancy puts it at nearly 800 across the UK; official statistics held by the Arts Council record 230 in England.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 78,
+              "en": "An annual survey by the Chartered Institute of Public Finance and Accountancy ",
+              "zh": "英国特许公共财政与会计协会的年度调查"
+            },
+            {
+              "a": 78,
+              "b": 115,
+              "en": "puts it at nearly 800 across the UK; ",
+              "zh": "将全英国的关闭数量估为近800家"
+            },
+            {
+              "a": 115,
+              "b": 160,
+              "en": "official statistics held by the Arts Council ",
+              "zh": "而艺术委员会的官方统计"
+            },
+            {
+              "a": 160,
+              "b": 182,
+              "en": "record 230 in England.",
+              "zh": "记录的是英格兰关闭了230家"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "英国特许公共财政与会计协会的年度调查估计，全英国近800家图书馆已关闭；而艺术委员会的官方统计则记录，英格兰有230家关闭。",
+          "words": [
+            {
+              "a": 24,
+              "b": 33,
+              "word": "Chartered",
+              "lemma": "chartered",
+              "meaning": "获特许资格的",
+              "pos": "n"
+            },
+            {
+              "a": 66,
+              "b": 77,
+              "word": "Accountancy",
+              "lemma": "accountancy",
+              "meaning": "会计；财务核算",
+              "pos": "n"
+            },
+            {
+              "a": 160,
+              "b": 166,
+              "word": "record",
+              "lemma": "record",
+              "meaning": "记录；记载",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 78,
+              "b": 88,
+              "word": "puts it at",
+              "lemma": "put something at",
+              "meaning": "把该数量估计为"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T1-P6-S3",
           "a": 248,
           "b": 289,
           "en": "It is, of course, 230 libraries too many.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 18,
+              "en": "It is, of course, ",
+              "zh": "当然"
+            },
+            {
+              "a": 18,
+              "b": 41,
+              "en": "230 libraries too many.",
+              "zh": "即使关闭230家，也已经太多了"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "当然，哪怕是关闭230家图书馆，也已经太多了。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 32,
+              "b": 40,
+              "word": "too many",
+              "lemma": "too many",
+              "meaning": "数量过多；已经不应再多"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T1-P6-S4",
           "a": 290,
           "b": 405,
           "en": "So if we are to protect our libraries for future generations, we must raise awareness of them and the work they do.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 62,
+              "en": "So if we are to protect our libraries for future generations, ",
+              "zh": "因此，如果想为后代保护好图书馆"
+            },
+            {
+              "a": 62,
+              "b": 94,
+              "en": "we must raise awareness of them ",
+              "zh": "就必须让更多人了解它们"
+            },
+            {
+              "a": 94,
+              "b": 115,
+              "en": "and the work they do.",
+              "zh": "以及它们开展的工作"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "因此，如果想为后代保护好图书馆，就必须让更多人了解图书馆及其开展的工作。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 70,
+              "b": 85,
+              "lemma": "raise awareness",
+              "meaning": "提高公众认识",
+              "word": "raise awareness"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -249,36 +974,169 @@
           "a": 0,
           "b": 236,
           "en": "The review recommends a national branding campaign to give libraries a stronger physical presence, the reintroduction of a scheme to enable members to use their card in any library in the country, and automatic memberships for children.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 51,
+              "en": "The review recommends a national branding campaign ",
+              "zh": "报告建议开展全国性的品牌宣传"
+            },
+            {
+              "a": 51,
+              "b": 99,
+              "en": "to give libraries a stronger physical presence, ",
+              "zh": "让实体图书馆更醒目、更有存在感"
+            },
+            {
+              "a": 99,
+              "b": 130,
+              "en": "the reintroduction of a scheme ",
+              "zh": "重新实行一项制度"
+            },
+            {
+              "a": 130,
+              "b": 197,
+              "en": "to enable members to use their card in any library in the country, ",
+              "zh": "让会员凭同一张借书证使用全国任何一家图书馆"
+            },
+            {
+              "a": 197,
+              "b": 236,
+              "en": "and automatic memberships for children.",
+              "zh": "并自动为儿童办理会员资格"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "报告建议开展全国性的品牌宣传，让实体图书馆更醒目、更有存在感；重新实行一证通用制度，让会员凭一张借书证使用全国任何一家图书馆；并自动为儿童办理会员资格。",
+          "words": [
+            {
+              "a": 4,
+              "b": 10,
+              "word": "review",
+              "lemma": "review",
+              "meaning": "调研；评估报告",
+              "pos": "n"
+            },
+            {
+              "a": 33,
+              "b": 41,
+              "word": "branding",
+              "lemma": "branding",
+              "meaning": "品牌塑造和统一宣传",
+              "pos": "n"
+            },
+            {
+              "a": 89,
+              "b": 97,
+              "word": "presence",
+              "lemma": "presence",
+              "meaning": "可见度；可感知的存在",
+              "pos": "n"
+            },
+            {
+              "a": 123,
+              "b": 129,
+              "word": "scheme",
+              "lemma": "scheme",
+              "meaning": "计划；安排",
+              "pos": "n"
+            },
+            {
+              "a": 211,
+              "b": 222,
+              "word": "memberships",
+              "lemma": "membership",
+              "meaning": "会员资格",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 33,
+              "b": 50,
+              "lemma": "branding campaign",
+              "meaning": "统一品牌宣传活动",
+              "word": "branding campaign"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T1-P7-S2",
           "a": 237,
           "b": 286,
           "en": "If we don't use them, we will end up losing them.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 22,
+              "en": "If we don't use them, ",
+              "zh": "如果我们不使用图书馆"
+            },
+            {
+              "a": 22,
+              "b": 49,
+              "en": "we will end up losing them.",
+              "zh": "最终就会失去它们"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "如果我们不使用图书馆，最终就会失去它们。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T1-P7-S3",
           "a": 287,
           "b": 386,
           "en": "And for those who haven't been to a library for some time, they may be surprised by what they find.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 59,
+              "en": "And for those who haven't been to a library for some time, ",
+              "zh": "至于那些已经有一段时间没去过图书馆的人"
+            },
+            {
+              "a": 59,
+              "b": 81,
+              "en": "they may be surprised ",
+              "zh": "他们可能会感到惊喜"
+            },
+            {
+              "a": 81,
+              "b": 99,
+              "en": "by what they find.",
+              "zh": "因为自己所看到的情况"
+            }
+          ],
+          "reorder": "将 by what they find 的惊讶对象放到“感到惊喜”前。",
+          "translation": "至于那些已经有一段时间没去过图书馆的人，他们再次走进去时，可能会对所见的一切感到惊喜。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     }

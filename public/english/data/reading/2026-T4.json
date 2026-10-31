@@ -6,10 +6,25 @@
   "text": 4,
   "articleKey": "s1-p0-t3",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "3caeba8a61cc7e185aaa57883c3792c6ab5c68fb54d3724ba2691baab16a765e",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "public-paper",
+        "file": "english2-2026-juying-paper.pdf",
+        "url": "https://m.juyingonline.com/upload/202512/22/202512221526106084.pdf",
+        "pages": [
+          13,
+          14
+        ],
+        "sha256": "12caa6867036c58ff5724f5080d54869dfe4a25daf2af6abe547c6f6e395b74b"
+      }
+    ],
+    "notes": [
+      "公开整理版PDF非官方扫描；Text2有重复句及information拼写问题，Text3有跨行分段/Head大写问题；未把这些排版错误重新写回正文。"
+    ],
+    "checkedAt": "2026-10-31",
+    "method": "实际读取聚英公开试卷PDF正文与本地现稿逐篇核对；PDF存在重复行和少量排版错字，沿用现稿已修复内容并记录局限。"
   },
   "paragraphs": [
     {
@@ -21,36 +36,164 @@
           "a": 0,
           "b": 63,
           "en": "In 2023, Chicago lost one of its most beloved street festivals.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 22,
+              "en": "In 2023, Chicago lost ",
+              "zh": "2023年，芝加哥失去了"
+            },
+            {
+              "a": 22,
+              "b": 63,
+              "en": "one of its most beloved street festivals.",
+              "zh": "最受喜爱的街头节庆之一"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "2023年，芝加哥失去了最受喜爱的街头节庆之一。",
+          "words": [
+            {
+              "a": 38,
+              "b": 45,
+              "word": "beloved",
+              "lemma": "beloved",
+              "meaning": "深受喜爱的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T4-P1-S2",
           "a": 64,
           "b": 183,
           "en": "The Silver Room Block Party, staged by Hyde Park community leader Eric Williams, announced it would not return in 2024.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 29,
+              "en": "The Silver Room Block Party, ",
+              "zh": "银屋街区派对"
+            },
+            {
+              "a": 29,
+              "b": 81,
+              "en": "staged by Hyde Park community leader Eric Williams, ",
+              "zh": "由海德公园社区领袖埃里克·威廉姆斯举办"
+            },
+            {
+              "a": 81,
+              "b": 119,
+              "en": "announced it would not return in 2024.",
+              "zh": "宣布2024年不再举行"
+            }
+          ],
+          "reorder": "将 staged by 的举办者信息前置修饰活动名称。",
+          "translation": "由海德公园社区领袖埃里克·威廉姆斯举办的银屋街区派对宣布，2024年不再举行。",
+          "words": [
+            {
+              "a": 16,
+              "b": 21,
+              "word": "Block",
+              "lemma": "block",
+              "meaning": "街区",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 4,
+              "b": 27,
+              "lemma": "Silver Room Block Party",
+              "meaning": "Silver Room Block Party街区节庆",
+              "word": "Silver Room Block Party"
+            },
+            {
+              "a": 16,
+              "b": 27,
+              "lemma": "Block Party",
+              "meaning": "街区聚会；街头节庆",
+              "word": "Block Party"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T4-P1-S3",
           "a": 184,
           "b": 371,
           "en": "What began as a small neighborhood gathering blossomed into a massive cultural event welcoming tens of thousands of people each year over nearly two decades before abruptly shutting down.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 45,
+              "en": "What began as a small neighborhood gathering ",
+              "zh": "它最初只是一个小型邻里聚会"
+            },
+            {
+              "a": 45,
+              "b": 85,
+              "en": "blossomed into a massive cultural event ",
+              "zh": "后来发展为大型文化活动"
+            },
+            {
+              "a": 85,
+              "b": 157,
+              "en": "welcoming tens of thousands of people each year over nearly two decades ",
+              "zh": "在近二十年里，每年迎来数万人"
+            },
+            {
+              "a": 157,
+              "b": 187,
+              "en": "before abruptly shutting down.",
+              "zh": "最终却突然停办"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "它从一个小型邻里聚会，发展成每年吸引数万人的大型文化活动，持续近二十年后，却突然停办。",
+          "words": [
+            {
+              "a": 45,
+              "b": 54,
+              "word": "blossomed",
+              "lemma": "blossom",
+              "meaning": "逐渐发展壮大",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 173,
+              "b": 186,
+              "lemma": "shut down",
+              "meaning": "停办；关闭",
+              "word": "shutting down"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -63,48 +206,220 @@
           "a": 0,
           "b": 218,
           "en": "Williams pointed to rising production costs and declining attendee donations as primary reasons the Silver Room Block Party could not continue, highlighting a reality that all street festival organizers face right now.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 77,
+              "en": "Williams pointed to rising production costs and declining attendee donations ",
+              "zh": "威廉姆斯指出，举办成本上升、参与者捐款减少"
+            },
+            {
+              "a": 77,
+              "b": 144,
+              "en": "as primary reasons the Silver Room Block Party could not continue, ",
+              "zh": "是银屋街区派对无法继续举办的主要原因"
+            },
+            {
+              "a": 144,
+              "b": 218,
+              "en": "highlighting a reality that all street festival organizers face right now.",
+              "zh": "这凸显了所有街头节庆组织者当前面临的现实"
+            }
+          ],
+          "reorder": "将 as primary reasons 接在成本与捐款两项原因后，再译活动无法继续。",
+          "translation": "威廉姆斯指出，举办成本上升、参与者捐款减少，是银屋街区派对无法继续举办的主要原因，这也凸显了所有街头节庆组织者当前面临的现实。",
+          "words": [
+            {
+              "a": 27,
+              "b": 37,
+              "word": "production",
+              "lemma": "production",
+              "meaning": "活动举办和制作",
+              "pos": "n"
+            },
+            {
+              "a": 58,
+              "b": 66,
+              "word": "attendee",
+              "lemma": "attendee",
+              "meaning": "参加活动的人",
+              "pos": "n"
+            },
+            {
+              "a": 112,
+              "b": 117,
+              "word": "Block",
+              "lemma": "block",
+              "meaning": "街区",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 100,
+              "b": 123,
+              "lemma": "Silver Room Block Party",
+              "meaning": "Silver Room Block Party街区节庆",
+              "word": "Silver Room Block Party"
+            },
+            {
+              "a": 112,
+              "b": 123,
+              "lemma": "Block Party",
+              "meaning": "街区聚会；街头节庆",
+              "word": "Block Party"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T4-P2-S2",
           "a": 219,
           "b": 286,
           "en": "The cost of producing a street festival in Chicago has skyrocketed.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 51,
+              "en": "The cost of producing a street festival in Chicago ",
+              "zh": "在芝加哥举办街头节庆的成本"
+            },
+            {
+              "a": 51,
+              "b": 67,
+              "en": "has skyrocketed.",
+              "zh": "已经大幅飙升"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "在芝加哥举办街头节庆的成本已经大幅飙升。",
+          "words": [
+            {
+              "a": 55,
+              "b": 66,
+              "word": "skyrocketed",
+              "lemma": "skyrocket",
+              "meaning": "猛涨；大幅飙升",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T4-P2-S3",
           "a": 287,
           "b": 432,
           "en": "Security, entertainment, portable restrooms, insurance and even basics such as fencing and staffing have all become significantly more expensive.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 55,
+              "en": "Security, entertainment, portable restrooms, insurance ",
+              "zh": "安保、演出、移动厕所、保险"
+            },
+            {
+              "a": 55,
+              "b": 100,
+              "en": "and even basics such as fencing and staffing ",
+              "zh": "甚至围栏、人员配备等基本项目"
+            },
+            {
+              "a": 100,
+              "b": 145,
+              "en": "have all become significantly more expensive.",
+              "zh": "费用都大幅上涨"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "安保、演出、移动厕所、保险，甚至围栏、人员配备等基本项目，费用都大幅上涨。",
+          "words": [
+            {
+              "a": 25,
+              "b": 33,
+              "word": "portable",
+              "lemma": "portable",
+              "meaning": "可移动的；便携式的",
+              "pos": "a"
+            },
+            {
+              "a": 79,
+              "b": 86,
+              "word": "fencing",
+              "lemma": "fencing",
+              "meaning": "围栏设施",
+              "pos": "n"
+            },
+            {
+              "a": 91,
+              "b": 99,
+              "word": "staffing",
+              "lemma": "staffing",
+              "meaning": "人员配备",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T4-P2-S4",
           "a": 433,
           "b": 505,
           "en": "At the same time, donations at festival gates have dropped dramatically.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 18,
+              "en": "At the same time, ",
+              "zh": "与此同时"
+            },
+            {
+              "a": 18,
+              "b": 46,
+              "en": "donations at festival gates ",
+              "zh": "节庆入口收到的捐款"
+            },
+            {
+              "a": 46,
+              "b": 72,
+              "en": "have dropped dramatically.",
+              "zh": "却大幅减少"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "与此同时，节庆入口收到的捐款却大幅减少。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -117,24 +432,118 @@
           "a": 0,
           "b": 179,
           "en": "Chicago's summer festivals are about more than just entertainment; they are economic engines that directly benefit the neighborhoods they're in and the city of Chicago as a whole.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 67,
+              "en": "Chicago's summer festivals are about more than just entertainment; ",
+              "zh": "芝加哥的夏季节庆不只是娱乐活动"
+            },
+            {
+              "a": 67,
+              "b": 93,
+              "en": "they are economic engines ",
+              "zh": "它们也是经济引擎"
+            },
+            {
+              "a": 93,
+              "b": 179,
+              "en": "that directly benefit the neighborhoods they're in and the city of Chicago as a whole.",
+              "zh": "直接让所在社区以及整个芝加哥市受益"
+            }
+          ],
+          "reorder": "将 that directly benefit 的说明前置修饰“经济引擎”。",
+          "translation": "芝加哥的夏季节庆不只是娱乐活动，也是直接让所在社区乃至整个芝加哥市受益的经济引擎。",
+          "words": [
+            {
+              "a": 85,
+              "b": 92,
+              "word": "engines",
+              "lemma": "engine",
+              "meaning": "推动经济的力量",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 168,
+              "b": 178,
+              "lemma": "as a whole",
+              "meaning": "作为整体",
+              "word": "as a whole"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T4-P3-S2",
           "a": 180,
           "b": 305,
           "en": "Street festivals drive foot traffic to local businesses and foster the kind of cultural vibrancy that makes our city special.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 56,
+              "en": "Street festivals drive foot traffic to local businesses ",
+              "zh": "街头节庆为当地商家带来人流"
+            },
+            {
+              "a": 56,
+              "b": 97,
+              "en": "and foster the kind of cultural vibrancy ",
+              "zh": "并培育文化活力"
+            },
+            {
+              "a": 97,
+              "b": 125,
+              "en": "that makes our city special.",
+              "zh": "使我们的城市独具特色"
+            }
+          ],
+          "reorder": "将 that makes 从句前置修饰“文化活力”。",
+          "translation": "街头节庆为当地商家带来人流，也培育出让我们的城市独具特色的文化活力。",
+          "words": [
+            {
+              "a": 17,
+              "b": 22,
+              "word": "drive",
+              "lemma": "drive",
+              "meaning": "带动；吸引（本地客流）",
+              "pos": "v"
+            },
+            {
+              "a": 88,
+              "b": 96,
+              "word": "vibrancy",
+              "lemma": "vibrancy",
+              "meaning": "活力",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 23,
+              "b": 35,
+              "lemma": "foot traffic",
+              "meaning": "步行客流；到访人流",
+              "word": "foot traffic"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -147,24 +556,140 @@
           "a": 0,
           "b": 172,
           "en": "We often hear people ask why we solicit donations at our entry points, especially when the city's largest festivals like the Chicago Jazz Festival do not request donations.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 25,
+              "en": "We often hear people ask ",
+              "zh": "我们经常听到人们问"
+            },
+            {
+              "a": 25,
+              "b": 71,
+              "en": "why we solicit donations at our entry points, ",
+              "zh": "为什么在入口处募捐"
+            },
+            {
+              "a": 71,
+              "b": 172,
+              "en": "especially when the city's largest festivals like the Chicago Jazz Festival do not request donations.",
+              "zh": "尤其是芝加哥爵士音乐节等市内最大型的节庆都不要求捐款"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "我们经常听到人们问，为什么我们要在入口处募捐，尤其是芝加哥爵士音乐节等市内最大型的节庆都不要求捐款。",
+          "words": [
+            {
+              "a": 32,
+              "b": 39,
+              "word": "solicit",
+              "lemma": "solicit",
+              "meaning": "征求；请求（捐款）",
+              "pos": "v"
+            },
+            {
+              "a": 57,
+              "b": 62,
+              "word": "entry",
+              "lemma": "entry",
+              "meaning": "入口；入场处",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T4-P4-S2",
           "a": 173,
           "b": 391,
           "en": "The fact is, unlike those large, city-produced music festivals, your neighborhood street festivals receive no city funding and rely on a combination of sponsorships, vendor fees and gate donations to cover their costs.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 64,
+              "en": "The fact is, unlike those large, city-produced music festivals, ",
+              "zh": "事实是，与那些由市政府举办的大型音乐节不同"
+            },
+            {
+              "a": 64,
+              "b": 123,
+              "en": "your neighborhood street festivals receive no city funding ",
+              "zh": "你所在社区的街头节庆没有市政府拨款"
+            },
+            {
+              "a": 123,
+              "b": 197,
+              "en": "and rely on a combination of sponsorships, vendor fees and gate donations ",
+              "zh": "而是依靠赞助、摊位费和入口捐款"
+            },
+            {
+              "a": 197,
+              "b": 218,
+              "en": "to cover their costs.",
+              "zh": "来支付活动成本"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "事实上，与那些市政府举办的大型音乐节不同，社区街头节庆没有市政府拨款，而是依靠赞助、摊位费和入口捐款来支付活动成本。",
+          "words": [
+            {
+              "a": 33,
+              "b": 46,
+              "word": "city-produced",
+              "lemma": "city-produced",
+              "meaning": "由市政府主办的",
+              "pos": "a"
+            },
+            {
+              "a": 152,
+              "b": 164,
+              "word": "sponsorships",
+              "lemma": "sponsorship",
+              "meaning": "赞助",
+              "pos": "n"
+            },
+            {
+              "a": 166,
+              "b": 172,
+              "word": "vendor",
+              "lemma": "vendor",
+              "meaning": "摊贩；参展商",
+              "pos": "n"
+            },
+            {
+              "a": 200,
+              "b": 205,
+              "word": "cover",
+              "lemma": "cover",
+              "meaning": "支付；承担（费用）",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 182,
+              "b": 196,
+              "lemma": "gate donation",
+              "meaning": "入口处收取的自愿捐款",
+              "word": "gate donations"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -177,60 +702,328 @@
           "a": 0,
           "b": 236,
           "en": "Wicker Park Fest has long been one of Chicago's most anticipated summer festivals, drawing upward of 70,000 attendees for a full weekend of live indie music, local art, small business vendors and, most importantly, community connection.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 83,
+              "en": "Wicker Park Fest has long been one of Chicago's most anticipated summer festivals, ",
+              "zh": "威克公园节长期以来是芝加哥最受期待的夏季节庆之一"
+            },
+            {
+              "a": 83,
+              "b": 118,
+              "en": "drawing upward of 70,000 attendees ",
+              "zh": "吸引超过七万人"
+            },
+            {
+              "a": 118,
+              "b": 192,
+              "en": "for a full weekend of live indie music, local art, small business vendors ",
+              "zh": "在整个周末欣赏现场独立音乐、当地艺术、逛小商家摊位"
+            },
+            {
+              "a": 192,
+              "b": 236,
+              "en": "and, most importantly, community connection.",
+              "zh": "更重要的是，建立社区联系"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "威克公园节长期以来都是芝加哥最受期待的夏季节庆之一，吸引超过七万人在整个周末欣赏现场独立音乐、当地艺术、逛小商家摊位，更重要的是，增进社区联系。",
+          "words": [
+            {
+              "a": 53,
+              "b": 64,
+              "word": "anticipated",
+              "lemma": "anticipated",
+              "meaning": "备受期待的",
+              "pos": "a"
+            },
+            {
+              "a": 83,
+              "b": 90,
+              "word": "drawing",
+              "lemma": "draw",
+              "meaning": "吸引（参与者）",
+              "pos": "v"
+            },
+            {
+              "a": 108,
+              "b": 117,
+              "word": "attendees",
+              "lemma": "attendee",
+              "meaning": "参加活动的人",
+              "pos": "n"
+            },
+            {
+              "a": 145,
+              "b": 150,
+              "word": "indie",
+              "lemma": "indie",
+              "meaning": "独立音乐的",
+              "pos": "a"
+            },
+            {
+              "a": 184,
+              "b": 191,
+              "word": "vendors",
+              "lemma": "vendor",
+              "meaning": "摊贩；参展商",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 16,
+              "lemma": "Wicker Park Fest",
+              "meaning": "Wicker Park社区街头节庆",
+              "word": "Wicker Park Fest"
+            },
+            {
+              "a": 91,
+              "b": 100,
+              "lemma": "upward of",
+              "meaning": "多于；超过",
+              "word": "upward of"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T4-P5-S2",
           "a": 237,
           "b": 294,
           "en": "In 2024, Wicker Park Fest saw record-breaking attendance.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 26,
+              "en": "In 2024, Wicker Park Fest ",
+              "zh": "2024年，威克公园节"
+            },
+            {
+              "a": 26,
+              "b": 57,
+              "en": "saw record-breaking attendance.",
+              "zh": "参加人数创下纪录"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "2024年，威克公园节的参加人数创下纪录。",
+          "words": [
+            {
+              "a": 30,
+              "b": 45,
+              "word": "record-breaking",
+              "lemma": "record-breaking",
+              "meaning": "创纪录的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 9,
+              "b": 25,
+              "lemma": "Wicker Park Fest",
+              "meaning": "Wicker Park社区街头节庆",
+              "word": "Wicker Park Fest"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T4-P5-S3",
           "a": 295,
           "b": 373,
           "en": "Despite the turnout, gate donations reached their lowest point in our history.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 21,
+              "en": "Despite the turnout, ",
+              "zh": "尽管参加人数很多"
+            },
+            {
+              "a": 21,
+              "b": 78,
+              "en": "gate donations reached their lowest point in our history.",
+              "zh": "入口捐款却降至活动历史最低点"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "尽管参加人数很多，入口捐款却降至活动历史最低点。",
+          "words": [
+            {
+              "a": 12,
+              "b": 19,
+              "word": "turnout",
+              "lemma": "turnout",
+              "meaning": "到场人数",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 21,
+              "b": 35,
+              "lemma": "gate donation",
+              "meaning": "入口处收取的自愿捐款",
+              "word": "gate donations"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T4-P5-S4",
           "a": 374,
           "b": 443,
           "en": "This year, we've been forced to scale back the footprint of the fest.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 29,
+              "en": "This year, we've been forced ",
+              "zh": "今年，我们被迫"
+            },
+            {
+              "a": 29,
+              "b": 69,
+              "en": "to scale back the footprint of the fest.",
+              "zh": "缩小节庆占用的场地范围"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "今年，我们被迫缩小节庆的场地规模。",
+          "words": [
+            {
+              "a": 47,
+              "b": 56,
+              "word": "footprint",
+              "lemma": "footprint",
+              "meaning": "活动覆盖范围；举办规模",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 32,
+              "b": 42,
+              "lemma": "scale back",
+              "meaning": "缩减规模",
+              "word": "scale back"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T4-P5-S5",
           "a": 444,
           "b": 743,
           "en": "We are eliminating a stage, booking fewer performers and making additional cuts to reduce our costs, all while striving to keep the festival as vibrant as ever, as supportive of local artists and businesses, and as true to Wicker Park's unique spirit and reputation as festgoers have come to expect.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 80,
+              "en": "We are eliminating a stage, booking fewer performers and making additional cuts ",
+              "zh": "我们正取消一个舞台、减少邀请的表演者，并进一步削减开支"
+            },
+            {
+              "a": 80,
+              "b": 101,
+              "en": "to reduce our costs, ",
+              "zh": "来降低成本"
+            },
+            {
+              "a": 101,
+              "b": 161,
+              "en": "all while striving to keep the festival as vibrant as ever, ",
+              "zh": "同时努力让节庆依然像过去一样充满活力"
+            },
+            {
+              "a": 161,
+              "b": 208,
+              "en": "as supportive of local artists and businesses, ",
+              "zh": "同样支持本地艺术家和商家"
+            },
+            {
+              "a": 208,
+              "b": 266,
+              "en": "and as true to Wicker Park's unique spirit and reputation ",
+              "zh": "同样忠于威克公园独有的精神与声誉"
+            },
+            {
+              "a": 266,
+              "b": 299,
+              "en": "as festgoers have come to expect.",
+              "zh": "达到参加者一贯的期待"
+            }
+          ],
+          "reorder": "把末尾 as festgoers have come to expect 所表达的期待，放到一串并列目标之前。",
+          "translation": "我们正在取消一个舞台、减少邀请的表演者，并进一步削减开支以降低成本；与此同时，仍努力满足参加者一贯的期待，让节庆像过去一样充满活力，支持本地艺术家和商家，并保持威克公园独有的精神与声誉。",
+          "words": [
+            {
+              "a": 21,
+              "b": 26,
+              "word": "stage",
+              "lemma": "stage",
+              "meaning": "舞台",
+              "pos": "n"
+            },
+            {
+              "a": 28,
+              "b": 35,
+              "word": "booking",
+              "lemma": "book",
+              "meaning": "邀约；聘请表演者",
+              "pos": "v"
+            },
+            {
+              "a": 75,
+              "b": 79,
+              "word": "cuts",
+              "lemma": "cut",
+              "meaning": "削减",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -243,24 +1036,94 @@
           "a": 0,
           "b": 138,
           "en": "This summer, as you enjoy your favorite neighborhood street festival, I hope you'll remember that they exist because of community support.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 70,
+              "en": "This summer, as you enjoy your favorite neighborhood street festival, ",
+              "zh": "今年夏天，当你参加自己最喜欢的社区街头节庆时"
+            },
+            {
+              "a": 70,
+              "b": 93,
+              "en": "I hope you'll remember ",
+              "zh": "希望你能记得"
+            },
+            {
+              "a": 93,
+              "b": 138,
+              "en": "that they exist because of community support.",
+              "zh": "它们之所以存在，靠的是社区的支持"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "今年夏天，当你参加最喜欢的社区街头节庆时，希望你能记得，它们之所以存在，靠的是社区的支持。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T4-P6-S2",
           "a": 139,
           "b": 232,
           "en": "A thriving summer festival season doesn't happen by accident; It happens when we all chip in.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 62,
+              "en": "A thriving summer festival season doesn't happen by accident; ",
+              "zh": "热闹兴旺的夏季节庆季并非偶然出现"
+            },
+            {
+              "a": 62,
+              "b": 93,
+              "en": "It happens when we all chip in.",
+              "zh": "它来自我们每个人共同出一份力"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "热闹兴旺的夏季节庆季并非偶然出现，而是需要我们每个人共同出一份力。",
+          "words": [
+            {
+              "a": 2,
+              "b": 10,
+              "word": "thriving",
+              "lemma": "thriving",
+              "meaning": "兴盛的；蓬勃发展的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 49,
+              "b": 60,
+              "lemma": "by accident",
+              "meaning": "偶然地",
+              "word": "by accident"
+            },
+            {
+              "a": 85,
+              "b": 92,
+              "lemma": "chip in",
+              "meaning": "共同出钱或出力",
+              "word": "chip in"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     }

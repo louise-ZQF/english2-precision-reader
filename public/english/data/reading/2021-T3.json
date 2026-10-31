@@ -6,10 +6,19 @@
   "text": 3,
   "articleKey": "s1-p0-t2",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "dd34a562a8f9f7d8fabf67661c52cd60b53755095fa345b36d950431c925dfb7",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2021年考研英语二真题.pdf",
+        "page": 8,
+        "sha256": "dfadb189b791a7acdb709f18f3a29f3d74e59541e07cdbd4706f65f48e695fd2"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇核对本地原卷正文抽取，逐句审读英文与中文；保留原卷文字及标点，仅沿用空白规范。"
   },
   "paragraphs": [
     {
@@ -21,24 +30,110 @@
           "a": 0,
           "b": 170,
           "en": "When Microsoft bought task management app Wunderlist and mobile calendar Sunrise in 2015,it picked two newcomers that were attracting considerable buzz in Silicon Valley.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 89,
+              "en": "When Microsoft bought task management app Wunderlist and mobile calendar Sunrise in 2015,",
+              "zh": "微软在2015年收购任务管理应用Wunderlist和手机日历Sunrise时"
+            },
+            {
+              "a": 89,
+              "b": 113,
+              "en": "it picked two newcomers ",
+              "zh": "选中了两个新秀"
+            },
+            {
+              "a": 113,
+              "b": 170,
+              "en": "that were attracting considerable buzz in Silicon Valley.",
+              "zh": "它们当时正在硅谷引起相当大的关注"
+            }
+          ],
+          "reorder": "把 that 从句移到“新秀”前，说明它们当时的关注度。",
+          "translation": "微软在2015年收购任务管理应用Wunderlist和手机日历Sunrise时，选中了两个当时在硅谷备受关注的新秀。",
+          "words": [
+            {
+              "a": 103,
+              "b": 112,
+              "lemma": "newcomers",
+              "meaning": "新出现的应用或企业",
+              "word": "newcomers",
+              "pos": "n"
+            },
+            {
+              "a": 147,
+              "b": 151,
+              "lemma": "buzz",
+              "meaning": "热议；关注热度",
+              "word": "buzz",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T3-P1-S2",
           "a": 171,
           "b": 352,
           "en": "Microsoft's own Office dominates the market for “productivity” software, but the start-ups represented a new wave of technology designed from the ground up for the smartphone world.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 73,
+              "en": "Microsoft's own Office dominates the market for “productivity” software, ",
+              "zh": "微软自己的Office称霸办公效率软件市场"
+            },
+            {
+              "a": 73,
+              "b": 128,
+              "en": "but the start-ups represented a new wave of technology ",
+              "zh": "但这两家初创企业代表一波新技术"
+            },
+            {
+              "a": 128,
+              "b": 181,
+              "en": "designed from the ground up for the smartphone world.",
+              "zh": "这些技术从一开始就是为智能手机时代设计的"
+            }
+          ],
+          "reorder": "将 designed 的后置修饰移到“新技术”前。",
+          "translation": "微软自己的Office称霸办公效率软件市场，但这两家初创企业代表了一波从一开始就为智能手机时代设计的新技术。",
+          "words": [
+            {
+              "a": 49,
+              "b": 61,
+              "lemma": "productivity",
+              "meaning": "办公效率；工作生产力",
+              "word": "productivity",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 137,
+              "b": 155,
+              "lemma": "from the ground up",
+              "meaning": "从基础重新设计；从零开始",
+              "word": "from the ground up"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -51,24 +146,110 @@
           "a": 0,
           "b": 114,
           "en": "Both apps, however, were later scrapped, after Microsoft said it had used their best features in its own products.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 41,
+              "en": "Both apps, however, were later scrapped, ",
+              "zh": "然而，两款应用后来都被停止运营"
+            },
+            {
+              "a": 41,
+              "b": 62,
+              "en": "after Microsoft said ",
+              "zh": "在此之前，微软表示"
+            },
+            {
+              "a": 62,
+              "b": 114,
+              "en": "it had used their best features in its own products.",
+              "zh": "已经把它们最好的功能用到了自己的产品中"
+            }
+          ],
+          "reorder": "将 after 引导的时间背景放到“停止运营”前。",
+          "translation": "然而，在微软表示已将它们最好的功能用到自家产品中之后，这两款应用都被停止运营了。",
+          "words": [
+            {
+              "a": 31,
+              "b": 39,
+              "lemma": "scrap",
+              "meaning": "被终止；被停用",
+              "word": "scrapped",
+              "pos": "v"
+            },
+            {
+              "a": 85,
+              "b": 93,
+              "lemma": "feature",
+              "meaning": "产品功能",
+              "word": "features",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T3-P2-S2",
           "a": 115,
           "b": 273,
           "en": "Their teams of engineers stayed on, making them two of the many “ acqui-hires”that the biggest companies have used to feed their great hunger for tech talent.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 36,
+              "en": "Their teams of engineers stayed on, ",
+              "zh": "两款应用的工程师团队留了下来"
+            },
+            {
+              "a": 36,
+              "b": 78,
+              "en": "making them two of the many “ acqui-hires”",
+              "zh": "使这两次收购成为众多“为人才而收购”的案例中的两个"
+            },
+            {
+              "a": 78,
+              "b": 158,
+              "en": "that the biggest companies have used to feed their great hunger for tech talent.",
+              "zh": "大公司借此满足对技术人才的巨大需求"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "两款应用的工程师团队留了下来，使这两次收购成为众多“为人才而收购”的案例中的两个，大公司借此满足对技术人才的巨大需求。",
+          "words": [
+            {
+              "a": 66,
+              "b": 77,
+              "lemma": "acqui-hire",
+              "meaning": "以获得人才团队为目的的企业收购",
+              "word": "acqui-hires",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 25,
+              "b": 34,
+              "lemma": "stay on",
+              "meaning": "留下继续任职",
+              "word": "stayed on"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -81,36 +262,165 @@
           "a": 0,
           "b": 167,
           "en": "To Microsoft's critics, the fates of Wunderlist and Sunrise are examples of a remorseless drive by Big Tech to chew up any innovative companies that lie in their path.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 24,
+              "en": "To Microsoft's critics, ",
+              "zh": "在微软的批评者看来"
+            },
+            {
+              "a": 24,
+              "b": 73,
+              "en": "the fates of Wunderlist and Sunrise are examples ",
+              "zh": "Wunderlist和Sunrise的命运就是例证"
+            },
+            {
+              "a": 73,
+              "b": 108,
+              "en": "of a remorseless drive by Big Tech ",
+              "zh": "大型科技公司毫不留情地"
+            },
+            {
+              "a": 108,
+              "b": 167,
+              "en": "to chew up any innovative companies that lie in their path.",
+              "zh": "吞并挡在自己面前的任何创新公司"
+            }
+          ],
+          "reorder": "把 by Big Tech 的施动者提为主语，并将 that lie in their path 前置修饰“创新公司”。",
+          "translation": "在微软的批评者看来，Wunderlist和Sunrise的命运表明，大型科技公司正毫不留情地吞并一切挡在自己面前的创新公司。",
+          "words": [
+            {
+              "a": 78,
+              "b": 89,
+              "lemma": "remorseless",
+              "meaning": "冷酷无情的；毫不留情的",
+              "word": "remorseless",
+              "pos": "a"
+            },
+            {
+              "a": 90,
+              "b": 95,
+              "lemma": "drive",
+              "meaning": "强烈扩张动力；行动势头",
+              "word": "drive",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 111,
+              "b": 118,
+              "lemma": "chew up",
+              "meaning": "吞并并消灭",
+              "word": "chew up"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T3-P3-S2",
           "a": 168,
           "b": 362,
           "en": "“They bought the seedlings and closed them down,” complained Paul Arnold, a partner at San Francisco-based Switch Ventures, putting an end to businesses that might one day turn into competitors.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 50,
+              "en": "“They bought the seedlings and closed them down,” ",
+              "zh": "“它们买下这些幼苗，然后把它们关掉，”"
+            },
+            {
+              "a": 50,
+              "b": 74,
+              "en": "complained Paul Arnold, ",
+              "zh": "保罗·阿诺德抱怨说"
+            },
+            {
+              "a": 74,
+              "b": 124,
+              "en": "a partner at San Francisco-based Switch Ventures, ",
+              "zh": "他是旧金山Switch Ventures公司的合伙人"
+            },
+            {
+              "a": 124,
+              "b": 194,
+              "en": "putting an end to businesses that might one day turn into competitors.",
+              "zh": "这使那些有朝一日可能成为竞争对手的企业就此终结"
+            }
+          ],
+          "reorder": "将 a partner 对说话人身份的介绍与 complained 一并放到引语前。",
+          "translation": "旧金山Switch Ventures公司的合伙人保罗·阿诺德抱怨说：“它们买下这些幼苗，然后把它们关掉。”这使那些有朝一日可能成为竞争对手的企业就此终结。",
+          "words": [
+            {
+              "a": 17,
+              "b": 26,
+              "lemma": "seedling",
+              "meaning": "刚起步的企业（幼苗比喻）",
+              "word": "seedlings",
+              "pos": "n"
+            },
+            {
+              "a": 76,
+              "b": 83,
+              "lemma": "partner",
+              "meaning": "投资机构合伙人",
+              "word": "partner",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T3-P3-S3",
           "a": 363,
           "b": 393,
           "en": "Microsoft declined to comment.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 30,
+              "en": "Microsoft declined to comment.",
+              "zh": "微软拒绝置评"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "微软拒绝置评。",
+          "words": [
+            {
+              "a": 10,
+              "b": 18,
+              "word": "declined",
+              "lemma": "decline",
+              "meaning": "拒绝",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -123,36 +433,117 @@
           "a": 0,
           "b": 237,
           "en": "Like other start-up investors, Mr. Arnold's own business often depends on selling start-ups to larger tech companies, though he admits to mixed feelings about the result: “I think these things are good for me, if I put my selfish hat on.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 31,
+              "en": "Like other start-up investors, ",
+              "zh": "和其他初创企业投资者一样"
+            },
+            {
+              "a": 31,
+              "b": 118,
+              "en": "Mr. Arnold's own business often depends on selling start-ups to larger tech companies, ",
+              "zh": "阿诺德自己的生意常常依赖将初创企业卖给大型科技公司"
+            },
+            {
+              "a": 118,
+              "b": 172,
+              "en": "though he admits to mixed feelings about the result: “",
+              "zh": "不过他承认，自己对此感受复杂"
+            },
+            {
+              "a": 172,
+              "b": 237,
+              "en": "I think these things are good for me, if I put my selfish hat on.",
+              "zh": "“如果只考虑自身利益，我觉得这些交易对我有利"
+            }
+          ],
+          "reorder": "将引语末尾 if I put my selfish hat on 的条件先译，再说“对我有利”。",
+          "translation": "和其他初创企业投资者一样，阿诺德自己的生意常常依赖把初创企业卖给大型科技公司，但他承认对此心情复杂：“如果只考虑自己的利益，我觉得这些交易对我有利。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 138,
+              "b": 152,
+              "lemma": "mixed feelings",
+              "meaning": "复杂矛盾的感受",
+              "word": "mixed feelings"
+            },
+            {
+              "a": 215,
+              "b": 236,
+              "lemma": "put my selfish hat on",
+              "meaning": "从只考虑自身利益的角度思考",
+              "word": "put my selfish hat on"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T3-P4-S2",
           "a": 238,
           "b": 281,
           "en": "But are they good for the American economy?",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 13,
+              "en": "But are they ",
+              "zh": "但它们对美国经济"
+            },
+            {
+              "a": 13,
+              "b": 43,
+              "en": "good for the American economy?",
+              "zh": "也有利吗"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "但它们对美国经济也有利吗？",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T3-P4-S3",
           "a": 282,
           "b": 296,
           "en": "I don't know.”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 14,
+              "en": "I don't know.”",
+              "zh": "我不知道。”"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "我不知道。”",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -165,36 +556,166 @@
           "a": 0,
           "b": 82,
           "en": "The US Federal Trade Commission says it wants to find the answer to that question.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 37,
+              "en": "The US Federal Trade Commission says ",
+              "zh": "美国联邦贸易委员会表示"
+            },
+            {
+              "a": 37,
+              "b": 82,
+              "en": "it wants to find the answer to that question.",
+              "zh": "它希望找到这个问题的答案"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "美国联邦贸易委员会表示，它希望找到这个问题的答案。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 7,
+              "b": 31,
+              "word": "Federal Trade Commission",
+              "lemma": "Federal Trade Commission",
+              "meaning": "美国联邦贸易委员会"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T3-P5-S2",
           "a": 83,
           "b": 217,
           "en": "This week, it asked the five most valuable US tech companies for information about their many small acquisitions over the past decade.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 61,
+              "en": "This week, it asked the five most valuable US tech companies ",
+              "zh": "本周，该委员会要求美国市值最高的五家科技公司"
+            },
+            {
+              "a": 61,
+              "b": 134,
+              "en": "for information about their many small acquisitions over the past decade.",
+              "zh": "提供过去十年间多次小型收购的信息"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "本周，该委员会要求美国市值最高的五家科技公司提供过去十年间多次小型收购的信息。",
+          "words": [
+            {
+              "a": 100,
+              "b": 112,
+              "word": "acquisitions",
+              "lemma": "acquisition",
+              "meaning": "收购交易",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T3-P5-S3",
           "a": 218,
           "b": 397,
           "en": "Although only a research project at this stage, the request has raised the prospect of regulators wading into early-stage tech markets that until now have been beyond their reach.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 48,
+              "en": "Although only a research project at this stage, ",
+              "zh": "虽然目前这只是一个研究项目"
+            },
+            {
+              "a": 48,
+              "b": 84,
+              "en": "the request has raised the prospect ",
+              "zh": "但这一要求使一种可能性浮现出来"
+            },
+            {
+              "a": 84,
+              "b": 135,
+              "en": "of regulators wading into early-stage tech markets ",
+              "zh": "监管机构可能介入早期科技市场"
+            },
+            {
+              "a": 135,
+              "b": 179,
+              "en": "that until now have been beyond their reach.",
+              "zh": "而这些市场此前一直不在它们的管辖范围内"
+            }
+          ],
+          "reorder": "将 that 从句移到“早期科技市场”前。",
+          "translation": "虽然目前这只是一个研究项目，但这一要求意味着，监管机构可能介入此前一直不在其管辖范围内的早期科技市场。",
+          "words": [
+            {
+              "a": 75,
+              "b": 83,
+              "lemma": "prospect",
+              "meaning": "可能性；前景",
+              "word": "prospect",
+              "pos": "n"
+            },
+            {
+              "a": 87,
+              "b": 97,
+              "lemma": "regulator",
+              "meaning": "监管机构或人员",
+              "word": "regulators",
+              "pos": "n"
+            },
+            {
+              "a": 110,
+              "b": 121,
+              "lemma": "early-stage",
+              "meaning": "早期发展阶段的",
+              "word": "early-stage",
+              "pos": "a"
+            },
+            {
+              "a": 173,
+              "b": 178,
+              "lemma": "reach",
+              "meaning": "监管触及的范围",
+              "word": "reach",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 98,
+              "b": 109,
+              "lemma": "wade into",
+              "meaning": "开始介入；涉足",
+              "word": "wading into"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -207,24 +728,146 @@
           "a": 0,
           "b": 184,
           "en": "Given their combined market value of more than $5.5 trillion, rifling through such small deals—many of them much less prominent than Wunderlist and Sunrise—might seem beside the point.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 62,
+              "en": "Given their combined market value of more than $5.5 trillion, ",
+              "zh": "考虑到这几家公司总市值超过5.5万亿美元"
+            },
+            {
+              "a": 62,
+              "b": 95,
+              "en": "rifling through such small deals—",
+              "zh": "仔细翻查这些小交易"
+            },
+            {
+              "a": 95,
+              "b": 156,
+              "en": "many of them much less prominent than Wunderlist and Sunrise—",
+              "zh": "其中许多交易远没有Wunderlist和Sunrise那样引人注目"
+            },
+            {
+              "a": 156,
+              "b": 184,
+              "en": "might seem beside the point.",
+              "zh": "似乎有些抓不住重点"
+            }
+          ],
+          "reorder": "将破折号内交易规模的补充说明后置，先译主句判断。",
+          "translation": "考虑到这几家公司的总市值超过5.5万亿美元，仔细翻查这些小交易似乎有些抓不住重点，何况其中许多交易远没有Wunderlist和Sunrise那样引人注目。",
+          "words": [
+            {
+              "a": 118,
+              "b": 127,
+              "lemma": "prominent",
+              "meaning": "引人关注的；显著的",
+              "word": "prominent",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 62,
+              "b": 77,
+              "lemma": "rifle through",
+              "meaning": "仔细翻查；逐一调查",
+              "word": "rifling through"
+            },
+            {
+              "a": 167,
+              "b": 183,
+              "lemma": "beside the point",
+              "meaning": "看似无关紧要；偏离重点",
+              "word": "beside the point"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2021-T3-P6-S2",
           "a": 185,
           "b": 495,
           "en": "Between them, the five biggest tech companies have spent an average of only $3.4 billion a year on sub- $ 1 billion acquisitions over the past five years—a drop in the ocean compared with their massive financial reserves, and the more than $130 billion of venture capital that was invested in the US last year.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 46,
+              "en": "Between them, the five biggest tech companies ",
+              "zh": "五大科技公司合计"
+            },
+            {
+              "a": 46,
+              "b": 96,
+              "en": "have spent an average of only $3.4 billion a year ",
+              "zh": "过去五年，每年平均只花费34亿美元"
+            },
+            {
+              "a": 96,
+              "b": 154,
+              "en": "on sub- $ 1 billion acquisitions over the past five years—",
+              "zh": "用于金额低于10亿美元的收购"
+            },
+            {
+              "a": 154,
+              "b": 174,
+              "en": "a drop in the ocean ",
+              "zh": "这只是沧海一粟"
+            },
+            {
+              "a": 174,
+              "b": 222,
+              "en": "compared with their massive financial reserves, ",
+              "zh": "相比它们庞大的资金储备"
+            },
+            {
+              "a": 222,
+              "b": 310,
+              "en": "and the more than $130 billion of venture capital that was invested in the US last year.",
+              "zh": "以及去年投向美国的逾1300亿美元风险投资而言"
+            }
+          ],
+          "reorder": "将 compared with 后的两个比较对象放到“沧海一粟”前。",
+          "translation": "过去五年，五大科技公司合计每年用于10亿美元以下收购的支出平均仅34亿美元；与它们庞大的资金储备，以及去年美国逾1300亿美元的风险投资相比，这只是沧海一粟。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 154,
+              "b": 173,
+              "lemma": "a drop in the ocean",
+              "meaning": "与总量相比微不足道的一点",
+              "word": "a drop in the ocean"
+            },
+            {
+              "a": 202,
+              "b": 220,
+              "lemma": "financial reserves",
+              "meaning": "资金储备",
+              "word": "financial reserves"
+            },
+            {
+              "a": 256,
+              "b": 271,
+              "lemma": "venture capital",
+              "meaning": "风险投资",
+              "word": "venture capital"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -237,12 +880,82 @@
           "a": 0,
           "b": 236,
           "en": "However, critics say the big companies use such deals to buy their most threatening potential competitors before their businesses have a chance to gain momentum, in some cases as part of a“ buy and kill”tactic to simply close them down.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 54,
+              "en": "However, critics say the big companies use such deals ",
+              "zh": "然而，批评者说，大公司通过这些交易"
+            },
+            {
+              "a": 54,
+              "b": 106,
+              "en": "to buy their most threatening potential competitors ",
+              "zh": "买下最具威胁的潜在竞争对手"
+            },
+            {
+              "a": 106,
+              "b": 162,
+              "en": "before their businesses have a chance to gain momentum, ",
+              "zh": "赶在对方业务发展壮大之前"
+            },
+            {
+              "a": 162,
+              "b": 210,
+              "en": "in some cases as part of a“ buy and kill”tactic ",
+              "zh": "某些收购属于“买下再扼杀”的策略"
+            },
+            {
+              "a": 210,
+              "b": 236,
+              "en": "to simply close them down.",
+              "zh": "目的就是直接把它们关闭"
+            }
+          ],
+          "reorder": "将 before 的时间条件移到“买下”前。",
+          "translation": "然而，批评者说，大公司通过这些交易，赶在对方业务发展壮大之前，买下最具威胁的潜在竞争对手；某些收购属于“买下再扼杀”的策略，目的就是把对方关闭。",
+          "words": [
+            {
+              "a": 72,
+              "b": 83,
+              "lemma": "threatening",
+              "meaning": "构成威胁的",
+              "word": "threatening",
+              "pos": "a"
+            },
+            {
+              "a": 203,
+              "b": 209,
+              "lemma": "tactic",
+              "meaning": "策略；手段",
+              "word": "tactic",
+              "pos": ""
+            }
+          ],
+          "phrases": [
+            {
+              "a": 147,
+              "b": 160,
+              "lemma": "gain momentum",
+              "meaning": "积累发展势头；开始快速壮大",
+              "word": "gain momentum"
+            },
+            {
+              "a": 190,
+              "b": 202,
+              "lemma": "buy and kill",
+              "meaning": "收购后扼杀；买下潜在对手再关闭",
+              "word": "buy and kill"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     }

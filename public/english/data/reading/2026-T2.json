@@ -6,10 +6,25 @@
   "text": 2,
   "articleKey": "s1-p0-t1",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "7a8b7404d97d5be174d8426f38fa79ada66a9f1e804456121143e59fe93aaf2f",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "public-paper",
+        "file": "english2-2026-juying-paper.pdf",
+        "url": "https://m.juyingonline.com/upload/202512/22/202512221526106084.pdf",
+        "pages": [
+          8,
+          9
+        ],
+        "sha256": "12caa6867036c58ff5724f5080d54869dfe4a25daf2af6abe547c6f6e395b74b"
+      }
+    ],
+    "notes": [
+      "公开整理版PDF非官方扫描；Text2有重复句及information拼写问题，Text3有跨行分段/Head大写问题；未把这些排版错误重新写回正文。"
+    ],
+    "checkedAt": "2026-10-31",
+    "method": "实际读取聚英公开试卷PDF正文与本地现稿逐篇核对；PDF存在重复行和少量排版错字，沿用现稿已修复内容并记录局限。"
   },
   "paragraphs": [
     {
@@ -21,36 +36,156 @@
           "a": 0,
           "b": 149,
           "en": "According to our research, around one in five workers in the UK talk to AI like a friend, looking for guidance on personal and professional problems.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 90,
+              "en": "According to our research, around one in five workers in the UK talk to AI like a friend, ",
+              "zh": "根据我们的研究，英国约五分之一的劳动者像对待朋友一样与AI交谈"
+            },
+            {
+              "a": 90,
+              "b": 149,
+              "en": "looking for guidance on personal and professional problems.",
+              "zh": "寻求关于个人和工作问题的建议"
+            }
+          ],
+          "reorder": "将 looking for guidance 作为后续目的说明，接在与AI交谈之后。",
+          "translation": "根据我们的研究，英国约五分之一的劳动者会像对待朋友一样与AI交谈，寻求解决个人及工作问题的建议。",
+          "words": [
+            {
+              "a": 102,
+              "b": 110,
+              "word": "guidance",
+              "lemma": "guidance",
+              "meaning": "指导；建议",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P1-S2",
           "a": 150,
           "b": 242,
           "en": "Our data shows that engaging with AI like this can leave us feeling heard and less isolated.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 15,
+              "en": "Our data shows ",
+              "zh": "我们的数据显示"
+            },
+            {
+              "a": 15,
+              "b": 47,
+              "en": "that engaging with AI like this ",
+              "zh": "这样与AI互动"
+            },
+            {
+              "a": 47,
+              "b": 92,
+              "en": "can leave us feeling heard and less isolated.",
+              "zh": "能让人感到被倾听，也没那么孤单"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "我们的数据显示，这样与AI互动，能让人感到被倾听，也没那么孤单。",
+          "words": [
+            {
+              "a": 83,
+              "b": 91,
+              "word": "isolated",
+              "lemma": "isolated",
+              "meaning": "孤独的；与他人疏离的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 20,
+              "b": 36,
+              "lemma": "engage with AI",
+              "meaning": "与人工智能互动",
+              "word": "engaging with AI"
+            },
+            {
+              "a": 60,
+              "b": 73,
+              "lemma": "feeling heard",
+              "meaning": "感到被认真倾听",
+              "word": "feeling heard"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P1-S3",
           "a": 243,
           "b": 461,
           "en": "But, with this newfound connection, many of us share sensitive, sometimes highly confidential information, even though over a third of people don't realise that AI platforms may not be very good at keeping our secrets.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 36,
+              "en": "But, with this newfound connection, ",
+              "zh": "然而，随着这种新联系的建立"
+            },
+            {
+              "a": 36,
+              "b": 107,
+              "en": "many of us share sensitive, sometimes highly confidential information, ",
+              "zh": "很多人分享了敏感信息，有时甚至是高度机密的信息"
+            },
+            {
+              "a": 107,
+              "b": 156,
+              "en": "even though over a third of people don't realise ",
+              "zh": "尽管超过三分之一的人没有意识到"
+            },
+            {
+              "a": 156,
+              "b": 218,
+              "en": "that AI platforms may not be very good at keeping our secrets.",
+              "zh": "AI平台可能并不善于保守我们的秘密"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "然而，建立起这种新联系后，很多人会分享敏感信息，有时甚至是高度机密的信息；而超过三分之一的人尚未意识到，AI平台可能并不善于保守我们的秘密。",
+          "words": [
+            {
+              "a": 81,
+              "b": 93,
+              "word": "confidential",
+              "lemma": "confidential",
+              "meaning": "机密的；不宜外传的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -63,96 +198,366 @@
           "a": 0,
           "b": 44,
           "en": "For business, the implications are worrying.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 14,
+              "en": "For business, ",
+              "zh": "对企业而言"
+            },
+            {
+              "a": 14,
+              "b": 44,
+              "en": "the implications are worrying.",
+              "zh": "这带来的影响令人担忧"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "对企业而言，这带来的影响令人担忧。",
+          "words": [
+            {
+              "a": 18,
+              "b": 30,
+              "word": "implications",
+              "lemma": "implication",
+              "meaning": "潜在后果；影响",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P2-S2",
           "a": 45,
           "b": 85,
           "en": "Consider Microsoft Copilot, for example.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 40,
+              "en": "Consider Microsoft Copilot, for example.",
+              "zh": "以微软Copilot为例"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "以微软Copilot为例。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P2-S3",
           "a": 86,
           "b": 254,
           "en": "It gains Microsoft broad rights to the data inputted or outputted by any user – rights to use this data in any way it sees fit; it can even share it with third parties.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 25,
+              "en": "It gains Microsoft broad ",
+              "zh": "它使微软获得对用户输入或输出数据的广泛使用权"
+            },
+            {
+              "a": 25,
+              "b": 128,
+              "en": "rights to the data inputted or outputted by any user – rights to use this data in any way it sees fit; ",
+              "zh": "可以按微软认为适当的任何方式使用这些数据"
+            },
+            {
+              "a": 128,
+              "b": 168,
+              "en": "it can even share it with third parties.",
+              "zh": "甚至可以将其分享给第三方"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "它使微软获得对任何用户输入或输出数据的广泛使用权，能够以微软认为适当的任何方式使用这些数据，甚至可以将其分享给第三方。",
+          "words": [
+            {
+              "a": 19,
+              "b": 24,
+              "word": "broad",
+              "lemma": "broad",
+              "meaning": "广泛的",
+              "pos": "a"
+            },
+            {
+              "a": 25,
+              "b": 31,
+              "word": "rights",
+              "lemma": "right",
+              "meaning": "使用数据的权利或权限",
+              "pos": "n"
+            },
+            {
+              "a": 80,
+              "b": 86,
+              "word": "rights",
+              "lemma": "right",
+              "meaning": "使用数据的权利或权限",
+              "pos": "n"
+            },
+            {
+              "a": 3,
+              "b": 8,
+              "word": "gains",
+              "lemma": "gain",
+              "meaning": "使……获得；此处指使微软取得使用权",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 19,
+              "b": 31,
+              "word": "broad rights",
+              "lemma": "broad right",
+              "meaning": "广泛的使用权利"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P2-S4",
           "a": 255,
           "b": 348,
           "en": "This means that any sensitive business information could potentially be exposed to the world.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 11,
+              "en": "This means ",
+              "zh": "这意味着"
+            },
+            {
+              "a": 11,
+              "b": 51,
+              "en": "that any sensitive business information ",
+              "zh": "任何敏感的商业信息"
+            },
+            {
+              "a": 51,
+              "b": 93,
+              "en": "could potentially be exposed to the world.",
+              "zh": "都有可能被公开给全世界"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "这意味着，任何敏感的商业信息都有可能暴露在全世界面前。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P2-S5",
           "a": 349,
           "b": 393,
           "en": "Employers are taking note and taking action.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 26,
+              "en": "Employers are taking note ",
+              "zh": "雇主正在关注此事"
+            },
+            {
+              "a": 26,
+              "b": 44,
+              "en": "and taking action.",
+              "zh": "并采取行动"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "雇主正在关注此事，并采取行动。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 14,
+              "b": 25,
+              "lemma": "take note",
+              "meaning": "注意到情况",
+              "word": "taking note"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P2-S6",
           "a": 394,
           "b": 511,
           "en": "According to our research, 25% have decided to either outright ban AI or regulate its use within their organisations.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 44,
+              "en": "According to our research, 25% have decided ",
+              "zh": "根据我们的研究，25%的雇主已经决定"
+            },
+            {
+              "a": 44,
+              "b": 70,
+              "en": "to either outright ban AI ",
+              "zh": "要么全面禁止使用AI"
+            },
+            {
+              "a": 70,
+              "b": 117,
+              "en": "or regulate its use within their organisations.",
+              "zh": "要么对本组织内AI的使用作出规定"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "根据我们的研究，25%的雇主已决定，要么全面禁止使用AI，要么规范组织内部AI的使用。",
+          "words": [
+            {
+              "a": 54,
+              "b": 62,
+              "word": "outright",
+              "lemma": "outright",
+              "meaning": "完全地；直接地",
+              "pos": "a"
+            },
+            {
+              "a": 73,
+              "b": 81,
+              "word": "regulate",
+              "lemma": "regulate",
+              "meaning": "规范；管理",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P2-S7",
           "a": 512,
           "b": 592,
           "en": "But even with these policies in place, some employees choose to break the rules.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 39,
+              "en": "But even with these policies in place, ",
+              "zh": "但即使已经有这些政策"
+            },
+            {
+              "a": 39,
+              "b": 80,
+              "en": "some employees choose to break the rules.",
+              "zh": "一些员工仍选择违反规定"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "但即使已经制定这些政策，一些员工仍选择违反规定。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 29,
+              "b": 37,
+              "lemma": "in place",
+              "meaning": "已制定并实施的",
+              "word": "in place"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P2-S8",
           "a": 593,
           "b": 756,
           "en": "They have their reasons – around 63% of them report that using AI increases their productivity, and some even feel AI offers more help than their human colleagues.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 26,
+              "en": "They have their reasons – ",
+              "zh": "他们有自己的理由"
+            },
+            {
+              "a": 26,
+              "b": 96,
+              "en": "around 63% of them report that using AI increases their productivity, ",
+              "zh": "其中约63%的人表示，使用AI提高了自己的工作效率"
+            },
+            {
+              "a": 96,
+              "b": 163,
+              "en": "and some even feel AI offers more help than their human colleagues.",
+              "zh": "有些人甚至觉得AI比真人同事提供的帮助更多"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "他们有自己的理由：其中约63%的人表示，AI提高了自己的工作效率；有些人甚至觉得，AI提供的帮助比真人同事更多。",
+          "words": [
+            {
+              "a": 82,
+              "b": 94,
+              "word": "productivity",
+              "lemma": "productivity",
+              "meaning": "工作效率；生产率",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -165,48 +570,236 @@
           "a": 0,
           "b": 130,
           "en": "The situation presents a delicate balance between leveraging AI for its productivity gains and risking confidential data exposure.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 42,
+              "en": "The situation presents a delicate balance ",
+              "zh": "这种情况需要谨慎权衡"
+            },
+            {
+              "a": 42,
+              "b": 91,
+              "en": "between leveraging AI for its productivity gains ",
+              "zh": "一方面是使用AI提高效率"
+            },
+            {
+              "a": 91,
+              "b": 130,
+              "en": "and risking confidential data exposure.",
+              "zh": "另一方面是面临机密数据泄露的风险"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "这种情况需要谨慎权衡：既希望使用AI提高效率，又面临机密数据泄露的风险。",
+          "words": [
+            {
+              "a": 50,
+              "b": 60,
+              "word": "leveraging",
+              "lemma": "leverage",
+              "meaning": "利用；发挥……的作用",
+              "pos": "v"
+            },
+            {
+              "a": 72,
+              "b": 84,
+              "word": "productivity",
+              "lemma": "productivity",
+              "meaning": "工作效率；生产率",
+              "pos": "n"
+            },
+            {
+              "a": 103,
+              "b": 115,
+              "word": "confidential",
+              "lemma": "confidential",
+              "meaning": "机密的；不宜外传的",
+              "pos": "a"
+            },
+            {
+              "a": 121,
+              "b": 129,
+              "word": "exposure",
+              "lemma": "exposure",
+              "meaning": "泄露；暴露给他人",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P3-S2",
           "a": 131,
           "b": 238,
           "en": "Employers need to manage AI tools with the same level of care as any other form of data sharing or storage.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 34,
+              "en": "Employers need to manage AI tools ",
+              "zh": "雇主需要管理AI工具"
+            },
+            {
+              "a": 34,
+              "b": 62,
+              "en": "with the same level of care ",
+              "zh": "态度应当同样谨慎"
+            },
+            {
+              "a": 62,
+              "b": 107,
+              "en": "as any other form of data sharing or storage.",
+              "zh": "就像对待其他任何形式的数据共享或存储一样"
+            }
+          ],
+          "reorder": "将 as any other form… 的比较对象提到“同样谨慎管理”前。",
+          "translation": "雇主需要像管理其他任何形式的数据共享或存储一样，谨慎管理AI工具。",
+          "words": [
+            {
+              "a": 99,
+              "b": 106,
+              "word": "storage",
+              "lemma": "storage",
+              "meaning": "数据存储",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P3-S3",
           "a": 239,
           "b": 396,
           "en": "There's also a knowledge gap that needs to be addressed — 40% of individuals surveyed are unsure about who retains ownership over the content produced by AI.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 58,
+              "en": "There's also a knowledge gap that needs to be addressed — ",
+              "zh": "还有一个需要弥补的知识缺口"
+            },
+            {
+              "a": 58,
+              "b": 103,
+              "en": "40% of individuals surveyed are unsure about ",
+              "zh": "40%的受访者并不确定"
+            },
+            {
+              "a": 103,
+              "b": 157,
+              "en": "who retains ownership over the content produced by AI.",
+              "zh": "AI生成内容的所有权究竟归谁"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "此外，还有一个需要弥补的知识缺口：40%的受访者并不确定，AI生成内容的所有权究竟归谁。",
+          "words": [
+            {
+              "a": 107,
+              "b": 114,
+              "word": "retains",
+              "lemma": "retain",
+              "meaning": "保有；继续拥有",
+              "pos": "v"
+            },
+            {
+              "a": 115,
+              "b": 124,
+              "word": "ownership",
+              "lemma": "ownership",
+              "meaning": "所有权",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P3-S4",
           "a": 397,
           "b": 545,
           "en": "By instilling best practices in AI engagement and creating policies that evolve with the technology, business can positively shift the AI landscape.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 46,
+              "en": "By instilling best practices in AI engagement ",
+              "zh": "通过向员工传授与AI互动的最佳做法"
+            },
+            {
+              "a": 46,
+              "b": 101,
+              "en": "and creating policies that evolve with the technology, ",
+              "zh": "并制定随技术发展而调整的政策"
+            },
+            {
+              "a": 101,
+              "b": 148,
+              "en": "business can positively shift the AI landscape.",
+              "zh": "企业就能推动AI应用环境朝积极方向发展"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "通过传授与AI互动的最佳做法，并制定随技术发展而调整的政策，企业就能推动AI应用环境朝积极方向发展。",
+          "words": [
+            {
+              "a": 35,
+              "b": 45,
+              "word": "engagement",
+              "lemma": "engagement",
+              "meaning": "与AI的互动和使用",
+              "pos": "n"
+            },
+            {
+              "a": 138,
+              "b": 147,
+              "word": "landscape",
+              "lemma": "landscape",
+              "meaning": "应用生态；整体格局",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 14,
+              "b": 28,
+              "lemma": "best practice",
+              "meaning": "良好使用规范；公认的做法",
+              "word": "best practices"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -219,72 +812,283 @@
           "a": 0,
           "b": 101,
           "en": "With AI's potential to simplify our professional lives, do the admin and enhance the work experience.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 56,
+              "en": "With AI's potential to simplify our professional lives, ",
+              "zh": "AI有潜力简化我们的工作生活"
+            },
+            {
+              "a": 56,
+              "b": 69,
+              "en": "do the admin ",
+              "zh": "处理行政事务"
+            },
+            {
+              "a": 69,
+              "b": 101,
+              "en": "and enhance the work experience.",
+              "zh": "并改善工作体验"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "AI有潜力简化我们的工作生活、处理行政事务，并改善工作体验。",
+          "words": [
+            {
+              "a": 63,
+              "b": 68,
+              "word": "admin",
+              "lemma": "admin",
+              "meaning": "行政性事务；日常文书工作",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P4-S2",
           "a": 102,
           "b": 200,
           "en": "It's up to us to navigate its usage cautiously so it supports us without compromising our privacy.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 47,
+              "en": "It's up to us to navigate its usage cautiously ",
+              "zh": "我们有责任谨慎把握AI的使用方式"
+            },
+            {
+              "a": 47,
+              "b": 65,
+              "en": "so it supports us ",
+              "zh": "让它为我们提供支持"
+            },
+            {
+              "a": 65,
+              "b": 98,
+              "en": "without compromising our privacy.",
+              "zh": "同时不损害我们的隐私"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "我们有责任谨慎把握AI的使用方式，让它为我们提供支持，同时不损害我们的隐私。",
+          "words": [
+            {
+              "a": 17,
+              "b": 25,
+              "word": "navigate",
+              "lemma": "navigate",
+              "meaning": "谨慎处理；找到合适的使用方式",
+              "pos": "v"
+            },
+            {
+              "a": 73,
+              "b": 85,
+              "word": "compromising",
+              "lemma": "compromise",
+              "meaning": "损害；使……面临风险",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P4-S3",
           "a": 201,
           "b": 333,
           "en": "There's no need to back away from progress, as long as we're equipped with the knowledge and tools to make sure AI remains a friend.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 44,
+              "en": "There's no need to back away from progress, ",
+              "zh": "没有必要因为这些风险而退避、不再进步"
+            },
+            {
+              "a": 44,
+              "b": 99,
+              "en": "as long as we're equipped with the knowledge and tools ",
+              "zh": "只要我们具备必要的知识和工具"
+            },
+            {
+              "a": 99,
+              "b": 132,
+              "en": "to make sure AI remains a friend.",
+              "zh": "确保AI始终是朋友"
+            }
+          ],
+          "reorder": "将 as long as 的条件提到“没有必要退避”前。",
+          "translation": "只要我们具备必要的知识和工具，确保AI始终是朋友，就没有必要停下进步的脚步。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 19,
+              "b": 33,
+              "lemma": "back away from",
+              "meaning": "退缩；回避",
+              "word": "back away from"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P4-S4",
           "a": 334,
           "b": 371,
           "en": "And this is where the challenge lies.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 37,
+              "en": "And this is where the challenge lies.",
+              "zh": "而挑战也正在于此"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "而挑战也正在于此。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P4-S5",
           "a": 372,
           "b": 500,
           "en": "There are so many products out there, being promoted with huge advertising and marketing budgets, that it's easy to fall victim.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 38,
+              "en": "There are so many products out there, ",
+              "zh": "市场上的产品实在太多"
+            },
+            {
+              "a": 38,
+              "b": 98,
+              "en": "being promoted with huge advertising and marketing budgets, ",
+              "zh": "还有巨额广告和营销预算为它们推波助澜"
+            },
+            {
+              "a": 98,
+              "b": 128,
+              "en": "that it's easy to fall victim.",
+              "zh": "因此人们很容易受害"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "市场上的产品实在太多，而且背后有巨额广告和营销预算推销，因此人们很容易受害。",
+          "words": [
+            {
+              "a": 44,
+              "b": 52,
+              "word": "promoted",
+              "lemma": "promote",
+              "meaning": "宣传；推销",
+              "pos": "v"
+            },
+            {
+              "a": 121,
+              "b": 127,
+              "word": "victim",
+              "lemma": "victim",
+              "meaning": "受害者",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 116,
+              "b": 127,
+              "lemma": "fall victim",
+              "meaning": "受害；中招",
+              "word": "fall victim"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2026-T2-P4-S6",
           "a": 501,
           "b": 645,
           "en": "But by building a culture of digital responsibility within our business, we can create a future where AI can help us without spilling the beans.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 73,
+              "en": "But by building a culture of digital responsibility within our business, ",
+              "zh": "但只要在企业内部建立负责任地使用数字技术的文化"
+            },
+            {
+              "a": 73,
+              "b": 96,
+              "en": "we can create a future ",
+              "zh": "我们就能创造这样的未来"
+            },
+            {
+              "a": 96,
+              "b": 144,
+              "en": "where AI can help us without spilling the beans.",
+              "zh": "AI帮助我们，却不会泄露秘密"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "但只要在企业内部建立负责任地使用数字技术的文化，我们就能创造这样的未来：AI帮助我们，却不会泄露秘密。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 125,
+              "b": 143,
+              "lemma": "spill the beans",
+              "meaning": "泄露秘密",
+              "word": "spilling the beans"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     }

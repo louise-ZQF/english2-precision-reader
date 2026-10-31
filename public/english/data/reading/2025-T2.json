@@ -6,10 +6,19 @@
   "text": 2,
   "articleKey": "s1-p0-t1",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "9bbe10d98b5cc07329bbc0cb84222b896ff84200dc410b231205ca06912907b7",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2025考研英语二真题.pdf",
+        "page": 6,
+        "sha256": "6e486744098ee282ce916ec6378c73a5fb1dde99ff467d4e7377010c1b295d17"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇对照本地扫描原卷的正文页图与OCR，逐句审读；以扫描页为准核验文字。"
   },
   "paragraphs": [
     {
@@ -21,24 +30,117 @@
           "a": 0,
           "b": 164,
           "en": "When it was established, the National Health Service (NHS) was visionary: offering high-quality, timely care to meet the dominant needs of the population it served.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 74,
+              "en": "When it was established, the National Health Service (NHS) was visionary: ",
+              "zh": "英国国家医疗服务体系（NHS）成立时很有远见"
+            },
+            {
+              "a": 74,
+              "b": 109,
+              "en": "offering high-quality, timely care ",
+              "zh": "它提供优质、及时的医疗服务"
+            },
+            {
+              "a": 109,
+              "b": 164,
+              "en": "to meet the dominant needs of the population it served.",
+              "zh": "满足服务人群的主要需求"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "英国国家医疗服务体系成立时很有远见：它提供优质、及时的医疗服务，以满足服务人群的主要需求。",
+          "words": [
+            {
+              "a": 63,
+              "b": 72,
+              "word": "visionary",
+              "lemma": "visionary",
+              "meaning": "有远见的；具有前瞻性的",
+              "pos": "a"
+            },
+            {
+              "a": 104,
+              "b": 108,
+              "word": "care",
+              "lemma": "care",
+              "meaning": "医疗服务；照护",
+              "pos": "n"
+            },
+            {
+              "a": 121,
+              "b": 129,
+              "word": "dominant",
+              "lemma": "dominant",
+              "meaning": "主要的",
+              "pos": "a"
+            },
+            {
+              "a": 143,
+              "b": 153,
+              "word": "population",
+              "lemma": "population",
+              "meaning": "所服务地区的居民",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2025-T2-P1-S2",
           "a": 165,
           "b": 276,
           "en": "Nearly 75 years on, with the UK facing very different health challenges, it is clear that model is out of date.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 20,
+              "en": "Nearly 75 years on, ",
+              "zh": "近75年过去了"
+            },
+            {
+              "a": 20,
+              "b": 73,
+              "en": "with the UK facing very different health challenges, ",
+              "zh": "英国面临的健康挑战已大不相同"
+            },
+            {
+              "a": 73,
+              "b": 111,
+              "en": "it is clear that model is out of date.",
+              "zh": "这种模式显然已经过时"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "近75年过去了，英国面临的健康挑战已大不相同，这种模式显然已经过时。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 99,
+              "b": 110,
+              "lemma": "out of date",
+              "meaning": "过时的；不再适应现实的",
+              "word": "out of date"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -51,36 +153,202 @@
           "a": 0,
           "b": 99,
           "en": "From life expectancy to cancer and infant mortality rates, we are lagging behind many of our peers.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 59,
+              "en": "From life expectancy to cancer and infant mortality rates, ",
+              "zh": "从预期寿命到癌症死亡率、婴儿死亡率"
+            },
+            {
+              "a": 59,
+              "b": 99,
+              "en": "we are lagging behind many of our peers.",
+              "zh": "我们的表现落后于许多同类国家"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "从预期寿命到癌症死亡率、婴儿死亡率，我们都落后于许多同类国家。",
+          "words": [
+            {
+              "a": 42,
+              "b": 51,
+              "word": "mortality",
+              "lemma": "mortality",
+              "meaning": "死亡率",
+              "pos": "n"
+            },
+            {
+              "a": 93,
+              "b": 98,
+              "word": "peers",
+              "lemma": "peer",
+              "meaning": "可比较的其他国家",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 5,
+              "b": 20,
+              "lemma": "life expectancy",
+              "meaning": "预期寿命",
+              "word": "life expectancy"
+            },
+            {
+              "a": 35,
+              "b": 51,
+              "lemma": "infant mortality",
+              "meaning": "婴儿死亡率",
+              "word": "infant mortality"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2025-T2-P2-S2",
           "a": 100,
           "b": 348,
           "en": "With more than 6.8 million on waitlists, healthcare is becoming increasingly inaccessible for those who cannot opt to pay for private treatment; and the cost of providing healthcare is increasingly squeezing out investment in other public services.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 41,
+              "en": "With more than 6.8 million on waitlists, ",
+              "zh": "有超过680万人等待就医"
+            },
+            {
+              "a": 41,
+              "b": 145,
+              "en": "healthcare is becoming increasingly inaccessible for those who cannot opt to pay for private treatment; ",
+              "zh": "对于无力选择付费私人医疗的人，医疗服务越来越难获得"
+            },
+            {
+              "a": 145,
+              "b": 182,
+              "en": "and the cost of providing healthcare ",
+              "zh": "而提供医疗服务的成本"
+            },
+            {
+              "a": 182,
+              "b": 248,
+              "en": "is increasingly squeezing out investment in other public services.",
+              "zh": "又日益挤占其他公共服务的投资"
+            }
+          ],
+          "reorder": "把 for those who cannot opt… 的人群范围放在“越来越难获得医疗服务”前。",
+          "translation": "有超过680万人等待就医，无力选择付费私人医疗的人越来越难获得医疗服务；与此同时，提供医疗服务的成本正日益挤占其他公共服务的投资。",
+          "words": [
+            {
+              "a": 30,
+              "b": 39,
+              "word": "waitlists",
+              "lemma": "waitlist",
+              "meaning": "就医等待名单",
+              "pos": "n"
+            },
+            {
+              "a": 77,
+              "b": 89,
+              "word": "inaccessible",
+              "lemma": "inaccessible",
+              "meaning": "难以获得或使用的",
+              "pos": "a"
+            },
+            {
+              "a": 198,
+              "b": 207,
+              "word": "squeezing",
+              "lemma": "squeeze",
+              "meaning": "挤占；压缩（其他投资）",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2025-T2-P2-S3",
           "a": 349,
           "b": 485,
           "en": "As demand for healthcare continues to grow, pressures on the workforce—which is already near breaking point—will only become more acute.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 44,
+              "en": "As demand for healthcare continues to grow, ",
+              "zh": "随着医疗需求继续增长"
+            },
+            {
+              "a": 44,
+              "b": 71,
+              "en": "pressures on the workforce—",
+              "zh": "医护人员承受的压力"
+            },
+            {
+              "a": 71,
+              "b": 108,
+              "en": "which is already near breaking point—",
+              "zh": "他们已经接近承受极限"
+            },
+            {
+              "a": 108,
+              "b": 136,
+              "en": "will only become more acute.",
+              "zh": "只会更加严峻"
+            }
+          ],
+          "reorder": "将 which 从句前置，修饰“医护人员”。",
+          "translation": "随着医疗需求继续增长，本已接近承受极限的医护人员，面临的压力只会更加严峻。",
+          "words": [
+            {
+              "a": 61,
+              "b": 70,
+              "word": "workforce",
+              "lemma": "workforce",
+              "meaning": "医疗工作人员",
+              "pos": "n"
+            },
+            {
+              "a": 130,
+              "b": 135,
+              "word": "acute",
+              "lemma": "acute",
+              "meaning": "严重的；迫切的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 93,
+              "b": 107,
+              "lemma": "breaking point",
+              "meaning": "难以承受的极限",
+              "word": "breaking point"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -93,48 +361,227 @@
           "a": 0,
           "b": 72,
           "en": "Many of the answers to the crisis in health and care are well rehearsed.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 53,
+              "en": "Many of the answers to the crisis in health and care ",
+              "zh": "解决医疗和照护危机的许多办法"
+            },
+            {
+              "a": 53,
+              "b": 72,
+              "en": "are well rehearsed.",
+              "zh": "早已被反复讨论过"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "解决医疗和照护危机的许多办法，早已被反复讨论过。",
+          "words": [
+            {
+              "a": 48,
+              "b": 52,
+              "word": "care",
+              "lemma": "care",
+              "meaning": "医疗服务；照护",
+              "pos": "n"
+            },
+            {
+              "a": 62,
+              "b": 71,
+              "word": "rehearsed",
+              "lemma": "rehearse",
+              "meaning": "已被反复讨论的",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 57,
+              "b": 71,
+              "lemma": "well rehearsed",
+              "meaning": "已反复讨论、并非新提出的",
+              "word": "well rehearsed"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2025-T2-P3-S2",
           "a": 73,
           "b": 183,
           "en": "We need to be much better at reducing and diverting demand on health services, rather than simply managing it.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 79,
+              "en": "We need to be much better at reducing and diverting demand on health services, ",
+              "zh": "我们需要更好地减少和分流医疗服务需求"
+            },
+            {
+              "a": 79,
+              "b": 110,
+              "en": "rather than simply managing it.",
+              "zh": "而不只是管理现有需求"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "我们需要更有效地减少和分流医疗服务需求，而不只是管理这些需求。",
+          "words": [
+            {
+              "a": 42,
+              "b": 51,
+              "word": "diverting",
+              "lemma": "divert",
+              "meaning": "分流；转移（服务需求）",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2025-T2-P3-S3",
           "a": 184,
           "b": 283,
           "en": "Much more needs to be invested in communities and primary care to reduce our reliance on hospitals.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 63,
+              "en": "Much more needs to be invested in communities and primary care ",
+              "zh": "必须向社区和基层医疗投入更多资源"
+            },
+            {
+              "a": 63,
+              "b": 99,
+              "en": "to reduce our reliance on hospitals.",
+              "zh": "以减少我们对医院的依赖"
+            }
+          ],
+          "reorder": "将 in communities and primary care 的投入对象放到“投入更多资源”前。",
+          "translation": "必须向社区和基层医疗投入更多资源，以减少我们对医院的依赖。",
+          "words": [
+            {
+              "a": 34,
+              "b": 45,
+              "word": "communities",
+              "lemma": "community",
+              "meaning": "社区",
+              "pos": "n"
+            },
+            {
+              "a": 58,
+              "b": 62,
+              "word": "care",
+              "lemma": "care",
+              "meaning": "医疗服务；照护",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 50,
+              "b": 62,
+              "lemma": "primary care",
+              "meaning": "基层医疗；初级医疗",
+              "word": "primary care"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2025-T2-P3-S4",
           "a": 284,
           "b": 406,
           "en": "And capacity in social care needs to be greater, to support the growing number of people living with long-term conditions.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 49,
+              "en": "And capacity in social care needs to be greater, ",
+              "zh": "社会照护的服务能力也需要加强"
+            },
+            {
+              "a": 49,
+              "b": 122,
+              "en": "to support the growing number of people living with long-term conditions.",
+              "zh": "以支持越来越多的慢性病患者"
+            }
+          ],
+          "reorder": "将 living with long-term conditions 前置修饰接受照护的人，译为“慢性病患者”。",
+          "translation": "社会照护的服务能力也需要加强，以支持越来越多的慢性病患者。",
+          "words": [
+            {
+              "a": 4,
+              "b": 12,
+              "word": "capacity",
+              "lemma": "capacity",
+              "meaning": "服务承载能力",
+              "pos": "n"
+            },
+            {
+              "a": 23,
+              "b": 27,
+              "word": "care",
+              "lemma": "care",
+              "meaning": "医疗服务；照护",
+              "pos": "n"
+            },
+            {
+              "a": 111,
+              "b": 121,
+              "word": "conditions",
+              "lemma": "condition",
+              "meaning": "长期疾病；健康问题",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 16,
+              "b": 27,
+              "lemma": "social care",
+              "meaning": "社会照护",
+              "word": "social care"
+            },
+            {
+              "a": 101,
+              "b": 121,
+              "lemma": "long-term condition",
+              "meaning": "长期疾病；慢性健康问题",
+              "word": "long-term conditions"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -147,36 +594,187 @@
           "a": 0,
           "b": 140,
           "en": "Yet despite two decades of strategies and a number of major health reforms, we have failed to make meaningful progress on any of these aims.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 76,
+              "en": "Yet despite two decades of strategies and a number of major health reforms, ",
+              "zh": "然而，尽管已有二十年的策略和多次重大医疗改革"
+            },
+            {
+              "a": 76,
+              "b": 84,
+              "en": "we have ",
+              "zh": "我们已经"
+            },
+            {
+              "a": 84,
+              "b": 140,
+              "en": "failed to make meaningful progress on any of these aims.",
+              "zh": "未能在上述任何一个目标上取得实质性进展"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "然而，尽管二十年来制定了各种策略、推行了多次重大医疗改革，我们在上述任何一个目标上都未能取得实质性进展。",
+          "words": [
+            {
+              "a": 99,
+              "b": 109,
+              "word": "meaningful",
+              "lemma": "meaningful",
+              "meaning": "实质性的；有意义的",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2025-T2-P4-S2",
           "a": 141,
           "b": 284,
           "en": "That is why the Reform think tank is launching a new programme of work entitled \"Reimagining health\", supported by ten former health ministers.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 71,
+              "en": "That is why the Reform think tank is launching a new programme of work ",
+              "zh": "这就是为什么Reform智库正在启动一项新的工作计划"
+            },
+            {
+              "a": 71,
+              "b": 102,
+              "en": "entitled \"Reimagining health\", ",
+              "zh": "名为“重新构想健康”"
+            },
+            {
+              "a": 102,
+              "b": 143,
+              "en": "supported by ten former health ministers.",
+              "zh": "并得到十位前卫生大臣支持"
+            }
+          ],
+          "reorder": "将 supported by 的支持背景和 entitled 的计划名称放在“启动一项新计划”中一起表达。",
+          "translation": "因此，Reform智库正在十位前卫生大臣的支持下，启动一项名为“重新构想健康”的新工作计划。",
+          "words": [
+            {
+              "a": 16,
+              "b": 22,
+              "word": "Reform",
+              "lemma": "Reform",
+              "meaning": "英国智库“Reform”（机构名）",
+              "pos": "n"
+            },
+            {
+              "a": 71,
+              "b": 79,
+              "word": "entitled",
+              "lemma": "entitle",
+              "meaning": "名为；题为",
+              "pos": "v"
+            },
+            {
+              "a": 133,
+              "b": 142,
+              "word": "ministers",
+              "lemma": "minister",
+              "meaning": "政府部长",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 23,
+              "b": 33,
+              "lemma": "think tank",
+              "meaning": "智库",
+              "word": "think tank"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2025-T2-P4-S3",
           "a": 285,
           "b": 457,
           "en": "Together, we are calling for a much more open and honest conversation about the future of health in the UK, and an \"urgent rethink\" of the hospital-centric model we retain.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 29,
+              "en": "Together, we are calling for ",
+              "zh": "我们共同呼吁，就英国健康事业的未来"
+            },
+            {
+              "a": 29,
+              "b": 108,
+              "en": "a much more open and honest conversation about the future of health in the UK, ",
+              "zh": "进行更公开、更坦诚的讨论"
+            },
+            {
+              "a": 108,
+              "b": 132,
+              "en": "and an \"urgent rethink\" ",
+              "zh": "并紧急重新审视"
+            },
+            {
+              "a": 132,
+              "b": 172,
+              "en": "of the hospital-centric model we retain.",
+              "zh": "仍在沿用的以医院为中心的模式"
+            }
+          ],
+          "reorder": "将 we retain 前置，修饰“以医院为中心的模式”。",
+          "translation": "我们共同呼吁，就英国健康事业的未来展开更公开、更坦诚的讨论，并紧急重新审视仍在沿用的以医院为中心的模式。",
+          "words": [
+            {
+              "a": 123,
+              "b": 130,
+              "word": "rethink",
+              "lemma": "rethink",
+              "meaning": "重新思考；重新审视",
+              "pos": "n"
+            },
+            {
+              "a": 139,
+              "b": 155,
+              "word": "hospital-centric",
+              "lemma": "hospital-centric",
+              "meaning": "以医院为中心的",
+              "pos": "a"
+            },
+            {
+              "a": 165,
+              "b": 171,
+              "word": "retain",
+              "lemma": "retain",
+              "meaning": "继续保留；沿用",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -189,48 +787,244 @@
           "a": 0,
           "b": 105,
           "en": "This must begin with the question of how we maximise the health of the nation, rather than \"fix\" the NHS.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 37,
+              "en": "This must begin with the question of ",
+              "zh": "首先必须讨论的是"
+            },
+            {
+              "a": 37,
+              "b": 79,
+              "en": "how we maximise the health of the nation, ",
+              "zh": "如何尽可能改善全国民众的健康"
+            },
+            {
+              "a": 79,
+              "b": 105,
+              "en": "rather than \"fix\" the NHS.",
+              "zh": "而不只是“修补”国家医疗服务体系"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "首先必须讨论的是，如何尽可能改善全国民众的健康，而不只是“修补”国家医疗服务体系。",
+          "words": [
+            {
+              "a": 44,
+              "b": 52,
+              "word": "maximise",
+              "lemma": "maximise",
+              "meaning": "尽可能提高",
+              "pos": "v"
+            },
+            {
+              "a": 92,
+              "b": 95,
+              "word": "fix",
+              "lemma": "fix",
+              "meaning": "修补；解决既有体系的问题",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2025-T2-P5-S2",
           "a": 106,
           "b": 199,
           "en": "It is estimated, for example, that healthcare accounts for only about 20% of health outcomes.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 30,
+              "en": "It is estimated, for example, ",
+              "zh": "例如，据估算"
+            },
+            {
+              "a": 30,
+              "b": 46,
+              "en": "that healthcare ",
+              "zh": "医疗服务对健康结果的影响"
+            },
+            {
+              "a": 46,
+              "b": 93,
+              "en": "accounts for only about 20% of health outcomes.",
+              "zh": "只占约20%"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "例如，据估算，医疗服务对健康结果的影响只占约20%。",
+          "words": [
+            {
+              "a": 84,
+              "b": 92,
+              "word": "outcomes",
+              "lemma": "outcome",
+              "meaning": "最终健康状况",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 46,
+              "b": 58,
+              "lemma": "account for",
+              "meaning": "占……比例",
+              "word": "accounts for"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2025-T2-P5-S3",
           "a": 200,
           "b": 361,
           "en": "Much more important are the places we live, work and socialise—yet there is no clear cross-government strategy for improving these social determinants of health.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 63,
+              "en": "Much more important are the places we live, work and socialise—",
+              "zh": "更重要的是我们生活、工作和社交的环境"
+            },
+            {
+              "a": 63,
+              "b": 111,
+              "en": "yet there is no clear cross-government strategy ",
+              "zh": "但政府各部门之间并没有明确的共同策略"
+            },
+            {
+              "a": 111,
+              "b": 161,
+              "en": "for improving these social determinants of health.",
+              "zh": "来改善这些决定健康的社会因素"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "更重要的是我们生活、工作和社交的环境，但政府各部门之间并没有明确的共同策略，来改善这些决定健康的社会因素。",
+          "words": [
+            {
+              "a": 85,
+              "b": 101,
+              "word": "cross-government",
+              "lemma": "cross-government",
+              "meaning": "跨政府部门的",
+              "pos": "a"
+            },
+            {
+              "a": 138,
+              "b": 150,
+              "word": "determinants",
+              "lemma": "determinant",
+              "meaning": "决定因素；影响健康的根本条件",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 131,
+              "b": 160,
+              "lemma": "social determinants of health",
+              "meaning": "健康的社会决定因素",
+              "word": "social determinants of health"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2025-T2-P5-S4",
           "a": 362,
           "b": 530,
           "en": "Worse, when policies like the national obesity strategy are scrapped, taxpayers are left with the heavy price tag of treating the illnesses, like diabetes, that result.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 70,
+              "en": "Worse, when policies like the national obesity strategy are scrapped, ",
+              "zh": "更糟的是，当全国肥胖防控战略等政策被取消时"
+            },
+            {
+              "a": 70,
+              "b": 114,
+              "en": "taxpayers are left with the heavy price tag ",
+              "zh": "纳税人就不得不承担高昂费用"
+            },
+            {
+              "a": 114,
+              "b": 168,
+              "en": "of treating the illnesses, like diabetes, that result.",
+              "zh": "用来治疗由此导致的糖尿病等疾病"
+            }
+          ],
+          "reorder": "把 that result 前置修饰“疾病”，并把 like diabetes 合成“糖尿病等疾病”。",
+          "translation": "更糟的是，全国肥胖防控战略等政策一旦被取消，纳税人就不得不承担高昂费用，治疗由此导致的糖尿病等疾病。",
+          "words": [
+            {
+              "a": 60,
+              "b": 68,
+              "word": "scrapped",
+              "lemma": "scrap",
+              "meaning": "取消；废止（政策）",
+              "pos": "v"
+            },
+            {
+              "a": 70,
+              "b": 79,
+              "word": "taxpayers",
+              "lemma": "taxpayer",
+              "meaning": "纳税人",
+              "pos": "n"
+            },
+            {
+              "a": 146,
+              "b": 154,
+              "word": "diabetes",
+              "lemma": "diabetes",
+              "meaning": "糖尿病",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 104,
+              "b": 113,
+              "lemma": "price tag",
+              "meaning": "所需付出的费用",
+              "word": "price tag"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     },
@@ -243,24 +1037,124 @@
           "a": 0,
           "b": 87,
           "en": "Reform wants to ask how power and resources should be distributed in our health system.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 20,
+              "en": "Reform wants to ask ",
+              "zh": "Reform希望探讨"
+            },
+            {
+              "a": 20,
+              "b": 44,
+              "en": "how power and resources ",
+              "zh": "医疗体系中的权力和资源"
+            },
+            {
+              "a": 44,
+              "b": 87,
+              "en": "should be distributed in our health system.",
+              "zh": "应当如何分配"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "Reform希望探讨，医疗体系中的权力和资源应当如何分配。",
+          "words": [
+            {
+              "a": 0,
+              "b": 6,
+              "word": "Reform",
+              "lemma": "Reform",
+              "meaning": "英国智库“Reform”（机构名）",
+              "pos": "n"
+            },
+            {
+              "a": 54,
+              "b": 65,
+              "word": "distributed",
+              "lemma": "distribute",
+              "meaning": "分配（权力和资源）",
+              "pos": "v"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         },
         {
           "id": "2025-T2-P6-S2",
           "a": 88,
           "b": 302,
           "en": "What health functions should remain at the centre, and what should be given to local leaders, often responsible for services that create health, and with much better understanding of the needs of their populations?",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 51,
+              "en": "What health functions should remain at the centre, ",
+              "zh": "哪些医疗卫生职能应该保留在中央"
+            },
+            {
+              "a": 51,
+              "b": 94,
+              "en": "and what should be given to local leaders, ",
+              "zh": "哪些应该交给地方领导者"
+            },
+            {
+              "a": 94,
+              "b": 145,
+              "en": "often responsible for services that create health, ",
+              "zh": "他们通常负责能够促进健康的服务"
+            },
+            {
+              "a": 145,
+              "b": 214,
+              "en": "and with much better understanding of the needs of their populations?",
+              "zh": "也更了解当地居民的需求"
+            }
+          ],
+          "reorder": "无需调序。",
+          "translation": "哪些医疗卫生职能应当留在中央，哪些应当交给地方领导者？地方领导者通常负责促进健康的服务，也更加了解当地居民的需求。",
+          "words": [
+            {
+              "a": 12,
+              "b": 21,
+              "word": "functions",
+              "lemma": "function",
+              "meaning": "公共服务职能",
+              "pos": "n"
+            },
+            {
+              "a": 43,
+              "b": 49,
+              "word": "centre",
+              "lemma": "centre",
+              "meaning": "中央政府层面",
+              "pos": "n"
+            },
+            {
+              "a": 202,
+              "b": 213,
+              "word": "populations",
+              "lemma": "population",
+              "meaning": "所服务地区的居民",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "逐句对照原文",
+            "短语与从句切分",
+            "否定比较与数量",
+            "指代及本文词义"
+          ]
         }
       ]
     }

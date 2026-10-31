@@ -6,10 +6,19 @@
   "text": 4,
   "articleKey": "s1-p0-t3",
   "source": {
-    "status": "pending",
+    "status": "verified",
     "textSHA256": "594df42814d696dd45dd5a0e610752e37a9d985452b47a496b264aa4fd498be4",
-    "evidence": [],
-    "notes": []
+    "evidence": [
+      {
+        "kind": "provided-paper",
+        "file": "2017年考研英语二真题.pdf",
+        "page": 10,
+        "sha256": "ad82f30feaf16b8066430d656ca4c1ab7e67ab448b93d333880b28e94c829362"
+      }
+    ],
+    "notes": [],
+    "checkedAt": "2026-10-31",
+    "method": "逐篇对照本地试卷完整正文与PDF渲染页，逐项核对提取层形似字、下划线漏字和标点差异；保留原英文与固定编号。"
   },
   "paragraphs": [
     {
@@ -21,12 +30,74 @@
           "a": 0,
           "b": 227,
           "en": "Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 53,
+              "en": "Though often viewed as a problem for western states, ",
+              "zh": "虽然常被视为西部各州的问题"
+            },
+            {
+              "a": 53,
+              "b": 110,
+              "en": "the growing frequency of wildfires is a national concern ",
+              "zh": "但野火发生得越来越频繁，是一个全国都应关注的问题"
+            },
+            {
+              "a": 110,
+              "b": 156,
+              "en": "because of its impact on federal tax dollars, ",
+              "zh": "因为它会影响联邦税收资金的使用"
+            },
+            {
+              "a": 156,
+              "b": 183,
+              "en": "says Professor Max Moritz, ",
+              "zh": "马克斯·莫里茨教授说"
+            },
+            {
+              "a": 183,
+              "b": 227,
+              "en": "a specialist in fire ecology and management.",
+              "zh": "他是火灾生态学与管理专家"
+            }
+          ],
+          "reorder": "把说话人和身份移到句首，先译让步再译全国影响，its 指野火频率增加。",
+          "translation": "火灾生态学与管理专家马克斯·莫里茨教授说，虽然野火频发常被视为西部各州的问题，但它会影响联邦税收资金的使用，因此是一个全国都应关注的问题。",
+          "words": [
+            {
+              "a": 204,
+              "b": 211,
+              "lemma": "ecology",
+              "meaning": "生态学",
+              "word": "ecology",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 93,
+              "b": 109,
+              "lemma": "national concern",
+              "meaning": "全国都应关注的问题",
+              "word": "national concern"
+            },
+            {
+              "a": 135,
+              "b": 154,
+              "lemma": "federal tax dollars",
+              "meaning": "联邦税收资金；公共财政支出",
+              "word": "federal tax dollars"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -39,24 +110,127 @@
           "a": 0,
           "b": 189,
           "en": "In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires – nearly double the percentage it spent on such efforts 20 years ago.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 50,
+              "en": "In 2015, the US Forest Service for the first time ",
+              "zh": "二〇一五年，美国林务局首次"
+            },
+            {
+              "a": 50,
+              "b": 122,
+              "en": "spent more than half of its $5.5 billion annual budget fighting fires – ",
+              "zh": "将五十五亿美元年度预算的一半以上用于灭火"
+            },
+            {
+              "a": 122,
+              "b": 189,
+              "en": "nearly double the percentage it spent on such efforts 20 years ago.",
+              "zh": "这一占比几乎是二十年前的两倍"
+            }
+          ],
+          "reorder": "先译年份与局名，再译预算总额和占比；nearly double 比较的是预算百分比，不是美元总数。",
+          "translation": "二〇一五年，美国林务局首次将五十五亿美元年度预算的一半以上用于灭火，这一占比几乎是二十年前的两倍。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2017-T4-P2-S2",
           "a": 190,
           "b": 412,
           "en": "In effect, fewer federal funds today are going towards the agency's other work – such as forest conservation, watershed and cultural resources management, and infrastructure upkeep – that affect the lives of all Americans.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 11,
+              "en": "In effect, ",
+              "zh": "实际上"
+            },
+            {
+              "a": 11,
+              "b": 81,
+              "en": "fewer federal funds today are going towards the agency's other work – ",
+              "zh": "如今用于该局其他工作的联邦资金减少了"
+            },
+            {
+              "a": 81,
+              "b": 110,
+              "en": "such as forest conservation, ",
+              "zh": "例如森林保护"
+            },
+            {
+              "a": 110,
+              "b": 155,
+              "en": "watershed and cultural resources management, ",
+              "zh": "流域管理与文化资源管理"
+            },
+            {
+              "a": 155,
+              "b": 183,
+              "en": "and infrastructure upkeep – ",
+              "zh": "以及基础设施维护"
+            },
+            {
+              "a": 183,
+              "b": 222,
+              "en": "that affect the lives of all Americans.",
+              "zh": "这些工作都影响全体美国人的生活"
+            }
+          ],
+          "reorder": "将破折号内工作内容逐项译出，that affect 回到 other work，用另一个分句承接。",
+          "translation": "实际上，如今用于该局其他工作的联邦资金减少了，例如森林保护、流域和文化资源管理、基础设施维护等，而这些工作都影响全体美国人的生活。",
+          "words": [
+            {
+              "a": 96,
+              "b": 108,
+              "lemma": "conservation",
+              "meaning": "保护；养护",
+              "word": "conservation",
+              "pos": "n"
+            },
+            {
+              "a": 110,
+              "b": 119,
+              "lemma": "watershed",
+              "meaning": "流域；集水区",
+              "word": "watershed",
+              "pos": "a"
+            },
+            {
+              "a": 159,
+              "b": 173,
+              "lemma": "infrastructure",
+              "meaning": "基础设施",
+              "word": "infrastructure",
+              "pos": "n"
+            },
+            {
+              "a": 174,
+              "b": 180,
+              "lemma": "upkeep",
+              "meaning": "维护；养护",
+              "word": "upkeep",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -69,24 +243,101 @@
           "a": 0,
           "b": 123,
           "en": "Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 27,
+              "en": "Another nationwide concern ",
+              "zh": "另一个全国都应关注的问题"
+            },
+            {
+              "a": 27,
+              "b": 71,
+              "en": "is whether public funds from other agencies ",
+              "zh": "是其他机构的公共资金是否"
+            },
+            {
+              "a": 71,
+              "b": 123,
+              "en": "are going into construction in fire-prone districts.",
+              "zh": "正被投入易发生火灾地区的建设"
+            }
+          ],
+          "reorder": "whether 从句作为问题的内容接在“是”后，from other agencies 修饰资金来源。",
+          "translation": "另一个全国都应关注的问题是，其他机构的公共资金是否正被投入易发生火灾地区的建设。",
+          "words": [
+            {
+              "a": 86,
+              "b": 98,
+              "lemma": "construction",
+              "meaning": "房屋及设施建设",
+              "word": "construction",
+              "pos": "n"
+            },
+            {
+              "a": 102,
+              "b": 112,
+              "lemma": "fire-prone",
+              "meaning": "容易发生火灾的",
+              "word": "fire-prone",
+              "pos": "a"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 38,
+              "b": 50,
+              "lemma": "public funds",
+              "meaning": "公共资金",
+              "word": "public funds"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2017-T4-P3-S2",
           "a": 124,
           "b": 229,
           "en": "As Moritz puts it, how often are federal dollars building homes that are likely to be lost to a wildfire?",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 19,
+              "en": "As Moritz puts it, ",
+              "zh": "正如莫里茨所问"
+            },
+            {
+              "a": 19,
+              "b": 64,
+              "en": "how often are federal dollars building homes ",
+              "zh": "有多少时候，联邦资金正被用来建造房屋"
+            },
+            {
+              "a": 64,
+              "b": 105,
+              "en": "that are likely to be lost to a wildfire?",
+              "zh": "而这些房屋很可能毁于野火"
+            }
+          ],
+          "reorder": "把 that 关系从句展开作房屋的补充说明；how often 保留频次上的质问。",
+          "translation": "正如莫里茨所问，有多少时候，联邦资金被用来建造很可能毁于野火的房屋？",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -99,48 +350,168 @@
           "a": 0,
           "b": 99,
           "en": "“It's already a huge problem from a public expenditure perspective for the whole country,” he says.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 29,
+              "en": "“It's already a huge problem ",
+              "zh": "这已经是一个大问题"
+            },
+            {
+              "a": 29,
+              "b": 91,
+              "en": "from a public expenditure perspective for the whole country,” ",
+              "zh": "从全国公共财政支出的角度来看"
+            },
+            {
+              "a": 91,
+              "b": 99,
+              "en": "he says.",
+              "zh": "他说"
+            }
+          ],
+          "reorder": "把评价视角前置，句末的 he says 移到引语前。",
+          "translation": "他说：“从全国公共财政支出的角度来看，这已经是一个大问题。”",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 36,
+              "b": 54,
+              "lemma": "public expenditure",
+              "meaning": "公共财政支出",
+              "word": "public expenditure"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2017-T4-P4-S2",
           "a": 100,
           "b": 144,
           "en": "“We need to take a magnifying glass to that.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 44,
+              "en": "“We need to take a magnifying glass to that.",
+              "zh": "我们需要拿放大镜仔细审视这件事"
+            }
+          ],
+          "reorder": "保留放大镜的比喻，同时补出“仔细审视”的实际含义。",
+          "translation": "“我们需要拿放大镜仔细审视这件事。",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 12,
+              "b": 38,
+              "lemma": "take a magnifying glass to",
+              "meaning": "仔细审视；认真检查",
+              "word": "take a magnifying glass to"
+            },
+            {
+              "a": 19,
+              "b": 35,
+              "lemma": "magnifying glass",
+              "meaning": "放大镜（比喻仔细检查）",
+              "word": "magnifying glass"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2017-T4-P4-S3",
           "a": 145,
           "b": 179,
           "en": "Like, 'Wait a minute, is this OK?'",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 22,
+              "en": "Like, 'Wait a minute, ",
+              "zh": "比如，先等一下"
+            },
+            {
+              "a": 22,
+              "b": 34,
+              "en": "is this OK?'",
+              "zh": "这样做合适吗"
+            }
+          ],
+          "reorder": "Like 在口语中引出审视时会问的问题，直接顺译。",
+          "translation": "比如，‘先等一下，这样做合适吗？’",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2017-T4-P4-S4",
           "a": 180,
           "b": 278,
           "en": "Do we want instead to redirect those funds to concentrate on lower-hazard parts of the landscape?”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 43,
+              "en": "Do we want instead to redirect those funds ",
+              "zh": "我们是否应该转而重新调配这些资金"
+            },
+            {
+              "a": 43,
+              "b": 98,
+              "en": "to concentrate on lower-hazard parts of the landscape?”",
+              "zh": "把它们集中用于火灾危险较小的地区"
+            }
+          ],
+          "reorder": "将 to concentrate 译成资金的新用途；landscape 在此指地域，而非欣赏的景观。",
+          "translation": "我们是否应该转而重新调配这些资金，把它们集中用于火灾危险较小的地区？”",
+          "words": [
+            {
+              "a": 22,
+              "b": 30,
+              "lemma": "redirect",
+              "meaning": "改变投向；重新配置",
+              "word": "redirect",
+              "pos": "v"
+            },
+            {
+              "a": 61,
+              "b": 73,
+              "lemma": "lower-hazard",
+              "meaning": "危险性较低的",
+              "word": "lower-hazard",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -153,12 +524,38 @@
           "a": 0,
           "b": 104,
           "en": "Such a view would require a corresponding shift in the way US society today views fire, researchers say.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 48,
+              "en": "Such a view would require a corresponding shift ",
+              "zh": "这样的看法要求相应的改变"
+            },
+            {
+              "a": 48,
+              "b": 88,
+              "en": "in the way US society today views fire, ",
+              "zh": "改变当今美国社会看待火的方式"
+            },
+            {
+              "a": 88,
+              "b": 104,
+              "en": "researchers say.",
+              "zh": "研究人员说"
+            }
+          ],
+          "reorder": "把说话人前置，in the way 说明需要改变的对象。",
+          "translation": "研究人员说，这样的看法要求当今美国社会相应地改变看待火的方式。",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -171,24 +568,94 @@
           "a": 0,
           "b": 71,
           "en": "For one thing, conversations about wildfires need to be more inclusive.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 15,
+              "en": "For one thing, ",
+              "zh": "首先"
+            },
+            {
+              "a": 15,
+              "b": 71,
+              "en": "conversations about wildfires need to be more inclusive.",
+              "zh": "有关野火的讨论需要涵盖更多方面"
+            }
+          ],
+          "reorder": "顺译，inclusive 指讨论所纳入的因素更全面。",
+          "translation": "首先，有关野火的讨论需要涵盖更多方面。",
+          "words": [
+            {
+              "a": 61,
+              "b": 70,
+              "lemma": "inclusive",
+              "meaning": "考虑因素更全面的；涵盖更多方面的",
+              "word": "inclusive",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2017-T4-P6-S2",
           "a": 72,
           "b": 227,
           "en": "Over the past decade, the focus has been on climate change – how the warming of the Earth from greenhouse gases is leading to conditions that worsen fires.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 22,
+              "en": "Over the past decade, ",
+              "zh": "过去十年间"
+            },
+            {
+              "a": 22,
+              "b": 61,
+              "en": "the focus has been on climate change – ",
+              "zh": "人们一直将重点放在气候变化上"
+            },
+            {
+              "a": 61,
+              "b": 112,
+              "en": "how the warming of the Earth from greenhouse gases ",
+              "zh": "也就是温室气体导致的地球变暖"
+            },
+            {
+              "a": 112,
+              "b": 155,
+              "en": "is leading to conditions that worsen fires.",
+              "zh": "如何形成加剧火灾的环境条件"
+            }
+          ],
+          "reorder": "破折号后是气候变化议题的具体内容，先译变暖原因，再译它如何加剧火灾条件。",
+          "translation": "过去十年间，人们一直将重点放在气候变化上，也就是温室气体导致的地球变暖如何形成加剧火灾的环境条件。",
+          "words": [
+            {
+              "a": 126,
+              "b": 136,
+              "lemma": "condition",
+              "meaning": "环境条件；形成火灾的条件",
+              "word": "conditions",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -201,12 +668,55 @@
           "a": 0,
           "b": 106,
           "en": "While climate is a key element, Moritz says, it shouldn't come at the expense of the rest of the equation.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 32,
+              "en": "While climate is a key element, ",
+              "zh": "虽然气候是一个关键因素"
+            },
+            {
+              "a": 32,
+              "b": 45,
+              "en": "Moritz says, ",
+              "zh": "莫里茨说"
+            },
+            {
+              "a": 45,
+              "b": 106,
+              "en": "it shouldn't come at the expense of the rest of the equation.",
+              "zh": "但不应因此忽略整个问题中的其他因素"
+            }
+          ],
+          "reorder": "把 Moritz says 前置；it 指对气候因素的关注，equation 按整个问题的多因素关系来译。",
+          "translation": "莫里茨说，虽然气候是一个关键因素，但不应因此忽略整个问题中的其他因素。",
+          "words": [
+            {
+              "a": 97,
+              "b": 105,
+              "lemma": "equation",
+              "meaning": "整个问题中各因素的综合关系",
+              "word": "equation",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 63,
+              "b": 80,
+              "lemma": "at the expense of",
+              "meaning": "以忽视或牺牲……为代价",
+              "word": "at the expense of"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -219,36 +729,148 @@
           "a": 0,
           "b": 105,
           "en": "“The human systems and the landscapes we live on are linked, and the interactions go both ways,” he says.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 61,
+              "en": "“The human systems and the landscapes we live on are linked, ",
+              "zh": "人类社会系统与我们生活的自然环境彼此关联"
+            },
+            {
+              "a": 61,
+              "b": 97,
+              "en": "and the interactions go both ways,” ",
+              "zh": "而且二者之间的相互作用是双向的"
+            },
+            {
+              "a": 97,
+              "b": 105,
+              "en": "he says.",
+              "zh": "他说"
+            }
+          ],
+          "reorder": "把 he says 前置，we live on 限定自然环境；go both ways 说明互相影响。",
+          "translation": "他说：“人类社会系统与我们生活的自然环境彼此关联，而且二者之间的相互作用是双向的。”",
           "words": [],
-          "phrases": []
+          "phrases": [
+            {
+              "a": 82,
+              "b": 94,
+              "lemma": "go both ways",
+              "meaning": "是双向的；相互影响",
+              "word": "go both ways"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2017-T4-P8-S2",
           "a": 106,
           "b": 210,
           "en": "Failing to recognize that, he notes, leads to “an overly simplified view of what the solutions might be.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 27,
+              "en": "Failing to recognize that, ",
+              "zh": "如果认识不到这一点"
+            },
+            {
+              "a": 27,
+              "b": 37,
+              "en": "he notes, ",
+              "zh": "他指出"
+            },
+            {
+              "a": 37,
+              "b": 73,
+              "en": "leads to “an overly simplified view ",
+              "zh": "就会产生一种过于简化的认识"
+            },
+            {
+              "a": 73,
+              "b": 104,
+              "en": "of what the solutions might be.",
+              "zh": "关于可能的解决办法的认识"
+            }
+          ],
+          "reorder": "把 Failing to... 译为条件，that 指社会与自然环境双向作用，what 后的内容前置修饰“认识”。",
+          "translation": "他指出，如果认识不到这一点，就会“对可能的解决办法产生过于简化的认识。",
+          "words": [
+            {
+              "a": 57,
+              "b": 67,
+              "lemma": "simplified",
+              "meaning": "简化了的",
+              "word": "simplified",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2017-T4-P8-S3",
           "a": 211,
           "b": 291,
           "en": "Our perception of the problem and of what the solution is becomes very limited.”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 58,
+              "en": "Our perception of the problem and of what the solution is ",
+              "zh": "我们对问题本身及其解决办法的认识"
+            },
+            {
+              "a": 58,
+              "b": 80,
+              "en": "becomes very limited.”",
+              "zh": "就会变得十分局限"
+            }
+          ],
+          "reorder": "将两个 of 后的对象并列提前修饰“认识”，再译局限的结果。",
+          "translation": "我们对问题本身及其解决办法的认识就会变得十分局限。”",
+          "words": [
+            {
+              "a": 4,
+              "b": 14,
+              "lemma": "perception",
+              "meaning": "认识；看待问题的方式",
+              "word": "perception",
+              "pos": "n"
+            },
+            {
+              "a": 71,
+              "b": 78,
+              "lemma": "limited",
+              "meaning": "受局限的；片面的",
+              "word": "limited",
+              "pos": "a"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -261,24 +883,148 @@
           "a": 0,
           "b": 183,
           "en": "At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of necessity, says Professor Balch at the University of Colorado.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 18,
+              "en": "At the same time, ",
+              "zh": "与此同时"
+            },
+            {
+              "a": 18,
+              "b": 60,
+              "en": "people continue to treat fire as an event ",
+              "zh": "人们仍把火看作一种事件"
+            },
+            {
+              "a": 60,
+              "b": 95,
+              "en": "that needs to be wholly controlled ",
+              "zh": "认为它需要被完全控制"
+            },
+            {
+              "a": 95,
+              "b": 132,
+              "en": "and unleashed only out of necessity, ",
+              "zh": "只有必要时才允许用火"
+            },
+            {
+              "a": 132,
+              "b": 183,
+              "en": "says Professor Balch at the University of Colorado.",
+              "zh": "科罗拉多大学的鲍尔奇教授说"
+            }
+          ],
+          "reorder": "将说话人前置，that 从句拆成社会对火的两项要求；only out of necessity 译清限制。",
+          "translation": "科罗拉多大学的鲍尔奇教授说，与此同时，人们仍认为火需要被完全控制，只在必要时才允许用火。",
+          "words": [
+            {
+              "a": 99,
+              "b": 108,
+              "lemma": "unleash",
+              "meaning": "让其发生；允许使用火",
+              "word": "unleashed",
+              "pos": "v"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 114,
+              "b": 130,
+              "lemma": "out of necessity",
+              "meaning": "出于必要；因有需要",
+              "word": "out of necessity"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2017-T4-P9-S2",
           "a": 184,
           "b": 357,
           "en": "But acknowledging fire's inevitable presence in human life is an attitude crucial to developing the laws, policies, and practices that make it as safe as possible, she says.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 45,
+              "en": "But acknowledging fire's inevitable presence ",
+              "zh": "但是，承认火不可避免地存在"
+            },
+            {
+              "a": 45,
+              "b": 59,
+              "en": "in human life ",
+              "zh": "存在于人类生活之中"
+            },
+            {
+              "a": 59,
+              "b": 74,
+              "en": "is an attitude ",
+              "zh": "是一种必要的态度"
+            },
+            {
+              "a": 74,
+              "b": 130,
+              "en": "crucial to developing the laws, policies, and practices ",
+              "zh": "这对制定法律、政策与具体做法至关重要"
+            },
+            {
+              "a": 130,
+              "b": 164,
+              "en": "that make it as safe as possible, ",
+              "zh": "以使火尽可能安全"
+            },
+            {
+              "a": 164,
+              "b": 173,
+              "en": "she says.",
+              "zh": "她说"
+            }
+          ],
+          "reorder": "把承认火存在的态度作主语，crucial to 后的制定行为接成意义说明；it 指火的存在及使用。",
+          "translation": "她说，但是，承认火在人类生活中不可避免地存在，这种态度对于制定使火尽可能安全的法律、政策与具体做法至关重要。",
+          "words": [
+            {
+              "a": 36,
+              "b": 44,
+              "lemma": "presence",
+              "meaning": "存在",
+              "word": "presence",
+              "pos": "n"
+            },
+            {
+              "a": 74,
+              "b": 81,
+              "lemma": "crucial",
+              "meaning": "至关重要的",
+              "word": "crucial",
+              "pos": "a"
+            },
+            {
+              "a": 120,
+              "b": 129,
+              "lemma": "practice",
+              "meaning": "具体做法；实践措施",
+              "word": "practices",
+              "pos": "n"
+            }
+          ],
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     },
@@ -291,24 +1037,87 @@
           "a": 0,
           "b": 65,
           "en": "“We've disconnected ourselves from living with fire,” Balch says.",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 54,
+              "en": "“We've disconnected ourselves from living with fire,” ",
+              "zh": "我们已疏离了与火共处的生活"
+            },
+            {
+              "a": 54,
+              "b": 65,
+              "en": "Balch says.",
+              "zh": "鲍尔奇说"
+            }
+          ],
+          "reorder": "把说话人提前，disconnected ourselves from 按疏离的比喻义译出。",
+          "translation": "鲍尔奇说：“我们已疏离了与火共处的生活。”",
           "words": [],
-          "phrases": []
+          "phrases": [],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         },
         {
           "id": "2017-T4-P10-S2",
           "a": 66,
           "b": 172,
           "en": "“It is really important to understand and try and tease out what is the human connection with fire today.”",
-          "status": "pending",
-          "chunks": [],
-          "reorder": "",
-          "translation": "",
-          "words": [],
-          "phrases": []
+          "status": "reviewed",
+          "chunks": [
+            {
+              "a": 0,
+              "b": 24,
+              "en": "“It is really important ",
+              "zh": "这非常重要"
+            },
+            {
+              "a": 24,
+              "b": 60,
+              "en": "to understand and try and tease out ",
+              "zh": "要理解并设法仔细梳理清楚"
+            },
+            {
+              "a": 60,
+              "b": 106,
+              "en": "what is the human connection with fire today.”",
+              "zh": "当今人类与火之间究竟存在怎样的联系"
+            }
+          ],
+          "reorder": "将不定式中的实际内容提前，最后落在“非常重要”；what 从句作理解和梳理的共同对象。",
+          "translation": "“理解并设法仔细梳理清楚当今人类与火之间究竟存在怎样的联系，非常重要。”",
+          "words": [
+            {
+              "a": 78,
+              "b": 88,
+              "lemma": "connection",
+              "meaning": "联系；人与火的关系",
+              "word": "connection",
+              "pos": "n"
+            }
+          ],
+          "phrases": [
+            {
+              "a": 50,
+              "b": 59,
+              "lemma": "tease out",
+              "meaning": "仔细梳理；逐步弄清",
+              "word": "tease out"
+            }
+          ],
+          "reviewedAt": "2026-10-31",
+          "reviewChecks": [
+            "原文逐页核对",
+            "分块覆盖与语序",
+            "否定比较与指代",
+            "本文词义与搭配"
+          ]
         }
       ]
     }

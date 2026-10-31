@@ -313,7 +313,7 @@
     }
     function meaningLabel(info) {
         return { reviewed: '本文义', manual: '本文义 · 你的校正', grammar: '本句语法作用',
-            dictionary: '词典释义 · 按本句词性', phrase: '词组释义', name: '名称释义', missing: '中文释义' }[info.quality] || '词典释义';
+            dictionary: '词典释义 · 按本句词性', phrase: '词典释义 · 词组', name: '名称释义', missing: '中文释义' }[info.quality] || '词典释义';
     }
     function position(box, anchor) {
         const r = anchor && anchor.getBoundingClientRect ? anchor.getBoundingClientRect() : anchor;

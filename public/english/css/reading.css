@@ -14,6 +14,9 @@
 .reading-chunks th,.reading-chunks td { padding:13px 16px; border:1px solid var(--pr-line); vertical-align:top; overflow-wrap:anywhere; }
 .reading-chunks td[lang=en] { font-family:Georgia,'Times New Roman',serif; font-size:19px; }
 .reading-pending { color:#778078; background:#f6f7f3; padding:15px 18px; border-radius:8px; }
+.precision-analysis-actions>button:not(.precision-primary) { padding:10px 15px; border:1px solid var(--pr-line); border-radius:8px; color:var(--pr-green); background:#fff; font:500 14px/1.5 system-ui,sans-serif; cursor:pointer; }
+.precision-analysis-actions>button:not(.precision-primary):hover { background:var(--pr-soft); }
+.precision-analysis-actions>button:focus-visible { outline:2px solid #247b5c; outline-offset:3px; }
 .reading-source-note { color:#755b27; background:#fcf7e9; padding:13px 16px; border:1px solid #e8dcbf; border-radius:8px; font-size:13px; line-height:1.8; }
 .reading-editor { margin-top:28px; border-top:1px solid var(--pr-line); padding-top:20px; }
 .reading-editor summary { cursor:pointer; color:var(--pr-green); font-size:14px; font-weight:600; }

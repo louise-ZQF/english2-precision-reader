@@ -489,14 +489,14 @@
         overlay.addEventListener('click', e => { if (e.target === overlay || e.target.closest('[data-close]')) closeOverlay(overlay); });
         overlay.addEventListener('keydown', e => {
             if (e.key !== 'Tab') return;
-            const focusable = $$('button:not([disabled]),input,textarea,a[href]', overlay).filter(x => x.offsetParent !== null);
+            const focusable = $$('button:not([disabled]),input,textarea,a[href],summary,select', overlay).filter(x => x.offsetParent !== null);
             if (!focusable.length) return;
             if (e.shiftKey && document.activeElement === focusable[0]) { e.preventDefault(); focusable[focusable.length - 1].focus(); }
             else if (!e.shiftKey && document.activeElement === focusable[focusable.length - 1]) { e.preventDefault(); focusable[0].focus(); }
         });
         return overlay;
     }
-    function showOverlay(overlay) { previousFocus = document.activeElement; overlay.hidden = false; overlay.classList.add('is-open'); document.body.classList.add('precision-modal-open'); $('[data-close]', overlay).focus(); }
+    function showOverlay(overlay) { if (!overlay.classList.contains('is-open')) previousFocus = document.activeElement; overlay.hidden = false; overlay.classList.add('is-open'); document.body.classList.add('precision-modal-open'); $('[data-close]', overlay).focus(); }
     function closeOverlay(overlay) {
         if (!overlay) return;
         overlay.classList.remove('is-open'); overlay.hidden = true;

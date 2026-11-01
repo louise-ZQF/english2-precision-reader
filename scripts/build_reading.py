@@ -105,7 +105,10 @@ def validate(article, expected):
         count = 0
         for p in article['paragraphs']:
             for s in p['sentences']:
-                required = {(t['a'], t['b']) for t in tokens(s['en'])}
+                written = tokens(s['en'])
+                required = {(t['a'], t['b']) for t in written}
+                for phrase in s['phrases']:
+                    assert not any(t['a'] < phrase['a'] < t['b'] or t['a'] < phrase['b'] < t['b'] for t in written), f'{s["id"]}: phrase cuts a written word'
                 actual = [(w['a'], w['b']) for w in s['words']]
                 assert set(actual) == required and len(actual) == len(required), f'{s["id"]}: incomplete/duplicate word review'
                 assert all(w.get('reviewVersion') == 2 and w.get('pos') for w in s['words']), f'{s["id"]}: incomplete word metadata'
@@ -181,14 +184,18 @@ def main():
         payload = json.dumps(a, ensure_ascii=False, separators=(',', ':'))
         revision = hashlib.sha256(payload.encode()).hexdigest()[:12]
         (BROWSER / (a['id'] + '.js')).write_text('window.EnglishReadingFiles = window.EnglishReadingFiles || {};\nwindow.EnglishReadingFiles[' + json.dumps(a['id']) + '] = ' + payload + ';\n')
-        manifest.append({'id': a['id'], 'exam': a['exam'], 'text': a['text'], 'articleKey': a['articleKey'], 'source': a['source']['status'], 'sentences': len(ss), 'reviewed': ready, 'revision': revision})
+        manifest.append({'id': a['id'], 'exam': a['exam'], 'text': a['text'], 'articleKey': a['articleKey'], 'source': a['source']['status'], 'sentences': len(ss), 'reviewed': ready, 'fullWordAudit': bool(a.get('auditV2')), 'revision': revision})
     audits = [a for a in articles if a.get('auditV2')]
     report = {'articles': len(articles), 'sentences': total, 'reviewedSentences': reviewed, 'verifiedArticles': sum(a['source']['status'] == 'verified' for a in articles),
               'fullAuditArticles': len(audits), 'fullAuditSentences': sum(a['auditV2']['sentences'] for a in audits),
               'fullAuditWords': sum(a['auditV2']['wordOccurrences'] for a in audits), 'items': manifest}
+    policy_file = ROOT / 'reference/reading-audit-v2/phrase-classification.json'
+    if policy_file.exists():
+        policy = json.loads(policy_file.read_text())
+        report['phrasePolicy'] = {'version': 1, 'approved': sorted({row['lemma'].lower() for row in policy['approved']})}
     (DATA / 'reading-manifest.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     (ROOT / 'public/english/js/reading-manifest.js').write_text('window.EnglishReadingManifest = ' + json.dumps(report, ensure_ascii=False, separators=(',', ':')) + ';\n')
-    print(json.dumps({k: v for k, v in report.items() if k != 'items'}, ensure_ascii=False))
+    print(json.dumps({k: v for k, v in report.items() if k not in ('items', 'phrasePolicy')}, ensure_ascii=False))
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,46 @@
+# -*- coding: utf-8 -*-
+from pathlib import Path
+# -*- coding: utf-8 -*-
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / 'scripts'))
+from reading_audit import Review
+r=Review('2026-T1')
+spec='''about~about~prep=关于;access~access~n=使用数字资源的机会或渠道;accountancy~accountancy~n=会计（机构名的一部分）;across~across~prep=遍及；在全境;activity~activity~n=活动；热闹繁忙的景象;advice~advice~n=咨询建议;all~all~pron=全部；这一切;alone~alone~adv=不受打扰地;always~always~adv=始终；永远;annual~annual~a=每年的;any~any~art=任何一家;anyway~anyway~adv=再说；不管怎样;are~be~v=是；存在;aren't~are not~aux=不是正在……吗（否定反问）;arts~Arts~n=艺术（机构名的一部分）;as~as~conj=正如；当……时;ask~ask~v=询问;asked~ask~v=被要求;at~at~prep=在（核心或数值位置）;authorities~authority~n=地方政府;automatic~automatic~a=自动给予的;awareness~awareness~n=了解；公众认识;basic~basic~a=基础的;be~be~aux=构成被动结构的助动词;been~be~v=去过（have been to结构）;books~book~n=图书;borrow~borrow~v=借用;branches~branch~n=分店；门店;branding~branding~n=统一品牌塑造和宣传;british~British~a=英国的;business~business~n=商业；企业经营;but~but~conj=但是;by~by~prep=由（调查者或持有统计者）;campaign~campaign~n=宣传活动;can~can~aux=能够;card~card~n=借书证；会员卡;carry~carry~v=进行（carry out搭配）;centres~centre~n=服务中心;certain~certain~a=某种;charge~charge~n=费用；收费;chartered~chartered~a=获皇家特许资格的（机构称号）;checks~check~n=检查;child~child~n=孩子；儿童;children~child~n=儿童;classes~class~n=课程;closed~close~v=关闭;closing~close~v=关门；关闭;come~come~v=陷入（come under pressure）;commissioned~commission~v=委托;conduct~conduct~v=开展（调查）;continued~continue~a=持续的;council~Council~n=委员会（机构名的一部分）;country~country~n=全国；国家;course~course~n=当然（of course固定表达）;culture~culture~n=文化;decline~decline~n=下降;department~department~n=政府部门;different~different~a=不同的;digital~digital~a=数字的;discovered~discover~v=发现;disputed~dispute~v=存在争议；有不同说法;do~do~v=开展；做;don't~do not~aux=不（do not缩写）;down~down~adv=与up构成全国各处的搭配;dusty~dusty~a=落满灰尘的;employment~employment~n=就业;enable~enable~v=使……能够;end~end~v=最终处于（end up）;england~England~name=英格兰;english~English~a=英格兰的;enjoyed~enjoy~v=喜欢；享受;enter~enter~v=走进；进入;entrepreneurs~entrepreneur~n=创业者；企业家;explain~explain~v=解释;fifa-standard~FIFA-standard~a=符合国际足联标准的;finance~Finance~n=财政（机构名的一部分）;financial~financial~a=财政的;find~find~v=发现；看到;football~football~n=足球;for~for~prep=针对；为了;free~free~adv=免费地;future~future~a=未来的;generations~generation~n=后代；几代人;give~give~v=给予；使具有;go~go~v=去;gp's~GP~n=全科医生的;have~have~v=有；配备;haven't~have not~aux=还没有（完成时否定）;health~health~n=健康;heart~heart~n=核心；中心;held~hold~v=持有；掌握;help~help~v=帮助;hive~hive~n=繁忙活跃的场所;if~if~conj=如果;image~image~n=形象；印象;in~in~prep=在……里;independent~independent~a=独立开展的;institute~Institute~n=协会（机构名称的一部分）;institution~institution~n=机构;intellectual~intellectual~a=知识和创意成果方面的;is~be~v=是；存在;it~it~pron=这（指前述数量或情形）;justify~justify~v=说明自己行为的理由或正当性;language~language~n=语言;learn~learn~v=得知;left~leave~v=被留在某种状态；不被打扰;libraries~library~n=图书馆;library~library~n=图书馆;like~like~prep=像……一样;link~link~n=联系；联动;local~local~a=地方的;losing~lose~v=失去;many~many~pron=许多图书馆;may~may~aux=可能;mcdonald's~McDonald's~name=麦当劳;members~member~n=会员;memberships~membership~n=会员资格;mind~mind~n=脑海;more~more~adv=超过（more than结构）;multitude~multitude~n=大量；众多;must~must~aux=必须;national~national~a=全国性的;nearly~nearly~adv=将近;need~need~v=需要;never~never~adv=绝不；从不;no~no~art=没有；不收;nothing~nothing~pron=任何东西都不用；毫无回报;now~now~adv=现在;number~number~n=数量;nurses~nurse~n=护士;of~of~prep=……的（连接限定关系）;offered~offer~v=被提供;official~official~a=官方的;often~often~adv=常常;old-fashioned~old-fashioned~a=老式的；显得过时的;on~on~prep=在（现场）;one~one~pron=一家;other~other~art=其他的;out~out~part=与carry构成实施、进行的搭配;overall~overall~a=总体的;overlooked~overlook~v=被忽视;owners~owner~n=企业主；经营者;people~person~n=人们;physical~physical~a=实体的；在现实空间可感知的;place~place~n=地方;precisely~precisely~adv=恰好；完全（加强nothing的否定）;presence~presence~n=可见度；存在感;pressure~pressure~n=压力;private~private~a=私立的;property~property~n=产权（intellectual property整体为知识产权）;protect~protect~v=保护;public~public~a=公共的；公立的;published~publish~v=发布；发表;puts~put~v=将数量估为（put at）;raise~raise~v=提高；增强;rather~rather~adv=相当（rather like表示颇像）;reality~reality~n=现实;recommends~recommend~v=建议;record~record~v=记录；记载;reintroduction~reintroduction~n=重新实行；重新引入;return~return~n=回报（in return for搭配）;review~review~n=独立调研；评估报告;same~same~pron=同样的事;say~say~v=宣称；说;scheme~scheme~n=制度；计划;seaside~seaside~a=海滨的;services~service~n=服务;should~should~aux=应该;simply~simply~adv=只是；仅仅;since~since~prep=自……以来;site~site~n=现场；馆内;so~so~conj=因此;some~some~art=一段（时间）;sort~sort~n=种类；类型;springs~spring~v=突然浮现;startlingly~startlingly~adv=令人吃惊地;statistics~statistics~n=统计数据;still~still~adv=仍然;stronger~strong~a=更强烈的；更显著的;struggling~struggle~v=勉力维持；艰难经营;support~support~n=支持；帮助;surgery~surgery~n=全科医生诊所;surprised~surprise~a=感到惊讶的;survey~survey~n=调查;than~than~conj=比（引出数量比较）;that~that~pron=关系代词，指前面的图书馆或机构;there~there~pron=there be存在句引导词，不单译;this~this~pron=这一切服务;those~those~pron=那些人;time~time~n=一段时间;to~to~part=不定式标记，不单译;too~too~adv=过于；太;town~town~n=小镇;twice~twice~adv=两倍;uk~UK~abbr=英国;under~under~prep=处于……压力之下;underappreciated~underappreciate~a=未被充分重视的;up~up~part=与end组成最终做出某事的搭配;use~use~v=使用;visited~visit~v=走访;visits~visit~n=到访次数;was~be~v=是（过去时）;welcomed~welcome~v=被欢迎;what~what~pron=所……的情况;when~when~conj=当……时候;where~where~pron=关系副词，指在图书馆里;which~which~pron=关系代词，指服务中心;while~while~conj=虽然（让步）;who~who~pron=关系代词，指那些有段时间没去过的人;will~will~aux=将会;with~with~prep=配有；具有;work~work~n=工作；提供的服务;would~will~aux=会不会（假设性询问）;yesterday~yesterday~adv=昨天（按文章写作时点）;yet~yet~conj=然而;you'll~you will~pron=你将会（you will缩写）;young~young~a=年轻的;yourself~yourself~pron=你自己'''
+r.lex(spec.replace(';','\n'))
+r.word('P1-S1','as','当……时；在小时候',pos='prep')
+r.word('P1-S1','there','那里（指公共图书馆）',pos='adv')
+r.word('P1-S2','they','它们（指公共图书馆）',pos='pron')
+r.word('P2-S2','As','当……时',pos='conj',occ=1)
+r.word('P2-S2','as','与……相比（数量比较）',pos='conj',occ=2)
+r.word('P2-S2','was','与surprised构成感到惊讶的状态',pos='v')
+r.word('P2-S2','up','与down构成全国各处的表达',pos='adv')
+r.word('P3-S1','and','那么（祈使句后引出结果）',pos='conj',occ=1)
+r.word('P3-S1','are','与offered构成被动语态',pos='aux',occ=2)
+r.word('P3-S1','be','是；处于核心地位（系动词）',pos='v')
+r.word('P4-S2','to','与……有联系（link to搭配）',pos='prep',occ=2)
+r.word('P5-S1','for','作为……的回报（in return for搭配）',pos='prep',occ=1)
+r.word('P5-S1','for','索要（ask for搭配）',pos='prep',occ=2)
+r.word('P5-S2','be','有（there will be存在句）',pos='v',occ=1)
+r.word('P5-S2','help','帮助（接受到的服务）',pos='n')
+r.word('P5-S2','it','帮助（回指help）',pos='pron')
+r.word('P5-S2','do','省略need help：需要帮助',pos='aux')
+r.word('P5-S3','or','或者；无论是（公立还是私立）',pos='conj')
+r.word('P5-S4','are','与overlooked、underappreciated构成被动语态',pos='aux')
+r.word('P5-S5','are','与struggling构成进行时',pos='aux')
+r.word('P5-S5','as','因为；随着（财政压力背景）',pos='conj')
+r.word('P6-S1','have','与closed构成完成时',pos='aux')
+r.word('P6-S1','is','与disputed构成被动语态',pos='aux')
+r.word('P6-S2','it','已关闭图书馆的数量',pos='pron')
+r.word('P6-S4','are','与to protect构成意图或预期，指想要保护',pos='aux')
+r.word('P6-S4','they','图书馆（提供服务的主体）',pos='pron')
+r.word('P7-S3','to','去过图书馆（been to搭配）',pos='prep',occ=1)
+r.word('P7-S3','for','持续（一段时间）',pos='prep',occ=2)
+r.word('P7-S3','be','与surprised构成感到惊讶的状态',pos='v')
+r.word('P7-S3','by','由于；对所发现内容感到惊讶',pos='prep')
+notes=['springs为动词浮现、as a child为小时候；反问而非真不准去。','原卷连写anyway-aren\'t按两个词识别，they指图书馆，保留否定反问。','调查报告published yesterday后置说明不修饰图书馆，commission为委托。','2892家是图书馆数量且超过麦当劳两倍，不把twice误译增加两倍。','Enter后and引出结果；while是让步、书籍仍是核心而非不再重要。','which所述帮助由商业与知识产权中心提供，property非实体房产。','surgery为全科诊所、free为免费副词、FIFA-standard完整复合词不拆。','两个for分别为回报与索要，precisely nothing加强完全免费的意思。','纠正前两个译块错位；do not省略不需要帮助，不表示不做任何事。','公私立均无其他机构能说同样的话，保留no范围。','are为被动，underappreciated不是没有任何价值而是认可不足。','财政压力背景与到访下降、勉力维持并列，many指图书馆。','have closed为完成时，is disputed为被动，两种结构不能混义。','Chartered是形容称号、record为动词；英国近800与英格兰230范围不同。','230 libraries too many意为即使关闭这些也太多，不是多关了230家后的精确计算。','are to protect表达保护意图，raise awareness为增强认识，they指图书馆。','三个并列建议为品牌、恢复一证通用、儿童自动入会；非仅建议其中一个。','end up losing为最终失去图书馆，条件否定仅在不使用。','haven\'t been to为尚未去过、for some time为时长，惊喜为对新服务的发现。']
+for s,note in zip(r.ss,notes):r.checked(s['id'],note)
+s=r.sentence('P5-S2');s['chunks'][0]['zh']='这里不收费，';s['chunks'][1]['zh']='也绝不会要求你说明或解释自己到来的理由，只会欢迎你进来，'
+r.word('P1-S1','to','进入脑海（spring to mind搭配的介词）',pos='prep')
+r.word('P4-S2','where','在那里（引导图书馆服务的关系副词）',pos='adv')
+r.word('P6-S3','of','与course构成当然这一固定表达，不单译',pos='prep')
+print('Missing:',r.missing());r.save()

@@ -51,11 +51,112 @@
           "translation": "无论在个人生活还是工作中，我们都遇到过这种情况。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 11,
+              "word": "all",
+              "lemma": "all",
+              "pos": "adv",
+              "meaning": "都",
+              "reviewVersion": 2
+            },
+            {
               "a": 12,
               "b": 23,
               "word": "encountered",
               "lemma": "encounter",
-              "meaning": "遇到；遭遇"
+              "pos": "v",
+              "meaning": "遇到；遭遇",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 28,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（宾格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 32,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 37,
+              "word": "both",
+              "lemma": "both",
+              "pos": "a",
+              "meaning": "两者都",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 41,
+              "word": "our",
+              "lemma": "our",
+              "pos": "pron",
+              "meaning": "我们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 50,
+              "word": "personal",
+              "lemma": "personal",
+              "pos": "a",
+              "meaning": "个人的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 54,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 67,
+              "word": "professional",
+              "lemma": "professional",
+              "pos": "a",
+              "meaning": "职业上的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 73,
+              "word": "lives",
+              "lemma": "life",
+              "pos": "n",
+              "meaning": "生活",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -65,7 +166,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "them回指下文暗黑模式，both将个人与工作两个领域并列，have构成完成时。",
+            "sentenceSHA256": "5390213419d57e8a3ef9e8c1e3a05ccc2e43a079adf64f276ffec27019765a83",
+            "words": 12,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2022-T3-P1-S2",
@@ -109,42 +218,248 @@
           "translation": "想想看，你是否曾因某项会员服务或订阅而感到受骗、心烦：开通时一路顺畅，取消时却困难重重。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "Think",
+              "lemma": "think",
+              "pos": "v",
+              "meaning": "想一想",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 11,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于；围绕",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 15,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 21,
+              "word": "times",
+              "lemma": "time",
+              "pos": "n",
+              "meaning": "那些经历；时候",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 25,
+              "word": "you",
+              "lemma": "you",
+              "pos": "pron",
+              "meaning": "你；你们（也可泛指人们）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 30,
+              "word": "felt",
+              "lemma": "feel",
+              "pos": "v",
+              "meaning": "感到",
+              "reviewVersion": 2
+            },
+            {
               "a": 31,
               "b": 38,
               "word": "tricked",
               "lemma": "trick",
-              "meaning": "欺骗；诱导",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "被欺骗",
+              "reviewVersion": 2
             },
             {
-              "a": 96,
-              "b": 104,
-              "word": "seamless",
-              "lemma": "seamless",
-              "meaning": "顺畅无阻的"
+              "a": 39,
+              "b": 41,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 52,
+              "word": "frustrated",
+              "lemma": "frustrate",
+              "pos": "a",
+              "meaning": "心烦受挫的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 55,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "因为；因……而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 57,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 68,
+              "word": "membership",
+              "lemma": "membership",
+              "pos": "n",
+              "meaning": "会员服务",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 71,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 72,
               "b": 84,
               "word": "subscription",
               "lemma": "subscription",
-              "meaning": "订阅服务"
+              "pos": "n",
+              "meaning": "订阅服务",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 89,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系词，指前面所述事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 93,
+              "word": "had",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "具有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 95,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 104,
+              "word": "seamless",
+              "lemma": "seamless",
+              "pos": "a",
+              "meaning": "顺畅无阻的",
+              "reviewVersion": 2
             },
             {
               "a": 105,
               "b": 112,
               "word": "sign-up",
               "lemma": "sign-up",
-              "meaning": "注册；开通"
+              "pos": "n",
+              "meaning": "注册；开通",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 120,
+              "word": "process",
+              "lemma": "process",
+              "pos": "n",
+              "meaning": "流程",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 124,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但；却",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 128,
+              "word": "was",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "处于所说状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 134,
+              "word": "later",
+              "lemma": "later",
+              "pos": "adv",
+              "meaning": "后来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 144,
+              "word": "difficult",
+              "lemma": "difficult",
+              "pos": "a",
+              "meaning": "困难的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 145,
+              "b": 147,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 148,
+              "b": 154,
+              "word": "cancel",
+              "lemma": "cancel",
+              "pos": "v",
+              "meaning": "取消",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
-              "a": 105,
-              "b": 120,
-              "lemma": "sign-up process",
-              "meaning": "注册流程",
-              "word": "sign-up process"
+              "a": 0,
+              "b": 11,
+              "word": "Think about",
+              "lemma": "think about",
+              "meaning": "想一想；回想",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -153,7 +468,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "had表示具有流程非完成时，was difficult为系表，服务易开难退是受骗烦恼原因。",
+            "sentenceSHA256": "b37b56ab6c6ba9bfc27cbf8892c2853cc6f90d86b4f958fe09be624b47d23a13",
+            "words": 26,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2022-T3-P1-S3",
@@ -191,18 +514,175 @@
           "translation": "本应简单透明的事情，却可能有意或无意地被弄得复杂，从而妨碍消费者作出选择。",
           "words": [
             {
-              "a": 115,
-              "b": 121,
-              "word": "impair",
-              "lemma": "impair",
-              "meaning": "损害；妨碍"
+              "a": 0,
+              "b": 9,
+              "word": "Something",
+              "lemma": "something",
+              "pos": "pron",
+              "meaning": "某件事情",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 14,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系词，指前面所述事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 21,
+              "word": "should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应当",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 24,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；呈现所说状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 31,
+              "word": "simple",
+              "lemma": "simple",
+              "pos": "a",
+              "meaning": "简单的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 35,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 36,
               "b": 47,
               "word": "transparent",
               "lemma": "transparent",
-              "meaning": "透明的；容易了解的"
+              "pos": "a",
+              "meaning": "透明易懂的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 51,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 54,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成被动语态（be complicated）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 66,
+              "word": "complicated",
+              "lemma": "complicate",
+              "pos": "v",
+              "meaning": "被弄得复杂",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 81,
+              "word": "intentionally",
+              "lemma": "intentionally",
+              "pos": "adv",
+              "meaning": "有意地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 84,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 100,
+              "word": "unintentionally",
+              "lemma": "unintentionally",
+              "pos": "adv",
+              "meaning": "无意地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 104,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 109,
+              "word": "ways",
+              "lemma": "way",
+              "pos": "n",
+              "meaning": "方式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 114,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系词，指前面所述事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 121,
+              "word": "impair",
+              "lemma": "impair",
+              "pos": "v",
+              "meaning": "妨碍；损害",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 130,
+              "word": "consumer",
+              "lemma": "consumer",
+              "pos": "n",
+              "meaning": "消费者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 137,
+              "word": "choice",
+              "lemma": "choice",
+              "pos": "n",
+              "meaning": "选择",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -212,7 +692,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "两个that都修饰事物或方式，be simple为系表而be complicated为被弄复杂。",
+            "sentenceSHA256": "0cc8b26605b3f2c6bad606fabcb76600f15046a4051b65139c7a5066c73103c2",
+            "words": 19,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2022-T3-P1-S4",
@@ -223,27 +711,77 @@
           "chunks": [
             {
               "a": 0,
-              "b": 19,
-              "en": "These are examples ",
-              "zh": "这些都是，"
-            },
-            {
-              "a": 19,
               "b": 36,
-              "en": "of dark patterns.",
-              "zh": "暗黑模式的例子。"
+              "en": "These are examples of dark patterns.",
+              "zh": "这些都是暗黑模式的例子。"
             }
           ],
           "reorder": "of dark patterns 放到“例子”前。",
           "translation": "这些都是暗黑模式的例子。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 5,
+              "word": "These",
+              "lemma": "these",
+              "pos": "pron",
+              "meaning": "这些情况",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 9,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 18,
+              "word": "examples",
+              "lemma": "example",
+              "pos": "n",
+              "meaning": "例子",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 21,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（内容、所属或对象关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 26,
+              "word": "dark",
+              "lemma": "dark",
+              "pos": "a",
+              "meaning": "具有欺骗性的（dark patterns术语部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 35,
+              "word": "patterns",
+              "lemma": "pattern",
+              "pos": "n",
+              "meaning": "设计模式",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 22,
               "b": 35,
               "word": "dark patterns",
               "lemma": "dark pattern",
-              "meaning": "暗黑模式；诱导或误导用户的界面设计"
+              "meaning": "暗黑模式；诱导或误导用户的界面设计",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -252,7 +790,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "合并短句避免把examples拆成两个重复中文块，These为这些情况。",
+            "sentenceSHA256": "3abd15a4e8917ed3c3879c4ca3e75bf73fa70586ba1a11bef9aee1c47fded7e2",
+            "words": 6,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -302,34 +848,256 @@
           "translation": "“暗黑模式”一词最早由用户体验专家哈里·布里格纳尔于2010年提出，泛指通过操控用户界面来影响用户决策能力的做法。",
           "words": [
             {
-              "a": 104,
-              "b": 113,
-              "word": "practices",
-              "lemma": "practice",
-              "meaning": "做法；设计手法",
-              "pos": "n"
-            },
-            {
-              "a": 135,
-              "b": 145,
-              "word": "interfaces",
-              "lemma": "interface",
-              "meaning": "界面",
-              "pos": "n"
+              "a": 0,
+              "b": 5,
+              "word": "First",
+              "lemma": "first",
+              "pos": "adv",
+              "meaning": "最初；首次",
+              "reviewVersion": 2
             },
             {
               "a": 6,
               "b": 12,
               "word": "coined",
               "lemma": "coin",
-              "meaning": "创造（新词）"
+              "pos": "v",
+              "meaning": "创造（词语）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 15,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 23,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "由（引出术语创造者）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 28,
+              "word": "user",
+              "lemma": "user",
+              "pos": "n",
+              "meaning": "用户",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 39,
+              "word": "experience",
+              "lemma": "experience",
+              "pos": "n",
+              "meaning": "体验",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 46,
+              "word": "expert",
+              "lemma": "expert",
+              "pos": "n",
+              "meaning": "专家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 52,
+              "word": "Harry",
+              "lemma": "Harry",
+              "pos": "name",
+              "meaning": "哈里",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 61,
+              "word": "Brignull",
+              "lemma": "Brignull",
+              "pos": "name",
+              "meaning": "布里格纳尔",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 69,
+              "word": "dark",
+              "lemma": "dark",
+              "pos": "a",
+              "meaning": "具有欺骗性的（dark patterns术语部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 78,
+              "word": "patterns",
+              "lemma": "pattern",
+              "pos": "n",
+              "meaning": "设计模式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 82,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 84,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 94,
+              "word": "catch-all",
+              "lemma": "catch-all",
+              "pos": "a",
+              "meaning": "包罗多种情况的；统称性的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 99,
+              "word": "term",
+              "lemma": "term",
+              "pos": "n",
+              "meaning": "术语；称谓",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 103,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "所指向或针对的对象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 113,
+              "word": "practices",
+              "lemma": "practice",
+              "pos": "n",
+              "meaning": "做法；设计手法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 118,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系词，指前面所述事物",
+              "reviewVersion": 2
             },
             {
               "a": 119,
               "b": 129,
               "word": "manipulate",
               "lemma": "manipulate",
-              "meaning": "操控；刻意摆布"
+              "pos": "v",
+              "meaning": "操控",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 134,
+              "word": "user",
+              "lemma": "user",
+              "pos": "n",
+              "meaning": "用户",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 145,
+              "word": "interfaces",
+              "lemma": "interface",
+              "pos": "n",
+              "meaning": "界面",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 148,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 158,
+              "word": "influence",
+              "lemma": "influence",
+              "pos": "v",
+              "meaning": "影响",
+              "reviewVersion": 2
+            },
+            {
+              "a": 159,
+              "b": 162,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 163,
+              "b": 178,
+              "word": "decision-making",
+              "lemma": "decision-making",
+              "pos": "n",
+              "meaning": "决策",
+              "reviewVersion": 2
+            },
+            {
+              "a": 179,
+              "b": 186,
+              "word": "ability",
+              "lemma": "ability",
+              "pos": "n",
+              "meaning": "能力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 187,
+              "b": 189,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（内容、所属或对象关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 190,
+              "b": 195,
+              "word": "users",
+              "lemma": "user",
+              "pos": "n",
+              "meaning": "用户",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -338,14 +1106,16 @@
               "b": 78,
               "lemma": "dark pattern",
               "meaning": "操纵用户选择的界面设计",
-              "word": "dark patterns"
+              "word": "dark patterns",
+              "kind": "phrase"
             },
             {
               "a": 85,
               "b": 99,
               "word": "catch-all term",
               "lemma": "catch-all term",
-              "meaning": "概括多种情况的统称"
+              "meaning": "概括多种情况的统称",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -354,7 +1124,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "coined指创造术语，catch-all为统称，manipulate为操控用户界面非一般操作。",
+            "sentenceSHA256": "2811839158e55e5bd3392c19ea0c9880f1efd0dfbe5bdda563dbc7bc37744e43",
+            "words": 28,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2022-T3-P2-S2",
@@ -404,18 +1182,337 @@
           "translation": "布里格纳尔列出了12类常见的暗黑模式，从误导、隐藏费用，到“蟑螂旅馆”式设计：进入时简单直观，想退出时却困难重重。",
           "words": [
             {
+              "a": 0,
+              "b": 8,
+              "word": "Brignull",
+              "lemma": "Brignull",
+              "pos": "name",
+              "meaning": "布里格纳尔",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 19,
+              "word": "identifies",
+              "lemma": "identify",
+              "pos": "v",
+              "meaning": "列举；识别",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 28,
+              "word": "types",
+              "lemma": "type",
+              "pos": "n",
+              "meaning": "类型",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 31,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（内容、所属或对象关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 38,
+              "word": "common",
+              "lemma": "common",
+              "pos": "a",
+              "meaning": "常见的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 43,
+              "word": "dark",
+              "lemma": "dark",
+              "pos": "a",
+              "meaning": "具有欺骗性的（dark patterns术语部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 52,
+              "word": "patterns",
+              "lemma": "pattern",
+              "pos": "n",
+              "meaning": "设计模式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 61,
+              "word": "ranging",
+              "lemma": "range",
+              "pos": "v",
+              "meaning": "范围从……到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 66,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从",
+              "reviewVersion": 2
+            },
+            {
               "a": 67,
               "b": 79,
               "word": "misdirection",
               "lemma": "misdirection",
-              "meaning": "误导"
+              "pos": "n",
+              "meaning": "误导",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 83,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 90,
+              "word": "hidden",
+              "lemma": "hide",
+              "pos": "a",
+              "meaning": "隐藏的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 96,
+              "word": "costs",
+              "lemma": "cost",
+              "pos": "n",
+              "meaning": "费用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 99,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "从……到……的范围终点",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 106,
+              "word": "roach",
+              "lemma": "roach",
+              "pos": "n",
+              "meaning": "蟑螂（roach motel比喻易进难出设计）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 112,
+              "word": "motel",
+              "lemma": "motel",
+              "pos": "n",
+              "meaning": "汽车旅馆（roach motel为设计陷阱名称）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 120,
+              "word": "where",
+              "lemma": "where",
+              "pos": "conj",
+              "meaning": "引出这种设计中的具体情形",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 122,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 127,
+              "word": "user",
+              "lemma": "user",
+              "pos": "n",
+              "meaning": "用户",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 138,
+              "word": "experience",
+              "lemma": "experience",
+              "pos": "n",
+              "meaning": "体验",
+              "reviewVersion": 2
+            },
+            {
+              "a": 139,
+              "b": 144,
+              "word": "seems",
+              "lemma": "seem",
+              "pos": "v",
+              "meaning": "显得；看起来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 145,
+              "b": 149,
+              "word": "easy",
+              "lemma": "easy",
+              "pos": "a",
+              "meaning": "容易的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 150,
+              "b": 153,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 154,
               "b": 163,
               "word": "intuitive",
               "lemma": "intuitive",
-              "meaning": "直观易用的"
+              "pos": "a",
+              "meaning": "直观易用的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 166,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在……时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 167,
+              "b": 170,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 171,
+              "b": 176,
+              "word": "start",
+              "lemma": "start",
+              "pos": "n",
+              "meaning": "开始",
+              "reviewVersion": 2
+            },
+            {
+              "a": 178,
+              "b": 181,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但；却",
+              "reviewVersion": 2
+            },
+            {
+              "a": 182,
+              "b": 187,
+              "word": "turns",
+              "lemma": "turn",
+              "pos": "v",
+              "meaning": "变得",
+              "reviewVersion": 2
+            },
+            {
+              "a": 188,
+              "b": 197,
+              "word": "difficult",
+              "lemma": "difficult",
+              "pos": "a",
+              "meaning": "困难的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 198,
+              "b": 202,
+              "word": "when",
+              "lemma": "when",
+              "pos": "conj",
+              "meaning": "当……时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 203,
+              "b": 206,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 207,
+              "b": 211,
+              "word": "user",
+              "lemma": "user",
+              "pos": "n",
+              "meaning": "用户",
+              "reviewVersion": 2
+            },
+            {
+              "a": 212,
+              "b": 217,
+              "word": "tries",
+              "lemma": "try",
+              "pos": "v",
+              "meaning": "试图",
+              "reviewVersion": 2
+            },
+            {
+              "a": 218,
+              "b": 220,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 221,
+              "b": 224,
+              "word": "get",
+              "lemma": "get",
+              "pos": "v",
+              "meaning": "离开；出去（get out）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 225,
+              "b": 228,
+              "word": "out",
+              "lemma": "out",
+              "pos": "adv",
+              "meaning": "退出；离开",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -424,21 +1521,32 @@
               "b": 52,
               "lemma": "dark pattern",
               "meaning": "操纵用户选择的界面设计",
-              "word": "dark patterns"
+              "word": "dark patterns",
+              "kind": "phrase"
             },
             {
               "a": 84,
               "b": 96,
               "word": "hidden costs",
               "lemma": "hidden cost",
-              "meaning": "隐藏费用"
+              "meaning": "隐藏费用",
+              "kind": "phrase"
             },
             {
               "a": 101,
               "b": 112,
               "word": "roach motel",
               "lemma": "roach motel",
-              "meaning": "易进难出的“蟑螂旅馆”式设计"
+              "meaning": "易进难出的“蟑螂旅馆”式设计",
+              "kind": "phrase"
+            },
+            {
+              "a": 221,
+              "b": 228,
+              "word": "get out",
+              "lemma": "get out",
+              "meaning": "退出；离开",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -447,7 +1555,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "range from…to列出12类范围，roach motel比喻易进难退，where引出这种设计情形。",
+            "sentenceSHA256": "7b913e6da21f6e89eeaf5711b30a5270ffd99f2a97e59c9ad0e5b3ad2b17c341",
+            "words": 37,
+            "phrases": 4,
+            "names": 0
+          }
         }
       ]
     },
@@ -485,19 +1601,166 @@
           "translation": "2019年，研究人员调查了5.3万个产品页面和1.1万个网站，发现约十分之一采用了这些设计手法。",
           "words": [
             {
-              "a": 121,
-              "b": 130,
-              "word": "practices",
-              "lemma": "practice",
-              "meaning": "做法；设计手法",
-              "pos": "n"
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 4,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 15,
+              "word": "study",
+              "lemma": "study",
+              "pos": "n",
+              "meaning": "研究",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 18,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（内容、所属或对象关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 33,
+              "word": "product",
+              "lemma": "product",
+              "pos": "n",
+              "meaning": "产品",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 39,
+              "word": "pages",
+              "lemma": "page",
+              "pos": "n",
+              "meaning": "页面",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 43,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 59,
+              "word": "websites",
+              "lemma": "website",
+              "pos": "n",
+              "meaning": "网站",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 72,
+              "word": "researchers",
+              "lemma": "researcher",
+              "pos": "n",
+              "meaning": "研究人员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 78,
+              "word": "found",
+              "lemma": "find",
+              "pos": "v",
+              "meaning": "发现",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 83,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "从句连接词，引出研究发现",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 89,
+              "word": "about",
+              "lemma": "about",
+              "pos": "adv",
+              "meaning": "大约",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 93,
+              "word": "one",
+              "lemma": "one",
+              "pos": "num",
+              "meaning": "一个（one in ten为十分之一）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 96,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
             },
             {
               "a": 100,
               "b": 107,
               "word": "employs",
               "lemma": "employ",
-              "meaning": "采用；使用"
+              "pos": "v",
+              "meaning": "采用；使用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 113,
+              "word": "these",
+              "lemma": "these",
+              "pos": "a",
+              "meaning": "这些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 120,
+              "word": "design",
+              "lemma": "design",
+              "pos": "n",
+              "meaning": "设计",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 130,
+              "word": "practices",
+              "lemma": "practice",
+              "pos": "n",
+              "meaning": "做法；设计手法",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -507,7 +1770,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "53,000页面与11,000网站为样本，one in ten为约十分之一，employ为采用非雇用。",
+            "sentenceSHA256": "7a9b4f515fdc57f960c10601a4eab451dd7c5d6e059eb4224bd11ecb56ba2f5d",
+            "words": 18,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2022-T3-P3-S2",
@@ -539,11 +1810,121 @@
           "translation": "尽管暗黑模式十分普遍，人们对这一概念仍缺乏充分理解。",
           "words": [
             {
+              "a": 0,
+              "b": 6,
+              "word": "Though",
+              "lemma": "though",
+              "pos": "conj",
+              "meaning": "虽然",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 13,
+              "word": "widely",
+              "lemma": "widely",
+              "pos": "adv",
+              "meaning": "广泛地",
+              "reviewVersion": 2
+            },
+            {
               "a": 14,
               "b": 23,
               "word": "prevalent",
               "lemma": "prevalent",
-              "meaning": "普遍存在的；盛行的"
+              "pos": "a",
+              "meaning": "普遍存在的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 28,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 36,
+              "word": "concept",
+              "lemma": "concept",
+              "pos": "n",
+              "meaning": "概念",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 39,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（内容、所属或对象关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 44,
+              "word": "dark",
+              "lemma": "dark",
+              "pos": "a",
+              "meaning": "具有欺骗性的（dark patterns术语部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 53,
+              "word": "patterns",
+              "lemma": "pattern",
+              "pos": "n",
+              "meaning": "设计模式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 56,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成被动语态（is understood）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 62,
+              "word": "still",
+              "lemma": "still",
+              "pos": "adv",
+              "meaning": "仍然",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 66,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 71,
+              "word": "well",
+              "lemma": "well",
+              "pos": "adv",
+              "meaning": "充分地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 82,
+              "word": "understood",
+              "lemma": "understand",
+              "pos": "v",
+              "meaning": "被理解",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -552,7 +1933,8 @@
               "b": 53,
               "lemma": "dark pattern",
               "meaning": "操纵用户选择的界面设计",
-              "word": "dark patterns"
+              "word": "dark patterns",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -561,7 +1943,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "虽然普遍却未充分理解，not well不译成完全不懂，understood被动。",
+            "sentenceSHA256": "54f00e14a70dcb92f4cb8d0135423467a0bad45fa318991ece044069fdca5c9e",
+            "words": 13,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2022-T3-P3-S3",
@@ -599,27 +1989,201 @@
           "translation": "企业和非营利组织的负责人应了解暗黑模式，并尽量避开由此产生的灰色地带。",
           "words": [
             {
+              "a": 0,
+              "b": 8,
+              "word": "Business",
+              "lemma": "business",
+              "pos": "n",
+              "meaning": "企业；商界",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 12,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 22,
+              "word": "nonprofit",
+              "lemma": "nonprofit",
+              "pos": "a",
+              "meaning": "非营利的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 30,
+              "word": "leaders",
+              "lemma": "leader",
+              "pos": "n",
+              "meaning": "负责人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 37,
+              "word": "should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应当",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 40,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；呈现所说状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 46,
+              "word": "aware",
+              "lemma": "aware",
+              "pos": "a",
+              "meaning": "了解的；意识到的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 49,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（内容、所属或对象关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 54,
+              "word": "dark",
+              "lemma": "dark",
+              "pos": "a",
+              "meaning": "具有欺骗性的（dark patterns术语部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 63,
+              "word": "patterns",
+              "lemma": "pattern",
+              "pos": "n",
+              "meaning": "设计模式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 67,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 71,
+              "word": "try",
+              "lemma": "try",
+              "pos": "v",
+              "meaning": "努力；尽量",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 74,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 80,
+              "word": "avoid",
+              "lemma": "avoid",
+              "pos": "v",
+              "meaning": "避开",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 84,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 89,
+              "word": "gray",
+              "lemma": "gray",
+              "pos": "a",
+              "meaning": "界限不明的（gray areas为灰色地带）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 95,
+              "word": "areas",
+              "lemma": "area",
+              "pos": "n",
+              "meaning": "领域；地带",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 100,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "暗黑模式",
+              "reviewVersion": 2
+            },
+            {
               "a": 101,
               "b": 109,
               "word": "engender",
               "lemma": "engender",
-              "meaning": "造成；引发"
+              "pos": "v",
+              "meaning": "产生；造成",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
+            {
+              "a": 38,
+              "b": 49,
+              "word": "be aware of",
+              "lemma": "be aware of",
+              "meaning": "了解；意识到",
+              "kind": "phrase"
+            },
             {
               "a": 50,
               "b": 63,
               "lemma": "dark pattern",
               "meaning": "操纵用户选择的界面设计",
-              "word": "dark patterns"
+              "word": "dark patterns",
+              "kind": "phrase"
             },
             {
               "a": 85,
               "b": 95,
               "word": "gray areas",
               "lemma": "gray area",
-              "meaning": "难以明确判定是否合规的灰色地带"
+              "meaning": "难以明确判定是否合规的灰色地带",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -628,7 +2192,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "they指暗黑模式，engender灰色地带；负责人被要求了解并避开。",
+            "sentenceSHA256": "9eaa0180ed99fda77b6073fa4b20cb677f4507bdc39bcbc994f1e6f30cc2c1a6",
+            "words": 19,
+            "phrases": 3,
+            "names": 0
+          }
         }
       ]
     },
@@ -666,26 +2238,103 @@
           "translation": "合乎伦理、具有说服力的设计与暗黑模式之间，界限究竟在哪里？",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "Where",
+              "lemma": "where",
+              "pos": "adv",
+              "meaning": "在哪里",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 8,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 12,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 13,
               "b": 17,
               "word": "line",
               "lemma": "line",
-              "meaning": "界限；分界",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "界限",
+              "reviewVersion": 2
             },
             {
-              "a": 35,
-              "b": 45,
-              "word": "persuasive",
-              "lemma": "persuasive",
-              "meaning": "有说服力的；劝导性的"
+              "a": 18,
+              "b": 25,
+              "word": "between",
+              "lemma": "between",
+              "pos": "prep",
+              "meaning": "在……二者之间",
+              "reviewVersion": 2
             },
             {
               "a": 26,
               "b": 33,
               "word": "ethical",
               "lemma": "ethical",
-              "meaning": "合乎伦理的"
+              "pos": "a",
+              "meaning": "合乎伦理的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 45,
+              "word": "persuasive",
+              "lemma": "persuasive",
+              "pos": "a",
+              "meaning": "有说服力的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 52,
+              "word": "design",
+              "lemma": "design",
+              "pos": "n",
+              "meaning": "设计",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 56,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 61,
+              "word": "dark",
+              "lemma": "dark",
+              "pos": "a",
+              "meaning": "具有欺骗性的（dark patterns术语部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 70,
+              "word": "patterns",
+              "lemma": "pattern",
+              "pos": "n",
+              "meaning": "设计模式",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -694,7 +2343,8 @@
               "b": 70,
               "lemma": "dark pattern",
               "meaning": "操纵用户选择的界面设计",
-              "word": "dark patterns"
+              "word": "dark patterns",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -703,7 +2353,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "Where疑问在哪里，line为伦理界限，persuasive不直接等同欺骗。",
+            "sentenceSHA256": "e52f364c8a3337f6fd01652722b0c6ff1f33a7c07f72d5a653cd5e1ad0488193",
+            "words": 11,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2022-T3-P4-S2",
@@ -759,27 +2417,454 @@
           "translation": "企业应与信息技术、合规、风险和法律团队沟通，审查隐私政策；还应让负责公司用户界面的客户／用户体验设计师、程序员，以及负责注册、结账购物篮、定价和促销的营销与广告人员参与讨论。",
           "words": [
             {
-              "a": 232,
-              "b": 241,
-              "word": "interface",
-              "lemma": "interface",
-              "meaning": "界面",
-              "pos": "n"
+              "a": 0,
+              "b": 10,
+              "word": "Businesses",
+              "lemma": "business",
+              "pos": "n",
+              "meaning": "企业",
+              "reviewVersion": 2
             },
             {
-              "a": 341,
-              "b": 351,
-              "word": "promotions",
-              "lemma": "promotion",
-              "meaning": "促销",
-              "pos": "n"
+              "a": 11,
+              "b": 17,
+              "word": "should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应当",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 24,
+              "word": "engage",
+              "lemma": "engage",
+              "pos": "v",
+              "meaning": "开展；参与（engage in）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 27,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "参与某事（engage in）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 41,
+              "word": "conversations",
+              "lemma": "conversation",
+              "pos": "n",
+              "meaning": "沟通；讨论",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 46,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "与……一起",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 49,
+              "word": "IT",
+              "lemma": "IT",
+              "pos": "name",
+              "meaning": "信息技术（IT缩写）",
+              "reviewVersion": 2
             },
             {
               "a": 51,
               "b": 61,
               "word": "compliance",
               "lemma": "compliance",
-              "meaning": "合规；遵守规定"
+              "pos": "n",
+              "meaning": "合规",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 67,
+              "word": "risk",
+              "lemma": "risk",
+              "pos": "n",
+              "meaning": "风险",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 72,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 78,
+              "word": "legal",
+              "lemma": "legal",
+              "pos": "a",
+              "meaning": "法律方面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 84,
+              "word": "teams",
+              "lemma": "team",
+              "pos": "n",
+              "meaning": "团队",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 87,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 94,
+              "word": "review",
+              "lemma": "review",
+              "pos": "v",
+              "meaning": "审查",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 100,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 108,
+              "word": "privacy",
+              "lemma": "privacy",
+              "pos": "n",
+              "meaning": "隐私",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 115,
+              "word": "policy",
+              "lemma": "policy",
+              "pos": "n",
+              "meaning": "政策",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 120,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 128,
+              "word": "include",
+              "lemma": "include",
+              "pos": "v",
+              "meaning": "将……纳入",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 131,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 135,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 146,
+              "word": "discussion",
+              "lemma": "discussion",
+              "pos": "n",
+              "meaning": "讨论",
+              "reviewVersion": 2
+            },
+            {
+              "a": 147,
+              "b": 150,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 151,
+              "b": 159,
+              "word": "customer",
+              "lemma": "customer",
+              "pos": "n",
+              "meaning": "客户",
+              "reviewVersion": 2
+            },
+            {
+              "a": 160,
+              "b": 164,
+              "word": "user",
+              "lemma": "user",
+              "pos": "n",
+              "meaning": "用户",
+              "reviewVersion": 2
+            },
+            {
+              "a": 165,
+              "b": 175,
+              "word": "experience",
+              "lemma": "experience",
+              "pos": "n",
+              "meaning": "体验",
+              "reviewVersion": 2
+            },
+            {
+              "a": 176,
+              "b": 185,
+              "word": "designers",
+              "lemma": "designer",
+              "pos": "n",
+              "meaning": "设计师",
+              "reviewVersion": 2
+            },
+            {
+              "a": 186,
+              "b": 189,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 190,
+              "b": 196,
+              "word": "coders",
+              "lemma": "coder",
+              "pos": "n",
+              "meaning": "程序员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 197,
+              "b": 208,
+              "word": "responsible",
+              "lemma": "responsible",
+              "pos": "a",
+              "meaning": "负责的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 209,
+              "b": 212,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "负责的对象（responsible for）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 213,
+              "b": 216,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 217,
+              "b": 226,
+              "word": "company's",
+              "lemma": "company",
+              "pos": "n",
+              "meaning": "公司的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 227,
+              "b": 231,
+              "word": "user",
+              "lemma": "user",
+              "pos": "n",
+              "meaning": "用户",
+              "reviewVersion": 2
+            },
+            {
+              "a": 232,
+              "b": 241,
+              "word": "interface",
+              "lemma": "interface",
+              "pos": "n",
+              "meaning": "界面",
+              "reviewVersion": 2
+            },
+            {
+              "a": 243,
+              "b": 245,
+              "word": "as",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "以及（as well as搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 246,
+              "b": 250,
+              "word": "well",
+              "lemma": "well",
+              "pos": "adv",
+              "meaning": "与as合成以及（as well as）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 251,
+              "b": 253,
+              "word": "as",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "以及（as well as搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 254,
+              "b": 257,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 258,
+              "b": 267,
+              "word": "marketers",
+              "lemma": "marketer",
+              "pos": "n",
+              "meaning": "营销人员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 268,
+              "b": 271,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 272,
+              "b": 283,
+              "word": "advertisers",
+              "lemma": "advertiser",
+              "pos": "n",
+              "meaning": "广告人员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 284,
+              "b": 295,
+              "word": "responsible",
+              "lemma": "responsible",
+              "pos": "a",
+              "meaning": "负责的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 296,
+              "b": 299,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "负责的对象（responsible for）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 300,
+              "b": 308,
+              "word": "sign-ups",
+              "lemma": "sign-up",
+              "pos": "n",
+              "meaning": "注册；开通",
+              "reviewVersion": 2
+            },
+            {
+              "a": 310,
+              "b": 318,
+              "word": "checkout",
+              "lemma": "checkout",
+              "pos": "n",
+              "meaning": "结账；结算",
+              "reviewVersion": 2
+            },
+            {
+              "a": 319,
+              "b": 326,
+              "word": "baskets",
+              "lemma": "basket",
+              "pos": "n",
+              "meaning": "购物篮",
+              "reviewVersion": 2
+            },
+            {
+              "a": 328,
+              "b": 335,
+              "word": "pricing",
+              "lemma": "pricing",
+              "pos": "n",
+              "meaning": "定价",
+              "reviewVersion": 2
+            },
+            {
+              "a": 337,
+              "b": 340,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 341,
+              "b": 351,
+              "word": "promotions",
+              "lemma": "promotion",
+              "pos": "n",
+              "meaning": "促销",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -788,14 +2873,24 @@
               "b": 27,
               "word": "engage in",
               "lemma": "engage in",
-              "meaning": "参与；开展"
+              "meaning": "参与；开展",
+              "kind": "phrase"
+            },
+            {
+              "a": 243,
+              "b": 253,
+              "word": "as well as",
+              "lemma": "as well as",
+              "meaning": "以及",
+              "kind": "phrase"
             },
             {
               "a": 310,
               "b": 326,
               "word": "checkout baskets",
               "lemma": "checkout basket",
-              "meaning": "结账购物篮；结算购物车"
+              "meaning": "结账购物篮；结算购物车",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -804,7 +2899,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "IT为信息技术缩写，两处responsible for分别管设计开发与营销广告人员。",
+            "sentenceSHA256": "9e5014af2787bb840b418b11a9836c435c1cdea0a90b60c0046cbddf43935895",
+            "words": 50,
+            "phrases": 3,
+            "names": 0
+          }
         },
         {
           "id": "2022-T3-P4-S3",
@@ -836,30 +2939,157 @@
           "translation": "上述任何一个团队，乃至所有团队，都可能在造成或避免“数字欺骗”方面发挥作用。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "Any",
+              "lemma": "any",
+              "pos": "a",
+              "meaning": "任何一个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 6,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 10,
+              "word": "all",
+              "lemma": "all",
+              "pos": "a",
+              "meaning": "所有的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 16,
+              "word": "these",
+              "lemma": "these",
+              "pos": "a",
+              "meaning": "这些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 22,
+              "word": "teams",
+              "lemma": "team",
+              "pos": "n",
+              "meaning": "团队",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 26,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 31,
+              "word": "play",
+              "lemma": "play",
+              "pos": "v",
+              "meaning": "发挥（作用）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 33,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 34,
               "b": 38,
               "word": "role",
               "lemma": "role",
+              "pos": "n",
               "meaning": "作用",
-              "pos": "n"
-            }
-          ],
-          "phrases": [
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 41,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 50,
+              "word": "creating",
+              "lemma": "create",
+              "pos": "v",
+              "meaning": "造成；创造",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 53,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 62,
+              "word": "avoiding",
+              "lemma": "avoid",
+              "pos": "v",
+              "meaning": "避免",
+              "reviewVersion": 2
+            },
             {
               "a": 64,
+              "b": 71,
+              "word": "digital",
+              "lemma": "digital",
+              "pos": "a",
+              "meaning": "数字化的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
               "b": 81,
-              "word": "digital deception",
-              "lemma": "digital deception",
-              "meaning": "数字欺骗；通过数字界面误导用户"
+              "word": "deception",
+              "lemma": "deception",
+              "pos": "n",
+              "meaning": "欺骗",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "any or all为单个或全体团队，creating与avoiding相反，数字欺骗为宾语。",
+            "sentenceSHA256": "0aa7b3c30b8f9f2fcf6469b7107dda995e37a8b257e92f8306adf57cd2710114",
+            "words": 15,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -897,26 +3127,175 @@
           "translation": "立法者和监管机构正逐步着手厘清暗黑模式的模糊地带，最近的行动发生在州一级。",
           "words": [
             {
-              "a": 113,
-              "b": 118,
-              "word": "state",
-              "lemma": "state",
-              "meaning": "州；州一级的",
-              "pos": "n"
+              "a": 0,
+              "b": 9,
+              "word": "Lawmakers",
+              "lemma": "lawmaker",
+              "pos": "n",
+              "meaning": "立法者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 13,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 24,
+              "word": "regulators",
+              "lemma": "regulator",
+              "pos": "n",
+              "meaning": "监管机构",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 28,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成现在进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 35,
+              "word": "slowly",
+              "lemma": "slowly",
+              "pos": "adv",
+              "meaning": "逐步地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 44,
+              "word": "starting",
+              "lemma": "start",
+              "pos": "v",
+              "meaning": "开始",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 47,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
             },
             {
               "a": 48,
               "b": 55,
               "word": "address",
               "lemma": "address",
-              "meaning": "着手处理；应对"
+              "pos": "v",
+              "meaning": "处理；应对",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 59,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 60,
               "b": 69,
               "word": "ambiguity",
               "lemma": "ambiguity",
-              "meaning": "含糊；界限不清"
+              "pos": "n",
+              "meaning": "模糊地带；界限不清",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 76,
+              "word": "around",
+              "lemma": "around",
+              "pos": "prep",
+              "meaning": "围绕；关于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 81,
+              "word": "dark",
+              "lemma": "dark",
+              "pos": "a",
+              "meaning": "具有欺骗性的（dark patterns术语部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 90,
+              "word": "patterns",
+              "lemma": "pattern",
+              "pos": "n",
+              "meaning": "设计模式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 96,
+              "word": "most",
+              "lemma": "much",
+              "pos": "adv",
+              "meaning": "最；最近的强调程度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 105,
+              "word": "recently",
+              "lemma": "recently",
+              "pos": "adv",
+              "meaning": "最近",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 108,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在……时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 112,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 118,
+              "word": "state",
+              "lemma": "state",
+              "pos": "n",
+              "meaning": "州",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 124,
+              "word": "level",
+              "lemma": "level",
+              "pos": "n",
+              "meaning": "层级",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -925,7 +3304,8 @@
               "b": 90,
               "lemma": "dark pattern",
               "meaning": "操纵用户选择的界面设计",
-              "word": "dark patterns"
+              "word": "dark patterns",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -934,7 +3314,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "address为着手处理，state为州而非国家，最近州级行动未扩大到全国统一。",
+            "sentenceSHA256": "59f60dd90f9428733863ca1ce4b297f5a492935f73fa8502adb1df87e286de9e",
+            "words": 19,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2022-T3-P5-S2",
@@ -978,19 +3366,337 @@
           "translation": "今年3月，加利福尼亚州总检察长宣布，依据《加利福尼亚州消费者隐私法》批准补充规定，“确保消费者在寻求行使数据隐私权时不会感到困惑或受到误导”。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 8,
+              "word": "March",
+              "lemma": "March",
+              "pos": "n",
+              "meaning": "三月",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 13,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 24,
+              "word": "California",
+              "lemma": "California",
+              "pos": "name",
+              "meaning": "加利福尼亚州",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 33,
+              "word": "Attorney",
+              "lemma": "attorney",
+              "pos": "n",
+              "meaning": "法律官员（Attorney General整体指总检察长）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 41,
+              "word": "General",
+              "lemma": "General",
+              "pos": "a",
+              "meaning": "总的；首席的（职称部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 51,
+              "word": "announced",
+              "lemma": "announce",
+              "pos": "v",
+              "meaning": "宣布",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 55,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 56,
               "b": 64,
               "word": "approval",
               "lemma": "approval",
+              "pos": "n",
               "meaning": "批准",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 67,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（内容、所属或对象关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 78,
+              "word": "additional",
+              "lemma": "additional",
+              "pos": "a",
+              "meaning": "补充的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 90,
+              "word": "regulations",
+              "lemma": "regulation",
+              "pos": "n",
+              "meaning": "规定",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 96,
+              "word": "under",
+              "lemma": "under",
+              "pos": "prep",
+              "meaning": "依据（法律）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 100,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 111,
+              "word": "California",
+              "lemma": "California",
+              "pos": "name",
+              "meaning": "加利福尼亚州",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 120,
+              "word": "Consumer",
+              "lemma": "consumer",
+              "pos": "n",
+              "meaning": "消费者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 128,
+              "word": "Privacy",
+              "lemma": "privacy",
+              "pos": "n",
+              "meaning": "隐私",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 132,
+              "word": "Act",
+              "lemma": "Act",
+              "pos": "n",
+              "meaning": "法案",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 138,
+              "word": "CCPA",
+              "lemma": "CCPA",
+              "pos": "name",
+              "meaning": "加利福尼亚州消费者隐私法的简称",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 144,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系词，指前面所述事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 152,
+              "word": "ensure",
+              "lemma": "ensure",
+              "pos": "v",
+              "meaning": "确保",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 157,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "从句连接词，引出确保的内容",
+              "reviewVersion": 2
+            },
+            {
+              "a": 158,
+              "b": 167,
+              "word": "consumers",
+              "lemma": "consumer",
+              "pos": "n",
+              "meaning": "消费者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 168,
+              "b": 172,
+              "word": "will",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 173,
+              "b": 176,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 177,
+              "b": 179,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成被动语态（be confused/misled）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 180,
+              "b": 188,
+              "word": "confused",
+              "lemma": "confuse",
+              "pos": "v",
+              "meaning": "感到困惑；被弄糊涂",
+              "reviewVersion": 2
+            },
+            {
+              "a": 189,
+              "b": 191,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 192,
+              "b": 198,
+              "word": "misled",
+              "lemma": "mislead",
+              "pos": "v",
+              "meaning": "受到误导",
+              "reviewVersion": 2
+            },
+            {
+              "a": 199,
+              "b": 203,
+              "word": "when",
+              "lemma": "when",
+              "pos": "conj",
+              "meaning": "当……时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 204,
+              "b": 211,
+              "word": "seeking",
+              "lemma": "seek",
+              "pos": "v",
+              "meaning": "寻求",
+              "reviewVersion": 2
+            },
+            {
+              "a": 212,
+              "b": 214,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
             },
             {
               "a": 215,
               "b": 223,
               "word": "exercise",
               "lemma": "exercise",
-              "meaning": "行使（权利）"
+              "pos": "v",
+              "meaning": "行使（权利）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 224,
+              "b": 229,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 230,
+              "b": 234,
+              "word": "data",
+              "lemma": "data",
+              "pos": "n",
+              "meaning": "数据",
+              "reviewVersion": 2
+            },
+            {
+              "a": 235,
+              "b": 242,
+              "word": "privacy",
+              "lemma": "privacy",
+              "pos": "n",
+              "meaning": "隐私",
+              "reviewVersion": 2
+            },
+            {
+              "a": 243,
+              "b": 249,
+              "word": "rights",
+              "lemma": "right",
+              "pos": "n",
+              "meaning": "权利",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -999,7 +3705,8 @@
               "b": 41,
               "word": "Attorney General",
               "lemma": "Attorney General",
-              "meaning": "州总检察长"
+              "meaning": "州总检察长",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1008,7 +3715,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "首that修饰补充规定，第二that引ensure内容，exercise为行使权利非锻炼。",
+            "sentenceSHA256": "6f1200b883ffc4b4ee289fd136a175f585201dbbec4442bf22e27b91c775d78f",
+            "words": 37,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2022-T3-P5-S3",
@@ -1058,12 +3773,328 @@
           "translation": "这些规定旨在禁止暗黑模式，也就是禁止企业使用令人困惑的措辞或设置不必要的步骤，例如强迫消费者逐一点击多个页面，或听取劝他们不要退出的理由。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 15,
+              "word": "regulations",
+              "lemma": "regulation",
+              "pos": "n",
+              "meaning": "规定",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 19,
+              "word": "aim",
+              "lemma": "aim",
+              "pos": "v",
+              "meaning": "旨在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 22,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
               "a": 23,
               "b": 26,
               "word": "ban",
               "lemma": "ban",
+              "pos": "v",
               "meaning": "禁止",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 31,
+              "word": "dark",
+              "lemma": "dark",
+              "pos": "a",
+              "meaning": "具有欺骗性的（dark patterns术语部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 40,
+              "word": "patterns",
+              "lemma": "pattern",
+              "pos": "n",
+              "meaning": "设计模式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 45,
+              "word": "this",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "禁止暗黑模式这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 51,
+              "word": "means",
+              "lemma": "mean",
+              "pos": "v",
+              "meaning": "意味着",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 63,
+              "word": "prohibiting",
+              "lemma": "prohibit",
+              "pos": "v",
+              "meaning": "禁止",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 73,
+              "word": "companies",
+              "lemma": "company",
+              "pos": "n",
+              "meaning": "企业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 78,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "禁止做某事（prohibit from）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 84,
+              "word": "using",
+              "lemma": "use",
+              "pos": "v",
+              "meaning": "使用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 94,
+              "word": "confusing",
+              "lemma": "confusing",
+              "pos": "a",
+              "meaning": "让人困惑的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 103,
+              "word": "language",
+              "lemma": "language",
+              "pos": "n",
+              "meaning": "措辞；语言",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 106,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 118,
+              "word": "unnecessary",
+              "lemma": "unnecessary",
+              "pos": "a",
+              "meaning": "不必要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 124,
+              "word": "steps",
+              "lemma": "step",
+              "pos": "n",
+              "meaning": "步骤",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 129,
+              "word": "such",
+              "lemma": "such",
+              "pos": "a",
+              "meaning": "这样的（such as表例如）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 132,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "例如（such as）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 140,
+              "word": "forcing",
+              "lemma": "force",
+              "pos": "v",
+              "meaning": "强迫",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 145,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "消费者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 148,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 154,
+              "word": "click",
+              "lemma": "click",
+              "pos": "v",
+              "meaning": "点击",
+              "reviewVersion": 2
+            },
+            {
+              "a": 155,
+              "b": 162,
+              "word": "through",
+              "lemma": "through",
+              "pos": "prep",
+              "meaning": "逐一经过；浏览各个页面",
+              "reviewVersion": 2
+            },
+            {
+              "a": 163,
+              "b": 171,
+              "word": "multiple",
+              "lemma": "multiple",
+              "pos": "a",
+              "meaning": "多个的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 172,
+              "b": 179,
+              "word": "screens",
+              "lemma": "screen",
+              "pos": "n",
+              "meaning": "页面；屏幕",
+              "reviewVersion": 2
+            },
+            {
+              "a": 180,
+              "b": 182,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 183,
+              "b": 189,
+              "word": "listen",
+              "lemma": "listen",
+              "pos": "v",
+              "meaning": "听取",
+              "reviewVersion": 2
+            },
+            {
+              "a": 190,
+              "b": 192,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "听取的对象（listen to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 193,
+              "b": 200,
+              "word": "reasons",
+              "lemma": "reason",
+              "pos": "n",
+              "meaning": "理由",
+              "reviewVersion": 2
+            },
+            {
+              "a": 201,
+              "b": 204,
+              "word": "why",
+              "lemma": "why",
+              "pos": "conj",
+              "meaning": "为什么（解释理由内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 205,
+              "b": 209,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "消费者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 210,
+              "b": 219,
+              "word": "shouldn't",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "不应该（should not，所听劝说的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 220,
+              "b": 223,
+              "word": "opt",
+              "lemma": "opt",
+              "pos": "v",
+              "meaning": "选择",
+              "reviewVersion": 2
+            },
+            {
+              "a": 224,
+              "b": 227,
+              "word": "out",
+              "lemma": "out",
+              "pos": "adv",
+              "meaning": "退出；离开",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -1072,21 +4103,24 @@
               "b": 40,
               "lemma": "dark pattern",
               "meaning": "操纵用户选择的界面设计",
-              "word": "dark patterns"
-            },
-            {
-              "a": 220,
-              "b": 227,
-              "word": "opt out",
-              "lemma": "opt out",
-              "meaning": "选择退出；拒绝参与"
+              "word": "dark patterns",
+              "kind": "phrase"
             },
             {
               "a": 149,
               "b": 162,
               "word": "click through",
               "lemma": "click through",
-              "meaning": "逐一点击浏览"
+              "meaning": "逐一点击浏览",
+              "kind": "phrase"
+            },
+            {
+              "a": 220,
+              "b": 227,
+              "word": "opt out",
+              "lemma": "opt out",
+              "meaning": "选择退出；拒绝参与",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1095,7 +4129,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "means为动词意味着，them和they为消费者，听劝不退出是被禁止的阻碍方式。",
+            "sentenceSHA256": "7677c47e7abb8640bcbd5b7f22957a4023fa746eb2097f88523c85b0771793d1",
+            "words": 36,
+            "phrases": 3,
+            "names": 0
+          }
         }
       ]
     },
@@ -1133,34 +4175,175 @@
           "translation": "随着更多州考虑颁布补充规定，商界自身也需要加强内部问责。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "As",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "随着",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "more",
+              "lemma": "more",
+              "pos": "a",
+              "meaning": "更多的",
+              "reviewVersion": 2
+            },
+            {
               "a": 8,
               "b": 14,
               "word": "states",
               "lemma": "state",
-              "meaning": "州；州一级的",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "州",
+              "reviewVersion": 2
             },
             {
-              "a": 129,
-              "b": 138,
-              "word": "community",
-              "lemma": "community",
-              "meaning": "群体；界别",
-              "pos": "n"
+              "a": 15,
+              "b": 23,
+              "word": "consider",
+              "lemma": "consider",
+              "pos": "v",
+              "meaning": "考虑",
+              "reviewVersion": 2
             },
             {
               "a": 24,
               "b": 36,
               "word": "promulgating",
               "lemma": "promulgate",
-              "meaning": "颁布；公布实施"
+              "pos": "v",
+              "meaning": "颁布",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 47,
+              "word": "additional",
+              "lemma": "additional",
+              "pos": "a",
+              "meaning": "补充的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 59,
+              "word": "regulations",
+              "lemma": "regulation",
+              "pos": "n",
+              "meaning": "规定",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 66,
+              "word": "there",
+              "lemma": "there",
+              "pos": "pron",
+              "meaning": "存在句形式词，表示有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 69,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "有；存在（there is）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 71,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 76,
+              "word": "need",
+              "lemma": "need",
+              "pos": "n",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 80,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "所需加强的内容",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 88,
+              "word": "greater",
+              "lemma": "great",
+              "pos": "a",
+              "meaning": "更强的；更多的",
+              "reviewVersion": 2
             },
             {
               "a": 89,
               "b": 103,
               "word": "accountability",
               "lemma": "accountability",
-              "meaning": "承担责任；问责"
+              "pos": "n",
+              "meaning": "责任承担；问责",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 108,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 115,
+              "word": "within",
+              "lemma": "within",
+              "pos": "prep",
+              "meaning": "在……内部",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 119,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 128,
+              "word": "business",
+              "lemma": "business",
+              "pos": "n",
+              "meaning": "企业；商界",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 138,
+              "word": "community",
+              "lemma": "community",
+              "pos": "n",
+              "meaning": "群体；界别",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1170,7 +4353,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "As为随着，community为商界群体，问责应从内部加强。",
+            "sentenceSHA256": "5d95d1eb9a939b4bbfd1accc246ebf2e26a6d207fc17d800c007526c70aa8e6f",
+            "words": 19,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2022-T3-P6-S2",
@@ -1214,19 +4405,274 @@
           "translation": "暗黑模式也可以通过行业自律来处理，但前提是组织切实对自身行为负责，不仅遵守法律要求，也遵循行业最佳实践和标准。",
           "words": [
             {
-              "a": 176,
-              "b": 185,
-              "word": "practices",
-              "lemma": "practice",
-              "meaning": "做法；设计手法",
-              "pos": "n"
+              "a": 0,
+              "b": 4,
+              "word": "Dark",
+              "lemma": "dark",
+              "pos": "a",
+              "meaning": "具有欺骗性的（dark patterns术语部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 13,
+              "word": "patterns",
+              "lemma": "pattern",
+              "pos": "n",
+              "meaning": "设计模式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 18,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "也",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "可以",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 25,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成被动语态（be addressed）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 35,
+              "word": "addressed",
+              "lemma": "address",
+              "pos": "v",
+              "meaning": "得到处理",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 38,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "通过；以某种基础或方式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 40,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 41,
               "b": 56,
               "word": "self-regulatory",
               "lemma": "self-regulatory",
-              "meaning": "自律的；自行约束的"
+              "pos": "a",
+              "meaning": "自律的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 62,
+              "word": "basis",
+              "lemma": "basis",
+              "pos": "n",
+              "meaning": "基础；方式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 67,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但；却",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 72,
+              "word": "only",
+              "lemma": "only",
+              "pos": "adv",
+              "meaning": "只有；仅",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 75,
+              "word": "if",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "如果；前提是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 89,
+              "word": "organizations",
+              "lemma": "organization",
+              "pos": "n",
+              "meaning": "组织",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 94,
+              "word": "hold",
+              "lemma": "hold",
+              "pos": "v",
+              "meaning": "使保持；要求承担（hold accountable）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 105,
+              "word": "themselves",
+              "lemma": "themselves",
+              "pos": "pron",
+              "meaning": "它们自己",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 117,
+              "word": "accountable",
+              "lemma": "accountable",
+              "pos": "a",
+              "meaning": "承担责任的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 122,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 127,
+              "word": "just",
+              "lemma": "just",
+              "pos": "adv",
+              "meaning": "仅仅",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 130,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "对……负责；遵从相应标准",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 136,
+              "word": "legal",
+              "lemma": "legal",
+              "pos": "a",
+              "meaning": "法律方面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 149,
+              "word": "requirements",
+              "lemma": "requirement",
+              "pos": "n",
+              "meaning": "要求",
+              "reviewVersion": 2
+            },
+            {
+              "a": 150,
+              "b": 153,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但；却",
+              "reviewVersion": 2
+            },
+            {
+              "a": 154,
+              "b": 158,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "也",
+              "reviewVersion": 2
+            },
+            {
+              "a": 159,
+              "b": 161,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "对……负责；遵从相应标准",
+              "reviewVersion": 2
+            },
+            {
+              "a": 162,
+              "b": 170,
+              "word": "industry",
+              "lemma": "industry",
+              "pos": "n",
+              "meaning": "行业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 171,
+              "b": 175,
+              "word": "best",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "最佳的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 176,
+              "b": 185,
+              "word": "practices",
+              "lemma": "practice",
+              "pos": "n",
+              "meaning": "做法；设计手法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 186,
+              "b": 189,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 190,
+              "b": 199,
+              "word": "standards",
+              "lemma": "standard",
+              "pos": "n",
+              "meaning": "标准",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -1235,21 +4681,32 @@
               "b": 13,
               "lemma": "dark pattern",
               "meaning": "操纵用户选择的界面设计",
-              "word": "Dark patterns"
+              "word": "Dark patterns",
+              "kind": "phrase"
             },
             {
-              "a": 171,
-              "b": 185,
-              "lemma": "best practice",
-              "meaning": "行业公认的良好做法",
-              "word": "best practices"
+              "a": 68,
+              "b": 75,
+              "word": "only if",
+              "lemma": "only if",
+              "meaning": "只有……才",
+              "kind": "phrase"
             },
             {
               "a": 90,
               "b": 117,
               "word": "hold themselves accountable",
               "lemma": "hold oneself accountable",
-              "meaning": "对自身行为负责"
+              "meaning": "对自身行为负责",
+              "kind": "phrase"
+            },
+            {
+              "a": 171,
+              "b": 185,
+              "lemma": "best practice",
+              "meaning": "行业公认的良好做法",
+              "word": "best practices",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1258,9 +4715,30 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "only if为自律有效前提，to为对法律及行业标准负责，不仅依法也符合最佳实践。",
+            "sentenceSHA256": "ecad54e87b7d385f4a2443ddf22db89a5fe1f8bd7480dde85c7f618fdf3e74ec",
+            "words": 30,
+            "phrases": 4,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "db7048a9277cc9abbce17fffc62a9902881b48234f609a48fe8605f2420e55f3",
+    "sentences": 17,
+    "wordOccurrences": 395,
+    "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

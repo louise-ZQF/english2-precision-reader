@@ -42,7 +42,8 @@
             (!source || !source.article || !item.article || articleKey(source.article) === articleKey(item.article)) &&
             (!item.fragment || source && source.exam && source.article));
     }
-    const phrasePatternsFor = phrases => Object.keys(phrases).map(key => ({ key, parts: key.split(' ') })).sort((a, b) => b.parts.length - a.parts.length);
+    const phrasePolicy = window.EnglishReadingManifest && window.EnglishReadingManifest.phrasePolicy;
+    const phrasePatternsFor = phrases => Object.keys(phrases).filter(key => phrasePolicy && phrasePolicy.approved.includes(key)).map(key => ({ key, parts: key.split(' ') })).sort((a, b) => b.parts.length - a.parts.length);
     function read(key, fallback) { try { const v = JSON.parse(localStorage.getItem(key)); return v == null ? fallback : v; } catch (_) { return fallback; } }
     function write(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch (_) { toast('保存失败，请先导出数据腾出空间', 'error'); return false; } }
     function toast(s, type) { if (window.EnglishApp) window.EnglishApp.toast(s, type || 'success'); }
@@ -112,6 +113,9 @@
         const tokens = sentence.tokens.filter(t => /[A-Za-z0-9]/.test(t.w));
         const explicit = meanings ? meanings.phrases({ ...sentence, source: { ...sentence.source, exam: currentExam && currentExam.exam_id } }) : [];
         const matches = explicit.filter((item, i, all) => !all.some((other, j) => j < i && item.a < other.b && item.b > other.a));
+        // Reading expressions are edited at their exact occurrence. Generic
+        // dictionary matches must not glue an ordinary sentence fragment.
+        if (window.EnglishReading && window.EnglishReading.scope(sentence)) return matches.sort((a, b) => a.a - b.a);
         const used = new Set(tokens.flatMap((token, i) => matches.some(item => token.a < item.b && token.b > item.a) ? [i] : []));
         const equal = (token, part) => token && wordForms(token).has(part);
         for (let i = 0; i < tokens.length; i++) {
@@ -131,7 +135,7 @@
         const separable = ['take into account', 'take for granted', 'keep in mind', 'put off', 'point out', 'carry out', 'hold back', 'bring about', 'set up', 'turn down', 'take over', 'give up', 'cut off', 'spin off', 'spin out', 'brush off', 'shrug off', 'infuse with'];
         for (let i = 0; i < tokens.length; i++) {
             if (used.has(i)) continue;
-            for (const key of separable) {
+            for (const key of separable.filter(key => phrasePolicy && phrasePolicy.approved.includes(key))) {
                 const parts = key.split(' ');
                 if (!equal(tokens[i], parts[0])) continue;
                 let found = -1;
@@ -155,7 +159,7 @@
         const words = meanings.writtenWords(sentence.en);
         const phrases = phraseMatches(sentence).filter(p => !words.some(w => (p.a > w.a && p.a < w.b) || (p.b > w.a && p.b < w.b) || (p.a === w.a && p.b === w.b && /[-\u2010\u2011]/.test(w.key))));
         const items = [];
-        for (const p of phrases) items.push({ a: p.a, b: p.b, key: p.key, kind: 'phrase', meaning: p.meaning });
+        for (const p of phrases) items.push({ a: p.a, b: p.b, key: p.key, kind: p.kind === 'name' ? 'name' : 'phrase', meaning: p.meaning });
         for (const word of words) {
             if (phrases.some(p => word.a >= p.a && word.b <= p.b)) continue;
             items.push(word);
@@ -286,6 +290,7 @@
     }
     function wordEntry(lemma) { return meanings.entry(lemma); }
     function wordMorphology(info) {
+        if (info.kind === 'name') return { lemma: info.lemma, labels: [], forms: [] };
         const phrase = info.kind === 'phrase', parts = info.lemma.split(' '), head = phrase ? parts[0] : info.lemma;
         const family = wordData.words[head];
         const surface = wordKey(info.element && info.element.textContent || info.word);
@@ -298,10 +303,11 @@
     }
     function morphologyHtml(info) {
         const morphology = wordMorphology(info);
-        const label = info.kind === 'phrase' ? '词组原形' : info.lemma.includes("'") && !wordData.words[info.lemma] ? '当前词形' : '原形';
+        const label = info.kind === 'name' ? '名称原文' : info.kind === 'phrase' ? '词组原形' : info.lemma.includes("'") && !wordData.words[info.lemma] ? '当前词形' : '原形';
         return '<div class="precision-lemma"><span>' + label + '</span><b>' + esc(morphology.lemma) + '</b>' + (morphology.labels.length ? '<small>当前为' + esc(morphology.labels.join('／')) + '</small>' : '') + '</div>';
     }
     function formsHtml(info) {
+        if (info.kind === 'name') return '';
         const morphology = wordMorphology(info);
         return '<section class="precision-word-forms"><label>相关词形</label>' + (morphology.forms.length ? '<dl>' + morphology.forms.map(item => '<div><dt>' + esc(item.label) + '</dt><dd>' + esc(item.words.join(' / ')) + '</dd></div>').join('') + '</dl>' : '<p class="precision-note">暂无其他已收录的词形</p>') + '</section>';
     }
@@ -310,13 +316,14 @@
         if (!record) return null;
         const word = element.dataset.word, start = Number(element.dataset.start), end = Number(element.dataset.end);
         const token = record.tokens.find(t => t.a === start) || record.tokens.find(t => t.a <= start && t.b > start);
-        const kind = element.dataset.kind === 'phrase' ? 'phrase' : 'word';
+        const kind = ['phrase', 'name'].includes(element.dataset.kind) ? element.dataset.kind : 'word';
         const found = meanings.lookup({ word, record, token, kind, start, end });
         const overrideKey = contextKey(record, start, word), override = found.quality === 'manual' ? found.meaning : overrides[overrideKey];
         return { ...found, record, token: found.token, key: overrideKey, element,
             meaning: override || found.meaning, quality: override ? 'manual' : found.quality };
     }
     function meaningLabel(info) {
+        if (info.kind === 'name' && info.quality !== 'manual') return '名称释义';
         return { reviewed: '本文义', manual: '本文义 · 你的校正', grammar: '本句语法作用',
             dictionary: '词典释义 · 按本句词性', phrase: '词典释义 · 词组', name: '名称释义', missing: '中文释义' }[info.quality] || '词典释义';
     }
@@ -343,13 +350,13 @@
         const box = ensurePopover();
         const alternatives = common && common.common || [];
         const others = alternatives.filter(s => s.m !== info.meaning).slice(0, 3);
-        box.innerHTML = '<div class="precision-pop-head"><div><strong>' + esc(info.word) + '</strong><span>' + (info.kind === 'phrase' ? '词组' : esc(common && common.ph || '')) + '</span></div><button data-action="close" class="precision-icon-close" aria-label="关闭释义">×</button></div>' +
+        box.innerHTML = '<div class="precision-pop-head"><div><strong>' + esc(info.word) + '</strong><span>' + (info.kind === 'name' ? '名称' : info.kind === 'phrase' ? '词组' : esc(common && common.ph || '')) + '</span></div><button data-action="close" class="precision-icon-close" aria-label="关闭释义">×</button></div>' +
             morphologyHtml(info) +
             '<div class="precision-current" aria-live="polite"><label>' + meaningLabel(info) + '</label><p>' + esc(info.meaning || '这个词暂未收录，可查看词典或补充本句释义。') + '</p></div>' +
             (info.explanation ? '<p class="precision-word-explanation">' + esc(info.explanation) + '</p>' : '') +
             (others.length ? '<div class="precision-common"><label>其他常见义</label>' + others.map(s => '<p><span class="precision-sense-pos">' + esc(posName(s.p)) + '</span>' + esc(s.m) + '</p>').join('') + '</div>' : '') +
             formsHtml(info) +
-            '<div class="precision-pop-actions"><button data-action="collect">收藏' + (info.kind === 'phrase' ? '整个词组' : '单词') + '</button><button data-action="sentence">句子精翻</button><button data-action="edit">改本句释义</button></div>' +
+            '<div class="precision-pop-actions"><button data-action="collect">收藏' + (info.kind === 'name' ? '名称' : info.kind === 'phrase' ? '整个词组' : '单词') + '</button><button data-action="sentence">句子精翻</button><button data-action="edit">改本句释义</button></div>' +
             '<div class="precision-dictionary-links"><a href="https://dict.youdao.com/result?word=' + encodeURIComponent(info.lemma) + '&amp;lang=en" target="_blank" rel="noreferrer">有道核对</a><a href="https://dictionary.cambridge.org/dictionary/english-chinese-simplified/' + encodeURIComponent(info.lemma.replace(/ /g, '-')) + '" target="_blank" rel="noreferrer">剑桥核对</a></div>';
         box.onclick = async event => {
             const button = event.target.closest('[data-action]'); if (!button) return;

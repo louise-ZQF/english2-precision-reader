@@ -94,7 +94,7 @@
         const custom = edit && edit.en === sentence.en && edit.sourceHash === sentence.sourceHash && (edit.words || []).find(word => word.a === a && word.b === b);
         if (custom) return { ...custom, quality: 'manual' };
         if (sentence.article.source.status !== 'verified') return null;
-        const values = kind === 'phrase' ? [...sentence.phrases, ...sentence.words] : [...sentence.words, ...sentence.phrases];
+        const values = kind === 'phrase' || kind === 'name' ? [...sentence.phrases, ...sentence.words] : [...sentence.words, ...sentence.phrases];
         return values.find(word => word.a === a && word.b === b && word.quality !== 'dictionary') || null;
     }
     function phrases(record) {
@@ -137,7 +137,7 @@
             }
             if (Array.isArray(value.words)) {
                 if (value.words.some(w => !Number.isInteger(w.a) || !Number.isInteger(w.b) || w.a < 0 || w.b <= w.a || w.b > sentence.en.length || sentence.en.slice(w.a, w.b) !== w.word || typeof w.lemma !== 'string' || typeof w.meaning !== 'string')) throw new Error(id + ' 的词义位置不一致');
-                row.words = value.words.map(w => ({ a: w.a, b: w.b, word: w.word, lemma: w.lemma, meaning: w.meaning, kind: w.kind === 'phrase' ? 'phrase' : 'word', explanation: typeof w.explanation === 'string' ? w.explanation : '' }));
+                row.words = value.words.map(w => ({ a: w.a, b: w.b, word: w.word, lemma: w.lemma, meaning: w.meaning, kind: ['phrase', 'name'].includes(w.kind) ? w.kind : 'word', explanation: typeof w.explanation === 'string' ? w.explanation : '' }));
             }
             if (!next[id] || row.updatedAt >= (next[id].updatedAt || 0)) { next[id] = row; count++; }
         }
@@ -150,7 +150,7 @@
             if (!meta) continue;
             let badge = node.querySelector('.reading-review-status');
             if (!badge) { badge = document.createElement('p'); badge.className = 'reading-review-status'; node.querySelector('.study-article-heading').after(badge); }
-            badge.textContent = (meta.source === 'verified' ? '原文已核对' : '原文待核对') + ' · ' + (meta.reviewed ? meta.reviewed + '/' + meta.sentences + ' 句已整理' : '精翻尚未整理');
+            badge.textContent = (meta.source === 'verified' ? '原文已核对' : '原文待核对') + ' · ' + (meta.reviewed ? meta.reviewed + '/' + meta.sentences + ' 句已整理' : '精翻尚未整理') + (meta.fullWordAudit ? ' · 已逐词复核' : '');
         }
     }
     function init() {

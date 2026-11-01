@@ -67,28 +67,347 @@
           "translation": "火灾生态学与管理专家马克斯·莫里茨教授说，虽然野火频发常被视为西部各州的问题，但它会影响联邦税收资金的使用，因此是一个全国都应关注的问题。",
           "words": [
             {
+              "a": 0,
+              "b": 6,
+              "word": "Though",
+              "lemma": "though",
+              "pos": "conj",
+              "meaning": "虽然；尽管",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 12,
+              "word": "often",
+              "lemma": "often",
+              "pos": "adv",
+              "meaning": "经常",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 19,
+              "word": "viewed",
+              "lemma": "view",
+              "pos": "v",
+              "meaning": "看作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 22,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "作为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 24,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 32,
+              "word": "problem",
+              "lemma": "problem",
+              "pos": "n",
+              "meaning": "问题",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 36,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对西部各州而言",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 44,
+              "word": "western",
+              "lemma": "western",
+              "pos": "a",
+              "meaning": "西部的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 51,
+              "word": "states",
+              "lemma": "state",
+              "pos": "n",
+              "meaning": "州",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 56,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 64,
+              "word": "growing",
+              "lemma": "grow",
+              "pos": "a",
+              "meaning": "不断增加的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 74,
+              "word": "frequency",
+              "lemma": "frequency",
+              "pos": "n",
+              "meaning": "频率",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 77,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 87,
+              "word": "wildfires",
+              "lemma": "wildfire",
+              "pos": "n",
+              "meaning": "野火；林地火灾",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 90,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 92,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 101,
+              "word": "national",
+              "lemma": "national",
+              "pos": "a",
+              "meaning": "全国性的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 109,
+              "word": "concern",
+              "lemma": "concern",
+              "pos": "n",
+              "meaning": "关切的问题",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 117,
+              "word": "because",
+              "lemma": "because",
+              "pos": "conj",
+              "meaning": "因为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 120,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 124,
+              "word": "its",
+              "lemma": "its",
+              "pos": "det",
+              "meaning": "它的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 131,
+              "word": "impact",
+              "lemma": "impact",
+              "pos": "n",
+              "meaning": "影响",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 134,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "对于财政资金使用的影响",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 142,
+              "word": "federal",
+              "lemma": "federal",
+              "pos": "a",
+              "meaning": "联邦政府的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 146,
+              "word": "tax",
+              "lemma": "tax",
+              "pos": "n",
+              "meaning": "税收",
+              "reviewVersion": 2
+            },
+            {
+              "a": 147,
+              "b": 154,
+              "word": "dollars",
+              "lemma": "dollar",
+              "pos": "n",
+              "meaning": "美元；资金",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 160,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；指出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 170,
+              "word": "Professor",
+              "lemma": "professor",
+              "pos": "n",
+              "meaning": "教授",
+              "reviewVersion": 2
+            },
+            {
+              "a": 171,
+              "b": 174,
+              "word": "Max",
+              "lemma": "Max",
+              "pos": "name",
+              "meaning": "马克斯（人名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 175,
+              "b": 181,
+              "word": "Moritz",
+              "lemma": "Moritz",
+              "pos": "name",
+              "meaning": "莫里茨（姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 183,
+              "b": 184,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 185,
+              "b": 195,
+              "word": "specialist",
+              "lemma": "specialist",
+              "pos": "n",
+              "meaning": "专家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 196,
+              "b": 198,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 199,
+              "b": 203,
+              "word": "fire",
+              "lemma": "fire",
+              "pos": "n",
+              "meaning": "火；火灾",
+              "reviewVersion": 2
+            },
+            {
               "a": 204,
               "b": 211,
-              "lemma": "ecology",
-              "meaning": "生态学",
               "word": "ecology",
-              "pos": "n"
+              "lemma": "ecology",
+              "pos": "n",
+              "meaning": "生态学",
+              "reviewVersion": 2
+            },
+            {
+              "a": 212,
+              "b": 215,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 216,
+              "b": 226,
+              "word": "management",
+              "lemma": "management",
+              "pos": "n",
+              "meaning": "管理",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
-              "a": 93,
-              "b": 109,
-              "lemma": "national concern",
-              "meaning": "全国都应关注的问题",
-              "word": "national concern"
-            },
-            {
-              "a": 135,
-              "b": 154,
-              "lemma": "federal tax dollars",
-              "meaning": "联邦税收资金；公共财政支出",
-              "word": "federal tax dollars"
+              "a": 110,
+              "b": 120,
+              "word": "because of",
+              "lemma": "because of",
+              "meaning": "由于；因为",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -97,7 +416,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "野火频发因联邦税收支出成为全国议题，fire为火非解雇。",
+            "sentenceSHA256": "2312f44062386518f482fb339d89dcef348d256a475bb1cae560a2f3c1c42de7",
+            "words": 37,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -133,7 +460,287 @@
           ],
           "reorder": "先译年份与局名，再译预算总额和占比；nearly double 比较的是预算百分比，不是美元总数。",
           "translation": "二〇一五年，美国林务局首次将五十五亿美元年度预算的一半以上用于灭火，这一占比几乎是二十年前的两倍。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 12,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 15,
+              "word": "US",
+              "lemma": "US",
+              "pos": "name",
+              "meaning": "美国（United States缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 22,
+              "word": "Forest",
+              "lemma": "forest",
+              "pos": "n",
+              "meaning": "森林",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 30,
+              "word": "Service",
+              "lemma": "service",
+              "pos": "n",
+              "meaning": "管理局（机构名一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 34,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "与the first time组成首次",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 38,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 44,
+              "word": "first",
+              "lemma": "first",
+              "pos": "num",
+              "meaning": "第一",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 49,
+              "word": "time",
+              "lemma": "time",
+              "pos": "n",
+              "meaning": "时间；时刻",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 55,
+              "word": "spent",
+              "lemma": "spend",
+              "pos": "v",
+              "meaning": "花费；度过",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 60,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更；更多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 65,
+              "word": "than",
+              "lemma": "than",
+              "pos": "prep",
+              "meaning": "与more组成超过",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 70,
+              "word": "half",
+              "lemma": "half",
+              "pos": "n",
+              "meaning": "一半",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 73,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 77,
+              "word": "its",
+              "lemma": "its",
+              "pos": "det",
+              "meaning": "它的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 90,
+              "word": "billion",
+              "lemma": "billion",
+              "pos": "num",
+              "meaning": "十亿",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 97,
+              "word": "annual",
+              "lemma": "annual",
+              "pos": "a",
+              "meaning": "每年的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 104,
+              "word": "budget",
+              "lemma": "budget",
+              "pos": "n",
+              "meaning": "预算",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 113,
+              "word": "fighting",
+              "lemma": "fight",
+              "pos": "v",
+              "meaning": "扑灭；对抗（火灾）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 119,
+              "word": "fires",
+              "lemma": "fire",
+              "pos": "n",
+              "meaning": "火灾",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 128,
+              "word": "nearly",
+              "lemma": "nearly",
+              "pos": "adv",
+              "meaning": "几乎",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 135,
+              "word": "double",
+              "lemma": "double",
+              "pos": "a",
+              "meaning": "两倍的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 139,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 150,
+              "word": "percentage",
+              "lemma": "percentage",
+              "pos": "n",
+              "meaning": "百分比",
+              "reviewVersion": 2
+            },
+            {
+              "a": 151,
+              "b": 153,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 154,
+              "b": 159,
+              "word": "spent",
+              "lemma": "spend",
+              "pos": "v",
+              "meaning": "花费；度过",
+              "reviewVersion": 2
+            },
+            {
+              "a": 160,
+              "b": 162,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "关于；在……方面",
+              "reviewVersion": 2
+            },
+            {
+              "a": 163,
+              "b": 167,
+              "word": "such",
+              "lemma": "such",
+              "pos": "det",
+              "meaning": "这样的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 168,
+              "b": 175,
+              "word": "efforts",
+              "lemma": "effort",
+              "pos": "n",
+              "meaning": "努力；工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 179,
+              "b": 184,
+              "word": "years",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 185,
+              "b": 188,
+              "word": "ago",
+              "lemma": "ago",
+              "pos": "adv",
+              "meaning": "以前",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -141,7 +748,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "55亿美元预算中超过一半用于灭火，近两倍指预算占比而非预算总额。",
+            "sentenceSHA256": "c57b0075e8cfd39864f5405c55fbd0dc162d2341ed3f0320d90e9141d071191c",
+            "words": 31,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2017-T4-P2-S2",
@@ -191,46 +806,319 @@
           "translation": "实际上，如今用于该局其他工作的联邦资金减少了，例如森林保护、流域和文化资源管理、基础设施维护等，而这些工作都影响全体美国人的生活。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "与effect组成实际上",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 9,
+              "word": "effect",
+              "lemma": "effect",
+              "pos": "n",
+              "meaning": "实际效果（in effect为实际上）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 16,
+              "word": "fewer",
+              "lemma": "few",
+              "pos": "a",
+              "meaning": "更少的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 24,
+              "word": "federal",
+              "lemma": "federal",
+              "pos": "a",
+              "meaning": "联邦政府的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 30,
+              "word": "funds",
+              "lemma": "fund",
+              "pos": "n",
+              "meaning": "资金",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 36,
+              "word": "today",
+              "lemma": "today",
+              "pos": "adv",
+              "meaning": "如今",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 40,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与going构成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 46,
+              "word": "going",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "被用于；流向（资金）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 54,
+              "word": "towards",
+              "lemma": "towards",
+              "pos": "prep",
+              "meaning": "用于；流向",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 58,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 67,
+              "word": "agency's",
+              "lemma": "agency",
+              "pos": "n",
+              "meaning": "该机构的（所有格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 73,
+              "word": "other",
+              "lemma": "other",
+              "pos": "det",
+              "meaning": "其他的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 78,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 85,
+              "word": "such",
+              "lemma": "such",
+              "pos": "det",
+              "meaning": "这样的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 88,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "例如（such as）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 95,
+              "word": "forest",
+              "lemma": "forest",
+              "pos": "n",
+              "meaning": "森林",
+              "reviewVersion": 2
+            },
+            {
               "a": 96,
               "b": 108,
-              "lemma": "conservation",
-              "meaning": "保护；养护",
               "word": "conservation",
-              "pos": "n"
+              "lemma": "conservation",
+              "pos": "n",
+              "meaning": "保护（自然环境或物种）",
+              "reviewVersion": 2
             },
             {
               "a": 110,
               "b": 119,
-              "lemma": "watershed",
-              "meaning": "流域；集水区",
               "word": "watershed",
-              "pos": "a"
+              "lemma": "watershed",
+              "pos": "n",
+              "meaning": "流域",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 123,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 132,
+              "word": "cultural",
+              "lemma": "cultural",
+              "pos": "a",
+              "meaning": "文化的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 142,
+              "word": "resources",
+              "lemma": "resource",
+              "pos": "n",
+              "meaning": "可利用的资源",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 153,
+              "word": "management",
+              "lemma": "management",
+              "pos": "n",
+              "meaning": "管理",
+              "reviewVersion": 2
+            },
+            {
+              "a": 155,
+              "b": 158,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 159,
               "b": 173,
-              "lemma": "infrastructure",
-              "meaning": "基础设施",
               "word": "infrastructure",
-              "pos": "n"
+              "lemma": "infrastructure",
+              "pos": "n",
+              "meaning": "基础设施",
+              "reviewVersion": 2
             },
             {
               "a": 174,
               "b": 180,
-              "lemma": "upkeep",
-              "meaning": "维护；养护",
               "word": "upkeep",
-              "pos": "n"
+              "lemma": "upkeep",
+              "pos": "n",
+              "meaning": "维护",
+              "reviewVersion": 2
+            },
+            {
+              "a": 183,
+              "b": 187,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指其他公共管理工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 188,
+              "b": 194,
+              "word": "affect",
+              "lemma": "affect",
+              "pos": "v",
+              "meaning": "影响",
+              "reviewVersion": 2
+            },
+            {
+              "a": 195,
+              "b": 198,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 199,
+              "b": 204,
+              "word": "lives",
+              "lemma": "life",
+              "pos": "n",
+              "meaning": "一生；生活",
+              "reviewVersion": 2
+            },
+            {
+              "a": 205,
+              "b": 207,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 208,
+              "b": 211,
+              "word": "all",
+              "lemma": "all",
+              "pos": "det",
+              "meaning": "所有的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 212,
+              "b": 221,
+              "word": "Americans",
+              "lemma": "American",
+              "pos": "n",
+              "meaning": "美国人",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 9,
+              "word": "In effect",
+              "lemma": "in effect",
+              "meaning": "实际上",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "其他工作资金减少，that指森林流域文化资源及设施维护工作。",
+            "sentenceSHA256": "ea3b59cd9702e6649bfc4972ec5c1d7b4ea2774214c22720b27f268fa7b7256e",
+            "words": 32,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -268,20 +1156,157 @@
           "translation": "另一个全国都应关注的问题是，其他机构的公共资金是否正被投入易发生火灾地区的建设。",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "Another",
+              "lemma": "another",
+              "pos": "det",
+              "meaning": "另一个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 18,
+              "word": "nationwide",
+              "lemma": "nationwide",
+              "pos": "a",
+              "meaning": "全国性的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 26,
+              "word": "concern",
+              "lemma": "concern",
+              "pos": "n",
+              "meaning": "关切的问题",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 29,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 37,
+              "word": "whether",
+              "lemma": "whether",
+              "pos": "conj",
+              "meaning": "是否",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 44,
+              "word": "public",
+              "lemma": "public",
+              "pos": "a",
+              "meaning": "公共的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 50,
+              "word": "funds",
+              "lemma": "fund",
+              "pos": "n",
+              "meaning": "资金",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 55,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 61,
+              "word": "other",
+              "lemma": "other",
+              "pos": "det",
+              "meaning": "其他的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 70,
+              "word": "agencies",
+              "lemma": "agency",
+              "pos": "n",
+              "meaning": "机构",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 74,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与going构成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 80,
+              "word": "going",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "被用于；流向（资金）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 85,
+              "word": "into",
+              "lemma": "into",
+              "pos": "prep",
+              "meaning": "进入……",
+              "reviewVersion": 2
+            },
+            {
               "a": 86,
               "b": 98,
-              "lemma": "construction",
-              "meaning": "房屋及设施建设",
               "word": "construction",
-              "pos": "n"
+              "lemma": "construction",
+              "pos": "n",
+              "meaning": "建设",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 101,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
             },
             {
               "a": 102,
               "b": 112,
-              "lemma": "fire-prone",
-              "meaning": "容易发生火灾的",
               "word": "fire-prone",
-              "pos": "a"
+              "lemma": "fire-prone",
+              "pos": "a",
+              "meaning": "易发生火灾的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 122,
+              "word": "districts",
+              "lemma": "district",
+              "pos": "n",
+              "meaning": "地区",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -290,7 +1315,8 @@
               "b": 50,
               "lemma": "public funds",
               "meaning": "公共资金",
-              "word": "public funds"
+              "word": "public funds",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -299,7 +1325,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "询问公共资金是否投向火灾高风险地区建设，whether为是否。",
+            "sentenceSHA256": "bb040d525686de47f57263bb8c93291f3e2042bb7c85879d6812fc816b600609",
+            "words": 17,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2017-T4-P3-S2",
@@ -329,7 +1363,188 @@
           ],
           "reorder": "把 that 关系从句展开作房屋的补充说明；how often 保留频次上的质问。",
           "translation": "正如莫里茨所问，有多少时候，联邦资金被用来建造很可能毁于野火的房屋？",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "As",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "正如",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 9,
+              "word": "Moritz",
+              "lemma": "Moritz",
+              "pos": "name",
+              "meaning": "莫里茨（姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 14,
+              "word": "puts",
+              "lemma": "put",
+              "pos": "v",
+              "meaning": "表达；说（put it）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 17,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "how",
+              "lemma": "how",
+              "pos": "adv",
+              "meaning": "如何",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 28,
+              "word": "often",
+              "lemma": "often",
+              "pos": "adv",
+              "meaning": "经常",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 32,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与building构成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 40,
+              "word": "federal",
+              "lemma": "federal",
+              "pos": "a",
+              "meaning": "联邦政府的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 48,
+              "word": "dollars",
+              "lemma": "dollar",
+              "pos": "n",
+              "meaning": "美元；资金",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 57,
+              "word": "building",
+              "lemma": "build",
+              "pos": "v",
+              "meaning": "建造",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 63,
+              "word": "homes",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 68,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指homes",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 72,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 79,
+              "word": "likely",
+              "lemma": "likely",
+              "pos": "a",
+              "meaning": "有可能的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 82,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 85,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与lost构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 90,
+              "word": "lost",
+              "lemma": "lose",
+              "pos": "v",
+              "meaning": "毁掉；失去",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 93,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "毁于（野火）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 95,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 104,
+              "word": "wildfire",
+              "lemma": "wildfire",
+              "pos": "n",
+              "meaning": "野火",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -337,7 +1552,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "put it为表达，homes likely lost to wildfire为可能毁于野火。",
+            "sentenceSHA256": "c08e986882b590a891636153b4bcc619abdc3b71e913d0d903ce43cd7d749743",
+            "words": 20,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -373,14 +1596,160 @@
           ],
           "reorder": "把评价视角前置，句末的 he says 移到引语前。",
           "translation": "他说：“从全国公共财政支出的角度来看，这已经是一个大问题。”",
-          "words": [],
+          "words": [
+            {
+              "a": 1,
+              "b": 5,
+              "word": "It's",
+              "lemma": "it be",
+              "pos": "pron",
+              "meaning": "这是（it is缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 13,
+              "word": "already",
+              "lemma": "already",
+              "pos": "adv",
+              "meaning": "已经",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 15,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "huge",
+              "lemma": "huge",
+              "pos": "a",
+              "meaning": "巨大的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 28,
+              "word": "problem",
+              "lemma": "problem",
+              "pos": "n",
+              "meaning": "问题",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 35,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 42,
+              "word": "public",
+              "lemma": "public",
+              "pos": "a",
+              "meaning": "公共的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 54,
+              "word": "expenditure",
+              "lemma": "expenditure",
+              "pos": "n",
+              "meaning": "财政支出；开支",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 66,
+              "word": "perspective",
+              "lemma": "perspective",
+              "pos": "n",
+              "meaning": "角度；视角",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 70,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对全国而言",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 74,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 80,
+              "word": "whole",
+              "lemma": "whole",
+              "pos": "a",
+              "meaning": "整个的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 88,
+              "word": "country",
+              "lemma": "country",
+              "pos": "n",
+              "meaning": "国家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 93,
+              "word": "he",
+              "lemma": "he",
+              "pos": "pron",
+              "meaning": "他",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 98,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；指出",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 36,
               "b": 54,
               "lemma": "public expenditure",
               "meaning": "公共财政支出",
-              "word": "public expenditure"
+              "word": "public expenditure",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -389,7 +1758,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "public expenditure perspective为公共财政支出角度，for全国而言。",
+            "sentenceSHA256": "ee78671843e739882113c6883b5dc9b18a089d733e61580185664b09418374a2",
+            "words": 16,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2017-T4-P4-S2",
@@ -407,21 +1784,97 @@
           ],
           "reorder": "保留放大镜的比喻，同时补出“仔细审视”的实际含义。",
           "translation": "“我们需要拿放大镜仔细审视这件事。",
-          "words": [],
-          "phrases": [
+          "words": [
+            {
+              "a": 1,
+              "b": 3,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 11,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
             {
               "a": 12,
-              "b": 38,
-              "lemma": "take a magnifying glass to",
-              "meaning": "仔细审视；认真检查",
-              "word": "take a magnifying glass to"
+              "b": 16,
+              "word": "take",
+              "lemma": "take",
+              "pos": "v",
+              "meaning": "拿；采用（放大镜比喻审视）",
+              "reviewVersion": 2
             },
+            {
+              "a": 17,
+              "b": 18,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 29,
+              "word": "magnifying",
+              "lemma": "magnify",
+              "pos": "a",
+              "meaning": "放大的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 35,
+              "word": "glass",
+              "lemma": "glass",
+              "pos": "n",
+              "meaning": "镜片（magnifying glass为放大镜）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 38,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "对准（放大镜），比喻审视的对象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 43,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "前述财政资金使用问题",
+              "reviewVersion": 2
+            }
+          ],
+          "phrases": [
             {
               "a": 19,
               "b": 35,
               "lemma": "magnifying glass",
               "meaning": "放大镜（比喻仔细检查）",
-              "word": "magnifying glass"
+              "word": "magnifying glass",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -430,7 +1883,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "放大镜为仔细审视财政使用的比喻，that为指示代词。",
+            "sentenceSHA256": "22937cc8d66a966d2fd3d9354a0b34d4f114069ff5ef5be45376be26892b8bf8",
+            "words": 9,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2017-T4-P4-S3",
@@ -454,7 +1915,71 @@
           ],
           "reorder": "Like 在口语中引出审视时会问的问题，直接顺译。",
           "translation": "比如，‘先等一下，这样做合适吗？’",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "Like",
+              "lemma": "like",
+              "pos": "adv",
+              "meaning": "例如（口语引出例子）；好比",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 11,
+              "word": "Wait",
+              "lemma": "wait",
+              "pos": "v",
+              "meaning": "等一下",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 13,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 20,
+              "word": "minute",
+              "lemma": "minute",
+              "pos": "n",
+              "meaning": "分钟（wait a minute为稍等）；片刻",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 24,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 29,
+              "word": "this",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；本句所说的事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 32,
+              "word": "OK",
+              "lemma": "OK",
+              "pos": "a",
+              "meaning": "合适的；可以接受的",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -462,7 +1987,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "引号内Wait是等等，OK问合不合适，不是确认正确答案。",
+            "sentenceSHA256": "bd44d012b82930a107c1b1710d9fac1d6fde65a9662a0cf7690bd7100e6594b1",
+            "words": 7,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2017-T4-P4-S4",
@@ -488,20 +2021,148 @@
           "translation": "我们是否应该转而重新调配这些资金，把它们集中用于火灾危险较小的地区？”",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "Do",
+              "lemma": "do",
+              "pos": "aux",
+              "meaning": "助动词，辅助表达否定、疑问或强调",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 5,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 10,
+              "word": "want",
+              "lemma": "want",
+              "pos": "v",
+              "meaning": "想要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 18,
+              "word": "instead",
+              "lemma": "instead",
+              "pos": "adv",
+              "meaning": "转而；改为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 21,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 22,
               "b": 30,
-              "lemma": "redirect",
-              "meaning": "改变投向；重新配置",
               "word": "redirect",
-              "pos": "v"
+              "lemma": "redirect",
+              "pos": "v",
+              "meaning": "重新调配；改变方向",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 36,
+              "word": "those",
+              "lemma": "those",
+              "pos": "pron",
+              "meaning": "那些人或事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 42,
+              "word": "funds",
+              "lemma": "fund",
+              "pos": "n",
+              "meaning": "资金",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 45,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 57,
+              "word": "concentrate",
+              "lemma": "concentrate",
+              "pos": "v",
+              "meaning": "集中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 60,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "关于；在……方面",
+              "reviewVersion": 2
             },
             {
               "a": 61,
               "b": 73,
-              "lemma": "lower-hazard",
-              "meaning": "危险性较低的",
               "word": "lower-hazard",
-              "pos": "a"
+              "lemma": "lower-hazard",
+              "pos": "a",
+              "meaning": "风险较低的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 79,
+              "word": "parts",
+              "lemma": "part",
+              "pos": "n",
+              "meaning": "地区；部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 82,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 86,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 96,
+              "word": "landscape",
+              "lemma": "landscape",
+              "pos": "n",
+              "meaning": "景色；地貌",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -511,7 +2172,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "redirect重新调配资金，lower-hazard为较低火灾风险地区。",
+            "sentenceSHA256": "eff2699e18d4cae32b4b34da11cea9adbe67e67d26a27ae42ce24f07ded2fbda",
+            "words": 16,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -547,7 +2216,170 @@
           ],
           "reorder": "把说话人前置，in the way 说明需要改变的对象。",
           "translation": "研究人员说，这样的看法要求当今美国社会相应地改变看待火的方式。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "Such",
+              "lemma": "such",
+              "pos": "det",
+              "meaning": "这样的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 6,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 11,
+              "word": "view",
+              "lemma": "view",
+              "pos": "n",
+              "meaning": "看法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 17,
+              "word": "would",
+              "lemma": "would",
+              "pos": "aux",
+              "meaning": "会（表示假设或过去将来）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 25,
+              "word": "require",
+              "lemma": "require",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 27,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 41,
+              "word": "corresponding",
+              "lemma": "corresponding",
+              "pos": "a",
+              "meaning": "相应的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 47,
+              "word": "shift",
+              "lemma": "shift",
+              "pos": "n",
+              "meaning": "转变",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 50,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 54,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 58,
+              "word": "way",
+              "lemma": "way",
+              "pos": "n",
+              "meaning": "方式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 61,
+              "word": "US",
+              "lemma": "US",
+              "pos": "name",
+              "meaning": "美国（United States缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 69,
+              "word": "society",
+              "lemma": "society",
+              "pos": "n",
+              "meaning": "社会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 75,
+              "word": "today",
+              "lemma": "today",
+              "pos": "adv",
+              "meaning": "如今",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 81,
+              "word": "views",
+              "lemma": "view",
+              "pos": "v",
+              "meaning": "看待",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 86,
+              "word": "fire",
+              "lemma": "fire",
+              "pos": "n",
+              "meaning": "火；火灾",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 99,
+              "word": "researchers",
+              "lemma": "researcher",
+              "pos": "n",
+              "meaning": "研究人员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 103,
+              "word": "say",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；表示",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -555,7 +2387,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "views是动词看待，US为美国，shift为观念转变。",
+            "sentenceSHA256": "f14a5d3f2b8bbbf31b6579b8fb27aa6cd72ab73699bf3ea73dc12529689a6222",
+            "words": 18,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -587,12 +2427,103 @@
           "translation": "首先，有关野火的讨论需要涵盖更多方面。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "For",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "与one thing组成首先",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 7,
+              "word": "one",
+              "lemma": "one",
+              "pos": "num",
+              "meaning": "一个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 13,
+              "word": "thing",
+              "lemma": "thing",
+              "pos": "n",
+              "meaning": "事情；问题",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 28,
+              "word": "conversations",
+              "lemma": "conversation",
+              "pos": "n",
+              "meaning": "讨论",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 34,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 44,
+              "word": "wildfires",
+              "lemma": "wildfire",
+              "pos": "n",
+              "meaning": "野火；林地火灾",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 49,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 52,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 55,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 60,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更；更多",
+              "reviewVersion": 2
+            },
+            {
               "a": 61,
               "b": 70,
-              "lemma": "inclusive",
-              "meaning": "考虑因素更全面的；涵盖更多方面的",
               "word": "inclusive",
-              "pos": "a"
+              "lemma": "inclusive",
+              "pos": "a",
+              "meaning": "涵盖广泛的；全面的",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -602,7 +2533,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "for one thing是首先，inclusive要求讨论更多因素。",
+            "sentenceSHA256": "76030fd41e33dfe98db7adbb1b8aeb80fb93b98c664d7a57c5113949cbac8eb8",
+            "words": 11,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2017-T4-P6-S2",
@@ -640,22 +2579,274 @@
           "translation": "过去十年间，人们一直将重点放在气候变化上，也就是温室气体导致的地球变暖如何形成加剧火灾的环境条件。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Over",
+              "lemma": "over",
+              "pos": "prep",
+              "meaning": "在过去十年期间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 8,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 13,
+              "word": "past",
+              "lemma": "past",
+              "pos": "a",
+              "meaning": "过去的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 20,
+              "word": "decade",
+              "lemma": "decade",
+              "pos": "n",
+              "meaning": "十年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 25,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 31,
+              "word": "focus",
+              "lemma": "focus",
+              "pos": "n",
+              "meaning": "重点；关注",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 35,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成完成时，不单独译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 40,
+              "word": "been",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "完成时中的be；承接后面的状态或语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 43,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "关于；在……方面",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 51,
+              "word": "climate",
+              "lemma": "climate",
+              "pos": "n",
+              "meaning": "气候",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 58,
+              "word": "change",
+              "lemma": "change",
+              "pos": "n",
+              "meaning": "变化（climate change为气候变化）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 64,
+              "word": "how",
+              "lemma": "how",
+              "pos": "adv",
+              "meaning": "如何",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 68,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 76,
+              "word": "warming",
+              "lemma": "warming",
+              "pos": "n",
+              "meaning": "变暖",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 79,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 83,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 89,
+              "word": "Earth",
+              "lemma": "Earth",
+              "pos": "name",
+              "meaning": "地球",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 94,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 105,
+              "word": "greenhouse",
+              "lemma": "greenhouse",
+              "pos": "n",
+              "meaning": "温室（greenhouse gases为温室气体）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 111,
+              "word": "gases",
+              "lemma": "gas",
+              "pos": "n",
+              "meaning": "气体",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 114,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与leading构成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 122,
+              "word": "leading",
+              "lemma": "lead",
+              "pos": "v",
+              "meaning": "导致",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 125,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "导致（lead to）",
+              "reviewVersion": 2
+            },
+            {
               "a": 126,
               "b": 136,
-              "lemma": "condition",
-              "meaning": "环境条件；形成火灾的条件",
               "word": "conditions",
-              "pos": "n"
+              "lemma": "condition",
+              "pos": "n",
+              "meaning": "环境条件",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 141,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指环境条件",
+              "reviewVersion": 2
+            },
+            {
+              "a": 142,
+              "b": 148,
+              "word": "worsen",
+              "lemma": "worsen",
+              "pos": "v",
+              "meaning": "加剧；使更糟",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 154,
+              "word": "fires",
+              "lemma": "fire",
+              "pos": "n",
+              "meaning": "火灾",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 115,
+              "b": 125,
+              "word": "leading to",
+              "lemma": "lead to",
+              "meaning": "导致",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "climate change是气候变化，leading to导致，conditions环境条件非疾病。",
+            "sentenceSHA256": "3bb5706fc2db3ce32988384064b9755438ae955f43e8a4f8e3c6e2956c7240ae",
+            "words": 27,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -693,12 +2884,184 @@
           "translation": "莫里茨说，虽然气候是一个关键因素，但不应因此忽略整个问题中的其他因素。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "While",
+              "lemma": "while",
+              "pos": "conj",
+              "meaning": "虽然；尽管",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 13,
+              "word": "climate",
+              "lemma": "climate",
+              "pos": "n",
+              "meaning": "气候",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 16,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 18,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "key",
+              "lemma": "key",
+              "pos": "a",
+              "meaning": "关键的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 30,
+              "word": "element",
+              "lemma": "element",
+              "pos": "n",
+              "meaning": "因素",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 38,
+              "word": "Moritz",
+              "lemma": "Moritz",
+              "pos": "name",
+              "meaning": "莫里茨（姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 43,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；指出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 47,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 57,
+              "word": "shouldn't",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "不应该",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 62,
+              "word": "come",
+              "lemma": "come",
+              "pos": "v",
+              "meaning": "发生；出现（come at the expense of整体为以……为代价）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 65,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "与the expense of组成以……为代价",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 69,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 77,
+              "word": "expense",
+              "lemma": "expense",
+              "pos": "n",
+              "meaning": "代价（at the expense of）；费用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 80,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 84,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 89,
+              "word": "rest",
+              "lemma": "rest",
+              "pos": "n",
+              "meaning": "其余部分（指其他因素）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 92,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 96,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 97,
               "b": 105,
-              "lemma": "equation",
-              "meaning": "整个问题中各因素的综合关系",
               "word": "equation",
-              "pos": "n"
+              "lemma": "equation",
+              "pos": "n",
+              "meaning": "问题的整体因素组合（比喻）；并非数学方程",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -707,7 +3070,8 @@
               "b": 80,
               "lemma": "at the expense of",
               "meaning": "以忽视或牺牲……为代价",
-              "word": "at the expense of"
+              "word": "at the expense of",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -716,7 +3080,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "while让步，equation指整体问题因素，不能只关注气候而忽视其他因素。",
+            "sentenceSHA256": "bb535c1b25c04b9a8a4481e2042935c57c54cfcbcf4a587ad9de760c6e0bf801",
+            "words": 20,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -752,14 +3124,187 @@
           ],
           "reorder": "把 he says 前置，we live on 限定自然环境；go both ways 说明互相影响。",
           "translation": "他说：“人类社会系统与我们生活的自然环境彼此关联，而且二者之间的相互作用是双向的。”",
-          "words": [],
+          "words": [
+            {
+              "a": 1,
+              "b": 4,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 10,
+              "word": "human",
+              "lemma": "human",
+              "pos": "a",
+              "meaning": "人类的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 18,
+              "word": "systems",
+              "lemma": "system",
+              "pos": "n",
+              "meaning": "系统",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 26,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 37,
+              "word": "landscapes",
+              "lemma": "landscape",
+              "pos": "n",
+              "meaning": "自然环境；地貌",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 40,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 45,
+              "word": "live",
+              "lemma": "live",
+              "pos": "v",
+              "meaning": "生活",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 48,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "生活在（某环境）上",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 52,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与linked构成被动形式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 59,
+              "word": "linked",
+              "lemma": "link",
+              "pos": "v",
+              "meaning": "关联；连接",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 64,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 68,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 81,
+              "word": "interactions",
+              "lemma": "interaction",
+              "pos": "n",
+              "meaning": "互动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 84,
+              "word": "go",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "发生作用；朝向",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 89,
+              "word": "both",
+              "lemma": "both",
+              "pos": "det",
+              "meaning": "两个方向都（both ways）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 94,
+              "word": "ways",
+              "lemma": "way",
+              "pos": "n",
+              "meaning": "方向",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 99,
+              "word": "he",
+              "lemma": "he",
+              "pos": "pron",
+              "meaning": "他",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 104,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；指出",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 82,
               "b": 94,
               "lemma": "go both ways",
               "meaning": "是双向的；相互影响",
-              "word": "go both ways"
+              "word": "go both ways",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -768,7 +3313,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "人类系统与自然环境相互关联，go both ways双向作用。",
+            "sentenceSHA256": "376f835547ed2af8bfa56e98f04d9c1c945530cd8dc202466575cb775601bdf3",
+            "words": 19,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2017-T4-P8-S2",
@@ -806,22 +3359,193 @@
           "translation": "他指出，如果认识不到这一点，就会“对可能的解决办法产生过于简化的认识。",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "Failing",
+              "lemma": "fail",
+              "pos": "v",
+              "meaning": "失败；未能奏效",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 10,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 20,
+              "word": "recognize",
+              "lemma": "recognize",
+              "pos": "v",
+              "meaning": "认识到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "人类系统与环境双向关联这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 29,
+              "word": "he",
+              "lemma": "he",
+              "pos": "pron",
+              "meaning": "他",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 35,
+              "word": "notes",
+              "lemma": "note",
+              "pos": "v",
+              "meaning": "指出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 42,
+              "word": "leads",
+              "lemma": "lead",
+              "pos": "v",
+              "meaning": "导致",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 45,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "导致（lead to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 49,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 56,
+              "word": "overly",
+              "lemma": "overly",
+              "pos": "adv",
+              "meaning": "过度地",
+              "reviewVersion": 2
+            },
+            {
               "a": 57,
               "b": 67,
-              "lemma": "simplified",
-              "meaning": "简化了的",
               "word": "simplified",
-              "pos": "a"
+              "lemma": "simplify",
+              "pos": "a",
+              "meaning": "简化的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 72,
+              "word": "view",
+              "lemma": "view",
+              "pos": "n",
+              "meaning": "看法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 75,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 80,
+              "word": "what",
+              "lemma": "what",
+              "pos": "pron",
+              "meaning": "所……的内容",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 84,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 94,
+              "word": "solutions",
+              "lemma": "solution",
+              "pos": "n",
+              "meaning": "解决办法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 100,
+              "word": "might",
+              "lemma": "might",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 103,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 37,
+              "b": 45,
+              "word": "leads to",
+              "lemma": "lead to",
+              "meaning": "导致",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "that指双向关联事实，fail to recognize为未认识到，lead to介词。",
+            "sentenceSHA256": "d81c7e5a349de4ccb93f119550329de57d77171577c8e4dd7e69da3fb9b2dd82",
+            "words": 18,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2017-T4-P8-S3",
@@ -847,20 +3571,130 @@
           "translation": "我们对问题本身及其解决办法的认识就会变得十分局限。”",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "Our",
+              "lemma": "our",
+              "pos": "pron",
+              "meaning": "我们的",
+              "reviewVersion": 2
+            },
+            {
               "a": 4,
               "b": 14,
-              "lemma": "perception",
-              "meaning": "认识；看待问题的方式",
               "word": "perception",
-              "pos": "n"
+              "lemma": "perception",
+              "pos": "n",
+              "meaning": "认识；看法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 17,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 21,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 29,
+              "word": "problem",
+              "lemma": "problem",
+              "pos": "n",
+              "meaning": "问题",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 33,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 36,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 41,
+              "word": "what",
+              "lemma": "what",
+              "pos": "pron",
+              "meaning": "所……的内容",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 45,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 54,
+              "word": "solution",
+              "lemma": "solution",
+              "pos": "n",
+              "meaning": "解决办法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 57,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 65,
+              "word": "becomes",
+              "lemma": "become",
+              "pos": "v",
+              "meaning": "变成；成为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 70,
+              "word": "very",
+              "lemma": "very",
+              "pos": "adv",
+              "meaning": "非常",
+              "reviewVersion": 2
             },
             {
               "a": 71,
               "b": 78,
-              "lemma": "limited",
-              "meaning": "受局限的；片面的",
               "word": "limited",
-              "pos": "a"
+              "lemma": "limited",
+              "pos": "a",
+              "meaning": "局限的",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -870,7 +3704,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "对问题与办法的认识都会受限，limited为局限的状态。",
+            "sentenceSHA256": "fb175737f5a7dfe4cbda0d05b18d4afc996d4bdf14a34b2bc8253e80655d28c1",
+            "words": 14,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -920,12 +3762,292 @@
           "translation": "科罗拉多大学的鲍尔奇教授说，与此同时，人们仍认为火需要被完全控制，只在必要时才允许用火。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "At",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 6,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 11,
+              "word": "same",
+              "lemma": "same",
+              "pos": "a",
+              "meaning": "相同的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 16,
+              "word": "time",
+              "lemma": "time",
+              "pos": "n",
+              "meaning": "时间；时刻",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 24,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 33,
+              "word": "continue",
+              "lemma": "continue",
+              "pos": "v",
+              "meaning": "继续",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 36,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 42,
+              "word": "treat",
+              "lemma": "treat",
+              "pos": "v",
+              "meaning": "看作；对待",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 47,
+              "word": "fire",
+              "lemma": "fire",
+              "pos": "n",
+              "meaning": "火；火灾",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 50,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "作为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 53,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 59,
+              "word": "event",
+              "lemma": "event",
+              "pos": "n",
+              "meaning": "事件",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 64,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指event即火这种现象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 70,
+              "word": "needs",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 73,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 76,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与controlled/unleashed构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 83,
+              "word": "wholly",
+              "lemma": "wholly",
+              "pos": "adv",
+              "meaning": "完全地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 94,
+              "word": "controlled",
+              "lemma": "control",
+              "pos": "v",
+              "meaning": "控制",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 98,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
               "a": 99,
               "b": 108,
-              "lemma": "unleash",
-              "meaning": "让其发生；允许使用火",
               "word": "unleashed",
-              "pos": "v"
+              "lemma": "unleash",
+              "pos": "v",
+              "meaning": "释放；允许使用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 113,
+              "word": "only",
+              "lemma": "only",
+              "pos": "adv",
+              "meaning": "仅仅；只有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 117,
+              "word": "out",
+              "lemma": "out",
+              "pos": "adv",
+              "meaning": "查明；梳理清楚（tease out）；出于（out of necessity）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 120,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 130,
+              "word": "necessity",
+              "lemma": "necessity",
+              "pos": "n",
+              "meaning": "必要性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 136,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；指出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 146,
+              "word": "Professor",
+              "lemma": "professor",
+              "pos": "n",
+              "meaning": "教授",
+              "reviewVersion": 2
+            },
+            {
+              "a": 147,
+              "b": 152,
+              "word": "Balch",
+              "lemma": "Balch",
+              "pos": "name",
+              "meaning": "鲍尔奇（姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 155,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 159,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 160,
+              "b": 170,
+              "word": "University",
+              "lemma": "university",
+              "pos": "n",
+              "meaning": "大学",
+              "reviewVersion": 2
+            },
+            {
+              "a": 171,
+              "b": 173,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 174,
+              "b": 182,
+              "word": "Colorado",
+              "lemma": "Colorado",
+              "pos": "name",
+              "meaning": "科罗拉多（州名）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -934,7 +4056,8 @@
               "b": 130,
               "lemma": "out of necessity",
               "meaning": "出于必要；因有需要",
-              "word": "out of necessity"
+              "word": "out of necessity",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -943,7 +4066,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "火被看成需控制且只在必要时释放的现象，be双重被动。",
+            "sentenceSHA256": "0f35dfbc5a14225b4995f8fd3ec9cf671f54ff81b712dca210484577794737c0",
+            "words": 32,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2017-T4-P9-S2",
@@ -993,28 +4124,256 @@
           "translation": "她说，但是，承认火在人类生活中不可避免地存在，这种态度对于制定使火尽可能安全的法律、政策与具体做法至关重要。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "But",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 17,
+              "word": "acknowledging",
+              "lemma": "acknowledge",
+              "pos": "v",
+              "meaning": "承认；正视",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 24,
+              "word": "fire's",
+              "lemma": "fire",
+              "pos": "n",
+              "meaning": "火的（所有格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 35,
+              "word": "inevitable",
+              "lemma": "inevitable",
+              "pos": "a",
+              "meaning": "不可避免的",
+              "reviewVersion": 2
+            },
+            {
               "a": 36,
               "b": 44,
-              "lemma": "presence",
-              "meaning": "存在",
               "word": "presence",
-              "pos": "n"
+              "lemma": "presence",
+              "pos": "n",
+              "meaning": "存在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 47,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 53,
+              "word": "human",
+              "lemma": "human",
+              "pos": "a",
+              "meaning": "人类的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 58,
+              "word": "life",
+              "lemma": "life",
+              "pos": "n",
+              "meaning": "人生；生活",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 61,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 64,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 73,
+              "word": "attitude",
+              "lemma": "attitude",
+              "pos": "n",
+              "meaning": "态度",
+              "reviewVersion": 2
             },
             {
               "a": 74,
               "b": 81,
-              "lemma": "crucial",
-              "meaning": "至关重要的",
               "word": "crucial",
-              "pos": "a"
+              "lemma": "crucial",
+              "pos": "a",
+              "meaning": "至关重要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 84,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "对制定法规等至关重要（crucial to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 95,
+              "word": "developing",
+              "lemma": "develop",
+              "pos": "v",
+              "meaning": "制定；形成（法规政策）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 99,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 104,
+              "word": "laws",
+              "lemma": "law",
+              "pos": "n",
+              "meaning": "法律",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 114,
+              "word": "policies",
+              "lemma": "policy",
+              "pos": "n",
+              "meaning": "政策",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 119,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 120,
               "b": 129,
-              "lemma": "practice",
-              "meaning": "具体做法；实践措施",
               "word": "practices",
-              "pos": "n"
+              "lemma": "practice",
+              "pos": "n",
+              "meaning": "具体做法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 134,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指法规政策与做法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 139,
+              "word": "make",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "使；让",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 142,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 145,
+              "word": "as",
+              "lemma": "as",
+              "pos": "adv",
+              "meaning": "尽可能……（as safe as possible）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 150,
+              "word": "safe",
+              "lemma": "safe",
+              "pos": "a",
+              "meaning": "安全的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 151,
+              "b": 153,
+              "word": "as",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "与前一个as组成尽可能安全",
+              "reviewVersion": 2
+            },
+            {
+              "a": 154,
+              "b": 162,
+              "word": "possible",
+              "lemma": "possible",
+              "pos": "a",
+              "meaning": "可能的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 167,
+              "word": "she",
+              "lemma": "she",
+              "pos": "pron",
+              "meaning": "她",
+              "reviewVersion": 2
+            },
+            {
+              "a": 168,
+              "b": 172,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；指出",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1024,7 +4383,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "crucial to后接动名词，develop为制定法规，as safe as possible尽可能安全。",
+            "sentenceSHA256": "be69ef56f78564bcea56c73f24a7cf21034ace83c6c9c89fc2a117ab914a8a1a",
+            "words": 28,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -1054,7 +4421,89 @@
           ],
           "reorder": "把说话人提前，disconnected ourselves from 按疏离的比喻义译出。",
           "translation": "鲍尔奇说：“我们已疏离了与火共处的生活。”",
-          "words": [],
+          "words": [
+            {
+              "a": 1,
+              "b": 6,
+              "word": "We've",
+              "lemma": "we have",
+              "pos": "pron",
+              "meaning": "我们已……（we have缩写）；完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 19,
+              "word": "disconnected",
+              "lemma": "disconnect",
+              "pos": "v",
+              "meaning": "切断联系；疏离",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 29,
+              "word": "ourselves",
+              "lemma": "ourselves",
+              "pos": "pron",
+              "meaning": "我们自己",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 34,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 41,
+              "word": "living",
+              "lemma": "live",
+              "pos": "v",
+              "meaning": "生活；栖息",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 46,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "带有；与……一起",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 51,
+              "word": "fire",
+              "lemma": "fire",
+              "pos": "n",
+              "meaning": "火；火灾",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 59,
+              "word": "Balch",
+              "lemma": "Balch",
+              "pos": "name",
+              "meaning": "鲍尔奇（姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 64,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；指出",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -1062,7 +4511,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "we've为we have完成时，disconnected表示与火共处的联系被疏离。",
+            "sentenceSHA256": "adcd2d240b9ef5ae32f2296d94cf6d033f4b8489abe336c476e2d83ecdf4bf05",
+            "words": 9,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2017-T4-P10-S2",
@@ -1094,12 +4551,175 @@
           "translation": "“理解并设法仔细梳理清楚当今人类与火之间究竟存在怎样的联系，非常重要。”",
           "words": [
             {
+              "a": 1,
+              "b": 3,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 6,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 13,
+              "word": "really",
+              "lemma": "really",
+              "pos": "adv",
+              "meaning": "真正地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 23,
+              "word": "important",
+              "lemma": "important",
+              "pos": "a",
+              "meaning": "重要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 26,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 37,
+              "word": "understand",
+              "lemma": "understand",
+              "pos": "v",
+              "meaning": "理解",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 41,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 45,
+              "word": "try",
+              "lemma": "try",
+              "pos": "v",
+              "meaning": "尽力；尝试",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 49,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "接在try后相当于to，表示设法做",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 55,
+              "word": "tease",
+              "lemma": "tease",
+              "pos": "v",
+              "meaning": "梳理清楚（tease out）；仔细分离",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 59,
+              "word": "out",
+              "lemma": "out",
+              "pos": "adv",
+              "meaning": "查明；梳理清楚（tease out）；出于（out of necessity）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 64,
+              "word": "what",
+              "lemma": "what",
+              "pos": "pron",
+              "meaning": "所……的内容",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 67,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 71,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 77,
+              "word": "human",
+              "lemma": "human",
+              "pos": "a",
+              "meaning": "人类的",
+              "reviewVersion": 2
+            },
+            {
               "a": 78,
               "b": 88,
-              "lemma": "connection",
-              "meaning": "联系；人与火的关系",
               "word": "connection",
-              "pos": "n"
+              "lemma": "connection",
+              "pos": "n",
+              "meaning": "联系",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 93,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "带有；与……一起",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 98,
+              "word": "fire",
+              "lemma": "fire",
+              "pos": "n",
+              "meaning": "火；火灾",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 104,
+              "word": "today",
+              "lemma": "today",
+              "pos": "adv",
+              "meaning": "如今",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -1108,7 +4728,8 @@
               "b": 59,
               "lemma": "tease out",
               "meaning": "仔细梳理；逐步弄清",
-              "word": "tease out"
+              "word": "tease out",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1117,9 +4738,32 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "try and tease out为设法梳理，第二个and相当于不定式连接。",
+            "sentenceSHA256": "448489d56d6eb456467a1ad1801fba73d5e41f3971785b37cf8611eee0fdb219",
+            "words": 19,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "594df42814d696dd45dd5a0e610752e37a9d985452b47a496b264aa4fd498be4",
+    "sentences": 20,
+    "wordOccurrences": 400,
+    "notes": [
+      "逐词复核财政、火生态和环境系统语境；明确US/it、fire、conditions、equation、dollars及比较数量，所有词位覆盖。"
+    ]
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

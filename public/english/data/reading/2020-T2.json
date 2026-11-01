@@ -75,35 +75,399 @@
           "translation": "首席执行官的薪酬确实上涨了：顶尖首席执行官的平均收入可能是普通员工的300倍；根据不同估算，自20世纪70年代中期以来，美国大型上市公司首席执行官的薪酬已上涨约500%。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "形式主语，引出后面的陈述",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 5,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 10,
+              "word": "true",
+              "lemma": "true",
+              "pos": "a",
+              "meaning": "确实的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 15,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引导所陈述的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 19,
+              "word": "CEO",
+              "lemma": "CEO",
+              "pos": "n",
+              "meaning": "首席执行官",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 23,
+              "word": "pay",
+              "lemma": "pay",
+              "pos": "n",
+              "meaning": "薪酬；报酬",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 27,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 32,
+              "word": "gone",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "已经变得（gone up表示上涨）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 35,
+              "word": "up",
+              "lemma": "up",
+              "pos": "adv",
+              "meaning": "上涨（go up的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 39,
+              "word": "top",
+              "lemma": "top",
+              "pos": "a",
+              "meaning": "顶尖的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 44,
+              "word": "ones",
+              "lemma": "one",
+              "pos": "pron",
+              "meaning": "那些首席执行官",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 48,
+              "word": "may",
+              "lemma": "may",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 53,
+              "word": "make",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "挣得；赚取",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 63,
+              "word": "times",
+              "lemma": "time",
+              "pos": "n",
+              "meaning": "倍",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 67,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 71,
+              "word": "pay",
+              "lemma": "pay",
+              "pos": "n",
+              "meaning": "薪酬；报酬",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 74,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或范围关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 82,
+              "word": "typical",
+              "lemma": "typical",
+              "pos": "a",
+              "meaning": "普通的；一般的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 90,
+              "word": "workers",
+              "lemma": "worker",
+              "pos": "n",
+              "meaning": "员工；劳动者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 93,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "与average搭配表示平均而言",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 101,
+              "word": "average",
+              "lemma": "average",
+              "pos": "n",
+              "meaning": "平均",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 106,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 112,
+              "word": "since",
+              "lemma": "since",
+              "pos": "prep",
+              "meaning": "自……以来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 116,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 126,
+              "word": "mid-1970s",
+              "lemma": "mid-1970s",
+              "pos": "n",
+              "meaning": "20世纪70年代中期",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 131,
+              "word": "CEO",
+              "lemma": "CEO",
+              "pos": "n",
+              "meaning": "首席执行官",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 135,
+              "word": "pay",
+              "lemma": "pay",
+              "pos": "n",
+              "meaning": "薪酬；报酬",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 139,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对于；对应于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 145,
+              "word": "large",
+              "lemma": "large",
+              "pos": "a",
+              "meaning": "大型的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 154,
+              "word": "publicly",
+              "lemma": "publicly",
+              "pos": "adv",
+              "meaning": "公开地（publicly traded指上市交易）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 155,
+              "b": 161,
+              "word": "traded",
+              "lemma": "trade",
+              "pos": "v",
+              "meaning": "被公开交易的；上市的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 162,
+              "b": 170,
+              "word": "American",
+              "lemma": "American",
+              "pos": "a",
+              "meaning": "美国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 171,
+              "b": 183,
+              "word": "corporations",
+              "lemma": "corporation",
+              "pos": "n",
+              "meaning": "公司；企业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 184,
+              "b": 187,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 189,
+              "b": 191,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "根据（估算或衡量标准）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 192,
+              "b": 199,
+              "word": "varying",
+              "lemma": "vary",
+              "pos": "a",
+              "meaning": "各不相同的",
+              "reviewVersion": 2
+            },
+            {
               "a": 200,
               "b": 209,
-              "lemma": "estimate",
-              "meaning": "估算；估计",
               "word": "estimates",
-              "pos": "n"
+              "lemma": "estimate",
+              "pos": "n",
+              "meaning": "估算",
+              "reviewVersion": 2
+            },
+            {
+              "a": 211,
+              "b": 215,
+              "word": "gone",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "已经变得（gone up表示上涨）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 216,
+              "b": 218,
+              "word": "up",
+              "lemma": "up",
+              "pos": "adv",
+              "meaning": "上涨（go up的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 219,
+              "b": 221,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "增加了（引出增幅）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 222,
+              "b": 227,
+              "word": "about",
+              "lemma": "about",
+              "pos": "adv",
+              "meaning": "大约",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
-              "a": 16,
-              "b": 23,
-              "lemma": "ceo pay",
-              "meaning": "首席执行官薪酬",
-              "word": "CEO pay"
+              "a": 28,
+              "b": 35,
+              "word": "gone up",
+              "lemma": "go up",
+              "meaning": "上涨",
+              "kind": "phrase"
             },
             {
-              "a": 128,
-              "b": 135,
-              "lemma": "ceo pay",
-              "meaning": "首席执行官薪酬",
-              "word": "CEO pay"
+              "a": 91,
+              "b": 101,
+              "word": "on average",
+              "lemma": "on average",
+              "meaning": "平均而言",
+              "kind": "phrase"
             },
             {
               "a": 146,
               "b": 161,
               "lemma": "publicly traded",
               "meaning": "公开上市交易的",
-              "word": "publicly traded"
+              "word": "publicly traded",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -112,7 +476,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "300倍是薪酬倍数，500%为增长幅度；第一个by是估算依据，第二个是增幅。",
+            "sentenceSHA256": "bf2350a56258e8ee02f4e0aa6f54369b70e2491a9e174a781a795039bc9b38ec",
+            "words": 41,
+            "phrases": 3,
+            "names": 0
+          }
         },
         {
           "id": "2020-T2-P1-S2",
@@ -138,12 +510,130 @@
           "translation": "美国顶尖公司的首席执行官如今一般每年挣约1890万美元。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 11,
+              "word": "typical",
+              "lemma": "typical",
+              "pos": "a",
+              "meaning": "普通的；一般的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 15,
+              "word": "CEO",
+              "lemma": "CEO",
+              "pos": "n",
+              "meaning": "首席执行官",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 18,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或范围关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 20,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 24,
+              "word": "top",
+              "lemma": "top",
+              "pos": "a",
+              "meaning": "顶尖的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 33,
+              "word": "American",
+              "lemma": "American",
+              "pos": "a",
+              "meaning": "美国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 45,
+              "word": "corporation",
+              "lemma": "corporation",
+              "pos": "n",
+              "meaning": "公司；企业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 49,
+              "word": "now",
+              "lemma": "now",
+              "pos": "adv",
+              "meaning": "如今",
+              "reviewVersion": 2
+            },
+            {
               "a": 50,
               "b": 55,
-              "lemma": "make",
-              "meaning": "赚取；年收入为",
               "word": "makes",
-              "pos": "v"
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "赚取；收入为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 61,
+              "word": "about",
+              "lemma": "about",
+              "pos": "adv",
+              "meaning": "大约",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 75,
+              "word": "million",
+              "lemma": "million",
+              "pos": "num",
+              "meaning": "百万",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 77,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "每；每一",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 82,
+              "word": "year",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -153,7 +643,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "1890万美元为年收入，a year中的a为每年，不是某个年份。",
+            "sentenceSHA256": "72bfc2eb85afd323b0819cbaa3f047ea5ecd4cd99a3fc30095579dc6b1cbda8e",
+            "words": 14,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -191,30 +689,283 @@
           "translation": "理解首席执行官薪酬上涨的最佳解释是：顶尖公司的商业机会迅速增加，而能担任首席执行官的人才数量有限。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "best",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "最合适的；最佳的",
+              "reviewVersion": 2
+            },
+            {
               "a": 9,
               "b": 14,
-              "lemma": "model",
-              "meaning": "解释框架；理论模型",
               "word": "model",
-              "pos": "n"
-            }
-          ],
-          "phrases": [
+              "lemma": "model",
+              "pos": "n",
+              "meaning": "解释框架；模型",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 18,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "用于；为了（理解）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 32,
+              "word": "understanding",
+              "lemma": "understand",
+              "pos": "v",
+              "meaning": "理解",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 36,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 43,
+              "word": "growth",
+              "lemma": "growth",
+              "pos": "n",
+              "meaning": "增长",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 46,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或范围关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 50,
+              "word": "CEO",
+              "lemma": "CEO",
+              "pos": "n",
+              "meaning": "首席执行官",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 54,
+              "word": "pay",
+              "lemma": "pay",
+              "pos": "n",
+              "meaning": "薪酬；报酬",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 57,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 62,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "那种模型（替代model）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 65,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或范围关系）",
+              "reviewVersion": 2
+            },
             {
               "a": 66,
+              "b": 73,
+              "word": "limited",
+              "lemma": "limited",
+              "pos": "a",
+              "meaning": "有限的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 77,
+              "word": "CEO",
+              "lemma": "CEO",
+              "pos": "n",
+              "meaning": "首席执行官",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
               "b": 84,
-              "lemma": "limited ceo talent",
-              "meaning": "高水平管理人才供应有限",
-              "word": "limited CEO talent"
+              "word": "talent",
+              "lemma": "talent",
+              "pos": "n",
+              "meaning": "人才；管理能力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 87,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中；在所述范围内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 89,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 95,
+              "word": "world",
+              "lemma": "world",
+              "pos": "n",
+              "meaning": "环境；世界",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 101,
+              "word": "where",
+              "lemma": "where",
+              "pos": "conj",
+              "meaning": "引出该环境下的具体情况",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 110,
+              "word": "business",
+              "lemma": "business",
+              "pos": "n",
+              "meaning": "商业；业务",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 124,
+              "word": "opportunities",
+              "lemma": "opportunity",
+              "pos": "n",
+              "meaning": "机会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 128,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对于；对应于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 132,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 136,
+              "word": "top",
+              "lemma": "top",
+              "pos": "a",
+              "meaning": "顶尖的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 142,
+              "word": "firms",
+              "lemma": "firm",
+              "pos": "n",
+              "meaning": "公司",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 146,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成进行时或被动结构",
+              "reviewVersion": 2
+            },
+            {
+              "a": 147,
+              "b": 154,
+              "word": "growing",
+              "lemma": "grow",
+              "pos": "v",
+              "meaning": "增长",
+              "reviewVersion": 2
+            },
+            {
+              "a": 155,
+              "b": 162,
+              "word": "rapidly",
+              "lemma": "rapidly",
+              "pos": "adv",
+              "meaning": "迅速地",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句对照原文",
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "that of替代model；where为商业机会增长环境，limited修饰管理人才供给。",
+            "sentenceSHA256": "f50c73a46309821e19174a36e2861adecc7f26833e808560c0990bd103118c41",
+            "words": 29,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2020-T2-P2-S2",
@@ -227,39 +978,185 @@
               "a": 0,
               "b": 45,
               "en": "The efforts of America' s highest-earning 1% ",
-              "zh": "美国收入最高的1%人群所作的努力"
+              "zh": "美国收入最高的1%人群所作的努力，"
             },
             {
               "a": 45,
               "b": 55,
               "en": "have been ",
-              "zh": "一直是全球经济中"
+              "zh": "一直是，"
             },
             {
               "a": 55,
               "b": 110,
               "en": "one of the more dynamic elements of the global economy.",
-              "zh": "比较有活力的因素之一"
+              "zh": "全球经济中较有活力的因素之一。"
             }
           ],
           "reorder": "无需调序。",
           "translation": "美国收入最高的1%人群所作的努力，一直是全球经济中比较有活力的因素之一。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 11,
+              "word": "efforts",
+              "lemma": "effort",
+              "pos": "n",
+              "meaning": "努力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 14,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或范围关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 22,
+              "word": "America",
+              "lemma": "America",
+              "pos": "name",
+              "meaning": "美国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 25,
+              "word": "s",
+              "lemma": "'s",
+              "pos": "part",
+              "meaning": "名词所有格标记，表示“……的”",
+              "reviewVersion": 2
+            },
+            {
               "a": 26,
               "b": 41,
-              "lemma": "highest-earning",
-              "meaning": "收入最高的",
               "word": "highest-earning",
-              "pos": "a"
+              "lemma": "highest-earning",
+              "pos": "a",
+              "meaning": "收入最高的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 49,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 54,
+              "word": "been",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "一直是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 58,
+              "word": "one",
+              "lemma": "one",
+              "pos": "pron",
+              "meaning": "其中一个因素",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 61,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或范围关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 65,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 70,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更；程度较高",
+              "reviewVersion": 2
             },
             {
               "a": 71,
               "b": 78,
-              "lemma": "dynamic",
-              "meaning": "活跃而有推动力的",
               "word": "dynamic",
-              "pos": "a"
+              "lemma": "dynamic",
+              "pos": "a",
+              "meaning": "活跃而有推动力的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 87,
+              "word": "elements",
+              "lemma": "element",
+              "pos": "n",
+              "meaning": "因素；组成部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 90,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或范围关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 94,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 101,
+              "word": "global",
+              "lemma": "global",
+              "pos": "a",
+              "meaning": "全球的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 109,
+              "word": "economy",
+              "lemma": "economy",
+              "pos": "n",
+              "meaning": "经济",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -269,7 +1166,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "美国收入前1%人群为施事，全球经济修饰elements；删除前块提前译入的范围。",
+            "sentenceSHA256": "f0fe7ea3d89821352c54a1b5716ba1f0ab05af3dac665089f53d899b8ac6ff3d",
+            "words": 18,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2020-T2-P2-S3",
@@ -287,7 +1192,53 @@
           ],
           "reorder": "无需调序。",
           "translation": "这样说可能不讨人喜欢。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "It's",
+              "lemma": "it is",
+              "pos": "v",
+              "meaning": "这件事是（it is的缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 8,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 16,
+              "word": "popular",
+              "lemma": "popular",
+              "pos": "a",
+              "meaning": "受欢迎的；讨人喜欢的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 19,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接要做的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 23,
+              "word": "say",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；表达",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -295,7 +1246,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "不受欢迎的是这种说法，popular不是流行商品；按原卷保留断句。",
+            "sentenceSHA256": "e2fcec80fb8097b2c91f093eafb7da05a6ae151a240a26b7da5ec2c0c99c4d44",
+            "words": 5,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2020-T2-P2-S4",
@@ -325,14 +1284,259 @@
           ],
           "reorder": "把 relative to 的比较范围放在“首席执行官确实提升”前。",
           "translation": "但他们薪酬大幅上涨的一个原因是，相较于美国经济中许多其他劳动者，首席执行官确实提升了自身的能力和表现。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 7,
+              "word": "one",
+              "lemma": "one",
+              "pos": "pron",
+              "meaning": "其中一个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 14,
+              "word": "reason",
+              "lemma": "reason",
+              "pos": "n",
+              "meaning": "原因",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 20,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 24,
+              "word": "pay",
+              "lemma": "pay",
+              "pos": "n",
+              "meaning": "薪酬；报酬",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 28,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "gone",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "已经变得（gone up表示上涨）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 36,
+              "word": "up",
+              "lemma": "up",
+              "pos": "adv",
+              "meaning": "上涨（go up的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 39,
+              "word": "so",
+              "lemma": "so",
+              "pos": "adv",
+              "meaning": "如此；这么",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 44,
+              "word": "much",
+              "lemma": "much",
+              "pos": "adv",
+              "meaning": "程度很大",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 47,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 52,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引导所陈述的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 57,
+              "word": "CEOs",
+              "lemma": "CEO",
+              "pos": "n",
+              "meaning": "首席执行官们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 64,
+              "word": "really",
+              "lemma": "really",
+              "pos": "adv",
+              "meaning": "确实",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 69,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 75,
+              "word": "upped",
+              "lemma": "up",
+              "pos": "v",
+              "meaning": "提高；提升",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 81,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 86,
+              "word": "game",
+              "lemma": "game",
+              "pos": "n",
+              "meaning": "能力与表现（up one's game搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 95,
+              "word": "relative",
+              "lemma": "relative",
+              "pos": "a",
+              "meaning": "相对而言（relative to为相比于）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 98,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "相比的对象（relative to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 103,
+              "word": "many",
+              "lemma": "many",
+              "pos": "a",
+              "meaning": "许多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 109,
+              "word": "other",
+              "lemma": "other",
+              "pos": "a",
+              "meaning": "其他的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 117,
+              "word": "workers",
+              "lemma": "worker",
+              "pos": "n",
+              "meaning": "员工；劳动者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 120,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中；在所述范围内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 124,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 129,
+              "word": "U.S.",
+              "lemma": "U.S.",
+              "pos": "name",
+              "meaning": "美国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 137,
+              "word": "economy",
+              "lemma": "economy",
+              "pos": "n",
+              "meaning": "经济",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 70,
               "b": 86,
-              "lemma": "up their game",
+              "lemma": "up one's game",
               "meaning": "提升了自身能力与表现",
-              "word": "upped their game"
+              "word": "upped their game",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -341,7 +1545,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "up one’s game为提高表现，relative to表对比劳动者，不是参加比赛。",
+            "sentenceSHA256": "8540b238958be293f5f6fd1d9031622c854c62806c2f79fe413b055e18c21040",
+            "words": 27,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -385,22 +1597,229 @@
           "translation": "如今，至少在美国大公司里，首席执行官需要掌握的技能远不止会“管理公司”。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "Today",
+              "lemma": "today",
+              "pos": "adv",
+              "meaning": "如今",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 8,
+              "word": "s",
+              "lemma": "'s",
+              "pos": "part",
+              "meaning": "名词所有格标记，表示“……的”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 12,
+              "word": "CEO",
+              "lemma": "CEO",
+              "pos": "n",
+              "meaning": "首席执行官",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 16,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "与least搭配，表示至少",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 22,
+              "word": "least",
+              "lemma": "little",
+              "pos": "adv",
+              "meaning": "最低限度（at least指至少）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 26,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对于；对应于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 32,
+              "word": "major",
+              "lemma": "major",
+              "pos": "a",
+              "meaning": "大规模的；主要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 41,
+              "word": "American",
+              "lemma": "American",
+              "pos": "a",
+              "meaning": "美国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 47,
+              "word": "firms",
+              "lemma": "firm",
+              "pos": "n",
+              "meaning": "公司",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 53,
+              "word": "must",
+              "lemma": "must",
+              "pos": "aux",
+              "meaning": "必须",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 58,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "具备；拥有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 63,
+              "word": "many",
+              "lemma": "many",
+              "pos": "a",
+              "meaning": "许多",
+              "reviewVersion": 2
+            },
+            {
               "a": 64,
               "b": 68,
-              "lemma": "more",
-              "meaning": "此处比较结构疑为 more 的原文录入错误；意为更多的",
               "word": "mere",
-              "pos": "a"
+              "lemma": "more",
+              "pos": "a",
+              "meaning": "原卷疑误作mere，按many…than理解为更多的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 75,
+              "word": "skills",
+              "lemma": "skill",
+              "pos": "n",
+              "meaning": "技能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 80,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "与……相比；超过",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 87,
+              "word": "simply",
+              "lemma": "simply",
+              "pos": "adv",
+              "meaning": "仅仅",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 93,
+              "word": "being",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "处于所说的状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 98,
+              "word": "able",
+              "lemma": "able",
+              "pos": "a",
+              "meaning": "能够的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 101,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接要做的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 106,
+              "word": "run",
+              "lemma": "run",
+              "pos": "v",
+              "meaning": "经营；管理",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 110,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 118,
+              "word": "company",
+              "lemma": "company",
+              "pos": "n",
+              "meaning": "公司",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 14,
+              "b": 22,
+              "word": "at least",
+              "lemma": "at least",
+              "meaning": "至少",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句对照原文",
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "原卷mere疑为more，保留源文而按many…than比较解释，have为具备技能。",
+            "sentenceSHA256": "e43ce9a7e701fc3c3194216c33e3b76961f162df9cdf593cf2c69aabc56487a8",
+            "words": 22,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2020-T2-P3-S2",
@@ -432,20 +1851,175 @@
           "translation": "首席执行官必须充分了解金融市场，甚至可能还得懂得公司应该如何在这些市场上交易。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "CEOs",
+              "lemma": "CEO",
+              "pos": "n",
+              "meaning": "首席执行官们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 9,
+              "word": "must",
+              "lemma": "must",
+              "pos": "aux",
+              "meaning": "必须",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 14,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "具备；拥有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 16,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 21,
+              "word": "good",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "良好的；充分的",
+              "reviewVersion": 2
+            },
+            {
               "a": 22,
               "b": 27,
-              "lemma": "sense",
-              "meaning": "理解；把握能力",
               "word": "sense",
-              "pos": "n"
+              "lemma": "sense",
+              "pos": "n",
+              "meaning": "了解；把握能力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 30,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或范围关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 40,
+              "word": "financial",
+              "lemma": "financial",
+              "pos": "a",
+              "meaning": "金融的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 48,
+              "word": "markets",
+              "lemma": "market",
+              "pos": "n",
+              "meaning": "市场",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 52,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 58,
+              "word": "maybe",
+              "lemma": "maybe",
+              "pos": "adv",
+              "meaning": "也许",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 63,
+              "word": "even",
+              "lemma": "even",
+              "pos": "adv",
+              "meaning": "甚至",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 67,
+              "word": "how",
+              "lemma": "how",
+              "pos": "adv",
+              "meaning": "如何",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 71,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 79,
+              "word": "company",
+              "lemma": "company",
+              "pos": "n",
+              "meaning": "公司",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 86,
+              "word": "should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应当",
+              "reviewVersion": 2
             },
             {
               "a": 87,
               "b": 92,
-              "lemma": "trade",
-              "meaning": "进行金融交易",
               "word": "trade",
-              "pos": "v"
+              "lemma": "trade",
+              "pos": "v",
+              "meaning": "交易",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 95,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……市场中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 100,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（宾格）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -455,7 +2029,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "have a sense为充分了解，trade为金融交易而非行业，them指金融市场。",
+            "sentenceSHA256": "35b6a9d6f6eb76b9c4e0e3488d3737c163ae2c8009bb86bd15faf884419dca40",
+            "words": 19,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2020-T2-P3-S3",
@@ -468,57 +2050,239 @@
               "a": 0,
               "b": 71,
               "en": "They also need better public relations skills than their predecessors, ",
-              "zh": "他们还需要比前任更高明的公关技能"
+              "zh": "他们还需要比前任更好的公关技能，"
             },
             {
               "a": 71,
               "b": 107,
               "en": "as the costs of even a minor slipup ",
-              "zh": "因为即使一个小失误"
+              "zh": "因为即使是一次小失误造成的代价，"
             },
             {
               "a": 107,
               "b": 126,
               "en": "can be significant.",
-              "zh": "也可能造成很大的损失"
+              "zh": "也可能很大。"
             }
           ],
           "reorder": "把 than their predecessors 的比较对象放到“更高明”前。",
           "translation": "他们还需要比前任更高明的公关技能，因为即使一个小失误，也可能造成很大的损失。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "They",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 9,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "也；还",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 14,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 21,
+              "word": "better",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "更好的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 28,
+              "word": "public",
+              "lemma": "public",
+              "pos": "a",
+              "meaning": "公众的（public relations指公关）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 38,
+              "word": "relations",
+              "lemma": "relation",
+              "pos": "n",
+              "meaning": "关系（public relations指公共关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 45,
+              "word": "skills",
+              "lemma": "skill",
+              "pos": "n",
+              "meaning": "技能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 50,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "与……相比；超过",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 56,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
               "a": 57,
               "b": 69,
-              "lemma": "predecessor",
-              "meaning": "前任；以往的同职者",
               "word": "predecessors",
-              "pos": "n"
+              "lemma": "predecessor",
+              "pos": "n",
+              "meaning": "前任",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 73,
+              "word": "as",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "因为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 77,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 83,
+              "word": "costs",
+              "lemma": "cost",
+              "pos": "n",
+              "meaning": "代价；损失",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 86,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或范围关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 91,
+              "word": "even",
+              "lemma": "even",
+              "pos": "adv",
+              "meaning": "甚至",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 93,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 99,
+              "word": "minor",
+              "lemma": "minor",
+              "pos": "a",
+              "meaning": "小的；轻微的",
+              "reviewVersion": 2
             },
             {
               "a": 100,
               "b": 106,
-              "lemma": "slipup",
-              "meaning": "小失误",
               "word": "slipup",
-              "pos": "n"
+              "lemma": "slipup",
+              "pos": "n",
+              "meaning": "失误",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 110,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 113,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；呈现某种状态",
+              "reviewVersion": 2
             },
             {
               "a": 114,
               "b": 125,
-              "lemma": "significant",
-              "meaning": "影响重大的",
               "word": "significant",
-              "pos": "a"
+              "lemma": "significant",
+              "pos": "a",
+              "meaning": "重大的",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 22,
+              "b": 38,
+              "word": "public relations",
+              "lemma": "public relations",
+              "meaning": "公共关系；公关",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句对照原文",
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "costs是失误代价，even指即使小失误；修分块让代价和很大对应原文。",
+            "sentenceSHA256": "9b326aca6a403642aa6d67f799e8306ba58a28e92c663f6903883bed41073e95",
+            "words": 21,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2020-T2-P3-S4",
@@ -548,14 +2312,241 @@
           ],
           "reorder": "无需调序。",
           "translation": "此外，美国大公司的全球化程度远超以往，供应链分布在更多国家。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "Then",
+              "lemma": "then",
+              "pos": "adv",
+              "meaning": "此外；还有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 12,
+              "word": "there's",
+              "lemma": "there is",
+              "pos": "v",
+              "meaning": "还有；存在（there is的缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 16,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 21,
+              "word": "fact",
+              "lemma": "fact",
+              "pos": "n",
+              "meaning": "事实",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 26,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引导所陈述的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 32,
+              "word": "large",
+              "lemma": "large",
+              "pos": "a",
+              "meaning": "大型的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 41,
+              "word": "American",
+              "lemma": "American",
+              "pos": "a",
+              "meaning": "美国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 51,
+              "word": "companies",
+              "lemma": "company",
+              "pos": "n",
+              "meaning": "公司",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 55,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "构成状态说明：全球化程度更高",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 60,
+              "word": "much",
+              "lemma": "much",
+              "pos": "adv",
+              "meaning": "程度很大",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 65,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更；程度较高",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 76,
+              "word": "globalized",
+              "lemma": "globalize",
+              "pos": "a",
+              "meaning": "全球化的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 81,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "与……相比；超过",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 86,
+              "word": "ever",
+              "lemma": "ever",
+              "pos": "adv",
+              "meaning": "以往任何时候",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 93,
+              "word": "before",
+              "lemma": "before",
+              "pos": "adv",
+              "meaning": "以前",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 99,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "并且伴有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 106,
+              "word": "supply",
+              "lemma": "supply",
+              "pos": "n",
+              "meaning": "供应",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 113,
+              "word": "chains",
+              "lemma": "chain",
+              "pos": "n",
+              "meaning": "链条（supply chains指供应链）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 120,
+              "word": "spread",
+              "lemma": "spread",
+              "pos": "v",
+              "meaning": "分布；延伸",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 127,
+              "word": "across",
+              "lemma": "across",
+              "pos": "prep",
+              "meaning": "遍及",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 129,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 136,
+              "word": "larger",
+              "lemma": "large",
+              "pos": "a",
+              "meaning": "更多的；规模更大的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 143,
+              "word": "number",
+              "lemma": "number",
+              "pos": "n",
+              "meaning": "数量",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 146,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或范围关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 147,
+              "b": 156,
+              "word": "countries",
+              "lemma": "country",
+              "pos": "n",
+              "meaning": "国家",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 100,
               "b": 113,
-              "lemma": "supply chains",
+              "lemma": "supply chain",
               "meaning": "供应链",
-              "word": "supply chains"
+              "word": "supply chains",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -564,7 +2555,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "全球化程度高于以往，with引出供应链分布，不是与供应链比较。",
+            "sentenceSHA256": "d1a75e7ce01a367588402836f2e06eb8b9a07cd8929a3a4cc83fab6749bb2400",
+            "words": 25,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2020-T2-P3-S5",
@@ -590,12 +2589,103 @@
           "translation": "要领导这样的体系，所需掌握的知识之广，令人难以想象。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "To",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接要做的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "lead",
+              "lemma": "lead",
+              "pos": "v",
+              "meaning": "领导",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 10,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中；在所述范围内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 15,
+              "word": "that",
+              "lemma": "that",
+              "pos": "a",
+              "meaning": "那样的（前述全球化体系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 22,
+              "word": "system",
+              "lemma": "system",
+              "pos": "n",
+              "meaning": "体系",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 31,
+              "word": "requires",
+              "lemma": "require",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 41,
+              "word": "knowledge",
+              "lemma": "knowledge",
+              "pos": "n",
+              "meaning": "知识",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 46,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指knowledge",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 49,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "联系知识与其复杂庞大的特点",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 56,
+              "word": "fairly",
+              "lemma": "fairly",
+              "pos": "adv",
+              "meaning": "相当",
+              "reviewVersion": 2
+            },
+            {
               "a": 57,
               "b": 70,
-              "lemma": "mind-boggling",
-              "meaning": "复杂庞大得令人难以想象的",
               "word": "mind-boggling",
-              "pos": "a"
+              "lemma": "mind-boggling",
+              "pos": "a",
+              "meaning": "复杂庞大得令人难以想象的",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -605,7 +2695,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "首that指前述体系，后that为知识的关系词；知识庞大复杂而非领导者发疯。",
+            "sentenceSHA256": "035c16983e1ef3875ea79162d9043597ec3bdeb57c50c8de06bcc7c430ed2986",
+            "words": 11,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2020-T2-P3-S6",
@@ -637,21 +2735,140 @@
           "translation": "此外，几乎所有美国大公司都在以某种方式变成科技公司。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Plus",
+              "lemma": "plus",
+              "pos": "adv",
+              "meaning": "此外",
+              "reviewVersion": 2
+            },
+            {
               "a": 6,
               "b": 15,
-              "lemma": "virtually",
-              "meaning": "几乎",
               "word": "virtually",
-              "pos": "adv"
+              "lemma": "virtually",
+              "pos": "adv",
+              "meaning": "几乎",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 19,
+              "word": "all",
+              "lemma": "all",
+              "pos": "a",
+              "meaning": "所有的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 25,
+              "word": "major",
+              "lemma": "major",
+              "pos": "a",
+              "meaning": "大规模的；主要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 34,
+              "word": "American",
+              "lemma": "American",
+              "pos": "a",
+              "meaning": "美国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 44,
+              "word": "companies",
+              "lemma": "company",
+              "pos": "n",
+              "meaning": "公司",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 48,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成进行时或被动结构",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 57,
+              "word": "becoming",
+              "lemma": "become",
+              "pos": "v",
+              "meaning": "变成",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 62,
+              "word": "tech",
+              "lemma": "tech",
+              "pos": "n",
+              "meaning": "科技",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 72,
+              "word": "companies",
+              "lemma": "company",
+              "pos": "n",
+              "meaning": "公司",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 77,
+              "word": "one",
+              "lemma": "one",
+              "pos": "a",
+              "meaning": "某一种（方式）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 81,
+              "word": "way",
+              "lemma": "way",
+              "pos": "n",
+              "meaning": "方式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 84,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 92,
+              "word": "another",
+              "lemma": "another",
+              "pos": "pron",
+              "meaning": "另一种方式",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 74,
               "b": 92,
+              "word": "one way or another",
               "lemma": "one way or another",
-              "meaning": "以这种或那种方式",
-              "word": "one way or another"
+              "meaning": "以某种方式",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -660,7 +2877,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "virtually为几乎，one way or another指不同形式，are becoming为进行变化。",
+            "sentenceSHA256": "71726864d9a6bbc0ead2e4dc0128f38401d944d258101be35678d3c497c05131",
+            "words": 14,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2020-T2-P3-S7",
@@ -686,22 +2911,175 @@
           "translation": "除此之外，大公司的首席执行官仍须处理以往一直承担的全部日常工作。",
           "words": [
             {
+              "a": 0,
+              "b": 6,
+              "word": "Beyond",
+              "lemma": "beyond",
+              "pos": "prep",
+              "meaning": "除了……之外",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 11,
+              "word": "this",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "前述新增职责与技能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 18,
+              "word": "major",
+              "lemma": "major",
+              "pos": "a",
+              "meaning": "大规模的；主要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 23,
+              "word": "CEOs",
+              "lemma": "CEO",
+              "pos": "n",
+              "meaning": "首席执行官们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 29,
+              "word": "still",
+              "lemma": "still",
+              "pos": "adv",
+              "meaning": "仍然",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 34,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "不得不（have to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 37,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "连接have to中的必须做的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 40,
+              "word": "do",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "做；处理",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 44,
+              "word": "all",
+              "lemma": "all",
+              "pos": "a",
+              "meaning": "所有的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 48,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 49,
               "b": 59,
-              "lemma": "day-to-day",
-              "meaning": "日常的",
               "word": "day-to-day",
-              "pos": "a"
+              "lemma": "day-to-day",
+              "pos": "a",
+              "meaning": "日常的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 64,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 69,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 74,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 81,
+              "word": "always",
+              "lemma": "always",
+              "pos": "adv",
+              "meaning": "一直",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 86,
+              "word": "done",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "做；承担（工作）",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 30,
+              "b": 37,
+              "word": "have to",
+              "lemma": "have to",
+              "meaning": "必须",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句对照原文",
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "第一个have表示必须，第二个为完成时；日常工作是新增技能之外的职责。",
+            "sentenceSHA256": "74d363026b9783431179ec8826f1d7c390c6af7742308c3923481b888241fe48",
+            "words": 16,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -731,14 +3109,188 @@
           ],
           "reorder": "无需调序。",
           "translation": "人们普遍认为，首席执行官的高薪主要来自对别人的盘剥，但这种看法无法很好地解释历史情况。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 10,
+              "word": "common",
+              "lemma": "common",
+              "pos": "a",
+              "meaning": "普遍的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 15,
+              "word": "idea",
+              "lemma": "idea",
+              "pos": "n",
+              "meaning": "看法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引导所陈述的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "high",
+              "lemma": "high",
+              "pos": "a",
+              "meaning": "高的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 29,
+              "word": "CEO",
+              "lemma": "CEO",
+              "pos": "n",
+              "meaning": "首席执行官",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 33,
+              "word": "pay",
+              "lemma": "pay",
+              "pos": "n",
+              "meaning": "薪酬；报酬",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 36,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 43,
+              "word": "mainly",
+              "lemma": "mainly",
+              "pos": "adv",
+              "meaning": "主要地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 49,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于；在于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 57,
+              "word": "ripping",
+              "lemma": "rip",
+              "pos": "v",
+              "meaning": "盘剥；坑骗（rip off搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 64,
+              "word": "people",
+              "lemma": "people",
+              "pos": "n",
+              "meaning": "他人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 68,
+              "word": "off",
+              "lemma": "off",
+              "pos": "adv",
+              "meaning": "rip off的一部分，表示坑骗或盘剥",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 76,
+              "word": "doesn't",
+              "lemma": "do",
+              "pos": "aux",
+              "meaning": "并不（does not）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 84,
+              "word": "explain",
+              "lemma": "explain",
+              "pos": "v",
+              "meaning": "解释",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 92,
+              "word": "history",
+              "lemma": "history",
+              "pos": "n",
+              "meaning": "历史情况",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 97,
+              "word": "very",
+              "lemma": "very",
+              "pos": "adv",
+              "meaning": "很；十分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 102,
+              "word": "well",
+              "lemma": "well",
+              "pos": "adv",
+              "meaning": "充分地；好地",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 50,
+              "b": 57,
+              "word": "ripping",
+              "lemma": "rip off",
+              "meaning": "坑骗；盘剥；敲竹杠",
+              "kind": "phrase",
+              "structure": true
+            },
+            {
+              "a": 65,
               "b": 68,
-              "lemma": "rip people off",
-              "meaning": "坑骗或剥削他人",
-              "word": "ripping people off"
+              "word": "off",
+              "lemma": "rip off",
+              "meaning": "坑骗；盘剥；敲竹杠",
+              "kind": "phrase",
+              "structure": true
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -747,7 +3299,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "普遍看法的内容不代表作者认可；doesn’t否定这种看法解释历史的能力。",
+            "sentenceSHA256": "44152094fbfe593082709028a29bb9b4f2e62597196f2bb6dcf39c8201dc71b4",
+            "words": 18,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2020-T2-P4-S2",
@@ -760,31 +3320,158 @@
               "a": 0,
               "b": 18,
               "en": "By most measures, ",
-              "zh": "从大多数衡量标准来看"
+              "zh": "按大多数衡量标准，"
             },
             {
               "a": 18,
               "b": 39,
               "en": "corporate governance ",
-              "zh": "自20世纪70年代以来，公司治理"
+              "zh": "公司治理，"
             },
             {
               "a": 39,
               "b": 98,
               "en": "has become a lot tighter and more rigorous since the 1970s.",
-              "zh": "已经严格、严密得多"
+              "zh": "自20世纪70年代以来已严格、严密得多。"
             }
           ],
           "reorder": "将 since the 1970s 的时间范围提到谓语前。",
           "translation": "从大多数衡量标准来看，自20世纪70年代以来，公司治理已经变得严格、严密得多。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "By",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "根据（估算或衡量标准）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "most",
+              "lemma": "most",
+              "pos": "a",
+              "meaning": "大多数的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 16,
+              "word": "measures",
+              "lemma": "measure",
+              "pos": "n",
+              "meaning": "衡量标准",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 27,
+              "word": "corporate",
+              "lemma": "corporate",
+              "pos": "a",
+              "meaning": "公司的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 38,
+              "word": "governance",
+              "lemma": "governance",
+              "pos": "n",
+              "meaning": "治理；监督制度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 42,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 49,
+              "word": "become",
+              "lemma": "become",
+              "pos": "v",
+              "meaning": "变得",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 51,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "表示a lot这个程度短语，不指一个个体",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 55,
+              "word": "lot",
+              "lemma": "lot",
+              "pos": "n",
+              "meaning": "很大程度（a lot表程度）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 63,
+              "word": "tighter",
+              "lemma": "tight",
+              "pos": "a",
+              "meaning": "更严格的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 67,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 72,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更；程度较高",
+              "reviewVersion": 2
+            },
+            {
               "a": 73,
               "b": 81,
-              "lemma": "rigorous",
-              "meaning": "严格的；严密的",
               "word": "rigorous",
-              "pos": "a"
+              "lemma": "rigorous",
+              "pos": "a",
+              "meaning": "严格严密的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 87,
+              "word": "since",
+              "lemma": "since",
+              "pos": "prep",
+              "meaning": "自……以来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 91,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -793,7 +3480,8 @@
               "b": 38,
               "lemma": "corporate governance",
               "meaning": "公司治理与监督制度",
-              "word": "corporate governance"
+              "word": "corporate governance",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -802,7 +3490,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "by measures为按标准，治理与自1970年代时间分属各原块，删除提前重复。",
+            "sentenceSHA256": "119731a34329ca94cb9548745d1e55910d2ed605997d5e0401cb612b5f0bda5f",
+            "words": 15,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2020-T2-P4-S3",
@@ -828,12 +3524,166 @@
           "translation": "然而，首席执行官的薪酬居高不下并不断上涨，主要恰恰发生在公司治理加强的这段时期。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "Yet",
+              "lemma": "yet",
+              "pos": "conj",
+              "meaning": "然而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 6,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "强调句形式词，不指具体事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 9,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
               "a": 10,
               "b": 21,
-              "lemma": "principally",
-              "meaning": "主要地",
               "word": "principally",
-              "pos": "adv"
+              "lemma": "principally",
+              "pos": "adv",
+              "meaning": "主要地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 28,
+              "word": "during",
+              "lemma": "during",
+              "pos": "prep",
+              "meaning": "在……期间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "this",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "前述新增职责与技能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 40,
+              "word": "period",
+              "lemma": "period",
+              "pos": "n",
+              "meaning": "时期",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 43,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或范围关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 52,
+              "word": "stronger",
+              "lemma": "strong",
+              "pos": "a",
+              "meaning": "更有力的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 63,
+              "word": "governance",
+              "lemma": "governance",
+              "pos": "n",
+              "meaning": "治理；监督制度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 68,
+              "word": "that",
+              "lemma": "that",
+              "pos": "part",
+              "meaning": "强调句连接词，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 72,
+              "word": "CEO",
+              "lemma": "CEO",
+              "pos": "n",
+              "meaning": "首席执行官",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 76,
+              "word": "pay",
+              "lemma": "pay",
+              "pos": "n",
+              "meaning": "薪酬；报酬",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 80,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 85,
+              "word": "been",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "一直是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 90,
+              "word": "high",
+              "lemma": "high",
+              "pos": "a",
+              "meaning": "高的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 94,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 101,
+              "word": "rising",
+              "lemma": "rise",
+              "pos": "v",
+              "meaning": "上涨",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -843,7 +3693,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "it is…that为强调时期，principally是主要而非完全只在该时期。",
+            "sentenceSHA256": "c520b12c9c6175ec3827a8f5133da44b78b9b28b98ddf44403a1b6c184ae38f4",
+            "words": 18,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2020-T2-P4-S4",
@@ -873,23 +3731,177 @@
           ],
           "reorder": "把 to recruit 的真实主语提到“符合公司整体利益”前。",
           "translation": "这表明，为越来越难的工作招募顶尖人才，符合公司的整体利益。",
-          "words": [],
-          "phrases": [
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "That",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "前句治理强化时薪酬仍上涨这一事实",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 13,
+              "word": "suggests",
+              "lemma": "suggest",
+              "pos": "v",
+              "meaning": "表明",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 16,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "形式主语，真正主语是后面的招募人才",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 19,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 22,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "符合……利益（in the interest）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 26,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 34,
+              "word": "broader",
+              "lemma": "broad",
+              "pos": "a",
+              "meaning": "更全面的；整体的",
+              "reviewVersion": 2
+            },
             {
               "a": 35,
+              "b": 44,
+              "word": "corporate",
+              "lemma": "corporate",
+              "pos": "a",
+              "meaning": "公司的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
               "b": 53,
-              "lemma": "corporate interest",
-              "meaning": "公司整体利益",
-              "word": "corporate interest"
+              "word": "interest",
+              "lemma": "interest",
+              "pos": "n",
+              "meaning": "利益",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 56,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接要做的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 64,
+              "word": "recruit",
+              "lemma": "recruit",
+              "pos": "v",
+              "meaning": "招募",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 68,
+              "word": "top",
+              "lemma": "top",
+              "pos": "a",
+              "meaning": "顶尖的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 79,
+              "word": "candidates",
+              "lemma": "candidate",
+              "pos": "n",
+              "meaning": "候选人；人才",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 83,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对于；对应于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 96,
+              "word": "increasingly",
+              "lemma": "increasingly",
+              "pos": "adv",
+              "meaning": "日益；越来越",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 102,
+              "word": "tough",
+              "lemma": "tough",
+              "pos": "a",
+              "meaning": "艰难的；要求高的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 107,
+              "word": "jobs",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "工作；职位",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句对照原文",
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "interest是公司整体利益，形式主语it回接招募高要求职位人才。",
+            "sentenceSHA256": "741a77cae60032c39d338415ea2c4c8b1543b9215f96b7955e3b4678b0867327",
+            "words": 17,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -932,43 +3944,354 @@
               "a": 164,
               "b": 206,
               "en": "at the expense of the rest of the company.",
-              "zh": "并非以公司其他人的利益为代价"
+              "zh": "以公司其他人的利益为代价的。"
             }
           ],
           "reorder": "将 at the expense of 的后置修饰放到“掠夺”前。",
           "translation": "此外，拿到最高薪酬的是外部候选人，而非内部关系户；这进一步表明，首席执行官的高薪并不是以公司其他人的利益为代价的掠夺。",
           "words": [
             {
+              "a": 0,
+              "b": 11,
+              "word": "Furthermore",
+              "lemma": "furthermore",
+              "pos": "adv",
+              "meaning": "此外",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 16,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 24,
+              "word": "highest",
+              "lemma": "high",
+              "pos": "a",
+              "meaning": "最高的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 28,
+              "word": "CEO",
+              "lemma": "CEO",
+              "pos": "n",
+              "meaning": "首席执行官",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 37,
+              "word": "salaries",
+              "lemma": "salary",
+              "pos": "n",
+              "meaning": "薪酬",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 41,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成进行时或被动结构",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 46,
+              "word": "paid",
+              "lemma": "pay",
+              "pos": "v",
+              "meaning": "支付给",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 49,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "支付给的接受者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 57,
+              "word": "outside",
+              "lemma": "outside",
+              "pos": "a",
+              "meaning": "外部的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 68,
+              "word": "candidates",
+              "lemma": "candidate",
+              "pos": "n",
+              "meaning": "候选人；人才",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 73,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 76,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "支付给的接受者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 80,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 81,
               "b": 85,
-              "lemma": "cozy",
-              "meaning": "关系密切而相互照顾的",
               "word": "cozy",
-              "pos": "a"
+              "lemma": "cozy",
+              "pos": "a",
+              "meaning": "关系密切、相互照顾的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 93,
+              "word": "insider",
+              "lemma": "insider",
+              "pos": "n",
+              "meaning": "内部人士",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 99,
+              "word": "picks",
+              "lemma": "pick",
+              "pos": "n",
+              "meaning": "挑选的人选",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 108,
+              "word": "another",
+              "lemma": "another",
+              "pos": "a",
+              "meaning": "又一个；另一个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 113,
+              "word": "sign",
+              "lemma": "sign",
+              "pos": "n",
+              "meaning": "迹象；表明某事的证据",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 118,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引导所陈述的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 123,
+              "word": "high",
+              "lemma": "high",
+              "pos": "a",
+              "meaning": "高的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 127,
+              "word": "CEO",
+              "lemma": "CEO",
+              "pos": "n",
+              "meaning": "首席执行官",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 131,
+              "word": "pay",
+              "lemma": "pay",
+              "pos": "n",
+              "meaning": "薪酬；报酬",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 134,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 138,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 139,
+              "b": 143,
+              "word": "some",
+              "lemma": "some",
+              "pos": "a",
+              "meaning": "某种",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 148,
+              "word": "kind",
+              "lemma": "kind",
+              "pos": "n",
+              "meaning": "种类",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 151,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或范围关系）",
+              "reviewVersion": 2
             },
             {
               "a": 152,
               "b": 163,
-              "lemma": "depredation",
-              "meaning": "掠夺；侵占",
               "word": "depredation",
-              "pos": "n"
+              "lemma": "depredation",
+              "pos": "n",
+              "meaning": "掠夺；侵占",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 166,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "与the expense of连用，表示以……为代价",
+              "reviewVersion": 2
+            },
+            {
+              "a": 167,
+              "b": 170,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 171,
+              "b": 178,
+              "word": "expense",
+              "lemma": "expense",
+              "pos": "n",
+              "meaning": "代价（at the expense of表示牺牲）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 179,
+              "b": 181,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或范围关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 182,
+              "b": 185,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 186,
+              "b": 190,
+              "word": "rest",
+              "lemma": "rest",
+              "pos": "n",
+              "meaning": "其余的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 191,
+              "b": 193,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或范围关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 194,
+              "b": 197,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 198,
+              "b": 205,
+              "word": "company",
+              "lemma": "company",
+              "pos": "n",
+              "meaning": "公司",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
-            {
-              "a": 86,
-              "b": 99,
-              "lemma": "insider picks",
-              "meaning": "从内部关系圈挑选的人选",
-              "word": "insider picks"
-            },
             {
               "a": 164,
               "b": 181,
               "lemma": "at the expense of",
               "meaning": "以牺牲……的利益为代价",
-              "word": "at the expense of"
+              "word": "at the expense of",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -977,7 +4300,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "outside对比内部关系户，not管掠夺整个短语；末块去重复否定保持对应。",
+            "sentenceSHA256": "45b5004265ed1c10fa5dea76f31c572c091933e2a7d5613dfc7779aa807770f6",
+            "words": 37,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2020-T2-P5-S2",
@@ -1009,44 +4340,283 @@
           "translation": "而当公司把首席执行官薪酬与股价等指标挂钩时，股票市场会作出积极反应，这表明这些做法提高了公司价值，受益的不只是首席执行官。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "And",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 7,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 13,
+              "word": "stock",
+              "lemma": "stock",
+              "pos": "n",
+              "meaning": "股票",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 20,
+              "word": "market",
+              "lemma": "market",
+              "pos": "n",
+              "meaning": "市场",
+              "reviewVersion": 2
+            },
+            {
               "a": 21,
               "b": 27,
-              "lemma": "react",
-              "meaning": "作出反应",
               "word": "reacts",
-              "pos": "v"
+              "lemma": "react",
+              "pos": "v",
+              "meaning": "作出反应",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 38,
+              "word": "positively",
+              "lemma": "positively",
+              "pos": "adv",
+              "meaning": "积极地；正面地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 43,
+              "word": "when",
+              "lemma": "when",
+              "pos": "conj",
+              "meaning": "当……时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 53,
+              "word": "companies",
+              "lemma": "company",
+              "pos": "n",
+              "meaning": "公司",
+              "reviewVersion": 2
             },
             {
               "a": 54,
               "b": 57,
-              "lemma": "tie",
-              "meaning": "把……挂钩；联系起来",
               "word": "tie",
-              "pos": "v"
+              "lemma": "tie",
+              "pos": "v",
+              "meaning": "把……挂钩",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 61,
+              "word": "CEO",
+              "lemma": "CEO",
+              "pos": "n",
+              "meaning": "首席执行官",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 65,
+              "word": "pay",
+              "lemma": "pay",
+              "pos": "n",
+              "meaning": "薪酬；报酬",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 68,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "挂钩的对象（tie to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 73,
+              "word": "say",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "例如；比方说（插入举例）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 80,
+              "word": "stock",
+              "lemma": "stock",
+              "pos": "n",
+              "meaning": "股票",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 87,
+              "word": "prices",
+              "lemma": "price",
+              "pos": "n",
+              "meaning": "价格",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 90,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 95,
+              "word": "sign",
+              "lemma": "sign",
+              "pos": "n",
+              "meaning": "迹象；表明某事的证据",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 100,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引导所陈述的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 106,
+              "word": "those",
+              "lemma": "those",
+              "pos": "a",
+              "meaning": "那些",
+              "reviewVersion": 2
             },
             {
               "a": 107,
               "b": 116,
-              "lemma": "practice",
-              "meaning": "做法；薪酬安排",
               "word": "practices",
-              "pos": "n"
+              "lemma": "practice",
+              "pos": "n",
+              "meaning": "做法；薪酬安排",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 122,
+              "word": "build",
+              "lemma": "build",
+              "pos": "v",
+              "meaning": "增加（与up搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 125,
+              "word": "up",
+              "lemma": "up",
+              "pos": "adv",
+              "meaning": "与build搭配，表示增加",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 135,
+              "word": "corporate",
+              "lemma": "corporate",
+              "pos": "a",
+              "meaning": "公司的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 141,
+              "word": "value",
+              "lemma": "value",
+              "pos": "n",
+              "meaning": "价值",
+              "reviewVersion": 2
+            },
+            {
+              "a": 142,
+              "b": 145,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 150,
+              "word": "just",
+              "lemma": "just",
+              "pos": "adv",
+              "meaning": "仅仅",
+              "reviewVersion": 2
+            },
+            {
+              "a": 151,
+              "b": 154,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "使……受益；为……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 155,
+              "b": 158,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 159,
+              "b": 162,
+              "word": "CEO",
+              "lemma": "CEO",
+              "pos": "n",
+              "meaning": "首席执行官",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 75,
               "b": 87,
-              "lemma": "stock prices",
+              "lemma": "stock price",
               "meaning": "股票价格",
-              "word": "stock prices"
+              "word": "stock prices",
+              "kind": "phrase"
             },
             {
-              "a": 126,
-              "b": 141,
-              "lemma": "corporate value",
-              "meaning": "企业整体价值",
-              "word": "corporate value"
+              "a": 117,
+              "b": 125,
+              "word": "build up",
+              "lemma": "build up",
+              "meaning": "增加；提升",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1055,9 +4625,30 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "say为插入举例股价；build up是增加公司价值，受益不只是CEO。",
+            "sentenceSHA256": "1ffd45c9bb0f80eb2a30f2867280dc0f1f96078efd8b61d0ff754c18d71334a3",
+            "words": 29,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "c05251b6c188e4cb830e80ddc5300adc134ebc1dcc8e4fc463b348b7a9a63412",
+    "sentences": 19,
+    "wordOccurrences": 396,
+    "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

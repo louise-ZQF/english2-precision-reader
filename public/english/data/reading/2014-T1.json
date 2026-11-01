@@ -41,7 +41,53 @@
           ],
           "reorder": "无需调整语序。",
           "translation": "如果有5.9亿美元，你会拿它做什么？",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "What",
+              "lemma": "what",
+              "pos": "pron",
+              "meaning": "什么（询问处理方式）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 10,
+              "word": "would",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "会（假设或条件语气）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 14,
+              "word": "you",
+              "lemma": "you",
+              "pos": "pron",
+              "meaning": "你；你们（也可泛指人们）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 17,
+              "word": "do",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "做；处理",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 22,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "用；与；对……",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -49,7 +95,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "590m为5.9亿美元，would假设语气，with问拿钱做什么。",
+            "sentenceSHA256": "aba3198202d80f7a13408c1098131ecf0516df054dcb57ddb71bc65f478ca62a",
+            "words": 5,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T1-P1-S2",
@@ -87,44 +141,274 @@
           "translation": "现在，这个问题摆在84岁的寡妇格洛丽亚·麦克肯齐面前，她最近走出位于佛罗里达州那间小小的铁皮屋顶住宅，去领取史上金额最大、由一人独得的彩票头奖。",
           "words": [
             {
-              "a": 51,
+              "a": 0,
+              "b": 4,
+              "word": "This",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；这本（承接所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 7,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 11,
+              "word": "now",
+              "lemma": "now",
+              "pos": "adv",
+              "meaning": "现在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 13,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 22,
+              "word": "question",
+              "lemma": "question",
+              "pos": "n",
+              "meaning": "问题",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 26,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对于；为……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 33,
+              "word": "Gloria",
+              "lemma": "Gloria",
+              "pos": "name",
+              "meaning": "格洛丽亚（名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 43,
+              "word": "MacKenzie",
+              "lemma": "MacKenzie",
+              "pos": "name",
+              "meaning": "麦克肯齐（姓）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 47,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
               "b": 59,
-              "word": "year-old",
-              "lemma": "year-old",
-              "meaning": "……岁的（与前面的数字合读）",
-              "pos": "a"
+              "word": "84-year-old",
+              "lemma": "84-year-old",
+              "pos": "a",
+              "meaning": "84岁的",
+              "reviewVersion": 2
             },
             {
               "a": 60,
               "b": 65,
               "word": "widow",
               "lemma": "widow",
+              "pos": "n",
               "meaning": "寡妇",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 69,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指中奖寡妇",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 78,
+              "word": "recently",
+              "lemma": "recently",
+              "pos": "adv",
+              "meaning": "最近",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 86,
+              "word": "emerged",
+              "lemma": "emerge",
+              "pos": "v",
+              "meaning": "走出；出现",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 91,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；走出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 95,
+              "word": "her",
+              "lemma": "her",
+              "pos": "pron",
+              "meaning": "她的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 101,
+              "word": "small",
+              "lemma": "small",
+              "pos": "a",
+              "meaning": "小的",
+              "reviewVersion": 2
             },
             {
               "a": 103,
               "b": 113,
               "word": "tin-roofed",
               "lemma": "tin-roofed",
+              "pos": "a",
               "meaning": "有铁皮屋顶的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 119,
+              "word": "house",
+              "lemma": "house",
+              "pos": "n",
+              "meaning": "住宅",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 122,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……之中；在某地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 130,
+              "word": "Florida",
+              "lemma": "Florida",
+              "pos": "name",
+              "meaning": "佛罗里达州",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 133,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 141,
+              "word": "collect",
+              "lemma": "collect",
+              "pos": "v",
+              "meaning": "领取（奖金）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 142,
+              "b": 145,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 153,
+              "word": "biggest",
+              "lemma": "big",
+              "pos": "a",
+              "meaning": "金额最大的",
+              "reviewVersion": 2
             },
             {
               "a": 154,
               "b": 163,
               "word": "undivided",
               "lemma": "undivided",
-              "meaning": "未与别人平分的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "未与他人平分的；由一人独得的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 171,
+              "word": "lottery",
+              "lemma": "lottery",
+              "pos": "n",
+              "meaning": "彩票",
+              "reviewVersion": 2
             },
             {
               "a": 172,
               "b": 179,
               "word": "jackpot",
               "lemma": "jackpot",
-              "meaning": "头奖；巨额奖金",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "彩票头奖；巨额奖金",
+              "reviewVersion": 2
+            },
+            {
+              "a": 180,
+              "b": 182,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……之中；在某地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 183,
+              "b": 190,
+              "word": "history",
+              "lemma": "history",
+              "pos": "n",
+              "meaning": "历史",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -134,7 +418,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "84-year-old完整复合词，undivided指一人独得，who说明领奖事件。",
+            "sentenceSHA256": "668d401a394413221b742c5dc893c9dc97babf8b03c629e9bdb5189ca6e8785b",
+            "words": 30,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T1-P1-S3",
@@ -178,36 +470,238 @@
           "translation": "如果她希望这笔新得的巨款能带来持久的满足感，读一读伊丽莎白·邓恩和迈克尔·诺顿写的《快乐金钱》，不失为一个好选择。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "If",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "如果",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 6,
+              "word": "she",
+              "lemma": "she",
+              "pos": "pron",
+              "meaning": "她",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 12,
+              "word": "hopes",
+              "lemma": "hope",
+              "pos": "v",
+              "meaning": "希望",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 16,
+              "word": "her",
+              "lemma": "her",
+              "pos": "pron",
+              "meaning": "她的",
+              "reviewVersion": 2
+            },
+            {
               "a": 17,
               "b": 26,
               "word": "new-found",
               "lemma": "new-found",
+              "pos": "a",
               "meaning": "新近获得的",
-              "pos": "a"
+              "reviewVersion": 2
             },
             {
               "a": 27,
               "b": 34,
               "word": "fortune",
               "lemma": "fortune",
-              "meaning": "一大笔钱；巨款",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "巨款；大笔财富",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 39,
+              "word": "will",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "将会；会",
+              "reviewVersion": 2
             },
             {
               "a": 40,
               "b": 45,
               "word": "yield",
               "lemma": "yield",
-              "meaning": "产生；带来",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "带来；产生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 53,
+              "word": "lasting",
+              "lemma": "lasting",
+              "pos": "a",
+              "meaning": "持久的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 62,
+              "word": "feelings",
+              "lemma": "feeling",
+              "pos": "n",
+              "meaning": "感受",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 65,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
             },
             {
               "a": 66,
               "b": 76,
               "word": "fulfilment",
               "lemma": "fulfilment",
+              "pos": "n",
               "meaning": "满足感；充实感",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 81,
+              "word": "she",
+              "lemma": "she",
+              "pos": "pron",
+              "meaning": "她",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 87,
+              "word": "could",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "可以（could do worse than整体表示不失为好选择）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 90,
+              "word": "do",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "做；处理",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 96,
+              "word": "worse",
+              "lemma": "bad",
+              "pos": "adv",
+              "meaning": "更糟（could do worse than整体是肯定建议）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 101,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 106,
+              "word": "read",
+              "lemma": "read",
+              "pos": "v",
+              "meaning": "阅读",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 112,
+              "word": "Happy",
+              "lemma": "happy",
+              "pos": "a",
+              "meaning": "快乐的（书名中的词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 118,
+              "word": "Money",
+              "lemma": "money",
+              "pos": "n",
+              "meaning": "金钱",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 121,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "由（作者）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 131,
+              "word": "Elizabeth",
+              "lemma": "Elizabeth",
+              "pos": "name",
+              "meaning": "伊丽莎白（名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 136,
+              "word": "Dunn",
+              "lemma": "Dunn",
+              "pos": "name",
+              "meaning": "邓恩（姓）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 140,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 148,
+              "word": "Michael",
+              "lemma": "Michael",
+              "pos": "name",
+              "meaning": "迈克尔（名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 155,
+              "word": "Norton",
+              "lemma": "Norton",
+              "pos": "name",
+              "meaning": "诺顿（姓）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -216,7 +710,8 @@
               "b": 101,
               "lemma": "could do worse than",
               "meaning": "……不失为一个不错的选择",
-              "word": "could do worse than"
+              "word": "could do worse than",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -225,7 +720,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "could do worse than为肯定建议不是劝更糟；财富产生持久满足感。",
+            "sentenceSHA256": "8294c60d86d07ec76bd5eb54a56a7a15c7a949c96b545aff7f643adbcf027cbe",
+            "words": 26,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -269,36 +772,202 @@
           "translation": "这两位学者运用一系列行为研究说明，最能带来满足感的花钱方式，可能与直觉相反。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "These",
+              "lemma": "these",
+              "pos": "art",
+              "meaning": "这些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 9,
+              "word": "two",
+              "lemma": "two",
+              "pos": "num",
+              "meaning": "二；两个",
+              "reviewVersion": 2
+            },
+            {
               "a": 10,
               "b": 19,
               "word": "academics",
               "lemma": "academic",
-              "meaning": "研究者；学者",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "学者；研究者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 23,
+              "word": "use",
+              "lemma": "use",
+              "pos": "v",
+              "meaning": "运用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 26,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 27,
               "b": 32,
               "word": "array",
               "lemma": "array",
-              "meaning": "一系列；一整套",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "一系列",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 35,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 46,
+              "word": "behavioral",
+              "lemma": "behavioral",
+              "pos": "a",
+              "meaning": "行为方面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 55,
+              "word": "research",
+              "lemma": "research",
+              "pos": "n",
+              "meaning": "研究",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 58,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 63,
+              "word": "show",
+              "lemma": "show",
+              "pos": "v",
+              "meaning": "表明",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 68,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出研究表明的内容",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 72,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 77,
+              "word": "most",
+              "lemma": "most",
+              "pos": "adv",
+              "meaning": "最；程度最高",
+              "reviewVersion": 2
             },
             {
               "a": 78,
               "b": 87,
               "word": "rewarding",
               "lemma": "rewarding",
-              "meaning": "带来满足感的；值得的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "带来满足感的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 92,
+              "word": "ways",
+              "lemma": "way",
+              "pos": "n",
+              "meaning": "方式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 95,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 101,
+              "word": "spend",
+              "lemma": "spend",
+              "pos": "v",
+              "meaning": "花费",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 107,
+              "word": "money",
+              "lemma": "money",
+              "pos": "n",
+              "meaning": "金钱",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 111,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能够；可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 114,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；具有某特点（系动词）",
+              "reviewVersion": 2
             },
             {
               "a": 115,
               "b": 131,
               "word": "counterintuitive",
               "lemma": "counterintuitive",
+              "pos": "a",
               "meaning": "与直觉相反的",
-              "pos": "a"
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -308,7 +977,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "学者运用行为研究，counterintuitive与直觉相反不是错误做法。",
+            "sentenceSHA256": "f0d9daf6109637a062097dc3088f07a331180521fe850431f3605d20f7052fba",
+            "words": 22,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T1-P2-S2",
@@ -340,28 +1017,121 @@
           "translation": "对巨额财富的幻想常常包含豪车与奢华住宅的画面。",
           "words": [
             {
+              "a": 0,
+              "b": 9,
+              "word": "Fantasies",
+              "lemma": "fantasy",
+              "pos": "n",
+              "meaning": "幻想",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 12,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 18,
+              "word": "great",
+              "lemma": "great",
+              "pos": "a",
+              "meaning": "大量的；巨额的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 25,
+              "word": "wealth",
+              "lemma": "wealth",
+              "pos": "n",
+              "meaning": "财富",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 31,
+              "word": "often",
+              "lemma": "often",
+              "pos": "adv",
+              "meaning": "常常",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 39,
+              "word": "involve",
+              "lemma": "involve",
+              "pos": "v",
+              "meaning": "包含；涉及",
+              "reviewVersion": 2
+            },
+            {
               "a": 40,
               "b": 47,
               "word": "visions",
               "lemma": "vision",
-              "meaning": "想象中的景象",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "想象的画面",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 50,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
             },
             {
               "a": 51,
               "b": 56,
               "word": "fancy",
               "lemma": "fancy",
+              "pos": "a",
               "meaning": "豪华时髦的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 61,
+              "word": "cars",
+              "lemma": "car",
+              "pos": "n",
+              "meaning": "汽车",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 65,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 66,
               "b": 77,
               "word": "extravagant",
               "lemma": "extravagant",
-              "meaning": "奢华而铺张的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "奢华铺张的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 83,
+              "word": "homes",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "住宅",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -371,7 +1141,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "visions为豪车豪宅想象画面，fancy形容词非喜欢的动词。",
+            "sentenceSHA256": "95c1385fe033f8d203f11f4c45b45aa4cae09431add235af91ac45d6d23c6e58",
+            "words": 13,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T1-P2-S3",
@@ -397,21 +1175,104 @@
           "translation": "然而，对购买这些物质商品的满足感消退得相当快。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "Yet",
+              "lemma": "yet",
+              "pos": "conj",
+              "meaning": "然而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 16,
+              "word": "satisfaction",
+              "lemma": "satisfaction",
+              "pos": "n",
+              "meaning": "满足感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 21,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "用；与；对……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 27,
+              "word": "these",
+              "lemma": "these",
+              "pos": "art",
+              "meaning": "这些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 36,
+              "word": "material",
+              "lemma": "material",
+              "pos": "a",
+              "meaning": "物质的",
+              "reviewVersion": 2
+            },
+            {
               "a": 37,
               "b": 46,
               "word": "purchases",
               "lemma": "purchase",
-              "meaning": "购买的东西；花钱购买",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "花钱购买的东西或体验",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 52,
+              "word": "wears",
+              "lemma": "wear",
+              "pos": "v",
+              "meaning": "逐渐消退（wear off）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 56,
+              "word": "off",
+              "lemma": "off",
+              "pos": "part",
+              "meaning": "与wear组成消退；与better组成境况更好",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 63,
+              "word": "fairly",
+              "lemma": "fairly",
+              "pos": "adv",
+              "meaning": "相当；颇为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 71,
+              "word": "quickly",
+              "lemma": "quickly",
+              "pos": "adv",
+              "meaning": "迅速地",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 47,
               "b": 56,
-              "lemma": "wears off",
+              "lemma": "wear off",
               "meaning": "逐渐消退；失去新鲜感",
-              "word": "wears off"
+              "word": "wears off",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -420,7 +1281,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "wear off指满足感消退，with连接对消费品的感受。",
+            "sentenceSHA256": "f8559a19b1f75b808a6acb2d71f15d0c7e5244e7528905573b9a24906a4345ca",
+            "words": 10,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2014-T1-P2-S4",
@@ -452,29 +1321,113 @@
           "translation": "一度令人兴奋又新奇的东西变得老套乏味，悔意悄然滋生。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "What",
+              "lemma": "what",
+              "pos": "pron",
+              "meaning": "一度……的东西（主语从句）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 8,
+              "word": "was",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是（过去时）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 13,
+              "word": "once",
+              "lemma": "once",
+              "pos": "adv",
+              "meaning": "曾经；一度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 22,
+              "word": "exciting",
+              "lemma": "exciting",
+              "pos": "a",
+              "meaning": "令人兴奋的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 26,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 30,
+              "word": "new",
+              "lemma": "new",
+              "pos": "a",
+              "meaning": "新奇的；新的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 38,
+              "word": "becomes",
+              "lemma": "become",
+              "pos": "v",
+              "meaning": "变得",
+              "reviewVersion": 2
+            },
+            {
               "a": 39,
               "b": 46,
               "word": "old-hat",
               "lemma": "old-hat",
-              "meaning": "过时的；不再新鲜的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "过时乏味的；不再新鲜的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 54,
+              "word": "regret",
+              "lemma": "regret",
+              "pos": "n",
+              "meaning": "后悔；悔意",
+              "reviewVersion": 2
             },
             {
               "a": 55,
               "b": 61,
               "word": "creeps",
               "lemma": "creep",
-              "meaning": "悄悄出现；逐渐滋生",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "悄然滋生（creep in搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 64,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……之中；在某地",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 55,
               "b": 64,
-              "lemma": "creeps in",
+              "lemma": "creep in",
               "meaning": "悄悄产生",
-              "word": "creeps in"
+              "word": "creeps in",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -483,7 +1436,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "What引出一度兴奋的东西，old-hat老套，creep in悔意滋生。",
+            "sentenceSHA256": "4d86a2c1687d2feacf968c78b9f39a5a0e3caa130420f97b83446c4aecf09909",
+            "words": 11,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2014-T1-P2-S5",
@@ -519,7 +1480,242 @@
           ],
           "reorder": "把 say 说话人提前，引出花钱建议，再接例子。",
           "translation": "邓恩女士和诺顿先生说，把钱花在体验上要好得多，例如有趣的旅行、独特的用餐体验，甚至去电影院。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "形式主语，实际内容是把钱花在体验上",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 5,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 9,
+              "word": "far",
+              "lemma": "far",
+              "pos": "adv",
+              "meaning": "远远地；大大地（加强比较）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 16,
+              "word": "better",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "更好的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 19,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 25,
+              "word": "spend",
+              "lemma": "spend",
+              "pos": "v",
+              "meaning": "花费",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 31,
+              "word": "money",
+              "lemma": "money",
+              "pos": "n",
+              "meaning": "金钱",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 34,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "花在……上（spend on）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 46,
+              "word": "experiences",
+              "lemma": "experience",
+              "pos": "n",
+              "meaning": "体验；亲身经历",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 51,
+              "word": "say",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；认为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 54,
+              "word": "Ms",
+              "lemma": "Ms",
+              "pos": "abbr",
+              "meaning": "女士（称呼）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 59,
+              "word": "Dunn",
+              "lemma": "Dunn",
+              "pos": "name",
+              "meaning": "邓恩（姓）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 63,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 66,
+              "word": "Mr",
+              "lemma": "Mr",
+              "pos": "abbr",
+              "meaning": "先生（称呼）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 73,
+              "word": "Norton",
+              "lemma": "Norton",
+              "pos": "name",
+              "meaning": "诺顿（姓）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 79,
+              "word": "like",
+              "lemma": "like",
+              "pos": "prep",
+              "meaning": "例如",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 91,
+              "word": "interesting",
+              "lemma": "interesting",
+              "pos": "a",
+              "meaning": "有趣的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 97,
+              "word": "trips",
+              "lemma": "trip",
+              "pos": "n",
+              "meaning": "旅行",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 105,
+              "word": "unique",
+              "lemma": "unique",
+              "pos": "a",
+              "meaning": "独特的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 111,
+              "word": "meals",
+              "lemma": "meal",
+              "pos": "n",
+              "meaning": "用餐；餐饮体验",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 114,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 119,
+              "word": "even",
+              "lemma": "even",
+              "pos": "adv",
+              "meaning": "甚至",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 125,
+              "word": "going",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "去；前往",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 128,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 132,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 139,
+              "word": "cinema",
+              "lemma": "cinema",
+              "pos": "n",
+              "meaning": "电影院",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -527,7 +1723,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "形式主语it，作者插入语与例子分开，体验消费而非物品消费。",
+            "sentenceSHA256": "84460f8a12b070edba185f60b592175f9dbd5c51e3d55745dccf32483aaf96a3",
+            "words": 26,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T1-P2-S6",
@@ -571,12 +1775,193 @@
           "translation": "这些花费往往随着时间推移，化作故事或回忆而愈发有价值，尤其是那些能让人觉得与他人的联系更紧密的体验。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "These",
+              "lemma": "these",
+              "pos": "art",
+              "meaning": "这些",
+              "reviewVersion": 2
+            },
+            {
               "a": 6,
               "b": 15,
               "word": "purchases",
               "lemma": "purchase",
-              "meaning": "购买的东西；花钱购买",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "花钱购买的东西或体验",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 21,
+              "word": "often",
+              "lemma": "often",
+              "pos": "adv",
+              "meaning": "常常",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 28,
+              "word": "become",
+              "lemma": "become",
+              "pos": "v",
+              "meaning": "变得",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更加；更多地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 42,
+              "word": "valuable",
+              "lemma": "valuable",
+              "pos": "a",
+              "meaning": "有价值的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 47,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "用；与；对……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 52,
+              "word": "time",
+              "lemma": "time",
+              "pos": "n",
+              "meaning": "时间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 57,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "作为；以故事或回忆的形式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 65,
+              "word": "stories",
+              "lemma": "story",
+              "pos": "n",
+              "meaning": "故事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 68,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 77,
+              "word": "memories",
+              "lemma": "memory",
+              "pos": "n",
+              "meaning": "回忆",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 92,
+              "word": "particularly",
+              "lemma": "particularly",
+              "pos": "adv",
+              "meaning": "尤其",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 95,
+              "word": "if",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "如果",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 100,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 108,
+              "word": "involve",
+              "lemma": "involve",
+              "pos": "v",
+              "meaning": "包含；涉及",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 116,
+              "word": "feeling",
+              "lemma": "feel",
+              "pos": "v",
+              "meaning": "感到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 121,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更加；更多地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 131,
+              "word": "connected",
+              "lemma": "connect",
+              "pos": "a",
+              "meaning": "相互有联系的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 134,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "与他人相联系（connected to搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 141,
+              "word": "others",
+              "lemma": "other",
+              "pos": "pron",
+              "meaning": "他人",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -585,7 +1970,8 @@
               "b": 52,
               "lemma": "with time",
               "meaning": "随着时间推移",
-              "word": "with time"
+              "word": "with time",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -594,7 +1980,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "这些体验会化为故事回忆，with time时间推移、connected to联系对象。",
+            "sentenceSHA256": "c3e0265cb4d9df34d36e1775ecb446d0a613ed619d8b9a7a07bd93e57ecb1472",
+            "words": 21,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -638,68 +2032,246 @@
           "translation": "这本薄薄的小书满是实用建议，帮助受生计束缚的上班族和彩券中奖者，让每一分钱都换来最大的幸福回报。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "This",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；这本（承接所指对象）",
+              "reviewVersion": 2
+            },
+            {
               "a": 5,
               "b": 9,
               "word": "slim",
               "lemma": "slim",
-              "meaning": "篇幅短小的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "薄薄的；篇幅短小的",
+              "reviewVersion": 2
             },
             {
               "a": 10,
               "b": 16,
               "word": "volume",
               "lemma": "volume",
+              "pos": "n",
               "meaning": "一本书；书册",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 19,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与packed构成充满的被动/状态结构",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 26,
+              "word": "packed",
+              "lemma": "pack",
+              "pos": "v",
+              "meaning": "装满；充满",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 31,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "用；与；对……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 36,
+              "word": "tips",
+              "lemma": "tip",
+              "pos": "n",
+              "meaning": "实用建议",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 39,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 44,
+              "word": "help",
+              "lemma": "help",
+              "pos": "v",
+              "meaning": "帮助",
+              "reviewVersion": 2
             },
             {
               "a": 45,
               "b": 49,
               "word": "wage",
               "lemma": "wage",
+              "pos": "n",
               "meaning": "工资",
-              "pos": "v"
+              "reviewVersion": 2
             },
             {
               "a": 50,
               "b": 56,
               "word": "slaves",
               "lemma": "slave",
-              "meaning": "受工作束缚的人（比喻）",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "为生计被束缚的上班族（比喻）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 59,
+              "word": "as",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "和；也包括（as well as搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 64,
+              "word": "well",
+              "lemma": "well",
+              "pos": "adv",
+              "meaning": "好；值得",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 67,
+              "word": "as",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "和；也包括（as well as搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 75,
+              "word": "lottery",
+              "lemma": "lottery",
+              "pos": "n",
+              "meaning": "彩票",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 83,
+              "word": "winners",
+              "lemma": "winner",
+              "pos": "n",
+              "meaning": "中奖者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 87,
+              "word": "get",
+              "lemma": "get",
+              "pos": "v",
+              "meaning": "获得",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 91,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 96,
+              "word": "most",
+              "lemma": "most",
+              "pos": "adv",
+              "meaning": "最；程度最高",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 107,
+              "word": "happiness",
+              "lemma": "happiness",
+              "pos": "n",
+              "meaning": "幸福；快乐",
+              "reviewVersion": 2
             },
             {
               "a": 108,
               "b": 112,
               "word": "bang",
               "lemma": "bang",
-              "meaning": "成效；回报（比喻）",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "效果；回报（bang for your buck）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 116,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对于；为……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 121,
+              "word": "your",
+              "lemma": "your",
+              "pos": "pron",
+              "meaning": "你的；你们的",
+              "reviewVersion": 2
             },
             {
               "a": 122,
               "b": 126,
               "word": "buck",
               "lemma": "buck",
-              "meaning": "钱；一块钱（口语）",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "钱；一美元（口语）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 45,
               "b": 56,
-              "lemma": "wage slaves",
+              "lemma": "wage slave",
               "meaning": "受生计束缚的工薪族（比喻）",
-              "word": "wage slaves"
+              "word": "wage slaves",
+              "kind": "phrase"
+            },
+            {
+              "a": 57,
+              "b": 67,
+              "word": "as well as",
+              "lemma": "as well as",
+              "meaning": "以及；也",
+              "kind": "phrase"
             },
             {
               "a": 108,
               "b": 126,
               "lemma": "bang for your buck",
               "meaning": "每一份花费换来的回报",
-              "word": "bang for your buck"
+              "word": "bang for your buck",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -708,7 +2280,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "wage为工资名词，volume为一本书、tips建议、bang for buck为花钱换回报。",
+            "sentenceSHA256": "0ae48121831e224211fef548de4e8e350f086956422cad50a5eb01572cb04b60",
+            "words": 24,
+            "phrases": 3,
+            "names": 0
+          }
         },
         {
           "id": "2014-T1-P3-S2",
@@ -758,28 +2338,427 @@
           "translation": "看来，大多数人如果能缩短通勤时间，多陪伴朋友和家人，少看电视，就会更幸福；美国人平均每年看电视竟达两个月，却几乎没有因此变得更快乐。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 8,
+              "word": "seems",
+              "lemma": "seem",
+              "pos": "v",
+              "meaning": "似乎；看来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 13,
+              "word": "most",
+              "lemma": "most",
+              "pos": "art",
+              "meaning": "大多数的（修饰人）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 20,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 26,
+              "word": "would",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "会（假设或条件语气）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 29,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 36,
+              "word": "better",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "更好的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 40,
+              "word": "off",
+              "lemma": "off",
+              "pos": "part",
+              "meaning": "与wear组成消退；与better组成境况更好",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 43,
+              "word": "if",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "如果",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 48,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 54,
+              "word": "could",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "可以；可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 62,
+              "word": "shorten",
+              "lemma": "shorten",
+              "pos": "v",
+              "meaning": "缩短",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 68,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
               "a": 69,
               "b": 77,
               "word": "commutes",
               "lemma": "commute",
+              "pos": "n",
               "meaning": "往返上下班的路程",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 80,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "去往（工作地点）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 85,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作地点；上班",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 92,
+              "word": "spend",
+              "lemma": "spend",
+              "pos": "v",
+              "meaning": "花费",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 97,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更加；更多地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 102,
+              "word": "time",
+              "lemma": "time",
+              "pos": "n",
+              "meaning": "时间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 107,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "用；与；对……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 115,
+              "word": "friends",
+              "lemma": "friend",
+              "pos": "n",
+              "meaning": "朋友",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 119,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 126,
+              "word": "family",
+              "lemma": "family",
+              "pos": "n",
+              "meaning": "家人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 130,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 135,
+              "word": "less",
+              "lemma": "little",
+              "pos": "pron",
+              "meaning": "更少的时间（与it连读）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 138,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 139,
+              "b": 141,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 142,
+              "b": 150,
+              "word": "watching",
+              "lemma": "watch",
+              "pos": "v",
+              "meaning": "观看",
+              "reviewVersion": 2
+            },
+            {
+              "a": 151,
+              "b": 161,
+              "word": "television",
+              "lemma": "television",
+              "pos": "n",
+              "meaning": "电视",
+              "reviewVersion": 2
+            },
+            {
+              "a": 163,
+              "b": 172,
+              "word": "something",
+              "lemma": "something",
+              "pos": "pron",
+              "meaning": "某件事（回指看电视）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 173,
+              "b": 176,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 177,
+              "b": 184,
+              "word": "average",
+              "lemma": "average",
+              "pos": "a",
+              "meaning": "平均的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 185,
+              "b": 193,
+              "word": "American",
+              "lemma": "American",
+              "pos": "a",
+              "meaning": "美国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 194,
+              "b": 200,
+              "word": "spends",
+              "lemma": "spend",
+              "pos": "v",
+              "meaning": "花费",
+              "reviewVersion": 2
+            },
+            {
+              "a": 201,
+              "b": 202,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 203,
               "b": 211,
               "word": "whopping",
               "lemma": "whopping",
+              "pos": "a",
               "meaning": "大得惊人的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 212,
+              "b": 215,
+              "word": "two",
+              "lemma": "two",
+              "pos": "num",
+              "meaning": "二；两个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 216,
+              "b": 222,
+              "word": "months",
+              "lemma": "month",
+              "pos": "n",
+              "meaning": "月",
+              "reviewVersion": 2
+            },
+            {
+              "a": 223,
+              "b": 224,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "每（每年）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 225,
+              "b": 229,
+              "word": "year",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 230,
+              "b": 235,
+              "word": "doing",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "做（回指看电视）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 237,
+              "b": 240,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 241,
+              "b": 243,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 244,
+              "b": 250,
+              "word": "hardly",
+              "lemma": "hardly",
+              "pos": "adv",
+              "meaning": "几乎不",
+              "reviewVersion": 2
             },
             {
               "a": 251,
               "b": 258,
               "word": "jollier",
               "lemma": "jolly",
-              "meaning": "快乐的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "更快乐的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 259,
+              "b": 262,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "因此；因为看电视这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 263,
+              "b": 265,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -788,7 +2767,8 @@
               "b": 40,
               "lemma": "better off",
               "meaning": "境况更好；更幸福",
-              "word": "better off"
+              "word": "better off",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -797,7 +2777,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "if三条件与括号看电视每年两月，a year为每年、for it为因此，不借译否定。",
+            "sentenceSHA256": "dabfa78a55fe53f87deeeaef240427098df1bca55298b467833e36a6f3102f42",
+            "words": 47,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2014-T1-P3-S3",
@@ -841,27 +2829,229 @@
           "translation": "买礼物或向慈善机构捐赠，往往比为自己购物更令人愉快；奢侈品在有节制地消费时最令人享受。",
           "words": [
             {
-              "a": 100,
-              "b": 108,
-              "word": "luxuries",
-              "lemma": "luxury",
-              "meaning": "奢侈品；奢侈享受",
-              "pos": "n"
+              "a": 0,
+              "b": 6,
+              "word": "Buying",
+              "lemma": "buy",
+              "pos": "v",
+              "meaning": "购买",
+              "reviewVersion": 2
             },
             {
-              "a": 151,
-              "b": 160,
-              "word": "sparingly",
-              "lemma": "sparingly",
-              "meaning": "有节制地；少量地",
-              "pos": "adv"
+              "a": 7,
+              "b": 12,
+              "word": "gifts",
+              "lemma": "gift",
+              "pos": "n",
+              "meaning": "礼物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 15,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 22,
+              "word": "giving",
+              "lemma": "give",
+              "pos": "v",
+              "meaning": "捐赠",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 25,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "向（慈善机构）捐赠",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 33,
+              "word": "charity",
+              "lemma": "charity",
+              "pos": "n",
+              "meaning": "慈善机构或慈善事业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 36,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 42,
+              "word": "often",
+              "lemma": "often",
+              "pos": "adv",
+              "meaning": "常常",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 47,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更加；更多地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 59,
+              "word": "pleasurable",
+              "lemma": "pleasurable",
+              "pos": "a",
+              "meaning": "令人愉悦的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 64,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
             },
             {
               "a": 65,
               "b": 75,
               "word": "purchasing",
               "lemma": "purchase",
-              "meaning": "购买"
+              "pos": "v",
+              "meaning": "购买",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 82,
+              "word": "things",
+              "lemma": "thing",
+              "pos": "n",
+              "meaning": "东西；物品",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 86,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对于；为……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 94,
+              "word": "oneself",
+              "lemma": "oneself",
+              "pos": "pron",
+              "meaning": "自己",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 99,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 108,
+              "word": "luxuries",
+              "lemma": "luxury",
+              "pos": "n",
+              "meaning": "奢侈品；奢侈享受",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 112,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 117,
+              "word": "most",
+              "lemma": "most",
+              "pos": "adv",
+              "meaning": "最；程度最高",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 127,
+              "word": "enjoyable",
+              "lemma": "enjoyable",
+              "pos": "a",
+              "meaning": "令人享受的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 132,
+              "word": "when",
+              "lemma": "when",
+              "pos": "conj",
+              "meaning": "当……时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 137,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 141,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与consumed构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 142,
+              "b": 150,
+              "word": "consumed",
+              "lemma": "consume",
+              "pos": "v",
+              "meaning": "被消费；被享用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 151,
+              "b": 160,
+              "word": "sparingly",
+              "lemma": "sparingly",
+              "pos": "adv",
+              "meaning": "有节制地；少量地",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -871,7 +3061,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "giving to charity为慈善捐赠，消费奢侈品被动，sparingly有节制。",
+            "sentenceSHA256": "72b17e42b824c35545319de3cd81013671783828b94c7c7914e37819adf7089f",
+            "words": 25,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T1-P3-S4",
@@ -909,46 +3107,265 @@
           "translation": "这显然就是麦当劳限制其畅销麦肋排三明治供应的原因：这种营销手法把猪肉三明治变成了让人念念不忘的东西。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "This",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；这本（承接所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 7,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 18,
+              "word": "apparently",
+              "lemma": "apparently",
+              "pos": "adv",
+              "meaning": "显然；看起来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 29,
+              "word": "reason",
+              "lemma": "reason",
+              "pos": "n",
+              "meaning": "原因",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 40,
+              "word": "McDonald's",
+              "lemma": "McDonald's",
+              "pos": "name",
+              "meaning": "麦当劳",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 50,
+              "word": "restricts",
+              "lemma": "restrict",
+              "pos": "v",
+              "meaning": "限制",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 54,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 55,
               "b": 67,
               "word": "availability",
               "lemma": "availability",
-              "meaning": "能否买到；供应量",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "供应量；能否买到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 70,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 74,
+              "word": "its",
+              "lemma": "its",
+              "pos": "pron",
+              "meaning": "它的（指麦当劳的）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 82,
+              "word": "popular",
+              "lemma": "popular",
+              "pos": "a",
+              "meaning": "畅销的；受欢迎的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 88,
+              "word": "McRib",
+              "lemma": "McRib",
+              "pos": "name",
+              "meaning": "麦肋排三明治（商品名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 92,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 102,
+              "word": "marketing",
+              "lemma": "marketing",
+              "pos": "n",
+              "meaning": "营销",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 108,
+              "word": "trick",
+              "lemma": "trick",
+              "pos": "n",
+              "meaning": "手法；技巧",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 113,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指营销手法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 117,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 124,
+              "word": "turned",
+              "lemma": "turn",
+              "pos": "v",
+              "meaning": "使变成",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 128,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 133,
+              "word": "pork",
+              "lemma": "pork",
+              "pos": "n",
+              "meaning": "猪肉",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 142,
+              "word": "sandwich",
+              "lemma": "sandwich",
+              "pos": "n",
+              "meaning": "三明治",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 147,
+              "word": "into",
+              "lemma": "into",
+              "pos": "prep",
+              "meaning": "变成（turn into搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 148,
+              "b": 150,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 151,
               "b": 157,
               "word": "object",
               "lemma": "object",
-              "meaning": "对象",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "对象；令人着迷的东西",
+              "reviewVersion": 2
+            },
+            {
+              "a": 158,
+              "b": 160,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
             },
             {
               "a": 161,
               "b": 170,
               "word": "obsession",
               "lemma": "obsession",
+              "pos": "n",
               "meaning": "着迷；念念不忘",
-              "pos": "n"
+              "reviewVersion": 2
             }
           ],
-          "phrases": [
-            {
-              "a": 151,
-              "b": 170,
-              "lemma": "object of obsession",
-              "meaning": "令人着迷、念念不忘的对象",
-              "word": "object of obsession"
-            }
-          ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "availability是限制供应，that修饰营销技巧，turn into使三明治成为着迷对象。",
+            "sentenceSHA256": "e19bda880791cfafbef88d210872fa4e9f5d38285467a636a82c29e5b00b26aa",
+            "words": 27,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -986,28 +3403,130 @@
           "translation": "《快乐金钱》的读者显然是一群生活优渥的人，他们焦虑的是满足感，而非饥饿。",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "Readers",
+              "lemma": "reader",
+              "pos": "n",
+              "meaning": "读者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 10,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 16,
+              "word": "Happy",
+              "lemma": "happy",
+              "pos": "a",
+              "meaning": "快乐的（书名中的词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 22,
+              "word": "Money",
+              "lemma": "money",
+              "pos": "n",
+              "meaning": "金钱",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 26,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 34,
+              "word": "clearly",
+              "lemma": "clearly",
+              "pos": "adv",
+              "meaning": "显然",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 36,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 37,
               "b": 47,
               "word": "privileged",
               "lemma": "privileged",
-              "meaning": "生活条件优越的；有经济优势的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "生活条件优越的",
+              "reviewVersion": 2
             },
             {
               "a": 48,
               "b": 51,
               "word": "lot",
               "lemma": "lot",
+              "pos": "n",
               "meaning": "一群人",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 60,
+              "word": "anxious",
+              "lemma": "anxious",
+              "pos": "a",
+              "meaning": "焦虑的；担忧的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 66,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于；为……担忧",
+              "reviewVersion": 2
             },
             {
               "a": 67,
               "b": 77,
               "word": "fulfilment",
               "lemma": "fulfilment",
+              "pos": "n",
               "meaning": "满足感；充实感",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 82,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 89,
+              "word": "hunger",
+              "lemma": "hunger",
+              "pos": "n",
+              "meaning": "饥饿",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1017,7 +3536,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "lot为一群人，不是彩票，读者关心满足感而非基本生存饥饿。",
+            "sentenceSHA256": "24f4804711510085a670075e66c0c6d25529479135b11f1f24275465f9927c74",
+            "words": 14,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T1-P4-S2",
@@ -1047,7 +3574,179 @@
           ],
           "reorder": "把 than 比较对象提前到“更幸福”前。",
           "translation": "钱或许并不完全能买来幸福，但富裕国家的人通常比贫穷国家的人更幸福。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 5,
+              "word": "Money",
+              "lemma": "money",
+              "pos": "n",
+              "meaning": "金钱",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 9,
+              "word": "may",
+              "lemma": "may",
+              "pos": "aux",
+              "meaning": "可能；或许",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 13,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 19,
+              "word": "quite",
+              "lemma": "quite",
+              "pos": "adv",
+              "meaning": "完全地（not quite表示不完全）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 23,
+              "word": "buy",
+              "lemma": "buy",
+              "pos": "v",
+              "meaning": "买来；购买",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 33,
+              "word": "happiness",
+              "lemma": "happiness",
+              "pos": "n",
+              "meaning": "幸福；快乐",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 38,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 45,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 48,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……之中；在某地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 58,
+              "word": "wealthier",
+              "lemma": "wealthy",
+              "pos": "a",
+              "meaning": "更富裕的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 68,
+              "word": "countries",
+              "lemma": "country",
+              "pos": "n",
+              "meaning": "国家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 72,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 82,
+              "word": "generally",
+              "lemma": "generally",
+              "pos": "adv",
+              "meaning": "通常",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 90,
+              "word": "happier",
+              "lemma": "happy",
+              "pos": "a",
+              "meaning": "更幸福的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 95,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 101,
+              "word": "those",
+              "lemma": "those",
+              "pos": "pron",
+              "meaning": "那些人（比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 104,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……之中；在某地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 109,
+              "word": "poor",
+              "lemma": "poor",
+              "pos": "a",
+              "meaning": "贫穷的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 114,
+              "word": "ones",
+              "lemma": "one",
+              "pos": "pron",
+              "meaning": "国家（替代前面的countries）",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -1055,7 +3754,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "not quite不是完全否定钱有用；富国居民通常比穷国更幸福。",
+            "sentenceSHA256": "eb20780a42d9fc399ff4fc942b0b68cc8f00fea50423368739a877eaa8aad28e",
+            "words": 19,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T1-P4-S3",
@@ -1099,12 +3806,301 @@
           "translation": "然而，为他人花钱与感觉良好之间的联系，在世界各地的富人和穷人中都能看到；对大多数人而言，稀缺会增强大多数事物带来的愉悦。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "Yet",
+              "lemma": "yet",
+              "pos": "conj",
+              "meaning": "然而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 7,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 12,
+              "word": "link",
+              "lemma": "link",
+              "pos": "n",
+              "meaning": "联系；关联",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 20,
+              "word": "between",
+              "lemma": "between",
+              "pos": "prep",
+              "meaning": "在……之间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 28,
+              "word": "feeling",
+              "lemma": "feel",
+              "pos": "v",
+              "meaning": "感到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "good",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "好的（感觉愉快）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 37,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 46,
+              "word": "spending",
+              "lemma": "spend",
+              "pos": "v",
+              "meaning": "花费",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 52,
+              "word": "money",
+              "lemma": "money",
+              "pos": "n",
+              "meaning": "金钱",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 55,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "花在……上（spend on）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 62,
+              "word": "others",
+              "lemma": "other",
+              "pos": "pron",
+              "meaning": "他人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 66,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能够；可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 69,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与seen构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 74,
+              "word": "seen",
+              "lemma": "see",
+              "pos": "v",
+              "meaning": "被观察到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 80,
+              "word": "among",
+              "lemma": "among",
+              "pos": "prep",
+              "meaning": "在……人群之中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 85,
+              "word": "rich",
+              "lemma": "rich",
+              "pos": "a",
+              "meaning": "富有的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 89,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 94,
+              "word": "poor",
+              "lemma": "poor",
+              "pos": "a",
+              "meaning": "贫穷的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 101,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 108,
+              "word": "around",
+              "lemma": "around",
+              "pos": "prep",
+              "meaning": "在全世界范围内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 112,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 118,
+              "word": "world",
+              "lemma": "world",
+              "pos": "n",
+              "meaning": "世界",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 123,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
               "a": 124,
               "b": 132,
               "word": "scarcity",
               "lemma": "scarcity",
+              "pos": "n",
               "meaning": "稀缺；不易获得",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 141,
+              "word": "enhances",
+              "lemma": "enhance",
+              "pos": "v",
+              "meaning": "增强",
+              "reviewVersion": 2
+            },
+            {
+              "a": 142,
+              "b": 145,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 154,
+              "word": "pleasure",
+              "lemma": "pleasure",
+              "pos": "n",
+              "meaning": "愉悦",
+              "reviewVersion": 2
+            },
+            {
+              "a": 155,
+              "b": 157,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 158,
+              "b": 162,
+              "word": "most",
+              "lemma": "most",
+              "pos": "art",
+              "meaning": "大多数的（限定事物或人群）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 163,
+              "b": 169,
+              "word": "things",
+              "lemma": "thing",
+              "pos": "n",
+              "meaning": "东西；物品",
+              "reviewVersion": 2
+            },
+            {
+              "a": 170,
+              "b": 173,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对于；为……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 174,
+              "b": 178,
+              "word": "most",
+              "lemma": "most",
+              "pos": "art",
+              "meaning": "大多数的（限定事物或人群）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 179,
+              "b": 185,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1114,7 +4110,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "富人穷人均有为他人花钱带来愉悦的联系，scarcity稀缺提升享受。",
+            "sentenceSHA256": "7058fb48a67794133436b362b8fc8d69d51e323bb93403776bf8a2e4e85731be",
+            "words": 33,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T1-P4-S4",
@@ -1146,20 +4150,211 @@
           "translation": "并非所有人都赞同作者的政策主张，其中既有强制增加假期时间，也有削减美国购房者的税收优惠。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "Not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 12,
+              "word": "everyone",
+              "lemma": "everyone",
+              "pos": "pron",
+              "meaning": "所有人；人人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 17,
+              "word": "will",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "将会；会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 23,
+              "word": "agree",
+              "lemma": "agree",
+              "pos": "v",
+              "meaning": "赞同",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 28,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "用；与；对……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 32,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 40,
+              "word": "authors",
+              "lemma": "author",
+              "pos": "n",
+              "meaning": "作者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 48,
+              "word": "policy",
+              "lemma": "policy",
+              "pos": "n",
+              "meaning": "政策",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 54,
+              "word": "ideas",
+              "lemma": "idea",
+              "pos": "n",
+              "meaning": "主张；观点",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 61,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "关系代词，指政策主张",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 67,
+              "word": "range",
+              "lemma": "range",
+              "pos": "v",
+              "meaning": "范围从……到……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 72,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；走出",
+              "reviewVersion": 2
+            },
+            {
               "a": 73,
               "b": 82,
               "word": "mandating",
               "lemma": "mandate",
+              "pos": "v",
               "meaning": "强制要求",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 87,
+              "word": "more",
+              "lemma": "more",
+              "pos": "art",
+              "meaning": "更多的（假期时间）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 95,
+              "word": "holiday",
+              "lemma": "holiday",
+              "pos": "n",
+              "meaning": "假期",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 100,
+              "word": "time",
+              "lemma": "time",
+              "pos": "n",
+              "meaning": "时间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 103,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "到（政策主张范围的另一端）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 112,
+              "word": "reducing",
+              "lemma": "reduce",
+              "pos": "v",
+              "meaning": "减少；削减",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 116,
+              "word": "tax",
+              "lemma": "tax",
+              "pos": "n",
+              "meaning": "税收",
+              "reviewVersion": 2
             },
             {
               "a": 117,
               "b": 127,
               "word": "incentives",
               "lemma": "incentive",
-              "meaning": "激励措施；优惠",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "激励措施；税收优惠",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 131,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对于；为……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 140,
+              "word": "American",
+              "lemma": "American",
+              "pos": "a",
+              "meaning": "美国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 151,
+              "word": "homebuyers",
+              "lemma": "homebuyer",
+              "pos": "n",
+              "meaning": "购房者",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1169,7 +4364,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "Not everyone为部分否定，range from to列两端，incentive税收优惠。",
+            "sentenceSHA256": "dc2e3c9e1cb4d4e3061257e213b1b5d4f7a618dc99c9591206bde2dce8a5dc5a",
+            "words": 23,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T1-P4-S5",
@@ -1199,14 +4402,151 @@
           ],
           "reorder": "将 believing 译为读后的判断，it 指买书这笔支出。",
           "translation": "但大多数人读完本书后，都会觉得买书的钱花得很值。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "But",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "most",
+              "lemma": "most",
+              "pos": "art",
+              "meaning": "大多数的（修饰人）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 15,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "will",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "将会；会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "come",
+              "lemma": "come",
+              "pos": "v",
+              "meaning": "读完离开时形成（come away搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 30,
+              "word": "away",
+              "lemma": "away",
+              "pos": "adv",
+              "meaning": "与come组成读完离开时的表达",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 35,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；走出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 40,
+              "word": "this",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；这本（承接所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 45,
+              "word": "book",
+              "lemma": "book",
+              "pos": "n",
+              "meaning": "书",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 55,
+              "word": "believing",
+              "lemma": "believe",
+              "pos": "v",
+              "meaning": "认为；相信",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 58,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 62,
+              "word": "was",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是（过去时）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 68,
+              "word": "money",
+              "lemma": "money",
+              "pos": "n",
+              "meaning": "金钱",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 73,
+              "word": "well",
+              "lemma": "well",
+              "pos": "adv",
+              "meaning": "好；值得",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 79,
+              "word": "spent",
+              "lemma": "spend",
+              "pos": "v",
+              "meaning": "花掉；花费",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 63,
               "b": 79,
               "lemma": "money well spent",
               "meaning": "花得值得的钱",
-              "word": "money well spent"
+              "word": "money well spent",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1215,9 +4555,30 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "money well spent为买书钱花得值，most修饰大多数读者。",
+            "sentenceSHA256": "53b938a4192b60960773a2985296c85b99f84d2b5e3b07787504184841a31674",
+            "words": 15,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "7df0add843ecedd661dbd543cfc595397d3a1ad45867e037d85c6cdcd8d38a1c",
+    "sentences": 18,
+    "wordOccurrences": 391,
+    "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

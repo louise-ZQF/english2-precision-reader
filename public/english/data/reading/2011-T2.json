@@ -41,15 +41,96 @@
           ],
           "reorder": "无需调整语序，Whatever happened to 带有反问语气。",
           "translation": "说好的报纸消亡，怎么没了下文？",
-          "words": [],
-          "phrases": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 8,
+              "word": "Whatever",
+              "lemma": "whatever",
+              "pos": "pron",
+              "meaning": "究竟；到底（反问曾预言的情况怎么没了下文）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 17,
+              "word": "happened",
+              "lemma": "happen",
+              "pos": "v",
+              "meaning": "发生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 20,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "对于……的情况（happened to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 24,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "特指曾被预言的报纸消亡",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 30,
+              "word": "death",
+              "lemma": "death",
+              "pos": "n",
+              "meaning": "消亡（报纸衰亡的比喻）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 33,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 44,
+              "word": "newspapers",
+              "lemma": "newspaper",
+              "pos": "n",
+              "meaning": "报纸；报社",
+              "reviewVersion": 2
+            }
+          ],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 20,
+              "word": "Whatever happened to",
+              "lemma": "whatever happened to",
+              "meaning": "说好的……怎么没下文了？",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "反问报纸死亡预言怎么没了下文，并非直接询问某人死亡原因。",
+            "sentenceSHA256": "d77d07f599d7a35d0a6753856e2aa72c104721557077ede45762c60ccf474789",
+            "words": 7,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P1-S2",
@@ -67,7 +148,71 @@
           ],
           "reorder": "无需调整语序。",
           "translation": "一年前，报纸的末日似乎近在眼前。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 1,
+              "word": "A",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 2,
+              "b": 6,
+              "word": "year",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 10,
+              "word": "ago",
+              "lemma": "ago",
+              "pos": "adv",
+              "meaning": "以前",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 14,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 18,
+              "word": "end",
+              "lemma": "end",
+              "pos": "n",
+              "meaning": "末日；终结",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 25,
+              "word": "seemed",
+              "lemma": "seem",
+              "pos": "v",
+              "meaning": "似乎",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 30,
+              "word": "near",
+              "lemma": "near",
+              "pos": "a",
+              "meaning": "近的；即将到来的",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -75,7 +220,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "一年前末日似乎接近，与如今复苏形成时间对照。",
+            "sentenceSHA256": "355dd7aeb2f678b8267f5cb09370e77ba36b3ccf2d976df28835e483032c8d3d",
+            "words": 7,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P1-S3",
@@ -99,7 +252,161 @@
           ],
           "reorder": "把 that 定语放到“广告和读者”前。",
           "translation": "经济衰退威胁着报纸，要夺走那些尚未转向互联网的广告和读者。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 13,
+              "word": "recession",
+              "lemma": "recession",
+              "pos": "n",
+              "meaning": "经济衰退",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 24,
+              "word": "threatened",
+              "lemma": "threaten",
+              "pos": "v",
+              "meaning": "威胁着；可能导致",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 27,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 34,
+              "word": "remove",
+              "lemma": "remove",
+              "pos": "v",
+              "meaning": "夺走；使失去",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 38,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 50,
+              "word": "advertising",
+              "lemma": "advertising",
+              "pos": "n",
+              "meaning": "广告收入或业务",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 54,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 62,
+              "word": "readers",
+              "lemma": "reader",
+              "pos": "n",
+              "meaning": "读者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 67,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指广告业务和读者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 71,
+              "word": "had",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "过去完成时助动词，说明此前已发生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 75,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 83,
+              "word": "already",
+              "lemma": "already",
+              "pos": "adv",
+              "meaning": "已经",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 88,
+              "word": "fled",
+              "lemma": "flee",
+              "pos": "v",
+              "meaning": "转移；逃离",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 91,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "转向（互联网）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 95,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 104,
+              "word": "internet",
+              "lemma": "internet",
+              "pos": "n",
+              "meaning": "互联网",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -107,7 +414,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "广告读者仍未逃向互联网的限定不漏；fled转向不是实际逃难。",
+            "sentenceSHA256": "0103a763b7d4be55bb67ee8a0e283e6b38df1699f7a0960ce985c5c0107b7df3",
+            "words": 17,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P1-S4",
@@ -133,27 +448,103 @@
           "translation": "像《旧金山纪事报》这样的报纸正在记录自身的灭亡。",
           "words": [
             {
-              "a": 49,
-              "b": 60,
-              "word": "chronicling",
-              "lemma": "chronicle",
-              "meaning": "记录；报道",
-              "pos": "v"
+              "a": 0,
+              "b": 10,
+              "word": "Newspapers",
+              "lemma": "newspaper",
+              "pos": "n",
+              "meaning": "报纸；报社",
+              "reviewVersion": 2
             },
             {
-              "a": 71,
-              "b": 75,
-              "word": "doom",
-              "lemma": "doom",
-              "meaning": "毁灭；衰亡",
-              "pos": "n"
+              "a": 11,
+              "b": 15,
+              "word": "like",
+              "lemma": "like",
+              "pos": "prep",
+              "meaning": "例如；像……这样的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 19,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 23,
+              "word": "San",
+              "lemma": "San",
+              "pos": "name",
+              "meaning": "San Francisco（旧金山）地名的一部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 33,
+              "word": "Francisco",
+              "lemma": "Francisco",
+              "pos": "name",
+              "meaning": "San Francisco（旧金山）地名的一部分",
+              "reviewVersion": 2
             },
             {
               "a": 34,
               "b": 43,
               "word": "Chronicle",
               "lemma": "Chronicle",
-              "meaning": "《纪事报》（报纸名称的一部分）"
+              "pos": "name",
+              "meaning": "《纪事报》（报纸名称的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 48,
+              "word": "were",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "过去进行时助动词（were chronicling）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 60,
+              "word": "chronicling",
+              "lemma": "chronicle",
+              "pos": "v",
+              "meaning": "记录；报道",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 66,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 70,
+              "word": "own",
+              "lemma": "own",
+              "pos": "a",
+              "meaning": "自身的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 75,
+              "word": "doom",
+              "lemma": "doom",
+              "pos": "n",
+              "meaning": "衰亡；毁灭",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -163,7 +554,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "Chronicle报纸专名与chronicling记录双关分开，doom为自身衰亡。",
+            "sentenceSHA256": "919625b2cbe89019497de35429d92fb3b89eba73cbc8b0c6b4566280e1a4d928",
+            "words": 11,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P1-S5",
@@ -187,7 +586,134 @@
           ],
           "reorder": "把 about 内容作讨论主题。",
           "translation": "美国联邦贸易委员会发起了一轮关于如何拯救报纸的讨论。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 9,
+              "word": "America's",
+              "lemma": "America",
+              "pos": "name",
+              "meaning": "美国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 17,
+              "word": "Federal",
+              "lemma": "federal",
+              "pos": "a",
+              "meaning": "联邦的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 23,
+              "word": "Trade",
+              "lemma": "trade",
+              "pos": "n",
+              "meaning": "贸易",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 34,
+              "word": "Commission",
+              "lemma": "commission",
+              "pos": "n",
+              "meaning": "委员会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 43,
+              "word": "launched",
+              "lemma": "launch",
+              "pos": "v",
+              "meaning": "发起",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 45,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 51,
+              "word": "round",
+              "lemma": "round",
+              "pos": "n",
+              "meaning": "一轮",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 54,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 60,
+              "word": "talks",
+              "lemma": "talk",
+              "pos": "n",
+              "meaning": "讨论；会谈",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 66,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 70,
+              "word": "how",
+              "lemma": "how",
+              "pos": "adv",
+              "meaning": "如何",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 73,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 78,
+              "word": "save",
+              "lemma": "save",
+              "pos": "v",
+              "meaning": "拯救",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 89,
+              "word": "newspapers",
+              "lemma": "newspaper",
+              "pos": "n",
+              "meaning": "报纸；报社",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -195,7 +721,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "联邦贸易委员会发起的是讨论轮次，trade为贸易不是交易换工作。",
+            "sentenceSHA256": "827cb9eede387c998936edcbbbb0900b568db16f29ce8d464959ab9cad69600f",
+            "words": 14,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P1-S6",
@@ -213,7 +747,53 @@
           ],
           "reorder": "无需调整语序，they 指报社。",
           "translation": "报社应该成为慈善性公司吗？",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 6,
+              "word": "Should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应该",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 11,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "它们（报社）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 18,
+              "word": "become",
+              "lemma": "become",
+              "pos": "v",
+              "meaning": "成为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 29,
+              "word": "charitable",
+              "lemma": "charitable",
+              "pos": "a",
+              "meaning": "慈善性质的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 42,
+              "word": "corporations",
+              "lemma": "corporation",
+              "pos": "n",
+              "meaning": "公司",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -221,7 +801,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "报社是否改慈善公司保留问句；they指报社。",
+            "sentenceSHA256": "944bb083fae516ddeb46322c7472c21d509ca5d81bc689590c2d56481ba70cc3",
+            "words": 5,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P1-S7",
@@ -241,20 +829,49 @@
           "translation": "政府应该补贴报社吗？",
           "words": [
             {
+              "a": 0,
+              "b": 6,
+              "word": "Should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应该",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 10,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 11,
               "b": 16,
               "word": "state",
               "lemma": "state",
-              "meaning": "国家；政府",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "政府",
+              "reviewVersion": 2
             },
             {
               "a": 17,
               "b": 26,
               "word": "subsidize",
               "lemma": "subsidize",
+              "pos": "v",
               "meaning": "给予财政补贴",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 31,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "它们（报社）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -264,7 +881,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "state为政府非美国某一州，subsidize是财政补贴。",
+            "sentenceSHA256": "c2fdeba5f3fa3905959b2412074059f91e21acb574d04b657f3941e25c83899f",
+            "words": 5,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P1-S8",
@@ -282,7 +907,62 @@
           ],
           "reorder": "无需调整语序，It 指联邦贸易委员会。",
           "translation": "委员会不久还会召开一次会议。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它（联邦贸易委员会）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "will",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "将；会（表示将来）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 12,
+              "word": "hold",
+              "lemma": "hold",
+              "pos": "v",
+              "meaning": "召开",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 20,
+              "word": "another",
+              "lemma": "another",
+              "pos": "det",
+              "meaning": "另一个；又一次",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 28,
+              "word": "meeting",
+              "lemma": "meeting",
+              "pos": "n",
+              "meaning": "会议",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "soon",
+              "lemma": "soon",
+              "pos": "adv",
+              "meaning": "不久",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -290,7 +970,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "It为委员会，不是报社；another为另一次会议。",
+            "sentenceSHA256": "6689de8bc417103012e4c66d80ea11e496e30b32142a7df105d73f93b0872eef",
+            "words": 6,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P1-S9",
@@ -308,15 +996,105 @@
           ],
           "reorder": "无需调整语序。",
           "translation": "但这些讨论如今似乎已经过时。",
-          "words": [],
-          "phrases": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "But",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是（转折）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 7,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 19,
+              "word": "discussions",
+              "lemma": "discussion",
+              "pos": "n",
+              "meaning": "讨论",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 23,
+              "word": "now",
+              "lemma": "now",
+              "pos": "adv",
+              "meaning": "如今",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 28,
+              "word": "seem",
+              "lemma": "seem",
+              "pos": "v",
+              "meaning": "似乎",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 32,
+              "word": "out",
+              "lemma": "out",
+              "pos": "part",
+              "meaning": "out of date中的搭配成分，整体为过时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 35,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "out of date中的搭配成分，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 40,
+              "word": "date",
+              "lemma": "date",
+              "pos": "n",
+              "meaning": "时效（out of date为过时）",
+              "reviewVersion": 2
+            }
+          ],
+          "phrases": [
+            {
+              "a": 29,
+              "b": 40,
+              "word": "out of date",
+              "lemma": "out of date",
+              "meaning": "过时的",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "out of date为讨论已过时，不是日期超出范围。",
+            "sentenceSHA256": "b3941333460021f445ff50d7199e5a3d92aa9bbea02e6772d94693226483ff9c",
+            "words": 8,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -340,7 +1118,107 @@
           ],
           "reorder": "无需调整语序。",
           "translation": "世界大部分地区几乎看不到危机迹象。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "much",
+              "lemma": "much",
+              "pos": "pron",
+              "meaning": "大部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 10,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 14,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 20,
+              "word": "world",
+              "lemma": "world",
+              "pos": "n",
+              "meaning": "世界；全球",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 26,
+              "word": "there",
+              "lemma": "there",
+              "pos": "pron",
+              "meaning": "there is存在结构形式成分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 29,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "有；存在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 36,
+              "word": "little",
+              "lemma": "little",
+              "pos": "det",
+              "meaning": "几乎没有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 41,
+              "word": "sign",
+              "lemma": "sign",
+              "pos": "n",
+              "meaning": "迹象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 44,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 51,
+              "word": "crisis",
+              "lemma": "crisis",
+              "pos": "n",
+              "meaning": "危机",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -348,7 +1226,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "世界大部分地区几乎无危机迹象，little保留否定数量。",
+            "sentenceSHA256": "b79a1c85e39fc87caa51147ed97a4e64d9354d92998da75034859e3508891a56",
+            "words": 11,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P2-S2",
@@ -368,29 +1254,95 @@
           "translation": "德国和巴西的报纸已经摆脱了经济衰退的冲击。",
           "words": [
             {
+              "a": 0,
+              "b": 6,
+              "word": "German",
+              "lemma": "German",
+              "pos": "a",
+              "meaning": "德国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 10,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 20,
+              "word": "Brazilian",
+              "lemma": "Brazilian",
+              "pos": "a",
+              "meaning": "巴西的",
+              "reviewVersion": 2
+            },
+            {
               "a": 21,
               "b": 27,
               "word": "papers",
               "lemma": "paper",
+              "pos": "n",
               "meaning": "报纸；报社",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 32,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译为“有”",
+              "reviewVersion": 2
             },
             {
               "a": 33,
               "b": 41,
               "word": "shrugged",
               "lemma": "shrug",
-              "meaning": "摆脱；不受……影响（shrug off）",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "摆脱；不受影响（shrug off）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 45,
+              "word": "off",
+              "lemma": "off",
+              "pos": "part",
+              "meaning": "与shrugged构成摆脱",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 49,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 59,
+              "word": "recession",
+              "lemma": "recession",
+              "pos": "n",
+              "meaning": "经济衰退",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 33,
               "b": 45,
-              "lemma": "shrugged off",
+              "lemma": "shrug off",
               "meaning": "摆脱了……的冲击",
-              "word": "shrugged off"
+              "word": "shrugged off",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -399,7 +1351,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "shrugged off为摆脱衰退冲击，不是肩膀运动字面义。",
+            "sentenceSHA256": "b77f83391ac4b3f3daf080f7189c6b2c7e3e9f490180ff78e0f6c640ee46790b",
+            "words": 9,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P2-S3",
@@ -437,29 +1397,212 @@
           "translation": "就连身处全球报业困境最深一隅的美国报纸，也不仅生存下来，而且很多已恢复盈利。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Even",
+              "lemma": "even",
+              "pos": "adv",
+              "meaning": "即使；甚至",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 13,
+              "word": "American",
+              "lemma": "American",
+              "pos": "a",
+              "meaning": "美国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 24,
+              "word": "newspapers",
+              "lemma": "newspaper",
+              "pos": "n",
+              "meaning": "报纸；报社",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 31,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "关系代词，指前面的事物",
+              "reviewVersion": 2
+            },
+            {
               "a": 32,
               "b": 39,
               "word": "inhabit",
               "lemma": "inhabit",
-              "meaning": "处于；身处",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "身处",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 43,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 48,
+              "word": "most",
+              "lemma": "most",
+              "pos": "adv",
+              "meaning": "最（最高程度）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 57,
+              "word": "troubled",
+              "lemma": "troubled",
+              "pos": "a",
+              "meaning": "陷入困境的",
+              "reviewVersion": 2
             },
             {
               "a": 58,
               "b": 64,
               "word": "corner",
               "lemma": "corner",
-              "meaning": "领域中的一部分；处境",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "一部分；处境",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 67,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 71,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 78,
+              "word": "global",
+              "lemma": "global",
+              "pos": "a",
+              "meaning": "全球的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 87,
+              "word": "industry",
+              "lemma": "industry",
+              "pos": "n",
+              "meaning": "报业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 93,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 97,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 102,
+              "word": "only",
+              "lemma": "only",
+              "pos": "adv",
+              "meaning": "仅仅；只有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 111,
+              "word": "survived",
+              "lemma": "survive",
+              "pos": "v",
+              "meaning": "存活下来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 115,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "不仅……而且……中的而且",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 121,
+              "word": "often",
+              "lemma": "often",
+              "pos": "adv",
+              "meaning": "常常；很多情况下",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 130,
+              "word": "returned",
+              "lemma": "return",
+              "pos": "v",
+              "meaning": "恢复；回到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 133,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "恢复至（盈利状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 140,
+              "word": "profit",
+              "lemma": "profit",
+              "pos": "n",
+              "meaning": "利润；盈利",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 122,
               "b": 140,
-              "lemma": "returned to profit",
+              "lemma": "return to profit",
               "meaning": "恢复盈利",
-              "word": "returned to profit"
+              "word": "returned to profit",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -468,7 +1611,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "not only but为不仅而且；困境最深的是美国报业部分，返回盈利未等于恢复旧利润率。",
+            "sentenceSHA256": "d583a3c82d0a18413fa6c6763994267041538f20f30ecffe31935c8bdf2f77d8",
+            "words": 22,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P2-S4",
@@ -500,36 +1651,166 @@
           "translation": "虽说已达不到几年前司空见惯的20%利润率，但毕竟仍在盈利。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "Not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 7,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 18,
+              "word": "profit",
+              "lemma": "profit",
+              "pos": "n",
+              "meaning": "利润；盈利",
+              "reviewVersion": 2
+            },
+            {
               "a": 19,
               "b": 26,
               "word": "margins",
               "lemma": "margin",
+              "pos": "n",
               "meaning": "利润率",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 31,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指20%利润率",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 36,
+              "word": "were",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（过去时）",
+              "reviewVersion": 2
             },
             {
               "a": 37,
               "b": 44,
               "word": "routine",
               "lemma": "routine",
-              "meaning": "以往常见的；惯常的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "常见的；惯常的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 46,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 50,
+              "word": "few",
+              "lemma": "few",
+              "pos": "det",
+              "meaning": "一些（a few years指几年前）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 56,
+              "word": "years",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 60,
+              "word": "ago",
+              "lemma": "ago",
+              "pos": "adv",
+              "meaning": "以前",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 65,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是（转折）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 72,
+              "word": "profit",
+              "lemma": "profit",
+              "pos": "n",
+              "meaning": "利润；盈利",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 76,
+              "word": "all",
+              "lemma": "all",
+              "pos": "adv",
+              "meaning": "all the same中的成分，整体为尽管如此",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 80,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 85,
+              "word": "same",
+              "lemma": "same",
+              "pos": "a",
+              "meaning": "相同的（all the same整体为尽管如此）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 12,
               "b": 26,
-              "lemma": "profit margins",
+              "lemma": "profit margin",
               "meaning": "利润率",
-              "word": "profit margins"
+              "word": "profit margins",
+              "kind": "phrase"
             },
             {
               "a": 73,
               "b": 85,
               "lemma": "all the same",
               "meaning": "尽管如此；毕竟仍然",
-              "word": "all the same"
+              "word": "all the same",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -538,7 +1819,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "20%为过去惯常利润率，but profit all the same强调仍盈利。",
+            "sentenceSHA256": "c7087ad0a1149cff9362b73fa8a250df8d6f89579e35439cefc31d1650081cbd",
+            "words": 16,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -562,7 +1851,62 @@
           ],
           "reorder": "无需调整语序，It 指报业求生过程。",
           "translation": "这个过程可并不愉快。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "报业求生的过程",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 6,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 10,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 15,
+              "word": "been",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "be的过去分词，参与完成时结构",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "much",
+              "lemma": "much",
+              "pos": "det",
+              "meaning": "很多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 24,
+              "word": "fun",
+              "lemma": "fun",
+              "pos": "n",
+              "meaning": "愉快；乐趣",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -570,7 +1914,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "It指求生过程不愉快，不是报纸没有娱乐内容。",
+            "sentenceSHA256": "4e32793268be21aad8999ffe6d214480a75f52a47c2691426ecc7f11fffddd30",
+            "words": 6,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P3-S2",
@@ -596,44 +1948,86 @@
           "translation": "许多报纸靠把记者“推下船”、也就是裁员，才维持经营。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Many",
+              "lemma": "many",
+              "pos": "det",
+              "meaning": "许多",
+              "reviewVersion": 2
+            },
+            {
               "a": 5,
               "b": 11,
               "word": "papers",
               "lemma": "paper",
+              "pos": "n",
               "meaning": "报纸；报社",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 18,
+              "word": "stayed",
+              "lemma": "stay",
+              "pos": "v",
+              "meaning": "保持",
+              "reviewVersion": 2
             },
             {
               "a": 19,
               "b": 25,
               "word": "afloat",
               "lemma": "afloat",
-              "meaning": "维持经营的；没有破产的",
-              "pos": "adv"
+              "pos": "a",
+              "meaning": "维持经营的；未破产的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 28,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "通过；靠（裁员手段）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 36,
+              "word": "pushing",
+              "lemma": "push",
+              "pos": "v",
+              "meaning": "推（比喻裁员）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 48,
+              "word": "journalists",
+              "lemma": "journalist",
+              "pos": "n",
+              "meaning": "记者",
+              "reviewVersion": 2
             },
             {
               "a": 49,
               "b": 58,
               "word": "overboard",
               "lemma": "overboard",
-              "meaning": "船外；此处比喻裁掉员工",
-              "pos": "adv"
+              "pos": "adv",
+              "meaning": "到船外（比喻被裁员出局）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 12,
               "b": 25,
-              "lemma": "stayed afloat",
+              "lemma": "stay afloat",
               "meaning": "勉强维持经营；存活下来",
-              "word": "stayed afloat"
-            },
-            {
-              "a": 29,
-              "b": 58,
-              "lemma": "pushing journalists overboard",
-              "meaning": "裁减记者以求自保（比喻）",
-              "word": "pushing journalists overboard"
+              "word": "stayed afloat",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -642,7 +2036,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "船上求生隐喻对应裁减记者，afloat保持形容词状态。",
+            "sentenceSHA256": "63d29dead9862ac49ebd68d7994a23e1dff2be4fbc53ba97cd7a32031fde4645",
+            "words": 8,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P3-S3",
@@ -674,12 +2076,121 @@
           "translation": "美国新闻编辑协会估计，自2007年以来已有13500个新闻编辑部岗位消失。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 12,
+              "word": "American",
+              "lemma": "American",
+              "pos": "a",
+              "meaning": "美国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 20,
+              "word": "Society",
+              "lemma": "society",
+              "pos": "n",
+              "meaning": "协会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 23,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 28,
+              "word": "News",
+              "lemma": "news",
+              "pos": "n",
+              "meaning": "新闻",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 36,
+              "word": "Editors",
+              "lemma": "editor",
+              "pos": "n",
+              "meaning": "编辑",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 44,
+              "word": "reckons",
+              "lemma": "reckon",
+              "pos": "v",
+              "meaning": "估算；估计",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 49,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出所说的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 57,
               "b": 65,
               "word": "newsroom",
               "lemma": "newsroom",
+              "pos": "n",
               "meaning": "新闻编辑部",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 70,
+              "word": "jobs",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "岗位",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 75,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 80,
+              "word": "gone",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "消失；被裁撤",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 86,
+              "word": "since",
+              "lemma": "since",
+              "pos": "prep",
+              "meaning": "自……以来",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -689,7 +2200,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "自2007年以来消失13500岗位，gone不是转职去向不明。",
+            "sentenceSHA256": "70f80c8708fe53bb65cec2153a80f365c5c71d945936135ed65d2f9eaf0f4fb3",
+            "words": 13,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P3-S4",
@@ -709,12 +2228,67 @@
           "translation": "读者花更多的钱，买到的报纸却更薄。",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "Readers",
+              "lemma": "reader",
+              "pos": "n",
+              "meaning": "读者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 11,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "现在进行时助动词（are paying）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 18,
+              "word": "paying",
+              "lemma": "pay",
+              "pos": "v",
+              "meaning": "支付",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 23,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更多；更（比较程度）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 27,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "购买（付钱所得的对象）",
+              "reviewVersion": 2
+            },
+            {
               "a": 28,
               "b": 35,
               "word": "slimmer",
               "lemma": "slim",
-              "meaning": "版面更少的；更薄的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "更薄的；版面更少的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 44,
+              "word": "products",
+              "lemma": "product",
+              "pos": "n",
+              "meaning": "产品（这里指报纸）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -724,7 +2298,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "花钱更多与报纸更薄形成反差，slimmer指版面不是身材。",
+            "sentenceSHA256": "616e098e94bff8f38217868973f6d7a798d9dce8bf411cb4cf15a301c8bccd71",
+            "words": 7,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P3-S5",
@@ -750,37 +2332,122 @@
           "translation": "有些报纸甚至敢于拒绝向偏远郊区投递。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Some",
+              "lemma": "some",
+              "pos": "det",
+              "meaning": "一些；有些",
+              "reviewVersion": 2
+            },
+            {
               "a": 5,
               "b": 11,
               "word": "papers",
               "lemma": "paper",
+              "pos": "n",
               "meaning": "报纸；报社",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 16,
+              "word": "even",
+              "lemma": "even",
+              "pos": "adv",
+              "meaning": "即使；甚至",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 20,
+              "word": "had",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "有（have the nerve to为敢于）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 24,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 25,
               "b": 30,
               "word": "nerve",
               "lemma": "nerve",
-              "meaning": "胆量；勇气",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "胆量",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 33,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 40,
+              "word": "refuse",
+              "lemma": "refuse",
+              "pos": "v",
+              "meaning": "拒绝",
+              "reviewVersion": 2
             },
             {
               "a": 41,
               "b": 49,
               "word": "delivery",
               "lemma": "delivery",
-              "meaning": "报纸投递；配送",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "投递",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 52,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "向（投递目的地）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 60,
+              "word": "distant",
+              "lemma": "distant",
+              "pos": "a",
+              "meaning": "偏远的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 68,
+              "word": "suburbs",
+              "lemma": "suburb",
+              "pos": "n",
+              "meaning": "郊区",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 17,
               "b": 33,
-              "lemma": "had the nerve to",
+              "lemma": "have the nerve to",
               "meaning": "竟敢；有胆量去",
-              "word": "had the nerve to"
+              "word": "had the nerve to",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -789,7 +2456,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "had the nerve是竟敢，投递拒绝目标为偏远郊区。",
+            "sentenceSHA256": "aa56508964c5d0617a1cdb88e8670bf89a71d28a4c280e3bf7fc03fb10b4cf77",
+            "words": 12,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P3-S6",
@@ -821,12 +2496,175 @@
           "translation": "然而，这些迫于困境的措施已被证明是正确的，而且，令许多记者难过的是，这些措施还可以进一步推行。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "Yet",
+              "lemma": "yet",
+              "pos": "conj",
+              "meaning": "然而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 9,
+              "word": "these",
+              "lemma": "these",
+              "pos": "det",
+              "meaning": "这些",
+              "reviewVersion": 2
+            },
+            {
               "a": 10,
               "b": 19,
               "word": "desperate",
               "lemma": "desperate",
-              "meaning": "困境中不得不采取的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "迫于困境采取的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 28,
+              "word": "measures",
+              "lemma": "measure",
+              "pos": "n",
+              "meaning": "措施",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 40,
+              "word": "proved",
+              "lemma": "prove",
+              "pos": "v",
+              "meaning": "证明是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 44,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 50,
+              "word": "right",
+              "lemma": "right",
+              "pos": "a",
+              "meaning": "正确的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 55,
+              "word": "ones",
+              "lemma": "one",
+              "pos": "pron",
+              "meaning": "那些（措施）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 59,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 66,
+              "word": "sadly",
+              "lemma": "sadly",
+              "pos": "adv",
+              "meaning": "令人难过的是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 70,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对……而言（记者的感受）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 75,
+              "word": "many",
+              "lemma": "many",
+              "pos": "det",
+              "meaning": "许多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 87,
+              "word": "journalists",
+              "lemma": "journalist",
+              "pos": "n",
+              "meaning": "记者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 93,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "这些措施",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 97,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能够；可以",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 100,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动助动词（be pushed）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 107,
+              "word": "pushed",
+              "lemma": "push",
+              "pos": "v",
+              "meaning": "推行",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 115,
+              "word": "further",
+              "lemma": "far",
+              "pos": "adv",
+              "meaning": "进一步",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -836,7 +2674,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "已证明措施正确且可进一步推行；they为措施非记者。",
+            "sentenceSHA256": "19ce1e667fb6c3f7618a1746bebeab264da517a9c402f39e3eb2dc56f0dfe4cb",
+            "words": 19,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -868,20 +2714,148 @@
           "translation": "报纸正成为结构更均衡的企业，来自读者和广告商的收入搭配更加健康。",
           "words": [
             {
+              "a": 0,
+              "b": 10,
+              "word": "Newspapers",
+              "lemma": "newspaper",
+              "pos": "n",
+              "meaning": "报纸；报社",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 14,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "现在进行时助动词（are becoming）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 23,
+              "word": "becoming",
+              "lemma": "become",
+              "pos": "v",
+              "meaning": "变得；成为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 28,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更多；更（比较程度）",
+              "reviewVersion": 2
+            },
+            {
               "a": 29,
               "b": 37,
               "word": "balanced",
               "lemma": "balanced",
+              "pos": "a",
               "meaning": "结构均衡的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 48,
+              "word": "businesses",
+              "lemma": "business",
+              "pos": "n",
+              "meaning": "企业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 54,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "与……一起；伴随",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 56,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 66,
+              "word": "healthier",
+              "lemma": "healthy",
+              "pos": "a",
+              "meaning": "更健康的；更合理的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 70,
+              "word": "mix",
+              "lemma": "mix",
+              "pos": "n",
+              "meaning": "搭配；组合",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 73,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
             },
             {
               "a": 74,
               "b": 82,
               "word": "revenues",
               "lemma": "revenue",
-              "meaning": "收入；营业收入",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "营业收入",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 87,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 95,
+              "word": "readers",
+              "lemma": "reader",
+              "pos": "n",
+              "meaning": "读者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 99,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 111,
+              "word": "advertisers",
+              "lemma": "advertiser",
+              "pos": "n",
+              "meaning": "广告商",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -891,7 +2865,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "均衡来自读者与广告收入结构，不是报道立场政治均衡。",
+            "sentenceSHA256": "6d1940ba827cbe18d3b25cf0f7bf7cf6cd895eb781157f7a18aeee392ea3a9e7",
+            "words": 16,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P4-S2",
@@ -917,20 +2899,112 @@
           "translation": "美国报纸在依赖广告方面长期以来都极为特殊。",
           "words": [
             {
+              "a": 0,
+              "b": 8,
+              "word": "American",
+              "lemma": "American",
+              "pos": "a",
+              "meaning": "美国的",
+              "reviewVersion": 2
+            },
+            {
               "a": 9,
               "b": 15,
               "word": "papers",
               "lemma": "paper",
+              "pos": "n",
               "meaning": "报纸；报社",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "long",
+              "lemma": "long",
+              "pos": "adv",
+              "meaning": "长期以来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 30,
+              "word": "been",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "be的过去分词，参与完成时结构",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 37,
+              "word": "highly",
+              "lemma": "highly",
+              "pos": "adv",
+              "meaning": "极为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 45,
+              "word": "unusual",
+              "lemma": "unusual",
+              "pos": "a",
+              "meaning": "不同寻常的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 48,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 54,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
             },
             {
               "a": 55,
               "b": 63,
               "word": "reliance",
               "lemma": "reliance",
+              "pos": "n",
               "meaning": "依赖",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 66,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "对（广告的依赖）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 70,
+              "word": "ads",
+              "lemma": "ad",
+              "pos": "n",
+              "meaning": "广告",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -940,7 +3014,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "长期不同寻常之处为广告依赖程度，ads即广告。",
+            "sentenceSHA256": "efe6d2f37847901e4882e37acf5c4ad6de82da803285197ad3806dc14de1ee52",
+            "words": 12,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P4-S3",
@@ -966,22 +3048,184 @@
           "translation": "据经济合作与发展组织（OECD）的数据，2008年美国报纸收入中整整87%来自广告。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "Fully",
+              "lemma": "fully",
+              "pos": "adv",
+              "meaning": "整整；高达",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 12,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 18,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
               "a": 19,
               "b": 27,
               "word": "revenues",
               "lemma": "revenue",
-              "meaning": "收入；营业收入",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "营业收入",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 32,
+              "word": "came",
+              "lemma": "come",
+              "pos": "v",
+              "meaning": "来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 37,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 49,
+              "word": "advertising",
+              "lemma": "advertising",
+              "pos": "n",
+              "meaning": "广告收入或业务",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 52,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 68,
+              "word": "according",
+              "lemma": "according",
+              "pos": "prep",
+              "meaning": "与to构成据……所说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 71,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "according to中的依据介词，整体为根据",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 75,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 88,
+              "word": "Organization",
+              "lemma": "organization",
+              "pos": "n",
+              "meaning": "组织",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 92,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "组织名称中的连接词，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 101,
+              "word": "Economic",
+              "lemma": "economic",
+              "pos": "a",
+              "meaning": "经济的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 113,
+              "word": "Cooperation",
+              "lemma": "cooperation",
+              "pos": "n",
+              "meaning": "合作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 127,
+              "word": "Development",
+              "lemma": "development",
+              "pos": "n",
+              "meaning": "发展",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 133,
+              "word": "OECD",
+              "lemma": "OECD",
+              "pos": "name",
+              "meaning": "经济合作与发展组织",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 59,
+              "b": 71,
+              "word": "according to",
+              "lemma": "according to",
+              "meaning": "根据；据……所说",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "整整87%是广告收入比例，年份与OECD来源均保留。",
+            "sentenceSHA256": "bc74359f4bb8482c0ecc3c9cf4e40281806f240cc68458670144d2d82bbeb339",
+            "words": 17,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P4-S4",
@@ -1001,12 +3245,49 @@
           "translation": "在日本，这一比例为35%。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 8,
+              "word": "Japan",
+              "lemma": "Japan",
+              "pos": "name",
+              "meaning": "日本",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 12,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 13,
               "b": 23,
               "word": "proportion",
               "lemma": "proportion",
-              "meaning": "占比；比例",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "比例",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 26,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（联系主语与状态）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1016,7 +3297,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "日本35%承接广告收入占比，未偷换成读者占比。",
+            "sentenceSHA256": "8a11a88d75049fd2432602913ebd752d8e9f47e589ac7839768da76bd2291224",
+            "words": 5,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P4-S5",
@@ -1034,7 +3323,80 @@
           ],
           "reorder": "无需调整语序。",
           "translation": "不出所料，日本报纸要稳定得多。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "Not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 16,
+              "word": "surprisingly",
+              "lemma": "surprisingly",
+              "pos": "adv",
+              "meaning": "令人意外地（not surprisingly为不出所料）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 26,
+              "word": "Japanese",
+              "lemma": "Japanese",
+              "pos": "a",
+              "meaning": "日本的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 37,
+              "word": "newspapers",
+              "lemma": "newspaper",
+              "pos": "n",
+              "meaning": "报纸；报社",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 41,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（联系主语与状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 46,
+              "word": "much",
+              "lemma": "much",
+              "pos": "det",
+              "meaning": "很多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 51,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更多；更（比较程度）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 58,
+              "word": "stable",
+              "lemma": "stable",
+              "pos": "a",
+              "meaning": "稳定的",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -1042,7 +3404,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "not surprisingly否定意外，much more比较稳定程度。",
+            "sentenceSHA256": "c7953b30b7809a5ed25dd205f25d8eec369b7acca0bb4065d039f4ea743d2fff",
+            "words": 8,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -1092,28 +3462,211 @@
           "translation": "席卷新闻编辑部的这场风暴伤害了所有人，但大部分损害集中在报纸最缺少特色的领域。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 4,
               "b": 13,
               "word": "whirlwind",
               "lemma": "whirlwind",
-              "meaning": "剧烈冲击（比喻）",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "风暴（比喻剧烈冲击）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 18,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指冲击风暴",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 24,
+              "word": "swept",
+              "lemma": "sweep",
+              "pos": "v",
+              "meaning": "席卷",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 32,
+              "word": "through",
+              "lemma": "through",
+              "pos": "prep",
+              "meaning": "穿过；席卷过",
+              "reviewVersion": 2
             },
             {
               "a": 33,
               "b": 42,
               "word": "newsrooms",
               "lemma": "newsroom",
+              "pos": "n",
               "meaning": "新闻编辑部",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 49,
+              "word": "harmed",
+              "lemma": "harm",
+              "pos": "v",
+              "meaning": "伤害",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 59,
+              "word": "everybody",
+              "lemma": "everybody",
+              "pos": "pron",
+              "meaning": "所有人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 64,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是（转折）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 69,
+              "word": "much",
+              "lemma": "much",
+              "pos": "det",
+              "meaning": "很多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 72,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 76,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 83,
+              "word": "damage",
+              "lemma": "damage",
+              "pos": "n",
+              "meaning": "损害",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 87,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 92,
+              "word": "been",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "完成时被动助动词（been concentrated）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 105,
+              "word": "concentrated",
+              "lemma": "concentrate",
+              "pos": "v",
+              "meaning": "集中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 108,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 114,
+              "word": "areas",
+              "lemma": "area",
+              "pos": "n",
+              "meaning": "领域",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 120,
+              "word": "where",
+              "lemma": "where",
+              "pos": "adv",
+              "meaning": "关系副词，指前面的领域",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 131,
+              "word": "newspapers",
+              "lemma": "newspaper",
+              "pos": "n",
+              "meaning": "报纸；报社",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 135,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（联系主语与状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 141,
+              "word": "least",
+              "lemma": "little",
+              "pos": "adv",
+              "meaning": "最少；最不（独特）",
+              "reviewVersion": 2
             },
             {
               "a": 142,
               "b": 153,
               "word": "distinctive",
               "lemma": "distinctive",
-              "meaning": "独特的；有差异化价值的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "有特色的",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1123,7 +3676,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "风暴喻冲击；关系词where定位缺少独特性的业务领域。",
+            "sentenceSHA256": "9ae0128a23a316c6e88856cdc09ea9b39f5cb286ee9559d97cfa046040fd85c8",
+            "words": 23,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P5-S2",
@@ -1143,12 +3704,58 @@
           "translation": "汽车和电影评论员已被裁掉。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "Car",
+              "lemma": "car",
+              "pos": "n",
+              "meaning": "汽车",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 7,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 12,
+              "word": "film",
+              "lemma": "film",
+              "pos": "n",
+              "meaning": "电影",
+              "reviewVersion": 2
+            },
+            {
               "a": 13,
               "b": 22,
               "word": "reviewers",
               "lemma": "reviewer",
-              "meaning": "评论员；评介者",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "评论员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 27,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 32,
+              "word": "gone",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "消失；被裁撤",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1158,7 +3765,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "汽车及影评岗位被裁，不是作品本身消失。",
+            "sentenceSHA256": "2daee6e6754efd46a3a2f1a5da4b42b0677661fe75b25340a78b4ad38a08d0bc",
+            "words": 6,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P5-S3",
@@ -1176,7 +3791,71 @@
           ],
           "reorder": "把倒装 So have 直接译为“也是如此”。",
           "translation": "科学记者和综合商业记者也是如此。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "So",
+              "lemma": "so",
+              "pos": "adv",
+              "meaning": "也是如此（承接同样被裁掉）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 15,
+              "word": "science",
+              "lemma": "science",
+              "pos": "n",
+              "meaning": "科学",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 19,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 27,
+              "word": "general",
+              "lemma": "general",
+              "pos": "a",
+              "meaning": "综合性的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 36,
+              "word": "business",
+              "lemma": "business",
+              "pos": "n",
+              "meaning": "商业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 46,
+              "word": "reporters",
+              "lemma": "reporter",
+              "pos": "n",
+              "meaning": "记者",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -1184,7 +3863,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "So have倒装承接同样被裁，科学及综合商业记者也受影响。",
+            "sentenceSHA256": "b7fd62104ec18122a7c8270af25dc95c75016219047b53c1f883ceb45ed0d204",
+            "words": 7,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P5-S4",
@@ -1204,21 +3891,77 @@
           "translation": "驻外分社已遭到大幅裁撤。",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "Foreign",
+              "lemma": "foreign",
+              "pos": "a",
+              "meaning": "驻外的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 15,
+              "word": "bureaus",
+              "lemma": "bureau",
+              "pos": "n",
+              "meaning": "分社；记者站",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "been",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "完成时被动助动词（been cut off）",
+              "reviewVersion": 2
+            },
+            {
               "a": 26,
               "b": 34,
               "word": "savagely",
               "lemma": "savagely",
+              "pos": "adv",
               "meaning": "大幅度地；猛烈地",
-              "pos": "adv"
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 38,
+              "word": "cut",
+              "lemma": "cut",
+              "pos": "v",
+              "meaning": "裁撤",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 42,
+              "word": "off",
+              "lemma": "off",
+              "pos": "part",
+              "meaning": "与cut构成裁撤",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 0,
               "b": 15,
-              "lemma": "foreign bureaus",
+              "lemma": "foreign bureau",
               "meaning": "驻外分社；海外记者站",
-              "word": "Foreign bureaus"
+              "word": "Foreign bureaus",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1227,7 +3970,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "Foreign bureaus为驻外分社，cut off为大幅裁撤非断电。",
+            "sentenceSHA256": "ba4fec73f728b9f2613125b79a3a834583e54c755b77128fb29397e9e6d80c40",
+            "words": 7,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P5-S5",
@@ -1245,14 +3996,79 @@
           ],
           "reorder": "无需调整语序。",
           "translation": "报纸的内容因此不再那么全面。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 10,
+              "word": "Newspapers",
+              "lemma": "newspaper",
+              "pos": "n",
+              "meaning": "报纸；报社",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 14,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（联系主语与状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 19,
+              "word": "less",
+              "lemma": "little",
+              "pos": "adv",
+              "meaning": "较不；较少",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 28,
+              "word": "complete",
+              "lemma": "complete",
+              "pos": "a",
+              "meaning": "全面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 31,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "与a result构成因此",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 33,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 40,
+              "word": "result",
+              "lemma": "result",
+              "pos": "n",
+              "meaning": "结果",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 29,
               "b": 40,
               "lemma": "as a result",
               "meaning": "因此；结果",
-              "word": "as a result"
+              "word": "as a result",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1261,7 +4077,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "less complete指报纸内容不再全面，结果关系明确。",
+            "sentenceSHA256": "070ed1171031f39df0f378ff5343e13f441d9473c6126d79ac80cb71e00516e9",
+            "words": 7,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2011-T2-P5-S6",
@@ -1281,24 +4105,145 @@
           "translation": "但在报业，面面俱到已不再是一项优点。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "But",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是（转折）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 16,
+              "word": "completeness",
+              "lemma": "completeness",
+              "pos": "n",
+              "meaning": "面面俱到；全面性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 19,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（联系主语与状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 22,
+              "word": "no",
+              "lemma": "no",
+              "pos": "det",
+              "meaning": "没有；不存在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 29,
+              "word": "longer",
+              "lemma": "long",
+              "pos": "adv",
+              "meaning": "更久（no longer为不再）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 31,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 32,
               "b": 38,
               "word": "virtue",
               "lemma": "virtue",
-              "meaning": "优点；值得追求的特性",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "优点",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 41,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 45,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 55,
+              "word": "newspaper",
+              "lemma": "newspaper",
+              "pos": "n",
+              "meaning": "报纸",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 64,
+              "word": "business",
+              "lemma": "business",
+              "pos": "n",
+              "meaning": "商业",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 20,
+              "b": 29,
+              "word": "no longer",
+              "lemma": "no longer",
+              "meaning": "不再",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "no longer否定面面俱到是一项优点，virtue不是道德美德。",
+            "sentenceSHA256": "2d6bcfb046b547f38699ed5ffccf341f6b405950e763ef50dfa12807a236f8cd",
+            "words": 11,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "82ed4f2964fd9bbbd5b04afc3e81b18853a1b8189d4b64aa7bfc846f2940f249",
+    "sentences": 30,
+    "wordOccurrences": 322,
+    "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

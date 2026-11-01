@@ -49,20 +49,193 @@
           "translation": "学生、甚至许多家长向来都不怎么喜欢家庭作业，而近年来，人们对它尤其不屑。",
           "words": [
             {
+              "a": 0,
+              "b": 8,
+              "word": "Homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 12,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 18,
+              "word": "never",
+              "lemma": "never",
+              "pos": "adv",
+              "meaning": "从不；向来没有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 23,
+              "word": "been",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "has been popular完成时中的系动词",
+              "reviewVersion": 2
+            },
+            {
               "a": 24,
               "b": 32,
               "word": "terribly",
               "lemma": "terribly",
-              "meaning": "非常；极其",
-              "pos": "adv"
+              "pos": "adv",
+              "meaning": "非常（not terribly为不太）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 40,
+              "word": "popular",
+              "lemma": "popular",
+              "pos": "a",
+              "meaning": "受欢迎的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 45,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "受到（学生和家长欢迎的对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 54,
+              "word": "students",
+              "lemma": "student",
+              "pos": "n",
+              "meaning": "学生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 58,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 63,
+              "word": "even",
+              "lemma": "even",
+              "pos": "adv",
+              "meaning": "即使；甚至",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 68,
+              "word": "many",
+              "lemma": "many",
+              "pos": "det",
+              "meaning": "许多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 76,
+              "word": "parents",
+              "lemma": "parent",
+              "pos": "n",
+              "meaning": "家长",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 81,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是（转折）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 84,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 91,
+              "word": "recent",
+              "lemma": "recent",
+              "pos": "a",
+              "meaning": "近年的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 97,
+              "word": "years",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 100,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事（承接上文）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 104,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 109,
+              "word": "been",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "完成时被动助动词（been scorned）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 122,
+              "word": "particularly",
+              "lemma": "particularly",
+              "pos": "adv",
+              "meaning": "特别；格外",
+              "reviewVersion": 2
             },
             {
               "a": 123,
               "b": 130,
               "word": "scorned",
               "lemma": "scorn",
-              "meaning": "鄙视；强烈反对",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "不屑；鄙视",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -72,7 +245,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "never terribly popular为向来不太受欢迎，not terribly的程度不能译成完全无人喜欢。",
+            "sentenceSHA256": "b1e1b4d82a5306daf22a05d1f9686c6ae6b2a45e23cdd7245cc00b3cee99f5f8",
+            "words": 21,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2012-T1-P1-S2",
@@ -104,20 +285,166 @@
           "translation": "全国各地的学区正在重新思考布置家庭作业这一教育惯例，最近加入其中的是洛杉矶联合学区。",
           "words": [
             {
+              "a": 0,
+              "b": 6,
+              "word": "School",
+              "lemma": "school",
+              "pos": "n",
+              "meaning": "学校",
+              "reviewVersion": 2
+            },
+            {
               "a": 7,
               "b": 16,
               "word": "districts",
               "lemma": "district",
+              "pos": "n",
               "meaning": "学区",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 23,
+              "word": "across",
+              "lemma": "across",
+              "pos": "prep",
+              "meaning": "遍及；在各处",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 27,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 35,
+              "word": "country",
+              "lemma": "country",
+              "pos": "n",
+              "meaning": "全国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 41,
+              "word": "most",
+              "lemma": "most",
+              "pos": "adv",
+              "meaning": "最近（与recently构成时间强调）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 50,
+              "word": "recently",
+              "lemma": "recently",
+              "pos": "adv",
+              "meaning": "最近",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 54,
+              "word": "Los",
+              "lemma": "Los",
+              "pos": "name",
+              "meaning": "洛杉矶地名的一部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 62,
+              "word": "Angeles",
+              "lemma": "Angeles",
+              "pos": "name",
+              "meaning": "洛杉矶地名的一部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 70,
+              "word": "Unified",
+              "lemma": "Unified",
+              "pos": "name",
+              "meaning": "联合（洛杉矶联合学区名称的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 75,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "现在进行时助动词（are revising）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 84,
+              "word": "revising",
+              "lemma": "revise",
+              "pos": "v",
+              "meaning": "重新考虑；修订",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 90,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 99,
+              "word": "thinking",
+              "lemma": "thinking",
+              "pos": "n",
+              "meaning": "看法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 102,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "关于（家庭作业的看法）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 107,
+              "word": "this",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；这个（指所述事物）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 119,
+              "word": "educational",
+              "lemma": "educational",
+              "pos": "a",
+              "meaning": "教育方面的",
+              "reviewVersion": 2
             },
             {
               "a": 120,
               "b": 126,
               "word": "ritual",
               "lemma": "ritual",
-              "meaning": "例行做法；惯例",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "惯例；例行做法",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -127,7 +454,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "学区插入例子与重新思考的主干区分，educational ritual为惯例非宗教仪式。",
+            "sentenceSHA256": "fef225d9ab59baac4ebed6cb2611e711ef5c71aa9e3c26795965f7d2a701aefe",
+            "words": 18,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2012-T1-P1-S3",
@@ -171,52 +506,283 @@
           "translation": "遗憾的是，洛杉矶联合学区制定了一项僵化的政策，规定除少数高级课程外，家庭作业在学生总评成绩中的占比不得超过10%。",
           "words": [
             {
+              "a": 0,
+              "b": 13,
+              "word": "Unfortunately",
+              "lemma": "unfortunately",
+              "pos": "adv",
+              "meaning": "遗憾的是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 19,
+              "word": "L.A.",
+              "lemma": "Los Angeles",
+              "pos": "name",
+              "meaning": "洛杉矶（缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 27,
+              "word": "Unified",
+              "lemma": "Unified",
+              "pos": "name",
+              "meaning": "联合（洛杉矶联合学区名称的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 31,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 40,
+              "word": "produced",
+              "lemma": "produce",
+              "pos": "v",
+              "meaning": "制定；出台",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 43,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 44,
               "b": 54,
               "word": "inflexible",
               "lemma": "inflexible",
+              "pos": "a",
               "meaning": "僵化的；缺乏弹性的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 61,
+              "word": "policy",
+              "lemma": "policy",
+              "pos": "n",
+              "meaning": "政策",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 67,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "关系代词，指政策",
+              "reviewVersion": 2
             },
             {
               "a": 68,
               "b": 76,
               "word": "mandates",
               "lemma": "mandate",
+              "pos": "v",
               "meaning": "强制规定",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 81,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出所说的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 86,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "与……一起；伴随",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 90,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 100,
+              "word": "exception",
+              "lemma": "exception",
+              "pos": "n",
+              "meaning": "例外",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 103,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 108,
+              "word": "some",
+              "lemma": "some",
+              "pos": "det",
+              "meaning": "一些；有些",
+              "reviewVersion": 2
             },
             {
               "a": 109,
               "b": 117,
               "word": "advanced",
               "lemma": "advanced",
-              "meaning": "高阶的；程度较深的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "高阶的",
+              "reviewVersion": 2
             },
             {
               "a": 118,
               "b": 125,
               "word": "courses",
               "lemma": "course",
+              "pos": "n",
               "meaning": "课程",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 135,
+              "word": "homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 139,
+              "word": "may",
+              "lemma": "may",
+              "pos": "aux",
+              "meaning": "可以；在否定中表示不得",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 142,
+              "word": "no",
+              "lemma": "no",
+              "pos": "det",
+              "meaning": "没有；不存在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 149,
+              "word": "longer",
+              "lemma": "long",
+              "pos": "adv",
+              "meaning": "更久（no longer为不再）",
+              "reviewVersion": 2
             },
             {
               "a": 150,
               "b": 155,
               "word": "count",
               "lemma": "count",
-              "meaning": "在评分中计入；占比",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "在评分中占比；计入成绩",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 159,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "占（count for的搭配成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 160,
+              "b": 164,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "超过（more than）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 165,
+              "b": 169,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 174,
+              "b": 176,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 177,
+              "b": 178,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 179,
+              "b": 188,
+              "word": "student's",
+              "lemma": "student",
+              "pos": "n",
+              "meaning": "学生的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 189,
+              "b": 197,
+              "word": "academic",
+              "lemma": "academic",
+              "pos": "a",
+              "meaning": "学业的",
+              "reviewVersion": 2
             },
             {
               "a": 198,
               "b": 203,
               "word": "grade",
               "lemma": "grade",
-              "meaning": "成绩；分数",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "成绩",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -225,7 +791,16 @@
               "b": 103,
               "lemma": "with the exception of",
               "meaning": "除了……以外",
-              "word": "with the exception of"
+              "word": "with the exception of",
+              "kind": "phrase"
+            },
+            {
+              "a": 140,
+              "b": 149,
+              "word": "no longer",
+              "lemma": "no longer",
+              "meaning": "不再",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -234,7 +809,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "仅高阶课例外，may否定为不得，占分不超过10%而非占10%以上。",
+            "sentenceSHA256": "796323e81985584258f15fd61055ecfb6705e65e92d3f57edb33156816208bac",
+            "words": 31,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -272,38 +855,220 @@
           "translation": "这条规定旨在解决来自贫困或生活混乱家庭的学生完成家庭作业时可能遇到的困难。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "This",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；这个（指所述事物）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 9,
+              "word": "rule",
+              "lemma": "rule",
+              "pos": "n",
+              "meaning": "规定",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 12,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "be meant to结构成分，整体为旨在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 18,
+              "word": "meant",
+              "lemma": "mean",
+              "pos": "v",
+              "meaning": "旨在（be meant to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 21,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
               "a": 22,
               "b": 29,
               "word": "address",
               "lemma": "address",
-              "meaning": "设法解决；应对",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "解决；应对",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 33,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 44,
+              "word": "difficulty",
+              "lemma": "difficulty",
+              "pos": "n",
+              "meaning": "困难",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 49,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指困难",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 58,
+              "word": "students",
+              "lemma": "student",
+              "pos": "n",
+              "meaning": "学生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 63,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；来自",
+              "reviewVersion": 2
             },
             {
               "a": 64,
               "b": 76,
               "word": "impoverished",
               "lemma": "impoverished",
+              "pos": "a",
               "meaning": "贫困的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 79,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接备选内容）",
+              "reviewVersion": 2
             },
             {
               "a": 80,
               "b": 87,
               "word": "chaotic",
               "lemma": "chaotic",
-              "meaning": "混乱的；缺乏秩序的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "生活混乱的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 93,
+              "word": "homes",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家庭",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 99,
+              "word": "might",
+              "lemma": "might",
+              "pos": "aux",
+              "meaning": "可能；也许",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 104,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "遇到；存在（困难）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 107,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 118,
+              "word": "completing",
+              "lemma": "complete",
+              "pos": "v",
+              "meaning": "完成",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 124,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 133,
+              "word": "homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 10,
+              "b": 21,
+              "word": "is meant to",
+              "lemma": "be meant to",
+              "meaning": "旨在；目的是",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "旨在解决学生做作业的困难；that关系词，have为遇到困难。",
+            "sentenceSHA256": "aef00120a1506a26dd09b2ab22212c4bb719cc3119eeb7c7f88b822b76c6e602",
+            "words": 21,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2012-T1-P2-S2",
@@ -323,12 +1088,67 @@
           "translation": "但这项政策既不清楚，又自相矛盾。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "But",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是（转折）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 7,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 14,
+              "word": "policy",
+              "lemma": "policy",
+              "pos": "n",
+              "meaning": "政策",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 17,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（联系主语与状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 25,
+              "word": "unclear",
+              "lemma": "unclear",
+              "pos": "a",
+              "meaning": "不清楚的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 29,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
               "a": 30,
               "b": 43,
               "word": "contradictory",
               "lemma": "contradictory",
+              "pos": "a",
               "meaning": "自相矛盾的",
-              "pos": "a"
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -338,7 +1158,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "作者认为政策不清且矛盾，两个判断并列，不自动替政策作解释。",
+            "sentenceSHA256": "2f81e75760dfb33021cc6c17aee213e3e019157adb8c4b2385f6df32631e9114",
+            "words": 7,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2012-T1-P2-S3",
@@ -376,21 +1204,203 @@
           "translation": "当然，不应布置学生无法独立完成，或必须借助昂贵设备才能完成的家庭作业。",
           "words": [
             {
+              "a": 0,
+              "b": 9,
+              "word": "Certainly",
+              "lemma": "certainly",
+              "pos": "adv",
+              "meaning": "当然",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 13,
+              "word": "no",
+              "lemma": "no",
+              "pos": "det",
+              "meaning": "没有；不存在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 22,
+              "word": "homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 29,
+              "word": "should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应该",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 32,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动助动词（be assigned）",
+              "reviewVersion": 2
+            },
+            {
               "a": 33,
               "b": 41,
               "word": "assigned",
               "lemma": "assign",
+              "pos": "v",
               "meaning": "布置（作业）",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 46,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 55,
+              "word": "students",
+              "lemma": "student",
+              "pos": "n",
+              "meaning": "学生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 62,
+              "word": "cannot",
+              "lemma": "cannot",
+              "pos": "aux",
+              "meaning": "不能；无法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 71,
+              "word": "complete",
+              "lemma": "complete",
+              "pos": "v",
+              "meaning": "完成",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 74,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "on their own整体为独立地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 80,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 84,
+              "word": "own",
+              "lemma": "own",
+              "pos": "pron",
+              "meaning": "自己（on their own）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 87,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接备选内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 92,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 97,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 104,
+              "word": "cannot",
+              "lemma": "cannot",
+              "pos": "aux",
+              "meaning": "不能；无法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 107,
+              "word": "do",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "完成；做",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 115,
+              "word": "without",
+              "lemma": "without",
+              "pos": "prep",
+              "meaning": "没有；不",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 125,
+              "word": "expensive",
+              "lemma": "expensive",
+              "pos": "a",
+              "meaning": "昂贵的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 135,
+              "word": "equipment",
+              "lemma": "equipment",
+              "pos": "n",
+              "meaning": "设备",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 72,
               "b": 84,
-              "lemma": "on their own",
+              "lemma": "on one's own",
               "meaning": "独立地；靠自己",
-              "word": "on their own"
+              "word": "on their own",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -399,7 +1409,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "两处cannot限定不宜布置的作业，独立完成与不借昂贵设备分别保留。",
+            "sentenceSHA256": "10107f526aeee377788be2657347937e7a41987b4ea13c3f4b75fb491c7d17a1",
+            "words": 21,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2012-T1-P2-S4",
@@ -437,37 +1455,366 @@
           "translation": "但如果学区实际上是在放过那些因家庭情况复杂而不做作业的学生，这就危险地接近于暗示：应该为贫困儿童降低要求。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "But",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是（转折）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 6,
+              "word": "if",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "如果（引出条件）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 10,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 11,
               "b": 19,
               "word": "district",
               "lemma": "district",
+              "pos": "n",
               "meaning": "学区",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 22,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "现在进行时助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 34,
+              "word": "essentially",
+              "lemma": "essentially",
+              "pos": "adv",
+              "meaning": "实际上；本质上",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 41,
+              "word": "giving",
+              "lemma": "give",
+              "pos": "v",
+              "meaning": "给予（giving a pass为不追究）",
+              "reviewVersion": 2,
+              "explanation": "搭配结构：give ... a pass＝对……放行；不追究……"
+            },
+            {
+              "a": 42,
+              "b": 43,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 44,
               "b": 48,
               "word": "pass",
               "lemma": "pass",
+              "pos": "n",
               "meaning": "免于追究；放过",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 51,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "向（不追究的学生）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 60,
+              "word": "students",
+              "lemma": "student",
+              "pos": "n",
+              "meaning": "学生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 64,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指前面的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 67,
+              "word": "do",
+              "lemma": "do",
+              "pos": "aux",
+              "meaning": "一般现在时否定助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 71,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 74,
+              "word": "do",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "做；完成（作业）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 80,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 89,
+              "word": "homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 97,
+              "word": "because",
+              "lemma": "because",
+              "pos": "conj",
+              "meaning": "因为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 100,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 112,
+              "word": "complicated",
+              "lemma": "complicated",
+              "pos": "a",
+              "meaning": "复杂的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 119,
+              "word": "family",
+              "lemma": "family",
+              "pos": "n",
+              "meaning": "家庭",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 125,
+              "word": "lives",
+              "lemma": "life",
+              "pos": "n",
+              "meaning": "生活状况",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 129,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "这（学区放过这些学生的做法）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 132,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "现在进行时助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 138,
+              "word": "going",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "趋向；变得",
+              "reviewVersion": 2
+            },
+            {
+              "a": 139,
+              "b": 146,
+              "word": "riskily",
+              "lemma": "riskily",
+              "pos": "adv",
+              "meaning": "危险地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 147,
+              "b": 152,
+              "word": "close",
+              "lemma": "close",
+              "pos": "a",
+              "meaning": "接近的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 155,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "接近于（close to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 159,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 160,
               "b": 171,
               "word": "implication",
               "lemma": "implication",
-              "meaning": "隐含意思；可能后果",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "隐含意思",
+              "reviewVersion": 2
+            },
+            {
+              "a": 172,
+              "b": 176,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出所说的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 177,
+              "b": 186,
+              "word": "standards",
+              "lemma": "standard",
+              "pos": "n",
+              "meaning": "要求；标准",
+              "reviewVersion": 2
+            },
+            {
+              "a": 187,
+              "b": 191,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 192,
+              "b": 194,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 195,
+              "b": 197,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动助动词（be lowered）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 198,
+              "b": 205,
+              "word": "lowered",
+              "lemma": "lower",
+              "pos": "v",
+              "meaning": "降低",
+              "reviewVersion": 2
+            },
+            {
+              "a": 206,
+              "b": 209,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "为了（引出目的或对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 210,
+              "b": 214,
+              "word": "poor",
+              "lemma": "poor",
+              "pos": "a",
+              "meaning": "贫困的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 215,
+              "b": 223,
+              "word": "children",
+              "lemma": "child",
+              "pos": "n",
+              "meaning": "儿童",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
-              "a": 35,
-              "b": 51,
-              "lemma": "giving a pass to",
-              "meaning": "不追究；免除……的责任",
-              "word": "giving a pass to"
+              "a": 90,
+              "b": 100,
+              "word": "because of",
+              "lemma": "because of",
+              "meaning": "由于；因为",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -476,7 +1823,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "giving a pass为不追究，do前后助动与实义分开；隐含降低标准非明文已降低。",
+            "sentenceSHA256": "c9ba630932c318ddc18f10cc69618370f9bdcb572b68aa8ae2a4549311870ace",
+            "words": 39,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -518,32 +1873,216 @@
               "b": 8,
               "word": "District",
               "lemma": "district",
+              "pos": "n",
               "meaning": "学区",
-              "pos": "n"
+              "reviewVersion": 2
             },
             {
               "a": 9,
               "b": 23,
               "word": "administrators",
               "lemma": "administrator",
-              "meaning": "行政管理者",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "管理人员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 27,
+              "word": "say",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 32,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出所说的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 41,
+              "word": "homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 46,
+              "word": "will",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "将；会（表示将来）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 52,
+              "word": "still",
+              "lemma": "still",
+              "pos": "adv",
+              "meaning": "仍然",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 55,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 57,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 62,
+              "word": "part",
+              "lemma": "part",
+              "pos": "n",
+              "meaning": "组成部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 65,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
             },
             {
               "a": 66,
               "b": 75,
               "word": "schooling",
               "lemma": "schooling",
+              "pos": "n",
               "meaning": "学校教育",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 85,
+              "word": "teachers",
+              "lemma": "teacher",
+              "pos": "n",
+              "meaning": "教师",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 89,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动助动词（are allowed）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 97,
+              "word": "allowed",
+              "lemma": "allow",
+              "pos": "v",
+              "meaning": "获准；被允许",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 100,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
             },
             {
               "a": 101,
               "b": 107,
               "word": "assign",
               "lemma": "assign",
+              "pos": "v",
               "meaning": "布置（作业）",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 110,
+              "word": "as",
+              "lemma": "as",
+              "pos": "adv",
+              "meaning": "as much as中的程度成分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 115,
+              "word": "much",
+              "lemma": "much",
+              "pos": "det",
+              "meaning": "多少（作业量）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 118,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 121,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它（家庭作业）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 124,
+              "word": "as",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "as much as的比较连接词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 129,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 134,
+              "word": "want",
+              "lemma": "want",
+              "pos": "v",
+              "meaning": "想要；愿意",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -553,7 +2092,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "教师获准自主安排作业量，as much as为想多少多少，it为作业。",
+            "sentenceSHA256": "440182eea4e942e5a535cc0a7206e6edaea98f9fcae656ab06511f52b86fd1f6",
+            "words": 24,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2012-T1-P3-S2",
@@ -585,29 +2132,265 @@
           "translation": "但作业在总成绩中的占比不超过10%，学生即使少做一半作业，成绩单上的分数也几乎不会有变化。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "But",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是（转折）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "在……条件下（作业只占10%）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 17,
+              "word": "homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 26,
+              "word": "counting",
+              "lemma": "count",
+              "pos": "v",
+              "meaning": "在成绩中占比",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 30,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "占（counting for）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 33,
+              "word": "no",
+              "lemma": "no",
+              "pos": "adv",
+              "meaning": "不（no more than为不超过）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 38,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更多；更（比较程度）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 43,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 50,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 56,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
               "a": 57,
               "b": 63,
               "word": "grades",
               "lemma": "grade",
-              "meaning": "成绩；分数",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "成绩",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 73,
+              "word": "students",
+              "lemma": "student",
+              "pos": "n",
+              "meaning": "学生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 77,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能够；可以",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 84,
+              "word": "easily",
+              "lemma": "easily",
+              "pos": "adv",
+              "meaning": "轻易地",
+              "reviewVersion": 2
             },
             {
               "a": 85,
               "b": 89,
               "word": "skip",
               "lemma": "skip",
-              "meaning": "不做；跳过",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "不做；省略",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 94,
+              "word": "half",
+              "lemma": "half",
+              "pos": "det",
+              "meaning": "一半的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 100,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 109,
+              "word": "homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 113,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 117,
+              "word": "see",
+              "lemma": "see",
+              "pos": "v",
+              "meaning": "看到；发现",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 122,
+              "word": "very",
+              "lemma": "very",
+              "pos": "adv",
+              "meaning": "很；非常",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 129,
+              "word": "little",
+              "lemma": "little",
+              "pos": "det",
+              "meaning": "很少；几乎没有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 140,
+              "word": "difference",
+              "lemma": "difference",
+              "pos": "n",
+              "meaning": "变化；差别",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 143,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "在……上",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 149,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 150,
+              "b": 156,
+              "word": "report",
+              "lemma": "report",
+              "pos": "n",
+              "meaning": "学业成绩报告（report card为成绩单）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 157,
+              "b": 162,
+              "word": "cards",
+              "lemma": "card",
+              "pos": "n",
+              "meaning": "卡片（report cards整体为成绩单）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
+              "a": 31,
+              "b": 43,
+              "word": "no more than",
+              "lemma": "no more than",
+              "meaning": "不超过",
+              "kind": "phrase"
+            },
+            {
               "a": 150,
               "b": 162,
-              "lemma": "report cards",
+              "lemma": "report card",
               "meaning": "成绩单",
-              "word": "report cards"
+              "word": "report cards",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -616,7 +2399,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "作业占分不超过10%导致少做一半分差很小，不能将little译成没有任何差别。",
+            "sentenceSHA256": "0388340575316e810ab8bd6cf49eb4d2ccfb9aedd38f2c6e193f3f9d1f393c69",
+            "words": 27,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2012-T1-P3-S3",
@@ -646,7 +2437,251 @@
           ],
           "reorder": "把 who 后的两个行为放到第二处“学生”前，保留 but 的反问。",
           "translation": "有些学生可能不完成作业也能在州统考中考好，但那些既考得好、又完成了家庭作业的学生，又该怎么解释呢？",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "Some",
+              "lemma": "some",
+              "pos": "det",
+              "meaning": "一些；有些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 13,
+              "word": "students",
+              "lemma": "student",
+              "pos": "n",
+              "meaning": "学生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 19,
+              "word": "might",
+              "lemma": "might",
+              "pos": "aux",
+              "meaning": "可能；也许",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 22,
+              "word": "do",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "表现（do well为表现好）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 27,
+              "word": "well",
+              "lemma": "well",
+              "pos": "adv",
+              "meaning": "as well as中的成分，整体为除了……还",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 30,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "在……中（考试）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 36,
+              "word": "state",
+              "lemma": "state",
+              "pos": "n",
+              "meaning": "州",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 42,
+              "word": "tests",
+              "lemma": "test",
+              "pos": "n",
+              "meaning": "考试",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 50,
+              "word": "without",
+              "lemma": "without",
+              "pos": "prep",
+              "meaning": "没有；不",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 61,
+              "word": "completing",
+              "lemma": "complete",
+              "pos": "v",
+              "meaning": "完成",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 67,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 76,
+              "word": "homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 81,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是（转折）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 86,
+              "word": "what",
+              "lemma": "what",
+              "pos": "pron",
+              "meaning": "……又如何（what about的提问成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 92,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 96,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 105,
+              "word": "students",
+              "lemma": "student",
+              "pos": "n",
+              "meaning": "学生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 109,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指前面的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 119,
+              "word": "performed",
+              "lemma": "perform",
+              "pos": "v",
+              "meaning": "表现",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 124,
+              "word": "well",
+              "lemma": "well",
+              "pos": "adv",
+              "meaning": "as well as中的成分，整体为除了……还",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 127,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "在……中（考试）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 131,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 137,
+              "word": "tests",
+              "lemma": "test",
+              "pos": "n",
+              "meaning": "考试",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 141,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 142,
+              "b": 145,
+              "word": "did",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "做；完成（作业）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 151,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 152,
+              "b": 160,
+              "word": "homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -654,7 +2689,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "州统考表现和完成作业两项同时成立的学生被提问，what about反问保留。",
+            "sentenceSHA256": "c8bb4b93c15166bd37fd931a5e2dc31e4c1539bcb6db6dbd911edcd4bfe63036",
+            "words": 27,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2012-T1-P3-S4",
@@ -678,7 +2721,80 @@
           ],
           "reorder": "先译“很有可能”，再译具体可能性。",
           "translation": "很有可能，家庭作业确实帮助了他们。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "形式主语，后面that是可能的内容",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 5,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（联系主语与状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 11,
+              "word": "quite",
+              "lemma": "quite",
+              "pos": "adv",
+              "meaning": "相当；很",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 20,
+              "word": "possible",
+              "lemma": "possible",
+              "pos": "a",
+              "meaning": "可能的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出所说的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 29,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 38,
+              "word": "homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 45,
+              "word": "helped",
+              "lemma": "help",
+              "pos": "v",
+              "meaning": "起到帮助作用",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -686,7 +2802,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "possible保留可能性而非已证因果，helped为起了帮助作用。",
+            "sentenceSHA256": "ca5acb36f33d86c79f7de115a41d428889a0f4af5d49c713f8c99c0df08b48bc",
+            "words": 8,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2012-T1-P3-S5",
@@ -718,45 +2842,194 @@
           "translation": "然而，这项政策没有让教师自主寻找最适合学生的方法，反而强加了一条一刀切的统一规则。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "Yet",
+              "lemma": "yet",
+              "pos": "conj",
+              "meaning": "然而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 10,
+              "word": "rather",
+              "lemma": "rather",
+              "pos": "adv",
+              "meaning": "与than构成而不是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 15,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "rather than整体为而不是",
+              "reviewVersion": 2
+            },
+            {
               "a": 16,
               "b": 26,
               "word": "empowering",
               "lemma": "empower",
-              "meaning": "赋予自主权；让……有能力",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "赋予自主权",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 35,
+              "word": "teachers",
+              "lemma": "teacher",
+              "pos": "n",
+              "meaning": "教师",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 38,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 43,
+              "word": "find",
+              "lemma": "find",
+              "pos": "v",
+              "meaning": "寻找；发现",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 48,
+              "word": "what",
+              "lemma": "what",
+              "pos": "pron",
+              "meaning": "所……的办法（能奏效的方法）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 54,
+              "word": "works",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "有效；起作用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 59,
+              "word": "best",
+              "lemma": "well",
+              "pos": "adv",
+              "meaning": "最好地；最适合",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 63,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对……而言（学生）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 69,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 78,
+              "word": "students",
+              "lemma": "student",
+              "pos": "n",
+              "meaning": "学生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 83,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 90,
+              "word": "policy",
+              "lemma": "policy",
+              "pos": "n",
+              "meaning": "政策",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 98,
+              "word": "imposes",
+              "lemma": "impose",
+              "pos": "v",
+              "meaning": "强加",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 100,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 101,
               "b": 105,
               "word": "flat",
               "lemma": "flat",
-              "meaning": "统一而无差别的；一刀切的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "统一无差别的",
+              "reviewVersion": 2
             },
             {
               "a": 107,
               "b": 123,
               "word": "across-the-board",
               "lemma": "across-the-board",
+              "pos": "a",
               "meaning": "一刀切的；统一适用的",
-              "pos": "a"
+              "reviewVersion": 2
             },
             {
-              "a": 118,
-              "b": 123,
-              "word": "board",
-              "lemma": "board",
-              "meaning": "委员会；教育管理机构",
-              "pos": "n"
+              "a": 124,
+              "b": 128,
+              "word": "rule",
+              "lemma": "rule",
+              "pos": "n",
+              "meaning": "规定",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
-              "a": 107,
-              "b": 123,
-              "lemma": "across-the-board",
-              "meaning": "一刀切的；统一适用的",
-              "word": "across-the-board"
+              "a": 4,
+              "b": 15,
+              "word": "rather than",
+              "lemma": "rather than",
+              "meaning": "而不是",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -765,7 +3038,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "works动词起作用非作品；flat与across-the-board均为一刀切，不是平坦或董事会。",
+            "sentenceSHA256": "bf11c0d1036d40a1a38737fbfdec9bdcd1b7bc69d76ddc554ed437b5e77454a8",
+            "words": 20,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -797,20 +3078,139 @@
           "translation": "与此同时，这项政策对家庭作业那些真正棘手的问题，一个也没有解决。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "At",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（所述地点或时点）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 6,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 11,
+              "word": "same",
+              "lemma": "same",
+              "pos": "a",
+              "meaning": "同一的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 16,
+              "word": "time",
+              "lemma": "time",
+              "pos": "n",
+              "meaning": "时间；时候",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 21,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 28,
+              "word": "policy",
+              "lemma": "policy",
+              "pos": "n",
+              "meaning": "政策",
+              "reviewVersion": 2
+            },
+            {
               "a": 29,
               "b": 38,
               "word": "addresses",
               "lemma": "address",
-              "meaning": "设法解决；应对",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "解决；应对",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 43,
+              "word": "none",
+              "lemma": "none",
+              "pos": "pron",
+              "meaning": "一个也没有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 46,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 50,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 56,
+              "word": "truly",
+              "lemma": "truly",
+              "pos": "adv",
+              "meaning": "确实；真正地",
+              "reviewVersion": 2
             },
             {
               "a": 57,
               "b": 63,
               "word": "thorny",
               "lemma": "thorny",
-              "meaning": "棘手的；难以解决的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "棘手的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 73,
+              "word": "questions",
+              "lemma": "question",
+              "pos": "n",
+              "meaning": "问题",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 79,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 88,
+              "word": "homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -820,7 +3220,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "none为一个也未解决，thorny棘手非荆棘植物。",
+            "sentenceSHA256": "5215e955d569fbe593c4130aca51eaf2cf06b73c67bcaf95c24d35e5b45ceb0a",
+            "words": 15,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2012-T1-P4-S2",
@@ -852,36 +3260,265 @@
           "translation": "如果学区认为家庭作业对学生的学业成绩不重要，就应该减少或取消作业，而不是让作业在成绩中几乎不占分。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "If",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "如果（引出条件）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 6,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 7,
               "b": 15,
               "word": "district",
               "lemma": "district",
+              "pos": "n",
               "meaning": "学区",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 21,
+              "word": "finds",
+              "lemma": "find",
+              "pos": "v",
+              "meaning": "认为；判定",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 30,
+              "word": "homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 33,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 36,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 48,
+              "word": "unimportant",
+              "lemma": "unimportant",
+              "pos": "a",
+              "meaning": "不重要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 51,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "对于（学生学业的作用）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 55,
+              "word": "its",
+              "lemma": "its",
+              "pos": "pron",
+              "meaning": "它的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 64,
+              "word": "students",
+              "lemma": "student",
+              "pos": "n",
+              "meaning": "学生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 74,
+              "word": "academic",
+              "lemma": "academic",
+              "pos": "a",
+              "meaning": "学业的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 86,
+              "word": "achievement",
+              "lemma": "achievement",
+              "pos": "n",
+              "meaning": "学业成就；成绩",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 90,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事（承接上文）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 97,
+              "word": "should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应该",
+              "reviewVersion": 2
             },
             {
               "a": 98,
               "b": 102,
               "word": "move",
               "lemma": "move",
-              "meaning": "着手采取行动",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "采取行动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 105,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 112,
+              "word": "reduce",
+              "lemma": "reduce",
+              "pos": "v",
+              "meaning": "减少",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 115,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接备选内容）",
+              "reviewVersion": 2
             },
             {
               "a": 116,
               "b": 125,
               "word": "eliminate",
               "lemma": "eliminate",
-              "meaning": "取消；去除",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "取消",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 129,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 141,
+              "word": "assignments",
+              "lemma": "assignment",
+              "pos": "n",
+              "meaning": "布置的作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 146,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 147,
+              "b": 151,
+              "word": "make",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "使",
+              "reviewVersion": 2
+            },
+            {
+              "a": 152,
+              "b": 156,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "它们（作业）",
+              "reviewVersion": 2
             },
             {
               "a": 157,
               "b": 162,
               "word": "count",
               "lemma": "count",
-              "meaning": "在评分中计入；占比",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "在评分中占比；计入成绩",
+              "reviewVersion": 2
+            },
+            {
+              "a": 163,
+              "b": 166,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "占（count for的搭配成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 167,
+              "b": 173,
+              "word": "almost",
+              "lemma": "almost",
+              "pos": "adv",
+              "meaning": "几乎",
+              "reviewVersion": 2
+            },
+            {
+              "a": 174,
+              "b": 181,
+              "word": "nothing",
+              "lemma": "nothing",
+              "pos": "pron",
+              "meaning": "没有什么东西；没有话",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -891,7 +3528,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "若不重要则应减取消，不应仅令占分近零；两项政策建议对照。",
+            "sentenceSHA256": "36236b3947d90350b37bf20d8d502eed14e10aaf766951eb479e5e5723458d69",
+            "words": 29,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2012-T1-P4-S3",
@@ -923,28 +3568,130 @@
           "translation": "反过来说，如果家庭作业确实重要，它就应该在总成绩中占相当大的比重。",
           "words": [
             {
+              "a": 0,
+              "b": 10,
+              "word": "Conversely",
+              "lemma": "conversely",
+              "pos": "adv",
+              "meaning": "反过来说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 14,
+              "word": "if",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "如果（引出条件）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 23,
+              "word": "homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
+            },
+            {
               "a": 24,
               "b": 31,
               "word": "matters",
               "lemma": "matter",
+              "pos": "v",
               "meaning": "重要；有实际作用",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 35,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事（承接上文）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 42,
+              "word": "should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应该",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 50,
+              "word": "account",
+              "lemma": "account",
+              "pos": "v",
+              "meaning": "占（account for表比例）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 54,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "占（account for的搭配成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 56,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 68,
+              "word": "significant",
+              "lemma": "significant",
+              "pos": "a",
+              "meaning": "相当大的",
+              "reviewVersion": 2
             },
             {
               "a": 69,
               "b": 76,
               "word": "portion",
               "lemma": "portion",
-              "meaning": "部分；比重",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "部分；比例",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 79,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 83,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 84,
               "b": 89,
               "word": "grade",
               "lemma": "grade",
-              "meaning": "成绩；分数",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "成绩",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -953,7 +3700,8 @@
               "b": 54,
               "lemma": "account for",
               "meaning": "在此表示占……比例",
-              "word": "account for"
+              "word": "account for",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -962,7 +3710,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "matters动词重要；account for为占比，非解释或账户。",
+            "sentenceSHA256": "d3a3f947af2270af29d220725bbe54eee03f8cddd957a00f0e466eb14e05e17e",
+            "words": 14,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2012-T1-P4-S4",
@@ -1000,36 +3756,337 @@
           "translation": "同时，这项政策既没有确保学生的作业有意义、适合其年龄和所学科目，也没有确保教师布置的作业不超过自己愿意检查批改的量。",
           "words": [
             {
+              "a": 0,
+              "b": 9,
+              "word": "Meanwhile",
+              "lemma": "meanwhile",
+              "pos": "adv",
+              "meaning": "同时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 15,
+              "word": "this",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；这个（指所述事物）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 22,
+              "word": "policy",
+              "lemma": "policy",
+              "pos": "n",
+              "meaning": "政策",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 27,
+              "word": "does",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "做；采取（does nothing指无所作为）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 35,
+              "word": "nothing",
+              "lemma": "nothing",
+              "pos": "pron",
+              "meaning": "没有什么东西；没有话",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 38,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 45,
+              "word": "ensure",
+              "lemma": "ensure",
+              "pos": "v",
+              "meaning": "确保",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 50,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出所说的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 54,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 63,
+              "word": "homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 72,
+              "word": "students",
+              "lemma": "student",
+              "pos": "n",
+              "meaning": "学生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 80,
+              "word": "receive",
+              "lemma": "receive",
+              "pos": "v",
+              "meaning": "收到；被布置",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 83,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（联系主语与状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 94,
+              "word": "meaningful",
+              "lemma": "meaningful",
+              "pos": "a",
+              "meaning": "有意义的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 97,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接备选内容）",
+              "reviewVersion": 2
+            },
+            {
               "a": 98,
               "b": 109,
               "word": "appropriate",
               "lemma": "appropriate",
-              "meaning": "适当的；适合的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "适合的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 112,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "适合于（appropriate to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 118,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 122,
+              "word": "age",
+              "lemma": "age",
+              "pos": "n",
+              "meaning": "年龄",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 126,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 130,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 131,
               "b": 138,
               "word": "subject",
               "lemma": "subject",
-              "meaning": "学科；科目",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "学科",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 142,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接备选内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 147,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出所说的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 148,
+              "b": 156,
+              "word": "teachers",
+              "lemma": "teacher",
+              "pos": "n",
+              "meaning": "教师",
+              "reviewVersion": 2
+            },
+            {
+              "a": 157,
+              "b": 160,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "现在进行时助动词（are assigning）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 164,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 165,
               "b": 174,
               "word": "assigning",
               "lemma": "assign",
-              "meaning": "布置（作业）",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "布置作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 175,
+              "b": 179,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更多；更（比较程度）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 180,
+              "b": 184,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 185,
+              "b": 189,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 190,
+              "b": 193,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（联系主语与状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 194,
+              "b": 201,
+              "word": "willing",
+              "lemma": "willing",
+              "pos": "a",
+              "meaning": "愿意的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 202,
+              "b": 204,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
             },
             {
               "a": 205,
               "b": 211,
               "word": "review",
               "lemma": "review",
+              "pos": "v",
               "meaning": "审阅；批改",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 212,
+              "b": 215,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 216,
+              "b": 223,
+              "word": "correct",
+              "lemma": "correct",
+              "pos": "v",
+              "meaning": "纠正；批改",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1039,7 +4096,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "未确保意义、适龄科目和批改工作量三方面，review与correct均动词。",
+            "sentenceSHA256": "d6e51bb9b2531e3cddd580866eb93a7dd4bf5e337a2233cedc42d7cd610f93a7",
+            "words": 37,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -1080,31 +4145,250 @@
             }
           ],
           "reorder": "把 which 的职责说明放在“学校董事会”前；while 表示暂缓期间要开展的调查。",
-          "translation": "这些家庭作业规定应当暂缓实施，由负责制定教育政策的学校董事会调查这一问题，并举行公开听证会。",
+          "translation": "这些家庭作业规定应当暂缓实施，让负责制定教育政策的学区教育委员会调查这一问题，并举行公开听证会。",
           "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 12,
+              "word": "homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 18,
+              "word": "rules",
+              "lemma": "rule",
+              "pos": "n",
+              "meaning": "规则",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 25,
+              "word": "should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应该",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 28,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动助动词（be put on hold）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 32,
+              "word": "put",
+              "lemma": "put",
+              "pos": "v",
+              "meaning": "使置于（put on hold为暂停）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 35,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "在……上",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 40,
+              "word": "hold",
+              "lemma": "hold",
+              "pos": "n",
+              "meaning": "暂停状态（on hold）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 46,
+              "word": "while",
+              "lemma": "while",
+              "pos": "conj",
+              "meaning": "在……期间（调查及听证期间暂缓）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 50,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 57,
+              "word": "school",
+              "lemma": "school",
+              "pos": "n",
+              "meaning": "学校",
+              "reviewVersion": 2
+            },
             {
               "a": 58,
               "b": 63,
               "word": "board",
               "lemma": "board",
-              "meaning": "委员会；教育管理机构",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "学区教育委员会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 70,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "关系代词，指前面的事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 73,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（联系主语与状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 85,
+              "word": "responsible",
+              "lemma": "responsible",
+              "pos": "a",
+              "meaning": "负责的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 89,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "负责（responsible for）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 97,
+              "word": "setting",
+              "lemma": "set",
+              "pos": "v",
+              "meaning": "制定",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 109,
+              "word": "educational",
+              "lemma": "educational",
+              "pos": "a",
+              "meaning": "教育方面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 116,
+              "word": "policy",
+              "lemma": "policy",
+              "pos": "n",
+              "meaning": "政策",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 123,
+              "word": "looks",
+              "lemma": "look",
+              "pos": "v",
+              "meaning": "调查（look into）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 128,
+              "word": "into",
+              "lemma": "into",
+              "pos": "prep",
+              "meaning": "与looks构成调查",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 132,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 133,
               "b": 139,
               "word": "matter",
               "lemma": "matter",
-              "meaning": "重要；有实际作用",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "问题；事情",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 143,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 152,
+              "word": "conducts",
+              "lemma": "conduct",
+              "pos": "v",
+              "meaning": "举行",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 159,
+              "word": "public",
+              "lemma": "public",
+              "pos": "a",
+              "meaning": "公开的",
+              "reviewVersion": 2
             },
             {
               "a": 160,
               "b": 168,
               "word": "hearings",
               "lemma": "hearing",
+              "pos": "n",
               "meaning": "听证会",
-              "pos": "n"
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -1113,21 +4397,24 @@
               "b": 40,
               "lemma": "put on hold",
               "meaning": "暂停实施；暂缓",
-              "word": "put on hold"
+              "word": "put on hold",
+              "kind": "phrase"
             },
             {
               "a": 118,
               "b": 128,
-              "lemma": "looks into",
+              "lemma": "look into",
               "meaning": "调查；研究清楚",
-              "word": "looks into"
+              "word": "looks into",
+              "kind": "phrase"
             },
             {
               "a": 153,
               "b": 168,
-              "lemma": "public hearings",
+              "lemma": "public hearing",
               "meaning": "公开听证会",
-              "word": "public hearings"
+              "word": "public hearings",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1136,7 +4423,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "matter此处问题非重要；school board为学区教育委员会，暂缓与调查听证并行。",
+            "sentenceSHA256": "e29d01ad1a6fd045352d2f01fed69a46e263f0f20897361bda6bc84ac5ee5472",
+            "words": 27,
+            "phrases": 3,
+            "names": 0
+          }
         },
         {
           "id": "2012-T1-P5-S2",
@@ -1160,7 +4455,116 @@
           ],
           "reorder": "把“洛杉矶联合学区”放到前面作主语，not too late 译成“还来得及”。",
           "translation": "洛杉矶联合学区现在还来得及把家庭作业这件事处理好。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "形式主语，指妥善处理作业这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 5,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（联系主语与状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 9,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 13,
+              "word": "too",
+              "lemma": "too",
+              "pos": "adv",
+              "meaning": "过于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 18,
+              "word": "late",
+              "lemma": "late",
+              "pos": "a",
+              "meaning": "末期的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对（行动主体学区）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 27,
+              "word": "L.A.",
+              "lemma": "Los Angeles",
+              "pos": "name",
+              "meaning": "洛杉矶（缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 35,
+              "word": "Unified",
+              "lemma": "Unified",
+              "pos": "name",
+              "meaning": "联合（洛杉矶联合学区名称的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 38,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 41,
+              "word": "do",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "做；完成",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 50,
+              "word": "homework",
+              "lemma": "homework",
+              "pos": "n",
+              "meaning": "家庭作业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 56,
+              "word": "right",
+              "lemma": "right",
+              "pos": "adv",
+              "meaning": "正确地；妥善地",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -1168,9 +4572,30 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "not too late为仍来得及，right为正确妥善地而非权利或右边。",
+            "sentenceSHA256": "e6c20f7fe83e91c8d5601c3d2c0de79436168f08a684448f5f727371ed56a060",
+            "words": 12,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "d3c90fc229b2773d97aee85319c64c037636f6d4a99f87f8fb6bcec974e195fe",
+    "sentences": 18,
+    "wordOccurrences": 398,
+    "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

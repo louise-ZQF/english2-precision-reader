@@ -57,20 +57,203 @@
           "translation": "英国林业与木材行业组织Confor警告，由于没有种下足够用于生产木材的树木，英国未来将面临建筑业危机。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 6,
+              "word": "UK",
+              "lemma": "UK",
+              "pos": "abbr",
+              "meaning": "英国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 9,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与现在分词构成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 16,
+              "word": "facing",
+              "lemma": "face",
+              "pos": "v",
+              "meaning": "面临",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 18,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 25,
+              "word": "future",
+              "lemma": "future",
+              "pos": "adj",
+              "meaning": "未来的",
+              "reviewVersion": 2
+            },
+            {
               "a": 26,
               "b": 38,
               "word": "construction",
               "lemma": "construction",
-              "meaning": "建筑业；建设"
+              "pos": "n",
+              "meaning": "建筑业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 45,
+              "word": "crisis",
+              "lemma": "crisis",
+              "pos": "n",
+              "meaning": "危机",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 53,
+              "word": "because",
+              "lemma": "because",
+              "pos": "conj",
+              "meaning": "与of构成“由于”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 56,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "与because构成“由于”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 58,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 66,
+              "word": "failure",
+              "lemma": "failure",
+              "pos": "n",
+              "meaning": "未能做到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 69,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 75,
+              "word": "plant",
+              "lemma": "plant",
+              "pos": "v",
+              "meaning": "种植",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 81,
+              "word": "trees",
+              "lemma": "tree",
+              "pos": "n",
+              "meaning": "树木",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 84,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 92,
+              "word": "produce",
+              "lemma": "produce",
+              "pos": "v",
+              "meaning": "生产",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 97,
+              "word": "wood",
+              "lemma": "wood",
+              "pos": "n",
+              "meaning": "木材",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 105,
+              "word": "Confor",
+              "lemma": "Confor",
+              "pos": "propn",
+              "meaning": "Confor，英国林业与木材行业组织",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 109,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "与过去分词构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 116,
+              "word": "warned",
+              "lemma": "warn",
+              "pos": "v",
+              "meaning": "警告",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
-              "a": 57,
-              "b": 69,
-              "word": "a failure to",
-              "lemma": "a failure to",
-              "meaning": "未能做到"
+              "a": 46,
+              "b": 56,
+              "word": "because of",
+              "lemma": "because of",
+              "meaning": "由于；因为",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -79,7 +262,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "is facing进行时、has warned完成时，木材树种不足是未来建筑危机原因非植树致危机。",
+            "sentenceSHA256": "278d241d14e7720ff32c9f8a858a0d008b321af2f4dce79126410780282a6c7f",
+            "words": 21,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2024-T2-P1-S2",
@@ -117,27 +308,265 @@
           "translation": "这个林业和木材行业组织呼吁立即采取行动，减少英国对进口木材的依赖，并为子孙后代提供稳定的木材供应。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 4,
               "b": 12,
               "word": "forestry",
               "lemma": "forestry",
+              "pos": "n",
               "meaning": "林业",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 16,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 21,
+              "word": "wood",
+              "lemma": "wood",
+              "pos": "n",
+              "meaning": "木材",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 27,
+              "word": "trade",
+              "lemma": "trade",
+              "pos": "n",
+              "meaning": "行业",
+              "reviewVersion": 2
             },
             {
               "a": 28,
               "b": 32,
               "word": "body",
               "lemma": "body",
-              "meaning": "行业组织",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "组织；团体",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 36,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "与过去分词构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 43,
+              "word": "called",
+              "lemma": "call",
+              "pos": "v",
+              "meaning": "呼吁（call for）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 47,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "所呼吁的内容（call for）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 54,
+              "word": "urgent",
+              "lemma": "urgent",
+              "pos": "adj",
+              "meaning": "紧迫的；亟须的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 61,
+              "word": "action",
+              "lemma": "action",
+              "pos": "n",
+              "meaning": "行动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 64,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 71,
+              "word": "reduce",
+              "lemma": "reduce",
+              "pos": "v",
+              "meaning": "减少",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 75,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 85,
+              "word": "country's",
+              "lemma": "country",
+              "pos": "n",
+              "meaning": "国家的（指英国的）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 94,
+              "word": "reliance",
+              "lemma": "reliance",
+              "pos": "n",
+              "meaning": "依赖",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 97,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "所依赖的对象",
+              "reviewVersion": 2
             },
             {
               "a": 98,
               "b": 104,
               "word": "timber",
               "lemma": "timber",
-              "meaning": "木材"
+              "pos": "n",
+              "meaning": "木材",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 112,
+              "word": "imports",
+              "lemma": "import",
+              "pos": "n",
+              "meaning": "进口；进口木材",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 116,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 124,
+              "word": "provide",
+              "lemma": "provide",
+              "pos": "v",
+              "meaning": "提供",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 126,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 133,
+              "word": "stable",
+              "lemma": "stable",
+              "pos": "adj",
+              "meaning": "稳定的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 140,
+              "word": "supply",
+              "lemma": "supply",
+              "pos": "n",
+              "meaning": "供应",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 143,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 148,
+              "word": "wood",
+              "lemma": "wood",
+              "pos": "n",
+              "meaning": "木材",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 152,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "为了；供……（后代使用）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 159,
+              "word": "future",
+              "lemma": "future",
+              "pos": "adj",
+              "meaning": "未来的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 160,
+              "b": 171,
+              "word": "generations",
+              "lemma": "generation",
+              "pos": "n",
+              "meaning": "世代；后代",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -146,7 +575,24 @@
               "b": 32,
               "word": "trade body",
               "lemma": "trade body",
-              "meaning": "行业组织"
+              "meaning": "行业组织",
+              "kind": "phrase"
+            },
+            {
+              "a": 37,
+              "b": 47,
+              "word": "called for",
+              "lemma": "call for",
+              "meaning": "呼吁；要求",
+              "kind": "phrase"
+            },
+            {
+              "a": 86,
+              "b": 97,
+              "word": "reliance on",
+              "lemma": "reliance on",
+              "meaning": "对……的依赖",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -155,7 +601,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "body行业组织，call for呼吁，reduce与provide并列目的，末for是后代受益。",
+            "sentenceSHA256": "7f501b802d3276db961d921c2e6c5baa1639045ffe2894b9ec2d88ee24692c36",
+            "words": 29,
+            "phrases": 3,
+            "names": 0
+          }
         },
         {
           "id": "2024-T2-P1-S3",
@@ -187,11 +641,211 @@
           "translation": "目前，英国的木材需求只有20%由本国生产满足，而英国仍是全球第二大木材净进口国。",
           "words": [
             {
+              "a": 0,
+              "b": 9,
+              "word": "Currently",
+              "lemma": "currently",
+              "pos": "adv",
+              "meaning": "目前",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 14,
+              "word": "only",
+              "lemma": "only",
+              "pos": "adv",
+              "meaning": "仅仅；只有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 21,
+              "word": "per",
+              "lemma": "per",
+              "pos": "prep",
+              "meaning": "每（per cent构成百分之）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 26,
+              "word": "cent",
+              "lemma": "cent",
+              "pos": "n",
+              "meaning": "百分之一（per cent构成百分之）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 29,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 33,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 38,
+              "word": "UK's",
+              "lemma": "UK",
+              "pos": "abbr",
+              "meaning": "英国的（所有格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 43,
+              "word": "wood",
+              "lemma": "wood",
+              "pos": "n",
+              "meaning": "木材",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 55,
+              "word": "requirement",
+              "lemma": "requirement",
+              "pos": "n",
+              "meaning": "需求",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 58,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；由本国生产满足",
+              "reviewVersion": 2
+            },
+            {
               "a": 59,
               "b": 69,
               "word": "home-grown",
               "lemma": "home-grown",
-              "meaning": "本国生产的"
+              "pos": "adj",
+              "meaning": "本国生产的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 75,
+              "word": "while",
+              "lemma": "while",
+              "pos": "conj",
+              "meaning": "而（对比）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 78,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它，指英国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 86,
+              "word": "remains",
+              "lemma": "remain",
+              "pos": "v",
+              "meaning": "仍然是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 90,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 105,
+              "word": "second-largest",
+              "lemma": "second-largest",
+              "pos": "adj",
+              "meaning": "第二大的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 109,
+              "word": "net",
+              "lemma": "net",
+              "pos": "adj",
+              "meaning": "净额的；扣除反向数额后的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 118,
+              "word": "importer",
+              "lemma": "importer",
+              "pos": "n",
+              "meaning": "进口国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 121,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 128,
+              "word": "timber",
+              "lemma": "timber",
+              "pos": "n",
+              "meaning": "木材",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 131,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 135,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 141,
+              "word": "world",
+              "lemma": "world",
+              "pos": "n",
+              "meaning": "世界",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -200,7 +854,8 @@
               "b": 118,
               "word": "net importer",
               "lemma": "net importer",
-              "meaning": "净进口国"
+              "meaning": "净进口国",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -209,7 +864,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "20%需求由自产满足、第二大净进口国；while对比非时间，it指英国。",
+            "sentenceSHA256": "2543ff4caf3fd59b2ddc2fbdbdb70415e4abd3d993fcdcc5b5bec631360d682e",
+            "words": 23,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -259,35 +922,355 @@
           "translation": "在英国政府推出新激励措施、鼓励土地所有者多种树之际，该行业组织表示，这些措施力度还不够，也未能充分宣传植树增加木材供应的好处。",
           "words": [
             {
-              "a": 105,
-              "b": 109,
-              "word": "body",
-              "lemma": "body",
-              "meaning": "行业组织",
-              "pos": "n"
+              "a": 0,
+              "b": 6,
+              "word": "Coming",
+              "lemma": "come",
+              "pos": "v",
+              "meaning": "出现；到来",
+              "reviewVersion": 2
             },
             {
-              "a": 194,
-              "b": 199,
-              "word": "boost",
-              "lemma": "boost",
-              "meaning": "增加；促进",
-              "pos": "v"
+              "a": 7,
+              "b": 9,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（某一时期）",
+              "reviewVersion": 2
             },
             {
-              "a": 200,
-              "b": 206,
-              "word": "timber",
-              "lemma": "timber",
-              "meaning": "建筑等用途的木材",
-              "pos": "n"
+              "a": 10,
+              "b": 11,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 16,
+              "word": "time",
+              "lemma": "time",
+              "pos": "n",
+              "meaning": "时期",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 19,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 25,
+              "word": "fresh",
+              "lemma": "fresh",
+              "pos": "adj",
+              "meaning": "新的",
+              "reviewVersion": 2
             },
             {
               "a": 26,
               "b": 36,
               "word": "incentives",
               "lemma": "incentive",
-              "meaning": "激励措施"
+              "pos": "n",
+              "meaning": "激励措施",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 41,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 45,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 48,
+              "word": "UK",
+              "lemma": "UK",
+              "pos": "abbr",
+              "meaning": "英国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 59,
+              "word": "government",
+              "lemma": "government",
+              "pos": "n",
+              "meaning": "政府",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 63,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "供……；引出种树的主体土地所有者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 74,
+              "word": "landowners",
+              "lemma": "landowner",
+              "pos": "n",
+              "meaning": "土地所有者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 77,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 82,
+              "word": "grow",
+              "lemma": "grow",
+              "pos": "v",
+              "meaning": "种植",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 87,
+              "word": "more",
+              "lemma": "more",
+              "pos": "det",
+              "meaning": "更多的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 93,
+              "word": "trees",
+              "lemma": "tree",
+              "pos": "n",
+              "meaning": "树木",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 98,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 104,
+              "word": "trade",
+              "lemma": "trade",
+              "pos": "n",
+              "meaning": "行业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 109,
+              "word": "body",
+              "lemma": "body",
+              "pos": "n",
+              "meaning": "组织；团体",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 114,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "表示；说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 120,
+              "word": "these",
+              "lemma": "these",
+              "pos": "pron",
+              "meaning": "这些激励措施",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 126,
+              "word": "don't",
+              "lemma": "do not",
+              "pos": "aux",
+              "meaning": "不；没有（否定助动词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 129,
+              "word": "go",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "达到（go far enough指力度到位）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 133,
+              "word": "far",
+              "lemma": "far",
+              "pos": "adv",
+              "meaning": "深入到某种程度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 140,
+              "word": "enough",
+              "lemma": "enough",
+              "pos": "adv",
+              "meaning": "足够地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 144,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 145,
+              "b": 149,
+              "word": "fail",
+              "lemma": "fail",
+              "pos": "v",
+              "meaning": "未能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 150,
+              "b": 152,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 160,
+              "word": "promote",
+              "lemma": "promote",
+              "pos": "v",
+              "meaning": "宣传；推广",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 164,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 165,
+              "b": 173,
+              "word": "benefits",
+              "lemma": "benefit",
+              "pos": "n",
+              "meaning": "好处；收益",
+              "reviewVersion": 2
+            },
+            {
+              "a": 174,
+              "b": 176,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 177,
+              "b": 185,
+              "word": "planting",
+              "lemma": "plant",
+              "pos": "v",
+              "meaning": "种植",
+              "reviewVersion": 2
+            },
+            {
+              "a": 186,
+              "b": 190,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "它们，指树木",
+              "reviewVersion": 2
+            },
+            {
+              "a": 191,
+              "b": 193,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 194,
+              "b": 199,
+              "word": "boost",
+              "lemma": "boost",
+              "pos": "v",
+              "meaning": "增加",
+              "reviewVersion": 2
+            },
+            {
+              "a": 200,
+              "b": 206,
+              "word": "timber",
+              "lemma": "timber",
+              "pos": "n",
+              "meaning": "木材",
+              "reviewVersion": 2
+            },
+            {
+              "a": 207,
+              "b": 215,
+              "word": "supplies",
+              "lemma": "supply",
+              "pos": "n",
+              "meaning": "供应量",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -296,14 +1279,16 @@
               "b": 109,
               "lemma": "trade body",
               "meaning": "行业组织",
-              "word": "trade body"
+              "word": "trade body",
+              "kind": "phrase"
             },
             {
               "a": 127,
               "b": 140,
               "word": "go far enough",
               "lemma": "go far enough",
-              "meaning": "达到足够力度"
+              "meaning": "达到足够力度",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -312,7 +1297,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "incentives激励措施而非奖励金额，these指措施them指树，go far enough力度足够。",
+            "sentenceSHA256": "7b477231155fb1f891cc6ecdc6d06e899e20b4d5013d33de3e58b86a7298b116",
+            "words": 39,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2024-T2-P2-S2",
@@ -354,15 +1347,373 @@
           ],
           "reorder": "先译姓名职务；not only 倒装还原；because 原因对应未来建筑业危机。",
           "translation": "Confor首席执行官斯图尔特·古德尔说：“我们现在不仅面临碳排放危机，未来还会因未能种植足够用于生产木材的树木，而面临建筑业危机。”",
-          "words": [],
-          "phrases": [],
+          "words": [
+            {
+              "a": 1,
+              "b": 4,
+              "word": "Not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 9,
+              "word": "only",
+              "lemma": "only",
+              "pos": "adv",
+              "meaning": "仅仅（not only构成不仅）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 13,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与facing构成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 16,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 23,
+              "word": "facing",
+              "lemma": "face",
+              "pos": "v",
+              "meaning": "面临",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 25,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 32,
+              "word": "carbon",
+              "lemma": "carbon",
+              "pos": "n",
+              "meaning": "碳排放（修饰危机）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 39,
+              "word": "crisis",
+              "lemma": "crisis",
+              "pos": "n",
+              "meaning": "危机",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 43,
+              "word": "now",
+              "lemma": "now",
+              "pos": "adv",
+              "meaning": "现在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 48,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "而且（与not only构成不仅而且）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 51,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 56,
+              "word": "will",
+              "lemma": "will",
+              "pos": "modal",
+              "meaning": "将；会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 61,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "也；还",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 64,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与facing构成将来进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 71,
+              "word": "facing",
+              "lemma": "face",
+              "pos": "v",
+              "meaning": "面临",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 73,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 80,
+              "word": "future",
+              "lemma": "future",
+              "pos": "adj",
+              "meaning": "未来的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 93,
+              "word": "construction",
+              "lemma": "construction",
+              "pos": "n",
+              "meaning": "建筑业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 100,
+              "word": "crisis",
+              "lemma": "crisis",
+              "pos": "n",
+              "meaning": "危机",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 108,
+              "word": "because",
+              "lemma": "because",
+              "pos": "conj",
+              "meaning": "与of构成“由于”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 111,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "由于（because of）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 113,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 121,
+              "word": "failure",
+              "lemma": "failure",
+              "pos": "n",
+              "meaning": "未能做到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 124,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 130,
+              "word": "plant",
+              "lemma": "plant",
+              "pos": "v",
+              "meaning": "种植",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 136,
+              "word": "trees",
+              "lemma": "tree",
+              "pos": "n",
+              "meaning": "树木",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 139,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 147,
+              "word": "produce",
+              "lemma": "produce",
+              "pos": "v",
+              "meaning": "生产",
+              "reviewVersion": 2
+            },
+            {
+              "a": 148,
+              "b": 152,
+              "word": "wood",
+              "lemma": "wood",
+              "pos": "n",
+              "meaning": "木材",
+              "reviewVersion": 2
+            },
+            {
+              "a": 155,
+              "b": 159,
+              "word": "said",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 160,
+              "b": 166,
+              "word": "Stuart",
+              "lemma": "Stuart",
+              "pos": "propn",
+              "meaning": "斯图尔特（人名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 167,
+              "b": 174,
+              "word": "Goodall",
+              "lemma": "Goodall",
+              "pos": "propn",
+              "meaning": "古德尔（姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 176,
+              "b": 181,
+              "word": "chief",
+              "lemma": "chief",
+              "pos": "adj",
+              "meaning": "首席的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 182,
+              "b": 191,
+              "word": "executive",
+              "lemma": "executive",
+              "pos": "n",
+              "meaning": "执行官",
+              "reviewVersion": 2
+            },
+            {
+              "a": 192,
+              "b": 194,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 195,
+              "b": 201,
+              "word": "Confor",
+              "lemma": "Confor",
+              "pos": "propn",
+              "meaning": "Confor，英国林业与木材行业组织",
+              "reviewVersion": 2
+            }
+          ],
+          "phrases": [
+            {
+              "a": 1,
+              "b": 9,
+              "word": "Not only",
+              "lemma": "not only",
+              "meaning": "不仅（与后面的but并列）",
+              "kind": "phrase"
+            },
+            {
+              "a": 101,
+              "b": 111,
+              "word": "because of",
+              "lemma": "because of",
+              "meaning": "由于；因为",
+              "kind": "phrase"
+            },
+            {
+              "a": 176,
+              "b": 191,
+              "word": "chief executive",
+              "lemma": "chief executive",
+              "meaning": "首席执行官",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "not only倒装、now与future两危机时间区分，chief executive同位语，不漏因果。",
+            "sentenceSHA256": "2f3ad4219596d72a0c67995762d707e344ce939b2c8a918bd01699db6b062c3b",
+            "words": 36,
+            "phrases": 3,
+            "names": 0
+          }
         },
         {
           "id": "2024-T2-P2-S3",
@@ -406,36 +1757,362 @@
           "translation": "“几十年来，我们没有承担起投资国内木材供应的责任，结果不得不承受价格波动；随着全球需求上升、自身供应下降，我们还得争夺未来的木材供应。”",
           "words": [
             {
+              "a": 1,
+              "b": 4,
+              "word": "For",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "持续……（数十年）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 12,
+              "word": "decades",
+              "lemma": "decade",
+              "pos": "n",
+              "meaning": "数十年（十年为一单位）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 15,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "与过去分词构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 24,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 30,
+              "word": "taken",
+              "lemma": "take",
+              "pos": "v",
+              "meaning": "承担（take responsibility）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 45,
+              "word": "responsibility",
+              "lemma": "responsibility",
+              "pos": "n",
+              "meaning": "责任",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 49,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对……承担责任（responsibility for）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 59,
+              "word": "investing",
+              "lemma": "invest",
+              "pos": "v",
+              "meaning": "投资",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 62,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "投资的对象（invest in）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 66,
+              "word": "our",
+              "lemma": "our",
+              "pos": "pron",
+              "meaning": "我们的",
+              "reviewVersion": 2
+            },
+            {
               "a": 67,
               "b": 75,
               "word": "domestic",
               "lemma": "domestic",
-              "meaning": "国内的；本土的",
-              "pos": "a"
+              "pos": "adj",
+              "meaning": "国内的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 80,
+              "word": "wood",
+              "lemma": "wood",
+              "pos": "n",
+              "meaning": "木材",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 87,
+              "word": "supply",
+              "lemma": "supply",
+              "pos": "n",
+              "meaning": "供应",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 96,
+              "word": "leaving",
+              "lemma": "leave",
+              "pos": "v",
+              "meaning": "使……处于某种处境（结果）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 99,
+              "word": "us",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们（宾格）",
+              "reviewVersion": 2
             },
             {
               "a": 100,
               "b": 107,
               "word": "exposed",
               "lemma": "expose",
-              "meaning": "易受……影响的",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "使遭受；使易受影响（be exposed to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 110,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "面临的风险（exposed to）",
+              "reviewVersion": 2
             },
             {
               "a": 111,
               "b": 122,
               "word": "fluctuating",
               "lemma": "fluctuate",
-              "meaning": "波动的"
+              "pos": "adj",
+              "meaning": "波动的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 129,
+              "word": "prices",
+              "lemma": "price",
+              "pos": "n",
+              "meaning": "价格",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 133,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 142,
+              "word": "fighting",
+              "lemma": "fight",
+              "pos": "v",
+              "meaning": "争夺",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 146,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "争夺的对象（fight for）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 147,
+              "b": 153,
+              "word": "future",
+              "lemma": "future",
+              "pos": "adj",
+              "meaning": "未来的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 154,
+              "b": 162,
+              "word": "supplies",
+              "lemma": "supply",
+              "pos": "n",
+              "meaning": "供应量",
+              "reviewVersion": 2
+            },
+            {
+              "a": 163,
+              "b": 165,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 166,
+              "b": 170,
+              "word": "wood",
+              "lemma": "wood",
+              "pos": "n",
+              "meaning": "木材",
+              "reviewVersion": 2
+            },
+            {
+              "a": 171,
+              "b": 173,
+              "word": "as",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "随着",
+              "reviewVersion": 2
+            },
+            {
+              "a": 174,
+              "b": 180,
+              "word": "global",
+              "lemma": "global",
+              "pos": "adj",
+              "meaning": "全球的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 181,
+              "b": 187,
+              "word": "demand",
+              "lemma": "demand",
+              "pos": "n",
+              "meaning": "需求",
+              "reviewVersion": 2
+            },
+            {
+              "a": 188,
+              "b": 193,
+              "word": "rises",
+              "lemma": "rise",
+              "pos": "v",
+              "meaning": "上升",
+              "reviewVersion": 2
+            },
+            {
+              "a": 194,
+              "b": 197,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 198,
+              "b": 201,
+              "word": "our",
+              "lemma": "our",
+              "pos": "pron",
+              "meaning": "我们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 202,
+              "b": 205,
+              "word": "own",
+              "lemma": "own",
+              "pos": "adj",
+              "meaning": "自己的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 206,
+              "b": 214,
+              "word": "supplies",
+              "lemma": "supply",
+              "pos": "n",
+              "meaning": "供应量",
+              "reviewVersion": 2
+            },
+            {
+              "a": 215,
+              "b": 219,
+              "word": "fall",
+              "lemma": "fall",
+              "pos": "v",
+              "meaning": "下降",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
+              "a": 25,
+              "b": 49,
+              "word": "taken responsibility for",
+              "lemma": "take responsibility for",
+              "meaning": "承担……的责任",
+              "kind": "phrase"
+            },
+            {
+              "a": 50,
+              "b": 62,
+              "word": "investing in",
+              "lemma": "invest in",
+              "meaning": "投资于",
+              "kind": "phrase"
+            },
+            {
               "a": 100,
               "b": 110,
               "word": "exposed to",
-              "lemma": "exposed to",
-              "meaning": "遭受；面临（风险）"
+              "lemma": "be exposed to",
+              "meaning": "遭受；面临（风险）",
+              "kind": "phrase"
+            },
+            {
+              "a": 134,
+              "b": 146,
+              "word": "fighting for",
+              "lemma": "fight for",
+              "meaning": "争夺；争取",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -444,7 +2121,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "for持续数十年/责任范围/争夺对象三义逐处核定，exposed面对风险，as需求供给反向变化。",
+            "sentenceSHA256": "74de8b5206a82cac54acdb992f6e95f122de2faa2771af56c5753dda868d5a42",
+            "words": 36,
+            "phrases": 4,
+            "names": 0
+          }
         }
       ]
     },
@@ -488,27 +2173,247 @@
           "translation": "Confor表示，英国具备种植低碳住宅所需木材的理想条件，而且在认证森林是否得到可持续管理方面处于全球领先地位。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 6,
+              "word": "UK",
+              "lemma": "UK",
+              "pos": "abbr",
+              "meaning": "英国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 10,
+              "word": "has",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "拥有；具备",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 16,
+              "word": "ideal",
+              "lemma": "ideal",
+              "pos": "adj",
+              "meaning": "理想的",
+              "reviewVersion": 2
+            },
+            {
               "a": 17,
               "b": 27,
               "word": "conditions",
               "lemma": "condition",
+              "pos": "n",
               "meaning": "条件",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 31,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "适于……；用来……（种植木材）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 39,
+              "word": "growing",
+              "lemma": "grow",
+              "pos": "v",
+              "meaning": "种植",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 44,
+              "word": "wood",
+              "lemma": "wood",
+              "pos": "n",
+              "meaning": "木材",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 47,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 53,
+              "word": "build",
+              "lemma": "build",
+              "pos": "v",
+              "meaning": "建造",
+              "reviewVersion": 2
             },
             {
               "a": 54,
               "b": 64,
               "word": "low-carbon",
               "lemma": "low-carbon",
+              "pos": "adj",
               "meaning": "低碳的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 70,
+              "word": "homes",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "住宅",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 74,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 77,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是（处于领先地位）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 79,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 86,
+              "word": "global",
+              "lemma": "global",
+              "pos": "adj",
+              "meaning": "全球的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 93,
+              "word": "leader",
+              "lemma": "leader",
+              "pos": "n",
+              "meaning": "领先者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 96,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……方面",
+              "reviewVersion": 2
             },
             {
               "a": 97,
               "b": 107,
               "word": "certifying",
               "lemma": "certify",
-              "meaning": "认证；证明符合标准"
+              "pos": "v",
+              "meaning": "认证；证明符合标准",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 112,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出认证内容",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 116,
+              "word": "its",
+              "lemma": "its",
+              "pos": "det",
+              "meaning": "它的，指英国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 124,
+              "word": "forests",
+              "lemma": "forest",
+              "pos": "n",
+              "meaning": "森林",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 128,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与managed构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 140,
+              "word": "sustainably",
+              "lemma": "sustainably",
+              "pos": "adv",
+              "meaning": "以可持续的方式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 148,
+              "word": "managed",
+              "lemma": "manage",
+              "pos": "v",
+              "meaning": "管理；经营",
+              "reviewVersion": 2
+            },
+            {
+              "a": 150,
+              "b": 156,
+              "word": "Confor",
+              "lemma": "Confor",
+              "pos": "propn",
+              "meaning": "Confor，英国林业与木材行业组织",
+              "reviewVersion": 2
+            },
+            {
+              "a": 157,
+              "b": 161,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "表示；说",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -518,7 +2423,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "has具备非完成时，is系动词are被动；certifying that认证森林可持续管理，不误解木材为森林。",
+            "sentenceSHA256": "65e9213187e2d4e551f3f4b276e251af32ed8d15da690b957ecddfde977de4e4",
+            "words": 27,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2024-T2-P3-S2",
@@ -548,7 +2461,224 @@
           ],
           "reorder": "While 在这里表示对比两个地区；把 use 的比例补明，不是木材长成25%。",
           "translation": "苏格兰约四分之三的住宅使用苏格兰木材建造，而在英格兰，本土木材的使用比例只有约25%。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 5,
+              "word": "While",
+              "lemma": "while",
+              "pos": "conj",
+              "meaning": "而（对比）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 12,
+              "word": "around",
+              "lemma": "around",
+              "pos": "adv",
+              "meaning": "大约",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 18,
+              "word": "three",
+              "lemma": "three",
+              "pos": "num",
+              "meaning": "三",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 27,
+              "word": "quarters",
+              "lemma": "quarter",
+              "pos": "n",
+              "meaning": "四分之一（three quarters即四分之三）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 30,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 39,
+              "word": "Scottish",
+              "lemma": "Scottish",
+              "pos": "adj",
+              "meaning": "苏格兰的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 45,
+              "word": "homes",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "住宅",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 49,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与built构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 55,
+              "word": "built",
+              "lemma": "build",
+              "pos": "v",
+              "meaning": "建造",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 60,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "以……为材料（建造）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 69,
+              "word": "Scottish",
+              "lemma": "Scottish",
+              "pos": "adj",
+              "meaning": "苏格兰的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 76,
+              "word": "timber",
+              "lemma": "timber",
+              "pos": "n",
+              "meaning": "木材",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 81,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 85,
+              "word": "use",
+              "lemma": "use",
+              "pos": "n",
+              "meaning": "使用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 88,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 99,
+              "word": "home-grown",
+              "lemma": "home-grown",
+              "pos": "adj",
+              "meaning": "本国生产的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 104,
+              "word": "wood",
+              "lemma": "wood",
+              "pos": "n",
+              "meaning": "木材",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 107,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 115,
+              "word": "England",
+              "lemma": "England",
+              "pos": "propn",
+              "meaning": "英格兰",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 118,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是（比例为）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 123,
+              "word": "only",
+              "lemma": "only",
+              "pos": "adv",
+              "meaning": "仅仅；只有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 130,
+              "word": "around",
+              "lemma": "around",
+              "pos": "adv",
+              "meaning": "大约",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 137,
+              "word": "per",
+              "lemma": "per",
+              "pos": "prep",
+              "meaning": "每（per cent构成百分之）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 142,
+              "word": "cent",
+              "lemma": "cent",
+              "pos": "n",
+              "meaning": "百分之一（per cent构成百分之）",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -556,7 +2686,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "while对比苏格兰与英格兰，75%与25%对应住宅本土木材使用；from表示建筑材料。",
+            "sentenceSHA256": "17dc99fdbaa1f29a9075c595539ea7668c84f9b0bff69c493e450c4bedd190d2",
+            "words": 24,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2024-T2-P3-S3",
@@ -594,29 +2732,247 @@
           "translation": "英国当前处境的成因十分复杂，既有对生产性林业的过时认识，也有灰松鼠对树木的大规模破坏。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 10,
+              "word": "causes",
+              "lemma": "cause",
+              "pos": "n",
+              "meaning": "原因",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 13,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 17,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 22,
+              "word": "UK's",
+              "lemma": "UK",
+              "pos": "abbr",
+              "meaning": "英国的（所有格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 30,
+              "word": "current",
+              "lemma": "current",
+              "pos": "adj",
+              "meaning": "当前的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 39,
+              "word": "position",
+              "lemma": "position",
+              "pos": "n",
+              "meaning": "处境",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 43,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；具有所说状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 51,
+              "word": "complex",
+              "lemma": "complex",
+              "pos": "adj",
+              "meaning": "复杂的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 55,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 61,
+              "word": "range",
+              "lemma": "range",
+              "pos": "v",
+              "meaning": "范围包括（range from...to...）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 66,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "范围起点（range from）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 75,
+              "word": "outdated",
+              "lemma": "outdated",
+              "pos": "adj",
+              "meaning": "过时的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 87,
+              "word": "perceptions",
+              "lemma": "perception",
+              "pos": "n",
+              "meaning": "认识；看法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 90,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 101,
+              "word": "productive",
+              "lemma": "productive",
+              "pos": "adj",
+              "meaning": "以生产木材为目的的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 110,
+              "word": "forestry",
+              "lemma": "forestry",
+              "pos": "n",
+              "meaning": "林业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 113,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "范围终点（range to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 117,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 118,
               "b": 128,
               "word": "decimation",
               "lemma": "decimation",
-              "meaning": "大规模破坏；大量毁损"
-            }
-          ],
-          "phrases": [
+              "pos": "n",
+              "meaning": "大规模破坏",
+              "reviewVersion": 2
+            },
             {
-              "a": 91,
-              "b": 110,
-              "word": "productive forestry",
-              "lemma": "productive forestry",
-              "meaning": "生产性林业；以木材生产为目标的林业"
+              "a": 129,
+              "b": 131,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 137,
+              "word": "trees",
+              "lemma": "tree",
+              "pos": "n",
+              "meaning": "树木",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 140,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "由（表示破坏者）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 145,
+              "word": "grey",
+              "lemma": "grey",
+              "pos": "adj",
+              "meaning": "灰色的（grey squirrel为灰松鼠）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 155,
+              "word": "squirrels",
+              "lemma": "squirrel",
+              "pos": "n",
+              "meaning": "松鼠",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "position处境、productive forestry木材生产经营，decimation大量破坏，range起终枚举而非唯一成因。",
+            "sentenceSHA256": "2d5aba61364d1b43f7e540d403af4fb9ea911b8f570da126e499d819e1d3eaf3",
+            "words": 25,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2024-T2-P3-S4",
@@ -654,28 +3010,201 @@
           "translation": "其中还包括农民和其他土地所有者对投资较长期植树项目的明显犹豫。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "这种情况，指造成当前处境的原因范围",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "也；还",
+              "reviewVersion": 2
+            },
+            {
               "a": 8,
               "b": 19,
               "word": "encompasses",
               "lemma": "encompass",
-              "meaning": "包括；涵盖"
+              "pos": "v",
+              "meaning": "包括；涵盖",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 31,
+              "word": "significant",
+              "lemma": "significant",
+              "pos": "adj",
+              "meaning": "明显的；相当大的",
+              "reviewVersion": 2
             },
             {
               "a": 32,
               "b": 42,
               "word": "hesitation",
               "lemma": "hesitation",
-              "meaning": "犹豫；迟疑"
+              "pos": "n",
+              "meaning": "犹豫",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 45,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "与behalf of组成来自……方面的表达",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 52,
+              "word": "behalf",
+              "lemma": "behalf",
+              "pos": "n",
+              "meaning": "代表或一方（此处on behalf of表达来自……方面）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 55,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 63,
+              "word": "farmers",
+              "lemma": "farmer",
+              "pos": "n",
+              "meaning": "农民",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 67,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 73,
+              "word": "other",
+              "lemma": "other",
+              "pos": "adj",
+              "meaning": "其他的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 84,
+              "word": "landowners",
+              "lemma": "landowner",
+              "pos": "n",
+              "meaning": "土地所有者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 87,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 94,
+              "word": "invest",
+              "lemma": "invest",
+              "pos": "v",
+              "meaning": "投资",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 97,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "向……投入资金（invest in）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 109,
+              "word": "longer-term",
+              "lemma": "long-term",
+              "pos": "adj",
+              "meaning": "期限较长的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 118,
+              "word": "planting",
+              "lemma": "plant",
+              "pos": "v",
+              "meaning": "种植",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 127,
+              "word": "projects",
+              "lemma": "project",
+              "pos": "n",
+              "meaning": "项目",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 43,
+              "b": 55,
+              "word": "on behalf of",
+              "lemma": "on behalf of",
+              "meaning": "在……一方（此处原文意为来自农民等方面的犹豫；通常义为代表）",
+              "kind": "phrase"
+            },
+            {
+              "a": 88,
+              "b": 97,
+              "word": "invest in",
+              "lemma": "invest in",
+              "meaning": "投资于",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "it承接成因范围；保留原文on behalf of较不寻常用法并按农民方面犹豫解释，longer-term比较期限。",
+            "sentenceSHA256": "81d180042d10f31bea75e95920ab1baae8354a9349f0f52f2210292069dbb542",
+            "words": 18,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -725,28 +3254,400 @@
           "translation": "尽管生产性植树能给农村经济带来实实在在的收益，并有助于英国的净零排放战略，政府支持的重点却仍是粮食生产，以及单纯以生物多样性为目的的原生林地野化恢复和种植。",
           "words": [
             {
-              "a": 207,
-              "b": 216,
-              "word": "rewilding",
-              "lemma": "rewilding",
-              "meaning": "野化恢复；恢复自然生态过程"
+              "a": 0,
+              "b": 5,
+              "word": "While",
+              "lemma": "while",
+              "pos": "conj",
+              "meaning": "尽管（让步）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 16,
+              "word": "productive",
+              "lemma": "productive",
+              "pos": "adj",
+              "meaning": "以生产木材为目的的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 21,
+              "word": "tree",
+              "lemma": "tree",
+              "pos": "n",
+              "meaning": "树（修饰种植）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 30,
+              "word": "planting",
+              "lemma": "plant",
+              "pos": "n",
+              "meaning": "种植（活动）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 34,
+              "word": "can",
+              "lemma": "can",
+              "pos": "modal",
+              "meaning": "能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 42,
+              "word": "deliver",
+              "lemma": "deliver",
+              "pos": "v",
+              "meaning": "带来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 47,
+              "word": "real",
+              "lemma": "real",
+              "pos": "adj",
+              "meaning": "实实在在的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 57,
+              "word": "financial",
+              "lemma": "financial",
+              "pos": "adj",
+              "meaning": "经济收益方面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 66,
+              "word": "benefits",
+              "lemma": "benefit",
+              "pos": "n",
+              "meaning": "好处；收益",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 69,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "给（农村经济带来收益）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 75,
+              "word": "rural",
+              "lemma": "rural",
+              "pos": "adj",
+              "meaning": "农村的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 85,
+              "word": "economies",
+              "lemma": "economy",
+              "pos": "n",
+              "meaning": "经济",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 89,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 100,
+              "word": "contribute",
+              "lemma": "contribute",
+              "pos": "v",
+              "meaning": "有助于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 103,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "对……有贡献（contribute to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 107,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 112,
+              "word": "UK's",
+              "lemma": "UK",
+              "pos": "abbr",
+              "meaning": "英国的（所有格）",
+              "reviewVersion": 2
             },
             {
               "a": 113,
               "b": 121,
               "word": "net-zero",
               "lemma": "net-zero",
-              "meaning": "净零排放的"
+              "pos": "adj",
+              "meaning": "净零排放的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 130,
+              "word": "strategy",
+              "lemma": "strategy",
+              "pos": "n",
+              "meaning": "战略",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 135,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 141,
+              "word": "focus",
+              "lemma": "focus",
+              "pos": "n",
+              "meaning": "重点",
+              "reviewVersion": 2
+            },
+            {
+              "a": 142,
+              "b": 144,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 145,
+              "b": 155,
+              "word": "government",
+              "lemma": "government",
+              "pos": "n",
+              "meaning": "政府",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 163,
+              "word": "support",
+              "lemma": "support",
+              "pos": "n",
+              "meaning": "支持",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 173,
+              "word": "continues",
+              "lemma": "continue",
+              "pos": "v",
+              "meaning": "继续",
+              "reviewVersion": 2
+            },
+            {
+              "a": 174,
+              "b": 176,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 177,
+              "b": 179,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是（重点仍是）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 180,
+              "b": 182,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "在……方面（重点所在）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 183,
+              "b": 187,
+              "word": "food",
+              "lemma": "food",
+              "pos": "n",
+              "meaning": "食物；粮食",
+              "reviewVersion": 2
+            },
+            {
+              "a": 188,
+              "b": 198,
+              "word": "production",
+              "lemma": "production",
+              "pos": "n",
+              "meaning": "生产",
+              "reviewVersion": 2
+            },
+            {
+              "a": 199,
+              "b": 202,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 203,
+              "b": 206,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 207,
+              "b": 216,
+              "word": "rewilding",
+              "lemma": "rewilding",
+              "pos": "n",
+              "meaning": "野化恢复；恢复自然生态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 217,
+              "b": 220,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 221,
+              "b": 229,
+              "word": "planting",
+              "lemma": "plant",
+              "pos": "n",
+              "meaning": "种植（活动）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 230,
+              "b": 232,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 233,
+              "b": 239,
+              "word": "native",
+              "lemma": "native",
+              "pos": "adj",
+              "meaning": "原生的；本土的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 240,
+              "b": 248,
+              "word": "woodland",
+              "lemma": "woodland",
+              "pos": "n",
+              "meaning": "林地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 249,
+              "b": 255,
+              "word": "solely",
+              "lemma": "solely",
+              "pos": "adv",
+              "meaning": "仅仅；单纯地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 256,
+              "b": 259,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "以……为目的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 260,
+              "b": 272,
+              "word": "biodiversity",
+              "lemma": "biodiversity",
+              "pos": "n",
+              "meaning": "生物多样性",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 90,
+              "b": 103,
+              "word": "contribute to",
+              "lemma": "contribute to",
+              "meaning": "有助于",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "while让步，solely仅限制林地恢复与种植；rewilding是生态恢复，net-zero完整复合词。",
+            "sentenceSHA256": "ee96bce58020bf0a40830754da03c1c86efb815f28bd95df4415de49f3661fce",
+            "words": 41,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2024-T2-P4-S2",
@@ -790,28 +3691,327 @@
           "translation": "古德尔补充说：“粮食生产和生物多样性的良好状态显然至关重要，但我们也需要土地为建筑和制造业提供可靠的木材供应，同时助力净零排放。",
           "words": [
             {
-              "a": 131,
-              "b": 137,
-              "word": "secure",
-              "lemma": "secure",
-              "meaning": "可靠的；有保障的"
+              "a": 0,
+              "b": 7,
+              "word": "Goodall",
+              "lemma": "Goodall",
+              "pos": "propn",
+              "meaning": "古德尔（姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 13,
+              "word": "added",
+              "lemma": "add",
+              "pos": "v",
+              "meaning": "补充说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 21,
+              "word": "While",
+              "lemma": "while",
+              "pos": "conj",
+              "meaning": "尽管（让步）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 26,
+              "word": "food",
+              "lemma": "food",
+              "pos": "n",
+              "meaning": "食物；粮食",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 37,
+              "word": "production",
+              "lemma": "production",
+              "pos": "n",
+              "meaning": "生产",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 41,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 54,
+              "word": "biodiversity",
+              "lemma": "biodiversity",
+              "pos": "n",
+              "meaning": "生物多样性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 61,
+              "word": "health",
+              "lemma": "health",
+              "pos": "n",
+              "meaning": "良好状态；健康",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 65,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；具有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 73,
+              "word": "clearly",
+              "lemma": "clearly",
+              "pos": "adv",
+              "meaning": "显然",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 76,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "具有（be of critical importance）",
+              "reviewVersion": 2
             },
             {
               "a": 77,
               "b": 85,
               "word": "critical",
               "lemma": "critical",
-              "meaning": "极其重要的"
+              "pos": "adj",
+              "meaning": "至关重要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 96,
+              "word": "importance",
+              "lemma": "importance",
+              "pos": "n",
+              "meaning": "重要性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 100,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 105,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 109,
+              "word": "our",
+              "lemma": "our",
+              "pos": "pron",
+              "meaning": "我们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 114,
+              "word": "land",
+              "lemma": "land",
+              "pos": "n",
+              "meaning": "土地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 117,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 122,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "也；还",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 130,
+              "word": "provide",
+              "lemma": "provide",
+              "pos": "v",
+              "meaning": "提供",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 137,
+              "word": "secure",
+              "lemma": "secure",
+              "pos": "adj",
+              "meaning": "可靠的；有保障的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 146,
+              "word": "supplies",
+              "lemma": "supply",
+              "pos": "n",
+              "meaning": "供应量",
+              "reviewVersion": 2
+            },
+            {
+              "a": 147,
+              "b": 149,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 150,
+              "b": 154,
+              "word": "wood",
+              "lemma": "wood",
+              "pos": "n",
+              "meaning": "木材",
+              "reviewVersion": 2
+            },
+            {
+              "a": 155,
+              "b": 158,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "供……使用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 159,
+              "b": 171,
+              "word": "construction",
+              "lemma": "construction",
+              "pos": "n",
+              "meaning": "建筑业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 173,
+              "b": 186,
+              "word": "manufacturing",
+              "lemma": "manufacturing",
+              "pos": "n",
+              "meaning": "制造业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 187,
+              "b": 190,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 191,
+              "b": 201,
+              "word": "contribute",
+              "lemma": "contribute",
+              "pos": "v",
+              "meaning": "有助于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 202,
+              "b": 204,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "对……有贡献（contribute to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 205,
+              "b": 208,
+              "word": "net",
+              "lemma": "net",
+              "pos": "adj",
+              "meaning": "净额的；扣除反向数额后的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 209,
+              "b": 213,
+              "word": "zero",
+              "lemma": "zero",
+              "pos": "n",
+              "meaning": "零（net zero为净零排放）",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 191,
+              "b": 204,
+              "word": "contribute to",
+              "lemma": "contribute to",
+              "meaning": "有助于",
+              "kind": "phrase"
+            },
+            {
+              "a": 205,
+              "b": 213,
+              "word": "net zero",
+              "lemma": "net zero",
+              "meaning": "净零排放",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "health此处生物多样性良好状态，secure可靠供应非安全保管，末to贡献目标非不定式。",
+            "sentenceSHA256": "cee1897382b4c93cd77b861e8d99c99dfe8095f90f12c2bf16bfb696dd6cd6a9",
+            "words": 32,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -841,14 +4041,196 @@
           ],
           "reorder": "将 there has been little 合译为“几乎没多少”；on the ground 指实际执行。",
           "translation": "“尽管英国政府已表明要多种树的雄心，但实际落地的行动很少。",
-          "words": [],
+          "words": [
+            {
+              "a": 1,
+              "b": 6,
+              "word": "While",
+              "lemma": "while",
+              "pos": "conj",
+              "meaning": "尽管（让步）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 10,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 13,
+              "word": "UK",
+              "lemma": "UK",
+              "pos": "abbr",
+              "meaning": "英国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 24,
+              "word": "government",
+              "lemma": "government",
+              "pos": "n",
+              "meaning": "政府",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 28,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "与过去分词构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 35,
+              "word": "stated",
+              "lemma": "state",
+              "pos": "v",
+              "meaning": "表明",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 39,
+              "word": "its",
+              "lemma": "its",
+              "pos": "det",
+              "meaning": "它的，指英国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 48,
+              "word": "ambition",
+              "lemma": "ambition",
+              "pos": "n",
+              "meaning": "雄心；目标",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 52,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "……的（植树目标）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 57,
+              "word": "more",
+              "lemma": "more",
+              "pos": "det",
+              "meaning": "更多的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 62,
+              "word": "tree",
+              "lemma": "tree",
+              "pos": "n",
+              "meaning": "树（修饰种植）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 71,
+              "word": "planting",
+              "lemma": "plant",
+              "pos": "n",
+              "meaning": "种植活动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 78,
+              "word": "there",
+              "lemma": "there",
+              "pos": "adv",
+              "meaning": "引出存在句“有……”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 82,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "与过去分词构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 87,
+              "word": "been",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "存在（there has been）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 94,
+              "word": "little",
+              "lemma": "little",
+              "pos": "det",
+              "meaning": "很少的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 101,
+              "word": "action",
+              "lemma": "action",
+              "pos": "n",
+              "meaning": "行动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 104,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "在实际层面（on the ground）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 108,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 115,
+              "word": "ground",
+              "lemma": "ground",
+              "pos": "n",
+              "meaning": "实际执行层面（on the ground）",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 102,
               "b": 115,
               "word": "on the ground",
               "lemma": "on the ground",
-              "meaning": "在实际执行层面；落到实处"
+              "meaning": "在实际执行层面；落到实处",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -857,7 +4239,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "两个has为完成时，there been存在结构，little少量非完全无行动，on the ground实地落实。",
+            "sentenceSHA256": "ff29c6b01b73fef272169a5cc01564c5e70c47df39ca33d81d06222e5c95ed35",
+            "words": 20,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2024-T2-P5-S2",
@@ -901,30 +4291,235 @@
           "translation": "Confor目前呼吁加大力度推动这些愿景落实，确保我们有足够的木材满足不断增长的需求。”",
           "words": [
             {
+              "a": 0,
+              "b": 6,
+              "word": "Confor",
+              "lemma": "Confor",
+              "pos": "propn",
+              "meaning": "Confor，英国林业与木材行业组织",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 9,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与现在分词构成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 13,
+              "word": "now",
+              "lemma": "now",
+              "pos": "adv",
+              "meaning": "现在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 21,
+              "word": "calling",
+              "lemma": "call",
+              "pos": "v",
+              "meaning": "呼吁",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 25,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "所呼吁的内容（call for）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 30,
+              "word": "much",
+              "lemma": "much",
+              "pos": "adv",
+              "meaning": "……得多（修饰比较级）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 38,
+              "word": "greater",
+              "lemma": "great",
+              "pos": "adj",
+              "meaning": "更大的",
+              "reviewVersion": 2
+            },
+            {
               "a": 39,
               "b": 46,
               "word": "impetus",
               "lemma": "impetus",
-              "meaning": "推动力"
+              "pos": "n",
+              "meaning": "推动力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 53,
+              "word": "behind",
+              "lemma": "behind",
+              "pos": "prep",
+              "meaning": "在……背后起推动作用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 59,
+              "word": "those",
+              "lemma": "those",
+              "pos": "det",
+              "meaning": "那些，指植树的目标",
+              "reviewVersion": 2
             },
             {
               "a": 60,
               "b": 71,
               "word": "aspirations",
               "lemma": "aspiration",
-              "meaning": "愿景；抱负"
+              "pos": "n",
+              "meaning": "愿景；目标",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 74,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 81,
+              "word": "ensure",
+              "lemma": "ensure",
+              "pos": "v",
+              "meaning": "确保",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 84,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 89,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "有；拥有（木材）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 96,
+              "word": "enough",
+              "lemma": "enough",
+              "pos": "det",
+              "meaning": "足够的（木材）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 101,
+              "word": "wood",
+              "lemma": "wood",
+              "pos": "n",
+              "meaning": "木材",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 104,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 109,
+              "word": "meet",
+              "lemma": "meet",
+              "pos": "v",
+              "meaning": "满足",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 120,
+              "word": "increasing",
+              "lemma": "increase",
+              "pos": "adj",
+              "meaning": "不断增长的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 127,
+              "word": "demand",
+              "lemma": "demand",
+              "pos": "n",
+              "meaning": "需求",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 14,
+              "b": 25,
+              "word": "calling for",
+              "lemma": "call for",
+              "meaning": "呼吁；要求",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "have木材是实义拥有，much修饰greater比较级，enough限定数量，两个to分别确保目的与满足需求。",
+            "sentenceSHA256": "999ffad742d3d963232deb64a1f299bbe45132036baa915dd5a9df7d5262c518",
+            "words": 21,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "4cffd3289257a74e64a3597e7d033e79eb7fec67a95b386d1eff3c6f6b3d2c43",
+    "sentences": 14,
+    "wordOccurrences": 392,
+    "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

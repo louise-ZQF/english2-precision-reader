@@ -49,22 +49,211 @@
           "translation": "当政府谈论基础设施对经济的贡献时，关注点通常是公路、铁路、宽带和能源。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "When",
+              "lemma": "when",
+              "pos": "conj",
+              "meaning": "当……时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 8,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 19,
+              "word": "government",
+              "lemma": "government",
+              "pos": "n",
+              "meaning": "政府",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 25,
+              "word": "talks",
+              "lemma": "talk",
+              "pos": "v",
+              "meaning": "谈论",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 31,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于",
+              "reviewVersion": 2
+            },
+            {
               "a": 32,
               "b": 46,
               "word": "infrastructure",
               "lemma": "infrastructure",
+              "pos": "n",
               "meaning": "基础设施",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 59,
+              "word": "contributing",
+              "lemma": "contribute",
+              "pos": "v",
+              "meaning": "作出贡献",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 62,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "对……作贡献（contribute to搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 66,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 74,
+              "word": "economy",
+              "lemma": "economy",
+              "pos": "n",
+              "meaning": "经济",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 78,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 84,
+              "word": "focus",
+              "lemma": "focus",
+              "pos": "n",
+              "meaning": "关注重点",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 87,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某种状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 95,
+              "word": "usually",
+              "lemma": "usually",
+              "pos": "adv",
+              "meaning": "通常",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 98,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "针对；关注于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 104,
+              "word": "roads",
+              "lemma": "road",
+              "pos": "n",
+              "meaning": "公路",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 114,
+              "word": "railways",
+              "lemma": "railway",
+              "pos": "n",
+              "meaning": "铁路",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 125,
+              "word": "broadband",
+              "lemma": "broadband",
+              "pos": "n",
+              "meaning": "宽带",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 129,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 136,
+              "word": "energy",
+              "lemma": "energy",
+              "pos": "n",
+              "meaning": "能源",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 47,
+              "b": 62,
+              "word": "contributing to",
+              "lemma": "contribute to",
+              "meaning": "有助于；促进",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "to为对经济贡献的介词，focus是关注重点，住房遗漏为全文话题。",
+            "sentenceSHA256": "e665f659ef09e01e060444fae53b1e1e64a63e18987dc105d643499a45a9c580",
+            "words": 20,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2014-T4-P1-S2",
@@ -82,7 +271,44 @@
           ],
           "reorder": "无需调整语序。",
           "translation": "住房很少被提及。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 7,
+              "word": "Housing",
+              "lemma": "housing",
+              "pos": "n",
+              "meaning": "住房",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 10,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与mentioned构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 17,
+              "word": "seldom",
+              "lemma": "seldom",
+              "pos": "adv",
+              "meaning": "很少",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 27,
+              "word": "mentioned",
+              "lemma": "mention",
+              "pos": "v",
+              "meaning": "被提及",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -90,7 +316,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "is mentioned被动，seldom很少不是从未提及。",
+            "sentenceSHA256": "4b3988209653f3ac8b229b8679b080f01fa1477a562741f20bbb95d1b45c3106",
+            "words": 4,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -114,7 +348,35 @@
           ],
           "reorder": "无需调整语序。",
           "translation": "为什么会这样？",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "Why",
+              "lemma": "why",
+              "pos": "adv",
+              "meaning": "为什么",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 6,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某种状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 11,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出说明内容的从句",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -122,7 +384,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "that回指住房很少被提及这一情况，why询问原因。",
+            "sentenceSHA256": "bba4fa1e9b68ef15f85d5c23cd5548a46e5786c574a877847fc5c2b0fbca6558",
+            "words": 3,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T4-P2-S2",
@@ -148,29 +418,112 @@
           "translation": "在某种程度上，住房行业必须承担责任。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "To",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "在……程度上（to some extent搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "some",
+              "lemma": "some",
+              "pos": "art",
+              "meaning": "一些；某种程度的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 14,
+              "word": "extent",
+              "lemma": "extent",
+              "pos": "n",
+              "meaning": "程度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 18,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 26,
+              "word": "housing",
+              "lemma": "housing",
+              "pos": "n",
+              "meaning": "住房",
+              "reviewVersion": 2
+            },
+            {
               "a": 27,
               "b": 33,
               "word": "sector",
               "lemma": "sector",
+              "pos": "n",
               "meaning": "行业；领域",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 38,
+              "word": "must",
+              "lemma": "must",
+              "pos": "aux",
+              "meaning": "必须；应当",
+              "reviewVersion": 2
             },
             {
               "a": 39,
               "b": 47,
               "word": "shoulder",
               "lemma": "shoulder",
+              "pos": "v",
               "meaning": "承担（责任）",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 51,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 57,
+              "word": "blame",
+              "lemma": "blame",
+              "pos": "n",
+              "meaning": "责任；过错",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
+            {
+              "a": 0,
+              "b": 14,
+              "word": "To some extent",
+              "lemma": "to some extent",
+              "meaning": "在某种程度上",
+              "kind": "phrase"
+            },
             {
               "a": 39,
               "b": 57,
               "lemma": "shoulder the blame",
               "meaning": "承担责任",
-              "word": "shoulder the blame"
+              "word": "shoulder the blame",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -179,7 +532,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "to some extent在某程度上，shoulder承担责任为动词非肩膀名词。",
+            "sentenceSHA256": "d0e56305d82a761001bfccf9bfb35909cc77ab4b5c1989147093f918848c1b0a",
+            "words": 10,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2014-T4-P2-S3",
@@ -203,15 +564,186 @@
           ],
           "reorder": "把 that 定语放到“真正价值”前。",
           "translation": "我们一直不善于传达住房能够为经济增长贡献的真正价值。",
-          "words": [],
-          "phrases": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 11,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 16,
+              "word": "been",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "一直处于某状态（完成时系动词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 21,
+              "word": "good",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "擅长的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 24,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在……方面；考虑的对象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 38,
+              "word": "communicating",
+              "lemma": "communicate",
+              "pos": "v",
+              "meaning": "传达；说明",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 42,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 47,
+              "word": "real",
+              "lemma": "real",
+              "pos": "a",
+              "meaning": "真实的；实质的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 53,
+              "word": "value",
+              "lemma": "value",
+              "pos": "n",
+              "meaning": "价值",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 58,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指住房能贡献的价值",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 66,
+              "word": "housing",
+              "lemma": "housing",
+              "pos": "n",
+              "meaning": "住房",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 70,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 81,
+              "word": "contribute",
+              "lemma": "contribute",
+              "pos": "v",
+              "meaning": "作出贡献",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 84,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "对……作贡献（contribute to搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 93,
+              "word": "economic",
+              "lemma": "economic",
+              "pos": "a",
+              "meaning": "经济的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 100,
+              "word": "growth",
+              "lemma": "growth",
+              "pos": "n",
+              "meaning": "经济增长",
+              "reviewVersion": 2
+            }
+          ],
+          "phrases": [
+            {
+              "a": 71,
+              "b": 84,
+              "word": "contribute to",
+              "lemma": "contribute to",
+              "meaning": "有助于；促进",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "have been good at表达一直不擅长，that修饰价值，contribute to对象为经济增长。",
+            "sentenceSHA256": "808c4b147f22a0a0dcaa0fae493f210ae0fb85a07275f824f486829ce3b54d7f",
+            "words": 17,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2014-T4-P2-S4",
@@ -237,20 +769,94 @@
           "translation": "此外，还有典型住房项目的规模这个因素。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Then",
+              "lemma": "then",
+              "pos": "adv",
+              "meaning": "此外；届时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 10,
+              "word": "there",
+              "lemma": "there",
+              "pos": "pron",
+              "meaning": "there be存在句引导词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 13,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某种状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 17,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 18,
               "b": 23,
               "word": "scale",
               "lemma": "scale",
+              "pos": "n",
               "meaning": "规模",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 26,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 30,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 38,
+              "word": "typical",
+              "lemma": "typical",
+              "pos": "a",
+              "meaning": "典型的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 46,
+              "word": "housing",
+              "lemma": "housing",
+              "pos": "n",
+              "meaning": "住房",
+              "reviewVersion": 2
             },
             {
               "a": 47,
               "b": 54,
               "word": "project",
               "lemma": "project",
+              "pos": "n",
               "meaning": "工程项目",
-              "pos": "n"
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -260,7 +866,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "there is引出项目规模这一因素，then作此外而非严格时间顺序。",
+            "sentenceSHA256": "c16f530a996c4c8f862df9bec00cd88057686c7d4ce4b1a4ce76eac3ad6d1ff1",
+            "words": 10,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T4-P2-S5",
@@ -298,36 +912,193 @@
           "translation": "面对耗资数十亿英镑的基础设施项目，住房项目很难争得关注，因此注意力难免集中到别处。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "形式主语，实际内容为争取关注的行为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 5,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某种状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 10,
+              "word": "hard",
+              "lemma": "hard",
+              "pos": "a",
+              "meaning": "困难的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 13,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 14,
               "b": 19,
               "word": "shove",
               "lemma": "shove",
-              "meaning": "奋力争取；挤着获得",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "奋力挤着争取",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 23,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对于；为了",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 33,
+              "word": "attention",
+              "lemma": "attention",
+              "pos": "n",
+              "meaning": "关注",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 39,
+              "word": "among",
+              "lemma": "among",
+              "pos": "prep",
+              "meaning": "在……项目之中",
+              "reviewVersion": 2
             },
             {
               "a": 40,
               "b": 58,
               "word": "multibillion-pound",
               "lemma": "multibillion-pound",
+              "pos": "a",
               "meaning": "耗资数十亿英镑的",
-              "pos": "a"
+              "reviewVersion": 2
             },
             {
               "a": 59,
               "b": 73,
               "word": "infrastructure",
               "lemma": "infrastructure",
+              "pos": "n",
               "meaning": "基础设施",
-              "pos": "n"
+              "reviewVersion": 2
             },
             {
               "a": 74,
               "b": 82,
               "word": "projects",
               "lemma": "project",
+              "pos": "n",
               "meaning": "工程项目",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 86,
+              "word": "so",
+              "lemma": "so",
+              "pos": "conj",
+              "meaning": "因此；所以",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 89,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "形式主语，实际内容在that从句",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 92,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某种状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 103,
+              "word": "inevitable",
+              "lemma": "inevitable",
+              "pos": "a",
+              "meaning": "不可避免的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 108,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出说明内容的从句",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 112,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 122,
+              "word": "attention",
+              "lemma": "attention",
+              "pos": "n",
+              "meaning": "关注",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 125,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与focused构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 133,
+              "word": "focused",
+              "lemma": "focus",
+              "pos": "v",
+              "meaning": "被集中关注",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 143,
+              "word": "elsewhere",
+              "lemma": "elsewhere",
+              "pos": "adv",
+              "meaning": "其他地方；其他议题",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -337,7 +1108,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "两个形式主语对应两内容，among大型项目争关注，focused被动。",
+            "sentenceSHA256": "4c8f4d0b582742eb43adef4cb0b5e982a02820f54cb479ceda8b858223fc2222",
+            "words": 21,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T4-P2-S6",
@@ -363,12 +1142,148 @@
           "translation": "但也许最重要的原因，是这个议题一直充满政治争议。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "But",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 11,
+              "word": "perhaps",
+              "lemma": "perhaps",
+              "pos": "adv",
+              "meaning": "也许",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 15,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "most",
+              "lemma": "most",
+              "pos": "adv",
+              "meaning": "最；程度最高",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 32,
+              "word": "significant",
+              "lemma": "significant",
+              "pos": "a",
+              "meaning": "重要的；显著的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 39,
+              "word": "reason",
+              "lemma": "reason",
+              "pos": "n",
+              "meaning": "原因",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 42,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某种状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 47,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出说明内容的从句",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 51,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 57,
+              "word": "issue",
+              "lemma": "issue",
+              "pos": "n",
+              "meaning": "议题；问题",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 61,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 68,
+              "word": "always",
+              "lemma": "always",
+              "pos": "adv",
+              "meaning": "一直；始终",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 73,
+              "word": "been",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "一直处于某状态（完成时系动词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 76,
+              "word": "so",
+              "lemma": "so",
+              "pos": "adv",
+              "meaning": "如此；这么（加强政治争议程度）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 88,
+              "word": "politically",
+              "lemma": "politically",
+              "pos": "adv",
+              "meaning": "在政治层面；涉及政治地",
+              "reviewVersion": 2
+            },
+            {
               "a": 89,
               "b": 96,
               "word": "charged",
               "lemma": "charged",
-              "meaning": "充满争议或情绪的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "充满政治争议或敏感性的",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -377,7 +1292,8 @@
               "b": 96,
               "lemma": "politically charged",
               "meaning": "政治争议很大的；具有政治敏感性的",
-              "word": "politically charged"
+              "word": "politically charged",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -386,7 +1302,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "charged是政治争议或敏感性形容词，不是收取费用。",
+            "sentenceSHA256": "c47907a1daacac3e2df22162ede93ee6d9826825c12d926c3922c2bf68406e1e",
+            "words": 16,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -412,20 +1336,67 @@
           "translation": "尽管如此，可负担住房的状况仍十分严峻。",
           "words": [
             {
+              "a": 0,
+              "b": 12,
+              "word": "Nevertheless",
+              "lemma": "nevertheless",
+              "pos": "adv",
+              "meaning": "尽管如此",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 17,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 18,
               "b": 28,
               "word": "affordable",
               "lemma": "affordable",
-              "meaning": "普通或低收入人群负担得起的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "人们负担得起的（住房）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 36,
+              "word": "housing",
+              "lemma": "housing",
+              "pos": "n",
+              "meaning": "住房",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 46,
+              "word": "situation",
+              "lemma": "situation",
+              "pos": "n",
+              "meaning": "状况",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 49,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某种状态",
+              "reviewVersion": 2
             },
             {
               "a": 50,
               "b": 59,
               "word": "desperate",
               "lemma": "desperate",
-              "meaning": "极其严重而紧迫的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "十分严峻而紧迫的",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -435,7 +1406,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "affordable指可负担住房，desperate形容状况严峻不是人绝望。",
+            "sentenceSHA256": "a5addcead0a1456cd1347cc9ede178928d9da2195015d8da8fb217bb5ce7571f",
+            "words": 7,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T4-P3-S2",
@@ -459,14 +1438,151 @@
           ],
           "reorder": "无需调整语序，simply 加强新房供给不足的判断。",
           "translation": "等候分配住房的名单一直变长，而我们建造的新房确实不够。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 7,
+              "word": "Waiting",
+              "lemma": "wait",
+              "pos": "a",
+              "meaning": "等候分配住房的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 13,
+              "word": "lists",
+              "lemma": "list",
+              "pos": "n",
+              "meaning": "等候名单",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 22,
+              "word": "increase",
+              "lemma": "increase",
+              "pos": "v",
+              "meaning": "增加；变长",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 26,
+              "word": "all",
+              "lemma": "all",
+              "pos": "art",
+              "meaning": "整个；始终（all the time搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 30,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 35,
+              "word": "time",
+              "lemma": "time",
+              "pos": "n",
+              "meaning": "时间；一直（all the time）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 39,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 42,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 46,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与动词构成进行结构的助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 53,
+              "word": "simply",
+              "lemma": "simply",
+              "pos": "adv",
+              "meaning": "确实；就是（强调不足）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 57,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 66,
+              "word": "building",
+              "lemma": "build",
+              "pos": "v",
+              "meaning": "建造",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 73,
+              "word": "enough",
+              "lemma": "enough",
+              "pos": "art",
+              "meaning": "足够的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 77,
+              "word": "new",
+              "lemma": "new",
+              "pos": "a",
+              "meaning": "新的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 83,
+              "word": "homes",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "住宅；住房",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 0,
               "b": 13,
-              "lemma": "waiting lists",
+              "lemma": "waiting list",
               "meaning": "等待分配住房的名单",
-              "word": "Waiting lists"
+              "word": "Waiting lists",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -475,7 +1591,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "waiting lists为等候住房名单，供给不足与需求名单变长并列。",
+            "sentenceSHA256": "5dc054139acf9bde5c7cdc028287ed4ff6a86939e68f3edec457bd8c5340f2f7",
+            "words": 15,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -513,20 +1637,130 @@
           "translation": "综合支出审查为政府提供了帮助纠正这一状况的机会。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 17,
+              "word": "comprehensive",
+              "lemma": "comprehensive",
+              "pos": "a",
+              "meaning": "全面的；综合的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 26,
+              "word": "spending",
+              "lemma": "spending",
+              "pos": "n",
+              "meaning": "政府支出",
+              "reviewVersion": 2
+            },
+            {
               "a": 27,
               "b": 33,
               "word": "review",
               "lemma": "review",
-              "meaning": "全面审查；政策检讨",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "综合支出审查；政策检讨",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 40,
+              "word": "offers",
+              "lemma": "offer",
+              "pos": "v",
+              "meaning": "提供",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 43,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 55,
+              "word": "opportunity",
+              "lemma": "opportunity",
+              "pos": "n",
+              "meaning": "机会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 59,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对于；为了",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 63,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 74,
+              "word": "government",
+              "lemma": "government",
+              "pos": "n",
+              "meaning": "政府",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 77,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 82,
+              "word": "help",
+              "lemma": "help",
+              "pos": "v",
+              "meaning": "帮助",
+              "reviewVersion": 2
             },
             {
               "a": 83,
               "b": 90,
               "word": "rectify",
               "lemma": "rectify",
+              "pos": "v",
               "meaning": "纠正；改善",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 95,
+              "word": "this",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；这种情形",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -536,7 +1770,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "review为政府支出审查非书评，机会给政府纠正住房短缺。",
+            "sentenceSHA256": "8466e53bdcc2c76b940885eb9c575b89d71de3aca892dc9efd9068bcd0cacf4f",
+            "words": 14,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T4-P4-S2",
@@ -568,20 +1810,175 @@
           "translation": "政府需要把历史形成的偏见放到一边，采取措施满足迫切的住房需求。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "政府（承接上一句政府的机会）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 8,
+              "word": "needs",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 11,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 15,
+              "word": "put",
+              "lemma": "put",
+              "pos": "v",
+              "meaning": "放置；搁置",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 26,
+              "word": "historical",
+              "lemma": "historical",
+              "pos": "a",
+              "meaning": "历史形成的",
+              "reviewVersion": 2
+            },
+            {
               "a": 27,
               "b": 37,
               "word": "prejudices",
               "lemma": "prejudice",
+              "pos": "n",
               "meaning": "偏见",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 40,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "到一边（put to one side搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 44,
+              "word": "one",
+              "lemma": "one",
+              "pos": "num",
+              "meaning": "一；一边",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 49,
+              "word": "side",
+              "lemma": "side",
+              "pos": "n",
+              "meaning": "一边；不予优先考虑的位置",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 53,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 58,
+              "word": "take",
+              "lemma": "take",
+              "pos": "v",
+              "meaning": "采取（措施）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 63,
+              "word": "some",
+              "lemma": "some",
+              "pos": "art",
+              "meaning": "一些；某种程度的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 69,
+              "word": "steps",
+              "lemma": "step",
+              "pos": "n",
+              "meaning": "措施",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 72,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
             },
             {
               "a": 73,
               "b": 80,
               "word": "address",
               "lemma": "address",
-              "meaning": "应对；设法满足（需要）",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "应对；设法满足",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 84,
+              "word": "our",
+              "lemma": "our",
+              "pos": "pron",
+              "meaning": "我们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 91,
+              "word": "urgent",
+              "lemma": "urgent",
+              "pos": "a",
+              "meaning": "迫切的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 99,
+              "word": "housing",
+              "lemma": "housing",
+              "pos": "n",
+              "meaning": "住房",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 104,
+              "word": "need",
+              "lemma": "need",
+              "pos": "n",
+              "meaning": "需要；需求",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -591,7 +1988,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "It指政府，put to one side搁置偏见，address需要为应对需求。",
+            "sentenceSHA256": "210dbcd0728e280fa37edaf9441aa705fe9c74528a4bd17c8e80c7488f13d35a",
+            "words": 19,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -621,7 +2026,116 @@
           ],
           "reorder": "无需调整语序，just that 指采取措施改善住房问题。",
           "translation": "有一些迹象表明，政府正准备这样做。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 5,
+              "word": "There",
+              "lemma": "there",
+              "pos": "pron",
+              "meaning": "there be存在句引导词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 9,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与动词构成进行结构的助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 14,
+              "word": "some",
+              "lemma": "some",
+              "pos": "art",
+              "meaning": "一些；某种程度的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 26,
+              "word": "indications",
+              "lemma": "indication",
+              "pos": "n",
+              "meaning": "迹象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 31,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出说明内容的从句",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 34,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "这；它（回指所述情形或政府）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 37,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某种状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 47,
+              "word": "preparing",
+              "lemma": "prepare",
+              "pos": "v",
+              "meaning": "准备",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 50,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 53,
+              "word": "do",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "做；采取措施",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 58,
+              "word": "just",
+              "lemma": "just",
+              "pos": "adv",
+              "meaning": "只是；恰好如此",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 63,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指正准备采取的那些措施",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -629,7 +2143,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "第一that引内容从句，第二that代词指前述正准备做的事。",
+            "sentenceSHA256": "b902191f88cd26b8318b14481045b08142806d5ff42ad439d01da4d583e9b866",
+            "words": 12,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T4-P5-S2",
@@ -691,53 +2213,329 @@
           "translation": "社区事务大臣唐·福斯特暗示，财政大臣乔治·奥斯本可能放宽地方政府存量住房相关借款的现行额度上限。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 15,
+              "word": "communities",
+              "lemma": "communities",
+              "pos": "n",
+              "meaning": "社区事务（大臣职衔的一部分）",
+              "reviewVersion": 2
+            },
+            {
               "a": 16,
               "b": 24,
               "word": "minister",
               "lemma": "minister",
+              "pos": "n",
               "meaning": "大臣；部长",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 29,
+              "word": "Don",
+              "lemma": "Don",
+              "pos": "name",
+              "meaning": "唐（名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 36,
+              "word": "Foster",
+              "lemma": "Foster",
+              "pos": "name",
+              "meaning": "福斯特（姓）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 41,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 48,
+              "word": "hinted",
+              "lemma": "hint",
+              "pos": "v",
+              "meaning": "暗示",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 53,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出说明内容的从句",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 60,
+              "word": "George",
+              "lemma": "George",
+              "pos": "name",
+              "meaning": "乔治（名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 68,
+              "word": "Osborne",
+              "lemma": "Osborne",
+              "pos": "name",
+              "meaning": "奥斯本（姓）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 80,
+              "word": "Chancellor",
+              "lemma": "Chancellor",
+              "pos": "n",
+              "meaning": "大臣（Chancellor of the Exchequer为财政大臣）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 83,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 87,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 97,
+              "word": "Exchequer",
+              "lemma": "Exchequer",
+              "pos": "n",
+              "meaning": "财政部（财政大臣称号的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 102,
+              "word": "may",
+              "lemma": "may",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 112,
+              "word": "introduce",
+              "lemma": "introduce",
+              "pos": "v",
+              "meaning": "引入；带来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 117,
+              "word": "more",
+              "lemma": "more",
+              "pos": "art",
+              "meaning": "更多的",
+              "reviewVersion": 2
             },
             {
               "a": 118,
               "b": 129,
               "word": "flexibility",
               "lemma": "flexibility",
-              "meaning": "灵活性",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "灵活性；放宽限制的空间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 132,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "对……上限作放宽（调整对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 136,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 144,
+              "word": "current",
+              "lemma": "current",
+              "pos": "a",
+              "meaning": "现行的；目前的",
+              "reviewVersion": 2
             },
             {
               "a": 145,
               "b": 148,
               "word": "cap",
               "lemma": "cap",
-              "meaning": "上限；限制额度",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "上限；额度限制",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 151,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "针对；关注于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 152,
+              "b": 155,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 162,
+              "word": "amount",
+              "lemma": "amount",
+              "pos": "n",
+              "meaning": "借款额度；金额",
+              "reviewVersion": 2
+            },
+            {
+              "a": 163,
+              "b": 167,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指地方政府可借款的额度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 168,
+              "b": 173,
+              "word": "local",
+              "lemma": "local",
+              "pos": "a",
+              "meaning": "地方的",
+              "reviewVersion": 2
             },
             {
               "a": 174,
               "b": 185,
               "word": "authorities",
               "lemma": "authority",
-              "meaning": "地方政府；主管机关",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "地方政府",
+              "reviewVersion": 2
+            },
+            {
+              "a": 186,
+              "b": 189,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 190,
+              "b": 196,
+              "word": "borrow",
+              "lemma": "borrow",
+              "pos": "v",
+              "meaning": "借款；举债",
+              "reviewVersion": 2
+            },
+            {
+              "a": 197,
+              "b": 204,
+              "word": "against",
+              "lemma": "against",
+              "pos": "prep",
+              "meaning": "针对（存量住房相关债务的借款限额）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 205,
+              "b": 210,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 211,
+              "b": 218,
+              "word": "housing",
+              "lemma": "housing",
+              "pos": "n",
+              "meaning": "住房",
+              "reviewVersion": 2
             },
             {
               "a": 219,
               "b": 224,
               "word": "stock",
               "lemma": "stock",
+              "pos": "n",
               "meaning": "存量；既有住房",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 225,
+              "b": 229,
+              "word": "debt",
+              "lemma": "debt",
+              "pos": "n",
+              "meaning": "债务；存量住房相关负债",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 145,
               "b": 151,
-              "lemma": "cap on",
+              "lemma": "a cap on",
               "meaning": "……的上限",
-              "word": "cap on"
+              "word": "cap on",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -746,7 +2544,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "两位大臣身份与姓名分别对应，stock存量住房不是股票；against按上下文住房债务借款限额理解，不擅加债务抵押机制。",
+            "sentenceSHA256": "f6ea794f309f28a5bfe5c1ea36929978911bfa447fbe4d2e77907522164919c3",
+            "words": 35,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2014-T4-P5-S3",
@@ -784,20 +2590,202 @@
           "translation": "证据表明，如果取消这一上限，未来五年可以多建6万套新房，从而使国内生产总值增长0.6%。",
           "words": [
             {
+              "a": 0,
+              "b": 8,
+              "word": "Evidence",
+              "lemma": "evidence",
+              "pos": "n",
+              "meaning": "证据；研究依据",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 14,
+              "word": "shows",
+              "lemma": "show",
+              "pos": "v",
+              "meaning": "表明",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 19,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出说明内容的从句",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 32,
+              "word": "extra",
+              "lemma": "extra",
+              "pos": "a",
+              "meaning": "额外的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 36,
+              "word": "new",
+              "lemma": "new",
+              "pos": "a",
+              "meaning": "新的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 42,
+              "word": "homes",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "住宅；住房",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 48,
+              "word": "could",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "可以；可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 51,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动结构的助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 57,
+              "word": "built",
+              "lemma": "build",
+              "pos": "v",
+              "meaning": "被建造",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 62,
+              "word": "over",
+              "lemma": "over",
+              "pos": "prep",
+              "meaning": "在……期间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 66,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 71,
+              "word": "next",
+              "lemma": "next",
+              "pos": "a",
+              "meaning": "接下来的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 76,
+              "word": "five",
+              "lemma": "five",
+              "pos": "num",
+              "meaning": "五",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 82,
+              "word": "years",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 85,
+              "word": "if",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "如果",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 89,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 90,
               "b": 93,
               "word": "cap",
               "lemma": "cap",
-              "meaning": "上限；限制额度",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "上限；额度限制",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 98,
+              "word": "were",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "假设条件中的被动助动词",
+              "reviewVersion": 2
             },
             {
               "a": 99,
               "b": 105,
               "word": "lifted",
               "lemma": "lift",
-              "meaning": "取消或放宽（限制）",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "被取消（上限）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 117,
+              "word": "increasing",
+              "lemma": "increase",
+              "pos": "v",
+              "meaning": "使……增加",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 121,
+              "word": "GDP",
+              "lemma": "GDP",
+              "pos": "abbr",
+              "meaning": "国内生产总值",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 124,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "增加的幅度（0.6%）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -807,7 +2795,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "if假设上限取消，多建6万套、未来五年、GDP增0.6%数量范围保留。",
+            "sentenceSHA256": "8f6e8a3a1441b4d37a67ec1023866c0888b23b51e06f21cdb2f9b697b0a2ff0d",
+            "words": 22,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -867,56 +2863,270 @@
               "b": 9,
               "word": "Ministers",
               "lemma": "minister",
+              "pos": "n",
               "meaning": "大臣；部长",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 16,
+              "word": "should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应该",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 21,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "还；也",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 26,
+              "word": "look",
+              "lemma": "look",
+              "pos": "v",
+              "meaning": "考虑（look at搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 29,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在……方面；考虑的对象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 38,
+              "word": "creating",
+              "lemma": "create",
+              "pos": "v",
+              "meaning": "建立；提高",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 46,
+              "word": "greater",
+              "lemma": "great",
+              "pos": "a",
+              "meaning": "更大的；更高的",
+              "reviewVersion": 2
             },
             {
               "a": 47,
               "b": 56,
               "word": "certainty",
               "lemma": "certainty",
+              "pos": "n",
               "meaning": "稳定可预期性",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 59,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在（地区、年限或条件范围内）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 63,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 64,
               "b": 70,
               "word": "rental",
               "lemma": "rental",
+              "pos": "a",
               "meaning": "租赁的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 82,
+              "word": "environment",
+              "lemma": "environment",
+              "pos": "n",
+              "meaning": "环境；经营条件",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 89,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "关系代词，指提高租赁可预期性这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 95,
+              "word": "would",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "会（假设性判断）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 100,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "产生；带来（影响）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 102,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 114,
+              "word": "significant",
+              "lemma": "significant",
+              "pos": "a",
+              "meaning": "重要的；显著的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 121,
+              "word": "impact",
+              "lemma": "impact",
+              "pos": "n",
+              "meaning": "影响",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 124,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "针对；关注于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 128,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 136,
+              "word": "ability",
+              "lemma": "ability",
+              "pos": "n",
+              "meaning": "能力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 139,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（限定关系）",
+              "reviewVersion": 2
             },
             {
               "a": 140,
               "b": 150,
               "word": "registered",
               "lemma": "register",
+              "pos": "a",
               "meaning": "正式注册登记的",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 151,
+              "b": 160,
+              "word": "providers",
+              "lemma": "provider",
+              "pos": "n",
+              "meaning": "注册住房提供机构",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 163,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
             },
             {
               "a": 164,
               "b": 168,
               "word": "fund",
               "lemma": "fund",
+              "pos": "v",
               "meaning": "为……提供资金；融资建设",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 169,
+              "b": 172,
+              "word": "new",
+              "lemma": "new",
+              "pos": "a",
+              "meaning": "新的",
+              "reviewVersion": 2
             },
             {
               "a": 173,
               "b": 185,
               "word": "developments",
               "lemma": "development",
-              "meaning": "新住房开发项目",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "新的住房开发项目",
+              "reviewVersion": 2
+            },
+            {
+              "a": 186,
+              "b": 190,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；利用（收入作为来源）",
+              "reviewVersion": 2
             },
             {
               "a": 191,
               "b": 199,
               "word": "revenues",
               "lemma": "revenue",
-              "meaning": "收入；租金等经营收入",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "经营收入；租金等收入",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -926,7 +3136,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "certainty为租赁可预期性，have影响实义动词，fund用经营收入为开发筹资。",
+            "sentenceSHA256": "212bcf7c5575065c9433c3bbfd9ec50229a1fccd25e775cdf5d436d70e1c8665",
+            "words": 30,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -950,14 +3168,97 @@
           ],
           "reorder": "无需调整语序，down to 在此强调责任归属。",
           "translation": "但这并不只是政府的责任。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "But",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 6,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "这；它（回指所述情形或政府）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 9,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某种状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 13,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 18,
+              "word": "just",
+              "lemma": "just",
+              "pos": "adv",
+              "meaning": "只是；恰好如此",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 23,
+              "word": "down",
+              "lemma": "down",
+              "pos": "part",
+              "meaning": "down to搭配的一部分，整体表示由……负责",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 26,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "由……负责（down to搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 30,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 41,
+              "word": "government",
+              "lemma": "government",
+              "pos": "n",
+              "meaning": "政府",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 19,
               "b": 26,
               "word": "down to",
               "lemma": "down to",
-              "meaning": "由……负责；取决于……"
+              "meaning": "由……负责；取决于……",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -966,7 +3267,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "down to为责任归属，not just表示不只是政府，不是否定政府有责任。",
+            "sentenceSHA256": "14d959f178fb934e0737dc7f7b3c3eb60859239ca4219d336c2afd8b08408831",
+            "words": 9,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2014-T4-P7-S2",
@@ -1022,45 +3331,373 @@
           "translation": "虽然这些措施在短期内值得欢迎，我们仍必须正视一个事实：现有用于建设新的可负担住房的45亿英镑拨款计划定于2015年到期，届时不太可能再延长。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "While",
+              "lemma": "while",
+              "pos": "conj",
+              "meaning": "虽然；尽管",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 11,
+              "word": "these",
+              "lemma": "these",
+              "pos": "art",
+              "meaning": "这些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 20,
+              "word": "measures",
+              "lemma": "measure",
+              "pos": "n",
+              "meaning": "措施",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 26,
+              "word": "would",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "会（假设性判断）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 29,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；具有某种可能性（系动词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 37,
+              "word": "welcome",
+              "lemma": "welcome",
+              "pos": "a",
+              "meaning": "值得欢迎的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 40,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在（地区、年限或条件范围内）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 44,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 50,
+              "word": "short",
+              "lemma": "short",
+              "pos": "a",
+              "meaning": "短期的（short term搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 55,
+              "word": "term",
+              "lemma": "term",
+              "pos": "n",
+              "meaning": "时期（short term搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 59,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 64,
+              "word": "must",
+              "lemma": "must",
+              "pos": "aux",
+              "meaning": "必须；应当",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 69,
+              "word": "face",
+              "lemma": "face",
+              "pos": "v",
+              "meaning": "面对；正视",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 72,
+              "word": "up",
+              "lemma": "up",
+              "pos": "part",
+              "meaning": "与face to组成正视的搭配",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 75,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "面对的对象（face up to搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 79,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 84,
+              "word": "fact",
+              "lemma": "fact",
+              "pos": "n",
+              "meaning": "事实",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 89,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出说明内容的从句",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 93,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 102,
+              "word": "existing",
+              "lemma": "exist",
+              "pos": "a",
+              "meaning": "现有的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 120,
+              "word": "programme",
+              "lemma": "programme",
+              "pos": "n",
+              "meaning": "计划",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 123,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（限定关系）",
+              "reviewVersion": 2
+            },
+            {
               "a": 124,
               "b": 130,
               "word": "grants",
               "lemma": "grant",
-              "meaning": "政府拨款；补助",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "拨款；补助",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 133,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
             },
             {
               "a": 134,
               "b": 138,
               "word": "fund",
               "lemma": "fund",
+              "pos": "v",
               "meaning": "为……提供资金；融资建设",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 139,
+              "b": 142,
+              "word": "new",
+              "lemma": "new",
+              "pos": "a",
+              "meaning": "新的",
+              "reviewVersion": 2
             },
             {
               "a": 143,
               "b": 153,
               "word": "affordable",
               "lemma": "affordable",
-              "meaning": "普通或低收入人群负担得起的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "人们负担得起的（住房）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 154,
+              "b": 161,
+              "word": "housing",
+              "lemma": "housing",
+              "pos": "n",
+              "meaning": "住房",
+              "reviewVersion": 2
+            },
+            {
+              "a": 163,
+              "b": 166,
+              "word": "set",
+              "lemma": "set",
+              "pos": "v",
+              "meaning": "定于（set to搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 167,
+              "b": 169,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
             },
             {
               "a": 170,
               "b": 176,
               "word": "expire",
               "lemma": "expire",
+              "pos": "v",
               "meaning": "到期；结束",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 177,
+              "b": 179,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在（地区、年限或条件范围内）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 186,
+              "b": 188,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某种状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 189,
+              "b": 197,
+              "word": "unlikely",
+              "lemma": "unlikely",
+              "pos": "a",
+              "meaning": "不太可能的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 198,
+              "b": 200,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 201,
+              "b": 203,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动结构的助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 204,
+              "b": 212,
+              "word": "extended",
+              "lemma": "extend",
+              "pos": "v",
+              "meaning": "被延长；延期",
+              "reviewVersion": 2
+            },
+            {
+              "a": 213,
+              "b": 219,
+              "word": "beyond",
+              "lemma": "beyond",
+              "pos": "prep",
+              "meaning": "超过；延续到某时之后",
+              "reviewVersion": 2
+            },
+            {
+              "a": 220,
+              "b": 224,
+              "word": "then",
+              "lemma": "then",
+              "pos": "adv",
+              "meaning": "此外；届时",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
+            {
+              "a": 38,
+              "b": 55,
+              "word": "in the short term",
+              "lemma": "in the short term",
+              "meaning": "从短期来看",
+              "kind": "phrase"
+            },
             {
               "a": 65,
               "b": 75,
               "lemma": "face up to",
               "meaning": "正视；勇敢面对",
-              "word": "face up to"
+              "word": "face up to",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1069,7 +3706,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "短期欢迎让步、45亿英镑拨款2015到期与不可能延期，face up to正视事实。",
+            "sentenceSHA256": "4468339544da4ae23f1d456bef84c6d25772996f623d9113e2976b0d082697a7",
+            "words": 39,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2014-T4-P7-S3",
@@ -1101,29 +3746,221 @@
           "translation": "工党最近宣布，如果重新执政，将保留联合政府大部分支出计划。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 10,
+              "word": "Labour",
+              "lemma": "Labour",
+              "pos": "name",
+              "meaning": "工党（政党名的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 16,
+              "word": "party",
+              "lemma": "party",
+              "pos": "n",
+              "meaning": "政党（工党名称的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 20,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 29,
+              "word": "recently",
+              "lemma": "recently",
+              "pos": "adv",
+              "meaning": "最近",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 39,
+              "word": "announced",
+              "lemma": "announce",
+              "pos": "v",
+              "meaning": "宣布",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 44,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出说明内容的从句",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 47,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "这；它（回指所述情形或政府）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 52,
+              "word": "will",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "将会",
+              "reviewVersion": 2
+            },
+            {
               "a": 53,
               "b": 59,
               "word": "retain",
               "lemma": "retain",
+              "pos": "v",
               "meaning": "保留；延续",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 61,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 67,
+              "word": "large",
+              "lemma": "large",
+              "pos": "a",
+              "meaning": "大量的；很大的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 72,
+              "word": "part",
+              "lemma": "part",
+              "pos": "n",
+              "meaning": "部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 75,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 79,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 80,
-              "b": 89,
-              "word": "coalition",
+              "b": 91,
+              "word": "coalition's",
               "lemma": "coalition",
-              "meaning": "联合执政政府",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "联合政府的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 100,
+              "word": "spending",
+              "lemma": "spending",
+              "pos": "n",
+              "meaning": "政府支出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 106,
+              "word": "plans",
+              "lemma": "plan",
+              "pos": "n",
+              "meaning": "计划",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 109,
+              "word": "if",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "如果",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 112,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "这；它（回指所述情形或政府）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 120,
+              "word": "returns",
+              "lemma": "return",
+              "pos": "v",
+              "meaning": "重新进入（执政）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 123,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "回到执政地位（return to搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 129,
+              "word": "power",
+              "lemma": "power",
+              "pos": "n",
+              "meaning": "政权；执政地位",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 113,
               "b": 129,
-              "lemma": "returns to power",
+              "lemma": "return to power",
               "meaning": "重新执政",
-              "word": "returns to power"
+              "word": "returns to power",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1132,7 +3969,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "工党承诺以重掌政权为条件，coalition联合政府，spending政府支出。",
+            "sentenceSHA256": "c29d8c07c5c0faad33ae3f27c36318a24109a3db22c8f66f8be6df4ac20afa33",
+            "words": 23,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2014-T4-P7-S4",
@@ -1170,62 +4015,211 @@
           "translation": "住房行业需要接受这样一个现实：我们极不可能再回到大规模政府拨款的时代。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 11,
+              "word": "housing",
+              "lemma": "housing",
+              "pos": "n",
+              "meaning": "住房",
+              "reviewVersion": 2
+            },
+            {
               "a": 12,
               "b": 18,
               "word": "sector",
               "lemma": "sector",
+              "pos": "n",
               "meaning": "行业；领域",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 24,
+              "word": "needs",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 27,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 34,
+              "word": "accept",
+              "lemma": "accept",
+              "pos": "v",
+              "meaning": "接受；承认",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 39,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出说明内容的从句",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 42,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 46,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与动词构成进行结构的助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 51,
+              "word": "very",
+              "lemma": "very",
+              "pos": "adv",
+              "meaning": "非常",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 60,
+              "word": "unlikely",
+              "lemma": "unlikely",
+              "pos": "a",
+              "meaning": "不太可能的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 63,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 68,
+              "word": "ever",
+              "lemma": "ever",
+              "pos": "adv",
+              "meaning": "再；在未来任何时候",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 75,
+              "word": "return",
+              "lemma": "return",
+              "pos": "v",
+              "meaning": "回到；恢复",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 78,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "回到（时代）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 82,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 86,
+              "word": "era",
+              "lemma": "era",
+              "pos": "n",
+              "meaning": "时代",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 89,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（限定关系）",
+              "reviewVersion": 2
             },
             {
               "a": 90,
               "b": 101,
               "word": "large-scale",
               "lemma": "large-scale",
+              "pos": "a",
               "meaning": "大规模的",
-              "pos": "a"
-            },
-            {
-              "a": 96,
-              "b": 101,
-              "word": "scale",
-              "lemma": "scale",
-              "meaning": "规模",
-              "pos": "n"
+              "reviewVersion": 2
             },
             {
               "a": 102,
               "b": 108,
               "word": "public",
               "lemma": "public",
-              "meaning": "政府财政的；公共的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "公共的；政府财政的",
+              "reviewVersion": 2
             },
             {
               "a": 109,
               "b": 115,
               "word": "grants",
               "lemma": "grant",
-              "meaning": "政府拨款；补助",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "拨款；补助",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [
-            {
-              "a": 90,
-              "b": 115,
-              "lemma": "large-scale public grants",
-              "meaning": "大规模政府拨款",
-              "word": "large-scale public grants"
-            }
-          ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "ever在unlikely下加强几乎不能再回到大规模拨款的判断。",
+            "sentenceSHA256": "95b5ac8d0ddbffd3afc16e6ccf29470493e396d4a99822d50928deb11497d2b7",
+            "words": 21,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2014-T4-P7-S5",
@@ -1245,12 +4239,76 @@
           "translation": "我们需要适应这种变化中的环境。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 10,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 17,
+              "word": "adjust",
+              "lemma": "adjust",
+              "pos": "v",
+              "meaning": "适应（adjust to搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 20,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "适应的对象（adjust to搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "this",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；这种情形",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 34,
+              "word": "changing",
+              "lemma": "change",
+              "pos": "a",
+              "meaning": "变化中的",
+              "reviewVersion": 2
+            },
+            {
               "a": 35,
               "b": 42,
               "word": "climate",
               "lemma": "climate",
-              "meaning": "政策或经济环境（比喻）",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "政策及经济环境（比喻）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1260,7 +4318,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "need动词需要，adjust to适应，climate指政策经济环境而非天气。",
+            "sentenceSHA256": "f3afffc308967327cd8ae096f927da83bcea1a51c31e42ad67dc987542b5244d",
+            "words": 8,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -1310,28 +4376,229 @@
           "translation": "虽然政府对长期资金支持的承诺可能已经改变，但对更多可负担住房的迫切需求是真实存在的，而且不会消失。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "While",
+              "lemma": "while",
+              "pos": "conj",
+              "meaning": "虽然；尽管",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 9,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 22,
+              "word": "government's",
+              "lemma": "government",
+              "pos": "n",
+              "meaning": "政府的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 33,
+              "word": "commitment",
+              "lemma": "commitment",
+              "pos": "n",
+              "meaning": "承诺；投入意愿",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 36,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "对长期资金支持的承诺（commitment to搭配）",
+              "reviewVersion": 2
+            },
+            {
               "a": 37,
               "b": 46,
               "word": "long-term",
               "lemma": "long-term",
+              "pos": "a",
               "meaning": "长期的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 54,
+              "word": "funding",
+              "lemma": "funding",
+              "pos": "n",
+              "meaning": "资金支持；拨款",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 58,
+              "word": "may",
+              "lemma": "may",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 63,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 71,
+              "word": "changed",
+              "lemma": "change",
+              "pos": "v",
+              "meaning": "改变",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 76,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 81,
+              "word": "very",
+              "lemma": "very",
+              "pos": "adv",
+              "meaning": "非常",
+              "reviewVersion": 2
             },
             {
               "a": 82,
               "b": 90,
               "word": "pressing",
               "lemma": "pressing",
-              "meaning": "迫切的；紧迫的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "紧迫的；迫切的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 95,
+              "word": "need",
+              "lemma": "need",
+              "pos": "n",
+              "meaning": "需要；需求",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 99,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对于；为了",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 104,
+              "word": "more",
+              "lemma": "more",
+              "pos": "art",
+              "meaning": "更多的",
+              "reviewVersion": 2
             },
             {
               "a": 105,
               "b": 115,
               "word": "affordable",
               "lemma": "affordable",
-              "meaning": "普通或低收入人群负担得起的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "人们负担得起的（住房）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 123,
+              "word": "housing",
+              "lemma": "housing",
+              "pos": "n",
+              "meaning": "住房",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 126,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于某种状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 131,
+              "word": "real",
+              "lemma": "real",
+              "pos": "a",
+              "meaning": "真实的；实质的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 135,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 138,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与going构成进行结构，表示不会消失",
+              "reviewVersion": 2
+            },
+            {
+              "a": 139,
+              "b": 142,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 148,
+              "word": "going",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "消失（going away搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 153,
+              "word": "away",
+              "lemma": "away",
+              "pos": "adv",
+              "meaning": "消失（go away搭配）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1341,9 +4608,30 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "commitment to介词、may have changed可能已变；需求真实且不消失。",
+            "sentenceSHA256": "2542300f19c9c7d1cb62d0abde5588fa23ea5d95ff4703e51edf3c0a42b298ff",
+            "words": 25,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "25cfa31c260b14bfdeff461a33012ad13ff359066571310f9f34ad56d6a96282",
+    "sentences": 22,
+    "wordOccurrences": 380,
+    "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

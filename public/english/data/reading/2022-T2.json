@@ -57,53 +57,202 @@
           "translation": "越来越多美国人选择退休后继续工作，这股日益增强的趋势可能颠覆传统的劳动力模式。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "More",
+              "lemma": "more",
+              "pos": "a",
+              "meaning": "更多的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 14,
+              "word": "Americans",
+              "lemma": "American",
+              "pos": "n",
+              "meaning": "美国人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 18,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成现在进行时",
+              "reviewVersion": 2
+            },
+            {
               "a": 19,
               "b": 25,
               "word": "opting",
               "lemma": "opt",
+              "pos": "v",
               "meaning": "选择",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 28,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接要做的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "work",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 38,
+              "word": "well",
+              "lemma": "well",
+              "pos": "adv",
+              "meaning": "远远地；很长一段时间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 43,
+              "word": "into",
+              "lemma": "into",
+              "pos": "prep",
+              "meaning": "进入并持续到（退休时期）",
+              "reviewVersion": 2
             },
             {
               "a": 44,
               "b": 54,
               "word": "retirement",
               "lemma": "retirement",
+              "pos": "n",
               "meaning": "退休；退休生活",
-              "pos": "n"
+              "reviewVersion": 2
             },
             {
-              "a": 104,
-              "b": 113,
-              "word": "workforce",
-              "lemma": "workforce",
-              "meaning": "劳动力；就业人群",
-              "pos": "n"
+              "a": 56,
+              "b": 57,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 65,
+              "word": "growing",
+              "lemma": "grow",
+              "pos": "a",
+              "meaning": "不断扩大的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 71,
+              "word": "trend",
+              "lemma": "trend",
+              "pos": "n",
+              "meaning": "趋势",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 76,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指前述趋势",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 86,
+              "word": "threatens",
+              "lemma": "threaten",
+              "pos": "v",
+              "meaning": "可能导致；有……的势头",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 89,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接要做的动作",
+              "reviewVersion": 2
             },
             {
               "a": 90,
               "b": 95,
               "word": "upend",
               "lemma": "upend",
-              "meaning": "彻底改变；颠覆"
-            }
-          ],
-          "phrases": [
+              "pos": "v",
+              "meaning": "颠覆",
+              "reviewVersion": 2
+            },
             {
-              "a": 34,
-              "b": 54,
-              "word": "well into retirement",
-              "lemma": "well into retirement",
-              "meaning": "退休之后很长一段时间里"
+              "a": 96,
+              "b": 99,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 103,
+              "word": "old",
+              "lemma": "old",
+              "pos": "a",
+              "meaning": "传统的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 113,
+              "word": "workforce",
+              "lemma": "workforce",
+              "pos": "n",
+              "meaning": "劳动力人口",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 119,
+              "word": "model",
+              "lemma": "model",
+              "pos": "n",
+              "meaning": "模式",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "well into是退休后很长时间，threatens为可能颠覆的趋势，非实际威胁某人。",
+            "sentenceSHA256": "6b50cef88033586704f662d63bcfc79f7d2100ac48e72cab6e0ca074674e49be",
+            "words": 20,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -153,22 +302,337 @@
           "translation": "哈里斯民调公司为德美利证券开展的一项调查显示，40岁及以上的美国人中，三分之一已在退休后工作，或计划这样做，以应对更长的寿命。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "One",
+              "lemma": "one",
+              "pos": "num",
+              "meaning": "一人；一个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 6,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……人群或时期中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 12,
+              "word": "three",
+              "lemma": "three",
+              "pos": "num",
+              "meaning": "三",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 22,
+              "word": "Americans",
+              "lemma": "American",
+              "pos": "n",
+              "meaning": "美国人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 26,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指前述的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 30,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "处于至少40岁的年龄",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 33,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "与least连用，表示至少",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 39,
+              "word": "least",
+              "lemma": "little",
+              "pos": "adv",
+              "meaning": "最低限度（at least为至少）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 47,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "拥有；从事（工作）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 50,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 55,
+              "word": "plan",
+              "lemma": "plan",
+              "pos": "v",
+              "meaning": "计划",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 58,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接要做的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 63,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "拥有；从事（工作）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 65,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 69,
+              "word": "job",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 72,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……人群或时期中",
+              "reviewVersion": 2
+            },
+            {
               "a": 73,
               "b": 83,
               "word": "retirement",
               "lemma": "retirement",
+              "pos": "n",
               "meaning": "退休；退休生活",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 86,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接要做的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 94,
+              "word": "prepare",
+              "lemma": "prepare",
+              "pos": "v",
+              "meaning": "作准备",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 98,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "为……作准备",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 100,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 107,
+              "word": "longer",
+              "lemma": "long",
+              "pos": "a",
+              "meaning": "更长的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 112,
+              "word": "life",
+              "lemma": "life",
+              "pos": "n",
+              "meaning": "寿命；人生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 123,
+              "word": "according",
+              "lemma": "according",
+              "pos": "prep",
+              "meaning": "与to连用表示根据",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 126,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "根据（according to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 128,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 135,
+              "word": "survey",
+              "lemma": "survey",
+              "pos": "n",
+              "meaning": "调查",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 145,
+              "word": "conducted",
+              "lemma": "conduct",
+              "pos": "v",
+              "meaning": "开展",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 148,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "由（引出调查实施者）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 155,
+              "word": "Harris",
+              "lemma": "Harris",
+              "pos": "name",
+              "meaning": "哈里斯",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 160,
+              "word": "Poll",
+              "lemma": "Poll",
+              "pos": "name",
+              "meaning": "民调（Harris Poll机构名部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 164,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "代表客户开展调查",
+              "reviewVersion": 2
+            },
+            {
+              "a": 165,
+              "b": 167,
+              "word": "TD",
+              "lemma": "TD",
+              "pos": "name",
+              "meaning": "TD（证券公司名称部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 168,
+              "b": 178,
+              "word": "Ameritrade",
+              "lemma": "Ameritrade",
+              "pos": "name",
+              "meaning": "德美利证券（公司名）",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 31,
+              "b": 39,
+              "word": "at least",
+              "lemma": "at least",
+              "meaning": "至少",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "三分之一为至少40岁群体，第二个for指调查客户，第三个to是according to。",
+            "sentenceSHA256": "2332481fa66ce05c0a666aa9e7718888949fb011e5018af27f6196c8a228f9ac",
+            "words": 34,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2022-T2-P2-S2",
@@ -218,36 +682,427 @@
           "translation": "调查还显示，更令人惊讶的是，在计划退休后工作或退休后重返职场的“不退休者”中，一半以上的人表示，即使有足够的钱安享退休生活，他们晚年仍会工作。",
           "words": [
             {
-              "a": 86,
-              "b": 96,
-              "word": "retirement",
-              "lemma": "retirement",
-              "meaning": "退休；退休生活",
-              "pos": "n"
+              "a": 0,
+              "b": 4,
+              "word": "Even",
+              "lemma": "even",
+              "pos": "adv",
+              "meaning": "更加；甚至",
+              "reviewVersion": 2
             },
             {
-              "a": 215,
-              "b": 221,
-              "word": "settle",
-              "lemma": "settle",
-              "meaning": "安定下来",
-              "pos": "v"
+              "a": 5,
+              "b": 9,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更加（修饰惊讶程度）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 20,
+              "word": "surprising",
+              "lemma": "surprising",
+              "pos": "a",
+              "meaning": "令人惊讶的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 23,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 28,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "从句连接词，引出令人惊讶的事实",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "超过一半（more than half）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 38,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "超过；比",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 43,
+              "word": "half",
+              "lemma": "half",
+              "pos": "n",
+              "meaning": "一半",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 46,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、部分或内容）",
+              "reviewVersion": 2
             },
             {
               "a": 48,
               "b": 58,
               "word": "unretirees",
               "lemma": "unretiree",
-              "meaning": "退休后仍工作或重返职场的人"
+              "pos": "n",
+              "meaning": "退休后仍工作或重返职场的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 65,
+              "word": "those",
+              "lemma": "those",
+              "pos": "pron",
+              "meaning": "那些人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 69,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指前述的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 74,
+              "word": "plan",
+              "lemma": "plan",
+              "pos": "v",
+              "meaning": "计划",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 77,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接要做的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 82,
+              "word": "work",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 85,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……人群或时期中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 96,
+              "word": "retirement",
+              "lemma": "retirement",
+              "pos": "n",
+              "meaning": "退休；退休生活",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 99,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 104,
+              "word": "went",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "返回（went back）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 109,
+              "word": "back",
+              "lemma": "back",
+              "pos": "adv",
+              "meaning": "回去；重新",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 112,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "重返工作的方向（back to work）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 117,
+              "word": "work",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 123,
+              "word": "after",
+              "lemma": "after",
+              "pos": "prep",
+              "meaning": "在……之后",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 132,
+              "word": "retiring",
+              "lemma": "retire",
+              "pos": "v",
+              "meaning": "退休",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 137,
+              "word": "said",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 142,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 148,
+              "word": "would",
+              "lemma": "would",
+              "pos": "aux",
+              "meaning": "仍会；将会（表示过去的意愿）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 151,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成被动语态（be employed）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 152,
+              "b": 160,
+              "word": "employed",
+              "lemma": "employ",
+              "pos": "v",
+              "meaning": "就业；受雇工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 163,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……人群或时期中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 169,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 170,
+              "b": 175,
+              "word": "later",
+              "lemma": "late",
+              "pos": "a",
+              "meaning": "晚年的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 176,
+              "b": 181,
+              "word": "years",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "岁月；年岁",
+              "reviewVersion": 2
+            },
+            {
+              "a": 182,
+              "b": 186,
+              "word": "even",
+              "lemma": "even",
+              "pos": "adv",
+              "meaning": "更加；甚至",
+              "reviewVersion": 2
+            },
+            {
+              "a": 187,
+              "b": 189,
+              "word": "if",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "即使（与even连用）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 190,
+              "b": 194,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 195,
+              "b": 198,
+              "word": "had",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "拥有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 199,
+              "b": 205,
+              "word": "enough",
+              "lemma": "enough",
+              "pos": "a",
+              "meaning": "足够的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 206,
+              "b": 211,
+              "word": "money",
+              "lemma": "money",
+              "pos": "n",
+              "meaning": "钱",
+              "reviewVersion": 2
+            },
+            {
+              "a": 212,
+              "b": 214,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接要做的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 215,
+              "b": 221,
+              "word": "settle",
+              "lemma": "settle",
+              "pos": "v",
+              "meaning": "安定下来（settle down）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 222,
+              "b": 226,
+              "word": "down",
+              "lemma": "down",
+              "pos": "adv",
+              "meaning": "settle down的一部分，表示安定下来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 228,
+              "b": 231,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 232,
+              "b": 238,
+              "word": "survey",
+              "lemma": "survey",
+              "pos": "n",
+              "meaning": "调查",
+              "reviewVersion": 2
+            },
+            {
+              "a": 239,
+              "b": 245,
+              "word": "showed",
+              "lemma": "show",
+              "pos": "v",
+              "meaning": "显示",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
+            {
+              "a": 182,
+              "b": 189,
+              "word": "even if",
+              "lemma": "even if",
+              "meaning": "即使；即便",
+              "kind": "phrase"
+            },
             {
               "a": 215,
               "b": 226,
               "word": "settle down",
               "lemma": "settle down",
-              "meaning": "安定下来；安享退休生活"
+              "meaning": "安定下来；安享退休生活",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -256,7 +1111,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "两处more分别程度和超过一半，back to work为介词to，even if保留有钱仍工作的让步。",
+            "sentenceSHA256": "5646f2c8e18ed52e8fb9ae1131f3bf858b68bb770a5ff28bd61387c4aeccd52a",
+            "words": 45,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -288,11 +1151,94 @@
           "translation": "“退休不退工”的趋势，并不只是经济需要造成的。",
           "words": [
             {
+              "a": 0,
+              "b": 9,
+              "word": "Financial",
+              "lemma": "financial",
+              "pos": "a",
+              "meaning": "经济、财务方面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 15,
+              "word": "needs",
+              "lemma": "need",
+              "pos": "n",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 22,
+              "word": "aren't",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "并不是（are not）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 26,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 31,
+              "word": "only",
+              "lemma": "only",
+              "pos": "a",
+              "meaning": "唯一的",
+              "reviewVersion": 2
+            },
+            {
               "a": 32,
               "b": 39,
               "word": "culprit",
               "lemma": "culprit",
-              "meaning": "问题的原因；诱因"
+              "pos": "n",
+              "meaning": "诱因；问题的原因",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 43,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "造成该趋势的原因对象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 47,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 61,
+              "word": "unretirement",
+              "lemma": "unretirement",
+              "pos": "n",
+              "meaning": "退休不退工；退休后再工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 68,
+              "word": "trend",
+              "lemma": "trend",
+              "pos": "n",
+              "meaning": "趋势",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -302,7 +1248,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "culprit为趋势诱因非罪犯，only修饰原因单一性，不是经济毫无作用。",
+            "sentenceSHA256": "2bb93a4e60ad09ce0dd2eca592555f9dc0bacd6634a327dee7c33b02722d4936",
+            "words": 10,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2022-T2-P3-S2",
@@ -340,36 +1294,175 @@
           "translation": "研究显示，其他原因还包括获得个人满足感，例如保持头脑活跃、避免无聊或抑郁。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "Other",
+              "lemma": "other",
+              "pos": "a",
+              "meaning": "其他的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 13,
+              "word": "reasons",
+              "lemma": "reason",
+              "pos": "n",
+              "meaning": "原因；理由",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 24,
+              "word": "according",
+              "lemma": "according",
+              "pos": "prep",
+              "meaning": "与to连用表示根据",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 27,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "根据（according to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 31,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 37,
+              "word": "study",
+              "lemma": "study",
+              "pos": "n",
+              "meaning": "研究",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 46,
+              "word": "include",
+              "lemma": "include",
+              "pos": "v",
+              "meaning": "包括",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 55,
+              "word": "personal",
+              "lemma": "personal",
+              "pos": "a",
+              "meaning": "个人的",
+              "reviewVersion": 2
+            },
+            {
               "a": 56,
               "b": 67,
               "word": "fulfillment",
               "lemma": "fulfillment",
-              "meaning": "满足感；自我实现带来的成就感",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "满足感；自我实现带来的充实感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 72,
+              "word": "such",
+              "lemma": "such",
+              "pos": "a",
+              "meaning": "这样的（such as为例如）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 75,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "例如（such as）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 83,
+              "word": "staying",
+              "lemma": "stay",
+              "pos": "v",
+              "meaning": "保持",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 92,
+              "word": "mentally",
+              "lemma": "mentally",
+              "pos": "adv",
+              "meaning": "在心理、头脑状态方面",
+              "reviewVersion": 2
             },
             {
               "a": 93,
               "b": 96,
               "word": "fit",
               "lemma": "fit",
-              "meaning": "思维敏捷、状态良好的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "状态良好、头脑活跃的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 108,
+              "word": "preventing",
+              "lemma": "prevent",
+              "pos": "v",
+              "meaning": "避免；预防",
+              "reviewVersion": 2
             },
             {
               "a": 109,
               "b": 116,
               "word": "boredom",
               "lemma": "boredom",
-              "meaning": "无聊；乏味",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "无聊",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 119,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 128,
+              "word": "avoiding",
+              "lemma": "avoid",
+              "pos": "v",
+              "meaning": "避免",
+              "reviewVersion": 2
             },
             {
               "a": 129,
               "b": 139,
               "word": "depression",
               "lemma": "depression",
+              "pos": "n",
               "meaning": "抑郁；情绪低落",
-              "pos": "n"
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -378,14 +1471,16 @@
               "b": 67,
               "word": "personal fulfillment",
               "lemma": "personal fulfillment",
-              "meaning": "个人满足感；自我实现带来的充实感"
+              "meaning": "个人满足感；自我实现带来的充实感",
+              "kind": "phrase"
             },
             {
               "a": 84,
               "b": 96,
               "word": "mentally fit",
               "lemma": "mentally fit",
-              "meaning": "头脑活跃；心理状态良好"
+              "meaning": "头脑活跃；心理状态良好",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -394,7 +1489,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "reasons为原因，mentally fit为头脑状态良好，personal fulfillment与抑郁避免为非经济动机。",
+            "sentenceSHA256": "c651924bab134eb1950911ccf8db47de5d0a397ca36c9815aa5d8a6dc2c0a47d",
+            "words": 19,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -432,27 +1535,148 @@
           "translation": "德美利证券退休业务高级经理克里斯蒂娜·拉塞尔说：“退休的观念正在变化。”",
           "words": [
             {
+              "a": 1,
+              "b": 4,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 12,
+              "word": "concept",
+              "lemma": "concept",
+              "pos": "n",
+              "meaning": "观念",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 15,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、部分或内容）",
+              "reviewVersion": 2
+            },
+            {
               "a": 16,
               "b": 26,
               "word": "retirement",
               "lemma": "retirement",
+              "pos": "n",
               "meaning": "退休；退休生活",
-              "pos": "n"
+              "reviewVersion": 2
             },
             {
-              "a": 83,
-              "b": 93,
-              "word": "retirement",
-              "lemma": "retirement",
-              "meaning": "退休；退休生活",
-              "pos": "n"
+              "a": 27,
+              "b": 29,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成进行时（is evolving）",
+              "reviewVersion": 2
             },
             {
               "a": 30,
               "b": 38,
               "word": "evolving",
               "lemma": "evolve",
-              "meaning": "逐渐变化；演变"
+              "pos": "v",
+              "meaning": "逐渐变化",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 45,
+              "word": "said",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 55,
+              "word": "Christine",
+              "lemma": "Christine",
+              "pos": "name",
+              "meaning": "克里斯蒂娜",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 63,
+              "word": "Russell",
+              "lemma": "Russell",
+              "pos": "name",
+              "meaning": "拉塞尔",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 71,
+              "word": "senior",
+              "lemma": "senior",
+              "pos": "a",
+              "meaning": "高级的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 79,
+              "word": "manager",
+              "lemma": "manager",
+              "pos": "n",
+              "meaning": "经理",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 82,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、部分或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 93,
+              "word": "retirement",
+              "lemma": "retirement",
+              "pos": "n",
+              "meaning": "退休业务",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 96,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "任职于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 99,
+              "word": "TD",
+              "lemma": "TD",
+              "pos": "name",
+              "meaning": "TD（证券公司名称部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 110,
+              "word": "Ameritrade",
+              "lemma": "Ameritrade",
+              "pos": "name",
+              "meaning": "德美利证券（公司名）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -462,7 +1686,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "第二处retirement为经理负责的退休业务，evolving是观念逐渐变化。",
+            "sentenceSHA256": "02e75cc8a6d6e9f6cf7ed39e682e7b7caf872871bad948a06a6d0b373b3a07c8",
+            "words": 16,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2022-T2-P4-S2",
@@ -475,24 +1707,62 @@
               "a": 0,
               "b": 10,
               "en": "“It's not ",
-              "zh": "“这不只是，"
+              "zh": "“这并不，"
             },
             {
               "a": 10,
               "b": 30,
               "en": "just about finances.",
-              "zh": "钱的问题。"
+              "zh": "仅仅是钱的问题。"
             }
           ],
           "reorder": "not just 限定“不只是”，保留与下一句工作的价值之间的承接。",
           "translation": "“这不只是钱的问题。",
           "words": [
             {
+              "a": 1,
+              "b": 5,
+              "word": "It's",
+              "lemma": "it is",
+              "pos": "v",
+              "meaning": "退休这件事是（it is的缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 9,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 14,
+              "word": "just",
+              "lemma": "just",
+              "pos": "adv",
+              "meaning": "仅仅",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 20,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于；涉及",
+              "reviewVersion": 2
+            },
+            {
               "a": 21,
               "b": 29,
               "word": "finances",
               "lemma": "finance",
-              "meaning": "个人经济状况；钱财"
+              "pos": "n",
+              "meaning": "个人经济状况；钱财",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -502,7 +1772,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "修正not所在块提前带入just的只；全句为不仅钱财问题。",
+            "sentenceSHA256": "21a8da605571cdc215b0bd4d4c3a52fe2e5925e7cec0ea8a525a1d8572d062d4",
+            "words": 5,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2022-T2-P4-S3",
@@ -534,26 +1812,121 @@
           "translation": "工作的价值，也在促使人们退休后继续工作。”",
           "words": [
             {
-              "a": 65,
-              "b": 75,
-              "word": "retirement",
-              "lemma": "retirement",
-              "meaning": "退休；退休生活",
-              "pos": "n"
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 9,
+              "word": "value",
+              "lemma": "value",
+              "pos": "n",
+              "meaning": "价值",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 12,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、部分或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 17,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作的价值；劳动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 20,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成进行时（is driving）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "也；还",
+              "reviewVersion": 2
             },
             {
               "a": 26,
               "b": 33,
               "word": "driving",
               "lemma": "drive",
-              "meaning": "促使；推动"
+              "pos": "v",
+              "meaning": "促使",
+              "reviewVersion": 2
             },
             {
               "a": 34,
               "b": 39,
               "word": "folks",
               "lemma": "folk",
-              "meaning": "人们"
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 42,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接要做的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 51,
+              "word": "continue",
+              "lemma": "continue",
+              "pos": "v",
+              "meaning": "继续",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 59,
+              "word": "working",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 64,
+              "word": "past",
+              "lemma": "past",
+              "pos": "prep",
+              "meaning": "在退休年龄之后",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 75,
+              "word": "retirement",
+              "lemma": "retirement",
+              "pos": "n",
+              "meaning": "退休；退休生活",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -563,7 +1936,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "work名词工作价值，driving为促使非驾驶，past retirement指退休后。",
+            "sentenceSHA256": "17df9bc85c5147ddb816ecda2ec5485b5b942d2d14493e55d281abc903053e93",
+            "words": 13,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -595,12 +1976,112 @@
           "translation": "退休模式之所以变化，一个原因是美国人的寿命正在延长。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "One",
+              "lemma": "one",
+              "pos": "num",
+              "meaning": "一人；一个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 10,
+              "word": "reason",
+              "lemma": "reason",
+              "pos": "n",
+              "meaning": "原因",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 14,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "说明变化原因的对象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 18,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 25,
+              "word": "change",
+              "lemma": "change",
+              "pos": "n",
+              "meaning": "变化",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 28,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……人群或时期中",
+              "reviewVersion": 2
+            },
+            {
               "a": 29,
               "b": 39,
               "word": "retirement",
               "lemma": "retirement",
+              "pos": "n",
               "meaning": "退休；退休生活",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 48,
+              "word": "patterns",
+              "lemma": "pattern",
+              "pos": "n",
+              "meaning": "模式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 59,
+              "word": "Americans",
+              "lemma": "American",
+              "pos": "n",
+              "meaning": "美国人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 63,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成现在进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 70,
+              "word": "living",
+              "lemma": "live",
+              "pos": "v",
+              "meaning": "活着；生活",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 77,
+              "word": "longer",
+              "lemma": "long",
+              "pos": "adv",
+              "meaning": "活得更久",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -610,7 +2091,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "longer为活得更久的副词，不是退休模式更长，冒号解释原因。",
+            "sentenceSHA256": "43e1308daac09e390775d697659cb654e3090dd930f3c168e148e8af1d759766",
+            "words": 12,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2022-T2-P5-S2",
@@ -642,11 +2131,103 @@
           "translation": "美国老年人也是美国劳动力人口中增长最快的群体。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "Older",
+              "lemma": "old",
+              "pos": "a",
+              "meaning": "年长的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 15,
+              "word": "Americans",
+              "lemma": "American",
+              "pos": "n",
+              "meaning": "美国人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 19,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是（说明增长最快群体）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 24,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "也；还",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 28,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 44,
+              "word": "fastest-growing",
+              "lemma": "fast-growing",
+              "pos": "a",
+              "meaning": "增长最快的",
+              "reviewVersion": 2
+            },
+            {
               "a": 45,
               "b": 52,
               "word": "segment",
               "lemma": "segment",
-              "meaning": "组成部分；人口群体"
+              "pos": "n",
+              "meaning": "群体；组成部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 55,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、部分或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 59,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 64,
+              "word": "U.S.",
+              "lemma": "U.S.",
+              "pos": "name",
+              "meaning": "美国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 74,
+              "word": "workforce",
+              "lemma": "workforce",
+              "pos": "n",
+              "meaning": "劳动力人口",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -656,7 +2237,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "segment为劳动力人口的组成群体，fastest-growing为增长最快而非年龄最大。",
+            "sentenceSHA256": "d42c98d1265bbab63fd50baabcb1e48b1d21bb20e4b9f6a8473e9a0a716cb09a",
+            "words": 11,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2022-T2-P5-S3",
@@ -688,19 +2277,148 @@
           "translation": "过去三十年间，达到退休年龄的人在劳动力人口中的占比已经翻了一番。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 14,
+              "word": "percentage",
+              "lemma": "percentage",
+              "pos": "n",
+              "meaning": "占比；百分比",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 17,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、部分或内容）",
+              "reviewVersion": 2
+            },
+            {
               "a": 18,
-              "b": 28,
-              "word": "retirement",
-              "lemma": "retirement",
-              "meaning": "退休；退休生活",
-              "pos": "n"
+              "b": 32,
+              "word": "retirement-age",
+              "lemma": "retirement-age",
+              "pos": "a",
+              "meaning": "达到退休年龄的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 39,
+              "word": "people",
+              "lemma": "people",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 42,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……人群或时期中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 46,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 52,
+              "word": "labor",
+              "lemma": "labor",
+              "pos": "n",
+              "meaning": "劳动力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 58,
+              "word": "force",
+              "lemma": "force",
+              "pos": "n",
+              "meaning": "人群（labor force为劳动力人口）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 62,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成现在完成时",
+              "reviewVersion": 2
             },
             {
               "a": 63,
               "b": 70,
               "word": "doubled",
               "lemma": "double",
-              "meaning": "翻一番；增加到两倍"
+              "pos": "v",
+              "meaning": "翻了一番；增至两倍",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 75,
+              "word": "over",
+              "lemma": "over",
+              "pos": "prep",
+              "meaning": "在……期间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 79,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 84,
+              "word": "past",
+              "lemma": "past",
+              "pos": "a",
+              "meaning": "过去的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 90,
+              "word": "three",
+              "lemma": "three",
+              "pos": "num",
+              "meaning": "三",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 98,
+              "word": "decades",
+              "lemma": "decade",
+              "pos": "n",
+              "meaning": "十年；几十年",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -709,7 +2427,8 @@
               "b": 58,
               "word": "labor force",
               "lemma": "labor force",
-              "meaning": "劳动力人口"
+              "meaning": "劳动力人口",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -718,7 +2437,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "doubled为增至两倍，retirement-age为达到退休年龄，past三十年为时间范围。",
+            "sentenceSHA256": "fbb67cca3de41adf8e52fb360134f321ecdf7ac01a06132f928555ab93390b71",
+            "words": 16,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2022-T2-P5-S4",
@@ -754,21 +2481,249 @@
           ],
           "reorder": "先译来源或时间，再译两项占比；up from 表示从10%升至20%。",
           "translation": "据资产管理公司United Income的数据，2019年2月，65岁及以上人群约有20%仍在工作，高于1985年1月10%的历史最低水平。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 5,
+              "word": "About",
+              "lemma": "about",
+              "pos": "adv",
+              "meaning": "大约",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 12,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、部分或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 19,
+              "word": "people",
+              "lemma": "people",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 26,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 32,
+              "word": "older",
+              "lemma": "old",
+              "pos": "a",
+              "meaning": "年长的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 37,
+              "word": "were",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 40,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……人群或时期中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 44,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 54,
+              "word": "workforce",
+              "lemma": "workforce",
+              "pos": "n",
+              "meaning": "劳动力人口",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 57,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……人群或时期中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 66,
+              "word": "February",
+              "lemma": "February",
+              "pos": "n",
+              "meaning": "二月",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 75,
+              "word": "up",
+              "lemma": "up",
+              "pos": "adv",
+              "meaning": "上升；高于此前水平",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 80,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从（此前的水平）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 83,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 92,
+              "word": "all-time",
+              "lemma": "all-time",
+              "pos": "a",
+              "meaning": "有史以来的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 96,
+              "word": "low",
+              "lemma": "low",
+              "pos": "n",
+              "meaning": "最低水平",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 99,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、部分或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 106,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……人群或时期中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 114,
+              "word": "January",
+              "lemma": "January",
+              "pos": "n",
+              "meaning": "一月",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 130,
+              "word": "according",
+              "lemma": "according",
+              "pos": "prep",
+              "meaning": "与to连用表示根据",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 133,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "根据（according to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 139,
+              "word": "money",
+              "lemma": "money",
+              "pos": "n",
+              "meaning": "钱",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 147,
+              "word": "manager",
+              "lemma": "manager",
+              "pos": "n",
+              "meaning": "经理",
+              "reviewVersion": 2
+            },
+            {
+              "a": 148,
+              "b": 154,
+              "word": "United",
+              "lemma": "United",
+              "pos": "name",
+              "meaning": "United（资产管理机构名称部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 155,
+              "b": 161,
+              "word": "Income",
+              "lemma": "Income",
+              "pos": "name",
+              "meaning": "Income（资产管理机构名称部分）",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 84,
               "b": 96,
               "word": "all-time low",
               "lemma": "all-time low",
-              "meaning": "历史最低水平"
+              "meaning": "历史最低水平",
+              "kind": "phrase"
             },
             {
               "a": 134,
               "b": 147,
               "word": "money manager",
               "lemma": "money manager",
-              "meaning": "资产管理机构；投资管理人"
+              "meaning": "资产管理机构；投资管理人",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -777,7 +2732,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "20%与10%为不同年份就业占比，money manager是资产管理机构，Income为名称部分。",
+            "sentenceSHA256": "58802e0c889ab25d79aacde4fd6d9095e6e6c820a14d04565dcd62ebfd729899",
+            "words": 25,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -827,20 +2790,256 @@
           "translation": "德美利证券一项对2000名40至79岁成年人开展的研究显示，由于寿命延长，美国人也在增加储蓄，以保住自己的养老积蓄。",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "Because",
+              "lemma": "because",
+              "pos": "conj",
+              "meaning": "因为（与of组成由于）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 10,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "与because构成由于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 17,
+              "word": "longer",
+              "lemma": "long",
+              "pos": "a",
+              "meaning": "更长的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 22,
+              "word": "life",
+              "lemma": "life",
+              "pos": "n",
+              "meaning": "寿命；人生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 28,
+              "word": "spans",
+              "lemma": "span",
+              "pos": "n",
+              "meaning": "跨度（life spans为寿命）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 39,
+              "word": "Americans",
+              "lemma": "American",
+              "pos": "n",
+              "meaning": "美国人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 43,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成现在进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 48,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "也；还",
+              "reviewVersion": 2
+            },
+            {
               "a": 49,
               "b": 57,
               "word": "boosting",
               "lemma": "boost",
-              "meaning": "增加；提高"
+              "pos": "v",
+              "meaning": "增加",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 63,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 71,
+              "word": "savings",
+              "lemma": "saving",
+              "pos": "n",
+              "meaning": "积蓄；储蓄",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 74,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接要做的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 83,
+              "word": "preserve",
+              "lemma": "preserve",
+              "pos": "v",
+              "meaning": "保住；维持",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 89,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 94,
+              "word": "nest",
+              "lemma": "nest",
+              "pos": "n",
+              "meaning": "与eggs组成养老储备金的习语",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 99,
+              "word": "eggs",
+              "lemma": "egg",
+              "pos": "n",
+              "meaning": "与nest组成养老储备金的习语",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 104,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 107,
+              "word": "TD",
+              "lemma": "TD",
+              "pos": "name",
+              "meaning": "TD（证券公司名称部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 118,
+              "word": "Ameritrade",
+              "lemma": "Ameritrade",
+              "pos": "name",
+              "meaning": "德美利证券（公司名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 124,
+              "word": "study",
+              "lemma": "study",
+              "pos": "n",
+              "meaning": "研究",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 131,
+              "word": "showed",
+              "lemma": "show",
+              "pos": "v",
+              "meaning": "显示",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 138,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "关系代词，指调查研究",
+              "reviewVersion": 2
+            },
+            {
+              "a": 139,
+              "b": 147,
+              "word": "surveyed",
+              "lemma": "survey",
+              "pos": "v",
+              "meaning": "调查了",
+              "reviewVersion": 2
+            },
+            {
+              "a": 154,
+              "b": 160,
+              "word": "adults",
+              "lemma": "adult",
+              "pos": "n",
+              "meaning": "成年人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 168,
+              "word": "between",
+              "lemma": "between",
+              "pos": "prep",
+              "meaning": "在……年龄范围之间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 172,
+              "b": 174,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "到（年龄范围终点）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
+            {
+              "a": 0,
+              "b": 10,
+              "word": "Because of",
+              "lemma": "because of",
+              "meaning": "由于；因为",
+              "kind": "phrase"
+            },
             {
               "a": 90,
               "b": 99,
               "word": "nest eggs",
               "lemma": "nest egg",
-              "meaning": "为将来存下的积蓄；养老储备金"
+              "meaning": "为将来存下的积蓄；养老储备金",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -849,7 +3048,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "nest eggs为养老储备金，which指研究，between 40 to 79按原卷年龄范围理解。",
+            "sentenceSHA256": "60424ad2d023f16d8c2e750d23471f278dcb5cc7cb1775ac5cffbb2cabfb4dd0",
+            "words": 26,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2022-T2-P6-S2",
@@ -879,14 +3086,133 @@
           ],
           "reorder": "保留六成比例；in anticipation of 表示预先准备，不是期待寿命的情绪。",
           "translation": "六成“不退休者”正在增加储蓄，为预期更长的寿命作准备。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "Six",
+              "lemma": "six",
+              "pos": "num",
+              "meaning": "六",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 6,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……人群或时期中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 21,
+              "word": "unretirees",
+              "lemma": "unretiree",
+              "pos": "n",
+              "meaning": "退休后仍工作或重返职场的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 26,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成现在进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 37,
+              "word": "increasing",
+              "lemma": "increase",
+              "pos": "v",
+              "meaning": "增加",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 43,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 51,
+              "word": "savings",
+              "lemma": "saving",
+              "pos": "n",
+              "meaning": "积蓄；储蓄",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 54,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……人群或时期中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 67,
+              "word": "anticipation",
+              "lemma": "anticipation",
+              "pos": "n",
+              "meaning": "预期；预先作准备",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 70,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "预期和准备所针对的对象（anticipation of）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 72,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 79,
+              "word": "longer",
+              "lemma": "long",
+              "pos": "a",
+              "meaning": "更长的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 84,
+              "word": "life",
+              "lemma": "life",
+              "pos": "n",
+              "meaning": "寿命；人生",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 52,
               "b": 70,
               "word": "in anticipation of",
               "lemma": "in anticipation of",
-              "meaning": "预先为……作准备；预期到"
+              "meaning": "预先为……作准备；预期到",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -895,7 +3221,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "六成为增加储蓄者，anticipation为预先作准备而非兴奋期待。",
+            "sentenceSHA256": "02746c531023ae4e32197612a5c984c964396728bbd01dc09bc2d3ac9709ca81",
+            "words": 13,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2022-T2-P6-S3",
@@ -939,43 +3273,274 @@
           "translation": "该公司说，他们最常用的办法包括减少总开支、购买人寿保险，或尽可能增加向退休账户的缴款。",
           "words": [
             {
-              "a": 167,
-              "b": 177,
-              "word": "retirement",
-              "lemma": "retirement",
-              "meaning": "退休；退休生活",
-              "pos": "n"
+              "a": 0,
+              "b": 5,
+              "word": "Among",
+              "lemma": "among",
+              "pos": "prep",
+              "meaning": "在……之中",
+              "reviewVersion": 2
             },
             {
-              "a": 178,
-              "b": 186,
-              "word": "accounts",
-              "lemma": "account",
-              "meaning": "账户",
-              "pos": "n"
+              "a": 6,
+              "b": 9,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 14,
+              "word": "most",
+              "lemma": "much",
+              "pos": "adv",
+              "meaning": "最",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 22,
+              "word": "popular",
+              "lemma": "popular",
+              "pos": "a",
+              "meaning": "常用的；受欢迎的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 27,
+              "word": "ways",
+              "lemma": "way",
+              "pos": "n",
+              "meaning": "办法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 32,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 36,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成现在进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 42,
+              "word": "doing",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "这样做；增加储蓄",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 47,
+              "word": "this",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "增加储蓄这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 52,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 60,
+              "word": "company",
+              "lemma": "company",
+              "pos": "n",
+              "meaning": "公司",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 65,
+              "word": "said",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 69,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 72,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "通过（说明储蓄的方法）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 81,
+              "word": "reducing",
+              "lemma": "reduce",
+              "pos": "v",
+              "meaning": "减少",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 87,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 95,
+              "word": "overall",
+              "lemma": "overall",
+              "pos": "a",
+              "meaning": "总的；全部的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 104,
+              "word": "expenses",
+              "lemma": "expense",
+              "pos": "n",
+              "meaning": "开支",
+              "reviewVersion": 2
             },
             {
               "a": 106,
               "b": 114,
               "word": "securing",
               "lemma": "secure",
-              "meaning": "获得；购置（保险）"
+              "pos": "v",
+              "meaning": "购置；获得（保险）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 119,
+              "word": "life",
+              "lemma": "life",
+              "pos": "n",
+              "meaning": "寿命；人生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 129,
+              "word": "insurance",
+              "lemma": "insurance",
+              "pos": "n",
+              "meaning": "保险",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 132,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 143,
+              "word": "maximizing",
+              "lemma": "maximize",
+              "pos": "v",
+              "meaning": "尽可能增加",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 149,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
             },
             {
               "a": 150,
               "b": 163,
               "word": "contributions",
               "lemma": "contribution",
-              "meaning": "缴款；向账户存入的钱"
+              "pos": "n",
+              "meaning": "缴款；存入账户的钱",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 166,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "缴入的账户",
+              "reviewVersion": 2
+            },
+            {
+              "a": 167,
+              "b": 177,
+              "word": "retirement",
+              "lemma": "retirement",
+              "pos": "n",
+              "meaning": "退休；退休生活",
+              "reviewVersion": 2
+            },
+            {
+              "a": 178,
+              "b": 186,
+              "word": "accounts",
+              "lemma": "account",
+              "pos": "n",
+              "meaning": "账户",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
+            {
+              "a": 115,
+              "b": 129,
+              "word": "life insurance",
+              "lemma": "life insurance",
+              "meaning": "人寿保险",
+              "kind": "phrase"
+            },
             {
               "a": 167,
               "b": 186,
               "lemma": "retirement account",
               "meaning": "退休储蓄账户",
-              "word": "retirement accounts"
+              "word": "retirement accounts",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -984,7 +3549,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "三项减少开支购买寿险和增退休缴款并列，contributions为缴款非一般贡献。",
+            "sentenceSHA256": "e8f78e71172f8ab2e36d53b1a1514ee036de83c35cdffc63d2607a93f51a3458",
+            "words": 28,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -1034,27 +3607,346 @@
           "translation": "巴尔的摩财务规划公司Facet Wealth的联合创始人布伦特·韦斯说，遗憾的是，许多人之所以准备退休后继续工作，是因为担心晚年入不敷出。",
           "words": [
             {
-              "a": 53,
-              "b": 63,
-              "word": "retirement",
-              "lemma": "retirement",
-              "meaning": "退休；退休生活",
-              "pos": "n"
+              "a": 0,
+              "b": 13,
+              "word": "Unfortunately",
+              "lemma": "unfortunately",
+              "pos": "adv",
+              "meaning": "遗憾的是",
+              "reviewVersion": 2
             },
             {
-              "a": 226,
-              "b": 230,
-              "word": "firm",
-              "lemma": "firm",
-              "meaning": "公司；企业",
-              "pos": "n"
+              "a": 15,
+              "b": 19,
+              "word": "many",
+              "lemma": "many",
+              "pos": "a",
+              "meaning": "许多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 26,
+              "word": "people",
+              "lemma": "people",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 30,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指前述的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 34,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成现在进行时",
+              "reviewVersion": 2
             },
             {
               "a": 35,
               "b": 41,
               "word": "opting",
               "lemma": "opt",
-              "meaning": "选择"
+              "pos": "v",
+              "meaning": "选择",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 44,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接要做的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 49,
+              "word": "work",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 52,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……人群或时期中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 63,
+              "word": "retirement",
+              "lemma": "retirement",
+              "pos": "n",
+              "meaning": "退休；退休生活",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 67,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成现在进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 77,
+              "word": "preparing",
+              "lemma": "prepare",
+              "pos": "v",
+              "meaning": "准备",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 80,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接要做的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 83,
+              "word": "do",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "做（指退休后继续工作）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 86,
+              "word": "so",
+              "lemma": "so",
+              "pos": "adv",
+              "meaning": "这样；指退休后继续工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 94,
+              "word": "because",
+              "lemma": "because",
+              "pos": "conj",
+              "meaning": "因为（与of组成由于）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 99,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 103,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "处于担心状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 111,
+              "word": "worried",
+              "lemma": "worried",
+              "pos": "a",
+              "meaning": "担心的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 117,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于；涉及",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 124,
+              "word": "making",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "使做到（make ends meet）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 129,
+              "word": "ends",
+              "lemma": "end",
+              "pos": "n",
+              "meaning": "收支两端（make ends meet为维持生计）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 134,
+              "word": "meet",
+              "lemma": "meet",
+              "pos": "v",
+              "meaning": "相接；相抵（make ends meet搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 137,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……人群或时期中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 143,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 149,
+              "word": "later",
+              "lemma": "late",
+              "pos": "a",
+              "meaning": "晚年的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 150,
+              "b": 155,
+              "word": "years",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "岁月；年岁",
+              "reviewVersion": 2
+            },
+            {
+              "a": 157,
+              "b": 161,
+              "word": "said",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 162,
+              "b": 167,
+              "word": "Brent",
+              "lemma": "Brent",
+              "pos": "name",
+              "meaning": "布伦特",
+              "reviewVersion": 2
+            },
+            {
+              "a": 168,
+              "b": 173,
+              "word": "Weiss",
+              "lemma": "Weiss",
+              "pos": "name",
+              "meaning": "韦斯",
+              "reviewVersion": 2
+            },
+            {
+              "a": 175,
+              "b": 176,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 177,
+              "b": 187,
+              "word": "co-founder",
+              "lemma": "co-founder",
+              "pos": "n",
+              "meaning": "联合创始人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 188,
+              "b": 190,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "任职于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 191,
+              "b": 206,
+              "word": "Baltimore-based",
+              "lemma": "Baltimore-based",
+              "pos": "a",
+              "meaning": "总部位于巴尔的摩的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 207,
+              "b": 225,
+              "word": "financial-planning",
+              "lemma": "financial-planning",
+              "pos": "a",
+              "meaning": "财务规划的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 226,
+              "b": 230,
+              "word": "firm",
+              "lemma": "firm",
+              "pos": "n",
+              "meaning": "公司",
+              "reviewVersion": 2
+            },
+            {
+              "a": 231,
+              "b": 236,
+              "word": "Facet",
+              "lemma": "Facet",
+              "pos": "name",
+              "meaning": "Facet（公司名称部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 237,
+              "b": 243,
+              "word": "Wealth",
+              "lemma": "Wealth",
+              "pos": "name",
+              "meaning": "Wealth（公司名称部分）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -1063,7 +3955,8 @@
               "b": 134,
               "word": "making ends meet",
               "lemma": "make ends meet",
-              "meaning": "使收支相抵；维持生计"
+              "meaning": "使收支相抵；维持生计",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1072,7 +3965,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "前两are构成进行时第三are联系担心状态，make ends meet为维持生计。",
+            "sentenceSHA256": "553be928072270e63953db6796503f8d4a7e81a5db9f18ac15d6b17086147020",
+            "words": 38,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2022-T2-P7-S2",
@@ -1104,19 +4005,139 @@
           "translation": "他建议，临近退休的人应咨询理财顾问，设定长期理财目标。",
           "words": [
             {
-              "a": 75,
-              "b": 84,
-              "word": "long-term",
-              "lemma": "long-term",
-              "meaning": "长期的",
-              "pos": "a"
+              "a": 0,
+              "b": 2,
+              "word": "He",
+              "lemma": "he",
+              "pos": "pron",
+              "meaning": "他",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 12,
+              "word": "suggested",
+              "lemma": "suggest",
+              "pos": "v",
+              "meaning": "建议",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 17,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "从句连接词，引出建议内容",
+              "reviewVersion": 2
             },
             {
               "a": 18,
               "b": 29,
               "word": "preretirees",
               "lemma": "preretiree",
-              "meaning": "即将退休的人"
+              "pos": "n",
+              "meaning": "临近退休的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 36,
+              "word": "should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应当",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 42,
+              "word": "speak",
+              "lemma": "speak",
+              "pos": "v",
+              "meaning": "交谈；咨询",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 47,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "与（交谈的对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 49,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 59,
+              "word": "financial",
+              "lemma": "financial",
+              "pos": "a",
+              "meaning": "经济、财务方面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 67,
+              "word": "adviser",
+              "lemma": "adviser",
+              "pos": "n",
+              "meaning": "顾问",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 70,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接要做的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 74,
+              "word": "set",
+              "lemma": "set",
+              "pos": "v",
+              "meaning": "设定",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 84,
+              "word": "long-term",
+              "lemma": "long-term",
+              "pos": "a",
+              "meaning": "长期的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 94,
+              "word": "financial",
+              "lemma": "financial",
+              "pos": "a",
+              "meaning": "经济、财务方面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 100,
+              "word": "goals",
+              "lemma": "goal",
+              "pos": "n",
+              "meaning": "目标",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1126,7 +4147,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "that引出建议，preretirees临近退休，financial adviser为理财顾问。",
+            "sentenceSHA256": "9fdeefbc009fe529835012cd982f96016cca29bfc6506743a2a7f52ce6ea3187",
+            "words": 15,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -1164,21 +4193,175 @@
           "translation": "韦斯说：“人生中最具挑战的时刻，包括结婚、组建家庭，最终还有退休。”",
           "words": [
             {
+              "a": 1,
+              "b": 4,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 9,
+              "word": "most",
+              "lemma": "most",
+              "pos": "adv",
+              "meaning": "最",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 21,
+              "word": "challenging",
+              "lemma": "challenging",
+              "pos": "a",
+              "meaning": "具有挑战性的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 29,
+              "word": "moments",
+              "lemma": "moment",
+              "pos": "n",
+              "meaning": "时刻",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 32,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……人群或时期中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 37,
+              "word": "life",
+              "lemma": "life",
+              "pos": "n",
+              "meaning": "寿命；人生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 41,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是（列举挑战性时刻）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 49,
+              "word": "getting",
+              "lemma": "get",
+              "pos": "v",
+              "meaning": "进入某状态（get married指结婚）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 57,
+              "word": "married",
+              "lemma": "married",
+              "pos": "a",
+              "meaning": "已婚的（get married指结婚）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 67,
+              "word": "starting",
+              "lemma": "start",
+              "pos": "v",
+              "meaning": "开始建立",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 69,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 76,
+              "word": "family",
+              "lemma": "family",
+              "pos": "n",
+              "meaning": "家庭",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 80,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
               "a": 81,
               "b": 91,
               "word": "ultimately",
               "lemma": "ultimately",
+              "pos": "adv",
               "meaning": "最终",
-              "pos": "adv"
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 100,
+              "word": "retiring",
+              "lemma": "retire",
+              "pos": "v",
+              "meaning": "退休",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 108,
+              "word": "Weiss",
+              "lemma": "Weiss",
+              "pos": "name",
+              "meaning": "韦斯",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 113,
+              "word": "said",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
+            {
+              "a": 42,
+              "b": 57,
+              "word": "getting married",
+              "lemma": "get married",
+              "meaning": "结婚",
+              "kind": "phrase"
+            },
             {
               "a": 59,
               "b": 76,
               "lemma": "start a family",
               "meaning": "生儿育女；组建家庭",
-              "word": "starting a family"
+              "word": "starting a family",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1187,7 +4370,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "getting married与starting family和retiring均为人生阶段，are不是进行时。",
+            "sentenceSHA256": "623fffcbf469cc747699fe68e45842fd97ecde7d9eb9f361d1cfb760dd5f3a1c",
+            "words": 17,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2022-T2-P8-S2",
@@ -1211,7 +4402,98 @@
           ],
           "reorder": "not just...but...译“不只是……也是……”，one 代指 decision。",
           "translation": "“这不只是经济上的决定，也是情感上的决定。",
-          "words": [],
+          "words": [
+            {
+              "a": 1,
+              "b": 5,
+              "word": "It's",
+              "lemma": "it is",
+              "pos": "v",
+              "meaning": "退休这件事是（it is的缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 9,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 14,
+              "word": "just",
+              "lemma": "just",
+              "pos": "adv",
+              "meaning": "仅仅",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 16,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 26,
+              "word": "financial",
+              "lemma": "financial",
+              "pos": "a",
+              "meaning": "经济、财务方面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 35,
+              "word": "decision",
+              "lemma": "decision",
+              "pos": "n",
+              "meaning": "决定",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 40,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "而且；也是（not just…but）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 43,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 53,
+              "word": "emotional",
+              "lemma": "emotional",
+              "pos": "a",
+              "meaning": "情感上的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 57,
+              "word": "one",
+              "lemma": "one",
+              "pos": "pron",
+              "meaning": "一个决定（代decision）",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -1219,7 +4501,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "one代替decision，不仅经济且涉及情感，but不是否定情感的转折。",
+            "sentenceSHA256": "3cf9c64737dd7ded21128df02901ea40aa068813603d29854c5cea8a7f3cd922",
+            "words": 10,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2022-T2-P8-S3",
@@ -1243,7 +4533,62 @@
           ],
           "reorder": "补明 they 指这些担忧退休的人，不把 believe 译成事实已经证实。",
           "translation": "很多人认为自己退不了休。”",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "Many",
+              "lemma": "many",
+              "pos": "a",
+              "meaning": "许多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 11,
+              "word": "people",
+              "lemma": "people",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 19,
+              "word": "believe",
+              "lemma": "believe",
+              "pos": "v",
+              "meaning": "认为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 24,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 30,
+              "word": "can't",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "不能；无法（can not）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 37,
+              "word": "retire",
+              "lemma": "retire",
+              "pos": "v",
+              "meaning": "退休",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -1251,9 +4596,30 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "believe是自我看法，不能写成已证实无法退休。",
+            "sentenceSHA256": "74d9af3dbf2d5d6a532644aefa4a1e2deb0fe98a337e579b1770a6ec53bf75b1",
+            "words": 6,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "3843ac3f0edb8c856b4468cc20880d34cc21759060a130b8a158db268de6d73f",
+    "sentences": 20,
+    "wordOccurrences": 379,
+    "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

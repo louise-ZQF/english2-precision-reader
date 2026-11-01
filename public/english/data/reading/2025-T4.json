@@ -61,48 +61,279 @@
               "b": 10,
               "word": "Navigating",
               "lemma": "navigate",
-              "meaning": "穿行；选择路线通过",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "穿行",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 17,
+              "word": "beyond",
+              "lemma": "beyond",
+              "pos": "prep",
+              "meaning": "在……之外",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 21,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 31,
+              "word": "organised",
+              "lemma": "organise",
+              "pos": "a",
+              "meaning": "规划好的",
+              "reviewVersion": 2
             },
             {
               "a": 32,
               "b": 41,
               "word": "pavements",
               "lemma": "pavement",
-              "meaning": "铺设的人行道",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "人行道",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 45,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 51,
+              "word": "parks",
+              "lemma": "park",
+              "pos": "n",
+              "meaning": "公园",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 54,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 58,
+              "word": "our",
+              "lemma": "our",
+              "pos": "pron",
+              "meaning": "我们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 64,
+              "word": "urban",
+              "lemma": "urban",
+              "pos": "a",
+              "meaning": "城市的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 71,
+              "word": "spaces",
+              "lemma": "space",
+              "pos": "n",
+              "meaning": "空间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 80,
+              "word": "desires",
+              "lemma": "desire",
+              "pos": "n",
+              "meaning": "原卷多一个s，与paths连读为自发小径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 86,
+              "word": "paths",
+              "lemma": "path",
+              "pos": "n",
+              "meaning": "小径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 90,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 94,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 95,
               "b": 105,
               "word": "unofficial",
               "lemma": "unofficial",
+              "pos": "a",
               "meaning": "非正式规划的",
-              "pos": "a"
+              "reviewVersion": 2
             },
             {
               "a": 106,
               "b": 116,
               "word": "footprints",
               "lemma": "footprint",
-              "meaning": "活动留下的痕迹",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "足迹；留下的痕迹",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 119,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 121,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 131,
+              "word": "community",
+              "lemma": "community",
+              "pos": "n",
+              "meaning": "社区；群体",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 142,
+              "word": "revealing",
+              "lemma": "reveal",
+              "pos": "v",
+              "meaning": "展现；揭示",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 146,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 147,
               "b": 155,
               "word": "unspoken",
               "lemma": "unspoken",
-              "meaning": "未明确说出的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "未说出口的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 167,
+              "word": "preferences",
+              "lemma": "preference",
+              "pos": "n",
+              "meaning": "偏好",
+              "reviewVersion": 2
+            },
+            {
+              "a": 169,
+              "b": 175,
+              "word": "shared",
+              "lemma": "share",
+              "pos": "a",
+              "meaning": "共同使用的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 176,
+              "b": 185,
+              "word": "shortcuts",
+              "lemma": "shortcut",
+              "pos": "n",
+              "meaning": "捷径；近路",
+              "reviewVersion": 2
+            },
+            {
+              "a": 186,
+              "b": 189,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 190,
               "b": 200,
               "word": "collective",
               "lemma": "collective",
-              "meaning": "群体共同形成的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "群体共同的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 201,
+              "b": 208,
+              "word": "choices",
+              "lemma": "choice",
+              "pos": "n",
+              "meaning": "选择",
+              "reviewVersion": 2
+            },
+            {
+              "a": 209,
+              "b": 211,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 212,
+              "b": 218,
+              "word": "humans",
+              "lemma": "human",
+              "pos": "n",
+              "meaning": "人类",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -111,7 +342,8 @@
               "b": 86,
               "lemma": "desire path",
               "meaning": "使用者自发踩出的便捷小径；原卷此处多了一个s",
-              "word": "desires paths"
+              "word": "desires paths",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -120,7 +352,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "保留原卷desires多s并按固定名称解释；navigating和revealing是分词动作。",
+            "sentenceSHA256": "4590d38c3d7711a4758450a0976913c0727eedf86d0b3be58e6666abf7b2b986",
+            "words": 31,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2025-T4-P1-S2",
@@ -164,44 +404,373 @@
           "translation": "这些小径常是整齐绿地间被踩出的土路，是人们集体“不服从”规划形成的路线，抄近路、横穿草坪、翻过山坡，体现了人类和动物以最高效方式从A点到B点的天然能力。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "Often",
+              "lemma": "often",
+              "pos": "adv",
+              "meaning": "常常",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 15,
+              "word": "appearing",
+              "lemma": "appear",
+              "pos": "v",
+              "meaning": "呈现；表现为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 18,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "作为；成为（衔接身份或性质）",
+              "reviewVersion": 2
+            },
+            {
               "a": 19,
               "b": 26,
               "word": "trodden",
-              "lemma": "trodden",
-              "meaning": "被踩踏形成的",
-              "pos": "v"
+              "lemma": "tread",
+              "pos": "v",
+              "meaning": "踩踏形成的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 31,
+              "word": "dirt",
+              "lemma": "dirt",
+              "pos": "n",
+              "meaning": "泥土",
+              "reviewVersion": 2
             },
             {
               "a": 32,
               "b": 38,
               "word": "tracks",
               "lemma": "track",
-              "meaning": "小路；踩出的路径",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "踩出来的路径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 46,
+              "word": "through",
+              "lemma": "through",
+              "pos": "prep",
+              "meaning": "穿过；遍及",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 56,
+              "word": "otherwise",
+              "lemma": "otherwise",
+              "pos": "adv",
+              "meaning": "原本；若非这些小径本会如此",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 61,
+              "word": "neat",
+              "lemma": "neat",
+              "pos": "a",
+              "meaning": "整齐的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 67,
+              "word": "green",
+              "lemma": "green",
+              "pos": "a",
+              "meaning": "绿色的；长有植被的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 74,
+              "word": "spaces",
+              "lemma": "space",
+              "pos": "n",
+              "meaning": "空间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 81,
+              "word": "these",
+              "lemma": "these",
+              "pos": "art",
+              "meaning": "这些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 88,
+              "word": "routes",
+              "lemma": "route",
+              "pos": "n",
+              "meaning": "路线",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 91,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
             },
             {
               "a": 92,
               "b": 102,
               "word": "collective",
               "lemma": "collective",
-              "meaning": "群体共同形成的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "群体共同的",
+              "reviewVersion": 2
             },
             {
               "a": 103,
               "b": 115,
               "word": "disobedience",
               "lemma": "disobedience",
-              "meaning": "不遵照原有路线的行为",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "不服从既定规划的行为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 119,
+              "word": "cut",
+              "lemma": "cut",
+              "pos": "v",
+              "meaning": "抄近路（cut corners搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 127,
+              "word": "corners",
+              "lemma": "corner",
+              "pos": "n",
+              "meaning": "拐角（cut corners此处为抄近路）",
+              "reviewVersion": 2
             },
             {
               "a": 129,
               "b": 135,
               "word": "bisect",
               "lemma": "bisect",
-              "meaning": "把……分成两部分；横穿",
-              "pos": "n"
+              "pos": "v",
+              "meaning": "横穿；将……分成两部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 141,
+              "word": "lawns",
+              "lemma": "lawn",
+              "pos": "n",
+              "meaning": "草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 142,
+              "b": 145,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 151,
+              "word": "cross",
+              "lemma": "cross",
+              "pos": "v",
+              "meaning": "穿过；翻越",
+              "reviewVersion": 2
+            },
+            {
+              "a": 152,
+              "b": 157,
+              "word": "hills",
+              "lemma": "hill",
+              "pos": "n",
+              "meaning": "山坡；小山",
+              "reviewVersion": 2
+            },
+            {
+              "a": 159,
+              "b": 171,
+              "word": "representing",
+              "lemma": "represent",
+              "pos": "v",
+              "meaning": "体现；反映",
+              "reviewVersion": 2
+            },
+            {
+              "a": 172,
+              "b": 175,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 176,
+              "b": 183,
+              "word": "natural",
+              "lemma": "natural",
+              "pos": "a",
+              "meaning": "天然的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 184,
+              "b": 194,
+              "word": "capability",
+              "lemma": "capability",
+              "pos": "n",
+              "meaning": "能力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 195,
+              "b": 197,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 198,
+              "b": 204,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 206,
+              "b": 209,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 210,
+              "b": 217,
+              "word": "animals",
+              "lemma": "animal",
+              "pos": "n",
+              "meaning": "动物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 219,
+              "b": 221,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 222,
+              "b": 224,
+              "word": "go",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "前往",
+              "reviewVersion": 2
+            },
+            {
+              "a": 225,
+              "b": 229,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从（起点或范围开端）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 230,
+              "b": 235,
+              "word": "point",
+              "lemma": "point",
+              "pos": "n",
+              "meaning": "地点；点位",
+              "reviewVersion": 2
+            },
+            {
+              "a": 236,
+              "b": 237,
+              "word": "A",
+              "lemma": "A",
+              "pos": "n",
+              "meaning": "A点（地点符号，不是不定冠词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 238,
+              "b": 240,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "到（B点）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 241,
+              "b": 246,
+              "word": "point",
+              "lemma": "point",
+              "pos": "n",
+              "meaning": "地点；点位",
+              "reviewVersion": 2
+            },
+            {
+              "a": 247,
+              "b": 248,
+              "word": "B",
+              "lemma": "B",
+              "pos": "n",
+              "meaning": "B点（位置符号）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 249,
+              "b": 253,
+              "word": "most",
+              "lemma": "most",
+              "pos": "adv",
+              "meaning": "最（最高效率）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 254,
+              "b": 265,
+              "word": "effectively",
+              "lemma": "effectively",
+              "pos": "adv",
+              "meaning": "高效地",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -210,14 +779,16 @@
               "b": 38,
               "lemma": "dirt track",
               "meaning": "泥土小径",
-              "word": "dirt tracks"
+              "word": "dirt tracks",
+              "kind": "phrase"
             },
             {
               "a": 116,
               "b": 127,
               "lemma": "cut corners",
               "meaning": "抄近路；走捷径",
-              "word": "cut corners"
+              "word": "cut corners",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -226,7 +797,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "A/B为地点符号，trodden原型tread，bisect为动词而非名词；otherwise说明原本整齐。",
+            "sentenceSHA256": "ed68386a8d1a18c250e8f0d476c1d7f0677717929fcae95567a6ada9c4a17216",
+            "words": 41,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -264,28 +843,202 @@
           "translation": "城市规划者认为，自发小径不只是便利的捷径，还为理解规划和行为之间的相互作用提供了宝贵线索。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "Urban",
+              "lemma": "urban",
+              "pos": "a",
+              "meaning": "城市的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 14,
+              "word": "planners",
+              "lemma": "planner",
+              "pos": "n",
+              "meaning": "规划者",
+              "reviewVersion": 2
+            },
+            {
               "a": 15,
               "b": 24,
               "word": "interpret",
               "lemma": "interpret",
+              "pos": "v",
               "meaning": "理解；解读",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 31,
+              "word": "desire",
+              "lemma": "desire",
+              "pos": "n",
+              "meaning": "自发选择的倾向（desire paths指自发小径）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 37,
+              "word": "paths",
+              "lemma": "path",
+              "pos": "n",
+              "meaning": "小径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 40,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "把……理解为（interpret as搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 45,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "不止（more than结构）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 50,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "超出（more than整体为不仅）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 55,
+              "word": "just",
+              "lemma": "just",
+              "pos": "adv",
+              "meaning": "仅仅",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 66,
+              "word": "convenient",
+              "lemma": "convenient",
+              "pos": "a",
+              "meaning": "便捷的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 76,
+              "word": "shortcuts",
+              "lemma": "shortcut",
+              "pos": "n",
+              "meaning": "捷径；近路",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 82,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 88,
+              "word": "offer",
+              "lemma": "offer",
+              "pos": "v",
+              "meaning": "提供；分享",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 97,
+              "word": "valuable",
+              "lemma": "valuable",
+              "pos": "a",
+              "meaning": "有价值的",
+              "reviewVersion": 2
             },
             {
               "a": 98,
               "b": 106,
               "word": "insights",
               "lemma": "insight",
-              "meaning": "对……的深入认识",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "深入认识；启示",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 111,
+              "word": "into",
+              "lemma": "into",
+              "pos": "prep",
+              "meaning": "进入；纳入",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 115,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 116,
               "b": 124,
               "word": "dynamics",
-              "lemma": "dynamic",
+              "lemma": "dynamics",
+              "pos": "n",
               "meaning": "相互作用关系",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 132,
+              "word": "between",
+              "lemma": "between",
+              "pos": "prep",
+              "meaning": "在……之间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 141,
+              "word": "planning",
+              "lemma": "planning",
+              "pos": "n",
+              "meaning": "规划",
+              "reviewVersion": 2
+            },
+            {
+              "a": 142,
+              "b": 145,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 155,
+              "word": "behaviour",
+              "lemma": "behaviour",
+              "pos": "n",
+              "meaning": "行为",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -294,7 +1047,8 @@
               "b": 37,
               "lemma": "desire path",
               "meaning": "使用者自发踩出的便捷小径",
-              "word": "desire paths"
+              "word": "desire paths",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -303,7 +1057,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "more than just是否定仅为捷径，dynamics是规划与行为的相互作用。",
+            "sentenceSHA256": "79e878420f26ca30ad065001c11fdb79af2882b5d483f2a8859d48e33e5ba1ee",
+            "words": 22,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2025-T4-P2-S2",
@@ -316,13 +1078,13 @@
               "a": 0,
               "b": 65,
               "en": "Ohio State University allowed its students to navigate the Oval, ",
-              "zh": "俄亥俄州立大学允许学生自由穿行Oval草坪"
+              "zh": "俄亥俄州立大学允许学生穿行Oval草坪，"
             },
             {
               "a": 65,
               "b": 105,
               "en": "a lawn in the centre of campus, freely, ",
-              "zh": "这块草坪位于校园中央"
+              "zh": "这块草坪位于校园中央，学生可以自由通行，"
             },
             {
               "a": 105,
@@ -341,12 +1103,310 @@
           "translation": "俄亥俄州立大学先允许学生自由穿行校园中央的Oval草坪，随后沿着学生踩出的自发小径铺路，形成一张由学生走出来的高效路网。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Ohio",
+              "lemma": "Ohio",
+              "pos": "name",
+              "meaning": "俄亥俄",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 10,
+              "word": "State",
+              "lemma": "State",
+              "pos": "a",
+              "meaning": "州立的（大学名称的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 21,
+              "word": "University",
+              "lemma": "University",
+              "pos": "n",
+              "meaning": "大学",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 29,
+              "word": "allowed",
+              "lemma": "allow",
+              "pos": "v",
+              "meaning": "允许",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 33,
+              "word": "its",
+              "lemma": "its",
+              "pos": "pron",
+              "meaning": "它的（指大学的）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 42,
+              "word": "students",
+              "lemma": "student",
+              "pos": "n",
+              "meaning": "学生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 45,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 46,
               "b": 54,
               "word": "navigate",
               "lemma": "navigate",
-              "meaning": "穿行；选择路线通过",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "穿行",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 58,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 63,
+              "word": "Oval",
+              "lemma": "Oval",
+              "pos": "name",
+              "meaning": "Oval草坪（校园内地点名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 66,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 71,
+              "word": "lawn",
+              "lemma": "lawn",
+              "pos": "n",
+              "meaning": "草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 74,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 78,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 85,
+              "word": "centre",
+              "lemma": "centre",
+              "pos": "n",
+              "meaning": "中央",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 88,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 95,
+              "word": "campus",
+              "lemma": "campus",
+              "pos": "n",
+              "meaning": "校园",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 103,
+              "word": "freely",
+              "lemma": "freely",
+              "pos": "adv",
+              "meaning": "自由地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 109,
+              "word": "then",
+              "lemma": "then",
+              "pos": "adv",
+              "meaning": "随后",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 119,
+              "word": "proceeded",
+              "lemma": "proceed",
+              "pos": "v",
+              "meaning": "接着着手做",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 122,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "着手做（proceed to搭配中的不定式）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 127,
+              "word": "pave",
+              "lemma": "pave",
+              "pos": "v",
+              "meaning": "铺路；铺装路面",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 131,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 138,
+              "word": "desire",
+              "lemma": "desire",
+              "pos": "n",
+              "meaning": "自发选择的倾向（desire paths指自发小径）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 139,
+              "b": 144,
+              "word": "paths",
+              "lemma": "path",
+              "pos": "n",
+              "meaning": "小径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 154,
+              "word": "creating",
+              "lemma": "create",
+              "pos": "v",
+              "meaning": "形成；创造",
+              "reviewVersion": 2
+            },
+            {
+              "a": 155,
+              "b": 156,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 157,
+              "b": 160,
+              "word": "web",
+              "lemma": "web",
+              "pos": "n",
+              "meaning": "网络；路网",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 163,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 173,
+              "word": "effective",
+              "lemma": "effective",
+              "pos": "a",
+              "meaning": "高效的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 174,
+              "b": 180,
+              "word": "routes",
+              "lemma": "route",
+              "pos": "n",
+              "meaning": "路线",
+              "reviewVersion": 2
+            },
+            {
+              "a": 181,
+              "b": 189,
+              "word": "students",
+              "lemma": "student",
+              "pos": "n",
+              "meaning": "学生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 190,
+              "b": 193,
+              "word": "had",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "过去完成时助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 194,
+              "b": 205,
+              "word": "established",
+              "lemma": "establish",
+              "pos": "v",
+              "meaning": "形成；开辟",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -355,14 +1415,16 @@
               "b": 21,
               "lemma": "Ohio State University",
               "meaning": "俄亥俄州立大学",
-              "word": "Ohio State University"
+              "word": "Ohio State University",
+              "kind": "name"
             },
             {
               "a": 132,
               "b": 144,
               "lemma": "desire path",
               "meaning": "使用者自发踩出的便捷小径",
-              "word": "desire paths"
+              "word": "desire paths",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -371,7 +1433,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "freely只在实际对应块翻译，不提前借译；had established为学生已走出的路线。",
+            "sentenceSHA256": "77c5d88e33744e079646c37ef1a7d2ce5b9795b11f8d4c415fbebccf74e81cd7",
+            "words": 34,
+            "phrases": 1,
+            "names": 1
+          }
         }
       ]
     },
@@ -409,36 +1479,202 @@
           "translation": "然而，其他规划者仍不愿把自发小径纳入正式规划，理由是担心安全、环境影响，尤其是美观问题。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "Yet",
+              "lemma": "yet",
+              "pos": "conj",
+              "meaning": "然而；但",
+              "reviewVersion": 2
+            },
+            {
               "a": 5,
               "b": 15,
               "word": "reluctance",
               "lemma": "reluctance",
-              "meaning": "不情愿；不愿接受",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "不情愿；迟疑",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 24,
+              "word": "persists",
+              "lemma": "persist",
+              "pos": "v",
+              "meaning": "仍然存在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 30,
+              "word": "among",
+              "lemma": "among",
+              "pos": "prep",
+              "meaning": "在……之中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 36,
+              "word": "other",
+              "lemma": "other",
+              "pos": "art",
+              "meaning": "其他的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 45,
+              "word": "planners",
+              "lemma": "planner",
+              "pos": "n",
+              "meaning": "规划者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 48,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
             },
             {
               "a": 49,
               "b": 58,
               "word": "integrate",
               "lemma": "integrate",
+              "pos": "v",
               "meaning": "纳入；整合",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 65,
+              "word": "desire",
+              "lemma": "desire",
+              "pos": "n",
+              "meaning": "自发选择的倾向（desire paths指自发小径）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 71,
+              "word": "paths",
+              "lemma": "path",
+              "pos": "n",
+              "meaning": "小径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 76,
+              "word": "into",
+              "lemma": "into",
+              "pos": "prep",
+              "meaning": "进入；纳入",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 83,
+              "word": "formal",
+              "lemma": "formal",
+              "pos": "a",
+              "meaning": "正式的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 89,
+              "word": "plans",
+              "lemma": "plan",
+              "pos": "n",
+              "meaning": "规划；计划",
+              "reviewVersion": 2
             },
             {
               "a": 91,
               "b": 97,
               "word": "citing",
               "lemma": "cite",
+              "pos": "v",
               "meaning": "提出……作为理由",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 106,
+              "word": "concerns",
+              "lemma": "concern",
+              "pos": "n",
+              "meaning": "担忧",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 112,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 119,
+              "word": "safety",
+              "lemma": "safety",
+              "pos": "n",
+              "meaning": "安全",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 134,
+              "word": "environmental",
+              "lemma": "environmental",
+              "pos": "a",
+              "meaning": "环境方面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 141,
+              "word": "impact",
+              "lemma": "impact",
+              "pos": "n",
+              "meaning": "影响",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 145,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 155,
+              "word": "primarily",
+              "lemma": "primarily",
+              "pos": "adv",
+              "meaning": "主要地；尤其是",
+              "reviewVersion": 2
             },
             {
               "a": 157,
               "b": 167,
               "word": "aesthetics",
-              "lemma": "aesthetic",
+              "lemma": "aesthetics",
+              "pos": "n",
               "meaning": "美观；审美",
-              "pos": "n"
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -447,7 +1683,8 @@
               "b": 71,
               "lemma": "desire path",
               "meaning": "使用者自发踩出的便捷小径",
-              "word": "desire paths"
+              "word": "desire paths",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -456,7 +1693,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "安全环境及尤其美观是规划者提出的理由，不等同作者认定这些小径不安全。",
+            "sentenceSHA256": "944b014d2350423cbd85df2e2f1ce939d263707afca5e4f4368ea75d638903c9",
+            "words": 22,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2025-T4-P3-S2",
@@ -500,60 +1745,319 @@
           "translation": "Reddit上一个专门讨论这一现象、拥有近五万名成员的页面，展示了各地自发小径的照片，路边还立着要求行人走指定步道的标志，更凸显了这些人为踩出的小路的叛逆色彩。",
           "words": [
             {
+              "a": 0,
+              "b": 1,
+              "word": "A",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 2,
+              "b": 8,
+              "word": "Reddit",
+              "lemma": "Reddit",
+              "pos": "name",
+              "meaning": "Reddit（网络社区名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 16,
+              "word": "webpage",
+              "lemma": "webpage",
+              "pos": "n",
+              "meaning": "网页",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 24,
+              "word": "devoted",
+              "lemma": "devote",
+              "pos": "v",
+              "meaning": "专门用于（与to连用）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 27,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "专门用于（devoted to搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 31,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 42,
+              "word": "phenomenon",
+              "lemma": "phenomenon",
+              "pos": "n",
+              "meaning": "现象",
+              "reviewVersion": 2
+            },
+            {
               "a": 44,
               "b": 52,
               "word": "boasting",
               "lemma": "boast",
-              "meaning": "拥有；以……为特色",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "拥有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 59,
+              "word": "nearly",
+              "lemma": "nearly",
+              "pos": "adv",
+              "meaning": "将近",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 74,
+              "word": "members",
+              "lemma": "member",
+              "pos": "n",
+              "meaning": "成员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 85,
+              "word": "showcases",
+              "lemma": "showcase",
+              "pos": "v",
+              "meaning": "展示",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 92,
+              "word": "images",
+              "lemma": "image",
+              "pos": "n",
+              "meaning": "照片；图像",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 95,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 101,
+              "word": "local",
+              "lemma": "local",
+              "pos": "a",
+              "meaning": "各地的；当地的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 108,
+              "word": "desire",
+              "lemma": "desire",
+              "pos": "n",
+              "meaning": "自发选择的倾向（desire paths指自发小径）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 114,
+              "word": "paths",
+              "lemma": "path",
+              "pos": "n",
+              "meaning": "小径",
+              "reviewVersion": 2
             },
             {
               "a": 115,
               "b": 122,
               "word": "adorned",
               "lemma": "adorn",
-              "meaning": "设有；装有（标识）",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "设有；装有标识",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 127,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "具有；带有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 133,
+              "word": "signs",
+              "lemma": "sign",
+              "pos": "n",
+              "meaning": "标志牌",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 145,
+              "word": "instructing",
+              "lemma": "instruct",
+              "pos": "v",
+              "meaning": "指示；要求",
+              "reviewVersion": 2
             },
             {
               "a": 146,
               "b": 157,
               "word": "pedestrians",
               "lemma": "pedestrian",
+              "pos": "n",
               "meaning": "行人",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 158,
+              "b": 160,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 167,
+              "word": "adhere",
+              "lemma": "adhere",
+              "pos": "v",
+              "meaning": "遵循（与to连用）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 168,
+              "b": 170,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "遵循（adhere to搭配的介词）",
+              "reviewVersion": 2
             },
             {
               "a": 171,
               "b": 181,
               "word": "designated",
-              "lemma": "designated",
+              "lemma": "designate",
+              "pos": "a",
               "meaning": "指定的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 182,
+              "b": 190,
+              "word": "walkways",
+              "lemma": "walkway",
+              "pos": "n",
+              "meaning": "步行路线",
+              "reviewVersion": 2
             },
             {
               "a": 192,
               "b": 204,
               "word": "underscoring",
               "lemma": "underscore",
+              "pos": "v",
               "meaning": "凸显；强调",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 205,
+              "b": 208,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 209,
+              "b": 219,
+              "word": "rebellious",
+              "lemma": "rebellious",
+              "pos": "a",
+              "meaning": "不遵循既定路线的；叛逆的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 220,
+              "b": 226,
+              "word": "nature",
+              "lemma": "nature",
+              "pos": "n",
+              "meaning": "性质；色彩",
+              "reviewVersion": 2
+            },
+            {
+              "a": 227,
+              "b": 235,
+              "word": "inherent",
+              "lemma": "inherent",
+              "pos": "a",
+              "meaning": "固有的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 236,
+              "b": 238,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 239,
+              "b": 244,
+              "word": "these",
+              "lemma": "these",
+              "pos": "art",
+              "meaning": "这些",
+              "reviewVersion": 2
             },
             {
               "a": 245,
               "b": 255,
               "word": "human-made",
               "lemma": "human-made",
-              "meaning": "人为形成的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "人踩出来的；人为形成的",
+              "reviewVersion": 2
             },
             {
               "a": 256,
               "b": 262,
               "word": "tracks",
               "lemma": "track",
-              "meaning": "小路；踩出的路径",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "踩出来的路径",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -562,21 +2066,16 @@
               "b": 114,
               "lemma": "desire path",
               "meaning": "使用者自发踩出的便捷小径",
-              "word": "desire paths"
+              "word": "desire paths",
+              "kind": "phrase"
             },
             {
               "a": 161,
               "b": 170,
               "lemma": "adhere to",
               "meaning": "遵照；遵循",
-              "word": "adhere to"
-            },
-            {
-              "a": 171,
-              "b": 190,
-              "lemma": "designated walkways",
-              "meaning": "指定步行路线",
-              "word": "designated walkways"
+              "word": "adhere to",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -585,7 +2084,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "三处to分别是devoted to、要求行走的不定式、adhere to介词；boasting是拥有非吹嘘。",
+            "sentenceSHA256": "46f89be8396cc3ea27337480ead6e47bd5f01b11ef537e8fde624d48796c566d",
+            "words": 35,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2025-T4-P3-S3",
@@ -617,28 +2124,229 @@
           "translation": "这种冲突凸显了一场持续的拉锯：一方是公共空间在使用者推动下自然演变，另一方则希望城市环境在视觉上经过精心设计，并受到管控。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "This",
+              "lemma": "this",
+              "pos": "art",
+              "meaning": "这；这种",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 10,
+              "word": "clash",
+              "lemma": "clash",
+              "pos": "n",
+              "meaning": "冲突",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 21,
+              "word": "highlights",
+              "lemma": "highlight",
+              "pos": "v",
+              "meaning": "凸显",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 24,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 32,
+              "word": "ongoing",
+              "lemma": "ongoing",
+              "pos": "a",
+              "meaning": "持续的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 41,
+              "word": "struggle",
+              "lemma": "struggle",
+              "pos": "n",
+              "meaning": "拉锯；冲突",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 49,
+              "word": "between",
+              "lemma": "between",
+              "pos": "prep",
+              "meaning": "在……之间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 53,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 54,
               "b": 61,
               "word": "organic",
               "lemma": "organic",
-              "meaning": "自发形成的；自然演进的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "自发演进的；自然发展的",
+              "reviewVersion": 2
             },
             {
               "a": 63,
               "b": 74,
               "word": "user-driven",
               "lemma": "user-driven",
-              "meaning": "由实际使用者推动的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "由使用者推动的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 84,
+              "word": "evolution",
+              "lemma": "evolution",
+              "pos": "n",
+              "meaning": "演变",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 87,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 94,
+              "word": "public",
+              "lemma": "public",
+              "pos": "a",
+              "meaning": "公共的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 101,
+              "word": "spaces",
+              "lemma": "space",
+              "pos": "n",
+              "meaning": "空间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 105,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 109,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 116,
+              "word": "desire",
+              "lemma": "desire",
+              "pos": "n",
+              "meaning": "愿望；希望（针对营造受管控环境）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 120,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对于；对（引出愿望的对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 122,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 131,
+              "word": "visually",
+              "lemma": "visually",
+              "pos": "adv",
+              "meaning": "在视觉上",
+              "reviewVersion": 2
             },
             {
               "a": 132,
               "b": 139,
               "word": "curated",
-              "lemma": "curated",
-              "meaning": "刻意设计和安排的",
-              "pos": "v"
+              "lemma": "curate",
+              "pos": "a",
+              "meaning": "精心设计安排的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 143,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 154,
+              "word": "controlled",
+              "lemma": "control",
+              "pos": "a",
+              "meaning": "受到管控的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 155,
+              "b": 160,
+              "word": "urban",
+              "lemma": "urban",
+              "pos": "a",
+              "meaning": "城市的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 172,
+              "word": "environment",
+              "lemma": "environment",
+              "pos": "n",
+              "meaning": "环境",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -648,7 +2356,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "organic不是有机食品而是自然演变，desire在此为想营造环境的愿望。",
+            "sentenceSHA256": "fb4258dc0e2657d1e50b6b61be00743c47388cf8d742d65d6123d165da7da2b5",
+            "words": 25,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -692,12 +2408,238 @@
           "translation": "威克夸斯吉克小径是历史上自发小径的一个例子，由美洲原住民踩出，用来穿过曼哈顿的森林，并在各聚居地之间快速往来。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 16,
+              "word": "Wickquasgeck",
+              "lemma": "Wickquasgeck",
+              "pos": "name",
+              "meaning": "威克夸斯吉克（小径名称）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 22,
+              "word": "Trail",
+              "lemma": "trail",
+              "pos": "n",
+              "meaning": "小径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 25,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 28,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 36,
+              "word": "example",
+              "lemma": "example",
+              "pos": "n",
+              "meaning": "例子",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 39,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 41,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 52,
+              "word": "historical",
+              "lemma": "historical",
+              "pos": "a",
+              "meaning": "历史上的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 59,
+              "word": "desire",
+              "lemma": "desire",
+              "pos": "n",
+              "meaning": "自发选择的倾向（desire paths指自发小径）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 64,
+              "word": "path",
+              "lemma": "path",
+              "pos": "n",
+              "meaning": "小径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 73,
+              "word": "created",
+              "lemma": "create",
+              "pos": "v",
+              "meaning": "形成；开辟",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 76,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "由（引出形成小径的人）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 83,
+              "word": "Native",
+              "lemma": "native",
+              "pos": "a",
+              "meaning": "原住的（Native Americans搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 93,
+              "word": "Americans",
+              "lemma": "American",
+              "pos": "n",
+              "meaning": "美洲人（Native Americans整体为美洲原住民）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 96,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 102,
+              "word": "cross",
+              "lemma": "cross",
+              "pos": "v",
+              "meaning": "穿过；翻越",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 106,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 114,
+              "word": "forests",
+              "lemma": "forest",
+              "pos": "n",
+              "meaning": "森林",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 117,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 127,
+              "word": "Manhattan",
+              "lemma": "Manhattan",
+              "pos": "name",
+              "meaning": "曼哈顿",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 131,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 136,
+              "word": "move",
+              "lemma": "move",
+              "pos": "v",
+              "meaning": "往来；移动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 144,
+              "word": "between",
+              "lemma": "between",
+              "pos": "prep",
+              "meaning": "在……之间",
+              "reviewVersion": 2
+            },
+            {
               "a": 145,
               "b": 156,
               "word": "settlements",
               "lemma": "settlement",
+              "pos": "n",
               "meaning": "聚居地",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 157,
+              "b": 164,
+              "word": "quickly",
+              "lemma": "quickly",
+              "pos": "adv",
+              "meaning": "快速地",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -706,7 +2648,8 @@
               "b": 93,
               "lemma": "Native American",
               "meaning": "美洲原住民",
-              "word": "Native Americans"
+              "word": "Native Americans",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -715,7 +2658,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "Native Americans整体为美洲原住民，created被动、to cross表目的。",
+            "sentenceSHA256": "96c23d2a521ac1ae9a70f243aae7ffe55f2aaf6947686655b334e258013282db",
+            "words": 26,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2025-T4-P4-S2",
@@ -745,7 +2696,287 @@
           ],
           "reorder": "将 when Dutch colonists arrived 的时间背景提到句首。",
           "translation": "荷兰殖民者到来后，这条小径被拓宽，成为贯穿全岛的主要商路之一，当时称为de Heere Straat，即“绅士街”。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "This",
+              "lemma": "this",
+              "pos": "art",
+              "meaning": "这；这种",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 10,
+              "word": "trail",
+              "lemma": "trail",
+              "pos": "n",
+              "meaning": "小径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 16,
+              "word": "when",
+              "lemma": "when",
+              "pos": "conj",
+              "meaning": "当……时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 22,
+              "word": "Dutch",
+              "lemma": "Dutch",
+              "pos": "a",
+              "meaning": "荷兰的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 32,
+              "word": "colonists",
+              "lemma": "colonist",
+              "pos": "n",
+              "meaning": "殖民者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 40,
+              "word": "arrived",
+              "lemma": "arrive",
+              "pos": "v",
+              "meaning": "到来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 45,
+              "word": "was",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "过去时被动助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 53,
+              "word": "widened",
+              "lemma": "widen",
+              "pos": "v",
+              "meaning": "拓宽",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 57,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 62,
+              "word": "made",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "被改造成",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 67,
+              "word": "into",
+              "lemma": "into",
+              "pos": "prep",
+              "meaning": "进入；纳入",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 71,
+              "word": "one",
+              "lemma": "one",
+              "pos": "pron",
+              "meaning": "其中之一",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 74,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 78,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 83,
+              "word": "main",
+              "lemma": "main",
+              "pos": "a",
+              "meaning": "主要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 89,
+              "word": "trade",
+              "lemma": "trade",
+              "pos": "n",
+              "meaning": "贸易；商贸",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 95,
+              "word": "roads",
+              "lemma": "road",
+              "pos": "n",
+              "meaning": "道路",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 102,
+              "word": "across",
+              "lemma": "across",
+              "pos": "prep",
+              "meaning": "横穿；贯穿",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 106,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 113,
+              "word": "island",
+              "lemma": "island",
+              "pos": "n",
+              "meaning": "岛",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 120,
+              "word": "known",
+              "lemma": "know",
+              "pos": "v",
+              "meaning": "被称为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 123,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（当时时间）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 127,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 132,
+              "word": "time",
+              "lemma": "time",
+              "pos": "n",
+              "meaning": "当时的时间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 135,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "称为（known as搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 138,
+              "word": "de",
+              "lemma": "de",
+              "pos": "name",
+              "meaning": "de（荷兰语街道旧名的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 139,
+              "b": 144,
+              "word": "Heere",
+              "lemma": "Heere",
+              "pos": "name",
+              "meaning": "Heere（旧街名中的荷兰语词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 145,
+              "b": 151,
+              "word": "Straat",
+              "lemma": "Straat",
+              "pos": "name",
+              "meaning": "Straat（荷兰语街道，旧名的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 155,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "即；也就是（解释旧街名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 167,
+              "word": "Gentlemen's",
+              "lemma": "gentleman",
+              "pos": "n",
+              "meaning": "绅士们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 168,
+              "b": 174,
+              "word": "Street",
+              "lemma": "street",
+              "pos": "n",
+              "meaning": "街道",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -753,7 +2984,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "when为荷兰殖民到来的时间，or解释荷兰街名而非两个可选道路。",
+            "sentenceSHA256": "a8ddd3081bc6ec18233ca93461a8fc47efa6e2b5cb4604aa3c52bac9a7023d0d",
+            "words": 31,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2025-T4-P4-S3",
@@ -779,12 +3018,130 @@
           "translation": "英国取得纽约的控制权后，这条街被改名为百老汇。",
           "words": [
             {
+              "a": 0,
+              "b": 9,
+              "word": "Following",
+              "lemma": "following",
+              "pos": "prep",
+              "meaning": "在……之后",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 13,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 21,
+              "word": "British",
+              "lemma": "British",
+              "pos": "a",
+              "meaning": "英国的",
+              "reviewVersion": 2
+            },
+            {
               "a": 22,
               "b": 32,
               "word": "assumption",
               "lemma": "assumption",
-              "meaning": "接管；取得（控制权）",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "取得；接管",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 35,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 43,
+              "word": "control",
+              "lemma": "control",
+              "pos": "n",
+              "meaning": "控制权",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 46,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 50,
+              "word": "New",
+              "lemma": "New",
+              "pos": "name",
+              "meaning": "新（New York整体为纽约）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 55,
+              "word": "York",
+              "lemma": "York",
+              "pos": "name",
+              "meaning": "约克（New York整体为纽约）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 60,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 67,
+              "word": "street",
+              "lemma": "street",
+              "pos": "n",
+              "meaning": "街道",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 71,
+              "word": "was",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "过去时被动助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 79,
+              "word": "renamed",
+              "lemma": "rename",
+              "pos": "v",
+              "meaning": "改名",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 88,
+              "word": "Broadway",
+              "lemma": "Broadway",
+              "pos": "name",
+              "meaning": "百老汇",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -794,7 +3151,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "assumption是取得控制权，不是猜想；Following是之后的介词。",
+            "sentenceSHA256": "d345aa8d0605bf5af8b151d2523ae378d58d585677faf1b5a9f800e62f9580d6",
+            "words": 14,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2025-T4-P4-S4",
@@ -826,20 +3191,292 @@
           "translation": "值得注意的是，百老汇是纽约少数几个不遵循其他地区棋盘式布局的区域之一，它斜穿了城市的部分区域。",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "Notably",
+              "lemma": "notably",
+              "pos": "adv",
+              "meaning": "值得注意的是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 17,
+              "word": "Broadway",
+              "lemma": "Broadway",
+              "pos": "name",
+              "meaning": "百老汇",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 24,
+              "word": "stands",
+              "lemma": "stand",
+              "pos": "v",
+              "meaning": "突出（stand out）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 28,
+              "word": "out",
+              "lemma": "out",
+              "pos": "part",
+              "meaning": "与stand构成突出、显眼的搭配",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 31,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "作为；成为（衔接身份或性质）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 35,
+              "word": "one",
+              "lemma": "one",
+              "pos": "pron",
+              "meaning": "其中之一",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 38,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 42,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 46,
+              "word": "few",
+              "lemma": "few",
+              "pos": "art",
+              "meaning": "少数几个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 52,
+              "word": "areas",
+              "lemma": "area",
+              "pos": "n",
+              "meaning": "区域",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 55,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 59,
+              "word": "NYC",
+              "lemma": "NYC",
+              "pos": "abbr",
+              "meaning": "纽约市",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 64,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指前面的事物",
+              "reviewVersion": 2
+            },
+            {
               "a": 65,
               "b": 71,
               "word": "defies",
               "lemma": "defy",
+              "pos": "v",
               "meaning": "不遵循；突破",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 75,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 76,
               "b": 86,
               "word": "grid-based",
               "lemma": "grid-based",
-              "meaning": "以网格为基础的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "网格式的；棋盘式的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 93,
+              "word": "system",
+              "lemma": "system",
+              "pos": "n",
+              "meaning": "布局系统",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 101,
+              "word": "applied",
+              "lemma": "apply",
+              "pos": "v",
+              "meaning": "被采用；被应用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 104,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "应用于（applied to搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 108,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 113,
+              "word": "rest",
+              "lemma": "rest",
+              "pos": "n",
+              "meaning": "其余部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 116,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 120,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 125,
+              "word": "city",
+              "lemma": "city",
+              "pos": "n",
+              "meaning": "城市",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 134,
+              "word": "cutting",
+              "lemma": "cut",
+              "pos": "v",
+              "meaning": "切过；斜穿",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 136,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 145,
+              "word": "diagonal",
+              "lemma": "diagonal",
+              "pos": "n",
+              "meaning": "对角线；斜线",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 152,
+              "word": "across",
+              "lemma": "across",
+              "pos": "prep",
+              "meaning": "横穿；贯穿",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 158,
+              "word": "parts",
+              "lemma": "part",
+              "pos": "n",
+              "meaning": "部分区域",
+              "reviewVersion": 2
+            },
+            {
+              "a": 159,
+              "b": 161,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 162,
+              "b": 165,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 166,
+              "b": 170,
+              "word": "city",
+              "lemma": "city",
+              "pos": "n",
+              "meaning": "城市",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -849,7 +3486,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "grid-based指棋盘式布局，defies是不遵循，stand out为突出例外。",
+            "sentenceSHA256": "1869f83d5b25b59606ce4fe60e24aa4038d267e829b02aa13f18bffbbec892d7",
+            "words": 32,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -881,12 +3526,193 @@
           "translation": "在网络空间里，人们对自发小径的兴趣近乎痴迷，Reddit页面则成了交流中心。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 9,
+              "word": "online",
+              "lemma": "online",
+              "pos": "a",
+              "meaning": "网络上的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 16,
+              "word": "spaces",
+              "lemma": "space",
+              "pos": "n",
+              "meaning": "空间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 24,
+              "word": "desire",
+              "lemma": "desire",
+              "pos": "n",
+              "meaning": "自发选择的倾向（desire paths指自发小径）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 30,
+              "word": "paths",
+              "lemma": "path",
+              "pos": "n",
+              "meaning": "小径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 35,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 43,
+              "word": "sparked",
+              "lemma": "spark",
+              "pos": "v",
+              "meaning": "引发",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 45,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 57,
+              "word": "fascination",
+              "lemma": "fascination",
+              "pos": "n",
+              "meaning": "着迷；强烈兴趣",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 62,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指前面的事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 66,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "可以；可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 75,
+              "word": "approach",
+              "lemma": "approach",
+              "pos": "v",
+              "meaning": "接近（痴迷程度）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 85,
+              "word": "obsession",
+              "lemma": "obsession",
+              "pos": "n",
+              "meaning": "痴迷",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 91,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "具有；带有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 95,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 102,
+              "word": "Reddit",
+              "lemma": "Reddit",
+              "pos": "name",
+              "meaning": "Reddit（网络社区名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 107,
+              "word": "page",
+              "lemma": "page",
+              "pos": "n",
+              "meaning": "页面",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 115,
+              "word": "serving",
+              "lemma": "serve",
+              "pos": "v",
+              "meaning": "充当；作为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 118,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "作为；充当（serve as搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 120,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 121,
               "b": 124,
               "word": "hub",
               "lemma": "hub",
+              "pos": "n",
               "meaning": "交流中心",
-              "pos": "n"
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -895,7 +3721,8 @@
               "b": 30,
               "lemma": "desire path",
               "meaning": "使用者自发踩出的便捷小径",
-              "word": "desire paths"
+              "word": "desire paths",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -904,7 +3731,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "have sparked为引发兴趣的完成时，approach是接近痴迷程度的动词。",
+            "sentenceSHA256": "33121f6335e9b709332dc8bb66530b79357baaa41e6aadd8aa35059099ee1357",
+            "words": 21,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2025-T4-P5-S2",
@@ -936,20 +3771,139 @@
           "translation": "发帖者分享各种各样的故事，从鲜为人知的新捷径，到沿用已久的替代路线，应有尽有。",
           "words": [
             {
+              "a": 0,
+              "b": 12,
+              "word": "Contributors",
+              "lemma": "contributor",
+              "pos": "n",
+              "meaning": "发帖者；内容贡献者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 18,
+              "word": "offer",
+              "lemma": "offer",
+              "pos": "v",
+              "meaning": "提供；分享",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 20,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "wide",
+              "lemma": "wide",
+              "pos": "a",
+              "meaning": "广泛的；多种多样的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 31,
+              "word": "array",
+              "lemma": "array",
+              "pos": "n",
+              "meaning": "大量多样的事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 34,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 42,
+              "word": "stories",
+              "lemma": "story",
+              "pos": "n",
+              "meaning": "故事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 48,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从（起点或范围开端）",
+              "reviewVersion": 2
+            },
+            {
               "a": 49,
               "b": 61,
               "word": "little-known",
               "lemma": "little-known",
+              "pos": "a",
               "meaning": "鲜为人知的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 65,
+              "word": "new",
+              "lemma": "new",
+              "pos": "a",
+              "meaning": "新的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 75,
+              "word": "shortcuts",
+              "lemma": "shortcut",
+              "pos": "n",
+              "meaning": "捷径；近路",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 78,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "到（范围的另一端）",
+              "reviewVersion": 2
             },
             {
               "a": 79,
               "b": 95,
               "word": "long-established",
               "lemma": "long-established",
-              "meaning": "存在已久的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "沿用已久的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 105,
+              "word": "alternate",
+              "lemma": "alternate",
+              "pos": "a",
+              "meaning": "可替代的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 112,
+              "word": "routes",
+              "lemma": "route",
+              "pos": "n",
+              "meaning": "路线",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -959,7 +3913,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "Contributors是网络发帖者，不限捐赠者；from to列出故事范围。",
+            "sentenceSHA256": "d19607004f252c507aada3f0e7d25d4cbcb2782ab0de6a9a8dd6c4ee9951333b",
+            "words": 15,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -1003,20 +3965,274 @@
           "translation": "动物走出的自发小径，比如鸭子在冰封池塘中开出的小路、狗在花园里踩出的直道，表明这类小径在人类和动物的生活中都能灵活形成、适应环境。",
           "words": [
             {
+              "a": 0,
+              "b": 6,
+              "word": "Animal",
+              "lemma": "animal",
+              "pos": "n",
+              "meaning": "动物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 13,
+              "word": "desire",
+              "lemma": "desire",
+              "pos": "n",
+              "meaning": "自发选择的倾向（desire paths指自发小径）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 19,
+              "word": "paths",
+              "lemma": "path",
+              "pos": "n",
+              "meaning": "小径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "such",
+              "lemma": "such",
+              "pos": "art",
+              "meaning": "这样的（such as整体为例如）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 28,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "例如（such as搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 34,
+              "word": "ducks",
+              "lemma": "duck",
+              "pos": "n",
+              "meaning": "鸭子",
+              "reviewVersion": 2
+            },
+            {
               "a": 35,
               "b": 42,
               "word": "forging",
               "lemma": "forge",
-              "meaning": "开辟；形成（路线）",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "开辟；形成",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 49,
+              "word": "trails",
+              "lemma": "trail",
+              "pos": "n",
+              "meaning": "小径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 57,
+              "word": "through",
+              "lemma": "through",
+              "pos": "prep",
+              "meaning": "穿过；遍及",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 64,
+              "word": "frozen",
+              "lemma": "freeze",
+              "pos": "a",
+              "meaning": "冰封的；结冰的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 70,
+              "word": "ponds",
+              "lemma": "pond",
+              "pos": "n",
+              "meaning": "池塘",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 73,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 78,
+              "word": "dogs",
+              "lemma": "dog",
+              "pos": "n",
+              "meaning": "狗",
+              "reviewVersion": 2
             },
             {
               "a": 79,
               "b": 86,
               "word": "carving",
               "lemma": "carve",
-              "meaning": "开出；形成（路径）",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "开辟；踩出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 93,
+              "word": "direct",
+              "lemma": "direct",
+              "pos": "a",
+              "meaning": "直达的；笔直的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 100,
+              "word": "routes",
+              "lemma": "route",
+              "pos": "n",
+              "meaning": "路线",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 103,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 111,
+              "word": "gardens",
+              "lemma": "garden",
+              "pos": "n",
+              "meaning": "花园",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 122,
+              "word": "highlight",
+              "lemma": "highlight",
+              "pos": "v",
+              "meaning": "凸显",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 126,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 139,
+              "word": "adaptability",
+              "lemma": "adaptability",
+              "pos": "n",
+              "meaning": "适应性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 142,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 148,
+              "word": "these",
+              "lemma": "these",
+              "pos": "art",
+              "meaning": "这些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 155,
+              "word": "trails",
+              "lemma": "trail",
+              "pos": "n",
+              "meaning": "小径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 158,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 159,
+              "b": 163,
+              "word": "both",
+              "lemma": "both",
+              "pos": "art",
+              "meaning": "两种都；二者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 169,
+              "word": "human",
+              "lemma": "human",
+              "pos": "a",
+              "meaning": "人类的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 170,
+              "b": 173,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 174,
+              "b": 180,
+              "word": "animal",
+              "lemma": "animal",
+              "pos": "n",
+              "meaning": "动物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 181,
+              "b": 192,
+              "word": "experiences",
+              "lemma": "experience",
+              "pos": "n",
+              "meaning": "生活经历；实际经验",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -1025,7 +4241,8 @@
               "b": 19,
               "lemma": "desire path",
               "meaning": "使用者自发踩出的便捷小径",
-              "word": "desire paths"
+              "word": "desire paths",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1034,7 +4251,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "forging/carving是动物开辟路线的动作，both指人类与动物两类经验。",
+            "sentenceSHA256": "f12321f6a5b6c5edf089fcb33c1c0ff59256912a0b6d5d11637af8d692043b85",
+            "words": 30,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2025-T4-P6-S2",
@@ -1072,36 +4297,274 @@
           "translation": "自发小径纵横交错于现实与虚拟空间，证明人们始终共同坚持开辟非传统的路线，并认同共同选择的精神。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "As",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "当……之时；随着（说明空间中的延展）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 9,
+              "word": "desire",
+              "lemma": "desire",
+              "pos": "n",
+              "meaning": "自发选择的倾向（desire paths指自发小径）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 15,
+              "word": "paths",
+              "lemma": "path",
+              "pos": "n",
+              "meaning": "小径",
+              "reviewVersion": 2
+            },
+            {
               "a": 16,
               "b": 27,
               "word": "criss-cross",
               "lemma": "criss-cross",
-              "meaning": "纵横交错",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "纵横交错地穿过",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 35,
+              "word": "through",
+              "lemma": "through",
+              "pos": "prep",
+              "meaning": "穿过；遍及",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 40,
+              "word": "both",
+              "lemma": "both",
+              "pos": "art",
+              "meaning": "两种都；二者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 49,
+              "word": "physical",
+              "lemma": "physical",
+              "pos": "a",
+              "meaning": "实体的；现实世界的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 53,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 61,
+              "word": "virtual",
+              "lemma": "virtual",
+              "pos": "a",
+              "meaning": "虚拟的；网络上的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 72,
+              "word": "landscapes",
+              "lemma": "landscape",
+              "pos": "n",
+              "meaning": "空间；景观",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 78,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 84,
+              "word": "stand",
+              "lemma": "stand",
+              "pos": "v",
+              "meaning": "作为；体现某种意义",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 87,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "作为；成为（衔接身份或性质）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 89,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 95,
+              "word": "proof",
+              "lemma": "proof",
+              "pos": "n",
+              "meaning": "证明；佐证",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 98,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 102,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 103,
               "b": 113,
               "word": "collective",
               "lemma": "collective",
-              "meaning": "群体共同形成的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "群体共同的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 124,
+              "word": "insistence",
+              "lemma": "insistence",
+              "pos": "n",
+              "meaning": "坚持",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 127,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "坚持的内容（insistence on）",
+              "reviewVersion": 2
             },
             {
               "a": 128,
               "b": 135,
               "word": "forging",
               "lemma": "forge",
-              "meaning": "开辟；形成（路线）",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "开辟；形成",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 150,
+              "word": "unconventional",
+              "lemma": "unconventional",
+              "pos": "a",
+              "meaning": "非传统的；不循常规的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 151,
+              "b": 157,
+              "word": "routes",
+              "lemma": "route",
+              "pos": "n",
+              "meaning": "路线",
+              "reviewVersion": 2
+            },
+            {
+              "a": 158,
+              "b": 161,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 162,
+              "b": 171,
+              "word": "embracing",
+              "lemma": "embrace",
+              "pos": "v",
+              "meaning": "认同；接受",
+              "reviewVersion": 2
+            },
+            {
+              "a": 172,
+              "b": 175,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 176,
+              "b": 182,
+              "word": "spirit",
+              "lemma": "spirit",
+              "pos": "n",
+              "meaning": "精神",
+              "reviewVersion": 2
+            },
+            {
+              "a": 183,
+              "b": 185,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接限定关系）",
+              "reviewVersion": 2
             },
             {
               "a": 186,
               "b": 194,
               "word": "communal",
               "lemma": "communal",
-              "meaning": "群体共有的；共同的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "共同的；群体共有的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 195,
+              "b": 201,
+              "word": "choice",
+              "lemma": "choice",
+              "pos": "n",
+              "meaning": "选择",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -1110,7 +4573,8 @@
               "b": 15,
               "lemma": "desire path",
               "meaning": "使用者自发踩出的便捷小径",
-              "word": "desire paths"
+              "word": "desire paths",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1119,9 +4583,30 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "criss-cross是纵横交错动词，on引出坚持内容，physical/virtual区分现实虚拟。",
+            "sentenceSHA256": "165bfb18de9694aa99a69300f349960c6ddc995809ec8b03aecf1387273f85cd",
+            "words": 30,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "7f8402f543ff982a108756e63294ad93a9c90ed820d662b10bd1001fe854a600",
+    "sentences": 15,
+    "wordOccurrences": 409,
+    "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

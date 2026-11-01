@@ -387,7 +387,8 @@
               "b": 20,
               "word": "bull run",
               "lemma": "bull run",
-              "meaning": "持续上涨的牛市行情"
+              "meaning": "持续上涨的牛市行情",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -402,7 +403,8 @@
             "note": "拍卖标题、地点及日期与主干区分；longest修饰牛市持续期，on两处义项不同。",
             "sentenceSHA256": "d547cd5a8ab52b94ea4658392b67510e8d01381d46be2283f081dc542b6794c1",
             "words": 34,
-            "phrases": 1
+            "phrases": 1,
+            "names": 0
           }
         },
         {
@@ -441,7 +443,8 @@
               "lemma": "all",
               "pos": "det",
               "meaning": "全部；所有",
-              "reviewVersion": 2
+              "reviewVersion": 2,
+              "explanation": "搭配结构：all but＝几乎；除……之外全都"
             },
             {
               "a": 4,
@@ -588,15 +591,7 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [
-            {
-              "a": 0,
-              "b": 11,
-              "lemma": "all but two",
-              "meaning": "除了两件以外全部",
-              "word": "All but two"
-            }
-          ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
@@ -609,7 +604,8 @@
             "note": "All but为除外而非转折；7000万英镑是成交额，record为纪录不是记录。",
             "sentenceSHA256": "b705a227d25c6e9f20177a6bea7a99fc8d8f2f25c5638b3f119fd16bed10db19",
             "words": 17,
-            "phrases": 1
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -675,15 +671,7 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [
-            {
-              "a": 9,
-              "b": 21,
-              "lemma": "last victory",
-              "meaning": "市场繁荣结束前的最后一次成功",
-              "word": "last victory"
-            }
-          ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
@@ -696,7 +684,8 @@
             "note": "last在此承接牛市终结，是最后一次成功而非上一次。",
             "sentenceSHA256": "9d37a72cebc6cdd6e939b3e5007581633a8e6dfc0d9148fd2c345a78d360b758",
             "words": 5,
-            "phrases": 1
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -775,8 +764,8 @@
               "b": 28,
               "word": "out",
               "lemma": "out",
-              "pos": "adv",
-              "meaning": "向外（按所处搭配理解）",
+              "pos": "part",
+              "meaning": "与called构成“大声报出（叫价）”",
               "reviewVersion": 2
             },
             {
@@ -937,16 +926,18 @@
             {
               "a": 18,
               "b": 28,
-              "lemma": "called out",
+              "lemma": "call out",
               "meaning": "大声报出",
-              "word": "called out"
+              "word": "called out",
+              "kind": "phrase"
             },
             {
               "a": 104,
               "b": 124,
-              "lemma": "filed for bankruptcy",
+              "lemma": "file for bankruptcy",
               "meaning": "申请破产",
-              "word": "filed for bankruptcy"
+              "word": "filed for bankruptcy",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -961,7 +952,8 @@
             "note": "As表示同时发生；file for为申请破产，非把破产归档。",
             "sentenceSHA256": "b0e642061c0309c428c1cf282279ff35004f789a36564d941a53ed4d44d05da8",
             "words": 22,
-            "phrases": 2
+            "phrases": 2,
+            "names": 0
           }
         }
       ]
@@ -1142,9 +1134,10 @@
             {
               "a": 38,
               "b": 53,
-              "lemma": "losing momentum",
+              "lemma": "lose momentum",
               "meaning": "增长势头减弱",
-              "word": "losing momentum"
+              "word": "losing momentum",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1159,7 +1152,8 @@
             "note": "过去完成进行时保留此前势头已减；for a while为一段时间。",
             "sentenceSHA256": "09c79eac741321a1cc8d9dc3615df159ecb59907260e88644a832ebaecb16c5f",
             "words": 16,
-            "phrases": 1
+            "phrases": 1,
+            "names": 0
           }
         },
         {
@@ -1442,7 +1436,8 @@
             "note": "some表示约数，double为两倍而非增长两倍；估算者身份准确。",
             "sentenceSHA256": "e8b1b882ccb33011d26ea95b4fac52e4c5a351046d52ffd6cdb83d12471251bb",
             "words": 25,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -1557,7 +1552,8 @@
             "note": "may have表示对已发生变化的推测；down to为降至并非降了。",
             "sentenceSHA256": "1534fd8ddd2aeb45060832d5e81bd375d1de39c4c3517094c7569800a6907d78",
             "words": 9,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -1870,7 +1866,8 @@
             "note": "interest为关注非利息；few other保留几乎没有，ego与方式修饰分别对应。",
             "sentenceSHA256": "4b09f386ac5b4d07c41d00959a0de7ec1ab71faf559734a13bf9199072d35524",
             "words": 29,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         }
       ]
@@ -2075,7 +2072,8 @@
             "note": "关系从句修饰周月；spending为各类消费，不限艺术品交易。",
             "sentenceSHA256": "2d7b819b1994134dfa21b57032d119fc7dadd8737e76fdbf3f6108253f2f1432",
             "words": 17,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -2232,7 +2230,8 @@
             "note": "代词that指前句消费风气；galleries与salerooms为市场场所。",
             "sentenceSHA256": "1f41880357742d92c43b53cb54b9a0adf0b5e72e6ad457d6a7618819d54bf067",
             "words": 13,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -2491,7 +2490,8 @@
             "note": "下降三分之二与近90%的板块、统计期分别对应，by均表示降幅。",
             "sentenceSHA256": "fbc570dd7c62f328bfee979ac03965a6c51ed6891c004122079be4703c386dbd",
             "words": 23,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -2666,8 +2666,8 @@
               "b": 93,
               "word": "out",
               "lemma": "out",
-              "pos": "adv",
-              "meaning": "向外（按所处搭配理解）",
+              "pos": "part",
+              "meaning": "与pay构成“支付（款项）”",
               "reviewVersion": 2
             },
             {
@@ -2792,16 +2792,18 @@
             {
               "a": 37,
               "b": 51,
-              "lemma": "auction houses",
+              "lemma": "auction house",
               "meaning": "拍卖行",
-              "word": "auction houses"
+              "word": "auction houses",
+              "kind": "phrase"
             },
             {
               "a": 86,
               "b": 93,
               "lemma": "pay out",
               "meaning": "支付；赔付",
-              "word": "pay out"
+              "word": "pay out",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -2816,7 +2818,8 @@
             "note": "第一个had to为不得不，第二had为完成时；保证款收款人为委托客户。",
             "sentenceSHA256": "23c8f2512fe71301c6e1ec88efd07d736a7d60acc8e1f55a9db22b44121a0af5",
             "words": 28,
-            "phrases": 2
+            "phrases": 2,
+            "names": 0
           }
         }
       ]
@@ -3042,7 +3045,8 @@
             "note": "印象派画作、1989年底及最严重低迷的比较范围均保留。",
             "sentenceSHA256": "abe61c417ab6cbb118a755121641adafd6a250d87f17865feeca0b9055a6657b",
             "words": 20,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -3277,7 +3281,8 @@
             "note": "40%为较峰值的平均降幅；some指部分作品价格，比较基准并非时间。",
             "sentenceSHA256": "fd9386a4b4779f15cee47a075f908454440ddf053b70f7d4ab9793da46c59272",
             "words": 21,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -3448,7 +3453,8 @@
               "b": 94,
               "lemma": "at the bottom",
               "meaning": "处于市场谷底",
-              "word": "at the bottom"
+              "word": "at the bottom",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -3463,7 +3469,8 @@
             "note": "市场谷底为bottom的比喻，pretty为相当而非漂亮，we借指所处市场。",
             "sentenceSHA256": "2373445bf29aa7555afa426d75c377fc99972949dabc86c1538ab621dfbc21e5",
             "words": 14,
-            "phrases": 1
+            "phrases": 1,
+            "names": 0
           }
         }
       ]
@@ -3552,7 +3559,7 @@
               "word": "from",
               "lemma": "from",
               "pos": "prep",
-              "meaning": "与……相比（different from搭配）",
+              "meaning": "从；来自",
               "reviewVersion": 2
             },
             {
@@ -3570,7 +3577,7 @@
               "word": "last",
               "lemma": "last",
               "pos": "a",
-              "meaning": "上一次的（指上一次市场萧条）",
+              "meaning": "最后一次的",
               "reviewVersion": 2
             },
             {
@@ -3686,7 +3693,8 @@
             "note": "what主语从句与that表语从句区分；there are为仍有买家。",
             "sentenceSHA256": "e409c4d4d55de737c7cbeae95fdc3d04b7c70dc8966fded10540c1eff8f55ff0",
             "words": 19,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -4023,7 +4031,8 @@
             "note": "几乎所有受访者的共识不等于已证事实；缺供给而非缺需求的否定对照保留。",
             "sentenceSHA256": "568a3ff25b87365de0279384ae76b2df64d497337156288f6ae9d9eafa57df33",
             "words": 31,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -4204,7 +4213,8 @@
             "note": "三个D为列举的共同首字母；deliver为使作品入市，不是交付邮件。",
             "sentenceSHA256": "91dbd4247e01207b631168b58f6e819122d4f52b10dd8fe14ba2013f6b191bc9",
             "words": 15,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -4391,9 +4401,10 @@
             {
               "a": 40,
               "b": 52,
-              "lemma": "keeping away",
+              "lemma": "keep away",
               "meaning": "暂不入市；保持观望",
-              "word": "keeping away"
+              "word": "keeping away",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -4408,7 +4419,8 @@
             "note": "not have to为不必，非不准；卖家暂时观望并等待市场信心恢复。",
             "sentenceSHA256": "793230f2f3bdb7105f15d8e39f4bb9309abae8057ab52d90b1a59b1381a7b134",
             "words": 16,
-            "phrases": 1
+            "phrases": 1,
+            "names": 0
           }
         }
       ]
@@ -4421,5 +4433,10 @@
     "sentences": 19,
     "wordOccurrences": 374,
     "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
   }
 }

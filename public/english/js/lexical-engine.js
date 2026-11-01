@@ -116,11 +116,11 @@
         const token = locate(word, record, input.token, input.start, input.end);
         const reading = window.EnglishReading;
         const fixed = reading && reading.scope(record) ? reading.lookup(record, token.a, token.b, kind) : correction(word, record, token, kind);
-        let lemma = kind === 'phrase' ? phraseLemma(fixed && fixed.lemma || word) : lemmaFor(word, token, fixed);
+        let lemma = kind === 'name' ? fixed && fixed.lemma || word : kind === 'phrase' ? fixed && fixed.lemma || phraseLemma(word) : lemmaFor(word, token, fixed);
         const correctedToken = { ...token, l: lemma, p: fixed && fixed.pos || token.p };
         const base = entry(lemma);
         const phraseDefinition = data.phrases[lemma] || '';
-        const common = base && base.common.length ? base.common : kind === 'phrase' ? phraseDefinition.split('；').filter(Boolean).map(m => ({ p: 'phrase', m })) : [];
+        const common = kind === 'name' ? [] : base && base.common.length ? base.common : kind === 'phrase' ? phraseDefinition.split('；').filter(Boolean).map(m => ({ p: 'phrase', m })) : [];
         const result = { word, lemma, kind, token: correctedToken, common, ph: base && base.ph || '', meaning: '', quality: 'missing', explanation: '' };
         if (fixed) return { ...result, meaning: fixed.meaning, quality: fixed.quality === 'manual' ? 'manual' : 'reviewed', explanation: fixed.explanation || '' };
         const abbreviation = word.replace(/\./g, '').replace(/['’]s$/, '');
@@ -144,7 +144,7 @@
         return result;
     }
     function phrases(record) {
-        if (window.EnglishReading && window.EnglishReading.scope(record)) return window.EnglishReading.phrases(record).map(item => ({ a: item.a, b: item.b, key: phraseLemma(item.lemma || item.word), meaning: item.meaning, reviewed: true }));
+        if (window.EnglishReading && window.EnglishReading.scope(record)) return window.EnglishReading.phrases(record).map(item => ({ a: item.a, b: item.b, key: item.lemma || item.word, kind: item.kind || 'phrase', meaning: item.meaning, reviewed: true }));
         const sentence = reviewedSentence(record);
         return sentence ? sentence.phrases.map(item => ({ a: item.a, b: item.b, key: phraseLemma(item.lemma || sentence.en.slice(item.a, item.b)), meaning: item.meaning, reviewed: true })) : [];
     }
@@ -155,7 +155,7 @@
         return { ph: base.ph, s: base.common.map(item => ({ p: item.p, t: item.m })) };
     }
     function writtenWords(en) {
-        const matches = Array.from(String(en || '').matchAll(/(?<![A-Za-z0-9'’])(?:\d+(?:st|nd|rd|th)(?:[-‐‑][A-Za-z]+)+|(?:[A-Za-z]\.){2,}|[A-Za-z][A-Za-z0-9]*(?:['’][A-Za-z]+)*(?:["”]?[-‐‑][A-Za-z0-9]+(?:['’][A-Za-z]+)*)*)/g));
+        const matches = Array.from(String(en || '').matchAll(/(?<![A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ0-9])(?:\d+(?:st|nd|rd|th)?(?:[-‐‑][A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ]+)+|(?:[A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ]\.){2,}|[A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ][A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ0-9]*(?:['’][A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ]+)*(?:["”]?[-‐‑][A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ0-9]+(?:['’][A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ]+)*)*)/g));
         const runOns = new Set(["part-there's", 'script-literally', 'figuratively-means', "anyway-aren't", 'catch-up-with-household']);
         return matches.flatMap(match => {
             if (!runOns.has(key(match[0]))) return [{ a: match.index, b: match.index + match[0].length, key: match[0], kind: 'word' }];

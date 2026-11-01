@@ -1,12 +1,14 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "articles": 68,
   "sentences": 1282,
   "reviewedSentences": 1282,
   "verifiedArticles": 68,
-  "chunks": 4273,
-  "wordOccurrences": 2298,
-  "phraseOccurrences": 745,
+  "chunks": 4272,
+  "wordOccurrences": 26887,
+  "phraseOccurrences": 864,
+  "nameOccurrences": 31,
+  "fullAuditArticles": 68,
   "sourceAudit": "reading-source-audit.md",
-  "note": "所有阅读句子均已整理；词义条目仅覆盖定位记录，其他位置明确使用词典参考。2026来源为公开整理卷。"
+  "note": "全部68篇已重新逐句核对三项精翻，26,887个书写词位置分别保存本文义、原形、词性及范围；词组依据用户清单标准重新筛选，名称分列、可变宾语不整段黏连。2026依据非官方公开整理卷，保留来源异常说明；程序验证完整性与位置，不能保证语义永无遗漏。"
 }

@@ -57,11 +57,229 @@
           "translation": "为了追求完美草坪，全国各地的房主正在抄近路，而为此付出代价的却是环境。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中；在所述范围",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 6,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 7,
               "b": 12,
               "word": "quest",
               "lemma": "quest",
-              "meaning": "追求；寻求"
+              "pos": "n",
+              "meaning": "追求",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 16,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "所追求或呼吁的对象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 20,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 28,
+              "word": "perfect",
+              "lemma": "perfect",
+              "pos": "a",
+              "meaning": "完美的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "lawn",
+              "lemma": "lawn",
+              "pos": "n",
+              "meaning": "草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 45,
+              "word": "homeowners",
+              "lemma": "homeowner",
+              "pos": "n",
+              "meaning": "房主",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 52,
+              "word": "across",
+              "lemma": "across",
+              "pos": "prep",
+              "meaning": "遍及",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 56,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 64,
+              "word": "country",
+              "lemma": "country",
+              "pos": "n",
+              "meaning": "全国；本国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 68,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成现在进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 75,
+              "word": "taking",
+              "lemma": "take",
+              "pos": "v",
+              "meaning": "采取（take a shortcut指走捷径）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 77,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 86,
+              "word": "shortcut",
+              "lemma": "shortcut",
+              "pos": "n",
+              "meaning": "捷径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 93,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 96,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "强调句形式词，不指具体事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 99,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 103,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 115,
+              "word": "environment",
+              "lemma": "environment",
+              "pos": "n",
+              "meaning": "环境",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 120,
+              "word": "that",
+              "lemma": "that",
+              "pos": "part",
+              "meaning": "强调句连接词，强调环境承担代价",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 123,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成进行时（is paying）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 130,
+              "word": "paying",
+              "lemma": "pay",
+              "pos": "v",
+              "meaning": "付出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 134,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 140,
+              "word": "price",
+              "lemma": "price",
+              "pos": "n",
+              "meaning": "代价",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -70,7 +288,16 @@
               "b": 86,
               "word": "taking a shortcut",
               "lemma": "take a shortcut",
-              "meaning": "走捷径；抄近路"
+              "meaning": "走捷径；抄近路",
+              "kind": "phrase"
+            },
+            {
+              "a": 124,
+              "b": 140,
+              "word": "paying the price",
+              "lemma": "pay the price",
+              "meaning": "为此付出代价",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -79,7 +306,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "it is…that为强调环境付代价，price为代价而非草坪售价，shortcut指走捷径。",
+            "sentenceSHA256": "ef22fc52ce06fc604037c2c7e904dadf48e7ddb3e95de99de280e52c1eac4dbe",
+            "words": 25,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2023-T1-P1-S2",
@@ -111,11 +346,202 @@
           "translation": "每年约有800万平方米的塑料草坪售出，但反对声音如今已传到园艺界最高层。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "About",
+              "lemma": "about",
+              "pos": "adv",
+              "meaning": "大约",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 11,
+              "word": "eight",
+              "lemma": "eight",
+              "pos": "num",
+              "meaning": "八",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 19,
+              "word": "million",
+              "lemma": "million",
+              "pos": "num",
+              "meaning": "百万",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 26,
+              "word": "square",
+              "lemma": "square",
+              "pos": "a",
+              "meaning": "平方的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 33,
+              "word": "metres",
+              "lemma": "metre",
+              "pos": "n",
+              "meaning": "米",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 36,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、内容或关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 44,
+              "word": "plastic",
+              "lemma": "plastic",
+              "pos": "n",
+              "meaning": "塑料",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 50,
+              "word": "grass",
+              "lemma": "grass",
+              "pos": "n",
+              "meaning": "草；草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 53,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成被动语态（is sold）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 58,
+              "word": "sold",
+              "lemma": "sell",
+              "pos": "v",
+              "meaning": "出售",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 63,
+              "word": "each",
+              "lemma": "each",
+              "pos": "a",
+              "meaning": "每一",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 68,
+              "word": "year",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 72,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 83,
+              "word": "opposition",
+              "lemma": "opposition",
+              "pos": "n",
+              "meaning": "反对声音",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 87,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 91,
+              "word": "now",
+              "lemma": "now",
+              "pos": "adv",
+              "meaning": "现在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 98,
+              "word": "spread",
+              "lemma": "spread",
+              "pos": "v",
+              "meaning": "扩展；传播",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 101,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "传播到的范围",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 105,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 113,
+              "word": "highest",
+              "lemma": "high",
+              "pos": "a",
+              "meaning": "最高层的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 123,
+              "word": "gardening",
+              "lemma": "gardening",
+              "pos": "n",
+              "meaning": "园艺",
+              "reviewVersion": 2
+            },
+            {
               "a": 124,
               "b": 131,
               "word": "circles",
               "lemma": "circle",
-              "meaning": "界；圈子"
+              "pos": "n",
+              "meaning": "界；圈子",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -125,7 +551,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "800万平方米为年售量，circles为园艺界人士，spread to为反对传播范围。",
+            "sentenceSHA256": "d182df0ab54ccc5663406a59de248792c664a2c7f94ed61be18602ea8962d45c",
+            "words": 22,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2023-T1-P1-S3",
@@ -157,29 +591,211 @@
           "translation": "切尔西花展已禁止在今年的展览中使用人造草坪，称其不符合花展的理念。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 11,
+              "word": "Chelsea",
+              "lemma": "Chelsea",
+              "pos": "name",
+              "meaning": "切尔西",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 18,
+              "word": "Flower",
+              "lemma": "Flower",
+              "pos": "n",
+              "meaning": "花（Chelsea Flower Show展览名部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 23,
+              "word": "Show",
+              "lemma": "Show",
+              "pos": "n",
+              "meaning": "展览",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 27,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 34,
+              "word": "banned",
+              "lemma": "ban",
+              "pos": "v",
+              "meaning": "禁止",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 39,
+              "word": "fake",
+              "lemma": "fake",
+              "pos": "a",
+              "meaning": "人造的；仿制的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 45,
+              "word": "grass",
+              "lemma": "grass",
+              "pos": "n",
+              "meaning": "草；草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 50,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "不准进入所说范围（ban from）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 55,
+              "word": "this",
+              "lemma": "this",
+              "pos": "a",
+              "meaning": "这个；本次",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 62,
+              "word": "year's",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "该年的（this year's指今年的）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 68,
+              "word": "event",
+              "lemma": "event",
+              "pos": "n",
+              "meaning": "展览活动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 79,
+              "word": "declaring",
+              "lemma": "declare",
+              "pos": "v",
+              "meaning": "声明",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 82,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "人造草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 85,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 88,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；属于某种状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 92,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 97,
+              "word": "part",
+              "lemma": "part",
+              "pos": "n",
+              "meaning": "一部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 100,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、内容或关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 104,
+              "word": "its",
+              "lemma": "its",
+              "pos": "pron",
+              "meaning": "前述机构或事物的",
+              "reviewVersion": 2
+            },
+            {
               "a": 105,
               "b": 110,
               "word": "ethos",
               "lemma": "ethos",
-              "meaning": "理念；价值观"
+              "pos": "n",
+              "meaning": "理念；价值观",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [
-            {
-              "a": 35,
-              "b": 45,
-              "word": "fake grass",
-              "lemma": "fake grass",
-              "meaning": "人造草坪"
-            }
-          ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "it为人造草坪，ethos为花展理念，ban from不准在今年展览使用。",
+            "sentenceSHA256": "b18f201ee46d82dcee469c5a7669bd2b345515a7a91a7325362c9ca35ccdd984",
+            "words": 21,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2023-T1-P1-S4",
@@ -223,36 +839,318 @@
           "translation": "每年在伦敦西部主办这一花展的英国皇家园艺学会表示，出台禁令是因为塑料草坪会损害环境和生物多样性。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 9,
+              "word": "Royal",
+              "lemma": "Royal",
+              "pos": "a",
+              "meaning": "皇家的",
+              "reviewVersion": 2
+            },
+            {
               "a": 10,
               "b": 23,
               "word": "Horticultural",
               "lemma": "horticultural",
+              "pos": "a",
               "meaning": "园艺的",
-              "pos": "n"
+              "reviewVersion": 2
             },
             {
-              "a": 177,
-              "b": 189,
-              "word": "biodiversity",
-              "lemma": "biodiversity",
-              "meaning": "生物多样性"
+              "a": 24,
+              "b": 31,
+              "word": "Society",
+              "lemma": "Society",
+              "pos": "n",
+              "meaning": "学会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 36,
+              "word": "RHS",
+              "lemma": "RHS",
+              "pos": "name",
+              "meaning": "英国皇家园艺学会（简称）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 44,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "关系代词，指前述事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 49,
+              "word": "runs",
+              "lemma": "run",
+              "pos": "v",
+              "meaning": "主办；经营",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 53,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 60,
+              "word": "annual",
+              "lemma": "annual",
+              "pos": "a",
+              "meaning": "每年举办的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 65,
+              "word": "show",
+              "lemma": "Show",
+              "pos": "n",
+              "meaning": "展览",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 68,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中；在所述范围",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 73,
+              "word": "west",
+              "lemma": "west",
+              "pos": "n",
+              "meaning": "西部",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 80,
+              "word": "London",
+              "lemma": "London",
+              "pos": "name",
+              "meaning": "伦敦",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 86,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；表示",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 89,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "英国皇家园艺学会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 93,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 104,
+              "word": "introduced",
+              "lemma": "introduce",
+              "pos": "v",
+              "meaning": "出台",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 108,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 109,
               "b": 112,
               "word": "ban",
               "lemma": "ban",
-              "meaning": "禁令"
+              "pos": "n",
+              "meaning": "禁令",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 120,
+              "word": "because",
+              "lemma": "because",
+              "pos": "conj",
+              "meaning": "因为（because of搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 123,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "与because构成因为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 127,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 134,
+              "word": "damage",
+              "lemma": "damage",
+              "pos": "n",
+              "meaning": "损害",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 142,
+              "word": "plastic",
+              "lemma": "plastic",
+              "pos": "n",
+              "meaning": "塑料",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 148,
+              "word": "grass",
+              "lemma": "grass",
+              "pos": "n",
+              "meaning": "草；草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 153,
+              "word": "does",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "造成（损害）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 154,
+              "b": 156,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "造成损害的对象（do damage to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 157,
+              "b": 160,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 172,
+              "word": "environment",
+              "lemma": "environment",
+              "pos": "n",
+              "meaning": "环境",
+              "reviewVersion": 2
+            },
+            {
+              "a": 173,
+              "b": 176,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 177,
+              "b": 189,
+              "word": "biodiversity",
+              "lemma": "biodiversity",
+              "pos": "n",
+              "meaning": "生物多样性",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 31,
+              "word": "The Royal Horticultural Society",
+              "lemma": "Royal Horticultural Society",
+              "meaning": "英国皇家园艺学会",
+              "kind": "name"
+            },
+            {
+              "a": 113,
+              "b": 123,
+              "word": "because of",
+              "lemma": "because of",
+              "meaning": "由于；因为",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "horticultural为园艺形容词，do damage to为损害，which指主办花展的学会。",
+            "sentenceSHA256": "00581582987b4047559b2adaf500f7c3b1c8b08625823b03f0bdd2cb73906a75",
+            "words": 31,
+            "phrases": 1,
+            "names": 1
+          }
         }
       ]
     },
@@ -294,14 +1192,268 @@
           ],
           "reorder": "引语两项按顺序译；not in line with 整体译为“不符合”。",
           "translation": "皇家园艺学会的埃德·霍恩说：“我们去年启动了可持续发展战略，而人造草坪完全不符合我们的理念及对塑料的看法。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "Ed",
+              "lemma": "Ed",
+              "pos": "name",
+              "meaning": "埃德",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 8,
+              "word": "Horne",
+              "lemma": "Horne",
+              "pos": "name",
+              "meaning": "霍恩",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 11,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、内容或关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 15,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 19,
+              "word": "RHS",
+              "lemma": "RHS",
+              "pos": "name",
+              "meaning": "英国皇家园艺学会（简称）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 24,
+              "word": "said",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 29,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 38,
+              "word": "launched",
+              "lemma": "launch",
+              "pos": "v",
+              "meaning": "启动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 42,
+              "word": "our",
+              "lemma": "our",
+              "pos": "pron",
+              "meaning": "我们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 57,
+              "word": "sustainability",
+              "lemma": "sustainability",
+              "pos": "n",
+              "meaning": "可持续发展",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 66,
+              "word": "strategy",
+              "lemma": "strategy",
+              "pos": "n",
+              "meaning": "战略",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 71,
+              "word": "last",
+              "lemma": "last",
+              "pos": "a",
+              "meaning": "上一个的（last year为去年）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 76,
+              "word": "year",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 80,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 85,
+              "word": "fake",
+              "lemma": "fake",
+              "pos": "a",
+              "meaning": "人造的；仿制的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 91,
+              "word": "grass",
+              "lemma": "grass",
+              "pos": "n",
+              "meaning": "草；草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 94,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 99,
+              "word": "just",
+              "lemma": "just",
+              "pos": "adv",
+              "meaning": "完全（强调不符合）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 103,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 106,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中；在所述范围",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 111,
+              "word": "line",
+              "lemma": "line",
+              "pos": "n",
+              "meaning": "与in、with搭配表示一致",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 116,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "与（相符的对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 120,
+              "word": "our",
+              "lemma": "our",
+              "pos": "pron",
+              "meaning": "我们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 126,
+              "word": "ethos",
+              "lemma": "ethos",
+              "pos": "n",
+              "meaning": "理念；价值观",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 130,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 136,
+              "word": "views",
+              "lemma": "view",
+              "pos": "n",
+              "meaning": "看法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 139,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "关于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 147,
+              "word": "plastic",
+              "lemma": "plastic",
+              "pos": "n",
+              "meaning": "塑料",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 104,
               "b": 116,
               "word": "in line with",
               "lemma": "in line with",
-              "meaning": "符合；与……一致"
+              "meaning": "符合；与……一致",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -310,7 +1462,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "in line with为符合理念，on plastic为对塑料看法，just not强化不符合。",
+            "sentenceSHA256": "ed24b5f7bf6fc75eefc909a9ecce15ee693b79ae50c63a4ab0f57d4a22f2e2ad",
+            "words": 28,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2023-T1-P2-S2",
@@ -342,28 +1502,211 @@
           "translation": "我们建议使用真草，因为它有益于环境，能够支持野生生物生存、缓解洪涝，并降低环境温度。”",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 12,
+              "word": "recommend",
+              "lemma": "recommend",
+              "pos": "v",
+              "meaning": "建议",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 18,
+              "word": "using",
+              "lemma": "use",
+              "pos": "v",
+              "meaning": "使用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 23,
+              "word": "real",
+              "lemma": "real",
+              "pos": "a",
+              "meaning": "真实的；天然的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 29,
+              "word": "grass",
+              "lemma": "grass",
+              "pos": "n",
+              "meaning": "草；草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 37,
+              "word": "because",
+              "lemma": "because",
+              "pos": "conj",
+              "meaning": "因为（because of搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 40,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "与because构成因为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 44,
+              "word": "its",
+              "lemma": "its",
+              "pos": "pron",
+              "meaning": "真草的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 58,
+              "word": "environmental",
+              "lemma": "environmental",
+              "pos": "a",
+              "meaning": "环境方面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 67,
+              "word": "benefits",
+              "lemma": "benefit",
+              "pos": "n",
+              "meaning": "益处",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 74,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "前述环境益处",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 82,
+              "word": "include",
+              "lemma": "include",
+              "pos": "v",
+              "meaning": "包括",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 93,
+              "word": "supporting",
+              "lemma": "support",
+              "pos": "v",
+              "meaning": "支持生存",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 102,
+              "word": "wildlife",
+              "lemma": "wildlife",
+              "pos": "n",
+              "meaning": "野生生物",
+              "reviewVersion": 2
+            },
+            {
               "a": 104,
               "b": 115,
               "word": "alleviating",
               "lemma": "alleviate",
-              "meaning": "减轻；缓解"
+              "pos": "v",
+              "meaning": "缓解",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 124,
+              "word": "flooding",
+              "lemma": "flood",
+              "pos": "n",
+              "meaning": "洪涝",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 128,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 129,
               "b": 136,
               "word": "cooling",
               "lemma": "cool",
-              "meaning": "使降温"
+              "pos": "v",
+              "meaning": "使降温",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 140,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 152,
+              "word": "environment",
+              "lemma": "environment",
+              "pos": "n",
+              "meaning": "环境",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 30,
+              "b": 40,
+              "word": "because of",
+              "lemma": "because of",
+              "meaning": "由于；因为",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "which指环境益处，支持野生生物缓解洪涝降温三项并列。",
+            "sentenceSHA256": "f2283f00ad49e8f8250f44c2fc605e0de9b0d5cd367da17308777a1f3e2ad124",
+            "words": 20,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -407,11 +1750,148 @@
           "translation": "皇家园艺学会作出这一决定之际，环保倡议者正努力让公众认识人造草坪造成的问题。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 9,
+              "word": "RHS's",
+              "lemma": "RHS",
+              "pos": "name",
+              "meaning": "皇家园艺学会的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 18,
+              "word": "decision",
+              "lemma": "decision",
+              "pos": "n",
+              "meaning": "决定",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 24,
+              "word": "comes",
+              "lemma": "come",
+              "pos": "v",
+              "meaning": "发生；作出（决定）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 27,
+              "word": "as",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "正当；在……之际",
+              "reviewVersion": 2
+            },
+            {
               "a": 28,
               "b": 39,
               "word": "campaigners",
               "lemma": "campaigner",
-              "meaning": "倡议者；社会运动参与者"
+              "pos": "n",
+              "meaning": "环保倡议者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 43,
+              "word": "try",
+              "lemma": "try",
+              "pos": "v",
+              "meaning": "努力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 46,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 52,
+              "word": "raise",
+              "lemma": "raise",
+              "pos": "v",
+              "meaning": "提高",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 62,
+              "word": "awareness",
+              "lemma": "awareness",
+              "pos": "n",
+              "meaning": "认识；意识",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 65,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、内容或关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 69,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 78,
+              "word": "problems",
+              "lemma": "problem",
+              "pos": "n",
+              "meaning": "问题",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 83,
+              "word": "fake",
+              "lemma": "fake",
+              "pos": "a",
+              "meaning": "人造的；仿制的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 89,
+              "word": "grass",
+              "lemma": "grass",
+              "pos": "n",
+              "meaning": "草；草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 96,
+              "word": "causes",
+              "lemma": "cause",
+              "pos": "v",
+              "meaning": "造成",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -421,7 +1901,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "as为决定作出之际的同步背景，campaigners为倡议者，raise awareness为提高认识。",
+            "sentenceSHA256": "2f4793e466c2d007606f527b8d1b855066462596710ae99f34a8ab874aef3d3e",
+            "words": 16,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2023-T1-P3-S2",
@@ -453,35 +1941,176 @@
           "translation": "一个自称要“揭穿人造草坪漂绿宣传”的推特账号，已拥有两万多名关注者。",
           "words": [
             {
+              "a": 0,
+              "b": 1,
+              "word": "A",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 2,
+              "b": 9,
+              "word": "Twitter",
+              "lemma": "Twitter",
+              "pos": "name",
+              "meaning": "推特（平台名称）",
+              "reviewVersion": 2
+            },
+            {
               "a": 10,
               "b": 17,
               "word": "account",
               "lemma": "account",
+              "pos": "n",
               "meaning": "社交媒体账号",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 24,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "关系代词，指前述事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 31,
+              "word": "claims",
+              "lemma": "claim",
+              "pos": "v",
+              "meaning": "声称",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 34,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 39,
+              "word": "cut",
+              "lemma": "cut",
+              "pos": "v",
+              "meaning": "穿透；揭开（cut through）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 47,
+              "word": "through",
+              "lemma": "through",
+              "pos": "prep",
+              "meaning": "穿透的对象（cut through）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 51,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 52,
               "b": 61,
               "word": "greenwash",
               "lemma": "greenwash",
-              "meaning": "漂绿；虚假或夸大的环保宣传"
+              "pos": "n",
+              "meaning": "漂绿；虚假或夸大的环保宣传",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 65,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、内容或关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 76,
+              "word": "artificial",
+              "lemma": "artificial",
+              "pos": "a",
+              "meaning": "人造的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 82,
+              "word": "grass",
+              "lemma": "grass",
+              "pos": "n",
+              "meaning": "草；草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 91,
+              "word": "already",
+              "lemma": "already",
+              "pos": "adv",
+              "meaning": "已经",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 95,
+              "word": "has",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "拥有（关注者）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 100,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "超过（两万）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 105,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "超过（more than）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 122,
+              "word": "followers",
+              "lemma": "follower",
+              "pos": "n",
+              "meaning": "关注者",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 36,
-              "b": 61,
-              "lemma": "cut through the greenwash",
-              "meaning": "揭开环保宣传包装",
-              "word": "cut through the greenwash"
-            },
-            {
-              "a": 36,
               "b": 47,
               "word": "cut through",
               "lemma": "cut through",
-              "meaning": "穿透表象；揭穿"
+              "meaning": "穿透表象；揭穿",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -490,7 +2119,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "account为社交账号，greenwash为漂绿宣传，has为拥有关注者非完成时。",
+            "sentenceSHA256": "349185f398e57ca2014b33d2f724c30c8bbfc371c506e99d4caef83164a57e58",
+            "words": 18,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2023-T1-P3-S3",
@@ -528,11 +2165,292 @@
           "translation": "这个账号正鼓励人们签署两份请愿书，一份呼吁禁止销售塑料草坪，另一份呼吁对此类草坪征收“生态损害”税。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "那个推特账号",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 5,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成现在进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 12,
+              "word": "trying",
+              "lemma": "try",
+              "pos": "v",
+              "meaning": "努力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 15,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 25,
+              "word": "encourage",
+              "lemma": "encourage",
+              "pos": "v",
+              "meaning": "鼓励",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 32,
+              "word": "people",
+              "lemma": "people",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 35,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 40,
+              "word": "sign",
+              "lemma": "sign",
+              "pos": "v",
+              "meaning": "签署",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 44,
+              "word": "two",
+              "lemma": "two",
+              "pos": "num",
+              "meaning": "两",
+              "reviewVersion": 2
+            },
+            {
               "a": 45,
               "b": 54,
               "word": "petitions",
               "lemma": "petition",
-              "meaning": "请愿书"
+              "pos": "n",
+              "meaning": "请愿书",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 59,
+              "word": "one",
+              "lemma": "one",
+              "pos": "pron",
+              "meaning": "一份（请愿书）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 67,
+              "word": "calling",
+              "lemma": "call",
+              "pos": "v",
+              "meaning": "呼吁（call for）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 71,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "所追求或呼吁的对象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 73,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 77,
+              "word": "ban",
+              "lemma": "ban",
+              "pos": "n",
+              "meaning": "禁令",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 80,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "针对销售或草坪征税的对象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 84,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 89,
+              "word": "sale",
+              "lemma": "sale",
+              "pos": "n",
+              "meaning": "销售",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 92,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、内容或关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 100,
+              "word": "plastic",
+              "lemma": "plastic",
+              "pos": "n",
+              "meaning": "塑料",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 106,
+              "word": "grass",
+              "lemma": "grass",
+              "pos": "n",
+              "meaning": "草；草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 110,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 118,
+              "word": "another",
+              "lemma": "another",
+              "pos": "pron",
+              "meaning": "另一份（请愿书）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 126,
+              "word": "calling",
+              "lemma": "call",
+              "pos": "v",
+              "meaning": "呼吁（call for）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 130,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "所追求或呼吁的对象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 133,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 145,
+              "word": "ecological",
+              "lemma": "ecological",
+              "pos": "a",
+              "meaning": "生态方面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 152,
+              "word": "damage",
+              "lemma": "damage",
+              "pos": "n",
+              "meaning": "损害",
+              "reviewVersion": 2
+            },
+            {
+              "a": 154,
+              "b": 157,
+              "word": "tax",
+              "lemma": "tax",
+              "pos": "n",
+              "meaning": "税",
+              "reviewVersion": 2
+            },
+            {
+              "a": 158,
+              "b": 160,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "针对销售或草坪征税的对象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 165,
+              "word": "such",
+              "lemma": "such",
+              "pos": "a",
+              "meaning": "这样的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 166,
+              "b": 171,
+              "word": "lawns",
+              "lemma": "lawn",
+              "pos": "n",
+              "meaning": "草坪",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -541,14 +2459,16 @@
               "b": 71,
               "word": "calling for",
               "lemma": "call for",
-              "meaning": "呼吁；要求"
+              "meaning": "呼吁；要求",
+              "kind": "phrase"
             },
             {
               "a": 119,
               "b": 130,
               "word": "calling for",
               "lemma": "call for",
-              "meaning": "呼吁；要求"
+              "meaning": "呼吁；要求",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -557,7 +2477,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "it为账号，sign为签署，两份请愿分别禁售与征生态损害税。",
+            "sentenceSHA256": "e233807290361a85ba76482506b26aa7da6b0eaea6a7d830042835b462c36f89",
+            "words": 32,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2023-T1-P3-S4",
@@ -583,12 +2511,49 @@
           "translation": "这两份请愿书分别征集到7276和11282个签名。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "They",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "这两份请愿书",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 9,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 18,
+              "word": "gathered",
+              "lemma": "gather",
+              "pos": "v",
+              "meaning": "征集到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 28,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
               "a": 36,
               "b": 46,
               "word": "signatures",
               "lemma": "signature",
+              "pos": "n",
               "meaning": "签名",
-              "pos": "n"
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -598,7 +2563,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "they指两份请愿书，两个签名数按前述一份与另一份顺序对应。",
+            "sentenceSHA256": "7bf768793f59f218eea933e7a406c39b904997afa3b95b5097712d04a7374552",
+            "words": 5,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -642,21 +2615,274 @@
           "translation": "然而，人造草坪的支持者指出，天然草坪同样会影响环境，因为它们需要修剪，通常会因此消耗电力或汽油。",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "However",
+              "lemma": "however",
+              "pos": "adv",
+              "meaning": "然而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 19,
+              "word": "supporters",
+              "lemma": "supporter",
+              "pos": "n",
+              "meaning": "支持者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 22,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、内容或关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 27,
+              "word": "fake",
+              "lemma": "fake",
+              "pos": "a",
+              "meaning": "人造的；仿制的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 33,
+              "word": "grass",
+              "lemma": "grass",
+              "pos": "n",
+              "meaning": "草；草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 39,
+              "word": "point",
+              "lemma": "point",
+              "pos": "v",
+              "meaning": "指出（point out）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 43,
+              "word": "out",
+              "lemma": "out",
+              "pos": "adv",
+              "meaning": "指出（point out的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 48,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "从句连接词，引出支持者观点",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 54,
+              "word": "there",
+              "lemma": "there",
+              "pos": "pron",
+              "meaning": "存在句形式词，表示有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 57,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "有；存在（there is）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 62,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "也；还",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 65,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 79,
+              "word": "environmental",
+              "lemma": "environmental",
+              "pos": "a",
+              "meaning": "环境方面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 86,
+              "word": "impact",
+              "lemma": "impact",
+              "pos": "n",
+              "meaning": "影响",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 91,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "伴随天然草坪而来的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 99,
+              "word": "natural",
+              "lemma": "natural",
+              "pos": "a",
+              "meaning": "天然的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 105,
+              "word": "lawns",
+              "lemma": "lawn",
+              "pos": "n",
+              "meaning": "草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 112,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "关系代词，指前述事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 117,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
               "a": 118,
               "b": 124,
               "word": "mowing",
               "lemma": "mow",
-              "meaning": "割草；修剪草坪"
+              "pos": "v",
+              "meaning": "修剪草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 128,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 138,
+              "word": "therefore",
+              "lemma": "therefore",
+              "pos": "adv",
+              "meaning": "因此",
+              "reviewVersion": 2
+            },
+            {
+              "a": 139,
+              "b": 146,
+              "word": "usually",
+              "lemma": "usually",
+              "pos": "adv",
+              "meaning": "通常",
+              "reviewVersion": 2
+            },
+            {
+              "a": 147,
+              "b": 154,
+              "word": "consume",
+              "lemma": "consume",
+              "pos": "v",
+              "meaning": "消耗",
+              "reviewVersion": 2
+            },
+            {
+              "a": 155,
+              "b": 166,
+              "word": "electricity",
+              "lemma": "electricity",
+              "pos": "n",
+              "meaning": "电力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 167,
+              "b": 169,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 170,
+              "b": 176,
+              "word": "petrol",
+              "lemma": "petrol",
+              "pos": "n",
+              "meaning": "汽油",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 34,
+              "b": 43,
+              "word": "point out",
+              "lemma": "point out",
+              "meaning": "指出",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "支持者观点保留归属，天然草坪需割草导致能源消耗，not无凭加入。",
+            "sentenceSHA256": "875db96b01abae242e9f3a6be5a956ef8f78a55bc9ee41bb8e5b9a2faaca2215",
+            "words": 27,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2023-T1-P4-S2",
@@ -700,36 +2926,301 @@
           "translation": "该行业还指出，真草需要大量用水、除草剂或其他养护，而铺设人造草坪的人往往更常使用自家花园。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 12,
+              "word": "industry",
+              "lemma": "industry",
+              "pos": "n",
+              "meaning": "行业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 17,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "也；还",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 24,
+              "word": "points",
+              "lemma": "point",
+              "pos": "v",
+              "meaning": "指出（point out）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 28,
+              "word": "out",
+              "lemma": "out",
+              "pos": "adv",
+              "meaning": "指出（point out的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "从句或强调句的连接词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 38,
+              "word": "real",
+              "lemma": "real",
+              "pos": "a",
+              "meaning": "真实的；天然的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 44,
+              "word": "grass",
+              "lemma": "grass",
+              "pos": "n",
+              "meaning": "草；草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 53,
+              "word": "requires",
+              "lemma": "require",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
               "a": 54,
               "b": 66,
               "word": "considerable",
               "lemma": "considerable",
-              "meaning": "大量的；相当多的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "大量的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 74,
+              "word": "amounts",
+              "lemma": "amount",
+              "pos": "n",
+              "meaning": "数量",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 77,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、内容或关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 83,
+              "word": "water",
+              "lemma": "water",
+              "pos": "n",
+              "meaning": "水",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 89,
+              "word": "weed",
+              "lemma": "weed",
+              "pos": "n",
+              "meaning": "杂草",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 96,
+              "word": "killer",
+              "lemma": "killer",
+              "pos": "n",
+              "meaning": "杀除剂（weed killer指除草剂）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 99,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 105,
+              "word": "other",
+              "lemma": "other",
+              "pos": "a",
+              "meaning": "其他的",
+              "reviewVersion": 2
             },
             {
               "a": 106,
               "b": 116,
               "word": "treatments",
               "lemma": "treatment",
-              "meaning": "草坪养护用的处理措施或药剂",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "草坪养护措施或药剂",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 120,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 125,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "从句或强调句的连接词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 132,
+              "word": "people",
+              "lemma": "people",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 136,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指前述的人",
+              "reviewVersion": 2
             },
             {
               "a": 137,
               "b": 140,
               "word": "lay",
               "lemma": "lay",
-              "meaning": "铺设"
+              "pos": "v",
+              "meaning": "铺设",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 145,
+              "word": "fake",
+              "lemma": "fake",
+              "pos": "a",
+              "meaning": "人造的；仿制的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 151,
+              "word": "grass",
+              "lemma": "grass",
+              "pos": "n",
+              "meaning": "草；草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 152,
+              "b": 156,
+              "word": "tend",
+              "lemma": "tend",
+              "pos": "v",
+              "meaning": "往往；倾向于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 157,
+              "b": 159,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 160,
+              "b": 163,
+              "word": "use",
+              "lemma": "use",
+              "pos": "v",
+              "meaning": "使用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 169,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 170,
+              "b": 176,
+              "word": "garden",
+              "lemma": "garden",
+              "pos": "n",
+              "meaning": "花园",
+              "reviewVersion": 2
+            },
+            {
+              "a": 177,
+              "b": 181,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更经常地",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
+            {
+              "a": 18,
+              "b": 28,
+              "word": "points out",
+              "lemma": "point out",
+              "meaning": "指出",
+              "kind": "phrase"
+            },
             {
               "a": 85,
               "b": 96,
               "word": "weed killer",
               "lemma": "weed killer",
-              "meaning": "除草剂"
+              "meaning": "除草剂",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -738,7 +3229,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "lay为铺草坪，more为更常使用，两个that引并列行业说法。",
+            "sentenceSHA256": "930224ffd3939f0c2d529af1cb20da5d63805d73d420f4f8be0cf92d2bfb4d4f",
+            "words": 31,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2023-T1-P4-S3",
@@ -772,22 +3271,242 @@
               "zh": "这为昆虫提供了栖息地。"
             }
           ],
-          "reorder": "将 who 的修饰提前；which 概括前面种植树木灌木带来的结果，保留 claims 的声称语气。",
+          "reorder": "将 who 的修饰提前；which 补充花园及种植环境的栖息地作用，保留 claims 的声称语气。",
           "translation": "该行业还声称，铺设人造草坪的人平均会花500英镑为花园购买树木或灌木，从而为昆虫提供栖息地。",
           "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 12,
+              "word": "industry",
+              "lemma": "industry",
+              "pos": "n",
+              "meaning": "行业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 17,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "也；还",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 24,
+              "word": "claims",
+              "lemma": "claim",
+              "pos": "v",
+              "meaning": "声称",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 29,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "从句或强调句的连接词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 36,
+              "word": "people",
+              "lemma": "people",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 40,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指前述的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 44,
+              "word": "lay",
+              "lemma": "lay",
+              "pos": "v",
+              "meaning": "铺设",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 49,
+              "word": "fake",
+              "lemma": "fake",
+              "pos": "a",
+              "meaning": "人造的；仿制的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 55,
+              "word": "grass",
+              "lemma": "grass",
+              "pos": "n",
+              "meaning": "草；草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 61,
+              "word": "spend",
+              "lemma": "spend",
+              "pos": "v",
+              "meaning": "花费",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 64,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 72,
+              "word": "average",
+              "lemma": "average",
+              "pos": "n",
+              "meaning": "平均",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 75,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、内容或关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 83,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "花费购买的对象（spend on）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 89,
+              "word": "trees",
+              "lemma": "tree",
+              "pos": "n",
+              "meaning": "树木",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 92,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
             {
               "a": 93,
               "b": 99,
               "word": "shrubs",
               "lemma": "shrub",
-              "meaning": "灌木"
+              "pos": "n",
+              "meaning": "灌木",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 103,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "用于自家花园",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 109,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 116,
+              "word": "garden",
+              "lemma": "garden",
+              "pos": "n",
+              "meaning": "花园",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 123,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "前述花园及其种植环境",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 132,
+              "word": "provides",
+              "lemma": "provide",
+              "pos": "v",
+              "meaning": "提供",
+              "reviewVersion": 2
             },
             {
               "a": 133,
               "b": 140,
               "word": "habitat",
               "lemma": "habitat",
-              "meaning": "栖息地"
+              "pos": "n",
+              "meaning": "栖息地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 144,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "供昆虫栖息",
+              "reviewVersion": 2
+            },
+            {
+              "a": 145,
+              "b": 152,
+              "word": "insects",
+              "lemma": "insect",
+              "pos": "n",
+              "meaning": "昆虫",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -797,7 +3516,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "spend on为花费购买树灌木，which补充花园生境作用，claims不当确定事实。",
+            "sentenceSHA256": "00b35202ad72c3ed583d43269e46b9448d270451eec0db38d83492f90f9e17dd",
+            "words": 26,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -839,14 +3566,277 @@
           ],
           "reorder": "which 的签名数量作为请愿书的补充；主句政府回应放后。",
           "translation": "对于去年另一份获得3万个签名、要求禁止人造草坪的请愿书，政府回应说，“没有禁止使用人造草坪的计划”。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中；在所述范围",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 11,
+              "word": "response",
+              "lemma": "response",
+              "pos": "n",
+              "meaning": "回应",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 14,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "回应的对象（in response to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 22,
+              "word": "another",
+              "lemma": "another",
+              "pos": "pron",
+              "meaning": "另一份（请愿书）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 31,
+              "word": "petition",
+              "lemma": "petition",
+              "pos": "n",
+              "meaning": "请愿书",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 36,
+              "word": "last",
+              "lemma": "last",
+              "pos": "a",
+              "meaning": "上一个的（last year为去年）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 41,
+              "word": "year",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 47,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于；要求的内容",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 55,
+              "word": "banning",
+              "lemma": "ban",
+              "pos": "v",
+              "meaning": "禁止",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 60,
+              "word": "fake",
+              "lemma": "fake",
+              "pos": "a",
+              "meaning": "人造的；仿制的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 66,
+              "word": "lawns",
+              "lemma": "lawn",
+              "pos": "n",
+              "meaning": "草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 73,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "关系代词，指前述事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 82,
+              "word": "gathered",
+              "lemma": "gather",
+              "pos": "v",
+              "meaning": "征集到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 100,
+              "word": "signatures",
+              "lemma": "signature",
+              "pos": "n",
+              "meaning": "签名",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 105,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 116,
+              "word": "government",
+              "lemma": "government",
+              "pos": "n",
+              "meaning": "政府",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 126,
+              "word": "responded",
+              "lemma": "respond",
+              "pos": "v",
+              "meaning": "回应",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 131,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "从句或强调句的连接词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 134,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "政府",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 138,
+              "word": "has",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "有；存在（计划）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 142,
+              "word": "no",
+              "lemma": "no",
+              "pos": "a",
+              "meaning": "没有的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 148,
+              "word": "plans",
+              "lemma": "plan",
+              "pos": "n",
+              "meaning": "计划",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 151,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 152,
+              "b": 155,
+              "word": "ban",
+              "lemma": "ban",
+              "pos": "n",
+              "meaning": "禁令",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 159,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 160,
+              "b": 163,
+              "word": "use",
+              "lemma": "use",
+              "pos": "n",
+              "meaning": "使用（名词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 166,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、内容或关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 167,
+              "b": 177,
+              "word": "artificial",
+              "lemma": "artificial",
+              "pos": "a",
+              "meaning": "人造的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 178,
+              "b": 183,
+              "word": "grass",
+              "lemma": "grass",
+              "pos": "n",
+              "meaning": "草；草坪",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 0,
               "b": 14,
               "word": "In response to",
               "lemma": "in response to",
-              "meaning": "作为对……的回应"
+              "meaning": "作为对……的回应",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -855,7 +3845,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "该份去年请愿收3万签名，it指政府，no plans为无计划并非永久法律禁令。",
+            "sentenceSHA256": "8bebef56a7d37cf1e6fbdde5f6b1e98f6edd709cb06ebec4c5bedf5795656854",
+            "words": 29,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -893,21 +3891,202 @@
           "translation": "政府补充说：“我们更愿意帮助个人和组织作出正确选择，而不是为这类事情立法。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "政府",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 8,
+              "word": "added",
+              "lemma": "add",
+              "pos": "v",
+              "meaning": "补充说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 13,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 20,
+              "word": "prefer",
+              "lemma": "prefer",
+              "pos": "v",
+              "meaning": "更愿意",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 23,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 28,
+              "word": "help",
+              "lemma": "help",
+              "pos": "v",
+              "meaning": "帮助",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 35,
+              "word": "people",
+              "lemma": "people",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 39,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 53,
+              "word": "organizations",
+              "lemma": "organization",
+              "pos": "n",
+              "meaning": "组织",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 58,
+              "word": "make",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "作出（选择）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 62,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 68,
+              "word": "right",
+              "lemma": "right",
+              "pos": "a",
+              "meaning": "正确的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 75,
+              "word": "choice",
+              "lemma": "choice",
+              "pos": "n",
+              "meaning": "选择",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 82,
+              "word": "rather",
+              "lemma": "rather",
+              "pos": "adv",
+              "meaning": "与than搭配表示而不是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 87,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "与rather合成而不是",
+              "reviewVersion": 2
+            },
+            {
               "a": 88,
               "b": 99,
               "word": "legislating",
               "lemma": "legislate",
-              "meaning": "立法"
+              "pos": "v",
+              "meaning": "立法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 102,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "关于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 107,
+              "word": "such",
+              "lemma": "such",
+              "pos": "a",
+              "meaning": "这样的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 115,
+              "word": "matters",
+              "lemma": "matter",
+              "pos": "n",
+              "meaning": "事情；问题",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 76,
+              "b": 87,
+              "word": "rather than",
+              "lemma": "rather than",
+              "meaning": "而不是",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "prefer…rather than表示政策取向，right为正确选择而非权利。",
+            "sentenceSHA256": "5f0d23f1b62851cf84c927e86bb5c8fdf49f22bbf5322f1cf8909d9e39c63258",
+            "words": 19,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2023-T1-P6-S2",
@@ -957,25 +4136,373 @@
           "translation": "然而，人造草坪的使用必须遵守现行法律和政策保障措施，以保护生物多样性并确保可持续排水；强化生物多样性保护职责等措施，也应促使公共机构考虑可持续的替代方案。”",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "However",
+              "lemma": "however",
+              "pos": "adv",
+              "meaning": "然而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 12,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 16,
+              "word": "use",
+              "lemma": "use",
+              "pos": "n",
+              "meaning": "使用（名词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 19,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属、内容或关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 30,
+              "word": "artificial",
+              "lemma": "artificial",
+              "pos": "a",
+              "meaning": "人造的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 36,
+              "word": "grass",
+              "lemma": "grass",
+              "pos": "n",
+              "meaning": "草；草坪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 41,
+              "word": "must",
+              "lemma": "must",
+              "pos": "aux",
+              "meaning": "必须",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 48,
+              "word": "comply",
+              "lemma": "comply",
+              "pos": "v",
+              "meaning": "遵守（comply with）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 53,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "遵守的法律政策标准（comply with）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 57,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 63,
+              "word": "legal",
+              "lemma": "legal",
+              "pos": "a",
+              "meaning": "法律上的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 67,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 74,
+              "word": "policy",
+              "lemma": "policy",
+              "pos": "n",
+              "meaning": "政策",
+              "reviewVersion": 2
+            },
+            {
               "a": 75,
               "b": 85,
               "word": "safeguards",
               "lemma": "safeguard",
-              "meaning": "保障措施"
+              "pos": "n",
+              "meaning": "保障措施",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 88,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中；在所述范围",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 94,
+              "word": "place",
+              "lemma": "place",
+              "pos": "n",
+              "meaning": "生效状态（in place指现行有效）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 97,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 105,
+              "word": "protect",
+              "lemma": "protect",
+              "pos": "v",
+              "meaning": "保护",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 118,
+              "word": "biodiversity",
+              "lemma": "biodiversity",
+              "pos": "n",
+              "meaning": "生物多样性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 122,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 129,
+              "word": "ensure",
+              "lemma": "ensure",
+              "pos": "v",
+              "meaning": "确保",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 141,
+              "word": "sustainable",
+              "lemma": "sustainable",
+              "pos": "a",
+              "meaning": "可持续的",
+              "reviewVersion": 2
             },
             {
               "a": 142,
               "b": 150,
               "word": "drainage",
               "lemma": "drainage",
-              "meaning": "排水"
+              "pos": "n",
+              "meaning": "排水",
+              "reviewVersion": 2
+            },
+            {
+              "a": 152,
+              "b": 157,
+              "word": "while",
+              "lemma": "while",
+              "pos": "conj",
+              "meaning": "同时（并列补充另一类措施）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 158,
+              "b": 166,
+              "word": "measures",
+              "lemma": "measure",
+              "pos": "n",
+              "meaning": "措施",
+              "reviewVersion": 2
+            },
+            {
+              "a": 167,
+              "b": 171,
+              "word": "such",
+              "lemma": "such",
+              "pos": "a",
+              "meaning": "这样的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 172,
+              "b": 174,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "例如（such as）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 175,
+              "b": 178,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 179,
+              "b": 191,
+              "word": "strengthened",
+              "lemma": "strengthen",
+              "pos": "v",
+              "meaning": "得到强化的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 192,
+              "b": 204,
+              "word": "biodiversity",
+              "lemma": "biodiversity",
+              "pos": "n",
+              "meaning": "生物多样性",
+              "reviewVersion": 2
             },
             {
               "a": 205,
               "b": 209,
               "word": "duty",
               "lemma": "duty",
-              "meaning": "法定职责；义务"
+              "pos": "n",
+              "meaning": "法定职责",
+              "reviewVersion": 2
+            },
+            {
+              "a": 210,
+              "b": 216,
+              "word": "should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应当",
+              "reviewVersion": 2
+            },
+            {
+              "a": 217,
+              "b": 222,
+              "word": "serve",
+              "lemma": "serve",
+              "pos": "v",
+              "meaning": "起到作用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 223,
+              "b": 225,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 226,
+              "b": 235,
+              "word": "encourage",
+              "lemma": "encourage",
+              "pos": "v",
+              "meaning": "鼓励",
+              "reviewVersion": 2
+            },
+            {
+              "a": 236,
+              "b": 242,
+              "word": "public",
+              "lemma": "public",
+              "pos": "a",
+              "meaning": "公共的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 243,
+              "b": 254,
+              "word": "authorities",
+              "lemma": "authority",
+              "pos": "n",
+              "meaning": "公共机构；主管部门",
+              "reviewVersion": 2
+            },
+            {
+              "a": 255,
+              "b": 257,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 258,
+              "b": 266,
+              "word": "consider",
+              "lemma": "consider",
+              "pos": "v",
+              "meaning": "考虑",
+              "reviewVersion": 2
+            },
+            {
+              "a": 267,
+              "b": 278,
+              "word": "sustainable",
+              "lemma": "sustainable",
+              "pos": "a",
+              "meaning": "可持续的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 279,
+              "b": 291,
+              "word": "alternatives",
+              "lemma": "alternative",
+              "pos": "n",
+              "meaning": "替代方案",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -984,7 +4511,16 @@
               "b": 53,
               "word": "comply with",
               "lemma": "comply with",
-              "meaning": "遵守"
+              "meaning": "遵守",
+              "kind": "phrase"
+            },
+            {
+              "a": 86,
+              "b": 94,
+              "word": "in place",
+              "lemma": "in place",
+              "meaning": "现行有效；已建立并生效",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -993,9 +4529,30 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "comply with为遵守标准，in place为现行措施，duty为法定责任不是税，authorities为公共机构。",
+            "sentenceSHA256": "61252083995906da7c618e553f73f38ad357c289b1c90e8130c1b079f00b4eca",
+            "words": 41,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "a6363913604010a33604110fb69e2d89b9db024962ee5cd69edc115dae214d51",
+    "sentences": 16,
+    "wordOccurrences": 391,
+    "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

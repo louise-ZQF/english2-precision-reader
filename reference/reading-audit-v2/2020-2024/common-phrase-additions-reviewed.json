@@ -1,0 +1,326 @@
+[
+  {
+    "a": 144,
+    "b": 159,
+    "word": "digital economy",
+    "lemma": "digital economy",
+    "meaning": "数字经济",
+    "id": "2024-T1-P1-S1",
+    "en": "In her new book Cogs and Monsters: What Economics Is, and What It Should Be, Diane Coyle, an economist at Cambridge University, argues that the digital economy requires new ways of thinking about progress."
+  },
+  {
+    "a": 83,
+    "b": 90,
+    "word": "have to",
+    "lemma": "have to",
+    "meaning": "必须",
+    "id": "2024-T1-P1-S2",
+    "en": "“Whatever we mean by the economy growing, by things getting better, the gains will have to be more evenly shared than in the recent past,” she writes."
+  },
+  {
+    "a": 78,
+    "b": 87,
+    "word": "every day",
+    "lemma": "every day",
+    "meaning": "每天",
+    "id": "2024-T1-P3-S3",
+    "en": "“These are transformative technologies that change the ways we spend our time every day, that change business models that succeed.”"
+  },
+  {
+    "a": 101,
+    "b": 116,
+    "word": "business models",
+    "lemma": "business model",
+    "meaning": "商业模式",
+    "id": "2024-T1-P3-S3",
+    "en": "“These are transformative technologies that change the ways we spend our time every day, that change business models that succeed.”"
+  },
+  {
+    "a": 0,
+    "b": 12,
+    "word": "According to",
+    "lemma": "according to",
+    "meaning": "根据",
+    "id": "2024-T1-P5-S1",
+    "en": "According to the Brookings Institution, a short list of eight American cities that included San Francisco, San Jose, Boston, and Seattle had roughly 38% of all tech jobs by 2019."
+  },
+  {
+    "a": 0,
+    "b": 8,
+    "word": "Not only",
+    "lemma": "not only",
+    "meaning": "不仅（与后面的but并列）",
+    "id": "2024-T1-P6-S2",
+    "en": "Not only will this foster political and social unrest, but it could, as Coyle suggests, hold back the sorts of AI technologies needed for regional economies to grow."
+  },
+  {
+    "a": 225,
+    "b": 236,
+    "word": "health care",
+    "lemma": "health care",
+    "meaning": "医疗保健",
+    "id": "2024-T1-P8-S1",
+    "en": "A more immediate response is to broaden our digital imaginations to conceive of AI technologies that don't simply replace jobs but expand opportunities in the sectors that different parts of the country care most about, like health care, education, and manufacturing."
+  },
+  {
+    "a": 46,
+    "b": 56,
+    "word": "because of",
+    "lemma": "because of",
+    "meaning": "由于；因为",
+    "id": "2024-T2-P1-S1",
+    "en": "The UK is facing a future construction crisis because of a failure to plant trees to produce wood, Confor has warned."
+  },
+  {
+    "a": 86,
+    "b": 97,
+    "word": "reliance on",
+    "lemma": "reliance on",
+    "meaning": "对……的依赖",
+    "id": "2024-T2-P1-S2",
+    "en": "The forestry and wood trade body has called for urgent action to reduce the country's reliance on timber imports and provide a stable supply of wood for future generations."
+  },
+  {
+    "a": 1,
+    "b": 9,
+    "word": "Not only",
+    "lemma": "not only",
+    "meaning": "不仅（与后面的but并列）",
+    "id": "2024-T2-P2-S2",
+    "en": "“Not only are we facing a carbon crisis now, but we will also be facing a future construction crisis because of a failure to plant trees to produce wood,” said Stuart Goodall, chief executive of Confor."
+  },
+  {
+    "a": 101,
+    "b": 111,
+    "word": "because of",
+    "lemma": "because of",
+    "meaning": "由于；因为",
+    "id": "2024-T2-P2-S2",
+    "en": "“Not only are we facing a carbon crisis now, but we will also be facing a future construction crisis because of a failure to plant trees to produce wood,” said Stuart Goodall, chief executive of Confor."
+  },
+  {
+    "a": 176,
+    "b": 191,
+    "word": "chief executive",
+    "lemma": "chief executive",
+    "meaning": "首席执行官",
+    "id": "2024-T2-P2-S2",
+    "en": "“Not only are we facing a carbon crisis now, but we will also be facing a future construction crisis because of a failure to plant trees to produce wood,” said Stuart Goodall, chief executive of Confor."
+  },
+  {
+    "a": 50,
+    "b": 62,
+    "word": "investing in",
+    "lemma": "invest in",
+    "meaning": "投资于",
+    "id": "2024-T2-P2-S3",
+    "en": "\"For decades we have not taken responsibility for investing in our domestic wood supply, leaving us exposed to fluctuating prices and fighting for future supplies of wood as global demand rises and our own supplies fall.\""
+  },
+  {
+    "a": 134,
+    "b": 146,
+    "word": "fighting for",
+    "lemma": "fight for",
+    "meaning": "争夺；争取",
+    "id": "2024-T2-P2-S3",
+    "en": "\"For decades we have not taken responsibility for investing in our domestic wood supply, leaving us exposed to fluctuating prices and fighting for future supplies of wood as global demand rises and our own supplies fall.\""
+  },
+  {
+    "a": 43,
+    "b": 55,
+    "word": "on behalf of",
+    "lemma": "on behalf of",
+    "meaning": "在……一方（此处原文意为来自农民等方面的犹豫；通常义为代表）",
+    "id": "2024-T2-P3-S4",
+    "en": "It also encompasses significant hesitation on behalf of farmers and other landowners to invest in longer-term planting projects."
+  },
+  {
+    "a": 88,
+    "b": 97,
+    "word": "invest in",
+    "lemma": "invest in",
+    "meaning": "投资于",
+    "id": "2024-T2-P3-S4",
+    "en": "It also encompasses significant hesitation on behalf of farmers and other landowners to invest in longer-term planting projects."
+  },
+  {
+    "a": 191,
+    "b": 204,
+    "word": "contribute to",
+    "lemma": "contribute to",
+    "meaning": "有助于",
+    "id": "2024-T2-P4-S2",
+    "en": "Goodall added: “While food production and biodiversity health are clearly of critical importance, we need our land to also provide secure supplies of wood for construction, manufacturing and contribute to net zero."
+  },
+  {
+    "a": 205,
+    "b": 213,
+    "word": "net zero",
+    "lemma": "net zero",
+    "meaning": "净零排放",
+    "id": "2024-T2-P4-S2",
+    "en": "Goodall added: “While food production and biodiversity health are clearly of critical importance, we need our land to also provide secure supplies of wood for construction, manufacturing and contribute to net zero."
+  },
+  {
+    "a": 14,
+    "b": 25,
+    "word": "calling for",
+    "lemma": "call for",
+    "meaning": "呼吁；要求",
+    "id": "2024-T2-P5-S2",
+    "en": "Confor is now calling for much greater impetus behind those aspirations to ensure we have enough wood to meet increasing demand.\""
+  },
+  {
+    "a": 112,
+    "b": 121,
+    "word": "turn over",
+    "lemma": "turn over",
+    "meaning": "交出；移交",
+    "id": "2024-T3-P1-S1",
+    "en": "One of the biggest challenges in keeping unsafe aging drivers off the road is convincing them that it's time to turn over the keys."
+  },
+  {
+    "a": 120,
+    "b": 132,
+    "word": "according to",
+    "lemma": "according to",
+    "meaning": "根据",
+    "id": "2024-T3-P4-S2",
+    "en": "Mandatory in-person renewal was associated with a 31 per cent reduction in fatal crashes involving drivers 85 or older, according to one study."
+  },
+  {
+    "a": 56,
+    "b": 69,
+    "word": "fatal crashes",
+    "lemma": "fatal crash",
+    "meaning": "致命交通事故",
+    "id": "2024-T3-P4-S3",
+    "en": "Passing vision tests also produced a similar decline in fatal crashes for those drivers, although there appeared to be no benefit from combining the two."
+  },
+  {
+    "a": 29,
+    "b": 40,
+    "word": "eye doctors",
+    "lemma": "eye doctor",
+    "meaning": "眼科医生",
+    "id": "2024-T3-P5-S1",
+    "en": "Many older drivers don't see eye doctors or can't afford to."
+  },
+  {
+    "a": 0,
+    "b": 12,
+    "word": "Primary care",
+    "lemma": "primary care",
+    "meaning": "基层医疗；初级医疗保健",
+    "id": "2024-T3-P5-S2",
+    "en": "Primary care providers have their hands full and may not be able to follow through with patients who have trouble driving because they can't turn their heads or remember where they are going—or have gotten shorter and haven't changed their seat settings sufficiently to reach car pedals easily."
+  },
+  {
+    "a": 57,
+    "b": 67,
+    "word": "be able to",
+    "lemma": "be able to",
+    "meaning": "能够",
+    "id": "2024-T3-P5-S2",
+    "en": "Primary care providers have their hands full and may not be able to follow through with patients who have trouble driving because they can't turn their heads or remember where they are going—or have gotten shorter and haven't changed their seat settings sufficiently to reach car pedals easily."
+  },
+  {
+    "a": 7,
+    "b": 14,
+    "word": "look at",
+    "lemma": "look at",
+    "meaning": "看；查看",
+    "id": "2024-T4-P1-S1",
+    "en": "If you look at the apps on your phone, chances are you have at least one related to your health—and probably several."
+  },
+  {
+    "a": 60,
+    "b": 68,
+    "word": "at least",
+    "lemma": "at least",
+    "meaning": "至少",
+    "id": "2024-T4-P1-S1",
+    "en": "If you look at the apps on your phone, chances are you have at least one related to your health—and probably several."
+  },
+  {
+    "a": 73,
+    "b": 83,
+    "word": "related to",
+    "lemma": "related to",
+    "meaning": "与……有关",
+    "id": "2024-T4-P1-S1",
+    "en": "If you look at the apps on your phone, chances are you have at least one related to your health—and probably several."
+  },
+  {
+    "a": 16,
+    "b": 29,
+    "word": "mental health",
+    "lemma": "mental health",
+    "meaning": "心理健康",
+    "id": "2024-T4-P1-S2",
+    "en": "Whether it is a mental health app, a fitness tracker, a connected health device or something else, many of us are taking advantage of this technology to keep better track of our health in some shape or form."
+  },
+  {
+    "a": 131,
+    "b": 144,
+    "word": "on the market",
+    "lemma": "on the market",
+    "meaning": "在市场上；市面有售",
+    "id": "2024-T4-P1-S3",
+    "en": "Recent research from the Organization for the Review of Care and Health Applications found that 350,000 health apps were available on the market, 90,000 of which launched in 2020 alone."
+  },
+  {
+    "a": 29,
+    "b": 36,
+    "word": "such as",
+    "lemma": "such as",
+    "meaning": "例如",
+    "id": "2024-T4-P2-S2",
+    "en": "Existing health privacy law, such as the Health Insurance Portability and Accountability Act, is primarily focused on the way hospitals, doctors ' offices, clinics and insurance companies store health records online."
+  },
+  {
+    "a": 107,
+    "b": 117,
+    "word": "focused on",
+    "lemma": "focus on",
+    "meaning": "重点关注",
+    "id": "2024-T4-P2-S2",
+    "en": "Existing health privacy law, such as the Health Insurance Portability and Accountability Act, is primarily focused on the way hospitals, doctors ' offices, clinics and insurance companies store health records online."
+  },
+  {
+    "a": 81,
+    "b": 96,
+    "word": "took control of",
+    "lemma": "take control of",
+    "meaning": "取得对……的控制；掌控",
+    "id": "2024-T4-P3-S3",
+    "en": "The FTC alleged in a complaint that \"despite express privacy claims, the company took control of users' sensitive fertility data and shared it with third parties.”"
+  },
+  {
+    "a": 148,
+    "b": 161,
+    "word": "third parties",
+    "lemma": "third party",
+    "meaning": "第三方",
+    "id": "2024-T4-P3-S3",
+    "en": "The FTC alleged in a complaint that \"despite express privacy claims, the company took control of users' sensitive fertility data and shared it with third parties.”"
+  },
+  {
+    "a": 171,
+    "b": 181,
+    "word": "as well as",
+    "lemma": "as well as",
+    "meaning": "以及；还",
+    "id": "2024-T4-P3-S4",
+    "en": "Flo Health and the FTC settled the matter with a Consent Order requiring the company to get app users' express affirmative consent before sharing their health information as well as to instruct the third parties to delete the data they had obtained."
+  },
+  {
+    "a": 54,
+    "b": 76,
+    "word": "keeping their promises",
+    "lemma": "keep one's promise",
+    "meaning": "履行承诺",
+    "id": "2024-T4-P4-S2",
+    "en": "While the FTC is doing what it can to ensure apps are keeping their promises to consumers around the handling of their sensitive health information, the rate at which these health apps are hitting the market demonstrates just how immense of a challenge this is."
+  }
+]

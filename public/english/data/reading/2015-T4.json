@@ -61,14 +61,250 @@
           ],
           "reorder": "talked of...as 的长宾语先列出两项数据，再说“视为好消息”；reported 修饰新增岗位。",
           "translation": "很多人把劳工部公布的6月新增28.8万个就业岗位，以及失业率降至6.1%，视为好消息。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "Many",
+              "lemma": "many",
+              "pos": "det",
+              "meaning": "许多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 11,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 18,
+              "word": "talked",
+              "lemma": "talk",
+              "pos": "v",
+              "meaning": "谈到；把……说成",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 21,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "谈到的对象（talk of）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 25,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 37,
+              "word": "new",
+              "lemma": "new",
+              "pos": "a",
+              "meaning": "新增的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 42,
+              "word": "jobs",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "就业岗位；工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 46,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 52,
+              "word": "Labor",
+              "lemma": "labor",
+              "pos": "n",
+              "meaning": "劳动；劳工",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 63,
+              "word": "Department",
+              "lemma": "department",
+              "pos": "n",
+              "meaning": "部门（Labor Department为劳工部）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 72,
+              "word": "reported",
+              "lemma": "report",
+              "pos": "v",
+              "meaning": "公布；报告",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 76,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对应（六月的统计）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 81,
+              "word": "June",
+              "lemma": "June",
+              "pos": "name",
+              "meaning": "六月",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 88,
+              "word": "along",
+              "lemma": "along",
+              "pos": "adv",
+              "meaning": "与……一起（along with）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 93,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "带有；与……一起",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 97,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 102,
+              "word": "drop",
+              "lemma": "drop",
+              "pos": "n",
+              "meaning": "下降",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 105,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 109,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 122,
+              "word": "unemployment",
+              "lemma": "unemployment",
+              "pos": "n",
+              "meaning": "失业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 127,
+              "word": "rate",
+              "lemma": "rate",
+              "pos": "n",
+              "meaning": "比率；比例",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 130,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "降至；达到某数值",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 142,
+              "word": "percent",
+              "lemma": "percent",
+              "pos": "n",
+              "meaning": "百分之",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 146,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "当作；认为是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 147,
+              "b": 151,
+              "word": "good",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "好的；有利的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 152,
+              "b": 156,
+              "word": "news",
+              "lemma": "news",
+              "pos": "n",
+              "meaning": "消息",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 110,
               "b": 127,
               "word": "unemployment rate",
               "lemma": "unemployment rate",
-              "meaning": "失业率"
+              "meaning": "失业率",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -77,7 +313,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "talk of...as把两个就业指标视为好消息，新增岗位与失业率数据不混。",
+            "sentenceSHA256": "e8725935924e071da33e680f4b3acd583017a578a8efd57074e6509d9d35e192",
+            "words": 26,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2015-T4-P1-S2",
@@ -101,7 +345,44 @@
           ],
           "reorder": "they 指把就业数据视为好消息的人。",
           "translation": "他们确实说对了。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "And",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 13,
+              "word": "were",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态（过去）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 19,
+              "word": "right",
+              "lemma": "right",
+              "pos": "a",
+              "meaning": "正确的",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -109,7 +390,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "right指判断正确，they承接对数据乐观的人。",
+            "sentenceSHA256": "9068d8032fb27399753bf7becb98e7daa7663536f3e0373f029030ba2de173d7",
+            "words": 4,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T4-P1-S3",
@@ -122,7 +411,7 @@
               "a": 0,
               "b": 19,
               "en": "For now it appears ",
-              "zh": "因为目前看来，"
+              "zh": "眼下看来，"
             },
             {
               "a": 19,
@@ -137,40 +426,152 @@
               "zh": "速度还不错。"
             }
           ],
-          "reorder": "For 表原因，不是为谁；at 的速度修饰创造岗位。",
-          "translation": "因为目前看来，经济正以还不错的速度创造就业岗位。",
+          "reorder": "按“目前看来—创造岗位—速度”顺译，at a decent pace放在“创造”前更自然。",
+          "translation": "眼下看来，经济正以还不错的速度创造就业岗位。",
           "words": [
-            {
-              "a": 60,
-              "b": 64,
-              "word": "pace",
-              "lemma": "pace",
-              "meaning": "速度；进展节奏",
-              "pos": "n"
-            },
             {
               "a": 0,
               "b": 3,
               "word": "For",
               "lemma": "for",
-              "meaning": "因为（连接对前句的解释）"
+              "pos": "prep",
+              "meaning": "与now组成for now，表示眼下；目前",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 7,
+              "word": "now",
+              "lemma": "now",
+              "pos": "adv",
+              "meaning": "现在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 10,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 18,
+              "word": "appears",
+              "lemma": "appear",
+              "pos": "v",
+              "meaning": "看来；似乎",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 30,
+              "word": "economy",
+              "lemma": "economy",
+              "pos": "n",
+              "meaning": "经济",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 33,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "助动词，与creating构成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 42,
+              "word": "creating",
+              "lemma": "create",
+              "pos": "v",
+              "meaning": "创造",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 47,
+              "word": "jobs",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "就业岗位；工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 50,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "以……速度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 52,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 53,
               "b": 59,
               "word": "decent",
               "lemma": "decent",
-              "meaning": "相当不错的；尚可的"
+              "pos": "a",
+              "meaning": "还不错的；相当好的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 64,
+              "word": "pace",
+              "lemma": "pace",
+              "pos": "n",
+              "meaning": "速度",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 7,
+              "word": "For now",
+              "lemma": "for now",
+              "meaning": "眼下；目前",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "for now按“眼下”处理，is creating进行时，decent为尚可而非道德体面。",
+            "sentenceSHA256": "946970b5f3cc67c336879fcb95d8ac9d1f7e67fe707a0ddec370a0f1ed17287d",
+            "words": 13,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2015-T4-P1-S4",
@@ -208,12 +609,247 @@
           "translation": "要恢复充分就业，我们还有很长的路要走，但至少现在终于正以更快的速度向前迈进。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 8,
+              "word": "still",
+              "lemma": "still",
+              "pos": "adv",
+              "meaning": "仍然",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 13,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "还有；拥有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 15,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "long",
+              "lemma": "long",
+              "pos": "a",
+              "meaning": "长的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 24,
+              "word": "way",
+              "lemma": "way",
+              "pos": "n",
+              "meaning": "路程；进程",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 27,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 30,
+              "word": "go",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "走；继续前进",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 33,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 37,
+              "word": "get",
+              "lemma": "get",
+              "pos": "v",
+              "meaning": "达到；恢复（get back）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 42,
+              "word": "back",
+              "lemma": "back",
+              "pos": "adv",
+              "meaning": "恢复原状（get back）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 45,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "恢复到（get back to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 50,
+              "word": "full",
+              "lemma": "full",
+              "pos": "a",
+              "meaning": "充分的；全额的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 61,
+              "word": "employment",
+              "lemma": "employment",
+              "pos": "n",
+              "meaning": "就业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 66,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 69,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "与least组成至少",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 75,
+              "word": "least",
+              "lemma": "least",
+              "pos": "adv",
+              "meaning": "至少（at least）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 78,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 82,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "助动词，与moving构成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 86,
+              "word": "now",
+              "lemma": "now",
+              "pos": "adv",
+              "meaning": "现在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 94,
+              "word": "finally",
+              "lemma": "finally",
+              "pos": "adv",
+              "meaning": "终于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 101,
+              "word": "moving",
+              "lemma": "move",
+              "pos": "v",
+              "meaning": "前进；推进",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 109,
+              "word": "forward",
+              "lemma": "forward",
+              "pos": "adv",
+              "meaning": "向前",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 112,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "以……速度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 114,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 121,
+              "word": "faster",
+              "lemma": "fast",
+              "pos": "a",
+              "meaning": "更快的",
+              "reviewVersion": 2
+            },
+            {
               "a": 122,
               "b": 126,
               "word": "pace",
               "lemma": "pace",
-              "meaning": "速度；进展节奏",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "速度",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -222,7 +858,16 @@
               "b": 61,
               "word": "full employment",
               "lemma": "full employment",
-              "meaning": "充分就业（并非失业率绝对为零）"
+              "meaning": "充分就业（并非失业率绝对为零）",
+              "kind": "phrase"
+            },
+            {
+              "a": 67,
+              "b": 75,
+              "word": "at least",
+              "lemma": "at least",
+              "meaning": "至少",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -231,7 +876,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "仍远离充分就业，但速度加快；least与at组成至少。",
+            "sentenceSHA256": "ee3e6980cf5c1e97e46da7d2381a5b7d9265af5f099b94f3002e2436489dc7e5",
+            "words": 27,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -269,18 +922,130 @@
           "translation": "然而，就业状况的另一个重要方面，在很大程度上被忽视了。",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "However",
+              "lemma": "however",
+              "pos": "adv",
+              "meaning": "然而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 14,
+              "word": "there",
+              "lemma": "there",
+              "pos": "pron",
+              "meaning": "there be存在句的引导词，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 17,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "有（there is）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 25,
+              "word": "another",
+              "lemma": "another",
+              "pos": "det",
+              "meaning": "另一个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 35,
+              "word": "important",
+              "lemma": "important",
+              "pos": "a",
+              "meaning": "重要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 40,
+              "word": "part",
+              "lemma": "part",
+              "pos": "n",
+              "meaning": "方面；部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 43,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 47,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 52,
+              "word": "jobs",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "就业岗位；工作",
+              "reviewVersion": 2
+            },
+            {
               "a": 53,
               "b": 60,
               "word": "picture",
               "lemma": "picture",
-              "meaning": "总体状况；形势"
+              "pos": "n",
+              "meaning": "总体状况；形势",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 65,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指就业情况的重要方面",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 69,
+              "word": "was",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "助动词，与overlooked构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 77,
+              "word": "largely",
+              "lemma": "largely",
+              "pos": "adv",
+              "meaning": "在很大程度上",
+              "reviewVersion": 2
             },
             {
               "a": 78,
               "b": 88,
               "word": "overlooked",
               "lemma": "overlook",
-              "meaning": "忽视；遗漏"
+              "pos": "v",
+              "meaning": "忽视",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -290,7 +1055,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "that指就业状况的一方面，was overlooked被动表示被忽视。",
+            "sentenceSHA256": "8e22614a542e6802c63b1f540d99201a897101d799ba1606eb32b272003e98ce",
+            "words": 14,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T4-P2-S2",
@@ -322,36 +1095,157 @@
           "translation": "自述自愿从事兼职工作的人数大幅增长。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "There",
+              "lemma": "there",
+              "pos": "pron",
+              "meaning": "there be存在句引导词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 9,
+              "word": "was",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "出现；有（there was）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 11,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 15,
+              "word": "big",
+              "lemma": "big",
+              "pos": "a",
+              "meaning": "大的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "jump",
+              "lemma": "jump",
+              "pos": "n",
+              "meaning": "大幅增长",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 23,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在人数方面",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 27,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 34,
+              "word": "number",
+              "lemma": "number",
+              "pos": "n",
+              "meaning": "人数；数量",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 37,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 44,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 48,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指代前述的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 55,
+              "word": "report",
+              "lemma": "report",
+              "pos": "v",
+              "meaning": "自述；报告",
+              "reviewVersion": 2
+            },
+            {
               "a": 56,
               "b": 67,
               "word": "voluntarily",
               "lemma": "voluntarily",
-              "meaning": "自愿地"
+              "pos": "adv",
+              "meaning": "自愿地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 75,
+              "word": "working",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "从事工作",
+              "reviewVersion": 2
             },
             {
               "a": 76,
               "b": 85,
               "word": "part-time",
               "lemma": "part-time",
-              "meaning": "非全日制的；兼职的"
+              "pos": "a",
+              "meaning": "非全日制的；兼职的",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [
-            {
-              "a": 76,
-              "b": 85,
-              "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "word": "part-time"
-            }
-          ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "增长的是自愿兼职人数，不是所有兼职或总就业。",
+            "sentenceSHA256": "8a7723e8951d546757e5c8d14e9cc6953922785cbdf9fdf6582e668705b9e790",
+            "words": 15,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T4-P2-S3",
@@ -377,12 +1271,94 @@
           "translation": "这一人数如今比一年前增加了83万，增幅为4.4%。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "This",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；本句所说的事物",
+              "reviewVersion": 2
+            },
+            {
               "a": 5,
               "b": 11,
               "word": "figure",
               "lemma": "figure",
+              "pos": "n",
               "meaning": "数字；人数",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 14,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 18,
+              "word": "now",
+              "lemma": "now",
+              "pos": "adv",
+              "meaning": "现在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 38,
+              "word": "percent",
+              "lemma": "percent",
+              "pos": "n",
+              "meaning": "百分之",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 44,
+              "word": "above",
+              "lemma": "above",
+              "pos": "prep",
+              "meaning": "高于；比一年前增加（不是总人数）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 48,
+              "word": "its",
+              "lemma": "its",
+              "pos": "det",
+              "meaning": "它的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 53,
+              "word": "year",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 57,
+              "word": "ago",
+              "lemma": "ago",
+              "pos": "adv",
+              "meaning": "以前",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 63,
+              "word": "level",
+              "lemma": "level",
+              "pos": "n",
+              "meaning": "水平",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -392,7 +1368,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "83万为同比增加量、4.4%为增幅，不能译成当前总数。",
+            "sentenceSHA256": "9fec9a21460306cd595a979c2c1c10f5063ea3593eec0f4332af3fa467b3c5d1",
+            "words": 10,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -430,18 +1414,130 @@
           "translation": "在解释这与奥巴马医改的联系之前，有必要先作一个重要区分。",
           "words": [
             {
-              "a": 83,
-              "b": 94,
-              "word": "distinction",
-              "lemma": "distinction",
-              "meaning": "区分"
+              "a": 0,
+              "b": 6,
+              "word": "Before",
+              "lemma": "before",
+              "pos": "prep",
+              "meaning": "在……之前",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 17,
+              "word": "explaining",
+              "lemma": "explain",
+              "pos": "v",
+              "meaning": "解释",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 21,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 32,
+              "word": "connection",
+              "lemma": "connection",
+              "pos": "n",
+              "meaning": "联系",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 35,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "与……的联系（connection to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 39,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 40,
               "b": 49,
               "word": "Obamacare",
               "lemma": "Obamacare",
-              "meaning": "奥巴马医改；美国《平价医疗法案》的通称"
+              "pos": "name",
+              "meaning": "奥巴马医改；《平价医疗法案》的通称",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 53,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "形式主语，指下文作出区分这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 56,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 62,
+              "word": "worth",
+              "lemma": "worth",
+              "pos": "a",
+              "meaning": "值得的；有必要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 69,
+              "word": "making",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "作出（区分）；做",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 72,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 82,
+              "word": "important",
+              "lemma": "important",
+              "pos": "a",
+              "meaning": "重要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 94,
+              "word": "distinction",
+              "lemma": "distinction",
+              "pos": "n",
+              "meaning": "区分",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -451,7 +1547,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "在说明医保联系前先区分兼职性质，it为形式主语。",
+            "sentenceSHA256": "69fd6fb355184a13ed02c6b715b1031f3e4bb40790614a7c874528bfd4013405",
+            "words": 14,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T4-P3-S2",
@@ -483,45 +1587,112 @@
           "translation": "很多从事兼职工作的人，实际上想要全职工作。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Many",
+              "lemma": "many",
+              "pos": "det",
+              "meaning": "许多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 11,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 15,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指代前述的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "work",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "从事；做（某工作）",
+              "reviewVersion": 2
+            },
+            {
               "a": 21,
               "b": 30,
               "word": "part-time",
               "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "非全日制的；兼职的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 35,
+              "word": "jobs",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "就业岗位；工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 44,
+              "word": "actually",
+              "lemma": "actually",
+              "pos": "adv",
+              "meaning": "实际上",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 49,
+              "word": "want",
+              "lemma": "want",
+              "pos": "v",
+              "meaning": "想要",
+              "reviewVersion": 2
             },
             {
               "a": 50,
               "b": 59,
               "word": "full-time",
               "lemma": "full-time",
+              "pos": "a",
               "meaning": "全职的；全日制的",
-              "pos": "a"
-            }
-          ],
-          "phrases": [
-            {
-              "a": 21,
-              "b": 30,
-              "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "word": "part-time"
+              "reviewVersion": 2
             },
             {
-              "a": 50,
-              "b": 59,
-              "lemma": "full-time",
-              "meaning": "全职的；全日制的",
-              "word": "full-time"
+              "a": 60,
+              "b": 64,
+              "word": "jobs",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "就业岗位；工作",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "做兼职者可能实际想全职，两个岗位时长类型对比保留。",
+            "sentenceSHA256": "00799ac7b225dd55c9bc0006bc63c5cdbd95344fd4547570419fe725a4bc6f88",
+            "words": 10,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T4-P3-S3",
@@ -553,30 +1724,121 @@
           "translation": "他们之所以做兼职，是因为只能找到这样的工作。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "They",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 9,
+              "word": "take",
+              "lemma": "take",
+              "pos": "v",
+              "meaning": "接受（工作）",
+              "reviewVersion": 2
+            },
+            {
               "a": 10,
               "b": 19,
               "word": "part-time",
               "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "pos": "a"
-            }
-          ],
-          "phrases": [
+              "pos": "a",
+              "meaning": "非全日制的；兼职的",
+              "reviewVersion": 2
+            },
             {
-              "a": 10,
-              "b": 19,
-              "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "word": "part-time"
+              "a": 20,
+              "b": 24,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 32,
+              "word": "because",
+              "lemma": "because",
+              "pos": "conj",
+              "meaning": "因为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 37,
+              "word": "this",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；本句所说的事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 40,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 44,
+              "word": "all",
+              "lemma": "all",
+              "pos": "det",
+              "meaning": "所有的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 49,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 53,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能；能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 57,
+              "word": "get",
+              "lemma": "get",
+              "pos": "v",
+              "meaning": "达到；恢复（get back）",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "all they can get表示只能找到这类工作，非主动追求兼职。",
+            "sentenceSHA256": "d096baf3f8d18802fdbf14afcc1e46353e304a565aa016144017fac082abb48b",
+            "words": 11,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T4-P3-S4",
@@ -614,35 +1876,274 @@
           "translation": "非自愿兼职工作增加，是劳动力市场疲软的表现，也意味着很多人将很难维持生计。",
           "words": [
             {
-              "a": 27,
-              "b": 36,
-              "word": "part-time",
-              "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "pos": "a"
+              "a": 0,
+              "b": 2,
+              "word": "An",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
             },
             {
-              "a": 45,
-              "b": 53,
-              "word": "evidence",
-              "lemma": "evidence",
-              "meaning": "迹象；证据",
-              "pos": "n"
+              "a": 3,
+              "b": 11,
+              "word": "increase",
+              "lemma": "increase",
+              "pos": "n",
+              "meaning": "增加",
+              "reviewVersion": 2
             },
             {
-              "a": 57,
-              "b": 65,
-              "word": "weakness",
-              "lemma": "weakness",
-              "meaning": "疲软；状况不佳",
-              "pos": "n"
+              "a": 12,
+              "b": 14,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……方面（兼职就业的增加）",
+              "reviewVersion": 2
             },
             {
               "a": 15,
               "b": 26,
               "word": "involuntary",
               "lemma": "involuntary",
-              "meaning": "非自愿的；被迫的"
+              "pos": "a",
+              "meaning": "非自愿的；被迫的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 36,
+              "word": "part-time",
+              "lemma": "part-time",
+              "pos": "a",
+              "meaning": "非全日制的；兼职的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 41,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 44,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 53,
+              "word": "evidence",
+              "lemma": "evidence",
+              "pos": "n",
+              "meaning": "证据；表现",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 56,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 65,
+              "word": "weakness",
+              "lemma": "weakness",
+              "pos": "n",
+              "meaning": "疲软；状况不佳",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 68,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在劳动力市场中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 72,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 78,
+              "word": "labor",
+              "lemma": "labor",
+              "pos": "n",
+              "meaning": "劳动；劳工",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 85,
+              "word": "market",
+              "lemma": "market",
+              "pos": "n",
+              "meaning": "市场",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 89,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 92,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 98,
+              "word": "means",
+              "lemma": "mean",
+              "pos": "v",
+              "meaning": "意味着",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 103,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出后面的内容；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 108,
+              "word": "many",
+              "lemma": "many",
+              "pos": "det",
+              "meaning": "许多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 115,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 120,
+              "word": "will",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "将会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 123,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "助动词，与having构成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 130,
+              "word": "having",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "经历；面临",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 132,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 137,
+              "word": "very",
+              "lemma": "very",
+              "pos": "adv",
+              "meaning": "非常",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 142,
+              "word": "hard",
+              "lemma": "hard",
+              "pos": "a",
+              "meaning": "艰难的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 147,
+              "word": "time",
+              "lemma": "time",
+              "pos": "n",
+              "meaning": "时期；时段",
+              "reviewVersion": 2
+            },
+            {
+              "a": 148,
+              "b": 154,
+              "word": "making",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "设法做到（make ends meet整体指维持生计）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 155,
+              "b": 159,
+              "word": "ends",
+              "lemma": "end",
+              "pos": "n",
+              "meaning": "收支的两头（make ends meet整体为维持生计）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 160,
+              "b": 164,
+              "word": "meet",
+              "lemma": "meet",
+              "pos": "v",
+              "meaning": "使相接（make ends meet整体为收支相抵）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -651,21 +2152,16 @@
               "b": 41,
               "lemma": "involuntary part-time work",
               "meaning": "想做全职却只能做兼职的工作",
-              "word": "involuntary part-time work"
-            },
-            {
-              "a": 27,
-              "b": 36,
-              "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "word": "part-time"
+              "word": "involuntary part-time work",
+              "kind": "phrase"
             },
             {
               "a": 148,
               "b": 164,
               "word": "making ends meet",
               "lemma": "make ends meet",
-              "meaning": "使收支相抵；维持生计"
+              "meaning": "使收支相抵；维持生计",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -674,7 +2170,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "非自愿兼职增加意味着市场疲软，make ends meet整体为维持生计。",
+            "sentenceSHA256": "fdf686c092202492f03654ecc0571670d76dc998d46b3cca8788d2c5009b4a6d",
+            "words": 30,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -712,46 +2216,166 @@
           "translation": "6月非自愿兼职工作人数有所增加，但总体趋势一直是下降的。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "There",
+              "lemma": "there",
+              "pos": "pron",
+              "meaning": "there be存在结构引导词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 9,
+              "word": "was",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "出现；有（there was）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 12,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 21,
+              "word": "increase",
+              "lemma": "increase",
+              "pos": "n",
+              "meaning": "增加",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 24,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
               "a": 25,
               "b": 36,
               "word": "involuntary",
               "lemma": "involuntary",
+              "pos": "a",
               "meaning": "非自愿的；被迫的",
-              "pos": "a"
+              "reviewVersion": 2
             },
             {
               "a": 37,
               "b": 46,
               "word": "part-time",
               "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "非全日制的；兼职的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 49,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 54,
+              "word": "June",
+              "lemma": "June",
+              "pos": "name",
+              "meaning": "六月",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 59,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 63,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 71,
+              "word": "general",
+              "lemma": "general",
+              "pos": "a",
+              "meaning": "总体的",
+              "reviewVersion": 2
             },
             {
               "a": 72,
               "b": 81,
               "word": "direction",
               "lemma": "direction",
-              "meaning": "总体走势",
-              "pos": "n"
-            }
-          ],
-          "phrases": [
+              "pos": "n",
+              "meaning": "方向；趋势",
+              "reviewVersion": 2
+            },
             {
-              "a": 37,
-              "b": 46,
-              "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "word": "part-time"
+              "a": 82,
+              "b": 85,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成完成时，不单独译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 90,
+              "word": "been",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "完成时中的be；承接后面的状态或语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 95,
+              "word": "down",
+              "lemma": "down",
+              "pos": "adv",
+              "meaning": "下降",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "六月单月增长与长期总体下降分开，不以单月代替趋势。",
+            "sentenceSHA256": "b7b9bf93ca56c8c021da2845848d0bbfeb62422295e34bb133db8001153392be",
+            "words": 16,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T4-P4-S2",
@@ -793,41 +2417,216 @@
               "b": 11,
               "word": "Involuntary",
               "lemma": "involuntary",
+              "pos": "a",
               "meaning": "非自愿的；被迫的",
-              "pos": "a"
+              "reviewVersion": 2
             },
             {
               "a": 12,
               "b": 21,
               "word": "part-time",
               "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "非全日制的；兼职的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 32,
+              "word": "employment",
+              "lemma": "employment",
+              "pos": "n",
+              "meaning": "就业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 35,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 41,
+              "word": "still",
+              "lemma": "still",
+              "pos": "adv",
+              "meaning": "仍然",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 45,
+              "word": "far",
+              "lemma": "far",
+              "pos": "adv",
+              "meaning": "远远地（加强比较）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 52,
+              "word": "higher",
+              "lemma": "high",
+              "pos": "a",
+              "meaning": "更高的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 57,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 64,
+              "word": "before",
+              "lemma": "before",
+              "pos": "prep",
+              "meaning": "在……之前",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 68,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 69,
               "b": 78,
               "word": "recession",
               "lemma": "recession",
-              "meaning": "经济衰退"
-            }
-          ],
-          "phrases": [
+              "pos": "n",
+              "meaning": "经济衰退",
+              "reviewVersion": 2
+            },
             {
-              "a": 12,
-              "b": 21,
-              "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "word": "part-time"
+              "a": 80,
+              "b": 83,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 86,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 89,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 94,
+              "word": "down",
+              "lemma": "down",
+              "pos": "adv",
+              "meaning": "下降",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 97,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "减少了……（标示降幅）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 118,
+              "word": "percent",
+              "lemma": "percent",
+              "pos": "n",
+              "meaning": "百分之",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 124,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "与……相比（同比参照）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 128,
+              "word": "its",
+              "lemma": "its",
+              "pos": "det",
+              "meaning": "它的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 133,
+              "word": "year",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 137,
+              "word": "ago",
+              "lemma": "ago",
+              "pos": "adv",
+              "meaning": "以前",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 143,
+              "word": "level",
+              "lemma": "level",
+              "pos": "n",
+              "meaning": "水平",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "比较基准一为衰退前、一为一年前；64万与7.9%是降幅。",
+            "sentenceSHA256": "8ff05706f38d0e9263d83d6d3247f65010e3319a207d8de75de9a43c5eecbb7b",
+            "words": 22,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -865,38 +2664,148 @@
           "translation": "我们之所以能区分自愿和非自愿兼职就业，是因为受访者会告诉我们。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "know",
+              "lemma": "know",
+              "pos": "v",
+              "meaning": "知道；分辨",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 11,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 22,
+              "word": "difference",
+              "lemma": "difference",
+              "pos": "n",
+              "meaning": "区别",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 30,
+              "word": "between",
+              "lemma": "between",
+              "pos": "prep",
+              "meaning": "在……之间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 40,
+              "word": "voluntary",
+              "lemma": "voluntary",
+              "pos": "a",
+              "meaning": "自愿的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 44,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
               "a": 45,
               "b": 56,
               "word": "involuntary",
               "lemma": "involuntary",
+              "pos": "a",
               "meaning": "非自愿的；被迫的",
-              "pos": "a"
+              "reviewVersion": 2
             },
             {
               "a": 57,
               "b": 66,
               "word": "part-time",
               "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "pos": "a"
-            }
-          ],
-          "phrases": [
+              "pos": "a",
+              "meaning": "非全日制的；兼职的",
+              "reviewVersion": 2
+            },
             {
-              "a": 57,
-              "b": 66,
-              "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "word": "part-time"
+              "a": 67,
+              "b": 77,
+              "word": "employment",
+              "lemma": "employment",
+              "pos": "n",
+              "meaning": "就业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 85,
+              "word": "because",
+              "lemma": "because",
+              "pos": "conj",
+              "meaning": "因为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 92,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 97,
+              "word": "tell",
+              "lemma": "tell",
+              "pos": "v",
+              "meaning": "告诉",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 100,
+              "word": "us",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们（宾格）",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "区别基于受访者自述，不凭调查者推断动机。",
+            "sentenceSHA256": "71728168070a2f5f67d290242a79a1df30c3067043d5d1a503796f0300cfeda7",
+            "words": 14,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T4-P5-S2",
@@ -940,12 +2849,175 @@
           "translation": "劳工部采用的调查会询问受访者，在统计参照周内是否工作不足35小时。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 10,
+              "word": "survey",
+              "lemma": "survey",
+              "pos": "n",
+              "meaning": "调查",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 15,
+              "word": "used",
+              "lemma": "use",
+              "pos": "v",
+              "meaning": "采用；使用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 18,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "由（劳工部采用）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 28,
+              "word": "Labor",
+              "lemma": "labor",
+              "pos": "n",
+              "meaning": "劳动；劳工",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 39,
+              "word": "Department",
+              "lemma": "department",
+              "pos": "n",
+              "meaning": "部门（Labor Department为劳工部）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 44,
+              "word": "asks",
+              "lemma": "ask",
+              "pos": "v",
+              "meaning": "询问",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 51,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 54,
+              "word": "if",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "是否（引出调查问题）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 59,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 66,
+              "word": "worked",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 71,
+              "word": "less",
+              "lemma": "less",
+              "pos": "adv",
+              "meaning": "更少",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 76,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 85,
+              "word": "hours",
+              "lemma": "hour",
+              "pos": "n",
+              "meaning": "小时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 88,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 92,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 93,
               "b": 102,
               "word": "reference",
               "lemma": "reference",
+              "pos": "a",
               "meaning": "供统计参照的",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 107,
+              "word": "week",
+              "lemma": "week",
+              "pos": "n",
+              "meaning": "周",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -954,7 +3026,8 @@
               "b": 107,
               "word": "reference week",
               "lemma": "reference week",
-              "meaning": "统计参照周；调查所针对的一周"
+              "meaning": "统计参照周；调查所针对的一周",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -963,7 +3036,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "if为是否，参照周工作不足35小时，不含正好35小时。",
+            "sentenceSHA256": "9dd5fe9869040bc3dc9596330b542471c5206990274f46e9c3026026d2f9f0e8",
+            "words": 19,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2015-T4-P5-S3",
@@ -995,37 +3076,121 @@
           "translation": "如果答案是“是”，就将其归为兼职工作者。",
           "words": [
             {
-              "a": 55,
-              "b": 64,
-              "word": "part-time",
-              "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "pos": "a"
+              "a": 0,
+              "b": 2,
+              "word": "If",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "如果",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 6,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 13,
+              "word": "answer",
+              "lemma": "answer",
+              "pos": "n",
+              "meaning": "回答",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 16,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 21,
+              "word": "yes",
+              "lemma": "yes",
+              "pos": "adv",
+              "meaning": "是；肯定回答",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 28,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 32,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与classified构成被动语态",
+              "reviewVersion": 2
             },
             {
               "a": 33,
               "b": 43,
               "word": "classified",
               "lemma": "classify",
-              "meaning": "分类；归类"
-            }
-          ],
-          "phrases": [
+              "pos": "v",
+              "meaning": "分类；归类",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 46,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "归类为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 54,
+              "word": "working",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "从事工作",
+              "reviewVersion": 2
+            },
             {
               "a": 55,
               "b": 64,
+              "word": "part-time",
               "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "word": "part-time"
+              "pos": "a",
+              "meaning": "非全日制的；兼职的",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "回答为是仅归类兼职，尚未区分是否自愿。",
+            "sentenceSHA256": "6d29c88753f1363d82d18ddca110ffcee369ffa7ebeba3d43b4871aeccef975e",
+            "words": 11,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T4-P5-S4",
@@ -1061,7 +3226,260 @@
           ],
           "reorder": "whether...or 为两种原因的选择，前者自愿后者被迫；不把35小时重复理解成两个标准。",
           "translation": "调查接着询问，他们那周工作不足35小时，是自己想少于全职时长工作，还是别无选择。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 10,
+              "word": "survey",
+              "lemma": "survey",
+              "pos": "n",
+              "meaning": "调查",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 15,
+              "word": "then",
+              "lemma": "then",
+              "pos": "adv",
+              "meaning": "然后",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "asks",
+              "lemma": "ask",
+              "pos": "v",
+              "meaning": "询问",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 28,
+              "word": "whether",
+              "lemma": "whether",
+              "pos": "conj",
+              "meaning": "是否",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 40,
+              "word": "worked",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 45,
+              "word": "less",
+              "lemma": "less",
+              "pos": "adv",
+              "meaning": "更少",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 50,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 59,
+              "word": "hours",
+              "lemma": "hour",
+              "pos": "n",
+              "meaning": "小时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 62,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 67,
+              "word": "that",
+              "lemma": "that",
+              "pos": "det",
+              "meaning": "那一个（指统计参照周）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 72,
+              "word": "week",
+              "lemma": "week",
+              "pos": "n",
+              "meaning": "周",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 80,
+              "word": "because",
+              "lemma": "because",
+              "pos": "conj",
+              "meaning": "因为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 85,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 92,
+              "word": "wanted",
+              "lemma": "want",
+              "pos": "v",
+              "meaning": "想要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 95,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 100,
+              "word": "work",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 105,
+              "word": "less",
+              "lemma": "less",
+              "pos": "adv",
+              "meaning": "更少",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 110,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 115,
+              "word": "full",
+              "lemma": "full",
+              "pos": "a",
+              "meaning": "充分的；全额的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 120,
+              "word": "time",
+              "lemma": "time",
+              "pos": "n",
+              "meaning": "时期；时段",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 123,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 131,
+              "word": "because",
+              "lemma": "because",
+              "pos": "conj",
+              "meaning": "因为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 136,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 140,
+              "word": "had",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "有；拥有（have no choice整体为别无选择）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 143,
+              "word": "no",
+              "lemma": "no",
+              "pos": "det",
+              "meaning": "没有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 150,
+              "word": "choice",
+              "lemma": "choice",
+              "pos": "n",
+              "meaning": "选择",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -1069,7 +3487,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "再问少于35小时的原因：主动选择或别无选择，had实义有。",
+            "sentenceSHA256": "275c93b236fd84f24e78a1fcb551b44c103542fef4c93922223de2e1ce06de64",
+            "words": 28,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T4-P5-S5",
@@ -1107,53 +3533,229 @@
           "translation": "只有受访者告诉调查员，自己主动选择每周工作不足35小时，才会被归为自愿兼职工作者。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "They",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 8,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与classified构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 13,
+              "word": "only",
+              "lemma": "only",
+              "pos": "adv",
+              "meaning": "仅仅；只有",
+              "reviewVersion": 2
+            },
+            {
               "a": 14,
               "b": 24,
               "word": "classified",
               "lemma": "classify",
-              "meaning": "归类；划分",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "分类；归类",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 27,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "归类为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 37,
+              "word": "voluntary",
+              "lemma": "voluntary",
+              "pos": "a",
+              "meaning": "自愿的",
+              "reviewVersion": 2
             },
             {
               "a": 38,
               "b": 47,
               "word": "part-time",
               "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "非全日制的；兼职的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 55,
+              "word": "workers",
+              "lemma": "worker",
+              "pos": "n",
+              "meaning": "工作者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 58,
+              "word": "if",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "只有在……条件下（受only限定）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 63,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 68,
+              "word": "tell",
+              "lemma": "tell",
+              "pos": "v",
+              "meaning": "告诉",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 72,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 79,
+              "word": "survey",
+              "lemma": "survey",
+              "pos": "n",
+              "meaning": "调查",
+              "reviewVersion": 2
             },
             {
               "a": 80,
               "b": 85,
               "word": "taker",
               "lemma": "taker",
-              "meaning": "调查执行者；访问员",
-              "pos": "n"
-            }
-          ],
-          "phrases": [
-            {
-              "a": 38,
-              "b": 47,
-              "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "word": "part-time"
+              "pos": "n",
+              "meaning": "调查执行者（survey taker整体为调查员）",
+              "reviewVersion": 2
             },
             {
-              "a": 73,
-              "b": 85,
-              "word": "survey taker",
-              "lemma": "survey taker",
-              "meaning": "调查员"
+              "a": 86,
+              "b": 90,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 96,
+              "word": "chose",
+              "lemma": "choose",
+              "pos": "v",
+              "meaning": "选择",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 99,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 104,
+              "word": "work",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 109,
+              "word": "less",
+              "lemma": "less",
+              "pos": "adv",
+              "meaning": "更少",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 114,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 123,
+              "word": "hours",
+              "lemma": "hour",
+              "pos": "n",
+              "meaning": "小时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 125,
+              "word": "a",
+              "lemma": "a",
+              "pos": "det",
+              "meaning": "每（a week每周）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 130,
+              "word": "week",
+              "lemma": "week",
+              "pos": "n",
+              "meaning": "周",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "only if为必要条件，a week中的a为每，不是不定数量。",
+            "sentenceSHA256": "d6f4959276df8df9577680b4c3ccaece0e7c888e61549b17c50efd15104f7c4a",
+            "words": 23,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -1197,52 +3799,238 @@
           "translation": "自愿兼职问题与奥巴马医改有关，因为医改的一个主要目的，就是让人们不必依赖工作也能获得医疗保险。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 4,
               "b": 9,
               "word": "issue",
               "lemma": "issue",
-              "meaning": "议题；所讨论的问题",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "问题；讨论的议题",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 12,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 22,
+              "word": "voluntary",
+              "lemma": "voluntary",
+              "pos": "a",
+              "meaning": "自愿的",
+              "reviewVersion": 2
             },
             {
               "a": 23,
               "b": 32,
               "word": "part-time",
               "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "非全日制的；兼职的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 40,
+              "word": "relates",
+              "lemma": "relate",
+              "pos": "v",
+              "meaning": "有关联；相关",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 43,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "与……有关（relate to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 53,
+              "word": "Obamacare",
+              "lemma": "Obamacare",
+              "pos": "name",
+              "meaning": "奥巴马医改；《平价医疗法案》的通称",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 61,
+              "word": "because",
+              "lemma": "because",
+              "pos": "conj",
+              "meaning": "因为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 65,
+              "word": "one",
+              "lemma": "one",
+              "pos": "num",
+              "meaning": "一个；一项",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 68,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "其中一个（one of）的范围",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 72,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 77,
+              "word": "main",
+              "lemma": "main",
+              "pos": "a",
+              "meaning": "主要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 86,
+              "word": "purposes",
+              "lemma": "purpose",
+              "pos": "n",
+              "meaning": "目的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 90,
+              "word": "was",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态（过去）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 93,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 99,
+              "word": "allow",
+              "lemma": "allow",
+              "pos": "v",
+              "meaning": "让；使能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 106,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 109,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 113,
+              "word": "get",
+              "lemma": "get",
+              "pos": "v",
+              "meaning": "达到；恢复（get back）",
+              "reviewVersion": 2
             },
             {
               "a": 114,
               "b": 123,
               "word": "insurance",
               "lemma": "insurance",
-              "meaning": "医疗保险（本文语境）"
-            }
-          ],
-          "phrases": [
-            {
-              "a": 23,
-              "b": 32,
-              "lemma": "part-time",
-              "meaning": "兼职的；非全日制的",
-              "word": "part-time"
+              "pos": "n",
+              "meaning": "医疗保险",
+              "reviewVersion": 2
             },
             {
               "a": 124,
+              "b": 131,
+              "word": "outside",
+              "lemma": "outside",
+              "pos": "prep",
+              "meaning": "在……之外；不依附于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 134,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
               "b": 145,
-              "lemma": "outside of employment",
-              "meaning": "不依附于工作关系的",
-              "word": "outside of employment"
+              "word": "employment",
+              "lemma": "employment",
+              "pos": "n",
+              "meaning": "就业",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "主旨是让医保脱离就业依附，outside employment不指工作场所外。",
+            "sentenceSHA256": "74c94e65fc12b43ba1e3153d8f429036fcfc6ee998309dc0019d151054e4db76",
+            "words": 24,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T4-P6-S2",
@@ -1292,59 +4080,318 @@
           "translation": "在奥巴马医改之前，对许多人，尤其是自己或家人有严重健康问题的人来说，获得医疗保险的唯一办法，就是找到一份提供医保的工作。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "For",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对……来说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "many",
+              "lemma": "many",
+              "pos": "det",
+              "meaning": "许多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 15,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 27,
+              "word": "especially",
+              "lemma": "especially",
+              "pos": "adv",
+              "meaning": "尤其",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 33,
+              "word": "those",
+              "lemma": "those",
+              "pos": "pron",
+              "meaning": "那些人或事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 38,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "患有；存在（健康问题）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 46,
+              "word": "serious",
+              "lemma": "serious",
+              "pos": "a",
+              "meaning": "严重的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 53,
+              "word": "health",
+              "lemma": "health",
+              "pos": "n",
+              "meaning": "健康",
+              "reviewVersion": 2
+            },
+            {
               "a": 54,
               "b": 64,
               "word": "conditions",
               "lemma": "condition",
-              "meaning": "疾病；健康状况",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "疾病；健康问题",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 67,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 74,
+              "word": "family",
+              "lemma": "family",
+              "pos": "n",
+              "meaning": "家人；家庭",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 82,
+              "word": "members",
+              "lemma": "member",
+              "pos": "n",
+              "meaning": "成员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 87,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "患有；存在（健康问题）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 95,
+              "word": "serious",
+              "lemma": "serious",
+              "pos": "a",
+              "meaning": "严重的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 102,
+              "word": "health",
+              "lemma": "health",
+              "pos": "n",
+              "meaning": "健康",
+              "reviewVersion": 2
             },
             {
               "a": 103,
               "b": 113,
               "word": "conditions",
               "lemma": "condition",
-              "meaning": "疾病；健康状况",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "疾病；健康问题",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 121,
+              "word": "before",
+              "lemma": "before",
+              "pos": "prep",
+              "meaning": "在……之前",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 131,
+              "word": "Obamacare",
+              "lemma": "Obamacare",
+              "pos": "name",
+              "meaning": "奥巴马医改；《平价医疗法案》的通称",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 135,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 140,
+              "word": "only",
+              "lemma": "only",
+              "pos": "adv",
+              "meaning": "仅仅；只有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 144,
+              "word": "way",
+              "lemma": "way",
+              "pos": "n",
+              "meaning": "路程；进程",
+              "reviewVersion": 2
+            },
+            {
+              "a": 145,
+              "b": 147,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 148,
+              "b": 151,
+              "word": "get",
+              "lemma": "get",
+              "pos": "v",
+              "meaning": "达到；恢复（get back）",
+              "reviewVersion": 2
             },
             {
               "a": 152,
               "b": 161,
               "word": "insurance",
               "lemma": "insurance",
+              "pos": "n",
               "meaning": "医疗保险",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 162,
+              "b": 165,
+              "word": "was",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态（过去）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 166,
+              "b": 173,
+              "word": "through",
+              "lemma": "through",
+              "pos": "prep",
+              "meaning": "通过；经由",
+              "reviewVersion": 2
+            },
+            {
+              "a": 174,
+              "b": 175,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 176,
+              "b": 179,
+              "word": "job",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 180,
+              "b": 184,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指一份提供医保的工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 185,
+              "b": 193,
+              "word": "provided",
+              "lemma": "provide",
+              "pos": "v",
+              "meaning": "提供",
+              "reviewVersion": 2
+            },
+            {
+              "a": 194,
+              "b": 200,
+              "word": "health",
+              "lemma": "health",
+              "pos": "n",
+              "meaning": "健康",
+              "reviewVersion": 2
             },
             {
               "a": 201,
               "b": 210,
               "word": "insurance",
               "lemma": "insurance",
+              "pos": "n",
               "meaning": "医疗保险",
-              "pos": "n"
+              "reviewVersion": 2
             }
           ],
           "phrases": [
-            {
-              "a": 194,
-              "b": 210,
-              "lemma": "health insurance",
-              "meaning": "医疗保险",
-              "word": "health insurance"
-            },
             {
               "a": 47,
               "b": 64,
               "word": "health conditions",
               "lemma": "health condition",
-              "meaning": "健康问题；疾病状况"
+              "meaning": "健康问题；疾病状况",
+              "kind": "phrase"
             },
             {
               "a": 96,
               "b": 113,
               "word": "health conditions",
               "lemma": "health condition",
-              "meaning": "健康问题；疾病状况"
+              "meaning": "健康问题；疾病状况",
+              "kind": "phrase"
+            },
+            {
+              "a": 194,
+              "b": 210,
+              "lemma": "health insurance",
+              "meaning": "医疗保险",
+              "word": "health insurance",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1353,7 +4400,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "健康状况指疾病，家人有病亦在目标群体，that修饰提供医保的岗位。",
+            "sentenceSHA256": "1f951e775e890ec18d6324b03fba33db644ae1907cff81a991ed9751b523101d",
+            "words": 32,
+            "phrases": 3,
+            "names": 0
+          }
         }
       ]
     },
@@ -1397,26 +4452,157 @@
           "translation": "然而，奥巴马医改已让超过1200万人能通过医疗补助计划或医保交易平台获得保险。",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "However",
+              "lemma": "however",
+              "pos": "adv",
+              "meaning": "然而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 18,
+              "word": "Obamacare",
+              "lemma": "Obamacare",
+              "pos": "name",
+              "meaning": "奥巴马医改；《平价医疗法案》的通称",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成完成时，不单独译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 30,
+              "word": "allowed",
+              "lemma": "allow",
+              "pos": "v",
+              "meaning": "使能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 35,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更；更多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 40,
+              "word": "than",
+              "lemma": "than",
+              "pos": "prep",
+              "meaning": "与more组成“超过”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 51,
+              "word": "million",
+              "lemma": "million",
+              "pos": "num",
+              "meaning": "百万",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 58,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 61,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 68,
+              "word": "either",
+              "lemma": "either",
+              "pos": "conj",
+              "meaning": "或者（either...or）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 72,
+              "word": "get",
+              "lemma": "get",
+              "pos": "v",
+              "meaning": "达到；恢复（get back）",
+              "reviewVersion": 2
+            },
+            {
               "a": 73,
               "b": 82,
               "word": "insurance",
               "lemma": "insurance",
+              "pos": "n",
               "meaning": "医疗保险",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 90,
+              "word": "through",
+              "lemma": "through",
+              "pos": "prep",
+              "meaning": "通过；经由",
+              "reviewVersion": 2
             },
             {
               "a": 91,
               "b": 99,
               "word": "Medicaid",
               "lemma": "Medicaid",
-              "meaning": "医疗补助计划（面向符合条件的低收入等人群）"
+              "pos": "name",
+              "meaning": "医疗补助计划（美国项目名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 102,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（两种医保渠道）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 106,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 107,
               "b": 116,
               "word": "exchanges",
               "lemma": "exchange",
-              "meaning": "医保交易平台"
+              "pos": "n",
+              "meaning": "医保交易平台",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1426,7 +4612,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "Medicaid和exchanges是两类医保渠道，不是证券交易所。",
+            "sentenceSHA256": "26ba2d3f4a92054a31d62e6c51c397510e53d5e0512a8be4df10c1ba2284b3dc",
+            "words": 17,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T4-P7-S2",
@@ -1470,36 +4664,248 @@
           "translation": "这些人以前可能觉得，必须找一份提供医保的全职工作，才能让自己和家人得到保险保障。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "These",
+              "lemma": "these",
+              "pos": "pron",
+              "meaning": "这些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 9,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 16,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 20,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指代前述的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 24,
+              "word": "may",
+              "lemma": "may",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 35,
+              "word": "previously",
+              "lemma": "previously",
+              "pos": "adv",
+              "meaning": "此前",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 40,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "助动词，与felt构成完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 45,
+              "word": "felt",
+              "lemma": "feel",
+              "pos": "v",
+              "meaning": "觉得；感到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 49,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 54,
+              "word": "need",
+              "lemma": "need",
+              "pos": "n",
+              "meaning": "必要性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 57,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 61,
+              "word": "get",
+              "lemma": "get",
+              "pos": "v",
+              "meaning": "达到；恢复（get back）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 63,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 64,
               "b": 73,
               "word": "full-time",
               "lemma": "full-time",
+              "pos": "a",
               "meaning": "全职的；全日制的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 77,
+              "word": "job",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 82,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指提供保险的工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 91,
+              "word": "provided",
+              "lemma": "provide",
+              "pos": "v",
+              "meaning": "提供",
+              "reviewVersion": 2
             },
             {
               "a": 92,
               "b": 101,
               "word": "insurance",
               "lemma": "insurance",
+              "pos": "n",
               "meaning": "医疗保险",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 104,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "与order to组成为了",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 110,
+              "word": "order",
+              "lemma": "order",
+              "pos": "n",
+              "meaning": "目的（in order to整体表示为了）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 113,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
             },
             {
               "a": 114,
               "b": 119,
               "word": "cover",
               "lemma": "cover",
-              "meaning": "为……提供保险保障"
+              "pos": "v",
+              "meaning": "为……提供保险保障",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 130,
+              "word": "themselves",
+              "lemma": "themselves",
+              "pos": "pron",
+              "meaning": "他们自己",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 134,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 140,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 149,
+              "word": "families",
+              "lemma": "family",
+              "pos": "n",
+              "meaning": "家人；家庭",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
-              "a": 64,
-              "b": 73,
-              "lemma": "full-time",
-              "meaning": "全职的；全日制的",
-              "word": "full-time"
+              "a": 102,
+              "b": 113,
+              "word": "in order to",
+              "lemma": "in order to",
+              "meaning": "为了",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1508,7 +4914,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "此前为家庭获得保险而需全职，cover是保险保障不是遮盖。",
+            "sentenceSHA256": "34a8fcee113d1971bcad527e270c79cc74626e4d7aae635028172dad7d0820d0",
+            "words": 26,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2015-T4-P7-S3",
@@ -1540,31 +4954,156 @@
           "translation": "按文中的说法，有了奥巴马医改，就业与保险不再绑定。",
           "words": [
             {
-              "a": 64,
-              "b": 73,
-              "word": "insurance",
-              "lemma": "insurance",
-              "meaning": "医疗保险",
-              "pos": "n"
+              "a": 0,
+              "b": 4,
+              "word": "With",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "随着；在实施医改的条件下",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 14,
+              "word": "Obamacare",
+              "lemma": "Obamacare",
+              "pos": "name",
+              "meaning": "奥巴马医改；《平价医疗法案》的通称",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 20,
+              "word": "there",
+              "lemma": "there",
+              "pos": "pron",
+              "meaning": "there be存在句引导词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 23,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "存在（there is）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 26,
+              "word": "no",
+              "lemma": "no",
+              "pos": "det",
+              "meaning": "没有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 33,
+              "word": "longer",
+              "lemma": "longer",
+              "pos": "adv",
+              "meaning": "更久（no longer整体为不再）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 35,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 36,
               "b": 40,
               "word": "link",
               "lemma": "link",
-              "meaning": "联系；绑定关系"
+              "pos": "n",
+              "meaning": "联系；绑定关系",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 48,
+              "word": "between",
+              "lemma": "between",
+              "pos": "prep",
+              "meaning": "在……之间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 59,
+              "word": "employment",
+              "lemma": "employment",
+              "pos": "n",
+              "meaning": "就业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 63,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 73,
+              "word": "insurance",
+              "lemma": "insurance",
+              "pos": "n",
+              "meaning": "医疗保险",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 24,
+              "b": 33,
+              "word": "no longer",
+              "lemma": "no longer",
+              "meaning": "不再",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "结论依文章历史语境呈现，不当作现行制度保证。",
+            "sentenceSHA256": "fc6a3be313b44f79de9a81da5de93c116b9dc89059e2e8199c6e997d8c53544d",
+            "words": 12,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "8ad6e99a874887aaee182268fc7c14d403533ad1260e4794aa4e0312c62226d8",
+    "sentences": 23,
+    "wordOccurrences": 418,
+    "notes": [
+      "重审自愿与非自愿兼职、同比增减、调查分类和医改历史语境；所有英文词位置有独立释义。"
+    ]
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

@@ -3,9 +3,9 @@
   "sentences": 1282,
   "reviewedSentences": 1282,
   "verifiedArticles": 68,
-  "fullAuditArticles": 3,
-  "fullAuditSentences": 57,
-  "fullAuditWords": 1158,
+  "fullAuditArticles": 68,
+  "fullAuditSentences": 1282,
+  "fullAuditWords": 26887,
   "items": [
     {
       "id": "2010-T1",
@@ -15,7 +15,8 @@
       "source": "verified",
       "sentences": 19,
       "reviewed": 19,
-      "revision": "8b20050c2ef6"
+      "fullWordAudit": true,
+      "revision": "a45ef2f17e7d"
     },
     {
       "id": "2010-T2",
@@ -25,7 +26,8 @@
       "source": "verified",
       "sentences": 19,
       "reviewed": 19,
-      "revision": "aa040c01d7bb"
+      "fullWordAudit": true,
+      "revision": "56cb222f95a7"
     },
     {
       "id": "2010-T3",
@@ -35,7 +37,8 @@
       "source": "verified",
       "sentences": 16,
       "reviewed": 16,
-      "revision": "111c275a6db5"
+      "fullWordAudit": true,
+      "revision": "3afbbbed1a76"
     },
     {
       "id": "2010-T4",
@@ -45,7 +48,8 @@
       "source": "verified",
       "sentences": 14,
       "reviewed": 14,
-      "revision": "d927b30d7fff"
+      "fullWordAudit": true,
+      "revision": "598a1c21b0e5"
     },
     {
       "id": "2011-T1",
@@ -55,7 +59,8 @@
       "source": "verified",
       "sentences": 19,
       "reviewed": 19,
-      "revision": "4c28483b36b8"
+      "fullWordAudit": true,
+      "revision": "67cf07293338"
     },
     {
       "id": "2011-T2",
@@ -65,7 +70,8 @@
       "source": "verified",
       "sentences": 30,
       "reviewed": 30,
-      "revision": "d3e06b525689"
+      "fullWordAudit": true,
+      "revision": "9eef049357bf"
     },
     {
       "id": "2011-T3",
@@ -75,7 +81,8 @@
       "source": "verified",
       "sentences": 17,
       "reviewed": 17,
-      "revision": "aa88150139ee"
+      "fullWordAudit": true,
+      "revision": "a0f0a4d1ed2f"
     },
     {
       "id": "2011-T4",
@@ -85,7 +92,8 @@
       "source": "verified",
       "sentences": 17,
       "reviewed": 17,
-      "revision": "0870af872685"
+      "fullWordAudit": true,
+      "revision": "d3aaa0a4e6ed"
     },
     {
       "id": "2012-T1",
@@ -95,7 +103,8 @@
       "source": "verified",
       "sentences": 18,
       "reviewed": 18,
-      "revision": "c4d680e38c8d"
+      "fullWordAudit": true,
+      "revision": "9d89be302ed1"
     },
     {
       "id": "2012-T2",
@@ -105,7 +114,8 @@
       "source": "verified",
       "sentences": 18,
       "reviewed": 18,
-      "revision": "746ea57cbfb4"
+      "fullWordAudit": true,
+      "revision": "e43a54744547"
     },
     {
       "id": "2012-T3",
@@ -115,7 +125,8 @@
       "source": "verified",
       "sentences": 24,
       "reviewed": 24,
-      "revision": "526b3b0d45c0"
+      "fullWordAudit": true,
+      "revision": "efce4be9792b"
     },
     {
       "id": "2012-T4",
@@ -125,7 +136,8 @@
       "source": "verified",
       "sentences": 18,
       "reviewed": 18,
-      "revision": "d19c29c60378"
+      "fullWordAudit": true,
+      "revision": "def8946eac7d"
     },
     {
       "id": "2013-T1",
@@ -135,7 +147,8 @@
       "source": "verified",
       "sentences": 14,
       "reviewed": 14,
-      "revision": "01311f47d78b"
+      "fullWordAudit": true,
+      "revision": "2f3cfb3bc505"
     },
     {
       "id": "2013-T2",
@@ -145,7 +158,8 @@
       "source": "verified",
       "sentences": 22,
       "reviewed": 22,
-      "revision": "e87895c6d1be"
+      "fullWordAudit": true,
+      "revision": "020e24591c86"
     },
     {
       "id": "2013-T3",
@@ -155,7 +169,8 @@
       "source": "verified",
       "sentences": 17,
       "reviewed": 17,
-      "revision": "84a2fd8749e5"
+      "fullWordAudit": true,
+      "revision": "61e0fa92d671"
     },
     {
       "id": "2013-T4",
@@ -165,7 +180,8 @@
       "source": "verified",
       "sentences": 18,
       "reviewed": 18,
-      "revision": "fa7a7b4ba34f"
+      "fullWordAudit": true,
+      "revision": "6fe2e14c78fd"
     },
     {
       "id": "2014-T1",
@@ -175,7 +191,8 @@
       "source": "verified",
       "sentences": 18,
       "reviewed": 18,
-      "revision": "8cdec3f3c911"
+      "fullWordAudit": true,
+      "revision": "642d85d662fc"
     },
     {
       "id": "2014-T2",
@@ -185,7 +202,8 @@
       "source": "verified",
       "sentences": 19,
       "reviewed": 19,
-      "revision": "2e0e500f43ce"
+      "fullWordAudit": true,
+      "revision": "de4305c6ee35"
     },
     {
       "id": "2014-T3",
@@ -195,7 +213,8 @@
       "source": "verified",
       "sentences": 19,
       "reviewed": 19,
-      "revision": "985e2bb5376c"
+      "fullWordAudit": true,
+      "revision": "0cad416a302d"
     },
     {
       "id": "2014-T4",
@@ -205,7 +224,8 @@
       "source": "verified",
       "sentences": 22,
       "reviewed": 22,
-      "revision": "d307a68de2a2"
+      "fullWordAudit": true,
+      "revision": "508f5a0ea202"
     },
     {
       "id": "2015-T1",
@@ -215,7 +235,8 @@
       "source": "verified",
       "sentences": 24,
       "reviewed": 24,
-      "revision": "4492ef49ad4d"
+      "fullWordAudit": true,
+      "revision": "38247a6269ed"
     },
     {
       "id": "2015-T2",
@@ -225,7 +246,8 @@
       "source": "verified",
       "sentences": 13,
       "reviewed": 13,
-      "revision": "321d8b0dd56e"
+      "fullWordAudit": true,
+      "revision": "a2e6a9e13618"
     },
     {
       "id": "2015-T3",
@@ -235,7 +257,8 @@
       "source": "verified",
       "sentences": 17,
       "reviewed": 17,
-      "revision": "619dbc93dd3d"
+      "fullWordAudit": true,
+      "revision": "28a2f9238313"
     },
     {
       "id": "2015-T4",
@@ -245,7 +268,8 @@
       "source": "verified",
       "sentences": 23,
       "reviewed": 23,
-      "revision": "285c2e1e0095"
+      "fullWordAudit": true,
+      "revision": "544f34bad5b9"
     },
     {
       "id": "2016-T1",
@@ -255,7 +279,8 @@
       "source": "verified",
       "sentences": 18,
       "reviewed": 18,
-      "revision": "9547a30ff6c1"
+      "fullWordAudit": true,
+      "revision": "f5a312927259"
     },
     {
       "id": "2016-T2",
@@ -265,7 +290,8 @@
       "source": "verified",
       "sentences": 18,
       "reviewed": 18,
-      "revision": "70b9b41d8c27"
+      "fullWordAudit": true,
+      "revision": "e5a98120eee9"
     },
     {
       "id": "2016-T3",
@@ -275,7 +301,8 @@
       "source": "verified",
       "sentences": 21,
       "reviewed": 21,
-      "revision": "dc8e90c1c641"
+      "fullWordAudit": true,
+      "revision": "444199cdbce6"
     },
     {
       "id": "2016-T4",
@@ -285,7 +312,8 @@
       "source": "verified",
       "sentences": 13,
       "reviewed": 13,
-      "revision": "ececb12c5f0b"
+      "fullWordAudit": true,
+      "revision": "0a92b8684c0e"
     },
     {
       "id": "2017-T1",
@@ -295,7 +323,8 @@
       "source": "verified",
       "sentences": 25,
       "reviewed": 25,
-      "revision": "cd61cc295edb"
+      "fullWordAudit": true,
+      "revision": "bd0946e5e1a5"
     },
     {
       "id": "2017-T2",
@@ -305,7 +334,8 @@
       "source": "verified",
       "sentences": 15,
       "reviewed": 15,
-      "revision": "f73913c1a5c1"
+      "fullWordAudit": true,
+      "revision": "0b9f451cd4bb"
     },
     {
       "id": "2017-T3",
@@ -315,7 +345,8 @@
       "source": "verified",
       "sentences": 16,
       "reviewed": 16,
-      "revision": "b3a663155bde"
+      "fullWordAudit": true,
+      "revision": "337a5ebefe1b"
     },
     {
       "id": "2017-T4",
@@ -325,7 +356,8 @@
       "source": "verified",
       "sentences": 20,
       "reviewed": 20,
-      "revision": "30bf28b634e5"
+      "fullWordAudit": true,
+      "revision": "5decd149022f"
     },
     {
       "id": "2018-T1",
@@ -335,7 +367,8 @@
       "source": "verified",
       "sentences": 24,
       "reviewed": 24,
-      "revision": "a417c149ffc8"
+      "fullWordAudit": true,
+      "revision": "241735072f1e"
     },
     {
       "id": "2018-T2",
@@ -345,7 +378,8 @@
       "source": "verified",
       "sentences": 19,
       "reviewed": 19,
-      "revision": "3bd318885835"
+      "fullWordAudit": true,
+      "revision": "52f1d864748a"
     },
     {
       "id": "2018-T3",
@@ -355,7 +389,8 @@
       "source": "verified",
       "sentences": 18,
       "reviewed": 18,
-      "revision": "7ee2d10b8c78"
+      "fullWordAudit": true,
+      "revision": "8c07874fdffb"
     },
     {
       "id": "2018-T4",
@@ -365,7 +400,8 @@
       "source": "verified",
       "sentences": 15,
       "reviewed": 15,
-      "revision": "26791f7ade62"
+      "fullWordAudit": true,
+      "revision": "755c2b87925a"
     },
     {
       "id": "2019-T1",
@@ -375,7 +411,8 @@
       "source": "verified",
       "sentences": 24,
       "reviewed": 24,
-      "revision": "08bd2a74cbef"
+      "fullWordAudit": true,
+      "revision": "95d66418eb5c"
     },
     {
       "id": "2019-T2",
@@ -385,7 +422,8 @@
       "source": "verified",
       "sentences": 21,
       "reviewed": 21,
-      "revision": "772b9ace07f8"
+      "fullWordAudit": true,
+      "revision": "65cf2a29d5f7"
     },
     {
       "id": "2019-T3",
@@ -395,7 +433,8 @@
       "source": "verified",
       "sentences": 27,
       "reviewed": 27,
-      "revision": "a485b5256b3c"
+      "fullWordAudit": true,
+      "revision": "bd5f55f4fefd"
     },
     {
       "id": "2019-T4",
@@ -405,7 +444,8 @@
       "source": "verified",
       "sentences": 20,
       "reviewed": 20,
-      "revision": "bfe4e4051e01"
+      "fullWordAudit": true,
+      "revision": "b506ddb36e24"
     },
     {
       "id": "2020-T1",
@@ -415,7 +455,8 @@
       "source": "verified",
       "sentences": 18,
       "reviewed": 18,
-      "revision": "1a53d207e12d"
+      "fullWordAudit": true,
+      "revision": "728463c907a5"
     },
     {
       "id": "2020-T2",
@@ -425,7 +466,8 @@
       "source": "verified",
       "sentences": 19,
       "reviewed": 19,
-      "revision": "6ca828ffa3f9"
+      "fullWordAudit": true,
+      "revision": "7f72393000fe"
     },
     {
       "id": "2020-T3",
@@ -435,7 +477,8 @@
       "source": "verified",
       "sentences": 20,
       "reviewed": 20,
-      "revision": "5539a2c29835"
+      "fullWordAudit": true,
+      "revision": "d469114a652d"
     },
     {
       "id": "2020-T4",
@@ -445,7 +488,8 @@
       "source": "verified",
       "sentences": 18,
       "reviewed": 18,
-      "revision": "8aa2a4e3c1e9"
+      "fullWordAudit": true,
+      "revision": "b5c2114a3801"
     },
     {
       "id": "2021-T1",
@@ -455,7 +499,8 @@
       "source": "verified",
       "sentences": 19,
       "reviewed": 19,
-      "revision": "b60d9740ae8c"
+      "fullWordAudit": true,
+      "revision": "bbee5b0ddf33"
     },
     {
       "id": "2021-T2",
@@ -465,7 +510,8 @@
       "source": "verified",
       "sentences": 16,
       "reviewed": 16,
-      "revision": "70e6f2aaa057"
+      "fullWordAudit": true,
+      "revision": "0612ec5158fd"
     },
     {
       "id": "2021-T3",
@@ -475,7 +521,8 @@
       "source": "verified",
       "sentences": 16,
       "reviewed": 16,
-      "revision": "fbeb269a91d3"
+      "fullWordAudit": true,
+      "revision": "ce86824f07cc"
     },
     {
       "id": "2021-T4",
@@ -485,7 +532,8 @@
       "source": "verified",
       "sentences": 21,
       "reviewed": 21,
-      "revision": "3550969783ca"
+      "fullWordAudit": true,
+      "revision": "0161fa2df518"
     },
     {
       "id": "2022-T1",
@@ -495,7 +543,8 @@
       "source": "verified",
       "sentences": 19,
       "reviewed": 19,
-      "revision": "f69ac5a26a61"
+      "fullWordAudit": true,
+      "revision": "0daad3e10b9a"
     },
     {
       "id": "2022-T2",
@@ -505,7 +554,8 @@
       "source": "verified",
       "sentences": 20,
       "reviewed": 20,
-      "revision": "5809100a623d"
+      "fullWordAudit": true,
+      "revision": "0395c1402ac4"
     },
     {
       "id": "2022-T3",
@@ -515,7 +565,8 @@
       "source": "verified",
       "sentences": 17,
       "reviewed": 17,
-      "revision": "fc147a222881"
+      "fullWordAudit": true,
+      "revision": "c18f753f34a2"
     },
     {
       "id": "2022-T4",
@@ -525,7 +576,8 @@
       "source": "verified",
       "sentences": 18,
       "reviewed": 18,
-      "revision": "9cef4b369b8b"
+      "fullWordAudit": true,
+      "revision": "c60ec40f0cda"
     },
     {
       "id": "2023-T1",
@@ -535,7 +587,8 @@
       "source": "verified",
       "sentences": 16,
       "reviewed": 16,
-      "revision": "2c13a5f563fc"
+      "fullWordAudit": true,
+      "revision": "5f0cdef38158"
     },
     {
       "id": "2023-T2",
@@ -545,7 +598,8 @@
       "source": "verified",
       "sentences": 18,
       "reviewed": 18,
-      "revision": "f8f39d438257"
+      "fullWordAudit": true,
+      "revision": "f58e6cd64d59"
     },
     {
       "id": "2023-T3",
@@ -555,7 +609,8 @@
       "source": "verified",
       "sentences": 20,
       "reviewed": 20,
-      "revision": "f3719ff23929"
+      "fullWordAudit": true,
+      "revision": "32e73d81712f"
     },
     {
       "id": "2023-T4",
@@ -565,7 +620,8 @@
       "source": "verified",
       "sentences": 24,
       "reviewed": 24,
-      "revision": "cbcac0c9b618"
+      "fullWordAudit": true,
+      "revision": "8a228760bc87"
     },
     {
       "id": "2024-T1",
@@ -575,7 +631,8 @@
       "source": "verified",
       "sentences": 17,
       "reviewed": 17,
-      "revision": "8ca5ef52d5fd"
+      "fullWordAudit": true,
+      "revision": "ca8a585026bc"
     },
     {
       "id": "2024-T2",
@@ -585,7 +642,8 @@
       "source": "verified",
       "sentences": 14,
       "reviewed": 14,
-      "revision": "c9c1426a32c0"
+      "fullWordAudit": true,
+      "revision": "583ba8d583dc"
     },
     {
       "id": "2024-T3",
@@ -595,7 +653,8 @@
       "source": "verified",
       "sentences": 17,
       "reviewed": 17,
-      "revision": "554d3fd9d14f"
+      "fullWordAudit": true,
+      "revision": "fbfa6e97fbdd"
     },
     {
       "id": "2024-T4",
@@ -605,7 +664,8 @@
       "source": "verified",
       "sentences": 16,
       "reviewed": 16,
-      "revision": "7ddfce7306b8"
+      "fullWordAudit": true,
+      "revision": "a802d21da895"
     },
     {
       "id": "2025-T1",
@@ -615,7 +675,8 @@
       "source": "verified",
       "sentences": 20,
       "reviewed": 20,
-      "revision": "14fb5f553d3a"
+      "fullWordAudit": true,
+      "revision": "59302289503e"
     },
     {
       "id": "2025-T2",
@@ -625,7 +686,8 @@
       "source": "verified",
       "sentences": 18,
       "reviewed": 18,
-      "revision": "5ac7289baa28"
+      "fullWordAudit": true,
+      "revision": "1b89311beaf5"
     },
     {
       "id": "2025-T3",
@@ -635,7 +697,8 @@
       "source": "verified",
       "sentences": 21,
       "reviewed": 21,
-      "revision": "40e101089fce"
+      "fullWordAudit": true,
+      "revision": "58cf807b040a"
     },
     {
       "id": "2025-T4",
@@ -645,7 +708,8 @@
       "source": "verified",
       "sentences": 15,
       "reviewed": 15,
-      "revision": "f294a51542a7"
+      "fullWordAudit": true,
+      "revision": "d3e44bed7b7e"
     },
     {
       "id": "2026-T1",
@@ -655,7 +719,8 @@
       "source": "verified",
       "sentences": 19,
       "reviewed": 19,
-      "revision": "a4e9cec0bbef"
+      "fullWordAudit": true,
+      "revision": "6f9a357c36c7"
     },
     {
       "id": "2026-T2",
@@ -665,7 +730,8 @@
       "source": "verified",
       "sentences": 21,
       "reviewed": 21,
-      "revision": "c3655c87f7d9"
+      "fullWordAudit": true,
+      "revision": "3116eec173e2"
     },
     {
       "id": "2026-T3",
@@ -675,7 +741,8 @@
       "source": "verified",
       "sentences": 18,
       "reviewed": 18,
-      "revision": "039b685a7bfc"
+      "fullWordAudit": true,
+      "revision": "ccf0435048a6"
     },
     {
       "id": "2026-T4",
@@ -685,7 +752,656 @@
       "source": "verified",
       "sentences": 18,
       "reviewed": 18,
-      "revision": "35e39363a5ad"
+      "fullWordAudit": true,
+      "revision": "b522319f229b"
     }
-  ]
+  ],
+  "phrasePolicy": {
+    "version": 1,
+    "approved": [
+      "a big deal",
+      "a break from",
+      "a dozen",
+      "a drop in the ocean",
+      "a great deal",
+      "a handful of",
+      "a hard sell",
+      "a hive of activity",
+      "about to",
+      "above average effect",
+      "accepted wisdom",
+      "according to",
+      "account for",
+      "achievement gap",
+      "adhere to",
+      "affirmative consent",
+      "after all",
+      "after the fact",
+      "agree on",
+      "air freshener",
+      "align with",
+      "all along",
+      "all day long",
+      "all the more so",
+      "all the same",
+      "all-time low",
+      "alternative energy",
+      "amount to",
+      "animal husbandry",
+      "annual average",
+      "appeals court",
+      "apply to",
+      "are entitled to",
+      "around the clock",
+      "as a result",
+      "as a whole",
+      "as if",
+      "as long as",
+      "as of",
+      "as recently as",
+      "as to",
+      "as well as",
+      "associate with",
+      "associated with",
+      "at all",
+      "at all times",
+      "at best",
+      "at its best",
+      "at least",
+      "at random",
+      "at the bottom",
+      "at the expense of",
+      "at the forefront",
+      "at the heart of",
+      "at the same time",
+      "at the very least",
+      "at this point",
+      "attorney general",
+      "attuned to",
+      "auction houses",
+      "back away from",
+      "balance of power",
+      "bang for your buck",
+      "based on",
+      "be able to",
+      "be aware of",
+      "be chalked up to",
+      "be meant to",
+      "because of",
+      "beside the point",
+      "best practice",
+      "better off",
+      "big deal",
+      "birds of passage",
+      "blue-ribbon juries",
+      "bond with",
+      "boom and bust cycle",
+      "branding campaign",
+      "break down",
+      "breaking point",
+      "breast cancer",
+      "breath freshener",
+      "bring to life",
+      "build up",
+      "bull run",
+      "burst into laughter",
+      "business model",
+      "buy into",
+      "by accident",
+      "by coincidence",
+      "by contrast",
+      "by design",
+      "cabin staff",
+      "call for",
+      "called for",
+      "called out",
+      "calorie intake",
+      "came into its own",
+      "can only do so much",
+      "cap on",
+      "carbon sequestration",
+      "carbon sinks",
+      "carbon-carrying capacity",
+      "career change",
+      "carry out",
+      "catch up",
+      "catch-all term",
+      "chalk up to",
+      "chances are",
+      "charitable giving",
+      "checkout basket",
+      "chew up",
+      "chewing gum",
+      "chief executive",
+      "chip in",
+      "class-action lawsuit",
+      "clean up",
+      "click through",
+      "close down",
+      "close to",
+      "cognitive offloading",
+      "come and go",
+      "commercially viable",
+      "common sense",
+      "compared with",
+      "compensate for",
+      "competition law",
+      "complain of",
+      "comply with",
+      "conceive of",
+      "concentrate on",
+      "conceptual thinking",
+      "confounding variable",
+      "connecting the dots",
+      "consent order",
+      "contrary to",
+      "contribute to",
+      "conventional wisdom",
+      "conveyor belt",
+      "cooperate with",
+      "corporate america",
+      "corporate governance",
+      "corporate ladder",
+      "correlate with",
+      "could do worse than",
+      "count on",
+      "cover crop",
+      "crack down on",
+      "creep into",
+      "creeps in",
+      "cross section",
+      "cut corners",
+      "cut through",
+      "dairy farms",
+      "dark pattern",
+      "data bank",
+      "day by day",
+      "deep work",
+      "default option",
+      "default state",
+      "department stores",
+      "depend on",
+      "derive from",
+      "desire path",
+      "devote oneself to",
+      "differ from",
+      "digital economy",
+      "digital payment system",
+      "dip in",
+      "dirt track",
+      "disinfecting wipe",
+      "dissociate from",
+      "do one’s bit",
+      "done our bit",
+      "down to",
+      "draw an income",
+      "dropout rate",
+      "due to",
+      "easy come, easy go",
+      "eat one's words",
+      "eating up",
+      "economic engine",
+      "enforcement action",
+      "engage in",
+      "even if",
+      "even so",
+      "even though",
+      "every day",
+      "everything but",
+      "exception to the rule",
+      "exempt from",
+      "exposed to",
+      "external hard drive",
+      "eye doctor",
+      "fabric softeners",
+      "face up to",
+      "factory-farmed meat",
+      "fade away",
+      "fall victim",
+      "far from it",
+      "feed a hunger for",
+      "fend off",
+      "fight for",
+      "figure out",
+      "figures of speech",
+      "file a brief",
+      "filed for bankruptcy",
+      "fill out",
+      "financial reserves",
+      "find out",
+      "finish line",
+      "first and foremost",
+      "first impressions",
+      "first-generation college student",
+      "fiscal transfers",
+      "fitness tracker",
+      "fizzle out",
+      "focus on",
+      "follow through",
+      "food chain",
+      "food security",
+      "foot traffic",
+      "for good",
+      "for instance",
+      "for now",
+      "for sure",
+      "for the better",
+      "for the most part",
+      "forage for",
+      "foreign bureaus",
+      "fossil fuels",
+      "free up",
+      "fresh produce",
+      "from the ground up",
+      "full employment",
+      "fuse a to b",
+      "gain momentum",
+      "gap year",
+      "get a bad rap",
+      "get a lot out of",
+      "get married",
+      "get out",
+      "gig economy",
+      "gig worker",
+      "give or take",
+      "give up",
+      "glass ceiling",
+      "go both ways",
+      "go far enough",
+      "go hand in hand",
+      "go through",
+      "go up",
+      "gold standard",
+      "good for",
+      "gp’s surgery",
+      "gray area",
+      "gray areas",
+      "greenhouse gas",
+      "grocery chain",
+      "guess what",
+      "guest workers",
+      "had the nerve to",
+      "hail from",
+      "hand over",
+      "hard on",
+      "has little to do with",
+      "have a long way to go",
+      "have it all",
+      "have one's hands full",
+      "have to",
+      "health care",
+      "health condition",
+      "health insurance",
+      "heart attack",
+      "heat action plan",
+      "heat wave",
+      "hidden cost",
+      "hit the market",
+      "hit the streets",
+      "hold back",
+      "hold for",
+      "hold oneself accountable",
+      "hold steady",
+      "hold true",
+      "hold...to account",
+      "home front",
+      "hot stuff",
+      "if any",
+      "illusory superiority",
+      "in accordance with",
+      "in agreement",
+      "in anticipation of",
+      "in charge",
+      "in combination with",
+      "in conjunction with",
+      "in crisis",
+      "in demand",
+      "in effect",
+      "in fact",
+      "in its own right",
+      "in line with",
+      "in order to",
+      "in other words",
+      "in part",
+      "in particular",
+      "in person",
+      "in place",
+      "in response to",
+      "in return for",
+      "in so far as",
+      "in some shape or form",
+      "in terms of",
+      "in that",
+      "in the driver's seat",
+      "in the event of",
+      "in the face of",
+      "in the first place",
+      "in the form of",
+      "in the making",
+      "in the short term",
+      "income inequality",
+      "independent of",
+      "indifferent to",
+      "infant mortality",
+      "infuse with",
+      "instead of",
+      "intellectual property",
+      "interfere with",
+      "invest in",
+      "involuntary part-time work",
+      "job security",
+      "jury system",
+      "keep one's promise",
+      "keep pace",
+      "keep track of",
+      "keeping away",
+      "kick back",
+      "kicked out",
+      "labor force",
+      "labor market",
+      "labor shortages",
+      "labour costs",
+      "laminated wood",
+      "late in the game",
+      "lay out",
+      "lead the way",
+      "lead to",
+      "lean times",
+      "leave alone",
+      "leave behind",
+      "leave it up to",
+      "leave no room for",
+      "leave room for",
+      "left behind",
+      "legally binding",
+      "less is more",
+      "lessen the blow",
+      "lesser prairie chicken",
+      "let go of",
+      "levy fines",
+      "lie in",
+      "life course",
+      "life expectancy",
+      "life insurance",
+      "life savings",
+      "line up",
+      "lingua franca",
+      "lining up",
+      "little more than",
+      "living room",
+      "living standard",
+      "lock away",
+      "long-term condition",
+      "look at",
+      "look for",
+      "looks into",
+      "losing momentum",
+      "lost faith",
+      "magnifying glass",
+      "make ends meet",
+      "make headlines",
+      "make it",
+      "make one's debut",
+      "make sure",
+      "make the most of",
+      "make up",
+      "make up for",
+      "makes fun of",
+      "makes sense",
+      "making the point",
+      "media coverage",
+      "mental health",
+      "mentally fit",
+      "middle ground",
+      "minimum wage",
+      "mixed feelings",
+      "mixed up",
+      "mommy wars",
+      "money manager",
+      "money well spent",
+      "moral licensing",
+      "mortgage payments",
+      "national origin",
+      "native american",
+      "nature reserves",
+      "nest egg",
+      "net importer",
+      "net zero",
+      "next big thing",
+      "niche product",
+      "no charge",
+      "no longer",
+      "no matter",
+      "no more than",
+      "non-profit organizations",
+      "not necessarily",
+      "not only",
+      "nursing school",
+      "of course",
+      "office speak",
+      "on a commercial basis",
+      "on a shoestring",
+      "on account of",
+      "on automatic pilot",
+      "on average",
+      "on behalf of",
+      "on line",
+      "on my own",
+      "on one's own",
+      "on one’s own",
+      "on site",
+      "on the ground",
+      "on the market",
+      "on their own",
+      "on top of this",
+      "one way or another",
+      "only if",
+      "open the floodgates",
+      "opt out",
+      "out of date",
+      "out of necessity",
+      "outside director",
+      "over time",
+      "packed to the brim",
+      "party whip",
+      "pay out",
+      "pay the price",
+      "pearly whites",
+      "personal fulfillment",
+      "personalised medicine",
+      "pick up momentum",
+      "place a high value on",
+      "plant-based meat",
+      "play well with",
+      "playing catch-up",
+      "point out",
+      "politically charged",
+      "positive correlation",
+      "premature births",
+      "preside over",
+      "pretty much",
+      "price tag",
+      "primary care",
+      "product of nature",
+      "profit margins",
+      "prone to",
+      "proxy statement",
+      "public domain",
+      "public expenditure",
+      "public funds",
+      "public hearings",
+      "public relations",
+      "publicly traded",
+      "put a premium on",
+      "put an end to",
+      "put on hold",
+      "put on makeup",
+      "put together",
+      "put...into perspective",
+      "quick fix",
+      "raise awareness",
+      "rather than",
+      "real estate agents",
+      "refer to as",
+      "reference week",
+      "reflective thinking",
+      "regenerative agriculture",
+      "rein in",
+      "relate to",
+      "related to",
+      "reliance on",
+      "rely on",
+      "report cards",
+      "representative democracy",
+      "restate earnings",
+      "retirement account",
+      "return the favour",
+      "returned to profit",
+      "returns to power",
+      "reward sensitivity",
+      "rifle through",
+      "rip off",
+      "rise above",
+      "risk averse",
+      "roach motel",
+      "roll out",
+      "rule out",
+      "rules of the game",
+      "run counter to",
+      "run-up to",
+      "scale back",
+      "serve as",
+      "set aside",
+      "set free",
+      "set off",
+      "set out",
+      "settle down",
+      "shore up",
+      "short of",
+      "shoulder the blame",
+      "shrugged off",
+      "shut down",
+      "shy of",
+      "sign up for",
+      "silver linings",
+      "skills mismatch",
+      "skin moisturizers",
+      "snap decisions",
+      "soak up",
+      "social buy-in",
+      "social care",
+      "social class",
+      "social determinants of health",
+      "social fabric",
+      "social glue",
+      "social influence",
+      "social processing",
+      "social reward",
+      "spare capacity",
+      "spell out",
+      "spill the beans",
+      "spin off",
+      "spring to mind",
+      "stand at",
+      "stand out",
+      "start a family",
+      "start up",
+      "starve of",
+      "stay back",
+      "stay on",
+      "stayed afloat",
+      "stems from",
+      "stepping stone",
+      "stick shift",
+      "stick to",
+      "still face experiment",
+      "stimulus package",
+      "stock prices",
+      "storage capacity",
+      "strike a balance",
+      "struggle with",
+      "substitute for",
+      "such as",
+      "supply chains",
+      "swap out",
+      "systemic change",
+      "take a shortcut",
+      "take advantage of",
+      "take care of",
+      "take chances",
+      "take control of",
+      "take for granted",
+      "take initiative",
+      "take note",
+      "take out",
+      "take responsibility for",
+      "take turns",
+      "taking up",
+      "talk into",
+      "talking point",
+      "tease out",
+      "tech giant",
+      "teeth whitener",
+      "tend to",
+      "textile mill",
+      "thanks to",
+      "the cream of",
+      "the letter of the law",
+      "thin out",
+      "thin slice",
+      "thin slices",
+      "think about",
+      "think tank",
+      "third party",
+      "time trial",
+      "tip creep",
+      "to some extent",
+      "to the benefit of",
+      "touched on",
+      "trade body",
+      "trade group",
+      "trade up",
+      "turn on",
+      "turn out",
+      "turn over",
+      "turn to",
+      "turned to",
+      "uccelli di passaggio",
+      "ultra-low emission zone",
+      "under fire",
+      "under way",
+      "undocumented immigrants",
+      "unemployment rate",
+      "up and down the country",
+      "up their game",
+      "upward of",
+      "ushering in",
+      "venture capital",
+      "vice versa",
+      "vision test",
+      "vocational education",
+      "vulnerability map",
+      "wade into",
+      "wage slaves",
+      "wait and see",
+      "waiting lists",
+      "wake-up call",
+      "water purifier",
+      "wears off",
+      "weed killer",
+      "what is more",
+      "whatever happened to",
+      "when it comes to",
+      "whether or not",
+      "with ease",
+      "with the exception of",
+      "with time",
+      "with…in mind",
+      "work-life balance",
+      "working memory",
+      "wreaking havoc",
+      "write down",
+      "write off"
+    ]
+  }
 }

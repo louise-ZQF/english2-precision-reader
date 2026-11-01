@@ -103,153 +103,937 @@
           "translation": "许多美国人把陪审团制度视为重要民主价值观的具体体现，其中的原则包括：凡达到年龄和读写能力最低要求的公民，都同样有能力担任陪审员；陪审员应从社区中有代表性的各个群体随机选出；不得因种族、宗教、性别或原籍剥夺任何公民担任陪审员的权利；被告有权接受同等身份者的审判；裁决应体现社区的良知，而不只是法律条文的字面含义。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Many",
+              "lemma": "many",
+              "pos": "det",
+              "meaning": "许多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 14,
+              "word": "Americans",
+              "lemma": "American",
+              "pos": "n",
+              "meaning": "美国人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 21,
+              "word": "regard",
+              "lemma": "regard",
+              "pos": "v",
+              "meaning": "把……看作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 25,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 30,
+              "word": "jury",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 37,
+              "word": "system",
+              "lemma": "system",
+              "pos": "n",
+              "meaning": "制度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 40,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "作为；看作（regard A as B）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 42,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 43,
               "b": 51,
               "word": "concrete",
               "lemma": "concrete",
+              "pos": "a",
               "meaning": "具体的；有形体现的",
-              "pos": "a"
+              "reviewVersion": 2
             },
             {
               "a": 52,
               "b": 62,
               "word": "expression",
               "lemma": "expression",
+              "pos": "n",
               "meaning": "体现；表现形式",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 65,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 73,
+              "word": "crucial",
+              "lemma": "crucial",
+              "pos": "a",
+              "meaning": "至关重要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 84,
+              "word": "democratic",
+              "lemma": "democratic",
+              "pos": "a",
+              "meaning": "民主的",
+              "reviewVersion": 2
             },
             {
               "a": 85,
               "b": 91,
               "word": "values",
               "lemma": "value",
-              "meaning": "价值观；原则",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "价值观",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 102,
+              "word": "including",
+              "lemma": "include",
+              "pos": "prep",
+              "meaning": "包括",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 106,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 117,
+              "word": "principles",
+              "lemma": "principle",
+              "pos": "n",
+              "meaning": "原则",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 122,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出principles的具体内容",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 126,
+              "word": "all",
+              "lemma": "all",
+              "pos": "det",
+              "meaning": "所有符合资格者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 135,
+              "word": "citizens",
+              "lemma": "citizen",
+              "pos": "n",
+              "meaning": "公民",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 139,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指前面的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 144,
+              "word": "meet",
+              "lemma": "meet",
+              "pos": "v",
+              "meaning": "达到；符合（要求）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 145,
+              "b": 152,
+              "word": "minimal",
+              "lemma": "minimal",
+              "pos": "a",
+              "meaning": "最低限度的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 167,
+              "word": "qualifications",
+              "lemma": "qualification",
+              "pos": "n",
+              "meaning": "资格要求",
+              "reviewVersion": 2
+            },
+            {
+              "a": 168,
+              "b": 170,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 171,
+              "b": 174,
+              "word": "age",
+              "lemma": "age",
+              "pos": "n",
+              "meaning": "年龄",
+              "reviewVersion": 2
+            },
+            {
+              "a": 175,
+              "b": 178,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 179,
               "b": 187,
               "word": "literacy",
               "lemma": "literacy",
+              "pos": "n",
               "meaning": "读写能力",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 188,
+              "b": 191,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（联系主语与状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 192,
+              "b": 199,
+              "word": "equally",
+              "lemma": "equally",
+              "pos": "adv",
+              "meaning": "同等地",
+              "reviewVersion": 2
             },
             {
               "a": 200,
               "b": 209,
               "word": "competent",
               "lemma": "competent",
-              "meaning": "有能力的；胜任的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "有能力胜任的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 210,
+              "b": 212,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 213,
+              "b": 218,
+              "word": "serve",
+              "lemma": "serve",
+              "pos": "v",
+              "meaning": "任职；担任",
+              "reviewVersion": 2,
+              "explanation": "搭配结构：serve on＝在……机构中任职"
+            },
+            {
+              "a": 219,
+              "b": 221,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "在……中任职（serve on a jury）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 222,
+              "b": 228,
+              "word": "juries",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
+            },
+            {
+              "a": 230,
+              "b": 234,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出principles的具体内容",
+              "reviewVersion": 2
+            },
+            {
+              "a": 235,
+              "b": 241,
+              "word": "jurors",
+              "lemma": "juror",
+              "pos": "n",
+              "meaning": "陪审员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 242,
+              "b": 248,
+              "word": "should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应该",
+              "reviewVersion": 2
+            },
+            {
+              "a": 249,
+              "b": 251,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 252,
+              "b": 260,
+              "word": "selected",
+              "lemma": "select",
+              "pos": "v",
+              "meaning": "挑选；选出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 261,
+              "b": 269,
+              "word": "randomly",
+              "lemma": "randomly",
+              "pos": "adv",
+              "meaning": "随机地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 270,
+              "b": 274,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 275,
+              "b": 276,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 277,
               "b": 291,
               "word": "representative",
               "lemma": "representative",
+              "pos": "a",
               "meaning": "有代表性的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 292,
+              "b": 297,
+              "word": "cross",
+              "lemma": "cross",
+              "pos": "a",
+              "meaning": "横向的（cross section整体为有代表性的各群体）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 298,
+              "b": 305,
+              "word": "section",
+              "lemma": "section",
+              "pos": "n",
+              "meaning": "部分；群体截面",
+              "reviewVersion": 2
+            },
+            {
+              "a": 306,
+              "b": 308,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 309,
+              "b": 312,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 313,
+              "b": 322,
+              "word": "community",
+              "lemma": "community",
+              "pos": "n",
+              "meaning": "社区；共同体",
+              "reviewVersion": 2
+            },
+            {
+              "a": 324,
+              "b": 328,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出principles的具体内容",
+              "reviewVersion": 2
+            },
+            {
+              "a": 329,
+              "b": 331,
+              "word": "no",
+              "lemma": "no",
+              "pos": "det",
+              "meaning": "没有；不存在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 332,
+              "b": 339,
+              "word": "citizen",
+              "lemma": "citizen",
+              "pos": "n",
+              "meaning": "公民",
+              "reviewVersion": 2
+            },
+            {
+              "a": 340,
+              "b": 346,
+              "word": "should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应该",
+              "reviewVersion": 2
+            },
+            {
+              "a": 347,
+              "b": 349,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动助动词",
+              "reviewVersion": 2
             },
             {
               "a": 350,
               "b": 356,
               "word": "denied",
               "lemma": "deny",
+              "pos": "v",
               "meaning": "剥夺；拒绝给予",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 357,
+              "b": 360,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 361,
+              "b": 366,
+              "word": "right",
+              "lemma": "right",
+              "pos": "n",
+              "meaning": "权利",
+              "reviewVersion": 2
+            },
+            {
+              "a": 367,
+              "b": 369,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 370,
+              "b": 375,
+              "word": "serve",
+              "lemma": "serve",
+              "pos": "v",
+              "meaning": "任职；担任",
+              "reviewVersion": 2
+            },
+            {
+              "a": 376,
+              "b": 378,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "在……中任职（serve on a jury）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 379,
+              "b": 380,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 381,
+              "b": 385,
+              "word": "jury",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
+            },
+            {
+              "a": 386,
+              "b": 388,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "on account of中的原因成分，整体为由于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 389,
+              "b": 396,
+              "word": "account",
+              "lemma": "account",
+              "pos": "n",
+              "meaning": "原因（on account of整体为由于）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 397,
+              "b": 399,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 400,
+              "b": 404,
+              "word": "race",
+              "lemma": "race",
+              "pos": "n",
+              "meaning": "种族",
+              "reviewVersion": 2
+            },
+            {
+              "a": 406,
+              "b": 414,
+              "word": "religion",
+              "lemma": "religion",
+              "pos": "n",
+              "meaning": "宗教",
+              "reviewVersion": 2
+            },
+            {
+              "a": 416,
+              "b": 419,
+              "word": "sex",
+              "lemma": "sex",
+              "pos": "n",
+              "meaning": "性别",
+              "reviewVersion": 2
+            },
+            {
+              "a": 421,
+              "b": 423,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接备选内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 424,
+              "b": 432,
+              "word": "national",
+              "lemma": "national",
+              "pos": "a",
+              "meaning": "国家的；原籍国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 433,
+              "b": 439,
+              "word": "origin",
+              "lemma": "origin",
+              "pos": "n",
+              "meaning": "出身；来源",
+              "reviewVersion": 2
+            },
+            {
+              "a": 441,
+              "b": 445,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出principles的具体内容",
+              "reviewVersion": 2
             },
             {
               "a": 446,
               "b": 456,
               "word": "defendants",
               "lemma": "defendant",
+              "pos": "n",
               "meaning": "被告",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 457,
+              "b": 460,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动结构助动词（are entitled）",
+              "reviewVersion": 2
             },
             {
               "a": 461,
               "b": 469,
               "word": "entitled",
               "lemma": "entitle",
-              "meaning": "给予……权利",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "使有权（be entitled to为有权享有）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 470,
+              "b": 472,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "享有（权利所及的审判）",
+              "reviewVersion": 2
             },
             {
               "a": 473,
               "b": 478,
               "word": "trial",
               "lemma": "trial",
+              "pos": "n",
               "meaning": "审判",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 479,
+              "b": 481,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "由（引出动作执行者）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 482,
+              "b": 487,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
             },
             {
               "a": 488,
               "b": 493,
               "word": "peers",
               "lemma": "peer",
-              "meaning": "同等身份的普通公民；同侪",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "同等身份的普通公民",
+              "reviewVersion": 2
+            },
+            {
+              "a": 495,
+              "b": 498,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 499,
+              "b": 503,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出principles的具体内容",
+              "reviewVersion": 2
             },
             {
               "a": 504,
               "b": 512,
               "word": "verdicts",
               "lemma": "verdict",
+              "pos": "n",
               "meaning": "裁决",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 513,
+              "b": 519,
+              "word": "should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应该",
+              "reviewVersion": 2
+            },
+            {
+              "a": 520,
+              "b": 529,
+              "word": "represent",
+              "lemma": "represent",
+              "pos": "v",
+              "meaning": "体现；代表",
+              "reviewVersion": 2
+            },
+            {
+              "a": 530,
+              "b": 533,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 534,
               "b": 544,
               "word": "conscience",
               "lemma": "conscience",
-              "meaning": "良知；是非判断",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "良知；道德判断",
+              "reviewVersion": 2
+            },
+            {
+              "a": 545,
+              "b": 547,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 548,
+              "b": 551,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 552,
+              "b": 561,
+              "word": "community",
+              "lemma": "community",
+              "pos": "n",
+              "meaning": "社区；共同体",
+              "reviewVersion": 2
+            },
+            {
+              "a": 562,
+              "b": 565,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 566,
+              "b": 569,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 570,
+              "b": 574,
+              "word": "just",
+              "lemma": "just",
+              "pos": "adv",
+              "meaning": "仅仅",
+              "reviewVersion": 2
+            },
+            {
+              "a": 575,
+              "b": 578,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 579,
               "b": 585,
               "word": "letter",
               "lemma": "letter",
+              "pos": "n",
               "meaning": "条文的字面含义",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 586,
+              "b": 588,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 589,
+              "b": 592,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 593,
+              "b": 596,
+              "word": "law",
+              "lemma": "law",
+              "pos": "n",
+              "meaning": "法律",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
-              "a": 213,
-              "b": 228,
-              "lemma": "serve on juries",
-              "meaning": "担任陪审员",
-              "word": "serve on juries"
+              "a": 26,
+              "b": 37,
+              "word": "jury system",
+              "lemma": "jury system",
+              "meaning": "陪审团制度",
+              "kind": "phrase"
             },
             {
               "a": 292,
               "b": 305,
               "lemma": "cross section",
               "meaning": "具有代表性的各个群体",
-              "word": "cross section"
+              "word": "cross section",
+              "kind": "phrase"
             },
             {
               "a": 386,
               "b": 399,
               "lemma": "on account of",
               "meaning": "由于；因为",
-              "word": "on account of"
+              "word": "on account of",
+              "kind": "phrase"
+            },
+            {
+              "a": 424,
+              "b": 439,
+              "word": "national origin",
+              "lemma": "national origin",
+              "meaning": "原籍；民族或国家出身",
+              "kind": "phrase"
             },
             {
               "a": 457,
               "b": 472,
-              "lemma": "are entitled to",
+              "lemma": "be entitled to",
               "meaning": "依法享有……的权利",
-              "word": "are entitled to"
+              "word": "are entitled to",
+              "kind": "phrase"
             },
             {
               "a": 575,
               "b": 596,
               "lemma": "the letter of the law",
               "meaning": "法律条文的字面含义",
-              "word": "the letter of the law"
+              "word": "the letter of the law",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -258,7 +1042,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "五项原则逐项核定：资格平等、随机代表性、无歧视、同等者审判、社区良知；to与on各处角色分别处理。",
+            "sentenceSHA256": "6b26adfb02ac81305298d93108da74c4005d97c7514469d5cb4c5fe47d6a8c66",
+            "words": 98,
+            "phrases": 6,
+            "names": 0
+          }
         },
         {
           "id": "2010-T4-P1-S2",
@@ -290,36 +1082,175 @@
           "translation": "陪审团也被认为是现存直接民主、而非代议制民主的最佳范例。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "jury",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 11,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动助动词（is said）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 16,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "也；还",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 21,
+              "word": "said",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "认为；据说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 24,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 27,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 31,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 36,
+              "word": "best",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "最好的",
+              "reviewVersion": 2
+            },
+            {
               "a": 37,
               "b": 46,
               "word": "surviving",
               "lemma": "survive",
-              "meaning": "留存下来的",
-              "pos": "v"
+              "pos": "a",
+              "meaning": "现存的；保留下来的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 54,
+              "word": "example",
+              "lemma": "example",
+              "pos": "n",
+              "meaning": "范例",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 57,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
             },
             {
               "a": 58,
               "b": 64,
               "word": "direct",
               "lemma": "direct",
+              "pos": "a",
               "meaning": "直接的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 71,
+              "word": "rather",
+              "lemma": "rather",
+              "pos": "adv",
+              "meaning": "与than构成而不是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 76,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "与rather构成而不是，不是数量比较",
+              "reviewVersion": 2
             },
             {
               "a": 77,
               "b": 91,
               "word": "representative",
               "lemma": "representative",
-              "meaning": "代议制的"
+              "pos": "a",
+              "meaning": "代议制的；由选举代表治理的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 101,
+              "word": "democracy",
+              "lemma": "democracy",
+              "pos": "n",
+              "meaning": "民主制度",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
+            {
+              "a": 65,
+              "b": 76,
+              "word": "rather than",
+              "lemma": "rather than",
+              "meaning": "而不是",
+              "kind": "phrase"
+            },
             {
               "a": 77,
               "b": 101,
               "lemma": "representative democracy",
               "meaning": "代议制民主",
-              "word": "representative democracy"
+              "word": "representative democracy",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -328,7 +1259,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "representative在此为代议制而非有代表性；said to被动为被认为。",
+            "sentenceSHA256": "3b5ff8dc89db3a68d9b5f6063a8054dda825172a83db74bc2e0517817db4100c",
+            "words": 17,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2010-T4-P1-S3",
@@ -360,45 +1299,192 @@
           "translation": "在直接民主制度中，公民轮流治理自己的公共事务，而不是选举代表代为治理。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 4,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 5,
               "b": 11,
               "word": "direct",
               "lemma": "direct",
+              "pos": "a",
               "meaning": "直接的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 21,
+              "word": "democracy",
+              "lemma": "democracy",
+              "pos": "n",
+              "meaning": "民主制度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 31,
+              "word": "citizens",
+              "lemma": "citizen",
+              "pos": "n",
+              "meaning": "公民",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 36,
+              "word": "take",
+              "lemma": "take",
+              "pos": "v",
+              "meaning": "参与（take turns构成轮流）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 42,
+              "word": "turns",
+              "lemma": "turn",
+              "pos": "n",
+              "meaning": "轮次（take turns构成轮流）",
+              "reviewVersion": 2
             },
             {
               "a": 43,
               "b": 52,
               "word": "governing",
               "lemma": "govern",
-              "meaning": "治理；管理公共事务",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "治理公共事务",
+              "reviewVersion": 2
             },
             {
-              "a": 105,
-              "b": 111,
-              "word": "govern",
-              "lemma": "govern",
-              "meaning": "治理；管理公共事务",
-              "pos": "v"
+              "a": 53,
+              "b": 63,
+              "word": "themselves",
+              "lemma": "themselves",
+              "pos": "pron",
+              "meaning": "他们自己（公民）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 71,
+              "word": "rather",
+              "lemma": "rather",
+              "pos": "adv",
+              "meaning": "与than构成而不是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 76,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "与rather构成而不是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 85,
+              "word": "electing",
+              "lemma": "elect",
+              "pos": "v",
+              "meaning": "选举",
+              "reviewVersion": 2
             },
             {
               "a": 86,
               "b": 101,
               "word": "representatives",
               "lemma": "representative",
-              "meaning": "代表"
+              "pos": "n",
+              "meaning": "代表",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 104,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 111,
+              "word": "govern",
+              "lemma": "govern",
+              "pos": "v",
+              "meaning": "治理",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 115,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "代替；代表（公民治理）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 120,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（宾格）",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 32,
+              "b": 42,
+              "word": "take turns",
+              "lemma": "take turns",
+              "meaning": "轮流",
+              "kind": "phrase"
+            },
+            {
+              "a": 65,
+              "b": 76,
+              "word": "rather than",
+              "lemma": "rather than",
+              "meaning": "而不是",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "直接民主由公民轮流治理，与代议制选出代表治理相对，for them为代为。",
+            "sentenceSHA256": "65da2324f6142b9b506eeba4e03ec2ecede6324f297a14f81d264fbfbb5f8d9f",
+            "words": 17,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -430,22 +1516,148 @@
           "translation": "但直到1968年，陪审员选拔程序还与这些民主理想相冲突。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "But",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是（转折）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 6,
+              "word": "as",
+              "lemma": "as",
+              "pos": "adv",
+              "meaning": "as recently as中的程度强调成分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 15,
+              "word": "recently",
+              "lemma": "recently",
+              "pos": "adv",
+              "meaning": "近地（as recently as强调直到这么近的时间）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 18,
+              "word": "as",
+              "lemma": "as",
+              "pos": "adv",
+              "meaning": "as recently as中的程度强调成分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 21,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 32,
+              "word": "jury",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 42,
+              "word": "selection",
+              "lemma": "selection",
+              "pos": "n",
+              "meaning": "选拔",
+              "reviewVersion": 2
+            },
+            {
               "a": 43,
               "b": 53,
               "word": "procedures",
               "lemma": "procedure",
-              "meaning": "程序；选拔办法",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "程序",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 64,
+              "word": "conflicted",
+              "lemma": "conflict",
+              "pos": "v",
+              "meaning": "相冲突",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 69,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "与……（相冲突的对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 75,
+              "word": "these",
+              "lemma": "these",
+              "pos": "det",
+              "meaning": "这些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 86,
+              "word": "democratic",
+              "lemma": "democratic",
+              "pos": "a",
+              "meaning": "民主的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 93,
+              "word": "ideals",
+              "lemma": "ideal",
+              "pos": "n",
+              "meaning": "理想",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 4,
+              "b": 18,
+              "word": "as recently as",
+              "lemma": "as recently as",
+              "meaning": "直到……这么近的时候；强调时间之近",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "as recently as强调直到1968年仍有冲突，不是早在1968年。",
+            "sentenceSHA256": "30d2ee22d3edc1760671b256b1eec6674acf4cabd1d63b583c3e4cfb07484aba",
+            "words": 13,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2010-T4-P2-S2",
@@ -477,36 +1689,175 @@
           "translation": "例如，在一些州，只有那些据称智力、教育程度和道德品行高人一等的人才可以担任陪审员。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "some",
+              "lemma": "some",
+              "pos": "det",
+              "meaning": "一些；有些",
+              "reviewVersion": 2
+            },
+            {
               "a": 8,
               "b": 14,
               "word": "states",
               "lemma": "state",
-              "meaning": "州；州级的",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "州",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 19,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "与example构成例如",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 27,
+              "word": "example",
+              "lemma": "example",
+              "pos": "n",
+              "meaning": "范例",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "jury",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 38,
+              "word": "duty",
+              "lemma": "duty",
+              "pos": "n",
+              "meaning": "义务；职责",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 42,
+              "word": "was",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动助动词（was limited）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 50,
+              "word": "limited",
+              "lemma": "limit",
+              "pos": "v",
+              "meaning": "限制",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 53,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "仅限于（limited to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 61,
+              "word": "persons",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 64,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
             },
             {
               "a": 65,
               "b": 75,
               "word": "supposedly",
               "lemma": "supposedly",
-              "meaning": "据称；所谓地",
-              "pos": "adv"
+              "pos": "adv",
+              "meaning": "据称；所谓地（保留质疑）",
+              "reviewVersion": 2
             },
             {
               "a": 76,
               "b": 84,
               "word": "superior",
               "lemma": "superior",
-              "meaning": "优于一般人的；优越的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "优于一般人的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 97,
+              "word": "intelligence",
+              "lemma": "intelligence",
+              "pos": "n",
+              "meaning": "智力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 108,
+              "word": "education",
+              "lemma": "education",
+              "pos": "n",
+              "meaning": "教育程度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 113,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 119,
+              "word": "moral",
+              "lemma": "moral",
+              "pos": "a",
+              "meaning": "道德的",
+              "reviewVersion": 2
             },
             {
               "a": 120,
               "b": 129,
               "word": "character",
               "lemma": "character",
-              "meaning": "品行；道德品质",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "品行",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -516,7 +1867,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "supposedly保留作者的所谓语气，character为品行非性格人物。",
+            "sentenceSHA256": "724cfe3b4d9c55de1a2a3f8945711b61115be8afc18f52d65287098cf7b6f3ff",
+            "words": 19,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2010-T4-P2-S3",
@@ -554,53 +1913,427 @@
           "translation": "尽管美国最高法院早在1880年斯特劳德诉西弗吉尼亚州案中，就已禁止在陪审员选拔中实施蓄意种族歧视，但挑选所谓精英或蓝带陪审团的做法，仍为规避这项及其他反歧视法律提供了便利途径。",
           "words": [
             {
+              "a": 0,
+              "b": 8,
+              "word": "Although",
+              "lemma": "although",
+              "pos": "conj",
+              "meaning": "尽管；虽然",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 12,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 20,
+              "word": "Supreme",
+              "lemma": "Supreme",
+              "pos": "a",
+              "meaning": "最高的（Supreme Court为最高法院）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 26,
+              "word": "Court",
+              "lemma": "court",
+              "pos": "n",
+              "meaning": "法院",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 29,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 33,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 40,
+              "word": "United",
+              "lemma": "United",
+              "pos": "name",
+              "meaning": "美国国名United States的一部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 47,
+              "word": "States",
+              "lemma": "state",
+              "pos": "n",
+              "meaning": "州",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 51,
+              "word": "had",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "过去完成时助动词，说明此前已发生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 62,
+              "word": "prohibited",
+              "lemma": "prohibit",
+              "pos": "v",
+              "meaning": "禁止",
+              "reviewVersion": 2
+            },
+            {
               "a": 63,
               "b": 74,
               "word": "intentional",
               "lemma": "intentional",
-              "meaning": "故意的；有意的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "蓄意的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 81,
+              "word": "racial",
+              "lemma": "racial",
+              "pos": "a",
+              "meaning": "种族的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 96,
+              "word": "discrimination",
+              "lemma": "discrimination",
+              "pos": "n",
+              "meaning": "歧视",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 99,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 104,
+              "word": "jury",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 114,
+              "word": "selection",
+              "lemma": "selection",
+              "pos": "n",
+              "meaning": "选拔",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 117,
+              "word": "as",
+              "lemma": "as",
+              "pos": "adv",
+              "meaning": "as early as中的程度强调成分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 123,
+              "word": "early",
+              "lemma": "early",
+              "pos": "adv",
+              "meaning": "早（as early as强调早在）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 126,
+              "word": "as",
+              "lemma": "as",
+              "pos": "adv",
+              "meaning": "as early as中的程度强调成分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 130,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 140,
+              "word": "case",
+              "lemma": "case",
+              "pos": "n",
+              "meaning": "案件",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 143,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 152,
+              "word": "Strauder",
+              "lemma": "Strauder",
+              "pos": "name",
+              "meaning": "斯特劳德（诉讼当事人姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 154,
+              "word": "v",
+              "lemma": "versus",
+              "pos": "prep",
+              "meaning": "诉；对（诉讼案名中的缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 160,
+              "word": "West",
+              "lemma": "West",
+              "pos": "name",
+              "meaning": "西（West Virginia为西弗吉尼亚州）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 169,
+              "word": "Virginia",
+              "lemma": "Virginia",
+              "pos": "name",
+              "meaning": "弗吉尼亚（州名的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 171,
+              "b": 174,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 175,
               "b": 183,
               "word": "practice",
               "lemma": "practice",
-              "meaning": "做法；惯例",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "做法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 184,
+              "b": 186,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 187,
+              "b": 196,
+              "word": "selecting",
+              "lemma": "select",
+              "pos": "v",
+              "meaning": "挑选",
+              "reviewVersion": 2
             },
             {
               "a": 197,
               "b": 206,
               "word": "so-called",
               "lemma": "so-called",
+              "pos": "a",
               "meaning": "所谓的",
-              "pos": "a"
+              "reviewVersion": 2
             },
             {
               "a": 207,
               "b": 212,
               "word": "elite",
               "lemma": "elite",
-              "meaning": "精英；所谓优秀者",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "精英的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 213,
+              "b": 215,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或称；也就是（两种精英陪审团称谓）",
+              "reviewVersion": 2
             },
             {
               "a": 216,
               "b": 227,
               "word": "blue-ribbon",
               "lemma": "blue-ribbon",
-              "meaning": "所谓精英组成的；精挑细选的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "精挑细选的；精英的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 228,
+              "b": 234,
+              "word": "juries",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
+            },
+            {
+              "a": 235,
+              "b": 243,
+              "word": "provided",
+              "lemma": "provide",
+              "pos": "v",
+              "meaning": "提供",
+              "reviewVersion": 2
+            },
+            {
+              "a": 244,
+              "b": 245,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 246,
+              "b": 256,
+              "word": "convenient",
+              "lemma": "convenient",
+              "pos": "a",
+              "meaning": "便利的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 257,
+              "b": 260,
+              "word": "way",
+              "lemma": "way",
+              "pos": "n",
+              "meaning": "途径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 261,
+              "b": 267,
+              "word": "around",
+              "lemma": "around",
+              "pos": "prep",
+              "meaning": "绕开；规避",
+              "reviewVersion": 2
+            },
+            {
+              "a": 268,
+              "b": 272,
+              "word": "this",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；这个（指所述事物）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 273,
+              "b": 276,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 277,
+              "b": 282,
+              "word": "other",
+              "lemma": "other",
+              "pos": "a",
+              "meaning": "其他的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 283,
+              "b": 301,
+              "word": "antidiscrimination",
+              "lemma": "antidiscrimination",
+              "pos": "a",
+              "meaning": "反歧视的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 302,
+              "b": 306,
+              "word": "laws",
+              "lemma": "law",
+              "pos": "n",
+              "meaning": "法律",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
+              "a": 13,
+              "b": 26,
+              "word": "Supreme Court",
+              "lemma": "Supreme Court",
+              "meaning": "最高法院",
+              "kind": "name"
+            },
+            {
               "a": 216,
               "b": 234,
-              "lemma": "blue-ribbon juries",
+              "lemma": "blue-ribbon jury",
               "meaning": "精英陪审团",
-              "word": "blue-ribbon juries"
+              "word": "blue-ribbon juries",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -609,7 +2342,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "尽管最高法院已禁止种族歧视，精英选拔却绕开法律；两个事实不互相取消。",
+            "sentenceSHA256": "b2d03f975060c4858feb0a7344efec980be31a588523a10a97e0e361a081aae0",
+            "words": 45,
+            "phrases": 1,
+            "names": 1
+          }
         }
       ]
     },
@@ -641,12 +2382,130 @@
           "translation": "这套制度直到20世纪中叶才开始常规地吸收女性进入陪审团。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 10,
+              "word": "system",
+              "lemma": "system",
+              "pos": "n",
+              "meaning": "制度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 15,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "也；还",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 22,
+              "word": "failed",
+              "lemma": "fail",
+              "pos": "v",
+              "meaning": "未能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 25,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
               "a": 26,
               "b": 35,
               "word": "regularly",
               "lemma": "regularly",
+              "pos": "adv",
               "meaning": "常规地；一贯地",
-              "pos": "adv"
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 43,
+              "word": "include",
+              "lemma": "include",
+              "pos": "v",
+              "meaning": "吸收；纳入",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 49,
+              "word": "women",
+              "lemma": "woman",
+              "pos": "n",
+              "meaning": "女性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 52,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "进入；在陪审团中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 59,
+              "word": "juries",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 65,
+              "word": "until",
+              "lemma": "until",
+              "pos": "prep",
+              "meaning": "直到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 69,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 78,
+              "word": "mid-20th",
+              "lemma": "mid-20th",
+              "pos": "a",
+              "meaning": "二十世纪中叶的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 86,
+              "word": "century",
+              "lemma": "century",
+              "pos": "n",
+              "meaning": "世纪",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -656,7 +2515,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "failed until可等值译直到才，20世纪中叶非20年代。",
+            "sentenceSHA256": "9a17b049b062ad3e1d6fc6e39070f38f729e96cc62abb53cc79f1790185e7758",
+            "words": 14,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2010-T4-P3-S2",
@@ -688,28 +2555,238 @@
           "translation": "尽管女性早在1898年就在犹他州首次担任州陪审员，但直到20世纪40年代，大多数州才赋予女性担任陪审员的资格。",
           "words": [
             {
+              "a": 0,
+              "b": 8,
+              "word": "Although",
+              "lemma": "although",
+              "pos": "conj",
+              "meaning": "尽管；虽然",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 14,
+              "word": "women",
+              "lemma": "woman",
+              "pos": "n",
+              "meaning": "女性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 20,
+              "word": "first",
+              "lemma": "first",
+              "pos": "adv",
+              "meaning": "首次",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 27,
+              "word": "served",
+              "lemma": "serve",
+              "pos": "v",
+              "meaning": "担任陪审员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 30,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "在陪审团中担任职务",
+              "reviewVersion": 2
+            },
+            {
               "a": 31,
               "b": 36,
               "word": "state",
               "lemma": "state",
-              "meaning": "州；州级的",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "州",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 43,
+              "word": "juries",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 46,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 51,
+              "word": "Utah",
+              "lemma": "Utah",
+              "pos": "name",
+              "meaning": "犹他州",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 54,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 63,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "强调句形式主语，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 67,
+              "word": "was",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（过去时）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 71,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 77,
+              "word": "until",
+              "lemma": "until",
+              "pos": "prep",
+              "meaning": "直到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 81,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 92,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "not until强调句连接词，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 94,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 103,
+              "word": "majority",
+              "lemma": "majority",
+              "pos": "n",
+              "meaning": "大多数",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 106,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
             },
             {
               "a": 107,
               "b": 113,
               "word": "states",
               "lemma": "state",
-              "meaning": "州；州级的",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "州",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 118,
+              "word": "made",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "使；赋予（资格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 124,
+              "word": "women",
+              "lemma": "woman",
+              "pos": "n",
+              "meaning": "女性",
+              "reviewVersion": 2
             },
             {
               "a": 125,
               "b": 133,
               "word": "eligible",
               "lemma": "eligible",
+              "pos": "a",
               "meaning": "有资格的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 137,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "具备……的资格",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 142,
+              "word": "jury",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 147,
+              "word": "duty",
+              "lemma": "duty",
+              "pos": "n",
+              "meaning": "义务；职责",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -719,7 +2796,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "1898州内首次与1940年代多数州扩大资格为两阶段，not until不得漏掉。",
+            "sentenceSHA256": "4b1fee18524b9fca689a0f2b38bd490d10886748634f85f4c904c486b08647be",
+            "words": 26,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2010-T4-P3-S3",
@@ -745,30 +2830,248 @@
           "translation": "即使到了那时，一些州仍自动免除女性的陪审义务，除非她们亲自要求把姓名列入陪审员名单。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Even",
+              "lemma": "even",
+              "pos": "adv",
+              "meaning": "即使；甚至",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 9,
+              "word": "then",
+              "lemma": "then",
+              "pos": "adv",
+              "meaning": "那时；随后",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 17,
+              "word": "several",
+              "lemma": "several",
+              "pos": "det",
+              "meaning": "若干；几个",
+              "reviewVersion": 2
+            },
+            {
               "a": 18,
               "b": 24,
               "word": "states",
               "lemma": "state",
-              "meaning": "州；州级的",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "州",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 38,
+              "word": "automatically",
+              "lemma": "automatically",
+              "pos": "adv",
+              "meaning": "自动地；无需申请地",
+              "reviewVersion": 2
             },
             {
               "a": 39,
               "b": 47,
               "word": "exempted",
               "lemma": "exempt",
+              "pos": "v",
               "meaning": "免除（义务）",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 53,
+              "word": "women",
+              "lemma": "woman",
+              "pos": "n",
+              "meaning": "女性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 58,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 63,
+              "word": "jury",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 68,
+              "word": "duty",
+              "lemma": "duty",
+              "pos": "n",
+              "meaning": "义务；职责",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 75,
+              "word": "unless",
+              "lemma": "unless",
+              "pos": "conj",
+              "meaning": "除非",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 80,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "她们（女性）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 91,
+              "word": "personally",
+              "lemma": "personally",
+              "pos": "adv",
+              "meaning": "亲自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 97,
+              "word": "asked",
+              "lemma": "ask",
+              "pos": "v",
+              "meaning": "要求",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 100,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 105,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "使；让（使姓名列入）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 111,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "她们的（女性的姓名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 117,
+              "word": "names",
+              "lemma": "name",
+              "pos": "n",
+              "meaning": "姓名",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 126,
+              "word": "included",
+              "lemma": "include",
+              "pos": "v",
+              "meaning": "列入",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 129,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "列在（名单上）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 133,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 138,
+              "word": "jury",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
+            },
+            {
+              "a": 139,
+              "b": 143,
+              "word": "list",
+              "lemma": "list",
+              "pos": "n",
+              "meaning": "名单",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 39,
+              "b": 47,
+              "word": "exempted",
+              "lemma": "exempt … from …",
+              "meaning": "使……免于……；免除……的义务",
+              "kind": "phrase",
+              "structure": true
+            },
+            {
+              "a": 54,
+              "b": 58,
+              "word": "from",
+              "lemma": "exempt … from …",
+              "meaning": "使……免于……；免除……的义务",
+              "kind": "phrase",
+              "structure": true
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "unless为例外条件，have names included为让姓名列入，have不是完成时。",
+            "sentenceSHA256": "3eb6e481b4a714577817c9073ec1a1b6dee3ce4d8f468ff04b58c46d232d95bf",
+            "words": 23,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2010-T4-P3-S4",
@@ -806,36 +3109,202 @@
           "translation": "人们以家庭需要女性留在家中为由，声称这种做法合理，它使陪审团缺乏女性代表的状况持续了整个20世纪60年代。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "This",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；这个（指所述事物）",
+              "reviewVersion": 2
+            },
+            {
               "a": 5,
               "b": 13,
               "word": "practice",
               "lemma": "practice",
-              "meaning": "做法；惯例",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "做法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 17,
+              "word": "was",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动助动词（was justified）",
+              "reviewVersion": 2
             },
             {
               "a": 18,
               "b": 27,
               "word": "justified",
               "lemma": "justify",
-              "meaning": "为……辩护；证明正当",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "为……辩护；说明正当性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 30,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "由（引出动作执行者）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 34,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 35,
               "b": 40,
               "word": "claim",
               "lemma": "claim",
+              "pos": "n",
               "meaning": "说法；主张",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 45,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出所说的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 51,
+              "word": "women",
+              "lemma": "woman",
+              "pos": "n",
+              "meaning": "女性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 56,
+              "word": "were",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动助动词（were needed）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 63,
+              "word": "needed",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 66,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（所述地点或时点）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 71,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 76,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 79,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它（自动免除女性陪审义务的做法）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 84,
+              "word": "kept",
+              "lemma": "keep",
+              "pos": "v",
+              "meaning": "使……保持",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 91,
+              "word": "juries",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
             },
             {
               "a": 92,
               "b": 108,
               "word": "unrepresentative",
               "lemma": "unrepresentative",
+              "pos": "a",
               "meaning": "缺乏代表性的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 111,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 117,
+              "word": "women",
+              "lemma": "woman",
+              "pos": "n",
+              "meaning": "女性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 125,
+              "word": "through",
+              "lemma": "through",
+              "pos": "prep",
+              "meaning": "贯穿整个……期间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 129,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -845,7 +3314,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "理由是家庭需要女性但不等于作者认可；it回指做法，through贯穿60年代。",
+            "sentenceSHA256": "681257c0c92d18074f4f6ff76645e44548f92d334faff3565be1960f4ea7cd81",
+            "words": 22,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -877,37 +3354,239 @@
           "translation": "1968年，美国国会通过《陪审员选拔与服务法》，开启了陪审团民主改革的新时代。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 12,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 21,
+              "word": "Congress",
+              "lemma": "Congress",
+              "pos": "name",
+              "meaning": "美国国会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 24,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 28,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 35,
+              "word": "United",
+              "lemma": "United",
+              "pos": "name",
+              "meaning": "美国国名United States的一部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 42,
+              "word": "States",
+              "lemma": "state",
+              "pos": "n",
+              "meaning": "州",
+              "reviewVersion": 2
+            },
+            {
               "a": 43,
               "b": 49,
               "word": "passed",
               "lemma": "pass",
+              "pos": "v",
               "meaning": "通过（法律）",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 53,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 58,
+              "word": "Jury",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 68,
+              "word": "Selection",
+              "lemma": "selection",
+              "pos": "n",
+              "meaning": "选拔",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 72,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 80,
+              "word": "Service",
+              "lemma": "service",
+              "pos": "n",
+              "meaning": "服务；履行陪审职责",
+              "reviewVersion": 2
             },
             {
               "a": 81,
               "b": 84,
               "word": "Act",
-              "lemma": "act",
+              "lemma": "Act",
+              "pos": "n",
               "meaning": "法案；法律",
-              "pos": "n"
+              "reviewVersion": 2
             },
             {
               "a": 86,
               "b": 94,
               "word": "ushering",
               "lemma": "usher",
-              "meaning": "开启；引入（usher in）",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "开启；引入",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 97,
+              "word": "in",
+              "lemma": "in",
+              "pos": "part",
+              "meaning": "与ushering构成开启、引入，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 99,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 103,
+              "word": "new",
+              "lemma": "new",
+              "pos": "a",
+              "meaning": "新的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 107,
+              "word": "era",
+              "lemma": "era",
+              "pos": "n",
+              "meaning": "时代",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 110,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 121,
+              "word": "democratic",
+              "lemma": "democratic",
+              "pos": "a",
+              "meaning": "民主的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 129,
+              "word": "reforms",
+              "lemma": "reform",
+              "pos": "n",
+              "meaning": "改革",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 133,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "针对（陪审团改革）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 137,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 142,
+              "word": "jury",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 86,
               "b": 97,
-              "lemma": "ushering in",
+              "lemma": "usher in",
               "meaning": "开创；开启",
-              "word": "ushering in"
+              "word": "ushering in",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -916,7 +3595,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "国会通过法律，usher in结果是开启改革，不是引导某人入场。",
+            "sentenceSHA256": "d360289e9515edec6d1a163c320cfaf6f16df04c70a7b2d8c295656c5015be4f",
+            "words": 25,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2010-T4-P4-S2",
@@ -954,20 +3641,229 @@
           "translation": "这部法律取消了对联邦陪审员的特殊教育要求，并规定必须从整个社区中有代表性的各个群体随机选拔联邦陪审员。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "This",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；这个（指所述事物）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 8,
+              "word": "law",
+              "lemma": "law",
+              "pos": "n",
+              "meaning": "法律",
+              "reviewVersion": 2
+            },
+            {
               "a": 9,
               "b": 18,
               "word": "abolished",
               "lemma": "abolish",
+              "pos": "v",
               "meaning": "废除",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 26,
+              "word": "special",
+              "lemma": "special",
+              "pos": "a",
+              "meaning": "特殊的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 38,
+              "word": "educational",
+              "lemma": "educational",
+              "pos": "a",
+              "meaning": "教育方面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 51,
+              "word": "requirements",
+              "lemma": "requirement",
+              "pos": "n",
+              "meaning": "要求",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 55,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对……（陪审员的要求）",
+              "reviewVersion": 2
             },
             {
               "a": 56,
               "b": 63,
               "word": "federal",
               "lemma": "federal",
+              "pos": "a",
               "meaning": "联邦的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 70,
+              "word": "jurors",
+              "lemma": "juror",
+              "pos": "n",
+              "meaning": "陪审员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 74,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 83,
+              "word": "required",
+              "lemma": "require",
+              "pos": "v",
+              "meaning": "要求；规定",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 88,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（宾格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 91,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 94,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动助动词（be selected）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 103,
+              "word": "selected",
+              "lemma": "select",
+              "pos": "v",
+              "meaning": "挑选；选出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 106,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（所述地点或时点）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 113,
+              "word": "random",
+              "lemma": "random",
+              "pos": "n",
+              "meaning": "随机方式（at random整体为随机地）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 118,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 120,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 126,
+              "word": "cross",
+              "lemma": "cross",
+              "pos": "a",
+              "meaning": "横向的（cross section整体为有代表性的各群体）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 134,
+              "word": "section",
+              "lemma": "section",
+              "pos": "n",
+              "meaning": "部分；群体截面",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 137,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 141,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 142,
+              "b": 148,
+              "word": "entire",
+              "lemma": "entire",
+              "pos": "a",
+              "meaning": "整个的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 158,
+              "word": "community",
+              "lemma": "community",
+              "pos": "n",
+              "meaning": "社区；共同体",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -976,14 +3872,16 @@
               "b": 113,
               "lemma": "at random",
               "meaning": "随机地",
-              "word": "at random"
+              "word": "at random",
+              "kind": "phrase"
             },
             {
               "a": 121,
               "b": 134,
               "lemma": "cross section",
               "meaning": "具有代表性的各个群体",
-              "word": "cross section"
+              "word": "cross section",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -992,7 +3890,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "取消特殊教育要求并随机选拔；them指联邦陪审员，不泛指所有公民。",
+            "sentenceSHA256": "7517d1af85bf8658312428d46ec5e2e7b8774025d184ffd95275755a96f4c36f",
+            "words": 25,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2010-T4-P4-S3",
@@ -1030,62 +3936,265 @@
           "translation": "在1975年具有里程碑意义的泰勒诉路易斯安那州案判决中，最高法院将陪审团应代表社区各个群体的要求，扩大适用到州一级。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 6,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 7,
               "b": 15,
               "word": "landmark",
               "lemma": "landmark",
+              "pos": "a",
               "meaning": "具有里程碑意义的",
-              "pos": "a"
+              "reviewVersion": 2
             },
             {
               "a": 21,
               "b": 29,
               "word": "decision",
               "lemma": "decision",
+              "pos": "n",
               "meaning": "法院判决",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 36,
+              "word": "Taylor",
+              "lemma": "Taylor",
+              "pos": "name",
+              "meaning": "泰勒（案件当事人姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 38,
+              "word": "v",
+              "lemma": "versus",
+              "pos": "prep",
+              "meaning": "诉；对（诉讼案名中的缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 49,
+              "word": "Louisiana",
+              "lemma": "Louisiana",
+              "pos": "name",
+              "meaning": "路易斯安那州",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 54,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 62,
+              "word": "Supreme",
+              "lemma": "Supreme",
+              "pos": "a",
+              "meaning": "最高的（Supreme Court为最高法院）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 68,
+              "word": "Court",
+              "lemma": "court",
+              "pos": "n",
+              "meaning": "法院",
+              "reviewVersion": 2
             },
             {
               "a": 69,
               "b": 77,
               "word": "extended",
               "lemma": "extend",
-              "meaning": "扩大适用范围；扩展",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "扩大适用范围",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 81,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 93,
+              "word": "requirement",
+              "lemma": "requirement",
+              "pos": "n",
+              "meaning": "要求",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 98,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出所说的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 105,
+              "word": "juries",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 108,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "要求从句中的系动词（虚拟原形）",
+              "reviewVersion": 2
             },
             {
               "a": 109,
               "b": 123,
               "word": "representative",
               "lemma": "representative",
+              "pos": "a",
               "meaning": "有代表性的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 126,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 130,
+              "word": "all",
+              "lemma": "all",
+              "pos": "det",
+              "meaning": "全部；所有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 136,
+              "word": "parts",
+              "lemma": "part",
+              "pos": "n",
+              "meaning": "组成部分；各个群体",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 139,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 143,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 153,
+              "word": "community",
+              "lemma": "community",
+              "pos": "n",
+              "meaning": "社区；共同体",
+              "reviewVersion": 2
+            },
+            {
+              "a": 154,
+              "b": 156,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "到；扩大至（州一级）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 157,
+              "b": 160,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 161,
               "b": 166,
               "word": "state",
               "lemma": "state",
-              "meaning": "州；州级的",
-              "pos": "n"
-            }
-          ],
-          "phrases": [
+              "pos": "n",
+              "meaning": "州",
+              "reviewVersion": 2
+            },
             {
-              "a": 161,
+              "a": 167,
               "b": 172,
-              "lemma": "state level",
-              "meaning": "州一级",
-              "word": "state level"
+              "word": "level",
+              "lemma": "level",
+              "pos": "n",
+              "meaning": "层级",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "要求扩展到州一级，代表所有社会群体；Taylor为案件名不是职业。",
+            "sentenceSHA256": "f0aef5aa69920a1b6863d5e409c5c55a5f33de7ed7277a9ce67eb8b729d5f928",
+            "words": 27,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2010-T4-P4-S4",
@@ -1123,36 +4232,247 @@
           "translation": "泰勒案判决还宣布，陪审员选拔中的性别歧视属于违宪行为，并命令各州以相同程序选拔男性和女性陪审员。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 10,
+              "word": "Taylor",
+              "lemma": "Taylor",
+              "pos": "name",
+              "meaning": "泰勒（案件当事人姓氏）",
+              "reviewVersion": 2
+            },
+            {
               "a": 11,
               "b": 19,
               "word": "decision",
               "lemma": "decision",
+              "pos": "n",
               "meaning": "法院判决",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 24,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "也；还",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 33,
+              "word": "declared",
+              "lemma": "declare",
+              "pos": "v",
+              "meaning": "宣布；认定",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 37,
+              "word": "sex",
+              "lemma": "sex",
+              "pos": "n",
+              "meaning": "性别",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 52,
+              "word": "discrimination",
+              "lemma": "discrimination",
+              "pos": "n",
+              "meaning": "歧视",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 55,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 60,
+              "word": "jury",
+              "lemma": "jury",
+              "pos": "n",
+              "meaning": "陪审团",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 70,
+              "word": "selection",
+              "lemma": "selection",
+              "pos": "n",
+              "meaning": "选拔",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 73,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 76,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于",
+              "reviewVersion": 2
             },
             {
               "a": 77,
               "b": 93,
               "word": "unconstitutional",
               "lemma": "unconstitutional",
+              "pos": "a",
               "meaning": "违反宪法的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 97,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 105,
+              "word": "ordered",
+              "lemma": "order",
+              "pos": "v",
+              "meaning": "命令",
+              "reviewVersion": 2
             },
             {
               "a": 106,
               "b": 112,
               "word": "states",
               "lemma": "state",
-              "meaning": "州；州级的",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "州",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 115,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 119,
+              "word": "use",
+              "lemma": "use",
+              "pos": "v",
+              "meaning": "使用；采用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 123,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 128,
+              "word": "same",
+              "lemma": "same",
+              "pos": "a",
+              "meaning": "相同的",
+              "reviewVersion": 2
             },
             {
               "a": 129,
               "b": 139,
               "word": "procedures",
               "lemma": "procedure",
-              "meaning": "程序；选拔办法",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "程序",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 143,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "用于（选拔的程序）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 153,
+              "word": "selecting",
+              "lemma": "select",
+              "pos": "v",
+              "meaning": "挑选",
+              "reviewVersion": 2
+            },
+            {
+              "a": 154,
+              "b": 158,
+              "word": "male",
+              "lemma": "male",
+              "pos": "a",
+              "meaning": "男性的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 159,
+              "b": 162,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 163,
+              "b": 169,
+              "word": "female",
+              "lemma": "female",
+              "pos": "a",
+              "meaning": "女性的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 170,
+              "b": 176,
+              "word": "jurors",
+              "lemma": "juror",
+              "pos": "n",
+              "meaning": "陪审员",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1162,9 +4482,30 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "同一判决一方面认定违宪，另一方面命令相同程序选拔，male与female不能对调。",
+            "sentenceSHA256": "2db98d1a95cefbf31bcb63377cb623c137b7ec9b8749e0bdea761bcf4d072fd1",
+            "words": 27,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "de6e31ef974bd43e728f58fdd64442001b6e3fc2507fbf145e419cadb7767350",
+    "sentences": 14,
+    "wordOccurrences": 398,
+    "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

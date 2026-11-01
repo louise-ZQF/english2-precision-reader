@@ -1,0 +1,290 @@
+[
+  {
+    "sentenceId": "2024-T1-P1-S1",
+    "a": 144,
+    "b": 159,
+    "word": "digital economy",
+    "lemma": "digital economy",
+    "meaning": "数字经济"
+  },
+  {
+    "sentenceId": "2024-T1-P1-S2",
+    "a": 83,
+    "b": 90,
+    "word": "have to",
+    "lemma": "have to",
+    "meaning": "必须"
+  },
+  {
+    "sentenceId": "2024-T1-P3-S3",
+    "a": 78,
+    "b": 87,
+    "word": "every day",
+    "lemma": "every day",
+    "meaning": "每天"
+  },
+  {
+    "sentenceId": "2024-T1-P3-S3",
+    "a": 101,
+    "b": 116,
+    "word": "business models",
+    "lemma": "business model",
+    "meaning": "商业模式"
+  },
+  {
+    "sentenceId": "2024-T1-P5-S1",
+    "a": 0,
+    "b": 12,
+    "word": "According to",
+    "lemma": "according to",
+    "meaning": "根据"
+  },
+  {
+    "sentenceId": "2024-T1-P6-S2",
+    "a": 0,
+    "b": 8,
+    "word": "Not only",
+    "lemma": "not only",
+    "meaning": "不仅（与后面的but并列）"
+  },
+  {
+    "sentenceId": "2024-T1-P8-S1",
+    "a": 225,
+    "b": 236,
+    "word": "health care",
+    "lemma": "health care",
+    "meaning": "医疗保健"
+  },
+  {
+    "sentenceId": "2024-T2-P1-S1",
+    "a": 46,
+    "b": 56,
+    "word": "because of",
+    "lemma": "because of",
+    "meaning": "由于；因为"
+  },
+  {
+    "sentenceId": "2024-T2-P1-S2",
+    "a": 86,
+    "b": 97,
+    "word": "reliance on",
+    "lemma": "reliance on",
+    "meaning": "对……的依赖"
+  },
+  {
+    "sentenceId": "2024-T2-P2-S2",
+    "a": 1,
+    "b": 9,
+    "word": "Not only",
+    "lemma": "not only",
+    "meaning": "不仅（与后面的but并列）"
+  },
+  {
+    "sentenceId": "2024-T2-P2-S2",
+    "a": 101,
+    "b": 111,
+    "word": "because of",
+    "lemma": "because of",
+    "meaning": "由于；因为"
+  },
+  {
+    "sentenceId": "2024-T2-P2-S2",
+    "a": 176,
+    "b": 191,
+    "word": "chief executive",
+    "lemma": "chief executive",
+    "meaning": "首席执行官"
+  },
+  {
+    "sentenceId": "2024-T2-P2-S3",
+    "a": 50,
+    "b": 62,
+    "word": "investing in",
+    "lemma": "invest in",
+    "meaning": "投资于"
+  },
+  {
+    "sentenceId": "2024-T2-P2-S3",
+    "a": 134,
+    "b": 146,
+    "word": "fighting for",
+    "lemma": "fight for",
+    "meaning": "争夺；争取"
+  },
+  {
+    "sentenceId": "2024-T2-P3-S4",
+    "a": 43,
+    "b": 55,
+    "word": "on behalf of",
+    "lemma": "on behalf of",
+    "meaning": "在……一方（此处原文意为来自农民等方面的犹豫；通常义为代表）"
+  },
+  {
+    "sentenceId": "2024-T2-P3-S4",
+    "a": 88,
+    "b": 97,
+    "word": "invest in",
+    "lemma": "invest in",
+    "meaning": "投资于"
+  },
+  {
+    "sentenceId": "2024-T2-P4-S2",
+    "a": 191,
+    "b": 204,
+    "word": "contribute to",
+    "lemma": "contribute to",
+    "meaning": "有助于"
+  },
+  {
+    "sentenceId": "2024-T2-P4-S2",
+    "a": 205,
+    "b": 213,
+    "word": "net zero",
+    "lemma": "net zero",
+    "meaning": "净零排放"
+  },
+  {
+    "sentenceId": "2024-T2-P5-S2",
+    "a": 14,
+    "b": 25,
+    "word": "calling for",
+    "lemma": "call for",
+    "meaning": "呼吁；要求"
+  },
+  {
+    "sentenceId": "2024-T3-P1-S1",
+    "a": 112,
+    "b": 121,
+    "word": "turn over",
+    "lemma": "turn over",
+    "meaning": "交出；移交"
+  },
+  {
+    "sentenceId": "2024-T3-P4-S2",
+    "a": 120,
+    "b": 132,
+    "word": "according to",
+    "lemma": "according to",
+    "meaning": "根据"
+  },
+  {
+    "sentenceId": "2024-T3-P4-S3",
+    "a": 56,
+    "b": 69,
+    "word": "fatal crashes",
+    "lemma": "fatal crash",
+    "meaning": "致命交通事故"
+  },
+  {
+    "sentenceId": "2024-T3-P5-S1",
+    "a": 29,
+    "b": 40,
+    "word": "eye doctors",
+    "lemma": "eye doctor",
+    "meaning": "眼科医生"
+  },
+  {
+    "sentenceId": "2024-T3-P5-S2",
+    "a": 0,
+    "b": 12,
+    "word": "Primary care",
+    "lemma": "primary care",
+    "meaning": "基层医疗；初级医疗保健"
+  },
+  {
+    "sentenceId": "2024-T3-P5-S2",
+    "a": 57,
+    "b": 67,
+    "word": "be able to",
+    "lemma": "be able to",
+    "meaning": "能够"
+  },
+  {
+    "sentenceId": "2024-T4-P1-S1",
+    "a": 7,
+    "b": 14,
+    "word": "look at",
+    "lemma": "look at",
+    "meaning": "看；查看"
+  },
+  {
+    "sentenceId": "2024-T4-P1-S1",
+    "a": 60,
+    "b": 68,
+    "word": "at least",
+    "lemma": "at least",
+    "meaning": "至少"
+  },
+  {
+    "sentenceId": "2024-T4-P1-S1",
+    "a": 73,
+    "b": 83,
+    "word": "related to",
+    "lemma": "related to",
+    "meaning": "与……有关"
+  },
+  {
+    "sentenceId": "2024-T4-P1-S2",
+    "a": 16,
+    "b": 29,
+    "word": "mental health",
+    "lemma": "mental health",
+    "meaning": "心理健康"
+  },
+  {
+    "sentenceId": "2024-T4-P1-S3",
+    "a": 131,
+    "b": 144,
+    "word": "on the market",
+    "lemma": "on the market",
+    "meaning": "在市场上；市面有售"
+  },
+  {
+    "sentenceId": "2024-T4-P2-S2",
+    "a": 29,
+    "b": 36,
+    "word": "such as",
+    "lemma": "such as",
+    "meaning": "例如"
+  },
+  {
+    "sentenceId": "2024-T4-P2-S2",
+    "a": 107,
+    "b": 117,
+    "word": "focused on",
+    "lemma": "focus on",
+    "meaning": "重点关注"
+  },
+  {
+    "sentenceId": "2024-T4-P3-S3",
+    "a": 81,
+    "b": 96,
+    "word": "took control of",
+    "lemma": "take control of",
+    "meaning": "取得对……的控制；掌控"
+  },
+  {
+    "sentenceId": "2024-T4-P3-S3",
+    "a": 148,
+    "b": 161,
+    "word": "third parties",
+    "lemma": "third party",
+    "meaning": "第三方"
+  },
+  {
+    "sentenceId": "2024-T4-P3-S4",
+    "a": 171,
+    "b": 181,
+    "word": "as well as",
+    "lemma": "as well as",
+    "meaning": "以及；还"
+  },
+  {
+    "sentenceId": "2024-T4-P4-S2",
+    "a": 54,
+    "b": 76,
+    "word": "keeping their promises",
+    "lemma": "keep one's promise",
+    "meaning": "履行承诺"
+  }
+]

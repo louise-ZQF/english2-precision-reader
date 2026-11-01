@@ -51,12 +51,139 @@
           "translation": "过去几年里，印度各地陆续制定了许多高温应对行动计划，简称HAPs。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Heat",
+              "lemma": "heat",
+              "pos": "n",
+              "meaning": "高温；热",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 11,
+              "word": "action",
+              "lemma": "action",
+              "pos": "n",
+              "meaning": "应对行动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 17,
+              "word": "plans",
+              "lemma": "plan",
+              "pos": "n",
+              "meaning": "计划",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 21,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "即；也称（解释同一名称）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 26,
+              "word": "HAPs",
+              "lemma": "HAP",
+              "pos": "abbr",
+              "meaning": "高温应对行动计划（复数）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 32,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成进行时助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 37,
+              "word": "been",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "完成进行时助动词",
+              "reviewVersion": 2
+            },
+            {
               "a": 38,
               "b": 51,
               "word": "proliferating",
               "lemma": "proliferate",
+              "pos": "v",
               "meaning": "迅速增多",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 54,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在印度（地点）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 60,
+              "word": "India",
+              "lemma": "India",
+              "pos": "name",
+              "meaning": "印度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 63,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在（地区或时间范围内）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 67,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 72,
+              "word": "past",
+              "lemma": "past",
+              "pos": "a",
+              "meaning": "过去的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 76,
+              "word": "few",
+              "lemma": "few",
+              "pos": "art",
+              "meaning": "少数几个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 82,
+              "word": "years",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -65,7 +192,8 @@
               "b": 17,
               "lemma": "heat action plan",
               "meaning": "高温行动计划",
-              "word": "Heat action plans"
+              "word": "Heat action plans",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -74,7 +202,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "HAPs为同位简称，or表示即而非选择；完成进行时表近年持续增多。",
+            "sentenceSHA256": "9f7cf77ee368ef3ef6b5655ea05627f2439cc958dd3d74010fcf6ce4506e6d6f",
+            "words": 15,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2025-T3-P1-S2",
@@ -104,14 +240,196 @@
           ],
           "reorder": "无需调序。",
           "translation": "一般来说，高温应对计划会明确说明，官员应在何时、以何种方式发布高温预警，并通知医院及其他机构。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在（地区或时间范围内）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 10,
+              "word": "general",
+              "lemma": "general",
+              "pos": "n",
+              "meaning": "概括情况（in general整体为一般来说）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 14,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 18,
+              "word": "HAP",
+              "lemma": "HAP",
+              "pos": "abbr",
+              "meaning": "高温应对行动计划",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 25,
+              "word": "spells",
+              "lemma": "spell",
+              "pos": "v",
+              "meaning": "明确说明（与out连用）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 29,
+              "word": "out",
+              "lemma": "out",
+              "pos": "part",
+              "meaning": "与spell构成明确说明的搭配",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 34,
+              "word": "when",
+              "lemma": "when",
+              "pos": "adv",
+              "meaning": "何时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 38,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 42,
+              "word": "how",
+              "lemma": "how",
+              "pos": "adv",
+              "meaning": "如何；以何种方式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 52,
+              "word": "officials",
+              "lemma": "official",
+              "pos": "n",
+              "meaning": "官员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 59,
+              "word": "should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应该",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 65,
+              "word": "issue",
+              "lemma": "issue",
+              "pos": "v",
+              "meaning": "发布（预警）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 70,
+              "word": "heat",
+              "lemma": "heat",
+              "pos": "n",
+              "meaning": "高温；热",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 79,
+              "word": "warnings",
+              "lemma": "warning",
+              "pos": "n",
+              "meaning": "预警",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 83,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 89,
+              "word": "alert",
+              "lemma": "alert",
+              "pos": "v",
+              "meaning": "通知；提醒",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 99,
+              "word": "hospitals",
+              "lemma": "hospital",
+              "pos": "n",
+              "meaning": "医院",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 103,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 109,
+              "word": "other",
+              "lemma": "other",
+              "pos": "art",
+              "meaning": "其他的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 122,
+              "word": "institutions",
+              "lemma": "institution",
+              "pos": "n",
+              "meaning": "机构",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 19,
               "b": 29,
               "word": "spells out",
               "lemma": "spell out",
-              "meaning": "明确说明；详细列明"
+              "meaning": "明确说明；详细列明",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -120,7 +438,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "alert在本句为通知的动词，不是预警名词；spell out为明确说明。",
+            "sentenceSHA256": "d86bd728851440ea3b92fb21396ec353370f8aac468e689ec9655f6db314d390",
+            "words": 20,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2025-T3-P1-S3",
@@ -164,36 +490,328 @@
           "translation": "例如，那格浦尔的计划要求医院在夏季留出“凉爽病房”治疗中暑患者，并建议建筑承包商在酷热天气安排工人暂停工作、休息一下。",
           "words": [
             {
+              "a": 0,
+              "b": 8,
+              "word": "Nagpur's",
+              "lemma": "Nagpur",
+              "pos": "name",
+              "meaning": "那格浦尔的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 13,
+              "word": "plan",
+              "lemma": "plan",
+              "pos": "n",
+              "meaning": "计划",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 18,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "例如（for instance搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 27,
+              "word": "instance",
+              "lemma": "instance",
+              "pos": "n",
+              "meaning": "例子（for instance整体为例如）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 34,
+              "word": "calls",
+              "lemma": "call",
+              "pos": "v",
+              "meaning": "要求（与for搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 38,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "要求（call for搭配的介词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 48,
+              "word": "hospitals",
+              "lemma": "hospital",
+              "pos": "n",
+              "meaning": "医院",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 51,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 55,
+              "word": "set",
+              "lemma": "set",
+              "pos": "v",
+              "meaning": "专门留出（set aside搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 61,
+              "word": "aside",
+              "lemma": "aside",
+              "pos": "part",
+              "meaning": "与set组成专门留出的搭配",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 67,
+              "word": "cold",
+              "lemma": "cold",
+              "pos": "a",
+              "meaning": "凉爽的；用于降温的",
+              "reviewVersion": 2
+            },
+            {
               "a": 68,
               "b": 73,
               "word": "wards",
               "lemma": "ward",
+              "pos": "n",
               "meaning": "病房",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 77,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在（地区或时间范围内）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 81,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 88,
+              "word": "summer",
+              "lemma": "summer",
+              "pos": "n",
+              "meaning": "夏季",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 92,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "针对；为了",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 101,
+              "word": "treating",
+              "lemma": "treat",
+              "pos": "v",
+              "meaning": "治疗",
+              "reviewVersion": 2
             },
             {
               "a": 102,
               "b": 112,
               "word": "heatstroke",
               "lemma": "heatstroke",
+              "pos": "n",
               "meaning": "中暑",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 121,
+              "word": "patients",
+              "lemma": "patient",
+              "pos": "n",
+              "meaning": "患者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 126,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 134,
+              "word": "advises",
+              "lemma": "advise",
+              "pos": "v",
+              "meaning": "建议",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 143,
+              "word": "builders",
+              "lemma": "builder",
+              "pos": "n",
+              "meaning": "建筑商；施工单位",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 146,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 147,
+              "b": 151,
+              "word": "give",
+              "lemma": "give",
+              "pos": "v",
+              "meaning": "给予；安排",
+              "reviewVersion": 2
+            },
+            {
+              "a": 152,
+              "b": 164,
+              "word": "construction",
+              "lemma": "construction",
+              "pos": "n",
+              "meaning": "建筑施工",
+              "reviewVersion": 2
+            },
+            {
+              "a": 165,
+              "b": 173,
+              "word": "laborers",
+              "lemma": "laborer",
+              "pos": "n",
+              "meaning": "工人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 174,
+              "b": 175,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 176,
+              "b": 181,
+              "word": "break",
+              "lemma": "break",
+              "pos": "n",
+              "meaning": "休息；暂停",
+              "reviewVersion": 2
+            },
+            {
+              "a": 182,
+              "b": 186,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从工作中暂时脱离；暂停工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 187,
+              "b": 191,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 192,
+              "b": 194,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "在（日期或工作对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 195,
+              "b": 199,
+              "word": "very",
+              "lemma": "very",
+              "pos": "adv",
+              "meaning": "非常",
+              "reviewVersion": 2
+            },
+            {
+              "a": 200,
+              "b": 203,
+              "word": "hot",
+              "lemma": "hot",
+              "pos": "a",
+              "meaning": "炎热的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 204,
+              "b": 208,
+              "word": "days",
+              "lemma": "day",
+              "pos": "n",
+              "meaning": "天；日子",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
+            {
+              "a": 29,
+              "b": 38,
+              "word": "calls for",
+              "lemma": "call for",
+              "meaning": "呼吁；要求",
+              "kind": "phrase"
+            },
             {
               "a": 52,
               "b": 61,
               "lemma": "set aside",
               "meaning": "专门留出",
-              "word": "set aside"
-            },
-            {
-              "a": 63,
-              "b": 73,
-              "lemma": "cold ward",
-              "meaning": "降温病房",
-              "word": "cold wards"
+              "word": "set aside",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -202,7 +820,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "三个for分别表示例如、要求、治疗用途；break from work为暂停工作。",
+            "sentenceSHA256": "eef6d158bc5996d20d86e7c6d21844da0c1a60222c67aeed8dda762dbe8d3e5d",
+            "words": 34,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -234,20 +860,166 @@
           "translation": "但政策研究中心的一份报告指出，现有高温应对计划的执行情况参差不齐。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "But",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但；而",
+              "reviewVersion": 2
+            },
+            {
               "a": 4,
               "b": 18,
               "word": "implementation",
               "lemma": "implementation",
-              "meaning": "落实；执行",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "实施；落实",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 21,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 30,
+              "word": "existing",
+              "lemma": "exist",
+              "pos": "a",
+              "meaning": "现有的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 35,
+              "word": "HAPs",
+              "lemma": "HAP",
+              "pos": "abbr",
+              "meaning": "高温应对行动计划（复数）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 39,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 44,
+              "word": "been",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "与has构成完成时，说明已存在的状态",
+              "reviewVersion": 2
             },
             {
               "a": 45,
               "b": 51,
               "word": "uneven",
               "lemma": "uneven",
-              "meaning": "不均衡的；参差不齐的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "参差不齐的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 62,
+              "word": "according",
+              "lemma": "according",
+              "pos": "prep",
+              "meaning": "根据（according to整体）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 65,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "根据（according to搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 67,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 74,
+              "word": "report",
+              "lemma": "report",
+              "pos": "n",
+              "meaning": "报告",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 79,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；离开",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 83,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 90,
+              "word": "Centre",
+              "lemma": "Centre",
+              "pos": "name",
+              "meaning": "中心（机构名的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 94,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "针对；为了",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 101,
+              "word": "Policy",
+              "lemma": "Policy",
+              "pos": "n",
+              "meaning": "政策（机构名的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 110,
+              "word": "Research",
+              "lemma": "Research",
+              "pos": "n",
+              "meaning": "研究（机构名的一部分）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -257,7 +1029,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "according to为报告出处，implementation为执行情况并非计划数量。",
+            "sentenceSHA256": "0881bc10632adb11bf4f7f412d1d15cb43a531842b031ab7790ebf7065b6688f",
+            "words": 18,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2025-T3-P2-S2",
@@ -281,23 +1061,78 @@
           ],
           "reorder": "将 it found 提到句首。",
           "translation": "报告发现，许多计划缺乏足够资金。",
-          "words": [],
-          "phrases": [
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "Many",
+              "lemma": "many",
+              "pos": "pron",
+              "meaning": "许多计划",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 9,
+              "word": "lack",
+              "lemma": "lack",
+              "pos": "v",
+              "meaning": "缺乏",
+              "reviewVersion": 2
+            },
             {
               "a": 10,
+              "b": 18,
+              "word": "adequate",
+              "lemma": "adequate",
+              "pos": "a",
+              "meaning": "足够的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
               "b": 26,
-              "word": "adequate funding",
-              "lemma": "adequate funding",
-              "meaning": "充足的资金支持"
+              "word": "funding",
+              "lemma": "funding",
+              "pos": "n",
+              "meaning": "资金支持",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 30,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "该报告（回指研究报告）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 36,
+              "word": "found",
+              "lemma": "find",
+              "pos": "v",
+              "meaning": "研究发现",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句对照原文",
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "Many指许多计划、it指报告，lack为动词且并不表示所有计划无钱。",
+            "sentenceSHA256": "05b6fc21c539e7d50cd319f19d00044e353172feedd09b319938786f95381e0a",
+            "words": 6,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2025-T3-P2-S3",
@@ -323,28 +1158,112 @@
           "translation": "而它们启动预警的门槛，往往没有根据当地气候作针对性调整。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "And",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 9,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
               "a": 10,
               "b": 20,
               "word": "triggering",
               "lemma": "trigger",
-              "meaning": "触发预警的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "用于触发预警的",
+              "reviewVersion": 2
             },
             {
               "a": 21,
               "b": 31,
               "word": "thresholds",
               "lemma": "threshold",
-              "meaning": "阈值；临界标准",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "预警门槛；阈值",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 37,
+              "word": "often",
+              "lemma": "often",
+              "pos": "adv",
+              "meaning": "经常；往往",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 41,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动语态助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 45,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 46,
               "b": 56,
               "word": "customized",
               "lemma": "customize",
-              "meaning": "按地方情况调整",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "按当地情况针对性调整",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 59,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "按……情况调整（customized to搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 63,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 69,
+              "word": "local",
+              "lemma": "local",
+              "pos": "a",
+              "meaning": "当地的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 77,
+              "word": "climate",
+              "lemma": "climate",
+              "pos": "n",
+              "meaning": "气候",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -354,7 +1273,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "triggering为触发预警的修饰语，to表示按当地气候调整。",
+            "sentenceSHA256": "75c4ad124bec01381bfb8406276f226e558689213e4de9d48117c9b36daa7e3c",
+            "words": 12,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2025-T3-P2-S4",
@@ -380,20 +1307,139 @@
           "translation": "在一些地区，单看白天的高温，或许就足以决定是否发布预警。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在（地区或时间范围内）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "some",
+              "lemma": "some",
+              "pos": "art",
+              "meaning": "一些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 13,
+              "word": "areas",
+              "lemma": "area",
+              "pos": "n",
+              "meaning": "地区",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 19,
+              "word": "high",
+              "lemma": "high",
+              "pos": "a",
+              "meaning": "高的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 27,
+              "word": "daytime",
+              "lemma": "daytime",
+              "pos": "n",
+              "meaning": "白天",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 40,
+              "word": "temperatures",
+              "lemma": "temperature",
+              "pos": "n",
+              "meaning": "气温",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 46,
+              "word": "alone",
+              "lemma": "alone",
+              "pos": "adv",
+              "meaning": "仅仅；单看",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 52,
+              "word": "might",
+              "lemma": "may",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 58,
+              "word": "serve",
+              "lemma": "serve",
+              "pos": "v",
+              "meaning": "充当；作为（serve as）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 61,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "作为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 64,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 73,
+              "word": "adequate",
+              "lemma": "adequate",
+              "pos": "a",
+              "meaning": "足够的",
+              "reviewVersion": 2
+            },
+            {
               "a": 74,
               "b": 81,
               "word": "trigger",
               "lemma": "trigger",
+              "pos": "n",
               "meaning": "触发预警的条件",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 85,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "针对；为了",
+              "reviewVersion": 2
             },
             {
               "a": 86,
               "b": 92,
               "word": "alerts",
               "lemma": "alert",
+              "pos": "n",
               "meaning": "预警",
-              "pos": "n"
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -403,7 +1449,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "alone指单看白天气温，trigger为名词条件，might保留可能性。",
+            "sentenceSHA256": "8e895d771b0250e649d67652e55707f597fb046314dde9d8ec02c2d178e5425e",
+            "words": 15,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2025-T3-P2-S5",
@@ -429,20 +1483,175 @@
           "translation": "但在其他地方，夜间气温或湿度，可能与白天最高气温一样，是衡量风险的重要指标。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "But",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但；而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 6,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在（地区或时间范围内）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 12,
+              "word": "other",
+              "lemma": "other",
+              "pos": "art",
+              "meaning": "其他的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 19,
+              "word": "places",
+              "lemma": "place",
+              "pos": "n",
+              "meaning": "地区；地方",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 30,
+              "word": "nighttime",
+              "lemma": "nighttime",
+              "pos": "n",
+              "meaning": "夜间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 43,
+              "word": "temperatures",
+              "lemma": "temperature",
+              "pos": "n",
+              "meaning": "气温",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 46,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
               "a": 47,
               "b": 55,
               "word": "humidity",
               "lemma": "humidity",
+              "pos": "n",
               "meaning": "湿度",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 61,
+              "word": "might",
+              "lemma": "may",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 64,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；可作为（系动词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 67,
+              "word": "as",
+              "lemma": "as",
+              "pos": "adv",
+              "meaning": "程度比较标记（as important ... as）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 77,
+              "word": "important",
+              "lemma": "important",
+              "pos": "a",
+              "meaning": "重要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 79,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 80,
               "b": 85,
               "word": "gauge",
               "lemma": "gauge",
+              "pos": "n",
               "meaning": "衡量标准；指标",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 88,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 93,
+              "word": "risk",
+              "lemma": "risk",
+              "pos": "n",
+              "meaning": "风险",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 96,
+              "word": "as",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "和……一样（引出白天最高气温作比较）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 104,
+              "word": "daytime",
+              "lemma": "daytime",
+              "pos": "n",
+              "meaning": "白天",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 110,
+              "word": "highs",
+              "lemma": "high",
+              "pos": "n",
+              "meaning": "最高气温",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -452,7 +1661,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "as两处构成同等程度比较，highs为白天最高气温而非高地。",
+            "sentenceSHA256": "ef189584a4aa5db6c867f18fedcfb78188a5995232f0b6db5f809a17179b5690",
+            "words": 19,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -490,36 +1707,139 @@
           "translation": "研究人员说，孟买4月发生的中暑死亡事件表明，需要更细致、更符合当地情况的预警。",
           "words": [
             {
+              "a": 0,
+              "b": 8,
+              "word": "Mumbai's",
+              "lemma": "Mumbai",
+              "pos": "name",
+              "meaning": "孟买的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 14,
+              "word": "April",
+              "lemma": "April",
+              "pos": "name",
+              "meaning": "四月",
+              "reviewVersion": 2
+            },
+            {
               "a": 15,
               "b": 25,
               "word": "heatstroke",
               "lemma": "heatstroke",
+              "pos": "n",
               "meaning": "中暑",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 32,
+              "word": "deaths",
+              "lemma": "death",
+              "pos": "n",
+              "meaning": "死亡事件",
+              "reviewVersion": 2
             },
             {
               "a": 33,
               "b": 44,
               "word": "highlighted",
               "lemma": "highlight",
+              "pos": "v",
               "meaning": "凸显；表明",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 48,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 53,
+              "word": "need",
+              "lemma": "need",
+              "pos": "n",
+              "meaning": "需要；必要性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 57,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "针对；为了",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 62,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更加（修饰细致和因地制宜）",
+              "reviewVersion": 2
             },
             {
               "a": 63,
               "b": 70,
               "word": "nuanced",
               "lemma": "nuanced",
-              "meaning": "更细致、考虑多种差异的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "细致地考虑差异的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 74,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 75,
               "b": 84,
               "word": "localized",
-              "lemma": "localized",
-              "meaning": "因地制宜的；针对当地的",
-              "pos": "a"
+              "lemma": "localize",
+              "pos": "a",
+              "meaning": "符合当地具体情况的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 93,
+              "word": "warnings",
+              "lemma": "warning",
+              "pos": "n",
+              "meaning": "预警",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 106,
+              "word": "researchers",
+              "lemma": "researcher",
+              "pos": "n",
+              "meaning": "研究人员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 110,
+              "word": "say",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "表示；指出",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -529,7 +1849,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "need此处是必要性名词；localized为因地制宜，保持归属研究者意见。",
+            "sentenceSHA256": "d20435b8292bf86bf068bdbc5d12c8ba06dcbca479752a1ade54e53d8f8e2eef",
+            "words": 15,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2025-T3-P3-S2",
@@ -561,36 +1889,202 @@
           "translation": "当天最高气温约36摄氏度，比国家气象部门为沿海城市设定的热浪预警门槛低1摄氏度。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "That",
+              "lemma": "that",
+              "pos": "art",
+              "meaning": "那一天的（指前述死亡事件发生日）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 10,
+              "word": "day's",
+              "lemma": "day",
+              "pos": "n",
+              "meaning": "那一天的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 15,
+              "word": "high",
+              "lemma": "high",
+              "pos": "a",
+              "meaning": "高的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 27,
+              "word": "temperature",
+              "lemma": "temperature",
+              "pos": "n",
+              "meaning": "气温",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 30,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 38,
+              "word": "roughly",
+              "lemma": "roughly",
+              "pos": "adv",
+              "meaning": "大约",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 46,
+              "word": "was",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于",
+              "reviewVersion": 2
+            },
+            {
               "a": 50,
               "b": 53,
               "word": "shy",
               "lemma": "shy",
-              "meaning": "尚未达到；还差……的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "尚未达到；差一点的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 56,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 60,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 65,
+              "word": "heat",
+              "lemma": "heat",
+              "pos": "n",
+              "meaning": "高温；热",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 70,
+              "word": "wave",
+              "lemma": "wave",
+              "pos": "n",
+              "meaning": "热浪（heat wave搭配）",
+              "reviewVersion": 2
             },
             {
               "a": 71,
               "b": 76,
               "word": "alert",
               "lemma": "alert",
+              "pos": "n",
               "meaning": "预警",
-              "pos": "n"
+              "reviewVersion": 2
             },
             {
               "a": 77,
               "b": 86,
               "word": "threshold",
               "lemma": "threshold",
-              "meaning": "阈值；临界标准",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "预警门槛；阈值",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 90,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "针对；为了",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 98,
+              "word": "coastal",
+              "lemma": "coastal",
+              "pos": "a",
+              "meaning": "沿海的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 105,
+              "word": "cities",
+              "lemma": "city",
+              "pos": "n",
+              "meaning": "城市",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 109,
+              "word": "set",
+              "lemma": "set",
+              "pos": "v",
+              "meaning": "设置；规定",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 112,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "由；由于（被动施事或原因）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 121,
+              "word": "national",
+              "lemma": "national",
+              "pos": "a",
+              "meaning": "国家的",
+              "reviewVersion": 2
             },
             {
               "a": 122,
               "b": 136,
               "word": "meteorological",
               "lemma": "meteorological",
+              "pos": "a",
               "meaning": "气象的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 148,
+              "word": "authorities",
+              "lemma": "authority",
+              "pos": "n",
+              "meaning": "主管部门",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -599,14 +2093,16 @@
               "b": 56,
               "lemma": "shy of",
               "meaning": "尚差……；未达到",
-              "word": "shy of"
+              "word": "shy of",
+              "kind": "phrase"
             },
             {
               "a": 61,
               "b": 70,
               "lemma": "heat wave",
               "meaning": "热浪；持续高温",
-              "word": "heat wave"
+              "word": "heat wave",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -615,7 +2111,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "核对36与差1摄氏度的方向，shy of不是害羞；That限定当天。",
+            "sentenceSHA256": "028955fe3f1bae8c2c746171eafa9f8a6aca6f48710986ce7cab597a1748affe",
+            "words": 22,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2025-T3-P3-S3",
@@ -647,20 +2151,256 @@
           "translation": "但湿度以及当天临近中午的户外仪式现场缺少遮阴，都加剧了高温的影响；而湿度是高温预警系统经常忽视的一个因素。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "But",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但；而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 7,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 15,
+              "word": "effects",
+              "lemma": "effect",
+              "pos": "n",
+              "meaning": "影响",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 18,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 27,
+              "word": "heat",
+              "lemma": "heat",
+              "pos": "n",
+              "meaning": "高温；热",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 32,
+              "word": "were",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "过去时被动助动词",
+              "reviewVersion": 2
+            },
+            {
               "a": 33,
               "b": 42,
               "word": "amplified",
               "lemma": "amplify",
+              "pos": "v",
               "meaning": "加剧；放大",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 45,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "由于（引出加剧高温影响的因素）",
+              "reviewVersion": 2
             },
             {
               "a": 46,
               "b": 54,
               "word": "humidity",
               "lemma": "humidity",
+              "pos": "n",
               "meaning": "湿度",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 57,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 63,
+              "word": "often",
+              "lemma": "often",
+              "pos": "adv",
+              "meaning": "经常；往往",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 73,
+              "word": "neglected",
+              "lemma": "neglect",
+              "pos": "v",
+              "meaning": "被忽视",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 80,
+              "word": "factor",
+              "lemma": "factor",
+              "pos": "n",
+              "meaning": "因素",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 83,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在（地区或时间范围内）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 88,
+              "word": "heat",
+              "lemma": "heat",
+              "pos": "n",
+              "meaning": "高温；热",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 94,
+              "word": "alert",
+              "lemma": "alert",
+              "pos": "n",
+              "meaning": "预警",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 102,
+              "word": "systems",
+              "lemma": "system",
+              "pos": "n",
+              "meaning": "系统",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 107,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 111,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 116,
+              "word": "lack",
+              "lemma": "lack",
+              "pos": "n",
+              "meaning": "缺乏；缺少",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 119,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 125,
+              "word": "shade",
+              "lemma": "shade",
+              "pos": "n",
+              "meaning": "遮阴；阴凉处",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 128,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（时刻或风险状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 132,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 145,
+              "word": "late-morning",
+              "lemma": "late-morning",
+              "pos": "a",
+              "meaning": "上午较晚时段的；临近中午的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 153,
+              "word": "outdoor",
+              "lemma": "outdoor",
+              "pos": "a",
+              "meaning": "户外的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 154,
+              "b": 162,
+              "word": "ceremony",
+              "lemma": "ceremony",
+              "pos": "n",
+              "meaning": "仪式",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -670,7 +2410,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "by的两个原因由插入语隔开，湿度和缺少遮阴都加剧热影响。",
+            "sentenceSHA256": "1b68e98a0c0740224004ff37a54dafd6d1771f8f1501c6faa1a217d6b2b33c07",
+            "words": 28,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -711,40 +2459,259 @@
             }
           ],
           "reorder": "无需调序。",
-          "translation": "为帮助改进高温应对计划，城市规划师拉贾什里·科塔卡尔的团队正在制定一份示范计划，梳理最佳做法，并允许根据当地情况作出调整。",
+          "translation": "为帮助改进高温应对计划，城市规划师拉贾什里·科塔卡尔的团队正在制定一份示范计划，梳理最佳做法，并可根据当地情况作出调整。",
           "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "To",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "help",
+              "lemma": "help",
+              "pos": "v",
+              "meaning": "帮助",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 15,
+              "word": "improve",
+              "lemma": "improve",
+              "pos": "v",
+              "meaning": "改进",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "HAPs",
+              "lemma": "HAP",
+              "pos": "abbr",
+              "meaning": "高温应对行动计划（复数）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 27,
+              "word": "urban",
+              "lemma": "urban",
+              "pos": "a",
+              "meaning": "城市的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 35,
+              "word": "planner",
+              "lemma": "planner",
+              "pos": "n",
+              "meaning": "规划师",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 45,
+              "word": "Rajashree",
+              "lemma": "Rajashree",
+              "pos": "name",
+              "meaning": "拉贾什里（姓名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 57,
+              "word": "Kotharkar's",
+              "lemma": "Kotharkar",
+              "pos": "name",
+              "meaning": "科塔卡尔的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 62,
+              "word": "team",
+              "lemma": "team",
+              "pos": "n",
+              "meaning": "团队",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 65,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与working构成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 73,
+              "word": "working",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "致力于制定（与on连用）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 76,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "在（日期或工作对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 78,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 84,
+              "word": "model",
+              "lemma": "model",
+              "pos": "a",
+              "meaning": "示范性的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 89,
+              "word": "plan",
+              "lemma": "plan",
+              "pos": "n",
+              "meaning": "计划",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 94,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指前面的事物",
+              "reviewVersion": 2
+            },
             {
               "a": 95,
               "b": 103,
               "word": "outlines",
               "lemma": "outline",
+              "pos": "v",
               "meaning": "概述；梳理",
-              "pos": "v"
-            }
-          ],
-          "phrases": [
+              "reviewVersion": 2
+            },
             {
-              "a": 79,
-              "b": 89,
-              "word": "model plan",
-              "lemma": "model plan",
-              "meaning": "供各地参考的示范计划"
+              "a": 104,
+              "b": 108,
+              "word": "best",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "最佳的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 118,
+              "word": "practices",
+              "lemma": "practice",
+              "pos": "n",
+              "meaning": "做法；实践",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 122,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 128,
+              "word": "could",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "可以；可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 131,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动助动词",
+              "reviewVersion": 2
             },
             {
               "a": 132,
+              "b": 139,
+              "word": "adapted",
+              "lemma": "adapt",
+              "pos": "v",
+              "meaning": "作调整以适应",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 142,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "根据……调整（adapted to搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 148,
+              "word": "local",
+              "lemma": "local",
+              "pos": "a",
+              "meaning": "当地的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
               "b": 159,
-              "word": "adapted to local conditions",
-              "lemma": "adapt to local conditions",
-              "meaning": "根据当地情况作调整"
+              "word": "conditions",
+              "lemma": "condition",
+              "pos": "n",
+              "meaning": "情况；条件",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句对照原文",
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "model为示范性计划，adapt to local conditions表示可作调整而非获得许可。",
+            "sentenceSHA256": "5b59c015d6af2a9832b5af09fc41262d1b6f3c09c938ff4b2d9ee9762911b4fe",
+            "words": 26,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2025-T3-P4-S2",
@@ -776,12 +2743,202 @@
           "translation": "她说，除此之外，所有城市都应绘制脆弱性分布图，帮助把应对工作集中到风险最高的人群身上。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "Among",
+              "lemma": "among",
+              "pos": "prep",
+              "meaning": "在……之中（among other things引出其他要点）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 11,
+              "word": "other",
+              "lemma": "other",
+              "pos": "art",
+              "meaning": "其他的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 18,
+              "word": "things",
+              "lemma": "thing",
+              "pos": "n",
+              "meaning": "事项；要点",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 23,
+              "word": "she",
+              "lemma": "she",
+              "pos": "pron",
+              "meaning": "她",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 28,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；指出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 33,
+              "word": "all",
+              "lemma": "all",
+              "pos": "art",
+              "meaning": "所有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 40,
+              "word": "cities",
+              "lemma": "city",
+              "pos": "n",
+              "meaning": "城市",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 47,
+              "word": "should",
+              "lemma": "should",
+              "pos": "aux",
+              "meaning": "应该",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 54,
+              "word": "create",
+              "lemma": "create",
+              "pos": "v",
+              "meaning": "绘制；创建",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 56,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 57,
               "b": 70,
               "word": "vulnerability",
               "lemma": "vulnerability",
+              "pos": "n",
               "meaning": "易受伤害的程度；脆弱性",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 74,
+              "word": "map",
+              "lemma": "map",
+              "pos": "n",
+              "meaning": "分布图；地图",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 77,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 82,
+              "word": "help",
+              "lemma": "help",
+              "pos": "v",
+              "meaning": "帮助",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 88,
+              "word": "focus",
+              "lemma": "focus",
+              "pos": "v",
+              "meaning": "集中（应对工作）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 98,
+              "word": "responses",
+              "lemma": "response",
+              "pos": "n",
+              "meaning": "应对措施",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 101,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "针对；集中于（focus on搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 105,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 117,
+              "word": "populations",
+              "lemma": "population",
+              "pos": "n",
+              "meaning": "人群",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 122,
+              "word": "most",
+              "lemma": "most",
+              "pos": "adv",
+              "meaning": "最；程度最高",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 125,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（时刻或风险状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 130,
+              "word": "risk",
+              "lemma": "risk",
+              "pos": "n",
+              "meaning": "风险",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -790,7 +2947,8 @@
               "b": 74,
               "lemma": "vulnerability map",
               "meaning": "高温脆弱性分布图",
-              "word": "vulnerability map"
+              "word": "vulnerability map",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -799,7 +2957,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "focus responses on为重点应对高风险人群，most at risk后置说明。",
+            "sentenceSHA256": "0961b50ee9947f2f921fe4d632d0b3d797659efa279d856336b8a5b218d247f5",
+            "words": 22,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -829,7 +2995,89 @@
           ],
           "reorder": "将 Kotharkar says 提到句首。",
           "translation": "科塔卡尔说，这种地图不需要很复杂。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "Such",
+              "lemma": "such",
+              "pos": "art",
+              "meaning": "这样的；这种",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 12,
+              "word": "mapping",
+              "lemma": "mapping",
+              "pos": "n",
+              "meaning": "绘制分布图",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 20,
+              "word": "doesn't",
+              "lemma": "do not",
+              "pos": "aux",
+              "meaning": "不（does not缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 28,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 31,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "处于某种状态（不需要复杂）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 39,
+              "word": "complex",
+              "lemma": "complex",
+              "pos": "a",
+              "meaning": "复杂的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 50,
+              "word": "Kotharkar",
+              "lemma": "Kotharkar",
+              "pos": "name",
+              "meaning": "科塔卡尔（研究者姓）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 55,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；指出",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -837,7 +3085,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "Such回指绘图，does not否定的是需要复杂而非不需要绘图。",
+            "sentenceSHA256": "e7f8dbe28e48e5b9d2a556088696144044d87843e12d2ce62164c566a67ac0c9",
+            "words": 9,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2025-T3-P5-S2",
@@ -863,12 +3119,130 @@
           "translation": "“哪怕只考察少数几个关键参数，也能绘制出一张有用的地图。”",
           "words": [
             {
+              "a": 1,
+              "b": 2,
+              "word": "A",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 9,
+              "word": "useful",
+              "lemma": "useful",
+              "pos": "a",
+              "meaning": "有用的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 13,
+              "word": "map",
+              "lemma": "map",
+              "pos": "n",
+              "meaning": "分布图；地图",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 17,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 20,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 28,
+              "word": "created",
+              "lemma": "create",
+              "pos": "v",
+              "meaning": "绘制；创建",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 31,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "通过（绘图方法）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 39,
+              "word": "looking",
+              "lemma": "look",
+              "pos": "v",
+              "meaning": "考察（与at搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 42,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "考察（look at搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 47,
+              "word": "even",
+              "lemma": "even",
+              "pos": "adv",
+              "meaning": "哪怕；即使只",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 49,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 53,
+              "word": "few",
+              "lemma": "few",
+              "pos": "art",
+              "meaning": "少数几个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 57,
+              "word": "key",
+              "lemma": "key",
+              "pos": "a",
+              "meaning": "关键的",
+              "reviewVersion": 2
+            },
+            {
               "a": 58,
               "b": 68,
               "word": "parameters",
               "lemma": "parameter",
+              "pos": "n",
               "meaning": "参数；评估指标",
-              "pos": "n"
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -878,7 +3252,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "by looking at为方法，even a few为即使少数参数也能绘图。",
+            "sentenceSHA256": "ce5db8f4163e63ae407ff16ec41f9202d132e0ea3865bc2677d7cc8018ea6938",
+            "words": 14,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2025-T3-P5-S3",
@@ -914,30 +3296,258 @@
           ],
           "reorder": "无需调序。",
           "translation": "例如，老年人口较多，或者有许多不耐高温的非正规住房的社区，可以收到专门预警，或通过增设避暑中心获得更多支持。",
-          "words": [],
-          "phrases": [
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "For",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "针对；为了",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 11,
+              "word": "example",
+              "lemma": "example",
+              "pos": "n",
+              "meaning": "例子（for example整体为例如）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 26,
+              "word": "neighborhoods",
+              "lemma": "neighborhood",
+              "pos": "n",
+              "meaning": "社区；街区",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 31,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "具有；带有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 33,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 39,
+              "word": "large",
+              "lemma": "large",
+              "pos": "a",
+              "meaning": "数量多的；规模大的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 47,
+              "word": "elderly",
+              "lemma": "elderly",
+              "pos": "a",
+              "meaning": "年老的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 58,
+              "word": "population",
+              "lemma": "population",
+              "pos": "n",
+              "meaning": "人口；人群",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 61,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
             {
               "a": 62,
+              "b": 70,
+              "word": "informal",
+              "lemma": "informal",
+              "pos": "a",
+              "meaning": "非正规建设的（住房）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
               "b": 80,
-              "word": "informal dwellings",
-              "lemma": "informal dwelling",
-              "meaning": "非正规住房；简陋且缺少规范建设的住所"
+              "word": "dwellings",
+              "lemma": "dwelling",
+              "pos": "n",
+              "meaning": "住所；住房",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 85,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指前面的事物",
+              "reviewVersion": 2
             },
             {
               "a": 86,
+              "b": 90,
+              "word": "cope",
+              "lemma": "cope",
+              "pos": "v",
+              "meaning": "应对；抵御（与with搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 97,
+              "word": "poorly",
+              "lemma": "poorly",
+              "pos": "adv",
+              "meaning": "不好地；应对能力差地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 102,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "应对（cope with搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
               "b": 107,
-              "word": "cope poorly with heat",
-              "lemma": "cope poorly with heat",
-              "meaning": "抵御或应对高温的能力差"
+              "word": "heat",
+              "lemma": "heat",
+              "pos": "n",
+              "meaning": "高温；热",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 113,
+              "word": "could",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "可以；可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 117,
+              "word": "get",
+              "lemma": "get",
+              "pos": "v",
+              "meaning": "获得",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 125,
+              "word": "special",
+              "lemma": "special",
+              "pos": "a",
+              "meaning": "专门的；针对性的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 134,
+              "word": "warnings",
+              "lemma": "warning",
+              "pos": "n",
+              "meaning": "预警",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 137,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 140,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 150,
+              "word": "bolstered",
+              "lemma": "bolster",
+              "pos": "v",
+              "meaning": "加强支持；增强应对能力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 151,
+              "b": 155,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "具有；带有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 163,
+              "word": "cooling",
+              "lemma": "cool",
+              "pos": "a",
+              "meaning": "用于降温避暑的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 171,
+              "word": "centers",
+              "lemma": "center",
+              "pos": "n",
+              "meaning": "中心；服务场所",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句对照原文",
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "that修饰住房，非正规住房应对热能力差；or给出两个可获支持的渠道。",
+            "sentenceSHA256": "bd3571d8bb6adc39a1609acdb16338d7cff67cfe439b08211f342bb5021db9ad",
+            "words": 26,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2025-T3-P5-S4",
@@ -969,12 +3579,283 @@
           "translation": "那格浦尔项目已经绘制了风险和脆弱性分布图，使科塔卡尔能够告诉官员，今年夏季如果发生热浪，应重点关注哪些社区。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 10,
+              "word": "Nagpur",
+              "lemma": "Nagpur",
+              "pos": "name",
+              "meaning": "那格浦尔",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 18,
+              "word": "project",
+              "lemma": "project",
+              "pos": "n",
+              "meaning": "项目",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 30,
+              "word": "already",
+              "lemma": "already",
+              "pos": "adv",
+              "meaning": "已经",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 38,
+              "word": "created",
+              "lemma": "create",
+              "pos": "v",
+              "meaning": "绘制；创建",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 40,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 45,
+              "word": "risk",
+              "lemma": "risk",
+              "pos": "n",
+              "meaning": "风险",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 49,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
               "a": 50,
               "b": 63,
               "word": "vulnerability",
               "lemma": "vulnerability",
+              "pos": "n",
               "meaning": "易受伤害的程度；脆弱性",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 67,
+              "word": "map",
+              "lemma": "map",
+              "pos": "n",
+              "meaning": "分布图；地图",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 74,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "这（指前述绘制出分布图的结果）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 82,
+              "word": "enabled",
+              "lemma": "enable",
+              "pos": "v",
+              "meaning": "使……能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 92,
+              "word": "Kotharkar",
+              "lemma": "Kotharkar",
+              "pos": "name",
+              "meaning": "科塔卡尔（研究者姓）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 95,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 100,
+              "word": "tell",
+              "lemma": "tell",
+              "pos": "v",
+              "meaning": "告诉",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 110,
+              "word": "officials",
+              "lemma": "official",
+              "pos": "n",
+              "meaning": "官员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 116,
+              "word": "which",
+              "lemma": "which",
+              "pos": "art",
+              "meaning": "哪些（需要重点关注的社区）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 130,
+              "word": "neighborhoods",
+              "lemma": "neighborhood",
+              "pos": "n",
+              "meaning": "社区；街区",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 133,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 139,
+              "word": "focus",
+              "lemma": "focus",
+              "pos": "v",
+              "meaning": "集中（应对工作）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 142,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "在（日期或工作对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 145,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在（地区或时间范围内）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 149,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 150,
+              "b": 155,
+              "word": "event",
+              "lemma": "event",
+              "pos": "n",
+              "meaning": "情况（in the event of表示如果发生）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 158,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（限定关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 159,
+              "b": 160,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 165,
+              "word": "heat",
+              "lemma": "heat",
+              "pos": "n",
+              "meaning": "高温；热",
+              "reviewVersion": 2
+            },
+            {
+              "a": 166,
+              "b": 170,
+              "word": "wave",
+              "lemma": "wave",
+              "pos": "n",
+              "meaning": "热浪（heat wave搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 171,
+              "b": 175,
+              "word": "this",
+              "lemma": "this",
+              "pos": "art",
+              "meaning": "这个；今年的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 176,
+              "b": 182,
+              "word": "summer",
+              "lemma": "summer",
+              "pos": "n",
+              "meaning": "夏季",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -983,21 +3864,24 @@
               "b": 67,
               "lemma": "vulnerability map",
               "meaning": "高温脆弱性分布图",
-              "word": "vulnerability map"
+              "word": "vulnerability map",
+              "kind": "phrase"
             },
             {
               "a": 143,
               "b": 158,
               "lemma": "in the event of",
               "meaning": "在……发生时",
-              "word": "in the event of"
+              "word": "in the event of",
+              "kind": "phrase"
             },
             {
               "a": 161,
               "b": 170,
               "lemma": "heat wave",
               "meaning": "热浪；持续高温",
-              "word": "heat wave"
+              "word": "heat wave",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1006,7 +3890,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "第一个which概括绘图结果，第二个which询问哪些社区，需区别词义。",
+            "sentenceSHA256": "3a80d37305c71954a4167271ebea68aa7fa8008e5274518750a0b609bb382c93",
+            "words": 31,
+            "phrases": 3,
+            "names": 0
+          }
         }
       ]
     },
@@ -1050,30 +3942,202 @@
           "translation": "研究人员说，高温应对计划不应只包含短期应急措施，还应提出能让社区更凉爽的中长期措施。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "HAPs",
+              "lemma": "HAP",
+              "pos": "abbr",
+              "meaning": "高温应对行动计划（复数）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 14,
+              "word": "shouldn't",
+              "lemma": "should not",
+              "pos": "aux",
+              "meaning": "不应该",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 19,
+              "word": "just",
+              "lemma": "just",
+              "pos": "adv",
+              "meaning": "仅仅；只",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 27,
+              "word": "include",
+              "lemma": "include",
+              "pos": "v",
+              "meaning": "包括",
+              "reviewVersion": 2
+            },
+            {
               "a": 28,
               "b": 38,
               "word": "short-term",
               "lemma": "short-term",
+              "pos": "a",
               "meaning": "短期的",
-              "pos": "a"
-            }
-          ],
-          "phrases": [
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 48,
+              "word": "emergency",
+              "lemma": "emergency",
+              "pos": "n",
+              "meaning": "紧急情况",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 58,
+              "word": "responses",
+              "lemma": "response",
+              "pos": "n",
+              "meaning": "应对措施",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 71,
+              "word": "researchers",
+              "lemma": "researcher",
+              "pos": "n",
+              "meaning": "研究人员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 75,
+              "word": "say",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "表示；指出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 80,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但；而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 85,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "还；也",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 95,
+              "word": "recommend",
+              "lemma": "recommend",
+              "pos": "v",
+              "meaning": "建议；提出",
+              "reviewVersion": 2
+            },
             {
               "a": 96,
+              "b": 105,
+              "word": "medium-to",
+              "lemma": "medium-to",
+              "pos": "a",
+              "meaning": "中期到……（与long-term连读）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 115,
+              "word": "long-term",
+              "lemma": "long-term",
+              "pos": "a",
+              "meaning": "长期的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
               "b": 124,
-              "word": "medium-to long-term measures",
-              "lemma": "medium- to long-term measure",
-              "meaning": "中长期措施"
+              "word": "measures",
+              "lemma": "measure",
+              "pos": "n",
+              "meaning": "措施",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 129,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指前面的事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 135,
+              "word": "could",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "可以；可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 140,
+              "word": "make",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "使；让",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 152,
+              "word": "communities",
+              "lemma": "community",
+              "pos": "n",
+              "meaning": "社区",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 159,
+              "word": "cooler",
+              "lemma": "cool",
+              "pos": "a",
+              "meaning": "更凉爽的",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句对照原文",
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "不只短期紧急响应还包括中长期降温，否定只限制just。",
+            "sentenceSHA256": "3d874cb0226a4f6f6b22168524dae53fe31c11c940dda7e5a8312f31ccd4888d",
+            "words": 20,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2025-T3-P6-S2",
@@ -1105,12 +4169,193 @@
           "translation": "例如在那格浦尔，科塔卡尔的团队已经能向市政府官员建议，应当在哪里种树来提供遮阴。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在（地区或时间范围内）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 9,
+              "word": "Nagpur",
+              "lemma": "Nagpur",
+              "pos": "name",
+              "meaning": "那格浦尔",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 14,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "针对；为了",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 22,
+              "word": "example",
+              "lemma": "example",
+              "pos": "n",
+              "meaning": "例子（for example整体为例如）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 35,
+              "word": "Kotharkar's",
+              "lemma": "Kotharkar",
+              "pos": "name",
+              "meaning": "科塔卡尔的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 40,
+              "word": "team",
+              "lemma": "team",
+              "pos": "n",
+              "meaning": "团队",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 44,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 49,
+              "word": "been",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "与has able构成一直能够的完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 54,
+              "word": "able",
+              "lemma": "able",
+              "pos": "a",
+              "meaning": "能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 57,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 64,
+              "word": "advise",
+              "lemma": "advise",
+              "pos": "v",
+              "meaning": "向……提供建议",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 69,
+              "word": "city",
+              "lemma": "city",
+              "pos": "n",
+              "meaning": "城市",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 79,
+              "word": "officials",
+              "lemma": "official",
+              "pos": "n",
+              "meaning": "官员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 85,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 91,
+              "word": "where",
+              "lemma": "where",
+              "pos": "adv",
+              "meaning": "在哪里",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 94,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 100,
+              "word": "plant",
+              "lemma": "plant",
+              "pos": "v",
+              "meaning": "种植",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 106,
+              "word": "trees",
+              "lemma": "tree",
+              "pos": "n",
+              "meaning": "树木",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 109,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 117,
+              "word": "provide",
+              "lemma": "provide",
+              "pos": "v",
+              "meaning": "提供",
+              "reviewVersion": 2
+            },
+            {
               "a": 118,
               "b": 123,
               "word": "shade",
               "lemma": "shade",
-              "meaning": "阴凉；遮阴",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "遮阴；阴凉处",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1120,7 +4365,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "plant为种树动词，where为建议种植的位置，shade为遮阴。",
+            "sentenceSHA256": "0cc4e60e86cf14606e83e428c26339473c3607d10e5ffd5f00460c2342219b3c",
+            "words": 21,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2025-T3-P6-S3",
@@ -1152,12 +4405,112 @@
           "translation": "高温应对计划还可以指导住宅改造或建筑规定修订等工作。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "HAPs",
+              "lemma": "HAP",
+              "pos": "abbr",
+              "meaning": "高温应对行动计划（复数）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 10,
+              "word": "could",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "可以；可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 15,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "还；也",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 21,
+              "word": "guide",
+              "lemma": "guide",
+              "pos": "v",
+              "meaning": "指导",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 29,
+              "word": "efforts",
+              "lemma": "effort",
+              "pos": "n",
+              "meaning": "工作；努力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 32,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 33,
               "b": 41,
               "word": "retrofit",
               "lemma": "retrofit",
-              "meaning": "改造既有（房屋）以提升性能",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "改造既有住宅以改善性能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 47,
+              "word": "homes",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "住宅",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 50,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 57,
+              "word": "modify",
+              "lemma": "modify",
+              "pos": "v",
+              "meaning": "修改",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 66,
+              "word": "building",
+              "lemma": "building",
+              "pos": "n",
+              "meaning": "建筑",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 78,
+              "word": "regulations",
+              "lemma": "regulation",
+              "pos": "n",
+              "meaning": "规定；法规",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1167,7 +4520,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "retrofit是改造现有房屋，modify为修改建筑规定，两个不定式并列。",
+            "sentenceSHA256": "c2c9093a81f67e7efd2b266468264da7025866652d43bc77063ba7df3844641e",
+            "words": 12,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2025-T3-P6-S4",
@@ -1197,25 +4558,219 @@
           ],
           "reorder": "将说话人 says climate researcher… 提到引语前。",
           "translation": "气候研究人员钱德妮·辛格说：“减少紧急情况下的死亡是个好目标，但它只是最低限度的目标。”",
-          "words": [],
-          "phrases": [
+          "words": [
+            {
+              "a": 1,
+              "b": 9,
+              "word": "Reducing",
+              "lemma": "reduce",
+              "pos": "v",
+              "meaning": "减少",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 16,
+              "word": "deaths",
+              "lemma": "death",
+              "pos": "n",
+              "meaning": "死亡事件",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 19,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在（地区或时间范围内）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 22,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 32,
+              "word": "emergency",
+              "lemma": "emergency",
+              "pos": "n",
+              "meaning": "紧急情况",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 35,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是（联系行为与目标）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 40,
+              "word": "good",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "好的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 47,
+              "word": "target",
+              "lemma": "target",
+              "pos": "n",
+              "meaning": "目标",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 50,
+              "word": "to",
+              "lemma": "to",
+              "pos": "part",
+              "meaning": "不定式标记，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 55,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "设定；拥有（某个目标）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 60,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但；而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 65,
+              "word": "it's",
+              "lemma": "it is",
+              "pos": "pron",
+              "meaning": "它是（it is缩写，指减少死亡这一目标）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 69,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
             {
               "a": 70,
+              "b": 76,
+              "word": "lowest",
+              "lemma": "low",
+              "pos": "a",
+              "meaning": "最低限度的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
               "b": 83,
-              "word": "lowest target",
-              "lemma": "lowest target",
-              "meaning": "最低限度的目标"
+              "word": "target",
+              "lemma": "target",
+              "pos": "n",
+              "meaning": "目标",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 90,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；指出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 98,
+              "word": "climate",
+              "lemma": "climate",
+              "pos": "n",
+              "meaning": "气候",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 109,
+              "word": "researcher",
+              "lemma": "researcher",
+              "pos": "n",
+              "meaning": "研究人员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 117,
+              "word": "Chandni",
+              "lemma": "Chandni",
+              "pos": "name",
+              "meaning": "钱德妮（研究者名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 123,
+              "word": "Singh",
+              "lemma": "Singh",
+              "pos": "name",
+              "meaning": "辛格（姓）",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句对照原文",
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "have为设定目标而非助动词，最低限度目标不等于无意义目标。",
+            "sentenceSHA256": "b68440dd699771a12348a9ae4d33b2dc2199eff5cb7bb9a8395b95902b49d098",
+            "words": 20,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "1008c284eba309e4d77a2fdb62005d6828d07b3baea33062a675b06f203efc05",
+    "sentences": 21,
+    "wordOccurrences": 405,
+    "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

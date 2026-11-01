@@ -55,20 +55,247 @@
           "translation": "不同于悲伤、恐惧和愤怒等所谓的基本情绪，内疚出现得稍晚一些，伴随儿童对社会与道德规范理解的逐渐加深而产生。",
           "words": [
             {
+              "a": 0,
+              "b": 6,
+              "word": "Unlike",
+              "lemma": "unlike",
+              "pos": "prep",
+              "meaning": "不同于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 16,
+              "word": "so-called",
+              "lemma": "so-called",
+              "pos": "a",
+              "meaning": "所谓的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 22,
+              "word": "basic",
+              "lemma": "basic",
+              "pos": "a",
+              "meaning": "基础的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 31,
+              "word": "emotions",
+              "lemma": "emotion",
+              "pos": "n",
+              "meaning": "情绪；情感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 36,
+              "word": "such",
+              "lemma": "such",
+              "pos": "det",
+              "meaning": "这样的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 39,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "例如（such as）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 47,
+              "word": "sadness",
+              "lemma": "sadness",
+              "pos": "n",
+              "meaning": "悲伤",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 53,
+              "word": "fear",
+              "lemma": "fear",
+              "pos": "n",
+              "meaning": "担忧；恐惧",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 58,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 64,
+              "word": "anger",
+              "lemma": "anger",
+              "pos": "n",
+              "meaning": "愤怒",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 71,
+              "word": "guilt",
+              "lemma": "guilt",
+              "pos": "n",
+              "meaning": "内疚；负罪感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 79,
+              "word": "emerges",
+              "lemma": "emerge",
+              "pos": "v",
+              "meaning": "出现；产生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 81,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 88,
+              "word": "little",
+              "lemma": "little",
+              "pos": "adv",
+              "meaning": "稍微；一点（a little）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 94,
+              "word": "later",
+              "lemma": "late",
+              "pos": "adv",
+              "meaning": "更晚一些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 98,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "与conjunction with组成伴随；随着",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 110,
+              "word": "conjunction",
+              "lemma": "conjunction",
+              "pos": "n",
+              "meaning": "结合（in conjunction with为与……一起）；联合",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 115,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "与……伴随（in conjunction with）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 117,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 125,
+              "word": "child's",
+              "lemma": "child",
+              "pos": "n",
+              "meaning": "孩子的（所有格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 133,
+              "word": "growing",
+              "lemma": "grow",
+              "pos": "a",
+              "meaning": "逐渐增强的；发展的",
+              "reviewVersion": 2
+            },
+            {
               "a": 134,
               "b": 139,
-              "lemma": "grasp",
-              "meaning": "理解；掌握",
               "word": "grasp",
-              "pos": "n"
+              "lemma": "grasp",
+              "pos": "n",
+              "meaning": "理解；领会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 142,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 149,
+              "word": "social",
+              "lemma": "social",
+              "pos": "a",
+              "meaning": "社会的；与社会交往有关的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 150,
+              "b": 153,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 154,
+              "b": 159,
+              "word": "moral",
+              "lemma": "moral",
+              "pos": "a",
+              "meaning": "道德的",
+              "reviewVersion": 2
             },
             {
               "a": 160,
               "b": 165,
-              "lemma": "norm",
-              "meaning": "行为规范",
               "word": "norms",
-              "pos": "n"
+              "lemma": "norm",
+              "pos": "n",
+              "meaning": "规范；准则",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -77,7 +304,9 @@
               "b": 115,
               "word": "in conjunction with",
               "lemma": "in conjunction with",
-              "meaning": "伴随着；与……同时发生"
+              "meaning": "伴随着；与……同时出现",
+              "reviewVersion": 2,
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -86,7 +315,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "与基本情绪相比内疚稍晚出现，伴随的是规范理解增长，grasp为理解不是抓握。",
+            "sentenceSHA256": "fedf3267d2c27b457edb6a5a84aa972e4dcef20dd6668280764ba8d167cf03a6",
+            "words": 27,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P1-S2",
@@ -124,30 +361,256 @@
           "translation": "孩子并非天生就知道如何说“对不起”，而是在成长中逐渐学会：这样的表达能安抚父母与朋友，也能让自己良心安宁。",
           "words": [
             {
+              "a": 0,
+              "b": 8,
+              "word": "Children",
+              "lemma": "child",
+              "pos": "n",
+              "meaning": "孩子",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 15,
+              "word": "aren't",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "不是；并非（are not缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "born",
+              "lemma": "bear",
+              "pos": "v",
+              "meaning": "天生具有；出生（be born knowing天生就知道）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 28,
+              "word": "knowing",
+              "lemma": "know",
+              "pos": "v",
+              "meaning": "知道",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 32,
+              "word": "how",
+              "lemma": "how",
+              "pos": "adv",
+              "meaning": "如何",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 35,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 39,
+              "word": "say",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；表示",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 44,
+              "word": "I'm",
+              "lemma": "I be",
+              "pos": "pron",
+              "meaning": "我是（I am缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 50,
+              "word": "sorry",
+              "lemma": "sorry",
+              "pos": "a",
+              "meaning": "抱歉的；对不起",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 59,
+              "word": "rather",
+              "lemma": "rather",
+              "pos": "adv",
+              "meaning": "而是；更确切地说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 65,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 71,
+              "word": "learn",
+              "lemma": "learn",
+              "pos": "v",
+              "meaning": "学会；学习",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 76,
+              "word": "over",
+              "lemma": "over",
+              "pos": "prep",
+              "meaning": "在……过程中（over time随时间推移）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 81,
+              "word": "time",
+              "lemma": "time",
+              "pos": "n",
+              "meaning": "时间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 86,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出后面的内容；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 91,
+              "word": "such",
+              "lemma": "such",
+              "pos": "det",
+              "meaning": "这样的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 102,
+              "word": "statements",
+              "lemma": "statement",
+              "pos": "n",
+              "meaning": "表达；说出的话",
+              "reviewVersion": 2
+            },
+            {
               "a": 103,
               "b": 110,
-              "lemma": "appease",
-              "meaning": "安抚；使安心",
               "word": "appease",
-              "pos": "v"
+              "lemma": "appease",
+              "pos": "v",
+              "meaning": "安抚；使平息",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 118,
+              "word": "parents",
+              "lemma": "parent",
+              "pos": "n",
+              "meaning": "父母",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 122,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 130,
+              "word": "friends",
+              "lemma": "friend",
+              "pos": "n",
+              "meaning": "朋友",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 136,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "也；还（添加孩子自己的良心）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 142,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 146,
+              "word": "own",
+              "lemma": "own",
+              "pos": "a",
+              "meaning": "自己的",
+              "reviewVersion": 2
             },
             {
               "a": 147,
               "b": 158,
-              "lemma": "conscience",
-              "meaning": "良心；道德自觉",
               "word": "consciences",
-              "pos": "n"
+              "lemma": "conscience",
+              "pos": "n",
+              "meaning": "良心；道德自觉",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 72,
+              "b": 81,
+              "word": "over time",
+              "lemma": "over time",
+              "meaning": "随着时间推移",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "aren't born knowing否定天生就懂而非否定出生，rather转向后天习得，their own指孩子良心。",
+            "sentenceSHA256": "7c08342496785589863a44c43d4ba09a9632c72da8d4221e9435359808178d80",
+            "words": 25,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P1-S3",
@@ -183,7 +646,170 @@
           ],
           "reorder": "把 in the right amount 紧接内疚作为限定，不将其遗漏为无条件肯定。",
           "translation": "这就是为什么研究人员通常认为，程度适当的所谓道德内疚是一件好事。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "This",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；本句所说的事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 7,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 11,
+              "word": "why",
+              "lemma": "why",
+              "pos": "adv",
+              "meaning": "……的原因（承接This is）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 23,
+              "word": "researchers",
+              "lemma": "researcher",
+              "pos": "n",
+              "meaning": "研究人员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 33,
+              "word": "generally",
+              "lemma": "generally",
+              "pos": "adv",
+              "meaning": "普遍地；一般而言",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 40,
+              "word": "regard",
+              "lemma": "regard",
+              "pos": "v",
+              "meaning": "认为；看待",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 50,
+              "word": "so-called",
+              "lemma": "so-called",
+              "pos": "a",
+              "meaning": "所谓的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 56,
+              "word": "moral",
+              "lemma": "moral",
+              "pos": "a",
+              "meaning": "道德的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 62,
+              "word": "guilt",
+              "lemma": "guilt",
+              "pos": "n",
+              "meaning": "内疚；负罪感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 66,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 70,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 76,
+              "word": "right",
+              "lemma": "right",
+              "pos": "a",
+              "meaning": "适当的；恰当的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 83,
+              "word": "amount",
+              "lemma": "amount",
+              "pos": "n",
+              "meaning": "程度；量",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 87,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 90,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 92,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 97,
+              "word": "good",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "好的；有利的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 103,
+              "word": "thing",
+              "lemma": "thing",
+              "pos": "n",
+              "meaning": "事情；问题",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -191,7 +817,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "right为适量恰当而非权利或方向，限定内疚适量才有益。",
+            "sentenceSHA256": "ff448c007709f4932df3a857ff832b23facd1cdf29961da81651ef309ee28c79",
+            "words": 18,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -227,14 +861,125 @@
           ],
           "reorder": "把插入的 of course 前置，保留大众看法与研究认识的区分。",
           "translation": "当然，在大众观念中，内疚仍然名声不佳。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 6,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 14,
+              "word": "popular",
+              "lemma": "popular",
+              "pos": "a",
+              "meaning": "大众的；公众的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 26,
+              "word": "imagination",
+              "lemma": "imagination",
+              "pos": "n",
+              "meaning": "想象；观念",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 30,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "与course组成当然",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 37,
+              "word": "course",
+              "lemma": "course",
+              "pos": "n",
+              "meaning": "与of组成当然",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 44,
+              "word": "guilt",
+              "lemma": "guilt",
+              "pos": "n",
+              "meaning": "内疚；负罪感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 50,
+              "word": "still",
+              "lemma": "still",
+              "pos": "adv",
+              "meaning": "仍然",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 55,
+              "word": "gets",
+              "lemma": "get",
+              "pos": "v",
+              "meaning": "受到（某种评价）；得到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 57,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 61,
+              "word": "bad",
+              "lemma": "bad",
+              "pos": "a",
+              "meaning": "坏的；不利的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 65,
+              "word": "rap",
+              "lemma": "rap",
+              "pos": "n",
+              "meaning": "评价；名声（bad rap负面评价）",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 51,
               "b": 65,
+              "word": "gets a bad rap",
               "lemma": "get a bad rap",
-              "meaning": "背负坏名声；受到负面评价",
-              "word": "gets a bad rap"
+              "meaning": "名声不佳；受到负面评价",
+              "reviewVersion": 2,
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -243,7 +988,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "popular为大众观念，bad rap是负面名声不是说唱或敲击，保留of course插语。",
+            "sentenceSHA256": "cd42be32964ab63447f743cbe70e4815a45c01f4df6d9f4524bace6d0784e3f0",
+            "words": 12,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P2-S2",
@@ -275,12 +1028,139 @@
           "translation": "它令人极为难受——在情绪感受上，就像穿着一件缀满石头的外套。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "内疚",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 5,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 12,
+              "word": "deeply",
+              "lemma": "deeply",
+              "pos": "adv",
+              "meaning": "深深地；极其",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 26,
+              "word": "uncomfortable",
+              "lemma": "uncomfortable",
+              "pos": "a",
+              "meaning": "令人难受的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "it's",
+              "lemma": "it be",
+              "pos": "v",
+              "meaning": "it is的缩写：它是；这在……方面是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 37,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 47,
+              "word": "emotional",
+              "lemma": "emotional",
+              "pos": "a",
+              "meaning": "情绪感受上的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 58,
+              "word": "equivalent",
+              "lemma": "equivalent",
+              "pos": "n",
+              "meaning": "相当的事物；对应物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 61,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 69,
+              "word": "wearing",
+              "lemma": "wear",
+              "pos": "v",
+              "meaning": "穿着",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 71,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 78,
+              "word": "jacket",
+              "lemma": "jacket",
+              "pos": "n",
+              "meaning": "外套",
+              "reviewVersion": 2
+            },
+            {
               "a": 79,
               "b": 87,
-              "lemma": "weight",
-              "meaning": "加了重物的",
               "word": "weighted",
-              "pos": "v"
+              "lemma": "weight",
+              "pos": "v",
+              "meaning": "加重；装上重物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 92,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "加上（石头作为重物）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 99,
+              "word": "stones",
+              "lemma": "stone",
+              "pos": "n",
+              "meaning": "石头",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -290,7 +1170,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "情绪层面类比穿缀石头的外套，weighted为增加重物，emotional不是情感丰富。",
+            "sentenceSHA256": "5668b15f8d067eb31e760bb9420809c91862b0f3812dca41473b457899f9f1a7",
+            "words": 15,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P2-S3",
@@ -310,12 +1198,49 @@
           "translation": "然而，这种认识已经过时了。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "Yet",
+              "lemma": "yet",
+              "pos": "conj",
+              "meaning": "然而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "this",
+              "lemma": "this",
+              "pos": "det",
+              "meaning": "这种（把内疚视作坏事的认识）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 22,
+              "word": "understanding",
+              "lemma": "understanding",
+              "pos": "n",
+              "meaning": "理解；认识",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 25,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
               "a": 26,
               "b": 34,
-              "lemma": "outdated",
-              "meaning": "过时的",
               "word": "outdated",
-              "pos": "a"
+              "lemma": "outdated",
+              "pos": "a",
+              "meaning": "过时的",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -325,7 +1250,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "this回指把内疚视作坏事的认识，yet转折保留。",
+            "sentenceSHA256": "573497f0a70e7433a985345b31d66a5e99a4c99f6e5ee817253d5ce7874985c9",
+            "words": 5,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P2-S4",
@@ -393,44 +1326,526 @@
           "translation": "弗吉尼亚大学心理学研究人员阿姆里莎·瓦伊什说：“人们重新开始关注或思考，内疚是什么，以及它能发挥什么作用。”她补充说，这种重新关注属于一种更广泛认识的一部分，即情绪不能简单地分成好坏两类——某种情绪在一种情境中可能有益，换到另一种情境却可能有害。",
           "words": [
             {
+              "a": 1,
+              "b": 6,
+              "word": "There",
+              "lemma": "there",
+              "pos": "adv",
+              "meaning": "存在结构的引导词，本身不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 10,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成完成时，不单独译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 15,
+              "word": "been",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "存在；发生（there has been）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 17,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 22,
+              "word": "kind",
+              "lemma": "kind",
+              "pos": "n",
+              "meaning": "种类",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 25,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
               "a": 26,
               "b": 33,
-              "lemma": "revival",
-              "meaning": "重新关注；重新审视",
               "word": "revival",
-              "pos": "n"
+              "lemma": "revival",
+              "pos": "n",
+              "meaning": "重新受到关注；重新兴起",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 36,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 38,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 39,
               "b": 49,
-              "lemma": "rethink",
-              "meaning": "重新思考；重新审视",
               "word": "rethinking",
-              "pos": "n"
+              "lemma": "rethinking",
+              "pos": "n",
+              "meaning": "重新思考",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 55,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 60,
+              "word": "what",
+              "lemma": "what",
+              "pos": "pron",
+              "meaning": "什么（内疚是什么）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 66,
+              "word": "guilt",
+              "lemma": "guilt",
+              "pos": "n",
+              "meaning": "内疚；负罪感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 69,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 73,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 78,
+              "word": "what",
+              "lemma": "what",
+              "pos": "det",
+              "meaning": "什么样的（作用）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 83,
+              "word": "role",
+              "lemma": "role",
+              "pos": "n",
+              "meaning": "作用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 89,
+              "word": "guilt",
+              "lemma": "guilt",
+              "pos": "n",
+              "meaning": "内疚；负罪感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 93,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能；能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 99,
+              "word": "serve",
+              "lemma": "serve",
+              "pos": "v",
+              "meaning": "发挥（作用）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 106,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；指出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 114,
+              "word": "Amrisha",
+              "lemma": "Amrisha",
+              "pos": "name",
+              "meaning": "阿姆里莎（人名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 120,
+              "word": "Vaish",
+              "lemma": "Vaish",
+              "pos": "name",
+              "meaning": "瓦伊什（姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 123,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 134,
+              "word": "psychology",
+              "lemma": "psychology",
+              "pos": "n",
+              "meaning": "心理学",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 145,
+              "word": "researcher",
+              "lemma": "researcher",
+              "pos": "n",
+              "meaning": "研究人员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 148,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 152,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 163,
+              "word": "University",
+              "lemma": "university",
+              "pos": "n",
+              "meaning": "大学",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 166,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 167,
+              "b": 175,
+              "word": "Virginia",
+              "lemma": "Virginia",
+              "pos": "name",
+              "meaning": "弗吉尼亚（大学名称中的地名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 177,
+              "b": 183,
+              "word": "adding",
+              "lemma": "add",
+              "pos": "v",
+              "meaning": "补充说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 184,
+              "b": 188,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出后面的内容；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 189,
+              "b": 193,
+              "word": "this",
+              "lemma": "this",
+              "pos": "det",
+              "meaning": "这种（重新关注）",
+              "reviewVersion": 2
             },
             {
               "a": 194,
               "b": 201,
-              "lemma": "revival",
-              "meaning": "重新关注；重新审视",
               "word": "revival",
-              "pos": "n"
+              "lemma": "revival",
+              "pos": "n",
+              "meaning": "重新受到关注；重新兴起",
+              "reviewVersion": 2
+            },
+            {
+              "a": 202,
+              "b": 204,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 205,
+              "b": 209,
+              "word": "part",
+              "lemma": "part",
+              "pos": "n",
+              "meaning": "部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 210,
+              "b": 212,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 213,
+              "b": 214,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 215,
+              "b": 221,
+              "word": "larger",
+              "lemma": "large",
+              "pos": "a",
+              "meaning": "更广泛的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 222,
+              "b": 233,
+              "word": "recognition",
+              "lemma": "recognition",
+              "pos": "n",
+              "meaning": "认识；认知",
+              "reviewVersion": 2
+            },
+            {
+              "a": 234,
+              "b": 238,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出后面的内容；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 239,
+              "b": 247,
+              "word": "emotions",
+              "lemma": "emotion",
+              "pos": "n",
+              "meaning": "情绪；情感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 248,
+              "b": 254,
+              "word": "aren't",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "不是；并非（are not缩写）",
+              "reviewVersion": 2
             },
             {
               "a": 255,
               "b": 261,
-              "lemma": "binary",
-              "meaning": "简单二分为好或坏的",
               "word": "binary",
-              "pos": "a"
+              "lemma": "binary",
+              "pos": "a",
+              "meaning": "二元的；非此即彼的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 264,
+              "b": 272,
+              "word": "feelings",
+              "lemma": "feeling",
+              "pos": "n",
+              "meaning": "情绪；感受",
+              "reviewVersion": 2
+            },
+            {
+              "a": 273,
+              "b": 277,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指情绪feelings",
+              "reviewVersion": 2
+            },
+            {
+              "a": 278,
+              "b": 281,
+              "word": "may",
+              "lemma": "may",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 282,
+              "b": 284,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
             },
             {
               "a": 285,
               "b": 297,
               "word": "advantageous",
               "lemma": "advantageous",
-              "meaning": "有利的；有益的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "有益的；有利的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 298,
+              "b": 300,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 301,
+              "b": 304,
+              "word": "one",
+              "lemma": "one",
+              "pos": "num",
+              "meaning": "一；某一个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 305,
+              "b": 312,
+              "word": "context",
+              "lemma": "context",
+              "pos": "n",
+              "meaning": "情境；背景",
+              "reviewVersion": 2
+            },
+            {
+              "a": 313,
+              "b": 316,
+              "word": "may",
+              "lemma": "may",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 317,
+              "b": 319,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 320,
+              "b": 327,
+              "word": "harmful",
+              "lemma": "harmful",
+              "pos": "a",
+              "meaning": "有害的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 328,
+              "b": 330,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 331,
+              "b": 338,
+              "word": "another",
+              "lemma": "another",
+              "pos": "pron",
+              "meaning": "另一种情境（省略context）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -440,7 +1855,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "区分两次what间接疑问与that同位和关系从句，binary非简单好坏二分，情境改变利害。",
+            "sentenceSHA256": "be67de884d64daca4e8682e57745d82e29d99790ac9023c4fa8783570391711b",
+            "words": 58,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P2-S5",
@@ -470,23 +1893,151 @@
           ],
           "reorder": "把 for example 前置，to alert 译为情绪可能具有的进化作用，保留 may 的推测。",
           "translation": "例如，嫉妒和愤怒可能是在进化中形成的，用来提醒我们注意严重的不平等。",
-          "words": [],
-          "phrases": [
+          "words": [
+            {
+              "a": 0,
+              "b": 8,
+              "word": "Jealousy",
+              "lemma": "jealousy",
+              "pos": "n",
+              "meaning": "嫉妒",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 12,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 18,
+              "word": "anger",
+              "lemma": "anger",
+              "pos": "n",
+              "meaning": "愤怒",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 23,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "与example组成例如",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 31,
+              "word": "example",
+              "lemma": "example",
+              "pos": "n",
+              "meaning": "例子（for example整体为例如）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 36,
+              "word": "may",
+              "lemma": "may",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 41,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成完成时，不单独译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 49,
+              "word": "evolved",
+              "lemma": "evolve",
+              "pos": "v",
+              "meaning": "在进化中形成",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 52,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
             {
               "a": 53,
+              "b": 58,
+              "word": "alert",
+              "lemma": "alert",
+              "pos": "v",
+              "meaning": "提醒；使注意到",
+              "reviewVersion": 2,
+              "explanation": "搭配结构：alert ... to ...＝提醒……注意到……"
+            },
+            {
+              "a": 59,
+              "b": 61,
+              "word": "us",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们（宾格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
               "b": 64,
-              "word": "alert us to",
-              "lemma": "alert us to",
-              "meaning": "提醒我们注意"
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "提醒某人注意……（alert...to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 74,
+              "word": "important",
+              "lemma": "important",
+              "pos": "a",
+              "meaning": "重要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 87,
+              "word": "inequalities",
+              "lemma": "inequality",
+              "pos": "n",
+              "meaning": "不平等（现象）",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "may have evolved保留推测，alert to为提醒注意不平等，非警报本体。",
+            "sentenceSHA256": "b65760ef48b8ac1b5fd71000f537554fea04b64c68932aa30d64862ba822f97e",
+            "words": 14,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P2-S6",
@@ -504,7 +2055,62 @@
           ],
           "reorder": "顺译，too much 是过量而非一般的快乐。",
           "translation": "过度的快乐可能具有破坏性。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "Too",
+              "lemma": "too",
+              "pos": "adv",
+              "meaning": "过于；过量地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "much",
+              "lemma": "much",
+              "pos": "det",
+              "meaning": "大量的；很多的（too much整体为过多的）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 18,
+              "word": "happiness",
+              "lemma": "happiness",
+              "pos": "n",
+              "meaning": "快乐；幸福",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能；能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 25,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 37,
+              "word": "destructive",
+              "lemma": "destructive",
+              "pos": "a",
+              "meaning": "有破坏性的",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -512,7 +2118,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "too much为过量快乐，破坏性来自过度而非一概否定快乐。",
+            "sentenceSHA256": "cce61529cc2aba845b4e39f533b991b4d41650ad935e68ebf8552f0dfa126a2b",
+            "words": 6,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -554,14 +2168,224 @@
           ],
           "reorder": "把 by 的作用机制放在内疚与主要作用之间；goodness 指自身道德品质。",
           "translation": "而内疚通过促使我们更深入地反思自身的善良品行，能鼓励人们弥补错误、修复关系。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "And",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "而；接着说明内疚的积极作用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 9,
+              "word": "guilt",
+              "lemma": "guilt",
+              "pos": "n",
+              "meaning": "内疚；负罪感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 13,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "通过……方式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 23,
+              "word": "prompting",
+              "lemma": "prompt",
+              "pos": "v",
+              "meaning": "引发；促使",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 26,
+              "word": "us",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们（宾格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 29,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 35,
+              "word": "think",
+              "lemma": "think",
+              "pos": "v",
+              "meaning": "思考；反思",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 40,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更；更多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 47,
+              "word": "deeply",
+              "lemma": "deeply",
+              "pos": "adv",
+              "meaning": "深深地；极其",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 53,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 57,
+              "word": "our",
+              "lemma": "our",
+              "pos": "pron",
+              "meaning": "我们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 66,
+              "word": "goodness",
+              "lemma": "goodness",
+              "pos": "n",
+              "meaning": "善良品行；道德品质",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 71,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能；能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 81,
+              "word": "encourage",
+              "lemma": "encourage",
+              "pos": "v",
+              "meaning": "促使；鼓励",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 88,
+              "word": "humans",
+              "lemma": "human",
+              "pos": "n",
+              "meaning": "人类；人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 91,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 96,
+              "word": "make",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "与up for组成弥补",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 99,
+              "word": "up",
+              "lemma": "up",
+              "pos": "adv",
+              "meaning": "make up for中的副词：弥补",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 103,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "弥补（make up for）的搭配介词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 110,
+              "word": "errors",
+              "lemma": "error",
+              "pos": "n",
+              "meaning": "错误",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 114,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 118,
+              "word": "fix",
+              "lemma": "fix",
+              "pos": "v",
+              "meaning": "修复；改善",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 132,
+              "word": "relationships",
+              "lemma": "relationship",
+              "pos": "n",
+              "meaning": "人际关系",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 92,
               "b": 103,
+              "word": "make up for",
               "lemma": "make up for",
               "meaning": "弥补",
-              "word": "make up for"
+              "reviewVersion": 2,
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -570,7 +2394,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "by给出机制，goodness道德品行，make up for弥补，fix修复关系。",
+            "sentenceSHA256": "8853f234dc946095bcb1e760434f694eadfeeaf59f4f18cbab40dd6f5e6c4388",
+            "words": 23,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P3-S2",
@@ -594,14 +2426,116 @@
           ],
           "reorder": "把 in other words 提前，hold...together 按维系团结译出。",
           "translation": "换句话说，内疚有助于让一个依靠合作的物种保持团结。",
-          "words": [],
-          "phrases": [
+          "words": [
+            {
+              "a": 0,
+              "b": 5,
+              "word": "Guilt",
+              "lemma": "guilt",
+              "pos": "n",
+              "meaning": "内疚；负罪感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 9,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "与other words组成换句话说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 15,
+              "word": "other",
+              "lemma": "other",
+              "pos": "det",
+              "meaning": "其他的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 21,
+              "word": "words",
+              "lemma": "word",
+              "pos": "n",
+              "meaning": "词语",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 26,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能；能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 31,
+              "word": "help",
+              "lemma": "help",
+              "pos": "v",
+              "meaning": "帮助",
+              "reviewVersion": 2
+            },
             {
               "a": 32,
+              "b": 36,
+              "word": "hold",
+              "lemma": "hold",
+              "pos": "v",
+              "meaning": "使保持（团结）；维系",
+              "reviewVersion": 2,
+              "explanation": "搭配结构：hold ... together＝使……保持团结或结合在一起"
+            },
+            {
+              "a": 37,
+              "b": 38,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 50,
+              "word": "cooperative",
+              "lemma": "cooperative",
+              "pos": "a",
+              "meaning": "善于合作的；依靠合作的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 58,
+              "word": "species",
+              "lemma": "species",
+              "pos": "n",
+              "meaning": "物种",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
               "b": 67,
-              "lemma": "hold a cooperative species together",
-              "meaning": "维系群体中的合作关系",
-              "word": "hold a cooperative species together"
+              "word": "together",
+              "lemma": "together",
+              "pos": "adv",
+              "meaning": "一起；共同",
+              "reviewVersion": 2
+            }
+          ],
+          "phrases": [
+            {
+              "a": 7,
+              "b": 21,
+              "word": "in other words",
+              "lemma": "in other words",
+              "meaning": "换句话说",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -610,7 +2544,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "hold...together维系团结而非hold true成立，cooperative修饰物种。",
+            "sentenceSHA256": "7fdfac81ff2a8761dd6b05d213f6755c33fe39d9f1b0a7f9be8a823f2b53b09a",
+            "words": 11,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P3-S3",
@@ -628,14 +2570,79 @@
           ],
           "reorder": "顺译比喻，It 指内疚。",
           "translation": "它是一种社会黏合剂。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 5,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 7,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 12,
+              "word": "kind",
+              "lemma": "kind",
+              "pos": "n",
+              "meaning": "种类",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 15,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 22,
+              "word": "social",
+              "lemma": "social",
+              "pos": "a",
+              "meaning": "社会的；与社会交往有关的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 27,
+              "word": "glue",
+              "lemma": "glue",
+              "pos": "n",
+              "meaning": "黏合剂（比喻维系社会的力量）",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 16,
               "b": 27,
               "lemma": "social glue",
               "meaning": "维系社会关系的黏合剂（比喻）",
-              "word": "social glue"
+              "word": "social glue",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -644,7 +2651,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "社会黏合剂是比喻内疚的凝聚作用，it回指内疚。",
+            "sentenceSHA256": "6019ed663a2d3f06f45500d0bb14204d142dfd7ac257454cbafecd7ec7606643",
+            "words": 7,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -674,7 +2689,80 @@
           ],
           "reorder": "先译视角，再译对内疚的新判断。",
           "translation": "从这个角度来看，内疚是一种机会。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 6,
+              "word": "Viewed",
+              "lemma": "view",
+              "pos": "v",
+              "meaning": "看待；从某个角度理解",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 9,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 14,
+              "word": "this",
+              "lemma": "this",
+              "pos": "det",
+              "meaning": "这个（角度）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 20,
+              "word": "light",
+              "lemma": "light",
+              "pos": "n",
+              "meaning": "角度；看法（in this light从这角度看）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 27,
+              "word": "guilt",
+              "lemma": "guilt",
+              "pos": "n",
+              "meaning": "内疚；负罪感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 30,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 33,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 45,
+              "word": "opportunity",
+              "lemma": "opportunity",
+              "pos": "n",
+              "meaning": "机会",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -682,7 +2770,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "in this light从这一视角理解，opportunity为机会。",
+            "sentenceSHA256": "042c88d76ce45ac5b39bab0d288fd04903a13ca6b9a7ff43e6c10078094dc0f7",
+            "words": 8,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P4-S2",
@@ -720,12 +2816,193 @@
           "translation": "多伦多大学心理学教授蒂娜·马尔蒂的研究提示，内疚可能弥补某种情感上的不足。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "研究；研究工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 7,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "由……开展（研究）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 12,
+              "word": "Tina",
+              "lemma": "Tina",
+              "pos": "name",
+              "meaning": "蒂娜（人名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 18,
+              "word": "Malti",
+              "lemma": "Malti",
+              "pos": "name",
+              "meaning": "马尔蒂（姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 21,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 32,
+              "word": "psychology",
+              "lemma": "psychology",
+              "pos": "n",
+              "meaning": "心理学",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 42,
+              "word": "professor",
+              "lemma": "professor",
+              "pos": "n",
+              "meaning": "教授",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 45,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 49,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 60,
+              "word": "University",
+              "lemma": "university",
+              "pos": "n",
+              "meaning": "大学",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 63,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 71,
+              "word": "Toronto",
+              "lemma": "Toronto",
+              "pos": "name",
+              "meaning": "多伦多（大学名称中的地名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 81,
+              "word": "suggests",
+              "lemma": "suggest",
+              "pos": "v",
+              "meaning": "提示；表明",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 86,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出后面的内容；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 92,
+              "word": "guilt",
+              "lemma": "guilt",
+              "pos": "n",
+              "meaning": "内疚；负罪感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 96,
+              "word": "may",
+              "lemma": "may",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 107,
+              "word": "compensate",
+              "lemma": "compensate",
+              "pos": "v",
+              "meaning": "补偿",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 111,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "弥补（compensate for）的搭配介词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 114,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 124,
+              "word": "emotional",
+              "lemma": "emotional",
+              "pos": "a",
+              "meaning": "情感上的",
+              "reviewVersion": 2
+            },
+            {
               "a": 125,
               "b": 135,
-              "lemma": "deficiency",
-              "meaning": "不足；缺失",
               "word": "deficiency",
-              "pos": "n"
+              "lemma": "deficiency",
+              "pos": "n",
+              "meaning": "缺乏；不足",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -734,7 +3011,8 @@
               "b": 111,
               "word": "compensate for",
               "lemma": "compensate for",
-              "meaning": "弥补；补偿"
+              "meaning": "弥补；补偿",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -743,7 +3021,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "work是马尔蒂的研究，by表研究者，suggests提示非建议，may保留可能。",
+            "sentenceSHA256": "61cbc5199ed106dcfd88fc0c74266b9c9e5e67e5b029ab873aba71dcd7fede03",
+            "words": 21,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P4-S3",
@@ -781,28 +3067,202 @@
           "translation": "马尔蒂等人在多项研究中表明，内疚和同情心可能是实现合作与分享的不同途径。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 4,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 11,
+              "word": "number",
+              "lemma": "number",
+              "pos": "n",
+              "meaning": "人数；数量",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 14,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 22,
+              "word": "studies",
+              "lemma": "study",
+              "pos": "n",
+              "meaning": "研究",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 29,
+              "word": "Malti",
+              "lemma": "Malti",
+              "pos": "name",
+              "meaning": "马尔蒂（姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 33,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 40,
+              "word": "others",
+              "lemma": "others",
+              "pos": "pron",
+              "meaning": "其他人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 45,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成完成时，不单独译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 51,
+              "word": "shown",
+              "lemma": "show",
+              "pos": "v",
+              "meaning": "表明；证明",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 56,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出后面的内容；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 62,
+              "word": "guilt",
+              "lemma": "guilt",
+              "pos": "n",
+              "meaning": "内疚；负罪感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 66,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
               "a": 67,
               "b": 75,
-              "lemma": "sympathy",
-              "meaning": "同情；对他人感受与处境的体察",
               "word": "sympathy",
-              "pos": "n"
+              "lemma": "sympathy",
+              "pos": "n",
+              "meaning": "同情心",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 79,
+              "word": "may",
+              "lemma": "may",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 89,
+              "word": "represent",
+              "lemma": "represent",
+              "pos": "v",
+              "meaning": "是；体现为；代表",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 99,
+              "word": "different",
+              "lemma": "different",
+              "pos": "a",
+              "meaning": "不同的",
+              "reviewVersion": 2
             },
             {
               "a": 100,
               "b": 108,
-              "lemma": "pathway",
-              "meaning": "实现某事的途径",
               "word": "pathways",
-              "pos": "n"
+              "lemma": "pathway",
+              "pos": "n",
+              "meaning": "途径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 111,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "通向合作与分享的（途径）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 123,
+              "word": "cooperation",
+              "lemma": "cooperation",
+              "pos": "n",
+              "meaning": "合作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 127,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 128,
               "b": 135,
-              "lemma": "share",
-              "meaning": "分享；把东西分给他人",
               "word": "sharing",
-              "pos": "n"
+              "lemma": "sharing",
+              "pos": "n",
+              "meaning": "分享",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -812,7 +3272,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "多个研究支持两条合作路径，to介词连接途径与合作，guilt与sympathy不混。",
+            "sentenceSHA256": "4bc6454ea257e29550aaa70075ee4c30e9c7874755cb1247082e6e48328ed490",
+            "words": 22,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P4-S4",
@@ -850,36 +3318,239 @@
           "translation": "一些同情心较弱的孩子，可能通过产生更多内疚来弥补这种欠缺，而内疚能约束他们更恶劣的冲动。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Some",
+              "lemma": "some",
+              "pos": "det",
+              "meaning": "一些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 9,
+              "word": "kids",
+              "lemma": "kid",
+              "pos": "n",
+              "meaning": "孩子",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 13,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指代前述的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 17,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 21,
+              "word": "low",
+              "lemma": "low",
+              "pos": "a",
+              "meaning": "低的；薄弱的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 24,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
               "a": 25,
               "b": 33,
-              "lemma": "sympathy",
-              "meaning": "同情；对他人感受与处境的体察",
               "word": "sympathy",
-              "pos": "n"
+              "lemma": "sympathy",
+              "pos": "n",
+              "meaning": "同情心",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 37,
+              "word": "may",
+              "lemma": "may",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 42,
+              "word": "make",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "与up for组成弥补",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 45,
+              "word": "up",
+              "lemma": "up",
+              "pos": "adv",
+              "meaning": "make up for中的副词：弥补",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 49,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "与make up组成弥补",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 54,
+              "word": "that",
+              "lemma": "that",
+              "pos": "det",
+              "meaning": "这种（同情心不足）",
+              "reviewVersion": 2
             },
             {
               "a": 55,
               "b": 64,
-              "lemma": "shortfall",
-              "meaning": "欠缺；不足",
               "word": "shortfall",
-              "pos": "n"
+              "lemma": "shortfall",
+              "pos": "n",
+              "meaning": "不足；欠缺",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 67,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "通过……方式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 80,
+              "word": "experiencing",
+              "lemma": "experience",
+              "pos": "v",
+              "meaning": "产生；体验",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 85,
+              "word": "more",
+              "lemma": "more",
+              "pos": "det",
+              "meaning": "更多的（内疚感）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 91,
+              "word": "guilt",
+              "lemma": "guilt",
+              "pos": "n",
+              "meaning": "内疚；负罪感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 98,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "更多内疚感（关系代词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 102,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能；能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 107,
+              "word": "rein",
+              "lemma": "rein",
+              "pos": "v",
+              "meaning": "抑制；约束（rein in）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 110,
+              "word": "in",
+              "lemma": "in",
+              "pos": "adv",
+              "meaning": "约束（rein in）的搭配副词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 116,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 124,
+              "word": "nastier",
+              "lemma": "nasty",
+              "pos": "a",
+              "meaning": "更恶劣的；更有伤害性的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 133,
+              "word": "impulses",
+              "lemma": "impulse",
+              "pos": "n",
+              "meaning": "冲动",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
-              "a": 103,
-              "b": 110,
-              "lemma": "rein in",
-              "meaning": "抑制；约束",
-              "word": "rein in"
+              "a": 38,
+              "b": 49,
+              "word": "make up for",
+              "lemma": "make up for",
+              "meaning": "弥补",
+              "kind": "phrase"
             },
             {
-              "a": 117,
-              "b": 133,
-              "lemma": "nastier impulses",
-              "meaning": "更恶劣的冲动",
-              "word": "nastier impulses"
+              "a": 103,
+              "b": 110,
+              "word": "rein in",
+              "lemma": "rein in",
+              "meaning": "抑制；约束",
+              "reviewVersion": 2,
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -888,7 +3559,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "that shortfall回指同情心不足，which指更多内疚，rein in约束恶劣冲动。",
+            "sentenceSHA256": "637d21d06e8ae3efc2f544f6cb591d3a9dbf8652a5155d1a6d96a57cb635769c",
+            "words": 24,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P4-S5",
@@ -914,28 +3593,113 @@
           "translation": "反过来也一样：较强的同情心能弥补内疚感较弱的不足。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "And",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "vice",
+              "lemma": "vice",
+              "pos": "adv",
+              "meaning": "与versa组成反过来也一样，不是恶习",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 14,
+              "word": "versa",
+              "lemma": "versa",
+              "pos": "adv",
+              "meaning": "与vice组成反过来也一样",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "High",
+              "lemma": "high",
+              "pos": "a",
+              "meaning": "较强的；较高的",
+              "reviewVersion": 2
+            },
+            {
               "a": 21,
               "b": 29,
-              "lemma": "sympathy",
-              "meaning": "同情；对他人感受与处境的体察",
               "word": "sympathy",
-              "pos": "n"
+              "lemma": "sympathy",
+              "pos": "n",
+              "meaning": "同情心",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 33,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能；能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 44,
+              "word": "substitute",
+              "lemma": "substitute",
+              "pos": "v",
+              "meaning": "代替；起补偿作用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 48,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "代替（substitute for）的搭配介词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 52,
+              "word": "low",
+              "lemma": "low",
+              "pos": "a",
+              "meaning": "低的；薄弱的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 58,
+              "word": "guilt",
+              "lemma": "guilt",
+              "pos": "n",
+              "meaning": "内疚；负罪感",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 4,
               "b": 14,
+              "word": "vice versa",
               "lemma": "vice versa",
               "meaning": "反过来也一样",
-              "word": "vice versa"
+              "reviewVersion": 2,
+              "kind": "phrase"
             },
             {
               "a": 34,
               "b": 48,
-              "lemma": "substitute for",
+              "lemma": "substitute ... for ...",
               "meaning": "替代；弥补",
-              "word": "substitute for"
+              "word": "substitute for",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -944,7 +3708,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "vice versa反向关系非恶习，substitute for为同情心补偿低内疚。",
+            "sentenceSHA256": "2bc1d8f6291225f88265a7ea88eae36209214c762cc3b5c76122c4ab95751a8d",
+            "words": 10,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -974,7 +3746,89 @@
           ],
           "reorder": "先译研究时间，再译样本人数。",
           "translation": "例如，在二〇一四年的一项研究中，马尔蒂研究了二百四十四名儿童。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 4,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 15,
+              "word": "study",
+              "lemma": "study",
+              "pos": "n",
+              "meaning": "研究",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 20,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "与example组成例如",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 28,
+              "word": "example",
+              "lemma": "example",
+              "pos": "n",
+              "meaning": "例子（for example整体为例如）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 35,
+              "word": "Malti",
+              "lemma": "Malti",
+              "pos": "name",
+              "meaning": "马尔蒂（姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 42,
+              "word": "looked",
+              "lemma": "look",
+              "pos": "v",
+              "meaning": "研究；考察（look at）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 45,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "研究；考察（look at）的搭配介词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 58,
+              "word": "children",
+              "lemma": "child",
+              "pos": "n",
+              "meaning": "孩子",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -982,7 +3836,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "2014年244儿童样本不遗漏，looked at是研究而非只观看。",
+            "sentenceSHA256": "9e0ab566d57977181cd906d5c91219feb9703434cc3f5cee2caf205581f3e631",
+            "words": 9,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P5-S2",
@@ -1020,52 +3882,238 @@
           "translation": "根据照料者的评价和孩子们的自我观察，她评定了每个孩子总体的同情心水平，以及他们在违反道德规范后产生负面情绪的倾向。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "Using",
+              "lemma": "use",
+              "pos": "v",
+              "meaning": "根据；利用（评估资料）",
+              "reviewVersion": 2
+            },
+            {
               "a": 6,
               "b": 15,
-              "lemma": "caregiver",
-              "meaning": "照顾孩子的人",
               "word": "caregiver",
-              "pos": "n"
+              "lemma": "caregiver",
+              "pos": "n",
+              "meaning": "照料者",
+              "reviewVersion": 2
             },
             {
               "a": 16,
               "b": 27,
-              "lemma": "assessment",
-              "meaning": "评价；评估",
               "word": "assessments",
-              "pos": "n"
+              "lemma": "assessment",
+              "pos": "n",
+              "meaning": "评估；评价",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 31,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 35,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 46,
+              "word": "children's",
+              "lemma": "child",
+              "pos": "n",
+              "meaning": "孩子的（所有格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 64,
+              "word": "self-observations",
+              "lemma": "self-observation",
+              "pos": "n",
+              "meaning": "自我观察",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 69,
+              "word": "she",
+              "lemma": "she",
+              "pos": "pron",
+              "meaning": "她",
+              "reviewVersion": 2
             },
             {
               "a": 70,
               "b": 75,
-              "lemma": "rate",
-              "meaning": "评定；给……评分",
               "word": "rated",
-              "pos": "v"
+              "lemma": "rate",
+              "pos": "v",
+              "meaning": "评定；评价",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 80,
+              "word": "each",
+              "lemma": "each",
+              "pos": "det",
+              "meaning": "每一个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 88,
+              "word": "child's",
+              "lemma": "child",
+              "pos": "n",
+              "meaning": "孩子的（所有格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 96,
+              "word": "overall",
+              "lemma": "overall",
+              "pos": "a",
+              "meaning": "总体的；综合的（同情心水平）",
+              "reviewVersion": 2
             },
             {
               "a": 97,
               "b": 105,
-              "lemma": "sympathy",
-              "meaning": "同情；对他人感受与处境的体察",
               "word": "sympathy",
-              "pos": "n"
+              "lemma": "sympathy",
+              "pos": "n",
+              "meaning": "同情心",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 111,
+              "word": "level",
+              "lemma": "level",
+              "pos": "n",
+              "meaning": "水平",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 115,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 119,
+              "word": "his",
+              "lemma": "his",
+              "pos": "pron",
+              "meaning": "他的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 122,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 126,
+              "word": "her",
+              "lemma": "her",
+              "pos": "det",
+              "meaning": "她的",
+              "reviewVersion": 2
             },
             {
               "a": 127,
               "b": 135,
-              "lemma": "tendency",
-              "meaning": "倾向",
               "word": "tendency",
-              "pos": "n"
+              "lemma": "tendency",
+              "pos": "n",
+              "meaning": "倾向",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 138,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 139,
+              "b": 143,
+              "word": "feel",
+              "lemma": "feel",
+              "pos": "v",
+              "meaning": "感觉",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 152,
+              "word": "negative",
+              "lemma": "negative",
+              "pos": "a",
+              "meaning": "负面的；消极的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 161,
+              "word": "emotions",
+              "lemma": "emotion",
+              "pos": "n",
+              "meaning": "情绪；情感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 162,
+              "b": 167,
+              "word": "after",
+              "lemma": "after",
+              "pos": "prep",
+              "meaning": "在……之后",
+              "reviewVersion": 2
+            },
+            {
+              "a": 168,
+              "b": 173,
+              "word": "moral",
+              "lemma": "moral",
+              "pos": "a",
+              "meaning": "道德的",
+              "reviewVersion": 2
             },
             {
               "a": 174,
               "b": 188,
-              "lemma": "transgression",
-              "meaning": "违背道德规范的行为",
               "word": "transgressions",
-              "pos": "n"
+              "lemma": "transgression",
+              "pos": "n",
+              "meaning": "违规；违反道德准则的行为",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1075,7 +4123,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "两个评定项目为同情心水平及道德违规后负面情绪倾向，after范围只在后者。",
+            "sentenceSHA256": "e8b345cd1b88b41a75241f26a32b39d1dbaa61e940fd016b1c5e43900aa0ad7f",
+            "words": 26,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P5-S3",
@@ -1107,12 +4163,166 @@
           "translation": "然后，研究者给孩子们发放硬币形巧克力，并给他们机会与一名身份未透露的孩子分享。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Then",
+              "lemma": "then",
+              "pos": "adv",
+              "meaning": "然后",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 8,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 13,
+              "word": "kids",
+              "lemma": "kid",
+              "pos": "n",
+              "meaning": "孩子",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 18,
+              "word": "were",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与handed/given构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 25,
+              "word": "handed",
+              "lemma": "hand",
+              "pos": "v",
+              "meaning": "递给；发给",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 35,
+              "word": "chocolate",
+              "lemma": "chocolate",
+              "pos": "n",
+              "meaning": "巧克力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 41,
+              "word": "coins",
+              "lemma": "coin",
+              "pos": "n",
+              "meaning": "硬币（此处为硬币形巧克力）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 46,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 52,
+              "word": "given",
+              "lemma": "give",
+              "pos": "v",
+              "meaning": "给予（机会）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 54,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 61,
+              "word": "chance",
+              "lemma": "chance",
+              "pos": "n",
+              "meaning": "机会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 64,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 70,
+              "word": "share",
+              "lemma": "share",
+              "pos": "v",
+              "meaning": "分享",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 75,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "硬币形巧克力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 80,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "与……分享",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 83,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 84,
               "b": 93,
               "word": "anonymous",
               "lemma": "anonymous",
-              "meaning": "匿名的；身份未透露的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "匿名的；身份不透露的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 99,
+              "word": "child",
+              "lemma": "child",
+              "pos": "n",
+              "meaning": "孩子",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1122,7 +4332,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "被动发巧克力与给分享机会并列，coins是硬币形巧克力，them指巧克力。",
+            "sentenceSHA256": "164d5d02aa45e1c3cb621f3d8b8534166db6eb05d3b7e8fb3c37d319bd588f02",
+            "words": 18,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P5-S4",
@@ -1154,29 +4372,186 @@
           "translation": "对同情心较弱的孩子而言，他们分享多少，似乎取决于他们有多容易感到内疚。",
           "words": [
             {
-              "a": 12,
+              "a": 0,
+              "b": 3,
+              "word": "For",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对……而言",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 7,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
               "b": 20,
-              "lemma": "sympathy",
-              "meaning": "同情；对他人感受与处境的体察",
-              "word": "sympathy",
-              "pos": "n"
+              "word": "low-sympathy",
+              "lemma": "low-sympathy",
+              "pos": "a",
+              "meaning": "同情心较弱的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "kids",
+              "lemma": "kid",
+              "pos": "n",
+              "meaning": "孩子",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 30,
+              "word": "how",
+              "lemma": "how",
+              "pos": "adv",
+              "meaning": "多少；多大程度（how much）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 35,
+              "word": "much",
+              "lemma": "much",
+              "pos": "pron",
+              "meaning": "多少（分享的量）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 40,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 47,
+              "word": "shared",
+              "lemma": "share",
+              "pos": "v",
+              "meaning": "分享",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 56,
+              "word": "appeared",
+              "lemma": "appear",
+              "pos": "v",
+              "meaning": "似乎；看起来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 59,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 64,
+              "word": "turn",
+              "lemma": "turn",
+              "pos": "v",
+              "meaning": "取决于（turn on），而非打开",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 67,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "取决于（turn on）的搭配介词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 71,
+              "word": "how",
+              "lemma": "how",
+              "pos": "adv",
+              "meaning": "多么；多大程度（修饰inclined）",
+              "reviewVersion": 2
             },
             {
               "a": 72,
               "b": 80,
-              "lemma": "inclined",
-              "meaning": "有……倾向的",
               "word": "inclined",
-              "pos": "a"
+              "lemma": "inclined",
+              "pos": "a",
+              "meaning": "倾向于的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 85,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 90,
+              "word": "were",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态（过去）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 93,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 98,
+              "word": "feel",
+              "lemma": "feel",
+              "pos": "v",
+              "meaning": "感觉",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 105,
+              "word": "guilty",
+              "lemma": "guilty",
+              "pos": "a",
+              "meaning": "内疚的",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 60,
               "b": 67,
+              "word": "turn on",
               "lemma": "turn on",
-              "meaning": "取决于",
-              "word": "turn on"
+              "meaning": "取决于；以……为转移",
+              "reviewVersion": 2,
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1185,7 +4560,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "turn on意为取决于，两处how分别对应分享数量与内疚倾向程度。",
+            "sentenceSHA256": "c5a5b1da6e96ef49260dc3320d6aa69460da55f3d4b1e43533d54c3efd5a3bd3",
+            "words": 19,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P5-S5",
@@ -1217,30 +4600,193 @@
           "translation": "容易内疚的孩子分享得更多，即使他们并没有神奇地变得更同情另一个孩子没得到巧克力的处境。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 4,
               "b": 15,
-              "lemma": "guilt-prone",
-              "meaning": "容易产生内疚的",
               "word": "guilt-prone",
-              "pos": "a"
+              "lemma": "guilt-prone",
+              "pos": "a",
+              "meaning": "容易感到内疚的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "ones",
+              "lemma": "one",
+              "pos": "pron",
+              "meaning": "那些孩子（代替kids）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 27,
+              "word": "shared",
+              "lemma": "share",
+              "pos": "v",
+              "meaning": "分享",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 32,
+              "word": "more",
+              "lemma": "more",
+              "pos": "pron",
+              "meaning": "更多东西（巧克力，省略宾语名词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 38,
+              "word": "even",
+              "lemma": "even",
+              "pos": "adv",
+              "meaning": "与though组成即使；尽管",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 45,
+              "word": "though",
+              "lemma": "though",
+              "pos": "conj",
+              "meaning": "与even组成尽管；即使",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 50,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 57,
+              "word": "hadn't",
+              "lemma": "have not",
+              "pos": "aux",
+              "meaning": "had not缩写，否定过去完成时：并没有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 67,
+              "word": "magically",
+              "lemma": "magically",
+              "pos": "adv",
+              "meaning": "神奇地；像变魔术一样",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 74,
+              "word": "become",
+              "lemma": "become",
+              "pos": "v",
+              "meaning": "成为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 79,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更；更多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 91,
+              "word": "sympathetic",
+              "lemma": "sympathetic",
+              "pos": "a",
+              "meaning": "同情的；有同情心的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 94,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "同情……（sympathetic to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 98,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 104,
+              "word": "other",
+              "lemma": "other",
+              "pos": "det",
+              "meaning": "其他的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 112,
+              "word": "child's",
+              "lemma": "child",
+              "pos": "n",
+              "meaning": "孩子的（所有格）",
+              "reviewVersion": 2
             },
             {
               "a": 113,
               "b": 124,
-              "lemma": "deprivation",
-              "meaning": "匮乏；未能获得好东西的处境",
               "word": "deprivation",
-              "pos": "n"
+              "lemma": "deprivation",
+              "pos": "n",
+              "meaning": "匮乏；未得到巧克力的处境",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 34,
+              "b": 45,
+              "word": "even though",
+              "lemma": "even though",
+              "meaning": "尽管；虽然",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "more第一次指更多巧克力，第二次修饰同情心，deprivation为对方未获巧克力。",
+            "sentenceSHA256": "724e0a150b4fe4f726964500931595546f00faf81bd72e70464a6f9a5b3adaf9",
+            "words": 18,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -1270,7 +4816,53 @@
           ],
           "reorder": "把说话人前置即可，保留引语。",
           "translation": "马尔蒂说：“这是个好消息。”",
-          "words": [],
+          "words": [
+            {
+              "a": 1,
+              "b": 7,
+              "word": "That's",
+              "lemma": "that be",
+              "pos": "v",
+              "meaning": "that is缩写：那是；这是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 12,
+              "word": "good",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "好的；有利的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 17,
+              "word": "news",
+              "lemma": "news",
+              "pos": "n",
+              "meaning": "消息",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 26,
+              "word": "Malti",
+              "lemma": "Malti",
+              "pos": "name",
+              "meaning": "马尔蒂（姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 31,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；指出",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -1278,7 +4870,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "that's指补偿机制这一发现，保留说话人马尔蒂。",
+            "sentenceSHA256": "33775f9b8a26174a0d4bdd63fd3f40af0dde957a28eb5c44c21fafb5e959de7f",
+            "words": 5,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T1-P6-S2",
@@ -1310,20 +4910,112 @@
           "translation": "“我们可以因为自己造成了伤害并为此感到懊悔，而表现出有利于他人和群体的行为。”",
           "words": [
             {
+              "a": 1,
+              "b": 3,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 7,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能；能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 10,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
               "a": 11,
               "b": 20,
-              "lemma": "prosocial",
-              "meaning": "有利于他人与群体的；亲社会的",
               "word": "prosocial",
-              "pos": "a"
+              "lemma": "prosocial",
+              "pos": "a",
+              "meaning": "亲社会的；有利于他人和群体的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 28,
+              "word": "because",
+              "lemma": "because",
+              "pos": "conj",
+              "meaning": "因为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 31,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 38,
+              "word": "caused",
+              "lemma": "cause",
+              "pos": "v",
+              "meaning": "造成；导致",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 43,
+              "word": "harm",
+              "lemma": "harm",
+              "pos": "v",
+              "meaning": "伤害",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 47,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 50,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 55,
+              "word": "feel",
+              "lemma": "feel",
+              "pos": "v",
+              "meaning": "感觉",
+              "reviewVersion": 2
             },
             {
               "a": 56,
               "b": 62,
-              "lemma": "regret",
-              "meaning": "懊悔；后悔",
               "word": "regret",
-              "pos": "n"
+              "lemma": "regret",
+              "pos": "n",
+              "meaning": "懊悔；后悔",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1333,9 +5025,32 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "prosocial译明亲社会行为，因为伤害他人而懊悔可促成此类行为，非定义为内疚本身。",
+            "sentenceSHA256": "46b43dd9b82002614dd84267f5f8d1109f3be7651b6e00b8b0a914f044241efd",
+            "words": 12,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "62bafabc469528281591abae16944ba175017aaa9e550abe2828ecb7cac8b6a1",
+    "sentences": 24,
+    "wordOccurrences": 413,
+    "notes": [
+      "独立复核内疚与同情心的互补机制、244儿童研究、让步与指代；重点清除born/hold/vice/given/turn的跨文错误候选义。"
+    ]
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

@@ -4,7 +4,7 @@ import json,re,hashlib,importlib.util
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'public/english/data/reading'
-PATTERN=re.compile(r'''(?<![A-Za-z0-9'’])(?:\d+(?:st|nd|rd|th)(?:[-‐‑][A-Za-z]+)+|(?:[A-Za-z]\.){2,}|[A-Za-z][A-Za-z0-9]*(?:['’][A-Za-z]+)*(?:["”]?[-‐‑][A-Za-z0-9]+(?:['’][A-Za-z]+)*)*)''')
+PATTERN=re.compile(r'''(?<![A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ0-9])(?:\d+(?:st|nd|rd|th)?(?:[-‐‑][A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ]+)+|(?:[A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ]\.){2,}|[A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ][A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ0-9]*(?:['’][A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ]+)*(?:["”]?[-‐‑][A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ0-9]+(?:['’][A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ]+)*)*)''')
 RUNONS={"part-there's",'script-literally','figuratively-means',"anyway-aren't",'catch-up-with-household'}
 def tokens(en):
  out=[]

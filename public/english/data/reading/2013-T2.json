@@ -49,19 +49,121 @@
           "translation": "一个世纪前，跨越大西洋而来的移民既有定居者，也有暂居者。",
           "words": [
             {
+              "a": 0,
+              "b": 1,
+              "word": "A",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 2,
+              "b": 9,
+              "word": "century",
+              "lemma": "century",
+              "pos": "n",
+              "meaning": "世纪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 13,
+              "word": "ago",
+              "lemma": "ago",
+              "pos": "adv",
+              "meaning": "以前",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 18,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 29,
+              "word": "immigrants",
+              "lemma": "immigrant",
+              "pos": "n",
+              "meaning": "移民",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 34,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 41,
+              "word": "across",
+              "lemma": "across",
+              "pos": "prep",
+              "meaning": "遍及；在各处",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 45,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 54,
+              "word": "Atlantic",
+              "lemma": "Atlantic",
+              "pos": "name",
+              "meaning": "大西洋",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 63,
+              "word": "included",
+              "lemma": "include",
+              "pos": "v",
+              "meaning": "包括",
+              "reviewVersion": 2
+            },
+            {
               "a": 64,
               "b": 72,
               "word": "settlers",
               "lemma": "settler",
-              "meaning": "永久定居者",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "定居者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 76,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 77,
               "b": 87,
               "word": "sojourners",
               "lemma": "sojourner",
-              "meaning": "暂居者"
+              "pos": "n",
+              "meaning": "暂居者",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -71,7 +173,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "跨大西洋移民中定居与暂居并列，sojourner不是旅游者职业。",
+            "sentenceSHA256": "36bce6a797577d6cfb991e57ad59d2fd9c4f876060adb8f64bacaf7d95e3f627",
+            "words": 13,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P1-S2",
@@ -115,12 +225,301 @@
           "translation": "来到美国的，既有许多希望永久安家的人，也有无意留下、只打算挣些钱就回国的人。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "Along",
+              "lemma": "along",
+              "pos": "prep",
+              "meaning": "沿着",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 10,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "与……一起；伴随",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 14,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 19,
+              "word": "many",
+              "lemma": "many",
+              "pos": "det",
+              "meaning": "许多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 25,
+              "word": "folks",
+              "lemma": "folk",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 33,
+              "word": "looking",
+              "lemma": "look",
+              "pos": "v",
+              "meaning": "看；观察",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 36,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 41,
+              "word": "make",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "建立（永久家园）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 43,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 44,
               "b": 53,
               "word": "permanent",
               "lemma": "permanent",
+              "pos": "a",
               "meaning": "永久的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 58,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家园；家庭",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 61,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 65,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 72,
+              "word": "United",
+              "lemma": "United",
+              "pos": "name",
+              "meaning": "美国国名United States的一部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 79,
+              "word": "States",
+              "lemma": "States",
+              "pos": "name",
+              "meaning": "美国国名United States的一部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 84,
+              "word": "came",
+              "lemma": "come",
+              "pos": "v",
+              "meaning": "来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 90,
+              "word": "those",
+              "lemma": "those",
+              "pos": "pron",
+              "meaning": "那些人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 94,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指前面的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 98,
+              "word": "had",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "有（意图）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 101,
+              "word": "no",
+              "lemma": "no",
+              "pos": "det",
+              "meaning": "没有；不存在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 111,
+              "word": "intention",
+              "lemma": "intention",
+              "pos": "n",
+              "meaning": "意图；打算",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 114,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 119,
+              "word": "stay",
+              "lemma": "stay",
+              "pos": "v",
+              "meaning": "留下",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 124,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 128,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指前面的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 134,
+              "word": "would",
+              "lemma": "would",
+              "pos": "aux",
+              "meaning": "会（表示假设或过去视角）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 139,
+              "word": "make",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "挣（钱）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 144,
+              "word": "some",
+              "lemma": "some",
+              "pos": "det",
+              "meaning": "一些；有些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 145,
+              "b": 150,
+              "word": "money",
+              "lemma": "money",
+              "pos": "n",
+              "meaning": "钱",
+              "reviewVersion": 2
+            },
+            {
+              "a": 151,
+              "b": 154,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 155,
+              "b": 159,
+              "word": "then",
+              "lemma": "then",
+              "pos": "adv",
+              "meaning": "那时；随后",
+              "reviewVersion": 2
+            },
+            {
+              "a": 160,
+              "b": 162,
+              "word": "go",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "去",
+              "reviewVersion": 2
+            },
+            {
+              "a": 163,
+              "b": 167,
+              "word": "home",
+              "lemma": "home",
+              "pos": "adv",
+              "meaning": "回原籍国",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -130,7 +529,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "倒装came those两类人共同到美国；make home安家与make money挣钱分开。",
+            "sentenceSHA256": "192a300c6430a34058a5bfa5658f8cd5f693436df680a35279338c0507307869",
+            "words": 33,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P1-S3",
@@ -156,12 +563,94 @@
           "translation": "1908年至1915年间，约700万人到来，同时约200万人离去。",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "Between",
+              "lemma": "between",
+              "pos": "prep",
+              "meaning": "在两者之间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 16,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 28,
+              "word": "about",
+              "lemma": "about",
+              "pos": "adv",
+              "meaning": "大约",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 38,
+              "word": "million",
+              "lemma": "million",
+              "pos": "num",
+              "meaning": "百万",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 45,
+              "word": "people",
+              "lemma": "people",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 53,
+              "word": "arrived",
+              "lemma": "arrive",
+              "pos": "v",
+              "meaning": "到来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 59,
+              "word": "while",
+              "lemma": "while",
+              "pos": "conj",
+              "meaning": "而；同时（流入流出对照）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 65,
+              "word": "about",
+              "lemma": "about",
+              "pos": "adv",
+              "meaning": "大约",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 75,
+              "word": "million",
+              "lemma": "million",
+              "pos": "num",
+              "meaning": "百万",
+              "reviewVersion": 2
+            },
+            {
               "a": 76,
               "b": 84,
               "word": "departed",
               "lemma": "depart",
-              "meaning": "离开；回国",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "离开",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -171,7 +660,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "700万到来与200万离开是同一统计期，while对照流量。",
+            "sentenceSHA256": "b7ebaaa7420859eb84a6d63814f5be4c55d8c5277dda8a34dbf1379b72f49171",
+            "words": 10,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P1-S4",
@@ -201,14 +698,151 @@
           ],
           "reorder": "把 for example 提到句首。",
           "translation": "例如，约四分之一的意大利移民最后永远返回了意大利。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 5,
+              "word": "About",
+              "lemma": "about",
+              "pos": "adv",
+              "meaning": "大约",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 7,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 15,
+              "word": "quarter",
+              "lemma": "quarter",
+              "pos": "n",
+              "meaning": "四分之一",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 18,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "all",
+              "lemma": "all",
+              "pos": "det",
+              "meaning": "全部；所有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 30,
+              "word": "Italian",
+              "lemma": "Italian",
+              "pos": "a",
+              "meaning": "意大利的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 41,
+              "word": "immigrants",
+              "lemma": "immigrant",
+              "pos": "n",
+              "meaning": "移民",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 46,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "为了（引出目的或对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 54,
+              "word": "example",
+              "lemma": "example",
+              "pos": "n",
+              "meaning": "例子（for example为例如）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 66,
+              "word": "eventually",
+              "lemma": "eventually",
+              "pos": "adv",
+              "meaning": "最终",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 75,
+              "word": "returned",
+              "lemma": "return",
+              "pos": "v",
+              "meaning": "恢复；回到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 78,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 84,
+              "word": "Italy",
+              "lemma": "Italy",
+              "pos": "name",
+              "meaning": "意大利",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 88,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "for good中的成分，整体为永久地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 93,
+              "word": "good",
+              "lemma": "good",
+              "pos": "n",
+              "meaning": "永久（for good固定搭配）",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 85,
               "b": 93,
               "lemma": "for good",
               "meaning": "永久地",
-              "word": "for good"
+              "word": "for good",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -217,7 +851,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "约四分之一永久回意大利，for good并非为了好处。",
+            "sentenceSHA256": "de23b601a221488accc0b4bba27d6a138b8c34c35112b7587f05c7d77194f526",
+            "words": 15,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P1-S5",
@@ -249,21 +891,130 @@
           "translation": "他们甚至有一个亲切的绰号：“uccelli di passaggio”，也就是候鸟。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "They",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 9,
+              "word": "even",
+              "lemma": "even",
+              "pos": "adv",
+              "meaning": "即使；甚至",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 13,
+              "word": "had",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "有（绰号）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 16,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 17,
               "b": 29,
               "word": "affectionate",
               "lemma": "affectionate",
-              "meaning": "亲切的；带感情的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "亲切的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 38,
+              "word": "nickname",
+              "lemma": "nickname",
+              "pos": "n",
+              "meaning": "绰号",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 48,
+              "word": "uccelli",
+              "lemma": "uccelli",
+              "pos": "part",
+              "meaning": "意大利语绰号的一部分，整体意为候鸟",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 51,
+              "word": "di",
+              "lemma": "di",
+              "pos": "part",
+              "meaning": "意大利语绰号中的连接词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 61,
+              "word": "passaggio",
+              "lemma": "passaggio",
+              "pos": "part",
+              "meaning": "意大利语绰号的一部分，整体意为候鸟",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 69,
+              "word": "birds",
+              "lemma": "bird",
+              "pos": "n",
+              "meaning": "鸟（birds of passage比喻往返移民）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 72,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 80,
+              "word": "passage",
+              "lemma": "passage",
+              "pos": "n",
+              "meaning": "迁徙；经过",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
+            {
+              "a": 41,
+              "b": 61,
+              "word": "uccelli di passaggio",
+              "lemma": "uccelli di passaggio",
+              "meaning": "候鸟（比喻暂居往返的移民）",
+              "kind": "phrase"
+            },
             {
               "a": 64,
               "b": 80,
               "lemma": "birds of passage",
               "meaning": "候鸟式移民；暂居后离开或往返的人",
-              "word": "birds of passage"
+              "word": "birds of passage",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -272,7 +1023,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "绰号意大利语候鸟，不要求将外语拼写误当英文词根。",
+            "sentenceSHA256": "0eebc2aaef16476096ed6bcf6179e27ad8de0de90d4b985492240929faa93057",
+            "words": 12,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -298,12 +1057,76 @@
           "translation": "如今，我们对移民的看法要僵硬得多。",
           "words": [
             {
+              "a": 0,
+              "b": 5,
+              "word": "Today",
+              "lemma": "today",
+              "pos": "adv",
+              "meaning": "如今",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 9,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 13,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（联系主语与状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 18,
+              "word": "much",
+              "lemma": "much",
+              "pos": "adv",
+              "meaning": "大大地（加强more比较）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 23,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更多；更（比较程度）",
+              "reviewVersion": 2
+            },
+            {
               "a": 24,
               "b": 29,
               "word": "rigid",
               "lemma": "rigid",
-              "meaning": "僵化的；缺乏弹性的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "僵化的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 35,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 46,
+              "word": "immigrants",
+              "lemma": "immigrant",
+              "pos": "n",
+              "meaning": "移民",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -313,7 +1136,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "rigid为看法僵化而非身体僵硬。",
+            "sentenceSHA256": "c883375f3200399c9dbc6edec72cc403024bf075a3a2f84ca1d3b31858d90fcb",
+            "words": 8,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P2-S2",
@@ -337,7 +1168,116 @@
           ],
           "reorder": "无需调整语序。",
           "translation": "我们把新来者划成两类：合法或非法，好或坏。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 9,
+              "word": "divide",
+              "lemma": "divide",
+              "pos": "v",
+              "meaning": "划分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 19,
+              "word": "newcomers",
+              "lemma": "newcomer",
+              "pos": "n",
+              "meaning": "新来者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 24,
+              "word": "into",
+              "lemma": "into",
+              "pos": "prep",
+              "meaning": "进入；转为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 28,
+              "word": "two",
+              "lemma": "two",
+              "pos": "num",
+              "meaning": "二；两个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 39,
+              "word": "categories",
+              "lemma": "category",
+              "pos": "n",
+              "meaning": "类别",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 46,
+              "word": "legal",
+              "lemma": "legal",
+              "pos": "a",
+              "meaning": "合法的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 49,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接备选内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 57,
+              "word": "illegal",
+              "lemma": "illegal",
+              "pos": "a",
+              "meaning": "非法的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 63,
+              "word": "good",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "优质的；好的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 66,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接备选内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 70,
+              "word": "bad",
+              "lemma": "bad",
+              "pos": "a",
+              "meaning": "坏的；不好的一类",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -345,7 +1285,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "合法非法与好坏为当下二分分类，不是作者事实认同。",
+            "sentenceSHA256": "0fba4fd7ed72d56e9332e1dda5be95142dd1f13beb08fdac1e517179cd973aec",
+            "words": 12,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P2-S3",
@@ -377,28 +1325,157 @@
           "translation": "我们要么把他们赞为正在成长中的美国人，要么给他们贴上应被驱逐的外国人的标签。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
               "a": 3,
               "b": 7,
               "word": "hail",
               "lemma": "hail",
+              "pos": "v",
               "meaning": "称赞；欢迎并称为",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 12,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（宾格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 15,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "把……称为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 25,
+              "word": "Americans",
+              "lemma": "American",
+              "pos": "n",
+              "meaning": "美国人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 28,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 32,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 39,
+              "word": "making",
+              "lemma": "making",
+              "pos": "n",
+              "meaning": "形成过程（in the making为逐渐形成中）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 43,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接备选内容）",
+              "reviewVersion": 2
             },
             {
               "a": 44,
               "b": 49,
               "word": "brand",
               "lemma": "brand",
-              "meaning": "给……贴负面标签",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "贴上负面标签",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 54,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（宾格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 57,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "把……称为",
+              "reviewVersion": 2
             },
             {
               "a": 58,
               "b": 64,
               "word": "aliens",
               "lemma": "alien",
+              "pos": "n",
               "meaning": "外国人；外来者",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 67,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 70,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动助动词（be kicked out）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 77,
+              "word": "kicked",
+              "lemma": "kick",
+              "pos": "v",
+              "meaning": "驱逐（kicked out）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 81,
+              "word": "out",
+              "lemma": "out",
+              "pos": "part",
+              "meaning": "与kicked构成“驱逐出去”",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -407,14 +1484,16 @@
               "b": 39,
               "lemma": "in the making",
               "meaning": "正在成长形成中的",
-              "word": "in the making"
+              "word": "in the making",
+              "kind": "phrase"
             },
             {
               "a": 71,
               "b": 81,
-              "lemma": "kicked out",
+              "lemma": "kick out",
               "meaning": "被驱逐出去",
-              "word": "kicked out"
+              "word": "kicked out",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -423,7 +1502,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "hail与brand褒贬标签相对，alien为外来者不是外星人。",
+            "sentenceSHA256": "44048f67d6b39cb9ba0c0530debdff06a48af549fb10a081eb0ee61d85f501ea",
+            "words": 17,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P2-S4",
@@ -461,36 +1548,184 @@
           "translation": "这种思维框架在很大程度上造成了移民制度的失灵，也使如何修复这一制度长期陷入政治僵局。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "That",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出所说的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 5,
               "b": 14,
               "word": "framework",
               "lemma": "framework",
-              "meaning": "思维框架；分类方式",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "思维框架",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 18,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "完成时助动词，不单译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 30,
+              "word": "contributed",
+              "lemma": "contribute",
+              "pos": "v",
+              "meaning": "促成",
+              "reviewVersion": 2
             },
             {
               "a": 31,
               "b": 39,
               "word": "mightily",
               "lemma": "mightily",
-              "meaning": "大大地；有力地",
-              "pos": "adv"
+              "pos": "adv",
+              "meaning": "极大地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 42,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "促成（contributed to的搭配成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 46,
+              "word": "our",
+              "lemma": "our",
+              "pos": "pron",
+              "meaning": "我们的",
+              "reviewVersion": 2
             },
             {
               "a": 47,
               "b": 53,
               "word": "broken",
               "lemma": "broken",
-              "meaning": "失灵的；运转不良的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "失灵的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 65,
+              "word": "immigration",
+              "lemma": "immigration",
+              "pos": "n",
+              "meaning": "移民；移民制度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 72,
+              "word": "system",
+              "lemma": "system",
+              "pos": "n",
+              "meaning": "制度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 76,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 80,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 85,
+              "word": "long",
+              "lemma": "long",
+              "pos": "a",
+              "meaning": "长期的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 95,
+              "word": "political",
+              "lemma": "political",
+              "pos": "a",
+              "meaning": "政治学的",
+              "reviewVersion": 2
             },
             {
               "a": 96,
               "b": 105,
               "word": "paralysis",
               "lemma": "paralysis",
+              "pos": "n",
               "meaning": "僵局；无法行动",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 110,
+              "word": "over",
+              "lemma": "over",
+              "pos": "prep",
+              "meaning": "关于（政治僵局的主题）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 114,
+              "word": "how",
+              "lemma": "how",
+              "pos": "adv",
+              "meaning": "如何",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 117,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 121,
+              "word": "fix",
+              "lemma": "fix",
+              "pos": "v",
+              "meaning": "修复",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 124,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事（承接上文）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -500,7 +1735,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "框架促成制度失灵与政治僵局，to为contribute搭配，over关于争论。",
+            "sentenceSHA256": "03749fcf1636ef4c6100054cc5234e50166917229bd6e4ea904c518cf1446aae",
+            "words": 20,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P2-S5",
@@ -524,7 +1767,152 @@
           ],
           "reorder": "把 we think 定语并入“看待类别的方式”，两个分句保留转折。",
           "translation": "我们不需要更多类别，但需要改变看待这些类别的方式。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 8,
+              "word": "don't",
+              "lemma": "do not",
+              "pos": "aux",
+              "meaning": "不（一般现在时否定）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 13,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 18,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更多；更（比较程度）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 29,
+              "word": "categories",
+              "lemma": "category",
+              "pos": "n",
+              "meaning": "类别",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 34,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是（转折）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 37,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 42,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 45,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 52,
+              "word": "change",
+              "lemma": "change",
+              "pos": "v",
+              "meaning": "改变",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 56,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 60,
+              "word": "way",
+              "lemma": "way",
+              "pos": "n",
+              "meaning": "方式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 63,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 69,
+              "word": "think",
+              "lemma": "think",
+              "pos": "v",
+              "meaning": "认为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 75,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 86,
+              "word": "categories",
+              "lemma": "category",
+              "pos": "n",
+              "meaning": "类别",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -532,7 +1920,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "不是要增加类别而是改变思考方式，两need否定与肯定区分。",
+            "sentenceSHA256": "11e8f0a6e0558d68506867b8a276419301a718e6bbd6d2db3589894d335eef8a",
+            "words": 16,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P2-S6",
@@ -556,7 +1952,107 @@
           ],
           "reorder": "无需调整语序。",
           "translation": "我们需要超越合法与非法的严格定义。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 10,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 15,
+              "word": "look",
+              "lemma": "look",
+              "pos": "v",
+              "meaning": "观察",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 22,
+              "word": "beyond",
+              "lemma": "beyond",
+              "pos": "prep",
+              "meaning": "超出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 29,
+              "word": "strict",
+              "lemma": "strict",
+              "pos": "a",
+              "meaning": "严格的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 41,
+              "word": "definitions",
+              "lemma": "definition",
+              "pos": "n",
+              "meaning": "定义",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 44,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 50,
+              "word": "legal",
+              "lemma": "legal",
+              "pos": "a",
+              "meaning": "合法的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 54,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 62,
+              "word": "illegal",
+              "lemma": "illegal",
+              "pos": "a",
+              "meaning": "非法的",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -564,7 +2060,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "beyond为超越严格分类，不是要求忽视所有法律。",
+            "sentenceSHA256": "3d91399441da40f793878bc4b76526e593d3678aace1fd23b04568769cb723d1",
+            "words": 11,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P2-S7",
@@ -596,12 +2100,166 @@
           "translation": "首先，我们可以承认这群新的候鸟式移民，他们生活在灰色地带，并在那里发展得很好。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "To",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 8,
+              "word": "start",
+              "lemma": "start",
+              "pos": "v",
+              "meaning": "开始",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 12,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 16,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能够；可以",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 26,
+              "word": "recognize",
+              "lemma": "recognize",
+              "pos": "v",
+              "meaning": "承认",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 30,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 34,
+              "word": "new",
+              "lemma": "new",
+              "pos": "a",
+              "meaning": "新的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 40,
+              "word": "birds",
+              "lemma": "bird",
+              "pos": "n",
+              "meaning": "鸟（birds of passage比喻往返移民）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 43,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 51,
+              "word": "passage",
+              "lemma": "passage",
+              "pos": "n",
+              "meaning": "迁徙；经过",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 58,
+              "word": "those",
+              "lemma": "those",
+              "pos": "pron",
+              "meaning": "那些人（候鸟式移民）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 65,
+              "word": "living",
+              "lemma": "live",
+              "pos": "v",
+              "meaning": "生活",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 69,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
               "a": 70,
               "b": 78,
               "word": "thriving",
               "lemma": "thrive",
+              "pos": "v",
               "meaning": "生活得好；发展兴旺",
-              "pos": "v"
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 81,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 85,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 90,
+              "word": "gray",
+              "lemma": "gray",
+              "pos": "a",
+              "meaning": "灰色的；界限不明的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 96,
+              "word": "areas",
+              "lemma": "area",
+              "pos": "n",
+              "meaning": "领域",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -610,14 +2268,16 @@
               "b": 51,
               "lemma": "birds of passage",
               "meaning": "候鸟式移民；暂居后离开或往返的人",
-              "word": "birds of passage"
+              "word": "birds of passage",
+              "kind": "phrase"
             },
             {
               "a": 86,
               "b": 96,
-              "lemma": "gray areas",
+              "lemma": "gray area",
               "meaning": "界限不清的中间地带",
-              "word": "gray areas"
+              "word": "gray areas",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -626,7 +2286,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "gray areas是身份制度界限不明，候鸟式移民在其中生活发展。",
+            "sentenceSHA256": "ffcf00c0b06deb5fa897eb260c85b2c8743066c7d3b0385e73929f82aca1991c",
+            "words": 18,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P2-S8",
@@ -644,7 +2312,89 @@
           ],
           "reorder": "无需调整语序，then 承接认识候鸟式移民。",
           "translation": "这样，我们或许就能着手解决移民难题。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 8,
+              "word": "might",
+              "lemma": "might",
+              "pos": "aux",
+              "meaning": "可能；也许",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 13,
+              "word": "then",
+              "lemma": "then",
+              "pos": "adv",
+              "meaning": "那时；随后",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 19,
+              "word": "begin",
+              "lemma": "begin",
+              "pos": "v",
+              "meaning": "开始",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 22,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 28,
+              "word": "solve",
+              "lemma": "solve",
+              "pos": "v",
+              "meaning": "解决",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 32,
+              "word": "our",
+              "lemma": "our",
+              "pos": "pron",
+              "meaning": "我们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 44,
+              "word": "immigration",
+              "lemma": "immigration",
+              "pos": "n",
+              "meaning": "移民；移民制度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 55,
+              "word": "challenges",
+              "lemma": "challenge",
+              "pos": "n",
+              "meaning": "难题",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -652,7 +2402,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "承认这些移民才可能着手解决，might为可能非保证。",
+            "sentenceSHA256": "2c12a6235b953b1f2c3c3c92cd46f46618213fa700708ab4dfedb345a14dd5f2",
+            "words": 9,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -684,28 +2442,166 @@
           "translation": "如今的候鸟式移民包括农作物采摘工、小提琴手、建筑工、创业者、工程师、家庭护理员和物理学家。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Crop",
+              "lemma": "crop",
+              "pos": "n",
+              "meaning": "农作物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 12,
+              "word": "pickers",
+              "lemma": "picker",
+              "pos": "n",
+              "meaning": "采摘工",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 24,
+              "word": "violinists",
+              "lemma": "violinist",
+              "pos": "n",
+              "meaning": "小提琴手",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 38,
+              "word": "construction",
+              "lemma": "construction",
+              "pos": "n",
+              "meaning": "建筑业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 46,
+              "word": "workers",
+              "lemma": "worker",
+              "pos": "n",
+              "meaning": "工作者；上班族",
+              "reviewVersion": 2
+            },
+            {
               "a": 48,
               "b": 61,
               "word": "entrepreneurs",
               "lemma": "entrepreneur",
+              "pos": "n",
               "meaning": "创业者",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 72,
+              "word": "engineers",
+              "lemma": "engineer",
+              "pos": "n",
+              "meaning": "工程师",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 78,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家园；家庭",
+              "reviewVersion": 2
             },
             {
               "a": 79,
               "b": 90,
               "word": "health-care",
               "lemma": "health-care",
-              "meaning": "医疗护理的",
-              "pos": "a"
+              "pos": "n",
+              "meaning": "医疗护理（作助手的定语）",
+              "reviewVersion": 2
             },
             {
               "a": 91,
               "b": 96,
               "word": "aides",
               "lemma": "aide",
+              "pos": "n",
               "meaning": "助手；护理人员",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 100,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 111,
+              "word": "physicists",
+              "lemma": "physicist",
+              "pos": "n",
+              "meaning": "物理学家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 115,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（联系主语与状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 121,
+              "word": "among",
+              "lemma": "among",
+              "pos": "prep",
+              "meaning": "在……之中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 129,
+              "word": "today's",
+              "lemma": "today",
+              "pos": "n",
+              "meaning": "如今的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 135,
+              "word": "birds",
+              "lemma": "bird",
+              "pos": "n",
+              "meaning": "鸟（birds of passage比喻往返移民）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 138,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 139,
+              "b": 146,
+              "word": "passage",
+              "lemma": "passage",
+              "pos": "n",
+              "meaning": "迁徙；经过",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -714,7 +2610,8 @@
               "b": 146,
               "lemma": "birds of passage",
               "meaning": "候鸟式移民；暂居后离开或往返的人",
-              "word": "birds of passage"
+              "word": "birds of passage",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -723,7 +2620,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "七类工作者完整，crop采摘农作物不只水果，physicists物理学家非医生。",
+            "sentenceSHA256": "22e774a7ef019177015377ab2dee9919877a8a3f6d5c132b3c8740c8b5f2261b",
+            "words": 18,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P3-S2",
@@ -755,20 +2660,157 @@
           "translation": "他们是由工作、资金和思想流动驱动的全球经济的积极参与者。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "They",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 8,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（联系主语与状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 18,
+              "word": "energetic",
+              "lemma": "energetic",
+              "pos": "a",
+              "meaning": "积极的；活跃的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 31,
+              "word": "participants",
+              "lemma": "participant",
+              "pos": "n",
+              "meaning": "参与者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 34,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 36,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 43,
+              "word": "global",
+              "lemma": "global",
+              "pos": "a",
+              "meaning": "全球的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 51,
+              "word": "economy",
+              "lemma": "economy",
+              "pos": "n",
+              "meaning": "经济",
+              "reviewVersion": 2
+            },
+            {
               "a": 52,
               "b": 58,
               "word": "driven",
               "lemma": "drive",
-              "meaning": "推动；带动",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "推动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 61,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "由（引出动作执行者）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 65,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 66,
               "b": 70,
               "word": "flow",
               "lemma": "flow",
+              "pos": "n",
               "meaning": "流动",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 73,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 78,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作（流动的就业机会）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 85,
+              "word": "money",
+              "lemma": "money",
+              "pos": "n",
+              "meaning": "钱",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 89,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 95,
+              "word": "ideas",
+              "lemma": "idea",
+              "pos": "n",
+              "meaning": "见解；想法",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -778,7 +2820,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "全球经济由三项流动驱动，work为工作机会非艺术作品。",
+            "sentenceSHA256": "503fcf88f75e84e78f19d95eb3a0856eb3dceddf897d9680cf22e907c3f89f57",
+            "words": 17,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P3-S3",
@@ -804,12 +2854,94 @@
           "translation": "他们更愿意随着机会的召唤往返流动。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "They",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 11,
+              "word": "prefer",
+              "lemma": "prefer",
+              "pos": "v",
+              "meaning": "更愿意",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 14,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 19,
+              "word": "come",
+              "lemma": "come",
+              "pos": "v",
+              "meaning": "来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 23,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 26,
+              "word": "go",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "去",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 29,
+              "word": "as",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "随着（机会出现）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 41,
+              "word": "opportunity",
+              "lemma": "opportunity",
+              "pos": "n",
+              "meaning": "机会",
+              "reviewVersion": 2
+            },
+            {
               "a": 42,
               "b": 47,
               "word": "calls",
               "lemma": "call",
-              "meaning": "召唤；出现（机会）",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "召唤（机会出现的比喻）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 52,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（宾格）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -818,7 +2950,8 @@
               "b": 26,
               "lemma": "come and go",
               "meaning": "来去；往返流动",
-              "word": "come and go"
+              "word": "come and go",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -827,7 +2960,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "机会召唤是随机会往返，不是真有人打电话命令。",
+            "sentenceSHA256": "0922c9a16c05ebc6a61d22d6fdcd14535144cfebf2a0460b9fc5a08b75ddcae7",
+            "words": 10,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P3-S4",
@@ -851,7 +2992,143 @@
           ],
           "reorder": "无需调整语序。",
           "translation": "他们能够在一地工作，在另一地安家。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "They",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 8,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能够；可以",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 15,
+              "word": "manage",
+              "lemma": "manage",
+              "pos": "v",
+              "meaning": "设法做到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 18,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 23,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "有（工作及家庭）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 25,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 29,
+              "word": "job",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 32,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 36,
+              "word": "one",
+              "lemma": "one",
+              "pos": "num",
+              "meaning": "一",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 42,
+              "word": "place",
+              "lemma": "place",
+              "pos": "n",
+              "meaning": "地方",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 46,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 48,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 55,
+              "word": "family",
+              "lemma": "family",
+              "pos": "n",
+              "meaning": "家庭",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 58,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 66,
+              "word": "another",
+              "lemma": "another",
+              "pos": "pron",
+              "meaning": "另一个地方（省略place）",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -859,7 +3136,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "在一地工作另一地安家，have为实义有，another代另一个地方。",
+            "sentenceSHA256": "4f1aa2cf79543cca991a13f5801438de0f5fe9e3a949e3c4ee137b9e33fecf4f",
+            "words": 15,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -897,38 +3182,139 @@
           "translation": "无论有没有许可，他们都能轻松跨越法律、司法管辖和身份的界限。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "With",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "有；获得（许可）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 7,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接备选内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 15,
+              "word": "without",
+              "lemma": "without",
+              "pos": "prep",
+              "meaning": "没有；不",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 26,
+              "word": "permission",
+              "lemma": "permission",
+              "pos": "n",
+              "meaning": "许可",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 32,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
               "a": 33,
               "b": 41,
               "word": "straddle",
               "lemma": "straddle",
-              "meaning": "横跨；同时生活在不同体系中",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "跨越不同体系",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 46,
+              "word": "laws",
+              "lemma": "law",
+              "pos": "n",
+              "meaning": "法律",
+              "reviewVersion": 2
             },
             {
               "a": 48,
               "b": 61,
               "word": "jurisdictions",
               "lemma": "jurisdiction",
-              "meaning": "司法管辖区；管辖权",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "司法管辖区；管辖范围",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 65,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 66,
               "b": 76,
               "word": "identities",
               "lemma": "identity",
-              "meaning": "身份；归属",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "身份",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 81,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "以……方式（with ease为轻松自如）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 86,
+              "word": "ease",
+              "lemma": "ease",
+              "pos": "n",
+              "meaning": "轻松自如（with ease）",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 77,
+              "b": 86,
+              "word": "with ease",
+              "lemma": "with ease",
+              "meaning": "轻松自如地",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "有无许可都跨不同体系，ease轻松与法定许可非同一问题。",
+            "sentenceSHA256": "598a2313b934864a8edef9737ff620d2301f781e0029b8c2d1d67cac91be2bc5",
+            "words": 12,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P4-S2",
@@ -966,12 +3352,229 @@
           "translation": "我们需要让他们把美国想象成这样一个地方：他们可以暂时在此有所作为，而无需承诺永久留下。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 12,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（宾格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 15,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 23,
+              "word": "imagine",
+              "lemma": "imagine",
+              "pos": "v",
+              "meaning": "想象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 27,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 34,
+              "word": "United",
+              "lemma": "United",
+              "pos": "name",
+              "meaning": "美国国名United States的一部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 41,
+              "word": "States",
+              "lemma": "States",
+              "pos": "name",
+              "meaning": "美国国名United States的一部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 44,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "当作（所想象的美国形象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 46,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 52,
+              "word": "place",
+              "lemma": "place",
+              "pos": "n",
+              "meaning": "地方",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 58,
+              "word": "where",
+              "lemma": "where",
+              "pos": "adv",
+              "meaning": "关系副词，在所说地方",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 63,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 67,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能够；可以",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 70,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 81,
+              "word": "productive",
+              "lemma": "productive",
+              "pos": "a",
+              "meaning": "有所作为的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 85,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "持续（暂居一段时间）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 87,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 93,
+              "word": "while",
+              "lemma": "while",
+              "pos": "conj",
+              "meaning": "当……时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 101,
+              "word": "without",
+              "lemma": "without",
+              "pos": "prep",
+              "meaning": "没有；不",
+              "reviewVersion": 2
+            },
+            {
               "a": 102,
               "b": 112,
               "word": "committing",
               "lemma": "commit",
-              "meaning": "使自己作出长期承诺",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "作出承诺",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 123,
+              "word": "themselves",
+              "lemma": "themselves",
+              "pos": "pron",
+              "meaning": "他们自己（公民）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 126,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "对……作出承诺（committing to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 134,
+              "word": "staying",
+              "lemma": "stay",
+              "pos": "v",
+              "meaning": "留下",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 142,
+              "word": "forever",
+              "lemma": "forever",
+              "pos": "adv",
+              "meaning": "永久地",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -981,7 +3584,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "productive在此有所作为，committing to接动名词，承诺永久留不是必要条件。",
+            "sentenceSHA256": "d0a8b40fbc2ea3fbfad84fd99188d4f750d16dd11b418c4a0b52c6cce2862f95",
+            "words": 25,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P4-S3",
@@ -1013,12 +3624,202 @@
           "translation": "我们需要让他们觉得，家既可以在这里，也可以在那里，他们可以光明正大地同时属于两个国家。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "We",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 12,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（宾格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 15,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "feel",
+              "lemma": "feel",
+              "pos": "v",
+              "meaning": "感到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出所说的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 30,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家园；家庭",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 34,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能够；可以",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 37,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 42,
+              "word": "both",
+              "lemma": "both",
+              "pos": "adv",
+              "meaning": "两个地方都（既这里也那里）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 47,
+              "word": "here",
+              "lemma": "here",
+              "pos": "adv",
+              "meaning": "这里",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 51,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 57,
+              "word": "there",
+              "lemma": "there",
+              "pos": "adv",
+              "meaning": "那里（另一个国家）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 61,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 66,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出所说的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 71,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 75,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能够；可以",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 82,
+              "word": "belong",
+              "lemma": "belong",
+              "pos": "v",
+              "meaning": "属于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 85,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "属于（belong to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 89,
+              "word": "two",
+              "lemma": "two",
+              "pos": "num",
+              "meaning": "二；两个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 97,
+              "word": "nations",
+              "lemma": "nation",
+              "pos": "n",
+              "meaning": "国家",
+              "reviewVersion": 2
+            },
+            {
               "a": 98,
               "b": 107,
               "word": "honorably",
               "lemma": "honorably",
-              "meaning": "体面地；理直气壮地",
-              "pos": "adv"
+              "pos": "adv",
+              "meaning": "光明正大地；体面地",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1028,7 +3829,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "两个国家都可归属，there为那里非存在结构，honorably光明正大。",
+            "sentenceSHA256": "e07883800a00b99f38dcf01d5837f3f242caa5109565c91d7948450f2d2009c9",
+            "words": 22,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -1070,24 +3879,171 @@
               "b": 13,
               "word": "Accommodating",
               "lemma": "accommodate",
-              "meaning": "适应并容纳；作出制度调整",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "适应并容纳",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 18,
+              "word": "this",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；这个（指所述事物）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "new",
+              "lemma": "new",
+              "pos": "a",
+              "meaning": "新的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 28,
+              "word": "world",
+              "lemma": "world",
+              "pos": "n",
+              "meaning": "世界",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 31,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 38,
+              "word": "people",
+              "lemma": "people",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 41,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
             },
             {
               "a": 42,
               "b": 48,
               "word": "motion",
               "lemma": "motion",
-              "meaning": "流动；迁移",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "人员流动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 53,
+              "word": "will",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "将；会（表示将来）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 61,
+              "word": "require",
+              "lemma": "require",
+              "pos": "v",
+              "meaning": "要求",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 65,
+              "word": "new",
+              "lemma": "new",
+              "pos": "a",
+              "meaning": "新的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 75,
+              "word": "attitudes",
+              "lemma": "attitude",
+              "pos": "n",
+              "meaning": "态度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 78,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "在……上",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 83,
+              "word": "both",
+              "lemma": "both",
+              "pos": "det",
+              "meaning": "双方的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 89,
+              "word": "sides",
+              "lemma": "side",
+              "pos": "n",
+              "meaning": "双方",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 92,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 96,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 108,
+              "word": "immigration",
+              "lemma": "immigration",
+              "pos": "n",
+              "meaning": "移民；移民制度",
+              "reviewVersion": 2
             },
             {
               "a": 109,
               "b": 115,
               "word": "battle",
               "lemma": "battle",
+              "pos": "n",
               "meaning": "争论；政策对立",
-              "pos": "n"
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1097,7 +4053,15 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "适应人员流动需争论双方态度改变，不独指移民一方。",
+            "sentenceSHA256": "7d621476172e8f4e2b851a08806fe7a6bece41c85885cf27b433e397975d37f0",
+            "words": 19,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2013-T2-P5-S2",
@@ -1153,28 +4117,373 @@
           "translation": "超越文化战争中非对即错的逻辑，意味着开辟中间地带，并认识到今天的移民管理需要多种路径和多种结果，其中一些在现行制度下难以合法实现。",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "Looking",
+              "lemma": "look",
+              "pos": "v",
+              "meaning": "看；观察",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 14,
+              "word": "beyond",
+              "lemma": "beyond",
+              "pos": "prep",
+              "meaning": "超出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 18,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 26,
+              "word": "culture",
+              "lemma": "culture",
+              "pos": "n",
+              "meaning": "文化",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 30,
+              "word": "war",
+              "lemma": "war",
+              "pos": "n",
+              "meaning": "战争",
+              "reviewVersion": 2
+            },
+            {
               "a": 31,
               "b": 36,
               "word": "logic",
               "lemma": "logic",
-              "meaning": "思维逻辑",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "逻辑",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 39,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（连接修饰成分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 45,
+              "word": "right",
+              "lemma": "right",
+              "pos": "n",
+              "meaning": "对；正确的一方",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 48,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接备选内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 54,
+              "word": "wrong",
+              "lemma": "wrong",
+              "pos": "n",
+              "meaning": "错；错误的一方",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 60,
+              "word": "means",
+              "lemma": "mean",
+              "pos": "v",
+              "meaning": "意味着",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 68,
+              "word": "opening",
+              "lemma": "open",
+              "pos": "v",
+              "meaning": "开辟",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 71,
+              "word": "up",
+              "lemma": "up",
+              "pos": "part",
+              "meaning": "与opening构成开辟",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 75,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 76,
               "b": 82,
               "word": "middle",
               "lemma": "middle",
+              "pos": "a",
               "meaning": "中间的；折中的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 89,
+              "word": "ground",
+              "lemma": "ground",
+              "pos": "n",
+              "meaning": "立场；空间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 93,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 107,
+              "word": "understanding",
+              "lemma": "understand",
+              "pos": "v",
+              "meaning": "理解",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 112,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出所说的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 121,
+              "word": "managing",
+              "lemma": "manage",
+              "pos": "v",
+              "meaning": "管理",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 133,
+              "word": "immigration",
+              "lemma": "immigration",
+              "pos": "n",
+              "meaning": "移民；移民制度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 139,
+              "word": "today",
+              "lemma": "today",
+              "pos": "adv",
+              "meaning": "如今",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 148,
+              "word": "requires",
+              "lemma": "require",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 157,
+              "word": "multiple",
+              "lemma": "multiple",
+              "pos": "a",
+              "meaning": "多次的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 158,
+              "b": 163,
+              "word": "paths",
+              "lemma": "path",
+              "pos": "n",
+              "meaning": "路径",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 167,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 168,
+              "b": 176,
+              "word": "multiple",
+              "lemma": "multiple",
+              "pos": "a",
+              "meaning": "多次的",
+              "reviewVersion": 2
             },
             {
               "a": 177,
               "b": 185,
               "word": "outcomes",
               "lemma": "outcome",
-              "meaning": "结果；制度安排的不同结局",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "结果",
+              "reviewVersion": 2
+            },
+            {
+              "a": 187,
+              "b": 196,
+              "word": "including",
+              "lemma": "include",
+              "pos": "prep",
+              "meaning": "包括",
+              "reviewVersion": 2
+            },
+            {
+              "a": 197,
+              "b": 201,
+              "word": "some",
+              "lemma": "some",
+              "pos": "det",
+              "meaning": "一些；有些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 202,
+              "b": 206,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出所说的内容，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 207,
+              "b": 210,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于（联系主语与状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 211,
+              "b": 214,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 215,
+              "b": 219,
+              "word": "easy",
+              "lemma": "easy",
+              "pos": "a",
+              "meaning": "容易的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 220,
+              "b": 222,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，引出后面的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 223,
+              "b": 233,
+              "word": "accomplish",
+              "lemma": "accomplish",
+              "pos": "v",
+              "meaning": "实现",
+              "reviewVersion": 2
+            },
+            {
+              "a": 234,
+              "b": 241,
+              "word": "legally",
+              "lemma": "legally",
+              "pos": "adv",
+              "meaning": "合法地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 242,
+              "b": 244,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 245,
+              "b": 248,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 249,
+              "b": 257,
+              "word": "existing",
+              "lemma": "exist",
+              "pos": "a",
+              "meaning": "现行的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 258,
+              "b": 264,
+              "word": "system",
+              "lemma": "system",
+              "pos": "n",
+              "meaning": "制度",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -1183,7 +4492,8 @@
               "b": 89,
               "lemma": "middle ground",
               "meaning": "折中空间；中间立场",
-              "word": "middle ground"
+              "word": "middle ground",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1192,9 +4502,30 @@
             "连续句块覆盖",
             "本句语序",
             "已列词义及字符位置"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "承认中间空间与多路径多结果，其中部分现制度难合法实现，未声称所有安排皆合法。",
+            "sentenceSHA256": "c519eb82057feac66887b62cf579d6dff9c908160ed682bfdb2445e194ff212f",
+            "words": 41,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "0a65239f525dc3ae46d36760ce8ab2bbc18c1da6432d4eff2954c84b779768b8",
+    "sentences": 22,
+    "wordOccurrences": 373,
+    "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

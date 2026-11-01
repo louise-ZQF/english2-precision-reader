@@ -47,14 +47,124 @@
           ],
           "reorder": "先译持续抱怨的内容，再译持续时长。",
           "translation": "美国农场主已经连续好几年抱怨劳动力短缺。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 8,
+              "word": "American",
+              "lemma": "american",
+              "pos": "a",
+              "meaning": "美国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 16,
+              "word": "farmers",
+              "lemma": "farmer",
+              "pos": "n",
+              "meaning": "农场主",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 21,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成完成时，不单独译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 26,
+              "word": "been",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与complaining构成完成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 38,
+              "word": "complaining",
+              "lemma": "complain",
+              "pos": "v",
+              "meaning": "抱怨",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 41,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "抱怨……（complain of）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 47,
+              "word": "labor",
+              "lemma": "labor",
+              "pos": "n",
+              "meaning": "劳动力；用工",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 57,
+              "word": "shortages",
+              "lemma": "shortage",
+              "pos": "n",
+              "meaning": "短缺",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 61,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "持续了（好几年）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 69,
+              "word": "several",
+              "lemma": "several",
+              "pos": "det",
+              "meaning": "几位；若干",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 75,
+              "word": "years",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
+            {
+              "a": 27,
+              "b": 41,
+              "word": "complaining of",
+              "lemma": "complain of",
+              "meaning": "抱怨",
+              "reviewVersion": 2,
+              "kind": "phrase"
+            },
             {
               "a": 42,
               "b": 57,
-              "lemma": "labor shortages",
+              "lemma": "labor shortage",
               "meaning": "劳动力短缺",
-              "word": "labor shortages"
+              "word": "labor shortages",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -63,7 +173,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "完成进行时持续抱怨，for持续几年，farmers农场主，shortages劳动力短缺。",
+            "sentenceSHA256": "8741b7bde51f6cbc619ad797401dfe87753266668e99234778cb1fad49b6e42b",
+            "words": 11,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P1-S2",
@@ -95,12 +213,139 @@
           "translation": "如果不彻底改革针对农业劳工的移民规定，这些抱怨就不太可能停止。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 14,
+              "word": "complaints",
+              "lemma": "complaint",
+              "pos": "n",
+              "meaning": "抱怨",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 18,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 27,
+              "word": "unlikely",
+              "lemma": "unlikely",
+              "pos": "a",
+              "meaning": "不大可能的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 30,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 35,
+              "word": "stop",
+              "lemma": "stop",
+              "pos": "v",
+              "meaning": "停止",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 43,
+              "word": "without",
+              "lemma": "without",
+              "pos": "prep",
+              "meaning": "如果不；没有（必要改革）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 46,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 47,
               "b": 55,
-              "lemma": "overhaul",
-              "meaning": "全面修订；彻底改革",
               "word": "overhaul",
-              "pos": "n"
+              "lemma": "overhaul",
+              "pos": "n",
+              "meaning": "彻底改革",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 58,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 70,
+              "word": "immigration",
+              "lemma": "immigration",
+              "pos": "n",
+              "meaning": "移民；移民事务",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 76,
+              "word": "rules",
+              "lemma": "rule",
+              "pos": "n",
+              "meaning": "规则",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 80,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "为了；针对",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 85,
+              "word": "farm",
+              "lemma": "farm",
+              "pos": "n",
+              "meaning": "农场；农业（名词修饰workers）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 93,
+              "word": "workers",
+              "lemma": "worker",
+              "pos": "n",
+              "meaning": "工作者",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -110,7 +355,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "without与unlikely两个否定都保留，overhaul彻底改革，farm名词农业而非饲养。",
+            "sentenceSHA256": "358fcb75836a6f5acddd1d19a559de89da49eb3eb8624c47fdbd7ac334a18780",
+            "words": 15,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -154,20 +407,265 @@
           "translation": "国会阻挠了为农业劳工建立一种更简便签证制度的努力；这种签证本可让外国劳工在美国停留更长时间，并在农业内部更换工作。",
           "words": [
             {
+              "a": 0,
+              "b": 8,
+              "word": "Congress",
+              "lemma": "Congress",
+              "pos": "name",
+              "meaning": "美国国会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 12,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成完成时，不单独译为“有”",
+              "reviewVersion": 2
+            },
+            {
               "a": 13,
               "b": 23,
-              "lemma": "obstruct",
-              "meaning": "阻挠；阻碍",
               "word": "obstructed",
-              "pos": "v"
+              "lemma": "obstruct",
+              "pos": "v",
+              "meaning": "阻挠；阻碍",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 31,
+              "word": "efforts",
+              "lemma": "effort",
+              "pos": "n",
+              "meaning": "努力；工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 34,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 41,
+              "word": "create",
+              "lemma": "create",
+              "pos": "v",
+              "meaning": "建立（签证制度）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 43,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 48,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更；更多",
+              "reviewVersion": 2
             },
             {
               "a": 49,
               "b": 64,
-              "lemma": "straightforward",
-              "meaning": "简便明确的",
               "word": "straightforward",
-              "pos": "a"
+              "lemma": "straightforward",
+              "pos": "a",
+              "meaning": "简便的；直接明了的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 69,
+              "word": "visa",
+              "lemma": "visa",
+              "pos": "n",
+              "meaning": "签证",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 73,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "为了；针对",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 86,
+              "word": "agricultural",
+              "lemma": "agricultural",
+              "pos": "a",
+              "meaning": "农业的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 94,
+              "word": "workers",
+              "lemma": "worker",
+              "pos": "n",
+              "meaning": "工作者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 99,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "关系代词，指更简便的签证",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 105,
+              "word": "would",
+              "lemma": "would",
+              "pos": "aux",
+              "meaning": "会（表示假设或过去将来）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 109,
+              "word": "let",
+              "lemma": "let",
+              "pos": "v",
+              "meaning": "让；使",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 117,
+              "word": "foreign",
+              "lemma": "foreign",
+              "pos": "a",
+              "meaning": "外国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 125,
+              "word": "workers",
+              "lemma": "worker",
+              "pos": "n",
+              "meaning": "工作者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 130,
+              "word": "stay",
+              "lemma": "stay",
+              "pos": "v",
+              "meaning": "留在；待在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 137,
+              "word": "longer",
+              "lemma": "long",
+              "pos": "adv",
+              "meaning": "更长时间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 140,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 144,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 145,
+              "b": 149,
+              "word": "U.S.",
+              "lemma": "U.S.",
+              "pos": "name",
+              "meaning": "美国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 150,
+              "b": 153,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 154,
+              "b": 160,
+              "word": "change",
+              "lemma": "change",
+              "pos": "v",
+              "meaning": "改变；更换",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 165,
+              "word": "jobs",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "就业岗位；工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 166,
+              "b": 172,
+              "word": "within",
+              "lemma": "within",
+              "pos": "prep",
+              "meaning": "在……之内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 173,
+              "b": 176,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 177,
+              "b": 185,
+              "word": "industry",
+              "lemma": "industry",
+              "pos": "n",
+              "meaning": "行业",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -177,7 +675,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "更简便签证允许长留及行业内换岗，that指visa，would为改革本可允许。",
+            "sentenceSHA256": "5abe430c6087e128acb46e5711a8c66f5e732bc0895703dbaf314252d395aa6a",
+            "words": 29,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P2-S2",
@@ -207,7 +713,125 @@
           ],
           "reorder": "先译条件，再译三类承受后果的群体；this 指移民制度改革受阻的状况。",
           "translation": "如果这种情况不改变，美国企业、社区和消费者都将成为受损的一方。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "If",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "如果",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "this",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；本句所说的事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 15,
+              "word": "doesn't",
+              "lemma": "do",
+              "pos": "aux",
+              "meaning": "不（does not缩写，构成否定）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 22,
+              "word": "change",
+              "lemma": "change",
+              "pos": "v",
+              "meaning": "改变；更换",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 32,
+              "word": "American",
+              "lemma": "american",
+              "pos": "a",
+              "meaning": "美国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 43,
+              "word": "businesses",
+              "lemma": "business",
+              "pos": "n",
+              "meaning": "企业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 56,
+              "word": "communities",
+              "lemma": "community",
+              "pos": "n",
+              "meaning": "社区",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 61,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 71,
+              "word": "consumers",
+              "lemma": "consumer",
+              "pos": "n",
+              "meaning": "消费者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 76,
+              "word": "will",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "将会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 79,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 83,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 90,
+              "word": "losers",
+              "lemma": "loser",
+              "pos": "n",
+              "meaning": "受损者；输家",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -215,7 +839,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "this指改革受阻的局面，losers受损者不硬译失败比赛的人。",
+            "sentenceSHA256": "056793a9dc518be2be87f0cee236067d78c58b55c1fa1f6459944853b14716c4",
+            "words": 13,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -245,14 +877,97 @@
           ],
           "reorder": "顺译，Perhaps 保留估计而非确定比例。",
           "translation": "美国农业劳工中，或许有一半是没有合法身份的移民。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 7,
+              "word": "Perhaps",
+              "lemma": "perhaps",
+              "pos": "adv",
+              "meaning": "也许",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 12,
+              "word": "half",
+              "lemma": "half",
+              "pos": "n",
+              "meaning": "一半",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 15,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "U.S.",
+              "lemma": "U.S.",
+              "pos": "name",
+              "meaning": "美国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "farm",
+              "lemma": "farm",
+              "pos": "n",
+              "meaning": "农场；农业（名词修饰laborers）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 34,
+              "word": "laborers",
+              "lemma": "laborer",
+              "pos": "n",
+              "meaning": "劳工；工人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 38,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 51,
+              "word": "undocumented",
+              "lemma": "undocumented",
+              "pos": "a",
+              "meaning": "没有合法身份证件的；无合法移民身份的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 62,
+              "word": "immigrants",
+              "lemma": "immigrant",
+              "pos": "n",
+              "meaning": "移民",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 39,
               "b": 62,
-              "lemma": "undocumented immigrants",
+              "lemma": "undocumented immigrant",
               "meaning": "没有合法移民身份或所需证件的移民",
-              "word": "undocumented immigrants"
+              "word": "undocumented immigrants",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -261,7 +976,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "Perhaps保留比例估计，undocumented为无合法移民身份，不是没做文档。",
+            "sentenceSHA256": "d2289db9d187c3a7a3e8ab0900f60a27b60c876575bfcb2f951a066345220fd1",
+            "words": 9,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P3-S2",
@@ -285,7 +1008,143 @@
           ],
           "reorder": "先译背景趋势，再译结果；such workers 指上文没有合法身份的移民劳工。",
           "translation": "随着进入美国的此类劳工减少，农业劳动力的特征正在改变。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "As",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "随着……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 8,
+              "word": "fewer",
+              "lemma": "few",
+              "pos": "a",
+              "meaning": "更少的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 13,
+              "word": "such",
+              "lemma": "such",
+              "pos": "det",
+              "meaning": "这样的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 21,
+              "word": "workers",
+              "lemma": "worker",
+              "pos": "n",
+              "meaning": "工作者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 27,
+              "word": "enter",
+              "lemma": "enter",
+              "pos": "v",
+              "meaning": "进入",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 31,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 39,
+              "word": "country",
+              "lemma": "country",
+              "pos": "n",
+              "meaning": "国家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 44,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 60,
+              "word": "characteristics",
+              "lemma": "characteristic",
+              "pos": "n",
+              "meaning": "特征",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 63,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 67,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 80,
+              "word": "agricultural",
+              "lemma": "agricultural",
+              "pos": "a",
+              "meaning": "农业的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 90,
+              "word": "workforce",
+              "lemma": "workforce",
+              "pos": "n",
+              "meaning": "劳动力；从业人员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 94,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与changing构成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 103,
+              "word": "changing",
+              "lemma": "change",
+              "pos": "v",
+              "meaning": "更换；改变",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -293,7 +1152,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "as随着与are changing进行时，such指无合法身份劳工。",
+            "sentenceSHA256": "6da44d3f256b3518350e9bf9f3589400207ca6aac4c67a9602b1afac5cd038fb",
+            "words": 15,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P3-S3",
@@ -331,38 +1198,266 @@
           "translation": "如今的农业劳工虽然仍大多出生在墨西哥，但更可能已经定居而非四处流动，也更可能已经结婚而非单身。",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "Today's",
+              "lemma": "today",
+              "pos": "n",
+              "meaning": "如今的（所有格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 12,
+              "word": "farm",
+              "lemma": "farm",
+              "pos": "n",
+              "meaning": "农场；农业（名词修饰laborers）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 21,
+              "word": "laborers",
+              "lemma": "laborer",
+              "pos": "n",
+              "meaning": "劳工；工人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 28,
+              "word": "while",
+              "lemma": "while",
+              "pos": "conj",
+              "meaning": "虽然；尽管",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 34,
+              "word": "still",
+              "lemma": "still",
+              "pos": "adv",
+              "meaning": "仍然",
+              "reviewVersion": 2
+            },
+            {
               "a": 35,
               "b": 48,
-              "lemma": "predominantly",
-              "meaning": "主要地；大部分地",
               "word": "predominantly",
-              "pos": "adv"
+              "lemma": "predominantly",
+              "pos": "adv",
+              "meaning": "大多数地；主要地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 53,
+              "word": "born",
+              "lemma": "bear",
+              "pos": "v",
+              "meaning": "出生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 56,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 63,
+              "word": "Mexico",
+              "lemma": "Mexico",
+              "pos": "name",
+              "meaning": "墨西哥",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 68,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 73,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更；更多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 80,
+              "word": "likely",
+              "lemma": "likely",
+              "pos": "a",
+              "meaning": "有可能的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 83,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 86,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
             },
             {
               "a": 87,
               "b": 94,
-              "lemma": "settle",
-              "meaning": "定居下来的",
               "word": "settled",
-              "pos": "v"
+              "lemma": "settled",
+              "pos": "a",
+              "meaning": "定居的；稳定居住的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 101,
+              "word": "rather",
+              "lemma": "rather",
+              "pos": "adv",
+              "meaning": "与than组成而非；不是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 106,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
             },
             {
               "a": 107,
               "b": 116,
-              "lemma": "migrate",
-              "meaning": "流动作业；迁移",
               "word": "migrating",
-              "pos": "n"
+              "lemma": "migrate",
+              "pos": "v",
+              "meaning": "迁移；流动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 120,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 125,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更；更多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 132,
+              "word": "likely",
+              "lemma": "likely",
+              "pos": "a",
+              "meaning": "有可能的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 135,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 138,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 139,
+              "b": 146,
+              "word": "married",
+              "lemma": "married",
+              "pos": "a",
+              "meaning": "已婚的（get married结婚）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 147,
+              "b": 151,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 152,
+              "b": 158,
+              "word": "single",
+              "lemma": "single",
+              "pos": "a",
+              "meaning": "单身的；未婚的",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 95,
+              "b": 106,
+              "word": "rather than",
+              "lemma": "rather than",
+              "meaning": "而不是",
+              "reviewVersion": 2,
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "while让步，more likely两组相对概率并非所有人；settled定居和single未婚区分。",
+            "sentenceSHA256": "042a1aaf8c7508eb35aab212a6982ec7bded6cb4ec0e9c98268816736d247cee",
+            "words": 26,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P3-S4",
@@ -382,12 +1477,31 @@
           "translation": "他们的年龄也在增长。",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "They're",
+              "lemma": "they be",
+              "pos": "aux",
+              "meaning": "they are缩写，与后面动词构成进行时或被动；他们正在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 12,
+              "word": "also",
+              "lemma": "also",
+              "pos": "adv",
+              "meaning": "也",
+              "reviewVersion": 2
+            },
+            {
               "a": 13,
               "b": 18,
-              "lemma": "age",
-              "meaning": "年龄不断增大；老龄化",
               "word": "aging",
-              "pos": "v"
+              "lemma": "age",
+              "pos": "v",
+              "meaning": "年龄增长；老龄化",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -397,7 +1511,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "they're are与aging进行时，农业劳工群体老龄化。",
+            "sentenceSHA256": "b6a5c3ca48923d80f2b8e280384adbc64dfc40565d01bf6a8c31695af66f70d2",
+            "words": 3,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P3-S5",
@@ -427,7 +1549,152 @@
           ],
           "reorder": "先译时间，再译人数比例与年龄门槛。",
           "translation": "本世纪初，大约三分之一的农作物劳工年龄超过三十五岁。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "At",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 6,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 12,
+              "word": "start",
+              "lemma": "start",
+              "pos": "n",
+              "meaning": "开始；初期",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 15,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "this",
+              "lemma": "this",
+              "pos": "det",
+              "meaning": "本（世纪）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 28,
+              "word": "century",
+              "lemma": "century",
+              "pos": "n",
+              "meaning": "世纪",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 35,
+              "word": "about",
+              "lemma": "about",
+              "pos": "adv",
+              "meaning": "大约",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 45,
+              "word": "one-third",
+              "lemma": "one-third",
+              "pos": "num",
+              "meaning": "三分之一",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 48,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 53,
+              "word": "crop",
+              "lemma": "crop",
+              "pos": "n",
+              "meaning": "农作物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 61,
+              "word": "workers",
+              "lemma": "worker",
+              "pos": "n",
+              "meaning": "工作者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 66,
+              "word": "were",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态（过去）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 71,
+              "word": "over",
+              "lemma": "over",
+              "pos": "prep",
+              "meaning": "超过（年龄）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 75,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 79,
+              "word": "age",
+              "lemma": "age",
+              "pos": "n",
+              "meaning": "年龄",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 82,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -435,7 +1702,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "世纪初约三分之一、年龄超过35岁，about是大约。",
+            "sentenceSHA256": "496c2be438f402e01dbe246e3a83bb6f9defb1609736e3e64bf7b04d91ebcec6",
+            "words": 16,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P3-S6",
@@ -453,7 +1728,53 @@
           ],
           "reorder": "补出 are 后省略的 over the age of 35，避免只译为“是这样”。",
           "translation": "如今，超过一半的劳工已超过三十五岁。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "Now",
+              "lemma": "now",
+              "pos": "adv",
+              "meaning": "现在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更；更多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 13,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 18,
+              "word": "half",
+              "lemma": "half",
+              "pos": "n",
+              "meaning": "一半",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "超过35岁（补出前句省略表语）",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -461,7 +1782,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "are后省略超过35岁，more than half保留过半。",
+            "sentenceSHA256": "1462d8f2c0e955a8c8f83dfd5972c4907f14b290f111eedce1302da500919e3b",
+            "words": 5,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P3-S7",
@@ -479,14 +1808,88 @@
           ],
           "reorder": "将 older bodies 按中文译为年长者的身体；hard on 表示负担重。",
           "translation": "而采收农作物对年长者的身体是很大的负担。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "And",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 11,
+              "word": "picking",
+              "lemma": "pick",
+              "pos": "v",
+              "meaning": "采摘；采收",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 17,
+              "word": "crops",
+              "lemma": "crop",
+              "pos": "n",
+              "meaning": "农作物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 20,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "hard",
+              "lemma": "hard",
+              "pos": "a",
+              "meaning": "负担重的；吃力的（be hard on）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 28,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "对……构成负担（hard on）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 34,
+              "word": "older",
+              "lemma": "old",
+              "pos": "a",
+              "meaning": "年龄较大的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 41,
+              "word": "bodies",
+              "lemma": "body",
+              "pos": "n",
+              "meaning": "身体",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 21,
               "b": 28,
-              "lemma": "hard on",
+              "lemma": "be hard on",
               "meaning": "给……造成很大负担",
-              "word": "hard on"
+              "word": "hard on",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -495,7 +1898,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "picking采收，hard on对年长身体负担大，非身体硬。",
+            "sentenceSHA256": "60898c460c2827438fbeb83ae2fc6def111e1aabfdcc41db27827b1789795357",
+            "words": 8,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P3-S8",
@@ -527,29 +1938,231 @@
           "translation": "针对这种劳动力短缺，一种常被讨论的解决办法仍然和过去一样不切实际：美国本土劳工不会重返农场。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "One",
+              "lemma": "one",
+              "pos": "num",
+              "meaning": "一；一个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 15,
+              "word": "oft-debated",
+              "lemma": "oft-debated",
+              "pos": "a",
+              "meaning": "经常被讨论的",
+              "reviewVersion": 2
+            },
+            {
               "a": 16,
               "b": 20,
-              "lemma": "cure",
-              "meaning": "解决办法",
               "word": "cure",
-              "pos": "n"
+              "lemma": "cure",
+              "pos": "n",
+              "meaning": "解决办法；补救办法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 24,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "解决……（劳动力短缺）的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 29,
+              "word": "this",
+              "lemma": "this",
+              "pos": "det",
+              "meaning": "这种（用工短缺）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 35,
+              "word": "labor",
+              "lemma": "labor",
+              "pos": "n",
+              "meaning": "劳动力；用工",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 44,
+              "word": "shortage",
+              "lemma": "shortage",
+              "pos": "n",
+              "meaning": "短缺",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 52,
+              "word": "remains",
+              "lemma": "remain",
+              "pos": "v",
+              "meaning": "仍然是；仍处于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 55,
+              "word": "as",
+              "lemma": "as",
+              "pos": "adv",
+              "meaning": "一样地（修饰implausible）",
+              "reviewVersion": 2
             },
             {
               "a": 56,
               "b": 67,
-              "lemma": "implausible",
-              "meaning": "不现实的；难以成立的",
               "word": "implausible",
-              "pos": "a"
+              "lemma": "implausible",
+              "pos": "a",
+              "meaning": "不切实际的；难以成立的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 70,
+              "word": "as",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "和……一样（引出比较）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 75,
+              "word": "it's",
+              "lemma": "it have",
+              "pos": "aux",
+              "meaning": "it has缩写，与been构成完成时；它一直",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 80,
+              "word": "been",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "一直是（不切实际的），完成时中的系动词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 84,
+              "word": "all",
+              "lemma": "all",
+              "pos": "adv",
+              "meaning": "从来（all along一直）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 90,
+              "word": "along",
+              "lemma": "along",
+              "pos": "adv",
+              "meaning": "一直（all along）；从来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 98,
+              "word": "Native",
+              "lemma": "native",
+              "pos": "a",
+              "meaning": "本土的；本国出生的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 103,
+              "word": "U.S.",
+              "lemma": "U.S.",
+              "pos": "name",
+              "meaning": "美国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 111,
+              "word": "workers",
+              "lemma": "worker",
+              "pos": "n",
+              "meaning": "工作者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 117,
+              "word": "won't",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "不会（will not缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 120,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与returning构成将来进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 130,
+              "word": "returning",
+              "lemma": "return",
+              "pos": "v",
+              "meaning": "返回；重返",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 133,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "返回到（农场）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 137,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 142,
+              "word": "farm",
+              "lemma": "farm",
+              "pos": "n",
+              "meaning": "农场",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
-              "a": 92,
-              "b": 111,
-              "lemma": "native u.s. workers",
-              "meaning": "美国本土劳动者",
-              "word": "Native U.S. workers"
+              "a": 81,
+              "b": 90,
+              "word": "all along",
+              "lemma": "all along",
+              "meaning": "一直；始终",
+              "reviewVersion": 2,
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -558,7 +2171,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "all along始终，it's为it has，方案一直不现实，won't be returning否定美国本土劳工返农。",
+            "sentenceSHA256": "c3634874104592129bbd2428af24f378b9d9a83c84e49e56cf8ba8a6814ed356",
+            "words": 24,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -592,20 +2213,110 @@
             {
               "a": 0,
               "b": 13,
-              "lemma": "mechanization",
-              "meaning": "机械化",
               "word": "Mechanization",
-              "pos": "n"
+              "lemma": "mechanization",
+              "pos": "n",
+              "meaning": "机械化",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 19,
+              "word": "isn't",
+              "lemma": "be not",
+              "pos": "v",
+              "meaning": "is not缩写：不是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 23,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 30,
+              "word": "answer",
+              "lemma": "answer",
+              "pos": "n",
+              "meaning": "解决办法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 38,
+              "word": "either",
+              "lemma": "either",
+              "pos": "adv",
+              "meaning": "也（用于否定句）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 44,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 48,
+              "word": "yet",
+              "lemma": "yet",
+              "pos": "adv",
+              "meaning": "还；到目前为止",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 52,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 58,
+              "word": "least",
+              "lemma": "least",
+              "pos": "adv",
+              "meaning": "至少（at least）",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 50,
+              "b": 58,
+              "word": "at least",
+              "lemma": "at least",
+              "meaning": "至少",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "either否定句的也，yet还没，将机械化不是方案限定为目前。",
+            "sentenceSHA256": "6ef16420c04e4225bf9ccfc36bafaf3d3a68049724dbc73990e89f0797865dab",
+            "words": 9,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P4-S2",
@@ -649,12 +2360,202 @@
           "translation": "玉米、棉花、水稻、大豆和小麦的生产已经大体实现机械化，但许多高价值、劳动密集型的作物，例如草莓，仍然需要人工。",
           "words": [
             {
+              "a": 0,
+              "b": 10,
+              "word": "Production",
+              "lemma": "production",
+              "pos": "n",
+              "meaning": "生产",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 13,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 18,
+              "word": "corn",
+              "lemma": "corn",
+              "pos": "n",
+              "meaning": "玉米",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 26,
+              "word": "cotton",
+              "lemma": "cotton",
+              "pos": "n",
+              "meaning": "棉花",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 32,
+              "word": "rice",
+              "lemma": "rice",
+              "pos": "n",
+              "meaning": "水稻",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 42,
+              "word": "soybeans",
+              "lemma": "soybean",
+              "pos": "n",
+              "meaning": "大豆",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 47,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 53,
+              "word": "wheat",
+              "lemma": "wheat",
+              "pos": "n",
+              "meaning": "小麦",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 57,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成完成时，不单独译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 62,
+              "word": "been",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与mechanized构成完成被动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 70,
+              "word": "largely",
+              "lemma": "largely",
+              "pos": "adv",
+              "meaning": "在很大程度上",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 81,
+              "word": "mechanized",
+              "lemma": "mechanize",
+              "pos": "v",
+              "meaning": "使机械化；实现机械化",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 86,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 91,
+              "word": "many",
+              "lemma": "many",
+              "pos": "det",
+              "meaning": "许多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 102,
+              "word": "high-value",
+              "lemma": "high-value",
+              "pos": "a",
+              "meaning": "高价值的",
+              "reviewVersion": 2
+            },
+            {
               "a": 104,
               "b": 119,
-              "lemma": "labor-intensive",
-              "meaning": "劳动密集型的；需要大量人工的",
               "word": "labor-intensive",
-              "pos": "a"
+              "lemma": "labor-intensive",
+              "pos": "a",
+              "meaning": "劳动密集型的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 125,
+              "word": "crops",
+              "lemma": "crop",
+              "pos": "n",
+              "meaning": "农作物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 131,
+              "word": "such",
+              "lemma": "such",
+              "pos": "det",
+              "meaning": "这样的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 134,
+              "word": "as",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "例如（such as）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 147,
+              "word": "strawberries",
+              "lemma": "strawberry",
+              "pos": "n",
+              "meaning": "草莓",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 153,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 154,
+              "b": 159,
+              "word": "labor",
+              "lemma": "labor",
+              "pos": "n",
+              "meaning": "劳动力；用工",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -664,7 +2565,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "五种大宗作物已机械化对照劳动密集高价值草莓仍需人工，both类别不混。",
+            "sentenceSHA256": "0fbee4b1c3e8ca87aced75df99f06cd07d4201e8a98edf0336116e4829835a7e",
+            "words": 22,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P4-S3",
@@ -696,29 +2605,203 @@
           "translation": "即使在已用机器人承担少量挤奶工作的奶牛场，距离实现自动化也仍有很长的路要走。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Even",
+              "lemma": "even",
+              "pos": "adv",
+              "meaning": "甚至",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 10,
+              "word": "dairy",
+              "lemma": "dairy",
+              "pos": "n",
+              "meaning": "乳制品（dairy farms奶牛场）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 16,
+              "word": "farms",
+              "lemma": "farm",
+              "pos": "n",
+              "meaning": "农场（dairy farms奶牛场）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 23,
+              "word": "where",
+              "lemma": "where",
+              "pos": "adv",
+              "meaning": "在……的地方",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 30,
+              "word": "robots",
+              "lemma": "robot",
+              "pos": "n",
+              "meaning": "机器人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 33,
+              "word": "do",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "承担；完成（挤奶工作）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 35,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 41,
+              "word": "small",
+              "lemma": "small",
+              "pos": "a",
+              "meaning": "小的；少量的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 47,
+              "word": "share",
+              "lemma": "share",
+              "pos": "n",
+              "meaning": "份额；部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 50,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
               "a": 51,
               "b": 58,
-              "lemma": "milk",
-              "meaning": "挤奶；乳汁采集",
               "word": "milking",
-              "pos": "n"
+              "lemma": "milking",
+              "pos": "n",
+              "meaning": "挤奶",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 64,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "有（尚待走的路）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 66,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 71,
+              "word": "long",
+              "lemma": "long",
+              "pos": "a",
+              "meaning": "长的；很长的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 75,
+              "word": "way",
+              "lemma": "way",
+              "pos": "n",
+              "meaning": "路；尚需经历的过程",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 78,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 81,
+              "word": "go",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "走；完成（have a long way to go尚有很长的路要走）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 88,
+              "word": "before",
+              "lemma": "before",
+              "pos": "conj",
+              "meaning": "在……之前（距离实现自动化尚需）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 96,
+              "word": "they're",
+              "lemma": "they be",
+              "pos": "aux",
+              "meaning": "they are缩写，与automated构成被动语态；它们实现自动化",
+              "reviewVersion": 2
             },
             {
               "a": 97,
               "b": 106,
-              "lemma": "automate",
-              "meaning": "实现自动化的",
               "word": "automated",
-              "pos": "v"
+              "lemma": "automate",
+              "pos": "v",
+              "meaning": "使自动化；实现自动化",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 5,
               "b": 16,
-              "lemma": "dairy farms",
+              "lemma": "dairy farm",
               "meaning": "奶牛场",
-              "word": "dairy farms"
+              "word": "dairy farms",
+              "kind": "phrase"
+            },
+            {
+              "a": 60,
+              "b": 81,
+              "word": "have a long way to go",
+              "lemma": "have a long way to go",
+              "meaning": "尚有很长的路要走；仍需努力",
+              "reviewVersion": 2,
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -727,7 +2810,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "机器人只做少量挤奶，have lexical有，before与被动自动化标示仍有很长路。",
+            "sentenceSHA256": "eca7e1035d440cb57e978cb8707487f169629ad94510a557b74d26d036b81255",
+            "words": 20,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -769,14 +2860,232 @@
           ],
           "reorder": "先译因果承接，再把 using 的签证条件前置修饰外来劳工，to fill 是依赖他们的目的。",
           "translation": "因此，农场越来越依赖持H-2A签证的临时外来劳工，来填补劳动力缺口。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "As",
+              "lemma": "as",
+              "pos": "prep",
+              "meaning": "与a result组成因此",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 4,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 11,
+              "word": "result",
+              "lemma": "result",
+              "pos": "n",
+              "meaning": "结果（as a result因此）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 18,
+              "word": "farms",
+              "lemma": "farm",
+              "pos": "n",
+              "meaning": "农场",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 23,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成完成时，不单独译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 29,
+              "word": "grown",
+              "lemma": "grow",
+              "pos": "v",
+              "meaning": "逐渐变得",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 42,
+              "word": "increasingly",
+              "lemma": "increasingly",
+              "pos": "adv",
+              "meaning": "越来越",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 50,
+              "word": "reliant",
+              "lemma": "reliant",
+              "pos": "a",
+              "meaning": "依赖的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 53,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "依赖于（reliant on）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 63,
+              "word": "temporary",
+              "lemma": "temporary",
+              "pos": "a",
+              "meaning": "临时的；暂时的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 69,
+              "word": "guest",
+              "lemma": "guest",
+              "pos": "n",
+              "meaning": "外来劳工（guest worker客籍劳工）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 77,
+              "word": "workers",
+              "lemma": "worker",
+              "pos": "n",
+              "meaning": "工作者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 83,
+              "word": "using",
+              "lemma": "use",
+              "pos": "v",
+              "meaning": "使用；持有（签证）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 87,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 92,
+              "word": "H-2A",
+              "lemma": "H-2A",
+              "pos": "name",
+              "meaning": "H-2A（美国临时农业劳工签证类别）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 97,
+              "word": "visa",
+              "lemma": "visa",
+              "pos": "n",
+              "meaning": "签证",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 100,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 105,
+              "word": "fill",
+              "lemma": "fill",
+              "pos": "v",
+              "meaning": "填补",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 109,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 114,
+              "word": "gaps",
+              "lemma": "gap",
+              "pos": "n",
+              "meaning": "缺口",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 117,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 121,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 131,
+              "word": "workforce",
+              "lemma": "workforce",
+              "pos": "n",
+              "meaning": "劳动力；从业人员",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
+            {
+              "a": 0,
+              "b": 11,
+              "word": "As a result",
+              "lemma": "as a result",
+              "meaning": "因此",
+              "reviewVersion": 2,
+              "kind": "phrase"
+            },
             {
               "a": 64,
               "b": 77,
-              "lemma": "guest workers",
+              "lemma": "guest worker",
               "meaning": "按工作许可临时入境的外国劳动者",
-              "word": "guest workers"
+              "word": "guest workers",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -785,7 +3094,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "therefore因果，grown变得，H-2A临时农业客籍劳工填缺口。",
+            "sentenceSHA256": "928fe18648de922d56895a39160e188209e39d0db09bc3466ffc4a5314d31a3f",
+            "words": 23,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P5-S2",
@@ -823,12 +3140,166 @@
           "translation": "大约从二〇一二年起，这类签证的申请量急剧增加；从二〇一一年到二〇一六年，签发数量增加了一倍多。",
           "words": [
             {
+              "a": 0,
+              "b": 8,
+              "word": "Starting",
+              "lemma": "start",
+              "pos": "v",
+              "meaning": "开始；起始",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 15,
+              "word": "around",
+              "lemma": "around",
+              "pos": "adv",
+              "meaning": "大约",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 30,
+              "word": "requests",
+              "lemma": "request",
+              "pos": "n",
+              "meaning": "申请；请求",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 34,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对……的申请（requests for）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 38,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 44,
+              "word": "visas",
+              "lemma": "visa",
+              "pos": "n",
+              "meaning": "签证",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 49,
+              "word": "rose",
+              "lemma": "rise",
+              "pos": "v",
+              "meaning": "增加；上升",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 57,
+              "word": "sharply",
+              "lemma": "sharply",
+              "pos": "adv",
+              "meaning": "急剧地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 63,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 71,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "到（时间范围终点）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 80,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 87,
+              "word": "number",
+              "lemma": "number",
+              "pos": "n",
+              "meaning": "人数；数量",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 90,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 96,
+              "word": "visas",
+              "lemma": "visa",
+              "pos": "n",
+              "meaning": "签证",
+              "reviewVersion": 2
+            },
+            {
               "a": 97,
               "b": 103,
               "word": "issued",
               "lemma": "issue",
-              "meaning": "签发（签证）",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "签发；发放",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 108,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "超过（more than doubled增至两倍多）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 113,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 121,
+              "word": "doubled",
+              "lemma": "double",
+              "pos": "v",
+              "meaning": "增加一倍；翻番",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -838,7 +3309,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "2012起申请上升与2011到2016签发增至两倍多分清，不把翻一倍写成翻两倍。",
+            "sentenceSHA256": "ade660b0e8f15a3dff31c6c5170a69183be2f43513aa8e47e1c6e076d191aed8",
+            "words": 18,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P5-S3",
@@ -868,23 +3347,204 @@
           ],
           "reorder": "先译无上限的一类，再译对照签证及其限额；which 指H-2B签证。",
           "translation": "H-2A签证没有数量上限，而非农业工作使用的H-2B签证每年限额为六万六千份。",
-          "words": [],
-          "phrases": [
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "H-2A",
+              "lemma": "H-2A",
+              "pos": "name",
+              "meaning": "H-2A（美国临时农业劳工签证类别）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 13,
+              "word": "visa",
+              "lemma": "visa",
+              "pos": "n",
+              "meaning": "签证",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 17,
+              "word": "has",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "有；具有（无数量上限）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 20,
+              "word": "no",
+              "lemma": "no",
+              "pos": "det",
+              "meaning": "没有",
+              "reviewVersion": 2
+            },
             {
               "a": 21,
+              "b": 30,
+              "word": "numerical",
+              "lemma": "numerical",
+              "pos": "a",
+              "meaning": "数量上的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
               "b": 34,
-              "lemma": "numerical cap",
-              "meaning": "数量上限",
-              "word": "numerical cap"
+              "word": "cap",
+              "lemma": "cap",
+              "pos": "n",
+              "meaning": "上限；限额",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 42,
+              "word": "unlike",
+              "lemma": "unlike",
+              "pos": "prep",
+              "meaning": "不同于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 46,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 51,
+              "word": "H-2B",
+              "lemma": "H-2B",
+              "pos": "name",
+              "meaning": "H-2B（美国临时非农业劳工签证类别）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 56,
+              "word": "visa",
+              "lemma": "visa",
+              "pos": "n",
+              "meaning": "签证",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 60,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "为了；针对",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 76,
+              "word": "nonagricultural",
+              "lemma": "nonagricultural",
+              "pos": "a",
+              "meaning": "非农业的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 81,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 88,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "关系代词，指H-2B签证",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 91,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与limited构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 99,
+              "word": "limited",
+              "lemma": "limit",
+              "pos": "v",
+              "meaning": "限制；限定",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 102,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "限为（数量）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 111,
+              "word": "a",
+              "lemma": "a",
+              "pos": "det",
+              "meaning": "每（一年）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 116,
+              "word": "year",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "H-2A无上限对照H-2B非农业每年66000，a每，which指后者。",
+            "sentenceSHA256": "e731a7256c3e4c0d2ef72dabaf06c4b93ebba8b416c6703258a0c400aa291041",
+            "words": 20,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P5-S4",
@@ -914,15 +3574,142 @@
           ],
           "reorder": "先译让步，再将 aren't given all 译为未能满足全部用工需求，而不是一个劳工都没有。",
           "translation": "即便如此，雇主仍抱怨无法获得足够数量的所需劳工。",
-          "words": [],
-          "phrases": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "Even",
+              "lemma": "even",
+              "pos": "adv",
+              "meaning": "与so组成即便如此",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 7,
+              "word": "so",
+              "lemma": "so",
+              "pos": "adv",
+              "meaning": "如此",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 18,
+              "word": "employers",
+              "lemma": "employer",
+              "pos": "n",
+              "meaning": "雇主",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 27,
+              "word": "complain",
+              "lemma": "complain",
+              "pos": "v",
+              "meaning": "抱怨",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 32,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 39,
+              "word": "aren't",
+              "lemma": "be not",
+              "pos": "aux",
+              "meaning": "are not缩写，与given构成被动否定：未能得到全部",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 45,
+              "word": "given",
+              "lemma": "give",
+              "pos": "v",
+              "meaning": "给予；提供",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 49,
+              "word": "all",
+              "lemma": "all",
+              "pos": "det",
+              "meaning": "所有的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 53,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 61,
+              "word": "workers",
+              "lemma": "worker",
+              "pos": "n",
+              "meaning": "工作者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 66,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 71,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            }
+          ],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 7,
+              "word": "Even so",
+              "lemma": "even so",
+              "meaning": "即便如此",
+              "reviewVersion": 2,
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "aren't given all为未得到全部所需，并非一个劳工都没有，even so让步。",
+            "sentenceSHA256": "13590dda9f0123e6dd0935c9554eac7a60cee7f5a35b2ee21d042aa1d1740ad3",
+            "words": 12,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P5-S5",
@@ -942,12 +3729,67 @@
           "translation": "这一办理过程繁琐、昂贵，而且不可靠。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 11,
+              "word": "process",
+              "lemma": "process",
+              "pos": "n",
+              "meaning": "办理过程；流程",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 14,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
               "a": 15,
               "b": 25,
-              "lemma": "cumbersome",
-              "meaning": "繁琐不便的",
               "word": "cumbersome",
-              "pos": "a"
+              "lemma": "cumbersome",
+              "pos": "a",
+              "meaning": "繁琐的；复杂费事的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 36,
+              "word": "expensive",
+              "lemma": "expensive",
+              "pos": "a",
+              "meaning": "昂贵的；成本高的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 41,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 52,
+              "word": "unreliable",
+              "lemma": "unreliable",
+              "pos": "a",
+              "meaning": "不可靠的",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -957,7 +3799,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "process承签证办理流程，三项负面评价逐一保留。",
+            "sentenceSHA256": "da3a99a0cde53702370ee925143440e9cb00d7db13dbfb136001c23a44e380ce",
+            "words": 7,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P5-S6",
@@ -995,12 +3845,166 @@
           "translation": "一项调查发现，行政程序拖延导致H-2A劳工平均推迟二十二天到岗。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "One",
+              "lemma": "one",
+              "pos": "num",
+              "meaning": "一；一个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 10,
+              "word": "survey",
+              "lemma": "survey",
+              "pos": "n",
+              "meaning": "调查",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 16,
+              "word": "found",
+              "lemma": "find",
+              "pos": "v",
+              "meaning": "发现",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 21,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出后面的内容；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 22,
               "b": 34,
-              "lemma": "bureaucratic",
-              "meaning": "行政官僚程序造成的",
               "word": "bureaucratic",
-              "pos": "a"
+              "lemma": "bureaucratic",
+              "pos": "a",
+              "meaning": "官僚行政程序的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 41,
+              "word": "delays",
+              "lemma": "delay",
+              "pos": "n",
+              "meaning": "拖延；延误",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 45,
+              "word": "led",
+              "lemma": "lead",
+              "pos": "v",
+              "meaning": "导致；致使",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 49,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 57,
+              "word": "average",
+              "lemma": "average",
+              "pos": "a",
+              "meaning": "平均而言的；平均的（劳工）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 62,
+              "word": "H-2A",
+              "lemma": "H-2A",
+              "pos": "name",
+              "meaning": "H-2A（美国临时农业劳工签证类别）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 69,
+              "word": "worker",
+              "lemma": "worker",
+              "pos": "n",
+              "meaning": "工人；劳工",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 72,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 79,
+              "word": "arrive",
+              "lemma": "arrive",
+              "pos": "v",
+              "meaning": "到达；到岗",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 82,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "到岗（on the job）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 86,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 90,
+              "word": "job",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "工作；岗位",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 98,
+              "word": "days",
+              "lemma": "day",
+              "pos": "n",
+              "meaning": "天（22天）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 103,
+              "word": "late",
+              "lemma": "late",
+              "pos": "adv",
+              "meaning": "迟；晚",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1010,7 +4014,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "平均劳工延迟22天到岗，不是22个工作日，也不是平均工人数。",
+            "sentenceSHA256": "09fc8a8edd0175d5bf2be3d6847c173fbc8867353f9a3e8f1cbc3c98f0a2c9cf",
+            "words": 18,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P5-S7",
@@ -1042,46 +4054,167 @@
           "translation": "联邦移民突袭执法行动加剧了劳动力短缺：这些行动遣走了一些劳工，又迫使其他劳工转入隐蔽状态。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 12,
+              "word": "shortage",
+              "lemma": "shortage",
+              "pos": "n",
+              "meaning": "短缺",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 15,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与compounded构成被动语态",
+              "reviewVersion": 2
+            },
+            {
               "a": 16,
               "b": 26,
-              "lemma": "compound",
-              "meaning": "使更加严重；加剧",
               "word": "compounded",
-              "pos": "v"
+              "lemma": "compound",
+              "pos": "v",
+              "meaning": "加剧；使恶化",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 29,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "由；被（引出施动者）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 37,
+              "word": "federal",
+              "lemma": "federal",
+              "pos": "a",
+              "meaning": "联邦政府的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 49,
+              "word": "immigration",
+              "lemma": "immigration",
+              "pos": "n",
+              "meaning": "移民；移民事务",
+              "reviewVersion": 2
             },
             {
               "a": 50,
               "b": 55,
-              "lemma": "raid",
-              "meaning": "突袭执法行动",
               "word": "raids",
-              "pos": "n"
+              "lemma": "raid",
+              "pos": "n",
+              "meaning": "突袭执法行动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 62,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "关系代词，指代前述事物",
+              "reviewVersion": 2
             },
             {
               "a": 63,
               "b": 69,
-              "lemma": "remove",
-              "meaning": "遣走；驱离",
               "word": "remove",
-              "pos": "v"
-            }
-          ],
-          "phrases": [
+              "lemma": "remove",
+              "pos": "v",
+              "meaning": "遣走；移走",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 74,
+              "word": "some",
+              "lemma": "some",
+              "pos": "det",
+              "meaning": "一些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 82,
+              "word": "workers",
+              "lemma": "worker",
+              "pos": "n",
+              "meaning": "工作者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 86,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
             {
               "a": 87,
+              "b": 92,
+              "word": "drive",
+              "lemma": "drive",
+              "pos": "v",
+              "meaning": "迫使；逼得（进入隐蔽状态）",
+              "reviewVersion": 2,
+              "explanation": "搭配结构：drive ... underground＝迫使……转入地下或隐蔽状态"
+            },
+            {
+              "a": 93,
+              "b": 99,
+              "word": "others",
+              "lemma": "others",
+              "pos": "pron",
+              "meaning": "其他人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
               "b": 111,
-              "lemma": "drive others underground",
-              "meaning": "迫使其他人转入隐蔽状态",
-              "word": "drive others underground"
+              "word": "underground",
+              "lemma": "underground",
+              "pos": "adv",
+              "meaning": "转入隐蔽状态；躲藏起来",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "compounded被加剧，raids突袭执法使一部分遣走另一部分躲藏，underground不是地下室。",
+            "sentenceSHA256": "30c5b41e859adb4531b331486f5efc9eac468e005465d4e9782c0d0b96d4ef5e",
+            "words": 16,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -1125,38 +4258,221 @@
           "translation": "在二〇一二年的一项调查中，百分之七十一的果树种植者，以及近百分之八十的制干葡萄和浆果种植者，表示缺少劳工。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 4,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 16,
+              "word": "survey",
+              "lemma": "survey",
+              "pos": "n",
+              "meaning": "调查",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 28,
+              "word": "percent",
+              "lemma": "percent",
+              "pos": "n",
+              "meaning": "百分之……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 31,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 42,
+              "word": "tree-fruit",
+              "lemma": "tree-fruit",
+              "pos": "n",
+              "meaning": "树生水果（此处修饰果树种植者）",
+              "reviewVersion": 2
+            },
+            {
               "a": 43,
               "b": 50,
-              "lemma": "grower",
-              "meaning": "种植者；农业生产者",
               "word": "growers",
-              "pos": "n"
+              "lemma": "grower",
+              "pos": "n",
+              "meaning": "种植者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 54,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 61,
+              "word": "almost",
+              "lemma": "almost",
+              "pos": "adv",
+              "meaning": "几乎",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 72,
+              "word": "percent",
+              "lemma": "percent",
+              "pos": "n",
+              "meaning": "百分之……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 75,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
             },
             {
               "a": 76,
               "b": 82,
-              "lemma": "raisin",
-              "meaning": "葡萄干（此处指用于制葡萄干的葡萄）",
               "word": "raisin",
-              "pos": "n"
+              "lemma": "raisin",
+              "pos": "n",
+              "meaning": "葡萄干（raisin growers为制干葡萄种植者）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 86,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 92,
+              "word": "berry",
+              "lemma": "berry",
+              "pos": "n",
+              "meaning": "浆果",
+              "reviewVersion": 2
             },
             {
               "a": 93,
               "b": 100,
-              "lemma": "grower",
-              "meaning": "种植者；农业生产者",
               "word": "growers",
-              "pos": "n"
+              "lemma": "grower",
+              "pos": "n",
+              "meaning": "种植者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 105,
+              "word": "said",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；指出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 110,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 115,
+              "word": "were",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态（过去）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 121,
+              "word": "short",
+              "lemma": "short",
+              "pos": "a",
+              "meaning": "短缺的；缺少的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 124,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "缺乏（short of）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 130,
+              "word": "labor",
+              "lemma": "labor",
+              "pos": "n",
+              "meaning": "劳动力；用工",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 116,
+              "b": 124,
+              "word": "short of",
+              "lemma": "short of",
+              "meaning": "缺少",
+              "reviewVersion": 2,
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "2012样本两组71%与近80%分别果树及制干葡萄和浆果，short of缺少。",
+            "sentenceSHA256": "97981eab7124bbd5ec9ee6beef92a0376a4bb3b8d4d20b1cad014fbfdfc30d01",
+            "words": 21,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P6-S2",
@@ -1182,12 +4498,94 @@
           "translation": "一些美国西部农场主的应对方式，是把生产经营活动转移到墨西哥。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Some",
+              "lemma": "some",
+              "pos": "det",
+              "meaning": "一些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 12,
+              "word": "western",
+              "lemma": "western",
+              "pos": "a",
+              "meaning": "西部的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 20,
+              "word": "farmers",
+              "lemma": "farmer",
+              "pos": "n",
+              "meaning": "农场主",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成完成时，不单独译为“有”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 35,
+              "word": "responded",
+              "lemma": "respond",
+              "pos": "v",
+              "meaning": "作出应对",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 38,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "通过（迁移经营活动）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 45,
+              "word": "moving",
+              "lemma": "move",
+              "pos": "v",
+              "meaning": "迁移；转移",
+              "reviewVersion": 2
+            },
+            {
               "a": 46,
               "b": 56,
-              "lemma": "operation",
-              "meaning": "生产经营活动",
               "word": "operations",
-              "pos": "n"
+              "lemma": "operation",
+              "pos": "n",
+              "meaning": "经营活动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 59,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "到（墨西哥）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 66,
+              "word": "Mexico",
+              "lemma": "Mexico",
+              "pos": "name",
+              "meaning": "墨西哥",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1197,7 +4595,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "by方式为将经营移到墨西哥，moving非笼统前进，operations非手术。",
+            "sentenceSHA256": "96679a65df2abe2ce741170a65f206fa62567ee9040a6a86bac02cc80ff7c4c6",
+            "words": 10,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P6-S3",
@@ -1227,7 +4633,98 @@
           ],
           "reorder": "先译时间，再将省略关系词的 Americans consumed 前置限定水果。",
           "translation": "一九九八年至二〇〇〇年间，美国人消费的水果中，有百分之十四点五来自进口。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "From",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 12,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "到（时间范围终点）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 31,
+              "word": "percent",
+              "lemma": "percent",
+              "pos": "n",
+              "meaning": "百分之……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 34,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 38,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 44,
+              "word": "fruit",
+              "lemma": "fruit",
+              "pos": "n",
+              "meaning": "水果",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 54,
+              "word": "Americans",
+              "lemma": "American",
+              "pos": "n",
+              "meaning": "美国人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 63,
+              "word": "consumed",
+              "lemma": "consume",
+              "pos": "v",
+              "meaning": "消费；食用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 67,
+              "word": "was",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与imported构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 76,
+              "word": "imported",
+              "lemma": "import",
+              "pos": "v",
+              "meaning": "进口",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -1235,7 +4732,15 @@
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "1998到2000消费水果进口比14.5%，consumed消费而非火烧，被动进口。",
+            "sentenceSHA256": "eddaa3caffb2a67fa8a3ad8061df117241110a19fd997f57eb5ef086640cd691",
+            "words": 10,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2019-T3-P6-S4",
@@ -1261,22 +4766,140 @@
           "translation": "仅仅十多年后，进口水果所占比例就已达到百分之二十五点八。",
           "words": [
             {
+              "a": 0,
+              "b": 6,
+              "word": "Little",
+              "lemma": "little",
+              "pos": "adv",
+              "meaning": "仅仅；只（little more than略多于）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 11,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更；更多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 16,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 18,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 25,
+              "word": "decade",
+              "lemma": "decade",
+              "pos": "n",
+              "meaning": "十年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 31,
+              "word": "later",
+              "lemma": "later",
+              "pos": "adv",
+              "meaning": "之后；后来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 36,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 37,
               "b": 42,
-              "lemma": "share",
-              "meaning": "所占比例",
               "word": "share",
-              "pos": "n"
+              "lemma": "share",
+              "pos": "n",
+              "meaning": "份额；部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 45,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 53,
+              "word": "imports",
+              "lemma": "import",
+              "pos": "n",
+              "meaning": "进口水果；进口品",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 57,
+              "word": "was",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态（过去）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 70,
+              "word": "percent",
+              "lemma": "percent",
+              "pos": "n",
+              "meaning": "百分之……",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 16,
+              "word": "Little more than",
+              "lemma": "little more than",
+              "meaning": "仅仅比……多一点；不过",
+              "reviewVersion": 2,
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "仅十多年后进口占比25.8%，little more than略多于而非更少。",
+            "sentenceSHA256": "86b6d601ba23f7aeba93227e33cf8b1a33a2f5bc8d5cbdaddc0f8c9bad90e765",
+            "words": 12,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -1312,17 +4935,195 @@
           ],
           "reorder": "把 or 两种路径译为要么……要么……；who 的工作内容前置限定劳工。",
           "translation": "实际上，美国要么进口食物，要么引进采收这些食物的劳工。",
-          "words": [],
-          "phrases": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 9,
+              "word": "effect",
+              "lemma": "effect",
+              "pos": "n",
+              "meaning": "与in组成实际上",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 14,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 19,
+              "word": "U.S.",
+              "lemma": "U.S.",
+              "pos": "name",
+              "meaning": "美国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 23,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能；能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 30,
+              "word": "import",
+              "lemma": "import",
+              "pos": "v",
+              "meaning": "进口；引进",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 35,
+              "word": "food",
+              "lemma": "food",
+              "pos": "n",
+              "meaning": "食物；食品",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 38,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 41,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "美国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 45,
+              "word": "can",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "能；能够",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 52,
+              "word": "import",
+              "lemma": "import",
+              "pos": "v",
+              "meaning": "进口；引进",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 56,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 64,
+              "word": "workers",
+              "lemma": "worker",
+              "pos": "n",
+              "meaning": "工作者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 68,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指代前述的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 73,
+              "word": "pick",
+              "lemma": "pick",
+              "pos": "v",
+              "meaning": "采摘；采收",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 76,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "所消费的食物",
+              "reviewVersion": 2
+            }
+          ],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 9,
+              "word": "In effect",
+              "lemma": "in effect",
+              "meaning": "实际上",
+              "reviewVersion": 2,
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
             "分块覆盖与语序",
             "否定比较与指代",
             "本文词义与搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "两个it分别美国与食物，进口食品或引入采收劳工两条选择准确对应。",
+            "sentenceSHA256": "f2b5b09a197aa8adf2b4f5f755e0cdb94e9e9707d8ff964c5376e6ec84323e95",
+            "words": 16,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "cf58eab0ca39db4c4d2fd8e713d2c7c77b80c6e1efae5609e7dce5e4c1eea631",
+    "sentences": 27,
+    "wordOccurrences": 408,
+    "notes": [
+      "全篇核定无证劳工人口变化、机械化限制与两类签证，申请/签发和翻倍量严格区分；修正farm饲养、picking增强、consumed烧毁等跨文错义。"
+    ]
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

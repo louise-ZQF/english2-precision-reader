@@ -1,0 +1,102 @@
+[
+  {
+    "id": "2020-T1",
+    "sentences": 18,
+    "wordOccurrences": 416
+  },
+  {
+    "id": "2020-T2",
+    "sentences": 19,
+    "wordOccurrences": 396
+  },
+  {
+    "id": "2020-T3",
+    "sentences": 20,
+    "wordOccurrences": 396
+  },
+  {
+    "id": "2020-T4",
+    "sentences": 18,
+    "wordOccurrences": 413
+  },
+  {
+    "id": "2021-T1",
+    "sentences": 19,
+    "wordOccurrences": 414
+  },
+  {
+    "id": "2021-T2",
+    "sentences": 16,
+    "wordOccurrences": 379
+  },
+  {
+    "id": "2021-T3",
+    "sentences": 16,
+    "wordOccurrences": 400
+  },
+  {
+    "id": "2021-T4",
+    "sentences": 21,
+    "wordOccurrences": 412
+  },
+  {
+    "id": "2022-T1",
+    "sentences": 19,
+    "wordOccurrences": 389
+  },
+  {
+    "id": "2022-T2",
+    "sentences": 20,
+    "wordOccurrences": 379
+  },
+  {
+    "id": "2022-T3",
+    "sentences": 17,
+    "wordOccurrences": 395
+  },
+  {
+    "id": "2022-T4",
+    "sentences": 18,
+    "wordOccurrences": 396
+  },
+  {
+    "id": "2023-T1",
+    "sentences": 16,
+    "wordOccurrences": 391
+  },
+  {
+    "id": "2023-T2",
+    "sentences": 18,
+    "wordOccurrences": 419
+  },
+  {
+    "id": "2023-T3",
+    "sentences": 20,
+    "wordOccurrences": 394
+  },
+  {
+    "id": "2023-T4",
+    "sentences": 24,
+    "wordOccurrences": 411
+  },
+  {
+    "id": "2024-T1",
+    "sentences": 17,
+    "wordOccurrences": 396
+  },
+  {
+    "id": "2024-T2",
+    "sentences": 14,
+    "wordOccurrences": 392
+  },
+  {
+    "id": "2024-T3",
+    "sentences": 17,
+    "wordOccurrences": 386
+  },
+  {
+    "id": "2024-T4",
+    "sentences": 16,
+    "wordOccurrences": 414
+  }
+]

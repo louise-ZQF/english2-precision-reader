@@ -53,14 +53,331 @@
           ],
           "reorder": "把破折号中的定义作为补充说明移到主句后。",
           "translation": "随着Z世代成员今年春天即将大学毕业，近几周人们对他们的关注持续增加；按最普遍的定义，Z世代是指大约1995年之后出生的人，界限前后可差一年左右。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "Now",
+              "lemma": "now",
+              "pos": "adv",
+              "meaning": "现在；如今",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "与now构成既然；随着这一事实",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 16,
+              "word": "members",
+              "lemma": "member",
+              "pos": "n",
+              "meaning": "成员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 19,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 30,
+              "word": "Generation",
+              "lemma": "generation",
+              "pos": "n",
+              "meaning": "一代人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 32,
+              "word": "Z",
+              "lemma": "Z",
+              "pos": "name",
+              "meaning": "Z（Z世代名称的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 36,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成正在进行的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 47,
+              "word": "graduating",
+              "lemma": "graduate",
+              "pos": "v",
+              "meaning": "毕业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 55,
+              "word": "college",
+              "lemma": "college",
+              "pos": "n",
+              "meaning": "大学",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 60,
+              "word": "this",
+              "lemma": "this",
+              "pos": "a",
+              "meaning": "这个；本次",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 67,
+              "word": "spring",
+              "lemma": "spring",
+              "pos": "n",
+              "meaning": "春季",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 71,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 76,
+              "word": "most",
+              "lemma": "much",
+              "pos": "adv",
+              "meaning": "最",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 94,
+              "word": "commonly-accepted",
+              "lemma": "commonly-accepted",
+              "pos": "a",
+              "meaning": "普遍接受的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 105,
+              "word": "definition",
+              "lemma": "definition",
+              "pos": "n",
+              "meaning": "定义",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 110,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说明；表述",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 115,
+              "word": "this",
+              "lemma": "this",
+              "pos": "a",
+              "meaning": "这个；本次",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 126,
+              "word": "generation",
+              "lemma": "generation",
+              "pos": "n",
+              "meaning": "一代人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 130,
+              "word": "was",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与born构成出生的表达",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 135,
+              "word": "born",
+              "lemma": "bear",
+              "pos": "v",
+              "meaning": "出生（be born）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 141,
+              "word": "after",
+              "lemma": "after",
+              "pos": "prep",
+              "meaning": "在……之后",
+              "reviewVersion": 2
+            },
+            {
+              "a": 148,
+              "b": 152,
+              "word": "give",
+              "lemma": "give",
+              "pos": "v",
+              "meaning": "give or take中的固定用法，表示上下相差",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 155,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "与give、take合成上下相差的习语",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 160,
+              "word": "take",
+              "lemma": "take",
+              "pos": "v",
+              "meaning": "give or take的一部分，表示上下相差",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 162,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 163,
+              "b": 167,
+              "word": "year",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 168,
+              "b": 171,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 172,
+              "b": 181,
+              "word": "attention",
+              "lemma": "attention",
+              "pos": "n",
+              "meaning": "关注",
+              "reviewVersion": 2
+            },
+            {
+              "a": 182,
+              "b": 185,
+              "word": "has",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成现在完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 186,
+              "b": 190,
+              "word": "been",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成完成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 191,
+              "b": 197,
+              "word": "rising",
+              "lemma": "rise",
+              "pos": "v",
+              "meaning": "增加",
+              "reviewVersion": 2
+            },
+            {
+              "a": 198,
+              "b": 206,
+              "word": "steadily",
+              "lemma": "steadily",
+              "pos": "adv",
+              "meaning": "持续稳定地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 207,
+              "b": 209,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……期间或范围内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 210,
+              "b": 216,
+              "word": "recent",
+              "lemma": "recent",
+              "pos": "a",
+              "meaning": "最近的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 217,
+              "b": 222,
+              "word": "weeks",
+              "lemma": "week",
+              "pos": "n",
+              "meaning": "周",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 148,
               "b": 160,
               "lemma": "give or take",
               "meaning": "上下相差；大约前后浮动",
-              "word": "give or take"
+              "word": "give or take",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -69,7 +386,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "Now that为背景事实，1995年前后一年的浮动为定义补充，不是整段关注延续一年。",
+            "sentenceSHA256": "da24de7a8fe7a03572d789054c0f792c7a8f77772a1ac5423be392af3bee2207",
+            "words": 35,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2020-T4-P1-S2",
@@ -95,28 +420,228 @@
           "translation": "Z世代即将走出校门找工作，而劳动力市场正处于几十年来最紧缺人手的时期。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "Gen",
+              "lemma": "generation",
+              "pos": "n",
+              "meaning": "一代人（generation的缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 6,
+              "word": "Zs",
+              "lemma": "Z",
+              "pos": "name",
+              "meaning": "Z世代成员（Z的复数指人）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 10,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成正在进行的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 16,
+              "word": "about",
+              "lemma": "about",
+              "pos": "a",
+              "meaning": "即将（be about to搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 19,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 23,
+              "word": "hit",
+              "lemma": "hit",
+              "pos": "v",
+              "meaning": "走上；进入（hit the streets）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 27,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 35,
+              "word": "streets",
+              "lemma": "street",
+              "pos": "n",
+              "meaning": "街道（外出求职的比喻）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 43,
+              "word": "looking",
+              "lemma": "look",
+              "pos": "v",
+              "meaning": "寻找（与for连用）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 47,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "寻找、安排或评价所针对的对象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 52,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 55,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……期间或范围内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 57,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 63,
+              "word": "labor",
+              "lemma": "labor",
+              "pos": "n",
+              "meaning": "劳动力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 70,
+              "word": "market",
+              "lemma": "market",
+              "pos": "n",
+              "meaning": "市场",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 77,
+              "word": "that's",
+              "lemma": "that is",
+              "pos": "v",
+              "meaning": "那个市场是（that is的缩写）",
+              "reviewVersion": 2
+            },
+            {
               "a": 78,
               "b": 85,
-              "lemma": "tight",
-              "meaning": "劳动力供应更紧张、雇主更难招人的",
               "word": "tighter",
-              "pos": "a"
+              "lemma": "tight",
+              "pos": "a",
+              "meaning": "劳动力供给更紧张的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 90,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 95,
+              "word": "it's",
+              "lemma": "it has",
+              "pos": "aux",
+              "meaning": "它已经（it has的缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 100,
+              "word": "been",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "一直处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 103,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……期间或范围内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 111,
+              "word": "decades",
+              "lemma": "decade",
+              "pos": "n",
+              "meaning": "十年；几十年",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
+            {
+              "a": 11,
+              "b": 19,
+              "word": "about to",
+              "lemma": "be about to",
+              "meaning": "即将（与be连用）",
+              "kind": "phrase"
+            },
             {
               "a": 20,
               "b": 35,
               "lemma": "hit the streets",
               "meaning": "开始外出求职；进入求职市场",
-              "word": "hit the streets"
+              "word": "hit the streets",
+              "kind": "phrase"
             },
             {
               "a": 58,
               "b": 70,
               "lemma": "labor market",
               "meaning": "劳动力市场",
-              "word": "labor market"
+              "word": "labor market",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -125,7 +650,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "it’s为it has而非it is，tighter指缺劳动力，街道是外出求职的比喻。",
+            "sentenceSHA256": "e70caffb7afae454fdd5044bac9302728a4ed0b48b34a4e02c881420751272b7",
+            "words": 22,
+            "phrases": 3,
+            "names": 0
+          }
         },
         {
           "id": "2020-T4-P1-S3",
@@ -138,13 +671,13 @@
               "a": 0,
               "b": 37,
               "en": "And employers are planning on hiring ",
-              "zh": "而雇主计划今年在美国招收的新毕业生"
+              "zh": "而雇主正计划招聘，"
             },
             {
               "a": 37,
               "b": 115,
               "en": "about 17 percent more new graduates for jobs in the U.S. this year than last, ",
-              "zh": "比去年多约17%"
+              "zh": "今年为美国岗位招聘的新毕业生比去年多约17%，"
             },
             {
               "a": 115,
@@ -155,7 +688,305 @@
           ],
           "reorder": "将 according to 所引调查来源提到句首。",
           "translation": "全国大学与雇主协会的一项调查显示，今年雇主计划在美国招收的新毕业生比去年多约17%。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "And",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 13,
+              "word": "employers",
+              "lemma": "employer",
+              "pos": "n",
+              "meaning": "雇主",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 17,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成正在进行的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 26,
+              "word": "planning",
+              "lemma": "plan",
+              "pos": "v",
+              "meaning": "计划",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 29,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "plan on的一部分，表示计划做",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 36,
+              "word": "hiring",
+              "lemma": "hire",
+              "pos": "v",
+              "meaning": "招聘",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 42,
+              "word": "about",
+              "lemma": "about",
+              "pos": "adv",
+              "meaning": "大约",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 53,
+              "word": "percent",
+              "lemma": "percent",
+              "pos": "n",
+              "meaning": "百分比",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 58,
+              "word": "more",
+              "lemma": "more",
+              "pos": "a",
+              "meaning": "更多的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 62,
+              "word": "new",
+              "lemma": "new",
+              "pos": "a",
+              "meaning": "新毕业的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 72,
+              "word": "graduates",
+              "lemma": "graduate",
+              "pos": "n",
+              "meaning": "毕业生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 76,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "为了填补的岗位",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 81,
+              "word": "jobs",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "职位；工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 84,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……期间或范围内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 88,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 93,
+              "word": "U.S.",
+              "lemma": "U.S.",
+              "pos": "name",
+              "meaning": "美国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 98,
+              "word": "this",
+              "lemma": "this",
+              "pos": "a",
+              "meaning": "这个；本次",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 103,
+              "word": "year",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 108,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 113,
+              "word": "last",
+              "lemma": "last",
+              "pos": "a",
+              "meaning": "上一个的；去年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 124,
+              "word": "according",
+              "lemma": "according",
+              "pos": "prep",
+              "meaning": "与to连用，表示根据",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 127,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "根据（according to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 129,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 136,
+              "word": "survey",
+              "lemma": "survey",
+              "pos": "n",
+              "meaning": "调查",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 146,
+              "word": "conducted",
+              "lemma": "conduct",
+              "pos": "v",
+              "meaning": "开展",
+              "reviewVersion": 2
+            },
+            {
+              "a": 147,
+              "b": 149,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "由（引出实施者）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 150,
+              "b": 153,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 154,
+              "b": 162,
+              "word": "National",
+              "lemma": "National",
+              "pos": "a",
+              "meaning": "全国性的（机构名称部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 163,
+              "b": 174,
+              "word": "Association",
+              "lemma": "association",
+              "pos": "n",
+              "meaning": "协会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 175,
+              "b": 177,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 178,
+              "b": 186,
+              "word": "Colleges",
+              "lemma": "college",
+              "pos": "n",
+              "meaning": "大学",
+              "reviewVersion": 2
+            },
+            {
+              "a": 187,
+              "b": 190,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 191,
+              "b": 200,
+              "word": "Employers",
+              "lemma": "employer",
+              "pos": "n",
+              "meaning": "雇主",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -163,7 +994,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "17%是较去年多招新毕业生，改块避免把美国今年提前译入planning。",
+            "sentenceSHA256": "ae4747371b5ab378a2a6a5a7b87590041f9abd153839b61b21f9d76e2440329a",
+            "words": 33,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2020-T4-P1-S4",
@@ -195,12 +1034,211 @@
           "translation": "人人都想知道，那些即将坐进空置办公隔间的新人，与前辈有什么不同。",
           "words": [
             {
+              "a": 0,
+              "b": 9,
+              "word": "Everybody",
+              "lemma": "everybody",
+              "pos": "pron",
+              "meaning": "每个人；人人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 15,
+              "word": "wants",
+              "lemma": "want",
+              "pos": "v",
+              "meaning": "想要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 18,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 23,
+              "word": "know",
+              "lemma": "know",
+              "pos": "v",
+              "meaning": "知道",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 27,
+              "word": "how",
+              "lemma": "how",
+              "pos": "adv",
+              "meaning": "如何；有什么不同",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 31,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 38,
+              "word": "people",
+              "lemma": "people",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 42,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系词，指前面所述的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 47,
+              "word": "will",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "将会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 52,
+              "word": "soon",
+              "lemma": "soon",
+              "pos": "adv",
+              "meaning": "很快",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 60,
+              "word": "inhabit",
+              "lemma": "inhabit",
+              "pos": "v",
+              "meaning": "进驻；占用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 66,
+              "word": "those",
+              "lemma": "those",
+              "pos": "a",
+              "meaning": "那些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 72,
+              "word": "empty",
+              "lemma": "empty",
+              "pos": "a",
+              "meaning": "空置的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 79,
+              "word": "office",
+              "lemma": "office",
+              "pos": "n",
+              "meaning": "办公室",
+              "reviewVersion": 2
+            },
+            {
               "a": 80,
               "b": 88,
-              "lemma": "cubicle",
-              "meaning": "办公隔间",
               "word": "cubicles",
-              "pos": "n"
+              "lemma": "cubicle",
+              "pos": "n",
+              "meaning": "办公隔间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 93,
+              "word": "will",
+              "lemma": "will",
+              "pos": "aux",
+              "meaning": "将会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 100,
+              "word": "differ",
+              "lemma": "differ",
+              "pos": "v",
+              "meaning": "有差别",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 105,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "与……相比；来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 111,
+              "word": "those",
+              "lemma": "those",
+              "pos": "a",
+              "meaning": "那些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 115,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系词，指前面所述的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 120,
+              "word": "came",
+              "lemma": "come",
+              "pos": "v",
+              "meaning": "先前来到（这里指前辈）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 127,
+              "word": "before",
+              "lemma": "before",
+              "pos": "prep",
+              "meaning": "在……之前",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 132,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（宾格）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -210,7 +1248,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "先前来到的人为前辈，两个will分别修饰进驻与差异的将来，不是房屋居住。",
+            "sentenceSHA256": "6be634d8aa82c7abe492bb27fa3ac0a9b1fadff9ac3fac0018b2be4917ba8aa1",
+            "words": 23,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -229,13 +1275,13 @@
               "a": 0,
               "b": 44,
               "en": "If “entitled” is the most common adjective, ",
-              "zh": "如果说，“自认为理应受到优待”是最常被用于千禧一代的形容词"
+              "zh": "如果说，“自认为理应受到优待”是最常用的形容词，"
             },
             {
               "a": 44,
               "b": 118,
               "en": "fairly or not, applied to millennials (those born between 1981 and 1995), ",
-              "zh": "不论这种评价是否公允"
+              "zh": "不论是否公允，被用来形容千禧一代（1981—1995年出生），"
             },
             {
               "a": 118,
@@ -248,28 +1294,238 @@
           "translation": "如果说，无论是否公允，“自认为理应受到优待”是形容千禧一代（1981至1995年出生）最常用的词，那么形容Z世代的关键词就是务实和谨慎。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "If",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "如果说（引出对比）",
+              "reviewVersion": 2
+            },
+            {
               "a": 4,
               "b": 12,
-              "lemma": "entitle",
-              "meaning": "自认为理应享有优待的",
               "word": "entitled",
-              "pos": "v"
+              "lemma": "entitled",
+              "pos": "a",
+              "meaning": "自认为理应享受优待的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 16,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 20,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "most",
+              "lemma": "much",
+              "pos": "adv",
+              "meaning": "最",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 32,
+              "word": "common",
+              "lemma": "common",
+              "pos": "a",
+              "meaning": "常用的；常见的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 42,
+              "word": "adjective",
+              "lemma": "adjective",
+              "pos": "n",
+              "meaning": "形容词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 50,
+              "word": "fairly",
+              "lemma": "fairly",
+              "pos": "adv",
+              "meaning": "公平地；公允地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 53,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "是否；不论公允与否",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 57,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 66,
+              "word": "applied",
+              "lemma": "apply",
+              "pos": "v",
+              "meaning": "用来形容；加诸于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 69,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "把形容词用于描述的对象",
+              "reviewVersion": 2
             },
             {
               "a": 70,
               "b": 81,
-              "lemma": "millennial",
-              "meaning": "千禧一代（本篇指1981—1995年间出生的人）",
               "word": "millennials",
-              "pos": "n"
+              "lemma": "millennial",
+              "pos": "n",
+              "meaning": "千禧一代成员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 88,
+              "word": "those",
+              "lemma": "those",
+              "pos": "a",
+              "meaning": "那些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 93,
+              "word": "born",
+              "lemma": "bear",
+              "pos": "v",
+              "meaning": "出生（be born）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 101,
+              "word": "between",
+              "lemma": "between",
+              "pos": "prep",
+              "meaning": "在……两者之间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 110,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 121,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 122,
               "b": 132,
-              "lemma": "catchword",
-              "meaning": "概括性标签；常用关键词",
               "word": "catchwords",
-              "pos": "n"
+              "lemma": "catchword",
+              "pos": "n",
+              "meaning": "概括性标签；常用关键词",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 136,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "寻找、安排或评价所针对的对象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 147,
+              "word": "Generation",
+              "lemma": "generation",
+              "pos": "n",
+              "meaning": "一代人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 148,
+              "b": 149,
+              "word": "Z",
+              "lemma": "Z",
+              "pos": "name",
+              "meaning": "Z（Z世代名称的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 150,
+              "b": 153,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "联系主语与务实谨慎的特点",
+              "reviewVersion": 2
+            },
+            {
+              "a": 154,
+              "b": 163,
+              "word": "practical",
+              "lemma": "practical",
+              "pos": "a",
+              "meaning": "务实的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 167,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 168,
+              "b": 176,
+              "word": "cautious",
+              "lemma": "cautious",
+              "pos": "a",
+              "meaning": "谨慎的",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -279,7 +1535,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "entitled为自认为应享优待的形容词，改块让千禧代年份落回对应英文。",
+            "sentenceSHA256": "d77d088d1d85e020e6692a1be6e92f55d6ef7d7a59d618fc6964d9e1e1070603",
+            "words": 26,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2020-T4-P2-S2",
@@ -311,20 +1575,148 @@
           "translation": "据研究他们的职业顾问和专家说，Z世代头脑清醒，在经济问题上十分务实。",
           "words": [
             {
+              "a": 0,
+              "b": 9,
+              "word": "According",
+              "lemma": "according",
+              "pos": "prep",
+              "meaning": "与to连用，表示根据",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 12,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "据……说（according to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 16,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 23,
+              "word": "career",
+              "lemma": "career",
+              "pos": "n",
+              "meaning": "职业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 34,
+              "word": "counselors",
+              "lemma": "counselor",
+              "pos": "n",
+              "meaning": "咨询顾问",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 38,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 46,
+              "word": "experts",
+              "lemma": "expert",
+              "pos": "n",
+              "meaning": "专家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 50,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系词，指前面所述的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 56,
+              "word": "study",
+              "lemma": "study",
+              "pos": "v",
+              "meaning": "研究",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 61,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（宾格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 73,
+              "word": "Generation",
+              "lemma": "generation",
+              "pos": "n",
+              "meaning": "一代人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 76,
+              "word": "Zs",
+              "lemma": "Z",
+              "pos": "name",
+              "meaning": "Z世代成员（Z的复数指人）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 80,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是（联系主语和务实主义者）",
+              "reviewVersion": 2
+            },
+            {
               "a": 81,
               "b": 91,
-              "lemma": "clear-eyed",
-              "meaning": "清醒务实的",
               "word": "clear-eyed",
-              "pos": "a"
+              "lemma": "clear-eyed",
+              "pos": "a",
+              "meaning": "头脑清醒、认清现实的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 101,
+              "word": "economic",
+              "lemma": "economic",
+              "pos": "a",
+              "meaning": "经济方面的",
+              "reviewVersion": 2
             },
             {
               "a": 102,
               "b": 113,
-              "lemma": "pragmatist",
-              "meaning": "务实主义者",
               "word": "pragmatists",
-              "pos": "n"
+              "lemma": "pragmatist",
+              "pos": "n",
+              "meaning": "务实主义者",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -334,7 +1726,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "pragmatists为人群名词，clear-eyed指清醒认识现实，them为Z世代。",
+            "sentenceSHA256": "ece7bcc493db93231368c03c1c4ce3d91b3fd22d997962eb87f349773b9b0301",
+            "words": 16,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2020-T4-P2-S3",
@@ -364,23 +1764,204 @@
           ],
           "reorder": "无需调序。",
           "translation": "尽管毕业时正逢过去50年最好的经济形势，Z世代仍知道经济崩溃是什么样子。",
-          "words": [],
-          "phrases": [
+          "words": [
+            {
+              "a": 0,
+              "b": 7,
+              "word": "Despite",
+              "lemma": "despite",
+              "pos": "prep",
+              "meaning": "尽管",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 18,
+              "word": "graduating",
+              "lemma": "graduate",
+              "pos": "v",
+              "meaning": "毕业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 23,
+              "word": "into",
+              "lemma": "into",
+              "pos": "prep",
+              "meaning": "进入；正逢某种环境",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 27,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 32,
+              "word": "best",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "最好的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 40,
+              "word": "economy",
+              "lemma": "economy",
+              "pos": "n",
+              "meaning": "经济；经济形势",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 43,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……期间或范围内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 47,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 52,
+              "word": "past",
+              "lemma": "past",
+              "pos": "a",
+              "meaning": "过去的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 61,
+              "word": "years",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 66,
+              "word": "Gen",
+              "lemma": "generation",
+              "pos": "n",
+              "meaning": "一代人（generation的缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 69,
+              "word": "Zs",
+              "lemma": "Z",
+              "pos": "name",
+              "meaning": "Z世代成员（Z的复数指人）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 74,
+              "word": "know",
+              "lemma": "know",
+              "pos": "v",
+              "meaning": "知道",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 79,
+              "word": "what",
+              "lemma": "what",
+              "pos": "pron",
+              "meaning": "是什么样子（引导know的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 82,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
             {
               "a": 83,
+              "b": 91,
+              "word": "economic",
+              "lemma": "economic",
+              "pos": "a",
+              "meaning": "经济方面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 97,
+              "word": "train",
+              "lemma": "train",
+              "pos": "n",
+              "meaning": "火车（train wreck比喻崩溃）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
               "b": 103,
-              "lemma": "economic train wreck",
-              "meaning": "严重的经济崩溃（比喻）",
-              "word": "economic train wreck"
+              "word": "wreck",
+              "lemma": "wreck",
+              "pos": "n",
+              "meaning": "严重事故；崩溃",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 109,
+              "word": "looks",
+              "lemma": "look",
+              "pos": "v",
+              "meaning": "看起来",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 114,
+              "word": "like",
+              "lemma": "like",
+              "pos": "prep",
+              "meaning": "像……样子",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句对照原文",
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "经济train wreck比喻崩溃，与毕业时好经济形成让步对照。",
+            "sentenceSHA256": "ad15edb4b78ac75eea64fe0fb415b160bde5c4bcf1dec1438cc8230ab0af49cf",
+            "words": 20,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2020-T4-P2-S4",
@@ -412,12 +1993,202 @@
           "translation": "2008年经济崩溃时，他们正处在容易受影响的童年，那时许多人的父母丢了工作、失去毕生积蓄，或者两者尽失。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "They",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 9,
+              "word": "were",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "处于所述状态",
+              "reviewVersion": 2
+            },
+            {
               "a": 10,
               "b": 24,
-              "lemma": "impressionable",
-              "meaning": "容易受经历影响的",
               "word": "impressionable",
-              "pos": "a"
+              "lemma": "impressionable",
+              "pos": "a",
+              "meaning": "容易受经历影响的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 29,
+              "word": "kids",
+              "lemma": "kid",
+              "pos": "n",
+              "meaning": "孩子",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 36,
+              "word": "during",
+              "lemma": "during",
+              "pos": "prep",
+              "meaning": "在……期间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 40,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 46,
+              "word": "crash",
+              "lemma": "crash",
+              "pos": "n",
+              "meaning": "经济崩溃；金融危机",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 49,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 60,
+              "word": "when",
+              "lemma": "when",
+              "pos": "conj",
+              "meaning": "当时（指2008年危机时）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 65,
+              "word": "many",
+              "lemma": "many",
+              "pos": "a",
+              "meaning": "许多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 68,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 74,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 82,
+              "word": "parents",
+              "lemma": "parent",
+              "pos": "n",
+              "meaning": "父母",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 87,
+              "word": "lost",
+              "lemma": "lose",
+              "pos": "v",
+              "meaning": "失去",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 93,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 98,
+              "word": "jobs",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "职位；工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 101,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接失业和积蓄损失两种情况）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 107,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 112,
+              "word": "life",
+              "lemma": "life",
+              "pos": "n",
+              "meaning": "一生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 120,
+              "word": "savings",
+              "lemma": "saving",
+              "pos": "n",
+              "meaning": "积蓄",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 123,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接失业和积蓄损失两种情况）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 128,
+              "word": "both",
+              "lemma": "both",
+              "pos": "pron",
+              "meaning": "两者（工作与积蓄）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -426,7 +2197,8 @@
               "b": 120,
               "lemma": "life savings",
               "meaning": "毕生积蓄",
-              "word": "life savings"
+              "word": "life savings",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -435,7 +2207,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "2008为成长记忆，both指失业与损失积蓄二者，不添同时的时间含义。",
+            "sentenceSHA256": "9edf7b22c82c89a785a2c18f4e59160875048492d50a64a7db1e80afe4df1539",
+            "words": 22,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2020-T4-P2-S5",
@@ -459,15 +2239,106 @@
           ],
           "reorder": "无需调序。",
           "translation": "他们不愿意冒任何风险。",
-          "words": [],
-          "phrases": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "They",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 11,
+              "word": "aren't",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "并不（are not）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 22,
+              "word": "interested",
+              "lemma": "interested",
+              "pos": "a",
+              "meaning": "感兴趣的；愿意的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 25,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……期间或范围内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 32,
+              "word": "taking",
+              "lemma": "take",
+              "pos": "v",
+              "meaning": "承担（take chances指冒险）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 36,
+              "word": "any",
+              "lemma": "any",
+              "pos": "a",
+              "meaning": "任何的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 44,
+              "word": "chances",
+              "lemma": "chance",
+              "pos": "n",
+              "meaning": "风险（take chances搭配）",
+              "reviewVersion": 2
+            }
+          ],
+          "phrases": [
+            {
+              "a": 26,
+              "b": 32,
+              "word": "taking",
+              "lemma": "take chances",
+              "meaning": "冒险",
+              "kind": "phrase",
+              "structure": true
+            },
+            {
+              "a": 37,
+              "b": 44,
+              "word": "chances",
+              "lemma": "take chances",
+              "meaning": "冒险",
+              "kind": "phrase",
+              "structure": true
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句对照原文",
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "take chances为冒险，aren’t否定意愿，不是没有机会可得。",
+            "sentenceSHA256": "2be09a5f7bbcb48f0ca67144b9cb805c75fbbdb1c77080558ad3c82756adb20c",
+            "words": 7,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2020-T4-P2-S6",
@@ -499,28 +2370,220 @@
           "translation": "经济繁荣似乎并未怎么缓解这一代人内心深处的焦虑和紧迫感，对背负大学贷款的人尤其如此。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 4,
               "b": 11,
-              "lemma": "booming",
-              "meaning": "迅速增长、繁荣的",
               "word": "booming",
-              "pos": "a"
+              "lemma": "booming",
+              "pos": "a",
+              "meaning": "繁荣的；快速增长的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 19,
+              "word": "economy",
+              "lemma": "economy",
+              "pos": "n",
+              "meaning": "经济；经济形势",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 25,
+              "word": "seems",
+              "lemma": "seem",
+              "pos": "v",
+              "meaning": "似乎",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 28,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "构成完成时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 38,
+              "word": "done",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "起作用（done little指作用不大）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 45,
+              "word": "little",
+              "lemma": "little",
+              "pos": "pron",
+              "meaning": "很少；不多的作用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 48,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
             },
             {
               "a": 49,
               "b": 56,
-              "lemma": "assuage",
-              "meaning": "缓解；减轻",
               "word": "assuage",
-              "pos": "v"
+              "lemma": "assuage",
+              "pos": "v",
+              "meaning": "缓解",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 61,
+              "word": "this",
+              "lemma": "this",
+              "pos": "a",
+              "meaning": "这个；本次",
+              "reviewVersion": 2
             },
             {
               "a": 62,
               "b": 72,
-              "lemma": "underlie",
-              "meaning": "深层的；潜在的",
               "word": "underlying",
-              "pos": "v"
+              "lemma": "underlying",
+              "pos": "a",
+              "meaning": "深层的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 85,
+              "word": "generational",
+              "lemma": "generational",
+              "pos": "a",
+              "meaning": "属于这一代人的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 91,
+              "word": "sense",
+              "lemma": "sense",
+              "pos": "n",
+              "meaning": "感觉",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 94,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 102,
+              "word": "anxious",
+              "lemma": "anxious",
+              "pos": "a",
+              "meaning": "焦虑的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 110,
+              "word": "urgency",
+              "lemma": "urgency",
+              "pos": "n",
+              "meaning": "紧迫感",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 122,
+              "word": "especially",
+              "lemma": "especially",
+              "pos": "adv",
+              "meaning": "尤其",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 126,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对于；对……而言",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 132,
+              "word": "those",
+              "lemma": "those",
+              "pos": "a",
+              "meaning": "那些",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 136,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系词，指前面所述的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 141,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "拥有；背负（债务）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 142,
+              "b": 149,
+              "word": "college",
+              "lemma": "college",
+              "pos": "n",
+              "meaning": "大学",
+              "reviewVersion": 2
+            },
+            {
+              "a": 150,
+              "b": 154,
+              "word": "debt",
+              "lemma": "debt",
+              "pos": "n",
+              "meaning": "债务",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -530,7 +2593,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "第一个have为完成时第二个为背负债务，done little强调缓解有限而非完全无效。",
+            "sentenceSHA256": "68e9829bfe700ca39aebb4acc6c1364ef16e1c9d12bf59324ef50f4f7942eceb",
+            "words": 24,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2020-T4-P2-S7",
@@ -556,22 +2627,184 @@
           "translation": "美联储数据显示，美国大学贷款未偿余额如今达到创纪录的1.5万亿美元。",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "College",
+              "lemma": "college",
+              "pos": "n",
+              "meaning": "大学",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 12,
+              "word": "loan",
+              "lemma": "loan",
+              "pos": "n",
+              "meaning": "贷款",
+              "reviewVersion": 2
+            },
+            {
               "a": 13,
               "b": 21,
-              "lemma": "balance",
-              "meaning": "未偿还的贷款余额",
               "word": "balances",
-              "pos": "n"
+              "lemma": "balance",
+              "pos": "n",
+              "meaning": "未偿贷款余额",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 24,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……期间或范围内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 28,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "U.S.",
+              "lemma": "U.S.",
+              "pos": "name",
+              "meaning": "美国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 37,
+              "word": "now",
+              "lemma": "now",
+              "pos": "adv",
+              "meaning": "现在；如今",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 43,
+              "word": "stand",
+              "lemma": "stand",
+              "pos": "v",
+              "meaning": "达到；处于某数值",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 46,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "达到所述数值",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 48,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 55,
+              "word": "record",
+              "lemma": "record",
+              "pos": "a",
+              "meaning": "创纪录的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 69,
+              "word": "trillion",
+              "lemma": "trillion",
+              "pos": "num",
+              "meaning": "万亿",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 80,
+              "word": "according",
+              "lemma": "according",
+              "pos": "prep",
+              "meaning": "与to连用，表示根据",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 83,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "根据（according to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 87,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 95,
+              "word": "Federal",
+              "lemma": "Federal",
+              "pos": "a",
+              "meaning": "联邦的（Federal Reserve机构名部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 103,
+              "word": "Reserve",
+              "lemma": "Reserve",
+              "pos": "name",
+              "meaning": "储备（Federal Reserve指美联储）",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 38,
+              "b": 46,
+              "word": "stand at",
+              "lemma": "stand at",
+              "meaning": "达到某数值",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句对照原文",
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "1.5 trillion为1.5万亿美元，balances为未偿余额，record为创纪录。",
+            "sentenceSHA256": "4f7664a65003af6e2a7b680400664564de4401c2c81462afb41021d6f1d333a4",
+            "words": 17,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -609,30 +2842,221 @@
           "translation": "埃森哲的一项调查发现，今年毕业的大学四年级学生中，88%选择专业时考虑了今后找工作。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "One",
+              "lemma": "one",
+              "pos": "num",
+              "meaning": "一；一个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 10,
+              "word": "survey",
+              "lemma": "survey",
+              "pos": "n",
+              "meaning": "调查",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 15,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "与……相比；来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 25,
+              "word": "Accenture",
+              "lemma": "Accenture",
+              "pos": "name",
+              "meaning": "埃森哲（咨询公司）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 31,
+              "word": "found",
+              "lemma": "find",
+              "pos": "v",
+              "meaning": "发现",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 36,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "与now构成既然；随着这一事实",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 47,
+              "word": "percent",
+              "lemma": "percent",
+              "pos": "n",
+              "meaning": "百分比",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 50,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 61,
+              "word": "graduating",
+              "lemma": "graduate",
+              "pos": "v",
+              "meaning": "毕业",
+              "reviewVersion": 2
+            },
+            {
               "a": 62,
               "b": 69,
-              "lemma": "senior",
-              "meaning": "毕业班学生",
               "word": "seniors",
-              "pos": "n"
+              "lemma": "senior",
+              "pos": "n",
+              "meaning": "大学毕业班学生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 74,
+              "word": "this",
+              "lemma": "this",
+              "pos": "a",
+              "meaning": "这个；本次",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 79,
+              "word": "year",
+              "lemma": "year",
+              "pos": "n",
+              "meaning": "年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 85,
+              "word": "chose",
+              "lemma": "choose",
+              "pos": "v",
+              "meaning": "选择",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 91,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
             },
             {
               "a": 92,
               "b": 97,
-              "lemma": "major",
-              "meaning": "大学专业",
               "word": "major",
-              "pos": "n"
+              "lemma": "major",
+              "pos": "n",
+              "meaning": "大学专业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 102,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "带着；考虑到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 104,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 108,
+              "word": "job",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 111,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……期间或范围内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 116,
+              "word": "mind",
+              "lemma": "mind",
+              "pos": "n",
+              "meaning": "心中（with…in mind表示考虑）",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 98,
+              "b": 102,
+              "word": "with",
+              "lemma": "with … in mind",
+              "meaning": "考虑到……；心里想着……",
+              "kind": "phrase",
+              "structure": true
+            },
+            {
+              "a": 109,
+              "b": 116,
+              "word": "in mind",
+              "lemma": "with … in mind",
+              "meaning": "考虑到……；心里想着……",
+              "kind": "phrase",
+              "structure": true
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句对照原文",
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "88%是毕业班学生选专业考虑就业，major为专业非主要的。",
+            "sentenceSHA256": "1a513008ad9416ae54077dba7ab1ed42134f264fe3dcd7fe576b6dbfeddc9043",
+            "words": 20,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2020-T4-P3-S2",
@@ -668,30 +3092,366 @@
           ],
           "reorder": "无需调序。",
           "translation": "与此同时，佐治亚大学就业办公室在2019年对本校学生的调查中发现，学生最希望未来雇主能提供稳定的工作，其次是职业发展与培训机会，再次是能激励人的事业目标。",
-          "words": [],
-          "phrases": [
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……期间或范围内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 4,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 16,
+              "word": "survey",
+              "lemma": "survey",
+              "pos": "n",
+              "meaning": "调查",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 19,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 30,
+              "word": "University",
+              "lemma": "University",
+              "pos": "n",
+              "meaning": "大学",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 33,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 41,
+              "word": "Georgia",
+              "lemma": "Georgia",
+              "pos": "name",
+              "meaning": "佐治亚",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 50,
+              "word": "students",
+              "lemma": "student",
+              "pos": "n",
+              "meaning": "学生",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 61,
+              "word": "meanwhile",
+              "lemma": "meanwhile",
+              "pos": "adv",
+              "meaning": "与此同时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 66,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 73,
+              "word": "career",
+              "lemma": "career",
+              "pos": "n",
+              "meaning": "职业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 80,
+              "word": "office",
+              "lemma": "office",
+              "pos": "n",
+              "meaning": "办公室",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 86,
+              "word": "found",
+              "lemma": "find",
+              "pos": "v",
+              "meaning": "发现",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 90,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 95,
+              "word": "most",
+              "lemma": "much",
+              "pos": "adv",
+              "meaning": "最",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 105,
+              "word": "desirable",
+              "lemma": "desirable",
+              "pos": "a",
+              "meaning": "值得向往的；最希望具备的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 111,
+              "word": "trait",
+              "lemma": "trait",
+              "pos": "n",
+              "meaning": "特点",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 114,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……期间或范围内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 116,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 123,
+              "word": "future",
+              "lemma": "future",
+              "pos": "a",
+              "meaning": "未来的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 132,
+              "word": "employer",
+              "lemma": "employer",
+              "pos": "n",
+              "meaning": "雇主",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 136,
+              "word": "was",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是（联系特点与能力）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 140,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 148,
+              "word": "ability",
+              "lemma": "ability",
+              "pos": "n",
+              "meaning": "能力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 151,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 152,
+              "b": 157,
+              "word": "offer",
+              "lemma": "offer",
+              "pos": "v",
+              "meaning": "提供",
+              "reviewVersion": 2
+            },
             {
               "a": 158,
+              "b": 164,
+              "word": "secure",
+              "lemma": "secure",
+              "pos": "a",
+              "meaning": "稳定有保障的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 165,
               "b": 175,
-              "lemma": "secure employment",
-              "meaning": "稳定有保障的工作",
-              "word": "secure employment"
+              "word": "employment",
+              "lemma": "employment",
+              "pos": "n",
+              "meaning": "就业；工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 177,
+              "b": 185,
+              "word": "followed",
+              "lemma": "follow",
+              "pos": "v",
+              "meaning": "随后是；其次是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 186,
+              "b": 188,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "排在其后的内容（followed by）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 189,
+              "b": 201,
+              "word": "professional",
+              "lemma": "professional",
+              "pos": "a",
+              "meaning": "职业上的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 202,
+              "b": 213,
+              "word": "development",
+              "lemma": "development",
+              "pos": "n",
+              "meaning": "发展",
+              "reviewVersion": 2
+            },
+            {
+              "a": 214,
+              "b": 217,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 218,
+              "b": 226,
+              "word": "training",
+              "lemma": "training",
+              "pos": "n",
+              "meaning": "培训",
+              "reviewVersion": 2
+            },
+            {
+              "a": 228,
+              "b": 231,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 232,
+              "b": 236,
+              "word": "then",
+              "lemma": "then",
+              "pos": "adv",
+              "meaning": "然后；再次",
+              "reviewVersion": 2
             },
             {
               "a": 237,
+              "b": 246,
+              "word": "inspiring",
+              "lemma": "inspiring",
+              "pos": "a",
+              "meaning": "鼓舞人心的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 247,
               "b": 254,
-              "lemma": "inspiring purpose",
-              "meaning": "能激发动力的工作意义或目标",
-              "word": "inspiring purpose"
+              "word": "purpose",
+              "lemma": "purpose",
+              "pos": "n",
+              "meaning": "工作目标；事业意义",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句对照原文",
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "稳定就业为最想要雇主特点，括号内职业发展培训其次、意义目标再次。",
+            "sentenceSHA256": "4e97172b2912edac1ace1aae4ecd43963c8e0c02b08d695cff077d4a2c603f58",
+            "words": 38,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2020-T4-P3-S3",
@@ -723,21 +3483,329 @@
           "translation": "工作保障或稳定性是第二重要的职业目标，第一是工作与生活的平衡；其后则是投身某项事业的使命感，或为公共利益服务的满足感。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "Job",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 12,
+              "word": "security",
+              "lemma": "security",
+              "pos": "n",
+              "meaning": "保障",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 15,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者说；也就是（近义表述）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 25,
+              "word": "stability",
+              "lemma": "stability",
+              "pos": "n",
+              "meaning": "稳定性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 29,
+              "word": "was",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是（说明目标排名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 33,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 40,
+              "word": "second",
+              "lemma": "second",
+              "pos": "num",
+              "meaning": "第二",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 45,
+              "word": "most",
+              "lemma": "much",
+              "pos": "adv",
+              "meaning": "最",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 55,
+              "word": "important",
+              "lemma": "important",
+              "pos": "a",
+              "meaning": "重要的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 62,
+              "word": "career",
+              "lemma": "career",
+              "pos": "n",
+              "meaning": "职业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 67,
+              "word": "goal",
+              "lemma": "goal",
+              "pos": "n",
+              "meaning": "目标",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 77,
+              "word": "work-life",
+              "lemma": "work-life",
+              "pos": "a",
+              "meaning": "工作与生活的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 85,
+              "word": "balance",
+              "lemma": "balance",
+              "pos": "n",
+              "meaning": "平衡",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 89,
+              "word": "was",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是（说明目标排名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 96,
+              "word": "number",
+              "lemma": "number",
+              "pos": "n",
+              "meaning": "名次（number one指第一位）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 100,
+              "word": "one",
+              "lemma": "one",
+              "pos": "num",
+              "meaning": "一；一个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 111,
+              "word": "followed",
+              "lemma": "follow",
+              "pos": "v",
+              "meaning": "随后是；其次是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 114,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "排在其后的内容（followed by）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 116,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 122,
+              "word": "sense",
+              "lemma": "sense",
+              "pos": "n",
+              "meaning": "感觉",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 125,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 131,
+              "word": "being",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成dedicated的状态表达",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 141,
+              "word": "dedicated",
+              "lemma": "dedicated",
+              "pos": "a",
+              "meaning": "献身于、投入某项事业的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 142,
+              "b": 144,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "投身于的对象（dedicated to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 145,
+              "b": 146,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 147,
               "b": 152,
-              "lemma": "cause",
-              "meaning": "事业；值得投入的共同目标",
               "word": "cause",
-              "pos": "n"
+              "lemma": "cause",
+              "pos": "n",
+              "meaning": "事业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 155,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 158,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 159,
+              "b": 163,
+              "word": "feel",
+              "lemma": "feel",
+              "pos": "v",
+              "meaning": "感到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 168,
+              "word": "good",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "满足的；良好的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 169,
+              "b": 174,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "对于；因为所做之事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 175,
+              "b": 182,
+              "word": "serving",
+              "lemma": "serve",
+              "pos": "v",
+              "meaning": "为……服务",
+              "reviewVersion": 2
+            },
+            {
+              "a": 183,
+              "b": 186,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 187,
+              "b": 194,
+              "word": "greater",
+              "lemma": "great",
+              "pos": "a",
+              "meaning": "更广泛的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 195,
+              "b": 199,
+              "word": "good",
+              "lemma": "good",
+              "pos": "n",
+              "meaning": "公共利益（the greater good）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
-              "a": 175,
-              "b": 199,
-              "lemma": "serving the greater good",
-              "meaning": "服务公共利益；为更广泛的群体作贡献",
-              "word": "serving the greater good"
+              "a": 0,
+              "b": 12,
+              "word": "Job security",
+              "lemma": "job security",
+              "meaning": "工作保障",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -746,7 +3814,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "第一是工作生活平衡、第二是工作保障，cause为事业，greater good为公共利益。",
+            "sentenceSHA256": "909a041514cd3d1cc6abeba907722862cc56675a4ca0c20cf57a2112f1007c2a",
+            "words": 35,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -765,18 +3841,91 @@
               "a": 0,
               "b": 7,
               "en": "That's ",
-              "zh": "这与上一代相比"
+              "zh": "这是，"
             },
             {
               "a": 7,
               "b": 49,
               "en": "a big change from the previous generation.",
-              "zh": "是个很大的变化"
+              "zh": "相较上一代很大的变化。"
             }
           ],
           "reorder": "无需调序。",
           "translation": "这与上一代相比是个很大的变化。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 6,
+              "word": "That's",
+              "lemma": "that is",
+              "pos": "v",
+              "meaning": "这是一项变化（that is）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 8,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 12,
+              "word": "big",
+              "lemma": "big",
+              "pos": "a",
+              "meaning": "很大的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 19,
+              "word": "change",
+              "lemma": "change",
+              "pos": "n",
+              "meaning": "变化",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 24,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "与……相比；来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 28,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 37,
+              "word": "previous",
+              "lemma": "previous",
+              "pos": "a",
+              "meaning": "上一代的；先前的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 48,
+              "word": "generation",
+              "lemma": "generation",
+              "pos": "n",
+              "meaning": "一代人",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -784,7 +3933,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "That is仅为这是，比较上一代属于后块，修正中文提前错位。",
+            "sentenceSHA256": "f48510a2c15049d21d32f566ab042d2b529f5a4741206cd59204beb5c39e8e58",
+            "words": 8,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2020-T4-P4-S2",
@@ -809,7 +3966,7 @@
               "a": 111,
               "b": 191,
               "en": "a UK-based brand manager that conducts regular 60-day surveys of British youth, ",
-              "zh": "这家英国品牌管理机构定期对英国年轻人开展以60天为周期的调查"
+              "zh": "这家英国品牌管理机构定期对英国年轻人开展为期60天的调查"
             },
             {
               "a": 191,
@@ -819,15 +3976,340 @@
             }
           ],
           "reorder": "先介绍机构和说话人，再放引语；将最后对研究适用性的说明单独接在后面。",
-          "translation": "英国品牌管理机构YouthSight定期对英国年轻人开展以60天为周期的调查，其副总监坦娅·米歇尔森指出：“千禧一代希望自己的生活有更大的灵活性。”这些发现可能同样适用于美国年轻人。",
+          "translation": "英国品牌管理机构YouthSight定期对英国年轻人开展为期60天的调查，其副总监坦娅·米歇尔森指出：“千禧一代希望自己的生活有更大的灵活性。”这些发现可能同样适用于美国年轻人。",
           "words": [
             {
               "a": 1,
               "b": 12,
-              "lemma": "millennial",
-              "meaning": "千禧一代（本篇指1981—1995年间出生的人）",
               "word": "Millennials",
-              "pos": "n"
+              "lemma": "millennial",
+              "pos": "n",
+              "meaning": "千禧一代成员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 19,
+              "word": "wanted",
+              "lemma": "want",
+              "pos": "v",
+              "meaning": "想要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 24,
+              "word": "more",
+              "lemma": "more",
+              "pos": "a",
+              "meaning": "更多的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 36,
+              "word": "flexibility",
+              "lemma": "flexibility",
+              "pos": "n",
+              "meaning": "灵活性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 39,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……期间或范围内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 45,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 51,
+              "word": "lives",
+              "lemma": "life",
+              "pos": "n",
+              "meaning": "生活",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 59,
+              "word": "notes",
+              "lemma": "note",
+              "pos": "v",
+              "meaning": "指出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 65,
+              "word": "Tanya",
+              "lemma": "Tanya",
+              "pos": "name",
+              "meaning": "坦娅（姓名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 75,
+              "word": "Michelsen",
+              "lemma": "Michelsen",
+              "pos": "name",
+              "meaning": "米歇尔森（姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 86,
+              "word": "Associate",
+              "lemma": "Associate",
+              "pos": "a",
+              "meaning": "副的（职称修饰语）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 95,
+              "word": "Director",
+              "lemma": "Director",
+              "pos": "n",
+              "meaning": "总监",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 98,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 109,
+              "word": "YouthSight",
+              "lemma": "YouthSight",
+              "pos": "name",
+              "meaning": "YouthSight（英国市场研究机构名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 112,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 121,
+              "word": "UK-based",
+              "lemma": "UK-based",
+              "pos": "a",
+              "meaning": "总部位于英国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 127,
+              "word": "brand",
+              "lemma": "brand",
+              "pos": "n",
+              "meaning": "品牌",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 135,
+              "word": "manager",
+              "lemma": "manager",
+              "pos": "n",
+              "meaning": "管理机构（本文指YouthSight）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 136,
+              "b": 140,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "与now构成既然；随着这一事实",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 149,
+              "word": "conducts",
+              "lemma": "conduct",
+              "pos": "v",
+              "meaning": "开展",
+              "reviewVersion": 2
+            },
+            {
+              "a": 150,
+              "b": 157,
+              "word": "regular",
+              "lemma": "regular",
+              "pos": "a",
+              "meaning": "定期的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 158,
+              "b": 164,
+              "word": "60-day",
+              "lemma": "60-day",
+              "pos": "a",
+              "meaning": "为期60天的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 165,
+              "b": 172,
+              "word": "surveys",
+              "lemma": "survey",
+              "pos": "n",
+              "meaning": "调查",
+              "reviewVersion": 2
+            },
+            {
+              "a": 173,
+              "b": 175,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 176,
+              "b": 183,
+              "word": "British",
+              "lemma": "British",
+              "pos": "a",
+              "meaning": "英国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 184,
+              "b": 189,
+              "word": "youth",
+              "lemma": "youth",
+              "pos": "n",
+              "meaning": "年轻人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 191,
+              "b": 193,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……期间或范围内",
+              "reviewVersion": 2
+            },
+            {
+              "a": 194,
+              "b": 202,
+              "word": "findings",
+              "lemma": "finding",
+              "pos": "n",
+              "meaning": "研究发现",
+              "reviewVersion": 2
+            },
+            {
+              "a": 203,
+              "b": 207,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "与now构成既然；随着这一事实",
+              "reviewVersion": 2
+            },
+            {
+              "a": 208,
+              "b": 213,
+              "word": "might",
+              "lemma": "might",
+              "pos": "aux",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 214,
+              "b": 218,
+              "word": "just",
+              "lemma": "just",
+              "pos": "adv",
+              "meaning": "同样地；恰恰",
+              "reviewVersion": 2
+            },
+            {
+              "a": 219,
+              "b": 221,
+              "word": "as",
+              "lemma": "as",
+              "pos": "adv",
+              "meaning": "同样地（as well搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 222,
+              "b": 226,
+              "word": "well",
+              "lemma": "well",
+              "pos": "adv",
+              "meaning": "也；同样（as well搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 227,
+              "b": 232,
+              "word": "apply",
+              "lemma": "apply",
+              "pos": "v",
+              "meaning": "适用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 233,
+              "b": 235,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "适用于的对象",
+              "reviewVersion": 2
+            },
+            {
+              "a": 236,
+              "b": 244,
+              "word": "American",
+              "lemma": "American",
+              "pos": "a",
+              "meaning": "美国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 245,
+              "b": 250,
+              "word": "youth",
+              "lemma": "youth",
+              "pos": "n",
+              "meaning": "年轻人",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -837,7 +4319,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "60-day按持续为期60天翻译，不自造每60天频率；机构身份与适用美国青年分开。",
+            "sentenceSHA256": "4810bc0a3eb78ff8375db505cfaad0658425159739cd555d2e1ffa4818db0407",
+            "words": 37,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2020-T4-P4-S3",
@@ -863,29 +4353,175 @@
           "translation": "“由于零工经济兴起，Z世代希望有更多确定性和稳定性。",
           "words": [
             {
+              "a": 1,
+              "b": 11,
+              "word": "Generation",
+              "lemma": "generation",
+              "pos": "n",
+              "meaning": "一代人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 14,
+              "word": "Zs",
+              "lemma": "Z",
+              "pos": "name",
+              "meaning": "Z世代成员（Z的复数指人）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 18,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "构成正在进行的动作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 26,
+              "word": "looking",
+              "lemma": "look",
+              "pos": "v",
+              "meaning": "寻找（与for连用）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 30,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "寻找、希望获得的对象（look for）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 35,
+              "word": "more",
+              "lemma": "more",
+              "pos": "a",
+              "meaning": "更多的",
+              "reviewVersion": 2
+            },
+            {
               "a": 36,
               "b": 45,
-              "lemma": "certainty",
-              "meaning": "确定性；可预期性",
               "word": "certainty",
-              "pos": "n"
+              "lemma": "certainty",
+              "pos": "n",
+              "meaning": "确定性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 49,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 50,
               "b": 59,
-              "lemma": "stability",
-              "meaning": "稳定性",
               "word": "stability",
-              "pos": "n"
+              "lemma": "stability",
+              "pos": "n",
+              "meaning": "稳定性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 68,
+              "word": "because",
+              "lemma": "because",
+              "pos": "conj",
+              "meaning": "由于（because of搭配）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 71,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 75,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 80,
+              "word": "rise",
+              "lemma": "rise",
+              "pos": "n",
+              "meaning": "兴起",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 83,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（所属或内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 87,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 91,
+              "word": "gig",
+              "lemma": "gig",
+              "pos": "n",
+              "meaning": "临时短期工作（gig economy指零工经济）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 99,
+              "word": "economy",
+              "lemma": "economy",
+              "pos": "n",
+              "meaning": "经济；经济形势",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
+            {
+              "a": 61,
+              "b": 71,
+              "word": "because of",
+              "lemma": "because of",
+              "meaning": "由于；因为",
+              "kind": "phrase"
+            },
             {
               "a": 88,
               "b": 99,
               "lemma": "gig economy",
               "meaning": "零工经济；以短期灵活工作为主的就业形式",
-              "word": "gig economy"
+              "word": "gig economy",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -894,7 +4530,15 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "because of为原因，gig economy指短期灵活零工，确定稳定为Z代需求。",
+            "sentenceSHA256": "89860cb0690bbca72dd8d81a4a7ef024760fa4a3d40ba5f8060962053ea25e05",
+            "words": 17,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2020-T4-P4-S4",
@@ -918,14 +4562,133 @@
           ],
           "reorder": "无需调序。",
           "translation": "他们难以看清自己的财务前景，而且非常不愿意冒风险。”",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "They",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 9,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "有；面临（困难）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 18,
+              "word": "troubles",
+              "lemma": "trouble",
+              "pos": "n",
+              "meaning": "困难",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 25,
+              "word": "seeing",
+              "lemma": "see",
+              "pos": "v",
+              "meaning": "看清；预见",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 27,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 37,
+              "word": "financial",
+              "lemma": "financial",
+              "pos": "a",
+              "meaning": "财务方面的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 44,
+              "word": "future",
+              "lemma": "future",
+              "pos": "a",
+              "meaning": "未来的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 48,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 53,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 57,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "处于所述风险态度",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 63,
+              "word": "quite",
+              "lemma": "quite",
+              "pos": "adv",
+              "meaning": "相当；很",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 68,
+              "word": "risk",
+              "lemma": "risk",
+              "pos": "n",
+              "meaning": "风险",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 75,
+              "word": "averse",
+              "lemma": "averse",
+              "pos": "a",
+              "meaning": "不愿面对、倾向规避的",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 64,
               "b": 75,
+              "word": "risk averse",
               "lemma": "risk averse",
               "meaning": "倾向于规避风险的",
-              "word": "risk averse"
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -934,9 +4697,30 @@
             "短语与从句切分",
             "否定比较与数量",
             "指代及本文词义"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "have troubles为面临困难，financial future是财务前景，risk averse是不愿冒险。",
+            "sentenceSHA256": "d6ba840d5de0fec11a1775f77e69deb64cab16fb940ffb4433e8697a17b27ec7",
+            "words": 13,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "ec29894ce7298e626aeef6d95ade04e041c33dc784eea4f6d20d4ce61f1e6308",
+    "sentences": 18,
+    "wordOccurrences": 413,
+    "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

@@ -1,0 +1,4285 @@
+{
+  "approved": [
+    {
+      "lemma": "shut down",
+      "reason": "shut down 固定表示停业或关闭",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "as a whole",
+      "reason": "as a whole 是固定状语，表示整体来看",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "foot traffic",
+      "reason": "foot traffic 是零售业常用的客流术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "upward of",
+      "reason": "upward of 是固定数量表达，表示超过",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "scale back",
+      "reason": "scale back 固定表示缩减规模",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "by accident",
+      "reason": "by accident 固定表示偶然地",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "chip in",
+      "reason": "chip in 固定表示凑钱或出一份力",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "out of date",
+      "reason": "out of date 固定表示过时",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "life expectancy",
+      "reason": "life expectancy 为预期寿命的常用人口学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "infant mortality",
+      "reason": "infant mortality 为婴儿死亡率的常用卫生术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "breaking point",
+      "reason": "breaking point 为承受能力的极限这一惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "primary care",
+      "reason": "primary care 为初级医疗保健的通用术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "social care",
+      "reason": "social care 为社会照护服务的通用术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "long-term condition",
+      "reason": "long-term condition 为长期健康问题的医疗服务术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "think tank",
+      "reason": "think tank 是智库的约定称呼",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "account for",
+      "reason": "account for 固定表示解释原因或占据比例",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "social determinants of health",
+      "reason": "social determinants of health 是健康社会决定因素的完整公共卫生术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "price tag",
+      "reason": "price tag 是价格标签或价码的惯用组合",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "swap out",
+      "reason": "swap out 是换出原部件或替换的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "done our bit",
+      "reason": "do one's bit 是尽自己一份力的习语，our 为固定人称槽位",
+      "category": "固定表达",
+      "canonical": "do one's bit"
+    },
+    {
+      "lemma": "moral licensing",
+      "reason": "moral licensing 是道德许可效应这一行为科学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "in charge",
+      "reason": "in charge 固定表示负责或掌管",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "systemic change",
+      "reason": "systemic change 是制度或系统层面改变的常见政策术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "balance of power",
+      "reason": "balance of power 为权力平衡的政治学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "write off",
+      "reason": "write off 固定表示注销或认定无望",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "rein in",
+      "reason": "rein in 固定表示约束或控制",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "in accordance with",
+      "reason": "in accordance with 固定表示依照",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "in person",
+      "reason": "in person 固定表示亲自到场",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "associated with",
+      "reason": "be associated with 固定表示与某事有关联",
+      "category": "惯用搭配",
+      "canonical": "be associated with"
+    },
+    {
+      "lemma": "vision test",
+      "reason": "vision test 是视力检查的约定医疗或执照检查术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "have one's hands full",
+      "reason": "have one's hands full 是忙得不可开交的习语",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "follow through",
+      "reason": "follow through 固定表示把行动贯彻到底",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "attuned to",
+      "reason": "be attuned to 为熟悉或敏锐察觉的固定搭配",
+      "category": "惯用搭配",
+      "canonical": "be attuned to"
+    },
+    {
+      "lemma": "cooperate with",
+      "reason": "cooperate with 为与某人合作的常见动词介词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "on average",
+      "reason": "on average 固定表示平均而言",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "set free",
+      "reason": "set free 为释放的惯用动词搭配",
+      "category": "固定动词短语",
+      "canonical": "set ... free",
+      "meaning": "释放……；放走……"
+    },
+    {
+      "lemma": "bond with",
+      "reason": "bond with 是与某人建立情感联系的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "return the favour",
+      "reason": "return the favour 固定表示回报别人的帮助",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "refer to as",
+      "reason": "refer to ... as ... 是称作某名称的固定框架",
+      "category": "惯用搭配",
+      "canonical": "refer to ... as ...",
+      "meaning": "把……称为……"
+    },
+    {
+      "lemma": "have to",
+      "reason": "have to 为表示必须的固定半情态结构",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "as if",
+      "reason": "as if 为表示好像的固定连接表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "turn out",
+      "reason": "turn out 固定表示结果证明或最终成为",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "catch up",
+      "reason": "catch up 固定表示赶上",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "break down",
+      "reason": "break down 为分解或发生故障等固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "packed to the brim",
+      "reason": "to the brim 是满到边缘的惯用表达，packed 为常见搭配动词",
+      "category": "固定表达",
+      "canonical": "packed to the brim"
+    },
+    {
+      "lemma": "career change",
+      "reason": "career change 是转行或转换职业的常用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "based on",
+      "reason": "be based on 为以某事为基础的固定搭配",
+      "category": "惯用搭配",
+      "canonical": "be based on"
+    },
+    {
+      "lemma": "apply to",
+      "reason": "apply to 为适用于或向某处申请的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "trade group",
+      "reason": "trade group 是行业协会的常见机构类型术语，非具体机构名",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "appeals court",
+      "reason": "appeals court 是上诉法院这一通用司法机构类型",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "breast cancer",
+      "reason": "breast cancer 为乳腺癌的医学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "personalised medicine",
+      "reason": "personalised medicine 为个体化医疗的常用医学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "product of nature",
+      "reason": "product of nature 在本篇专利法中指天然产物的法律概念",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "file a brief",
+      "reason": "file a brief 为提交法律意见书这一常用法律搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "public domain",
+      "reason": "public domain 为公有领域的法律术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "connecting the dots",
+      "reason": "connect the dots 为把线索联系起来的习语，connecting 是合理词形变化",
+      "category": "固定表达",
+      "canonical": "connect the dots",
+      "meaning": "把线索联系起来"
+    },
+    {
+      "lemma": "for good",
+      "reason": "for good 固定表示永久地",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "birds of passage",
+      "reason": "birds of passage 为候鸟或来去匆匆者的惯用说法",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "uccelli di passaggio",
+      "reason": "意大利语固定说法，字面为候鸟，本文用作 birds of passage 的外语引语",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "in the making",
+      "reason": "in the making 固定表示形成或发展中",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "kicked out",
+      "reason": "kick out 固定表示赶走或开除，kicked 为过去词形",
+      "category": "固定动词短语",
+      "canonical": "kick out"
+    },
+    {
+      "lemma": "gray areas",
+      "reason": "gray area 为灰色地带或界限不清领域的惯用比喻",
+      "category": "惯用搭配",
+      "canonical": "gray area"
+    },
+    {
+      "lemma": "come and go",
+      "reason": "come and go 为来来去去的固定并列表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "with ease",
+      "reason": "with ease 固定表示轻松地",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "middle ground",
+      "reason": "middle ground 为折中立场的惯用表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "cross section",
+      "reason": "cross section 为横截面或具有代表性的抽样群体的约定术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "on account of",
+      "reason": "on account of 固定表示因为",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "are entitled to",
+      "reason": "be entitled to 为有权获得或享有的固定搭配",
+      "category": "惯用搭配",
+      "canonical": "be entitled to"
+    },
+    {
+      "lemma": "the letter of the law",
+      "reason": "the letter of the law 为法律条文字面含义的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "jury system",
+      "reason": "jury system 是陪审制度这一法律制度术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "national origin",
+      "reason": "national origin 为民族或国别来源的反歧视法律概念",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "representative democracy",
+      "reason": "representative democracy 为代议民主制的政治术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "take turns",
+      "reason": "take turns 固定表示轮流",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "as recently as",
+      "reason": "as recently as 为强调某事晚近发生时间的惯用时间结构",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "blue-ribbon juries",
+      "reason": "blue-ribbon jury 为由特选成员组成陪审团的法律用语",
+      "category": "约定俗成术语",
+      "canonical": "blue-ribbon jury"
+    },
+    {
+      "lemma": "exempt from",
+      "reason": "exempt ... from ... 为豁免某责任的固定动词介词框架",
+      "category": "惯用搭配",
+      "canonical": "exempt ... from ...",
+      "meaning": "使……免除……义务或责任"
+    },
+    {
+      "lemma": "ushering in",
+      "reason": "usher in 为开创或迎来新时期的固定短语，ushering 是变形",
+      "category": "固定动词短语",
+      "canonical": "usher in"
+    },
+    {
+      "lemma": "at random",
+      "reason": "at random 固定表示随机地",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "set off",
+      "reason": "set off 为引发或出发等固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "run-up to",
+      "reason": "run-up to 为某事件之前的准备阶段这一惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "time trial",
+      "reason": "time trial 为计时赛的体育术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "mixed up",
+      "reason": "mix up 为混淆或卷入的固定短语，mixed 为词形变化",
+      "category": "固定动词短语",
+      "canonical": "mix up"
+    },
+    {
+      "lemma": "preside over",
+      "reason": "preside over 为主持或掌管的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "prone to",
+      "reason": "be prone to 为容易倾向于的固定搭配",
+      "category": "惯用搭配",
+      "canonical": "be prone to"
+    },
+    {
+      "lemma": "snap decisions",
+      "reason": "snap decision 是仓促决定的惯用搭配",
+      "category": "惯用搭配",
+      "canonical": "snap decision"
+    },
+    {
+      "lemma": "has little to do with",
+      "reason": "have little to do with 为与某事几乎无关的固定结构",
+      "category": "固定表达",
+      "canonical": "have little to do with"
+    },
+    {
+      "lemma": "real estate agents",
+      "reason": "real estate agent 为房地产经纪人的职业术语",
+      "category": "约定俗成术语",
+      "canonical": "real estate agent"
+    },
+    {
+      "lemma": "thin slice",
+      "reason": "thin slice 在本文为薄片观察法的心理学用语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "rise above",
+      "reason": "rise above 固定表示超越某限制",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "fuse A to B",
+      "reason": "fuse A to B 为把两者紧密结合的固定动词介词框架",
+      "category": "惯用搭配",
+      "meaning": "把 A 与 B 紧密结合或绑定"
+    },
+    {
+      "lemma": "what is more",
+      "reason": "what is more 固定表示此外或更有甚者",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "came into its own",
+      "reason": "come into one's own 为充分发挥作用或显出价值的习语",
+      "category": "固定表达",
+      "canonical": "come into one's own"
+    },
+    {
+      "lemma": "department stores",
+      "reason": "department store 为百货商店的商业业态术语",
+      "category": "约定俗成术语",
+      "canonical": "department store"
+    },
+    {
+      "lemma": "stepping stone",
+      "reason": "stepping stone 为垫脚石或晋身之阶的惯用比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "make it",
+      "reason": "make it 为取得成功等含义的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "as well as",
+      "reason": "as well as 为以及或除之外还的固定连接表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "lost faith",
+      "reason": "lose faith 为失去信心的惯用搭配，lost 为过去词形",
+      "category": "惯用搭配",
+      "canonical": "lose faith"
+    },
+    {
+      "lemma": "quick fix",
+      "reason": "quick fix 为权宜解决办法的惯用表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "thanks to",
+      "reason": "thanks to 固定表示由于或多亏",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "agree on",
+      "reason": "agree on 为就某事达成一致的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "fiscal transfers",
+      "reason": "fiscal transfer 为财政转移支付的经济政策术语",
+      "category": "约定俗成术语",
+      "canonical": "fiscal transfer"
+    },
+    {
+      "lemma": "labour costs",
+      "reason": "labour cost 为劳动力成本的常用经济术语",
+      "category": "约定俗成术语",
+      "canonical": "labour cost"
+    },
+    {
+      "lemma": "at its best",
+      "reason": "at one's best 为在最佳状态或最理想情况下的固定表达",
+      "category": "固定表达",
+      "canonical": "at one's best"
+    },
+    {
+      "lemma": "trade body",
+      "reason": "trade body 为行业协会这一通用组织类型术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "net importer",
+      "reason": "net importer 为净进口方的贸易术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "go far enough",
+      "reason": "go far enough 为达到足够程度的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "exposed to",
+      "reason": "be exposed to 为接触或暴露于的固定搭配",
+      "category": "惯用搭配",
+      "canonical": "be exposed to"
+    },
+    {
+      "lemma": "on the ground",
+      "reason": "on the ground 固定表示在现场或实际情况中",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "deep work",
+      "reason": "deep work 为深度工作这一专门认知工作概念",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "put a premium on",
+      "reason": "put a premium on 为重视或使更有价值的惯用搭配",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "stick to",
+      "reason": "stick to 固定表示坚持或遵守",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "set out",
+      "reason": "set out 固定表示出发或着手",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "day by day",
+      "reason": "day by day 固定表示一天天地",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "when it comes to",
+      "reason": "when it comes to 固定表示谈到某事时",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "leave room for",
+      "reason": "leave room for 为给某事留下余地的惯用搭配",
+      "category": "惯用搭配",
+      "meaning": "给……留下余地"
+    },
+    {
+      "lemma": "heat action plan",
+      "reason": "heat action plan 为高温应对行动计划的公共卫生政策术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "spell out",
+      "reason": "spell out 固定表示明确说明",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "set aside",
+      "reason": "set aside 固定表示留出或暂不考虑",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "shy of",
+      "reason": "shy of 固定表示不足或未达到某数量",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "heat wave",
+      "reason": "heat wave 为热浪这一气象术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "vulnerability map",
+      "reason": "vulnerability map 为脆弱性分布图这一风险评估术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "in the event of",
+      "reason": "in the event of 固定表示如果发生",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "leave behind",
+      "reason": "leave behind 固定表示落下或把某物留在后面",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "in demand",
+      "reason": "in demand 固定表示有需求或受欢迎",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "let go of",
+      "reason": "let go of 为放开或放弃的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "gold standard",
+      "reason": "gold standard 为金本位或权威参照标准的约定术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "rather than",
+      "reason": "rather than 为而不是的固定连接表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "skills mismatch",
+      "reason": "skills mismatch 为技能错配的劳动经济学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "turn to",
+      "reason": "turn to 固定表示转向或求助于",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "at best",
+      "reason": "at best 固定表示充其量或往最好处说",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "as of",
+      "reason": "as of 固定表示截至某时点",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "of course",
+      "reason": "of course 固定表示当然",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "no matter",
+      "reason": "no matter 为无论如何这一让步框架的固定成分",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "to the benefit of",
+      "reason": "to the benefit of 为使某方受益的惯用介词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "cabin staff",
+      "reason": "cabin staff 为客舱机组人员的职业称谓",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "start up",
+      "reason": "start up 固定表示创办或启动",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "lining up",
+      "reason": "line up 固定表示排队或安排，lining 为词形变化",
+      "category": "固定动词短语",
+      "canonical": "line up"
+    },
+    {
+      "lemma": "common sense",
+      "reason": "common sense 为常识的约定表达，亦在用户清单中",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "in combination with",
+      "reason": "in combination with 固定表示与某事结合",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "less is more",
+      "reason": "less is more 为少即是多的固定格言",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "derive from",
+      "reason": "derive from 为来源于的固定动词介词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "take for granted",
+      "reason": "take ... for granted 为认为理所当然的习语框架",
+      "category": "固定表达",
+      "canonical": "take ... for granted"
+    },
+    {
+      "lemma": "laminated wood",
+      "reason": "laminated wood 为层压木材的材料术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "contrary to",
+      "reason": "contrary to 为与某事相反的固定介词表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "conventional wisdom",
+      "reason": "conventional wisdom 为普遍接受的看法这一约定表达",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "hold true",
+      "reason": "hold true 固定表示仍然正确或成立",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "kick back",
+      "reason": "kick back 固定表示放松休息",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "playing catch-up",
+      "reason": "play catch-up 为努力追赶的惯用表达，playing 为词形变化",
+      "category": "固定表达",
+      "canonical": "play catch-up"
+    },
+    {
+      "lemma": "home front",
+      "reason": "home front 为大后方或家庭事务领域的惯用表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "draw an income",
+      "reason": "draw an income 为领取或获得收入的常用动词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "pretty much",
+      "reason": "pretty much 固定表示几乎或差不多",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "lay out",
+      "reason": "lay out 固定表示安排、展示或花费",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "talk into",
+      "reason": "talk ... into ... 为说服某人做事的固定框架",
+      "category": "惯用搭配",
+      "canonical": "talk ... into doing ..."
+    },
+    {
+      "lemma": "sign up for",
+      "reason": "sign up for 为报名或承诺参加的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "corporate ladder",
+      "reason": "corporate ladder 为企业晋升阶梯的惯用比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "glass ceiling",
+      "reason": "glass ceiling 为无形晋升壁垒的固定比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "legally binding",
+      "reason": "legally binding 为具有法律约束力的惯用法律搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "run counter to",
+      "reason": "run counter to 为与某事相违背的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "exception to the rule",
+      "reason": "exception to the rule 为常态之外的例外这一惯用表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "in place",
+      "reason": "in place 固定表示到位或就绪",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "living room",
+      "reason": "living room 为客厅的约定房间称谓",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "in agreement",
+      "reason": "in agreement 为意见一致的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "burst into laughter",
+      "reason": "burst into laughter 为突然大笑的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "tend to",
+      "reason": "tend to 为往往或倾向于的常见动词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "wreaking havoc",
+      "reason": "wreak havoc 为造成严重破坏的惯用搭配，wreaking 为词形变化",
+      "category": "惯用搭配",
+      "canonical": "wreak havoc"
+    },
+    {
+      "lemma": "amount to",
+      "reason": "amount to 固定表示相当于或总计",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "give up",
+      "reason": "give up 固定表示放弃",
+      "category": "固定动词短语",
+      "meaning": "放弃"
+    },
+    {
+      "lemma": "first and foremost",
+      "reason": "first and foremost 为首要的是这一固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "take note",
+      "reason": "take note 固定表示留意",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "best practice",
+      "reason": "best practice 为最佳实践的通用管理术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "back away from",
+      "reason": "back away from 固定表示退缩或不再支持",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "fall victim",
+      "reason": "fall victim 为成为受害者的惯用搭配",
+      "category": "惯用搭配",
+      "canonical": "fall victim to"
+    },
+    {
+      "lemma": "spill the beans",
+      "reason": "spill the beans 为泄露秘密的固定习语",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "desire path",
+      "reason": "desire path 为自发形成便捷路径的规划设计术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "dirt track",
+      "reason": "dirt track 为土路或土质跑道的约定称谓",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "cut corners",
+      "reason": "cut corners 为图省事而偷工减料的习语",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "adhere to",
+      "reason": "adhere to 为遵守或坚持的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "Native American",
+      "reason": "Native American 为美洲原住民的通用族群称谓，非特定个人名",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "grocery chain",
+      "reason": "grocery chain 为连锁食品杂货商的商业业态称谓",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "go through",
+      "reason": "go through 固定表示经历或仔细检查",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "party whip",
+      "reason": "party whip 为政党督导的政治职位术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "competition law",
+      "reason": "competition law 为竞争法的法律领域术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "take a shortcut",
+      "reason": "take a shortcut 为走捷径的惯用动词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "pay the price",
+      "reason": "pay the price 为付出代价的固定比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "in line with",
+      "reason": "in line with 为与某事一致的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "cut through",
+      "reason": "cut through 为穿过或突破表面障碍的固定短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "call for",
+      "reason": "call for 固定表示要求或需要",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "point out",
+      "reason": "point out 固定表示指出",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "weed killer",
+      "reason": "weed killer 为除草剂的约定产品称谓",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "in response to",
+      "reason": "in response to 为响应某事的固定介词表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "comply with",
+      "reason": "comply with 为遵守要求的固定动词介词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "soak up",
+      "reason": "soak up 固定表示吸收",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "count on",
+      "reason": "count on 固定表示指望或依靠",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "carbon sinks",
+      "reason": "carbon sink 为碳汇的环境科学术语",
+      "category": "约定俗成术语",
+      "canonical": "carbon sink"
+    },
+    {
+      "lemma": "thin out",
+      "reason": "thin out 固定表示变稀或使减少",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "carbon-carrying capacity",
+      "reason": "carbon-carrying capacity 为碳承载能力的生态学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "fend off",
+      "reason": "fend off 固定表示抵挡或避开",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "lock away",
+      "reason": "lock away 为锁起或封存的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "under way",
+      "reason": "under way 为正在进行的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "chances are",
+      "reason": "chances are 为很可能的惯用引导结构",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "fitness tracker",
+      "reason": "fitness tracker 为健身或活动追踪器的通用设备名称",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "keep track of",
+      "reason": "keep track of 为持续掌握进展的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "in some shape or form",
+      "reason": "in some shape or form 为以某种形式的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "third party",
+      "reason": "third party 为第三方的法律及一般业务术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "consent order",
+      "reason": "consent order 为经同意作出的命令这一法律程序术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "affirmative consent",
+      "reason": "affirmative consent 为明确积极同意的法律隐私术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "after the fact",
+      "reason": "after the fact 固定表示事后",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "enforcement action",
+      "reason": "enforcement action 为执法行动这一法律程序用语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "hit the market",
+      "reason": "hit the market 为产品上市的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "shore up",
+      "reason": "shore up 固定表示支撑或加强",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "at the forefront",
+      "reason": "at the forefront 为处于前沿的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "labor shortages",
+      "reason": "labor shortage 为劳动力短缺的经济学术语",
+      "category": "约定俗成术语",
+      "canonical": "labor shortage"
+    },
+    {
+      "lemma": "undocumented immigrants",
+      "reason": "undocumented immigrant 为无合法证件移民的通用法律社会称谓",
+      "category": "约定俗成术语",
+      "canonical": "undocumented immigrant"
+    },
+    {
+      "lemma": "hard on",
+      "reason": "be hard on 为使某人难受或苛待的固定搭配",
+      "category": "惯用搭配",
+      "canonical": "be hard on"
+    },
+    {
+      "lemma": "dairy farms",
+      "reason": "dairy farm 为奶牛场的农业业态称谓",
+      "category": "约定俗成术语",
+      "canonical": "dairy farm"
+    },
+    {
+      "lemma": "guest workers",
+      "reason": "guest worker 为外来劳工的就业移民政策称谓",
+      "category": "约定俗成术语",
+      "canonical": "guest worker"
+    },
+    {
+      "lemma": "fossil fuels",
+      "reason": "fossil fuel 为化石燃料的能源术语",
+      "category": "约定俗成术语",
+      "canonical": "fossil fuel"
+    },
+    {
+      "lemma": "pick up momentum",
+      "reason": "pick up momentum 为势头增强的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "on line",
+      "reason": "on line 为投入运行这一固定表达，语境需与在线义区分",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "stems from",
+      "reason": "stem from 为源于的固定搭配，stems 为词形变化",
+      "category": "惯用搭配",
+      "canonical": "stem from"
+    },
+    {
+      "lemma": "play well with",
+      "reason": "play well with 为与某物兼容或相处好的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "storage capacity",
+      "reason": "storage capacity 为储存容量的技术术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "around the clock",
+      "reason": "around the clock 为全天不间断的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "alternative energy",
+      "reason": "alternative energy 为替代能源的常用能源术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "by design",
+      "reason": "by design 固定表示有意地或按设计",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "next big thing",
+      "reason": "the next big thing 为下一个热门趋势的惯用说法",
+      "category": "固定表达",
+      "canonical": "the next big thing"
+    },
+    {
+      "lemma": "make one's debut",
+      "reason": "make one's debut 为首次亮相的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "a dozen",
+      "reason": "a dozen 为十二个这一固定数量表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "regenerative agriculture",
+      "reason": "regenerative agriculture 为再生农业的农业术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "greenhouse gas",
+      "reason": "greenhouse gas 为温室气体的环境科学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "cover crop",
+      "reason": "cover crop 为覆盖作物的农业术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "forage for",
+      "reason": "forage for 为搜寻食物的固定动词介词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "good for",
+      "reason": "be good for 为有益于的惯用形容词搭配",
+      "category": "惯用搭配",
+      "canonical": "be good for"
+    },
+    {
+      "lemma": "niche product",
+      "reason": "niche product 为面向细分市场产品的营销术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "plant-based meat",
+      "reason": "plant-based meat 为植物基肉的食品产品术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "open the floodgates",
+      "reason": "open the floodgates 为打开闸门而使大量涌入的固定比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "a hard sell",
+      "reason": "a hard sell 为难以推销或说服的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "if any",
+      "reason": "if any 为即使有的话的固定插入表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "be chalked up to",
+      "reason": "be chalked up to 为被归因为的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "chalk up to",
+      "reason": "chalk ... up to ... 为把某事归因于的固定动词框架",
+      "category": "固定动词短语",
+      "canonical": "chalk ... up to ..."
+    },
+    {
+      "lemma": "food chain",
+      "reason": "food chain 为食物链的生态学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "in terms of",
+      "reason": "in terms of 为从某方面而言的固定介词表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "media coverage",
+      "reason": "media coverage 为媒体报道的新闻传播通用术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "spare capacity",
+      "reason": "spare capacity 为闲置或备用产能的常用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "instead of",
+      "reason": "instead of 为代替或而不是的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "figure out",
+      "reason": "figure out 固定表示弄清楚",
+      "category": "固定动词短语",
+      "meaning": "弄清楚"
+    },
+    {
+      "lemma": "turned to",
+      "reason": "turn to 固定表示转向或求助，turned 为词形变化",
+      "category": "固定动词短语",
+      "canonical": "turn to"
+    },
+    {
+      "lemma": "skin moisturizers",
+      "reason": "skin moisturizer 为润肤霜的通用产品名称",
+      "category": "约定俗成术语",
+      "canonical": "skin moisturizer"
+    },
+    {
+      "lemma": "fabric softeners",
+      "reason": "fabric softener 为织物柔顺剂的通用产品名称",
+      "category": "约定俗成术语",
+      "canonical": "fabric softener"
+    },
+    {
+      "lemma": "chewing gum",
+      "reason": "chewing gum 为口香糖的约定名称",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "disinfecting wipe",
+      "reason": "disinfecting wipe 为消毒湿巾的通用产品名称",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "air freshener",
+      "reason": "air freshener 为空气清新剂的通用产品名称",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "water purifier",
+      "reason": "water purifier 为净水器的通用产品名称",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "teeth whitener",
+      "reason": "teeth whitener 为牙齿美白剂的通用产品名称",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "pearly whites",
+      "reason": "pearly whites 为洁白牙齿的惯用俗称",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "all day long",
+      "reason": "all day long 为一整天的固定时间表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "breath freshener",
+      "reason": "breath freshener 为口气清新剂的通用产品名称",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "put on makeup",
+      "reason": "put on makeup 为化妆的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "commercially viable",
+      "reason": "commercially viable 为商业上可行的常用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "could do worse than",
+      "reason": "could do worse than 为不妨做某事这一反说式固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "wears off",
+      "reason": "wear off 固定表示逐渐消退，wears 为词形变化",
+      "category": "固定动词短语",
+      "canonical": "wear off"
+    },
+    {
+      "lemma": "creeps in",
+      "reason": "creep in 固定表示悄然出现，creeps 为词形变化",
+      "category": "固定动词短语",
+      "canonical": "creep in"
+    },
+    {
+      "lemma": "with time",
+      "reason": "with time 为随着时间推移的惯用时间表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "wage slaves",
+      "reason": "wage slave 为工资奴隶或打工奴的固定比喻",
+      "category": "固定表达",
+      "canonical": "wage slave"
+    },
+    {
+      "lemma": "bang for your buck",
+      "reason": "bang for your buck 为金钱所得回报的固定习语",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "better off",
+      "reason": "better off 为处境更好的固定比较表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "money well spent",
+      "reason": "money well spent 为花得值的钱这一惯用表达",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "life course",
+      "reason": "life course 为生命历程的社会学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "silver linings",
+      "reason": "silver lining 为逆境中的希望这一固定比喻",
+      "category": "固定表达",
+      "canonical": "silver lining"
+    },
+    {
+      "lemma": "at the very least",
+      "reason": "at the very least 为至少的强调式固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "put an end to",
+      "reason": "put an end to 为使结束的固定搭配",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "for the most part",
+      "reason": "for the most part 为大体上或主要地的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "income inequality",
+      "reason": "income inequality 为收入不平等的经济社会术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "left behind",
+      "reason": "leave behind 为落下或遗留的固定短语，left 为词形变化",
+      "category": "固定动词短语",
+      "canonical": "leave behind"
+    },
+    {
+      "lemma": "lean times",
+      "reason": "lean times 为经济不景气时期的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "social fabric",
+      "reason": "social fabric 为社会结构与关系网络的社会学惯用术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "wait and see",
+      "reason": "wait and see 为静观其变的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "all the more so",
+      "reason": "all the more so 为更加如此的固定强调表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "whatever happened to",
+      "reason": "whatever happened to 为某人某物如今如何了的惯用问句框架",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "shrugged off",
+      "reason": "shrug off 为不在乎或摆脱的固定短语，shrugged 为词形变化",
+      "category": "固定动词短语",
+      "canonical": "shrug off"
+    },
+    {
+      "lemma": "returned to profit",
+      "reason": "return to profit 为扭亏为盈的常用财务搭配",
+      "category": "惯用搭配",
+      "canonical": "return to profit"
+    },
+    {
+      "lemma": "profit margins",
+      "reason": "profit margin 为利润率的财务术语",
+      "category": "约定俗成术语",
+      "canonical": "profit margin"
+    },
+    {
+      "lemma": "all the same",
+      "reason": "all the same 为尽管如此或仍然的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "stayed afloat",
+      "reason": "stay afloat 为维持运营或不破产的惯用比喻，stayed 为词形变化",
+      "category": "惯用搭配",
+      "canonical": "stay afloat"
+    },
+    {
+      "lemma": "had the nerve to",
+      "reason": "have the nerve to 为竟敢做某事的惯用表达，had 为词形变化",
+      "category": "固定表达",
+      "canonical": "have the nerve to"
+    },
+    {
+      "lemma": "according to",
+      "reason": "according to 为根据的固定介词表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "foreign bureaus",
+      "reason": "foreign bureau 为新闻媒体驻外分社的行业称谓",
+      "category": "约定俗成术语",
+      "canonical": "foreign bureau"
+    },
+    {
+      "lemma": "as a result",
+      "reason": "as a result 固定表示因此或结果",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "public funds",
+      "reason": "public funds 为公共资金的财政法律通用术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "public expenditure",
+      "reason": "public expenditure 为公共支出的财政术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "magnifying glass",
+      "reason": "magnifying glass 为放大镜的约定器具名称",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "at the expense of",
+      "reason": "at the expense of 为以牺牲某事为代价的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "go both ways",
+      "reason": "go both ways 为双向适用的惯用表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "out of necessity",
+      "reason": "out of necessity 为出于必要的固定介词表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "tease out",
+      "reason": "tease out 为梳理出或逐步理清的固定短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "above average effect",
+      "reason": "above average effect 为高于平均水平效应的心理学术语，本文与 illusory superiority 同指",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "illusory superiority",
+      "reason": "illusory superiority 为虚幻优越感的心理学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "hot stuff",
+      "reason": "hot stuff 为了不起的人或事的惯用俗语",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "make up for",
+      "reason": "make up for 为弥补的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "makes sense",
+      "reason": "make sense 为讲得通的固定搭配，makes 为词形变化",
+      "category": "惯用搭配",
+      "canonical": "make sense",
+      "meaning": "有道理；讲得通"
+    },
+    {
+      "lemma": "the cream of",
+      "reason": "the cream of 为最精华部分或佼佼者的惯用比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "lingua franca",
+      "reason": "lingua franca 为通用语言的约定语言学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "spin off",
+      "reason": "spin off 为分拆或衍生的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "by coincidence",
+      "reason": "by coincidence 为巧合地的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "big deal",
+      "reason": "big deal 为重要的事的惯用表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "a big deal",
+      "reason": "a big deal 为一件重要的事的惯用表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "infuse with",
+      "reason": "infuse ... with ... 为使充满某种性质的固定框架",
+      "category": "惯用搭配",
+      "canonical": "infuse ... with ..."
+    },
+    {
+      "lemma": "non-profit organizations",
+      "reason": "non-profit organization 为非营利组织的法律社会通用类型",
+      "category": "约定俗成术语",
+      "canonical": "non-profit organization"
+    },
+    {
+      "lemma": "work-life balance",
+      "reason": "work-life balance 为工作与生活平衡的常用社会职场术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "personal fulfillment",
+      "reason": "personal fulfillment 为个人成就感或自我实现满足感的常用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "mommy wars",
+      "reason": "mommy wars 为全职与职场母亲选择争论的约定社会讨论称谓",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "have it all",
+      "reason": "have it all 为兼得理想生活各方面的惯用表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "in its own right",
+      "reason": "in one's own right 为凭自身身份或能力的固定表达",
+      "category": "固定表达",
+      "canonical": "in one's own right"
+    },
+    {
+      "lemma": "devote oneself to",
+      "reason": "devote oneself to 为投入或献身于的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "makes fun of",
+      "reason": "make fun of 为取笑的固定搭配，makes 为词形变化",
+      "category": "固定表达",
+      "canonical": "make fun of"
+    },
+    {
+      "lemma": "office speak",
+      "reason": "office speak 为办公室套话或行话的惯用称呼",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "buy into",
+      "reason": "buy into 为相信或接受某观念的固定短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "relate to",
+      "reason": "relate to 为与某事有关或理解认同的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "indifferent to",
+      "reason": "be indifferent to 为对某事漠不关心的固定搭配",
+      "category": "惯用搭配",
+      "canonical": "be indifferent to"
+    },
+    {
+      "lemma": "outside director",
+      "reason": "outside director 为外部董事的公司治理术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "under fire",
+      "reason": "under fire 为受到抨击的固定比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "taking up",
+      "reason": "take up 为开始从事或占用的固定短语，taking 为词形变化",
+      "category": "固定动词短语",
+      "canonical": "take up"
+    },
+    {
+      "lemma": "chief executive",
+      "reason": "chief executive 为首席执行官的职位术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "proxy statement",
+      "reason": "proxy statement 为股东投票委托书的证券法律术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "restate earnings",
+      "reason": "restate earnings 为重述收益的常用会计搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "class-action lawsuit",
+      "reason": "class-action lawsuit 为集体诉讼的法律术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "trade up",
+      "reason": "trade up 为升级更换到较好者的固定短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "guess what",
+      "reason": "guess what 为你猜怎么着的固定口语引导",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "cognitive offloading",
+      "reason": "cognitive offloading 为认知卸载的心理学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "external hard drive",
+      "reason": "external hard drive 为外置硬盘的计算机设备术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "data bank",
+      "reason": "data bank 为数据库或数据资料库的技术术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "conceptual thinking",
+      "reason": "conceptual thinking 为概念思维的认知教育术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "interfere with",
+      "reason": "interfere with 为妨碍或干扰的固定动词介词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "for the better",
+      "reason": "for the better 为向更好方向的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "accepted wisdom",
+      "reason": "accepted wisdom 为普遍接受的看法的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "vocational education",
+      "reason": "vocational education 为职业教育的教育术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "economic engine",
+      "reason": "economic engine 为经济驱动引擎的惯用比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "job security",
+      "reason": "job security 为工作稳定性的职场术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "wake-up call",
+      "reason": "wake-up call 为警钟或提醒的固定比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "at least",
+      "reason": "at least 固定表示至少",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "settle down",
+      "reason": "settle down 固定表示安定下来",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "mentally fit",
+      "reason": "mentally fit 为精神状态良好或头脑健全的常用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "labor force",
+      "reason": "labor force 为劳动力人口的经济学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "all-time low",
+      "reason": "all-time low 为历史最低点的惯用数量搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "money manager",
+      "reason": "money manager 为投资管理者的金融职业称谓",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "nest egg",
+      "reason": "nest egg 为储蓄备用金的固定比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "in anticipation of",
+      "reason": "in anticipation of 为预期或为准备某事的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "retirement account",
+      "reason": "retirement account 为退休账户的金融制度术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "life insurance",
+      "reason": "life insurance 为人寿保险的保险术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "make ends meet",
+      "reason": "make ends meet 为收支相抵的固定习语",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "start a family",
+      "reason": "start a family 为生育建立家庭的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "get married",
+      "reason": "get married 为结婚的常用固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "first impressions",
+      "reason": "first impression 为第一印象的惯用搭配",
+      "category": "惯用搭配",
+      "canonical": "first impression"
+    },
+    {
+      "lemma": "thin slices",
+      "reason": "thin slice 在本文为薄片观察法的心理学用语",
+      "category": "约定俗成术语",
+      "canonical": "thin slice"
+    },
+    {
+      "lemma": "not only",
+      "reason": "not only 为不仅而且结构中的固定关联成分",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "correlate with",
+      "reason": "correlate with 为与某事相关的固定统计学搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "working memory",
+      "reason": "working memory 为工作记忆的认知心理学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "social processing",
+      "reason": "social processing 为社会信息加工的认知心理学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "write down",
+      "reason": "write down 固定表示记下",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "rely on",
+      "reason": "rely on 为依靠的固定动词介词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "stick shift",
+      "reason": "stick shift 为手动挡变速器的汽车术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "on automatic pilot",
+      "reason": "on automatic pilot 为自动驾驶或不加思索行动的惯用表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "align with",
+      "reason": "align with 为与某事保持一致的常用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "only if",
+      "reason": "only if 为只有在某条件下的固定连接表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "reflective thinking",
+      "reason": "reflective thinking 为反思性思维的认知教育术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "figures of speech",
+      "reason": "figure of speech 为修辞格的语言学术语",
+      "category": "约定俗成术语",
+      "canonical": "figure of speech"
+    },
+    {
+      "lemma": "spring to mind",
+      "reason": "spring to mind 为突然想起的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "up and down the country",
+      "reason": "up and down the country 为全国各地的惯用表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "a hive of activity",
+      "reason": "a hive of activity 为一片繁忙景象的固定比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "at the heart of",
+      "reason": "at the heart of 为处于核心的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "intellectual property",
+      "reason": "intellectual property 为知识产权的法律术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "on site",
+      "reason": "on site 为在现场的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "carry out",
+      "reason": "carry out 固定表示实施或执行",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "GP’s surgery",
+      "reason": "GP's surgery 为全科医生诊所的英式医疗称谓",
+      "category": "约定俗成术语",
+      "canonical": "GP's surgery"
+    },
+    {
+      "lemma": "In return for",
+      "reason": "in return for 为作为对某事的回报的固定表达",
+      "category": "固定表达",
+      "canonical": "in return for"
+    },
+    {
+      "lemma": "no charge",
+      "reason": "no charge 为不收费的惯用表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "leave alone",
+      "reason": "leave alone 为不打扰或不干涉的固定短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "raise awareness",
+      "reason": "raise awareness 为提高认识的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "branding campaign",
+      "reason": "branding campaign 为品牌推广活动的营销术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "think about",
+      "reason": "think about 为考虑某事的常见动词介词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "dark pattern",
+      "reason": "dark pattern 为暗黑模式的交互设计术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "catch-all term",
+      "reason": "catch-all term 为涵盖多种事物的笼统术语的惯用称呼",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "hidden cost",
+      "reason": "hidden cost 为隐性成本的经济或消费术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "roach motel",
+      "reason": "roach motel 为易进难退的特定暗黑交互模式术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "get out",
+      "reason": "get out 为离开或逃出的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "gray area",
+      "reason": "gray area 为灰色地带或界限不清领域的惯用比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "be aware of",
+      "reason": "be aware of 为意识到的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "engage in",
+      "reason": "engage in 为从事或参与的常用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "checkout basket",
+      "reason": "checkout basket 为电商购物结账篮的界面术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "Attorney General",
+      "reason": "Attorney General 为总检察长的通用职务称谓，非具体人的名字",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "opt out",
+      "reason": "opt out 为选择退出的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "click through",
+      "reason": "click through 为点击进入下一页或链接的固定网络动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "hold oneself accountable",
+      "reason": "hold oneself accountable 为要求自己承担责任的惯用框架",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "line up",
+      "reason": "line up 固定表示排队或安排",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "in crisis",
+      "reason": "in crisis 为处于危机中的固定状态表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "hand over",
+      "reason": "hand over 固定表示移交",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "a break from",
+      "reason": "a break from 为暂时摆脱或暂停某活动的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "starve of",
+      "reason": "starve ... of ... 为使缺乏的固定动词介词框架",
+      "category": "惯用搭配",
+      "canonical": "starve ... of ...",
+      "meaning": "使……缺乏……"
+    },
+    {
+      "lemma": "place a high value on",
+      "reason": "place a high value on 为高度重视的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "whether or not",
+      "reason": "whether or not 为是否或无论是否的固定连接表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "make sure",
+      "reason": "make sure 为确保或弄清楚的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "On top of this",
+      "reason": "on top of 为除了某事之外还的固定表达，this 为简单指代",
+      "category": "固定表达",
+      "canonical": "on top of"
+    },
+    {
+      "lemma": "carbon sequestration",
+      "reason": "carbon sequestration 为碳封存的环境科学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "bring to life",
+      "reason": "bring ... to life 为使生动或使恢复活力的固定框架",
+      "category": "固定表达",
+      "canonical": "bring ... to life",
+      "meaning": "使……生动起来；赋予……活力"
+    },
+    {
+      "lemma": "on a shoestring",
+      "reason": "on a shoestring 为资金拮据地的固定习语",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "stimulus package",
+      "reason": "stimulus package 为经济刺激方案的政策术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "with the exception of",
+      "reason": "with the exception of 为除某事之外的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "stand at",
+      "reason": "stand at 为数值处于某水平的常见搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "in conjunction with",
+      "reason": "in conjunction with 为与某事结合或共同的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "get a bad rap",
+      "reason": "get a bad rap 为遭受不公指责或恶名的固定俗语",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "social glue",
+      "reason": "social glue 为社会凝聚力量的惯用比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "compensate for",
+      "reason": "compensate for 为弥补或补偿的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "vice versa",
+      "reason": "vice versa 为反之亦然的固定外来表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "substitute for",
+      "reason": "substitute ... for ... 为用某物替代的固定框架",
+      "category": "惯用搭配",
+      "canonical": "substitute ... for ..."
+    },
+    {
+      "lemma": "turn on",
+      "reason": "turn on 为打开或转而攻击等固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "give or take",
+      "reason": "give or take 为上下相差或大约的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "hit the streets",
+      "reason": "hit the streets 为走上街头或投放市场的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "labor market",
+      "reason": "labor market 为劳动力市场的经济学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "about to",
+      "reason": "be about to 为即将做某事的固定结构",
+      "category": "固定表达",
+      "canonical": "be about to"
+    },
+    {
+      "lemma": "life savings",
+      "reason": "life savings 为毕生积蓄的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "take chances",
+      "reason": "take chances 为冒险的惯用动词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "with…in mind",
+      "reason": "with ... in mind 为考虑到某事的固定框架",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "gig economy",
+      "reason": "gig economy 为零工经济的经济社会术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "risk averse",
+      "reason": "risk averse 为风险厌恶的经济决策术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "finish line",
+      "reason": "finish line 为终点线的体育术语，文中可借喻",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "mortgage payments",
+      "reason": "mortgage payment 为按揭还款的住房金融术语",
+      "category": "约定俗成术语",
+      "canonical": "mortgage payment"
+    },
+    {
+      "lemma": "on my own",
+      "reason": "on one's own 为独立或独自的固定表达",
+      "category": "固定表达",
+      "canonical": "on one's own"
+    },
+    {
+      "lemma": "first-generation college student",
+      "reason": "first-generation college student 为第一代大学生的教育社会术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "dropout rate",
+      "reason": "dropout rate 为辍学率的教育统计术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "social class",
+      "reason": "social class 为社会阶层的社会学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "in that",
+      "reason": "in that 为因为或在于的固定连接表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "achievement gap",
+      "reason": "achievement gap 为群体学业成就差距的教育术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "rules of the game",
+      "reason": "rules of the game 为行事或竞争规则的惯用比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "take advantage of",
+      "reason": "take advantage of 为利用或占便宜的固定搭配",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "boom and bust cycle",
+      "reason": "boom and bust cycle 为繁荣与萧条周期的经济术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "eating up",
+      "reason": "eat up 固定表示耗尽或吞噬，eating 为词形变化",
+      "category": "固定动词短语",
+      "canonical": "eat up"
+    },
+    {
+      "lemma": "hail from",
+      "reason": "hail from 为来自某地的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "in the first place",
+      "reason": "in the first place 为起初或首先的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "leave no room for",
+      "reason": "leave no room for 为不给某事留下余地的惯用否定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "take initiative",
+      "reason": "take initiative 为主动采取行动的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "touched on",
+      "reason": "touch on 为简要涉及的固定短语，touched 为词形变化",
+      "category": "固定动词短语",
+      "canonical": "touch on"
+    },
+    {
+      "lemma": "bull run",
+      "reason": "bull run 为牛市持续上涨行情的金融术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "called out",
+      "reason": "call out 为大声说出或公开指出的固定短语，called 为词形变化",
+      "category": "固定动词短语",
+      "canonical": "call out"
+    },
+    {
+      "lemma": "filed for bankruptcy",
+      "reason": "file for bankruptcy 为申请破产的法律惯用搭配，filed 为词形变化",
+      "category": "惯用搭配",
+      "canonical": "file for bankruptcy"
+    },
+    {
+      "lemma": "losing momentum",
+      "reason": "lose momentum 为失去发展势头的惯用搭配，losing 为词形变化",
+      "category": "惯用搭配",
+      "canonical": "lose momentum",
+      "meaning": "失去势头"
+    },
+    {
+      "lemma": "auction houses",
+      "reason": "auction house 为拍卖行的通用机构类型称谓",
+      "category": "约定俗成术语",
+      "canonical": "auction house"
+    },
+    {
+      "lemma": "pay out",
+      "reason": "pay out 固定表示支付或赔付",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "at the bottom",
+      "reason": "at the bottom 为在最底端的惯用位置表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "keeping away",
+      "reason": "keep away 为远离的固定短语，keeping 为词形变化",
+      "category": "固定动词短语",
+      "canonical": "keep away"
+    },
+    {
+      "lemma": "roll out",
+      "reason": "roll out 固定表示推出新产品或政策",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "levy fines",
+      "reason": "levy fines 为处以罚款的法律惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "on one's own",
+      "reason": "on one's own 固定表示独自或独立地",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "ultra-low emission zone",
+      "reason": "ultra-low emission zone 为超低排放区的交通环保政策术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "far from it",
+      "reason": "far from it 为远非如此的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "in the face of",
+      "reason": "in the face of 为面对某处境的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "premature births",
+      "reason": "premature birth 为早产的医学术语",
+      "category": "约定俗成术语",
+      "canonical": "premature birth"
+    },
+    {
+      "lemma": "heart attack",
+      "reason": "heart attack 为心脏病发作的医学惯用术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "can only do so much",
+      "reason": "can only do so much 为能做的有限的惯用表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "everything but",
+      "reason": "everything but 为除了某事以外一切或几乎是的惯用结构",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "clean up",
+      "reason": "clean up 固定表示清理或整顿",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "gig worker",
+      "reason": "gig worker 为零工劳动者的就业术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "social buy-in",
+      "reason": "social buy-in 为社会接受与支持的常用政策搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "a handful of",
+      "reason": "a handful of 为少数几个的固定数量表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "hold back",
+      "reason": "hold back 固定表示抑制或阻碍",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "lie in",
+      "reason": "lie in 为在于的固定动词介词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "tech giant",
+      "reason": "tech giant 为科技巨头的惯用新闻称谓",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "independent of",
+      "reason": "independent of 为不依赖于的固定形容词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "conceive of",
+      "reason": "conceive of 为构想或设想的固定动词介词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "factory-farmed meat",
+      "reason": "factory-farmed meat 为集约化养殖肉类的食品农业类别术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "charitable giving",
+      "reason": "charitable giving 为慈善捐赠的公益领域通用术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "focus on",
+      "reason": "focus on 为专注于的固定搭配",
+      "category": "惯用搭配",
+      "meaning": "专注于；把关注点放在"
+    },
+    {
+      "lemma": "differ from",
+      "reason": "differ from 为不同于的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "hold steady",
+      "reason": "hold steady 为保持稳定的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "confounding variable",
+      "reason": "confounding variable 为混杂变量的统计学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "rule out",
+      "reason": "rule out 为排除的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "Easy come, easy go",
+      "reason": "Easy come, easy go 为来得容易去得快的固定谚语",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "social influence",
+      "reason": "social influence 为社会影响的社会心理学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "eat one's words",
+      "reason": "eat one's words 为承认说错话或收回前言的固定习语",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "food security",
+      "reason": "food security 为粮食安全的政策术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "close to",
+      "reason": "close to 为接近某地点或数量的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "keep pace",
+      "reason": "keep pace 为保持同步的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "make headlines",
+      "reason": "make headlines 为成为新闻头条的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "talking point",
+      "reason": "talking point 为讨论要点或引起讨论的话题的惯用称呼",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "associate with",
+      "reason": "associate with 为与某事联系或交往的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "animal husbandry",
+      "reason": "animal husbandry 为畜牧业的农业术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "on a commercial basis",
+      "reason": "on a commercial basis 为按商业方式运作的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "nature reserves",
+      "reason": "nature reserve 为自然保护区的环保政策术语",
+      "category": "约定俗成术语",
+      "canonical": "nature reserve"
+    },
+    {
+      "lemma": "take out",
+      "reason": "take out 为取出或移除等固定短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "fresh produce",
+      "reason": "fresh produce 为生鲜农产品的零售食品类别称谓",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "calorie intake",
+      "reason": "calorie intake 为热量摄入的营养学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "look for",
+      "reason": "look for 为寻找的固定动词介词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "still face experiment",
+      "reason": "still face experiment 为静止脸实验的发展心理学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "get a lot out of",
+      "reason": "get a lot out of 为从某事获益良多的惯用搭配",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "shoulder the blame",
+      "reason": "shoulder the blame 为承担责备的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "politically charged",
+      "reason": "politically charged 为政治意味强烈的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "waiting lists",
+      "reason": "waiting list 为候补名单或待诊名单的通用服务术语",
+      "category": "约定俗成术语",
+      "canonical": "waiting list"
+    },
+    {
+      "lemma": "cap on",
+      "reason": "a cap on 为对某数量的上限这一惯用名词介词搭配",
+      "category": "惯用搭配",
+      "canonical": "a cap on"
+    },
+    {
+      "lemma": "down to",
+      "reason": "down to 为归因于或取决于的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "face up to",
+      "reason": "face up to 为正视并承担的固定短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "returns to power",
+      "reason": "return to power 为重新执政的政治惯用搭配，returns 为词形变化",
+      "category": "惯用搭配",
+      "canonical": "return to power"
+    },
+    {
+      "lemma": "be meant to",
+      "reason": "be meant to 为本应或旨在做某事的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "on their own",
+      "reason": "on one's own 为独自或靠自身的固定表达",
+      "category": "固定表达",
+      "canonical": "on one's own"
+    },
+    {
+      "lemma": "report cards",
+      "reason": "report card 为成绩单的教育通用称谓",
+      "category": "约定俗成术语",
+      "canonical": "report card"
+    },
+    {
+      "lemma": "no more than",
+      "reason": "no more than 为仅仅或至多的固定数量结构",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "put on hold",
+      "reason": "put on hold 为暂停处理的固定搭配",
+      "category": "固定表达",
+      "meaning": "暂缓；暂停处理"
+    },
+    {
+      "lemma": "looks into",
+      "reason": "look into 为调查的固定短语，looks 为词形变化",
+      "category": "固定动词短语",
+      "canonical": "look into"
+    },
+    {
+      "lemma": "public hearings",
+      "reason": "public hearing 为公开听证会的法律行政程序术语",
+      "category": "约定俗成术语",
+      "canonical": "public hearing"
+    },
+    {
+      "lemma": "free up",
+      "reason": "free up 为腾出资源的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "in so far as",
+      "reason": "in so far as 为在某范围内或就某方面而言的固定连接表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "conveyor belt",
+      "reason": "conveyor belt 为传送带的机械设备术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "dip in",
+      "reason": "dip in 为随意翻阅或短暂参与的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "default state",
+      "reason": "default state 为默认状态的技术及认知模型术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "lesser prairie chicken",
+      "reason": "lesser prairie chicken 为小草原榛鸡的物种通用名称，非个体专名",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "crack down on",
+      "reason": "crack down on 为严厉打击的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "called for",
+      "reason": "call for 为要求或需要的固定短语，called 为词形变化",
+      "category": "固定动词短语",
+      "canonical": "call for"
+    },
+    {
+      "lemma": "annual average",
+      "reason": "annual average 为年平均值的统计通用术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "in the driver's seat",
+      "reason": "in the driver's seat 为掌控局面的固定比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "unemployment rate",
+      "reason": "unemployment rate 为失业率的经济统计术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "full employment",
+      "reason": "full employment 为充分就业的经济学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "involuntary part-time work",
+      "reason": "involuntary part-time work 为非自愿兼职工作的劳动统计术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "reference week",
+      "reason": "reference week 为调查参考周的统计调查术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "health insurance",
+      "reason": "health insurance 为医疗保险的保险术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "health condition",
+      "reason": "health condition 为健康状况或健康问题的常见医疗搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "textile mill",
+      "reason": "textile mill 为纺织厂的工业业态称谓",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "making the point",
+      "reason": "make the point 为表达或强调观点的惯用搭配，making 为词形变化",
+      "category": "惯用搭配",
+      "canonical": "make the point"
+    },
+    {
+      "lemma": "stand out",
+      "reason": "stand out 为脱颖而出的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "for sure",
+      "reason": "for sure 为肯定地的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "gap year",
+      "reason": "gap year 为空档年或间隔年的教育生活术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "stay back",
+      "reason": "stay back 为留下或留在后面的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "struggle with",
+      "reason": "struggle with 为艰难应对的固定动词介词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "lessen the blow",
+      "reason": "lessen the blow 为减轻打击的惯用比喻搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "make up",
+      "reason": "make up 为组成、化妆或编造等固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "late in the game",
+      "reason": "late in the game 为事情进程已晚的固定比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "nursing school",
+      "reason": "nursing school 为护理学校的教育机构类型术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "from the ground up",
+      "reason": "from the ground up 为从头开始或全面地的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "stay on",
+      "reason": "stay on 为继续留下的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "feed a hunger for",
+      "reason": "feed a hunger for 为满足某种强烈渴望的惯用比喻框架",
+      "category": "惯用搭配",
+      "canonical": "feed ... hunger for ...",
+      "meaning": "满足……对……的强烈渴望"
+    },
+    {
+      "lemma": "chew up",
+      "reason": "chew up 为嚼碎或大量耗费的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "close down",
+      "reason": "close down 为停业关闭的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "mixed feelings",
+      "reason": "mixed feelings 为矛盾复杂感受的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "depend on",
+      "reason": "depend on 为依靠或取决于的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "wade into",
+      "reason": "wade into 为涉入或介入的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "rifle through",
+      "reason": "rifle through 为快速翻找的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "beside the point",
+      "reason": "beside the point 为不切题的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "a drop in the ocean",
+      "reason": "a drop in the ocean 为沧海一粟的固定比喻",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "financial reserves",
+      "reason": "financial reserves 为财务储备的金融通用术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "venture capital",
+      "reason": "venture capital 为风险投资的金融术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "compared with",
+      "reason": "compared with 为与某事相比的惯用比较搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "gain momentum",
+      "reason": "gain momentum 为势头增强的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "minimum wage",
+      "reason": "minimum wage 为最低工资的劳动政策术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "digital payment system",
+      "reason": "digital payment system 为数字支付系统的金融技术术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "creep into",
+      "reason": "creep into 为悄然进入的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "default option",
+      "reason": "default option 为默认选项的交互设计及决策术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "Tip creep",
+      "reason": "tip creep 为小费要求不断蔓延的消费讨论通用称谓",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "fizzle out",
+      "reason": "fizzle out 为逐渐无疾而终的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "dissociate from",
+      "reason": "dissociate from 为与某事脱离或划清联系的固定搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "take care of",
+      "reason": "take care of 为照顾或处理的固定搭配",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "go hand in hand",
+      "reason": "go hand in hand 为紧密相伴的固定习语",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "concentrate on",
+      "reason": "concentrate on 为集中于的固定动词介词搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "fade away",
+      "reason": "fade away 为逐渐消失的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "hold for",
+      "reason": "hold for 为对某种情况适用或成立的惯用搭配",
+      "category": "惯用搭配"
+    },
+    {
+      "lemma": "positive correlation",
+      "reason": "positive correlation 为正相关的统计学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "reward sensitivity",
+      "reason": "reward sensitivity 为奖赏敏感性的心理学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "social reward",
+      "reason": "social reward 为社会奖赏的心理学术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "publicly traded",
+      "reason": "publicly traded 为上市交易的金融法律惯用术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "go up",
+      "reason": "go up 为上升的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "up their game",
+      "reason": "up one's game 为提升表现的固定习语，their 为固定人称槽位",
+      "category": "固定表达",
+      "canonical": "up one's game"
+    },
+    {
+      "lemma": "public relations",
+      "reason": "public relations 为公共关系的传播管理术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "supply chains",
+      "reason": "supply chain 为供应链的经济管理术语",
+      "category": "约定俗成术语",
+      "canonical": "supply chain"
+    },
+    {
+      "lemma": "one way or another",
+      "reason": "one way or another 为以某种方式或无论如何的固定表达",
+      "category": "固定表达"
+    },
+    {
+      "lemma": "rip off",
+      "reason": "rip off 为敲竹杠或剽窃的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "corporate governance",
+      "reason": "corporate governance 为公司治理的管理法律术语",
+      "category": "约定俗成术语"
+    },
+    {
+      "lemma": "stock prices",
+      "reason": "stock price 为股价的证券市场术语",
+      "category": "约定俗成术语",
+      "canonical": "stock price"
+    },
+    {
+      "lemma": "build up",
+      "reason": "build up 为逐渐积累或增强的固定动词短语",
+      "category": "固定动词短语"
+    },
+    {
+      "lemma": "corporate America",
+      "reason": "corporate America 是美国企业界的约定统称，不是某个机构名",
+      "category": "约定统称"
+    },
+    {
+      "lemma": "corporate america",
+      "reason": "corporate America 是美国企业界的约定统称，不是某个机构名",
+      "category": "约定统称"
+    },
+    {
+      "lemma": "a great deal",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "after all",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "all along",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "as long as",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "as to",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "at all",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "at all times",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "at the same time",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "at this point",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "because of",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "by contrast",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "complain of",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "contribute to",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "do one’s bit",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "due to",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "even if",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "even so",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "even though",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "fill out",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "find out",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "for instance",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "for now",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "have a long way to go",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "health care",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "hold...to account",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "in effect",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "in fact",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "in order to",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "in other words",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "in part",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "in particular",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "in the form of",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "in the short term",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "lead the way",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "lead to",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "leave it up to",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "little more than",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "living standard",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "make the most of",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "no longer",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "not necessarily",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "on one’s own",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "over time",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "put together",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "put...into perspective",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "serve as",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "short of",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "strike a balance",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "take responsibility for",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "to some extent",
+      "category": "固定表达或惯用搭配",
+      "reason": "追加逐句审阅，已核对实际语境；有具体宾语的结构另拆固定部分，不整体标注宾语。"
+    },
+    {
+      "lemma": "be able to",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "business model",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "digital economy",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "every day",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "eye doctor",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "fight for",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "invest in",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "keep one's promise",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "look at",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "mental health",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "net zero",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "on behalf of",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "on the market",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "related to",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "reliance on",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "such as",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "take control of",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    },
+    {
+      "lemma": "turn over",
+      "reason": "2024四篇逐句复审确认的固定搭配或约定术语",
+      "category": "补充固定表达"
+    }
+  ],
+  "names": [
+    {
+      "lemma": "Silver Room Block Party",
+      "reason": "Silver Room Block Party 是特定街区庆典的活动名称",
+      "kind": "name"
+    },
+    {
+      "lemma": "Block Party",
+      "reason": "本文 Block Party 是前述特定庆典的简称，不能据此一律把普通组合标为词组",
+      "kind": "name"
+    },
+    {
+      "lemma": "Wicker Park Fest",
+      "reason": "Wicker Park Fest 是特定节庆活动名",
+      "kind": "name"
+    },
+    {
+      "lemma": "supreme court",
+      "reason": "本篇所指 Supreme Court 为美国最高法院这一特定机构名",
+      "kind": "name"
+    },
+    {
+      "lemma": "Mayo Clinic",
+      "reason": "Mayo Clinic 是梅奥诊所的机构名称",
+      "kind": "name"
+    },
+    {
+      "lemma": "Supreme Court",
+      "reason": "Supreme Court 为美国最高法院的特定机构名",
+      "kind": "name"
+    },
+    {
+      "lemma": "Virgin Mary",
+      "reason": "Virgin Mary 为圣母玛利亚的人物名称",
+      "kind": "name"
+    },
+    {
+      "lemma": "Bermuda triangle",
+      "reason": "Bermuda triangle 为百慕大三角地名，文中借作比喻",
+      "kind": "name"
+    },
+    {
+      "lemma": "AT&T",
+      "reason": "AT&T 为公司名称",
+      "kind": "name"
+    },
+    {
+      "lemma": "World War II",
+      "reason": "World War II 为第二次世界大战的历史事件名",
+      "kind": "name"
+    },
+    {
+      "lemma": "Great Depression",
+      "reason": "Great Depression 为大萧条这一历史时期的名称",
+      "kind": "name"
+    },
+    {
+      "lemma": "Ohio State University",
+      "reason": "Ohio State University 为俄亥俄州立大学的机构名称",
+      "kind": "name"
+    },
+    {
+      "lemma": "Whole Foods",
+      "reason": "Whole Foods 为企业或品牌名称",
+      "kind": "name"
+    },
+    {
+      "lemma": "Royal Horticultural Society",
+      "reason": "Royal Horticultural Society 为皇家园艺学会的机构名称",
+      "kind": "name"
+    },
+    {
+      "lemma": "Health Insurance Portability and Accountability Act",
+      "reason": "Health Insurance Portability and Accountability Act 为特定法律名称",
+      "kind": "name"
+    },
+    {
+      "lemma": "California Consumer Privacy Act",
+      "reason": "California Consumer Privacy Act 为加州消费者隐私法的特定法律名称",
+      "kind": "name"
+    },
+    {
+      "lemma": "Pennsylvania State University Brandywine",
+      "reason": "Pennsylvania State University Brandywine 为宾州州立大学布兰迪万校区的机构名称",
+      "kind": "name"
+    },
+    {
+      "lemma": "Ferrovie dello Stato Italiane",
+      "reason": "Ferrovie dello Stato Italiane 为意大利国家铁路的机构名称",
+      "kind": "name"
+    },
+    {
+      "lemma": "Great Recession",
+      "reason": "Great Recession 为大衰退这一特定历史经济事件名称",
+      "kind": "name"
+    },
+    {
+      "lemma": "fortune 500 companies",
+      "reason": "Fortune 500 为《财富》五百强榜单名称，companies 仅指榜单上的企业",
+      "kind": "name"
+    },
+    {
+      "lemma": "lean in",
+      "reason": "本文 Lean In 为桑德伯格著作书名，不按普通动词词组解释",
+      "kind": "name"
+    },
+    {
+      "lemma": "pell grants",
+      "reason": "Pell Grants 为佩尔助学金这一特定政府资助项目名称",
+      "kind": "name"
+    },
+    {
+      "lemma": "Cogs and Monsters",
+      "reason": "Cogs and Monsters 为特定书名",
+      "kind": "name"
+    },
+    {
+      "lemma": "Sacred Time",
+      "reason": "Sacred Time 为盖里·埃伯利所著书名",
+      "kind": "name"
+    },
+    {
+      "lemma": "U.S. Fish and Wildlife Service",
+      "reason": "U.S. Fish and Wildlife Service 为美国鱼类和野生动物管理局的机构名称",
+      "kind": "name"
+    },
+    {
+      "lemma": "Federal Trade Commission",
+      "reason": "Federal Trade Commission 为美国联邦贸易委员会的机构名称",
+      "kind": "name"
+    }
+  ],
+  "rejected": [
+    {
+      "lemma": "gate donation",
+      "reason": "gate donation 是本次活动收取捐款的临时名词组合"
+    },
+    {
+      "lemma": "well rehearsed",
+      "reason": "well 只是程度副词修饰 rehearsed，并无独立固定组合"
+    },
+    {
+      "lemma": "bigger, bolder, more effective actions",
+      "reason": "比较级形容词串加 actions，是本句临时并列修饰"
+    },
+    {
+      "lemma": "hold our governments and industries to account",
+      "reason": "our governments and industries 是临时宾语，不把整段作为固定词组",
+      "canonical": "hold ... to account",
+      "meaning": "要求……作出解释并承担责任"
+    },
+    {
+      "lemma": "trash disposal",
+      "reason": "trash disposal 是一般对象加动作名词，未形成这里必需整体识别的固定义"
+    },
+    {
+      "lemma": "put things into perspective",
+      "reason": "things 是本句填充宾语；保留规范结构提示而非整个宾语片段",
+      "canonical": "put ... into perspective",
+      "meaning": "结合整体情况正确看待……"
+    },
+    {
+      "lemma": "shape collective action",
+      "reason": "shape 是普通及物动词，collective action 是临时宾语",
+      "canonical": "collective action"
+    },
+    {
+      "lemma": "turn over the keys",
+      "reason": "turn over 的宾语 keys 为本句具体事物，不把整段作为词组",
+      "canonical": "turn over"
+    },
+    {
+      "lemma": "driving privilege",
+      "reason": "driving 修饰 privilege，是具体论述中的一般名词组合"
+    },
+    {
+      "lemma": "license renewal",
+      "reason": "license renewal 为普通证件加办理动作，未证明整体固定化"
+    },
+    {
+      "lemma": "fatal crash",
+      "reason": "fatal 是普通形容词，crash 是名词，不形成独立固定表达"
+    },
+    {
+      "lemma": "social signals",
+      "reason": "social 对 signals 的一般修饰，在这里不是必须整体解释的专业术语"
+    },
+    {
+      "lemma": "non-living beings",
+      "reason": "non-living 是普通形容词，beings 为一般名词，不能自动合为词组"
+    },
+    {
+      "lemma": "fellow beings",
+      "reason": "fellow 对 beings 为一般同类修饰，不独立标为词组"
+    },
+    {
+      "lemma": "thought processes",
+      "reason": "thought 修饰 processes 是一般思维过程名词组合，从严不标固定词组"
+    },
+    {
+      "lemma": "jobs gap",
+      "reason": "jobs gap 是本文对就业缺口的描述性名词组合"
+    },
+    {
+      "lemma": "less-experienced or -determined",
+      "reason": "并列省略的比较级修饰片段，不是固定词组"
+    },
+    {
+      "lemma": "gear lessons toward",
+      "reason": "lessons 是临时宾语，完整片段不是固定词组",
+      "canonical": "gear ... toward ...",
+      "meaning": "使……适合或面向……"
+    },
+    {
+      "lemma": "drop out of high school",
+      "reason": "high school 是具体退学场所，不把完整填充对象纳入词组",
+      "canonical": "drop out of",
+      "meaning": "从……退学或退出"
+    },
+    {
+      "lemma": "go into it",
+      "reason": "it 为本句指代，go into it 不作为独立固定表达",
+      "canonical": "go into"
+    },
+    {
+      "lemma": "coax the machine into producing",
+      "reason": "machine 和 producing 填充动词框架，是本句片段",
+      "canonical": "coax ... into doing ...",
+      "meaning": "劝诱……做……"
+    },
+    {
+      "lemma": "biotech industry",
+      "reason": "biotech 对 industry 为行业限定，普通名词堆叠"
+    },
+    {
+      "lemma": "no less a product of nature",
+      "reason": "no less 加入具体表语 product of nature，是句内比较片段",
+      "canonical": "no less"
+    },
+    {
+      "lemma": "shifting landscape",
+      "reason": "shifting 修饰 landscape 为本文比喻性描述，不是固定词组"
+    },
+    {
+      "lemma": "each meeting was packed",
+      "reason": "完整主谓句，不能作为词组"
+    },
+    {
+      "lemma": "serve on juries",
+      "reason": "juries 是 serve on 的具体任职机构类型，不把本句完整宾语作为固定词组",
+      "canonical": "serve on",
+      "meaning": "在……机构中任职"
+    },
+    {
+      "lemma": "direct",
+      "reason": "单个普通单词，不是词组"
+    },
+    {
+      "lemma": "state level",
+      "reason": "state 是 level 的一般范围修饰，不构成固定表达"
+    },
+    {
+      "lemma": "ten years ago on monday",
+      "reason": "ten years ago on monday 为本句具体日期，不是固定词组"
+    },
+    {
+      "lemma": "inspire a generation",
+      "reason": "generation 是 inspire 的临时宾语"
+    },
+    {
+      "lemma": "common goods",
+      "reason": "本文 common goods 表示一般的共同利益，不能据此等同规范经济学 common goods 术语"
+    },
+    {
+      "lemma": "hard-wired",
+      "reason": "单个连字符复合词，应在单词层解释"
+    },
+    {
+      "lemma": "open-mindedness",
+      "reason": "单个派生复合词，不是多词词组"
+    },
+    {
+      "lemma": "thick sliced",
+      "reason": "thick sliced 为与 thin slice 临时对照的被动描述，缺乏稳定独立术语形式"
+    },
+    {
+      "lemma": "colour-coded",
+      "reason": "单个连字符复合词，应在单词层解释"
+    },
+    {
+      "lemma": "gender-neutral",
+      "reason": "单个连字符复合词，应在单词层解释"
+    },
+    {
+      "lemma": "nursery colours",
+      "reason": "nursery 修饰 colours 为普通地点用途组合"
+    },
+    {
+      "lemma": "core beliefs",
+      "reason": "core 修饰 beliefs 为一般形容词加名词"
+    },
+    {
+      "lemma": "sure-fire way",
+      "reason": "sure-fire 为普通限定形容词，way 为一般名词"
+    },
+    {
+      "lemma": "quasi-automatic sanctions",
+      "reason": "quasi-automatic 为本文临时修饰 sanctions 的性质"
+    },
+    {
+      "lemma": "corporate-tax rates",
+      "reason": "corporate-tax 修饰 rates 为一般税种加税率组合，不整体标固定词组",
+      "canonical": "corporate tax"
+    },
+    {
+      "lemma": "trading block",
+      "reason": "原卷 block 应为 bloc，不能把印刷错误确认为固定术语",
+      "canonical": "trading bloc"
+    },
+    {
+      "lemma": "a failure to",
+      "reason": "failure 后接不定式是一般语法补足，不是独立固定词组"
+    },
+    {
+      "lemma": "productive forestry",
+      "reason": "productive 为一般形容词修饰 forestry，从严不标独立固定术语"
+    },
+    {
+      "lemma": "cold ward",
+      "reason": "cold 只是对 ward 的状态修饰，本文一般病房描述"
+    },
+    {
+      "lemma": "adequate funding",
+      "reason": "adequate 为程度评价，funding 为一般名词"
+    },
+    {
+      "lemma": "model plan",
+      "reason": "model 修饰 plan 表示示范方案，一般名词组合"
+    },
+    {
+      "lemma": "adapt to local conditions",
+      "reason": "local conditions 为本句具体对象，不把整个动作片段标为词组",
+      "canonical": "adapt to"
+    },
+    {
+      "lemma": "informal dwelling",
+      "reason": "informal 修饰 dwelling 为本句住房描述，从严不标固定术语"
+    },
+    {
+      "lemma": "cope poorly with heat",
+      "reason": "poorly 与 heat 为本句方式和对象，完整片段不是词组",
+      "canonical": "cope with"
+    },
+    {
+      "lemma": "medium- to long-term measure",
+      "reason": "并列时限修饰 measure，是本句临时组合"
+    },
+    {
+      "lemma": "lowest target",
+      "reason": "最高级评价加普通名词，不是固定词组"
+    },
+    {
+      "lemma": "would-be workers",
+      "reason": "would-be 为单词性修饰语，workers 为本句一般名词"
+    },
+    {
+      "lemma": "core skill",
+      "reason": "core 修饰 skill 为普通范围限定，不标独立固定词组"
+    },
+    {
+      "lemma": "generational lows",
+      "reason": "generational 修饰 lows 为本句具体比较时段，不是固定词组"
+    },
+    {
+      "lemma": "all concerned",
+      "reason": "all 修饰 concerned 的名词化用法，普通语法组合"
+    },
+    {
+      "lemma": "took up posts",
+      "reason": "posts 是 take up 的本句具体宾语，不把完整填充片段作为词组",
+      "canonical": "take up"
+    },
+    {
+      "lemma": "architectural equivalent",
+      "reason": "architectural 为普通形容词，equivalent 为一般名词"
+    },
+    {
+      "lemma": "self-sufficiency",
+      "reason": "self-sufficiency 为单个派生复合词，不是多词词组"
+    },
+    {
+      "lemma": "catch up with household tasks",
+      "reason": "household tasks 为本句具体追赶对象，不把完整片段作为词组",
+      "canonical": "catch up with",
+      "meaning": "赶上；及时处理积压事项"
+    },
+    {
+      "lemma": "puts in hours of",
+      "reason": "hours of 后面仍需本句补语，是未完整固定化的填充片段",
+      "canonical": "put in"
+    },
+    {
+      "lemma": "life-sustaining moola",
+      "reason": "life-sustaining 修饰俚语 moola 为本句临时描述"
+    },
+    {
+      "lemma": "took it up",
+      "reason": "it 是本句具体指代宾语，不独立作为词组",
+      "canonical": "take up"
+    },
+    {
+      "lemma": "soft pressure",
+      "reason": "soft 是对 pressure 的一般性质修饰，本文指非强制压力"
+    },
+    {
+      "lemma": "keep the conversation going",
+      "reason": "conversation 是本句填充的宾语，不作为完整固定词组",
+      "canonical": "keep ... going",
+      "meaning": "使……持续进行"
+    },
+    {
+      "lemma": "focused not on",
+      "reason": "not 为本句否定，focused not on 是不完整句内片段",
+      "canonical": "focus on",
+      "meaning": "专注于；把关注点放在"
+    },
+    {
+      "lemma": "engage with AI",
+      "reason": "AI 是本句具体对象，不把 engage with 的宾语填入词组",
+      "canonical": "engage with"
+    },
+    {
+      "lemma": "feeling heard",
+      "reason": "feeling heard 是本句被理解的状态描述，非固定词组"
+    },
+    {
+      "lemma": "broad right",
+      "reason": "broad 修饰 right 是一般形容词加名词"
+    },
+    {
+      "lemma": "designated walkways",
+      "reason": "designated 修饰 walkways 为一般指定对象描述"
+    },
+    {
+      "lemma": "physical product",
+      "reason": "physical 修饰 product 为普通形容词加名词"
+    },
+    {
+      "lemma": "financial disadvantage",
+      "reason": "financial 修饰 disadvantage 为普通范围限定"
+    },
+    {
+      "lemma": "fake grass",
+      "reason": "fake 修饰 grass 是本句通俗描述，不以普通组合代替人工草坪术语",
+      "canonical": "artificial turf"
+    },
+    {
+      "lemma": "cut through the greenwash",
+      "reason": "greenwash 为本句具体宾语，不把完整片段标为词组",
+      "canonical": "cut through"
+    },
+    {
+      "lemma": "strike a subtle balance",
+      "reason": "subtle 为本句临时形容词，不纳入整体词组",
+      "canonical": "strike a balance"
+    },
+    {
+      "lemma": "long into the future",
+      "reason": "long into the future 是一般时间程度片段，不是固定搭配"
+    },
+    {
+      "lemma": "figuring out the details",
+      "reason": "the details 为本句宾语，不把整体片段作为词组",
+      "canonical": "figure out",
+      "meaning": "弄清楚"
+    },
+    {
+      "lemma": "emissions-permit auctions",
+      "reason": "emissions-permit 修饰 auctions 为本句政策操作组合，未按独立整体术语批准",
+      "canonical": "emissions permit"
+    },
+    {
+      "lemma": "woody material",
+      "reason": "woody 修饰 material 为普通物质描述"
+    },
+    {
+      "lemma": "express affirmative consent",
+      "reason": "express 是本句动作，不把具体法律概念作其宾语后的整体标为词组",
+      "canonical": "affirmative consent"
+    },
+    {
+      "lemma": "native u.s. workers",
+      "reason": "native 和 u.s. 为本句范围限定，整体不是固定词组"
+    },
+    {
+      "lemma": "numerical cap",
+      "reason": "numerical 修饰 cap 为本句数量上限的一般描述"
+    },
+    {
+      "lemma": "drive others underground",
+      "reason": "others 为本句宾语，不能把完整填充片段当词组",
+      "canonical": "drive ... underground",
+      "meaning": "迫使……转入地下或隐蔽状态"
+    },
+    {
+      "lemma": "renewable sources",
+      "reason": "renewable 修饰 sources 为本句省略 energy 的普通名词组合",
+      "canonical": "renewable energy"
+    },
+    {
+      "lemma": "place big bets on",
+      "reason": "big 是本句程度修饰，不把修饰后片段整体标为固定表达",
+      "canonical": "place bets on"
+    },
+    {
+      "lemma": "premium offering",
+      "reason": "premium 为普通质量档次修饰，offering 为本句产品"
+    },
+    {
+      "lemma": "for locals and tourists alike",
+      "reason": "locals 和 tourists 为本句具体并列对象，不能把完整片段当词组",
+      "canonical": "A and B alike"
+    },
+    {
+      "lemma": "head on holiday",
+      "reason": "head 为普通移动动词，holiday 为本句目标，不合并完整片段",
+      "canonical": "on holiday"
+    },
+    {
+      "lemma": "recovery fund",
+      "reason": "recovery 修饰 fund 为本句资金用途描述，不是独立固定词组"
+    },
+    {
+      "lemma": "mixed system",
+      "reason": "mixed 修饰 system 为一般性质描述"
+    },
+    {
+      "lemma": "cavity-preventing",
+      "reason": "cavity-preventing 为单个连字符复合词，应在单词层解释"
+    },
+    {
+      "lemma": "far-off springs",
+      "reason": "far-off 修饰 springs 为本句地点描述"
+    },
+    {
+      "lemma": "object of obsession",
+      "reason": "object of obsession 是本句普通名词后置限定组合"
+    },
+    {
+      "lemma": "class divide",
+      "reason": "class 修饰 divide 为本句阶层间隔阂的描述，从严不把普通名词组合标固定词组"
+    },
+    {
+      "lemma": "pushing journalists overboard",
+      "reason": "journalists 为本句具体宾语，完整比喻片段不是固定词组",
+      "canonical": "push ... overboard"
+    },
+    {
+      "lemma": "national concern",
+      "reason": "national 修饰 concern 是本句关注范围的一般组合"
+    },
+    {
+      "lemma": "federal tax dollars",
+      "reason": "federal tax 修饰 dollars 为本句资金来源描述"
+    },
+    {
+      "lemma": "take a magnifying glass to",
+      "reason": "把 magnifying glass 具体比喻填入动作框架，不把整段当固定词组",
+      "canonical": "magnifying glass"
+    },
+    {
+      "lemma": "self-esteem",
+      "reason": "self-esteem 为单个派生复合词，应在单词层解释"
+    },
+    {
+      "lemma": "team-oriented",
+      "reason": "team-oriented 为单个连字符复合词"
+    },
+    {
+      "lemma": "male-dominated",
+      "reason": "male-dominated 为单个连字符复合词"
+    },
+    {
+      "lemma": "explicitly conscious",
+      "reason": "explicitly 为一般程度方式副词修饰 conscious"
+    },
+    {
+      "lemma": "think of themselves as",
+      "reason": "themselves 是本句临时反身宾语，不能把完整片段当词组",
+      "canonical": "think of ... as ..."
+    },
+    {
+      "lemma": "jump off a sinking ship",
+      "reason": "完整具体比喻场景，不能仅因比喻常见就将整个动作宾语片段作为词组",
+      "canonical": "sinking ship"
+    },
+    {
+      "lemma": "bad news breaks",
+      "reason": "bad news 作主语、breaks 作谓语，是完整主谓片段"
+    },
+    {
+      "lemma": "mechanical memorization",
+      "reason": "mechanical 修饰 memorization 为本句一般学习方式描述"
+    },
+    {
+      "lemma": "make it academically",
+      "reason": "academically 为本句临时方面状语，不把完整片段当固定表达",
+      "canonical": "make it"
+    },
+    {
+      "lemma": "opens more doors",
+      "reason": "more 为本句比较限定，不把可变形容范围纳入固定短语",
+      "canonical": "open doors"
+    },
+    {
+      "lemma": "turned the country on its political head",
+      "reason": "the country 和 political 为本句具体对象与修饰，不整体作为词组",
+      "canonical": "turn ... on its head"
+    },
+    {
+      "lemma": "staring us in the face",
+      "reason": "us 为本句具体宾语；规范固定框架可另作搭配解释",
+      "canonical": "stare ... in the face",
+      "meaning": "明显摆在……眼前"
+    },
+    {
+      "lemma": "fill that gap",
+      "reason": "that gap 为本句具体宾语，不是完整固定词组",
+      "canonical": "fill a gap"
+    },
+    {
+      "lemma": "well into retirement",
+      "reason": "retirement 为本句具体时间端点，well into 可修饰任意时段"
+    },
+    {
+      "lemma": "past retirement",
+      "reason": "past 后接 retirement 为本句普通时间关系"
+    },
+    {
+      "lemma": "put something at",
+      "reason": "put something at 是未完成的普通动词补足框架，缺少固定成分"
+    },
+    {
+      "lemma": "too many",
+      "reason": "too 修饰数量 many 是普通程度语法，不作为词组"
+    },
+    {
+      "lemma": "sign-up process",
+      "reason": "sign-up 修饰 process 为一般流程限定，不能自动整体标词组"
+    },
+    {
+      "lemma": "digital deception",
+      "reason": "digital 修饰 deception 为一般方式限定，不是独立固定术语"
+    },
+    {
+      "lemma": "plug the funding gap",
+      "reason": "funding 为本句具体缺口类别，完整片段不作固定词组",
+      "canonical": "plug a gap"
+    },
+    {
+      "lemma": "maintenance backlog",
+      "reason": "maintenance 修饰 backlog 为本句积压事项类别，未批准为独立专业术语"
+    },
+    {
+      "lemma": "commercial drumbeat",
+      "reason": "commercial 对 drumbeat 为本句比喻修饰，不构成固定表达"
+    },
+    {
+      "lemma": "starved of funding",
+      "reason": "funding 为本句具体缺乏对象，不把整体填充片段当词组",
+      "canonical": "starve of"
+    },
+    {
+      "lemma": "alert us to",
+      "reason": "us 是本句具体宾语，不把填充形式独立列为词组",
+      "canonical": "alert ... to ...",
+      "meaning": "提醒……注意到……"
+    },
+    {
+      "lemma": "hold a cooperative species together",
+      "reason": "a cooperative species 为本句具体宾语，完整片段不是固定词组",
+      "canonical": "hold ... together",
+      "meaning": "使……保持团结或结合在一起"
+    },
+    {
+      "lemma": "nastier impulses",
+      "reason": "nastier 是比较级修饰 impulses，临时语义组合"
+    },
+    {
+      "lemma": "economic train wreck",
+      "reason": "economic 修饰 train wreck 为本句临时经济灾难比喻",
+      "canonical": "train wreck"
+    },
+    {
+      "lemma": "secure employment",
+      "reason": "secure 是普通形容词或动词，employment 为本句一般对象"
+    },
+    {
+      "lemma": "inspiring purpose",
+      "reason": "inspiring 修饰 purpose 为普通形容词加名词"
+    },
+    {
+      "lemma": "serving the greater good",
+      "reason": "serving 为本句动作，不能把动作和具体价值目标整段当词组",
+      "canonical": "the greater good"
+    },
+    {
+      "lemma": "best served",
+      "reason": "best 为普通最高程度修饰，served 为一般被动谓语片段"
+    },
+    {
+      "lemma": "housing patterns",
+      "reason": "housing 修饰 patterns 为本句居住方式描述"
+    },
+    {
+      "lemma": "signpost achievements",
+      "reason": "achievements 为 signpost 的临时宾语"
+    },
+    {
+      "lemma": "rent rooms out",
+      "reason": "rooms 为本句可变宾语，不把填充对象的完整片段作为词组",
+      "canonical": "rent out"
+    },
+    {
+      "lemma": "capable of that",
+      "reason": "that 为本句具体指代，不把整个补语作为词组",
+      "canonical": "be capable of",
+      "meaning": "能够做；有能力做"
+    },
+    {
+      "lemma": "advance economically",
+      "reason": "economically 为本句一般方面状语，advance 为普通动词"
+    },
+    {
+      "lemma": "next-to-no-cost",
+      "reason": "next-to-no-cost 为单个连字符临时复合修饰词，不是多词词组"
+    },
+    {
+      "lemma": "exercise their imagination",
+      "reason": "their 为本句具体人称修饰，不把填充形式作为独立词组",
+      "canonical": "exercise one's imagination",
+      "meaning": "发挥想象力"
+    },
+    {
+      "lemma": "race with the machine",
+      "reason": "machine 为本句比喻对象，race with 的对象可变，不整体标词组"
+    },
+    {
+      "lemma": "work practices",
+      "reason": "work 修饰 practices 为本句工作做法的一般组合"
+    },
+    {
+      "lemma": "all but two",
+      "reason": "two 为本句具体数字，不把数量填入固定词组",
+      "canonical": "all but",
+      "meaning": "几乎；除……之外全都"
+    },
+    {
+      "lemma": "last victory",
+      "reason": "last 修饰 victory 为普通时间限定"
+    },
+    {
+      "lemma": "individual drivers",
+      "reason": "individual 修饰 drivers 为一般范围限定"
+    },
+    {
+      "lemma": "untimely deaths",
+      "reason": "untimely 为普通时间评价修饰 deaths，未整体固定化"
+    },
+    {
+      "lemma": "into compliance",
+      "reason": "into compliance 为动作补语的句内片段，不独立作为固定词组",
+      "canonical": "bring ... into compliance",
+      "meaning": "使……达到合规标准"
+    },
+    {
+      "lemma": "in a handful of",
+      "reason": "in 是本句临时地点介词，不应纳入数量词组",
+      "canonical": "a handful of"
+    },
+    {
+      "lemma": "meal-card purchases",
+      "reason": "meal-card 修饰 purchases 为本文具体调查数据类别"
+    },
+    {
+      "lemma": "rational argument",
+      "reason": "rational 修饰 argument 为普通评价性形容词加名词"
+    },
+    {
+      "lemma": "livestock farms",
+      "reason": "livestock 修饰 farms 为本句畜牧农场的一般类别描述"
+    },
+    {
+      "lemma": "animal foods",
+      "reason": "animal 修饰 foods 为本文动物来源食物的一般分类"
+    },
+    {
+      "lemma": "arable fields",
+      "reason": "arable 修饰 fields 为普通性质描述，不按术语 arable land 整体替换",
+      "canonical": "arable land"
+    },
+    {
+      "lemma": "vast bulk",
+      "reason": "vast 是对 bulk 的一般程度修饰，不整体标固定词组",
+      "canonical": "the bulk of"
+    },
+    {
+      "lemma": "suck you in",
+      "reason": "you 为本句临时宾语，不把完整片段作为词组",
+      "canonical": "suck in",
+      "meaning": "把……吸引或卷入"
+    },
+    {
+      "lemma": "get some work out of the way",
+      "reason": "some work 为本句具体宾语，不整体标固定表达",
+      "canonical": "get ... out of the way",
+      "meaning": "先处理完……；排除……这一障碍"
+    },
+    {
+      "lemma": "large-scale public grants",
+      "reason": "large-scale 与 public 为本句修饰 grants 的规模和来源，不整体固定化"
+    },
+    {
+      "lemma": "giving a pass to",
+      "reason": "a pass 是本句具体名词化许可，给某机构放行的完整片段从严不整体批准",
+      "canonical": "give ... a pass",
+      "meaning": "对……放行；不追究……"
+    },
+    {
+      "lemma": "across-the-board",
+      "reason": "across-the-board 为单个连字符复合修饰词，应在单词层解释"
+    },
+    {
+      "lemma": "what works best",
+      "reason": "what works best 为本句关系或疑问内容片段，不是固定词组"
+    },
+    {
+      "lemma": "last thing",
+      "reason": "last thing 缺少其后具体补足，不能把一般最高序位词组一概当习语",
+      "canonical": "the last ... to ..."
+    },
+    {
+      "lemma": "well spent",
+      "reason": "well 为一般方式评价，spent 为被动分词，单独两词不构成专有固定表达",
+      "canonical": "money well spent"
+    },
+    {
+      "lemma": "slot it in",
+      "reason": "it 为本句具体宾语，不把填充形式整体作为词组",
+      "canonical": "slot in"
+    },
+    {
+      "lemma": "losing yourself",
+      "reason": "yourself 为本句动作对象，不把一般反身动词组合认作固定词组",
+      "canonical": "lose oneself in"
+    },
+    {
+      "lemma": "soul time",
+      "reason": "soul time 为本篇作者自造的引语标签，并非通用固定表达"
+    },
+    {
+      "lemma": "physical books",
+      "reason": "physical 修饰 books 为本句媒介形态对照，不是独立固定词组"
+    },
+    {
+      "lemma": "lend red to",
+      "reason": "red 是本文具体景观颜色，lend red to 并非固定搭配",
+      "canonical": "lend colour to"
+    },
+    {
+      "lemma": "part-time",
+      "reason": "part-time 为单个连字符复合词，应在单词层解释"
+    },
+    {
+      "lemma": "full-time",
+      "reason": "full-time 为单个连字符复合词，应在单词层解释"
+    },
+    {
+      "lemma": "survey taker",
+      "reason": "survey 修饰 taker 为一般参加调查人员描述，不是本篇需要整体解释的固定术语"
+    },
+    {
+      "lemma": "outside of employment",
+      "reason": "employment 为本句 outside of 的对象，不把补语填入词组",
+      "canonical": "outside of"
+    },
+    {
+      "lemma": "shed workers",
+      "reason": "workers 为 shed 的本句具体宾语，不把普通动宾短语整体固定化"
+    },
+    {
+      "lemma": "post-high school education",
+      "reason": "post-high school 为本句教育阶段限定，整体不按固定词组批准"
+    },
+    {
+      "lemma": "were you to switch",
+      "reason": "倒装虚拟条件句的本句具体谓语，不是固定词组"
+    },
+    {
+      "lemma": "figure things out",
+      "reason": "things 为本句可变宾语，不整体认作固定词组",
+      "canonical": "figure out",
+      "meaning": "弄清楚"
+    },
+    {
+      "lemma": "put my selfish hat on",
+      "reason": "my 与 selfish 为本句特定角色比喻填充，不把整段当固定词组",
+      "canonical": "put on one's ... hat",
+      "meaning": "以某种角色或立场思考问题"
+    },
+    {
+      "lemma": "buy and kill",
+      "reason": "buy and kill 为本文概括并购后关停的引语标签，不从本句标成通用固定表达",
+      "canonical": "killer acquisition"
+    },
+    {
+      "lemma": "succumb to the temptation",
+      "reason": "the temptation 为本句具体宾语，不能把完整动宾片段认作词组",
+      "canonical": "succumb to",
+      "meaning": "屈从于；抵挡不住"
+    },
+    {
+      "lemma": "stay out late",
+      "reason": "late 为本句时间状语，不把含状语片段作为固定词组",
+      "canonical": "stay out"
+    },
+    {
+      "lemma": "ceo pay",
+      "reason": "CEO 修饰 pay 为本句薪酬主体，普通名词堆叠"
+    },
+    {
+      "lemma": "limited ceo talent",
+      "reason": "limited、CEO 对 talent 为本句临时数量与对象限定"
+    },
+    {
+      "lemma": "corporate interest",
+      "reason": "corporate 修饰 interest 为本句公司利益的一般范围限定"
+    },
+    {
+      "lemma": "insider picks",
+      "reason": "insider 修饰 picks 为本句内部挑选人选的临时描述"
+    },
+    {
+      "lemma": "corporate value",
+      "reason": "corporate 修饰 value 为本句一般公司价值描述，不把歧义组合自动批准为术语"
+    }
+  ],
+  "criteria": "依据用户提供的固定表达清单，逐项审阅现有候选；名单不是闭集。固定表达、惯用搭配和约定术语保留，名称另标，单个复合词和普通句内片段退出词组层。"
+}

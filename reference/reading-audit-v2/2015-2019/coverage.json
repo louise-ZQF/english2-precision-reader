@@ -1,0 +1,108 @@
+{
+  "reviewedAt": "2026-11-01",
+  "scope": [
+    {
+      "id": "2015-T1",
+      "sentences": 24,
+      "wordOccurrences": 417
+    },
+    {
+      "id": "2015-T2",
+      "sentences": 13,
+      "wordOccurrences": 392
+    },
+    {
+      "id": "2015-T3",
+      "sentences": 17,
+      "wordOccurrences": 399
+    },
+    {
+      "id": "2015-T4",
+      "sentences": 23,
+      "wordOccurrences": 418
+    },
+    {
+      "id": "2016-T1",
+      "sentences": 18,
+      "wordOccurrences": 386
+    },
+    {
+      "id": "2016-T2",
+      "sentences": 18,
+      "wordOccurrences": 392
+    },
+    {
+      "id": "2016-T3",
+      "sentences": 21,
+      "wordOccurrences": 412
+    },
+    {
+      "id": "2016-T4",
+      "sentences": 13,
+      "wordOccurrences": 413
+    },
+    {
+      "id": "2017-T1",
+      "sentences": 25,
+      "wordOccurrences": 395
+    },
+    {
+      "id": "2017-T2",
+      "sentences": 15,
+      "wordOccurrences": 417
+    },
+    {
+      "id": "2017-T3",
+      "sentences": 16,
+      "wordOccurrences": 398
+    },
+    {
+      "id": "2017-T4",
+      "sentences": 20,
+      "wordOccurrences": 400
+    },
+    {
+      "id": "2018-T1",
+      "sentences": 24,
+      "wordOccurrences": 368
+    },
+    {
+      "id": "2018-T2",
+      "sentences": 19,
+      "wordOccurrences": 408
+    },
+    {
+      "id": "2018-T3",
+      "sentences": 18,
+      "wordOccurrences": 392
+    },
+    {
+      "id": "2018-T4",
+      "sentences": 15,
+      "wordOccurrences": 412
+    },
+    {
+      "id": "2019-T1",
+      "sentences": 24,
+      "wordOccurrences": 413
+    },
+    {
+      "id": "2019-T2",
+      "sentences": 21,
+      "wordOccurrences": 391
+    },
+    {
+      "id": "2019-T3",
+      "sentences": 27,
+      "wordOccurrences": 408
+    },
+    {
+      "id": "2019-T4",
+      "sentences": 20,
+      "wordOccurrences": 419
+    }
+  ],
+  "totalArticles": 20,
+  "totalSentences": 391,
+  "totalWordOccurrences": 8050
+}

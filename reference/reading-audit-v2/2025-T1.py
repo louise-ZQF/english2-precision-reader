@@ -1,6 +1,7 @@
-import sys
+# -*- coding: utf-8 -*-
 from pathlib import Path
-sys.path.insert(0,str(Path(__file__).resolve().parents[2]/'scripts'))
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / 'scripts'))
 from reading_audit import Review
 r=Review('2025-T1')
 r.lex('''

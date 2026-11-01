@@ -1,0 +1,3332 @@
+{
+  "date": "2026-11-01",
+  "counts": {
+    "phrases": 864,
+    "names": 31
+  },
+  "removed": [
+    {
+      "id": "2010-T1-P1-S2",
+      "a": 0,
+      "b": 11,
+      "lemma": "all but two",
+      "meaning": "除了两件以外全部",
+      "word": "All but two",
+      "reason": "two 为本句具体数字，不把数量填入固定词组"
+    },
+    {
+      "id": "2010-T1-P1-S3",
+      "a": 9,
+      "b": 21,
+      "lemma": "last victory",
+      "meaning": "市场繁荣结束前的最后一次成功",
+      "word": "last victory",
+      "reason": "last 修饰 victory 为普通时间限定"
+    },
+    {
+      "id": "2010-T2-P1-S9",
+      "a": 14,
+      "b": 41,
+      "lemma": "keep the conversation going",
+      "meaning": "使谈话继续下去",
+      "word": "keep the conversation going",
+      "reason": "conversation 是本句填充的宾语，不作为完整固定词组"
+    },
+    {
+      "id": "2010-T2-P4-S1",
+      "a": 74,
+      "b": 88,
+      "lemma": "focused not on",
+      "meaning": "重点并不在于",
+      "word": "focused not on",
+      "reason": "not 为本句否定，focused not on 是不完整句内片段"
+    },
+    {
+      "id": "2010-T3-P4-S3",
+      "a": 119,
+      "b": 136,
+      "lemma": "cavity-preventing",
+      "meaning": "防蛀的；预防龋齿的",
+      "word": "cavity-preventing",
+      "reason": "cavity-preventing 为单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2010-T3-P5-S2",
+      "a": 59,
+      "b": 74,
+      "lemma": "far-off springs",
+      "meaning": "远方的泉水",
+      "word": "far-off springs",
+      "reason": "far-off 修饰 springs 为本句地点描述"
+    },
+    {
+      "id": "2010-T4-P1-S1",
+      "a": 213,
+      "b": 228,
+      "lemma": "serve on juries",
+      "meaning": "担任陪审员",
+      "word": "serve on juries",
+      "reason": "juries 是 serve on 的具体任职机构类型，不把本句完整宾语作为固定词组"
+    },
+    {
+      "id": "2010-T4-P1-S2",
+      "a": 58,
+      "b": 64,
+      "word": "direct",
+      "lemma": "direct",
+      "meaning": "直接的（direct democracy整体为直接民主）",
+      "reason": "单个普通单词，不是词组"
+    },
+    {
+      "id": "2010-T4-P4-S3",
+      "a": 161,
+      "b": 172,
+      "lemma": "state level",
+      "meaning": "州一级",
+      "word": "state level",
+      "reason": "state 是 level 的一般范围修饰，不构成固定表达"
+    },
+    {
+      "id": "2011-T1-P3-S7",
+      "a": 150,
+      "b": 176,
+      "word": "jumping off a sinking ship",
+      "lemma": "jump off a sinking ship",
+      "meaning": "在公司败落时抽身逃离（比喻）",
+      "reason": "完整具体比喻场景，不能仅因比喻常见就将整个动作宾语片段作为词组"
+    },
+    {
+      "id": "2011-T1-P4-S1",
+      "a": 139,
+      "b": 154,
+      "lemma": "bad news breaks",
+      "meaning": "坏消息传出",
+      "word": "bad news breaks",
+      "reason": "bad news 作主语、breaks 作谓语，是完整主谓片段"
+    },
+    {
+      "id": "2011-T2-P3-S2",
+      "a": 29,
+      "b": 58,
+      "lemma": "pushing journalists overboard",
+      "meaning": "裁减记者以求自保（比喻）",
+      "word": "pushing journalists overboard",
+      "reason": "journalists 为本句具体宾语，完整比喻片段不是固定词组"
+    },
+    {
+      "id": "2011-T3-P3-S2",
+      "a": 236,
+      "b": 249,
+      "lemma": "took up posts",
+      "meaning": "出任职位；任教",
+      "word": "took up posts",
+      "reason": "posts 是 take up 的本句具体宾语，不把完整填充片段作为词组"
+    },
+    {
+      "id": "2011-T3-P5-S2",
+      "a": 145,
+      "b": 169,
+      "lemma": "architectural equivalent",
+      "meaning": "建筑领域中的对应表现",
+      "word": "architectural equivalent",
+      "reason": "architectural 为普通形容词，equivalent 为一般名词"
+    },
+    {
+      "id": "2011-T3-P7-S3",
+      "a": 232,
+      "b": 248,
+      "lemma": "self-sufficiency",
+      "meaning": "自给自足",
+      "word": "self-sufficiency",
+      "reason": "self-sufficiency 为单个派生复合词，不是多词词组"
+    },
+    {
+      "id": "2011-T4-P4-S1",
+      "a": 110,
+      "b": 135,
+      "lemma": "quasi-automatic sanctions",
+      "meaning": "近乎自动实施的制裁",
+      "word": "quasi-automatic sanctions",
+      "reason": "quasi-automatic 为本文临时修饰 sanctions 的性质"
+    },
+    {
+      "id": "2011-T4-P5-S3",
+      "a": 164,
+      "b": 183,
+      "word": "corporate-tax rates",
+      "lemma": "corporate-tax rates",
+      "meaning": "企业所得税税率",
+      "reason": "corporate-tax 修饰 rates 为一般税种加税率组合，不整体标固定词组"
+    },
+    {
+      "id": "2011-T4-P6-S2",
+      "a": 31,
+      "b": 44,
+      "lemma": "trading block",
+      "meaning": "贸易集团（原文用语）",
+      "word": "trading block",
+      "reason": "原卷 block 应为 bloc，不能把印刷错误确认为固定术语"
+    },
+    {
+      "id": "2012-T1-P2-S4",
+      "a": 35,
+      "b": 51,
+      "lemma": "giving a pass to",
+      "meaning": "不追究；免除……的责任",
+      "word": "giving a pass to",
+      "reason": "a pass 是本句具体名词化许可，给某机构放行的完整片段从严不整体批准"
+    },
+    {
+      "id": "2012-T1-P3-S5",
+      "a": 107,
+      "b": 123,
+      "lemma": "across-the-board",
+      "meaning": "一刀切的；统一适用的",
+      "word": "across-the-board",
+      "reason": "across-the-board 为单个连字符复合修饰词，应在单词层解释"
+    },
+    {
+      "id": "2012-T1-P3-S5",
+      "a": 44,
+      "b": 59,
+      "word": "what works best",
+      "lemma": "what works best",
+      "meaning": "最能奏效的方法",
+      "reason": "what works best 为本句关系或疑问内容片段，不是固定词组"
+    },
+    {
+      "id": "2012-T2-P2-S2",
+      "a": 18,
+      "b": 30,
+      "lemma": "colour-coded",
+      "meaning": "用颜色区分标识的",
+      "word": "colour-coded",
+      "reason": "单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2012-T2-P2-S3",
+      "a": 62,
+      "b": 76,
+      "lemma": "gender-neutral",
+      "meaning": "不区分性别的",
+      "word": "gender-neutral",
+      "reason": "单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2012-T2-P2-S4",
+      "a": 5,
+      "b": 20,
+      "word": "nursery colours",
+      "lemma": "nursery colours",
+      "meaning": "婴幼儿用品的配色",
+      "reason": "nursery 修饰 colours 为普通地点用途组合"
+    },
+    {
+      "id": "2012-T2-P3-S1",
+      "a": 117,
+      "b": 129,
+      "lemma": "core beliefs",
+      "meaning": "根深蒂固的基本信念",
+      "word": "core beliefs",
+      "reason": "core 修饰 beliefs 为一般形容词加名词"
+    },
+    {
+      "id": "2012-T2-P4-S3",
+      "a": 68,
+      "b": 81,
+      "lemma": "sure-fire way",
+      "meaning": "几乎必定奏效的方法",
+      "word": "sure-fire way",
+      "reason": "sure-fire 为普通限定形容词，way 为一般名词"
+    },
+    {
+      "id": "2012-T3-P1-S1",
+      "a": 41,
+      "b": 57,
+      "lemma": "biotech industry",
+      "meaning": "生物技术产业",
+      "word": "biotech industry",
+      "reason": "biotech 对 industry 为行业限定，普通名词堆叠"
+    },
+    {
+      "id": "2012-T3-P3-S6",
+      "a": 113,
+      "b": 140,
+      "lemma": "no less a product of nature",
+      "meaning": "同样属于自然产物",
+      "word": "no less a product of nature",
+      "reason": "no less 加入具体表语 product of nature，是句内比较片段"
+    },
+    {
+      "id": "2012-T3-P6-S2",
+      "a": 83,
+      "b": 101,
+      "lemma": "shifting landscape",
+      "meaning": "不断变化的局面",
+      "word": "shifting landscape",
+      "reason": "shifting 修饰 landscape 为本文比喻性描述，不是固定词组"
+    },
+    {
+      "id": "2012-T3-P6-S3",
+      "a": 0,
+      "b": 23,
+      "lemma": "each meeting was packed",
+      "meaning": "每场会议都座无虚席",
+      "word": "Each meeting was packed",
+      "reason": "完整主谓句，不能作为词组"
+    },
+    {
+      "id": "2012-T4-P4-S2",
+      "a": 55,
+      "b": 68,
+      "word": "class divides",
+      "lemma": "class divide",
+      "meaning": "阶层鸿沟",
+      "reason": "class 修饰 divide 为本句阶层间隔阂的描述，从严不把普通名词组合标固定词组"
+    },
+    {
+      "id": "2013-T1-P4-S3",
+      "a": 69,
+      "b": 81,
+      "lemma": "shed workers",
+      "meaning": "裁员；削减岗位",
+      "word": "shed workers",
+      "reason": "workers 为 shed 的本句具体宾语，不把普通动宾短语整体固定化"
+    },
+    {
+      "id": "2013-T1-P6-S1",
+      "a": 245,
+      "b": 271,
+      "lemma": "post-high school education",
+      "meaning": "高中毕业后的继续教育",
+      "word": "post-high school education",
+      "reason": "post-high school 为本句教育阶段限定，整体不按固定词组批准"
+    },
+    {
+      "id": "2013-T3-P1-S1",
+      "a": 203,
+      "b": 213,
+      "lemma": "hard-wired",
+      "meaning": "近乎本能的；根深蒂固的",
+      "word": "hard-wired",
+      "reason": "单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2013-T3-P2-S1",
+      "a": 126,
+      "b": 136,
+      "lemma": "hard-wired",
+      "meaning": "近乎本能的；根深蒂固的",
+      "word": "hard-wired",
+      "reason": "单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2013-T3-P2-S4",
+      "a": 78,
+      "b": 94,
+      "word": "open -mindedness",
+      "lemma": "open-mindedness",
+      "meaning": "思想开放；愿意接受不同观点（原卷在连字符前有空格）",
+      "reason": "单个派生复合词，不是多词词组"
+    },
+    {
+      "id": "2013-T3-P5-S1",
+      "a": 139,
+      "b": 151,
+      "lemma": "thick sliced",
+      "meaning": "长期深入地观察分析",
+      "word": "thick sliced",
+      "reason": "thick sliced 为与 thin slice 临时对照的被动描述，缺乏稳定独立术语形式"
+    },
+    {
+      "id": "2013-T3-P6-S1",
+      "a": 24,
+      "b": 34,
+      "lemma": "hard-wired",
+      "meaning": "近乎本能的；根深蒂固的",
+      "word": "hard-wired",
+      "reason": "单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2013-T4-P2-S5",
+      "a": 59,
+      "b": 69,
+      "lemma": "took it up",
+      "meaning": "响应并采取行动",
+      "word": "took it up",
+      "reason": "it 是本句具体指代宾语，不独立作为词组"
+    },
+    {
+      "id": "2013-T4-P6-S1",
+      "a": 194,
+      "b": 207,
+      "lemma": "soft pressure",
+      "meaning": "非强制性的舆论或倡议压力",
+      "word": "soft pressure",
+      "reason": "soft 是对 pressure 的一般性质修饰，本文指非强制压力"
+    },
+    {
+      "id": "2014-T1-P3-S4",
+      "a": 151,
+      "b": 170,
+      "lemma": "object of obsession",
+      "meaning": "令人着迷、念念不忘的对象",
+      "word": "object of obsession",
+      "reason": "object of obsession 是本句普通名词后置限定组合"
+    },
+    {
+      "id": "2014-T2-P4-S3",
+      "a": 164,
+      "b": 175,
+      "lemma": "self-esteem",
+      "meaning": "自尊；自我价值评价",
+      "word": "self-esteem",
+      "reason": "self-esteem 为单个派生复合词，应在单词层解释"
+    },
+    {
+      "id": "2014-T3-P5-S2",
+      "a": 108,
+      "b": 134,
+      "lemma": "exercise their imagination",
+      "meaning": "发挥想象力",
+      "word": "exercise their imagination",
+      "reason": "their 为本句具体人称修饰，不把填充形式作为独立词组"
+    },
+    {
+      "id": "2014-T3-P6-S2",
+      "a": 47,
+      "b": 68,
+      "lemma": "race with the machine",
+      "meaning": "与机器协作前进",
+      "word": "race with the machine",
+      "reason": "machine 为本句比喻对象，race with 的对象可变，不整体标词组"
+    },
+    {
+      "id": "2014-T3-P6-S4",
+      "a": 109,
+      "b": 123,
+      "lemma": "work practices",
+      "meaning": "工作方式；工作惯例",
+      "word": "work practices",
+      "reason": "work 修饰 practices 为本句工作做法的一般组合"
+    },
+    {
+      "id": "2014-T4-P7-S4",
+      "a": 90,
+      "b": 115,
+      "lemma": "large-scale public grants",
+      "meaning": "大规模政府拨款",
+      "word": "large-scale public grants",
+      "reason": "large-scale 与 public 为本句修饰 grants 的规模和来源，不整体固定化"
+    },
+    {
+      "id": "2015-T1-P3-S4",
+      "a": 64,
+      "b": 93,
+      "word": "catch-up-with-household tasks",
+      "lemma": "catch up with household tasks",
+      "meaning": "补做积压的家务",
+      "reason": "household tasks 为本句具体追赶对象，不把完整片段作为词组"
+    },
+    {
+      "id": "2015-T1-P4-S3",
+      "a": 35,
+      "b": 51,
+      "lemma": "puts in hours of",
+      "meaning": "投入若干小时去做",
+      "word": "puts in hours of",
+      "reason": "hours of 后面仍需本句补语，是未完整固定化的填充片段"
+    },
+    {
+      "id": "2015-T1-P4-S3",
+      "a": 100,
+      "b": 121,
+      "lemma": "life-sustaining moola",
+      "meaning": "维持生活所需的钱",
+      "word": "life-sustaining moola",
+      "reason": "life-sustaining 修饰俚语 moola 为本句临时描述"
+    },
+    {
+      "id": "2015-T2-P1-S3",
+      "a": 43,
+      "b": 63,
+      "word": "advance economically",
+      "lemma": "advance economically",
+      "meaning": "改善经济状况；提升经济地位",
+      "reason": "economically 为本句一般方面状语，advance 为普通动词"
+    },
+    {
+      "id": "2015-T2-P2-S1",
+      "a": 155,
+      "b": 170,
+      "lemma": "next-to-no-cost",
+      "meaning": "几乎不花钱的",
+      "word": "next-to-no-cost",
+      "reason": "next-to-no-cost 为单个连字符临时复合修饰词，不是多词词组"
+    },
+    {
+      "id": "2015-T3-P2-S1",
+      "a": 68,
+      "b": 83,
+      "word": "“team”-oriented",
+      "lemma": "team-oriented",
+      "meaning": "以团队为导向的",
+      "reason": "team-oriented 为单个连字符复合词"
+    },
+    {
+      "id": "2015-T3-P2-S2",
+      "a": 30,
+      "b": 44,
+      "lemma": "male-dominated",
+      "meaning": "男性主导的",
+      "word": "male-dominated",
+      "reason": "male-dominated 为单个连字符复合词"
+    },
+    {
+      "id": "2015-T3-P2-S3",
+      "a": 9,
+      "b": 29,
+      "word": "explicitly conscious",
+      "lemma": "explicitly conscious",
+      "meaning": "明确自觉意识到的",
+      "reason": "explicitly 为一般程度方式副词修饰 conscious"
+    },
+    {
+      "id": "2015-T3-P2-S4",
+      "a": 70,
+      "b": 92,
+      "lemma": "think of themselves as",
+      "meaning": "把自己看作",
+      "word": "think of themselves as",
+      "reason": "themselves 是本句临时反身宾语，不能把完整片段当词组"
+    },
+    {
+      "id": "2015-T4-P2-S2",
+      "a": 76,
+      "b": 85,
+      "lemma": "part-time",
+      "meaning": "兼职的；非全日制的",
+      "word": "part-time",
+      "reason": "part-time 为单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2015-T4-P3-S2",
+      "a": 21,
+      "b": 30,
+      "lemma": "part-time",
+      "meaning": "兼职的；非全日制的",
+      "word": "part-time",
+      "reason": "part-time 为单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2015-T4-P3-S2",
+      "a": 50,
+      "b": 59,
+      "lemma": "full-time",
+      "meaning": "全职的；全日制的",
+      "word": "full-time",
+      "reason": "full-time 为单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2015-T4-P3-S3",
+      "a": 10,
+      "b": 19,
+      "lemma": "part-time",
+      "meaning": "兼职的；非全日制的",
+      "word": "part-time",
+      "reason": "part-time 为单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2015-T4-P3-S4",
+      "a": 27,
+      "b": 36,
+      "lemma": "part-time",
+      "meaning": "兼职的；非全日制的",
+      "word": "part-time",
+      "reason": "part-time 为单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2015-T4-P4-S1",
+      "a": 37,
+      "b": 46,
+      "lemma": "part-time",
+      "meaning": "兼职的；非全日制的",
+      "word": "part-time",
+      "reason": "part-time 为单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2015-T4-P4-S2",
+      "a": 12,
+      "b": 21,
+      "lemma": "part-time",
+      "meaning": "兼职的；非全日制的",
+      "word": "part-time",
+      "reason": "part-time 为单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2015-T4-P5-S1",
+      "a": 57,
+      "b": 66,
+      "lemma": "part-time",
+      "meaning": "兼职的；非全日制的",
+      "word": "part-time",
+      "reason": "part-time 为单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2015-T4-P5-S3",
+      "a": 55,
+      "b": 64,
+      "lemma": "part-time",
+      "meaning": "兼职的；非全日制的",
+      "word": "part-time",
+      "reason": "part-time 为单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2015-T4-P5-S5",
+      "a": 38,
+      "b": 47,
+      "lemma": "part-time",
+      "meaning": "兼职的；非全日制的",
+      "word": "part-time",
+      "reason": "part-time 为单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2015-T4-P5-S5",
+      "a": 73,
+      "b": 85,
+      "word": "survey taker",
+      "lemma": "survey taker",
+      "meaning": "调查员",
+      "reason": "survey 修饰 taker 为一般参加调查人员描述，不是本篇需要整体解释的固定术语"
+    },
+    {
+      "id": "2015-T4-P6-S1",
+      "a": 23,
+      "b": 32,
+      "lemma": "part-time",
+      "meaning": "兼职的；非全日制的",
+      "word": "part-time",
+      "reason": "part-time 为单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2015-T4-P6-S1",
+      "a": 124,
+      "b": 145,
+      "lemma": "outside of employment",
+      "meaning": "不依附于工作关系的",
+      "word": "outside of employment",
+      "reason": "employment 为本句 outside of 的对象，不把补语填入词组"
+    },
+    {
+      "id": "2015-T4-P7-S2",
+      "a": 64,
+      "b": 73,
+      "lemma": "full-time",
+      "meaning": "全职的；全日制的",
+      "word": "full-time",
+      "reason": "full-time 为单个连字符复合词，应在单词层解释"
+    },
+    {
+      "id": "2016-T1-P2-S3",
+      "a": 45,
+      "b": 62,
+      "word": "thought processes",
+      "lemma": "thought processes",
+      "meaning": "思维过程",
+      "reason": "thought 修饰 processes 是一般思维过程名词组合，从严不标固定词组"
+    },
+    {
+      "id": "2016-T1-P2-S5",
+      "a": 113,
+      "b": 121,
+      "lemma": "jobs gap",
+      "meaning": "人才岗位缺口",
+      "word": "jobs gap",
+      "reason": "jobs gap 是本文对就业缺口的描述性名词组合"
+    },
+    {
+      "id": "2016-T1-P3-S1",
+      "a": 175,
+      "b": 206,
+      "word": "less-experienced or -determined",
+      "lemma": "less-experienced or -determined",
+      "meaning": "经验较少或决心不够坚定的",
+      "reason": "并列省略的比较级修饰片段，不是固定词组"
+    },
+    {
+      "id": "2016-T1-P4-S2",
+      "a": 59,
+      "b": 78,
+      "lemma": "gear lessons toward",
+      "meaning": "使课程适合……的兴趣或需要",
+      "word": "gear lessons toward",
+      "reason": "lessons 是临时宾语，完整片段不是固定词组"
+    },
+    {
+      "id": "2016-T1-P5-S1",
+      "a": 50,
+      "b": 73,
+      "word": "drop out of high school",
+      "lemma": "drop out of high school",
+      "meaning": "从高中辍学",
+      "reason": "high school 是具体退学场所，不把完整填充对象纳入词组"
+    },
+    {
+      "id": "2016-T1-P6-S1",
+      "a": 40,
+      "b": 50,
+      "word": "go into IT",
+      "lemma": "go into it",
+      "meaning": "从事信息技术行业",
+      "reason": "it 为本句指代，go into it 不作为独立固定表达"
+    },
+    {
+      "id": "2016-T1-P6-S4",
+      "a": 51,
+      "b": 82,
+      "word": "coax the machine into producing",
+      "lemma": "coax the machine into producing",
+      "meaning": "设法引导机器产生（想要的结果）",
+      "reason": "machine 和 producing 填充动词框架，是本句片段"
+    },
+    {
+      "id": "2016-T2-P1-S1",
+      "a": 126,
+      "b": 137,
+      "lemma": "lend red to",
+      "meaning": "为……增添红色；给……染上红色",
+      "word": "lent red to",
+      "reason": "red 是本文具体景观颜色，lend red to 并非固定搭配"
+    },
+    {
+      "id": "2016-T3-P2-S4",
+      "a": 134,
+      "b": 144,
+      "lemma": "last thing",
+      "meaning": "最不愿意做的事",
+      "word": "last thing",
+      "reason": "last thing 缺少其后具体补足，不能把一般最高序位词组一概当习语"
+    },
+    {
+      "id": "2016-T3-P3-S2",
+      "a": 113,
+      "b": 123,
+      "lemma": "well spent",
+      "meaning": "使用得有价值的",
+      "word": "well spent",
+      "reason": "well 为一般方式评价，spent 为被动分词，单独两词不构成专有固定表达"
+    },
+    {
+      "id": "2016-T3-P3-S4",
+      "a": 7,
+      "b": 17,
+      "lemma": "slot it in",
+      "meaning": "把阅读塞进安排中",
+      "word": "slot it in",
+      "reason": "it 为本句具体宾语，不把填充形式整体作为词组"
+    },
+    {
+      "id": "2016-T3-P3-S6",
+      "a": 31,
+      "b": 46,
+      "lemma": "losing yourself",
+      "meaning": "沉浸其中；忘我投入",
+      "word": "losing yourself",
+      "reason": "yourself 为本句动作对象，不把一般反身动词组合认作固定词组"
+    },
+    {
+      "id": "2016-T3-P4-S3",
+      "a": 149,
+      "b": 158,
+      "lemma": "soul time",
+      "meaning": "精神上自由专注的时间",
+      "word": "soul time",
+      "reason": "soul time 为本篇作者自造的引语标签，并非通用固定表达"
+    },
+    {
+      "id": "2016-T3-P4-S4",
+      "a": 45,
+      "b": 59,
+      "lemma": "physical books",
+      "meaning": "纸质书",
+      "word": "physical books",
+      "reason": "physical 修饰 books 为本句媒介形态对照，不是独立固定词组"
+    },
+    {
+      "id": "2016-T4-P3-S1",
+      "a": 414,
+      "b": 425,
+      "lemma": "best served",
+      "meaning": "最能从中受益的；最有利的",
+      "word": "best served",
+      "reason": "best 为普通最高程度修饰，served 为一般被动谓语片段"
+    },
+    {
+      "id": "2016-T4-P4-S1",
+      "a": 295,
+      "b": 311,
+      "lemma": "housing patterns",
+      "meaning": "居住模式",
+      "word": "housing patterns",
+      "reason": "housing 修饰 patterns 为本句居住方式描述"
+    },
+    {
+      "id": "2016-T4-P5-S2",
+      "a": 256,
+      "b": 277,
+      "lemma": "signpost achievements",
+      "meaning": "标志性的人生目标或成就",
+      "word": "signpost achievements",
+      "reason": "achievements 为 signpost 的临时宾语"
+    },
+    {
+      "id": "2016-T4-P6-S3",
+      "a": 123,
+      "b": 137,
+      "lemma": "rent rooms out",
+      "meaning": "将房间出租",
+      "word": "rent rooms out",
+      "reason": "rooms 为本句可变宾语，不把填充对象的完整片段作为词组"
+    },
+    {
+      "id": "2016-T4-P6-S6",
+      "a": 26,
+      "b": 41,
+      "word": "capable of that",
+      "lemma": "capable of that",
+      "meaning": "有能力做到前述无大学学历也能养育富足家庭之事",
+      "reason": "that 为本句具体指代，不把整个补语作为词组"
+    },
+    {
+      "id": "2017-T1-P2-S2",
+      "a": 0,
+      "b": 23,
+      "word": "Ten years ago on Monday",
+      "lemma": "ten years ago on monday",
+      "meaning": "以报道所说的星期一为参照，恰好十年前",
+      "reason": "ten years ago on monday 为本句具体日期，不是固定词组"
+    },
+    {
+      "id": "2017-T1-P2-S10",
+      "a": 66,
+      "b": 86,
+      "lemma": "inspire a generation",
+      "meaning": "激励一代人（参与运动）",
+      "word": "inspire a generation",
+      "reason": "generation 是 inspire 的临时宾语"
+    },
+    {
+      "id": "2017-T1-P4-S2",
+      "a": 85,
+      "b": 97,
+      "lemma": "common goods",
+      "meaning": "公共资源；公共设施",
+      "word": "common goods",
+      "reason": "本文 common goods 表示一般的共同利益，不能据此等同规范经济学 common goods 术语"
+    },
+    {
+      "id": "2017-T2-P1-S2",
+      "a": 28,
+      "b": 39,
+      "lemma": "suck you in",
+      "meaning": "把你牢牢吸引进去；让你沉迷",
+      "word": "suck you in",
+      "reason": "you 为本句临时宾语，不把完整片段作为词组"
+    },
+    {
+      "id": "2017-T2-P4-S3",
+      "a": 83,
+      "b": 111,
+      "lemma": "get some work out of the way",
+      "meaning": "先处理完一些工作",
+      "word": "get some work out of the way",
+      "reason": "some work 为本句具体宾语，不整体标固定表达"
+    },
+    {
+      "id": "2017-T3-P4-S6",
+      "a": 73,
+      "b": 91,
+      "lemma": "were you to switch",
+      "meaning": "假如你转入（倒装条件句）",
+      "word": "were you to switch",
+      "reason": "倒装虚拟条件句的本句具体谓语，不是固定词组"
+    },
+    {
+      "id": "2017-T3-P4-S7",
+      "a": 21,
+      "b": 38,
+      "word": "figure things out",
+      "lemma": "figure things out",
+      "meaning": "把相关问题想清楚；弄明白自己的方向",
+      "reason": "things 为本句可变宾语，不整体认作固定词组"
+    },
+    {
+      "id": "2017-T4-P1-S1",
+      "a": 93,
+      "b": 109,
+      "lemma": "national concern",
+      "meaning": "全国都应关注的问题",
+      "word": "national concern",
+      "reason": "national 修饰 concern 是本句关注范围的一般组合"
+    },
+    {
+      "id": "2017-T4-P1-S1",
+      "a": 135,
+      "b": 154,
+      "lemma": "federal tax dollars",
+      "meaning": "联邦税收资金；公共财政支出",
+      "word": "federal tax dollars",
+      "reason": "federal tax 修饰 dollars 为本句资金来源描述"
+    },
+    {
+      "id": "2017-T4-P4-S2",
+      "a": 12,
+      "b": 38,
+      "lemma": "take a magnifying glass to",
+      "meaning": "仔细审视；认真检查",
+      "word": "take a magnifying glass to",
+      "reason": "把 magnifying glass 具体比喻填入动作框架，不把整段当固定词组"
+    },
+    {
+      "id": "2018-T1-P2-S2",
+      "a": 102,
+      "b": 125,
+      "lemma": "mechanical memorization",
+      "meaning": "机械记忆；死记硬背",
+      "word": "mechanical memorization",
+      "reason": "mechanical 修饰 memorization 为本句一般学习方式描述"
+    },
+    {
+      "id": "2018-T1-P4-S3",
+      "a": 99,
+      "b": 119,
+      "lemma": "make it academically",
+      "meaning": "在学业上取得成功",
+      "word": "make it academically",
+      "reason": "academically 为本句临时方面状语，不把完整片段当固定表达"
+    },
+    {
+      "id": "2018-T1-P6-S2",
+      "a": 25,
+      "b": 41,
+      "lemma": "opens more doors",
+      "meaning": "带来更多机会",
+      "word": "opens more doors",
+      "reason": "more 为本句比较限定，不把可变形容范围纳入固定短语"
+    },
+    {
+      "id": "2018-T1-P7-S1",
+      "a": 53,
+      "b": 93,
+      "lemma": "turned the country on its political head",
+      "meaning": "使国家政治格局发生颠覆性变化",
+      "word": "turned the country on its political head",
+      "reason": "the country 和 political 为本句具体对象与修饰，不整体作为词组"
+    },
+    {
+      "id": "2018-T1-P7-S1",
+      "a": 191,
+      "b": 213,
+      "lemma": "staring us in the face",
+      "meaning": "显而易见；就在眼前",
+      "word": "staring us in the face",
+      "reason": "us 为本句具体宾语；规范固定框架可另作搭配解释"
+    },
+    {
+      "id": "2018-T1-P7-S3",
+      "a": 68,
+      "b": 81,
+      "lemma": "fill that gap",
+      "meaning": "弥补岗位技能与劳动者能力之间的缺口",
+      "word": "fill that gap",
+      "reason": "that gap 为本句具体宾语，不是完整固定词组"
+    },
+    {
+      "id": "2018-T2-P1-S1",
+      "a": 152,
+      "b": 169,
+      "word": "renewable sources",
+      "lemma": "renewable sources",
+      "meaning": "可再生能源",
+      "reason": "renewable 修饰 sources 为本句省略 energy 的普通名词组合"
+    },
+    {
+      "id": "2018-T2-P6-S1",
+      "a": 64,
+      "b": 83,
+      "lemma": "place big bets on",
+      "meaning": "大举投资并寄望于……",
+      "word": "placing big bets on",
+      "reason": "big 是本句程度修饰，不把修饰后片段整体标为固定表达"
+    },
+    {
+      "id": "2018-T3-P1-S1",
+      "a": 289,
+      "b": 305,
+      "lemma": "physical product",
+      "meaning": "实体产品",
+      "word": "physical product",
+      "reason": "physical 修饰 product 为普通形容词加名词"
+    },
+    {
+      "id": "2018-T3-P3-S6",
+      "a": 52,
+      "b": 74,
+      "word": "financial disadvantage",
+      "lemma": "financial disadvantage",
+      "meaning": "经济上的不利；经济损失",
+      "reason": "financial 修饰 disadvantage 为普通范围限定"
+    },
+    {
+      "id": "2019-T1-P2-S5",
+      "a": 53,
+      "b": 64,
+      "word": "alert us to",
+      "lemma": "alert us to",
+      "meaning": "提醒我们注意",
+      "reason": "us 是本句具体宾语，不把填充形式独立列为词组"
+    },
+    {
+      "id": "2019-T1-P3-S2",
+      "a": 32,
+      "b": 67,
+      "lemma": "hold a cooperative species together",
+      "meaning": "维系群体中的合作关系",
+      "word": "hold a cooperative species together",
+      "reason": "a cooperative species 为本句具体宾语，完整片段不是固定词组"
+    },
+    {
+      "id": "2019-T1-P4-S4",
+      "a": 117,
+      "b": 133,
+      "lemma": "nastier impulses",
+      "meaning": "更恶劣的冲动",
+      "word": "nastier impulses",
+      "reason": "nastier 是比较级修饰 impulses，临时语义组合"
+    },
+    {
+      "id": "2019-T2-P2-S2",
+      "a": 52,
+      "b": 72,
+      "lemma": "long into the future",
+      "meaning": "在未来很长时期内",
+      "word": "long into the future",
+      "reason": "long into the future 是一般时间程度片段，不是固定搭配"
+    },
+    {
+      "id": "2019-T2-P2-S3",
+      "a": 73,
+      "b": 97,
+      "word": "figuring out the details",
+      "lemma": "figuring out the details",
+      "meaning": "探索并弄清具体做法",
+      "reason": "the details 为本句宾语，不把整体片段作为词组"
+    },
+    {
+      "id": "2019-T2-P5-S1",
+      "a": 129,
+      "b": 154,
+      "lemma": "emissions-permit auctions",
+      "meaning": "排放许可权拍卖",
+      "word": "emissions-permit auctions",
+      "reason": "emissions-permit 修饰 auctions 为本句政策操作组合，未按独立整体术语批准"
+    },
+    {
+      "id": "2019-T2-P6-S1",
+      "a": 48,
+      "b": 62,
+      "lemma": "woody material",
+      "meaning": "木质材料",
+      "word": "woody material",
+      "reason": "woody 修饰 material 为普通物质描述"
+    },
+    {
+      "id": "2019-T3-P3-S8",
+      "a": 92,
+      "b": 111,
+      "lemma": "native u.s. workers",
+      "meaning": "美国本土劳动者",
+      "word": "Native U.S. workers",
+      "reason": "native 和 u.s. 为本句范围限定，整体不是固定词组"
+    },
+    {
+      "id": "2019-T3-P5-S3",
+      "a": 21,
+      "b": 34,
+      "lemma": "numerical cap",
+      "meaning": "数量上限",
+      "word": "numerical cap",
+      "reason": "numerical 修饰 cap 为本句数量上限的一般描述"
+    },
+    {
+      "id": "2019-T3-P5-S7",
+      "a": 87,
+      "b": 111,
+      "lemma": "drive others underground",
+      "meaning": "迫使其他人转入隐蔽状态",
+      "word": "drive others underground",
+      "reason": "others 为本句宾语，不能把完整填充片段当词组"
+    },
+    {
+      "id": "2019-T4-P3-S3",
+      "a": 103,
+      "b": 141,
+      "word": "bigger, bolder, more effective actions",
+      "lemma": "bigger, bolder, more effective actions",
+      "meaning": "规模更大、更大胆且更有效的行动",
+      "reason": "比较级形容词串加 actions，是本句临时并列修饰"
+    },
+    {
+      "id": "2019-T4-P6-S3",
+      "a": 133,
+      "b": 147,
+      "lemma": "trash disposal",
+      "meaning": "垃圾处理",
+      "word": "trash disposal",
+      "reason": "trash disposal 是一般对象加动作名词，未形成这里必需整体识别的固定义"
+    },
+    {
+      "id": "2019-T4-P8-S4",
+      "a": 34,
+      "b": 57,
+      "word": "shape collective action",
+      "lemma": "shape collective action",
+      "meaning": "引导和塑造集体行动",
+      "reason": "shape 是普通及物动词，collective action 是临时宾语"
+    },
+    {
+      "id": "2020-T1-P1-S1",
+      "a": 52,
+      "b": 66,
+      "lemma": "social signals",
+      "meaning": "社交信号；互动线索",
+      "word": "social signals",
+      "reason": "social 对 signals 的一般修饰，在这里不是必须整体解释的专业术语"
+    },
+    {
+      "id": "2020-T1-P1-S2",
+      "a": 31,
+      "b": 48,
+      "lemma": "non-living beings",
+      "meaning": "非生命的对象",
+      "word": "non-living beings",
+      "reason": "non-living 是普通形容词，beings 为一般名词，不能自动合为词组"
+    },
+    {
+      "id": "2020-T1-P7-S2",
+      "a": 56,
+      "b": 69,
+      "lemma": "fellow beings",
+      "meaning": "同类般的伙伴",
+      "word": "fellow beings",
+      "reason": "fellow 对 beings 为一般同类修饰，不独立标为词组"
+    },
+    {
+      "id": "2020-T2-P1-S1",
+      "a": 16,
+      "b": 23,
+      "lemma": "ceo pay",
+      "meaning": "首席执行官薪酬",
+      "word": "CEO pay",
+      "reason": "CEO 修饰 pay 为本句薪酬主体，普通名词堆叠"
+    },
+    {
+      "id": "2020-T2-P1-S1",
+      "a": 128,
+      "b": 135,
+      "lemma": "ceo pay",
+      "meaning": "首席执行官薪酬",
+      "word": "CEO pay",
+      "reason": "CEO 修饰 pay 为本句薪酬主体，普通名词堆叠"
+    },
+    {
+      "id": "2020-T2-P2-S1",
+      "a": 66,
+      "b": 84,
+      "lemma": "limited ceo talent",
+      "meaning": "高水平管理人才供应有限",
+      "word": "limited CEO talent",
+      "reason": "limited、CEO 对 talent 为本句临时数量与对象限定"
+    },
+    {
+      "id": "2020-T2-P4-S4",
+      "a": 35,
+      "b": 53,
+      "lemma": "corporate interest",
+      "meaning": "公司整体利益",
+      "word": "corporate interest",
+      "reason": "corporate 修饰 interest 为本句公司利益的一般范围限定"
+    },
+    {
+      "id": "2020-T2-P5-S1",
+      "a": 86,
+      "b": 99,
+      "lemma": "insider picks",
+      "meaning": "从内部关系圈挑选的人选",
+      "word": "insider picks",
+      "reason": "insider 修饰 picks 为本句内部挑选人选的临时描述"
+    },
+    {
+      "id": "2020-T2-P5-S2",
+      "a": 126,
+      "b": 141,
+      "lemma": "corporate value",
+      "meaning": "企业整体价值",
+      "word": "corporate value",
+      "reason": "corporate 修饰 value 为本句一般公司价值描述，不把歧义组合自动批准为术语"
+    },
+    {
+      "id": "2020-T3-P3-S2",
+      "a": 71,
+      "b": 89,
+      "lemma": "individual drivers",
+      "meaning": "每一位驾驶者",
+      "word": "individual drivers",
+      "reason": "individual 修饰 drivers 为一般范围限定"
+    },
+    {
+      "id": "2020-T3-P5-S5",
+      "a": 6,
+      "b": 21,
+      "lemma": "untimely deaths",
+      "meaning": "过早死亡",
+      "word": "untimely deaths",
+      "reason": "untimely 为普通时间评价修饰 deaths，未整体固定化"
+    },
+    {
+      "id": "2020-T3-P7-S1",
+      "a": 261,
+      "b": 276,
+      "word": "into compliance",
+      "lemma": "into compliance",
+      "meaning": "达到合规状态；达到规定标准",
+      "reason": "into compliance 为动作补语的句内片段，不独立作为固定词组"
+    },
+    {
+      "id": "2020-T4-P2-S3",
+      "a": 83,
+      "b": 103,
+      "lemma": "economic train wreck",
+      "meaning": "严重的经济崩溃（比喻）",
+      "word": "economic train wreck",
+      "reason": "economic 修饰 train wreck 为本句临时经济灾难比喻"
+    },
+    {
+      "id": "2020-T4-P3-S2",
+      "a": 158,
+      "b": 175,
+      "lemma": "secure employment",
+      "meaning": "稳定有保障的工作",
+      "word": "secure employment",
+      "reason": "secure 是普通形容词或动词，employment 为本句一般对象"
+    },
+    {
+      "id": "2020-T4-P3-S2",
+      "a": 237,
+      "b": 254,
+      "lemma": "inspiring purpose",
+      "meaning": "能激发动力的工作意义或目标",
+      "word": "inspiring purpose",
+      "reason": "inspiring 修饰 purpose 为普通形容词加名词"
+    },
+    {
+      "id": "2020-T4-P3-S3",
+      "a": 175,
+      "b": 199,
+      "lemma": "serving the greater good",
+      "meaning": "服务公共利益；为更广泛的群体作贡献",
+      "word": "serving the greater good",
+      "reason": "serving 为本句动作，不能把动作和具体价值目标整段当词组"
+    },
+    {
+      "id": "2021-T1-P1-S1",
+      "a": 127,
+      "b": 143,
+      "lemma": "would-be workers",
+      "meaning": "希望就业或即将进入劳动力市场的人",
+      "word": "would-be workers",
+      "reason": "would-be 为单词性修饰语，workers 为本句一般名词"
+    },
+    {
+      "id": "2021-T1-P1-S3",
+      "a": 78,
+      "b": 89,
+      "word": "core skills",
+      "lemma": "core skill",
+      "meaning": "岗位核心技能",
+      "reason": "core 修饰 skill 为普通范围限定，不标独立固定词组"
+    },
+    {
+      "id": "2021-T1-P3-S2",
+      "a": 119,
+      "b": 136,
+      "lemma": "generational lows",
+      "meaning": "几十年来、约一代人时间内的低点",
+      "word": "generational lows",
+      "reason": "generational 修饰 lows 为本句具体比较时段，不是固定词组"
+    },
+    {
+      "id": "2021-T1-P4-S2",
+      "a": 107,
+      "b": 120,
+      "lemma": "all concerned",
+      "meaning": "所有相关的人；各有关方面",
+      "word": "all concerned",
+      "reason": "all 修饰 concerned 的名词化用法，普通语法组合"
+    },
+    {
+      "id": "2021-T2-P3-S2",
+      "a": 85,
+      "b": 100,
+      "lemma": "livestock farms",
+      "meaning": "畜牧养殖场",
+      "word": "livestock farms",
+      "reason": "livestock 修饰 farms 为本句畜牧农场的一般类别描述"
+    },
+    {
+      "id": "2021-T2-P4-S2",
+      "a": 96,
+      "b": 108,
+      "word": "animal foods",
+      "lemma": "animal foods",
+      "meaning": "动物性食物",
+      "reason": "animal 修饰 foods 为本文动物来源食物的一般分类"
+    },
+    {
+      "id": "2021-T2-P5-S3",
+      "a": 106,
+      "b": 119,
+      "lemma": "arable fields",
+      "meaning": "可耕作的农田",
+      "word": "arable fields",
+      "reason": "arable 修饰 fields 为普通性质描述，不按术语 arable land 整体替换"
+    },
+    {
+      "id": "2021-T2-P6-S2",
+      "a": 105,
+      "b": 114,
+      "lemma": "vast bulk",
+      "meaning": "绝大部分",
+      "word": "vast bulk",
+      "reason": "vast 是对 bulk 的一般程度修饰，不整体标固定词组"
+    },
+    {
+      "id": "2021-T3-P4-S1",
+      "a": 215,
+      "b": 236,
+      "lemma": "put my selfish hat on",
+      "meaning": "从只考虑自身利益的角度思考",
+      "word": "put my selfish hat on",
+      "reason": "my 与 selfish 为本句特定角色比喻填充，不把整段当固定词组"
+    },
+    {
+      "id": "2021-T3-P7-S1",
+      "a": 190,
+      "b": 202,
+      "lemma": "buy and kill",
+      "meaning": "收购后扼杀；买下潜在对手再关闭",
+      "word": "buy and kill",
+      "reason": "buy and kill 为本文概括并购后关停的引语标签，不从本句标成通用固定表达"
+    },
+    {
+      "id": "2022-T1-P4-S1",
+      "a": 119,
+      "b": 135,
+      "word": "premium offering",
+      "lemma": "premium offering",
+      "meaning": "高端商品；高价优质产品",
+      "reason": "premium 为普通质量档次修饰，offering 为本句产品"
+    },
+    {
+      "id": "2022-T2-P1-S1",
+      "a": 34,
+      "b": 54,
+      "word": "well into retirement",
+      "lemma": "well into retirement",
+      "meaning": "退休之后很长一段时间里",
+      "reason": "retirement 为本句具体时间端点，well into 可修饰任意时段"
+    },
+    {
+      "id": "2022-T2-P4-S3",
+      "a": 60,
+      "b": 75,
+      "word": "past retirement",
+      "lemma": "past retirement",
+      "meaning": "退休之后",
+      "reason": "past 后接 retirement 为本句普通时间关系"
+    },
+    {
+      "id": "2022-T3-P1-S2",
+      "a": 105,
+      "b": 120,
+      "lemma": "sign-up process",
+      "meaning": "注册流程",
+      "word": "sign-up process",
+      "reason": "sign-up 修饰 process 为一般流程限定，不能自动整体标词组"
+    },
+    {
+      "id": "2022-T3-P4-S3",
+      "a": 64,
+      "b": 81,
+      "word": "digital deception",
+      "lemma": "digital deception",
+      "meaning": "数字欺骗；通过数字界面误导用户",
+      "reason": "digital 修饰 deception 为一般方式限定，不是独立固定术语"
+    },
+    {
+      "id": "2022-T4-P2-S5",
+      "a": 72,
+      "b": 91,
+      "lemma": "meal-card purchases",
+      "meaning": "餐卡消费记录",
+      "word": "meal-card purchases",
+      "reason": "meal-card 修饰 purchases 为本文具体调查数据类别"
+    },
+    {
+      "id": "2022-T4-P5-S3",
+      "a": 30,
+      "b": 47,
+      "word": "rational argument",
+      "lemma": "rational argument",
+      "meaning": "理性论证",
+      "reason": "rational 修饰 argument 为普通评价性形容词加名词"
+    },
+    {
+      "id": "2023-T1-P1-S3",
+      "a": 35,
+      "b": 45,
+      "word": "fake grass",
+      "lemma": "fake grass",
+      "meaning": "人造草坪",
+      "reason": "fake 修饰 grass 是本句通俗描述，不以普通组合代替人工草坪术语"
+    },
+    {
+      "id": "2023-T1-P3-S2",
+      "a": 36,
+      "b": 61,
+      "lemma": "cut through the greenwash",
+      "meaning": "揭开环保宣传包装",
+      "word": "cut through the greenwash",
+      "reason": "greenwash 为本句具体宾语，不把完整片段标为词组"
+    },
+    {
+      "id": "2023-T2-P1-S1",
+      "a": 66,
+      "b": 98,
+      "lemma": "plug the funding gap",
+      "meaning": "填补长期存在的资金缺口",
+      "word": "plugging the chronic funding gap",
+      "reason": "funding 为本句具体缺口类别，完整片段不作固定词组"
+    },
+    {
+      "id": "2023-T2-P2-S2",
+      "a": 26,
+      "b": 45,
+      "word": "maintenance backlog",
+      "lemma": "maintenance backlog",
+      "meaning": "积压的维护工作",
+      "reason": "maintenance 修饰 backlog 为本句积压事项类别，未批准为独立专业术语"
+    },
+    {
+      "id": "2023-T2-P4-S1",
+      "a": 179,
+      "b": 198,
+      "word": "commercial drumbeat",
+      "lemma": "commercial drumbeat",
+      "meaning": "连绵不断的商业宣传；商业喧嚣",
+      "reason": "commercial 对 drumbeat 为本句比喻修饰，不构成固定表达"
+    },
+    {
+      "id": "2023-T2-P5-S1",
+      "a": 57,
+      "b": 75,
+      "lemma": "starved of funding",
+      "meaning": "长期严重缺乏资金",
+      "word": "starved of funding",
+      "reason": "funding 为本句具体缺乏对象，不把整体填充片段当词组"
+    },
+    {
+      "id": "2023-T4-P3-S2",
+      "a": 215,
+      "b": 231,
+      "word": "staying out late",
+      "lemma": "stay out late",
+      "meaning": "很晚仍不回家",
+      "reason": "late 为本句时间状语，不把含状语片段作为固定词组"
+    },
+    {
+      "id": "2024-T1-P4-S1",
+      "a": 102,
+      "b": 117,
+      "lemma": "in a handful of",
+      "meaning": "在少数几个……之中",
+      "word": "in a handful of",
+      "reason": "in 是本句临时地点介词，不应纳入数量词组"
+    },
+    {
+      "id": "2024-T2-P1-S1",
+      "a": 57,
+      "b": 69,
+      "word": "a failure to",
+      "lemma": "a failure to",
+      "meaning": "未能做到",
+      "reason": "failure 后接不定式是一般语法补足，不是独立固定词组"
+    },
+    {
+      "id": "2024-T2-P3-S3",
+      "a": 91,
+      "b": 110,
+      "word": "productive forestry",
+      "lemma": "productive forestry",
+      "meaning": "生产性林业；以木材生产为目标的林业",
+      "reason": "productive 为一般形容词修饰 forestry，从严不标独立固定术语"
+    },
+    {
+      "id": "2024-T3-P1-S1",
+      "a": 112,
+      "b": 130,
+      "word": "turn over the keys",
+      "lemma": "turn over the keys",
+      "meaning": "交出车钥匙；不再驾驶",
+      "reason": "turn over 的宾语 keys 为本句具体事物，不把整段作为词组"
+    },
+    {
+      "id": "2024-T3-P2-S1",
+      "a": 230,
+      "b": 248,
+      "word": "driving privileges",
+      "lemma": "driving privilege",
+      "meaning": "驾驶资格；获准驾驶的权利",
+      "reason": "driving 修饰 privilege，是具体论述中的一般名词组合"
+    },
+    {
+      "id": "2024-T3-P4-S1",
+      "a": 78,
+      "b": 93,
+      "word": "license renewal",
+      "lemma": "license renewal",
+      "meaning": "驾照续期；换证",
+      "reason": "license renewal 为普通证件加办理动作，未证明整体固定化"
+    },
+    {
+      "id": "2024-T3-P4-S2",
+      "a": 75,
+      "b": 88,
+      "word": "fatal crashes",
+      "lemma": "fatal crash",
+      "meaning": "致命交通事故",
+      "reason": "fatal 是普通形容词，crash 是名词，不形成独立固定表达"
+    },
+    {
+      "id": "2024-T4-P3-S4",
+      "a": 103,
+      "b": 130,
+      "lemma": "express affirmative consent",
+      "meaning": "明确、肯定的同意",
+      "word": "express affirmative consent",
+      "reason": "express 是本句动作，不把具体法律概念作其宾语后的整体标为词组"
+    },
+    {
+      "id": "2025-T1-P7-S1",
+      "a": 74,
+      "b": 103,
+      "lemma": "succumb to the temptation",
+      "meaning": "抵挡不住诱惑",
+      "word": "succumbing to the temptations",
+      "reason": "the temptation 为本句具体宾语，不能把完整动宾片段认作词组"
+    },
+    {
+      "id": "2025-T2-P3-S1",
+      "a": 57,
+      "b": 71,
+      "lemma": "well rehearsed",
+      "meaning": "已反复讨论、并非新提出的",
+      "word": "well rehearsed",
+      "reason": "well 只是程度副词修饰 rehearsed，并无独立固定组合"
+    },
+    {
+      "id": "2025-T3-P1-S3",
+      "a": 63,
+      "b": 73,
+      "lemma": "cold ward",
+      "meaning": "降温病房",
+      "word": "cold wards",
+      "reason": "cold 只是对 ward 的状态修饰，本文一般病房描述"
+    },
+    {
+      "id": "2025-T3-P2-S2",
+      "a": 10,
+      "b": 26,
+      "word": "adequate funding",
+      "lemma": "adequate funding",
+      "meaning": "充足的资金支持",
+      "reason": "adequate 为程度评价，funding 为一般名词"
+    },
+    {
+      "id": "2025-T3-P4-S1",
+      "a": 79,
+      "b": 89,
+      "word": "model plan",
+      "lemma": "model plan",
+      "meaning": "供各地参考的示范计划",
+      "reason": "model 修饰 plan 表示示范方案，一般名词组合"
+    },
+    {
+      "id": "2025-T3-P4-S1",
+      "a": 132,
+      "b": 159,
+      "word": "adapted to local conditions",
+      "lemma": "adapt to local conditions",
+      "meaning": "根据当地情况作调整",
+      "reason": "local conditions 为本句具体对象，不把整个动作片段标为词组"
+    },
+    {
+      "id": "2025-T3-P5-S3",
+      "a": 62,
+      "b": 80,
+      "word": "informal dwellings",
+      "lemma": "informal dwelling",
+      "meaning": "非正规住房；简陋且缺少规范建设的住所",
+      "reason": "informal 修饰 dwelling 为本句住房描述，从严不标固定术语"
+    },
+    {
+      "id": "2025-T3-P5-S3",
+      "a": 86,
+      "b": 107,
+      "word": "cope poorly with heat",
+      "lemma": "cope poorly with heat",
+      "meaning": "抵御或应对高温的能力差",
+      "reason": "poorly 与 heat 为本句方式和对象，完整片段不是词组"
+    },
+    {
+      "id": "2025-T3-P6-S1",
+      "a": 96,
+      "b": 124,
+      "word": "medium-to long-term measures",
+      "lemma": "medium- to long-term measure",
+      "meaning": "中长期措施",
+      "reason": "并列时限修饰 measure，是本句临时组合"
+    },
+    {
+      "id": "2025-T3-P6-S4",
+      "a": 70,
+      "b": 83,
+      "word": "lowest target",
+      "lemma": "lowest target",
+      "meaning": "最低限度的目标",
+      "reason": "最高级评价加普通名词，不是固定词组"
+    },
+    {
+      "id": "2025-T4-P3-S2",
+      "a": 171,
+      "b": 190,
+      "lemma": "designated walkways",
+      "meaning": "指定步行路线",
+      "word": "designated walkways",
+      "reason": "designated 修饰 walkways 为一般指定对象描述"
+    },
+    {
+      "id": "2026-T1-P6-S2",
+      "a": 78,
+      "b": 88,
+      "word": "puts it at",
+      "lemma": "put something at",
+      "meaning": "把该数量估计为",
+      "reason": "put something at 是未完成的普通动词补足框架，缺少固定成分"
+    },
+    {
+      "id": "2026-T1-P6-S3",
+      "a": 32,
+      "b": 40,
+      "word": "too many",
+      "lemma": "too many",
+      "meaning": "数量过多；已经不应再多",
+      "reason": "too 修饰数量 many 是普通程度语法，不作为词组"
+    },
+    {
+      "id": "2026-T2-P1-S2",
+      "a": 20,
+      "b": 36,
+      "lemma": "engage with AI",
+      "meaning": "与人工智能互动",
+      "word": "engaging with AI",
+      "reason": "AI 是本句具体对象，不把 engage with 的宾语填入词组"
+    },
+    {
+      "id": "2026-T2-P1-S2",
+      "a": 60,
+      "b": 73,
+      "lemma": "feeling heard",
+      "meaning": "感到被认真倾听",
+      "word": "feeling heard",
+      "reason": "feeling heard 是本句被理解的状态描述，非固定词组"
+    },
+    {
+      "id": "2026-T2-P2-S3",
+      "a": 19,
+      "b": 31,
+      "word": "broad rights",
+      "lemma": "broad right",
+      "meaning": "广泛的使用权利",
+      "reason": "broad 修饰 right 是一般形容词加名词"
+    },
+    {
+      "id": "2026-T3-P1-S1",
+      "a": 139,
+      "b": 168,
+      "lemma": "for locals and tourists alike",
+      "meaning": "对本地居民和游客都一样",
+      "word": "for locals and tourists alike",
+      "reason": "locals 和 tourists 为本句具体并列对象，不能把完整片段当词组"
+    },
+    {
+      "id": "2026-T3-P2-S1",
+      "a": 142,
+      "b": 157,
+      "lemma": "head on holiday",
+      "meaning": "出发去度假",
+      "word": "Head on holiday",
+      "reason": "head 为普通移动动词，holiday 为本句目标，不合并完整片段"
+    },
+    {
+      "id": "2026-T3-P4-S2",
+      "a": 58,
+      "b": 71,
+      "lemma": "recovery fund",
+      "meaning": "经济复苏基金",
+      "word": "recovery fund",
+      "reason": "recovery 修饰 fund 为本句资金用途描述，不是独立固定词组"
+    },
+    {
+      "id": "2026-T3-P5-S3",
+      "a": 11,
+      "b": 23,
+      "lemma": "mixed system",
+      "meaning": "高铁与普通列车混用线路的系统",
+      "word": "mixed system",
+      "reason": "mixed 修饰 system 为一般性质描述"
+    },
+    {
+      "id": "2026-T3-P5-S4",
+      "a": 2,
+      "b": 14,
+      "lemma": "mixed system",
+      "meaning": "高铁与普通列车混用线路的系统",
+      "word": "mixed system",
+      "reason": "mixed 修饰 system 为一般性质描述"
+    },
+    {
+      "id": "2026-T4-P4-S2",
+      "a": 182,
+      "b": 196,
+      "lemma": "gate donation",
+      "meaning": "入口处收取的自愿捐款",
+      "word": "gate donations",
+      "reason": "gate donation 是本次活动收取捐款的临时名词组合"
+    },
+    {
+      "id": "2026-T4-P5-S3",
+      "a": 21,
+      "b": 35,
+      "lemma": "gate donation",
+      "meaning": "入口处收取的自愿捐款",
+      "word": "gate donations",
+      "reason": "gate donation 是本次活动收取捐款的临时名词组合"
+    }
+  ],
+  "splitStructures": [
+    {
+      "id": "2010-T4-P3-S3",
+      "original": "exempted women from jury duty",
+      "lemma": "exempt … from …",
+      "parts": [
+        "exempted",
+        "from"
+      ]
+    },
+    {
+      "id": "2012-T2-P1-S2",
+      "original": "fuses girls' identity to appearance",
+      "lemma": "fuse A to B",
+      "parts": [
+        "fuses",
+        "to"
+      ]
+    },
+    {
+      "id": "2012-T4-P2-S4",
+      "original": "put a necessary end to",
+      "lemma": "put an end to",
+      "parts": [
+        "put a",
+        "end to"
+      ]
+    },
+    {
+      "id": "2015-T3-P3-S1",
+      "original": "infuse work with meaning",
+      "lemma": "infuse … with …",
+      "parts": [
+        "infuse",
+        "with"
+      ]
+    },
+    {
+      "id": "2019-T4-P3-S1",
+      "original": "leaving it up to",
+      "lemma": "leave … up to …",
+      "parts": [
+        "leaving",
+        "up to"
+      ]
+    },
+    {
+      "id": "2019-T4-P4-S1",
+      "original": "hold our governments and industries to account",
+      "lemma": "hold … to account",
+      "parts": [
+        "hold",
+        "to account"
+      ]
+    },
+    {
+      "id": "2019-T4-P8-S2",
+      "original": "putting things into perspective",
+      "lemma": "put … into perspective",
+      "parts": [
+        "putting",
+        "into perspective"
+      ]
+    },
+    {
+      "id": "2020-T1-P4-S2",
+      "original": "set the social robot free",
+      "lemma": "set … free",
+      "parts": [
+        "set",
+        "free"
+      ]
+    },
+    {
+      "id": "2020-T1-P4-S4",
+      "original": "bonded more with",
+      "lemma": "bond with",
+      "parts": [
+        "bonded",
+        "with"
+      ]
+    },
+    {
+      "id": "2020-T2-P4-S1",
+      "original": "ripping people off",
+      "lemma": "rip off",
+      "parts": [
+        "ripping",
+        "off"
+      ]
+    },
+    {
+      "id": "2020-T4-P2-S5",
+      "original": "taking any chances",
+      "lemma": "take chances",
+      "parts": [
+        "taking",
+        "chances"
+      ]
+    },
+    {
+      "id": "2020-T4-P3-S1",
+      "original": "with a job in mind",
+      "lemma": "with … in mind",
+      "parts": [
+        "with",
+        "in mind"
+      ]
+    },
+    {
+      "id": "2021-T1-P2-S6",
+      "original": "turns to government",
+      "lemma": "turn to",
+      "parts": [
+        "turns to"
+      ]
+    },
+    {
+      "id": "2021-T3-P2-S2",
+      "original": "feed their great hunger for tech talent",
+      "lemma": "feed … hunger for …",
+      "parts": [
+        "feed",
+        "hunger for"
+      ]
+    },
+    {
+      "id": "2021-T3-P3-S2",
+      "original": "closed them down",
+      "lemma": "close down",
+      "parts": [
+        "closed",
+        "down"
+      ]
+    },
+    {
+      "id": "2021-T4-P1-S3",
+      "original": "correlated strongly with",
+      "lemma": "correlate with",
+      "parts": [
+        "correlated",
+        "with"
+      ]
+    },
+    {
+      "id": "2021-T4-P4-S2",
+      "original": "aligned better with",
+      "lemma": "align with",
+      "parts": [
+        "aligned",
+        "with"
+      ]
+    },
+    {
+      "id": "2023-T2-P5-S2",
+      "original": "place a very high value on",
+      "lemma": "place a high value on",
+      "parts": [
+        "place a",
+        "high value on"
+      ]
+    },
+    {
+      "id": "2023-T2-P6-S2",
+      "original": "On top of this",
+      "lemma": "on top of",
+      "parts": [
+        "On top of"
+      ]
+    },
+    {
+      "id": "2023-T2-P6-S3",
+      "original": "bring the stories of these places to life",
+      "lemma": "bring … to life",
+      "parts": [
+        "bring",
+        "to life"
+      ]
+    },
+    {
+      "id": "2024-T4-P1-S2",
+      "original": "keep better track of",
+      "lemma": "keep track of",
+      "parts": [
+        "keep",
+        "track of"
+      ]
+    }
+  ],
+  "added": [
+    {
+      "id": "2010-T3-P4-S3",
+      "a": 7,
+      "b": 17,
+      "word": "because of",
+      "lemma": "because of",
+      "meaning": "由于；因为",
+      "kind": "phrase"
+    },
+    {
+      "id": "2010-T4-P1-S2",
+      "a": 65,
+      "b": 76,
+      "word": "rather than",
+      "lemma": "rather than",
+      "meaning": "而不是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2010-T4-P1-S3",
+      "a": 65,
+      "b": 76,
+      "word": "rather than",
+      "lemma": "rather than",
+      "meaning": "而不是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2011-T1-P4-S1",
+      "a": 156,
+      "b": 163,
+      "word": "even if",
+      "lemma": "even if",
+      "meaning": "即使；即便",
+      "kind": "phrase"
+    },
+    {
+      "id": "2011-T2-P5-S6",
+      "a": 20,
+      "b": 29,
+      "word": "no longer",
+      "lemma": "no longer",
+      "meaning": "不再",
+      "kind": "phrase"
+    },
+    {
+      "id": "2011-T3-P4-S4",
+      "a": 104,
+      "b": 115,
+      "word": "rather than",
+      "lemma": "rather than",
+      "meaning": "而不是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2011-T3-P5-S2",
+      "a": 22,
+      "b": 32,
+      "word": "because of",
+      "lemma": "because of",
+      "meaning": "由于；因为",
+      "kind": "phrase"
+    },
+    {
+      "id": "2012-T1-P1-S3",
+      "a": 140,
+      "b": 149,
+      "word": "no longer",
+      "lemma": "no longer",
+      "meaning": "不再",
+      "kind": "phrase"
+    },
+    {
+      "id": "2012-T1-P2-S4",
+      "a": 90,
+      "b": 100,
+      "word": "because of",
+      "lemma": "because of",
+      "meaning": "由于；因为",
+      "kind": "phrase"
+    },
+    {
+      "id": "2012-T1-P3-S5",
+      "a": 4,
+      "b": 15,
+      "word": "rather than",
+      "lemma": "rather than",
+      "meaning": "而不是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2012-T2-P2-S2",
+      "a": 31,
+      "b": 37,
+      "word": "at all",
+      "lemma": "at all",
+      "meaning": "根本；完全（此处与否定连用）",
+      "kind": "phrase"
+    },
+    {
+      "id": "2012-T2-P2-S6",
+      "a": 247,
+      "b": 255,
+      "word": "at least",
+      "lemma": "at least",
+      "meaning": "至少",
+      "kind": "phrase"
+    },
+    {
+      "id": "2012-T2-P4-S1",
+      "a": 54,
+      "b": 65,
+      "word": "in order to",
+      "lemma": "in order to",
+      "meaning": "为了",
+      "kind": "phrase"
+    },
+    {
+      "id": "2012-T3-P2-S1",
+      "a": 33,
+      "b": 41,
+      "word": "at least",
+      "lemma": "at least",
+      "meaning": "至少",
+      "kind": "phrase"
+    },
+    {
+      "id": "2012-T3-P3-S3",
+      "a": 147,
+      "b": 158,
+      "word": "rather than",
+      "lemma": "rather than",
+      "meaning": "而不是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2013-T1-P2-S1",
+      "a": 203,
+      "b": 213,
+      "word": "because of",
+      "lemma": "because of",
+      "meaning": "由于；因为",
+      "kind": "phrase"
+    },
+    {
+      "id": "2013-T1-P2-S1",
+      "a": 237,
+      "b": 247,
+      "word": "because of",
+      "lemma": "because of",
+      "meaning": "由于；因为",
+      "kind": "phrase"
+    },
+    {
+      "id": "2013-T1-P2-S1",
+      "a": 284,
+      "b": 294,
+      "word": "because of",
+      "lemma": "because of",
+      "meaning": "由于；因为",
+      "kind": "phrase"
+    },
+    {
+      "id": "2013-T3-P2-S3",
+      "a": 70,
+      "b": 78,
+      "word": "at least",
+      "lemma": "at least",
+      "meaning": "至少",
+      "kind": "phrase"
+    },
+    {
+      "id": "2013-T3-P3-S2",
+      "a": 144,
+      "b": 155,
+      "word": "even though",
+      "lemma": "even though",
+      "meaning": "尽管；虽然",
+      "kind": "phrase"
+    },
+    {
+      "id": "2013-T4-P1-S2",
+      "a": 0,
+      "b": 13,
+      "word": "In particular",
+      "lemma": "in particular",
+      "meaning": "尤其；特别是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2013-T4-P5-S3",
+      "a": 88,
+      "b": 93,
+      "word": "as if",
+      "lemma": "as if",
+      "meaning": "好像；仿佛",
+      "kind": "phrase"
+    },
+    {
+      "id": "2013-T4-P6-S1",
+      "a": 78,
+      "b": 88,
+      "word": "as well as",
+      "lemma": "as well as",
+      "meaning": "以及；也",
+      "kind": "phrase"
+    },
+    {
+      "id": "2013-T4-P6-S1",
+      "a": 0,
+      "b": 9,
+      "word": "After all",
+      "lemma": "after all",
+      "meaning": "毕竟",
+      "kind": "phrase"
+    },
+    {
+      "id": "2014-T1-P3-S1",
+      "a": 57,
+      "b": 67,
+      "word": "as well as",
+      "lemma": "as well as",
+      "meaning": "以及；也",
+      "kind": "phrase"
+    },
+    {
+      "id": "2014-T2-P3-S2",
+      "a": 0,
+      "b": 11,
+      "word": "Rather than",
+      "lemma": "rather than",
+      "meaning": "而不是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2014-T2-P4-S3",
+      "a": 0,
+      "b": 7,
+      "word": "In fact",
+      "lemma": "in fact",
+      "meaning": "事实上",
+      "kind": "phrase"
+    },
+    {
+      "id": "2014-T3-P1-S1",
+      "a": 37,
+      "b": 45,
+      "word": "at least",
+      "lemma": "at least",
+      "meaning": "至少",
+      "kind": "phrase"
+    },
+    {
+      "id": "2014-T3-P5-S1",
+      "a": 80,
+      "b": 90,
+      "word": "relying on",
+      "lemma": "rely on",
+      "meaning": "依靠；依赖",
+      "kind": "phrase"
+    },
+    {
+      "id": "2014-T3-P6-S3",
+      "a": 86,
+      "b": 97,
+      "word": "rather than",
+      "lemma": "rather than",
+      "meaning": "而不是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2014-T3-P6-S3",
+      "a": 0,
+      "b": 14,
+      "word": "In other words",
+      "lemma": "in other words",
+      "meaning": "换句话说",
+      "kind": "phrase"
+    },
+    {
+      "id": "2014-T4-P1-S1",
+      "a": 47,
+      "b": 62,
+      "word": "contributing to",
+      "lemma": "contribute to",
+      "meaning": "有助于；促进",
+      "kind": "phrase"
+    },
+    {
+      "id": "2014-T4-P2-S2",
+      "a": 0,
+      "b": 14,
+      "word": "To some extent",
+      "lemma": "to some extent",
+      "meaning": "在某种程度上",
+      "kind": "phrase"
+    },
+    {
+      "id": "2014-T4-P2-S3",
+      "a": 71,
+      "b": 84,
+      "word": "contribute to",
+      "lemma": "contribute to",
+      "meaning": "有助于；促进",
+      "kind": "phrase"
+    },
+    {
+      "id": "2014-T4-P7-S2",
+      "a": 38,
+      "b": 55,
+      "word": "in the short term",
+      "lemma": "in the short term",
+      "meaning": "从短期来看",
+      "kind": "phrase"
+    },
+    {
+      "id": "2015-T1-P2-S1",
+      "a": 64,
+      "b": 74,
+      "word": "as well as",
+      "lemma": "as well as",
+      "meaning": "以及；也",
+      "kind": "phrase"
+    },
+    {
+      "id": "2015-T1-P2-S2",
+      "a": 0,
+      "b": 7,
+      "word": "In fact",
+      "lemma": "in fact",
+      "meaning": "事实上",
+      "kind": "phrase"
+    },
+    {
+      "id": "2015-T1-P4-S2",
+      "a": 123,
+      "b": 134,
+      "word": "in order to",
+      "lemma": "in order to",
+      "meaning": "为了",
+      "kind": "phrase"
+    },
+    {
+      "id": "2015-T2-P1-S4",
+      "a": 179,
+      "b": 190,
+      "word": "rather than",
+      "lemma": "rather than",
+      "meaning": "而不是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2015-T2-P3-S3",
+      "a": 203,
+      "b": 211,
+      "word": "at least",
+      "lemma": "at least",
+      "meaning": "至少",
+      "kind": "phrase"
+    },
+    {
+      "id": "2015-T3-P4-S4",
+      "a": 84,
+      "b": 91,
+      "word": "even if",
+      "lemma": "even if",
+      "meaning": "即使；即便",
+      "kind": "phrase"
+    },
+    {
+      "id": "2015-T3-P5-S1",
+      "a": 106,
+      "b": 115,
+      "word": "depend on",
+      "lemma": "depend on",
+      "meaning": "依赖；取决于",
+      "kind": "phrase"
+    },
+    {
+      "id": "2015-T4-P1-S3",
+      "a": 0,
+      "b": 7,
+      "word": "For now",
+      "lemma": "for now",
+      "meaning": "眼下；目前",
+      "kind": "phrase"
+    },
+    {
+      "id": "2015-T4-P1-S4",
+      "a": 67,
+      "b": 75,
+      "word": "at least",
+      "lemma": "at least",
+      "meaning": "至少",
+      "kind": "phrase"
+    },
+    {
+      "id": "2015-T4-P7-S2",
+      "a": 102,
+      "b": 113,
+      "word": "in order to",
+      "lemma": "in order to",
+      "meaning": "为了",
+      "kind": "phrase"
+    },
+    {
+      "id": "2015-T4-P7-S3",
+      "a": 24,
+      "b": 33,
+      "word": "no longer",
+      "lemma": "no longer",
+      "meaning": "不再",
+      "kind": "phrase"
+    },
+    {
+      "id": "2016-T1-P6-S1",
+      "a": 51,
+      "b": 57,
+      "word": "at all",
+      "lemma": "at all",
+      "meaning": "根本；完全（此处与否定连用）",
+      "kind": "phrase"
+    },
+    {
+      "id": "2016-T2-P2-S6",
+      "a": 0,
+      "b": 13,
+      "word": "In particular",
+      "lemma": "in particular",
+      "meaning": "尤其；特别是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2016-T2-P3-S1",
+      "a": 147,
+      "b": 157,
+      "word": "as long as",
+      "lemma": "as long as",
+      "meaning": "只要",
+      "kind": "phrase"
+    },
+    {
+      "id": "2016-T2-P4-S2",
+      "a": 56,
+      "b": 64,
+      "word": "at least",
+      "lemma": "at least",
+      "meaning": "至少",
+      "kind": "phrase"
+    },
+    {
+      "id": "2016-T3-P2-S2",
+      "a": 104,
+      "b": 116,
+      "word": "at all times",
+      "lemma": "at all times",
+      "meaning": "始终；时时刻刻",
+      "kind": "phrase"
+    },
+    {
+      "id": "2016-T3-P2-S2",
+      "a": 66,
+      "b": 73,
+      "word": "Give up",
+      "lemma": "give up",
+      "meaning": "放弃",
+      "kind": "phrase"
+    },
+    {
+      "id": "2016-T3-P3-S1",
+      "a": 0,
+      "b": 7,
+      "word": "In fact",
+      "lemma": "in fact",
+      "meaning": "事实上",
+      "kind": "phrase"
+    },
+    {
+      "id": "2016-T3-P3-S3",
+      "a": 19,
+      "b": 30,
+      "word": "by contrast",
+      "lemma": "by contrast",
+      "meaning": "相比之下",
+      "kind": "phrase"
+    },
+    {
+      "id": "2016-T3-P3-S3",
+      "a": 32,
+      "b": 42,
+      "word": "depends on",
+      "lemma": "depend on",
+      "meaning": "依靠；依赖",
+      "kind": "phrase"
+    },
+    {
+      "id": "2016-T3-P4-S3",
+      "a": 57,
+      "b": 64,
+      "word": "in fact",
+      "lemma": "in fact",
+      "meaning": "事实上",
+      "kind": "phrase"
+    },
+    {
+      "id": "2016-T3-P4-S5",
+      "a": 23,
+      "b": 35,
+      "word": "at all times",
+      "lemma": "at all times",
+      "meaning": "始终；时时刻刻",
+      "kind": "phrase"
+    },
+    {
+      "id": "2016-T3-P4-S6",
+      "a": 41,
+      "b": 46,
+      "word": "as if",
+      "lemma": "as if",
+      "meaning": "好像；仿佛",
+      "kind": "phrase"
+    },
+    {
+      "id": "2016-T3-P4-S6",
+      "a": 25,
+      "b": 34,
+      "word": "no longer",
+      "lemma": "no longer",
+      "meaning": "不再",
+      "kind": "phrase"
+    },
+    {
+      "id": "2016-T4-P6-S4",
+      "a": 96,
+      "b": 107,
+      "word": "even though",
+      "lemma": "even though",
+      "meaning": "尽管；虽然",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T1-P2-S8",
+      "a": 50,
+      "b": 58,
+      "word": "at least",
+      "lemma": "at least",
+      "meaning": "至少",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T1-P3-S4",
+      "a": 21,
+      "b": 32,
+      "word": "by contrast",
+      "lemma": "by contrast",
+      "meaning": "相比之下",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T1-P4-S4",
+      "a": 0,
+      "b": 10,
+      "word": "Instead of",
+      "lemma": "instead of",
+      "meaning": "而不是；代替",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T1-P4-S5",
+      "a": 3,
+      "b": 11,
+      "word": "at least",
+      "lemma": "at least",
+      "meaning": "至少",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T2-P1-S3",
+      "a": 35,
+      "b": 43,
+      "word": "leads to",
+      "lemma": "lead to",
+      "meaning": "导致",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T2-P3-S4",
+      "a": 46,
+      "b": 58,
+      "word": "at all times",
+      "lemma": "at all times",
+      "meaning": "始终；时时刻刻",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T3-P1-S2",
+      "a": 0,
+      "b": 9,
+      "word": "After all",
+      "lemma": "after all",
+      "meaning": "毕竟",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T3-P2-S3",
+      "a": 97,
+      "b": 104,
+      "word": "in fact",
+      "lemma": "in fact",
+      "meaning": "事实上",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T3-P3-S2",
+      "a": 0,
+      "b": 11,
+      "word": "Rather than",
+      "lemma": "rather than",
+      "meaning": "而不是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T3-P3-S3",
+      "a": 180,
+      "b": 191,
+      "word": "rather than",
+      "lemma": "rather than",
+      "meaning": "而不是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T3-P4-S2",
+      "a": 126,
+      "b": 134,
+      "word": "at least",
+      "lemma": "at least",
+      "meaning": "至少",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T3-P4-S5",
+      "a": 5,
+      "b": 20,
+      "word": "not necessarily",
+      "lemma": "not necessarily",
+      "meaning": "不一定",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T3-P4-S5",
+      "a": 38,
+      "b": 50,
+      "word": "depending on",
+      "lemma": "depend on",
+      "meaning": "依靠；依赖",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T4-P1-S1",
+      "a": 110,
+      "b": 120,
+      "word": "because of",
+      "lemma": "because of",
+      "meaning": "由于；因为",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T4-P2-S2",
+      "a": 0,
+      "b": 9,
+      "word": "In effect",
+      "lemma": "in effect",
+      "meaning": "实际上",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T4-P6-S2",
+      "a": 115,
+      "b": 125,
+      "word": "leading to",
+      "lemma": "lead to",
+      "meaning": "导致",
+      "kind": "phrase"
+    },
+    {
+      "id": "2017-T4-P8-S2",
+      "a": 37,
+      "b": 45,
+      "word": "leads to",
+      "lemma": "lead to",
+      "meaning": "导致",
+      "kind": "phrase"
+    },
+    {
+      "id": "2018-T1-P7-S1",
+      "a": 0,
+      "b": 14,
+      "word": "In other words",
+      "lemma": "in other words",
+      "meaning": "换句话说",
+      "kind": "phrase"
+    },
+    {
+      "id": "2018-T2-P1-S2",
+      "a": 73,
+      "b": 84,
+      "word": "account for",
+      "lemma": "account for",
+      "meaning": "占……比例（能源份额或GDP份额）",
+      "kind": "phrase"
+    },
+    {
+      "id": "2018-T2-P3-S4",
+      "a": 51,
+      "b": 64,
+      "word": "accounted for",
+      "lemma": "account for",
+      "meaning": "占……比例（能源份额或GDP份额）",
+      "kind": "phrase"
+    },
+    {
+      "id": "2018-T2-P6-S1",
+      "a": 22,
+      "b": 29,
+      "word": "in part",
+      "lemma": "in part",
+      "meaning": "部分地；在一定程度上",
+      "kind": "phrase"
+    },
+    {
+      "id": "2018-T3-P1-S1",
+      "a": 306,
+      "b": 312,
+      "word": "at all",
+      "lemma": "at all",
+      "meaning": "根本；完全（此处与否定连用）",
+      "kind": "phrase"
+    },
+    {
+      "id": "2018-T3-P4-S4",
+      "a": 57,
+      "b": 64,
+      "word": "even if",
+      "lemma": "even if",
+      "meaning": "即使；即便",
+      "kind": "phrase"
+    },
+    {
+      "id": "2018-T4-P4-S1",
+      "a": 95,
+      "b": 108,
+      "word": "in particular",
+      "lemma": "in particular",
+      "meaning": "尤其；特别是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2018-T4-P6-S1",
+      "a": 0,
+      "b": 11,
+      "word": "In order to",
+      "lemma": "in order to",
+      "meaning": "为了",
+      "kind": "phrase"
+    },
+    {
+      "id": "2018-T4-P6-S1",
+      "a": 12,
+      "b": 28,
+      "word": "make the most of",
+      "lemma": "make the most of",
+      "meaning": "充分利用",
+      "kind": "phrase"
+    },
+    {
+      "id": "2018-T4-P8-S1",
+      "a": 155,
+      "b": 161,
+      "word": "due to",
+      "lemma": "due to",
+      "meaning": "由于",
+      "kind": "phrase"
+    },
+    {
+      "id": "2018-T4-P9-S1",
+      "a": 35,
+      "b": 46,
+      "word": "in order to",
+      "lemma": "in order to",
+      "meaning": "为了",
+      "kind": "phrase"
+    },
+    {
+      "id": "2019-T1-P1-S2",
+      "a": 72,
+      "b": 81,
+      "word": "over time",
+      "lemma": "over time",
+      "meaning": "随着时间推移",
+      "kind": "phrase"
+    },
+    {
+      "id": "2019-T1-P3-S2",
+      "a": 7,
+      "b": 21,
+      "word": "in other words",
+      "lemma": "in other words",
+      "meaning": "换句话说",
+      "kind": "phrase"
+    },
+    {
+      "id": "2019-T1-P4-S4",
+      "a": 38,
+      "b": 49,
+      "word": "make up for",
+      "lemma": "make up for",
+      "meaning": "弥补",
+      "kind": "phrase"
+    },
+    {
+      "id": "2019-T1-P5-S5",
+      "a": 34,
+      "b": 45,
+      "word": "even though",
+      "lemma": "even though",
+      "meaning": "尽管；虽然",
+      "kind": "phrase"
+    },
+    {
+      "id": "2019-T3-P4-S1",
+      "a": 50,
+      "b": 58,
+      "word": "at least",
+      "lemma": "at least",
+      "meaning": "至少",
+      "kind": "phrase"
+    },
+    {
+      "id": "2019-T4-P2-S1",
+      "a": 84,
+      "b": 92,
+      "word": "call for",
+      "lemma": "call for",
+      "meaning": "对……的呼吁（本句call为名词）",
+      "kind": "phrase"
+    },
+    {
+      "id": "2019-T4-P4-S1",
+      "a": 220,
+      "b": 231,
+      "word": "rather than",
+      "lemma": "rather than",
+      "meaning": "而不是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2019-T4-P6-S3",
+      "a": 113,
+      "b": 121,
+      "word": "at least",
+      "lemma": "at least",
+      "meaning": "至少",
+      "kind": "phrase"
+    },
+    {
+      "id": "2020-T1-P1-S2",
+      "a": 3,
+      "b": 11,
+      "word": "find out",
+      "lemma": "find out",
+      "meaning": "查明；弄清楚",
+      "kind": "phrase"
+    },
+    {
+      "id": "2020-T1-P4-S5",
+      "a": 11,
+      "b": 18,
+      "word": "lead to",
+      "lemma": "lead to",
+      "meaning": "导致",
+      "kind": "phrase"
+    },
+    {
+      "id": "2020-T2-P3-S1",
+      "a": 14,
+      "b": 22,
+      "word": "at least",
+      "lemma": "at least",
+      "meaning": "至少",
+      "kind": "phrase"
+    },
+    {
+      "id": "2020-T4-P4-S3",
+      "a": 61,
+      "b": 71,
+      "word": "because of",
+      "lemma": "because of",
+      "meaning": "由于；因为",
+      "kind": "phrase"
+    },
+    {
+      "id": "2021-T1-P2-S2",
+      "a": 89,
+      "b": 98,
+      "word": "no longer",
+      "lemma": "no longer",
+      "meaning": "不再",
+      "kind": "phrase"
+    },
+    {
+      "id": "2021-T1-P4-S2",
+      "a": 4,
+      "b": 11,
+      "word": "even if",
+      "lemma": "even if",
+      "meaning": "即使；即便",
+      "kind": "phrase"
+    },
+    {
+      "id": "2021-T2-P5-S4",
+      "a": 0,
+      "b": 7,
+      "word": "Even if",
+      "lemma": "even if",
+      "meaning": "即使；即便",
+      "kind": "phrase"
+    },
+    {
+      "id": "2021-T4-P4-S3",
+      "a": 140,
+      "b": 151,
+      "word": "rather than",
+      "lemma": "rather than",
+      "meaning": "而不是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2022-T2-P2-S2",
+      "a": 182,
+      "b": 189,
+      "word": "even if",
+      "lemma": "even if",
+      "meaning": "即使；即便",
+      "kind": "phrase"
+    },
+    {
+      "id": "2022-T2-P6-S1",
+      "a": 0,
+      "b": 10,
+      "word": "Because of",
+      "lemma": "because of",
+      "meaning": "由于；因为",
+      "kind": "phrase"
+    },
+    {
+      "id": "2022-T4-P1-S1",
+      "a": 151,
+      "b": 161,
+      "word": "relying on",
+      "lemma": "rely on",
+      "meaning": "依靠；依赖",
+      "kind": "phrase"
+    },
+    {
+      "id": "2022-T4-P1-S2",
+      "a": 54,
+      "b": 62,
+      "word": "at least",
+      "lemma": "at least",
+      "meaning": "至少",
+      "kind": "phrase"
+    },
+    {
+      "id": "2023-T1-P1-S4",
+      "a": 113,
+      "b": 123,
+      "word": "because of",
+      "lemma": "because of",
+      "meaning": "由于；因为",
+      "kind": "phrase"
+    },
+    {
+      "id": "2023-T1-P2-S2",
+      "a": 30,
+      "b": 40,
+      "word": "because of",
+      "lemma": "because of",
+      "meaning": "由于；因为",
+      "kind": "phrase"
+    },
+    {
+      "id": "2023-T4-P2-S4",
+      "a": 66,
+      "b": 76,
+      "word": "as well as",
+      "lemma": "as well as",
+      "meaning": "以及；也",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T1-P1-S1",
+      "a": 144,
+      "b": 159,
+      "word": "digital economy",
+      "lemma": "digital economy",
+      "meaning": "数字经济",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T1-P1-S2",
+      "a": 83,
+      "b": 90,
+      "word": "have to",
+      "lemma": "have to",
+      "meaning": "必须",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T1-P3-S3",
+      "a": 78,
+      "b": 87,
+      "word": "every day",
+      "lemma": "every day",
+      "meaning": "每天",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T1-P3-S3",
+      "a": 101,
+      "b": 116,
+      "word": "business models",
+      "lemma": "business model",
+      "meaning": "商业模式",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T1-P5-S1",
+      "a": 0,
+      "b": 12,
+      "word": "According to",
+      "lemma": "according to",
+      "meaning": "根据",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T1-P6-S2",
+      "a": 0,
+      "b": 8,
+      "word": "Not only",
+      "lemma": "not only",
+      "meaning": "不仅（与后面的but并列）",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T1-P8-S1",
+      "a": 225,
+      "b": 236,
+      "word": "health care",
+      "lemma": "health care",
+      "meaning": "医疗保健",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T2-P1-S1",
+      "a": 46,
+      "b": 56,
+      "word": "because of",
+      "lemma": "because of",
+      "meaning": "由于；因为",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T2-P1-S2",
+      "a": 86,
+      "b": 97,
+      "word": "reliance on",
+      "lemma": "reliance on",
+      "meaning": "对……的依赖",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T2-P2-S2",
+      "a": 1,
+      "b": 9,
+      "word": "Not only",
+      "lemma": "not only",
+      "meaning": "不仅（与后面的but并列）",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T2-P2-S2",
+      "a": 101,
+      "b": 111,
+      "word": "because of",
+      "lemma": "because of",
+      "meaning": "由于；因为",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T2-P2-S2",
+      "a": 176,
+      "b": 191,
+      "word": "chief executive",
+      "lemma": "chief executive",
+      "meaning": "首席执行官",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T2-P2-S3",
+      "a": 50,
+      "b": 62,
+      "word": "investing in",
+      "lemma": "invest in",
+      "meaning": "投资于",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T2-P2-S3",
+      "a": 134,
+      "b": 146,
+      "word": "fighting for",
+      "lemma": "fight for",
+      "meaning": "争夺；争取",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T2-P3-S4",
+      "a": 43,
+      "b": 55,
+      "word": "on behalf of",
+      "lemma": "on behalf of",
+      "meaning": "在……一方（此处原文意为来自农民等方面的犹豫；通常义为代表）",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T2-P3-S4",
+      "a": 88,
+      "b": 97,
+      "word": "invest in",
+      "lemma": "invest in",
+      "meaning": "投资于",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T2-P4-S2",
+      "a": 191,
+      "b": 204,
+      "word": "contribute to",
+      "lemma": "contribute to",
+      "meaning": "有助于",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T2-P4-S2",
+      "a": 205,
+      "b": 213,
+      "word": "net zero",
+      "lemma": "net zero",
+      "meaning": "净零排放",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T2-P5-S2",
+      "a": 14,
+      "b": 25,
+      "word": "calling for",
+      "lemma": "call for",
+      "meaning": "呼吁；要求",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T3-P1-S1",
+      "a": 112,
+      "b": 121,
+      "word": "turn over",
+      "lemma": "turn over",
+      "meaning": "交出；移交",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T3-P4-S2",
+      "a": 120,
+      "b": 132,
+      "word": "according to",
+      "lemma": "according to",
+      "meaning": "根据",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T3-P4-S3",
+      "a": 56,
+      "b": 69,
+      "word": "fatal crashes",
+      "lemma": "fatal crash",
+      "meaning": "致命交通事故",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T3-P5-S1",
+      "a": 29,
+      "b": 40,
+      "word": "eye doctors",
+      "lemma": "eye doctor",
+      "meaning": "眼科医生",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T3-P5-S2",
+      "a": 0,
+      "b": 12,
+      "word": "Primary care",
+      "lemma": "primary care",
+      "meaning": "基层医疗；初级医疗保健",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T3-P5-S2",
+      "a": 57,
+      "b": 67,
+      "word": "be able to",
+      "lemma": "be able to",
+      "meaning": "能够",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T4-P1-S1",
+      "a": 7,
+      "b": 14,
+      "word": "look at",
+      "lemma": "look at",
+      "meaning": "看；查看",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T4-P1-S1",
+      "a": 60,
+      "b": 68,
+      "word": "at least",
+      "lemma": "at least",
+      "meaning": "至少",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T4-P1-S1",
+      "a": 73,
+      "b": 83,
+      "word": "related to",
+      "lemma": "related to",
+      "meaning": "与……有关",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T4-P1-S2",
+      "a": 16,
+      "b": 29,
+      "word": "mental health",
+      "lemma": "mental health",
+      "meaning": "心理健康",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T4-P1-S3",
+      "a": 131,
+      "b": 144,
+      "word": "on the market",
+      "lemma": "on the market",
+      "meaning": "在市场上；市面有售",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T4-P2-S2",
+      "a": 29,
+      "b": 36,
+      "word": "such as",
+      "lemma": "such as",
+      "meaning": "例如",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T4-P2-S2",
+      "a": 107,
+      "b": 117,
+      "word": "focused on",
+      "lemma": "focus on",
+      "meaning": "重点关注",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T4-P3-S3",
+      "a": 81,
+      "b": 96,
+      "word": "took control of",
+      "lemma": "take control of",
+      "meaning": "取得对……的控制；掌控",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T4-P3-S3",
+      "a": 148,
+      "b": 161,
+      "word": "third parties",
+      "lemma": "third party",
+      "meaning": "第三方",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T4-P3-S4",
+      "a": 171,
+      "b": 181,
+      "word": "as well as",
+      "lemma": "as well as",
+      "meaning": "以及；还",
+      "kind": "phrase"
+    },
+    {
+      "id": "2024-T4-P4-S2",
+      "a": 54,
+      "b": 76,
+      "word": "keeping their promises",
+      "lemma": "keep one's promise",
+      "meaning": "履行承诺",
+      "kind": "phrase"
+    },
+    {
+      "id": "2025-T2-P3-S2",
+      "a": 79,
+      "b": 90,
+      "word": "rather than",
+      "lemma": "rather than",
+      "meaning": "而不是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2025-T2-P4-S3",
+      "a": 17,
+      "b": 28,
+      "word": "calling for",
+      "lemma": "call for",
+      "meaning": "呼吁；要求",
+      "kind": "phrase"
+    },
+    {
+      "id": "2025-T2-P5-S1",
+      "a": 79,
+      "b": 90,
+      "word": "rather than",
+      "lemma": "rather than",
+      "meaning": "而不是",
+      "kind": "phrase"
+    },
+    {
+      "id": "2025-T3-P1-S3",
+      "a": 29,
+      "b": 38,
+      "word": "calls for",
+      "lemma": "call for",
+      "meaning": "呼吁；要求",
+      "kind": "phrase"
+    },
+    {
+      "id": "2026-T2-P1-S3",
+      "a": 107,
+      "b": 118,
+      "word": "even though",
+      "lemma": "even though",
+      "meaning": "尽管；虽然",
+      "kind": "phrase"
+    },
+    {
+      "id": "2026-T2-P4-S3",
+      "a": 44,
+      "b": 54,
+      "word": "as long as",
+      "lemma": "as long as",
+      "meaning": "只要",
+      "kind": "phrase"
+    },
+    {
+      "id": "2026-T3-P2-S1",
+      "a": 213,
+      "b": 225,
+      "word": "accounts for",
+      "lemma": "account for",
+      "meaning": "占……比例（能源份额或GDP份额）",
+      "kind": "phrase"
+    },
+    {
+      "id": "2026-T4-P4-S2",
+      "a": 127,
+      "b": 134,
+      "word": "rely on",
+      "lemma": "rely on",
+      "meaning": "依靠；依赖",
+      "kind": "phrase"
+    },
+    {
+      "id": "2026-T4-P6-S1",
+      "a": 109,
+      "b": 119,
+      "word": "because of",
+      "lemma": "because of",
+      "meaning": "由于；因为",
+      "kind": "phrase"
+    }
+  ]
+}

@@ -67,14 +67,330 @@
           ],
           "reorder": "将同位语身份放到人名前；In her new book 交代观点来源；that 后才是核心判断。",
           "translation": "剑桥大学经济学家黛安娜·科伊尔在新书《齿轮与怪物：经济学是什么，又应当是什么》中提出，数字经济要求我们用新的方式思考进步。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 6,
+              "word": "her",
+              "lemma": "her",
+              "pos": "det",
+              "meaning": "她的，指科伊尔",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 10,
+              "word": "new",
+              "lemma": "new",
+              "pos": "adj",
+              "meaning": "新的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 15,
+              "word": "book",
+              "lemma": "book",
+              "pos": "n",
+              "meaning": "书",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "Cogs",
+              "lemma": "cog",
+              "pos": "n",
+              "meaning": "齿轮（书名的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 24,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 33,
+              "word": "Monsters",
+              "lemma": "monster",
+              "pos": "n",
+              "meaning": "怪物（书名的一部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 39,
+              "word": "What",
+              "lemma": "what",
+              "pos": "pron",
+              "meaning": "什么（书名中的问句）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 49,
+              "word": "Economics",
+              "lemma": "economics",
+              "pos": "n",
+              "meaning": "经济学",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 52,
+              "word": "Is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 57,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 62,
+              "word": "What",
+              "lemma": "what",
+              "pos": "pron",
+              "meaning": "什么（书名中的问句）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 65,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它，指经济学",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 72,
+              "word": "Should",
+              "lemma": "should",
+              "pos": "modal",
+              "meaning": "应当",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 75,
+              "word": "Be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 82,
+              "word": "Diane",
+              "lemma": "Diane",
+              "pos": "propn",
+              "meaning": "黛安娜（人名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 88,
+              "word": "Coyle",
+              "lemma": "Coyle",
+              "pos": "propn",
+              "meaning": "科伊尔（经济学家姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 92,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 102,
+              "word": "economist",
+              "lemma": "economist",
+              "pos": "n",
+              "meaning": "经济学家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 105,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（任职机构）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 115,
+              "word": "Cambridge",
+              "lemma": "Cambridge",
+              "pos": "propn",
+              "meaning": "剑桥",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 126,
+              "word": "University",
+              "lemma": "university",
+              "pos": "n",
+              "meaning": "大学",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 134,
+              "word": "argues",
+              "lemma": "argue",
+              "pos": "v",
+              "meaning": "提出观点；主张",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 139,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出argues主张的内容",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 143,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 151,
+              "word": "digital",
+              "lemma": "digital",
+              "pos": "adj",
+              "meaning": "数字技术的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 152,
+              "b": 159,
+              "word": "economy",
+              "lemma": "economy",
+              "pos": "n",
+              "meaning": "经济；经济体系",
+              "reviewVersion": 2
+            },
+            {
+              "a": 160,
+              "b": 168,
+              "word": "requires",
+              "lemma": "require",
+              "pos": "v",
+              "meaning": "需要；要求",
+              "reviewVersion": 2
+            },
+            {
+              "a": 169,
+              "b": 172,
+              "word": "new",
+              "lemma": "new",
+              "pos": "adj",
+              "meaning": "新的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 173,
+              "b": 177,
+              "word": "ways",
+              "lemma": "way",
+              "pos": "n",
+              "meaning": "方式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 178,
+              "b": 180,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 181,
+              "b": 189,
+              "word": "thinking",
+              "lemma": "think",
+              "pos": "n",
+              "meaning": "思考",
+              "reviewVersion": 2
+            },
+            {
+              "a": 190,
+              "b": 195,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于；对于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 196,
+              "b": 204,
+              "word": "progress",
+              "lemma": "progress",
+              "pos": "n",
+              "meaning": "进步",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 16,
               "b": 33,
               "lemma": "Cogs and Monsters",
               "meaning": "《Cogs and Monsters》（文中讨论经济学的一本书）",
-              "word": "Cogs and Monsters"
+              "word": "Cogs and Monsters",
+              "kind": "name"
+            },
+            {
+              "a": 144,
+              "b": 159,
+              "word": "digital economy",
+              "lemma": "digital economy",
+              "meaning": "数字经济",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -83,7 +399,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "分清书名两个what疑问、同位语经济学家身份、主句that内容；economics单数经济学。",
+            "sentenceSHA256": "c76050ad304c1c1a7fa322e2545fd13e3b78ba77b5f172c9f02a598a9d263f2e",
+            "words": 34,
+            "phrases": 1,
+            "names": 1
+          }
         },
         {
           "id": "2024-T1-P1-S2",
@@ -127,21 +451,274 @@
           "translation": "她写道：“不管我们如何理解经济增长和生活改善，其收益都必须比近些年分配得更公平。”",
           "words": [
             {
+              "a": 1,
+              "b": 9,
+              "word": "Whatever",
+              "lemma": "whatever",
+              "pos": "pron",
+              "meaning": "无论……什么（让步）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 12,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 17,
+              "word": "mean",
+              "lemma": "mean",
+              "pos": "v",
+              "meaning": "指的是；理解为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 20,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "说到……时（mean by）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 24,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 32,
+              "word": "economy",
+              "lemma": "economy",
+              "pos": "n",
+              "meaning": "经济；经济体系",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 40,
+              "word": "growing",
+              "lemma": "grow",
+              "pos": "v",
+              "meaning": "增长",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 44,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "说到……时（mean by）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 51,
+              "word": "things",
+              "lemma": "thing",
+              "pos": "n",
+              "meaning": "事情；生活状况",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 59,
+              "word": "getting",
+              "lemma": "get",
+              "pos": "v",
+              "meaning": "变得",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 66,
+              "word": "better",
+              "lemma": "good",
+              "pos": "adj",
+              "meaning": "更好的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 71,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 72,
               "b": 77,
               "word": "gains",
               "lemma": "gain",
-              "meaning": "收益；发展成果"
+              "pos": "n",
+              "meaning": "经济发展成果；收益",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 82,
+              "word": "will",
+              "lemma": "will",
+              "pos": "modal",
+              "meaning": "会；将",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 87,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "必须（have to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 90,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 93,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与shared构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 98,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更加",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 105,
+              "word": "evenly",
+              "lemma": "evenly",
+              "pos": "adv",
+              "meaning": "公平地；均匀地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 106,
+              "b": 112,
+              "word": "shared",
+              "lemma": "share",
+              "pos": "v",
+              "meaning": "分享；分配",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 117,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 120,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 124,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 131,
+              "word": "recent",
+              "lemma": "recent",
+              "pos": "adj",
+              "meaning": "近来的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 136,
+              "word": "past",
+              "lemma": "past",
+              "pos": "n",
+              "meaning": "过去一段时期",
+              "reviewVersion": 2
+            },
+            {
+              "a": 139,
+              "b": 142,
+              "word": "she",
+              "lemma": "she",
+              "pos": "pron",
+              "meaning": "她",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 149,
+              "word": "writes",
+              "lemma": "write",
+              "pos": "v",
+              "meaning": "写道",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 83,
+              "b": 90,
+              "word": "have to",
+              "lemma": "have to",
+              "meaning": "必须",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "两个by为mean by含义对象，have to必须且be shared被动；evenly分配更公平非增长更均匀。",
+            "sentenceSHA256": "16bce140fbd6a1f66aad5cb19a8476e9f5fa285b3ddc98608283053e3f6ce5eb",
+            "words": 27,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2024-T1-P1-S3",
@@ -170,29 +747,196 @@
             }
           ],
           "reorder": "with 补充中间层岗位受挤压的状态；主干 economy...will not 要连起来。",
-          "translation": "“如果一种经济只有科技百万富翁、亿万富翁和零工劳动者，而中等收入工作不断受到自动化冲击，这在政治上将难以持续。”",
+          "translation": "“如果一种经济中，一边是科技百万富翁或亿万富翁，一边是零工劳动者，而中等收入岗位又受到自动化冲击，这种经济在政治上将难以持续。”",
           "words": [
+            {
+              "a": 1,
+              "b": 3,
+              "word": "An",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 11,
+              "word": "economy",
+              "lemma": "economy",
+              "pos": "n",
+              "meaning": "经济；经济体系",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 14,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 19,
+              "word": "tech",
+              "lemma": "tech",
+              "pos": "n",
+              "meaning": "科技行业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 32,
+              "word": "millionaires",
+              "lemma": "millionaire",
+              "pos": "n",
+              "meaning": "百万富翁",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 35,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 48,
+              "word": "billionaires",
+              "lemma": "billionaire",
+              "pos": "n",
+              "meaning": "亿万富翁",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 52,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 56,
+              "word": "gig",
+              "lemma": "gig",
+              "pos": "n",
+              "meaning": "零工（修饰劳动者）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 64,
+              "word": "workers",
+              "lemma": "worker",
+              "pos": "n",
+              "meaning": "劳动者",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 70,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "伴随；其中有……（补充状态）",
+              "reviewVersion": 2
+            },
             {
               "a": 71,
               "b": 84,
               "word": "middle-income",
               "lemma": "middle-income",
+              "pos": "adj",
               "meaning": "中等收入的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 89,
+              "word": "jobs",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "工作；就业岗位",
+              "reviewVersion": 2
             },
             {
               "a": 90,
               "b": 98,
               "word": "undercut",
               "lemma": "undercut",
-              "meaning": "削弱；挤压"
+              "pos": "v",
+              "meaning": "削弱；冲击",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 101,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "由（指出冲击来源）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 112,
+              "word": "automation",
+              "lemma": "automation",
+              "pos": "n",
+              "meaning": "自动化",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 118,
+              "word": "will",
+              "lemma": "will",
+              "pos": "modal",
+              "meaning": "会；将",
+              "reviewVersion": 2
+            },
+            {
+              "a": 119,
+              "b": 122,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 125,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "处于可持续的状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 137,
+              "word": "politically",
+              "lemma": "politically",
+              "pos": "adv",
+              "meaning": "从政治上看",
+              "reviewVersion": 2
             },
             {
               "a": 138,
               "b": 149,
               "word": "sustainable",
               "lemma": "sustainable",
-              "meaning": "可持续的；能够长期维持的"
+              "pos": "adj",
+              "meaning": "能够长期维持的",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -201,7 +945,8 @@
               "b": 64,
               "word": "gig workers",
               "lemma": "gig worker",
-              "meaning": "零工劳动者"
+              "meaning": "零工劳动者",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -210,7 +955,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "原句无only，删译文擅加“只有”，保留两端收入结构与中层岗位冲击及政治不可持续。",
+            "sentenceSHA256": "098752471100cae447ea7ba77a514ed659dbba681980e710fdeb4548da2b2bc7",
+            "words": 21,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -260,36 +1013,300 @@
           "translation": "科伊尔说，要提高生活水平、让更多人更加富足，就需要在医疗、建筑等行业更广泛地采用数字技术，提高生产率。",
           "words": [
             {
-              "a": 151,
-              "b": 158,
-              "word": "sectors",
-              "lemma": "sector",
-              "meaning": "经济行业；部门",
-              "pos": "n"
+              "a": 0,
+              "b": 9,
+              "word": "Improving",
+              "lemma": "improve",
+              "pos": "v",
+              "meaning": "提高；改善",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 16,
+              "word": "living",
+              "lemma": "living",
+              "pos": "n",
+              "meaning": "生活（living standards）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 26,
+              "word": "standards",
+              "lemma": "standard",
+              "pos": "n",
+              "meaning": "水平（living standards）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 30,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 41,
+              "word": "increasing",
+              "lemma": "increase",
+              "pos": "v",
+              "meaning": "增加；提高",
+              "reviewVersion": 2
             },
             {
               "a": 42,
               "b": 52,
               "word": "prosperity",
               "lemma": "prosperity",
-              "meaning": "富足；繁荣"
+              "pos": "n",
+              "meaning": "富足；繁荣",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 56,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "使……受益；让更多人……",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 61,
+              "word": "more",
+              "lemma": "more",
+              "pos": "det",
+              "meaning": "更多的（人）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 68,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 73,
+              "word": "will",
+              "lemma": "will",
+              "pos": "modal",
+              "meaning": "会；将",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 81,
+              "word": "require",
+              "lemma": "require",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 89,
+              "word": "greater",
+              "lemma": "great",
+              "pos": "adj",
+              "meaning": "更大程度的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 93,
+              "word": "use",
+              "lemma": "use",
+              "pos": "n",
+              "meaning": "采用；使用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 96,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 104,
+              "word": "digital",
+              "lemma": "digital",
+              "pos": "adj",
+              "meaning": "数字技术的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 117,
+              "word": "technologies",
+              "lemma": "technology",
+              "pos": "n",
+              "meaning": "技术",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 120,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 126,
+              "word": "boost",
+              "lemma": "boost",
+              "pos": "v",
+              "meaning": "提高；促进",
+              "reviewVersion": 2
             },
             {
               "a": 127,
               "b": 139,
               "word": "productivity",
               "lemma": "productivity",
-              "meaning": "生产率"
+              "pos": "n",
+              "meaning": "生产率",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 142,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 150,
+              "word": "various",
+              "lemma": "various",
+              "pos": "adj",
+              "meaning": "不同的；各种各样的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 151,
+              "b": 158,
+              "word": "sectors",
+              "lemma": "sector",
+              "pos": "n",
+              "meaning": "经济行业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 160,
+              "b": 169,
+              "word": "including",
+              "lemma": "including",
+              "pos": "prep",
+              "meaning": "包括",
+              "reviewVersion": 2
+            },
+            {
+              "a": 170,
+              "b": 176,
+              "word": "health",
+              "lemma": "health",
+              "pos": "n",
+              "meaning": "健康（health care构成医疗保健）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 177,
+              "b": 181,
+              "word": "care",
+              "lemma": "care",
+              "pos": "n",
+              "meaning": "护理；照护（health care）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 182,
+              "b": 185,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 186,
+              "b": 198,
+              "word": "construction",
+              "lemma": "construction",
+              "pos": "n",
+              "meaning": "建筑业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 200,
+              "b": 204,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；表示",
+              "reviewVersion": 2
+            },
+            {
+              "a": 205,
+              "b": 210,
+              "word": "Coyle",
+              "lemma": "Coyle",
+              "pos": "propn",
+              "meaning": "科伊尔（经济学家姓氏）",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 10,
+              "b": 26,
+              "word": "living standards",
+              "lemma": "living standard",
+              "meaning": "生活水平",
+              "kind": "phrase"
+            },
+            {
+              "a": 170,
+              "b": 181,
+              "word": "health care",
+              "lemma": "health care",
+              "meaning": "医疗保健",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "greater use名词、more people数量，to boost目的，prosperity富足不是单纯GDP。",
+            "sentenceSHA256": "06f3e9d72a02334dc6864152fd7959ca53959e9421376e0551c3e35fc727458e",
+            "words": 29,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2024-T1-P2-S2",
@@ -327,11 +1344,211 @@
           "translation": "但如果人们看不到好处，看到的只是好工作消失，就不能指望他们接受这些变化。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "But",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但；而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 10,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 11,
+              "b": 16,
+              "word": "can't",
+              "lemma": "cannot",
+              "pos": "modal",
+              "meaning": "不能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 19,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与expected构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 28,
+              "word": "expected",
+              "lemma": "expect",
+              "pos": "v",
+              "meaning": "指望；期待",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 31,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
               "a": 32,
               "b": 39,
               "word": "embrace",
               "lemma": "embrace",
-              "meaning": "接受；支持"
+              "pos": "v",
+              "meaning": "接受；支持",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 43,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 51,
+              "word": "changes",
+              "lemma": "change",
+              "pos": "n",
+              "meaning": "变化",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 54,
+              "word": "if",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "如果",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 62,
+              "word": "they're",
+              "lemma": "they are",
+              "pos": "pron+aux",
+              "meaning": "他们正在，指人们（与seeing构成进行时）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 66,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 73,
+              "word": "seeing",
+              "lemma": "see",
+              "pos": "v",
+              "meaning": "看到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 77,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 86,
+              "word": "benefits",
+              "lemma": "benefit",
+              "pos": "n",
+              "meaning": "好处；收益",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 89,
+              "word": "if",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "如果",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 97,
+              "word": "they're",
+              "lemma": "they are",
+              "pos": "pron+aux",
+              "meaning": "他们正在，指人们（与seeing构成进行时）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 102,
+              "word": "just",
+              "lemma": "just",
+              "pos": "adv",
+              "meaning": "只是；仅仅",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 109,
+              "word": "seeing",
+              "lemma": "see",
+              "pos": "v",
+              "meaning": "看到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 114,
+              "word": "good",
+              "lemma": "good",
+              "pos": "adj",
+              "meaning": "好的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 119,
+              "word": "jobs",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "工作；就业岗位",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 125,
+              "word": "being",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与destroyed构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 135,
+              "word": "destroyed",
+              "lemma": "destroy",
+              "pos": "v",
+              "meaning": "摧毁；使消失",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -341,7 +1558,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "两if解释相同不获益情形，being destroyed被动，不能指望接受不等于禁止变化。",
+            "sentenceSHA256": "f427d1c21ca960360c1b09c2a9cd033c5a4175b262983966be1b85eaf7449af0",
+            "words": 23,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -385,18 +1610,175 @@
           "translation": "在最近一次采访中，科伊尔表示，她担心科技造成的不平等问题可能阻碍人工智能的部署应用。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 4,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 11,
+              "word": "recent",
+              "lemma": "recent",
+              "pos": "adj",
+              "meaning": "近来的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 21,
+              "word": "interview",
+              "lemma": "interview",
+              "pos": "n",
+              "meaning": "采访",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 28,
+              "word": "Coyle",
+              "lemma": "Coyle",
+              "pos": "propn",
+              "meaning": "科伊尔（经济学家姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 33,
+              "word": "said",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "表示；说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 37,
+              "word": "she",
+              "lemma": "she",
+              "pos": "pron",
+              "meaning": "她",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 43,
+              "word": "fears",
+              "lemma": "fear",
+              "pos": "v",
+              "meaning": "担心",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 48,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出具体观点或结论",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 55,
+              "word": "tech's",
+              "lemma": "tech",
+              "pos": "n",
+              "meaning": "科技的（所有格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 66,
+              "word": "inequality",
+              "lemma": "inequality",
+              "pos": "n",
+              "meaning": "不平等",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 74,
+              "word": "problem",
+              "lemma": "problem",
+              "pos": "n",
+              "meaning": "问题",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 80,
+              "word": "could",
+              "lemma": "could",
+              "pos": "modal",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 83,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 85,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 86,
               "b": 95,
               "word": "roadblock",
               "lemma": "roadblock",
-              "meaning": "障碍；阻碍因素"
+              "pos": "n",
+              "meaning": "障碍",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 98,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "对于……是障碍（roadblock to）",
+              "reviewVersion": 2
             },
             {
               "a": 99,
               "b": 108,
               "word": "deploying",
               "lemma": "deploy",
-              "meaning": "部署；投入应用"
+              "pos": "v",
+              "meaning": "部署；投入应用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 111,
+              "word": "AI",
+              "lemma": "AI",
+              "pos": "abbr",
+              "meaning": "人工智能",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -406,7 +1788,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "fears/could保持担忧与可能，roadblock to中to介词后跟deploying。",
+            "sentenceSHA256": "475453b18023a29648146d09a75f6f939e9e4989c4a3e4c935d1940f7615de5e",
+            "words": 19,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2024-T1-P3-S2",
@@ -432,11 +1822,58 @@
           "translation": "她说：“我们谈的是颠覆性变化。”",
           "words": [
             {
+              "a": 1,
+              "b": 6,
+              "word": "We're",
+              "lemma": "we are",
+              "pos": "pron+aux",
+              "meaning": "我们正在（与talking构成进行时）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 14,
+              "word": "talking",
+              "lemma": "talk",
+              "pos": "v",
+              "meaning": "谈论",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 20,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关于；对于",
+              "reviewVersion": 2
+            },
+            {
               "a": 21,
               "b": 31,
               "word": "disruption",
               "lemma": "disruption",
-              "meaning": "颠覆性变化；对既有模式的冲击"
+              "pos": "n",
+              "meaning": "颠覆性变化；对既有模式的冲击",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 37,
+              "word": "she",
+              "lemma": "she",
+              "pos": "pron",
+              "meaning": "她",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 42,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；表示",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -446,7 +1883,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "we are进行时，disruption指技术对经济模式冲击，不是普通混乱中断。",
+            "sentenceSHA256": "0e1873259934d121c86acc040ff203d137123c4c1e3e88de036be41442cc18f8",
+            "words": 6,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2024-T1-P3-S3",
@@ -490,21 +1935,219 @@
           "translation": "“这些是变革性技术，会改变我们每天使用时间的方式，也会改变什么样的商业模式能够成功。”",
           "words": [
             {
+              "a": 1,
+              "b": 6,
+              "word": "These",
+              "lemma": "these",
+              "pos": "pron",
+              "meaning": "这些，指人工智能等技术",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 10,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
               "a": 11,
               "b": 25,
               "word": "transformative",
               "lemma": "transformative",
-              "meaning": "带来深刻变革的"
+              "pos": "adj",
+              "meaning": "带来深刻变革的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 38,
+              "word": "technologies",
+              "lemma": "technology",
+              "pos": "n",
+              "meaning": "技术",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 43,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "引导定语从句，指变革性技术",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 50,
+              "word": "change",
+              "lemma": "change",
+              "pos": "v",
+              "meaning": "改变",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 54,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 59,
+              "word": "ways",
+              "lemma": "way",
+              "pos": "n",
+              "meaning": "方式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 60,
+              "b": 62,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 68,
+              "word": "spend",
+              "lemma": "spend",
+              "pos": "v",
+              "meaning": "使用；花费（时间）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 72,
+              "word": "our",
+              "lemma": "our",
+              "pos": "pron",
+              "meaning": "我们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 77,
+              "word": "time",
+              "lemma": "time",
+              "pos": "n",
+              "meaning": "时间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 83,
+              "word": "every",
+              "lemma": "every",
+              "pos": "det",
+              "meaning": "每一",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 87,
+              "word": "day",
+              "lemma": "day",
+              "pos": "n",
+              "meaning": "天",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 93,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "引导定语从句，仍指变革性技术",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 100,
+              "word": "change",
+              "lemma": "change",
+              "pos": "v",
+              "meaning": "改变",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 109,
+              "word": "business",
+              "lemma": "business",
+              "pos": "n",
+              "meaning": "商业（修饰模式）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 116,
+              "word": "models",
+              "lemma": "model",
+              "pos": "n",
+              "meaning": "模式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 121,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "引导定语从句，指商业模式",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 129,
+              "word": "succeed",
+              "lemma": "succeed",
+              "pos": "v",
+              "meaning": "成功",
+              "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 78,
+              "b": 87,
+              "word": "every day",
+              "lemma": "every day",
+              "meaning": "每天",
+              "kind": "phrase"
+            },
+            {
+              "a": 101,
+              "b": 116,
+              "word": "business models",
+              "lemma": "business model",
+              "meaning": "商业模式",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "三个that前两指技术、最后指模式，时间使用和何种商业模式成功两方面变化。",
+            "sentenceSHA256": "05ea313f472926a7008a5a17cff861e040dcfb53288468962f3d5394e06926e7",
+            "words": 20,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2024-T1-P3-S4",
@@ -536,19 +2179,103 @@
           "translation": "她补充说，要作出这样的“巨大改变”，就需要获得社会认同。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "To",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "make",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "作出；实现（改变）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 12,
+              "word": "such",
+              "lemma": "such",
+              "pos": "det",
+              "meaning": "这样的",
+              "reviewVersion": 2
+            },
+            {
               "a": 14,
               "b": 24,
               "word": "tremendous",
               "lemma": "tremendous",
+              "pos": "adj",
               "meaning": "巨大的",
-              "pos": "a"
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 32,
+              "word": "changes",
+              "lemma": "change",
+              "pos": "n",
+              "meaning": "变化",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 38,
+              "word": "she",
+              "lemma": "she",
+              "pos": "pron",
+              "meaning": "她",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 43,
+              "word": "adds",
+              "lemma": "add",
+              "pos": "v",
+              "meaning": "补充说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 48,
+              "word": "you",
+              "lemma": "you",
+              "pos": "pron",
+              "meaning": "你；你们（也可泛指人们）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 53,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 54,
+              "b": 60,
+              "word": "social",
+              "lemma": "social",
+              "pos": "adj",
+              "meaning": "社会的",
+              "reviewVersion": 2
             },
             {
               "a": 61,
               "b": 67,
               "word": "buy-in",
               "lemma": "buy-in",
-              "meaning": "认同；支持"
+              "pos": "n",
+              "meaning": "认同；支持",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -557,7 +2284,8 @@
               "b": 67,
               "word": "social buy-in",
               "lemma": "social buy-in",
-              "meaning": "社会认同；公众支持"
+              "meaning": "社会认同；公众支持",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -566,7 +2294,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "buy-in社会认同非买入，to make目标，she adds为插入说话人。",
+            "sentenceSHA256": "fedbfc322f51ca8a36aeba03d3edacda7d2069eb6ab3e21bc57780855b0def91",
+            "words": 11,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -622,42 +2358,221 @@
           "translation": "科伊尔说，现实恰恰相反：人们认为收益都流向少数繁荣城市的精英群体，因此许多人的不满正在酝酿。",
           "words": [
             {
-              "a": 95,
-              "b": 101,
-              "word": "elites",
-              "lemma": "elite",
-              "meaning": "掌握优势资源的精英群体",
-              "pos": "n"
+              "a": 0,
+              "b": 7,
+              "word": "Instead",
+              "lemma": "instead",
+              "pos": "adv",
+              "meaning": "相反",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 13,
+              "word": "says",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；表示",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 19,
+              "word": "Coyle",
+              "lemma": "Coyle",
+              "pos": "propn",
+              "meaning": "科伊尔（经济学家姓氏）",
+              "reviewVersion": 2
             },
             {
               "a": 21,
               "b": 31,
               "word": "resentment",
               "lemma": "resentment",
-              "meaning": "不满；怨愤"
+              "pos": "n",
+              "meaning": "不满；怨愤",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 34,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与simmering构成现在进行时",
+              "reviewVersion": 2
             },
             {
               "a": 35,
               "b": 44,
               "word": "simmering",
               "lemma": "simmer",
-              "meaning": "暗中积聚；酝酿"
+              "pos": "v",
+              "meaning": "暗中酝酿；积聚",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 50,
+              "word": "among",
+              "lemma": "among",
+              "pos": "prep",
+              "meaning": "在……人群中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 55,
+              "word": "many",
+              "lemma": "many",
+              "pos": "pron",
+              "meaning": "许多人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 58,
+              "word": "as",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "因为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 62,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 71,
+              "word": "benefits",
+              "lemma": "benefit",
+              "pos": "n",
+              "meaning": "好处；收益",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 75,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "与perceived构成被动语态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 85,
+              "word": "perceived",
+              "lemma": "perceive",
+              "pos": "v",
+              "meaning": "被认为；被视为",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 88,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 91,
+              "word": "go",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "流向",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 94,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "向；到（收益流向精英）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 101,
+              "word": "elites",
+              "lemma": "elite",
+              "pos": "n",
+              "meaning": "精英群体",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 104,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 106,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 114,
+              "word": "handful",
+              "lemma": "handful",
+              "pos": "n",
+              "meaning": "少量（a handful of）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 117,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 128,
+              "word": "prosperous",
+              "lemma": "prosperous",
+              "pos": "adj",
+              "meaning": "繁荣的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 135,
+              "word": "cities",
+              "lemma": "city",
+              "pos": "n",
+              "meaning": "城市",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
-            {
-              "a": 102,
-              "b": 117,
-              "lemma": "in a handful of",
-              "meaning": "在少数几个……之中",
-              "word": "in a handful of"
-            },
             {
               "a": 105,
               "b": 117,
               "word": "a handful of",
               "lemma": "a handful of",
-              "meaning": "少数几个"
+              "meaning": "少数几个",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -666,7 +2581,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "is simmering进行、are perceived被动，as因果，many人群，to go与go to两个to区分。",
+            "sentenceSHA256": "2d03350dc28a814faddd08fde4b7bb2c1da3919a5f33c1336e41a91664a74e07",
+            "words": 23,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -714,15 +2637,285 @@
           ],
           "reorder": "把截至2019年放前；that 列出八城中的例子，roughly 修饰38%而非八城。",
           "translation": "布鲁金斯学会的数据显示，截至2019年，仅旧金山、圣何塞、波士顿、西雅图等八座美国城市，就集中了约38%的科技岗位。",
-          "words": [],
-          "phrases": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 9,
+              "word": "According",
+              "lemma": "accord",
+              "pos": "v",
+              "meaning": "与to构成“根据”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 12,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "与according构成“根据”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 16,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 26,
+              "word": "Brookings",
+              "lemma": "Brookings",
+              "pos": "propn",
+              "meaning": "布鲁金斯（学会名称）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 38,
+              "word": "Institution",
+              "lemma": "institution",
+              "pos": "n",
+              "meaning": "学会（布鲁金斯学会名称组成部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 41,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 47,
+              "word": "short",
+              "lemma": "short",
+              "pos": "adj",
+              "meaning": "短的；数量不多的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 52,
+              "word": "list",
+              "lemma": "list",
+              "pos": "n",
+              "meaning": "名单",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 55,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 61,
+              "word": "eight",
+              "lemma": "eight",
+              "pos": "num",
+              "meaning": "八",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 70,
+              "word": "American",
+              "lemma": "American",
+              "pos": "adj",
+              "meaning": "美国的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 77,
+              "word": "cities",
+              "lemma": "city",
+              "pos": "n",
+              "meaning": "城市",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 82,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "引导定语从句，指八座城市",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 91,
+              "word": "included",
+              "lemma": "include",
+              "pos": "v",
+              "meaning": "包括",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 95,
+              "word": "San",
+              "lemma": "San",
+              "pos": "propn",
+              "meaning": "圣（城市名称组成部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 105,
+              "word": "Francisco",
+              "lemma": "Francisco",
+              "pos": "propn",
+              "meaning": "弗朗西斯科（San Francisco即旧金山）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 110,
+              "word": "San",
+              "lemma": "San",
+              "pos": "propn",
+              "meaning": "圣（城市名称组成部分）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 115,
+              "word": "Jose",
+              "lemma": "Jose",
+              "pos": "propn",
+              "meaning": "何塞（San Jose即圣何塞）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 123,
+              "word": "Boston",
+              "lemma": "Boston",
+              "pos": "propn",
+              "meaning": "波士顿",
+              "reviewVersion": 2
+            },
+            {
+              "a": 125,
+              "b": 128,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 136,
+              "word": "Seattle",
+              "lemma": "Seattle",
+              "pos": "propn",
+              "meaning": "西雅图",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 140,
+              "word": "had",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "拥有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 148,
+              "word": "roughly",
+              "lemma": "roughly",
+              "pos": "adv",
+              "meaning": "大约",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 155,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 159,
+              "word": "all",
+              "lemma": "all",
+              "pos": "det",
+              "meaning": "全部的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 160,
+              "b": 164,
+              "word": "tech",
+              "lemma": "tech",
+              "pos": "n",
+              "meaning": "科技行业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 165,
+              "b": 169,
+              "word": "jobs",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "工作；就业岗位",
+              "reviewVersion": 2
+            },
+            {
+              "a": 170,
+              "b": 172,
+              "word": "by",
+              "lemma": "by",
+              "pos": "prep",
+              "meaning": "截至；到……时为止",
+              "reviewVersion": 2
+            }
+          ],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 12,
+              "word": "According to",
+              "lemma": "according to",
+              "meaning": "根据",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "roughly修饰38%，by截至2019，had拥有非完成助动词，八城中的四个例子不漏。",
+            "sentenceSHA256": "1b5fda6d1c752508fdc0c2c9d0a396f932b58ed65c45616d10d60a1e0ebfd91b",
+            "words": 28,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2024-T1-P5-S2",
@@ -760,11 +2953,265 @@
           "translation": "新的人工智能技术分布尤为集中：布鲁金斯学会的马克·穆罗和刘思凡估计，仅15座城市就占据美国三分之二的人工智能资产和能力。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "New",
+              "lemma": "new",
+              "pos": "adj",
+              "meaning": "新的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 6,
+              "word": "AI",
+              "lemma": "AI",
+              "pos": "abbr",
+              "meaning": "人工智能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 19,
+              "word": "technologies",
+              "lemma": "technology",
+              "pos": "n",
+              "meaning": "技术",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 23,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 36,
+              "word": "particularly",
+              "lemma": "particularly",
+              "pos": "adv",
+              "meaning": "尤其",
+              "reviewVersion": 2
+            },
+            {
               "a": 37,
               "b": 49,
               "word": "concentrated",
               "lemma": "concentrated",
-              "meaning": "集中的"
+              "pos": "adj",
+              "meaning": "集中的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 62,
+              "word": "Brookings's",
+              "lemma": "Brookings",
+              "pos": "propn",
+              "meaning": "布鲁金斯学会的（所有格）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 67,
+              "word": "Mark",
+              "lemma": "Mark",
+              "pos": "propn",
+              "meaning": "马克（人名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 72,
+              "word": "Muro",
+              "lemma": "Muro",
+              "pos": "propn",
+              "meaning": "穆罗（姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 76,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 82,
+              "word": "Sifan",
+              "lemma": "Sifan",
+              "pos": "propn",
+              "meaning": "思凡（人名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 86,
+              "word": "Liu",
+              "lemma": "Liu",
+              "pos": "propn",
+              "meaning": "刘（姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 95,
+              "word": "estimate",
+              "lemma": "estimate",
+              "pos": "v",
+              "meaning": "估计",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 100,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出具体观点或结论",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 105,
+              "word": "just",
+              "lemma": "just",
+              "pos": "adv",
+              "meaning": "只是；仅仅",
+              "reviewVersion": 2
+            },
+            {
+              "a": 109,
+              "b": 115,
+              "word": "cities",
+              "lemma": "city",
+              "pos": "n",
+              "meaning": "城市",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 123,
+              "word": "account",
+              "lemma": "account",
+              "pos": "v",
+              "meaning": "占（比例；account for）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 127,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "与account构成“占比例”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 138,
+              "word": "two-thirds",
+              "lemma": "two-thirds",
+              "pos": "num",
+              "meaning": "三分之二",
+              "reviewVersion": 2
+            },
+            {
+              "a": 139,
+              "b": 141,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 142,
+              "b": 145,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 148,
+              "word": "AI",
+              "lemma": "AI",
+              "pos": "abbr",
+              "meaning": "人工智能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 155,
+              "word": "assets",
+              "lemma": "asset",
+              "pos": "n",
+              "meaning": "资产",
+              "reviewVersion": 2
+            },
+            {
+              "a": 156,
+              "b": 159,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 160,
+              "b": 172,
+              "word": "capabilities",
+              "lemma": "capability",
+              "pos": "n",
+              "meaning": "能力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 173,
+              "b": 175,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 176,
+              "b": 179,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 180,
+              "b": 186,
+              "word": "United",
+              "lemma": "United",
+              "pos": "propn",
+              "meaning": "United States名称的一部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 187,
+              "b": 193,
+              "word": "States",
+              "lemma": "States",
+              "pos": "propn",
+              "meaning": "United States即美国",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -773,7 +3220,8 @@
               "b": 127,
               "word": "account for",
               "lemma": "account for",
-              "meaning": "占（比例）"
+              "meaning": "占（比例）",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -782,7 +3230,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "AI缩略语、two-thirds复合数量，account for占比，刘思凡人名与研究机构归属。",
+            "sentenceSHA256": "c3cd371aa309396314c9c9d5f0d61aa94652935c093fab60d718013ebc78e247",
+            "words": 29,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -826,34 +3282,211 @@
           "translation": "少数城市在人工智能发明和商业化方面占据主导地位，意味着地区间的财富差距将继续扩大。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 4,
               "b": 13,
               "word": "dominance",
               "lemma": "dominance",
+              "pos": "n",
               "meaning": "主导地位",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 16,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 18,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "few",
+              "lemma": "few",
+              "pos": "det",
+              "meaning": "少数几个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 29,
+              "word": "cities",
+              "lemma": "city",
+              "pos": "n",
+              "meaning": "城市",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 32,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……领域（发明和商业化）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 36,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 46,
+              "word": "invention",
+              "lemma": "invention",
+              "pos": "n",
+              "meaning": "发明",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 50,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 51,
               "b": 68,
               "word": "commercialization",
               "lemma": "commercialization",
-              "meaning": "商业化；推向市场应用",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "商业化",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 71,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 74,
+              "word": "AI",
+              "lemma": "AI",
+              "pos": "abbr",
+              "meaning": "人工智能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 80,
+              "word": "means",
+              "lemma": "mean",
+              "pos": "v",
+              "meaning": "意味着",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 85,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出具体观点或结论",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 98,
+              "word": "geographical",
+              "lemma": "geographical",
+              "pos": "adj",
+              "meaning": "地理区域之间的",
+              "reviewVersion": 2
             },
             {
               "a": 99,
               "b": 110,
               "word": "disparities",
               "lemma": "disparity",
-              "meaning": "差距；不平等"
+              "pos": "n",
+              "meaning": "差距",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 113,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……方面（财富差距）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 120,
+              "word": "wealth",
+              "lemma": "wealth",
+              "pos": "n",
+              "meaning": "财富",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 125,
+              "word": "will",
+              "lemma": "will",
+              "pos": "modal",
+              "meaning": "会；将",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 134,
+              "word": "continue",
+              "lemma": "continue",
+              "pos": "v",
+              "meaning": "继续",
+              "reviewVersion": 2
+            },
+            {
+              "a": 135,
+              "b": 137,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
             },
             {
               "a": 138,
               "b": 142,
               "word": "soar",
               "lemma": "soar",
-              "meaning": "迅速上升；大幅扩大"
+              "pos": "v",
+              "meaning": "大幅上升；迅速扩大",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -863,7 +3496,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "means动词，disparities地区财富差距，will继续扩大的推断非历史既成数据。",
+            "sentenceSHA256": "8e3b27a8df4ee8ee620f100c1c49689dd1dbefa62fa8474cc122d537277c0988",
+            "words": 23,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2024-T1-P6-S2",
@@ -907,27 +3548,274 @@
           "translation": "这不仅会滋生政治和社会动荡，还可能如科伊尔所说，阻碍地区经济发展所需的那些人工智能技术。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "Not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "only",
+              "lemma": "only",
+              "pos": "adv",
+              "meaning": "仅仅（not only为不仅）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 13,
+              "word": "will",
+              "lemma": "will",
+              "pos": "modal",
+              "meaning": "会；将",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 18,
+              "word": "this",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这种情况，指地区财富差距扩大",
+              "reviewVersion": 2
+            },
+            {
               "a": 19,
               "b": 25,
               "word": "foster",
               "lemma": "foster",
-              "meaning": "促成；滋生"
+              "pos": "v",
+              "meaning": "滋生；促成",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 35,
+              "word": "political",
+              "lemma": "political",
+              "pos": "adj",
+              "meaning": "政治的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 39,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 46,
+              "word": "social",
+              "lemma": "social",
+              "pos": "adj",
+              "meaning": "社会的",
+              "reviewVersion": 2
             },
             {
               "a": 47,
               "b": 53,
               "word": "unrest",
               "lemma": "unrest",
-              "meaning": "动荡；骚乱"
+              "pos": "n",
+              "meaning": "动荡",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 58,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但；而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 61,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它，指地区财富差距扩大",
+              "reviewVersion": 2
+            },
+            {
+              "a": 62,
+              "b": 67,
+              "word": "could",
+              "lemma": "could",
+              "pos": "modal",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 71,
+              "word": "as",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "正如（引出科伊尔的观点）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 77,
+              "word": "Coyle",
+              "lemma": "Coyle",
+              "pos": "propn",
+              "meaning": "科伊尔（经济学家姓氏）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 86,
+              "word": "suggests",
+              "lemma": "suggest",
+              "pos": "v",
+              "meaning": "指出；提示",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 92,
+              "word": "hold",
+              "lemma": "hold",
+              "pos": "v",
+              "meaning": "阻碍（hold back）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 93,
+              "b": 97,
+              "word": "back",
+              "lemma": "back",
+              "pos": "adv",
+              "meaning": "与hold构成“阻碍”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 98,
+              "b": 101,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 107,
+              "word": "sorts",
+              "lemma": "sort",
+              "pos": "n",
+              "meaning": "种类",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 110,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 113,
+              "word": "AI",
+              "lemma": "AI",
+              "pos": "abbr",
+              "meaning": "人工智能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 126,
+              "word": "technologies",
+              "lemma": "technology",
+              "pos": "n",
+              "meaning": "技术",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 133,
+              "word": "needed",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 134,
+              "b": 137,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "供……；让……（不定式的逻辑主语标记）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 146,
+              "word": "regional",
+              "lemma": "regional",
+              "pos": "adj",
+              "meaning": "地区的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 147,
+              "b": 156,
+              "word": "economies",
+              "lemma": "economy",
+              "pos": "n",
+              "meaning": "经济；经济体",
+              "reviewVersion": 2
+            },
+            {
+              "a": 157,
+              "b": 159,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 160,
+              "b": 164,
+              "word": "grow",
+              "lemma": "grow",
+              "pos": "v",
+              "meaning": "增长；发展",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
+            {
+              "a": 0,
+              "b": 8,
+              "word": "Not only",
+              "lemma": "not only",
+              "meaning": "不仅（与后面的but并列）",
+              "kind": "phrase"
+            },
             {
               "a": 88,
               "b": 97,
               "word": "hold back",
               "lemma": "hold back",
-              "meaning": "阻碍；抑制"
+              "meaning": "阻碍；抑制",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -936,7 +3824,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "not only倒装与but并列，it回指差距扩大，as插入比较，needed后置修饰技术。",
+            "sentenceSHA256": "d901b6e15019a94ce4d5418352b1f43e3d9180f2575426d59df2f079103c79f8",
+            "words": 28,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -980,18 +3876,184 @@
           "translation": "部分解决办法可能在于，设法减弱科技巨头对人工智能议程制定的牢牢控制。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Part",
+              "lemma": "part",
+              "pos": "n",
+              "meaning": "一部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 7,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 11,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 20,
+              "word": "solution",
+              "lemma": "solution",
+              "pos": "n",
+              "meaning": "解决办法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 26,
+              "word": "could",
+              "lemma": "could",
+              "pos": "modal",
+              "meaning": "可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 30,
+              "word": "lie",
+              "lemma": "lie",
+              "pos": "v",
+              "meaning": "在于（lie in）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 33,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在于（lie in）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 41,
+              "word": "somehow",
+              "lemma": "somehow",
+              "pos": "adv",
+              "meaning": "设法；用某种办法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 51,
+              "word": "loosening",
+              "lemma": "loosen",
+              "pos": "v",
+              "meaning": "减弱；松动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 55,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 56,
               "b": 68,
               "word": "stranglehold",
               "lemma": "stranglehold",
-              "meaning": "牢牢的控制；扼制"
+              "pos": "n",
+              "meaning": "牢牢的控制",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 73,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "引导定语从句，指牢牢的控制",
+              "reviewVersion": 2
+            },
+            {
+              "a": 74,
+              "b": 77,
+              "word": "Big",
+              "lemma": "big",
+              "pos": "adj",
+              "meaning": "大型的（Big Tech指科技巨头）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 82,
+              "word": "Tech",
+              "lemma": "tech",
+              "pos": "n",
+              "meaning": "科技行业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 86,
+              "word": "has",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "拥有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 89,
+              "word": "on",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "对……的（控制）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 98,
+              "word": "defining",
+              "lemma": "define",
+              "pos": "v",
+              "meaning": "制定；确定",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 102,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 105,
+              "word": "AI",
+              "lemma": "AI",
+              "pos": "abbr",
+              "meaning": "人工智能",
+              "reviewVersion": 2
             },
             {
               "a": 106,
               "b": 112,
               "word": "agenda",
               "lemma": "agenda",
-              "meaning": "议程；发展方向"
+              "pos": "n",
+              "meaning": "议程；发展方向",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -1000,7 +4062,8 @@
               "b": 33,
               "lemma": "lie in",
               "meaning": "在于",
-              "word": "lie in"
+              "word": "lie in",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1009,7 +4072,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "lie in在于，has拥有，on表示控制对象，that所指stranglehold，未把科技巨头当词组添加。",
+            "sentenceSHA256": "f95dc1707a720f2de83b83acefd75c4e6330878a277421ca298759788e7673e0",
+            "words": 20,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2024-T1-P7-S2",
@@ -1045,21 +4116,150 @@
           ],
           "reorder": "把 independent 的修饰放到研究前，That 回指松动科技巨头控制。",
           "translation": "这很可能需要增加联邦资金，支持独立于科技巨头的研究。",
-          "words": [],
-          "phrases": [
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "That",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "这，指减弱科技巨头控制的做法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 9,
+              "word": "will",
+              "lemma": "will",
+              "pos": "modal",
+              "meaning": "会；将",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 16,
+              "word": "likely",
+              "lemma": "likely",
+              "pos": "adv",
+              "meaning": "很可能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 21,
+              "word": "take",
+              "lemma": "take",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 31,
+              "word": "increased",
+              "lemma": "increased",
+              "pos": "adj",
+              "meaning": "增加了的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 39,
+              "word": "federal",
+              "lemma": "federal",
+              "pos": "adj",
+              "meaning": "联邦政府的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 47,
+              "word": "funding",
+              "lemma": "funding",
+              "pos": "n",
+              "meaning": "资金；拨款",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 51,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "用于；支持",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 60,
+              "word": "research",
+              "lemma": "research",
+              "pos": "n",
+              "meaning": "研究",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 72,
+              "word": "independent",
+              "lemma": "independent",
+              "pos": "adj",
+              "meaning": "独立的；不受控制的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 75,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "与independent of构成“独立于”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 79,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
             {
               "a": 80,
-              "b": 91,
-              "lemma": "tech giant",
-              "meaning": "科技巨头",
-              "word": "tech giants"
+              "b": 84,
+              "word": "tech",
+              "lemma": "tech",
+              "pos": "n",
+              "meaning": "科技行业",
+              "reviewVersion": 2
             },
+            {
+              "a": 85,
+              "b": 91,
+              "word": "giants",
+              "lemma": "giant",
+              "pos": "n",
+              "meaning": "巨头（指大型科技公司）",
+              "reviewVersion": 2
+            }
+          ],
+          "phrases": [
             {
               "a": 61,
               "b": 75,
               "word": "independent of",
               "lemma": "independent of",
-              "meaning": "独立于；不受……支配"
+              "meaning": "独立于；不受……支配",
+              "kind": "phrase"
+            },
+            {
+              "a": 80,
+              "b": 91,
+              "lemma": "tech giant",
+              "meaning": "科技巨头",
+              "word": "tech giants",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1068,7 +4268,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "That指前句减弱控制，take需要，independent of修饰research非联邦资金。",
+            "sentenceSHA256": "194e85944e1c17c5fc5e005adb3f1ba1b8719d9b52b178851d8a7447bdf4318e",
+            "words": 14,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     },
@@ -1130,20 +4338,373 @@
           "translation": "更直接的应对办法是拓宽对数字技术的想象，构想不只是取代工作、还能在各地区最关心的行业——如医疗、教育和制造业——扩大机会的人工智能技术。",
           "words": [
             {
+              "a": 0,
+              "b": 1,
+              "word": "A",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 2,
+              "b": 6,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更（修饰直接）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 16,
+              "word": "immediate",
+              "lemma": "immediate",
+              "pos": "adj",
+              "meaning": "直接的；眼下可做的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 25,
+              "word": "response",
+              "lemma": "response",
+              "pos": "n",
+              "meaning": "应对办法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 28,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 31,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 39,
+              "word": "broaden",
+              "lemma": "broaden",
+              "pos": "v",
+              "meaning": "拓宽",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 43,
+              "word": "our",
+              "lemma": "our",
+              "pos": "pron",
+              "meaning": "我们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 51,
+              "word": "digital",
+              "lemma": "digital",
+              "pos": "adj",
+              "meaning": "数字技术的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 64,
+              "word": "imaginations",
+              "lemma": "imagination",
+              "pos": "n",
+              "meaning": "想象力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 67,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记",
+              "reviewVersion": 2
+            },
+            {
               "a": 68,
               "b": 76,
               "word": "conceive",
               "lemma": "conceive",
-              "meaning": "构想；设想",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "构想（conceive of）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 79,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "与conceive of构成“构想”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 80,
+              "b": 82,
+              "word": "AI",
+              "lemma": "AI",
+              "pos": "abbr",
+              "meaning": "人工智能",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 95,
+              "word": "technologies",
+              "lemma": "technology",
+              "pos": "n",
+              "meaning": "技术",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 100,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "引导定语从句，指人工智能技术",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 106,
+              "word": "don't",
+              "lemma": "do not",
+              "pos": "aux",
+              "meaning": "不（否定助动词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 113,
+              "word": "simply",
+              "lemma": "simply",
+              "pos": "adv",
+              "meaning": "仅仅",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 121,
+              "word": "replace",
+              "lemma": "replace",
+              "pos": "v",
+              "meaning": "取代",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 126,
+              "word": "jobs",
+              "lemma": "job",
+              "pos": "n",
+              "meaning": "工作；就业岗位",
+              "reviewVersion": 2
+            },
+            {
+              "a": 127,
+              "b": 130,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但；而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 137,
+              "word": "expand",
+              "lemma": "expand",
+              "pos": "v",
+              "meaning": "扩大",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 151,
+              "word": "opportunities",
+              "lemma": "opportunity",
+              "pos": "n",
+              "meaning": "机会",
+              "reviewVersion": 2
+            },
+            {
+              "a": 152,
+              "b": 154,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 155,
+              "b": 158,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 159,
               "b": 166,
               "word": "sectors",
               "lemma": "sector",
-              "meaning": "经济行业；部门",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "经济行业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 167,
+              "b": 171,
+              "word": "that",
+              "lemma": "that",
+              "pos": "pron",
+              "meaning": "引导定语从句，指相关行业",
+              "reviewVersion": 2
+            },
+            {
+              "a": 172,
+              "b": 181,
+              "word": "different",
+              "lemma": "different",
+              "pos": "adj",
+              "meaning": "不同的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 182,
+              "b": 187,
+              "word": "parts",
+              "lemma": "part",
+              "pos": "n",
+              "meaning": "地区；部分",
+              "reviewVersion": 2
+            },
+            {
+              "a": 188,
+              "b": 190,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "的（连接所属或修饰关系）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 191,
+              "b": 194,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 195,
+              "b": 202,
+              "word": "country",
+              "lemma": "country",
+              "pos": "n",
+              "meaning": "国家；这里指美国",
+              "reviewVersion": 2
+            },
+            {
+              "a": 203,
+              "b": 207,
+              "word": "care",
+              "lemma": "care",
+              "pos": "v",
+              "meaning": "关心（care about）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 208,
+              "b": 212,
+              "word": "most",
+              "lemma": "most",
+              "pos": "adv",
+              "meaning": "最",
+              "reviewVersion": 2
+            },
+            {
+              "a": 213,
+              "b": 218,
+              "word": "about",
+              "lemma": "about",
+              "pos": "prep",
+              "meaning": "关心的对象（care about）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 220,
+              "b": 224,
+              "word": "like",
+              "lemma": "like",
+              "pos": "prep",
+              "meaning": "例如",
+              "reviewVersion": 2
+            },
+            {
+              "a": 225,
+              "b": 231,
+              "word": "health",
+              "lemma": "health",
+              "pos": "n",
+              "meaning": "健康（health care构成医疗保健）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 232,
+              "b": 236,
+              "word": "care",
+              "lemma": "care",
+              "pos": "n",
+              "meaning": "护理；照护（health care）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 238,
+              "b": 247,
+              "word": "education",
+              "lemma": "education",
+              "pos": "n",
+              "meaning": "教育",
+              "reviewVersion": 2
+            },
+            {
+              "a": 249,
+              "b": 252,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 253,
+              "b": 266,
+              "word": "manufacturing",
+              "lemma": "manufacturing",
+              "pos": "n",
+              "meaning": "制造业",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -1152,7 +4713,16 @@
               "b": 79,
               "word": "conceive of",
               "lemma": "conceive of",
-              "meaning": "构想；设想"
+              "meaning": "构想；设想",
+              "kind": "phrase"
+            },
+            {
+              "a": 225,
+              "b": 236,
+              "word": "health care",
+              "lemma": "health care",
+              "meaning": "医疗保健",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1161,9 +4731,30 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "两个to分别表语方式及目的；dont simply but非完全排除替代岗位，care动词与health care名词分开。",
+            "sentenceSHA256": "2934fcc42ed074e22bb40b4ffc5e0e965d8fff41dab89aeefa85c5cc40341e47",
+            "words": 41,
+            "phrases": 2,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "7826633010a382a15d28f3777329d068f69decb5b2c13821cc50619adbb99e45",
+    "sentences": 17,
+    "wordOccurrences": 396,
+    "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

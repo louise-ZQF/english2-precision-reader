@@ -63,19 +63,175 @@
           "translation": "一项新研究表明，与多数调查结果相反，人们在家承受的压力实际上比工作时更大。",
           "words": [
             {
+              "a": 0,
+              "b": 1,
+              "word": "A",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 2,
+              "b": 5,
+              "word": "new",
+              "lemma": "new",
+              "pos": "a",
+              "meaning": "新的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 11,
+              "word": "study",
+              "lemma": "study",
+              "pos": "n",
+              "meaning": "研究",
+              "reviewVersion": 2
+            },
+            {
               "a": 12,
               "b": 20,
               "word": "suggests",
               "lemma": "suggest",
-              "meaning": "研究显示；表明",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "表明",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 25,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出后面的内容；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 34,
+              "word": "contrary",
+              "lemma": "contrary",
+              "pos": "a",
+              "meaning": "相反的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 37,
+              "word": "to",
+              "lemma": "to",
+              "pos": "prep",
+              "meaning": "与……相比／相反（contrary to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 42,
+              "word": "most",
+              "lemma": "most",
+              "pos": "adv",
+              "meaning": "最；大多数",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 50,
+              "word": "surveys",
+              "lemma": "survey",
+              "pos": "n",
+              "meaning": "调查",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 58,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 62,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "系动词，连接人们与“更有压力”的状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 71,
+              "word": "actually",
+              "lemma": "actually",
+              "pos": "adv",
+              "meaning": "实际上",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 76,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更；更多",
+              "reviewVersion": 2
             },
             {
               "a": 77,
               "b": 85,
               "word": "stressed",
               "lemma": "stressed",
-              "meaning": "感到压力大的"
+              "pos": "a",
+              "meaning": "感到压力大的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 88,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 93,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 98,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 101,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 106,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -84,7 +240,8 @@
               "b": 37,
               "word": "contrary to",
               "lemma": "contrary to",
-              "meaning": "与……相反"
+              "meaning": "与……相反",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -93,7 +250,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "比较方向为家中压力高于工作场所，contrary to与旧调查相反。",
+            "sentenceSHA256": "9a3c2132ab20bfbe8bc567223c89e8525e92f7c90a551b2b57ca2c887530ff22",
+            "words": 19,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P1-S2",
@@ -137,33 +302,310 @@
           "translation": "研究人员分别测量了人们工作时和在家时的皮质醇水平——这是一种压力指标——结果发现在本应是避风港的家中，水平反而更高。",
           "words": [
             {
+              "a": 0,
+              "b": 11,
+              "word": "Researchers",
+              "lemma": "researcher",
+              "pos": "n",
+              "meaning": "研究人员",
+              "reviewVersion": 2
+            },
+            {
               "a": 12,
               "b": 20,
               "word": "measured",
               "lemma": "measure",
-              "meaning": "考察；测量",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "测量",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 29,
+              "word": "people's",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们的（所有格）",
+              "reviewVersion": 2
             },
             {
               "a": 30,
               "b": 38,
               "word": "cortisol",
               "lemma": "cortisol",
-              "meaning": "皮质醇（可作为压力指标的一种激素）"
+              "pos": "n",
+              "meaning": "皮质醇",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 45,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "关系代词，指代前述事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 48,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 50,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 57,
+              "word": "stress",
+              "lemma": "stress",
+              "pos": "n",
+              "meaning": "压力",
+              "reviewVersion": 2
             },
             {
               "a": 58,
               "b": 64,
               "word": "marker",
               "lemma": "marker",
-              "meaning": "指标"
+              "pos": "n",
+              "meaning": "指标",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 71,
+              "word": "while",
+              "lemma": "while",
+              "pos": "conj",
+              "meaning": "当……时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 76,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 81,
+              "word": "were",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "处在（工作或家中的状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 84,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 85,
+              "b": 89,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 93,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 99,
+              "word": "while",
+              "lemma": "while",
+              "pos": "conj",
+              "meaning": "当……时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 104,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 105,
+              "b": 109,
+              "word": "were",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "处在（工作或家中的状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 112,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 113,
+              "b": 117,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 121,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 127,
+              "word": "found",
+              "lemma": "find",
+              "pos": "v",
+              "meaning": "发现",
+              "reviewVersion": 2
+            },
+            {
+              "a": 128,
+              "b": 130,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "皮质醇水平",
+              "reviewVersion": 2
+            },
+            {
+              "a": 131,
+              "b": 137,
+              "word": "higher",
+              "lemma": "high",
+              "pos": "a",
+              "meaning": "更高的（家中高于工作时）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 140,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 145,
+              "word": "what",
+              "lemma": "what",
+              "pos": "pron",
+              "meaning": "本应是庇护所的那个地方（指家）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 146,
+              "b": 148,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 157,
+              "word": "supposed",
+              "lemma": "supposed",
+              "pos": "a",
+              "meaning": "应当的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 158,
+              "b": 160,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 163,
+              "word": "be",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "成为；是（supposed to be中）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 165,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 166,
+              "b": 171,
+              "word": "place",
+              "lemma": "place",
+              "pos": "n",
+              "meaning": "地方",
+              "reviewVersion": 2
+            },
+            {
+              "a": 172,
+              "b": 174,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
             },
             {
               "a": 175,
               "b": 181,
               "word": "refuge",
               "lemma": "refuge",
-              "meaning": "避风港；庇护之所"
+              "pos": "n",
+              "meaning": "庇护所；避风港",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -173,7 +615,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "皮质醇是压力指标；which指cortisol，it指其水平，refuge指家。",
+            "sentenceSHA256": "8198f7baf72178228de28fab72e444ebf5b5a3f9e32bf6ab4c55e5225101860d",
+            "words": 34,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -223,20 +673,265 @@
           "translation": "研究者之一萨拉·达马斯克写道：“更与常识相悖的是，我们发现，女性和男性一样，工作时的压力都低于在家时。”",
           "words": [
             {
+              "a": 1,
+              "b": 8,
+              "word": "Further",
+              "lemma": "further",
+              "pos": "adv",
+              "meaning": "进一步；更",
+              "reviewVersion": 2
+            },
+            {
               "a": 9,
               "b": 22,
               "word": "contradicting",
               "lemma": "contradict",
-              "meaning": "与……相矛盾；推翻常见看法",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "与……相矛盾",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 35,
+              "word": "conventional",
+              "lemma": "conventional",
+              "pos": "a",
+              "meaning": "普遍接受的",
+              "reviewVersion": 2
             },
             {
               "a": 36,
               "b": 42,
               "word": "wisdom",
               "lemma": "wisdom",
-              "meaning": "普遍看法；常识",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "常识；普遍看法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 46,
+              "word": "we",
+              "lemma": "we",
+              "pos": "pron",
+              "meaning": "我们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 52,
+              "word": "found",
+              "lemma": "find",
+              "pos": "v",
+              "meaning": "发现",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 57,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出后面的内容；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 63,
+              "word": "women",
+              "lemma": "woman",
+              "pos": "n",
+              "meaning": "女性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 66,
+              "word": "as",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "和……一样（as well as）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 67,
+              "b": 71,
+              "word": "well",
+              "lemma": "well",
+              "pos": "adv",
+              "meaning": "同样地（as well as结构中）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 72,
+              "b": 74,
+              "word": "as",
+              "lemma": "as",
+              "pos": "conj",
+              "meaning": "和……一样（as well as）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 78,
+              "word": "men",
+              "lemma": "man",
+              "pos": "n",
+              "meaning": "男性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 79,
+              "b": 83,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "有；承受着",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 89,
+              "word": "lower",
+              "lemma": "low",
+              "pos": "a",
+              "meaning": "更低的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 96,
+              "word": "levels",
+              "lemma": "level",
+              "pos": "n",
+              "meaning": "水平",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 99,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（限定压力水平或研究者之一）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 106,
+              "word": "stress",
+              "lemma": "stress",
+              "pos": "n",
+              "meaning": "压力",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 109,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 110,
+              "b": 114,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 115,
+              "b": 119,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 122,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 127,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 130,
+              "b": 136,
+              "word": "writes",
+              "lemma": "write",
+              "pos": "v",
+              "meaning": "写道",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 140,
+              "word": "one",
+              "lemma": "one",
+              "pos": "num",
+              "meaning": "一个；一位",
+              "reviewVersion": 2
+            },
+            {
+              "a": 141,
+              "b": 143,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的（限定压力水平或研究者之一）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 147,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 148,
+              "b": 159,
+              "word": "researchers",
+              "lemma": "researcher",
+              "pos": "n",
+              "meaning": "研究人员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 161,
+              "b": 166,
+              "word": "Sarah",
+              "lemma": "Sarah",
+              "pos": "name",
+              "meaning": "萨拉（人名）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 167,
+              "b": 174,
+              "word": "Damaske",
+              "lemma": "Damaske",
+              "pos": "name",
+              "meaning": "达马斯克（姓氏）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -245,7 +940,16 @@
               "b": 42,
               "word": "conventional wisdom",
               "lemma": "conventional wisdom",
-              "meaning": "普遍接受的看法；常识"
+              "meaning": "普遍接受的看法；常识",
+              "kind": "phrase"
+            },
+            {
+              "a": 64,
+              "b": 74,
+              "word": "as well as",
+              "lemma": "as well as",
+              "meaning": "以及；也",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -254,7 +958,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "男女都在工作时压力较低；as well as不排除女性。",
+            "sentenceSHA256": "1fe4b5f6e983a20be30881dbc970c9265684318b009f9d66fc7364f3149c706c",
+            "words": 29,
+            "phrases": 2,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P2-S2",
@@ -284,15 +996,141 @@
           ],
           "reorder": "将 she notes 提前；even 强调女性自己的感受。",
           "translation": "她指出，事实上女性甚至表示，自己在工作时感觉更好。",
-          "words": [],
-          "phrases": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 2,
+              "word": "In",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在in fact中构成“事实上”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "fact",
+              "lemma": "fact",
+              "pos": "n",
+              "meaning": "事实（in fact整体为“事实上”）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 13,
+              "word": "women",
+              "lemma": "woman",
+              "pos": "n",
+              "meaning": "女性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 18,
+              "word": "even",
+              "lemma": "even",
+              "pos": "adv",
+              "meaning": "甚至",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "say",
+              "lemma": "say",
+              "pos": "v",
+              "meaning": "说；表示",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 27,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 32,
+              "word": "feel",
+              "lemma": "feel",
+              "pos": "v",
+              "meaning": "感觉",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 39,
+              "word": "better",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "更好的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 42,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 47,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 52,
+              "word": "she",
+              "lemma": "she",
+              "pos": "pron",
+              "meaning": "她",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 58,
+              "word": "notes",
+              "lemma": "note",
+              "pos": "v",
+              "meaning": "指出",
+              "reviewVersion": 2
+            }
+          ],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 7,
+              "word": "In fact",
+              "lemma": "in fact",
+              "meaning": "事实上",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "女性自述在工作时感觉更好，非统计因果结论。",
+            "sentenceSHA256": "81cba9e0300d231bebc38301f88cfa0b3a1641681b141a256b5d5d72ec65509c",
+            "words": 12,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P2-S3",
@@ -328,7 +1166,134 @@
           ],
           "reorder": "强调结构突出男性与女性的区别；report 表自述，不是客观幸福测量。",
           "translation": "“表示在家比工作时更快乐的，是男性，而不是女性。”",
-          "words": [],
+          "words": [
+            {
+              "a": 1,
+              "b": 3,
+              "word": "It",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "强调句形式主语，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 6,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 10,
+              "word": "men",
+              "lemma": "man",
+              "pos": "n",
+              "meaning": "男性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 15,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 21,
+              "word": "women",
+              "lemma": "woman",
+              "pos": "n",
+              "meaning": "女性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 26,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "强调句连接词，突出男性这一主体",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 33,
+              "word": "report",
+              "lemma": "report",
+              "pos": "v",
+              "meaning": "自述；报告",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 39,
+              "word": "being",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "感到；处于快乐状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 47,
+              "word": "happier",
+              "lemma": "happy",
+              "pos": "a",
+              "meaning": "更快乐的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 50,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 51,
+              "b": 55,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 60,
+              "word": "than",
+              "lemma": "than",
+              "pos": "conj",
+              "meaning": "比（引出比较对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 63,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 68,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -336,7 +1301,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "强调主体为男性，不能反译为女性在家更快乐。",
+            "sentenceSHA256": "64b372900794a68908a2264bdcfd31cfca67b34b63c66e658abe54474ded3fa8",
+            "words": 14,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P2-S4",
@@ -374,27 +1347,184 @@
           "translation": "另一个意外发现是，这些结论对有孩子和没孩子的人都成立，而且在没有孩子的人身上更为明显。",
           "words": [
             {
+              "a": 0,
+              "b": 7,
+              "word": "Another",
+              "lemma": "another",
+              "pos": "det",
+              "meaning": "另一个",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 16,
+              "word": "surprise",
+              "lemma": "surprise",
+              "pos": "n",
+              "meaning": "意外的事；意外发现",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 19,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 24,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出表语内容“结论成立”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 28,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 29,
               "b": 37,
               "word": "findings",
               "lemma": "finding",
+              "pos": "n",
               "meaning": "研究结果",
-              "pos": "n"
+              "reviewVersion": 2
             },
             {
               "a": 38,
               "b": 42,
               "word": "hold",
               "lemma": "hold",
-              "meaning": "成立；依然适用",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "成立（hold true）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 47,
+              "word": "true",
+              "lemma": "true",
+              "pos": "a",
+              "meaning": "成立的；符合事实的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 51,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对……而言（说明结论适用对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 56,
+              "word": "both",
+              "lemma": "both",
+              "pos": "det",
+              "meaning": "两者都",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 62,
+              "word": "those",
+              "lemma": "those",
+              "pos": "pron",
+              "meaning": "那些人或事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 67,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "带有；与……一起",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 76,
+              "word": "children",
+              "lemma": "child",
+              "pos": "n",
+              "meaning": "孩子",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 80,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 88,
+              "word": "without",
+              "lemma": "without",
+              "pos": "prep",
+              "meaning": "没有；不具备",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 93,
+              "word": "but",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 94,
+              "b": 98,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更加明显",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 101,
+              "word": "so",
+              "lemma": "so",
+              "pos": "adv",
+              "meaning": "如此（指结论在该人群更明显）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 105,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对……而言（说明结论适用对象）",
+              "reviewVersion": 2
             },
             {
               "a": 106,
               "b": 116,
               "word": "nonparents",
               "lemma": "nonparent",
-              "meaning": "没有子女的人"
+              "pos": "n",
+              "meaning": "没有子女的人",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -403,7 +1533,8 @@
               "b": 47,
               "word": "hold true",
               "lemma": "hold true",
-              "meaning": "适用；成立"
+              "meaning": "适用；成立",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -412,7 +1543,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "两类家庭均适用，无子女者结果更明显，more so所指明确。",
+            "sentenceSHA256": "b55b883721d89878a642e27a4a8ca543b2c5fc8670ef182097b8a745c963d682",
+            "words": 20,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P2-S5",
@@ -442,7 +1581,116 @@
           ],
           "reorder": "将 who 修饰放到人前；why 解释作者把外出工作与健康联系起来的理由。",
           "translation": "这也就是为什么在外工作的人健康状况更好。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "This",
+              "lemma": "this",
+              "pos": "pron",
+              "meaning": "这；本句所说的事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 7,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 11,
+              "word": "why",
+              "lemma": "why",
+              "pos": "adv",
+              "meaning": "为什么",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 18,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 22,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指代前述的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 27,
+              "word": "work",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "工作（动词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 35,
+              "word": "outside",
+              "lemma": "outside",
+              "pos": "prep",
+              "meaning": "在……之外",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 39,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 44,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 49,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "拥有；具有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 56,
+              "word": "better",
+              "lemma": "good",
+              "pos": "a",
+              "meaning": "更好的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 57,
+              "b": 63,
+              "word": "health",
+              "lemma": "health",
+              "pos": "n",
+              "meaning": "健康状况",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -450,7 +1698,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "who限定外出工作的人，health为健康状况而非医疗服务。",
+            "sentenceSHA256": "224d1ca69b8ed393065fb4165032a819f14bb43689650981e037aafff80ff95d",
+            "words": 12,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -500,20 +1756,256 @@
           "translation": "这项研究没有衡量的是，人们在家时是否仍在工作，不论是在做家务，还是处理从办公室带回家的工作。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "What",
+              "lemma": "what",
+              "pos": "pron",
+              "meaning": "所……的方面（研究未衡量的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 8,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 14,
+              "word": "study",
+              "lemma": "study",
+              "pos": "n",
+              "meaning": "研究",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 22,
+              "word": "doesn't",
+              "lemma": "do",
+              "pos": "aux",
+              "meaning": "不（does not缩写，构成否定）",
+              "reviewVersion": 2
+            },
+            {
               "a": 23,
               "b": 30,
               "word": "measure",
               "lemma": "measure",
-              "meaning": "考察；测量",
-              "pos": "v"
+              "pos": "v",
+              "meaning": "衡量；考察",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 33,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 34,
+              "b": 41,
+              "word": "whether",
+              "lemma": "whether",
+              "pos": "conj",
+              "meaning": "是否",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 48,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 52,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "助动词，与doing构成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 58,
+              "word": "still",
+              "lemma": "still",
+              "pos": "adv",
+              "meaning": "仍然",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 64,
+              "word": "doing",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "做；从事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 65,
+              "b": 69,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 74,
+              "word": "when",
+              "lemma": "when",
+              "pos": "conj",
+              "meaning": "当……时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 82,
+              "word": "they're",
+              "lemma": "they be",
+              "pos": "v",
+              "meaning": "they are的缩写；他们处于家中",
+              "reviewVersion": 2
+            },
+            {
+              "a": 83,
+              "b": 85,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 90,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 99,
+              "word": "whether",
+              "lemma": "whether",
+              "pos": "conj",
+              "meaning": "不论是……还是……（whether...or）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 100,
+              "b": 102,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "它；这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 103,
+              "b": 105,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
             },
             {
               "a": 106,
               "b": 115,
               "word": "household",
               "lemma": "household",
-              "meaning": "家务的；家庭的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "家务的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 116,
+              "b": 120,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 121,
+              "b": 123,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（连接可选择的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 124,
+              "b": 128,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 129,
+              "b": 136,
+              "word": "brought",
+              "lemma": "bring",
+              "pos": "v",
+              "meaning": "带来；带回",
+              "reviewVersion": 2
+            },
+            {
+              "a": 137,
+              "b": 141,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 142,
+              "b": 146,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从；来自",
+              "reviewVersion": 2
+            },
+            {
+              "a": 147,
+              "b": 150,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 151,
+              "b": 157,
+              "word": "office",
+              "lemma": "office",
+              "pos": "n",
+              "meaning": "办公室；文中也比喻家务工作场所",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -523,7 +2015,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "第一个whether是是否，第二个whether...or是不论哪种工作。",
+            "sentenceSHA256": "c1ca4175420a6308b43ec59c7fe92b5accf2ad36e4973c61eafdcbca449e1852",
+            "words": 28,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P3-S2",
@@ -553,14 +2053,142 @@
           ],
           "reorder": "for 引出讨论对象，kick back 按习语译“放松”。",
           "translation": "对许多男性来说，下班就是放松的时候。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "For",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对……来说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "many",
+              "lemma": "many",
+              "pos": "det",
+              "meaning": "许多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 12,
+              "word": "men",
+              "lemma": "man",
+              "pos": "n",
+              "meaning": "男性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 17,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 21,
+              "word": "end",
+              "lemma": "end",
+              "pos": "n",
+              "meaning": "结束",
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 24,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 28,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 29,
+              "b": 36,
+              "word": "workday",
+              "lemma": "workday",
+              "pos": "n",
+              "meaning": "工作日",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 39,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 41,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 46,
+              "word": "time",
+              "lemma": "time",
+              "pos": "n",
+              "meaning": "时候；时间",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 49,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 54,
+              "word": "kick",
+              "lemma": "kick",
+              "pos": "v",
+              "meaning": "放松（kick back整体）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 59,
+              "word": "back",
+              "lemma": "back",
+              "pos": "adv",
+              "meaning": "放松地（kick back整体）",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [
             {
               "a": 50,
               "b": 59,
               "word": "kick back",
               "lemma": "kick back",
-              "meaning": "放松；休息"
+              "meaning": "放松；休息",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -569,7 +2197,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "对男性的下班放松作概括，kick back不能按踢回直译。",
+            "sentenceSHA256": "f4e1ae1f943dfb597b10b4f64409965559650f7a6ef864eb31259ae25f9d0ac1",
+            "words": 14,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P3-S3",
@@ -599,7 +2235,116 @@
           ],
           "reorder": "office 用工作场所比喻家庭；never 说明没有真正下班的时刻。",
           "translation": "对全职在家的女性来说，她们永远没有离开“办公室”的时候。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "For",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对……来说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 9,
+              "word": "women",
+              "lemma": "woman",
+              "pos": "n",
+              "meaning": "女性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 13,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指代前述的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 18,
+              "word": "stay",
+              "lemma": "stay",
+              "pos": "v",
+              "meaning": "留在；待在",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 23,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 29,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 30,
+              "b": 35,
+              "word": "never",
+              "lemma": "never",
+              "pos": "adv",
+              "meaning": "从不；绝不",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 39,
+              "word": "get",
+              "lemma": "get",
+              "pos": "v",
+              "meaning": "有机会（get to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 42,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 48,
+              "word": "leave",
+              "lemma": "leave",
+              "pos": "v",
+              "meaning": "离开",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 52,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 59,
+              "word": "office",
+              "lemma": "office",
+              "pos": "n",
+              "meaning": "办公室；文中也比喻家务工作场所",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -607,7 +2352,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "家庭被比作办公室，never说明全职家庭劳动没有真正下班。",
+            "sentenceSHA256": "d11ff6fdbcc9b08b3436cc89d604e53fa254369463b9320816c5eca3d19d7d57",
+            "words": 12,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P3-S4",
@@ -633,28 +2386,168 @@
           "translation": "而那些在外工作的女性，下班后往往又忙着补做积压的家务。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "And",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "而且；转向另一类女性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 7,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对……来说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 13,
+              "word": "women",
+              "lemma": "woman",
+              "pos": "n",
+              "meaning": "女性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 17,
+              "word": "who",
+              "lemma": "who",
+              "pos": "pron",
+              "meaning": "关系代词，指代前述的人",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 22,
+              "word": "work",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "工作（动词）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 30,
+              "word": "outside",
+              "lemma": "outside",
+              "pos": "prep",
+              "meaning": "在……之外",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 34,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 39,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 45,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 51,
+              "word": "often",
+              "lemma": "often",
+              "pos": "adv",
+              "meaning": "经常",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 55,
+              "word": "are",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "助动词，与playing构成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 63,
+              "word": "playing",
+              "lemma": "play",
+              "pos": "v",
+              "meaning": "忙于（play catch-up整体）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 69,
+              "word": "catch",
+              "lemma": "catch",
+              "pos": "n",
+              "meaning": "追赶（catch-up整体）",
+              "reviewVersion": 2,
+              "explanation": "搭配结构：catch up with＝赶上；及时处理积压事项"
+            },
+            {
+              "a": 70,
+              "b": 72,
+              "word": "up",
+              "lemma": "up",
+              "pos": "adv",
+              "meaning": "赶上（catch-up整体）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 73,
+              "b": 77,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "带有；与……一起",
+              "reviewVersion": 2
+            },
+            {
               "a": 78,
               "b": 87,
               "word": "household",
               "lemma": "household",
-              "meaning": "家务的；家庭的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "家务的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 88,
+              "b": 93,
+              "word": "tasks",
+              "lemma": "task",
+              "pos": "n",
+              "meaning": "任务；家务事",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
             {
               "a": 56,
               "b": 72,
-              "lemma": "playing catch-up",
+              "lemma": "play catch-up",
               "meaning": "忙于补做落下的事",
-              "word": "playing catch-up"
-            },
-            {
-              "a": 64,
-              "b": 93,
-              "word": "catch-up-with-household tasks",
-              "lemma": "catch up with household tasks",
-              "meaning": "补做积压的家务"
+              "word": "playing catch-up",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -663,7 +2556,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "catch-up指补做积压家务，不重复翻译追赶和补做。",
+            "sentenceSHA256": "1528c7eac404b26a878afb68e2e6f88cae8fc1017901843dc95c88d1626303c9",
+            "words": 17,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P3-S5",
@@ -713,50 +2614,301 @@
           "translation": "随着角色界限模糊，加上家庭在为职场女性作出调整方面远远落后于工作场所，女性在家时压力更大，也就不足为奇。",
           "words": [
             {
-              "a": 21,
-              "b": 26,
-              "word": "roles",
-              "lemma": "role",
-              "meaning": "承担的角色与职责",
-              "pos": "n"
+              "a": 0,
+              "b": 4,
+              "word": "With",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "随着；由于（引出背景原因）",
+              "reviewVersion": 2
             },
             {
-              "a": 55,
-              "b": 60,
-              "word": "front",
-              "lemma": "front",
-              "meaning": "生活领域；家庭这一边（比喻）",
-              "pos": "n"
-            },
-            {
-              "a": 102,
-              "b": 113,
-              "word": "adjustments",
-              "lemma": "adjustment",
-              "meaning": "调整；适应性变化",
-              "pos": "n"
-            },
-            {
-              "a": 173,
-              "b": 181,
-              "word": "stressed",
-              "lemma": "stressed",
-              "meaning": "压力大的",
-              "pos": "a"
+              "a": 5,
+              "b": 8,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 9,
               "b": 17,
               "word": "blurring",
               "lemma": "blur",
-              "meaning": "使界限模糊"
+              "pos": "n",
+              "meaning": "界限的模糊",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 20,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 26,
+              "word": "roles",
+              "lemma": "role",
+              "pos": "n",
+              "meaning": "角色；职责",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 31,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 35,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 36,
+              "b": 40,
+              "word": "fact",
+              "lemma": "fact",
+              "pos": "n",
+              "meaning": "事实（in fact整体为“事实上”）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 41,
+              "b": 45,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出后面的内容；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 49,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 50,
+              "b": 54,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 60,
+              "word": "front",
+              "lemma": "front",
+              "pos": "n",
+              "meaning": "家庭层面（home front）",
+              "reviewVersion": 2
             },
             {
               "a": 61,
               "b": 65,
               "word": "lags",
               "lemma": "lag",
-              "meaning": "落后"
+              "pos": "v",
+              "meaning": "落后",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 70,
+              "word": "well",
+              "lemma": "well",
+              "pos": "adv",
+              "meaning": "远远地（强调落后程度）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 77,
+              "word": "behind",
+              "lemma": "behind",
+              "pos": "prep",
+              "meaning": "落后于",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 81,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 82,
+              "b": 91,
+              "word": "workplace",
+              "lemma": "workplace",
+              "pos": "n",
+              "meaning": "工作场所",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 94,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……方面",
+              "reviewVersion": 2
+            },
+            {
+              "a": 95,
+              "b": 101,
+              "word": "making",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "作出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 102,
+              "b": 113,
+              "word": "adjustments",
+              "lemma": "adjustment",
+              "pos": "n",
+              "meaning": "调整",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 117,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "为……作调整",
+              "reviewVersion": 2
+            },
+            {
+              "a": 118,
+              "b": 125,
+              "word": "working",
+              "lemma": "work",
+              "pos": "a",
+              "meaning": "有工作的；在职的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 131,
+              "word": "women",
+              "lemma": "woman",
+              "pos": "n",
+              "meaning": "女性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 137,
+              "word": "it's",
+              "lemma": "it be",
+              "pos": "pron",
+              "meaning": "这是；这件事是（it is缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 138,
+              "b": 141,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 142,
+              "b": 152,
+              "word": "surprising",
+              "lemma": "surprising",
+              "pos": "a",
+              "meaning": "令人惊讶的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 153,
+              "b": 157,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出后面的内容；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 158,
+              "b": 163,
+              "word": "women",
+              "lemma": "woman",
+              "pos": "n",
+              "meaning": "女性",
+              "reviewVersion": 2
+            },
+            {
+              "a": 164,
+              "b": 167,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 168,
+              "b": 172,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更；更多",
+              "reviewVersion": 2
+            },
+            {
+              "a": 173,
+              "b": 181,
+              "word": "stressed",
+              "lemma": "stressed",
+              "pos": "a",
+              "meaning": "感到压力大的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 182,
+              "b": 184,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 185,
+              "b": 189,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -765,7 +2917,8 @@
               "b": 60,
               "word": "home front",
               "lemma": "home front",
-              "meaning": "家庭层面；家中事务"
+              "meaning": "家庭层面；家中事务",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -774,7 +2927,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "with引出两个背景原因，well强调家庭调整远落后于职场。",
+            "sentenceSHA256": "cb1c01d15e8c61f954f35f9aed9083a5d33a72ebd8c2a5e2da923add1943bd86",
+            "words": 33,
+            "phrases": 1,
+            "names": 0
+          }
         }
       ]
     },
@@ -804,7 +2965,71 @@
           ],
           "reorder": "not just 保留“还不止如此”的转折，为下文一般家庭压力铺垫。",
           "translation": "但这并不只是性别问题。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "But",
+              "lemma": "but",
+              "pos": "conj",
+              "meaning": "但是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "it's",
+              "lemma": "it be",
+              "pos": "pron",
+              "meaning": "这是；这件事是（it is缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 12,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 17,
+              "word": "just",
+              "lemma": "just",
+              "pos": "adv",
+              "meaning": "只是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 18,
+              "b": 19,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 26,
+              "word": "gender",
+              "lemma": "gender",
+              "pos": "n",
+              "meaning": "性别",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 32,
+              "word": "thing",
+              "lemma": "thing",
+              "pos": "n",
+              "meaning": "事情；问题",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -812,7 +3037,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "not just保留并非仅是性别问题的转折。",
+            "sentenceSHA256": "0843af87d7d1cb2bf39aa840717b387cfa19e2a648980aef35ef1d1d7c9dbc5d",
+            "words": 7,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P4-S2",
@@ -856,27 +3089,282 @@
           "translation": "工作时，人们基本清楚自己该做什么：工作、挣钱，完成获取收入所必须完成的任务。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "At",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "work",
+              "lemma": "work",
+              "pos": "n",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 15,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 22,
+              "word": "pretty",
+              "lemma": "pretty",
+              "pos": "adv",
+              "meaning": "相当；几乎（pretty much整体为基本上）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 27,
+              "word": "much",
+              "lemma": "much",
+              "pos": "adv",
+              "meaning": "很大程度地（pretty much整体为基本上）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 32,
+              "word": "know",
+              "lemma": "know",
+              "pos": "v",
+              "meaning": "知道",
+              "reviewVersion": 2
+            },
+            {
+              "a": 33,
+              "b": 37,
+              "word": "what",
+              "lemma": "what",
+              "pos": "pron",
+              "meaning": "所……的内容",
+              "reviewVersion": 2
+            },
+            {
+              "a": 38,
+              "b": 45,
+              "word": "they're",
+              "lemma": "they be",
+              "pos": "aux",
+              "meaning": "they are的缩写；构成be supposed to“应该”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 46,
+              "b": 54,
+              "word": "supposed",
+              "lemma": "supposed",
+              "pos": "a",
+              "meaning": "应当的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 55,
+              "b": 57,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 60,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "助动词，与doing构成进行时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 66,
+              "word": "doing",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "做；从事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 75,
+              "word": "working",
+              "lemma": "work",
+              "pos": "v",
+              "meaning": "工作",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 83,
+              "word": "making",
+              "lemma": "make",
+              "pos": "v",
+              "meaning": "作出",
+              "reviewVersion": 2
+            },
+            {
+              "a": 84,
+              "b": 89,
+              "word": "money",
+              "lemma": "money",
+              "pos": "n",
+              "meaning": "钱",
+              "reviewVersion": 2
+            },
+            {
+              "a": 91,
+              "b": 96,
+              "word": "doing",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "做；从事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 97,
+              "b": 100,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 101,
+              "b": 106,
+              "word": "tasks",
+              "lemma": "task",
+              "pos": "n",
+              "meaning": "任务；家务事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 107,
+              "b": 111,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 112,
+              "b": 116,
+              "word": "have",
+              "lemma": "have",
+              "pos": "aux",
+              "meaning": "必须（have to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 117,
+              "b": 119,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 120,
+              "b": 122,
+              "word": "do",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "做；完成任务",
+              "reviewVersion": 2
+            },
+            {
+              "a": 123,
+              "b": 125,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在in order to中表示目的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 126,
+              "b": 131,
+              "word": "order",
+              "lemma": "order",
+              "pos": "n",
+              "meaning": "为达某目的（in order to结构）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 132,
+              "b": 134,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 135,
               "b": 139,
               "word": "draw",
               "lemma": "draw",
-              "meaning": "获得；领取（收入）"
+              "pos": "v",
+              "meaning": "获取；领取",
+              "reviewVersion": 2
+            },
+            {
+              "a": 140,
+              "b": 142,
+              "word": "an",
+              "lemma": "an",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 143,
+              "b": 149,
+              "word": "income",
+              "lemma": "income",
+              "pos": "n",
+              "meaning": "收入",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
-            {
-              "a": 135,
-              "b": 149,
-              "lemma": "draw an income",
-              "meaning": "获取收入",
-              "word": "draw an income"
-            },
             {
               "a": 16,
               "b": 27,
               "word": "pretty much",
               "lemma": "pretty much",
-              "meaning": "基本上；差不多"
+              "meaning": "基本上；差不多",
+              "kind": "phrase"
+            },
+            {
+              "a": 123,
+              "b": 134,
+              "word": "in order to",
+              "lemma": "in order to",
+              "meaning": "为了",
+              "kind": "phrase"
+            },
+            {
+              "a": 135,
+              "b": 149,
+              "lemma": "draw an income",
+              "meaning": "获取收入",
+              "word": "draw an income",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -885,7 +3373,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "what是应做的内容，have to表必须，draw an income是获取收入。",
+            "sentenceSHA256": "c98e3900973c93fd6bc2270947dbc3b0c358490ccb3fab024763722346143fb8",
+            "words": 28,
+            "phrases": 3,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P4-S3",
@@ -917,82 +3413,202 @@
           "translation": "这种交换很单纯：雇员投入数小时体力或脑力劳动，换取赖以维生的报酬。",
           "words": [
             {
-              "a": 20,
-              "b": 24,
-              "word": "pure",
-              "lemma": "pure",
-              "meaning": "单纯明了的；明确的",
-              "pos": "a"
-            },
-            {
-              "a": 52,
-              "b": 60,
-              "word": "physical",
-              "lemma": "physical",
-              "meaning": "体力的",
-              "pos": "a"
-            },
-            {
-              "a": 64,
-              "b": 70,
-              "word": "mental",
-              "lemma": "mental",
-              "meaning": "脑力的",
-              "pos": "a"
-            },
-            {
-              "a": 90,
-              "b": 95,
-              "word": "draws",
-              "lemma": "draw",
-              "meaning": "获得；赚取（收入）",
-              "pos": "v"
+              "a": 0,
+              "b": 3,
+              "word": "The",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 4,
               "b": 11,
               "word": "bargain",
               "lemma": "bargain",
-              "meaning": "交易；交换安排"
+              "pos": "n",
+              "meaning": "交换；交易安排",
+              "reviewVersion": 2
             },
             {
-              "a": 116,
-              "b": 121,
-              "word": "moola",
-              "lemma": "moola",
-              "meaning": "钱（口语）"
+              "a": 12,
+              "b": 14,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 15,
+              "b": 19,
+              "word": "very",
+              "lemma": "very",
+              "pos": "adv",
+              "meaning": "非常",
+              "reviewVersion": 2
+            },
+            {
+              "a": 20,
+              "b": 24,
+              "word": "pure",
+              "lemma": "pure",
+              "pos": "a",
+              "meaning": "单纯明了的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 26,
+              "b": 34,
+              "word": "Employee",
+              "lemma": "employee",
+              "pos": "n",
+              "meaning": "雇员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 39,
+              "word": "puts",
+              "lemma": "put",
+              "pos": "v",
+              "meaning": "投入（put in）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 42,
+              "word": "in",
+              "lemma": "in",
+              "pos": "adv",
+              "meaning": "投入到……（put in）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 48,
+              "word": "hours",
+              "lemma": "hour",
+              "pos": "n",
+              "meaning": "小时",
+              "reviewVersion": 2
+            },
+            {
+              "a": 49,
+              "b": 51,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 52,
+              "b": 60,
+              "word": "physical",
+              "lemma": "physical",
+              "pos": "a",
+              "meaning": "体力的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 61,
+              "b": 63,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者（体力与脑力劳动两类）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 64,
+              "b": 70,
+              "word": "mental",
+              "lemma": "mental",
+              "pos": "a",
+              "meaning": "脑力的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 71,
+              "b": 76,
+              "word": "labor",
+              "lemma": "labor",
+              "pos": "n",
+              "meaning": "劳动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 77,
+              "b": 80,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 89,
+              "word": "employee",
+              "lemma": "employee",
+              "pos": "n",
+              "meaning": "雇员",
+              "reviewVersion": 2
+            },
+            {
+              "a": 90,
+              "b": 95,
+              "word": "draws",
+              "lemma": "draw",
+              "pos": "v",
+              "meaning": "获取；领取",
+              "reviewVersion": 2
+            },
+            {
+              "a": 96,
+              "b": 99,
+              "word": "out",
+              "lemma": "out",
+              "pos": "adv",
+              "meaning": "取出（draw out整体指领取）",
+              "reviewVersion": 2
             },
             {
               "a": 100,
               "b": 115,
               "word": "life-sustaining",
               "lemma": "life-sustaining",
-              "meaning": "维持生计的"
-            }
-          ],
-          "phrases": [
-            {
-              "a": 35,
-              "b": 51,
-              "lemma": "puts in hours of",
-              "meaning": "投入若干小时去做",
-              "word": "puts in hours of"
+              "pos": "a",
+              "meaning": "维持生计的",
+              "reviewVersion": 2
             },
             {
-              "a": 100,
+              "a": 116,
               "b": 121,
-              "lemma": "life-sustaining moola",
-              "meaning": "维持生活所需的钱",
-              "word": "life-sustaining moola"
+              "word": "moola",
+              "lemma": "moola",
+              "pos": "n",
+              "meaning": "钱（口语）",
+              "reviewVersion": 2
             }
           ],
+          "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "劳动换报酬的交换关系明确，moola为口语中的钱。",
+            "sentenceSHA256": "fb55fea583f78eabb2631cd0034a1acefac1bd156db4707946d61c95b1a6608e",
+            "words": 20,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -1024,19 +3640,94 @@
           "translation": "然而在家里，人们却没有这种清晰明确的安排。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "On",
+              "lemma": "on",
+              "pos": "prep",
+              "meaning": "在……方面（on the home front）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 6,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 7,
+              "b": 11,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
+            },
+            {
               "a": 12,
               "b": 17,
               "word": "front",
               "lemma": "front",
-              "meaning": "生活领域；家庭这一边（比喻）",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "家庭层面（home front）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 26,
+              "word": "however",
+              "lemma": "however",
+              "pos": "adv",
+              "meaning": "然而",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 34,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 39,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "具有；拥有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 40,
+              "b": 42,
+              "word": "no",
+              "lemma": "no",
+              "pos": "det",
+              "meaning": "没有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 47,
+              "word": "such",
+              "lemma": "such",
+              "pos": "det",
+              "meaning": "这样的",
+              "reviewVersion": 2
             },
             {
               "a": 48,
               "b": 55,
               "word": "clarity",
               "lemma": "clarity",
-              "meaning": "清晰明确"
+              "pos": "n",
+              "meaning": "清晰明确",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -1045,7 +3736,8 @@
               "b": 17,
               "lemma": "home front",
               "meaning": "家庭生活这一领域",
-              "word": "home front"
+              "word": "home front",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1054,7 +3746,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "no否定拥有，have块不能提前译出否定造成重复。",
+            "sentenceSHA256": "744c1b1a91e687caa2b5385f614dbd3ab6e0b96bfd1171a8da4ee870c525637f",
+            "words": 10,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P5-S2",
@@ -1092,34 +3792,157 @@
           "translation": "很少有家庭会把劳动分工安排得如此冷静客观、有条有理。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Rare",
+              "lemma": "rare",
+              "pos": "a",
+              "meaning": "罕见的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 7,
+              "word": "is",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 11,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
               "a": 12,
               "b": 21,
               "word": "household",
               "lemma": "household",
+              "pos": "n",
               "meaning": "家庭；一户人家",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 22,
+              "b": 24,
+              "word": "in",
+              "lemma": "in",
+              "pos": "prep",
+              "meaning": "在……之中（in which指在这种家庭中）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 30,
+              "word": "which",
+              "lemma": "which",
+              "pos": "pron",
+              "meaning": "关系代词，指代前述事物",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 34,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
             },
             {
               "a": 35,
               "b": 43,
               "word": "division",
               "lemma": "division",
+              "pos": "n",
               "meaning": "分工",
-              "pos": "n"
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 46,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 47,
+              "b": 52,
+              "word": "labor",
+              "lemma": "labor",
+              "pos": "n",
+              "meaning": "劳动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 55,
+              "word": "is",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动语态助动词，与laid out连用",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 58,
+              "word": "so",
+              "lemma": "so",
+              "pos": "adv",
+              "meaning": "如此（说明安排的程度）",
+              "reviewVersion": 2
             },
             {
               "a": 59,
               "b": 69,
               "word": "clinically",
               "lemma": "clinically",
-              "meaning": "冷静客观地；不带感情地"
+              "pos": "adv",
+              "meaning": "冷静客观地；不带感情地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 73,
+              "word": "and",
+              "lemma": "and",
+              "pos": "conj",
+              "meaning": "和；并且（连接并列或承接的内容）",
+              "reviewVersion": 2
             },
             {
               "a": 74,
               "b": 86,
               "word": "methodically",
               "lemma": "methodically",
-              "meaning": "有条理地"
+              "pos": "adv",
+              "meaning": "有条理地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 87,
+              "b": 91,
+              "word": "laid",
+              "lemma": "lay",
+              "pos": "v",
+              "meaning": "安排（lay out）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 95,
+              "word": "out",
+              "lemma": "out",
+              "pos": "adv",
+              "meaning": "取出（draw out整体指领取）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -1128,7 +3951,8 @@
               "b": 95,
               "word": "laid out",
               "lemma": "lay out",
-              "meaning": "安排；规划"
+              "meaning": "安排；规划",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1137,7 +3961,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "Rare倒装突出少见，household为家庭，is laid out为被动。",
+            "sentenceSHA256": "299903f38d19b746d92baa3ad21f1e18892bfafdbe39cc9958666bfbe2a22ed3",
+            "words": 17,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P5-S3",
@@ -1169,19 +4001,157 @@
           "translation": "家里有很多事要做，但其中大多数都没有足够的回报。",
           "words": [
             {
-              "a": 58,
-              "b": 65,
-              "word": "rewards",
-              "lemma": "reward",
-              "meaning": "报酬；劳动回报",
-              "pos": "n"
+              "a": 0,
+              "b": 5,
+              "word": "There",
+              "lemma": "there",
+              "pos": "pron",
+              "meaning": "存在结构there be，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 9,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "有；存在（there be）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 11,
+              "word": "a",
+              "lemma": "a",
+              "pos": "art",
+              "meaning": "不定冠词，指一个或某一类；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 15,
+              "word": "lot",
+              "lemma": "lot",
+              "pos": "n",
+              "meaning": "大量（a lot of）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 18,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 24,
+              "word": "tasks",
+              "lemma": "task",
+              "pos": "n",
+              "meaning": "任务；家务事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 25,
+              "b": 27,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 30,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "助动词，to be done表示待完成",
+              "reviewVersion": 2
+            },
+            {
+              "a": 31,
+              "b": 35,
+              "word": "done",
+              "lemma": "do",
+              "pos": "v",
+              "meaning": "完成",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 42,
+              "word": "there",
+              "lemma": "there",
+              "pos": "pron",
+              "meaning": "存在结构there be，不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 43,
+              "b": 46,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "有；存在（there be）",
+              "reviewVersion": 2
             },
             {
               "a": 47,
               "b": 57,
               "word": "inadequate",
               "lemma": "inadequate",
-              "meaning": "不足的；不充分的"
+              "pos": "a",
+              "meaning": "不足的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 58,
+              "b": 65,
+              "word": "rewards",
+              "lemma": "reward",
+              "pos": "n",
+              "meaning": "回报；报酬",
+              "reviewVersion": 2
+            },
+            {
+              "a": 66,
+              "b": 69,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "对于这些任务而言",
+              "reviewVersion": 2
+            },
+            {
+              "a": 70,
+              "b": 74,
+              "word": "most",
+              "lemma": "most",
+              "pos": "adv",
+              "meaning": "最；大多数",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 77,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 78,
+              "b": 82,
+              "word": "them",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（宾格）",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1191,7 +4161,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "there be表示存在，for most指多数任务而非大多数人。",
+            "sentenceSHA256": "08b3b492bc61adf2f01523f5214e566bdcfd88f732500557deead43db736c287",
+            "words": 17,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P5-S4",
@@ -1241,27 +4219,283 @@
           "translation": "你的“家庭同事”——也就是家人——劳动后没有明确报酬，得劝他们才肯做；如果是青少年，甚至还得威胁没收所有电子设备。",
           "words": [
             {
+              "a": 0,
+              "b": 4,
+              "word": "Your",
+              "lemma": "your",
+              "pos": "pron",
+              "meaning": "你的；你们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 5,
+              "b": 9,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 20,
+              "word": "colleagues",
+              "lemma": "colleague",
+              "pos": "n",
+              "meaning": "同事（比喻家人）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 27,
+              "word": "your",
+              "lemma": "your",
+              "pos": "pron",
+              "meaning": "你的；你们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 34,
+              "word": "family",
+              "lemma": "family",
+              "pos": "n",
+              "meaning": "家人；家庭",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 41,
+              "word": "have",
+              "lemma": "have",
+              "pos": "v",
+              "meaning": "有；得到",
+              "reviewVersion": 2
+            },
+            {
+              "a": 42,
+              "b": 44,
+              "word": "no",
+              "lemma": "no",
+              "pos": "det",
+              "meaning": "没有",
+              "reviewVersion": 2
+            },
+            {
+              "a": 45,
+              "b": 50,
+              "word": "clear",
+              "lemma": "clear",
+              "pos": "a",
+              "meaning": "明确的",
+              "reviewVersion": 2
+            },
+            {
               "a": 51,
               "b": 58,
               "word": "rewards",
               "lemma": "reward",
-              "meaning": "报酬；劳动回报",
-              "pos": "n"
+              "pos": "n",
+              "meaning": "回报；报酬",
+              "reviewVersion": 2
             },
             {
-              "a": 184,
-              "b": 191,
-              "word": "devices",
-              "lemma": "device",
-              "meaning": "电子设备",
-              "pos": "n"
+              "a": 59,
+              "b": 62,
+              "word": "for",
+              "lemma": "for",
+              "pos": "prep",
+              "meaning": "因……劳动而获得的报酬",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 68,
+              "word": "their",
+              "lemma": "their",
+              "pos": "pron",
+              "meaning": "他们的；它们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 69,
+              "b": 74,
+              "word": "labor",
+              "lemma": "labor",
+              "pos": "n",
+              "meaning": "劳动",
+              "reviewVersion": 2
+            },
+            {
+              "a": 76,
+              "b": 80,
+              "word": "they",
+              "lemma": "they",
+              "pos": "pron",
+              "meaning": "他们；它们（承接本句所指对象）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 81,
+              "b": 85,
+              "word": "need",
+              "lemma": "need",
+              "pos": "v",
+              "meaning": "需要",
+              "reviewVersion": 2
+            },
+            {
+              "a": 86,
+              "b": 88,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 89,
+              "b": 91,
+              "word": "be",
+              "lemma": "be",
+              "pos": "aux",
+              "meaning": "被动语态助动词；得被劝说",
+              "reviewVersion": 2
+            },
+            {
+              "a": 92,
+              "b": 98,
+              "word": "talked",
+              "lemma": "talk",
+              "pos": "v",
+              "meaning": "劝说（talk into）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 99,
+              "b": 103,
+              "word": "into",
+              "lemma": "into",
+              "pos": "prep",
+              "meaning": "说服……去做（talk into）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 104,
+              "b": 106,
+              "word": "it",
+              "lemma": "it",
+              "pos": "pron",
+              "meaning": "做家务这件事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 108,
+              "b": 110,
+              "word": "or",
+              "lemma": "or",
+              "pos": "conj",
+              "meaning": "或者；对于青少年则需要另一办法",
+              "reviewVersion": 2
+            },
+            {
+              "a": 111,
+              "b": 113,
+              "word": "if",
+              "lemma": "if",
+              "pos": "conj",
+              "meaning": "如果",
+              "reviewVersion": 2
+            },
+            {
+              "a": 114,
+              "b": 121,
+              "word": "they're",
+              "lemma": "they be",
+              "pos": "v",
+              "meaning": "they are的缩写；他们是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 122,
+              "b": 131,
+              "word": "teenagers",
+              "lemma": "teenager",
+              "pos": "n",
+              "meaning": "青少年",
+              "reviewVersion": 2
+            },
+            {
+              "a": 133,
+              "b": 143,
+              "word": "threatened",
+              "lemma": "threaten",
+              "pos": "v",
+              "meaning": "威胁",
+              "reviewVersion": 2
+            },
+            {
+              "a": 144,
+              "b": 148,
+              "word": "with",
+              "lemma": "with",
+              "pos": "prep",
+              "meaning": "以没收设备来威胁（threaten with）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 149,
+              "b": 157,
+              "word": "complete",
+              "lemma": "complete",
+              "pos": "a",
+              "meaning": "全部的；彻底的",
+              "reviewVersion": 2
             },
             {
               "a": 158,
               "b": 165,
               "word": "removal",
               "lemma": "removal",
-              "meaning": "收走；没收"
+              "pos": "n",
+              "meaning": "移除；收走",
+              "reviewVersion": 2
+            },
+            {
+              "a": 166,
+              "b": 168,
+              "word": "of",
+              "lemma": "of",
+              "pos": "prep",
+              "meaning": "……的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 169,
+              "b": 172,
+              "word": "all",
+              "lemma": "all",
+              "pos": "det",
+              "meaning": "所有的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 173,
+              "b": 183,
+              "word": "electronic",
+              "lemma": "electronic",
+              "pos": "a",
+              "meaning": "电子的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 184,
+              "b": 191,
+              "word": "devices",
+              "lemma": "device",
+              "pos": "n",
+              "meaning": "设备",
+              "reviewVersion": 2
             }
           ],
           "phrases": [
@@ -1269,8 +4503,9 @@
               "a": 92,
               "b": 103,
               "word": "talked into",
-              "lemma": "talk into",
-              "meaning": "说服……做某事"
+              "lemma": "talk ... into doing ...",
+              "meaning": "说服……做某事",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1279,7 +4514,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "家人作为同事比喻，talk into为劝做，removal为收走设备。",
+            "sentenceSHA256": "b3665679a519dac696a929e04df02548da801afaffeca0b0c191b8cf095dc097",
+            "words": 31,
+            "phrases": 1,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P5-S5",
@@ -1303,7 +4546,44 @@
           ],
           "reorder": "Plus 为补充一个更难处理的理由。",
           "translation": "再说，他们可是你的家人。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 4,
+              "word": "Plus",
+              "lemma": "plus",
+              "pos": "adv",
+              "meaning": "再说；此外",
+              "reviewVersion": 2
+            },
+            {
+              "a": 6,
+              "b": 13,
+              "word": "they're",
+              "lemma": "they be",
+              "pos": "v",
+              "meaning": "they are的缩写；他们是",
+              "reviewVersion": 2
+            },
+            {
+              "a": 14,
+              "b": 18,
+              "word": "your",
+              "lemma": "your",
+              "pos": "pron",
+              "meaning": "你的；你们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 19,
+              "b": 25,
+              "word": "family",
+              "lemma": "family",
+              "pos": "n",
+              "meaning": "家人；家庭",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -1311,7 +4591,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "Plus补充家人身份这一约束，而非数学加号。",
+            "sentenceSHA256": "b3ff79dee4fb0803379ca5a185d34487a7b0a9be98856304e1cba6fb52e93e72",
+            "words": 4,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P5-S6",
@@ -1337,11 +4625,49 @@
           "translation": "你不可能把家人解雇。",
           "words": [
             {
+              "a": 0,
+              "b": 3,
+              "word": "You",
+              "lemma": "you",
+              "pos": "pron",
+              "meaning": "你；你们（也可泛指人们）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 10,
+              "word": "cannot",
+              "lemma": "can",
+              "pos": "aux",
+              "meaning": "不能",
+              "reviewVersion": 2
+            },
+            {
               "a": 11,
               "b": 15,
               "word": "fire",
               "lemma": "fire",
-              "meaning": "解雇"
+              "pos": "v",
+              "meaning": "解雇",
+              "reviewVersion": 2
+            },
+            {
+              "a": 16,
+              "b": 20,
+              "word": "your",
+              "lemma": "your",
+              "pos": "pron",
+              "meaning": "你的；你们的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 27,
+              "word": "family",
+              "lemma": "family",
+              "pos": "n",
+              "meaning": "家人；家庭",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1351,7 +4677,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "fire是解雇，不是开火或燃烧。",
+            "sentenceSHA256": "54824c60bf6e8e3c067617b2c60eb6829f4fbd549d1d61510c161ed14547b441",
+            "words": 5,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P5-S7",
@@ -1381,7 +4715,89 @@
           ],
           "reorder": "两个 home 有意形成文字游戏，中文点明“从家务中下班”的含义。",
           "translation": "你永远无法真正从家这个“工作场所”下班回家。",
-          "words": [],
+          "words": [
+            {
+              "a": 0,
+              "b": 3,
+              "word": "You",
+              "lemma": "you",
+              "pos": "pron",
+              "meaning": "你；你们（也可泛指人们）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 9,
+              "word": "never",
+              "lemma": "never",
+              "pos": "adv",
+              "meaning": "从不；绝不",
+              "reviewVersion": 2
+            },
+            {
+              "a": 10,
+              "b": 16,
+              "word": "really",
+              "lemma": "really",
+              "pos": "adv",
+              "meaning": "真正地",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 20,
+              "word": "get",
+              "lemma": "get",
+              "pos": "v",
+              "meaning": "有机会（get to）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 21,
+              "b": 23,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 24,
+              "b": 26,
+              "word": "go",
+              "lemma": "go",
+              "pos": "v",
+              "meaning": "去；回",
+              "reviewVersion": 2
+            },
+            {
+              "a": 27,
+              "b": 31,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
+            },
+            {
+              "a": 32,
+              "b": 36,
+              "word": "from",
+              "lemma": "from",
+              "pos": "prep",
+              "meaning": "从家这个工作场所离开",
+              "reviewVersion": 2
+            },
+            {
+              "a": 37,
+              "b": 41,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
+            }
+          ],
           "phrases": [],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
@@ -1389,7 +4805,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "go home from home为文字游戏，指出无法从家务中下班。",
+            "sentenceSHA256": "2fcedc782aa080d5fd7f5507e80e6edd3527d337b8f066a7f2916466f14d3e07",
+            "words": 9,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     },
@@ -1427,12 +4851,103 @@
           "translation": "所以，人们在家时压力更大，也就不足为奇。",
           "words": [
             {
+              "a": 0,
+              "b": 2,
+              "word": "So",
+              "lemma": "so",
+              "pos": "conj",
+              "meaning": "所以",
+              "reviewVersion": 2
+            },
+            {
+              "a": 3,
+              "b": 7,
+              "word": "it's",
+              "lemma": "it be",
+              "pos": "pron",
+              "meaning": "这是；这件事是（it is缩写）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 8,
+              "b": 11,
+              "word": "not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 12,
+              "b": 22,
+              "word": "surprising",
+              "lemma": "surprising",
+              "pos": "a",
+              "meaning": "令人惊讶的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 27,
+              "word": "that",
+              "lemma": "that",
+              "pos": "conj",
+              "meaning": "引出后面的内容；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 28,
+              "b": 34,
+              "word": "people",
+              "lemma": "person",
+              "pos": "n",
+              "meaning": "人们",
+              "reviewVersion": 2
+            },
+            {
+              "a": 35,
+              "b": 38,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 39,
+              "b": 43,
+              "word": "more",
+              "lemma": "more",
+              "pos": "adv",
+              "meaning": "更；更多",
+              "reviewVersion": 2
+            },
+            {
               "a": 44,
               "b": 52,
               "word": "stressed",
               "lemma": "stressed",
-              "meaning": "压力大的",
-              "pos": "a"
+              "pos": "a",
+              "meaning": "感到压力大的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 53,
+              "b": 55,
+              "word": "at",
+              "lemma": "at",
+              "pos": "prep",
+              "meaning": "在（地点、时刻或状态）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 56,
+              "b": 60,
+              "word": "home",
+              "lemma": "home",
+              "pos": "n",
+              "meaning": "家",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1442,7 +4957,15 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "So承接前述原因，stressed为感到压力大的。",
+            "sentenceSHA256": "9eb9db7a8b23577e737aa6a5dcbd8be5eec69d1caa519fdf5cf016fff3554d7d",
+            "words": 11,
+            "phrases": 0,
+            "names": 0
+          }
         },
         {
           "id": "2015-T1-P6-S2",
@@ -1480,26 +5003,130 @@
           "translation": "不仅家里的任务似乎无穷无尽，“同事们”的积极性也难调动得多。",
           "words": [
             {
-              "a": 48,
-              "b": 58,
-              "word": "co-workers",
-              "lemma": "co-worker",
-              "meaning": "一起共事的人；此处也比喻家人",
-              "pos": "n"
+              "a": 0,
+              "b": 3,
+              "word": "Not",
+              "lemma": "not",
+              "pos": "adv",
+              "meaning": "不；没有（否定后面的内容）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 4,
+              "b": 8,
+              "word": "only",
+              "lemma": "only",
+              "pos": "adv",
+              "meaning": "和not组成“不仅”",
+              "reviewVersion": 2
+            },
+            {
+              "a": 9,
+              "b": 12,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 13,
+              "b": 16,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 17,
+              "b": 22,
+              "word": "tasks",
+              "lemma": "task",
+              "pos": "n",
+              "meaning": "任务；家务事",
+              "reviewVersion": 2
+            },
+            {
+              "a": 23,
+              "b": 33,
+              "word": "apparently",
+              "lemma": "apparently",
+              "pos": "adv",
+              "meaning": "看起来；似乎",
+              "reviewVersion": 2
             },
             {
               "a": 34,
               "b": 42,
               "word": "infinite",
               "lemma": "infinite",
-              "meaning": "无穷无尽的"
+              "pos": "a",
+              "meaning": "无穷无尽的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 44,
+              "b": 47,
+              "word": "the",
+              "lemma": "the",
+              "pos": "art",
+              "meaning": "定冠词，限定所说对象；通常不单译",
+              "reviewVersion": 2
+            },
+            {
+              "a": 48,
+              "b": 58,
+              "word": "co-workers",
+              "lemma": "co-worker",
+              "pos": "n",
+              "meaning": "同事（这里指家人）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 59,
+              "b": 62,
+              "word": "are",
+              "lemma": "be",
+              "pos": "v",
+              "meaning": "是；处于所述状态",
+              "reviewVersion": 2
+            },
+            {
+              "a": 63,
+              "b": 67,
+              "word": "much",
+              "lemma": "much",
+              "pos": "adv",
+              "meaning": "……得多（强调更难）",
+              "reviewVersion": 2
+            },
+            {
+              "a": 68,
+              "b": 74,
+              "word": "harder",
+              "lemma": "hard",
+              "pos": "a",
+              "meaning": "更困难的",
+              "reviewVersion": 2
+            },
+            {
+              "a": 75,
+              "b": 77,
+              "word": "to",
+              "lemma": "to",
+              "pos": "inf",
+              "meaning": "不定式标记，连接后面的动作；不单译",
+              "reviewVersion": 2
             },
             {
               "a": 78,
               "b": 86,
               "word": "motivate",
               "lemma": "motivate",
-              "meaning": "调动……积极性"
+              "pos": "v",
+              "meaning": "调动……积极性",
+              "reviewVersion": 2
             }
           ],
           "phrases": [],
@@ -1509,9 +5136,32 @@
             "否定与比较",
             "指代",
             "固定搭配"
-          ]
+          ],
+          "auditV2": {
+            "date": "2026-11-01",
+            "note": "not only倒装保留两项困难，much修饰比较级harder。",
+            "sentenceSHA256": "a52191af2153813dc4cf115b7171674ee65f57233769ce9ad215b0cc18a20d85",
+            "words": 14,
+            "phrases": 0,
+            "names": 0
+          }
         }
       ]
     }
-  ]
+  ],
+  "auditV2": {
+    "version": 2,
+    "date": "2026-11-01",
+    "sourceHash": "510bffd293fc9eade80316311a20ab29e761fe9572238d2161de493ac0f619e4",
+    "sentences": 24,
+    "wordOccurrences": 417,
+    "notes": [
+      "逐词重审：每个可点击英文词均有定位义项；介词、助动词、强调结构及家务比喻另按句核定。"
+    ]
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
+  }
 }

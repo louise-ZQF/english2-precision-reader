@@ -286,7 +286,8 @@
               "b": 160,
               "lemma": "minimum wage",
               "meaning": "最低工资",
-              "word": "minimum wage"
+              "word": "minimum wage",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -301,7 +302,8 @@
             "note": "核对服务员工资与收入来源，tipped为动词，they assumed插入判断不改变先行词。",
             "sentenceSHA256": "6c50932339b725368e1245cddfc90c7763b074047edb9f566e26804fda231819",
             "words": 25,
-            "phrases": 1
+            "phrases": 1,
+            "names": 0
           }
         },
         {
@@ -496,7 +498,8 @@
               "b": 120,
               "lemma": "digital payment system",
               "meaning": "数字支付系统",
-              "word": "digital payment systems"
+              "word": "digital payment systems",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -511,7 +514,8 @@
             "note": "核对交易与支付工具关系，with为工具；2010年代初而非具体2010年。",
             "sentenceSHA256": "26396d32ea26b10925ca69c1290d86eb12a8662c63eaebac56695fa8e1e45af7",
             "words": 18,
-            "phrases": 1
+            "phrases": 1,
+            "names": 0
           }
         },
         {
@@ -677,7 +681,8 @@
             "note": "核对提示顾客给小费及服务被给予小费的主动被动区别。",
             "sentenceSHA256": "4817f0ebd3295c7763a95f49a888379fdb338108df6d74dc9b2bc90792b49cfa",
             "words": 14,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         }
       ]
@@ -921,7 +926,8 @@
             "note": "两处tip分别为名词修饰与动词，used to表示过去曾经，that指两类惯例。",
             "sentenceSHA256": "00af97d41cf0596acf8b17465d73945e237974e2e8b2b686838e0bf87bca755f",
             "words": 22,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -1252,7 +1258,8 @@
             "note": "核对after及once的服务后时机，三个例子不指提前付小费。",
             "sentenceSHA256": "669c8e90b411398911fecfe69c9f7c715195024e6f3c593976d7674762bb2e99",
             "words": 31,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -1424,7 +1431,8 @@
             "note": "That timing回指服务结束时给小费，it回指优质服务。",
             "sentenceSHA256": "450105c72f4cd2b8a0e5140bbb8fea4732b935431a4a5238780a15b92fbb1a99",
             "words": 14,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         }
       ]
@@ -1560,7 +1568,8 @@
             "note": "核对形式主语it、for的逻辑主语和requested被动，事先索要是实际主语。",
             "sentenceSHA256": "d1520f93153b9a4303971b7652639603acf02aeba703b5c14befa663d239a93d",
             "words": 10,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -1681,7 +1690,8 @@
             "note": "核对may even自动加收的可能性，不改成已全部自动加收。",
             "sentenceSHA256": "6495d534d9480ff6b491813e8a5272e19a6f86ea5bd845263b7cf91d8d2050a6",
             "words": 9,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         }
       ]
@@ -1871,7 +1881,8 @@
             "note": "it为形式宾语，实际内容是ask customers for a tip。",
             "sentenceSHA256": "b004e0151305b7e77d48a2689f8831673d055d593a8b9248c518b41086ae87ba",
             "words": 16,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -2021,7 +2032,8 @@
               "b": 53,
               "lemma": "creep into",
               "meaning": "悄然扩展到",
-              "word": "creeping into"
+              "word": "creeping into",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -2036,7 +2048,8 @@
             "note": "That回指索要变容易，creep into指范围逐渐扩展。",
             "sentenceSHA256": "599ee27bacc4e66b53aeeb2961394fbf39080c46b737de5ef80c6886b5b3d6f0",
             "words": 13,
-            "phrases": 1
+            "phrases": 1,
+            "names": 0
           }
         },
         {
@@ -2213,7 +2226,8 @@
               "b": 62,
               "lemma": "default option",
               "meaning": "默认选项",
-              "word": "default options"
+              "word": "default options",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -2228,7 +2242,8 @@
             "note": "核对默认选项与应付账款比例，well表示远远不是好。",
             "sentenceSHA256": "1c052268397f0d20189095ba1dee72efef64fcc21acf8a3eab0fac09818b5143",
             "words": 16,
-            "phrases": 1
+            "phrases": 1,
+            "names": 0
           }
         },
         {
@@ -2427,7 +2442,8 @@
             "note": "核对10到15到20及以上三次比例变化，to都是目标比例介词。",
             "sentenceSHA256": "360826744afde435952d67d60f6a4aee0ad6ae001d134f610124f618133fe625",
             "words": 17,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -2575,7 +2591,8 @@
             "note": "核对tipflation同位解释与期望金额不断提高，called为被动。",
             "sentenceSHA256": "929426eada2dd3ef562d393edc724e171c31d5dfccf7767f0d78a0ddb979d49c",
             "words": 12,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         }
       ]
@@ -2896,7 +2913,8 @@
               "b": 141,
               "lemma": "minimum wage",
               "meaning": "最低工资",
-              "word": "minimum wage"
+              "word": "minimum wage",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -2911,7 +2929,8 @@
             "note": "核对两处tipped形容词、最低工资低至2.13美元每小时，an表示每。",
             "sentenceSHA256": "9bea4408682808a6f9e11577d3f4e3fbfa0a2b933d6101c3532a3cf7e728fd5f",
             "words": 30,
-            "phrases": 1
+            "phrases": 1,
+            "names": 0
           }
         },
         {
@@ -3079,7 +3098,8 @@
               "b": 9,
               "lemma": "Tip creep",
               "meaning": "索要小费的服务范围扩张",
-              "word": "Tip creep"
+              "word": "Tip creep",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -3094,7 +3114,8 @@
             "note": "核对范围扩张与比例上涨并列，supplement为增加收入。",
             "sentenceSHA256": "8da52a077de1a298060a422c21754cc03a53078a95ab4ff19e2252f5589ff4b5",
             "words": 15,
-            "phrases": 1
+            "phrases": 1,
+            "names": 0
           }
         }
       ]
@@ -3311,7 +3332,8 @@
             "note": "核对服务员受益与厨师洗碗工不受益的对照，不把not遗漏。",
             "sentenceSHA256": "f53665ac5144fad72189f9c34385caf5fd29ec5579411d3325ea1eae37432c6f",
             "words": 19,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -3590,7 +3612,8 @@
               "b": 173,
               "lemma": "fizzle out",
               "meaning": "逐渐衰退；不了了之",
-              "word": "fizzled out"
+              "word": "fizzled out",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -3605,7 +3628,8 @@
             "note": "核对无小费倡议提高标价且大多失败，paid与fizzle out均正确。",
             "sentenceSHA256": "5674510440150f2711d4c7504669d8a4e7e1b115c77a700959a4f058c204acc4",
             "words": 26,
-            "phrases": 1
+            "phrases": 1,
+            "names": 0
           }
         }
       ]
@@ -3749,7 +3773,8 @@
               "lemma": "succumb",
               "pos": "v",
               "meaning": "抵挡不住；屈从于",
-              "reviewVersion": 2
+              "reviewVersion": 2,
+              "explanation": "搭配结构：succumb to＝屈从于；抵挡不住"
             },
             {
               "a": 85,
@@ -3826,18 +3851,12 @@
           ],
           "phrases": [
             {
-              "a": 74,
-              "b": 103,
-              "lemma": "succumb to the temptation",
-              "meaning": "抵挡不住诱惑",
-              "word": "succumbing to the temptations"
-            },
-            {
               "a": 107,
               "b": 116,
               "lemma": "Tip creep",
               "meaning": "索要小费的服务范围扩张",
-              "word": "tip creep"
+              "word": "tip creep",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -3852,7 +3871,8 @@
             "note": "核对雇主为增工资不涨价而扩大收小费，第二个to属于succumb搭配。",
             "sentenceSHA256": "3dae8d13f9bad40bfe475ba4dcd455a221755f7037a2f2b2c00a5f0c41bdd66f",
             "words": 20,
-            "phrases": 2
+            "phrases": 1,
+            "names": 0
           }
         },
         {
@@ -4078,7 +4098,8 @@
             "note": "核对are状态与被动态、金额太高与频率太高两项不满。",
             "sentenceSHA256": "e138440b84d2b0ae5c4d3762fc7625a817fff266105413ad5236418bd7bc3438",
             "words": 20,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -4306,7 +4327,8 @@
               "b": 123,
               "lemma": "dissociate from",
               "meaning": "与……脱离联系",
-              "word": "dissociated from"
+              "word": "dissociated from",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -4321,7 +4343,8 @@
             "note": "核对as正如、coercive与generous对比、与服务质量脱节。",
             "sentenceSHA256": "4f50e2c2483cbcd1d16f0e237562c1664778a29be26a5379b3f9e3fbda7d982f",
             "words": 21,
-            "phrases": 1
+            "phrases": 1,
+            "names": 0
           }
         }
       ]
@@ -4334,5 +4357,10 @@
     "sentences": 20,
     "wordOccurrences": 368,
     "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
   }
 }

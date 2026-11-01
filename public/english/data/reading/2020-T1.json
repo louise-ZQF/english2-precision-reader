@@ -301,23 +301,18 @@
             {
               "a": 41,
               "b": 51,
-              "lemma": "attuned to",
+              "lemma": "be attuned to",
               "meaning": "敏锐察觉并回应",
-              "word": "attuned to"
-            },
-            {
-              "a": 52,
-              "b": 66,
-              "lemma": "social signals",
-              "meaning": "社交信号；互动线索",
-              "word": "social signals"
+              "word": "attuned to",
+              "kind": "phrase"
             },
             {
               "a": 111,
               "b": 125,
               "word": "cooperate with",
               "lemma": "cooperate with",
-              "meaning": "与……合作"
+              "meaning": "与……合作",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -332,7 +327,8 @@
             "note": "合作伙伴与敌人两类对象对应两个不定式；attuned to的介词与need to分开。",
             "sentenceSHA256": "9d39d7c450be7d79a82c60080a152c628953955ddf7b2814850480fa269c2f7c",
             "words": 26,
-            "phrases": 3
+            "phrases": 2,
+            "names": 0
           }
         },
         {
@@ -646,11 +642,12 @@
           ],
           "phrases": [
             {
-              "a": 31,
-              "b": 48,
-              "lemma": "non-living beings",
-              "meaning": "非生命的对象",
-              "word": "non-living beings"
+              "a": 3,
+              "b": 11,
+              "word": "find out",
+              "lemma": "find out",
+              "meaning": "查明；弄清楚",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -665,7 +662,8 @@
             "note": "this回指识别社交信号的能力；to find是目的、extends to是适用范围。",
             "sentenceSHA256": "d296076a9bd8804393a4e5533cb98e51f130c2eb6555db3c71f0cbf1360e6898",
             "words": 31,
-            "phrases": 1
+            "phrases": 1,
+            "names": 0
           }
         }
       ]
@@ -894,7 +892,8 @@
             "note": "八只真鼠、两类机器鼠、四天的数量及housed饲养义均保持。",
             "sentenceSHA256": "23e87c8854b89adac6193d81e1f4492a4f2b26601ea059600cf89489ba2b8bda",
             "words": 19,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -1144,7 +1143,8 @@
             "note": "mouse为电脑鼠标；with表示带轮子而非与轮子合作，极简不是最低主义。",
             "sentenceSHA256": "85df1b823b29f4d7926c3cb348731c3e820a399a37a7d2fdeb935806424f144f",
             "words": 22,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         }
       ]
@@ -1311,7 +1311,7 @@
               "word": "with",
               "lemma": "with",
               "pos": "prep",
-              "meaning": "与……一起",
+              "meaning": "玩耍所用的对象（play with）",
               "reviewVersion": 2
             },
             {
@@ -1436,7 +1436,8 @@
             "note": "会社交机器鼠三项行为并列，trapped修饰被困真鼠，let后为逃出。",
             "sentenceSHA256": "d0ca6c877bce9fb40fe615569ef96ff78cb485dde8e3a475ab351faf1c345698",
             "words": 26,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -1599,7 +1600,8 @@
             "note": "仅前后左右移动对比社交行为；side to side为左右来回。",
             "sentenceSHA256": "e35b8ece54f40cc1bc5f2c46c69ff5510932182b9ddf509c92a69ffaa2acee90",
             "words": 13,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         }
       ]
@@ -1670,7 +1672,7 @@
               "word": "trapped",
               "lemma": "trap",
               "pos": "v",
-              "meaning": "把……困住；关进笼子（研究人员实施的动作）",
+              "meaning": "被困住的；被关住的",
               "reviewVersion": 2
             },
             {
@@ -1840,7 +1842,8 @@
             "note": "被放出的them指机器鼠；by pressing是释放方式，不是由杠杆研究。",
             "sentenceSHA256": "8ddba98722c77c85a5f3da1746acb3544654c0ca3cef748c1f7c08372df80282",
             "words": 21,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -2098,14 +2101,26 @@
               "b": 78,
               "word": "on average",
               "lemma": "on average",
-              "meaning": "平均而言"
+              "meaning": "平均而言",
+              "kind": "phrase"
             },
             {
               "a": 82,
+              "b": 85,
+              "word": "set",
+              "lemma": "set … free",
+              "meaning": "释放……；让……自由",
+              "kind": "phrase",
+              "structure": true
+            },
+            {
+              "a": 103,
               "b": 107,
-              "word": "set the social robot free",
-              "lemma": "set free",
-              "meaning": "放出会社交的机器鼠"
+              "word": "free",
+              "lemma": "set … free",
+              "meaning": "释放……；让……自由",
+              "kind": "phrase",
+              "structure": true
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -2120,7 +2135,8 @@
             "note": "52%为相对可能性增幅而非52个百分点，each指每只真鼠。",
             "sentenceSHA256": "797f92b5a277f6f74fd73843836362b380581b88c04309846efd75c5f9505964",
             "words": 23,
-            "phrases": 2
+            "phrases": 3,
+            "names": 0
           }
         },
         {
@@ -2316,7 +2332,8 @@
             "note": "perceived as是看作；genuine social being指社交伙伴而非单纯生命物体。",
             "sentenceSHA256": "5dbfff5a1f024081f68eb80a1913ab52262adda0eef565b6ed93a8650d573bfe",
             "words": 16,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -2523,10 +2540,21 @@
           "phrases": [
             {
               "a": 18,
-              "b": 34,
-              "word": "bonded more with",
+              "b": 24,
+              "word": "bonded",
               "lemma": "bond with",
-              "meaning": "与……建立更亲近的关系"
+              "meaning": "与……建立联系或亲近关系",
+              "kind": "phrase",
+              "structure": true
+            },
+            {
+              "a": 30,
+              "b": 34,
+              "word": "with",
+              "lemma": "bond with",
+              "meaning": "与……建立联系或亲近关系",
+              "kind": "phrase",
+              "structure": true
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -2541,7 +2569,8 @@
             "note": "may保留可能性；it为机器鼠，communal表共同探索和玩耍。",
             "sentenceSHA256": "0024c82433ff0746f7ee95365baef7f75a746e9630f9681881ded31cb951f099",
             "words": 19,
-            "phrases": 1
+            "phrases": 2,
+            "names": 0
           }
         },
         {
@@ -2822,11 +2851,20 @@
           ],
           "phrases": [
             {
+              "a": 11,
+              "b": 18,
+              "word": "lead to",
+              "lemma": "lead to",
+              "meaning": "导致",
+              "kind": "phrase"
+            },
+            {
               "a": 97,
               "b": 114,
               "lemma": "return the favour",
               "meaning": "回报帮助；投桃报李",
-              "word": "return the favour"
+              "word": "return the favour",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -2841,7 +2879,8 @@
             "note": "记得先前解救与期待回报并列；自己被困为期望机器鼠回报的时间。",
             "sentenceSHA256": "4501db9d3bb3442a3af7e9e7e82c42df3efdbbd18f6cc25c23aeaea0127ec249",
             "words": 26,
-            "phrases": 1
+            "phrases": 2,
+            "names": 0
           }
         }
       ]
@@ -3221,8 +3260,9 @@
               "a": 104,
               "b": 118,
               "word": "referred to as",
-              "lemma": "refer to as",
-              "meaning": "被称作"
+              "lemma": "refer to ... as ...",
+              "meaning": "被称作",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -3237,7 +3277,8 @@
             "note": "have been shown为研究被证明；that指曾帮助自己的另一只鼠，them回指施助鼠。",
             "sentenceSHA256": "c2eaf2f3e17f5631822b9981366e856522844a91f0b596f72a0e4f75b7b502c8",
             "words": 36,
-            "phrases": 1
+            "phrases": 1,
+            "names": 0
           }
         }
       ]
@@ -3433,7 +3474,8 @@
             "note": "given为鉴于，minimal design是惊讶的背景，readiness为乐意并非准备程度。",
             "sentenceSHA256": "996c892cd9c32d61a04b144d05761cc776189ebdbd6da091c8e622f6e1eec0ab",
             "words": 16,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -3641,7 +3683,8 @@
             "note": "same size as比较大小，on wheels为装有轮子，与普通鼠外观不相同。",
             "sentenceSHA256": "3f3890d345609740acca1d0a1abff25a87305ec55e26a50379d908616ffa1dbb",
             "words": 18,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -4099,7 +4142,7 @@
               "word": "with",
               "lemma": "with",
               "pos": "prep",
-              "meaning": "与……一起",
+              "meaning": "帮助进行（help with）",
               "reviewVersion": 2
             },
             {
@@ -4127,7 +4170,8 @@
               "b": 27,
               "word": "have to",
               "lemma": "have to",
-              "meaning": "不得不；必须"
+              "meaning": "不得不；必须",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -4142,7 +4186,8 @@
             "note": "首个We’d为had，第二个为would；have to义务与that指复杂设计分别核清。",
             "sentenceSHA256": "d38fc48896c4e9c50b21c47a6aa6e54660e849f50152bd1fd5f834fc69ddcb9e",
             "words": 47,
-            "phrases": 1
+            "phrases": 1,
+            "names": 0
           }
         }
       ]
@@ -4371,7 +4416,8 @@
             "note": "how强调敏感程度，they回指线索；原卷句点不据此丢掉说话人。",
             "sentenceSHA256": "f747eb8a71a9951b771348a51b6b110759af0e65d8b2f0ccd44d25c3298c1f07",
             "words": 19,
-            "phrases": 0
+            "phrases": 0,
+            "names": 0
           }
         },
         {
@@ -4586,18 +4632,12 @@
           ],
           "phrases": [
             {
-              "a": 56,
-              "b": 69,
-              "lemma": "fellow beings",
-              "meaning": "同类般的伙伴",
-              "word": "fellow beings"
-            },
-            {
               "a": 41,
               "b": 46,
               "word": "as if",
               "lemma": "as if",
-              "meaning": "仿佛；好像"
+              "meaning": "仿佛；好像",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -4612,7 +4652,8 @@
             "note": "as if为仿佛，两个they都指机器人；只简单信号为让步。",
             "sentenceSHA256": "fbd9822fda268ec5e6a952986f0273df24ca7d87c2c5f7b37c5f94f2768ba62c",
             "words": 20,
-            "phrases": 2
+            "phrases": 1,
+            "names": 0
           }
         },
         {
@@ -4813,7 +4854,8 @@
               "b": 60,
               "word": "turns out",
               "lemma": "turn out",
-              "meaning": "结果发现；事实证明"
+              "meaning": "结果发现；事实证明",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -4828,7 +4870,8 @@
             "note": "be fascinated by为着迷，turns out表事实发现，too指其他动物也着迷。",
             "sentenceSHA256": "8b8c9a790deb7a7d7f62a5299cf0495426be47c046ddb12d3560ed2868c08a16",
             "words": 18,
-            "phrases": 1
+            "phrases": 1,
+            "names": 0
           }
         }
       ]
@@ -4841,5 +4884,10 @@
     "sentences": 18,
     "wordOccurrences": 416,
     "notes": []
+  },
+  "phraseReviewPolicy": {
+    "version": 1,
+    "date": "2026-11-01",
+    "classificationSHA256": "dace05e3d8a0293c4092b724cc2e61307f897afe4f7c83ce84994bfb06017491"
   }
 }

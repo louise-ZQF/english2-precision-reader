@@ -98,6 +98,22 @@ def validate(article, expected):
                 assert word['a'] == 0 or not s['en'][word['a']-1].isalnum(), f'{label}: word starts inside another word'
                 assert word['b'] == len(s['en']) or not s['en'][word['b']].isalnum(), f'{label}: word ends inside another word'
         assert not p['en'][cursor:].strip(), f'{p["id"]}: omitted trailing sentence'
+    audit = article.get('auditV2')
+    if audit:
+        from reading_audit import tokens
+        assert audit.get('sourceHash') == article['source']['textSHA256'], f'{ident}: audit source changed'
+        count = 0
+        for p in article['paragraphs']:
+            for s in p['sentences']:
+                required = {(t['a'], t['b']) for t in tokens(s['en'])}
+                actual = [(w['a'], w['b']) for w in s['words']]
+                assert set(actual) == required and len(actual) == len(required), f'{s["id"]}: incomplete/duplicate word review'
+                assert all(w.get('reviewVersion') == 2 and w.get('pos') for w in s['words']), f'{s["id"]}: incomplete word metadata'
+                record = s.get('auditV2', {})
+                assert record.get('sentenceSHA256') == hashlib.sha256(s['en'].encode()).hexdigest(), f'{s["id"]}: unreviewed source'
+                assert record.get('note') and record.get('words') == len(required), f'{s["id"]}: missing sentence review'
+                count += len(required)
+        assert count == audit.get('wordOccurrences'), f'{ident}: audit coverage mismatch'
 
 def merge(path, articles):
     payload = json.loads(path.read_text())
@@ -166,7 +182,10 @@ def main():
         revision = hashlib.sha256(payload.encode()).hexdigest()[:12]
         (BROWSER / (a['id'] + '.js')).write_text('window.EnglishReadingFiles = window.EnglishReadingFiles || {};\nwindow.EnglishReadingFiles[' + json.dumps(a['id']) + '] = ' + payload + ';\n')
         manifest.append({'id': a['id'], 'exam': a['exam'], 'text': a['text'], 'articleKey': a['articleKey'], 'source': a['source']['status'], 'sentences': len(ss), 'reviewed': ready, 'revision': revision})
-    report = {'articles': len(articles), 'sentences': total, 'reviewedSentences': reviewed, 'verifiedArticles': sum(a['source']['status'] == 'verified' for a in articles), 'items': manifest}
+    audits = [a for a in articles if a.get('auditV2')]
+    report = {'articles': len(articles), 'sentences': total, 'reviewedSentences': reviewed, 'verifiedArticles': sum(a['source']['status'] == 'verified' for a in articles),
+              'fullAuditArticles': len(audits), 'fullAuditSentences': sum(a['auditV2']['sentences'] for a in audits),
+              'fullAuditWords': sum(a['auditV2']['wordOccurrences'] for a in audits), 'items': manifest}
     (DATA / 'reading-manifest.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     (ROOT / 'public/english/js/reading-manifest.js').write_text('window.EnglishReadingManifest = ' + json.dumps(report, ensure_ascii=False, separators=(',', ':')) + ';\n')
     print(json.dumps({k: v for k, v in report.items() if k != 'items'}, ensure_ascii=False))

@@ -1,0 +1,261 @@
+import sys
+from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parents[2]/'scripts'))
+from reading_audit import Review
+r=Review('2025-T1')
+r.lex('''
+above~above~prep=高于（比例）
+add~add~v=加收
+ after~after~prep=在……之后
+all~all~art=所有的
+always~always~adv=一直；总是
+amounts~amount~n=小费金额或比例
+are~be~aux=助动词，构成被动或进行结构
+around~around~prep=大约在（某时间）
+as~as~prep=例如（such as搭配的一部分）
+ask~ask~v=索要
+asked~ask~v=被要求支付
+assumed~assume~v=认为；想当然地认为
+at~at~prep=在（某个时间节点）
+automatically~automatically~adv=自动地
+banned~ban~v=禁止
+be~be~aux=被动结构的助动词，不单译
+because~because~conj=因为
+becoming~become~v=变得
+been~be~v=一直是（完成时中的be）
+beforehand~beforehand~adv=事先；服务完成前
+being~be~aux=与过去分词构成正在发生的被动
+benefits~benefit~v=使……受益
+businesses~business~n=商家；企业
+but~but~conj=但是；而（转折）
+called~call~v=被称为
+can~can~aux=能够；可能达到
+coercive~coercive~a=带有强迫意味的
+common~common~a=普遍的
+completely~completely~adv=完全地
+conclusion~conclusion~n=结束
+connected~connect~v=相联系；相关联
+cooks~cook~n=厨师
+could~can~aux=能够（说明这种安排的作用）
+creep~creep~n=逐步扩张（指索要小费的服务范围）
+creeping~creep~v=悄然扩展
+customers~customer~n=顾客
+default~default~a=默认的；预先设定的
+delivered~deliver~v=送达
+determine~determine~v=决定
+devices~device~n=设备
+digital~digital~a=数字化的
+dishwashers~dishwasher~n=洗碗工
+dissociated~dissociate~a=脱离联系的
+early~early~a=初期的
+earning~earn~v=挣得（收入）
+easier~easy~a=更容易的
+emphasizes~emphasize~v=强调
+employee~employee~n=雇员
+employees~employee~n=雇员
+employers~employer~n=雇主
+ensure~ensure~v=确保
+even~even~adv=甚至
+ever-higher~ever-higher~a=越来越高的
+expectation~expectation~n=预期；期望
+explain~explain~v=解释
+fair~fair~a=公平合理的
+feel~feel~v=觉得
+fizzled~fizzle~v=逐渐失败；不了了之（与out连用）
+for~for~prep=向；针对（连接服务对象或受益对象）
+from~from~prep=从（起始比例）
+frustrated~frustrated~a=不满的；感到受挫的
+further~further~adv=进一步
+generous~generous~a=出于自愿慷慨的
+getting~get~v=接受；进行（理发）
+give~give~v=给予
+haircut~haircut~n=理发
+has~have~aux=完成时助动词，不译为有
+have~have~aux=完成时助动词，不译为有
+helps~help~v=有助于
+high~high~a=高的（指小费金额）
+high-quality~high-quality~a=优质的
+higher~high~a=更高的
+historically~historically~adv=过去；以往惯常地
+hour~hour~n=小时
+how~how~adv=如何
+however~however~adv=然而
+in~in~prep=在（时间或行业范围内）
+incentive~incentive~n=激励；动力
+income~income~n=收入
+increase~increase~n=上涨
+increased~increase~v=提高
+into~into~prep=进入；扩展到
+ipads~iPad~n=iPad平板电脑
+is~be~aux=被动语态助动词，不单译
+it~it~pron=它；这件事
+it's~it is~pron=it is的缩写，此处it为形式主语，不单译
+kinds~kind~n=种类
+largely~largely~adv=大体上；很大程度上
+less~little~adv=较少；更低
+like~like~prep=例如
+low~low~a=低的
+low-wage~low-wage~a=低薪的
+made~make~v=使；让
+many~many~art=许多
+may~may~aux=可能
+meal~meal~n=一顿饭；用餐
+menus~menu~n=供选择的选项列表
+minimum~minimum~a=最低的
+more~more~adv=更加
+most~most~pron=大部分
+movement~movement~n=倡议；转变运动
+nearly~nearly~adv=几乎
+new~new~a=新的
+no-tipping~no-tipping~a=不收小费的
+norms~norm~n=惯例；通常标准
+notably~notably~adv=值得注意的是
+now~now~adv=如今
+of~of~prep=……的（连接限定关系）
+often~often~adv=经常
+once~once~conj=当……之后
+options~option~n=选项
+other~other~art=其他的
+others~other~pron=其他人
+out~out~part=与fizzle构成逐渐失败的固定搭配
+owe~owe~v=应付；欠付
+paid~pay~v=支付
+past~past~n=过去
+payment~payment~n=付款
+people~person~n=人们
+pizza~pizza~n=比萨
+prevalence~prevalence~n=普及
+previously~previously~adv=以前
+prices~price~n=价格
+primarily~primarily~adv=主要地
+processing~process~v=处理（交易）
+prompted~prompt~v=提示；促使
+provide~provide~v=提供
+purchases~purchase~n=购买交易
+quality~quality~n=质量
+raising~raise~v=提高
+range~range~n=范围；多种类型
+receiving~receive~v=接受（服务）
+requested~request~v=被索要
+requests~request~n=要求；索要小费的请求
+research~research~n=研究
+restaurant~restaurant~n=餐厅
+restaurants~restaurant~n=餐厅
+reward~reward~v=奖励
+risen~rise~v=上涨
+routinely~routinely~adv=惯常地；经常地
+salary~salary~n=工资
+see~see~v=看到
+seems~seem~v=似乎
+servers~server~n=服务员
+service~service~n=服务
+services~service~n=服务项目；服务行业
+so~so~conj=因此
+some~some~art=一些
+sometimes~sometimes~adv=有时
+source~source~n=来源
+started~start~v=开始
+succumbing~succumb~v=抵挡不住；屈从于
+such~such~art=这样的（such as整体表示例如）
+suggested~suggest~a=建议选择的
+supplementing~supplement~v=补充；增加
+systems~system~n=系统
+technology~technology~n=技术
+ temptations~temptation~n=诱惑
+than~than~conj=比（引出比较对象）
+that~that~pron=这；那（承接前文）
+these~these~pron=这些
+this~this~pron=这种；这
+ timing~timing~n=时间安排；选择给小费的时机
+tip~tip~n=小费
+tipflation~tipflation~n=小费通胀；小费金额或比例持续上涨
+tipped~tip~v=给……小费
+tipping~tip~n=给小费这一做法
+tips~tip~n=小费
+to~to~part=不定式标记，连接动词，不单译
+today~today~adv=如今
+today's~today~a=如今的
+too~too~adv=过于；太
+toward~toward~prep=朝着；转向
+u.s.~U.S.~abbr=美国
+used~use~v=与to构成过去曾经的结构
+via~via~prep=通过；靠
+vital~vital~a=至关重要的
+wage~wage~n=工资
+wages~wage~n=工资
+waiters~waiter~n=餐厅服务员
+was~be~aux=过去时被动助动词，不单译
+well~well~adv=远远地（加强高于的程度）
+were~be~aux=过去时进行或被动助动词
+what~what~pron=所……的金额
+when~when~adv=何时
+where~where~pron=在这些行业中（关系副词）
+why~why~adv=为什么
+wide~wide~a=广泛的
+with~with~prep=使用；借助
+without~without~prep=不；在不……的情况下
+workers~worker~n=员工
+ year~year~n=年
+''')
+# Distinguish identical written words by their actual grammatical role.
+r.word('P1-S1','of','在……之中（大部分收入与全部收入的关系）',pos='prep')
+r.word('P1-S1','as','例如（such as的一部分）',pos='prep')
+r.word('P1-S3','tip','给……小费',pos='v')
+r.word('P1-S3','that','关系代词，指前面的服务项目',pos='pron')
+r.word('P1-S3','tipped','获得小费；被给予小费',pos='v')
+r.word('P2-S1','are','与connected构成被动/关联状态',pos='aux')
+r.word('P2-S1','to','与……关联（connected to搭配的一部分）',pos='prep',occ=1)
+r.word('P2-S1','that','关系代词，指工资及服务惯例',pos='pron')
+r.word('P2-S1','tip','给小费',pos='v',occ=2)
+r.word('P2-S3','That','那个（指服务结束后给小费的时间安排）',pos='art')
+r.word('P2-S3','it','优质服务（回指high-quality service）',pos='pron')
+r.word('P3-S1','for','引出不定式的逻辑主语tips，不单译',pos='part')
+r.word('P3-S2','And','而且（补充另一种小费变化）',pos='conj')
+r.word('P4-S1','it','形式宾语，实际内容是后面的索要小费行为',pos='pron')
+r.word('P4-S2','That','这（指索要小费变得容易）',pos='pron')
+r.word('P4-S3','of','在……之中（比例与账款金额的关系）',pos='prep',occ=2)
+r.word('P4-S4','to','上涨到（目标比例）',pos='prep')
+r.word('P4-S5','is','与called构成被动语态',pos='aux')
+r.word('P5-S1','tipped','通常收取小费的',pos='a',occ=1)
+r.word('P5-S1','tipped','适用于收小费员工的',pos='a',occ=2)
+r.word('P5-S1','as','as low as结构的程度比较标记，整体为低至',pos='adv',occ=1)
+r.word('P5-S1','as','引出低至的数值（as low as结构）',pos='prep',occ=2)
+r.word('P5-S1','an','每（每小时）',pos='art')
+r.word('P6-S2','that','引出ensure的内容从句，不单译',pos='conj')
+r.word('P6-S2','paid','被支付工资；获得工资',pos='v')
+r.word('P7-S1','increase','提高',pos='v')
+r.word('P7-S1','more','更多的（修饰雇主）',pos='art')
+r.word('P7-S1','to','向……屈服（succumb to搭配的一部分）',pos='prep',occ=2)
+r.word('P7-S2','are','联系主语与不满状态的系动词',pos='v',occ=1)
+r.word('P7-S2','are','与being asked构成正在发生的被动',pos='aux',occ=2)
+r.word('P7-S3','as','正如（引出研究所强调的内容）',pos='conj')
+r.word('P7-S3','be','联系给小费行为与其特点的系动词',pos='v')
+notes=[
+'核对服务员工资与收入来源，tipped为动词，they assumed插入判断不改变先行词。',
+'核对交易与支付工具关系，with为工具；2010年代初而非具体2010年。',
+'核对提示顾客给小费及服务被给予小费的主动被动区别。',
+'两处tip分别为名词修饰与动词，used to表示过去曾经，that指两类惯例。',
+'核对after及once的服务后时机，三个例子不指提前付小费。',
+'That timing回指服务结束时给小费，it回指优质服务。',
+'核对形式主语it、for的逻辑主语和requested被动，事先索要是实际主语。',
+'核对may even自动加收的可能性，不改成已全部自动加收。',
+'it为形式宾语，实际内容是ask customers for a tip。',
+'That回指索要变容易，creep into指范围逐渐扩展。',
+'核对默认选项与应付账款比例，well表示远远不是好。',
+'核对10到15到20及以上三次比例变化，to都是目标比例介词。',
+'核对tipflation同位解释与期望金额不断提高，called为被动。',
+'核对两处tipped形容词、最低工资低至2.13美元每小时，an表示每。',
+'核对范围扩张与比例上涨并列，supplement为增加收入。',
+'核对服务员受益与厨师洗碗工不受益的对照，不把not遗漏。',
+'核对无小费倡议提高标价且大多失败，paid与fizzle out均正确。',
+'核对雇主为增工资不涨价而扩大收小费，第二个to属于succumb搭配。',
+'核对are状态与被动态、金额太高与频率太高两项不满。',
+'核对as正如、coercive与generous对比、与服务质量脱节。']
+for s,note in zip(r.ss,notes):r.checked(s['id'],note)
+# Restore the adverbial phrase's precise part of speech instead of an old noun label.
+r.word('P4-S3','default','默认的；预设的',pos='a')
+r.word('P5-S1','be','是；可低至某个数值（系动词）',pos='v')
+r.word('P7-S2','of','连接too high与a tip，不单译；整体指小费金额过高',pos='prep')
+r.word('P7-S3','less','不那么；程度较低（修饰generous）',pos='adv')
+print('Missing:',r.missing())
+r.save()

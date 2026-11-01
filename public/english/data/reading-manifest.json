@@ -3,6 +3,9 @@
   "sentences": 1282,
   "reviewedSentences": 1282,
   "verifiedArticles": 68,
+  "fullAuditArticles": 3,
+  "fullAuditSentences": 57,
+  "fullAuditWords": 1158,
   "items": [
     {
       "id": "2010-T1",
@@ -12,7 +15,7 @@
       "source": "verified",
       "sentences": 19,
       "reviewed": 19,
-      "revision": "290772126d07"
+      "revision": "8b20050c2ef6"
     },
     {
       "id": "2010-T2",
@@ -412,7 +415,7 @@
       "source": "verified",
       "sentences": 18,
       "reviewed": 18,
-      "revision": "802aeb1ac120"
+      "revision": "1a53d207e12d"
     },
     {
       "id": "2020-T2",
@@ -612,7 +615,7 @@
       "source": "verified",
       "sentences": 20,
       "reviewed": 20,
-      "revision": "9f247014a827"
+      "revision": "14fb5f553d3a"
     },
     {
       "id": "2025-T2",

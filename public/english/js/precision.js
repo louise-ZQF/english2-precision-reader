@@ -596,7 +596,10 @@
         $$('[data-save-sentence-id]').forEach(button => {
             const collected = ids.has(button.dataset.saveSentenceId);
             button.textContent = collected ? '已收录长难句' : '收藏到长难句';
-            button.disabled = collected;
+            button.disabled = false;
+            button.setAttribute('aria-pressed', String(collected));
+            button.setAttribute('aria-label', collected ? '取消长难句收藏' : '收藏到长难句');
+            button.title = collected ? '再次点击取消收藏' : '收藏到长难句';
             button.classList.toggle('precision-sentence-saved', collected);
         });
     }
@@ -645,7 +648,13 @@
     function saveSentence(payload) {
         const text = payload.text.trim(); if (!text) return;
         const id = sentenceSaveId(payload);
-        if (saved.some(s => s.id === id)) { syncSentenceSaveButtons(); toast('这条长难句已经收录'); return; }
+        if (saved.some(s => s.id === id)) {
+            const next = saved.filter(s => s.id !== id);
+            if (!write(KEYS.sentences, next)) return;
+            saved = next; updateBookCount();
+            if (library && library.classList.contains('is-open')) renderLibrary();
+            toast('已取消长难句收藏'); return;
+        }
         const item = { id, text, context: payload.context, segments: payload.segments, source: payload.source, ranges: payload.ranges, selectionTranslation: payload.selectionTranslation, createdAt: Date.now(), draft: '', reference: '', reviews: 0, nextReviewAt: 0, level: 0 };
         const next = [item, ...saved];
         if (!write(KEYS.sentences, next)) return;

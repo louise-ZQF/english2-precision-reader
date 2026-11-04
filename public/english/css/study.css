@@ -110,3 +110,8 @@
 .study-record-card footer button { font-size:12px!important; }
 .study-empty { text-align:center; color:#718473; font-size:13px; line-height:1.8; padding:32px 16px; }
 .study-overlay button:focus-visible,.study-overlay input:focus-visible,.study-overlay select:focus-visible,.study-overlay textarea:focus-visible,.study-article button:focus-visible,.study-article input:focus-visible { outline:2px solid #28855e; outline-offset:3px; }
+
+.reading-jumps a.is-complete { color:#a32323; background:#fff0ef; border-color:#e4aaaa; }
+.reading-jumps a.is-complete:hover { color:#fff; background:#a32323; border-color:#a32323; }
+.study-complete[data-reading-article] .text-title, .reading-remaining { color:#a32323; }
+.reading-remaining { font-weight:600; white-space:nowrap; }

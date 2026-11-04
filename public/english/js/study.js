@@ -66,7 +66,25 @@
         if (!updateArticle(id, { completedAt: checked ? previous.completedAt || Date.now() : 0 })) return false;
         return true;
     }
+    function refreshProgress() {
+        const remaining = new Map();
+        for (const article of articleList()) {
+            if (!/^text[1-4]$/.test(article.kind)) continue;
+            const completed = !!articleRecord(article.id).completedAt;
+            remaining.set(article.examId, (remaining.get(article.examId) || 0) + Number(!completed));
+        }
+        for (const badge of $$('[data-reading-remaining]')) {
+            const count = remaining.get(badge.dataset.readingRemaining);
+            badge.textContent = count === undefined ? '' : '未翻译 ' + count + ' 篇';
+        }
+        for (const link of $$('#readingJumps [data-reading-jump]')) {
+            const completed = !!articleRecord(link.dataset.readingJump).completedAt;
+            link.classList.toggle('is-complete', completed);
+            link.setAttribute('aria-label', link.textContent + (completed ? '，已翻译' : '，未翻译'));
+        }
+    }
     function refreshControls() {
+        refreshProgress();
         const root = $('#examContent'); if (!root || !currentExam) return;
         for (const block of $$('[data-study-article]', root)) {
             const id = currentExam.exam_id + '|' + block.dataset.studyArticle;
@@ -96,9 +114,10 @@
         }
     }
     function onRendered(exam) {
-        currentExam = exam; refreshControls();
+        currentExam = exam;
         const nav = $('#readingJumps');
-        if (nav) nav.innerHTML = articleList().filter(article => article.examId === exam.exam_id && /^text[1-4]$/.test(article.kind)).map(article => '<a href="#study-article-' + article.key + '" title="跳转到本卷 ' + esc(article.label) + '">' + esc(article.label) + '</a>').join('');
+        if (nav) nav.innerHTML = articleList().filter(article => article.examId === exam.exam_id && /^text[1-4]$/.test(article.kind)).map(article => '<a data-reading-jump="' + esc(article.id) + '" href="#study-article-' + article.key + '" title="跳转到本卷 ' + esc(article.label) + '">' + esc(article.label) + '</a>').join('');
+        refreshControls();
     }
 
     function ensureOverlay() {
@@ -298,6 +317,6 @@
             if (overlay && overlay.classList.contains('is-open') && !editorArticle) renderDashboard();
         });
     }
-    window.EnglishStudy = { onRendered, exportData, importData, openDashboard, openGuide };
+    window.EnglishStudy = { onRendered, refreshProgress, exportData, importData, openDashboard, openGuide };
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();

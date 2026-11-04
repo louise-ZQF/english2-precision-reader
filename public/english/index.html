@@ -60,7 +60,7 @@
         }
     </style>
     <link rel="stylesheet" href="css/precision.css?v=27b43c6f26">
-    <link rel="stylesheet" href="css/study.css?v=10927fbfb8">
+    <link rel="stylesheet" href="css/study.css?v=3aa4ae5e30">
     <link rel="stylesheet" href="css/reading.css?v=e5ab11081c">
 </head>
 <body>
@@ -349,13 +349,20 @@
                     <span id="drawerWordCount">0 个单词</span>
                     <span id="drawerFreqTotal" class="drawer-freq-total"></span>
                 </div>
+                <label class="word-export-scope" for="wordExportScope">导出范围
+                    <select id="wordExportScope">
+                        <option value="all">全部单词</option>
+                        <option value="today">今天新加入</option>
+                        <option value="other">其他单词</option>
+                    </select>
+                </label>
                 <div class="drawer-actions">
                     <button id="copyBtn2" class="btn btn-ghost" title="复制为文本（一行一个）">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
                             <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
                         </svg>
-                        <span>复制为文本（一行一个）</span>
+                        <span>复制全部</span>
                     </button>
                     <button id="exportBtn2" class="btn btn-primary">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -363,7 +370,7 @@
                             <polyline points="7 10 12 15 17 10"></polyline>
                             <line x1="12" y1="15" x2="12" y2="3"></line>
                         </svg>
-                        <span>导出为文本（一行一个）</span>
+                        <span>导出 TXT</span>
                     </button>
                 </div>
             </div>
@@ -503,7 +510,7 @@
     <script src="js/reviewed-translations.js?v=5df646146d"></script>
     <script src="js/precision.js?v=7e4aad8a28"></script>
     <script src="js/study.js?v=4723a15d96"></script>
-    <script src="js/app.js?v=b4e24c604e"></script>
+    <script src="js/app.js?v=21be215b03"></script>
     <!-- Local snapshot: upstream telemetry / search-engine submission removed. -->
 </body>
 </html>

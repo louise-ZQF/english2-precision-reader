@@ -1016,6 +1016,19 @@
         el.wordListDrawer.classList.remove('open');
     }
 
+    function groupWordsByDay(words) {
+        const start = new Date();
+        start.setHours(0, 0, 0, 0);
+        const end = new Date(start);
+        end.setDate(end.getDate() + 1);
+        const today = [], other = [];
+        for (const word of words) {
+            const group = word.addedAt >= start.getTime() && word.addedAt < end.getTime() ? today : other;
+            group.push(word);
+        }
+        return { today, other };
+    }
+
     function renderWordList() {
         const keyword = (el.wordSearch.value || '').trim().toLowerCase();
         let words = Object.values(state.words);
@@ -1041,7 +1054,7 @@
             return;
         }
 
-        const html = words.map(w => {
+        const renderWord = w => {
             const exam = state.exams.find(e => e.exam_id === w.examId);
             const examLabel = exam ? (exam.year + ' ' + exam.subject) : '';
             const key = normalizeWord(w.word);
@@ -1069,8 +1082,13 @@
                     '</button>' +
                 '</div>' +
                 '</div>';
-        }).join('');
-        el.wordListContainer.innerHTML = html;
+        };
+        const { today, other } = groupWordsByDay(words);
+        const renderGroup = (label, entries, empty) => '<section class="word-day-group">' +
+            '<h3>' + label + ' <span>' + entries.length + ' 个</span></h3>' +
+            (entries.length ? entries.map(renderWord).join('') : '<p>' + empty + '</p>') + '</section>';
+        el.wordListContainer.innerHTML = renderGroup('今天新加入', today, keyword ? '今天没有匹配的单词' : '今天还没有加入新词') +
+            renderGroup('其他单词', other, keyword ? '没有匹配的其他单词' : '暂无其他单词');
     }
 
     // ==================== 一键复制 ====================
@@ -1089,6 +1107,21 @@
         } else {
             fallbackCopyText(content, done);
         }
+    }
+
+    function exportWords() {
+        const scope = $('#wordExportScope');
+        const option = scope.options[scope.selectedIndex];
+        const words = Object.values(state.words).sort((a, b) => (b.addedAt || 0) - (a.addedAt || 0));
+        const groups = groupWordsByDay(words);
+        const selected = groups[scope.value] || words;
+        if (!selected.length) {
+            showToast(option.text + '没有可导出的单词', 'warn');
+            return;
+        }
+        const content = selected.map(word => word.word).join('\n') + '\n';
+        downloadFile(content, 'text/plain;charset=utf-8', '生词本-' + option.text + '.txt');
+        showToast('已导出 ' + selected.length + ' 个单词', 'success');
     }
 
     function fallbackCopyText(text, onDone) {
@@ -1156,18 +1189,23 @@
         };
     }
 
+    function downloadFile(content, type, filename) {
+        const url = URL.createObjectURL(new Blob([content], { type }));
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = filename;
+        document.body.appendChild(link);
+        link.click();
+        setTimeout(() => { URL.revokeObjectURL(url); link.remove(); }, 800);
+    }
+
     function exportBackup() {
         try {
             const payload = JSON.stringify(gatherBackup(), null, 2);
-            const url = URL.createObjectURL(new Blob([payload], { type: 'application/json' }));
-            const a = document.createElement('a');
             const d = new Date();
             const pad = (n) => String(n).padStart(2, '0');
-            a.href = url;
-            a.download = 'aseeker-english-backup-' + d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate()) + '.json';
-            document.body.appendChild(a);
-            a.click();
-            setTimeout(() => { URL.revokeObjectURL(url); a.remove(); }, 800);
+            const date = d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate());
+            downloadFile(payload, 'application/json', 'aseeker-english-backup-' + date + '.json');
             showToast('已导出数据文件，发到新设备后导入即可', 'success');
         } catch (err) {
             showToast('导出失败：' + (err && err.message ? err.message : err), 'error');
@@ -2286,6 +2324,7 @@
 
         el.copyBtn.addEventListener('click', copyWords);
         if (el.copyBtn2) el.copyBtn2.addEventListener('click', copyWords);
+        $('#exportBtn2').addEventListener('click', exportWords);
 
         // 数据管理弹窗（顶部按钮）：导出 / 导入
         const backupModal = document.getElementById('backupModal');
@@ -2448,11 +2487,6 @@
                 showToast('✓ 已导入备份：' + wc + ' 个收藏单词', 'success');
             }
         } catch (e) { /* ignore */ }
-
-        // ---- 产品调整：导出/复制合并为"复制单词"（移除"导出"txt 下载入口，保留复制）----
-        document.querySelectorAll('#exportBtn2').forEach(function (b) {
-            if (b) b.style.display = 'none';
-        });
 
         // 并行加载所有内置真题（串行会放大 34 个请求的总耗时）
         await loadDataVersions();   // 真题 URL 也要带内容戳（改过文本立刻生效）

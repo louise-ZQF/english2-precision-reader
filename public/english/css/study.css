@@ -115,3 +115,11 @@
 .reading-jumps a.is-complete:hover { color:#fff; background:#a32323; border-color:#a32323; }
 .study-complete[data-reading-article] .text-title, .reading-remaining { color:#a32323; }
 .reading-remaining { font-weight:600; white-space:nowrap; }
+
+
+.word-day-group + .word-day-group { margin-top:18px; }
+.word-day-group h3 { margin:0; padding:8px 12px; background:var(--bg-soft); border-radius:var(--radius-sm); font-size:14px; }
+.word-day-group h3 span, .word-day-group > p { color:var(--text-muted); font-size:13px; font-weight:normal; }
+.word-day-group > p { margin:8px 12px; }
+.word-export-scope { display:flex; align-items:center; gap:10px; margin-bottom:10px; font-size:14px; }
+.word-export-scope select { flex:1; min-width:0; padding:8px 10px; font:inherit; color:inherit; background:var(--bg-elevated); border:1px solid var(--border); border-radius:var(--radius-sm); }

@@ -1092,10 +1092,12 @@
     }
 
     // ==================== 一键复制 ====================
-    function copyWords() {
-        const words = Object.values(state.words).map(w => w.word);
+    function copyWords(scope = 'all') {
+        const savedWords = Object.values(state.words);
+        const todayOnly = scope === 'today';
+        const words = (todayOnly ? groupWordsByDay(savedWords).today : savedWords).map(w => w.word);
         if (words.length === 0) {
-            showToast('还没有收藏任何单词，无法复制', 'warn');
+            showToast(todayOnly ? '今天还没有加入新词' : '还没有收藏任何单词，无法复制', 'warn');
             return;
         }
         const content = words.join('\n') + '\n';
@@ -1107,21 +1109,6 @@
         } else {
             fallbackCopyText(content, done);
         }
-    }
-
-    function exportWords() {
-        const scope = $('#wordExportScope');
-        const option = scope.options[scope.selectedIndex];
-        const words = Object.values(state.words).sort((a, b) => (b.addedAt || 0) - (a.addedAt || 0));
-        const groups = groupWordsByDay(words);
-        const selected = groups[scope.value] || words;
-        if (!selected.length) {
-            showToast(option.text + '没有可导出的单词', 'warn');
-            return;
-        }
-        const content = selected.map(word => word.word).join('\n') + '\n';
-        downloadFile(content, 'text/plain;charset=utf-8', '生词本-' + option.text + '.txt');
-        showToast('已导出 ' + selected.length + ' 个单词', 'success');
     }
 
     function fallbackCopyText(text, onDone) {
@@ -2322,9 +2309,9 @@
         el.drawerClose.addEventListener('click', closeDrawer);
         el.wordListDrawer.querySelector('.drawer-mask').addEventListener('click', closeDrawer);
 
-        el.copyBtn.addEventListener('click', copyWords);
-        if (el.copyBtn2) el.copyBtn2.addEventListener('click', copyWords);
-        $('#exportBtn2').addEventListener('click', exportWords);
+        el.copyBtn.addEventListener('click', () => copyWords());
+        if (el.copyBtn2) el.copyBtn2.addEventListener('click', () => copyWords());
+        $('#copyTodayBtn').addEventListener('click', () => copyWords('today'));
 
         // 数据管理弹窗（顶部按钮）：导出 / 导入
         const backupModal = document.getElementById('backupModal');

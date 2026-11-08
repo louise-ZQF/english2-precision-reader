@@ -623,7 +623,8 @@
         body.innerHTML = '<p class="precision-source">' + esc(item ? item.id + ' · ' + (item.article.source.status === 'verified' ? '原文已核对' : '原文待核对') : sourceLabel(payload.source)) + '</p>' +
             '<div class="precision-selected"><label>你选中的内容</label><p>' + esc(payload.text) + '</p></div>' +
             (item && item.sourceNote ? '<p class="reading-source-note">' + esc(item.sourceNote) + '</p>' : '') +
-            '<div class="precision-analysis-actions"><button id="saveAnalyzedSentence" class="precision-primary">收藏到长难句</button><button type="button" id="exportReadingCorrections">导出纠错记录</button></div>' +
+            '<div class="precision-analysis-actions"><button id="saveAnalyzedSentence" class="precision-primary">收藏到长难句</button><button type="button" id="copyAnalyzedSentence">复制句子</button><button type="button" id="exportReadingCorrections">导出纠错记录</button></div>' +
+            '<span id="copyAnalyzedSentenceStatus" class="precision-copy-status" role="status"></span>' +
             '<section class="reading-translation-section"><h3>分块对照</h3>' + (complete ? '<table class="reading-chunks"><thead><tr><th>英文</th><th>中文</th></tr></thead><tbody>' + item.chunks.map(chunk => '<tr><td lang="en">' + esc(chunk.en) + '</td><td>' + esc(chunk.zh) + '</td></tr>').join('') + '</tbody></table>' : '<p class="reading-pending">尚未整理</p>') + '</section>' +
             '<section class="reading-translation-section"><h3>语序调整</h3><p>' + esc(item && (complete || item.custom) && item.reorder || '尚未整理') + '</p></section>' +
             '<section class="reading-translation-section"><h3>完整翻译</h3><p class="precision-translation">' + esc(translation || '尚未整理') + '</p></section>' + editor +
@@ -631,6 +632,12 @@
         if (translation) payload.selectionTranslation = { en: norm(payload.text), zh: translation, kind: item.manualTranslation ? 'manual' : 'reviewed', readingId: item.id };
         $('#saveAnalyzedSentence', body).onclick = () => saveSentence(payload);
         bindSentenceSaveButton($('#saveAnalyzedSentence', body), payload);
+        const copyStatus = $('#copyAnalyzedSentenceStatus', body);
+        $('#copyAnalyzedSentence', body).onclick = async () => {
+            copyStatus.textContent = '';
+            const copied = await window.EnglishApp.copyText(payload.text);
+            copyStatus.textContent = copied ? '已复制' : '复制失败，请手动选中句子复制';
+        };
         $('#exportReadingCorrections', body).onclick = () => reading && reading.downloadCorrections();
         const form = $('#readingCorrectionForm', body);
         if (form) form.onsubmit = event => {

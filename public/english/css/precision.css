@@ -74,8 +74,9 @@ body:not(.precision-enabled) #examContent .word:hover { background:transparent; 
 .precision-source { color:#7b897d; font-size:11px; margin:0 0 13px; }
 .precision-selected { padding:13px 16px; border-left:3px solid #b6cfb9; background:#f5f8f3; border-radius:0 7px 7px 0; }
 .precision-selected p { margin:4px 0; font:17px/1.8 Georgia,'Times New Roman',serif; color:#2b4232; }
-.precision-analysis-actions { display:flex; gap:15px; align-items:center; margin-top:15px; }
-.precision-analysis-actions span { color:#849084; font-size:11px; }
+.precision-analysis-actions { display:flex; flex-wrap:wrap; gap:15px; align-items:center; margin-top:15px; }
+.precision-copy-status { color:var(--pr-ink); font-size:12px; }
+.precision-copy-status:not(:empty) { display:block; margin-top:6px; }
 .precision-primary { border:1px solid var(--pr-green)!important; background:var(--pr-green)!important; color:#fff!important; border-radius:8px; padding:10px 16px; font:600 13px/1.4 inherit; font-family:inherit; cursor:pointer; }
 .precision-primary:hover { filter:brightness(1.08); }
 .precision-primary:disabled { opacity:.45; cursor:default; }

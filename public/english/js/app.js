@@ -1092,7 +1092,7 @@
     }
 
     // ==================== 一键复制 ====================
-    function copyWords(scope = 'all') {
+    async function copyWords(scope = 'all') {
         const savedWords = Object.values(state.words);
         const todayOnly = scope === 'today';
         const words = (todayOnly ? groupWordsByDay(savedWords).today : savedWords).map(w => w.word);
@@ -1101,33 +1101,35 @@
             return;
         }
         const content = words.join('\n') + '\n';
-        const done = () => showToast('已复制 ' + words.length + ' 个单词', 'success');
-        if (navigator.clipboard && window.isSecureContext) {
-            navigator.clipboard.writeText(content).then(done).catch(() => {
-                fallbackCopyText(content, done);
-            });
+        if (await copyText(content)) {
+            showToast('已复制 ' + words.length + ' 个单词', 'success');
         } else {
-            fallbackCopyText(content, done);
+            showToast('复制失败，请手动选择文本', 'error');
         }
     }
 
-    function fallbackCopyText(text, onDone) {
+    async function copyText(text) {
+        if (navigator.clipboard && window.isSecureContext) {
+            try {
+                await navigator.clipboard.writeText(text);
+                return true;
+            } catch (_) { /* Try the local-file fallback. */ }
+        }
+        const previousFocus = document.activeElement;
         const ta = document.createElement('textarea');
         ta.value = text;
         ta.style.position = 'fixed';
         ta.style.opacity = '0';
         document.body.appendChild(ta);
         ta.select();
-        let ok = false;
         try {
-            ok = document.execCommand('copy');
+            return document.execCommand('copy');
         } catch (e) {
-            ok = false;
+            return false;
         } finally {
-            document.body.removeChild(ta);
+            ta.remove();
+            if (previousFocus && previousFocus.isConnected) previousFocus.focus({ preventScroll: true });
         }
-        if (ok) onDone();
-        else showToast('复制失败，请手动选择文本', 'error');
     }
 
     // ==================== 数据管理（导出 / 导入 / 扫码传递） ====================
@@ -2606,6 +2608,7 @@
         state: () => state,
         normalizeWord,
         toast: showToast,
+        copyText,
         lookup: async (word) => { await loadDict(); return lookupWord(word); },
         translate: (text) => lookupSentence(text, true),
         selectExam: (id) => { selectExam(id); return window.EnglishPrecision ? window.EnglishPrecision.whenRendered() : Promise.resolve(); },

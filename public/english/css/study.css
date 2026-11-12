@@ -113,8 +113,10 @@
 
 .reading-jumps a.is-complete { color:#a32323; background:#fff0ef; border-color:#e4aaaa; }
 .reading-jumps a.is-complete:hover { color:#fff; background:#a32323; border-color:#a32323; }
-.study-complete[data-reading-article] .text-title, .reading-remaining { color:#a32323; }
-.reading-remaining { font-weight:600; white-space:nowrap; }
+.study-complete[data-reading-article] .text-title { color:#a32323; }
+.reading-progress { display:inline-flex; gap:4px; vertical-align:middle; }
+.reading-progress-letter { display:inline-grid; place-items:center; width:20px; height:20px; border:1px solid #d9ddd7; border-radius:4px; background:#f4f5f2; color:#606a62; font-size:11px; font-weight:600; }
+.reading-progress-letter.is-complete { border-color:#a32323; background:#a32323; color:#fff; }
 
 
 .word-day-group + .word-day-group { margin-top:18px; }

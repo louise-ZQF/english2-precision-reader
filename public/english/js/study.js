@@ -67,15 +67,22 @@
         return true;
     }
     function refreshProgress() {
-        const remaining = new Map();
+        const readingByExam = new Map();
         for (const article of articleList()) {
             if (!/^text[1-4]$/.test(article.kind)) continue;
-            const completed = !!articleRecord(article.id).completedAt;
-            remaining.set(article.examId, (remaining.get(article.examId) || 0) + Number(!completed));
+            if (!readingByExam.has(article.examId)) readingByExam.set(article.examId, new Map());
+            readingByExam.get(article.examId).set(article.kind, article);
         }
-        for (const badge of $$('[data-reading-remaining]')) {
-            const count = remaining.get(badge.dataset.readingRemaining);
-            badge.textContent = count === undefined ? '' : '未翻译 ' + count + ' 篇';
+        for (const badge of $$('[data-reading-progress]')) {
+            const articles = readingByExam.get(badge.dataset.readingProgress);
+            badge.innerHTML = articles ? ['A', 'B', 'C', 'D'].map((letter, index) => {
+                const article = articles.get('text' + (index + 1));
+                const completed = !!(article && articleRecord(article.id).completedAt);
+                const status = completed ? '已翻译' : article ? '未翻译' : '未收录';
+                const label = 'Text ' + (index + 1) + ' · ' + status;
+                return '<span class="reading-progress-letter' + (completed ? ' is-complete' : '') +
+                    '" role="img" title="' + label + '" aria-label="' + letter + ' · ' + label + '">' + letter + '</span>';
+            }).join('') : '';
         }
         for (const link of $$('#readingJumps [data-reading-jump]')) {
             const completed = !!articleRecord(link.dataset.readingJump).completedAt;

@@ -3193,17 +3193,17 @@
               "a": 51,
               "b": 85,
               "en": "we also need to embrace downtime, ",
-              "zh": "我们也需要接受休息时段，"
+              "zh": "我们也要给自己留出休息时间，"
             },
             {
               "a": 85,
               "b": 119,
               "en": "or as Newport suggests, “be lazy”.",
-              "zh": "或者如纽波特建议的那样，“懒一点”。"
+              "zh": "用纽波特的话说，就是“懒一点”。"
             }
           ],
           "reorder": "in order to 目的先译；downtime 不是设备故障停机而是休息。",
-          "translation": "为充分利用注意力和精力，我们也需要接受休息时段，或者如纽波特建议的那样，“懒一点”。",
+          "translation": "要充分利用注意力和精力，我们也要给自己留出休息时间，用纽波特的话说，就是“懒一点”。",
           "words": [
             {
               "a": 0,
@@ -3355,7 +3355,7 @@
               "word": "downtime",
               "lemma": "downtime",
               "pos": "n",
-              "meaning": "休息时段；放松时间",
+              "meaning": "放松和休息的时间",
               "reviewVersion": 2
             },
             {
@@ -3427,7 +3427,7 @@
               "b": 28,
               "word": "make the most of",
               "lemma": "make the most of",
-              "meaning": "充分利用",
+              "meaning": "充分利用；让注意力和精力发挥最大作用",
               "kind": "phrase"
             }
           ],

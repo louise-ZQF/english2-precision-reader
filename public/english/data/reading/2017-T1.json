@@ -1155,17 +1155,17 @@
               "a": 32,
               "b": 62,
               "en": "the great legacy of the Games ",
-              "zh": "奥运会留下的重大长期效益"
+              "zh": "这届奥运会留下的重要成果"
             },
             {
               "a": 62,
               "b": 129,
               "en": "would be to lever a nation of sport lovers away from their couches.",
-              "zh": "将是带动这个热爱体育的国家的民众离开沙发、参与运动"
+              "zh": "将是带动这个热爱体育的国家的民众走下沙发，亲自参与运动"
             }
           ],
           "reorder": "先译承诺再译具体效益；lever...away 不是从沙发物理撬起，而是带动民众告别久坐。",
-          "translation": "规划文件曾承诺，奥运会留下的重大长期效益，将是带动这个热爱体育的国家的民众离开沙发、参与运动。",
+          "translation": "规划文件曾承诺，这届奥运会将留下一项重要成果：让这个热爱体育的国家里更多人走下沙发，亲自参与运动。",
           "words": [
             {
               "a": 0,
@@ -1227,7 +1227,7 @@
               "word": "legacy",
               "lemma": "legacy",
               "pos": "n",
-              "meaning": "遗产；长期影响",
+              "meaning": "长期留下的影响；这里指奥运会结束后带来的全民体育效益",
               "reviewVersion": 2
             },
             {

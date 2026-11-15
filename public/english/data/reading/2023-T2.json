@@ -1581,17 +1581,17 @@
               "a": 138,
               "b": 199,
               "en": "to enjoy nature and get a break from the commercial drumbeat ",
-              "zh": "享受大自然，暂时摆脱商业喧嚣，"
+              "zh": "欣赏自然，暂时远离连绵不断的商业宣传"
             },
             {
               "a": 199,
               "b": 226,
               "en": "that overwhelms daily life.",
-              "zh": "那种充斥日常生活的商业喧嚣。"
+              "zh": "这些宣传已充斥日常生活。"
             }
           ],
           "reorder": "把 why 从句整合为“每年……的主要原因”；冒号后说明原因，that 的修饰放到商业喧嚣前。",
-          "translation": "此外，更大程度的私有化，肯定会削弱每年吸引3亿游客来到公园的一个主要理由：享受大自然，暂时摆脱充斥日常生活的商业喧嚣。",
+          "translation": "此外，扩大私有化肯定会削弱每年吸引3亿人到公园游览的一大理由：亲近自然，暂时躲开日常生活中无处不在的商业宣传。",
           "words": [
             {
               "a": 0,
@@ -1869,7 +1869,7 @@
               "word": "drumbeat",
               "lemma": "drumbeat",
               "pos": "n",
-              "meaning": "连绵不断的宣传喧嚣",
+              "meaning": "持续不断的鼓点；此处比喻接连不断的商业宣传和招徕",
               "reviewVersion": 2
             },
             {

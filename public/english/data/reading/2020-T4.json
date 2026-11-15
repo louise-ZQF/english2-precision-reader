@@ -671,13 +671,13 @@
               "a": 0,
               "b": 37,
               "en": "And employers are planning on hiring ",
-              "zh": "而雇主正计划招聘，"
+              "zh": "雇主正计划招聘"
             },
             {
               "a": 37,
               "b": 115,
               "en": "about 17 percent more new graduates for jobs in the U.S. this year than last, ",
-              "zh": "今年为美国岗位招聘的新毕业生比去年多约17%，"
+              "zh": "为美国岗位招聘应届毕业生，今年的人数比去年多约17%，"
             },
             {
               "a": 115,
@@ -687,7 +687,7 @@
             }
           ],
           "reorder": "将 according to 所引调查来源提到句首。",
-          "translation": "全国大学与雇主协会的一项调查显示，今年雇主计划在美国招收的新毕业生比去年多约17%。",
+          "translation": "全国大学与雇主协会的一项调查显示，今年雇主计划为美国的岗位招聘应届毕业生，人数比去年多约17%。",
           "words": [
             {
               "a": 0,
@@ -776,7 +776,7 @@
               "word": "new",
               "lemma": "new",
               "pos": "a",
-              "meaning": "新毕业的",
+              "meaning": "刚毕业的（与 graduates 连用）",
               "reviewVersion": 2
             },
             {

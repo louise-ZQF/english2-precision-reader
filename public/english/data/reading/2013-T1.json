@@ -1714,11 +1714,11 @@
               "a": 0,
               "b": 39,
               "en": "But, today, average is officially over.",
-              "zh": "但如今，“普通”的时代可以宣告结束了"
+              "zh": "但如今，仅仅达到一般水平就够了的时代已经结束。"
             }
           ],
           "reorder": "无需调整语序，over 指时代结束。",
-          "translation": "但如今，“普通”的时代可以宣告结束了。",
+          "translation": "但如今，仅仅达到一般水平就够了的时代已经结束。",
           "words": [
             {
               "a": 0,
@@ -1744,7 +1744,7 @@
               "word": "average",
               "lemma": "average",
               "pos": "n",
-              "meaning": "普通水平；普通的时代（名词化）",
+              "meaning": "普通水平；这里指达到一般水平就足以找到好工作的情形",
               "reviewVersion": 2
             },
             {

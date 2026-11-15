@@ -2960,7 +2960,7 @@
               "word": "availability",
               "lemma": "availability",
               "pos": "n",
-              "meaning": "可获取性；供应条件",
+              "meaning": "可获得、可利用的程度；此处指当地能提供清洁电力",
               "reviewVersion": 2
             },
             {
@@ -3041,7 +3041,7 @@
               "a": 25,
               "b": 39,
               "lemma": "play well with",
-              "meaning": "受到……欢迎；被……接受",
+              "meaning": "得到……的好评或认同；此处有否定，表示很多人并不买账",
               "word": "play well with",
               "kind": "phrase"
             }

@@ -2223,25 +2223,25 @@
               "a": 0,
               "b": 41,
               "en": "“You have the importation of terminology ",
-              "zh": "“现在引入了一批术语，"
+              "zh": "“如今也引入了一些用语"
             },
             {
               "a": 41,
               "b": 81,
               "en": "that historically used to be associated ",
-              "zh": "这些术语过去通常，"
+              "zh": "过去通常与……联系在一起"
             },
             {
               "a": 81,
               "b": 140,
               "en": "with non-profit organizations and religious organizations: ",
-              "zh": "与非营利组织及宗教组织联系在一起："
+              "zh": "非营利组织和宗教团体："
             },
             {
               "a": 140,
               "b": 190,
               "en": "terms like vision, values, passion, and purpose,” ",
-              "zh": "例如愿景、价值观、热情和宗旨，”"
+              "zh": "比如愿景、价值观、热情和使命，”"
             },
             {
               "a": 190,
@@ -2251,7 +2251,7 @@
             }
           ],
           "reorder": "说话人提前；that 修饰术语，冒号后具体举例；purpose 在组织语言中是宗旨。",
-          "translation": "库拉纳说：“现在引入了一批过去通常与非营利组织和宗教组织联系在一起的术语，例如愿景、价值观、热情和宗旨。”",
+          "translation": "库拉纳说：“如今企业也开始使用一些过去多见于非营利组织和宗教团体的用语，比如愿景、价值观、热情和使命。”",
           "words": [
             {
               "a": 1,
@@ -2475,7 +2475,7 @@
               "word": "purpose",
               "lemma": "purpose",
               "pos": "n",
-              "meaning": "宗旨；使命感",
+              "meaning": "使命；工作所追求的目标",
               "reviewVersion": 2
             },
             {

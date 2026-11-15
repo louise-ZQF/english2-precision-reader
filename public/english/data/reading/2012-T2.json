@@ -1972,29 +1972,29 @@
               "a": 0,
               "b": 38,
               "en": "When nursery colours were introduced, ",
-              "zh": "当婴幼儿用品开始采用区分性别的颜色时"
+              "zh": "婴儿房开始使用这些配色时"
             },
             {
               "a": 38,
               "b": 94,
               "en": "pink was actually considered the more masculine colour, ",
-              "zh": "粉色实际上被视为更男性化的颜色"
+              "zh": "粉色其实被认为更阳刚"
             },
             {
               "a": 94,
               "b": 119,
               "en": "a pastel version of red, ",
-              "zh": "它是红色的柔和浅色版本"
+              "zh": "它是淡一些的红色"
             },
             {
               "a": 119,
               "b": 154,
               "en": "which was associated with strength.",
-              "zh": "而红色与力量联系在一起"
+              "zh": "而红色让人联想到力量"
             }
           ],
           "reorder": "按时间、结论、解释顺译；which 指红色，不是粉色或用品。",
-          "translation": "当婴幼儿用品开始采用区分性别的颜色时，粉色实际上被视为更男性化的颜色，因为它是与力量相联系的红色的柔和浅色版本。",
+          "translation": "婴儿房开始使用这些配色时，粉色其实被认为更阳刚。它是淡一些的红色，而红色让人联想到力量。",
           "words": [
             {
               "a": 0,
@@ -2011,7 +2011,7 @@
               "word": "nursery",
               "lemma": "nursery",
               "pos": "n",
-              "meaning": "婴幼儿用品；育婴室（此处作配色的定语）",
+              "meaning": "婴儿房；这里修饰配色，指婴儿房和婴幼儿用品常用的颜色",
               "reviewVersion": 2
             },
             {

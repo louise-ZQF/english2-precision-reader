@@ -4041,17 +4041,17 @@
               "a": 57,
               "b": 83,
               "en": "which remove some workers ",
-              "zh": "这些行动遣走了一些劳工"
+              "zh": "突击执法带走了部分劳工"
             },
             {
               "a": 83,
               "b": 112,
               "en": "and drive others underground.",
-              "zh": "又迫使其他劳工转入隐蔽状态"
+              "zh": "又迫使另一些劳工转入地下"
             }
           ],
           "reorder": "把被动的加剧改成主动因果，which 分句解释两种影响；underground 不直译为地下场所。",
-          "translation": "联邦移民突袭执法行动加剧了劳动力短缺：这些行动遣走了一些劳工，又迫使其他劳工转入隐蔽状态。",
+          "translation": "联邦移民部门的突击执法加剧了用工短缺。部分劳工被带走，另一些被迫转入地下。",
           "words": [
             {
               "a": 0,
@@ -4140,7 +4140,7 @@
               "word": "remove",
               "lemma": "remove",
               "pos": "v",
-              "meaning": "遣走；移走",
+              "meaning": "带走；指移民突击执法时移走部分劳工",
               "reviewVersion": 2
             },
             {

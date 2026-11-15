@@ -3215,7 +3215,7 @@
               "a": 73,
               "b": 121,
               "en": "because they wanted to work less than full time ",
-              "zh": "是因为他们想少于全职时长工作，"
+              "zh": "是因为他们自愿少做一些（低于全职时长），"
             },
             {
               "a": 121,
@@ -3225,7 +3225,7 @@
             }
           ],
           "reorder": "whether...or 为两种原因的选择，前者自愿后者被迫；不把35小时重复理解成两个标准。",
-          "translation": "调查接着询问，他们那周工作不足35小时，是自己想少于全职时长工作，还是别无选择。",
+          "translation": "调查接着追问，他们那周工作不到35小时，是自愿少做一些，还是没有别的选择。",
           "words": [
             {
               "a": 0,
@@ -3480,7 +3480,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 111,
+              "b": 120,
+              "word": "full time",
+              "lemma": "full time",
+              "meaning": "全职；达到全职的工作时长",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
@@ -3493,7 +3502,7 @@
             "note": "再问少于35小时的原因：主动选择或别无选择，had实义有。",
             "sentenceSHA256": "275c93b236fd84f24e78a1fcb551b44c103542fef4c93922223de2e1ce06de64",
             "words": 28,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },

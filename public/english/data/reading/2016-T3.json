@@ -4578,6 +4578,14 @@
               "meaning": "默认的常态",
               "word": "default state",
               "kind": "phrase"
+            },
+            {
+              "a": 177,
+              "b": 189,
+              "word": "take care of",
+              "lemma": "take care of",
+              "meaning": "处理；料理（这里指暂时放下书去处理日常事务）",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -4592,7 +4600,7 @@
             "note": "providing为只要，too为也，state为状态，take care of business为处理事务。",
             "sentenceSHA256": "6f185a9710bc8a27c6c2d07fe8ab57915aac0b220b58d723d0b5fc99ce543abd",
             "words": 39,
-            "phrases": 3,
+            "phrases": 4,
             "names": 0
           }
         },

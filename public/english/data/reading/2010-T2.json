@@ -2508,11 +2508,11 @@
               "a": 119,
               "b": 163,
               "en": "– a virtual epidemic of failed conversation.",
-              "zh": "简直是一场交谈失败的流行病"
+              "zh": "沟通不畅简直像流行病一样普遍"
             }
           ],
           "reorder": "按原顺序译，that 指因缺乏沟通而离婚的情况。",
-          "translation": "考虑到当前接近50%的离婚率，美国每年就有数百万起这样的个案，交谈失败简直成了一场流行病。",
+          "translation": "按目前接近50%的离婚率算，美国每年有数百万起这样的个案。夫妻沟通不畅简直成了普遍的社会问题。",
           "words": [
             {
               "a": 0,
@@ -2736,7 +2736,7 @@
               "word": "failed",
               "lemma": "fail",
               "pos": "a",
-              "meaning": "失败的",
+              "meaning": "未能达到沟通目的的",
               "reviewVersion": 2
             },
             {

@@ -3615,7 +3615,7 @@
               "word": "sequestration",
               "lemma": "sequestration",
               "pos": "n",
-              "meaning": "封存；固定（碳）",
+              "meaning": "封存；固存（这里指生态系统吸收并储存碳）",
               "reviewVersion": 2
             },
             {
@@ -3751,7 +3751,7 @@
               "b": 143,
               "word": "carbon sequestration",
               "lemma": "carbon sequestration",
-              "meaning": "碳封存；固碳",
+              "meaning": "固碳；这里指森林等生态系统吸收并储存碳",
               "kind": "phrase"
             },
             {

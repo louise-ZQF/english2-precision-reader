@@ -3268,7 +3268,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 70,
+              "b": 80,
+              "word": "on average",
+              "lemma": "on average",
+              "meaning": "平均而言",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
@@ -3281,7 +3290,7 @@
             "note": "40%为较峰值的平均降幅；some指部分作品价格，比较基准并非时间。",
             "sentenceSHA256": "fd9386a4b4779f15cee47a075f908454440ddf053b70f7d4ab9793da46c59272",
             "words": 21,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },

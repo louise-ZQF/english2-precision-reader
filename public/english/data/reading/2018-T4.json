@@ -884,7 +884,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 10,
+              "b": 21,
+              "word": "a number of",
+              "lemma": "a number of",
+              "meaning": "若干；许多",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
@@ -897,7 +906,7 @@
             "note": "三个并列方法均受be it统领，dedicated与两个approach后的to皆介词，最后when只修饰记者式方法。",
             "sentenceSHA256": "67af6c9ec2247051257201492f99163e1fd907f42005e4d00fe7052c5d845de3",
             "words": 43,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },

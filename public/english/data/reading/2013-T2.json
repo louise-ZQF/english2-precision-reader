@@ -837,6 +837,14 @@
           ],
           "phrases": [
             {
+              "a": 43,
+              "b": 54,
+              "word": "for example",
+              "lemma": "for example",
+              "meaning": "例如",
+              "kind": "phrase"
+            },
+            {
               "a": 85,
               "b": 93,
               "lemma": "for good",
@@ -857,7 +865,7 @@
             "note": "约四分之一永久回意大利，for good并非为了好处。",
             "sentenceSHA256": "de23b601a221488accc0b4bba27d6a138b8c34c35112b7587f05c7d77194f526",
             "words": 15,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         },

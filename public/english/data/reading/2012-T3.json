@@ -3289,7 +3289,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 11,
+              "word": "For example",
+              "lemma": "for example",
+              "meaning": "例如",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
@@ -3302,7 +3311,7 @@
             "note": "是否测整个基因组侵犯内部单基因专利尚不明，两个it形式与指代不同。",
             "sentenceSHA256": "c4d664c4643e19e8582ce8ccef94ba87e1a4a9f9c9a8f156abd557efdb343822",
             "words": 20,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },

@@ -793,7 +793,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 121,
+              "b": 126,
+              "word": "up to",
+              "lemma": "up to",
+              "meaning": "最高达到；多达",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
@@ -806,7 +815,7 @@
             "note": "正考虑立法并非已经实施；up to原文最高60%，不擅改成最低60%。",
             "sentenceSHA256": "38e58cd1eacfa43aa0156ee8bb055df36b53a43ad349c8c6e4057e04cc68b820",
             "words": 22,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },
@@ -3690,6 +3699,14 @@
           ],
           "phrases": [
             {
+              "a": 67,
+              "b": 78,
+              "word": "for example",
+              "lemma": "for example",
+              "meaning": "例如",
+              "kind": "phrase"
+            },
+            {
               "a": 188,
               "b": 209,
               "lemma": "exception to the rule",
@@ -3710,7 +3727,7 @@
             "note": "巨大关注因为仍为少数例外，because不用于解释女性成功原因。",
             "sentenceSHA256": "6a59cb42e5de31b8cd5cd57b3a01ab58170da75137db5020f5edea5ec36723b9",
             "words": 33,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         }

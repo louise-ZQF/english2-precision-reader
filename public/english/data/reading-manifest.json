@@ -16,7 +16,7 @@
       "sentences": 19,
       "reviewed": 19,
       "fullWordAudit": true,
-      "revision": "a45ef2f17e7d"
+      "revision": "0aa8c6731e14"
     },
     {
       "id": "2010-T2",
@@ -49,7 +49,7 @@
       "sentences": 14,
       "reviewed": 14,
       "fullWordAudit": true,
-      "revision": "598a1c21b0e5"
+      "revision": "732d8b0e163f"
     },
     {
       "id": "2011-T1",
@@ -82,7 +82,7 @@
       "sentences": 17,
       "reviewed": 17,
       "fullWordAudit": true,
-      "revision": "a0f0a4d1ed2f"
+      "revision": "e0eafbe50256"
     },
     {
       "id": "2011-T4",
@@ -104,7 +104,7 @@
       "sentences": 18,
       "reviewed": 18,
       "fullWordAudit": true,
-      "revision": "9d89be302ed1"
+      "revision": "3583c9bb385c"
     },
     {
       "id": "2012-T2",
@@ -126,7 +126,7 @@
       "sentences": 24,
       "reviewed": 24,
       "fullWordAudit": true,
-      "revision": "efce4be9792b"
+      "revision": "cab5e0e6eaab"
     },
     {
       "id": "2012-T4",
@@ -148,7 +148,7 @@
       "sentences": 14,
       "reviewed": 14,
       "fullWordAudit": true,
-      "revision": "2f3cfb3bc505"
+      "revision": "6acff4429216"
     },
     {
       "id": "2013-T2",
@@ -159,7 +159,7 @@
       "sentences": 22,
       "reviewed": 22,
       "fullWordAudit": true,
-      "revision": "020e24591c86"
+      "revision": "2197c2e176ca"
     },
     {
       "id": "2013-T3",
@@ -181,7 +181,7 @@
       "sentences": 18,
       "reviewed": 18,
       "fullWordAudit": true,
-      "revision": "6fe2e14c78fd"
+      "revision": "f29cd57f3815"
     },
     {
       "id": "2014-T1",
@@ -203,7 +203,7 @@
       "sentences": 19,
       "reviewed": 19,
       "fullWordAudit": true,
-      "revision": "de4305c6ee35"
+      "revision": "44643b0d00ef"
     },
     {
       "id": "2014-T3",
@@ -258,7 +258,7 @@
       "sentences": 17,
       "reviewed": 17,
       "fullWordAudit": true,
-      "revision": "28a2f9238313"
+      "revision": "5fbbe94eed88"
     },
     {
       "id": "2015-T4",
@@ -291,7 +291,7 @@
       "sentences": 18,
       "reviewed": 18,
       "fullWordAudit": true,
-      "revision": "e5a98120eee9"
+      "revision": "b4ca6734b9fd"
     },
     {
       "id": "2016-T3",
@@ -324,7 +324,7 @@
       "sentences": 25,
       "reviewed": 25,
       "fullWordAudit": true,
-      "revision": "bd0946e5e1a5"
+      "revision": "09105928c7c3"
     },
     {
       "id": "2017-T2",
@@ -335,7 +335,7 @@
       "sentences": 15,
       "reviewed": 15,
       "fullWordAudit": true,
-      "revision": "0b9f451cd4bb"
+      "revision": "d06aa8ee4071"
     },
     {
       "id": "2017-T3",
@@ -346,7 +346,7 @@
       "sentences": 16,
       "reviewed": 16,
       "fullWordAudit": true,
-      "revision": "337a5ebefe1b"
+      "revision": "40e24fef9198"
     },
     {
       "id": "2017-T4",
@@ -357,7 +357,7 @@
       "sentences": 20,
       "reviewed": 20,
       "fullWordAudit": true,
-      "revision": "5decd149022f"
+      "revision": "125b16390df8"
     },
     {
       "id": "2018-T1",
@@ -379,7 +379,7 @@
       "sentences": 19,
       "reviewed": 19,
       "fullWordAudit": true,
-      "revision": "52f1d864748a"
+      "revision": "614f7597aba5"
     },
     {
       "id": "2018-T3",
@@ -401,7 +401,7 @@
       "sentences": 15,
       "reviewed": 15,
       "fullWordAudit": true,
-      "revision": "755c2b87925a"
+      "revision": "8ea61faee818"
     },
     {
       "id": "2019-T1",
@@ -412,7 +412,7 @@
       "sentences": 24,
       "reviewed": 24,
       "fullWordAudit": true,
-      "revision": "35a5ce52e929"
+      "revision": "b548bc52d4e0"
     },
     {
       "id": "2019-T2",
@@ -445,7 +445,7 @@
       "sentences": 20,
       "reviewed": 20,
       "fullWordAudit": true,
-      "revision": "b506ddb36e24"
+      "revision": "d19dbc93b02b"
     },
     {
       "id": "2020-T1",
@@ -500,7 +500,7 @@
       "sentences": 19,
       "reviewed": 19,
       "fullWordAudit": true,
-      "revision": "bbee5b0ddf33"
+      "revision": "76795664a9d1"
     },
     {
       "id": "2021-T2",
@@ -599,7 +599,7 @@
       "sentences": 18,
       "reviewed": 18,
       "fullWordAudit": true,
-      "revision": "f58e6cd64d59"
+      "revision": "1e170dae85d9"
     },
     {
       "id": "2023-T3",
@@ -610,7 +610,7 @@
       "sentences": 20,
       "reviewed": 20,
       "fullWordAudit": true,
-      "revision": "32e73d81712f"
+      "revision": "ea1077a426e3"
     },
     {
       "id": "2023-T4",

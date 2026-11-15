@@ -1450,6 +1450,14 @@
           ],
           "phrases": [
             {
+              "a": 29,
+              "b": 40,
+              "word": "a number of",
+              "lemma": "a number of",
+              "meaning": "若干；许多",
+              "kind": "phrase"
+            },
+            {
               "a": 76,
               "b": 92,
               "lemma": "make the point",
@@ -1494,7 +1502,7 @@
             "note": "原因主要需求下降另有全球化技术革命；which两进程，用机器或外劳替代原劳动力。",
             "sentenceSHA256": "8520c7e9fdcd4b47cb5c960cc0d0be7e4972af6fdcad5b50f1c44c63c5228f02",
             "words": 73,
-            "phrases": 4,
+            "phrases": 5,
             "names": 0
           }
         }

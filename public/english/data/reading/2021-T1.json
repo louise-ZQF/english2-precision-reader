@@ -869,7 +869,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 48,
+              "b": 58,
+              "word": "on average",
+              "lemma": "on average",
+              "meaning": "平均而言",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句对照原文",
@@ -882,7 +891,7 @@
             "note": "42%为平均岗位核心技能占比，by 2022为期限而非研究实施者。",
             "sentenceSHA256": "8ab7a393ed7bdc2a014eb3ac63247206d8b801c34fb719b396d3e4571acf40c2",
             "words": 22,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },
@@ -3290,6 +3299,14 @@
               "lemma": "as of",
               "meaning": "截至",
               "kind": "phrase"
+            },
+            {
+              "a": 34,
+              "b": 39,
+              "word": "up to",
+              "lemma": "up to",
+              "meaning": "升至（接在 spiked 后，表示飙升到的数值）",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -3304,7 +3321,7 @@
             "note": "as of是截至五月，not all是并非全部短缺消失，保留13.3%与13.7%。",
             "sentenceSHA256": "8a81c629267853c26edcfd6f34fa345bfc74841d26dc2f0d9b07261170f13508",
             "words": 26,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         },

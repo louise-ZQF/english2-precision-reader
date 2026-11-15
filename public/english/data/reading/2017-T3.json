@@ -4332,6 +4332,14 @@
           ],
           "phrases": [
             {
+              "a": 19,
+              "b": 30,
+              "word": "for example",
+              "lemma": "for example",
+              "meaning": "例如",
+              "kind": "phrase"
+            },
+            {
               "a": 99,
               "b": 113,
               "lemma": "nursing school",
@@ -4352,7 +4360,7 @@
             "note": "were you to为虚拟条件倒装，complete为动词，department为院系非劳工部。",
             "sentenceSHA256": "782d99b4bd75300745d2df621d4ea07330ebb4b4da8c2189b45ff73c5a853ffd",
             "words": 24,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         },

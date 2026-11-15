@@ -973,6 +973,14 @@
           ],
           "phrases": [
             {
+              "a": 28,
+              "b": 37,
+              "word": "of course",
+              "lemma": "of course",
+              "meaning": "当然",
+              "kind": "phrase"
+            },
+            {
               "a": 51,
               "b": 65,
               "word": "gets a bad rap",
@@ -994,7 +1002,7 @@
             "note": "popular为大众观念，bad rap是负面名声不是说唱或敲击，保留of course插语。",
             "sentenceSHA256": "cd42be32964ab63447f743cbe70e4815a45c01f4df6d9f4524bace6d0784e3f0",
             "words": 12,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         },
@@ -2022,7 +2030,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 20,
+              "b": 31,
+              "word": "for example",
+              "lemma": "for example",
+              "meaning": "例如",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
@@ -2035,7 +2052,7 @@
             "note": "may have evolved保留推测，alert to为提醒注意不平等，非警报本体。",
             "sentenceSHA256": "b65760ef48b8ac1b5fd71000f537554fea04b64c68932aa30d64862ba822f97e",
             "words": 14,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },

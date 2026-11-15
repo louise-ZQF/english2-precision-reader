@@ -1649,7 +1649,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 13,
+              "b": 24,
+              "word": "for example",
+              "lemma": "for example",
+              "meaning": "例如",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
@@ -1662,7 +1671,7 @@
             "note": "power动词供电，95%对应家庭，足够电量并非已连接家庭数调查。",
             "sentenceSHA256": "423151827d0c2ce8d527c57b98578f89fc832ece8598325763e773bbc42c918d",
             "words": 14,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },

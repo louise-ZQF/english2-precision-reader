@@ -4385,6 +4385,14 @@
           ],
           "phrases": [
             {
+              "a": 68,
+              "b": 84,
+              "word": "at the same time",
+              "lemma": "at the same time",
+              "meaning": "在……的同时（与后面的 that 从句连用）",
+              "kind": "phrase"
+            },
+            {
               "a": 94,
               "b": 102,
               "word": "buy into",
@@ -4405,7 +4413,7 @@
             "note": "buy into为认同，at the same time that表示同时的矛盾态度。",
             "sentenceSHA256": "21dc46fd6158f085e6301b5866981bddcf5c71f51857e03f4d517ce9f8853980",
             "words": 22,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         },

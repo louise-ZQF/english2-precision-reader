@@ -3213,7 +3213,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 16,
+              "word": "At the same time",
+              "lemma": "at the same time",
+              "meaning": "与此同时（转而说明政策仍有未解决的问题）",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
@@ -3226,7 +3235,7 @@
             "note": "none为一个也未解决，thorny棘手非荆棘植物。",
             "sentenceSHA256": "5215e955d569fbe593c4130aca51eaf2cf06b73c67bcaf95c24d35e5b45ceb0a",
             "words": 15,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },

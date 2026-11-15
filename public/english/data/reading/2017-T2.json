@@ -3670,7 +3670,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 17,
+              "word": "On the other hand",
+              "lemma": "on the other hand",
+              "meaning": "另一方面",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
@@ -3683,7 +3692,7 @@
             "note": "white为白人文化背景而非白人至上，that两处关系词及内容词分开。",
             "sentenceSHA256": "45d2da302fd06bcc6775f7c5eb24516c449f9347f40af4fdfc2a68f6912d104c",
             "words": 60,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },

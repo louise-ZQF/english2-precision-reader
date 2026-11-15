@@ -1008,6 +1008,14 @@
               "meaning": "虚幻优越感",
               "word": "illusory superiority",
               "kind": "phrase"
+            },
+            {
+              "a": 144,
+              "b": 155,
+              "word": "for example",
+              "lemma": "for example",
+              "meaning": "例如",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1022,7 +1030,7 @@
             "note": "or解释第二术语，三个自评比例和各领域对应，统计不可能为原作者的说法。",
             "sentenceSHA256": "1dd906d70f0a8d309fdfa2bd91e5f2cd80444d79338c48b079741f001cd3345b",
             "words": 45,
-            "phrases": 2,
+            "phrases": 3,
             "names": 0
           }
         }

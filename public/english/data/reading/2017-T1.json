@@ -775,7 +775,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 127,
+              "b": 132,
+              "word": "up to",
+              "lemma": "up to",
+              "meaning": "上至；最长达（这里表示用时区间上限）",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
@@ -788,7 +797,7 @@
             "note": "range为动词从……到……不等，times为完赛时间，纪录与一小时为两端。",
             "sentenceSHA256": "de1d5d3c28cfb47bba10f9e938ce1f37ca5e59ad1c6eb50f8b44f94f1aedafc8",
             "words": 22,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         }

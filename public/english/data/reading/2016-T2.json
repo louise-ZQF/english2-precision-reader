@@ -2374,6 +2374,14 @@
           ],
           "phrases": [
             {
+              "a": 16,
+              "b": 27,
+              "word": "for example",
+              "lemma": "for example",
+              "meaning": "例如",
+              "kind": "phrase"
+            },
+            {
               "a": 147,
               "b": 157,
               "word": "as long as",
@@ -2394,7 +2402,7 @@
             "note": "as long as为只要，签约是免予起诉的条件，并非无条件允许伤害。",
             "sentenceSHA256": "220c074db9248a5e1e8cb75d263d1ff339c78f1e132bbfc3d9a33c3e0fd1ec1c",
             "words": 38,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         },

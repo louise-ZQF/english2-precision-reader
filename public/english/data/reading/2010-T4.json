@@ -1860,7 +1860,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 16,
+              "b": 27,
+              "word": "for example",
+              "lemma": "for example",
+              "meaning": "例如",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
@@ -1873,7 +1882,7 @@
             "note": "supposedly保留作者的所谓语气，character为品行非性格人物。",
             "sentenceSHA256": "724cfe3b4d9c55de1a2a3f8945711b61115be8afc18f52d65287098cf7b6f3ff",
             "words": 19,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },

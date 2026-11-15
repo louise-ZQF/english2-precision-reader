@@ -1520,6 +1520,14 @@
               "lemma": "hand over",
               "meaning": "交出；上缴",
               "kind": "phrase"
+            },
+            {
+              "a": 109,
+              "b": 119,
+              "word": "on average",
+              "lemma": "on average",
+              "meaning": "平均而言",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -1534,7 +1542,7 @@
             "note": "revenues为营业收入非利润，5%为平均上缴比例，hand over为上缴。",
             "sentenceSHA256": "10d84ac0fe23c78cba0071261367c9aa351173e9e83653776ee1c2d9881e3f3a",
             "words": 29,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         }
@@ -3745,6 +3753,14 @@
               "lemma": "carbon sequestration",
               "meaning": "碳封存；固碳",
               "kind": "phrase"
+            },
+            {
+              "a": 203,
+              "b": 212,
+              "word": "of course",
+              "lemma": "of course",
+              "meaning": "当然",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -3759,7 +3775,7 @@
             "note": "四项教育固碳文化旅游价值并列，carbon sequestration为固碳，climate影响在其对应块。",
             "sentenceSHA256": "c6a55b44881e9f38a1f5c222b51caff549c3d835822ce4bc52b5e6706e2f7921",
             "words": 34,
-            "phrases": 2,
+            "phrases": 3,
             "names": 0
           }
         },

@@ -4052,6 +4052,14 @@
           ],
           "phrases": [
             {
+              "a": 0,
+              "b": 16,
+              "word": "At the same time",
+              "lemma": "at the same time",
+              "meaning": "与此同时",
+              "kind": "phrase"
+            },
+            {
               "a": 114,
               "b": 130,
               "lemma": "out of necessity",
@@ -4072,7 +4080,7 @@
             "note": "火被看成需控制且只在必要时释放的现象，be双重被动。",
             "sentenceSHA256": "0f35dfbc5a14225b4995f8fd3ec9cf671f54ff81b712dca210484577794737c0",
             "words": 32,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         },

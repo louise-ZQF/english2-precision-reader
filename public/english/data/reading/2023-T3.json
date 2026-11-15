@@ -548,7 +548,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 144,
+              "b": 155,
+              "word": "for example",
+              "lemma": "for example",
+              "meaning": "例如",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
@@ -561,7 +570,7 @@
             "note": "record为记录，factoids小知识，is bigger为系表比较而非进行时。",
             "sentenceSHA256": "c66f39802a7ef9cfebe8e70a55be05178396e2ea489aa4fe2ab34ba81a267e5b",
             "words": 26,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },

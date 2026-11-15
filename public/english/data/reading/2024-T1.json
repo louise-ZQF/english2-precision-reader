@@ -432,13 +432,13 @@
               "a": 78,
               "b": 113,
               "en": "will have to be more evenly shared ",
-              "zh": "都必须得到更公平的分享，"
+              "zh": "都得分配得更均衡，"
             },
             {
               "a": 113,
               "b": 139,
               "en": "than in the recent past,” ",
-              "zh": "比起近些年而言，”"
+              "zh": "与过去几年相比，”"
             },
             {
               "a": 139,
@@ -448,7 +448,7 @@
             }
           ],
           "reorder": "把 she writes 放前；whatever 是让步，比较对象是近些年的收益分配状况。",
-          "translation": "她写道：“不管我们如何理解经济增长和生活改善，其收益都必须比近些年分配得更公平。”",
+          "translation": "她写道：“无论我们怎样理解经济增长、怎样理解情况好转，增长带来的收益都必须比过去几年分配得更均衡。”",
           "words": [
             {
               "a": 1,
@@ -618,7 +618,7 @@
               "word": "evenly",
               "lemma": "evenly",
               "pos": "adv",
-              "meaning": "公平地；均匀地",
+              "meaning": "均匀地（这里指让更多人分享经济增长的收益）",
               "reviewVersion": 2
             },
             {
@@ -737,7 +737,7 @@
               "a": 66,
               "b": 114,
               "en": "with middle-income jobs undercut by automation, ",
-              "zh": "其中中等收入工作被自动化削弱，"
+              "zh": "其中中等收入岗位受到自动化的挤压，"
             },
             {
               "a": 114,
@@ -872,7 +872,7 @@
               "word": "undercut",
               "lemma": "undercut",
               "pos": "v",
-              "meaning": "削弱；冲击",
+              "meaning": "削弱；这里指自动化挤压中等收入岗位",
               "reviewVersion": 2
             },
             {
@@ -2339,23 +2339,23 @@
               "a": 56,
               "b": 92,
               "en": "as the benefits are perceived to go ",
-              "zh": "因为人们认为收益流向了，"
+              "zh": "因为人们认为这些收益正流向"
             },
             {
               "a": 92,
               "b": 102,
               "en": "to elites ",
-              "zh": "精英群体，"
+              "zh": "精英群体"
             },
             {
               "a": 102,
               "b": 136,
               "en": "in a handful of prosperous cities.",
-              "zh": "在少数几个繁荣城市里的精英群体。"
+              "zh": "这些精英身处少数几个繁荣城市。"
             }
           ],
           "reorder": "先把 as 的原因说清；in 的地点修饰 elites；simmering 为不满暗中积聚的比喻。",
-          "translation": "科伊尔说，现实恰恰相反：人们认为收益都流向少数繁荣城市的精英群体，因此许多人的不满正在酝酿。",
+          "translation": "科伊尔说，实际情况却是，很多人越来越不满，因为他们觉得收益都流向了少数繁荣城市里的精英。",
           "words": [
             {
               "a": 0,
@@ -2408,7 +2408,7 @@
               "word": "simmering",
               "lemma": "simmer",
               "pos": "v",
-              "meaning": "暗中酝酿；积聚",
+              "meaning": "（不满等情绪）在积聚，尚未公开爆发",
               "reviewVersion": 2
             },
             {

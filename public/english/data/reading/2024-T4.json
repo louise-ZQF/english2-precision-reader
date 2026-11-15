@@ -2912,7 +2912,7 @@
               "word": "affirmative",
               "lemma": "affirmative",
               "pos": "adj",
-              "meaning": "明确表示肯定的",
+              "meaning": "主动表示同意的（如明确点选同意选项）",
               "reviewVersion": 2
             },
             {
@@ -3119,7 +3119,7 @@
               "b": 130,
               "word": "affirmative consent",
               "lemma": "affirmative consent",
-              "meaning": "明确作出的同意",
+              "meaning": "主动明确表示的同意",
               "kind": "phrase"
             },
             {

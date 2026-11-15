@@ -2274,7 +2274,7 @@
               "word": "goodness",
               "lemma": "goodness",
               "pos": "n",
-              "meaning": "善良品行；道德品质",
+              "meaning": "人的善良品行；这里指反思自己的行为是否符合道德规范",
               "reviewVersion": 2
             },
             {
@@ -2763,7 +2763,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 7,
+              "b": 20,
+              "word": "in this light",
+              "lemma": "in this light",
+              "meaning": "从这个角度来看",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
@@ -2776,7 +2785,7 @@
             "note": "in this light从这一视角理解，opportunity为机会。",
             "sentenceSHA256": "042c88d76ce45ac5b39bab0d288fd04903a13ca6b9a7ff43e6c10078094dc0f7",
             "words": 8,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },
@@ -2803,7 +2812,7 @@
               "a": 73,
               "b": 87,
               "en": "suggests that ",
-              "zh": "研究提示"
+              "zh": "提示"
             },
             {
               "a": 87,
@@ -3265,7 +3274,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 3,
+              "b": 14,
+              "word": "a number of",
+              "lemma": "a number of",
+              "meaning": "许多；若干（文中指多项研究）",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
@@ -3278,7 +3296,7 @@
             "note": "多个研究支持两条合作路径，to介词连接途径与合作，guilt与sympathy不混。",
             "sentenceSHA256": "4bc6454ea257e29550aaa70075ee4c30e9c7874755cb1247082e6e48328ed490",
             "words": 22,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },
@@ -3311,11 +3329,11 @@
               "a": 93,
               "b": 134,
               "en": "which can rein in their nastier impulses.",
-              "zh": "而内疚能约束他们更恶劣的冲动"
+              "zh": "而更多的内疚感能抑制他们伤害他人的冲动"
             }
           ],
           "reorder": "把 by 的办法接到弥补之前或之后，which 回指更多内疚而不是孩子。",
-          "translation": "一些同情心较弱的孩子，可能通过产生更多内疚来弥补这种欠缺，而内疚能约束他们更恶劣的冲动。",
+          "translation": "一些同情心较弱的孩子，可能通过感到更多内疚来弥补这一不足。这种内疚感有助于抑制他们伤害他人的冲动。",
           "words": [
             {
               "a": 0,
@@ -3521,7 +3539,7 @@
               "word": "nastier",
               "lemma": "nasty",
               "pos": "a",
-              "meaning": "更恶劣的；更有伤害性的",
+              "meaning": "更容易伤害他人的（形容冲动）",
               "reviewVersion": 2
             },
             {
@@ -3829,7 +3847,24 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 17,
+              "b": 28,
+              "word": "for example",
+              "lemma": "for example",
+              "meaning": "例如",
+              "kind": "phrase"
+            },
+            {
+              "a": 36,
+              "b": 45,
+              "word": "looked at",
+              "lemma": "look at",
+              "meaning": "研究；考察（这里指对儿童开展研究）",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
@@ -3842,7 +3877,7 @@
             "note": "2014年244儿童样本不遗漏，looked at是研究而非只观看。",
             "sentenceSHA256": "9e0ab566d57977181cd906d5c91219feb9703434cc3f5cee2caf205581f3e631",
             "words": 9,
-            "phrases": 0,
+            "phrases": 2,
             "names": 0
           }
         },

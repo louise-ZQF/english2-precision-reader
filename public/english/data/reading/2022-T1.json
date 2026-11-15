@@ -116,7 +116,7 @@
               "word": "roam",
               "lemma": "roam",
               "pos": "v",
-              "meaning": "自由走动；四处觅食",
+              "meaning": "漫步；自由走动",
               "reviewVersion": 2
             },
             {
@@ -152,7 +152,7 @@
               "word": "windswept",
               "lemma": "windswept",
               "pos": "a",
-              "meaning": "常受风吹的",
+              "meaning": "无遮挡、经常受风吹的",
               "reviewVersion": 2
             },
             {
@@ -449,7 +449,7 @@
               "a": 43,
               "b": 125,
               "en": "part of what the $ 6.1 billion U.S. egg industry bets will be its next big thing: ",
-              "zh": "也是美国规模达61亿美元的鸡蛋行业所押注的下一个热门产品计划的一部分："
+              "zh": "也是美国规模达61亿美元的鸡蛋行业为其押注的下一款热门产品所作的安排之一"
             },
             {
               "a": 125,
@@ -459,7 +459,7 @@
             }
           ],
           "reorder": "先译 by design 的转折，再将 what...will be 合成“行业押注的下一个热门产品”；冒号后点明产品。",
-          "translation": "这一切看似随意，实则是有意安排，也是美国规模达61亿美元的鸡蛋行业打造下一个热门产品——气候友好型鸡蛋——的计划的一部分。",
+          "translation": "这一切看似随意，其实是刻意安排的。规模达61亿美元的美国鸡蛋行业押注气候友好型鸡蛋会成为下一个热门产品，这些安排正是其中的一环。",
           "words": [
             {
               "a": 0,
@@ -494,7 +494,7 @@
               "word": "random",
               "lemma": "random",
               "pos": "a",
-              "meaning": "随意的",
+              "meaning": "随意的；看似没有安排的",
               "reviewVersion": 2
             },
             {

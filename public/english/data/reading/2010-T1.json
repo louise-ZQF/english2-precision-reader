@@ -1539,7 +1539,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 23,
+              "b": 35,
+              "word": "come down to",
+              "lemma": "come down to",
+              "meaning": "降到（这里指艺术品市场规模下降到某个金额）",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
@@ -1552,7 +1561,7 @@
             "note": "may have表示对已发生变化的推测；down to为降至并非降了。",
             "sentenceSHA256": "1534fd8ddd2aeb45060832d5e81bd375d1de39c4c3517094c7569800a6907d78",
             "words": 9,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },
@@ -2217,7 +2226,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 39,
+              "b": 55,
+              "word": "stayed away from",
+              "lemma": "stay away from",
+              "meaning": "避开；此处指收藏家不再光顾画廊和拍卖厅",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
@@ -2230,7 +2248,7 @@
             "note": "代词that指前句消费风气；galleries与salerooms为市场场所。",
             "sentenceSHA256": "1f41880357742d92c43b53cb54b9a0adf0b5e72e6ad457d6a7618819d54bf067",
             "words": 13,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },

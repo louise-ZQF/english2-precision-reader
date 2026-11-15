@@ -3806,6 +3806,14 @@
               "lemma": "job security",
               "meaning": "工作保障",
               "kind": "phrase"
+            },
+            {
+              "a": 90,
+              "b": 100,
+              "word": "number one",
+              "lemma": "number one",
+              "meaning": "排在首位；这里指最受重视的职业目标",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -3820,7 +3828,7 @@
             "note": "第一是工作生活平衡、第二是工作保障，cause为事业，greater good为公共利益。",
             "sentenceSHA256": "909a041514cd3d1cc6abeba907722862cc56675a4ca0c20cf57a2112f1007c2a",
             "words": 35,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         }

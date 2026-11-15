@@ -1068,7 +1068,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 14,
+              "word": "Looking around",
+              "lemma": "look around",
+              "meaning": "环顾四周；这里指观察周围的情况",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
@@ -1081,7 +1090,7 @@
             "note": "缺乏想象力的是成人社会对女孩生活的看法，非责怪女孩没有想象力。",
             "sentenceSHA256": "620ad795d8d2ec42c88f879ade71b5bb4a971e521cb1e20ce1bdc3e12691fad1",
             "words": 15,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         }

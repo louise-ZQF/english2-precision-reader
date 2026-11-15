@@ -2220,7 +2220,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 66,
+              "b": 85,
+              "word": "in the aftermath of",
+              "lemma": "in the aftermath of",
+              "meaning": "在……之后（强调仍受其余波影响）",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
@@ -2233,7 +2242,7 @@
             "note": "that后者指优先事项与期望，through为扩散遍及，virtually为几乎而非虚拟地。",
             "sentenceSHA256": "863ea2f7d8ec3ba17a8f44eb8f6ab8a159c05dd6a906b5f0e4ed366eb4336de6",
             "words": 48,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         }
@@ -3172,7 +3181,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 168,
+              "b": 183,
+              "word": "getting started",
+              "lemma": "get started",
+              "meaning": "开始；这里指刚刚开始独立生活",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
@@ -3185,7 +3203,7 @@
             "note": "while是略乐观但仍认为更艰难的让步，as列举标志成就，climb为奋斗比喻。",
             "sentenceSHA256": "fbf344dc5de8e18afac9783465ce285a9fef1ce7dcae83db8a6243d21dc9206e",
             "words": 56,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         }

@@ -2061,7 +2061,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 11,
+              "b": 22,
+              "word": "look beyond",
+              "lemma": "look beyond",
+              "meaning": "把眼光放到……之外；超越眼前的范围",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
@@ -2074,7 +2083,7 @@
             "note": "beyond为超越严格分类，不是要求忽视所有法律。",
             "sentenceSHA256": "3d91399441da40f793878bc4b76526e593d3678aace1fd23b04568769cb723d1",
             "words": 11,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },
@@ -2272,6 +2281,14 @@
           ],
           "phrases": [
             {
+              "a": 0,
+              "b": 8,
+              "word": "To start",
+              "lemma": "to start",
+              "meaning": "首先；用来引出第一点",
+              "kind": "phrase"
+            },
+            {
               "a": 35,
               "b": 51,
               "lemma": "birds of passage",
@@ -2300,7 +2317,7 @@
             "note": "gray areas是身份制度界限不明，候鸟式移民在其中生活发展。",
             "sentenceSHA256": "ffcf00c0b06deb5fa897eb260c85b2c8743066c7d3b0385e73929f82aca1991c",
             "words": 18,
-            "phrases": 2,
+            "phrases": 3,
             "names": 0
           }
         },

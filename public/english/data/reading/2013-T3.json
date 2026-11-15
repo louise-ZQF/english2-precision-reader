@@ -432,6 +432,14 @@
               "meaning": "容易……；有……倾向",
               "word": "prone to",
               "kind": "phrase"
+            },
+            {
+              "a": 115,
+              "b": 128,
+              "word": "are likely to",
+              "lemma": "be likely to",
+              "meaning": "很可能……",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -446,7 +454,7 @@
             "note": "snap形容词仓促并非动词；先想可能反应能减少负面影响，非完全消除全部本能。",
             "sentenceSHA256": "4cea0c9aff0b402fc33f8ac28670a4fef32fc6b7ea93946e6b6ed3ce886c9158",
             "words": 39,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         }
@@ -2654,6 +2662,14 @@
               "meaning": "房地产经纪人",
               "word": "real estate agents",
               "kind": "phrase"
+            },
+            {
+              "a": 184,
+              "b": 197,
+              "word": "take a moment",
+              "lemma": "take a moment",
+              "meaning": "花一点时间；先停下来想一想",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -2668,7 +2684,7 @@
             "note": "笑脸诱发过度反应，销售与房地产经纪括注是原因例子，不把微笑说成产品本身。",
             "sentenceSHA256": "e1811f37870a33c0ff8e22daa0c1417f54eb744eb2464a97fef1a995f130a0bb",
             "words": 37,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         },

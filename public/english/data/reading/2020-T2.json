@@ -524,7 +524,7 @@
               "word": "typical",
               "lemma": "typical",
               "pos": "a",
-              "meaning": "普通的；一般的",
+              "meaning": "有代表性的；这里指美国大型公司首席执行官的一般薪酬水平",
               "reviewVersion": 2
             },
             {
@@ -1531,6 +1531,14 @@
           ],
           "phrases": [
             {
+              "a": 29,
+              "b": 36,
+              "word": "gone up",
+              "lemma": "go up",
+              "meaning": "上涨；这里指首席执行官的薪酬上升",
+              "kind": "phrase"
+            },
+            {
               "a": 70,
               "b": 86,
               "lemma": "up one's game",
@@ -1551,7 +1559,7 @@
             "note": "up one’s game为提高表现，relative to表对比劳动者，不是参加比赛。",
             "sentenceSHA256": "8540b238958be293f5f6fd1d9031622c854c62806c2f79fe413b055e18c21040",
             "words": 27,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         }

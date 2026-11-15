@@ -4323,7 +4323,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 8,
+              "word": "In short",
+              "lemma": "in short",
+              "meaning": "简言之；总之",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
@@ -4336,7 +4345,7 @@
             "note": "报纸被举起挡脸，女人怒视的是报纸背面；wanting主语为女人。",
             "sentenceSHA256": "3376a1c3260784999a19992c489eff66f885c62ff46f847f6fc0f157cfc651a0",
             "words": 45,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         }

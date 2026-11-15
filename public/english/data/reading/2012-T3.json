@@ -4318,6 +4318,14 @@
           ],
           "phrases": [
             {
+              "a": 10,
+              "b": 22,
+              "word": "are eager to",
+              "lemma": "be eager to",
+              "meaning": "迫切希望；很想……",
+              "kind": "phrase"
+            },
+            {
               "a": 40,
               "b": 59,
               "lemma": "connect the dots",
@@ -4338,7 +4346,7 @@
             "note": "connecting dots为找出线索关联，for分别专利对象和律师服务机构。",
             "sentenceSHA256": "54bb1b57edf95d13bcd79c629498f7821f0695b9fe167091b157032709f2308f",
             "words": 18,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         }

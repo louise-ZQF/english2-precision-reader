@@ -629,7 +629,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 19,
+              "b": 31,
+              "word": "is likely to",
+              "lemma": "be likely to",
+              "meaning": "很可能……",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
@@ -642,7 +651,7 @@
             "note": "重塑政治文化社会的持续时间为多年，for为时长。",
             "sentenceSHA256": "76275f859e21766cc29394ccb0caa126ec9efb50c5e9a164db8f41ffde55d3dc",
             "words": 19,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         }
@@ -2354,7 +2363,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 3,
+              "b": 44,
+              "word": "The Moral Consequences of Economic Growth",
+              "lemma": "The Moral Consequences of Economic Growth",
+              "meaning": "《经济增长的道德后果》",
+              "kind": "name"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
@@ -2368,7 +2386,7 @@
             "sentenceSHA256": "bf8a2dda7ca7d0c47bc0b384e4cdc88e23a340a72ed1faeb16671878b5e9b326",
             "words": 49,
             "phrases": 0,
-            "names": 0
+            "names": 1
           }
         },
         {

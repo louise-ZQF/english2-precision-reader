@@ -3211,7 +3211,7 @@
               "word": "making",
               "lemma": "make",
               "pos": "v",
-              "meaning": "作出",
+              "meaning": "挣；赚取（与 money 搭配）",
               "reviewVersion": 2
             },
             {
@@ -3351,6 +3351,14 @@
               "kind": "phrase"
             },
             {
+              "a": 77,
+              "b": 89,
+              "word": "making money",
+              "lemma": "make money",
+              "meaning": "赚钱；挣钱",
+              "kind": "phrase"
+            },
+            {
               "a": 123,
               "b": 134,
               "word": "in order to",
@@ -3379,7 +3387,7 @@
             "note": "what是应做的内容，have to表必须，draw an income是获取收入。",
             "sentenceSHA256": "c98e3900973c93fd6bc2270947dbc3b0c358490ccb3fab024763722346143fb8",
             "words": 28,
-            "phrases": 3,
+            "phrases": 4,
             "names": 0
           }
         },
@@ -5129,7 +5137,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 0,
+              "b": 8,
+              "word": "Not only",
+              "lemma": "not only",
+              "meaning": "不仅；句首引起部分倒装，后半句接着补充另一点",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
@@ -5142,7 +5159,7 @@
             "note": "not only倒装保留两项困难，much修饰比较级harder。",
             "sentenceSHA256": "a52191af2153813dc4cf115b7171674ee65f57233769ce9ad215b0cc18a20d85",
             "words": 14,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         }

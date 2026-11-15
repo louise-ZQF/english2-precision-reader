@@ -2609,6 +2609,14 @@
               "meaning": "充其量；即便往好处评价",
               "word": "at best",
               "kind": "phrase"
+            },
+            {
+              "a": 136,
+              "b": 147,
+              "word": "begging for",
+              "lemma": "beg for",
+              "meaning": "苦求；这里指雇主急着要招到人",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -2623,7 +2631,7 @@
             "note": "languid at best为即使乐观评价也迟缓，失业率高与苦求工人构成反差。",
             "sentenceSHA256": "7122e85c5c3028e3b6932ab2406e3be37c54b8c2a6d20946101488159882ec42",
             "words": 36,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         }

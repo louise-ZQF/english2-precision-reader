@@ -1102,6 +1102,14 @@
           ],
           "phrases": [
             {
+              "a": 24,
+              "b": 39,
+              "word": "user experience",
+              "lemma": "user experience",
+              "meaning": "用户体验（指使用网站或软件时的感受和交互体验）",
+              "kind": "phrase"
+            },
+            {
               "a": 65,
               "b": 78,
               "lemma": "dark pattern",
@@ -1130,7 +1138,7 @@
             "note": "coined指创造术语，catch-all为统称，manipulate为操控用户界面非一般操作。",
             "sentenceSHA256": "2811839158e55e5bd3392c19ea0c9880f1efd0dfbe5bdda563dbc7bc37744e43",
             "words": 28,
-            "phrases": 2,
+            "phrases": 3,
             "names": 0
           }
         },

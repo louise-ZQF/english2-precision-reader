@@ -2493,6 +2493,14 @@
               "lemma": "fill out",
               "meaning": "填写",
               "kind": "phrase"
+            },
+            {
+              "a": 215,
+              "b": 226,
+              "word": "staying out",
+              "lemma": "stay out",
+              "meaning": "待在外面不回家；后接 late，指很晚还未回家",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -2507,7 +2515,7 @@
             "note": "问卷询问频率，or并列两类行为；staying out late不是一定整夜不归，修正分块。",
             "sentenceSHA256": "6a80ca801ff4e575be35d86bcf49a923c81dae8642803a2216e8e46ebbf81499",
             "words": 36,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         }

@@ -635,7 +635,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 35,
+              "b": 46,
+              "word": "high school",
+              "lemma": "high school",
+              "meaning": "高中；此处指科齐亚特克任教的学校",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
@@ -648,7 +657,7 @@
             "note": "New属于州名，learning为名词，not...but对照书本死记与实践。",
             "sentenceSHA256": "ae5d1fc5991be0a4ba4b3dc5dece6e3d4e5347a6c92c640a75272df61038ee0a",
             "words": 24,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },
@@ -1080,7 +1089,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 40,
+              "b": 50,
+              "word": "just about",
+              "lemma": "just about",
+              "meaning": "几乎；差不多",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
@@ -1093,7 +1111,7 @@
             "note": "as正如，learning名词知识，just about几乎，非关于。",
             "sentenceSHA256": "2459ff8eec12a1e3c0c87bd7d2e973740c134d231a04ce32a35cfc6998d93842",
             "words": 10,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },

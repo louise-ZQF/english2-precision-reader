@@ -437,7 +437,7 @@
               "word": "messaging",
               "lemma": "messaging",
               "pos": "n",
-              "meaning": "即时消息通信",
+              "meaning": "即时通信（指收发消息）",
               "reviewVersion": 2
             },
             {
@@ -1143,7 +1143,7 @@
               "word": "Even",
               "lemma": "even",
               "pos": "adv",
-              "meaning": "甚至",
+              "meaning": "即使（even without knowing：即使不知道）",
               "reviewVersion": 2
             },
             {
@@ -2418,23 +2418,23 @@
               "a": 0,
               "b": 54,
               "en": "By the time a problem has been addressed and remedied ",
-              "zh": "等到一个问题得到处理和纠正时，"
+              "zh": "等到一个问题得到处理、纠正"
             },
             {
               "a": 54,
               "b": 95,
               "en": "it may have vanished in the marketplace, ",
-              "zh": "它可能早已在市场上消失，"
+              "zh": "它可能早已在市场上消失"
             },
             {
               "a": 95,
               "b": 133,
               "en": "to be replaced by new abuses of power.",
-              "zh": "并被新的权力滥用所取代。"
+              "zh": "新的滥用市场力量的做法又取代了它"
             }
           ],
           "reorder": "By the time 表处理到位时，to be replaced 接续另一种问题出现。",
-          "translation": "等到一个问题得到处理和纠正时，它可能早已在市场上消失，并被新的权力滥用所取代。",
+          "translation": "等到一个问题得到处理、纠正，它可能早已在市场上消失，新的滥用市场力量的做法却已冒了出来。",
           "words": [
             {
               "a": 0,
@@ -2905,7 +2905,7 @@
               "word": "disadvantage",
               "lemma": "disadvantage",
               "pos": "n",
-              "meaning": "不利；损害",
+              "meaning": "不利影响；此处指消费者遭受的经济损失",
               "reviewVersion": 2
             },
             {
@@ -3727,7 +3727,7 @@
               "word": "benefit",
               "lemma": "benefit",
               "pos": "n",
-              "meaning": "利益；益处",
+              "meaning": "利益；好处（此处指数字巨头由此受益）",
               "reviewVersion": 2
             },
             {
@@ -3996,7 +3996,7 @@
               "word": "farms",
               "lemma": "farm",
               "pos": "v",
-              "meaning": "饲养；以获取数据为目的培育（比喻）",
+              "meaning": "饲养；这里用养蚜虫作比，指谷歌让用户不断提供可利用的数据",
               "reviewVersion": 2
             },
             {

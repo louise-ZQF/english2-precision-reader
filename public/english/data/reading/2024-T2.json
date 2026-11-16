@@ -1651,7 +1651,7 @@
               "word": "executive",
               "lemma": "executive",
               "pos": "n",
-              "meaning": "执行官",
+              "meaning": "高管；chief executive 指该行业组织的首席执行官",
               "reviewVersion": 2
             },
             {
@@ -2148,19 +2148,19 @@
               "a": 0,
               "b": 71,
               "en": "The UK has ideal conditions for growing wood to build low-carbon homes ",
-              "zh": "英国具备种植低碳住宅所需木材的理想条件，"
+              "zh": "英国具备为建造低碳住宅生产木材的理想条件，"
             },
             {
               "a": 71,
               "b": 108,
               "en": "and is a global leader in certifying ",
-              "zh": "并在认证方面处于全球领先地位，"
+              "zh": "在认证方面也处于全球领先地位，"
             },
             {
               "a": 108,
               "b": 150,
               "en": "that its forests are sustainably managed, ",
-              "zh": "认证其森林是否得到可持续管理，"
+              "zh": "即认证森林是不是按可持续的方式经营，"
             },
             {
               "a": 150,
@@ -2170,7 +2170,7 @@
             }
           ],
           "reorder": "把机构来源提前；and 连接两项英国优势，that 解释认证内容。",
-          "translation": "Confor表示，英国具备种植低碳住宅所需木材的理想条件，而且在认证森林是否得到可持续管理方面处于全球领先地位。",
+          "translation": "Confor表示，英国具备为低碳住宅生产所需木材的理想条件，在森林可持续经营认证方面也处于全球领先地位。",
           "words": [
             {
               "a": 0,
@@ -2603,7 +2603,7 @@
               "word": "home-grown",
               "lemma": "home-grown",
               "pos": "adj",
-              "meaning": "本国生产的",
+              "meaning": "本土生产的（这里说的是英格兰使用本土木材的比例）",
               "reviewVersion": 2
             },
             {
@@ -2991,7 +2991,7 @@
               "a": 20,
               "b": 43,
               "en": "significant hesitation ",
-              "zh": "明显的犹豫不决，"
+              "zh": "相当大的顾虑，"
             },
             {
               "a": 43,
@@ -3003,11 +3003,11 @@
               "a": 85,
               "b": 128,
               "en": "to invest in longer-term planting projects.",
-              "zh": "对于投资较长期的植树项目。"
+              "zh": "顾虑的是要不要投资周期较长的植树项目。"
             }
           ],
           "reorder": "将 on behalf of 的行为主体放到犹豫前；to invest 说明犹豫要做的事。",
-          "translation": "其中还包括农民和其他土地所有者对投资较长期植树项目的明显犹豫。",
+          "translation": "另一个原因是，农民和其他土地所有者对投资周期较长的植树项目顾虑很大。",
           "words": [
             {
               "a": 0,
@@ -3069,7 +3069,7 @@
               "word": "behalf",
               "lemma": "behalf",
               "pos": "n",
-              "meaning": "代表或一方（此处on behalf of表达来自……方面）",
+              "meaning": "……一方（这里指农民及其他土地所有者有所顾虑）",
               "reviewVersion": 2
             },
             {
@@ -3158,8 +3158,8 @@
               "b": 118,
               "word": "planting",
               "lemma": "plant",
-              "pos": "v",
-              "meaning": "种植",
+              "pos": "n",
+              "meaning": "植树（planting projects：植树项目）",
               "reviewVersion": 2
             },
             {
@@ -3223,13 +3223,13 @@
               "a": 0,
               "b": 86,
               "en": "While productive tree planting can deliver real financial benefits to rural economies ",
-              "zh": "尽管生产性植树能给农村经济带来实实在在的经济收益，"
+              "zh": "尽管以生产木材为目的植树能给乡村经济带来实实在在的收益，"
             },
             {
               "a": 86,
               "b": 132,
               "en": "and contribute to the UK's net-zero strategy, ",
-              "zh": "并有助于英国的净零排放战略，"
+              "zh": "也能支持英国的净零排放战略，"
             },
             {
               "a": 132,
@@ -3241,17 +3241,17 @@
               "a": 199,
               "b": 249,
               "en": "and the rewilding and planting of native woodland ",
-              "zh": "以及原生林地的野化恢复与种植，"
+              "zh": "以及让本土林地恢复自然状态、种植本土林木，"
             },
             {
               "a": 249,
               "b": 273,
               "en": "solely for biodiversity.",
-              "zh": "后者仅以生物多样性为目的。"
+              "zh": "后两项仅以保护生物多样性为目的。"
             }
           ],
           "reorder": "While 为让步；将两个政府支持重点并列；solely 只限制后面的林地恢复与种植，不限制粮食生产。",
-          "translation": "尽管生产性植树能给农村经济带来实实在在的收益，并有助于英国的净零排放战略，政府支持的重点却仍是粮食生产，以及单纯以生物多样性为目的的原生林地野化恢复和种植。",
+          "translation": "以生产木材为目的植树，既能给乡村经济带来实实在在的收益，也能帮助英国实现净零排放。不过政府仍主要支持粮食生产，以及仅为保护生物多样性而恢复和种植本土林地。",
           "words": [
             {
               "a": 0,
@@ -3547,7 +3547,7 @@
               "word": "rewilding",
               "lemma": "rewilding",
               "pos": "n",
-              "meaning": "野化恢复；恢复自然生态",
+              "meaning": "恢复自然状态；这里指让本土林地恢复自然生态",
               "reviewVersion": 2
             },
             {
@@ -3966,7 +3966,7 @@
               "word": "net",
               "lemma": "net",
               "pos": "adj",
-              "meaning": "净额的；扣除反向数额后的",
+              "meaning": "净的；net zero 指扣除移除的量后，温室气体净排放为零",
               "reviewVersion": 2
             },
             {

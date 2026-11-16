@@ -84,7 +84,7 @@
               "word": "curious",
               "lemma": "curious",
               "pos": "a",
-              "meaning": "令人奇怪的",
+              "meaning": "令人纳闷的；出人意料的",
               "reviewVersion": 2
             },
             {
@@ -631,7 +631,7 @@
               "word": "practical",
               "lemma": "practical",
               "pos": "a",
-              "meaning": "实用的；实践层面的",
+              "meaning": "注重实际操作的；通过动手来学的",
               "reviewVersion": 2
             }
           ],
@@ -1076,7 +1076,7 @@
               "word": "about",
               "lemma": "about",
               "pos": "adv",
-              "meaning": "大约；几乎（just about）",
+              "meaning": "与 just 连用表示“几乎”（just about everything：几乎任何事物）",
               "reviewVersion": 2
             },
             {
@@ -2724,29 +2724,29 @@
               "a": 0,
               "b": 56,
               "en": "But the headlong push into bachelor's degrees for all – ",
-              "zh": "但是，一味推动人人攻读学士学位"
+              "zh": "但是，一味鼓励人人攻读学士学位"
             },
             {
               "a": 56,
               "b": 100,
               "en": "and the subtle devaluing of anything less – ",
-              "zh": "并在不知不觉中贬低所有较低学历的价值"
+              "zh": "同时也隐隐看轻其他层次的教育和培训"
             },
             {
               "a": 100,
               "b": 127,
               "en": "misses an important point: ",
-              "zh": "却忽略了一个重要问题"
+              "zh": "忽略了一个要点"
             },
             {
               "a": 127,
               "b": 180,
               "en": "That's not the only thing the American economy needs.",
-              "zh": "美国经济需要的并不只有学士学位"
+              "zh": "美国经济所需要的不只有学士学位"
             }
           ],
-          "reorder": "先译并列的两种倾向，再译它们遗漏的事实；anything less 是低于学士层次的教育。",
-          "translation": "但是，一味推动人人攻读学士学位，并在不知不觉中贬低所有较低学历的价值，却忽略了一个重要问题：美国经济需要的并不只有学士学位。",
+          "reorder": "先说一味鼓励读学士、看轻其他路径这两个做法，再说它们忽略了什么。",
+          "translation": "但一味鼓励所有人攻读学士学位，有意无意地看轻其他教育路径，却忽略了一个要点：美国经济所需的人才，并不都要有学士学位。",
           "words": [
             {
               "a": 0,
@@ -3169,7 +3169,7 @@
               "word": "even",
               "lemma": "even",
               "pos": "adv",
-              "meaning": "甚至",
+              "meaning": "与 now 连用表示“即便到今天”，强调比例仍然很高",
               "reviewVersion": 2
             },
             {
@@ -3479,23 +3479,23 @@
               "a": 16,
               "b": 95,
               "en": "at a time when the working class has turned the country on its political head, ",
-              "zh": "当工人阶级已颠覆全国政治格局之时"
+              "zh": "在工人阶级已改变全国政治格局之时"
             },
             {
               "a": 95,
               "b": 167,
               "en": "frustrated that the opportunity that once defined America is vanishing, ",
-              "zh": "他们因曾经界定美国特色的机会正在消失而感到失望"
+              "zh": "他们因曾是美国一大特色的向上发展机会正在消失而感到挫败"
             },
             {
               "a": 167,
               "b": 214,
               "en": "one obvious solution is staring us in the face.",
-              "zh": "一个显而易见的解决办法就摆在眼前"
+              "zh": "一个显而易见的办法就摆在我们眼前"
             }
           ],
           "reorder": "先译当下背景，将 frustrated 的原因接到工人阶级之后；最后回到主句的解决办法。",
-          "translation": "换句话说，工人阶级因曾经界定美国特色的机会正在消失而感到失望，并已颠覆全国政治格局；就在此时，一个显而易见的解决办法正摆在我们面前。",
+          "translation": "换句话说，曾是美国一大特色的向上发展机会正在消失，工人阶级对此深感挫败，并颠覆了这个国家的政治格局。此时，一个显而易见的办法就摆在我们眼前。",
           "words": [
             {
               "a": 0,
@@ -3719,7 +3719,7 @@
               "word": "defined",
               "lemma": "define",
               "pos": "v",
-              "meaning": "定义；界定",
+              "meaning": "构成……的重要特征；使……具有鲜明特色",
               "reviewVersion": 2
             },
             {
@@ -3902,7 +3902,7 @@
               "word": "is",
               "lemma": "be",
               "pos": "v",
-              "meaning": "是；处于所述状态",
+              "meaning": "与 there 构成“有；存在”，这里表示蓝领岗位存在缺口",
               "reviewVersion": 2
             },
             {

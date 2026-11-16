@@ -153,6 +153,24 @@ def merge(path, articles):
             (READING / (a['id'] + '.json')).write_text(json.dumps(a, ensure_ascii=False, indent=2) + '\n')
     return touched
 
+def build_keyword_marks(articles):
+    source = ROOT / 'reference/reading-keyword-marks.json'
+    if not source.is_file():
+        return
+    marks = json.loads(source.read_text())
+    exact = {a['id']: {s['id']: {w['a'] for w in s['words']}
+                       for p in a['paragraphs'] for s in p['sentences']} for a in articles}
+    assert set(marks) == {a for a in exact if int(a[:4]) <= 2024}, 'Keyword marks must cover the reference editions'
+    for ident, refs in marks.items():
+        seen = set()
+        for sid, at in refs:
+            assert at in exact[ident].get(sid, set()), f'{sid}: keyword does not match a verified word start'
+            assert (sid, at) not in seen, f'{sid}: duplicate keyword at {at}'
+            seen.add((sid, at))
+    payload = json.dumps(marks, separators=(',', ':'))
+    (ROOT / 'public/english/js/reading-keywords-data.js').write_text('window.EnglishReadingKeywords = ' + payload + ';\n')
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--extract', action='store_true')
@@ -185,6 +203,7 @@ def main():
         revision = hashlib.sha256(payload.encode()).hexdigest()[:12]
         (BROWSER / (a['id'] + '.js')).write_text('window.EnglishReadingFiles = window.EnglishReadingFiles || {};\nwindow.EnglishReadingFiles[' + json.dumps(a['id']) + '] = ' + payload + ';\n')
         manifest.append({'id': a['id'], 'exam': a['exam'], 'text': a['text'], 'articleKey': a['articleKey'], 'source': a['source']['status'], 'sentences': len(ss), 'reviewed': ready, 'fullWordAudit': bool(a.get('auditV2')), 'revision': revision})
+    build_keyword_marks(articles)
     audits = [a for a in articles if a.get('auditV2')]
     report = {'articles': len(articles), 'sentences': total, 'reviewedSentences': reviewed, 'verifiedArticles': sum(a['source']['status'] == 'verified' for a in articles),
               'fullAuditArticles': len(audits), 'fullAuditSentences': sum(a['auditV2']['sentences'] for a in audits),

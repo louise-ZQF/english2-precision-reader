@@ -756,17 +756,17 @@
               "a": 0,
               "b": 14,
               "en": "Then there is ",
-              "zh": "此外，还有这样一个因素"
+              "zh": "此外还有一个因素"
             },
             {
               "a": 14,
               "b": 55,
               "en": "the scale of the typical housing project.",
-              "zh": "典型住房项目的规模"
+              "zh": "那就是一般住宅项目的规模（下句说明相对较小）"
             }
           ],
           "reorder": "there is 引出另一项原因，译成规模因素即可。",
-          "translation": "此外，还有典型住房项目的规模这个因素。",
+          "translation": "另一个因素是，一般住宅项目的规模不够大。",
           "words": [
             {
               "a": 0,
@@ -1273,7 +1273,7 @@
               "word": "politically",
               "lemma": "politically",
               "pos": "adv",
-              "meaning": "在政治层面；涉及政治地",
+              "meaning": "在政治上；politically charged 指充满政治争议",
               "reviewVersion": 2
             },
             {
@@ -1660,7 +1660,7 @@
               "word": "spending",
               "lemma": "spending",
               "pos": "n",
-              "meaning": "政府支出",
+              "meaning": "开支；这里指接受全面审查的政府支出",
               "reviewVersion": 2
             },
             {
@@ -1669,7 +1669,7 @@
               "word": "review",
               "lemma": "review",
               "pos": "n",
-              "meaning": "综合支出审查；政策检讨",
+              "meaning": "审查；spending review 是政府对公共开支的审查",
               "reviewVersion": 2
             },
             {
@@ -1763,7 +1763,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 18,
+              "b": 33,
+              "word": "spending review",
+              "lemma": "spending review",
+              "meaning": "政府支出审查",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
@@ -1776,7 +1785,7 @@
             "note": "review为政府支出审查非书评，机会给政府纠正住房短缺。",
             "sentenceSHA256": "8466e53bdcc2c76b940885eb9c575b89d71de3aca892dc9efd9068bcd0cacf4f",
             "words": 14,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },
@@ -2515,7 +2524,7 @@
               "word": "stock",
               "lemma": "stock",
               "pos": "n",
-              "meaning": "存量；既有住房",
+              "meaning": "存量；housing stock 指地方政府现有的住房",
               "reviewVersion": 2
             },
             {
@@ -2828,7 +2837,7 @@
               "a": 30,
               "b": 84,
               "en": "creating greater certainty in the rental environment, ",
-              "zh": "提高租赁环境的稳定可预期性"
+              "zh": "让住房租赁市场更稳定、更可预期"
             },
             {
               "a": 84,
@@ -2840,23 +2849,23 @@
               "a": 122,
               "b": 161,
               "en": "on the ability of registered providers ",
-              "zh": "作用于注册住房提供机构的能力"
+              "zh": "影响注册住房机构是否有能力"
             },
             {
               "a": 161,
               "b": 186,
               "en": "to fund new developments ",
-              "zh": "为新开发项目筹资建设"
+              "zh": "资助新的住房项目"
             },
             {
               "a": 186,
               "b": 200,
               "en": "from revenues.",
-              "zh": "利用经营收入"
+              "zh": "资金来自自己的经营收入"
             }
           ],
           "reorder": "把 on 范围接在“影响”后，to fund 和 from revenues 合并为利用收入筹资的能力。",
-          "translation": "各位大臣还应考虑提高租赁环境的稳定可预期性，这将显著影响注册住房提供机构利用经营收入为新开发项目筹资的能力。",
+          "translation": "各位大臣还应想办法让住房租赁市场更稳定、更可预期。这会大大影响注册住房机构能否用自己的经营收入资助新的住房项目。",
           "words": [
             {
               "a": 0,
@@ -3089,7 +3098,7 @@
               "word": "fund",
               "lemma": "fund",
               "pos": "v",
-              "meaning": "为……提供资金；融资建设",
+              "meaning": "为……提供资金；这里指注册住房机构用经营收入为新项目出资",
               "reviewVersion": 2
             },
             {
@@ -4351,19 +4360,19 @@
               "a": 73,
               "b": 96,
               "en": "the very pressing need ",
-              "zh": "这种非常迫切的需求"
+              "zh": "非常迫切的需求"
             },
             {
               "a": 96,
               "b": 124,
               "en": "for more affordable housing ",
-              "zh": "针对更多可负担住房"
+              "zh": "要求有更多可负担住房"
             },
             {
               "a": 124,
               "b": 132,
               "en": "is real ",
-              "zh": "是真实存在的"
+              "zh": "确实存在"
             },
             {
               "a": 132,
@@ -4373,7 +4382,7 @@
             }
           ],
           "reorder": "把 for 需求对象放到“迫切需求”前，while 与主句保留让步。",
-          "translation": "虽然政府对长期资金支持的承诺可能已经改变，但对更多可负担住房的迫切需求是真实存在的，而且不会消失。",
+          "translation": "政府对长期拨款的承诺或许变了，但增加可负担住房供应的需求仍十分迫切，而且不会消失。",
           "words": [
             {
               "a": 0,

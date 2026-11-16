@@ -2429,29 +2429,29 @@
               "a": 81,
               "b": 129,
               "en": "that damage habitat as part of their operations ",
-              "zh": "如果在经营过程中破坏了栖息地"
+              "zh": "凡是在经营中破坏栖息地的"
             },
             {
               "a": 129,
               "b": 148,
               "en": "to pay into a fund ",
-              "zh": "就向一项基金缴款"
+              "zh": "都要向基金缴款"
             },
             {
               "a": 148,
               "b": 180,
               "en": "to replace every acre destroyed ",
-              "zh": "每破坏一英亩栖息地"
+              "zh": "用来弥补每一英亩被破坏的栖息地"
             },
             {
               "a": 180,
               "b": 217,
               "en": "with 2 new acres of suitable habitat.",
-              "zh": "便以两英亩新的适宜栖息地作补偿"
+              "zh": "每一英亩以两英亩新的适宜栖息地补偿"
             }
           ],
           "reorder": "先交代计划的制定者；把 that 限定的经营破坏行为改成条件，to replace 展开为缴款的用途。",
-          "translation": "这项由该局与各州协商制定的计划要求，在经营过程中破坏栖息地的个人和企业向一项基金缴款，用于按每破坏一英亩就补偿两英亩新适宜栖息地的标准进行恢复。",
+          "translation": "美国鱼类及野生动物管理局和各州协商制定了这项计划。计划要求，个人或企业在经营中破坏栖息地，就必须向基金缴款，用于按每破坏一英亩就补建两英亩适宜栖息地的标准进行补偿。",
           "words": [
             {
               "a": 0,
@@ -2648,7 +2648,7 @@
               "word": "pay",
               "lemma": "pay",
               "pos": "v",
-              "meaning": "付费",
+              "meaning": "缴纳款项（pay into a fund：向基金缴款）",
               "reviewVersion": 2
             },
             {
@@ -3224,23 +3224,23 @@
               "a": 0,
               "b": 76,
               "en": "And it gives the Western Association of Fish and Wildlife Agencies (WAFWA), ",
-              "zh": "计划还将任务交给西部鱼类及野生动物机构协会"
+              "zh": "计划还把任务交给西部鱼类与野生动物机构协会（WAFWA）"
             },
             {
               "a": 76,
               "b": 107,
               "en": "a coalition of state agencies, ",
-              "zh": "这是一个由各州机构组成的联盟"
+              "zh": "一个由各州机构组成的联盟"
             },
             {
               "a": 107,
               "b": 138,
               "en": "the job of monitoring progress.",
-              "zh": "任务是监测进展"
+              "zh": "任务是监督进展"
             }
           ],
           "reorder": "it 指计划；先译受托机构，再将较短的“监测进展”接到“任务”处，同位语单独交代。",
-          "translation": "计划还将监测进展的任务交给西部鱼类及野生动物机构协会，这是一家由各州机构组成的联盟。",
+          "translation": "计划还把监督进展的任务交给西部鱼类与野生动物机构协会，即由西部各州相关机构组成的联盟。",
           "words": [
             {
               "a": 0,

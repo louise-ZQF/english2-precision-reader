@@ -100,7 +100,7 @@
               "a": 0,
               "b": 31,
               "en": "That's a mild and detached way ",
-              "zh": "这是一种温和而超然的说法，"
+              "zh": "这是一种温和、保持距离的说法，"
             },
             {
               "a": 31,
@@ -122,7 +122,7 @@
             }
           ],
           "reorder": "that 修饰 something；先译“同一情况”，再比较作者与父母的措辞。",
-          "translation": "这是对某种情况一种温和而超然的说法，而父母谈起同样的情况，措辞往往激烈得多。",
+          "translation": "这话说得比较温和，也比较客观；父母谈到同样的情况时，措辞往往要激烈得多。",
           "words": [
             {
               "a": 0,
@@ -265,7 +265,7 @@
               "word": "stronger",
               "lemma": "strong",
               "pos": "adj",
-              "meaning": "更激烈的",
+              "meaning": "更重的、更激烈的；指家长表达时的措辞更强烈",
               "reviewVersion": 2
             },
             {
@@ -306,17 +306,17 @@
               "a": 0,
               "b": 30,
               "en": "But the paradox is scientific ",
-              "zh": "但这种矛盾也有科学依据，"
+              "zh": "但这种矛盾也是一个科学问题，"
             },
             {
               "a": 30,
               "b": 50,
               "en": "as well as personal.",
-              "zh": "并不只是个人感受。"
+              "zh": "不只是个人的切身体验。"
             }
           ],
           "reorder": "as well as 同时肯定两者，中文用“既……也……”或“不只是……也……”衔接。",
-          "translation": "但这种矛盾不仅是个人感受，也有科学依据。",
+          "translation": "但这种矛盾不只关乎父母的切身体验，也是一个科学问题。",
           "words": [
             {
               "a": 0,
@@ -360,7 +360,7 @@
               "word": "scientific",
               "lemma": "scientific",
               "pos": "adj",
-              "meaning": "有科学依据的",
+              "meaning": "涉及科学研究的；是一个科学问题",
               "reviewVersion": 2
             },
             {
@@ -1906,13 +1906,13 @@
               "a": 0,
               "b": 58,
               "en": "The researchers studied \"prosocial\" and rebellious traits ",
-              "zh": "研究人员考察了“亲社会”与叛逆特征，"
+              "zh": "研究人员考察了“亲社会”和叛逆这两类特征，"
             },
             {
               "a": 58,
               "b": 102,
               "en": "in more than 200 children and young adults, ",
-              "zh": "对象是200多名儿童及年轻成年人，"
+              "zh": "对象是200多名儿童和年轻人，"
             },
             {
               "a": 102,
@@ -1922,7 +1922,7 @@
             }
           ],
           "reorder": "把研究对象及年龄放在考察前；prosocial 与 rebellious 为两类特征。",
-          "translation": "研究人员以200多名11至28岁的儿童和年轻成年人为对象，考察他们的“亲社会”与叛逆特征。",
+          "translation": "研究人员考察了200多名11至28岁的儿童和年轻人的两类特征：亲社会倾向以及叛逆倾向。",
           "words": [
             {
               "a": 0,
@@ -2056,7 +2056,7 @@
               "word": "ranging",
               "lemma": "range",
               "pos": "v",
-              "meaning": "范围从……到……",
+              "meaning": "年龄在……之间；后接 from 11 to 28",
               "reviewVersion": 2
             },
             {
@@ -2743,7 +2743,7 @@
               "word": "grow",
               "lemma": "grow",
               "pos": "v",
-              "meaning": "逐渐变得",
+              "meaning": "逐渐变得；grow older 指年龄渐长",
               "reviewVersion": 2
             },
             {
@@ -2764,6 +2764,14 @@
               "lemma": "fade away",
               "meaning": "逐渐减少；逐渐消退",
               "kind": "phrase"
+            },
+            {
+              "a": 112,
+              "b": 122,
+              "word": "grow older",
+              "lemma": "grow older",
+              "meaning": "年纪渐长",
+              "kind": "phrase"
             }
           ],
           "reviewedAt": "2026-10-31",
@@ -2778,7 +2786,7 @@
             "note": "两个as随年龄阶段，先上升后消退；have shown是完成时非拥有。",
             "sentenceSHA256": "497600da46a0ab79b9dfd63f185ddb9a07e1e9901deb4527a9cc66fe8c69e571",
             "words": 21,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         },
@@ -3259,7 +3267,7 @@
               "word": "significantly",
               "lemma": "significantly",
               "pos": "adv",
-              "meaning": "重要地（most significantly意为最重要的是）",
+              "meaning": "重要的是（most significantly：最重要的是）",
               "reviewVersion": 2
             },
             {
@@ -4261,7 +4269,7 @@
               "word": "outweigh",
               "lemma": "outweigh",
               "pos": "v",
-              "meaning": "超过；足以抵偿",
+              "meaning": "超过；这里指获得的好处大到足以抵过所冒的风险",
               "reviewVersion": 2
             },
             {
@@ -5020,7 +5028,7 @@
               "word": "outweigh",
               "lemma": "outweigh",
               "pos": "v",
-              "meaning": "超过；足以抵偿",
+              "meaning": "比……更值得；这里是拿聚会可能带来的惊喜与出门要费的劲作比较",
               "reviewVersion": 2
             },
             {

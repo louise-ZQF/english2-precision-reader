@@ -671,23 +671,23 @@
               "a": 0,
               "b": 40,
               "en": "And after going to school for 12 years, ",
-              "zh": "而且，在上了十二年学后"
+              "zh": "而且，在上了十二年学之后，"
             },
             {
               "a": 40,
               "b": 80,
               "en": "it doesn't feel natural to spend a year ",
-              "zh": "花上一整年时间"
+              "zh": "花一整年……会让人觉得不习惯"
             },
             {
               "a": 80,
               "b": 116,
               "en": "doing something that isn't academic.",
-              "zh": "去做与学业无关的事，感觉不太自然"
+              "zh": "去做与学业无关的事"
             }
           ],
-          "reorder": "把真正主语的不定式内容放到“感觉不自然”前；isn't academic 指非学业活动。",
-          "translation": "而且，在上了十二年学后，花上一整年时间去做与学业无关的事，感觉不太自然。",
+          "reorder": "先说“花一整年去做与学业无关的事”，再说“让人觉得不习惯”。",
+          "translation": "而且，上了十二年学之后，突然花一整年去做与学业无关的事，难免觉得不习惯。",
           "words": [
             {
               "a": 0,
@@ -785,7 +785,7 @@
               "word": "natural",
               "lemma": "natural",
               "pos": "a",
-              "meaning": "自然的；习惯的",
+              "meaning": "自然的；合乎习惯的",
               "reviewVersion": 2
             },
             {
@@ -2079,7 +2079,7 @@
               "word": "back",
               "lemma": "back",
               "pos": "adv",
-              "meaning": "晚一些；推迟（stay back）",
+              "meaning": "落后；在 pull students back 中指拖慢学生的发展",
               "reviewVersion": 2
             },
             {
@@ -2885,7 +2885,7 @@
               "word": "off",
               "lemma": "off",
               "pos": "adv",
-              "meaning": "暂停常规学习（一年）；休离",
+              "meaning": "暂停正常的学习安排（take a year off：休学或暂缓入学一年）",
               "reviewVersion": 2
             },
             {
@@ -4454,7 +4454,7 @@
               "word": "things",
               "lemma": "thing",
               "pos": "n",
-              "meaning": "事物",
+              "meaning": "事情；此处指自己接下来的打算",
               "reviewVersion": 2
             },
             {
@@ -4463,7 +4463,7 @@
               "word": "out",
               "lemma": "out",
               "pos": "adv",
-              "meaning": "弄明白（figure out）；开始（start out）",
+              "meaning": "与 figure 连用，表示想明白某件事；宾语 things 插在中间",
               "reviewVersion": 2
             },
             {

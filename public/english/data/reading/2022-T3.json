@@ -92,7 +92,7 @@
               "word": "them",
               "lemma": "they",
               "pos": "pron",
-              "meaning": "他们；它们（宾格）",
+              "meaning": "这些设计套路（下文称为 dark patterns）",
               "reviewVersion": 2
             },
             {
@@ -1602,11 +1602,11 @@
               "a": 79,
               "b": 131,
               "en": "that about one in 10 employs these design practices.",
-              "zh": "约十分之一采用了这些设计手法。"
+              "zh": "约十分之一的网站使用这些设计手法。"
             }
           ],
-          "reorder": "时间与研究范围保持在前；that 后是研究结果，one in 10 为十分之一。",
-          "translation": "2019年，研究人员调查了5.3万个产品页面和1.1万个网站，发现约十分之一采用了这些设计手法。",
+          "reorder": "先交代研究时间和范围，再译 that 后的结果；one in 10 指大约每十个网站中有一个。",
+          "translation": "2019年，研究人员调查了5.3万个产品页面和1.1万个网站，发现大约每十个网站就有一个使用这些设计手法。",
           "words": [
             {
               "a": 0,
@@ -2388,7 +2388,7 @@
               "a": 42,
               "b": 85,
               "en": "with IT, compliance, risk, and legal teams ",
-              "zh": "与信息技术、合规、风险和法律团队，"
+              "zh": "与信息技术、合规、风控及法律团队，"
             },
             {
               "a": 85,
@@ -2418,11 +2418,11 @@
               "a": 284,
               "b": 352,
               "en": "responsible for sign-ups, checkout baskets, pricing, and promotions.",
-              "zh": "他们负责注册、结账购物篮、定价和促销。"
+              "zh": "他们负责注册、购物车结账、定价和促销。"
             }
           ],
           "reorder": "把 with 团队放到“沟通”前；include 后的长宾语分别按“职责＋人员”理解，两个 responsible for 各有对应对象。",
-          "translation": "企业应与信息技术、合规、风险和法律团队沟通，审查隐私政策；还应让负责公司用户界面的客户／用户体验设计师、程序员，以及负责注册、结账购物篮、定价和促销的营销与广告人员参与讨论。",
+          "translation": "企业应与信息技术、合规、风控和法律团队一起审查自己的隐私政策。参与讨论的还应包括负责公司用户界面的客户体验或用户体验设计师和程序员，以及负责注册、购物车结账、定价和促销的营销及广告人员。",
           "words": [
             {
               "a": 0,
@@ -2502,7 +2502,7 @@
               "word": "risk",
               "lemma": "risk",
               "pos": "n",
-              "meaning": "风险",
+              "meaning": "风险管理（risk team：风控团队）",
               "reviewVersion": 2
             },
             {
@@ -3649,7 +3649,7 @@
               "word": "seeking",
               "lemma": "seek",
               "pos": "v",
-              "meaning": "寻求",
+              "meaning": "试图；seeking to exercise 指想要行使数据隐私权",
               "reviewVersion": 2
             },
             {

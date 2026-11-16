@@ -2617,7 +2617,7 @@
             if (!key) return;
             const previous = state.words[key];
             state.words[key] = Object.assign({}, previous || {}, info || {}, {
-                word, addedAt: previous ? previous.addedAt : Date.now(), examId: state.activeExamId
+                word, addedAt: previous ? previous.addedAt : Date.now(), examId: (info && info.examId) || state.activeExamId
             });
             saveWords(); updateWordCount(); renderWordList();
             document.querySelectorAll('#examContent [data-word]').forEach(span => {

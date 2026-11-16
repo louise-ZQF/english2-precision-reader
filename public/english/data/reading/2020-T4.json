@@ -488,7 +488,7 @@
               "word": "streets",
               "lemma": "street",
               "pos": "n",
-              "meaning": "街道（外出求职的比喻）",
+              "meaning": "街头；此处 hit the streets 指走出去找工作",
               "reviewVersion": 2
             },
             {
@@ -614,7 +614,7 @@
               "word": "decades",
               "lemma": "decade",
               "pos": "n",
-              "meaning": "十年；几十年",
+              "meaning": "几十年（in decades：几十年来）",
               "reviewVersion": 2
             }
           ],
@@ -1200,8 +1200,8 @@
               "b": 111,
               "word": "those",
               "lemma": "those",
-              "pos": "a",
-              "meaning": "那些",
+              "pos": "pron",
+              "meaning": "那些先进入职场的人；职场前辈",
               "reviewVersion": 2
             },
             {
@@ -1219,7 +1219,7 @@
               "word": "came",
               "lemma": "come",
               "pos": "v",
-              "meaning": "先前来到（这里指前辈）",
+              "meaning": "进入；到来（those who came before them：比他们早进入职场的人）",
               "reviewVersion": 2
             },
             {
@@ -2052,7 +2052,7 @@
               "word": "crash",
               "lemma": "crash",
               "pos": "n",
-              "meaning": "经济崩溃；金融危机",
+              "meaning": "经济崩盘；这里特指2008年金融危机",
               "reviewVersion": 2
             },
             {
@@ -2829,17 +2829,17 @@
               "a": 32,
               "b": 80,
               "en": "that 88 percent of graduating seniors this year ",
-              "zh": "今年毕业的大学四年级学生中，88%"
+              "zh": "今年毕业的大四学生中有88%"
             },
             {
               "a": 80,
               "b": 117,
               "en": "chose their major with a job in mind.",
-              "zh": "选择专业时考虑了今后找工作"
+              "zh": "当初选专业时就考虑过毕业后的工作"
             }
           ],
           "reorder": "无需调序。",
-          "translation": "埃森哲的一项调查发现，今年毕业的大学四年级学生中，88%选择专业时考虑了今后找工作。",
+          "translation": "埃森哲的一项调查发现，今年毕业的学生中，有88%当初选专业时就考虑过毕业后的工作。",
           "words": [
             {
               "a": 0,

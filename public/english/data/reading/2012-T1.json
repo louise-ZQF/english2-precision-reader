@@ -449,6 +449,14 @@
           ],
           "phrases": [
             {
+              "a": 0,
+              "b": 16,
+              "word": "School districts",
+              "lemma": "school district",
+              "meaning": "学区；这里指管理当地学校的行政单位",
+              "kind": "phrase"
+            },
+            {
               "a": 37,
               "b": 50,
               "word": "most recently",
@@ -469,7 +477,7 @@
             "note": "学区插入例子与重新思考的主干区分，educational ritual为惯例非宗教仪式。",
             "sentenceSHA256": "fef225d9ab59baac4ebed6cb2611e711ef5c71aa9e3c26795965f7d2a701aefe",
             "words": 18,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         },
@@ -1439,7 +1447,7 @@
               "a": 0,
               "b": 61,
               "en": "But if the district is essentially giving a pass to students ",
-              "zh": "但如果学区实际上是在放过某些学生"
+              "zh": "但如果学区实际上是让某些学生过关"
             },
             {
               "a": 61,
@@ -1451,17 +1459,17 @@
               "a": 127,
               "b": 172,
               "en": "it is going riskily close to the implication ",
-              "zh": "这就危险地接近于暗示"
+              "zh": "就几乎等于在暗示"
             },
             {
               "a": 172,
               "b": 224,
               "en": "that standards need to be lowered for poor children.",
-              "zh": "应该为贫困儿童降低要求"
+              "zh": "应该对贫困孩子降低要求"
             }
           ],
           "reorder": "把 who 后的原因和行为放在“学生”前；it 指学区这样做，不是学生。",
-          "translation": "但如果学区实际上是在放过那些因家庭情况复杂而不做作业的学生，这就危险地接近于暗示：应该为贫困儿童降低要求。",
+          "translation": "但如果学区实际上是让家庭情况复杂的学生不做作业也照样过关，就很容易让人以为应该对贫困孩子降低要求。",
           "words": [
             {
               "a": 0,
@@ -1704,7 +1712,7 @@
               "word": "close",
               "lemma": "close",
               "pos": "a",
-              "meaning": "接近的",
+              "meaning": "接近；这里指这项规定几乎等于在暗示应该降低要求",
               "reviewVersion": 2
             },
             {
@@ -2489,7 +2497,7 @@
               "word": "well",
               "lemma": "well",
               "pos": "adv",
-              "meaning": "as well as中的成分，整体为除了……还",
+              "meaning": "好；在 do well / performed well 中都指考试表现好",
               "reviewVersion": 2
             },
             {
@@ -2624,7 +2632,7 @@
               "word": "well",
               "lemma": "well",
               "pos": "adv",
-              "meaning": "as well as中的成分，整体为除了……还",
+              "meaning": "好；在 do well / performed well 中都指考试表现好",
               "reviewVersion": 2
             },
             {
@@ -2691,7 +2699,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 20,
+              "b": 30,
+              "word": "do well on",
+              "lemma": "do well on",
+              "meaning": "在……中表现好；这里指在州统考中考得好",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
@@ -2704,7 +2721,7 @@
             "note": "州统考表现和完成作业两项同时成立的学生被提问，what about反问保留。",
             "sentenceSHA256": "c8bb4b93c15166bd37fd931a5e2dc31e4c1539bcb6db6dbd911edcd4bfe63036",
             "words": 27,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },

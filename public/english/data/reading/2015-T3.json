@@ -38,35 +38,35 @@
               "a": 0,
               "b": 29,
               "en": "Even in traditional offices, ",
-              "zh": "即使在传统办公室里，"
+              "zh": "即使在传统办公室里"
             },
             {
               "a": 29,
               "b": 69,
               "en": "“the lingua franca of corporate America ",
-              "zh": "“美国企业界的通用语言，"
+              "zh": "美国企业界的通用语言"
             },
             {
               "a": 69,
               "b": 128,
               "en": "has gotten much more emotional and much more right-brained ",
-              "zh": "也变得更加感性、更加‘右脑化’，"
+              "zh": "也变得更感性、更注重直觉和想象"
             },
             {
               "a": 128,
               "b": 155,
               "en": "than it was 20 years ago,” ",
-              "zh": "比20年前更为如此，”"
+              "zh": "与20年前相比"
             },
             {
               "a": 155,
               "b": 206,
               "en": "said Harvard Business School professor Nancy Koehn.",
-              "zh": "哈佛商学院教授南希·科恩说。"
+              "zh": "哈佛商学院教授南希·科恩说"
             }
           ],
-          "reorder": "将说话人提前；right-brained 为原文对感性直觉语言的比喻，不解释成严格脑科学结论。",
-          "translation": "哈佛商学院教授南希·科恩说，即使在传统办公室里，“美国企业界的通用语言也比20年前更加感性、更加‘右脑化’”。",
+          "reorder": "先交代说话人，再把“与20年前相比”移到“更感性”前。",
+          "translation": "哈佛商学院教授南希·科恩说，即使在传统办公室里，“美国企业界的通用语言也比20年前更感性，更注重直觉和想象”。",
           "words": [
             {
               "a": 0,
@@ -74,7 +74,7 @@
               "word": "Even",
               "lemma": "even",
               "pos": "adv",
-              "meaning": "甚至",
+              "meaning": "即使；带出让步（即使在传统办公室里）",
               "reviewVersion": 2
             },
             {
@@ -1038,7 +1038,7 @@
               "word": "out",
               "lemma": "out",
               "pos": "adv",
-              "meaning": "出来（point out/figure out中的小品词）",
+              "meaning": "与 point 连用构成 point out，表示指出",
               "reviewVersion": 2
             },
             {
@@ -2127,7 +2127,7 @@
               "word": "out",
               "lemma": "out",
               "pos": "adv",
-              "meaning": "出来（point out/figure out中的小品词）",
+              "meaning": "与 point 连用构成 point out，表示指出",
               "reviewVersion": 2
             },
             {
@@ -2540,29 +2540,29 @@
               "a": 0,
               "b": 39,
               "en": "This new focus on personal fulfillment ",
-              "zh": "这种对个人满足感的新重视，"
+              "zh": "如今开始重视个人能否在工作中获得满足感"
             },
             {
               "a": 39,
               "b": 73,
               "en": "can help keep employees motivated ",
-              "zh": "能够帮助员工保持工作积极性，"
+              "zh": "这有助于员工保持工作热情"
             },
             {
               "a": 73,
               "b": 104,
               "en": "amid increasingly loud debates ",
-              "zh": "在日趋激烈的讨论中，"
+              "zh": "在讨论越来越热烈的背景下"
             },
             {
               "a": 104,
               "b": 127,
               "en": "over work-life balance.",
-              "zh": "讨论的是工作与生活的平衡。"
+              "zh": "讨论的是如何平衡工作与生活"
             }
           ],
-          "reorder": "把 amid 的讨论背景放句首；over 修饰 debates；不是让员工在“激烈争论中工作”。",
-          "translation": "随着工作与生活平衡问题的讨论日趋激烈，这种对个人满足感的新重视，有助于员工保持工作积极性。",
+          "reorder": "先译 amid 引出的背景，并把 over work-life balance 放到“讨论”前。",
+          "translation": "关于如何平衡工作与生活的讨论越来越热烈。在这样的背景下，如今对个人能否在工作中获得满足感的重视，有助于员工保持工作热情。",
           "words": [
             {
               "a": 0,
@@ -2904,7 +2904,7 @@
               "word": "prompting",
               "lemma": "prompt",
               "pos": "v",
-              "meaning": "引发；促使",
+              "meaning": "引发（争论等）",
               "reviewVersion": 2
             },
             {
@@ -3203,29 +3203,29 @@
               "a": 0,
               "b": 63,
               "en": "Terms like unplug, offline, life-hack, bandwidth, and capacity ",
-              "zh": "“断开连接”“离线”“生活妙招”“带宽”“承受能力”等说法，"
+              "zh": "“断开连接”“离线”“生活妙招”“带宽”（能投入多少精力）和“承受能力”等说法"
             },
             {
               "a": 63,
               "b": 77,
               "en": "are all about ",
-              "zh": "全都围绕，"
+              "zh": "讲的都是"
             },
             {
               "a": 77,
               "b": 96,
               "en": "setting boundaries ",
-              "zh": "划定界限，"
+              "zh": "如何划出界限"
             },
             {
               "a": 96,
               "b": 128,
               "en": "between the office and the home.",
-              "zh": "在工作和家庭之间。"
+              "zh": "在工作和家庭之间"
             }
           ],
           "reorder": "把 between 的双方放到界限前；bandwidth 与 capacity 在此借指可投入的精力或承受能力。",
-          "translation": "“断开连接”“离线”“生活妙招”“带宽”“承受能力”等说法，都围绕如何在工作与家庭之间划清界限。",
+          "translation": "“断开连接”“离线”“生活妙招”“带宽”（能投入多少精力）和“承受能力”等说法，讲的都是如何在工作和家庭之间划出界限。",
           "words": [
             {
               "a": 0,
@@ -4085,7 +4085,7 @@
               "word": "willingly",
               "lemma": "willingly",
               "pos": "adv",
-              "meaning": "心甘情愿地",
+              "meaning": "乐于；出于自愿",
               "reviewVersion": 2
             },
             {
@@ -4626,7 +4626,7 @@
               "word": "out",
               "lemma": "out",
               "pos": "adv",
-              "meaning": "出来（point out/figure out中的小品词）",
+              "meaning": "在 figure out 中表示把事情想明白、弄清楚",
               "reviewVersion": 2
             },
             {

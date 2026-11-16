@@ -754,7 +754,7 @@
               "word": "features",
               "lemma": "feature",
               "pos": "n",
-              "meaning": "产品功能",
+              "meaning": "功能；指两款应用中被微软纳入自家产品的功能",
               "reviewVersion": 2
             },
             {
@@ -828,17 +828,17 @@
               "a": 36,
               "b": 78,
               "en": "making them two of the many “ acqui-hires”",
-              "zh": "使这两次收购成为众多“为人才而收购”的案例中的两个"
+              "zh": "因此这两笔交易成了众多“收购只为招人”的典型例子"
             },
             {
               "a": 78,
               "b": 158,
               "en": "that the biggest companies have used to feed their great hunger for tech talent.",
-              "zh": "大公司借此满足对技术人才的巨大需求"
+              "zh": "大型公司借这种方式招揽亟需的技术人才"
             }
           ],
           "reorder": "无需调序。",
-          "translation": "两款应用的工程师团队留了下来，使这两次收购成为众多“为人才而收购”的案例中的两个，大公司借此满足对技术人才的巨大需求。",
+          "translation": "两款应用的工程师都留了下来。这两笔交易也成了大公司“收购只为招人”的例子。大型公司借这种方式招揽亟需的技术人才。",
           "words": [
             {
               "a": 0,
@@ -2946,7 +2946,7 @@
               "a": 48,
               "b": 84,
               "en": "the request has raised the prospect ",
-              "zh": "但这一要求使一种可能性浮现出来"
+              "zh": "但这一信息要求带来一种可能"
             },
             {
               "a": 84,
@@ -2958,11 +2958,11 @@
               "a": 135,
               "b": 179,
               "en": "that until now have been beyond their reach.",
-              "zh": "而这些市场此前一直不在它们的管辖范围内"
+              "zh": "这些市场此前一直是监管机构触及不到的地方"
             }
           ],
           "reorder": "将 that 从句移到“早期科技市场”前。",
-          "translation": "虽然目前这只是一个研究项目，但这一要求意味着，监管机构可能介入此前一直不在其管辖范围内的早期科技市场。",
+          "translation": "虽然目前只是一个调研项目，但这一信息要求意味着：监管机构有可能开始介入此前一直触及不到的早期科技市场。",
           "words": [
             {
               "a": 0,
@@ -3023,8 +3023,8 @@
               "b": 40,
               "word": "this",
               "lemma": "this",
-              "pos": "a",
-              "meaning": "这个；本周",
+              "pos": "det",
+              "meaning": "这个；当前的（at this stage：现阶段）",
               "reviewVersion": 2
             },
             {
@@ -3213,7 +3213,7 @@
               "word": "their",
               "lemma": "their",
               "pos": "pron",
-              "meaning": "他们的；它们的",
+              "meaning": "监管机构的（指此前监管尚触及不到的市场）",
               "reviewVersion": 2
             },
             {
@@ -3461,7 +3461,7 @@
               "word": "less",
               "lemma": "little",
               "pos": "adv",
-              "meaning": "较少地",
+              "meaning": "没那么（less prominent 指不那么引人注目）",
               "reviewVersion": 2
             },
             {
@@ -4370,7 +4370,7 @@
               "word": "businesses",
               "lemma": "business",
               "pos": "n",
-              "meaning": "企业",
+              "meaning": "业务；生意（指潜在竞争对手的业务）",
               "reviewVersion": 2
             },
             {

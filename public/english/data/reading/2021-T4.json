@@ -36,13 +36,13 @@
               "a": 0,
               "b": 64,
               "en": "We're fairly good at judging people based on first impressions, ",
-              "zh": "我们很擅长凭第一印象判断他人"
+              "zh": "我们颇善于凭第一印象判断别人"
             },
             {
               "a": 64,
               "b": 90,
               "en": "thin slices of experience ",
-              "zh": "这些印象来自短暂的经验片段"
+              "zh": "第一印象来自极短的观察"
             },
             {
               "a": 90,
@@ -54,11 +54,11 @@
               "a": 152,
               "b": 210,
               "en": "and deliberation can be not only extraneous but intrusive.",
-              "zh": "而深思熟虑可能不仅多余，还会干扰判断"
+              "zh": "刻意分析不仅可能多余，还可能干扰判断"
             }
           ],
           "reorder": "无需调序。",
-          "translation": "我们很擅长凭第一印象判断他人，这些印象来自短暂的经验片段，比如匆匆看一眼照片或进行五分钟互动；刻意分析反而可能既多余，又干扰判断。",
+          "translation": "我们颇善于凭第一印象判断别人。哪怕只是瞥一眼照片，或是短短五分钟的接触，也能形成这种印象；刻意分析不仅可能多余，还可能干扰判断。",
           "words": [
             {
               "a": 0,
@@ -291,7 +291,7 @@
               "word": "deliberation",
               "lemma": "deliberation",
               "pos": "n",
-              "meaning": "有意识的审慎分析；刻意思考",
+              "meaning": "仔细思量；在这里指刻意分析第一印象",
               "reviewVersion": 2
             },
             {
@@ -336,7 +336,7 @@
               "word": "extraneous",
               "lemma": "extraneous",
               "pos": "a",
-              "meaning": "多余的",
+              "meaning": "没必要的；这里指对判断他人并无帮助的",
               "reviewVersion": 2
             },
             {
@@ -1079,7 +1079,7 @@
               "word": "working",
               "lemma": "working",
               "pos": "a",
-              "meaning": "工作中的（working memory为工作记忆）",
+              "meaning": "与 memory 构成 working memory（工作记忆，指暂存并处理当前信息的能力）",
               "reviewVersion": 2
             },
             {
@@ -1141,11 +1141,11 @@
               "a": 51,
               "b": 97,
               "en": "the intuitive nature of the social processing.",
-              "zh": "这种社交信息处理具有直觉性质。"
+              "zh": "解读这类社交信息靠的是直觉"
             }
           ],
           "reorder": "无需调序。",
-          "translation": "他们的评分同样准确，表明这种社交信息处理具有直觉性质。",
+          "translation": "他们的评分同样准确，可见解读这类社交信息靠的是直觉。",
           "words": [
             {
               "a": 0,
@@ -1261,7 +1261,7 @@
               "word": "social",
               "lemma": "social",
               "pos": "a",
-              "meaning": "社交的",
+              "meaning": "与人际互动有关的；social processing 指解读他人发出的社交信息",
               "reviewVersion": 2
             },
             {
@@ -2106,7 +2106,7 @@
               "word": "they",
               "lemma": "they",
               "pos": "pron",
-              "meaning": "他们；它们（承接本句所指对象）",
+              "meaning": "视频画面里的那两个人",
               "reviewVersion": 2
             },
             {
@@ -2198,17 +2198,17 @@
               "a": 0,
               "b": 74,
               "en": "Other research shows we're better at detecting deception from thin slices ",
-              "zh": "其他研究表明，我们更善于通过短暂片段识别欺骗"
+              "zh": "其他研究发现，只看一小段行为时，我们更善于识破欺骗"
             },
             {
               "a": 74,
               "b": 122,
               "en": "when we rely on intuition instead of reflection.",
-              "zh": "当我们依赖直觉而不是反思时"
+              "zh": "前提是凭直觉判断，而不去反复分析"
             }
           ],
-          "reorder": "将 when 的条件提到“更善于识别”前。",
-          "translation": "其他研究表明，依赖直觉而不是刻意分析时，我们更善于通过短暂片段识别欺骗。",
+          "reorder": "把 when 引出的条件和 instead of 的对比合起来，放到“更容易识破”前。",
+          "translation": "其他研究发现，只看一小段行为时，凭直觉比仔细分析更容易识破欺骗。",
           "words": [
             {
               "a": 0,
@@ -2297,7 +2297,7 @@
               "word": "thin",
               "lemma": "thin",
               "pos": "a",
-              "meaning": "短暂、有限的（经验片段）",
+              "meaning": "极短的；thin slices 指只观察很短的一段行为",
               "reviewVersion": 2
             },
             {
@@ -2306,7 +2306,7 @@
               "word": "slices",
               "lemma": "slice",
               "pos": "n",
-              "meaning": "片段",
+              "meaning": "小段；thin slices 在这里指短暂的行为片段",
               "reviewVersion": 2
             },
             {
@@ -2384,6 +2384,14 @@
           ],
           "phrases": [
             {
+              "a": 62,
+              "b": 73,
+              "word": "thin slices",
+              "lemma": "thin slice",
+              "meaning": "用来作判断的短暂行为片段",
+              "kind": "phrase"
+            },
+            {
               "a": 82,
               "b": 89,
               "word": "rely on",
@@ -2412,7 +2420,7 @@
             "note": "依直觉而非分析时更能识别欺骗，比较受when条件约束。",
             "sentenceSHA256": "4d1282d253add4e9ad144fc3d76c0d626fd0603caca01e08b8ed7a49224627d1",
             "words": 19,
-            "phrases": 2,
+            "phrases": 3,
             "names": 0
           }
         },
@@ -2776,17 +2784,17 @@
               "a": 0,
               "b": 34,
               "en": "But if you go on automatic pilot, ",
-              "zh": "但如果进入自动操作的状态"
+              "zh": "但要是按平时练熟的动作自然地开"
             },
             {
               "a": 34,
               "b": 46,
               "en": "you're fine.",
-              "zh": "你就能应付自如"
+              "zh": "就没问题"
             }
           ],
           "reorder": "无需调序。",
-          "translation": "但如果凭熟练习惯自动操作，你就能应付自如。",
+          "translation": "但要是按平时练熟的动作自然地开，就没问题。",
           "words": [
             {
               "a": 0,
@@ -2839,7 +2847,7 @@
               "word": "automatic",
               "lemma": "automatic",
               "pos": "a",
-              "meaning": "自动的；凭熟练习惯的",
+              "meaning": "自动的（go on automatic pilot：靠练熟的动作自然地做）",
               "reviewVersion": 2
             },
             {
@@ -2952,7 +2960,7 @@
               "word": "social",
               "lemma": "social",
               "pos": "a",
-              "meaning": "社交的",
+              "meaning": "与人际交往有关的；social life 指日常与人打交道",
               "reviewVersion": 2
             },
             {
@@ -3549,8 +3557,8 @@
               "b": 70,
               "word": "better",
               "lemma": "well",
-              "pos": "adv",
-              "meaning": "更好地",
+              "pos": "a",
+              "meaning": "更好的；更合适的（从客观上评价购车决定）",
               "reviewVersion": 2
             },
             {
@@ -4012,17 +4020,17 @@
               "a": 63,
               "b": 155,
               "en": "including four that tapped reflective thinking (discerning rules, comprehending vocabulary) ",
-              "zh": "其中四项考查反思性思维，如识别规则、理解词汇"
+              "zh": "四项考查分析思考，比如找规律、理解词汇"
             },
             {
               "a": 155,
               "b": 248,
               "en": "and four that tapped intuition and creativity (generating new products or figures of speech).",
-              "zh": "另外四项考查直觉和创造力，如构想新产品或修辞表达"
+              "zh": "另外四项考查直觉和创造力，比如构想新产品或想出修辞表达"
             }
           ],
           "reorder": "无需调序。",
-          "translation": "在一项研究中，参与者完成了八项任务，其中四项考查反思性思维，比如识别规则、理解词汇；另外四项考查直觉和创造力，比如构想新产品或修辞表达。",
+          "translation": "一项研究让参与者做了八项任务。四项考查分析思考，比如找规律、理解词汇；另外四项考查直觉和创造力，比如构想新产品或想出修辞表达。",
           "words": [
             {
               "a": 0,
@@ -4147,7 +4155,7 @@
               "word": "tapped",
               "lemma": "tap",
               "pos": "v",
-              "meaning": "需要调用或运用（某种能力）",
+              "meaning": "考查；指题目需要参与者运用分析和推理能力",
               "reviewVersion": 2
             },
             {
@@ -4237,7 +4245,7 @@
               "word": "tapped",
               "lemma": "tap",
               "pos": "v",
-              "meaning": "需要调用或运用（某种能力）",
+              "meaning": "考查；指题目需要参与者运用直觉和创造力",
               "reviewVersion": 2
             },
             {
@@ -4333,6 +4341,14 @@
           ],
           "phrases": [
             {
+              "a": 37,
+              "b": 49,
+              "word": "a battery of",
+              "lemma": "a battery of",
+              "meaning": "一整组；这里指一组用来检验不同能力的任务",
+              "kind": "phrase"
+            },
+            {
               "a": 90,
               "b": 109,
               "lemma": "reflective thinking",
@@ -4361,7 +4377,7 @@
             "note": "battery为一组任务，tapped为调用相应认知能力，四反思四直觉而非电池。",
             "sentenceSHA256": "eb34510aff79fcddfc31d9c7f46de985ad88d71167b9bafdfe4d891fe4ff2118",
             "words": 34,
-            "phrases": 2,
+            "phrases": 3,
             "names": 0
           }
         },

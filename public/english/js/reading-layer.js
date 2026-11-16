@@ -167,6 +167,6 @@
         if (controls) controls.prepend(button); else jumps.before(button);
         apply();
     }
-    window.EnglishReading = { ready, prepareWords, match, paragraph, scope, current, lookup, phrases, setEdit, setWord, exportData, importData, downloadCorrections, decorate, stats: manifest };
+    window.EnglishReading = { load, ready, prepareWords, match, paragraph, scope, current, lookup, phrases, setEdit, setWord, exportData, importData, downloadCorrections, decorate, stats: manifest };
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();

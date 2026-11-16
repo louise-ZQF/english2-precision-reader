@@ -62,11 +62,11 @@
               "a": 151,
               "b": 226,
               "en": "relying on contrived laboratory tests or sometimes unreliable self-reports.",
-              "zh": "因为证据依赖人为设计的实验室测试或有时并不可靠的自我报告。"
+              "zh": "因为依据的是脱离现实的人为实验室情境，或有时并不可靠的自我报告。"
             }
           ],
           "reorder": "if 引出“是否”而非条件；分号后解释不确定的原因，either way 同时涵盖有效和无效两种结论。",
-          "translation": "尽管伦理课在世界各地都很常见，科学家仍不确定它们能否真正改变行为；支持有效或无效的证据都不充分，因为这些证据依赖人为设计的实验室测试，或有时并不可靠的自我报告。",
+          "translation": "虽然世界各地普遍开设伦理课，科学家却不确定上这类课能否真正改变行为。不论是说有效还是无效，证据都不充分，因为它们要么来自人为设定的实验室情境，要么依赖有时并不可靠的自我报告。",
           "words": [
             {
               "a": 0,
@@ -1894,7 +1894,7 @@
               "word": "unknown",
               "lemma": "unknown",
               "pos": "a",
-              "meaning": "不知情的；未知的",
+              "meaning": "未被……知晓的（unknown to the students：学生并不知情）",
               "reviewVersion": 2
             },
             {
@@ -1984,7 +1984,7 @@
               "word": "purchases",
               "lemma": "purchase",
               "pos": "n",
-              "meaning": "消费记录；购买比例",
+              "meaning": "消费记录（餐卡购买记录）",
               "reviewVersion": 2
             },
             {
@@ -2175,7 +2175,7 @@
               "word": "have",
               "lemma": "have",
               "pos": "v",
-              "meaning": "产生；具有（效果）",
+              "meaning": "产生；have no effect 是说不会起作用",
               "reviewVersion": 2
             },
             {
@@ -2594,7 +2594,7 @@
               "word": "purchases",
               "lemma": "purchase",
               "pos": "n",
-              "meaning": "消费记录；购买比例",
+              "meaning": "购买（这里具体看买下的餐食中有肉的比例）",
               "reviewVersion": 2
             },
             {
@@ -2821,7 +2821,7 @@
               "word": "Purchases",
               "lemma": "purchase",
               "pos": "n",
-              "meaning": "消费记录；购买比例",
+              "meaning": "购买比例（仍指买下的餐食中有肉的比例）",
               "reviewVersion": 2
             },
             {
@@ -3374,7 +3374,7 @@
               "word": "unknown",
               "lemma": "unknown",
               "pos": "a",
-              "meaning": "不知情的；未知的",
+              "meaning": "尚未发现的；未知的",
               "reviewVersion": 2
             },
             {
@@ -3453,7 +3453,7 @@
               "a": 24,
               "b": 65,
               "en": "it might be reversible by another nudge: ",
-              "zh": "也可能被另一次轻推式干预逆转："
+              "zh": "这种效果也可能被另一项小小的行为引导抵消："
             },
             {
               "a": 65,
@@ -3463,7 +3463,7 @@
             }
           ],
           "reorder": "先把 she notes 放在句首；if real 保留假设；another nudge 是另一种行为引导。",
-          "translation": "她还指出，即使这种效果真实，也可能被另一次轻推式干预逆转：“来得容易，去得也快。”",
+          "translation": "她指出，即便这种效果确实存在，一点新的行为引导也可能让它消失：“来得容易，去得也快。”",
           "words": [
             {
               "a": 0,
@@ -3570,7 +3570,7 @@
               "word": "nudge",
               "lemma": "nudge",
               "pos": "n",
-              "meaning": "轻推式行为干预",
+              "meaning": "轻微的行为引导；小小的干预",
               "reviewVersion": 2
             },
             {
@@ -3659,7 +3659,7 @@
               "a": 22,
               "b": 70,
               "en": "the greatest impact came from social influence- ",
-              "zh": "最大的影响来自社会影响力——"
+              "zh": "最大的作用来自身边人的影响——"
             },
             {
               "a": 70,
@@ -3677,17 +3677,17 @@
               "a": 128,
               "b": 169,
               "en": "may have shared their own vegetarianism, ",
-              "zh": "可能分享了自己吃素的做法，"
+              "zh": "可能分享了自己吃素的经历，"
             },
             {
               "a": 169,
               "b": 209,
               "en": "showing it as achievable or more common.",
-              "zh": "让学生觉得吃素做得到，或其实更普遍。"
+              "zh": "让学生意识到吃素是做得到的，或比他们原先以为的更常见。"
             }
           ],
           "reorder": "leading 修饰同学或助教；破折号后解释社会影响如何发生；showing it 中 it 指吃素。",
-          "translation": "施维茨格贝尔推测，影响最大的可能是社会影响力：主持讨论的同学或助教可能分享了自己吃素的做法，让学生觉得吃素做得到，或其实比想象中普遍。",
+          "translation": "施维茨格贝尔推测，最能改变学生行为的可能是身边人的影响：带领讨论的同学或助教也许分享了自己吃素的经历，让学生意识到吃素并不难，或比他们原先以为的更常见。",
           "words": [
             {
               "a": 0,

@@ -333,17 +333,17 @@
               "a": 51,
               "b": 69,
               "en": "is sold each year ",
-              "zh": "每年被售出，"
+              "zh": "每年售出，"
             },
             {
               "a": 69,
               "b": 132,
               "en": "but opposition has now spread to the highest gardening circles.",
-              "zh": "但反对声音如今已传到园艺界最高层。"
+              "zh": "但如今连园艺界最有影响力的人士也开始反对。"
             }
           ],
           "reorder": "将每年时间放前；but 转向反对者，不要把 circles 译成圆圈。",
-          "translation": "每年约有800万平方米的塑料草坪售出，但反对声音如今已传到园艺界最高层。",
+          "translation": "每年约售出800万平方米的塑料草坪，但如今连园艺界最有影响力的人士也开始反对使用它。",
           "words": [
             {
               "a": 0,
@@ -468,7 +468,7 @@
               "word": "opposition",
               "lemma": "opposition",
               "pos": "n",
-              "meaning": "反对声音",
+              "meaning": "反对（反对使用人造草坪的人或机构已扩大到园艺界高层）",
               "reviewVersion": 2
             },
             {
@@ -1534,7 +1534,7 @@
               "word": "real",
               "lemma": "real",
               "pos": "a",
-              "meaning": "真实的；天然的",
+              "meaning": "天然的；real grass 指真正种出来的草",
               "reviewVersion": 2
             },
             {
@@ -1615,7 +1615,7 @@
               "word": "supporting",
               "lemma": "support",
               "pos": "v",
-              "meaning": "支持生存",
+              "meaning": "为……提供生存条件；这里指真草给野生动物提供栖息和觅食环境",
               "reviewVersion": 2
             },
             {
@@ -3201,7 +3201,7 @@
               "word": "more",
               "lemma": "more",
               "pos": "adv",
-              "meaning": "更经常地",
+              "meaning": "更常、更多地；说的是用自家花园的次数或程度",
               "reviewVersion": 2
             }
           ],

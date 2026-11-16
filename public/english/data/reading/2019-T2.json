@@ -260,7 +260,7 @@
               "word": "Even",
               "lemma": "even",
               "pos": "adv",
-              "meaning": "与as组成即使在……之时；正当",
+              "meaning": "与 as 合起来表示“就在……的同时，却……”；强调两件事相矛盾",
               "reviewVersion": 2
             },
             {
@@ -1144,7 +1144,7 @@
               "word": "capacity",
               "lemma": "capacity",
               "pos": "n",
-              "meaning": "能力；承载能力",
+              "meaning": "吸收碳的能力（capacity to absorb carbon）",
               "reviewVersion": 2
             },
             {
@@ -1717,11 +1717,11 @@
               "a": 0,
               "b": 49,
               "en": "This temporarily lowers carbon-carrying capacity.",
-              "zh": "这会暂时降低森林的碳承载能力"
+              "zh": "这会暂时降低森林的储碳能力"
             }
           ],
           "reorder": "顺译，This 指疏伐和清理；temporarily 保留暂时性的限制。",
-          "translation": "这会暂时降低森林的碳承载能力。",
+          "translation": "这样一来，森林暂时就存不了那么多碳了。",
           "words": [
             {
               "a": 0,
@@ -2016,7 +2016,7 @@
               "word": "capacity",
               "lemma": "capacity",
               "pos": "n",
-              "meaning": "能力；承载能力",
+              "meaning": "从空气中吸收碳的能力",
               "reviewVersion": 2
             },
             {
@@ -2195,7 +2195,7 @@
               "word": "insects",
               "lemma": "insect",
               "pos": "n",
-              "meaning": "昆虫",
+              "meaning": "昆虫；这里指侵害树木的害虫",
               "reviewVersion": 2
             }
           ],
@@ -3086,7 +3086,7 @@
               "word": "emissions-permit",
               "lemma": "emissions-permit",
               "pos": "n",
-              "meaning": "排放许可；排污许可",
+              "meaning": "排放许可的（emissions-permit auctions：排放许可权拍卖）",
               "reviewVersion": 2
             },
             {
@@ -3965,7 +3965,7 @@
               "word": "is",
               "lemma": "be",
               "pos": "v",
-              "meaning": "是；处于所述状态",
+              "meaning": "与 under way 一起表示研究已经在进行中",
               "reviewVersion": 2
             },
             {

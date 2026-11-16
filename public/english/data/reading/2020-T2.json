@@ -978,7 +978,7 @@
               "a": 0,
               "b": 45,
               "en": "The efforts of America' s highest-earning 1% ",
-              "zh": "美国收入最高的1%人群所作的努力，"
+              "zh": "美国收入最高的那1%人所作的努力"
             },
             {
               "a": 45,
@@ -990,11 +990,11 @@
               "a": 55,
               "b": 110,
               "en": "one of the more dynamic elements of the global economy.",
-              "zh": "全球经济中较有活力的因素之一。"
+              "zh": "全球经济中比较活跃的一股力量"
             }
           ],
           "reorder": "无需调序。",
-          "translation": "美国收入最高的1%人群所作的努力，一直是全球经济中比较有活力的因素之一。",
+          "translation": "美国收入最高的那1%人所作的努力，一直是全球经济中比较活跃的一股力量。",
           "words": [
             {
               "a": 0,
@@ -2516,7 +2516,7 @@
               "word": "larger",
               "lemma": "large",
               "pos": "a",
-              "meaning": "更多的；规模更大的",
+              "meaning": "更多的（a larger number of countries：更多国家）",
               "reviewVersion": 2
             },
             {
@@ -3214,7 +3214,7 @@
               "word": "ripping",
               "lemma": "rip",
               "pos": "v",
-              "meaning": "盘剥；坑骗（rip off搭配）",
+              "meaning": "占……的便宜；与后面的 off 连用",
               "reviewVersion": 2
             },
             {
@@ -3223,7 +3223,7 @@
               "word": "people",
               "lemma": "people",
               "pos": "n",
-              "meaning": "他人",
+              "meaning": "别人；rip people off 指坑骗别人或占别人的便宜",
               "reviewVersion": 2
             },
             {
@@ -3232,7 +3232,7 @@
               "word": "off",
               "lemma": "off",
               "pos": "adv",
-              "meaning": "rip off的一部分，表示坑骗或盘剥",
+              "meaning": "与前面的 rip 连用，表示坑骗或占便宜",
               "reviewVersion": 2
             },
             {
@@ -3287,7 +3287,7 @@
               "b": 57,
               "word": "ripping",
               "lemma": "rip off",
-              "meaning": "坑骗；盘剥；敲竹杠",
+              "meaning": "坑骗；占……的便宜",
               "kind": "phrase",
               "structure": true
             },
@@ -3296,7 +3296,7 @@
               "b": 68,
               "word": "off",
               "lemma": "rip off",
-              "meaning": "坑骗；盘剥；敲竹杠",
+              "meaning": "坑骗；占……的便宜",
               "kind": "phrase",
               "structure": true
             }
@@ -3952,11 +3952,11 @@
               "a": 164,
               "b": 206,
               "en": "at the expense of the rest of the company.",
-              "zh": "以公司其他人的利益为代价的。"
+              "zh": "以牺牲公司其他方面的利益为代价"
             }
           ],
-          "reorder": "将 at the expense of 的后置修饰放到“掠夺”前。",
-          "translation": "此外，拿到最高薪酬的是外部候选人，而非内部关系户；这进一步表明，首席执行官的高薪并不是以公司其他人的利益为代价的掠夺。",
+          "reorder": "把 at the expense of 说明的代价放到“以……为代价”结构里。",
+          "translation": "而且，薪酬最高的首席执行官是从外部聘来的，并非内部关系户。这也说明，高薪并非以牺牲公司其他方面的利益为代价来获取好处。",
           "words": [
             {
               "a": 0,
@@ -4261,7 +4261,7 @@
               "word": "rest",
               "lemma": "rest",
               "pos": "n",
-              "meaning": "其余的人",
+              "meaning": "其余部分（the rest of the company：公司的其他部分）",
               "reviewVersion": 2
             },
             {

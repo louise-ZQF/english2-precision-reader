@@ -335,7 +335,7 @@
               "word": "farm",
               "lemma": "farm",
               "pos": "n",
-              "meaning": "农场；农业（名词修饰workers）",
+              "meaning": "农场的；从事农业生产的（修饰 workers）",
               "reviewVersion": 2
             },
             {
@@ -344,7 +344,7 @@
               "word": "workers",
               "lemma": "worker",
               "pos": "n",
-              "meaning": "工作者",
+              "meaning": "农业劳工；农场雇工",
               "reviewVersion": 2
             }
           ],
@@ -1042,7 +1042,7 @@
               "word": "workers",
               "lemma": "worker",
               "pos": "n",
-              "meaning": "工作者",
+              "meaning": "劳工；这里指前文所说的农业劳工",
               "reviewVersion": 2
             },
             {
@@ -1248,7 +1248,7 @@
               "word": "predominantly",
               "lemma": "predominantly",
               "pos": "adv",
-              "meaning": "大多数地；主要地",
+              "meaning": "绝大多数；主要（这里表示绝大多数出生在墨西哥）",
               "reviewVersion": 2
             },
             {
@@ -1470,11 +1470,11 @@
               "a": 0,
               "b": 19,
               "en": "They're also aging.",
-              "zh": "他们的年龄也在增长"
+              "zh": "这支劳动力队伍也在老龄化"
             }
           ],
           "reorder": "顺译，They 指农业劳工群体。",
-          "translation": "他们的年龄也在增长。",
+          "translation": "这支农业劳动力队伍也在老龄化。",
           "words": [
             {
               "a": 0,
@@ -2966,7 +2966,7 @@
               "word": "workers",
               "lemma": "worker",
               "pos": "n",
-              "meaning": "工作者",
+              "meaning": "劳工；此处指持临时签证来务农的外来工人",
               "reviewVersion": 2
             },
             {
@@ -3244,7 +3244,7 @@
               "word": "number",
               "lemma": "number",
               "pos": "n",
-              "meaning": "人数；数量",
+              "meaning": "数量（这里数的是签发的签证）",
               "reviewVersion": 2
             },
             {
@@ -3886,7 +3886,7 @@
               "word": "bureaucratic",
               "lemma": "bureaucratic",
               "pos": "a",
-              "meaning": "官僚行政程序的",
+              "meaning": "行政手续上的；此处指审批手续造成的拖延",
               "reviewVersion": 2
             },
             {
@@ -4158,7 +4158,7 @@
               "word": "workers",
               "lemma": "worker",
               "pos": "n",
-              "meaning": "工作者",
+              "meaning": "农业劳工；此处指在突击执法中被带走的工人",
               "reviewVersion": 2
             },
             {

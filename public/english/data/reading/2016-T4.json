@@ -530,7 +530,7 @@
               "word": "getting",
               "lemma": "get",
               "pos": "v",
-              "meaning": "开始处于某状态（get married/started）",
+              "meaning": "进入某种状态（getting married：结婚）",
               "reviewVersion": 2
             },
             {
@@ -1041,7 +1041,7 @@
               "word": "getting",
               "lemma": "get",
               "pos": "v",
-              "meaning": "开始处于某状态（get married/started）",
+              "meaning": "起步（getting started in life：人生刚刚起步）",
               "reviewVersion": 2
             },
             {
@@ -1500,7 +1500,7 @@
               "word": "getting",
               "lemma": "get",
               "pos": "v",
-              "meaning": "开始处于某状态（get married/started）",
+              "meaning": "进入某种状态（get married：结婚）",
               "reviewVersion": 2
             },
             {
@@ -1982,7 +1982,7 @@
               "word": "out",
               "lemma": "out",
               "pos": "adv",
-              "meaning": "开始开展（start out）；出去",
+              "meaning": "与 start 构成 start out，表示起步，此处指初入社会",
               "reviewVersion": 2
             },
             {
@@ -2826,7 +2826,7 @@
               "word": "out",
               "lemma": "out",
               "pos": "adv",
-              "meaning": "开始开展（start out）；出去",
+              "meaning": "与 start 构成 start out，表示起步，此处指如今刚开始独立生活",
               "reviewVersion": 2
             },
             {
@@ -3591,7 +3591,7 @@
               "word": "Even",
               "lemma": "even",
               "pos": "adv",
-              "meaning": "甚至",
+              "meaning": "与 now that 连用，表示“即使如今……也……”",
               "reviewVersion": 2
             },
             {
@@ -3600,7 +3600,7 @@
               "word": "now",
               "lemma": "now",
               "pos": "adv",
-              "meaning": "与that组成既然如今；目前已经",
+              "meaning": "与 that 构成 now that（既然现在……）；前有 even，合起来是“即使现在……”",
               "reviewVersion": 2
             },
             {
@@ -3708,7 +3708,7 @@
               "word": "pay",
               "lemma": "pay",
               "pos": "v",
-              "meaning": "付费",
+              "meaning": "支付；这里指按月偿还房贷",
               "reviewVersion": 2
             },
             {
@@ -3894,6 +3894,14 @@
           ],
           "phrases": [
             {
+              "a": 0,
+              "b": 13,
+              "word": "Even now that",
+              "lemma": "even now that",
+              "meaning": "即使现在……也……",
+              "kind": "phrase"
+            },
+            {
               "a": 81,
               "b": 98,
               "lemma": "mortgage payment",
@@ -3922,7 +3930,7 @@
             "note": "have to为必须，on my own为独自，rent out为出租，that指偿还房贷。",
             "sentenceSHA256": "c387de5d88ab3f95e7936960361b571ce95c6539a4dacf77bee64318cd251a4b",
             "words": 34,
-            "phrases": 2,
+            "phrases": 3,
             "names": 0
           }
         },
@@ -4192,7 +4200,7 @@
               "word": "young",
               "lemma": "young",
               "pos": "a",
-              "meaning": "年轻的",
+              "meaning": "年幼的；小时候的",
               "reviewVersion": 2
             }
           ],
@@ -4442,17 +4450,17 @@
               "a": 0,
               "b": 15,
               "en": "“I don't think ",
-              "zh": "我不认为"
+              "zh": "我并不认为"
             },
             {
               "a": 15,
               "b": 51,
               "en": "people are capable of that anymore.”",
-              "zh": "人们如今还有能力做到那样"
+              "zh": "如今的人还有能力做到那样"
             }
           ],
           "reorder": "把英语否定转移到实际判断中，that 指无大学学历仍让孩子过上中上阶层生活。",
-          "translation": "“我认为，如今人们已经没有能力做到那样了。”",
+          "translation": "“我觉得如今，没有大学学历的人已经很难让一家人过上那样的生活了。”",
           "words": [
             {
               "a": 1,

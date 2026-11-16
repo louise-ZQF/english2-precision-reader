@@ -433,7 +433,7 @@
               "word": "fitness",
               "lemma": "fitness",
               "pos": "n",
-              "meaning": "健身；身体健康",
+              "meaning": "体能、健身；fitness tracker 指记录运动等数据的健身追踪设备",
               "reviewVersion": 2
             },
             {
@@ -612,8 +612,8 @@
               "b": 164,
               "word": "better",
               "lemma": "well",
-              "pos": "adv",
-              "meaning": "更好地",
+              "pos": "adj",
+              "meaning": "更准确的；更充分的（keep better track of：更好地追踪或掌握）",
               "reviewVersion": 2
             },
             {
@@ -969,7 +969,7 @@
               "word": "available",
               "lemma": "available",
               "pos": "adj",
-              "meaning": "可获得的；可使用的",
+              "meaning": "已有供应的；市面上可以找到的",
               "reviewVersion": 2
             },
             {
@@ -1088,19 +1088,19 @@
               "a": 0,
               "b": 45,
               "en": "While these apps have a great deal to offer, ",
-              "zh": "尽管这些应用能提供很多帮助，"
+              "zh": "尽管这些应用有很多用处，"
             },
             {
               "a": 45,
               "b": 68,
               "en": "it is not always clear ",
-              "zh": "却不总是清楚，"
+              "zh": "却并不总能弄清楚，"
             },
             {
               "a": 68,
               "b": 106,
               "en": "how the personal information we input ",
-              "zh": "我们输入的个人信息是如何，"
+              "zh": "我们填进去的个人信息是怎么，"
             },
             {
               "a": 106,
@@ -1110,7 +1110,7 @@
             }
           ],
           "reorder": "将 how 的疑问内容放到“不总是清楚”前后均可；not always 是并非总能弄清，不是从不清楚。",
-          "translation": "尽管这些应用能提供很多帮助，我们输入的个人信息在线上如何被收集、保护和分享，却并不总是清楚。",
+          "translation": "这些应用虽然很有用，但我们填进去的个人信息究竟怎样在网上被收集、保护和共享，并不总能弄清楚。",
           "words": [
             {
               "a": 0,
@@ -1334,7 +1334,7 @@
               "word": "shared",
               "lemma": "share",
               "pos": "v",
-              "meaning": "分享",
+              "meaning": "共享；与他人或其他机构共享",
               "reviewVersion": 2
             },
             {
@@ -2482,7 +2482,7 @@
               "word": "express",
               "lemma": "express",
               "pos": "adj",
-              "meaning": "明确的；明示的",
+              "meaning": "明确说出的、明示的；指该公司明确作出的隐私声明",
               "reviewVersion": 2
             },
             {
@@ -2696,7 +2696,7 @@
               "a": 63,
               "b": 131,
               "en": "requiring the company to get app users' express affirmative consent ",
-              "zh": "要求公司取得应用用户明确、肯定的同意，"
+              "zh": "要求公司让应用用户主动、明确地表示同意，"
             },
             {
               "a": 131,
@@ -2708,7 +2708,7 @@
               "a": 171,
               "b": 212,
               "en": "as well as to instruct the third parties ",
-              "zh": "并要求公司指示第三方，"
+              "zh": "还要求公司指示第三方，"
             },
             {
               "a": 212,
@@ -2720,11 +2720,11 @@
               "a": 231,
               "b": 249,
               "en": "they had obtained.",
-              "zh": "它们之前取得的数据。"
+              "zh": "第三方之前已拿到的。"
             }
           ],
           "reorder": "先交代以同意令解决；requiring 两项要求并列；before 提前限定分享前必须征得同意；they 指第三方。",
-          "translation": "Flo Health与联邦贸易委员会通过一项同意令解决了此事，要求公司在分享健康信息前取得应用用户明确、肯定的同意，并指示第三方删除此前取得的数据。",
+          "translation": "Flo Health和联邦贸易委员会以一项同意令解决此事。命令要求公司在共享用户的健康信息之前，先让用户主动、明确地表示同意，还要指示已经拿到数据的第三方把数据删除。",
           "words": [
             {
               "a": 0,
@@ -2939,7 +2939,7 @@
               "word": "sharing",
               "lemma": "share",
               "pos": "v",
-              "meaning": "分享",
+              "meaning": "共享（向其他方提供用户健康信息）",
               "reviewVersion": 2
             },
             {
@@ -3529,7 +3529,7 @@
               "word": "unjustified",
               "lemma": "unjustified",
               "pos": "adj",
-              "meaning": "无正当理由的；不合理的",
+              "meaning": "没有正当理由的（指对消费者造成不应有的伤害）",
               "reviewVersion": 2
             },
             {
@@ -3608,7 +3608,7 @@
               "a": 90,
               "b": 149,
               "en": "around the handling of their sensitive health information, ",
-              "zh": "关于敏感健康信息的处理，"
+              "zh": "也就是关于如何处理消费者敏感健康信息的承诺，"
             },
             {
               "a": 149,
@@ -3620,11 +3620,11 @@
               "a": 208,
               "b": 261,
               "en": "demonstrates just how immense of a challenge this is.",
-              "zh": "显示出这项挑战有多么巨大。"
+              "zh": "足以看出这项工作有多难。"
             }
           ],
           "reorder": "While 让步前半句；主干是 the rate...demonstrates，at which 修饰 rate，将其合为“应用上市速度”。",
-          "translation": "尽管联邦贸易委员会正尽其所能，确保应用兑现对消费者关于敏感健康信息处理的承诺，但这些应用涌入市场的速度，足以显示这项挑战有多么巨大。",
+          "translation": "联邦贸易委员会正尽力确保这些应用兑现对消费者的承诺，妥善处理他们的敏感健康信息；但健康类应用上市这么快，可见这项工作有多难。",
           "words": [
             {
               "a": 0,
@@ -3749,7 +3749,7 @@
               "word": "their",
               "lemma": "their",
               "pos": "pron",
-              "meaning": "他们的；它们的",
+              "meaning": "这些应用的（实际指运营方作出的承诺）",
               "reviewVersion": 2
             },
             {
@@ -3821,7 +3821,7 @@
               "word": "their",
               "lemma": "their",
               "pos": "pron",
-              "meaning": "他们的；它们的",
+              "meaning": "这些消费者的（指消费者本人的敏感健康信息）",
               "reviewVersion": 2
             },
             {
@@ -4566,7 +4566,7 @@
               "word": "been",
               "lemma": "be",
               "pos": "v",
-              "meaning": "一直处于",
+              "meaning": "一直处于；与 at the forefront 连用，指加州一直走在前面",
               "reviewVersion": 2
             },
             {

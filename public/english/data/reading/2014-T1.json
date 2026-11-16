@@ -601,7 +601,7 @@
               "word": "do",
               "lemma": "do",
               "pos": "v",
-              "meaning": "做；处理",
+              "meaning": "用于 could do worse than，表示“……不失为好主意”",
               "reviewVersion": 2
             },
             {
@@ -1243,7 +1243,7 @@
               "word": "off",
               "lemma": "off",
               "pos": "part",
-              "meaning": "与wear组成消退；与better组成境况更好",
+              "meaning": "用于 wear off，表示满足感渐渐消退",
               "reviewVersion": 2
             },
             {
@@ -1712,7 +1712,7 @@
               "word": "cinema",
               "lemma": "cinema",
               "pos": "n",
-              "meaning": "电影院",
+              "meaning": "电影院；going to the cinema 指去电影院看电影",
               "reviewVersion": 2
             }
           ],
@@ -1942,7 +1942,7 @@
               "word": "connected",
               "lemma": "connect",
               "pos": "a",
-              "meaning": "相互有联系的",
+              "meaning": "关系更紧密的；这里指消费体验能让人觉得跟别人更亲近",
               "reviewVersion": 2
             },
             {
@@ -2406,7 +2406,7 @@
               "word": "off",
               "lemma": "off",
               "pos": "part",
-              "meaning": "与wear组成消退；与better组成境况更好",
+              "meaning": "用于 be better off，指处境更好；这里指能过得更幸福",
               "reviewVersion": 2
             },
             {
@@ -2630,8 +2630,8 @@
               "b": 193,
               "word": "American",
               "lemma": "American",
-              "pos": "a",
-              "meaning": "美国的",
+              "pos": "n",
+              "meaning": "美国人；the average American 指普通美国人",
               "reviewVersion": 2
             },
             {
@@ -3384,23 +3384,23 @@
               "a": 0,
               "b": 53,
               "en": "Readers of Happy Money are clearly a privileged lot, ",
-              "zh": "《快乐金钱》的读者显然是一群生活优渥的人"
+              "zh": "《快乐金钱》的读者显然都是有优越条件的一群人"
             },
             {
               "a": 53,
               "b": 79,
               "en": "anxious about fulfilment, ",
-              "zh": "他们焦虑的是满足感"
+              "zh": "他们在意的是怎样过得更满足"
             },
             {
               "a": 79,
               "b": 90,
               "en": "not hunger.",
-              "zh": "不是饥饿问题"
+              "zh": "而不是能不能吃饱"
             }
           ],
           "reorder": "无需调整语序，后两块解释优渥群体的关注。",
-          "translation": "《快乐金钱》的读者显然是一群生活优渥的人，他们焦虑的是满足感，而非饥饿。",
+          "translation": "《快乐金钱》的读者显然大多衣食无忧。他们在意的是怎样过得更满足，而不是能不能吃饱。",
           "words": [
             {
               "a": 0,
@@ -4245,7 +4245,7 @@
               "word": "range",
               "lemma": "range",
               "pos": "v",
-              "meaning": "范围从……到……",
+              "meaning": "范围从……到……；这里用来列出政策主张涵盖的不同方面",
               "reviewVersion": 2
             },
             {
@@ -4445,7 +4445,7 @@
               "word": "come",
               "lemma": "come",
               "pos": "v",
-              "meaning": "读完离开时形成（come away搭配）",
+              "meaning": "用于 come away from；这里指读完书后带着某种感受或想法",
               "reviewVersion": 2
             },
             {
@@ -4454,7 +4454,7 @@
               "word": "away",
               "lemma": "away",
               "pos": "adv",
-              "meaning": "与come组成读完离开时的表达",
+              "meaning": "用于 come away from；这里指读完书后形成的看法",
               "reviewVersion": 2
             },
             {

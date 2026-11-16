@@ -191,7 +191,7 @@
               "word": "have",
               "lemma": "have",
               "pos": "v",
-              "meaning": "拥有（学位）",
+              "meaning": "有；此处说明父母双方都没有大学学位",
               "reviewVersion": 2
             },
             {
@@ -317,7 +317,7 @@
               "word": "education",
               "lemma": "education",
               "pos": "n",
-              "meaning": "教育",
+              "meaning": "教育的；学业的（修饰 achievement factors）",
               "reviewVersion": 2
             },
             {
@@ -744,7 +744,7 @@
               "word": "decades",
               "lemma": "decade",
               "pos": "n",
-              "meaning": "十年",
+              "meaning": "数十年；几十年（for decades 表示持续了几十年）",
               "reviewVersion": 2
             },
             {
@@ -1013,7 +1013,7 @@
               "word": "fail",
               "lemma": "fail",
               "pos": "v",
-              "meaning": "失败；未取得成功",
+              "meaning": "学业遇挫；未能在大学取得成功",
               "reviewVersion": 2
             },
             {
@@ -1085,7 +1085,7 @@
               "word": "reproduce",
               "lemma": "reproduce",
               "pos": "v",
-              "meaning": "重复造成；再生产",
+              "meaning": "再度造成；使原有的差距延续下去",
               "reviewVersion": 2
             },
             {
@@ -1582,7 +1582,7 @@
               "word": "suggesting",
               "lemma": "suggest",
               "pos": "v",
-              "meaning": "提出；表明",
+              "meaning": "指出；提出看法（这里说研究方案可能有效）",
               "reviewVersion": 2
             },
             {
@@ -2906,7 +2906,7 @@
               "word": "have",
               "lemma": "have",
               "pos": "aux",
-              "meaning": "构成完成时，不单独译为“有”",
+              "meaning": "产生（have a big impact：产生很大的影响）",
               "reviewVersion": 2
             },
             {
@@ -3582,7 +3582,7 @@
               "word": "struggle",
               "lemma": "struggle",
               "pos": "v",
-              "meaning": "艰难地努力",
+              "meaning": "费力地做；做起来很吃力",
               "reviewVersion": 2
             },
             {

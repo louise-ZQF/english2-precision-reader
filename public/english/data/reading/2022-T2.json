@@ -38,23 +38,23 @@
               "a": 0,
               "b": 56,
               "en": "More Americans are opting to work well into retirement, ",
-              "zh": "越来越多美国人选择退休后继续工作，"
+              "zh": "越来越多美国人选择在退休后继续工作多年，"
             },
             {
               "a": 56,
               "b": 72,
               "en": "a growing trend ",
-              "zh": "这是一种不断增长的趋势，"
+              "zh": "这种做法越来越普遍，"
             },
             {
               "a": 72,
               "b": 120,
               "en": "that threatens to upend the old workforce model.",
-              "zh": "可能颠覆传统的劳动力模式。"
+              "zh": "可能颠覆传统的就业模式。"
             }
           ],
-          "reorder": "把同位语 a growing trend 接成后一句；that 修饰这种趋势。",
-          "translation": "越来越多美国人选择退休后继续工作，这股日益增强的趋势可能颠覆传统的劳动力模式。",
+          "reorder": "将 a growing trend 接成后半句；that 说明这种趋势的可能影响，well into 强调退休后过了相当长时间仍在工作。",
+          "translation": "越来越多美国人选择在退休后继续工作多年，这一趋势可能颠覆传统的就业模式。",
           "words": [
             {
               "a": 0,
@@ -224,7 +224,7 @@
               "word": "workforce",
               "lemma": "workforce",
               "pos": "n",
-              "meaning": "劳动力人口",
+              "meaning": "劳动力（workforce model：劳动力模式）",
               "reviewVersion": 2
             },
             {
@@ -1281,7 +1281,7 @@
               "a": 39,
               "b": 68,
               "en": "include personal fulfillment ",
-              "zh": "还包括个人满足感，"
+              "zh": "还包括追求个人的满足感，"
             },
             {
               "a": 68,
@@ -1291,7 +1291,7 @@
             }
           ],
           "reorder": "将 according to 提到句首；such as 举例说明 personal fulfillment 的具体表现。",
-          "translation": "研究显示，其他原因还包括获得个人满足感，例如保持头脑活跃、避免无聊或抑郁。",
+          "translation": "这项研究还发现，有些人是为了自己的身心状态，比如保持头脑活跃，免得无聊或陷入抑郁。",
           "words": [
             {
               "a": 0,
@@ -1844,7 +1844,7 @@
               "word": "work",
               "lemma": "work",
               "pos": "n",
-              "meaning": "工作的价值；劳动",
+              "meaning": "工作；劳动",
               "reviewVersion": 2
             },
             {
@@ -2071,7 +2071,7 @@
               "word": "living",
               "lemma": "live",
               "pos": "v",
-              "meaning": "活着；生活",
+              "meaning": "活着（living longer：活得更久）",
               "reviewVersion": 2
             },
             {
@@ -2464,7 +2464,7 @@
               "a": 33,
               "b": 73,
               "en": "were in the workforce in February 2019, ",
-              "zh": "在2019年2月仍在工作，"
+              "zh": "在2019年2月仍属于劳动力人口，"
             },
             {
               "a": 73,
@@ -2480,7 +2480,7 @@
             }
           ],
           "reorder": "先译来源或时间，再译两项占比；up from 表示从10%升至20%。",
-          "translation": "据资产管理公司United Income的数据，2019年2月，65岁及以上人群约有20%仍在工作，高于1985年1月10%的历史最低水平。",
+          "translation": "据资产管理公司United Income的数据，2019年2月，65岁及以上人群约有20%仍属于劳动力人口，高于1985年1月10%的历史最低水平。",
           "words": [
             {
               "a": 0,
@@ -2677,7 +2677,7 @@
               "word": "money",
               "lemma": "money",
               "pos": "n",
-              "meaning": "钱",
+              "meaning": "资金；money manager 在这里指经营资产管理业务的公司",
               "reviewVersion": 2
             },
             {
@@ -2686,7 +2686,7 @@
               "word": "manager",
               "lemma": "manager",
               "pos": "n",
-              "meaning": "经理",
+              "meaning": "管理机构（money manager：资产管理公司）",
               "reviewVersion": 2
             },
             {
@@ -3449,7 +3449,7 @@
               "word": "life",
               "lemma": "life",
               "pos": "n",
-              "meaning": "寿命；人生",
+              "meaning": "人的生命（life insurance：人寿保险）",
               "reviewVersion": 2
             },
             {
@@ -3792,7 +3792,7 @@
               "word": "making",
               "lemma": "make",
               "pos": "v",
-              "meaning": "使做到（make ends meet）",
+              "meaning": "使收支相抵（make ends meet：维持生计）",
               "reviewVersion": 2
             },
             {

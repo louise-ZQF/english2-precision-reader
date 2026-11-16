@@ -2425,7 +2425,7 @@
               "word": "leave",
               "lemma": "leave",
               "pos": "v",
-              "meaning": "留下；给予空间",
+              "meaning": "留下；leave no room for 指完全不给个人主动性和创造力留下空间",
               "reviewVersion": 2
             },
             {
@@ -2652,7 +2652,7 @@
               "word": "perform",
               "lemma": "perform",
               "pos": "v",
-              "meaning": "执行；完成",
+              "meaning": "干得；perform well at 指在某项工作上表现好，这里说机器比人干得好",
               "reviewVersion": 2
             },
             {
@@ -2876,7 +2876,7 @@
               "word": "backs",
               "lemma": "back",
               "pos": "n",
-              "meaning": "背部（贴靶标的比喻）",
+              "meaning": "背上；贴靶子比喻让美国工人的岗位很容易成为自动化取代的对象",
               "reviewVersion": 2
             },
             {
@@ -3966,17 +3966,17 @@
               "a": 0,
               "b": 44,
               "en": "We need to reframe race against the machine ",
-              "zh": "我们需要重新界定“与机器赛跑”"
+              "zh": "我们需要换一种方式看待“人和机器比拼”"
             },
             {
               "a": 44,
               "b": 69,
               "en": "as race with the machine.",
-              "zh": "把它改为“与机器携手前进”"
+              "zh": "把它理解为“人和机器一起跑”"
             }
           ],
-          "reorder": "reframe A as B 按“把A重新界定为B”译，with 强调协作。",
-          "translation": "我们需要把“与机器赛跑”重新界定为“与机器携手前进”。",
+          "reorder": "用“跟机器比拼”和“同机器协作”把 against 与 with 的对比说清楚。",
+          "translation": "我们需要换一种思路：让人和机器一起赛跑，而不是让人跟机器比谁跑得快。",
           "words": [
             {
               "a": 0,
@@ -4130,23 +4130,23 @@
               "a": 16,
               "b": 44,
               "en": "we need to look at the ways ",
-              "zh": "我们需要研究那些方式"
+              "zh": "我们需要想想有哪些办法"
             },
             {
               "a": 44,
               "b": 86,
               "en": "in which machines can augment human labor ",
-              "zh": "机器能够增强人类劳动的方式"
+              "zh": "让机器帮人把工作做得更好"
             },
             {
               "a": 86,
               "b": 109,
               "en": "rather than replace it.",
-              "zh": "而不是取代人类劳动"
+              "zh": "而不是用机器把人替掉"
             }
           ],
           "reorder": "把 in which 内容并入“方式”，或直接译成如何增强。",
-          "translation": "换句话说，我们需要研究机器如何增强人类劳动，而非取代它。",
+          "translation": "换句话说，我们应该想想怎样用机器帮人把工作做得更好，而不是用机器把人替掉。",
           "words": [
             {
               "a": 0,
@@ -4280,7 +4280,7 @@
               "word": "augment",
               "lemma": "augment",
               "pos": "v",
-              "meaning": "增强；辅助提升",
+              "meaning": "辅助、增强；这里指用机器提高人的工作能力",
               "reviewVersion": 2
             },
             {
@@ -4307,7 +4307,7 @@
               "word": "rather",
               "lemma": "rather",
               "pos": "adv",
-              "meaning": "而是（but rather或rather than搭配）",
+              "meaning": "用于 rather than，表示“而不是”；对比机器辅助人和机器替代人",
               "reviewVersion": 2
             },
             {
@@ -4497,7 +4497,7 @@
               "word": "rather",
               "lemma": "rather",
               "pos": "adv",
-              "meaning": "而是（but rather或rather than搭配）",
+              "meaning": "用于 but rather，引出真正需要解决的问题",
               "reviewVersion": 2
             },
             {

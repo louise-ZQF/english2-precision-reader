@@ -42,13 +42,13 @@
               "a": 22,
               "b": 72,
               "en": "that although we are prone to snap overreactions, ",
-              "zh": "尽管我们容易仓促地反应过度"
+              "zh": "尽管我们容易在一瞬间反应过度"
             },
             {
               "a": 72,
               "b": 92,
               "en": "if we take a moment ",
-              "zh": "但如果花一点时间"
+              "zh": "但如果先停一下"
             },
             {
               "a": 92,
@@ -66,11 +66,11 @@
               "a": 189,
               "b": 224,
               "en": "of our quick, hard-wired responses.",
-              "zh": "这些影响来自迅速而根深蒂固的反应"
+              "zh": "这些影响来自又快又近乎本能的反应"
             }
           ],
           "reorder": "保留“尽管……但如果……就……”的关系，把 of 来源放在“负面影响”前。",
-          "translation": "科学家发现，尽管我们容易仓促地反应过度，但只要花点时间想想自己可能会怎样反应，就能减少甚至消除迅速而根深蒂固的反应带来的负面影响。",
+          "translation": "科学家发现，我们虽容易在一瞬间反应过度，但如果先停一下，想想自己可能会怎么反应，就能减轻甚至消除这些本能反应带来的负面影响。",
           "words": [
             {
               "a": 0,
@@ -348,7 +348,7 @@
               "word": "eliminate",
               "lemma": "eliminate",
               "pos": "v",
-              "meaning": "取消",
+              "meaning": "消除；这里指消除仓促反应带来的负面影响",
               "reviewVersion": 2
             },
             {
@@ -989,7 +989,7 @@
               "word": "studies",
               "lemma": "studies",
               "pos": "n",
-              "meaning": "研究学科（American Studies为美国研究）",
+              "meaning": "研究；studies show 指已有研究得出了后面的结论",
               "reviewVersion": 2
             },
             {
@@ -1034,7 +1034,7 @@
               "word": "least",
               "lemma": "little",
               "pos": "adv",
-              "meaning": "最少；最不（独特）",
+              "meaning": "与 at 连用，表示“至少”；这里指最少一分钟",
               "reviewVersion": 2
             },
             {
@@ -1718,7 +1718,7 @@
               "word": "even",
               "lemma": "even",
               "pos": "adv",
-              "meaning": "即使；甚至",
+              "meaning": "用于 even though，表示“尽管”；引出阅读跟吃东西无关这一点",
               "reviewVersion": 2
             },
             {
@@ -1947,7 +1947,7 @@
               "word": "impatience",
               "lemma": "impatience",
               "pos": "n",
-              "meaning": "不耐烦",
+              "meaning": "急躁；这里指人做其他事情时也变得没耐心",
               "reviewVersion": 2
             },
             {
@@ -2296,7 +2296,7 @@
               "a": 11,
               "b": 69,
               "en": "we will overreact to consumer products or housing options ",
-              "zh": "自己会对消费品或住房选项反应过度"
+              "zh": "自己会对某件商品或某套房子一下子好感过头"
             },
             {
               "a": 69,
@@ -2314,11 +2314,11 @@
               "a": 177,
               "b": 212,
               "en": "we can take a moment before buying.",
-              "zh": "那么购买前就可以停一下"
+              "zh": "那就可以在掏钱前先缓一缓"
             }
           ],
           "reorder": "把 when 放到“反应过度”前，括号说明不并入条件主干。",
-          "translation": "如果知道自己看到笑脸时会对消费品或住房选项反应过度，我们就可以在购买前停一下；这也是优秀销售代表和房地产经纪人总面带微笑的原因之一。",
+          "translation": "如果知道看到笑脸会让自己对某件商品或某套房子一下子好感过头——优秀的销售人员和房产经纪人常挂着笑脸，这正是原因之一——那我们就可以在掏钱前先缓一缓。",
           "words": [
             {
               "a": 0,
@@ -2542,7 +2542,7 @@
               "word": "real",
               "lemma": "real",
               "pos": "a",
-              "meaning": "不动产的（real estate中的成分）",
+              "meaning": "用于 real estate，表示“房地产”，real estate agent 是房产经纪人",
               "reviewVersion": 2
             },
             {
@@ -3052,7 +3052,7 @@
               "word": "marriage",
               "lemma": "marriage",
               "pos": "n",
-              "meaning": "婚姻关系",
+              "meaning": "婚姻方面的；marriage expert 指研究婚姻关系的专家",
               "reviewVersion": 2
             },
             {
@@ -3241,7 +3241,7 @@
               "word": "study",
               "lemma": "Study",
               "pos": "name",
-              "meaning": "研究（项目名称的一部分）",
+              "meaning": "研究；这里指对人进行长期、细致的观察研究",
               "reviewVersion": 2
             }
           ],
@@ -3417,7 +3417,7 @@
               "word": "stay",
               "lemma": "stay",
               "pos": "v",
-              "meaning": "留下",
+              "meaning": "继续维持某种状态；这里指夫妻继续在一起",
               "reviewVersion": 2
             },
             {
@@ -3583,7 +3583,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 62,
+              "b": 75,
+              "word": "stay together",
+              "lemma": "stay together",
+              "meaning": "继续在一起；这里指夫妻不分开",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
@@ -3596,7 +3605,7 @@
             "note": "评估夫妻是否继续共同生活，two days对比two seconds，retreat是居所非撤退。",
             "sentenceSHA256": "b15f352c5eeb4a4d7353a7ba00d0d0623a4fcd53952d97f8aae482bd854c3bdb",
             "words": 30,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         }
@@ -3623,19 +3632,19 @@
               "a": 12,
               "b": 45,
               "en": "to mute our hard-wired reactions ",
-              "zh": "抑制根深蒂固的反应的能力"
+              "zh": "抑制本能反应的能力"
             },
             {
               "a": 45,
               "b": 56,
               "en": "by pausing ",
-              "zh": "通过停顿来做到"
+              "zh": "通过先顿一顿做到"
             },
             {
               "a": 56,
               "b": 96,
               "en": "is what differentiates us from animals: ",
-              "zh": "正是让我们有别于动物的东西"
+              "zh": "正是这一点让人不同于动物"
             },
             {
               "a": 96,
@@ -3647,11 +3656,11 @@
               "a": 128,
               "b": 169,
               "en": "only intermittently or for a few minutes.",
-              "zh": "但只能时断时续，或持续短短几分钟"
+              "zh": "但只能偶尔想起，或连续想上短短几分钟"
             }
           ],
           "reorder": "把 to mute 和 by pausing 合并为“通过停顿抑制本能反应的能力”，再译区别。",
-          "translation": "我们通过停顿来抑制根深蒂固反应的能力，使我们有别于动物：狗只能时断时续地、或持续短短几分钟思考未来。",
+          "translation": "我们能先顿一顿，压一压自己的本能反应，这一点让我们有别于动物：狗只能偶尔想到未来，或者最多连续想几分钟。",
           "words": [
             {
               "a": 0,
@@ -4319,7 +4328,7 @@
               "word": "imaginative",
               "lemma": "imaginative",
               "pos": "a",
-              "meaning": "想象的",
+              "meaning": "运用想象力的；这里指人能想象其他做法，从而克制冲动",
               "reviewVersion": 2
             },
             {

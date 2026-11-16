@@ -722,7 +722,7 @@
               "word": "full",
               "lemma": "full",
               "pos": "a",
-              "meaning": "充分的；全额的",
+              "meaning": "充分的（full employment：充分就业）",
               "reviewVersion": 2
             },
             {
@@ -1819,7 +1819,7 @@
               "word": "get",
               "lemma": "get",
               "pos": "v",
-              "meaning": "达到；恢复（get back）",
+              "meaning": "找到；此处指只能找到兼职工作",
               "reviewVersion": 2
             }
           ],
@@ -1989,7 +1989,7 @@
               "word": "labor",
               "lemma": "labor",
               "pos": "n",
-              "meaning": "劳动；劳工",
+              "meaning": "劳动力的（labor market：劳动力市场）",
               "reviewVersion": 2
             },
             {
@@ -2079,7 +2079,7 @@
               "word": "having",
               "lemma": "have",
               "pos": "v",
-              "meaning": "经历；面临",
+              "meaning": "遇到困难；做起来很吃力（have a hard time doing）",
               "reviewVersion": 2
             },
             {
@@ -2156,6 +2156,14 @@
               "kind": "phrase"
             },
             {
+              "a": 124,
+              "b": 147,
+              "word": "having a very hard time",
+              "lemma": "have a hard time",
+              "meaning": "做某事很吃力；处境艰难",
+              "kind": "phrase"
+            },
+            {
               "a": 148,
               "b": 164,
               "word": "making ends meet",
@@ -2176,7 +2184,7 @@
             "note": "非自愿兼职增加意味着市场疲软，make ends meet整体为维持生计。",
             "sentenceSHA256": "fdf686c092202492f03654ecc0571670d76dc998d46b3cca8788d2c5009b4a6d",
             "words": 30,
-            "phrases": 2,
+            "phrases": 3,
             "names": 0
           }
         }
@@ -3984,7 +3992,7 @@
               "word": "get",
               "lemma": "get",
               "pos": "v",
-              "meaning": "达到；恢复（get back）",
+              "meaning": "获得（这里指不通过工作也能获得医疗保险）",
               "reviewVersion": 2
             },
             {
@@ -4292,7 +4300,7 @@
               "word": "get",
               "lemma": "get",
               "pos": "v",
-              "meaning": "达到；恢复（get back）",
+              "meaning": "获得；取得（此处指获得保险保障）",
               "reviewVersion": 2
             },
             {
@@ -4556,7 +4564,7 @@
               "word": "get",
               "lemma": "get",
               "pos": "v",
-              "meaning": "达到；恢复（get back）",
+              "meaning": "获得（这里指通过公共计划或交易平台获得医疗保险）",
               "reviewVersion": 2
             },
             {
@@ -4777,7 +4785,7 @@
               "word": "get",
               "lemma": "get",
               "pos": "v",
-              "meaning": "达到；恢复（get back）",
+              "meaning": "找到（此处指找到一份全职工作）",
               "reviewVersion": 2
             },
             {

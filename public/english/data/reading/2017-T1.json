@@ -1605,13 +1605,13 @@
               "a": 0,
               "b": 50,
               "en": "The number of adults doing weekly sport did rise, ",
-              "zh": "每周参加体育运动的成年人数确实增加了"
+              "zh": "每周参加体育运动的成年人确实增加了"
             },
             {
               "a": 50,
               "b": 94,
               "en": "by nearly 2 million in the run-up to 2012 – ",
-              "zh": "在二〇一二年奥运会筹备期间增加了近两百万"
+              "zh": "在2012年奥运会开幕前增加了近两百万"
             },
             {
               "a": 94,
@@ -1621,7 +1621,7 @@
             }
           ],
           "reorder": "把增加幅度和时间条件接在“增加”后；did 是强调，but 后比较的是总体人口的增速。",
-          "translation": "在二〇一二年奥运会筹备期间，每周参加体育运动的成年人数确实增加了近两百万，但总人口增长得更快。",
+          "translation": "在2012年伦敦奥运会开幕前，每周参加体育运动的成年人确实增加了近两百万，但总人口增长得更快。",
           "words": [
             {
               "a": 0,
@@ -2559,7 +2559,7 @@
               "a": 0,
               "b": 21,
               "en": "Parkun is not a race ",
-              "zh": "公园跑不是比输赢的比赛"
+              "zh": "公园跑不是比名次的竞赛"
             },
             {
               "a": 21,
@@ -2571,11 +2571,11 @@
               "a": 39,
               "b": 73,
               "en": "Your only competitor is the clock.",
-              "zh": "你唯一的对手是时钟"
+              "zh": "你唯一的对手就是计时器"
             }
           ],
           "reorder": "保留 not...but 对两种活动宗旨的区分，冒号后解释计时活动的意义。",
-          "translation": "公园跑不是比输赢的比赛，而是一项计时活动：你唯一的对手是时钟。",
+          "translation": "公园跑不比名次，只计时：你唯一的对手就是计时器。",
           "words": [
             {
               "a": 0,
@@ -2709,7 +2709,7 @@
               "word": "clock",
               "lemma": "clock",
               "pos": "n",
-              "meaning": "时钟；计时",
+              "meaning": "计时器；计时（此处指跑步用时）",
               "reviewVersion": 2
             }
           ],
@@ -3350,7 +3350,7 @@
               "word": "up",
               "lemma": "up",
               "pos": "adv",
-              "meaning": "混在一起（mix up）；达到上限",
+              "meaning": "与 mix 连用，表示把两件事混淆",
               "reviewVersion": 2
             },
             {
@@ -3544,7 +3544,7 @@
               "word": "is",
               "lemma": "be",
               "pos": "v",
-              "meaning": "是；处于所述状态",
+              "meaning": "在 there is 中表示“有；存在”，此处指有一点不合情理",
               "reviewVersion": 2
             },
             {
@@ -4289,7 +4289,7 @@
               "word": "presided",
               "lemma": "preside",
               "pos": "v",
-              "meaning": "主持；掌权见证（preside over）；主管",
+              "meaning": "在其执政期间发生；此处指历届政府主导或放任下列变化",
               "reviewVersion": 2
             },
             {

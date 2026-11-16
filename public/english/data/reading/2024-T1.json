@@ -618,7 +618,7 @@
               "word": "evenly",
               "lemma": "evenly",
               "pos": "adv",
-              "meaning": "均匀地（这里指让更多人分享经济增长的收益）",
+              "meaning": "均衡地（收益要分配得更均衡）",
               "reviewVersion": 2
             },
             {
@@ -731,23 +731,23 @@
               "a": 0,
               "b": 66,
               "en": "“An economy of tech millionaires or billionaires and gig workers, ",
-              "zh": "“一种由科技百万富翁、亿万富翁和零工劳动者组成的经济，"
+              "zh": "“一个经济体，一头是科技业的百万、亿万富翁，另一头是打零工的人，"
             },
             {
               "a": 66,
               "b": 114,
               "en": "with middle-income jobs undercut by automation, ",
-              "zh": "其中中等收入岗位受到自动化的挤压，"
+              "zh": "中等收入岗位还被自动化挤压，"
             },
             {
               "a": 114,
               "b": 151,
               "en": "will not be politically sustainable.”",
-              "zh": "在政治上将难以持续。”"
+              "zh": "这种局面在政治上很难维持。”"
             }
           ],
           "reorder": "with 补充中间层岗位受挤压的状态；主干 economy...will not 要连起来。",
-          "translation": "“如果一种经济中，一边是科技百万富翁或亿万富翁，一边是零工劳动者，而中等收入岗位又受到自动化冲击，这种经济在政治上将难以持续。”",
+          "translation": "“一个经济体如果一头是科技业的百万、亿万富翁，另一头是打零工的人，而中等收入岗位又受到自动化挤压，那么这种局面在政治上很难维持。”",
           "words": [
             {
               "a": 1,
@@ -782,7 +782,7 @@
               "word": "tech",
               "lemma": "tech",
               "pos": "n",
-              "meaning": "科技行业",
+              "meaning": "科技行业的；tech millionaires 指靠科技行业发家的百万富翁",
               "reviewVersion": 2
             },
             {
@@ -1036,7 +1036,7 @@
               "word": "standards",
               "lemma": "standard",
               "pos": "n",
-              "meaning": "水平（living standards）",
+              "meaning": "水平；living standards 指生活水平",
               "reviewVersion": 2
             },
             {
@@ -1403,7 +1403,7 @@
               "word": "embrace",
               "lemma": "embrace",
               "pos": "v",
-              "meaning": "接受；支持",
+              "meaning": "欣然接受；指愿意接纳技术变革",
               "reviewVersion": 2
             },
             {
@@ -2534,7 +2534,7 @@
               "word": "handful",
               "lemma": "handful",
               "pos": "n",
-              "meaning": "少量（a handful of）",
+              "meaning": "少数；a handful of prosperous cities 指少数几个富裕城市",
               "reviewVersion": 2
             },
             {
@@ -3535,7 +3535,7 @@
               "a": 88,
               "b": 127,
               "en": "hold back the sorts of AI technologies ",
-              "zh": "阻碍某些人工智能技术，"
+              "zh": "阻碍某些人工智能技术的发展，"
             },
             {
               "a": 127,
@@ -3545,7 +3545,7 @@
             }
           ],
           "reorder": "倒装 Not only will 还原顺序；将 needed 修饰放到技术前；as Coyle suggests 为插入来源。",
-          "translation": "这不仅会滋生政治和社会动荡，还可能如科伊尔所说，阻碍地区经济发展所需的那些人工智能技术。",
+          "translation": "这不仅会助长政治和社会动荡，还可能像科伊尔说的那样，拖慢某些人工智能技术的进展，而各地的经济增长正需要这些技术。",
           "words": [
             {
               "a": 0,
@@ -3998,7 +3998,7 @@
               "word": "Tech",
               "lemma": "tech",
               "pos": "n",
-              "meaning": "科技行业",
+              "meaning": "科技（Big Tech：大型科技公司或科技巨头）",
               "reviewVersion": 2
             },
             {
@@ -4159,7 +4159,7 @@
               "word": "increased",
               "lemma": "increased",
               "pos": "adj",
-              "meaning": "增加了的",
+              "meaning": "更多的；加大的（联邦政府拨款）",
               "reviewVersion": 2
             },
             {
@@ -4231,7 +4231,7 @@
               "word": "tech",
               "lemma": "tech",
               "pos": "n",
-              "meaning": "科技行业",
+              "meaning": "科技的（tech giants：科技巨头）",
               "reviewVersion": 2
             },
             {

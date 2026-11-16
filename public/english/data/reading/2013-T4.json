@@ -1927,13 +1927,13 @@
               "a": 0,
               "b": 19,
               "en": "Quotas get action: ",
-              "zh": "配额能促成行动"
+              "zh": "配额制度能推动改变"
             },
             {
               "a": 19,
               "b": 93,
               "en": "they “open the way to equality and they break through the glass ceiling,” ",
-              "zh": "它们“开辟通往平等的道路，并打破玻璃天花板”"
+              "zh": "它打开了通向平等的大门，也打破了妨碍女性晋升的无形障碍"
             },
             {
               "a": 93,
@@ -1951,17 +1951,17 @@
               "a": 158,
               "b": 190,
               "en": "with legally binding provisions ",
-              "zh": "这些国家有法律约束力的规定"
+              "zh": "这些国家制定了有法律约束力的规定"
             },
             {
               "a": 190,
               "b": 233,
               "en": "on placing women in top business positions.",
-              "zh": "规定女性进入企业最高职位"
+              "zh": "让女性进入企业高层"
             }
           ],
           "reorder": "把 according to 提前，with 及 on 定语合并为其他国家的特点。",
-          "translation": "雷丁说，配额能促成行动，“开辟通往平等的道路，并打破玻璃天花板”；这一效果已经出现在法国等以法律约束力规定女性进入企业高层的国家。",
+          "translation": "雷丁说，配额制度能推动改变：“它打开了通向平等的大门，也打破了妨碍女性晋升的无形障碍。”法国等国已通过有法律约束力的规定让女性进入企业高层，并且看到了这种效果。",
           "words": [
             {
               "a": 0,
@@ -1987,7 +1987,7 @@
               "word": "action",
               "lemma": "action",
               "pos": "n",
-              "meaning": "行动",
+              "meaning": "实际行动；get action 指配额能推动企业真正采取行动",
               "reviewVersion": 2
             },
             {
@@ -2835,7 +2835,7 @@
               "word": "if",
               "lemma": "if",
               "pos": "conj",
-              "meaning": "如果（引出条件）",
+              "meaning": "用于 as if，表示“似乎”；这里表示看起来有必要暂时靠规定来改善局面",
               "reviewVersion": 2
             },
             {
@@ -3308,7 +3308,7 @@
               "word": "put",
               "lemma": "put",
               "pos": "v",
-              "meaning": "使置于（put on hold为暂停）",
+              "meaning": "施加；pressure is put upon them 指企业受到了压力",
               "reviewVersion": 2
             },
             {
@@ -3621,7 +3621,7 @@
               "word": "precisely",
               "lemma": "precisely",
               "pos": "adv",
-              "meaning": "准确地",
+              "meaning": "恰恰；和 because 连用强调真正的原因",
               "reviewVersion": 2
             },
             {
@@ -3850,7 +3850,7 @@
               "word": "place",
               "lemma": "place",
               "pos": "n",
-              "meaning": "地方",
+              "meaning": "用于 in place，指政策已建立并在实施",
               "reviewVersion": 2
             },
             {

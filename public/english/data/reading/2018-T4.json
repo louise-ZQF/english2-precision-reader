@@ -113,7 +113,7 @@
               "word": "putting",
               "lemma": "put",
               "pos": "v",
-              "meaning": "给予（高度重视），put a premium on整体为高度重视",
+              "meaning": "在 put a premium on 中表示特别重视；此处指把忙碌看得过于重要",
               "reviewVersion": 2
             },
             {
@@ -466,35 +466,35 @@
               "a": 0,
               "b": 69,
               "en": "There are a number of approaches to mastering the art of deep work – ",
-              "zh": "掌握深度工作的技巧有多种方式——"
+              "zh": "掌握深度工作有多种办法"
             },
             {
               "a": 69,
               "b": 122,
               "en": "be it lengthy retreats dedicated to a specific task; ",
-              "zh": "可以长时间远离干扰，专注一项任务；"
+              "zh": "可以专门抽出一大段时间，远离外界并专注某项任务"
             },
             {
               "a": 122,
               "b": 149,
               "en": "developing a daily ritual; ",
-              "zh": "可以形成每日固定习惯；"
+              "zh": "可以形成一套每天重复的固定流程"
             },
             {
               "a": 149,
               "b": 217,
               "en": "or taking a “journalistic” approach to seizing moments of deep work ",
-              "zh": "也可以采用“记者式”方式，抓住深度工作的时机，"
+              "zh": "也可以采取“记者式”的做法，抓住机会专注工作"
             },
             {
               "a": 217,
               "b": 249,
               "en": "when you can throughout the day.",
-              "zh": "只要一天中有空就去做。"
+              "zh": "只要一天中有空就去做"
             }
           ],
           "reorder": "be it 统领三个备选方案，最后 when 的时间只解释随时抓机会这一方法。",
-          "translation": "掌握深度工作的技巧有多种方式——可以长时间远离干扰，专注一项任务；可以形成每日固定习惯；也可以采用“记者式”方式，抓住深度工作的时机，只要一天中有空就去做。",
+          "translation": "掌握深度工作有多种办法：可以专门抽出一大段时间远离外界，专注做一项任务；可以每天按固定流程进入状态；也可以像记者一样见缝插针，一有空就专注工作。",
           "words": [
             {
               "a": 0,
@@ -1188,7 +1188,7 @@
               "word": "scheduling",
               "lemma": "schedule",
               "pos": "n",
-              "meaning": "安排时间；排期",
+              "meaning": "时间安排；排期（此处指提前为专注工作安排时间）",
               "reviewVersion": 2
             },
             {
@@ -1291,7 +1291,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 25,
+              "b": 40,
+              "word": "deep scheduling",
+              "lemma": "deep scheduling",
+              "meaning": "为专注工作预先留出时间；深度排期",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
@@ -1304,7 +1313,7 @@
             "note": "get more done中的more指更多事情，less修饰时间，两个目的均保留。",
             "sentenceSHA256": "8319fecd4f826f3a8d0283257201ab1fd6675e5e1dafb5b87bdf8ce87ccbc5e7",
             "words": 16,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },
@@ -2273,7 +2282,7 @@
               "word": "groups",
               "lemma": "group",
               "pos": "n",
-              "meaning": "群体",
+              "meaning": "组；按研究方案划分的一批受试学生",
               "reviewVersion": 2
             },
             {
@@ -2327,7 +2336,7 @@
               "word": "out",
               "lemma": "out",
               "pos": "adv",
-              "meaning": "明示出来（set out列出）；外面",
+              "meaning": "与 set 连用表示明确列出；这里指列出每月目标和学习活动",
               "reviewVersion": 2
             },
             {
@@ -2767,7 +2776,7 @@
               "word": "tasks",
               "lemma": "task",
               "pos": "n",
-              "meaning": "任务；家务事",
+              "meaning": "任务；这里指学生计划要完成的事项",
               "reviewVersion": 2
             },
             {
@@ -3238,7 +3247,7 @@
               "word": "make",
               "lemma": "make",
               "pos": "v",
-              "meaning": "使；与the most of组成充分利用",
+              "meaning": "在 make the most of 中表示充分利用，指用好注意力和精力",
               "reviewVersion": 2
             },
             {
@@ -4580,7 +4589,7 @@
               "word": "unfocus",
               "lemma": "unfocus",
               "pos": "n",
-              "meaning": "非专注状态",
+              "meaning": "非专注状态；思维没有紧盯某一任务的状态",
               "reviewVersion": 2
             },
             {

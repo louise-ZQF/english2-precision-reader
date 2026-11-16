@@ -463,7 +463,7 @@
               "word": "food",
               "lemma": "food",
               "pos": "n",
-              "meaning": "食物",
+              "meaning": "餐食（food trucks：流动餐车）",
               "reviewVersion": 2
             },
             {
@@ -2553,7 +2553,7 @@
               "word": "economic",
               "lemma": "economic",
               "pos": "a",
-              "meaning": "经济学的",
+              "meaning": "经济领域的（这里调查公众对国家公园价值的看法和付费意愿）",
               "reviewVersion": 2
             },
             {
@@ -3101,7 +3101,7 @@
               "word": "cuts",
               "lemma": "cut",
               "pos": "n",
-              "meaning": "削减",
+              "meaning": "削减（这里指削减国家公园经费或项目）",
               "reviewVersion": 2
             },
             {
@@ -3790,13 +3790,13 @@
               "a": 0,
               "b": 47,
               "en": "The parks also help keep America's past alive, ",
-              "zh": "公园还帮助美国的历史保持鲜活，"
+              "zh": "这些公园也让人们不忘美国的历史，"
             },
             {
               "a": 47,
               "b": 112,
               "en": "working with thousands of local jurisdictions around the country ",
-              "zh": "与全国数千个地方辖区合作，"
+              "zh": "与全国数千个地方行政辖区合作，"
             },
             {
               "a": 112,
@@ -3818,7 +3818,7 @@
             }
           ],
           "reorder": "working 的行动主体仍是公园；两个 to 并列合作目的；破折号内举历史遗址实例。",
-          "translation": "公园还与全国数千个地方辖区合作，保护包括埃利斯岛和葛底斯堡在内的历史遗址，生动讲述这些地方的故事，让美国的历史保持鲜活。",
+          "translation": "这些公园还与全国数千个地方行政辖区合作，保护埃利斯岛、葛底斯堡等历史遗址，生动讲述这些地方的故事，让人们继续了解美国的过去。",
           "words": [
             {
               "a": 0,
@@ -4141,7 +4141,7 @@
               "word": "life",
               "lemma": "life",
               "pos": "n",
-              "meaning": "生活",
+              "meaning": "生气；活力（bring the stories to life：把故事讲活）",
               "reviewVersion": 2
             }
           ],
@@ -4332,23 +4332,23 @@
               "a": 72,
               "b": 145,
               "en": "an amount that has been flat since 2001 ( in inflation-adjusted dollars) ",
-              "zh": "这一金额自2001年以来一直持平（按通胀调整后的美元计算），"
+              "zh": "扣除通胀的影响，这笔拨款自2001年以来一直持平，"
             },
             {
               "a": 145,
               "b": 191,
               "en": "with the exception of a onetime boost in 2009 ",
-              "zh": "唯一例外是2009年的一次性增加，"
+              "zh": "只有2009年增加过一次，"
             },
             {
               "a": 191,
               "b": 229,
               "en": "as part of the Obama stimulus package.",
-              "zh": "那是奥巴马经济刺激计划的一部分。"
+              "zh": "那次增拨属于奥巴马政府的经济刺激方案。"
             }
           ],
           "reorder": "把拨款对象放前；破折号后解释实际购买力持平；with the exception 单独交代例外。",
-          "translation": "国会每年仅向国家公园系统拨款30亿美元，按通胀调整后的实际金额计算，自2001年以来一直持平；唯一例外是2009年作为奥巴马经济刺激计划一部分的一次性增加。",
+          "translation": "国会每年只拨给国家公园系统30亿美元。扣除通胀的影响，这笔拨款自2001年以来一直持平，只在2009年因为奥巴马政府的经济刺激方案增加过一次。",
           "words": [
             {
               "a": 0,

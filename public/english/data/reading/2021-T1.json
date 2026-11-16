@@ -291,7 +291,7 @@
               "word": "workers",
               "lemma": "worker",
               "pos": "n",
-              "meaning": "劳动者；员工",
+              "meaning": "就业者（would-be workers：有意就业的人）",
               "reviewVersion": 2
             },
             {
@@ -1765,7 +1765,7 @@
               "word": "go",
               "lemma": "go",
               "pos": "v",
-              "meaning": "离开；放走（let go of搭配）",
+              "meaning": "选择；采用（go with：选用某种策略）",
               "reviewVersion": 2
             },
             {
@@ -2025,23 +2025,23 @@
               "a": 0,
               "b": 59,
               "en": "When the skills mismatch is in the broader economy though, ",
-              "zh": "不过，当技能错配出现在更广泛的经济领域时"
+              "zh": "但如果整个经济体都出现了劳动者技能与岗位要求不匹配的问题"
             },
             {
               "a": 59,
               "b": 97,
               "en": "the focus usually turns to government ",
-              "zh": "人们通常就会转向政府"
+              "zh": "人们通常就会把目光转向政府"
             },
             {
               "a": 97,
               "b": 107,
               "en": "to handle.",
-              "zh": "希望由政府来处理"
+              "zh": "指望政府出面解决"
             }
           ],
           "reorder": "无需调序。",
-          "translation": "不过，当技能错配出现在更广泛的经济领域时，人们通常会转而指望政府来处理。",
+          "translation": "但如果整个经济体都出现了劳动者技能与岗位要求不匹配的问题，人们通常就会指望政府出面解决。",
           "words": [
             {
               "a": 0,
@@ -2076,7 +2076,7 @@
               "word": "mismatch",
               "lemma": "mismatch",
               "pos": "n",
-              "meaning": "供需错配",
+              "meaning": "不匹配；这里指劳动者掌握的技能与岗位要求不匹配",
               "reviewVersion": 2
             },
             {
@@ -3575,7 +3575,7 @@
               "word": "medical",
               "lemma": "medical",
               "pos": "a",
-              "meaning": "医疗的",
+              "meaning": "医务方面的；medical personnel 指医生、护士等医务人员",
               "reviewVersion": 2
             },
             {
@@ -3724,7 +3724,7 @@
               "word": "take",
               "lemma": "take",
               "pos": "v",
-              "meaning": "举出（例子）",
+              "meaning": "找来；选用（这里指找一名失业的服务员参加培训）",
               "reviewVersion": 2
             },
             {
@@ -4030,8 +4030,8 @@
               "b": 33,
               "word": "that",
               "lemma": "that",
-              "pos": "a",
-              "meaning": "那个（服务员变医生的）技能缺口",
+              "pos": "det",
+              "meaning": "那个（指上文提到的医护人员短缺）",
               "reviewVersion": 2
             },
             {
@@ -4040,7 +4040,7 @@
               "word": "gap",
               "lemma": "gap",
               "pos": "n",
-              "meaning": "技能缺口",
+              "meaning": "用工缺口（这里主要指医护人员短缺）",
               "reviewVersion": 2
             },
             {
@@ -4103,7 +4103,7 @@
               "word": "doing",
               "lemma": "do",
               "pos": "v",
-              "meaning": "这样做；弥合技能缺口",
+              "meaning": "这样做（指弥补其他用工缺口）",
               "reviewVersion": 2
             },
             {
@@ -4470,7 +4470,7 @@
               "word": "up",
               "lemma": "up",
               "pos": "adv",
-              "meaning": "向上；上升",
+              "meaning": "与 start 构成 start up，指启动培训项目",
               "reviewVersion": 2
             },
             {

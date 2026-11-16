@@ -693,11 +693,11 @@
               "a": 56,
               "b": 94,
               "en": "eventually returned to Italy for good.",
-              "zh": "最后永远返回了意大利"
+              "zh": "最后回到意大利定居，再也没回来"
             }
           ],
           "reorder": "把 for example 提到句首。",
-          "translation": "例如，约四分之一的意大利移民最后永远返回了意大利。",
+          "translation": "比如，约四分之一的意大利移民最后回到意大利定居，再也没回来。",
           "words": [
             {
               "a": 0,
@@ -1115,7 +1115,7 @@
               "word": "rigid",
               "lemma": "rigid",
               "pos": "a",
-              "meaning": "僵化的",
+              "meaning": "死板的；这里指把移民硬性分成“合法”和“非法”两类",
               "reviewVersion": 2
             },
             {
@@ -1314,23 +1314,23 @@
               "a": 0,
               "b": 41,
               "en": "We hail them as Americans in the making, ",
-              "zh": "我们要么把他们赞为即将成为美国人的人"
+              "zh": "我们要么称赞他们是未来的美国人"
             },
             {
               "a": 41,
               "b": 65,
               "en": "or brand them as aliens ",
-              "zh": "要么把他们贬为外国人"
+              "zh": "要么给他们贴上外国人的标签"
             },
             {
               "a": 65,
               "b": 82,
               "en": "to be kicked out.",
-              "zh": "应被驱逐的外国人"
+              "zh": "认为他们应该被赶走"
             }
           ],
           "reorder": "把 to be kicked out 放到“外国人”前，保留两极化标签的对照。",
-          "translation": "我们要么把他们赞为正在成长中的美国人，要么给他们贴上应被驱逐的外国人的标签。",
+          "translation": "我们要么称赞他们是未来的美国人，要么给他们贴上“应该被赶走的外国人”的标签。",
           "words": [
             {
               "a": 0,
@@ -1678,7 +1678,7 @@
               "word": "political",
               "lemma": "political",
               "pos": "a",
-              "meaning": "政治学的",
+              "meaning": "政治上的；political paralysis 指政治上长期僵持，迟迟拿不出解决办法",
               "reviewVersion": 2
             },
             {
@@ -2131,7 +2131,7 @@
               "word": "start",
               "lemma": "start",
               "pos": "v",
-              "meaning": "开始",
+              "meaning": "用于 To start，表示“首先”，引出第一项建议",
               "reviewVersion": 2
             },
             {
@@ -2275,7 +2275,7 @@
               "word": "areas",
               "lemma": "area",
               "pos": "n",
-              "meaning": "领域",
+              "meaning": "地带；在 gray areas 中指界限模糊的地带",
               "reviewVersion": 2
             }
           ],
@@ -2678,11 +2678,11 @@
               "a": 52,
               "b": 96,
               "en": "driven by the flow of work, money and ideas.",
-              "zh": "这一经济由工作、资金和思想的流动驱动"
+              "zh": "由工作机会、资金和观念的跨境流动推动"
             }
           ],
           "reorder": "把 driven 后置修饰放到“全球经济”前。",
-          "translation": "他们是由工作、资金和思想流动驱动的全球经济的积极参与者。",
+          "translation": "工作机会、资金和观念的跨境流动推动了全球经济，他们就活跃在其中。",
           "words": [
             {
               "a": 0,
@@ -2956,7 +2956,7 @@
               "word": "calls",
               "lemma": "call",
               "pos": "v",
-              "meaning": "召唤（机会出现的比喻）",
+              "meaning": "吸引……前往；作者把有机会的地方写成在召唤他们",
               "reviewVersion": 2
             },
             {
@@ -3571,7 +3571,7 @@
               "word": "themselves",
               "lemma": "themselves",
               "pos": "pron",
-              "meaning": "他们自己（公民）",
+              "meaning": "他们自己；用于 commit oneself to，表示让自己承诺做某事",
               "reviewVersion": 2
             },
             {
@@ -4058,7 +4058,7 @@
               "word": "immigration",
               "lemma": "immigration",
               "pos": "n",
-              "meaning": "移民；移民制度",
+              "meaning": "移民问题的；immigration battle 指围绕移民问题的争论",
               "reviewVersion": 2
             },
             {
@@ -4147,7 +4147,7 @@
               "word": "Looking",
               "lemma": "look",
               "pos": "v",
-              "meaning": "看；观察",
+              "meaning": "超越；look beyond 在这里指跳出非对即错的思路",
               "reviewVersion": 2
             },
             {
@@ -4354,7 +4354,7 @@
               "word": "multiple",
               "lemma": "multiple",
               "pos": "a",
-              "meaning": "多次的",
+              "meaning": "多种的；这里指多种途径或多种结果",
               "reviewVersion": 2
             },
             {
@@ -4381,7 +4381,7 @@
               "word": "multiple",
               "lemma": "multiple",
               "pos": "a",
-              "meaning": "多次的",
+              "meaning": "多种的；这里指多种途径或多种结果",
               "reviewVersion": 2
             },
             {
@@ -4513,6 +4513,14 @@
           ],
           "phrases": [
             {
+              "a": 0,
+              "b": 14,
+              "word": "Looking beyond",
+              "lemma": "look beyond",
+              "meaning": "跳出……来看；这里指跳出非对即错的思路",
+              "kind": "phrase"
+            },
+            {
               "a": 76,
               "b": 89,
               "lemma": "middle ground",
@@ -4533,7 +4541,7 @@
             "note": "承认中间空间与多路径多结果，其中部分现制度难合法实现，未声称所有安排皆合法。",
             "sentenceSHA256": "c519eb82057feac66887b62cf579d6dff9c908160ed682bfdb2445e194ff212f",
             "words": 41,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         }

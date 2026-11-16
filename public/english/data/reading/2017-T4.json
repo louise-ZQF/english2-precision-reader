@@ -692,7 +692,7 @@
               "word": "spent",
               "lemma": "spend",
               "pos": "v",
-              "meaning": "花费；度过",
+              "meaning": "花费（预算）；把钱用于",
               "reviewVersion": 2
             },
             {
@@ -2161,7 +2161,7 @@
               "word": "landscape",
               "lemma": "landscape",
               "pos": "n",
-              "meaning": "景色；地貌",
+              "meaning": "地貌；此处指地形中的地段",
               "reviewVersion": 2
             }
           ],
@@ -2420,11 +2420,11 @@
               "a": 15,
               "b": 71,
               "en": "conversations about wildfires need to be more inclusive.",
-              "zh": "有关野火的讨论需要涵盖更多方面"
+              "zh": "有关野火的讨论需要纳入更多相关因素"
             }
           ],
-          "reorder": "顺译，inclusive 指讨论所纳入的因素更全面。",
-          "translation": "首先，有关野火的讨论需要涵盖更多方面。",
+          "reorder": "顺译。接下来列举过去偏重气候因素，强调讨论范围需要扩大。",
+          "translation": "首先，讨论野火时，不能只盯着单一因素，还要把其他相关因素考虑进去。",
           "words": [
             {
               "a": 0,
@@ -2522,7 +2522,7 @@
               "word": "inclusive",
               "lemma": "inclusive",
               "pos": "a",
-              "meaning": "涵盖广泛的；全面的",
+              "meaning": "把更多相关因素纳入讨论的；更全面的",
               "reviewVersion": 2
             }
           ],
@@ -3364,7 +3364,7 @@
               "word": "Failing",
               "lemma": "fail",
               "pos": "v",
-              "meaning": "失败；未能奏效",
+              "meaning": "未能；没有做到（fail to recognize：没有意识到）",
               "reviewVersion": 2
             },
             {
@@ -3938,7 +3938,7 @@
               "word": "unleashed",
               "lemma": "unleash",
               "pos": "v",
-              "meaning": "释放；允许使用",
+              "meaning": "放开控制、让火烧起来",
               "reviewVersion": 2
             },
             {
@@ -3956,7 +3956,7 @@
               "word": "out",
               "lemma": "out",
               "pos": "adv",
-              "meaning": "查明；梳理清楚（tease out）；出于（out of necessity）",
+              "meaning": "与 of 连用表示出于某原因（out of necessity：出于必要）",
               "reviewVersion": 2
             },
             {
@@ -4418,7 +4418,7 @@
               "a": 0,
               "b": 54,
               "en": "“We've disconnected ourselves from living with fire,” ",
-              "zh": "我们已疏离了与火共处的生活"
+              "zh": "我们与过去那种和火共处的生活已经脱节"
             },
             {
               "a": 54,
@@ -4427,8 +4427,8 @@
               "zh": "鲍尔奇说"
             }
           ],
-          "reorder": "把说话人提前，disconnected ourselves from 按疏离的比喻义译出。",
-          "translation": "鲍尔奇说：“我们已疏离了与火共处的生活。”",
+          "reorder": "先交代说话人，再用“不再像过去那样与火共处”说清这种脱节。",
+          "translation": "鲍尔奇说：“我们已经不再像过去那样与火共处了。”",
           "words": [
             {
               "a": 1,
@@ -4472,7 +4472,7 @@
               "word": "living",
               "lemma": "live",
               "pos": "v",
-              "meaning": "生活；栖息",
+              "meaning": "与……共处（live with fire：与火共处）",
               "reviewVersion": 2
             },
             {
@@ -4654,7 +4654,7 @@
               "word": "out",
               "lemma": "out",
               "pos": "adv",
-              "meaning": "查明；梳理清楚（tease out）；出于（out of necessity）",
+              "meaning": "与 tease 连用指仔细梳理、把复杂的联系弄清楚",
               "reviewVersion": 2
             },
             {

@@ -48,11 +48,11 @@
               "a": 59,
               "b": 118,
               "en": "of creating automatic behaviors – habits – among consumers.",
-              "zh": "即在消费者中培养自动行为，也就是习惯"
+              "zh": "即让顾客习惯不假思索地做某些事"
             }
           ],
           "reorder": "把 of creating 内容作“技巧”的具体解释。",
-          "translation": "过去十年间，许多公司已熟练掌握了在消费者中培养自动行为、也就是习惯的技巧。",
+          "translation": "过去十年，许多公司已经十分擅长让顾客养成不假思索就会去做某些事的习惯。",
           "words": [
             {
               "a": 0,
@@ -485,7 +485,7 @@
               "word": "designed",
               "lemma": "design",
               "pos": "v",
-              "meaning": "设计",
+              "meaning": "设计好的；carefully designed 指这些日常信号是商家精心设计的",
               "reviewVersion": 2
             },
             {
@@ -1067,11 +1067,11 @@
               "a": 70,
               "b": 97,
               "en": "that happen automatically.”",
-              "zh": "使这些行为自动发生。”"
+              "zh": "让人不假思索就会去做"
             }
           ],
           "reorder": "把 that 修饰语译成“自动发生的新行为”，接在“培养”后。",
-          "translation": "“我们想向私营企业学习，怎样培养能自动发生的新行为。”",
+          "translation": "“我们想向私营企业取经，看看怎样让人养成无需提醒就会去做的新习惯。”",
           "words": [
             {
               "a": 1,
@@ -1914,7 +1914,7 @@
               "word": "health",
               "lemma": "health",
               "pos": "n",
-              "meaning": "健康；卫生",
+              "meaning": "有益健康的；health snacks 指主打健康的零食",
               "reviewVersion": 2
             },
             {
@@ -2353,7 +2353,7 @@
               "word": "health",
               "lemma": "health",
               "pos": "n",
-              "meaning": "健康；卫生",
+              "meaning": "卫生；public health campaigns 指面向公众的卫生宣传活动",
               "reviewVersion": 2
             },
             {
@@ -4204,23 +4204,23 @@
               "a": 85,
               "b": 105,
               "en": "that there is power ",
-              "zh": "其中蕴含着力量"
+              "zh": "这样做很有效"
             },
             {
               "a": 105,
               "b": 149,
               "en": "in tying certain behaviors to habitual cues ",
-              "zh": "把某些行为与习惯性提示联系起来"
+              "zh": "把某些行为与日常生活中会触发习惯的信号联系起来"
             },
             {
               "a": 149,
               "b": 178,
               "en": "through ruthless advertising.",
-              "zh": "通过强势持续的广告来实现"
+              "zh": "通过铺天盖地的广告"
             }
           ],
           "reorder": "把 through advertising 与 tying 结合，译成“通过广告将……联系起来”。",
-          "translation": "通过实验和观察，伯宁博士这样的社会科学家了解到，通过强势持续的广告，把某些行为与习惯性提示联系起来，会产生强大力量。",
+          "translation": "通过实验和观察，伯宁博士这样的社会科学家发现，铺天盖地的广告能把某些行为与日常生活中的信号牢牢联系起来，这种做法很有效。",
           "words": [
             {
               "a": 0,
@@ -4354,7 +4354,7 @@
               "word": "power",
               "lemma": "power",
               "pos": "n",
-              "meaning": "力量；强大作用",
+              "meaning": "效果，作用；there is power in doing 表示某种做法很有效",
               "reviewVersion": 2
             },
             {
@@ -4671,7 +4671,7 @@
               "word": "questionable",
               "lemma": "questionable",
               "pos": "a",
-              "meaning": "功效或正当性可疑的",
+              "meaning": "效果令人怀疑的；这里质疑商家推销的美容霜",
               "reviewVersion": 2
             },
             {

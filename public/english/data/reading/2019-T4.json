@@ -236,7 +236,7 @@
               "a": 0,
               "b": 39,
               "en": "They're part of a bunch of celebrities ",
-              "zh": "他们是一众明星中的成员"
+              "zh": "他们是一群出镜明星中的三位"
             },
             {
               "a": 39,
@@ -248,23 +248,23 @@
               "a": 91,
               "b": 122,
               "en": "encouraging you, the consumer, ",
-              "zh": "鼓励身为消费者的你"
+              "zh": "鼓励作为消费者的你"
             },
             {
               "a": 122,
               "b": 190,
               "en": "to swap out your single-use plastic staples like straws and cutlery ",
-              "zh": "换掉吸管和餐具等常用的一次性塑料用品"
+              "zh": "换掉塑料吸管、塑料餐具等日常使用的一次性用品"
             },
             {
               "a": 190,
               "b": 220,
               "en": "to combat the plastics crisis.",
-              "zh": "以应对塑料危机"
+              "zh": "以应对塑料污染危机"
             }
           ],
           "reorder": "把 starring 的身份与视频背景展开，再译 encouraging 的目的；the consumer 同位说明 you。",
-          "translation": "他们是一众出演世界环境日新视频的明星中的成员，鼓励身为消费者的你换掉吸管、餐具等常用的一次性塑料用品，以应对塑料危机。",
+          "translation": "为世界环境日拍摄的一支新视频找来多位明星出镜，他们三位也在其中。视频鼓励消费者换掉塑料吸管、塑料餐具等日常使用的一次性用品，以应对塑料污染危机。",
           "words": [
             {
               "a": 0,
@@ -931,17 +931,17 @@
               "a": 0,
               "b": 28,
               "en": "But the overarching message ",
-              "zh": "但其中占主导的宣传信息"
+              "zh": "但这场宣传最主要的信息"
             },
             {
               "a": 28,
               "b": 55,
               "en": "is directed at individuals.",
-              "zh": "面向的仍是个人"
+              "zh": "是面向个人的"
             }
           ],
           "reorder": "顺译，directed at 指目标受众。",
-          "translation": "但其中占主导的宣传信息，面向的仍是个人。",
+          "translation": "但这场宣传活动最主要的呼吁，还是对个人发出的。",
           "words": [
             {
               "a": 0,
@@ -967,7 +967,7 @@
               "word": "overarching",
               "lemma": "overarching",
               "pos": "a",
-              "meaning": "总的；居主导地位的",
+              "meaning": "统领全篇的；此处指宣传活动传达的总体信息",
               "reviewVersion": 2
             },
             {
@@ -2098,13 +2098,13 @@
               "a": 0,
               "b": 79,
               "en": "While the conversation around our environment and our responsibility toward it ",
-              "zh": "当有关环境及我们对它所负责任的讨论"
+              "zh": "当我们讨论环境和自身应负的责任时"
             },
             {
               "a": 79,
               "b": 125,
               "en": "remains centered on shopping bags and straws, ",
-              "zh": "仍围绕购物袋和吸管打转时"
+              "zh": "关注点仍是购物袋和吸管"
             },
             {
               "a": 125,
@@ -2116,35 +2116,35 @@
               "a": 161,
               "b": 179,
               "en": "that implies that ",
-              "zh": "这一格局暗示"
+              "zh": "这种格局让我们以为"
             },
             {
               "a": 179,
               "b": 220,
               "en": "as “consumers” we must shop sustainably, ",
-              "zh": "我们必须以消费者身份进行可持续购物"
+              "zh": "作为“消费者”，我们应选择更环保的商品"
             },
             {
               "a": 220,
               "b": 246,
               "en": "rather than as “citizens” ",
-              "zh": "而不是以公民身份"
+              "zh": "而不是以“公民”的身份"
             },
             {
               "a": 246,
               "b": 293,
               "en": "hold our governments and industries to account ",
-              "zh": "要求政府与产业承担责任"
+              "zh": "要求政府和企业承担责任"
             },
             {
               "a": 293,
               "b": 326,
               "en": "to push for real systemic change.",
-              "zh": "以推动真正的系统性变革"
+              "zh": "推动真正的制度变革"
             }
           ],
           "reorder": "先译讨论局限，再译被忽略的权力格局；两种身份对应购物与问责两种行动，to push 说明问责的目的。",
-          "translation": "当有关环境及我们对它所负责任的讨论，仍围绕购物袋和吸管打转时，我们忽略了背后的权力格局；这一格局暗示，我们必须以“消费者”的身份进行可持续购物，而不是以“公民”的身份要求政府和产业承担责任，推动真正的系统性变革。",
+          "translation": "谈到环保和我们应负的责任，讨论还停留在购物袋和吸管上。我们却忽略了背后的权力格局：它让我们觉得，自己该做的只是以“消费者”的身份选择更环保的商品，而非以“公民”的身份要求政府和企业负责，推动真正的制度变革。",
           "words": [
             {
               "a": 0,
@@ -2440,7 +2440,7 @@
               "word": "sustainably",
               "lemma": "sustainably",
               "pos": "adv",
-              "meaning": "以可持续的方式；不损害环境地",
+              "meaning": "以可持续的方式；尽量减轻购物给环境带来的负担",
               "reviewVersion": 2
             },
             {
@@ -2539,7 +2539,7 @@
               "word": "account",
               "lemma": "account",
               "pos": "n",
-              "meaning": "责任说明；交代（hold to account问责）",
+              "meaning": "在 hold sb to account 中表示要求某人为自己的做法负责；向某人问责",
               "reviewVersion": 2
             },
             {
@@ -3044,7 +3044,7 @@
               "word": "Bad",
               "lemma": "bad",
               "pos": "a",
-              "meaning": "坏的；不利的",
+              "meaning": "有害的；书名中指行事对环境不利",
               "reviewVersion": 2
             },
             {
@@ -3080,7 +3080,7 @@
               "word": "College",
               "lemma": "college",
               "pos": "n",
-              "meaning": "大学",
+              "meaning": "学院（Wellesley College 指韦尔斯利学院）",
               "reviewVersion": 2
             },
             {
@@ -3179,7 +3179,7 @@
               "word": "collectively",
               "lemma": "collectively",
               "pos": "adv",
-              "meaning": "整体地；通过集体方式",
+              "meaning": "从整体上；这里指让大量人群的行为一起发生改变",
               "reviewVersion": 2
             },
             {
@@ -3318,7 +3318,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 65,
+              "b": 82,
+              "word": "Wellesley College",
+              "lemma": "wellesley college",
+              "meaning": "韦尔斯利学院",
+              "kind": "name"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文逐页核对",
@@ -3332,7 +3341,7 @@
             "sentenceSHA256": "291b4f05abd30eb026b5913ae666846d80b77a5762ce45a894cc606f2d26d177",
             "words": 39,
             "phrases": 0,
-            "names": 0
+            "names": 1
           }
         }
       ]
@@ -4517,7 +4526,7 @@
               "word": "writing",
               "lemma": "write",
               "pos": "v",
-              "meaning": "否定（write off）；不再重视",
+              "meaning": "在 write off 中表示认定某人没有作用；此处指否定个人作用",
               "reviewVersion": 2
             },
             {
@@ -4625,7 +4634,7 @@
               "word": "putting",
               "lemma": "put",
               "pos": "v",
-              "meaning": "放置（put...into perspective结合全局正确看待）",
+              "meaning": "与 into perspective 连用，表示结合大局看清某件事的实际分量",
               "reviewVersion": 2
             },
             {

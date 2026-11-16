@@ -429,7 +429,7 @@
               "word": "I'm",
               "lemma": "I be",
               "pos": "pron",
-              "meaning": "我是（I am缩写）",
+              "meaning": "I am 的缩写；I’m sorry 是“对不起”",
               "reviewVersion": 2
             },
             {
@@ -2168,23 +2168,23 @@
               "a": 11,
               "b": 68,
               "en": "by prompting us to think more deeply about our goodness, ",
-              "zh": "通过促使我们更深入地反思自身的善良品行"
+              "zh": "会促使我们反省自己的品行"
             },
             {
               "a": 68,
               "b": 111,
               "en": "can encourage humans to make up for errors ",
-              "zh": "能鼓励人们弥补错误"
+              "zh": "能鼓励人们弥补过错"
             },
             {
               "a": 111,
               "b": 133,
               "en": "and fix relationships.",
-              "zh": "并修复关系"
+              "zh": "并修复与他人的关系"
             }
           ],
           "reorder": "把 by 的作用机制放在内疚与主要作用之间；goodness 指自身道德品质。",
-          "translation": "而内疚通过促使我们更深入地反思自身的善良品行，能鼓励人们弥补错误、修复关系。",
+          "translation": "而内疚会促使我们反省自己做得对不对，进而愿意弥补过错、修复与他人的关系。",
           "words": [
             {
               "a": 0,
@@ -4633,23 +4633,23 @@
               "a": 0,
               "b": 34,
               "en": "The guilt-prone ones shared more, ",
-              "zh": "容易内疚的孩子分享得更多"
+              "zh": "容易感到内疚的孩子分享得更多"
             },
             {
               "a": 34,
               "b": 92,
               "en": "even though they hadn't magically become more sympathetic ",
-              "zh": "即使他们并没有神奇地变得更有同情心"
+              "zh": "尽管他们并没有突然更能体会"
             },
             {
               "a": 92,
               "b": 125,
               "en": "to the other child's deprivation.",
-              "zh": "并未更同情另一个孩子的匮乏处境"
+              "zh": "另一个孩子没拿到巧克力时的感受"
             }
           ],
-          "reorder": "先译分享结果，再译 even though 的让步；deprivation 指另一个孩子没得到巧克力的处境。",
-          "translation": "容易内疚的孩子分享得更多，即使他们并没有神奇地变得更同情另一个孩子没得到巧克力的处境。",
+          "reorder": "先说他们愿意多分享，再用“尽管”说明，他们并没有因此变得更能体会另一个孩子的处境。",
+          "translation": "容易感到内疚的孩子愿意多分一些巧克力，尽管他们并没有突然更能体会那个没拿到巧克力的孩子的感受。",
           "words": [
             {
               "a": 0,
@@ -4738,7 +4738,7 @@
               "word": "magically",
               "lemma": "magically",
               "pos": "adv",
-              "meaning": "神奇地；像变魔术一样",
+              "meaning": "像变魔术一样；这里说孩子不会一下子凭空变得更有同情心",
               "reviewVersion": 2
             },
             {

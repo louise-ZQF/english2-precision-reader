@@ -307,11 +307,11 @@
               "a": 98,
               "b": 157,
               "en": "(\"an ostrich's eye is bigger than its brain,\" for example).",
-              "zh": "（例如“鸵鸟的眼睛比脑袋还大”）。"
+              "zh": "（例如“鸵鸟的眼睛比它的大脑还大”）。"
             }
           ],
           "reorder": "in which 修饰研究；to record 接在“要求”后，括号为小知识实例。",
-          "translation": "2011年，斯帕罗主持了一项研究，要求参与者在电脑里记录40条小知识，例如“鸵鸟的眼睛比脑袋还大”。",
+          "translation": "2011年，斯帕罗主持了一项研究，让参与者在电脑里记下40条小知识，例如“鸵鸟的眼睛比它的大脑还大”。",
           "words": [
             {
               "a": 0,
@@ -934,7 +934,7 @@
               "word": "latter",
               "lemma": "latter",
               "pos": "a",
-              "meaning": "后面提到的",
+              "meaning": "后者的（这里指被告知数据会保存的那一组）",
               "reviewVersion": 2
             },
             {
@@ -1708,7 +1708,7 @@
               "word": "communications",
               "lemma": "communication",
               "pos": "n",
-              "meaning": "通信",
+              "meaning": "通信的；communications technology 指让人传递信息的技术",
               "reviewVersion": 2
             },
             {
@@ -1782,7 +1782,7 @@
               "a": 0,
               "b": 25,
               "en": "In a very practical way, ",
-              "zh": "从很实际的意义上说，"
+              "zh": "从实际使用来看，"
             },
             {
               "a": 25,
@@ -1800,11 +1800,11 @@
               "a": 91,
               "b": 133,
               "en": "a process known as \"cognitive offloading.\"",
-              "zh": "这一过程称为“认知卸载”。"
+              "zh": "这个过程叫作“认知卸载”。"
             }
           ],
           "reorder": "把外置硬盘的比喻顺译；句末同位语解释这一过程的名称。",
-          "translation": "从很实际的意义上说，互联网正在成为我们记忆的外置硬盘，这一过程称为“认知卸载”。",
+          "translation": "在实际使用中，互联网正逐渐成为我们记忆的“外置硬盘”。把一部分记忆任务交给外部工具，这个过程叫作“认知卸载”。",
           "words": [
             {
               "a": 0,
@@ -2158,7 +2158,7 @@
               "word": "other",
               "lemma": "other",
               "pos": "a",
-              "meaning": "另一组的；其他的",
+              "meaning": "其他（指有时替我们记事的其他人）",
               "reviewVersion": 2
             },
             {
@@ -2575,13 +2575,13 @@
               "a": 70,
               "b": 120,
               "en": "from a focus on individual facts and memorization ",
-              "zh": "从关注单个事实和死记，"
+              "zh": "从侧重记住零散的事实，"
             },
             {
               "a": 120,
               "b": 165,
               "en": "to an emphasis on more conceptual thinking - ",
-              "zh": "转向强调更偏概念层面的思考，"
+              "zh": "转向重视理解概念、用概念去思考，"
             },
             {
               "a": 165,
@@ -2591,7 +2591,7 @@
             }
           ],
           "reorder": "from...to 译为学习重点的转移；破折号后 something 指概念性思考，不是前面的零散事实。",
-          "translation": "她认为，这一趋势也许会改变我们的学习方式，使学习重点从零散事实和记忆，转向更偏概念层面的思考，而这种思考无法直接从网上获得。",
+          "translation": "她认为，这个趋势可能会改变我们的学习方式：学习不再侧重于记住零散的事实，而会更重视理解概念、用概念去思考；这种思考无法直接从网上获得。",
           "words": [
             {
               "a": 0,
@@ -2734,7 +2734,7 @@
               "word": "individual",
               "lemma": "individual",
               "pos": "a",
-              "meaning": "单个的；零散的",
+              "meaning": "单独的、零散的；这里指一条一条分开记的事实",
               "reviewVersion": 2
             },
             {
@@ -2869,7 +2869,7 @@
               "word": "available",
               "lemma": "available",
               "pos": "a",
-              "meaning": "可以获得的",
+              "meaning": "能找到的；这里说概念层面的思考无法直接在网上找到",
               "reviewVersion": 2
             },
             {
@@ -2937,13 +2937,13 @@
               "a": 0,
               "b": 44,
               "en": "“I personally have never seen all that much ",
-              "zh": "“我个人从未觉得，"
+              "zh": "“我自己一直不认为，"
             },
             {
               "a": 44,
               "b": 86,
               "en": "intellectual value in memorizing things,\" ",
-              "zh": "背记东西有那么高的智力价值，”"
+              "zh": "把东西背下来能给思考带来多大帮助，”"
             },
             {
               "a": 86,
@@ -2955,11 +2955,11 @@
               "a": 100,
               "b": 149,
               "en": "adding that we haven't lost our ability to do it.",
-              "zh": "她还补充说，我们并没有丧失这种记忆能力。"
+              "zh": "她还说，我们并没有失去记东西的能力。"
             }
           ],
           "reorder": "将说话人放前；never...all that much 表示不认为有很大价值，不是完全没有价值；do it 回指记忆。",
-          "translation": "斯帕罗说：“我个人从未觉得背记东西有多大的智力价值。”她还补充说，我们并没有丧失这种记忆能力。",
+          "translation": "斯帕罗说：“我自己一直不认为，单靠把东西背下来，对思考有什么太大的帮助。”她补充说，我们并没有失去记东西的能力。",
           "words": [
             {
               "a": 1,
@@ -3254,7 +3254,7 @@
               "word": "other",
               "lemma": "other",
               "pos": "a",
-              "meaning": "另一组的；其他的",
+              "meaning": "其他的；别的（还有别的专家）",
               "reviewVersion": 2
             },
             {
@@ -3460,7 +3460,7 @@
               "word": "experimental",
               "lemma": "experimental",
               "pos": "a",
-              "meaning": "实验性的",
+              "meaning": "来自实验的（experimental evidence：实验证据）",
               "reviewVersion": 2
             },
             {
@@ -4539,7 +4539,7 @@
               "word": "it",
               "lemma": "it",
               "pos": "pron",
-              "meaning": "记忆能力",
+              "meaning": "我们的记忆（前半句的 memory）",
               "reviewVersion": 2
             },
             {

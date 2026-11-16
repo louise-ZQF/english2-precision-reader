@@ -60,7 +60,7 @@
             }
           ],
           "reorder": "将 to cooperate with 和 to avoid 分别放在“朋友”和“敌人”前说明其关系。",
-          "translation": "老鼠和其他动物需要敏锐地捕捉同类发出的社交信号，才能分清哪些是可以合作的朋友，哪些是需要躲避的敌人。",
+          "translation": "老鼠和其他动物得敏锐地察觉周围个体发出的社交信号，才能分清谁可以合作、谁需要避开。",
           "words": [
             {
               "a": 0,
@@ -600,7 +600,7 @@
               "word": "social",
               "lemma": "social",
               "pos": "a",
-              "meaning": "社交的；会进行社交互动的",
+              "meaning": "社交方面的（social signals：社交信号）",
               "reviewVersion": 2
             },
             {
@@ -1009,7 +1009,7 @@
               "word": "chunkier",
               "lemma": "chunky",
               "pos": "a",
-              "meaning": "更粗厚的",
+              "meaning": "更厚实的；这里指外形比普通电脑鼠标更厚、更敦实",
               "reviewVersion": 2
             },
             {
@@ -1672,7 +1672,7 @@
               "word": "trapped",
               "lemma": "trap",
               "pos": "v",
-              "meaning": "被困住的；被关住的",
+              "meaning": "困住；这里指把机器鼠关进笼里",
               "reviewVersion": 2
             },
             {
@@ -1789,7 +1789,7 @@
               "word": "them",
               "lemma": "they",
               "pos": "pron",
-              "meaning": "他们；它们（宾格）",
+              "meaning": "那些被关进笼子的机器鼠",
               "reviewVersion": 2
             },
             {
@@ -2347,23 +2347,23 @@
               "a": 0,
               "b": 52,
               "en": "The rats may have bonded more with the social robot ",
-              "zh": "老鼠可能与会社交的机器鼠建立了更亲近的关系"
+              "zh": "真老鼠或许更亲近那只会交往的机器鼠"
             },
             {
               "a": 52,
               "b": 83,
               "en": "because it displayed behaviors ",
-              "zh": "因为它表现出"
+              "zh": "因为它会和真老鼠互动"
             },
             {
               "a": 83,
               "b": 119,
               "en": "like communal exploring and playing.",
-              "zh": "一起探索、一起玩耍等行为"
+              "zh": "比如一起探索、一起玩耍"
             }
           ],
           "reorder": "无需调序。",
-          "translation": "老鼠可能与会社交的机器鼠建立了更亲近的关系，因为它会一起探索、一起玩耍。",
+          "translation": "真老鼠或许更亲近那只会交往的机器鼠，因为它会和它们一起探索、一起玩耍。",
           "words": [
             {
               "a": 0,
@@ -3034,8 +3034,8 @@
               "b": 68,
               "word": "help",
               "lemma": "help",
-              "pos": "v",
-              "meaning": "帮助",
+              "pos": "n",
+              "meaning": "帮助；援助（reciprocal help：互相帮助）",
               "reviewVersion": 2
             },
             {
@@ -3233,7 +3233,7 @@
               "word": "them",
               "lemma": "they",
               "pos": "pron",
-              "meaning": "他们；它们（宾格）",
+              "meaning": "先前受过帮助、现在要回报的那只老鼠",
               "reviewVersion": 2
             },
             {
@@ -3818,7 +3818,7 @@
               "word": "moving",
               "lemma": "move",
               "pos": "a",
-              "meaning": "能动的",
+              "meaning": "可以活动的；这里修饰机器鼠的头和尾巴",
               "reviewVersion": 2
             },
             {
@@ -4309,7 +4309,7 @@
               "word": "social",
               "lemma": "social",
               "pos": "a",
-              "meaning": "社交的；会进行社交互动的",
+              "meaning": "社交的（social cues：社交信号）",
               "reviewVersion": 2
             },
             {
@@ -4500,7 +4500,7 @@
               "word": "robots",
               "lemma": "robot",
               "pos": "n",
-              "meaning": "机器人；这里指机器鼠",
+              "meaning": "机器人（这里泛指与孩子互动的机器人）",
               "reviewVersion": 2
             },
             {
@@ -4617,7 +4617,7 @@
               "word": "social",
               "lemma": "social",
               "pos": "a",
-              "meaning": "社交的；会进行社交互动的",
+              "meaning": "社交方面的（social signals：社交信号）",
               "reviewVersion": 2
             },
             {
@@ -4754,7 +4754,7 @@
               "word": "robots",
               "lemma": "robot",
               "pos": "n",
-              "meaning": "机器人；这里指机器鼠",
+              "meaning": "机器人（末句泛指机器人）",
               "reviewVersion": 2
             },
             {

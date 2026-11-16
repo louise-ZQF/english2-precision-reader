@@ -729,7 +729,7 @@
               "word": "driving",
               "lemma": "driving",
               "pos": "n",
-              "meaning": "驾驶（作定语修饰损伤或资格）",
+              "meaning": "驾驶（driving impairment：驾驶能力受损）",
               "reviewVersion": 2
             },
             {
@@ -738,7 +738,7 @@
               "word": "impairment",
               "lemma": "impairment",
               "pos": "n",
-              "meaning": "能力受损",
+              "meaning": "受损；driving impairment 指安全驾车能力受损",
               "reviewVersion": 2
             },
             {
@@ -891,7 +891,7 @@
               "word": "driving",
               "lemma": "driving",
               "pos": "n",
-              "meaning": "驾驶（作定语修饰损伤或资格）",
+              "meaning": "驾驶（driving privileges：驾驶资格）",
               "reviewVersion": 2
             },
             {
@@ -1292,7 +1292,7 @@
               "word": "breach",
               "lemma": "breach",
               "pos": "n",
-              "meaning": "违反",
+              "meaning": "违反；这里是 breach of confidentiality，指违反保密义务",
               "reviewVersion": 2
             },
             {
@@ -1314,7 +1314,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 116,
+              "b": 141,
+              "word": "breach of confidentiality",
+              "lemma": "breach of confidentiality",
+              "meaning": "违反保密义务",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "原文完整",
@@ -1327,7 +1336,7 @@
             "note": "三个州群体要求/允许不强制/视为违密并列，第二report名词而第一动词。",
             "sentenceSHA256": "940a360c399f168b97d9b004e76ecfa6c72d0dd5f9b94157e65bdf8482dddd82",
             "words": 23,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         },
@@ -1794,7 +1803,7 @@
               "word": "piecemeal",
               "lemma": "piecemeal",
               "pos": "adv",
-              "meaning": "零散地；缺乏统筹地",
+              "meaning": "各管一块地；这里说各专业各自处理问题，缺乏统筹",
               "reviewVersion": 2
             },
             {
@@ -2811,7 +2820,7 @@
               "a": 0,
               "b": 70,
               "en": "Passing vision tests also produced a similar decline in fatal crashes ",
-              "zh": "通过视力测试也使致命交通事故出现了类似下降，"
+              "zh": "通过视力测试也使致命交通事故以相近的幅度减少，"
             },
             {
               "a": 70,
@@ -2833,7 +2842,7 @@
             }
           ],
           "reorder": "将人群放到结果前；although 指两种措施同时用未显示额外收益，不是否认单项有益。",
-          "translation": "在这些驾驶员中，通过视力测试也伴随致命交通事故类似幅度的下降，不过把两种措施结合起来似乎没有额外好处。",
+          "translation": "对这些驾驶员来说，通过视力测试也带来了类似幅度的致命事故降幅。不过，两种措施一起用，似乎没有额外效果。",
           "words": [
             {
               "a": 0,
@@ -3333,7 +3342,7 @@
               "word": "providers",
               "lemma": "provider",
               "pos": "n",
-              "meaning": "服务提供者，指医护人员",
+              "meaning": "医护人员；primary care providers 指提供基层医疗服务的人员",
               "reviewVersion": 2
             },
             {
@@ -3576,7 +3585,7 @@
               "word": "where",
               "lemma": "where",
               "pos": "adv",
-              "meaning": "往哪里；目的地",
+              "meaning": "去哪里；where they are going 指患者开车要去的地方",
               "reviewVersion": 2
             },
             {
@@ -3630,7 +3639,7 @@
               "word": "gotten",
               "lemma": "get",
               "pos": "v",
-              "meaning": "变得",
+              "meaning": "变得（get 的过去分词）；gotten shorter 指人变矮了",
               "reviewVersion": 2
             },
             {
@@ -4060,13 +4069,13 @@
               "a": 17,
               "b": 50,
               "en": "posed by all those human drivers ",
-              "zh": "那些由人类驾驶员造成的危险，"
+              "zh": "由那么多名驾驶员造成的危险，"
             },
             {
               "a": 50,
               "b": 85,
               "en": "would require too many algorithms, ",
-              "zh": "就需要过多的算法，"
+              "zh": "需要的算法太多了，"
             },
             {
               "a": 85,
@@ -4076,7 +4085,7 @@
             }
           ],
           "reorder": "把 posed by 的修饰放到危险前；Avoiding 整体作主语，too many 带有难以应付的含义。",
-          "translation": "她说，要避开所有那些人类驾驶员造成的危险，就需要数量过多的算法。",
+          "translation": "她说，要避开那些由人驾驶的车辆带来的危险，需要的算法太多了。",
           "words": [
             {
               "a": 0,
@@ -4138,7 +4147,7 @@
               "word": "human",
               "lemma": "human",
               "pos": "adj",
-              "meaning": "人类的",
+              "meaning": "人类的（这里指真人驾驶员，与自动驾驶对照）",
               "reviewVersion": 2
             },
             {
@@ -4165,7 +4174,7 @@
               "word": "require",
               "lemma": "require",
               "pos": "v",
-              "meaning": "要求",
+              "meaning": "需要；必须用到",
               "reviewVersion": 2
             },
             {

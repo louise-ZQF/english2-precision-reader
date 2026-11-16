@@ -1210,7 +1210,7 @@
               "word": "bite-sized",
               "lemma": "bite-sized",
               "pos": "a",
-              "meaning": "小而易处理的",
+              "meaning": "小到便于处理的；可分次消化的",
               "reviewVersion": 2
             },
             {
@@ -1712,7 +1712,7 @@
               "word": "get",
               "lemma": "get",
               "pos": "v",
-              "meaning": "到达；获得",
+              "meaning": "到达（get to college：进入大学）",
               "reviewVersion": 2
             },
             {
@@ -2292,7 +2292,7 @@
               "word": "get",
               "lemma": "get",
               "pos": "v",
-              "meaning": "到达；获得",
+              "meaning": "接受；这里指接受同样的课程教学",
               "reviewVersion": 2
             },
             {
@@ -3331,7 +3331,7 @@
               "word": "through",
               "lemma": "through",
               "pos": "prep",
-              "meaning": "通过；经由",
+              "meaning": "从头到尾地；在 think logically through a problem 中指把一个问题完整地想清楚",
               "reviewVersion": 2
             },
             {
@@ -4296,7 +4296,7 @@
               "word": "coax",
               "lemma": "coax",
               "pos": "v",
-              "meaning": "引导；设法使……按要求运作",
+              "meaning": "设法让机器按要求运行；引导",
               "reviewVersion": 2,
               "explanation": "搭配结构：coax ... into doing ...＝劝诱……做……"
             },
@@ -4306,7 +4306,7 @@
               "word": "the",
               "lemma": "the",
               "pos": "adv",
-              "meaning": "与比较级组成越……越……结构，不是定冠词特指",
+              "meaning": "定冠词，限定 machine，指前面说到的计算机",
               "reviewVersion": 2
             },
             {
@@ -4432,7 +4432,7 @@
               "word": "the",
               "lemma": "the",
               "pos": "adv",
-              "meaning": "与比较级组成越……越……结构，不是定冠词特指",
+              "meaning": "定冠词；限定 power，特指使计算机做出想要结果的能力",
               "reviewVersion": 2
             },
             {

@@ -468,7 +468,7 @@
               "word": "are",
               "lemma": "be",
               "pos": "v",
-              "meaning": "是；处于所述状态",
+              "meaning": "与 there to 连用表示存在的目的，此处指产品的设计就是为了让用户更投入",
               "reviewVersion": 2
             },
             {
@@ -1635,35 +1635,35 @@
               "a": 0,
               "b": 44,
               "en": "Infants are wired to look at parents' faces ",
-              "zh": "婴儿天生就会看着父母的脸"
+              "zh": "婴儿天生会观察父母的脸"
             },
             {
               "a": 44,
               "b": 78,
               "en": "to try to understand their world, ",
-              "zh": "试图理解周围的世界"
+              "zh": "试图弄懂周围的世界"
             },
             {
               "a": 78,
               "b": 126,
               "en": "and if those faces are blank and unresponsive – ",
-              "zh": "如果这些脸毫无表情、没有回应"
+              "zh": "如果父母面无表情，也不给回应"
             },
             {
               "a": 126,
               "b": 172,
               "en": "as they often are when absorbed in a device – ",
-              "zh": "正如父母沉迷电子设备时常常表现的那样"
+              "zh": "他们专注于电子设备时往往就是这样"
             },
             {
               "a": 172,
               "b": 223,
               "en": "it can be extremely disconcerting for the children.",
-              "zh": "孩子就会极为不安"
+              "zh": "孩子就可能非常不安"
             }
           ],
           "reorder": "先译婴儿观察父母的本能，再译 if 条件与后果；插入语中 absorbed 的实际主体是父母。",
-          "translation": "婴儿天生就会看着父母的脸，试图理解周围的世界；如果父母的脸毫无表情、没有回应——正如他们沉迷电子设备时常常表现的那样——孩子就会极为不安。",
+          "translation": "婴儿天生会从父母的脸上寻找线索，试图弄懂周围的世界。如果父母面无表情，也不给回应，就像他们专注看手机等电子设备时常有的样子，孩子就可能非常不安。",
           "words": [
             {
               "a": 0,
@@ -2827,7 +2827,7 @@
               "word": "be",
               "lemma": "be",
               "pos": "v",
-              "meaning": "是；处于所述状态",
+              "meaning": "在 there needs to be 中表示“需要有”，此处说需要适度平衡",
               "reviewVersion": 2
             },
             {
@@ -3007,7 +3007,7 @@
               "word": "emotional",
               "lemma": "emotional",
               "pos": "a",
-              "meaning": "富有情感的；感性的",
+              "meaning": "情感方面的（emotional need：情感上的需要）",
               "reviewVersion": 2
             },
             {
@@ -3297,7 +3297,7 @@
               "word": "out",
               "lemma": "out",
               "pos": "adv",
-              "meaning": "从……获得；排除掉（依搭配）",
+              "meaning": "在 born out of 中表示来源；整个搭配意为“源于”",
               "reviewVersion": 2
             },
             {
@@ -3495,7 +3495,7 @@
               "word": "very",
               "lemma": "very",
               "pos": "adv",
-              "meaning": "非常",
+              "meaning": "带有鲜明的……色彩（修饰 white）",
               "reviewVersion": 2
             },
             {
@@ -3721,35 +3721,35 @@
               "a": 17,
               "b": 74,
               "en": "that just because a child isn't learning from the screen ",
-              "zh": "仅仅因为孩子没从屏幕内容中学到东西"
+              "zh": "仅仅因为孩子没从屏幕上学到东西"
             },
             {
               "a": 74,
               "b": 112,
               "en": "doesn't mean there's no value to it – ",
-              "zh": "并不意味着它毫无价值"
+              "zh": "并不等于看屏幕毫无好处"
             },
             {
               "a": 112,
               "b": 168,
               "en": "particularly if it gives parents time to have a shower, ",
-              "zh": "尤其是它能让父母有时间洗个澡"
+              "zh": "尤其是这能让父母有时间洗个澡"
             },
             {
               "a": 168,
               "b": 181,
               "en": "do housework ",
-              "zh": "做做家务"
+              "zh": "做点家务"
             },
             {
               "a": 181,
               "b": 221,
               "en": "or simply have a break from their child.",
-              "zh": "或者只是暂时摆脱照看孩子的任务，休息一下"
+              "zh": "或只是暂停照看孩子，歇一会儿"
             }
           ],
           "reorder": "just because...doesn't mean 保留“仅仅因为……并不意味着”的论证；it 指孩子看屏幕这件事。",
-          "translation": "特罗尼克认为，仅仅因为孩子没有从屏幕内容中学到东西，并不意味着看屏幕毫无价值——尤其是当它能让父母有时间洗澡、做家务，或者只是暂时摆脱照看孩子的任务，休息一下时。",
+          "translation": "特罗尼克认为，孩子没从屏幕上学到东西，并不等于看屏幕毫无好处。尤其是这能让父母有时间洗个澡、做点家务，或是暂时不用照看孩子，歇一会儿。",
           "words": [
             {
               "a": 0,
@@ -4224,7 +4224,7 @@
               "word": "out",
               "lemma": "out",
               "pos": "adv",
-              "meaning": "从……获得；排除掉（依搭配）",
+              "meaning": "与 of 一起引出获得益处的来源（get a lot out of：从……获益良多）",
               "reviewVersion": 2
             },
             {
@@ -4351,7 +4351,7 @@
               "word": "out",
               "lemma": "out",
               "pos": "adv",
-              "meaning": "从……获得；排除掉（依搭配）",
+              "meaning": "在 get work out of the way 中表示把工作先办妥",
               "reviewVersion": 2
             },
             {

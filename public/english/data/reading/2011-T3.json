@@ -126,7 +126,7 @@
               "word": "decades",
               "lemma": "decade",
               "pos": "n",
-              "meaning": "十年（复数）",
+              "meaning": "几十年；这里指二战结束后的几十年",
               "reviewVersion": 2
             },
             {
@@ -432,7 +432,7 @@
               "word": "marriage",
               "lemma": "marriage",
               "pos": "n",
-              "meaning": "婚姻关系",
+              "meaning": "结婚登记的；marriage bureau 指办理结婚登记的机构",
               "reviewVersion": 2
             },
             {
@@ -1787,11 +1787,11 @@
               "a": 89,
               "b": 116,
               "en": "but none more so than Mies.",
-              "zh": "但没有谁的影响超过密斯"
+              "zh": "但影响最大的是密斯"
             }
           ],
           "reorder": "把 on 范围译到“影响”前，末尾补出省略的影响程度。",
-          "translation": "这些设计师对美国建筑的发展进程产生了巨大影响，但没有谁比密斯的影响更大。",
+          "translation": "后来，这些设计师逐渐对美国建筑的发展产生了巨大影响，其中密斯的影响最大。",
           "words": [
             {
               "a": 0,
@@ -1817,7 +1817,7 @@
               "word": "came",
               "lemma": "come",
               "pos": "v",
-              "meaning": "来自",
+              "meaning": "后来开始；come to do 在这里指逐渐开始产生影响",
               "reviewVersion": 2
             },
             {
@@ -1965,7 +1965,16 @@
               "reviewVersion": 2
             }
           ],
-          "phrases": [],
+          "phrases": [
+            {
+              "a": 16,
+              "b": 23,
+              "word": "came to",
+              "lemma": "come to do",
+              "meaning": "后来开始……；这里指后来逐渐对美国建筑产生巨大影响",
+              "kind": "phrase"
+            }
+          ],
           "reviewedAt": "2026-10-31",
           "reviewChecks": [
             "逐句英文及译文",
@@ -1978,7 +1987,7 @@
             "note": "none more so为无人影响更大，course建筑发展进程而非课程。",
             "sentenceSHA256": "30ad4186f0ad090a8670626c60049212ce4e476027334713126b71d4418c0292",
             "words": 19,
-            "phrases": 0,
+            "phrases": 1,
             "names": 0
           }
         }
@@ -2477,7 +2486,7 @@
               "word": "take",
               "lemma": "take",
               "pos": "v",
-              "meaning": "参与（take turns构成轮流）",
+              "meaning": "用于 take for granted，指把这些材料看作理所当然、并不觉得新奇",
               "reviewVersion": 2
             },
             {
@@ -4040,7 +4049,7 @@
               "word": "early",
               "lemma": "early",
               "pos": "adv",
-              "meaning": "早（as early as强调早在）",
+              "meaning": "初期的；the early 20th century 指20世纪初",
               "reviewVersion": 2
             },
             {
@@ -4404,17 +4413,17 @@
               "a": 0,
               "b": 22,
               "en": "Aesthetic effect came ",
-              "zh": "审美效果产生"
+              "zh": "这些住宅的美感得益于"
             },
             {
               "a": 22,
               "b": 81,
               "en": "from the landscape, new materials and forthright detailing.",
-              "zh": "于周围景观、新材料和直截了当的细节处理"
+              "zh": "周围的景色、新材料和简洁明快的细部设计"
             }
           ],
-          "reorder": "无需调整语序，forthright 指不加掩饰的设计表达。",
-          "translation": "审美效果来自周围景观、新材料和直截了当的细节处理。",
+          "reorder": "按英文语序翻译即可。forthright 修饰 detailing，指细部设计简洁直白。",
+          "translation": "这些住宅的美感来自周围的景色、新材料和简洁明快的细部设计。",
           "words": [
             {
               "a": 0,
@@ -4503,7 +4512,7 @@
               "word": "forthright",
               "lemma": "forthright",
               "pos": "a",
-              "meaning": "直截了当的；不加掩饰的",
+              "meaning": "直白明快的；这里指建筑的细部处理简洁直接",
               "reviewVersion": 2
             },
             {

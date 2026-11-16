@@ -1349,7 +1349,7 @@
               "word": "take",
               "lemma": "take",
               "pos": "v",
-              "meaning": "参与（take turns构成轮流）",
+              "meaning": "用于 take turns，表示“轮流”；这里指公民轮流参与治理",
               "reviewVersion": 2
             },
             {
@@ -1376,7 +1376,7 @@
               "word": "themselves",
               "lemma": "themselves",
               "pos": "pron",
-              "meaning": "他们自己（公民）",
+              "meaning": "他们自己；这里指公民自己治理公共事务",
               "reviewVersion": 2
             },
             {
@@ -1575,7 +1575,7 @@
               "word": "selection",
               "lemma": "selection",
               "pos": "n",
-              "meaning": "选拔",
+              "meaning": "选任；这里指选出陪审员",
               "reviewVersion": 2
             },
             {
@@ -2062,7 +2062,7 @@
               "word": "selection",
               "lemma": "selection",
               "pos": "n",
-              "meaning": "选拔",
+              "meaning": "选任；这里指选出陪审员",
               "reviewVersion": 2
             },
             {
@@ -2337,6 +2337,14 @@
               "kind": "name"
             },
             {
+              "a": 100,
+              "b": 114,
+              "word": "jury selection",
+              "lemma": "jury selection",
+              "meaning": "陪审员的遴选",
+              "kind": "phrase"
+            },
+            {
               "a": 216,
               "b": 234,
               "lemma": "blue-ribbon jury",
@@ -2357,7 +2365,7 @@
             "note": "尽管最高法院已禁止种族歧视，精英选拔却绕开法律；两个事实不互相取消。",
             "sentenceSHA256": "b2d03f975060c4858feb0a7344efec980be31a588523a10a97e0e361a081aae0",
             "words": 45,
-            "phrases": 1,
+            "phrases": 2,
             "names": 1
           }
         }
@@ -2378,7 +2386,7 @@
               "a": 0,
               "b": 60,
               "en": "The system also failed to regularly include women on juries ",
-              "zh": "这套制度也一直未能常规地吸收女性进入陪审团"
+              "zh": "这套制度也没有经常让女性进入陪审团"
             },
             {
               "a": 60,
@@ -2388,7 +2396,7 @@
             }
           ],
           "reorder": "把 until 放到句首，failed…until 可转成“直到……才”。",
-          "translation": "这套制度直到20世纪中叶才开始常规地吸收女性进入陪审团。",
+          "translation": "直到20世纪中叶，女性才开始经常有机会进入陪审团。",
           "words": [
             {
               "a": 0,

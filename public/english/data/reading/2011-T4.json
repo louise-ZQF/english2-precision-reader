@@ -101,6 +101,14 @@
           ],
           "phrases": [
             {
+              "a": 9,
+              "b": 23,
+              "word": "European Union",
+              "lemma": "European Union",
+              "meaning": "欧洲联盟；简称欧盟",
+              "kind": "name"
+            },
+            {
               "a": 24,
               "b": 31,
               "lemma": "make it",
@@ -122,7 +130,7 @@
             "sentenceSHA256": "691ba16e8db23d180b5703d31e6db440bd553920df5f6b225abad8ddb23f16a5",
             "words": 6,
             "phrases": 1,
-            "names": 0
+            "names": 1
           }
         },
         {
@@ -336,7 +344,7 @@
               "word": "talk",
               "lemma": "talk",
               "pos": "v",
-              "meaning": "交谈",
+              "meaning": "谈到；用于 talk of，指支持者也开始谈论欧洲的困境",
               "reviewVersion": 2
             },
             {
@@ -468,6 +476,14 @@
           ],
           "phrases": [
             {
+              "a": 45,
+              "b": 52,
+              "word": "talk of",
+              "lemma": "talk of",
+              "meaning": "谈到；提及",
+              "kind": "phrase"
+            },
+            {
               "a": 75,
               "b": 91,
               "word": "Bermuda triangle",
@@ -488,7 +504,7 @@
             "note": "三角三项债务人口下降与增长降低均保留；cheerleaders为支持者非啦啦队职业。",
             "sentenceSHA256": "0b29b7a343c879a4691c65540347a14f95a5192e2d4acb69efe837cadf800ef1",
             "words": 21,
-            "phrases": 0,
+            "phrases": 1,
             "names": 1
           }
         }
@@ -3813,29 +3829,29 @@
               "a": 0,
               "b": 57,
               "en": "At its best, the European project is remarkably liberal: ",
-              "zh": "在发挥最佳作用时，欧洲一体化非常开放自由"
+              "zh": "从最好的一面看，欧洲一体化的开放程度相当高"
             },
             {
               "a": 57,
               "b": 117,
               "en": "built around a single market of 27 rich and poor countries, ",
-              "zh": "建立在由27个贫富国家组成的单一市场基础上"
+              "zh": "以27个贫富不一的国家组成的单一市场为基础"
             },
             {
               "a": 117,
               "b": 185,
               "en": "its internal borders are far more open to goods, capital and labour ",
-              "zh": "其内部边界对商品、资本和劳动力的开放程度要高得多"
+              "zh": "商品、资本和劳动力在成员国间流动要自由得多"
             },
             {
               "a": 185,
               "b": 218,
               "en": "than any comparable trading area.",
-              "zh": "高于任何类似贸易区域"
+              "zh": "比任何类似贸易区都更自由"
             }
           ],
           "reorder": "把 built around 背景放在开放程度之前；than 比较整体开放程度。",
-          "translation": "在发挥最佳作用时，欧洲一体化非常开放自由：它建立在由27个贫富国家组成的单一市场基础上，内部边界对商品、资本和劳动力的开放程度，远高于任何类似贸易区域。",
+          "translation": "从最好的一面看，欧洲一体化的开放程度相当高：27个贫富不一的国家组成了单一市场，商品、资本和劳动力在成员国之间流动，比在任何类似贸易区都更自由。",
           "words": [
             {
               "a": 0,
@@ -3915,7 +3931,7 @@
               "word": "liberal",
               "lemma": "liberal",
               "pos": "a",
-              "meaning": "开放自由的",
+              "meaning": "开放的；这里说成员国允许商品、资本和劳动力更自由地流动",
               "reviewVersion": 2
             },
             {
@@ -4295,7 +4311,7 @@
               "word": "sharpest",
               "lemma": "sharp",
               "pos": "a",
-              "meaning": "最尖锐的",
+              "meaning": "最严重的；sharpest edges 比喻全球化带来的最强烈冲击",
               "reviewVersion": 2
             },
             {

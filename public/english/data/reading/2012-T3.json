@@ -910,7 +910,7 @@
               "word": "least",
               "lemma": "little",
               "pos": "adv",
-              "meaning": "最少；最不（独特）",
+              "meaning": "用于 at least，指“至少”；他们至少暂时松了一口气",
               "reviewVersion": 2
             },
             {
@@ -2101,7 +2101,7 @@
               "word": "than",
               "lemma": "than",
               "pos": "conj",
-              "meaning": "比（引出比较对象）",
+              "meaning": "用于 rather than，表示“而不是”；对比压制创新和鼓励创新",
               "reviewVersion": 2
             },
             {
@@ -2110,7 +2110,7 @@
               "word": "reward",
               "lemma": "reward",
               "pos": "v",
-              "meaning": "奖励；给予回报",
+              "meaning": "鼓励；reward innovation 指让创新得到回报，从而起激励作用",
               "reviewVersion": 2
             },
             {
@@ -3016,7 +3016,7 @@
               "word": "big",
               "lemma": "big",
               "pos": "a",
-              "meaning": "大的",
+              "meaning": "重大的；这里指基因专利问题上的关键疑问",
               "reviewVersion": 2
             },
             {
@@ -3813,7 +3813,7 @@
               "word": "public",
               "lemma": "public",
               "pos": "a",
-              "meaning": "公共的；可公开使用的",
+              "meaning": "用于 in the public domain，指已进入公有领域，任何人都可以使用",
               "reviewVersion": 2
             },
             {

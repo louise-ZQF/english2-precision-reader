@@ -243,7 +243,7 @@
               "word": "than",
               "lemma": "than",
               "pos": "conj",
-              "meaning": "比；而非（rather than结构）",
+              "meaning": "比；这里把人以为的模样和真实的模样作比较",
               "reviewVersion": 2
             },
             {
@@ -476,7 +476,7 @@
               "word": "self-enhancing",
               "lemma": "self-enhance",
               "pos": "a",
-              "meaning": "美化自己；抬高自我评价的",
+              "meaning": "抬高自我评价的；这里指让自己感觉更好的心理策略",
               "reviewVersion": 2
             },
             {
@@ -655,7 +655,7 @@
               "word": "into",
               "lemma": "into",
               "pos": "prep",
-              "meaning": "关于；进入（研究主题或情境）",
+              "meaning": "关于；research into 指对某种现象展开的研究",
               "reviewVersion": 2
             },
             {
@@ -1132,7 +1132,7 @@
               "word": "into",
               "lemma": "into",
               "pos": "prep",
-              "meaning": "关于；进入（研究主题或情境）",
+              "meaning": "进入；put ourselves into 指让自己置身于某种情境",
               "reviewVersion": 2
             },
             {
@@ -1612,7 +1612,7 @@
               "word": "into",
               "lemma": "into",
               "pos": "prep",
-              "meaning": "关于；进入（研究主题或情境）",
+              "meaning": "关于；study into 指一项探讨某个问题的研究",
               "reviewVersion": 2
             },
             {
@@ -1716,7 +1716,7 @@
               "word": "than",
               "lemma": "than",
               "pos": "conj",
-              "meaning": "比；而非（rather than结构）",
+              "meaning": "用于 rather than，表示“而不是”；对比评价外貌和辨认照片",
               "reviewVersion": 2
             },
             {
@@ -2690,7 +2690,7 @@
               "a": 92,
               "b": 153,
               "en": "who thought the most positively doctored pictures were real) ",
-              "zh": "认为被美化最严重的照片才是真实照片的参与者"
+              "zh": "把修得最好看的照片当作自己真实模样的人"
             },
             {
               "a": 153,
@@ -2706,7 +2706,7 @@
             }
           ],
           "reorder": "将两层 who 都放到所修饰的人前，括号解释最高程度自我美化者，末尾说明被否定的动机。",
-          "translation": "也没有证据表明，自我美化程度最高的人，也就是认为被美化最严重的照片才是真实照片的人，是为了弥补深层的不安全感而这样做。",
+          "translation": "也没有证据表明，自我美化程度最高的人——也就是把修得最好看的照片当作自己真实模样的人——这样做是为了弥补内心深处的不安全感。",
           "words": [
             {
               "a": 0,
@@ -3778,7 +3778,7 @@
               "word": "self-enhancing",
               "lemma": "self-enhance",
               "pos": "v",
-              "meaning": "美化自我评价（正在进行的动作）",
+              "meaning": "美化自己；这里说抑郁的人不会把自己想得比实际更好",
               "reviewVersion": 2
             }
           ],
@@ -3915,7 +3915,7 @@
               "word": "makes",
               "lemma": "make",
               "pos": "v",
-              "meaning": "使合理（make sense搭配）",
+              "meaning": "用于 make sense，表示“说得通，可以理解”",
               "reviewVersion": 2
             },
             {
@@ -4023,7 +4023,7 @@
               "word": "level",
               "lemma": "level",
               "pos": "n",
-              "meaning": "层面",
+              "meaning": "层面；这里说“从一个角度看”",
               "reviewVersion": 2
             },
             {
@@ -4468,7 +4468,7 @@
               "word": "It's",
               "lemma": "it is",
               "pos": "pron",
-              "meaning": "这是（it is缩写，指研究结论）",
+              "meaning": "It is 的缩写；it is not that 引出说话人要澄清的一种解释",
               "reviewVersion": 2
             },
             {

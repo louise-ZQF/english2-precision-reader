@@ -784,11 +784,11 @@
               "a": 406,
               "b": 455,
               "en": "replacing labor with machines or foreign workers.",
-              "zh": "用机器或外国工人取代劳动力"
+              "zh": "用机器或海外劳动力取代原有岗位上的工人"
             }
           ],
           "reorder": "把两个 that 修饰层次拆开，先介绍文章观点，再按主要原因和另一原因解释；which 指全球化与技术革命。",
-          "translation": "戴维森的文章是近期发表的许多文章之一，这些文章都指出：如今失业率居高不下、中产阶级收入下降，主要是经济大衰退造成需求大幅下降，但也源于全球化和信息技术革命的推进，二者正以前所未有的速度用机器或外国工人取代劳动力。",
+          "translation": "戴维森的文章和近期发表的多篇文章都指出，今天失业率居高不下、中产阶级收入下滑，主要是大衰退导致需求骤减，但也与全球化和信息技术革命的发展有关。由于这两大变化，机器和海外劳动力正以前所未有的速度取代原有岗位上的工人。",
           "words": [
             {
               "a": 0,
@@ -1535,11 +1535,11 @@
               "a": 64,
               "b": 96,
               "en": "could earn an average lifestyle.",
-              "zh": "也能挣得普通水平的生活"
+              "zh": "所得也足以过上一般人那样的生活"
             }
           ],
           "reorder": "无需调整语序，三处 average 反复强调普通水平。",
-          "translation": "过去，技能普通的工人做着普通的工作，也能挣得普通水平的生活。",
+          "translation": "过去，技能平平的工人做一份普通工作，所得也足以过上一般人那样的生活。",
           "words": [
             {
               "a": 0,
@@ -1682,7 +1682,7 @@
               "word": "lifestyle",
               "lemma": "lifestyle",
               "pos": "n",
-              "meaning": "生活方式；生活水平",
+              "meaning": "生活水平；这里指一份普通工作能负担得起怎样的生活",
               "reviewVersion": 2
             }
           ],
@@ -1762,7 +1762,7 @@
               "word": "officially",
               "lemma": "officially",
               "pos": "adv",
-              "meaning": "可以宣告地（强调这一判断）",
+              "meaning": "正式地；这里借指“只要表现普通就够了”的时代已经宣告结束",
               "reviewVersion": 2
             },
             {
@@ -3665,7 +3665,7 @@
               "word": "themselves",
               "lemma": "themselves",
               "pos": "pron",
-              "meaning": "他们自己（公民）",
+              "meaning": "他们自己；这里指劳动者靠接受教育提高自己的水平",
               "reviewVersion": 2
             },
             {
@@ -3736,7 +3736,7 @@
               "a": 11,
               "b": 45,
               "en": "where average is officially over, ",
-              "zh": "“普通”的时代已可宣告结束"
+              "zh": "能力平平已经不够用了"
             },
             {
               "a": 45,
@@ -3748,7 +3748,7 @@
               "a": 67,
               "b": 104,
               "en": "we need to do to support employment, ",
-              "zh": "需要我们去做，以支持就业"
+              "zh": "需要我们做来促进就业"
             },
             {
               "a": 104,
@@ -3760,7 +3760,7 @@
               "a": 140,
               "b": 198,
               "en": "than passing some kind of G. I. Bill for the 21st century ",
-              "zh": "相较于通过一部21世纪版《退伍军人权利法案》而言"
+              "zh": "最重要的是以当年的《退伍军人权利法案》为蓝本，出台一项适合21世纪的法案"
             },
             {
               "a": 198,
@@ -3772,11 +3772,11 @@
               "a": 211,
               "b": 272,
               "en": "that every American has access to post-high school education.",
-              "zh": "每个美国人都有机会接受高中毕业后的教育"
+              "zh": "让每个美国人都有机会在高中毕业后继续接受教育"
             }
           ],
           "reorder": "把 where 修饰语并入世界背景，we need 放到“事情”前，nothing more than 比较译成“最重要的是”。",
-          "translation": "在“普通”时代已宣告结束的世界里，我们需要做许多事情来支持就业，但最重要的莫过于通过一部21世纪版《退伍军人权利法案》，确保每个美国人都有机会接受高中毕业后的教育。",
+          "translation": "如今，能力平平已经不够用了。我们有很多事可做来促进就业，但最重要的是以当年的《退伍军人权利法案》为蓝本，出台一项适合21世纪的法案，让每个美国人都有机会在高中毕业后继续接受教育。",
           "words": [
             {
               "a": 0,
@@ -3838,7 +3838,7 @@
               "word": "officially",
               "lemma": "officially",
               "pos": "adv",
-              "meaning": "可以宣告地（强调这一判断）",
+              "meaning": "正式地；这里说能力平平已不足以过上从前那样的生活",
               "reviewVersion": 2
             },
             {
@@ -3937,7 +3937,7 @@
               "word": "support",
               "lemma": "support",
               "pos": "v",
-              "meaning": "支持",
+              "meaning": "促进；这里指采取措施让更多人获得工作机会",
               "reviewVersion": 2
             },
             {
@@ -4072,7 +4072,7 @@
               "word": "Bill",
               "lemma": "Bill",
               "pos": "n",
-              "meaning": "法案（此处指退伍军人福利法案）",
+              "meaning": "法案；原文建议效仿《退伍军人权利法案》，为所有人创造继续学习的机会",
               "reviewVersion": 2
             },
             {
@@ -4143,8 +4143,8 @@
               "b": 230,
               "word": "American",
               "lemma": "American",
-              "pos": "a",
-              "meaning": "美国的",
+              "pos": "n",
+              "meaning": "美国人；这里是名词，every American 指每个美国人",
               "reviewVersion": 2
             },
             {
@@ -4162,7 +4162,7 @@
               "word": "access",
               "lemma": "access",
               "pos": "n",
-              "meaning": "获得或使用的机会",
+              "meaning": "机会；have access to education 指有机会接受教育",
               "reviewVersion": 2
             },
             {

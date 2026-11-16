@@ -1674,7 +1674,7 @@
               "word": "profit",
               "lemma": "profit",
               "pos": "n",
-              "meaning": "利润；盈利",
+              "meaning": "盈利；句首的 profit margins 指利润率，后面的 profit all the same 指毕竟还在赚钱",
               "reviewVersion": 2
             },
             {
@@ -2278,7 +2278,7 @@
               "word": "slimmer",
               "lemma": "slim",
               "pos": "a",
-              "meaning": "更薄的；版面更少的",
+              "meaning": "更薄的；这里指报纸页数更少",
               "reviewVersion": 2
             },
             {
@@ -2701,17 +2701,17 @@
               "a": 0,
               "b": 50,
               "en": "Newspapers are becoming more balanced businesses, ",
-              "zh": "报纸正成为结构更均衡的企业"
+              "zh": "报社的经营结构变得更均衡"
             },
             {
               "a": 50,
               "b": 112,
               "en": "with a healthier mix of revenues from readers and advertisers.",
-              "zh": "读者收入和广告收入的搭配更加健康"
+              "zh": "来自读者和广告商的收入比重更合理了"
             }
           ],
           "reorder": "无需调整语序，with 补充解释均衡体现在哪里。",
-          "translation": "报纸正成为结构更均衡的企业，来自读者和广告商的收入搭配更加健康。",
+          "translation": "新闻业的经营结构正在变得更均衡，来自读者和广告商的收入比重也更合理了。",
           "words": [
             {
               "a": 0,
@@ -2791,7 +2791,7 @@
               "word": "healthier",
               "lemma": "healthy",
               "pos": "a",
-              "meaning": "更健康的；更合理的",
+              "meaning": "更合理的；这里指读者付费与广告收入的比例更均衡",
               "reviewVersion": 2
             },
             {

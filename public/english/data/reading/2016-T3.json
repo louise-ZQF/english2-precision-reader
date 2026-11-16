@@ -1014,7 +1014,7 @@
               "word": "down",
               "lemma": "down",
               "pos": "adv",
-              "meaning": "下来（sit down）；回到阅读状态（drop down）",
+              "meaning": "在 sit down 中表示坐下",
               "reviewVersion": 2
             },
             {
@@ -1444,17 +1444,17 @@
               "a": 0,
               "b": 42,
               "en": "It is not simply that one is interrupted; ",
-              "zh": "问题不只是人们被打断"
+              "zh": "问题不只是外界会打断我们"
             },
             {
               "a": 42,
               "b": 95,
               "en": "it is that one is actually inclined to interruption.”",
-              "zh": "而是人们实际上就倾向于受到打扰"
+              "zh": "我们自己其实也很容易让注意力被打断"
             }
           ],
-          "reorder": "按 not simply...it is... 的递进顺译，one 泛指人们。",
-          "translation": "问题不只是人们被打断，而是人们实际上就倾向于受到打扰。”",
+          "reorder": "先说外界打断，再说人自己倾向于分心。",
+          "translation": "问题不只在于外界会打断我们，还在于我们自己也很容易分心，让别的事打断阅读。”",
           "words": [
             {
               "a": 0,
@@ -1471,7 +1471,7 @@
               "word": "is",
               "lemma": "be",
               "pos": "v",
-              "meaning": "是；处于所述状态",
+              "meaning": "与 it 和 that 构成“问题不只是……”",
               "reviewVersion": 2
             },
             {
@@ -1543,7 +1543,7 @@
               "word": "is",
               "lemma": "be",
               "pos": "v",
-              "meaning": "是；处于所述状态",
+              "meaning": "与 it 和 that 引出作者认为更关键的问题",
               "reviewVersion": 2
             },
             {
@@ -2167,7 +2167,7 @@
               "word": "instrumentally",
               "lemma": "instrumentally",
               "pos": "adv",
-              "meaning": "作为达成目的的工具地",
+              "meaning": "把它当作达到某个目的的工具",
               "reviewVersion": 2
             },
             {
@@ -2230,7 +2230,7 @@
               "word": "spent",
               "lemma": "spend",
               "pos": "v",
-              "meaning": "花费；度过",
+              "meaning": "用掉；此处指时间是否花得值得",
               "reviewVersion": 2
             },
             {
@@ -3147,7 +3147,7 @@
               "word": "fill",
               "lemma": "fill",
               "pos": "v",
-              "meaning": "填补",
+              "meaning": "装满（瓶子）；比喻用各种事情填满时间",
               "reviewVersion": 2
             },
             {
@@ -3264,7 +3264,7 @@
               "word": "get",
               "lemma": "get",
               "pos": "v",
-              "meaning": "过去；溜走（get by）；使",
+              "meaning": "在 get by 中表示经过、溜过去，此处说传送带上的瓶子",
               "reviewVersion": 2
             },
             {
@@ -4550,7 +4550,7 @@
               "word": "down",
               "lemma": "down",
               "pos": "adv",
-              "meaning": "下来（sit down）；回到阅读状态（drop down）",
+              "meaning": "与 drop back 连用，借“再潜回去”比喻重新沉浸在阅读中",
               "reviewVersion": 2
             }
           ],
@@ -4744,7 +4744,7 @@
               "word": "you're",
               "lemma": "you be",
               "pos": "pron",
-              "meaning": "你们是（you are缩写）",
+              "meaning": "你正在……（you are 的缩写，后接 making 构成进行时）",
               "reviewVersion": 2
             },
             {

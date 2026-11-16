@@ -38,7 +38,7 @@
               "a": 0,
               "b": 23,
               "en": "On a recent sunny day, ",
-              "zh": "最近一个晴天，"
+              "zh": "前不久一个晴朗的日子，"
             },
             {
               "a": 23,
@@ -50,11 +50,11 @@
               "a": 44,
               "b": 99,
               "en": "over Larry Brown's 40 windswept acres in Shiner, Texas.",
-              "zh": "在得克萨斯州沙伊纳镇拉里·布朗那片占地40英亩、常受风吹的农场上。"
+              "zh": "在拉里·布朗位于得克萨斯州沙伊纳镇那片无遮无挡、常年迎风的40英亩农场上。"
             }
           ],
           "reorder": "把 over 引出的活动地点移到“鸡四处活动”前；windswept 修饰 acres。",
-          "translation": "最近一个晴天，在得克萨斯州沙伊纳镇，拉里·布朗那片占地40英亩、常受风吹的农场上，一万三千只鸡在四处活动。",
+          "translation": "前不久一个晴朗的日子，一万三千只鸡在得克萨斯州沙伊纳镇的一片农场上四处活动。农场是拉里·布朗的，占地40英亩，地势开阔，常年迎风。",
           "words": [
             {
               "a": 0,
@@ -774,11 +774,11 @@
               "a": 252,
               "b": 283,
               "en": "that can trap greenhouse gases.",
-              "zh": "这些土壤能够吸存温室气体。"
+              "zh": "这种土壤能把温室气体留存在土里。"
             }
           ],
           "reorder": "which 插入语先交代上架价格；using 修饰 farms；破折号后解释再生农业；最后 that 修饰 soils。",
-          "translation": "这些刚刚上市、每打售价高达8美元的鸡蛋，仍贴着有机和善待动物的标签；不过，产蛋鸡还生活在采用再生农业的农场里。这种农业运用特殊技术培育肥沃的土壤，使其能够吸存温室气体。",
+          "translation": "这种鸡蛋刚上架，售价最高可达每打8美元，仍贴着“有机”和“善待动物”的标签。不同的是，产蛋的鸡来自采用再生农业的农场；农场使用特殊方法培育肥沃的土壤，让温室气体留存在土里。",
           "words": [
             {
               "a": 0,
@@ -993,7 +993,7 @@
               "word": "they're",
               "lemma": "they are",
               "pos": "v",
-              "meaning": "它们还来自（they are的缩写）",
+              "meaning": "它们是（they are 的缩写）；are from 指这些鸡蛋来自后面提到的母鸡",
               "reviewVersion": 2
             },
             {
@@ -1164,7 +1164,7 @@
               "word": "trap",
               "lemma": "trap",
               "pos": "v",
-              "meaning": "吸存；截留",
+              "meaning": "留住；指肥沃土壤把温室气体留在土中",
               "reviewVersion": 2
             },
             {
@@ -1393,7 +1393,7 @@
               "a": 0,
               "b": 34,
               "en": "“I'm excited about our progress,” ",
-              "zh": "“我对我们的进展感到兴奋，”"
+              "zh": "“看到我们取得的进展，我很高兴，”"
             },
             {
               "a": 34,
@@ -1411,7 +1411,7 @@
               "a": 77,
               "b": 106,
               "en": "that draw worms and crickets ",
-              "zh": "以吸引蠕虫和蟋蟀，"
+              "zh": "招来蚯蚓和蟋蟀，"
             },
             {
               "a": 106,
@@ -1421,7 +1421,7 @@
             }
           ],
           "reorder": "先交代布朗说话；who 另起分句说明他的做法；that 修饰覆盖作物；for 表示供鸡吃。",
-          "translation": "布朗说：“我对我们的进展感到兴奋。”他正在增种覆盖作物，吸引蠕虫和蟋蟀，供鸡啄食。",
+          "translation": "布朗说：“看到我们取得的进展，我很高兴。”他正在多种一些覆盖作物，招来蚯蚓和蟋蟀给鸡吃。",
           "words": [
             {
               "a": 1,
@@ -1564,7 +1564,7 @@
               "word": "worms",
               "lemma": "worm",
               "pos": "n",
-              "meaning": "蠕虫",
+              "meaning": "蚯蚓等可供鸡啄食的蠕虫",
               "reviewVersion": 2
             },
             {
@@ -2024,7 +2024,7 @@
               "word": "supply",
               "lemma": "supply",
               "pos": "v",
-              "meaning": "供应",
+              "meaning": "提供；这里指把鸡蛋供应给顾客",
               "reviewVersion": 2
             },
             {
@@ -2396,7 +2396,7 @@
               "word": "barely",
               "lemma": "barely",
               "pos": "adv",
-              "meaning": "仅仅；刚刚超过",
+              "meaning": "刚刚；仅仅（barely more than a decade：仅略多于十年）",
               "reviewVersion": 2
             },
             {
@@ -2486,7 +2486,7 @@
               "word": "dismissed",
               "lemma": "dismiss",
               "pos": "v",
-              "meaning": "轻视；认为不值一提",
+              "meaning": "被小看；dismissed as 指被看成不值一提的小众商品",
               "reviewVersion": 2
             },
             {
@@ -2585,7 +2585,7 @@
               "word": "sold",
               "lemma": "sell",
               "pos": "v",
-              "meaning": "被销售",
+              "meaning": "销售；这里指已经能在沃尔玛买到",
               "reviewVersion": 2
             },
             {
@@ -3021,7 +3021,7 @@
               "word": "broccoli",
               "lemma": "broccoli",
               "pos": "n",
-              "meaning": "西蓝花",
+              "meaning": "西兰花（也叫西蓝花）",
               "reviewVersion": 2
             },
             {
@@ -3161,7 +3161,7 @@
               "word": "hard",
               "lemma": "hard",
               "pos": "a",
-              "meaning": "难的",
+              "meaning": "不好推销的；a hard sell 指难以说服顾客购买的产品",
               "reviewVersion": 2
             },
             {
@@ -3170,7 +3170,7 @@
               "word": "sell",
               "lemma": "sell",
               "pos": "n",
-              "meaning": "推销；使人接受的事物",
+              "meaning": "要推销或让人接受的产品（a hard sell：不好卖的东西）",
               "reviewVersion": 2
             },
             {
@@ -3369,7 +3369,7 @@
               "b": 42,
               "word": "a hard sell",
               "lemma": "a hard sell",
-              "meaning": "难以推销的东西；难以让人接受的主张",
+              "meaning": "不好卖的东西；难让顾客接受",
               "kind": "phrase"
             },
             {
@@ -3683,11 +3683,11 @@
               "a": 136,
               "b": 164,
               "en": "will embrace sustainability.",
-              "zh": "也会接受可持续性这一卖点。"
+              "zh": "也会认同可持续生产的理念。"
             }
           ],
           "reorder": "paying more 修饰 consumers，先说明是哪批消费者，再接 will embrace。",
-          "translation": "该行业认为，那些愿意为散养、非转基因、牧场放养等优质特点多花钱购买鸡蛋的消费者，也会接受可持续性这一卖点。",
+          "translation": "鸡蛋行业押注，那些原本肯为散养、非转基因或牧场放养等品质多花钱买鸡蛋的消费者，也会看重鸡蛋的生产是否可持续。",
           "words": [
             {
               "a": 0,
@@ -4552,7 +4552,7 @@
               "word": "chain",
               "lemma": "chain",
               "pos": "n",
-              "meaning": "供应链",
+              "meaning": "链条；food chain 在本文指食物从生产到消费的链条",
               "reviewVersion": 2
             },
             {

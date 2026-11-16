@@ -204,8 +204,10 @@
     function saveWords() {
         try {
             localStorage.setItem(STORAGE_KEY_WORDS, JSON.stringify(state.words));
+            return true;
         } catch (e) {
             showToast('保存失败：浏览器存储空间不足', 'error');
+            return false;
         }
     }
 
@@ -918,17 +920,37 @@
         });
     }
 
-    function removeWord(word) {
+    function collectedKeys(word, surface) {
         const key = normalizeWord(word);
-        delete state.words[key];
-        saveWords();
+        const surfaceKey = surface ? normalizeWord(surface) : '';
+        const keys = Object.hasOwn(state.words, key) ? [key] : [];
+        const previous = surfaceKey && state.words[surfaceKey];
+        // The former vocabulary panel saved inflected phrases by their written form.
+        if (surfaceKey !== key && previous?.kind === 'phrase' && normalizeWord(previous.lemma) === key) {
+            keys.push(surfaceKey);
+        }
+        return keys;
+    }
+
+    function refreshCollectedWords() {
+        $$('#examContent span.word[data-word]').forEach(span => {
+            span.classList.toggle('collected', collectedKeys(span.dataset.word, span.dataset.wordSurface).length > 0);
+        });
+    }
+
+    function removeWord(word, surface) {
+        const keys = collectedKeys(word, surface);
+        if (!keys.length) return false;
+        const removed = keys.map(key => [key, state.words[key]]);
+        for (const key of keys) delete state.words[key];
+        if (!saveWords()) {
+            for (const [key, value] of removed) state.words[key] = value;
+            return false;
+        }
         updateWordCount();
         renderWordList();
-        $$('span.word[data-word]').forEach(span => {
-            if (normalizeWord(span.dataset.word) === key) {
-                span.classList.remove('collected');
-            }
-        });
+        refreshCollectedWords();
+        return true;
     }
 
     function clearAllWords() {
@@ -2620,11 +2642,10 @@
                 word, addedAt: previous ? previous.addedAt : Date.now(), examId: (info && info.examId) || state.activeExamId
             });
             saveWords(); updateWordCount(); renderWordList();
-            document.querySelectorAll('#examContent [data-word]').forEach(span => {
-                span.classList.toggle('collected', !!state.words[normalizeWord(span.dataset.word)]);
-            });
+            refreshCollectedWords();
             if (!options.silent) showToast(previous ? '已在生词本：' + word : '已收藏：' + word, 'success');
         },
+        isCollected: (word, surface) => collectedKeys(word, surface).length > 0,
         remove: removeWord
     };
 

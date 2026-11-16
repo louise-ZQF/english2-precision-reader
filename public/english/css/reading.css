@@ -26,22 +26,13 @@
 .reading-editor textarea:focus-visible { outline:2px solid #247b5c; outline-offset:2px; }
 [data-reading-id] { scroll-margin-top:calc(var(--reading-header-height) + 20px); }
 
-.reading-keywords { box-sizing:border-box; width:min(820px,calc(100% - 48px)); max-height:min(82vh,850px); padding:0; border:1px solid var(--pr-line); border-radius:16px; background:#fff; color:var(--pr-ink); }
-.reading-keywords[open] { display:flex; flex-direction:column; }
-.reading-keywords::backdrop { background:#152c22a6; }
-.reading-keywords-head { display:flex; align-items:center; justify-content:space-between; margin:0; padding:20px 26px 15px; border-bottom:1px solid var(--pr-line); }
-.reading-keywords-head h2 { margin:4px 0 0; font-size:23px; color:var(--pr-green); }
-.reading-keywords-controls { display:flex; align-items:center; gap:20px; flex-wrap:wrap; margin:16px 26px 0; }
-.reading-keywords-controls nav { display:flex; gap:6px; flex-wrap:wrap; }
-.reading-keywords-controls select,.reading-keywords-controls button { min-height:38px; padding:5px 10px; background:#fff; color:var(--pr-green); border:1px solid var(--pr-line); border-radius:7px; font:inherit; }
-.reading-keywords-controls button[aria-pressed=true] { color:#fff; background:var(--pr-green); border-color:var(--pr-green); }
-.reading-keywords-help,.reading-keywords-status { margin:10px 26px 0; color:#4c6556; font-size:13px; }
-.reading-keywords-status { margin-bottom:12px; }
-.reading-keywords-list { list-style:none; overflow:auto; margin:0; padding:4px 26px 20px; }
-.reading-keywords-list li { margin:0 0 8px; border:1px solid var(--pr-line); border-radius:8px; }
-.reading-keywords-word { width:100%; min-height:44px; display:flex; justify-content:space-between; align-items:center; gap:12px; padding:8px 14px; text-align:left; background:#f6f8f4; border:0; border-radius:7px; color:var(--pr-green); cursor:pointer; user-select:none; }
-.reading-keywords-word:hover { background:var(--pr-soft); }
-.reading-keywords-word>span[lang=en] { font:600 19px/1.35 Georgia,serif; }
-.reading-keywords-saved { color:#8e332a; font-size:12px; white-space:nowrap; }
-.reading-keywords-meaning { padding:10px 14px; border-top:1px solid var(--pr-line); line-height:1.7; }
-.reading-keywords :is(button,select):focus-visible { outline:2px solid #247b5c; outline-offset:2px; }
+#readingKeywordsBtn[aria-pressed="true"] { background:#fff2ce; border-color:#b4934c; color:#503a13; }
+#readingKeywordsBtn:focus-visible { outline:2px solid #247b5c; outline-offset:3px; }
+.reading-keywords-visible #examContent .reading-keyword:not(.collected) {
+    background:#fff2ce;
+    color:#37270d;
+    text-decoration:underline;
+    text-decoration-color:#a07822;
+    text-underline-offset:.2em;
+}
+.reading-keywords-visible.precision-enabled #examContent .reading-keyword:not(.collected):hover { background:#fbe3a9; }

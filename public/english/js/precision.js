@@ -1,7 +1,7 @@
 /* English-II precision reading: desktop interactions, phrases, and sentence study. */
 (function () {
     'use strict';
-    const KEYS = { mode: 'english2_precision_mode_v1', sentences: 'english2_sentences_v1', overrides: 'english2_context_overrides_v1' };
+    const KEYS = { mode: 'english2_precision_mode_v1', keywords: 'english2_reading_keywords_v1', sentences: 'english2_sentences_v1', overrides: 'english2_context_overrides_v1' };
     const $ = (s, root = document) => root.querySelector(s);
     const $$ = (s, root = document) => Array.from(root.querySelectorAll(s));
     const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
@@ -48,6 +48,14 @@
     function write(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch (_) { toast('保存失败，请先导出数据腾出空间', 'error'); return false; } }
     function toast(s, type) { if (window.EnglishApp) window.EnglishApp.toast(s, type || 'success'); }
     let enabled = read(KEYS.mode, false) === true;
+    let showReadingKeywords = read(KEYS.keywords, true) !== false;
+    const keywordStarts = new Map();
+    for (const locations of Object.values(window.EnglishReadingKeywords || {})) {
+        for (const [id, start] of locations) {
+            if (!keywordStarts.has(id)) keywordStarts.set(id, []);
+            keywordStarts.get(id).push(start);
+        }
+    }
     let saved = read(KEYS.sentences, []);
     if (!Array.isArray(saved)) saved = [];
     let overrides = read(KEYS.overrides, {});
@@ -159,6 +167,7 @@
         const words = meanings.writtenWords(sentence.en);
         const phrases = phraseMatches(sentence).filter(p => !words.some(w => (p.a > w.a && p.a < w.b) || (p.b > w.a && p.b < w.b) || (p.a === w.a && p.b === w.b && /[-\u2010\u2011]/.test(w.key))));
         const items = [];
+        const markedStarts = keywordStarts.get(sentence.readingId) || [];
         for (const p of phrases) items.push({ a: p.a, b: p.b, key: p.key, kind: p.kind === 'name' ? 'name' : 'phrase', meaning: p.meaning });
         for (const word of words) {
             if (phrases.some(p => word.a >= p.a && word.b <= p.b)) continue;
@@ -169,8 +178,11 @@
         for (const item of items) {
             if (item.a < cursor) continue;
             text += esc(sentence.en.slice(cursor, item.a));
-            const isSaved = window.EnglishApp && !!window.EnglishApp.state().words[wordKey(item.key)];
-            text += '<span class="word precision-word' + (item.kind === 'phrase' ? ' precision-phrase' : /[-\u2010\u2011]/.test(item.key) ? ' precision-compound' : '') + (isSaved ? ' collected' : '') + '" data-word="' + esc(item.key) + '" data-kind="' + item.kind + '" data-start="' + item.a + '" data-end="' + item.b + '"' + (enabled ? ' tabindex="0" role="button" aria-label="查看' + esc(item.key) + '的语境义"' : '') + '>' + esc(sentence.en.slice(item.a, item.b)) + '</span>';
+            const displayed = sentence.en.slice(item.a, item.b);
+            const surface = item.kind === 'phrase' && wordKey(displayed) !== wordKey(item.key) ? displayed : '';
+            const isSaved = window.EnglishApp && window.EnglishApp.isCollected(item.key, surface);
+            const isKeyword = markedStarts.some(start => start >= item.a && start < item.b);
+            text += '<span class="word precision-word' + (item.kind === 'phrase' ? ' precision-phrase' : /[-\u2010\u2011]/.test(item.key) ? ' precision-compound' : '') + (isKeyword ? ' reading-keyword' : '') + (isSaved ? ' collected' : '') + '" data-word="' + esc(item.key) + '"' + (surface ? ' data-word-surface="' + esc(surface) + '"' : '') + ' data-kind="' + item.kind + '" data-start="' + item.a + '" data-end="' + item.b + '"' + (enabled ? ' tabindex="0" role="button" aria-label="查看' + esc(item.key) + '的语境义"' : '') + '>' + esc(displayed) + '</span>';
             cursor = item.b;
         }
         text += esc(sentence.en.slice(cursor));
@@ -271,7 +283,7 @@
         document.body.classList.toggle('precision-enabled', enabled);
         const button = $('#precisionModeBtn');
         if (button) { button.textContent = enabled ? '精翻中 · 退出' : '进入精翻'; button.setAttribute('aria-pressed', String(enabled)); }
-        const hint = enabled ? '精翻中：单击查义 · 双击收藏词语 · 点句子编号查看分块精翻 · 划选后右键收藏长难句' : '普通阅读：点击右上角「进入精翻」开启查词、词组学习和长难句收藏';
+        const hint = enabled ? '精翻中：单击查义 · 双击收藏 · 右键取消收藏 · 点句子编号查看分块精翻 · 划选后右键收藏长难句' : '普通阅读：点击右上角「进入精翻」开启查词、词组学习和长难句收藏';
         const sub = $('.brand-sub'); if (sub) sub.textContent = enabled ? '精翻模式 · 单击查义，双击收藏词语' : '普通阅读 · 进入精翻后单击查义，双击收藏';
         const bar = $('#examContent .hint-bar'); if (bar) bar.textContent = hint;
         $$('.sentence-no').forEach(b => { b.disabled = !enabled; });
@@ -822,9 +834,25 @@
         updateBookCount();
     }
 
+    function initReadingKeywords() {
+        const button = $('#readingKeywordsBtn');
+        if (!button) return;
+        function update() {
+            document.body.classList.toggle('reading-keywords-visible', showReadingKeywords);
+            button.setAttribute('aria-pressed', String(showReadingKeywords));
+        }
+        button.onclick = () => {
+            showReadingKeywords = !showReadingKeywords;
+            write(KEYS.keywords, showReadingKeywords);
+            update();
+        };
+        update();
+    }
+
     function init() {
         const root = $('#examContent'); if (!root) return;
         trackHeaderHeight();
+        initReadingKeywords();
         $('#precisionModeBtn').onclick = () => { enabled = !enabled; write(KEYS.mode, enabled); applyMode(); };
         $('#sentenceBookBtn').onclick = openLibrary;
         root.addEventListener('click', event => {
@@ -849,12 +877,31 @@
         }, true);
         root.addEventListener('mouseover', event => { if (event.target.closest('.precision-word')) event.stopImmediatePropagation(); }, true);
         root.addEventListener('contextmenu', event => {
-            if (!enabled) return;
-            const payload = captureSelection() || selected;
-            if (!payload) return;
-            event.preventDefault(); event.stopImmediatePropagation();
-            payload.rect = { left: event.clientX, bottom: event.clientY };
-            showSelectionToolbar(payload, true);
+            const word = event.target.closest('[data-reading-id] .precision-word');
+            const payload = enabled ? captureSelection() : null;
+            const app = window.EnglishApp;
+            const canRemove = word && app.isCollected(word.dataset.word, word.dataset.wordSurface);
+            const selection = window.getSelection();
+            const onSelection = payload && (
+                (event.clientX === 0 && event.clientY === 0) ||
+                Array.from(selection.getRangeAt(0).getClientRects()).some(rect =>
+                    event.clientX >= rect.left && event.clientX <= rect.right &&
+                    event.clientY >= rect.top && event.clientY <= rect.bottom)
+            );
+            if (canRemove && !onSelection && app.remove(word.dataset.word, word.dataset.wordSurface)) {
+                event.preventDefault();
+                event.stopImmediatePropagation();
+                hideFloating();
+                toast('已取消收藏：' + word.textContent.trim());
+                return;
+            }
+            const selectedText = payload || (enabled ? selected : null);
+            if (!selectedText) return;
+            event.preventDefault();
+            event.stopImmediatePropagation();
+            clearTimeout(clickTimer);
+            selectedText.rect = { left: event.clientX, bottom: event.clientY };
+            showSelectionToolbar(selectedText, true);
         }, true);
         root.addEventListener('keydown', event => {
             const word = event.target.closest('.precision-word'); if (!word || !enabled) return;

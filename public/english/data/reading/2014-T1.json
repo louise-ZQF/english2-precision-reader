@@ -4541,6 +4541,14 @@
           ],
           "phrases": [
             {
+              "a": 21,
+              "b": 35,
+              "word": "come away from",
+              "lemma": "come away from",
+              "meaning": "读完或经历过……后形成某种感受或看法；这里指读完这本书后觉得钱花得值",
+              "kind": "phrase"
+            },
+            {
               "a": 63,
               "b": 79,
               "lemma": "money well spent",
@@ -4561,7 +4569,7 @@
             "note": "money well spent为买书钱花得值，most修饰大多数读者。",
             "sentenceSHA256": "53b938a4192b60960773a2985296c85b99f84d2b5e3b07787504184841a31674",
             "words": 15,
-            "phrases": 1,
+            "phrases": 2,
             "names": 0
           }
         }

@@ -4,4 +4,3 @@ __pycache__/
 _site/
 .local-data/
 reference/upstream/
-public/english-materials/*.pdf

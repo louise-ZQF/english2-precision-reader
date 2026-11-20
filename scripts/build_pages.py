@@ -5,14 +5,12 @@ import hashlib
 import json
 import re
 import shutil
-import urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser()
 parser.add_argument('--base', required=True, help='Project prefix, for example /english2-precision-reader')
 parser.add_argument('--origin', required=True, help='Account Pages origin')
-parser.add_argument('--external-materials', action='store_true', help='Use original PDF download links instead of copying PDFs into the site')
 args = parser.parse_args()
 base = '/' + args.base.strip('/') if args.base.strip('/') else ''
 origin = args.origin.rstrip('/')
@@ -52,13 +50,15 @@ target = base + '/english/'
 (out/'index.html').write_text('<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>英语二精翻</title><meta http-equiv="refresh" content="0;url='+target+'"><a href="'+target+'">打开英语二精翻</a></html>')
 (out/'.nojekyll').touch()
 manifest = json.loads((out/'english-materials/manifest.json').read_text())
-if args.external_materials:
-    for item in manifest:
-        item['url'] = 'https://study.aseeker.bio/english-materials/' + urllib.parse.quote(item['name'])
-    (out/'english-materials/manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
-    for pdf in (out/'english-materials').glob('*.pdf'):
-        pdf.unlink()
-missing = [item['name'] for item in manifest if not (out/'english-materials'/item['name']).exists()]
-if missing and not args.external_materials:
-    raise SystemExit('Missing published materials: '+', '.join(missing))
+# Publish the PDFs with the app so downloads share the site's origin.
+for item in manifest:
+    item.pop('url', None)
+    path = out / 'english-materials' / item['name']
+    if not path.is_file():
+        raise SystemExit('Missing published material: ' + item['name'])
+    with path.open('rb') as pdf:
+        if pdf.read(5) != b'%PDF-':
+            raise SystemExit('Invalid PDF material: ' + item['name'])
+    item['size'] = path.stat().st_size
+(out / 'english-materials/manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
 print(f'Built {out}: {len(manifest)} materials, base={base}')

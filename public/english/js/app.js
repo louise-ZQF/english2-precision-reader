@@ -1787,7 +1787,9 @@
 
     function buildMaterialsList() {
         if (!el.materialsList) return;
-        if (el.materialsList.children.length > 0) return;
+        if (el.materialsList.dataset.status === 'loaded' || el.materialsList.dataset.status === 'loading') return;
+        el.materialsList.dataset.status = 'loading';
+        el.materialsList.textContent = '正在加载答案资料…';
         fetch(MATERIALS_BASE + 'manifest.json?v=' + Date.now())
             .then(r => {
                 if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -1801,6 +1803,7 @@
                     { label: '英语二', items: yinger }
                 ];
                 el.materialsList.innerHTML = '';
+                el.materialsList.dataset.status = 'loaded';
                 groups.forEach(g => {
                     if (!g.items.length) return;
                     const title = document.createElement('div');
@@ -1824,6 +1827,7 @@
                 });
             })
             .catch(err => {
+                delete el.materialsList.dataset.status;
                 el.materialsList.innerHTML = '<p style="text-align:center;color:var(--text-faint);padding:20px;">加载失败：' + (err.message || '未知错误') + '</p>';
             });
     }

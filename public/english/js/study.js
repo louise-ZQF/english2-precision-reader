@@ -14,7 +14,7 @@
         if (!data || typeof data !== 'object') return result;
         for (const [id, item] of Object.entries(data.articles || {})) {
             if (!validId(id) || !item || typeof item !== 'object') continue;
-            result.articles[id] = { completedAt: time(item.completedAt), note: text(item.note), updatedAt: time(item.updatedAt), reading: cleanReading(item.reading) };
+            result.articles[id] = { completedAt: time(item.completedAt), pending: item.pending === true && !time(item.completedAt), note: text(item.note), updatedAt: time(item.updatedAt), reading: cleanReading(item.reading) };
         }
         for (const item of Object.values(data.mistakes || {})) {
             if (!item || !validId(item.articleId) || !/^\d{1,3}$/.test(String(item.question))) continue;
@@ -91,9 +91,15 @@
             next.articles[id] = { ...previous, ...patch, reading, updatedAt: Date.now() };
         });
     }
+    function translationStatus(record) {
+        return record.completedAt ? '已翻译' : record.pending ? '待翻译' : '未翻译';
+    }
+    function setPending(id, checked) {
+        return updateArticle(id, { pending: checked, ...(checked ? { completedAt: 0 } : {}) });
+    }
     function setCompleted(id, checked) {
         const previous = articleRecord(id);
-        if (!updateArticle(id, { completedAt: checked ? previous.completedAt || Date.now() : 0 })) return false;
+        if (!updateArticle(id, { completedAt: checked ? previous.completedAt || Date.now() : 0, ...(checked ? { pending: false } : {}) })) return false;
         if (checked && window.EnglishReadingSession) window.EnglishReadingSession.scheduleReview(id);
         return true;
     }
@@ -124,18 +130,20 @@
             const articles = readingByExam.get(badge.dataset.readingProgress);
             badge.innerHTML = articles ? ['A', 'B', 'C', 'D'].map((letter, index) => {
                 const article = articles.get('text' + (index + 1));
-                const completed = !!(article && articleRecord(article.id).completedAt);
-                const status = completed ? '已翻译' : article ? '未翻译' : '未收录';
+                const record = article ? articleRecord(article.id) : {};
+                const completed = !!record.completedAt, pending = !completed && !!record.pending;
+                const status = article ? translationStatus(record) : '未收录';
                 const count = article ? mistakesFor(article.id).length : 0;
                 const label = 'Text ' + (index + 1) + ' · ' + status + (count ? ' · 错 ' + count + ' 题' : '');
-                return '<span class="reading-progress-letter' + (completed ? ' is-complete' : '') +
+                return '<span class="reading-progress-letter' + (completed ? ' is-complete' : pending ? ' is-pending' : '') +
                     '" role="img" title="' + label + '" aria-label="' + letter + ' · ' + label + '">' + letter + (count ? '<small class="study-letter-errors">' + count + '</small>' : '') + '</span>';
             }).join('') : '';
         }
         for (const link of $$('#readingJumps [data-reading-jump]')) {
-            const completed = !!articleRecord(link.dataset.readingJump).completedAt;
-            link.classList.toggle('is-complete', completed);
-            link.setAttribute('aria-label', link.textContent + (completed ? '，已翻译' : '，未翻译'));
+            const record = articleRecord(link.dataset.readingJump);
+            link.classList.toggle('is-complete', !!record.completedAt);
+            link.classList.toggle('is-pending', !!record.pending && !record.completedAt);
+            link.setAttribute('aria-label', link.textContent + '，' + translationStatus(record));
         }
     }
     function refreshControls() {
@@ -145,13 +153,17 @@
             const id = currentExam.exam_id + '|' + block.dataset.studyArticle;
             const record = articleRecord(id), controls = $('.study-article-controls', block);
             block.classList.toggle('study-complete', !!record.completedAt);
+            block.classList.toggle('study-pending', !!record.pending && !record.completedAt);
             if (!controls) continue;
             if (controls.dataset.articleId !== id) {
-                controls.innerHTML = '<button type="button" class="study-guide-button" data-study-guide="' + esc(id) + '">读懂文章</button><label class="study-complete-check"><input type="checkbox" data-study-complete="' + esc(id) + '" aria-label="' + esc(currentExam.year + ' ' + block.dataset.studyLabel + ' 已翻译') + '"><span>已翻译</span></label><button type="button" class="study-note-button" data-study-open="' + esc(id) + '"></button>';
+                controls.innerHTML = '<button type="button" class="study-guide-button" data-study-guide="' + esc(id) + '">读懂文章</button><label class="study-complete-check"><input type="checkbox" data-study-complete="' + esc(id) + '" aria-label="' + esc(currentExam.year + ' ' + block.dataset.studyLabel + ' 已翻译') + '"><span>已翻译</span></label><label class="study-complete-check study-pending-check"><input type="checkbox" data-study-pending="' + esc(id) + '" aria-label="' + esc(currentExam.year + ' ' + block.dataset.studyLabel + ' 待翻译') + '"><span>待翻译</span></label><button type="button" class="study-note-button" data-study-open="' + esc(id) + '"></button>';
                 controls.dataset.articleId = id;
             }
             const checkbox = $('[data-study-complete]', controls); checkbox.checked = !!record.completedAt;
             checkbox.title = record.completedAt ? '完成于 ' + new Date(record.completedAt).toLocaleDateString('zh-CN') + '，可取消勾选' : '翻译完成后勾选';
+            const pendingCheckbox = $('[data-study-pending]', controls);
+            pendingCheckbox.checked = !!record.pending && !record.completedAt;
+            pendingCheckbox.title = pendingCheckbox.checked ? '已加入待翻译，可取消勾选' : '加入待翻译';
             const count = mistakesFor(id).length, button = $('[data-study-open]', controls);
             button.textContent = (record.note.trim() ? '已写笔记' : '笔记') + ' / 错题' + (count ? ' ' + count : '');
         }
@@ -287,7 +299,7 @@
     }
     function heatmapHtml(articles) {
         const years = [...new Set(articles.map(article => article.year))];
-        let html = '<div class="study-map-legend"><span><i></i>未翻译</span><span><i class="is-complete"></i>✓ 已翻译</span><span>格子里的题数为已记录的错题数；点击格子可查看笔记。</span></div><div class="study-map-scroll"><table class="study-heatmap"><caption>英语二文章翻译完成情况 · 年份 × 文章</caption><thead><tr><th scope="col">年份</th>' + columns.map(([, label]) => '<th scope="col">' + label + '</th>').join('') + '<th scope="col">完成</th></tr></thead><tbody>';
+        let html = '<div class="study-map-legend"><span><i></i>未翻译</span><span><i class="is-pending"></i>待翻译</span><span><i class="is-complete"></i>✓ 已翻译</span><span>格子里的题数为已记录的错题数；点击格子可查看笔记。</span></div><div class="study-map-scroll"><table class="study-heatmap"><caption>英语二文章翻译完成情况 · 年份 × 文章</caption><thead><tr><th scope="col">年份</th>' + columns.map(([, label]) => '<th scope="col">' + label + '</th>').join('') + '<th scope="col">完成</th></tr></thead><tbody>';
         for (const year of years) {
             const row = articles.filter(article => article.year === year), done = row.filter(article => articleRecord(article.id).completedAt).length;
             html += '<tr><th scope="row">' + esc(year) + '</th>';
@@ -295,8 +307,8 @@
                 const article = row.find(item => item.kind === kind);
                 if (!article) { html += '<td class="study-map-missing">—</td>'; continue; }
                 const record = articleRecord(article.id), count = mistakesFor(article.id).length;
-                const label = year + ' ' + article.label + ' · ' + (record.completedAt ? '已翻译' : '未翻译') + (count ? ' · 错题 ' + count + ' 题' : '') + (record.note.trim() ? ' · 有笔记' : '');
-                html += '<td><button type="button" class="study-map-cell' + (record.completedAt ? ' is-complete' : '') + '" data-study-open="' + esc(article.id) + '" title="' + esc(label) + '" aria-label="' + esc(label) + '"><span>' + (record.completedAt ? '✓' : '·') + '</span>' + (count ? '<small>' + count + '题</small>' : '') + (record.note.trim() ? '<b class="study-note-dot" aria-hidden="true">记</b>' : '') + '</button></td>';
+                const label = year + ' ' + article.label + ' · ' + translationStatus(record) + (count ? ' · 错题 ' + count + ' 题' : '') + (record.note.trim() ? ' · 有笔记' : '');
+                html += '<td><button type="button" class="study-map-cell' + (record.completedAt ? ' is-complete' : record.pending ? ' is-pending' : '') + '" data-study-open="' + esc(article.id) + '" title="' + esc(label) + '" aria-label="' + esc(label) + '"><span>' + (record.completedAt ? '✓' : record.pending ? '待' : '·') + '</span>' + (count ? '<small>' + count + '题</small>' : '') + (record.note.trim() ? '<b class="study-note-dot" aria-hidden="true">记</b>' : '') + '</button></td>';
             }
             html += '<td><span class="study-year-total intensity-' + (done ? Math.ceil(done / row.length * 4) : 0) + '">' + done + '/' + row.length + '</span></td></tr>';
         }
@@ -308,7 +320,7 @@
         const matches = (article, content) => (!yearFilter || String(article.year) === yearFilter) && (article.year + ' ' + article.label + ' ' + content).toLowerCase().includes(query.toLowerCase());
         if (dashboardMode === 'notes') {
             const notes = Object.entries(data.articles).filter(([id, record]) => articles.has(id) && record.note.trim() && matches(articles.get(id), record.note)).sort((a, b) => b[1].updatedAt - a[1].updatedAt);
-            list.innerHTML = notes.length ? notes.map(([id, record]) => '<article class="study-record-card"><header><strong>' + esc(articles.get(id).year + ' · ' + articles.get(id).label) + '</strong><span>' + (record.completedAt ? '已翻译' : '未翻译') + '</span></header><p class="study-user-text">' + esc(record.note) + '</p><footer><button type="button" data-study-open="' + esc(id) + '">编辑笔记</button><button type="button" data-study-source="' + esc(id) + '">回到原文</button></footer></article>').join('') : '<p class="study-empty">没有匹配的笔记。点击文章旁的“笔记 / 错题”即可开始记录。</p>';
+            list.innerHTML = notes.length ? notes.map(([id, record]) => '<article class="study-record-card"><header><strong>' + esc(articles.get(id).year + ' · ' + articles.get(id).label) + '</strong><span>' + translationStatus(record) + '</span></header><p class="study-user-text">' + esc(record.note) + '</p><footer><button type="button" data-study-open="' + esc(id) + '">编辑笔记</button><button type="button" data-study-source="' + esc(id) + '">回到原文</button></footer></article>').join('') : '<p class="study-empty">没有匹配的笔记。点击文章旁的“笔记 / 错题”即可开始记录。</p>';
             return;
         }
         const mistakes = Object.values(data.mistakes).filter(item => articles.has(item.articleId) && matches(articles.get(item.articleId), '第' + item.question + '题 ' + item.myAnswer + ' ' + item.correctAnswer + ' ' + item.reason + ' ' + item.note) && (!statusFilter || item.resolved === (statusFilter === 'resolved'))).sort((a, b) => b.updatedAt - a.updatedAt);
@@ -479,6 +491,7 @@
             } else if (button) openArticle(button.dataset.studyOpen || button.dataset.studyQuestionOpen, button.dataset.question);
         });
         root.addEventListener('change', event => {
+            if (event.target.matches('[data-study-pending]') && !setPending(event.target.dataset.studyPending, event.target.checked)) event.target.checked = !event.target.checked;
             if (event.target.matches('[data-study-complete]') && !setCompleted(event.target.dataset.studyComplete, event.target.checked)) event.target.checked = !event.target.checked;
         });
         document.addEventListener('keydown', event => {

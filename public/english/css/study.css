@@ -158,3 +158,13 @@
 .reading-retranslation-answer { border-top:1px solid #dfe7da; margin-top:18px; padding-top:12px; }
 .reading-retranslation-answer [lang=en] { font:17px/1.8 Georgia,serif; }
 .reading-retranslation footer { display:flex; gap:10px; justify-content:flex-end; margin-top:18px; }
+
+/* Manually queued translations use amber across article navigation. */
+.study-pending-check { color:#80500d; }
+.study-pending-check input { accent-color:#a36512; }
+.reading-progress-letter.is-pending { border-color:#b27722; background:#ffe4af; color:#704408; }
+.reading-jumps a.is-pending { border-color:#b27722; background:#fff0d1; color:#704408; }
+.reading-jumps a.is-pending:hover { background:#ffe1a2; color:#593305; }
+.study-pending>.study-article-heading { border-left-color:#b27722; background:#fff5df; }
+.study-pending[data-reading-article] .text-title { color:#80500d; }
+.study-map-legend i.is-pending,.study-heatmap .study-map-cell.is-pending { border-color:#b27722; background:#ffe4af; color:#704408; }

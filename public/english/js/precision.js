@@ -263,6 +263,7 @@
         applyMode();
         markSavedSentences();
         if (window.EnglishReading) window.EnglishReading.decorate();
+        if (window.EnglishReadingSession) window.EnglishReadingSession.rendered(exam);
     }
 
     function trackHeaderHeight() {
@@ -458,7 +459,7 @@
             box = document.createElement('div'); box.className = rightClick ? 'precision-context-menu' : 'precision-selection-bar'; box.setAttribute('role', rightClick ? 'menu' : 'toolbar');
             document.body.appendChild(box); if (rightClick) contextMenu = box; else selectionBar = box;
         }
-        box.innerHTML = '<button data-action="translate">翻译选区</button><button data-action="save">收藏到长难句</button><button data-action="phrase">收藏为词组</button>';
+        box.innerHTML = '<button data-action="translate">翻译选区</button><button data-action="save">收藏到长难句</button><button data-action="phrase">收藏为词组</button>' + (payload.source?.readingId ? '<button data-action="evidence">关联错题依据</button>' : '');
         bindSentenceSaveButton($('[data-action="save"]', box), payload);
         box.onmousedown = e => e.preventDefault();
         box.onclick = e => {
@@ -467,6 +468,7 @@
             if (b.dataset.action === 'translate') openAnalysis(item);
             if (b.dataset.action === 'save') saveSentence(item);
             if (b.dataset.action === 'phrase') collectSelectionPhrase(item);
+            if (b.dataset.action === 'evidence') window.EnglishStudy?.attachEvidence(item);
             hideSelection();
         };
         if (rightClick && selectionBar) selectionBar.style.display = 'none';
@@ -635,13 +637,17 @@
         body.innerHTML = '<p class="precision-source">' + esc(item ? item.id + ' · ' + (item.article.source.status === 'verified' ? '原文已核对' : '原文待核对') : sourceLabel(payload.source)) + '</p>' +
             '<div class="precision-selected"><label>你选中的内容</label><p>' + esc(payload.text) + '</p></div>' +
             (item && item.sourceNote ? '<p class="reading-source-note">' + esc(item.sourceNote) + '</p>' : '') +
-            '<div class="precision-analysis-actions"><button id="saveAnalyzedSentence" class="precision-primary">收藏到长难句</button><button type="button" id="copyAnalyzedSentence">复制句子</button><button type="button" id="exportReadingCorrections">导出纠错记录</button></div>' +
+            '<div class="precision-analysis-actions">' + (item ? '<button type="button" id="markReadingPosition">翻到这里</button>' : '') + '<button id="saveAnalyzedSentence" class="precision-primary">收藏到长难句</button><button type="button" id="copyAnalyzedSentence">复制句子</button><button type="button" id="exportReadingCorrections">导出纠错记录</button></div>' +
             '<span id="copyAnalyzedSentenceStatus" class="precision-copy-status" role="status"></span>' +
             '<section class="reading-translation-section"><h3>分块对照</h3>' + (complete ? '<table class="reading-chunks"><thead><tr><th>英文</th><th>中文</th></tr></thead><tbody>' + item.chunks.map(chunk => '<tr><td lang="en">' + esc(chunk.en) + '</td><td>' + esc(chunk.zh) + '</td></tr>').join('') + '</tbody></table>' : '<p class="reading-pending">尚未整理</p>') + '</section>' +
             '<section class="reading-translation-section"><h3>语序调整</h3><p>' + esc(item && (complete || item.custom) && item.reorder || '尚未整理') + '</p></section>' +
             '<section class="reading-translation-section"><h3>完整翻译</h3><p class="precision-translation">' + esc(translation || '尚未整理') + '</p></section>' + editor +
             (!item ? '<p class="precision-note">这段选区尚未单独整理；保留实际选区，不自动扩展到整句，也不填入机译。</p>' : '');
         if (translation) payload.selectionTranslation = { en: norm(payload.text), zh: translation, kind: item.manualTranslation ? 'manual' : 'reviewed', readingId: item.id };
+        const markPosition = $('#markReadingPosition', body);
+        if (markPosition) markPosition.onclick = () => {
+            if (window.EnglishReadingSession?.markPosition(item)) markPosition.textContent = '已标记翻译位置';
+        };
         $('#saveAnalyzedSentence', body).onclick = () => saveSentence(payload);
         bindSentenceSaveButton($('#saveAnalyzedSentence', body), payload);
         const copyStatus = $('#copyAnalyzedSentenceStatus', body);
@@ -900,7 +906,9 @@
             event.preventDefault();
             event.stopImmediatePropagation();
             clearTimeout(clickTimer);
-            selectedText.rect = { left: event.clientX, bottom: event.clientY };
+            if (Number.isFinite(event.clientX) && Number.isFinite(event.clientY) && (event.clientX || event.clientY)) {
+                selectedText.rect = { left: event.clientX, bottom: event.clientY };
+            }
             showSelectionToolbar(selectedText, true);
         }, true);
         root.addEventListener('keydown', event => {

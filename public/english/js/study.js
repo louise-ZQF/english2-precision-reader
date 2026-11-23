@@ -14,18 +14,41 @@
         if (!data || typeof data !== 'object') return result;
         for (const [id, item] of Object.entries(data.articles || {})) {
             if (!validId(id) || !item || typeof item !== 'object') continue;
-            result.articles[id] = { completedAt: time(item.completedAt), note: text(item.note), updatedAt: time(item.updatedAt) };
+            result.articles[id] = { completedAt: time(item.completedAt), note: text(item.note), updatedAt: time(item.updatedAt), reading: cleanReading(item.reading) };
         }
         for (const item of Object.values(data.mistakes || {})) {
             if (!item || !validId(item.articleId) || !/^\d{1,3}$/.test(String(item.question))) continue;
             const question = String(item.question), id = item.articleId + '|q' + question;
-            result.mistakes[id] = { articleId: item.articleId, question, myAnswer: text(item.myAnswer), correctAnswer: text(item.correctAnswer), reason: text(item.reason), note: text(item.note), resolved: item.resolved === true, createdAt: time(item.createdAt), updatedAt: time(item.updatedAt) };
+            result.mistakes[id] = { articleId: item.articleId, question, myAnswer: text(item.myAnswer), correctAnswer: text(item.correctAnswer), reason: text(item.reason), note: text(item.note), resolved: item.resolved === true, evidence: cleanEvidence(item.evidence).filter(row => row.id.startsWith(item.articleId.slice(0, 4) + '-')), createdAt: time(item.createdAt), updatedAt: time(item.updatedAt) };
         }
         return result;
     }
+    function cleanReading(value) {
+        if (!value || typeof value !== 'object') return null;
+        const position = value.position;
+        const drafts = {};
+        for (const [id, draft] of Object.entries(value.drafts || {})) {
+            if (/^\d{4}-T[1-4]-P\d+-S\d+$/.test(id) && typeof draft === 'string') drafts[id] = draft;
+        }
+        return {
+            position: position && /^\d{4}-T[1-4]-P\d+-S\d+$/.test(position.id) ?
+                { id: position.id, en: text(position.en), sourceHash: text(position.sourceHash), savedAt: time(position.savedAt) } : null,
+            reviewDueAt: time(value.reviewDueAt),
+            reviewCompletedAt: time(value.reviewCompletedAt),
+            reviewIndex: Number.isInteger(value.reviewIndex) && value.reviewIndex >= 0 ? value.reviewIndex : 0,
+            drafts
+        };
+    }
+    function cleanEvidence(value) {
+        if (!Array.isArray(value)) return [];
+        return value.filter(item => item && /^\d{4}-T[1-4]-P\d+-S\d+$/.test(item.id) &&
+            Number.isInteger(item.a) && Number.isInteger(item.b) && item.a >= 0 && item.b > item.a &&
+            typeof item.en === 'string' && item.b <= item.en.length)
+            .map(item => ({ id: item.id, a: item.a, b: item.b, en: item.en, sourceHash: text(item.sourceHash) }));
+    }
     function readData() { try { return cleanData(JSON.parse(localStorage.getItem(KEY))); } catch (_) { return cleanData(null); } }
     let data = readData(), currentExam = null, overlay = null, previousFocus = null, editorArticle = null;
-    let dashboardMode = 'heatmap', query = '', yearFilter = '', statusFilter = '';
+    let dashboardMode = 'heatmap', query = '', yearFilter = '', statusFilter = '', pendingEvidence = null;
     const notify = (message, kind) => { if (window.EnglishApp) window.EnglishApp.toast(message, kind || 'success'); };
 
     function articleList() {
@@ -59,15 +82,39 @@
         data = next; refreshControls(); return true;
     }
     function updateArticle(id, patch) {
-        return commit(next => { next.articles[id] = { completedAt: 0, note: '', ...next.articles[id], ...patch, updatedAt: Date.now() }; });
+        return commit(next => {
+            const previous = next.articles[id] || { completedAt: 0, note: '' };
+            const reading = patch.reading ? {
+                ...previous.reading, ...patch.reading,
+                drafts: { ...previous.reading?.drafts, ...patch.reading.drafts }
+            } : previous.reading;
+            next.articles[id] = { ...previous, ...patch, reading, updatedAt: Date.now() };
+        });
     }
     function setCompleted(id, checked) {
         const previous = articleRecord(id);
         if (!updateArticle(id, { completedAt: checked ? previous.completedAt || Date.now() : 0 })) return false;
+        if (checked && window.EnglishReadingSession) window.EnglishReadingSession.scheduleReview(id);
         return true;
     }
     function refreshProgress() {
         const readingByExam = new Map();
+        const examCounts = new Map();
+        for (const item of Object.values(data.mistakes)) {
+            const exam = item.articleId.split('|')[0];
+            examCounts.set(exam, (examCounts.get(exam) || 0) + 1);
+        }
+        for (const row of $$('.exam-item[data-exam-id]')) {
+            const count = examCounts.get(row.dataset.examId) || 0;
+            let badge = $('.study-year-errors', row);
+            if (!count) { if (badge) badge.remove(); continue; }
+            if (!badge) {
+                badge = document.createElement('span');
+                badge.className = 'study-year-errors';
+                $('.exam-item-year', row).appendChild(badge);
+            }
+            badge.textContent = '错 ' + count + ' 题';
+        }
         for (const article of articleList()) {
             if (!/^text[1-4]$/.test(article.kind)) continue;
             if (!readingByExam.has(article.examId)) readingByExam.set(article.examId, new Map());
@@ -79,9 +126,10 @@
                 const article = articles.get('text' + (index + 1));
                 const completed = !!(article && articleRecord(article.id).completedAt);
                 const status = completed ? '已翻译' : article ? '未翻译' : '未收录';
-                const label = 'Text ' + (index + 1) + ' · ' + status;
+                const count = article ? mistakesFor(article.id).length : 0;
+                const label = 'Text ' + (index + 1) + ' · ' + status + (count ? ' · 错 ' + count + ' 题' : '');
                 return '<span class="reading-progress-letter' + (completed ? ' is-complete' : '') +
-                    '" role="img" title="' + label + '" aria-label="' + letter + ' · ' + label + '">' + letter + '</span>';
+                    '" role="img" title="' + label + '" aria-label="' + letter + ' · ' + label + '">' + letter + (count ? '<small class="study-letter-errors">' + count + '</small>' : '') + '</span>';
             }).join('') : '';
         }
         for (const link of $$('#readingJumps [data-reading-jump]')) {
@@ -114,14 +162,16 @@
             if (!button) { button = document.createElement('button'); button.type = 'button'; button.className = 'study-question-button'; block.appendChild(button); }
             button.dataset.studyQuestionOpen = id; button.dataset.question = num;
             const item = data.mistakes[id + '|q' + num];
-            button.textContent = item ? item.resolved ? '已订正 · 查看' : '已记错题' : '记错题';
+            button.textContent = item ? item.resolved ? '已订正 · 查看' : '已记错题 · 查看' : '记错题';
             button.classList.toggle('has-mistake', !!item && !item.resolved);
             button.classList.toggle('is-resolved', !!item && item.resolved);
             button.setAttribute('aria-label', '第' + num + '题 · ' + button.textContent);
         }
+        window.EnglishReadingSession?.decorate();
     }
     function onRendered(exam) {
         currentExam = exam;
+        if (window.EnglishReadingSession) window.EnglishReadingSession.examChanged(exam);
         const nav = $('#readingJumps');
         if (nav) nav.innerHTML = articleList().filter(article => article.examId === exam.exam_id && /^text[1-4]$/.test(article.kind)).map(article => '<a data-reading-jump="' + esc(article.id) + '" href="#study-article-' + article.key + '" title="跳转到本卷 ' + esc(article.label) + '">' + esc(article.label) + '</a>').join('');
         refreshControls();
@@ -135,13 +185,24 @@
         overlay.addEventListener('click', event => {
             if (event.target === overlay || event.target.closest('[data-study-close]')) { close(); return; }
             const button = event.target.closest('button'); if (!button) return;
+            if (button.dataset.markMistake) markMistake(editorArticle.id, $('#studyQuestionNumber', overlay).value);
+            if (button.dataset.saveEvidence) saveEvidence();
+            if (button.dataset.evidenceSource) window.EnglishReadingSession?.locate(button.dataset.evidenceSource);
+            if (button.dataset.reviewMistake) renderMistakeReview(button.dataset.reviewMistake, button.dataset.question);
+            if (button.dataset.reviewChoice) {
+                $$('.study-review-choice', overlay).forEach(choice => choice.setAttribute('aria-pressed', String(choice === button)));
+            }
+            if (button.hasAttribute('data-reveal-mistake')) {
+                $('#studyReviewRecord', overlay).hidden = false;
+                button.hidden = true;
+            }
             if (button.dataset.studyGuide) openGuide(button.dataset.studyGuide);
             if (button.dataset.studyView) { dashboardMode = button.dataset.studyView; renderDashboard(); }
             if (button.dataset.studyOpen) openArticle(button.dataset.studyOpen, button.dataset.question);
             if (button.dataset.studySource) goToSource(button.dataset.studySource, button.dataset.question);
             if (button.dataset.studyQuestionEdit) openArticle(editorArticle.id, button.dataset.studyQuestionEdit);
             if (button.dataset.studyRemove) {
-                if (!confirm('删除这道题的错因和笔记？')) return;
+                if (!confirm('取消这道错题标记并删除它的记录？')) return;
                 if (commit(next => { delete next.mistakes[button.dataset.studyRemove]; })) renderEditor(editorArticle, $('#studyQuestionNumber', overlay).value);
             }
         });
@@ -182,6 +243,7 @@
     function close() {
         if (!overlay) return;
         overlay.classList.remove('is-open'); document.body.classList.remove('study-modal-open');
+        pendingEvidence = null;
         if (previousFocus && previousFocus.isConnected) previousFocus.focus({ preventScroll: true });
     }
     function title(value) { $('#studyModalTitle', overlay).textContent = value; }
@@ -207,10 +269,17 @@
         editorArticle = null; title('翻译进度与错题笔记');
         const articles = articleList(), completed = articles.filter(article => articleRecord(article.id).completedAt).length;
         const pending = Object.values(data.mistakes).filter(item => !item.resolved).length;
-        const tabs = [['heatmap', '翻译热力图'], ['mistakes', '错题本'], ['notes', '文章笔记']];
+        const tabs = [['heatmap', '翻译热力图'], ['mistakes', '错题本'], ['retranslation', '重翻练习'], ['notes', '文章笔记']];
         const body = $('.study-modal-body', overlay);
         body.scrollTop = 0;
         body.innerHTML = '<div class="study-summary"><div><strong>' + completed + '<small> / ' + articles.length + ' 篇</small></strong><span>已完成翻译</span></div><div><strong>' + (articles.length ? Math.round(completed / articles.length * 100) : 0) + '<small>%</small></strong><span>文章完成率</span></div><div><strong>' + pending + '<small> 题</small></strong><span>待订正错题</span></div></div><div class="study-tabs" aria-label="学习记录分类">' + tabs.map(([mode, label]) => '<button type="button" data-study-view="' + mode + '" aria-pressed="' + (dashboardMode === mode) + '">' + label + '</button>').join('') + '</div>';
+        if (dashboardMode === 'retranslation') {
+            const candidates = articles.filter(article => /^text[1-4]$/.test(article.kind) && articleRecord(article.id).completedAt);
+            body.insertAdjacentHTML('beforeend', '<div class="study-retranslation-list">' + (candidates.length ?
+                candidates.map(article => window.EnglishReadingSession.reviewCard(article)).join('') :
+                '<p class="study-empty">勾选文章“已翻译”后，这里会安排重翻练习。</p>') + '</div>');
+            return;
+        }
         if (dashboardMode === 'heatmap') { body.insertAdjacentHTML('beforeend', heatmapHtml(articles)); return; }
         const years = [...new Set(articles.map(article => String(article.year)))];
         body.insertAdjacentHTML('beforeend', '<div class="study-filters"><label>搜索<input id="studySearch" placeholder="年份、文章、题号、错因或笔记" value="' + esc(query) + '"></label><label>年份<select id="studyYearFilter"><option value="">全部年份</option>' + years.map(year => '<option value="' + esc(year) + '"' + (yearFilter === year ? ' selected' : '') + '>' + esc(year) + '</option>').join('') + '</select></label>' + (dashboardMode === 'mistakes' ? '<label>订正状态<select id="studyStatusFilter"><option value="">全部错题</option><option value="pending"' + (statusFilter === 'pending' ? ' selected' : '') + '>待订正</option><option value="resolved"' + (statusFilter === 'resolved' ? ' selected' : '') + '>已订正</option></select></label>' : '') + '</div><div id="studyDashboardList"></div>');
@@ -245,11 +314,84 @@
         const mistakes = Object.values(data.mistakes).filter(item => articles.has(item.articleId) && matches(articles.get(item.articleId), '第' + item.question + '题 ' + item.myAnswer + ' ' + item.correctAnswer + ' ' + item.reason + ' ' + item.note) && (!statusFilter || item.resolved === (statusFilter === 'resolved'))).sort((a, b) => b.updatedAt - a.updatedAt);
         list.innerHTML = mistakes.length ? mistakes.map(item => mistakeCard(item, articles.get(item.articleId), false)).join('') : '<p class="study-empty">没有匹配的错题。文章中的每道题旁都有“记错题”入口，也可在文章笔记中按题号记录。</p>';
     }
+    function evidenceHtml(item) {
+        const evidence = item.evidence || [];
+        return evidence.length ? '<div class="study-evidence-list"><b>原文依据</b>' + evidence.map(row =>
+            '<blockquote lang="en">' + esc(row.en.slice(row.a, row.b)) + '</blockquote><button type="button" data-evidence-source="' +
+            esc(row.id) + '">定位原文</button>').join('') + '</div>' : '';
+    }
     function mistakeCard(item, article, inEditor) {
-        return '<article class="study-record-card"><header><strong>' + esc((inEditor ? '' : article.year + ' · ' + article.label + ' · ') + '第' + item.question + '题') + '</strong><span class="' + (item.resolved ? 'study-resolved' : 'study-pending') + '">' + (item.resolved ? '已订正' : '待订正') + '</span></header>' + (item.myAnswer || item.correctAnswer ? '<p class="study-answer-pair">我的答案：' + esc(item.myAnswer || '未填') + '　正确答案：' + esc(item.correctAnswer || '未填') + '</p>' : '') + '<p class="study-user-text"><b>错因</b>' + esc(item.reason || '尚未补充') + '</p>' + (item.note ? '<p class="study-user-text"><b>笔记</b>' + esc(item.note) + '</p>' : '') + '<footer>' + (inEditor ? '<button type="button" data-study-question-edit="' + esc(item.question) + '">编辑</button><button type="button" data-study-remove="' + esc(item.articleId + '|q' + item.question) + '">删除</button>' : '<button type="button" data-study-open="' + esc(item.articleId) + '" data-question="' + esc(item.question) + '">编辑错题</button><button type="button" data-study-source="' + esc(item.articleId) + '" data-question="' + esc(item.question) + '">回到题目</button>') + '</footer></article>';
+        const heading = esc((inEditor ? '' : article.year + ' · ' + article.label + ' · ') + '第' + item.question + '题');
+        return '<article class="study-record-card"><header><strong>' + heading + '</strong><span class="' +
+            (item.resolved ? 'study-resolved' : 'study-pending') + '">' + (item.resolved ? '已订正' : '待订正') +
+            '</span></header>' + (item.myAnswer || item.correctAnswer ? '<p class="study-answer-pair">我的答案 ' +
+            esc(item.myAnswer || '未填') + '　正确答案 ' + esc(item.correctAnswer || '未填') + '</p>' : '') +
+            (item.reason ? '<p class="study-user-text"><b>错因</b>' + esc(item.reason) + '</p>' : '') +
+            (item.note ? '<p class="study-user-text"><b>笔记</b>' + esc(item.note) + '</p>' : '') + evidenceHtml(item) +
+            '<footer><button type="button" data-review-mistake="' + esc(article.id) + '" data-question="' + esc(item.question) +
+            '">重新作答</button>' + (inEditor ? '<button type="button" data-study-question-edit="' + esc(item.question) +
+            '">编辑</button><button type="button" data-study-remove="' + esc(item.articleId + '|q' + item.question) +
+            '">取消错题</button>' : '<button type="button" data-study-open="' + esc(item.articleId) + '" data-question="' +
+            esc(item.question) + '">编辑</button><button type="button" data-study-source="' + esc(item.articleId) +
+            '" data-question="' + esc(item.question) + '">回到题目</button>') + '</footer></article>';
+    }
+    function renderMistakeReview(id, question) {
+        const article = findArticle(id), item = data.mistakes[id + '|q' + question];
+        if (!article || !item) return;
+        editorArticle = null;
+        title(article.year + ' · ' + article.label + ' · 第' + question + '题');
+        const source = article.questions.find(row => row.num === question) || {};
+        $('.study-modal-body', overlay).innerHTML = '<p>先重新作答，再查看之前的记录。</p><p class="study-review-question" lang="en">' +
+            esc(source.question || '请先回原卷查看题目。') + '</p><div class="study-review-options">' +
+            Object.entries(source.options || {}).map(([letter, value]) => '<button class="study-review-choice" type="button" data-review-choice="' +
+            esc(letter) + '" aria-pressed="false">' + esc(letter + '. ' + value) + '</button>').join('') +
+            '</div><button type="button" data-reveal-mistake>查看答案与记录</button><div id="studyReviewRecord" hidden>' +
+            mistakeCard(item, article, false) + '</div>';
+        $('.study-modal-body', overlay).scrollTop = 0;
+    }
+    function markMistake(articleId, question) {
+        const id = articleId + '|q' + question;
+        const ok = commit(next => {
+            next.mistakes[id] = { articleId, question, myAnswer: '', correctAnswer: '', reason: '', note: '', evidence: [],
+                resolved: false, createdAt: Date.now(), ...next.mistakes[id], updatedAt: Date.now() };
+        });
+        if (ok) {
+            notify('已记为错题，可随时补充答案和笔记');
+            if (editorArticle && editorArticle.id === articleId && overlay?.classList.contains('is-open')) renderEditor(editorArticle, question);
+        }
+        return ok;
+    }
+    function attachEvidence(payload) {
+        const meta = window.EnglishReading.stats.items.find(row => row.id === payload.source?.readingArticleId);
+        if (!meta) return;
+        const rows = (payload.ranges || []).map(range => {
+            const sentence = window.EnglishReading.match({ en: range.en, source: range.source });
+            return sentence ? { id: sentence.id, en: sentence.en, a: range.a, b: range.b, sourceHash: sentence.sourceHash } : null;
+        }).filter(Boolean);
+        pendingEvidence = cleanEvidence(rows);
+        if (!pendingEvidence.length) return;
+        openArticle(meta.exam + '|' + meta.articleKey);
+    }
+    function saveEvidence() {
+        if (!editorArticle || !pendingEvidence?.length) return;
+        const question = $('#studyQuestionNumber', overlay).value;
+        const id = editorArticle.id + '|q' + question;
+        const evidence = pendingEvidence;
+        const ok = commit(next => {
+            const existing = next.mistakes[id] || {};
+            const merged = [...(existing.evidence || [])];
+            for (const row of evidence) if (!merged.some(old => old.id === row.id && old.a === row.a && old.b === row.b)) merged.push(row);
+            next.mistakes[id] = { articleId: editorArticle.id, question, myAnswer: '', correctAnswer: '', reason: '',
+                note: '', resolved: false, createdAt: Date.now(), ...existing, evidence: merged, updatedAt: Date.now() };
+        });
+        if (ok) { pendingEvidence = null; renderEditor(editorArticle, question); notify('已关联原文依据'); }
+    }
+    function metaId(article) {
+        return window.EnglishReading.stats.items.find(meta => meta.exam === article.examId && meta.articleKey === article.key)?.id || '';
     }
     function openArticle(id, question) {
         const article = findArticle(id); if (!article) { notify('这篇文章尚未加载，请稍后重试', 'warn'); return; }
+        if (pendingEvidence?.some(row => !row.id.startsWith(metaId(article) + '-'))) pendingEvidence = null;
         ensureOverlay(); data = readData(); renderEditor(article, question); show();
     }
     function renderEditor(article, question) {
@@ -260,7 +402,29 @@
         const item = data.mistakes[article.id + '|q' + num] || {};
         const questionData = questions.find(q => q.num === num) || { num, question: '', options: null };
         const source = questionData.question || questionData.options ? '<details class="study-question-source"><summary>查看第' + esc(num) + '题题干和选项</summary><p>' + esc(questionData.question) + '</p>' + Object.entries(questionData.options || {}).map(([letter, value]) => '<p>' + esc(letter) + '. ' + esc(value) + '</p>').join('') + '</details>' : '';
-        $('.study-modal-body', overlay).innerHTML = '<div class="study-editor-toolbar"><button type="button" data-study-view="' + dashboardMode + '">← 学习记录</button><label class="study-complete-check"><input type="checkbox" data-editor-complete' + (record.completedAt ? ' checked' : '') + '>已翻译</label><button type="button" data-study-source="' + esc(article.id) + '">回到原文</button></div><label class="study-field">文章笔记<textarea id="studyArticleNote" rows="5" placeholder="记录文章主旨、翻译难点、段落逻辑或你的思考…">' + esc(record.note) + '</textarea></label><p id="studyArticleSaveStatus" class="study-save-status" role="status">输入后自动保存</p><div class="study-editor-grid"><section><h3>记录错题</h3><form id="studyMistakeForm"><label class="study-field">题号<select id="studyQuestionNumber">' + questions.map(q => '<option value="' + esc(q.num) + '"' + (q.num === num ? ' selected' : '') + '>第 ' + esc(q.num) + ' 题</option>').join('') + '</select></label>' + source + '<div class="study-answer-fields"><label class="study-field">我的答案<input id="studyMyAnswer" value="' + esc(item.myAnswer) + '" placeholder="例如 A"></label><label class="study-field">正确答案<input id="studyCorrectAnswer" value="' + esc(item.correctAnswer) + '" placeholder="核对详解后填写"></label></div><label class="study-field">为什么做错<textarea id="studyMistakeReason" rows="3" placeholder="例如：把转折后的观点当成作者支持的观点；定位错了段落…">' + esc(item.reason) + '</textarea></label><label class="study-field">复盘笔记<textarea id="studyMistakeNote" rows="4" placeholder="正确解题思路、原文依据，以及下次要注意的地方…">' + esc(item.note) + '</textarea></label><label class="study-complete-check"><input id="studyMistakeResolved" type="checkbox"' + (item.resolved ? ' checked' : '') + '>已订正</label><p id="studyMistakeSaveStatus" class="study-save-status" role="status">' + (data.mistakes[article.id + '|q' + num] ? '已保存，修改会自动保存' : '填写后自动保存为错题；只打开不会新增记录') + '</p></form></section><section><h3>本篇错题 <span id="studyArticleMistakeCount"></span></h3><div id="studyArticleMistakes"></div></section></div>';
+        const isSaved = !!data.mistakes[article.id + '|q' + num];
+        const optionalOpen = !!(item.reason || item.note);
+        $('.study-modal-body', overlay).innerHTML = '<div class="study-editor-toolbar"><button type="button" data-study-view="' +
+            dashboardMode + '">← 学习记录</button><button type="button" data-study-source="' + esc(article.id) +
+            '" data-question="' + esc(num) + '">回到题目</button></div><form id="studyMistakeForm"><div class="study-mistake-main"><label class="study-field">题号<select id="studyQuestionNumber">' +
+            questions.map(q => '<option value="' + esc(q.num) + '"' + (q.num === num ? ' selected' : '') + '>第 ' + esc(q.num) + ' 题</option>').join('') +
+            '</select></label>' + (isSaved ? '<span class="study-mistake-saved" role="status">已保存错题</span>' :
+            '<button type="button" data-mark-mistake="true">保存为错题</button>') + '</div>' + source +
+            '<div class="study-answer-fields"><label class="study-field">我的答案（选填）<input id="studyMyAnswer" value="' +
+            esc(item.myAnswer) + '" placeholder="如 A"></label><label class="study-field">正确答案（选填）<input id="studyCorrectAnswer" value="' +
+            esc(item.correctAnswer) + '" placeholder="核对详解后填写"></label></div>' +
+            '<details class="study-optional-notes"' + (optionalOpen ? ' open' : '') + '><summary>补充错因和笔记（选填）</summary>' +
+            '<label class="study-field">为什么做错<textarea id="studyMistakeReason" rows="2">' + esc(item.reason) +
+            '</textarea></label><label class="study-field">复盘笔记<textarea id="studyMistakeNote" rows="3">' + esc(item.note) +
+            '</textarea></label></details><label class="study-complete-check"><input id="studyMistakeResolved" type="checkbox"' +
+            (item.resolved ? ' checked' : '') + '>已订正</label><p id="studyMistakeSaveStatus" class="study-save-status" role="status">' +
+            (isSaved ? '已保存，填写内容会自动保存' : '可直接保存错题，答案和笔记均选填') + '</p></form>' +
+            (pendingEvidence?.length ? '<section class="study-pending-evidence"><h3>将选区关联到第 ' + esc(num) + ' 题</h3>' +
+            pendingEvidence.map(row => '<blockquote lang="en">' + esc(row.en.slice(row.a, row.b)) + '</blockquote>').join('') +
+            '<button type="button" data-save-evidence="true">保存原文依据</button></section>' : '') + evidenceHtml(item) +
+            '<details class="study-optional-notes"><summary>文章笔记（选填）</summary><label class="study-field"><textarea id="studyArticleNote" rows="3">' +
+            esc(record.note) + '</textarea></label><p id="studyArticleSaveStatus" class="study-save-status" role="status">输入后自动保存</p></details>' +
+            '<h3>本篇错题 <span id="studyArticleMistakeCount"></span></h3><div id="studyArticleMistakes"></div>';
         $('#studyMistakeForm', overlay).onsubmit = event => { event.preventDefault(); saveMistakeForm(); };
         $('.study-modal-body', overlay).scrollTop = 0;
         renderArticleMistakes();
@@ -268,7 +432,7 @@
     function saveMistakeForm() {
         if (!editorArticle || !$('#studyMistakeForm', overlay)) return;
         const question = $('#studyQuestionNumber', overlay).value, id = editorArticle.id + '|q' + question;
-        const item = { articleId: editorArticle.id, question, myAnswer: $('#studyMyAnswer', overlay).value, correctAnswer: $('#studyCorrectAnswer', overlay).value, reason: $('#studyMistakeReason', overlay).value, note: $('#studyMistakeNote', overlay).value, resolved: $('#studyMistakeResolved', overlay).checked };
+        const item = { ...data.mistakes[id], articleId: editorArticle.id, question, myAnswer: $('#studyMyAnswer', overlay).value, correctAnswer: $('#studyCorrectAnswer', overlay).value, reason: $('#studyMistakeReason', overlay).value, note: $('#studyMistakeNote', overlay).value, resolved: $('#studyMistakeResolved', overlay).checked };
         if (!data.mistakes[id] && ![item.myAnswer, item.correctAnswer, item.reason, item.note].some(value => value.trim()) && !item.resolved) return;
         const ok = commit(next => { next.mistakes[id] = { ...item, createdAt: next.mistakes[id] && next.mistakes[id].createdAt || Date.now(), updatedAt: Date.now() }; });
         $('#studyMistakeSaveStatus', overlay).textContent = ok ? '已自动保存' : '未保存，请复制当前内容后重试';
@@ -310,7 +474,9 @@
             const guide = event.target.closest('[data-study-guide]');
             if (guide) { openGuide(guide.dataset.studyGuide); return; }
             const button = event.target.closest('[data-study-open],[data-study-question-open]');
-            if (button) openArticle(button.dataset.studyOpen || button.dataset.studyQuestionOpen, button.dataset.question);
+            if (button?.dataset.studyQuestionOpen && !data.mistakes[button.dataset.studyQuestionOpen + '|q' + button.dataset.question]) {
+                markMistake(button.dataset.studyQuestionOpen, button.dataset.question);
+            } else if (button) openArticle(button.dataset.studyOpen || button.dataset.studyQuestionOpen, button.dataset.question);
         });
         root.addEventListener('change', event => {
             if (event.target.matches('[data-study-complete]') && !setCompleted(event.target.dataset.studyComplete, event.target.checked)) event.target.checked = !event.target.checked;
@@ -324,6 +490,6 @@
             if (overlay && overlay.classList.contains('is-open') && !editorArticle) renderDashboard();
         });
     }
-    window.EnglishStudy = { onRendered, refreshProgress, exportData, importData, openDashboard, openGuide };
+    window.EnglishStudy = { getArticleRecord: articleRecord, updateArticle, attachEvidence, onRendered, refreshProgress, exportData, importData, openDashboard, openGuide };
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();
